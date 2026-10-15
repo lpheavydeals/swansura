@@ -64,7 +64,9 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
 
 ## Open items
 - **Shopify connector connected (15 Oct 2026)** to "Swansura - The Body Studio" (www.swansura.com, Basic plan, GBP). Admin counts that day: 706 products (549 active, 157 draft), vendor "Generic" 121, vendor "Swansura - The Body Studio" 82, 138 collections. These differ from the 9 Oct audit (493 live, 88 Generic) — the audit counted storefront products only; recheck before quoting.
-- Theme push still blocked: the environment network policy refuses *.myshopify.com / *.shopify.com / github.com.
+- **Theme deploy route (confirmed 15 Oct):** no network change or browser needed. Via the Shopify connector: `themeCreate`/`themeDuplicate` → new unpublished theme, then `themeFilesUpsert` (allowed on unpublished themes only). Publishing is blocked by the connector — a person clicks Publish in admin after approval.
+- Store themes (15 Oct): live MAIN = "SWANSURA Website"; "Working" (unpublished) was being edited by someone else on 15 Oct — don't touch it, confirm with client who owns it; plus 6 old Dawn copies and a "Be Yours" demo.
+- **On hold (user, 15 Oct):** do not build or deploy the Shopify theme yet — the prototype is to be optimised first.
 - Waiting on: client's filled product sheet + Shopify collaborator access.
 - Send quote to client.
 - Deck footer sources: unresolved whether to add "Screaming Frog, Semrush, Ahrefs & Claude".
