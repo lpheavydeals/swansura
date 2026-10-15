@@ -1,0 +1,989 @@
+<title>Swansura Website Prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap">
+<style>
+/* Layout concept: an editorial "two studios" store - a Skin Studio (deep emerald) and a Scent Studio (oud brown) on ivory paper, products shown on matching ivory mounts like a gallery. */
+:root{
+  --paper:#F7F4EE;
+  --mount:#F2EDE4;
+  --card:#FFFDF9;
+  --ink:#1F1A17;
+  --ink-2:#5E554D;
+  --line:#E3DACD;
+  --emerald:#1F3B34;
+  --oud:#3A2421;
+  --oud-2:#5A3A33;
+  --brass:#9A7536;
+  --on-dark:#F4EEE4;
+  --on-dark-2:#CDBFAE;
+  --sale:#8A2F2A;
+  --display:'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif;
+  --body:'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif;
+  --gutter:clamp(16px, 4vw, 56px);
+  --max:1320px;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto} *{transition:none!important;animation:none!important}}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-weight:400;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+/* Slim, warm scrollbars that sit quietly on the ivory paper */
+*{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#CBBFAE;border-radius:8px;border:2px solid var(--paper)}
+::-webkit-scrollbar-thumb:hover{background:var(--brass)}
+::-webkit-scrollbar-button{display:none;width:0;height:0}
+::-webkit-scrollbar-corner{background:transparent}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+img{display:block;max-width:100%}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--brass)}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.02em}
+h1{font-size:clamp(38px,5vw,70px);font-weight:800;letter-spacing:-.035em}
+h2{font-size:clamp(28px,3.2vw,44px)}
+h3{font-size:21px;letter-spacing:-.01em}
+p{margin:0}
+.lede{font-size:18px;color:var(--ink-2);max-width:60ch;font-weight:300}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:50px;padding:0 28px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;border:1px solid var(--ink);transition:background .2s,color .2s}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn.solid:hover{background:var(--emerald)}
+.btn.light{border-color:var(--on-dark);color:var(--on-dark)}
+.btn.light:hover{background:var(--on-dark);color:var(--ink)}
+.link{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;border-bottom:1px solid currentColor;padding-bottom:3px}
+section{padding-block:clamp(56px,7vw,104px)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
+.sec-head .eyebrow{margin-bottom:12px}
+
+/* Product pictures: one image file per product holding up to two frames, shown by background position */
+.pic{width:100%;aspect-ratio:4/5;background-color:var(--mount);background-repeat:no-repeat;transition:transform .6s}
+
+.announce{background:var(--emerald);color:var(--on-dark);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.announce .wrap{display:flex;justify-content:center;gap:clamp(16px,4vw,56px);padding-block:10px;flex-wrap:wrap;text-align:center}
+.announce b{font-weight:600;color:#E6D3A8}
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(247,244,238,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.hrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-block:18px}
+.hleft,.hright{display:flex;gap:22px;align-items:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.hright{justify-content:flex-end}
+.logo{text-align:center;line-height:1}
+.logo .w{font-family:var(--display);font-size:clamp(24px,2.8vw,32px);letter-spacing:.2em;font-weight:700}
+.logo .s{display:block;font-size:10px;letter-spacing:.42em;margin-top:6px;color:var(--ink-2)}
+.bagcount{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:10px;background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:0;margin-left:6px;padding:0 6px}
+nav.main{display:flex;justify-content:center;gap:clamp(18px,2.6vw,40px);padding-bottom:14px;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+nav.main .item{position:relative}
+nav.main .item>a{display:block;padding:6px 0;border-bottom:1px solid transparent}
+nav.main .item>a:hover,nav.main .item>a.on{border-bottom-color:var(--ink)}
+.mega{position:absolute;left:50%;top:100%;transform:translateX(-50%);width:min(900px,92vw);background:var(--card);border:1px solid var(--line);box-shadow:0 24px 60px rgba(31,26,23,.12);padding:28px;display:none;grid-template-columns:repeat(4,1fr);gap:24px;text-transform:none;letter-spacing:0;font-size:15px}
+nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
+.mega h4{margin:0 0 10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.mega a{display:block;padding:4px 0;color:var(--ink-2)}
+.mega a:hover{color:var(--ink)}
+.mega .feat{background:var(--mount);padding:14px}
+.mega .feat .pic{margin-bottom:10px}
+.burger{display:none}
+@media (max-width:900px){nav.main{display:none}.burger{display:inline-flex}.hleft .txt,.hright .txt{display:none}}
+.drawer-nav{position:fixed;inset:0;z-index:60;background:var(--paper);padding:24px var(--gutter);overflow:auto}
+.drawer-nav a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;letter-spacing:.12em;text-transform:uppercase}
+
+.trust{border-block:1px solid var(--line);background:var(--card)}
+.trust .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding-block:20px}
+.trust div{display:flex;gap:10px;align-items:center;font-size:13px;color:var(--ink-2)}
+.trust svg{flex:none;color:var(--brass)}
+@media (max-width:900px){.trust .wrap{grid-template-columns:repeat(2,1fr)}}
+
+.hero{padding-block:clamp(40px,6vw,88px)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(24px,5vw,72px);align-items:center}
+.hero h1 em{font-style:italic;font-weight:600;color:var(--emerald)}
+.hero .copy{display:flex;flex-direction:column;gap:24px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .art{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:end}
+.hero .art figure{margin:0;background:var(--mount)}
+.hero .art figure:first-child{transform:translateY(-28px)}
+.hero .art figcaption{font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:10px 12px;color:var(--ink-2)}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .art figure:first-child{transform:none}}
+
+.studios{padding:0}
+.studios .grid{display:grid;grid-template-columns:1fr 1fr}
+.studio{color:var(--on-dark);padding:clamp(40px,6vw,88px) var(--gutter);display:flex;flex-direction:column;gap:18px;min-height:420px;justify-content:flex-end;position:relative;overflow:hidden}
+.studio.skin{background:var(--emerald)}
+.studio.scent{background:var(--oud)}
+.studio .eyebrow{color:#E6D3A8}
+.studio p{color:var(--on-dark-2);max-width:46ch}
+.studio .links{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.studio .links a{border-bottom:1px solid rgba(244,238,228,.4);padding-bottom:2px}
+.studio .mark{position:absolute;right:-20px;top:-30px;font-family:var(--display);font-weight:800;letter-spacing:-.05em;font-size:220px;line-height:1;opacity:.07;pointer-events:none}
+@media (max-width:800px){.studios .grid{grid-template-columns:1fr}}
+
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.tile{display:flex;flex-direction:column;gap:12px}
+.tile .img{overflow:hidden}
+.tile:hover .pic{transform:scale(1.04)}
+.tile span{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+@media (max-width:900px){.tiles{grid-template-columns:repeat(2,1fr)}}
+
+.tabs{display:flex;gap:28px;border-bottom:1px solid var(--line);margin-bottom:28px;flex-wrap:wrap}
+.tabs button{padding:10px 0;font-size:13px;letter-spacing:.16em;text-transform:uppercase;border-bottom:2px solid transparent;color:var(--ink-2)}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.grid-p{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 20px}
+@media (max-width:1000px){.grid-p{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:720px){.grid-p{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 12px}}
+.card{display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .mwrap{position:relative}
+.card .media{position:relative;overflow:hidden;display:block}
+.card .media .alt{position:absolute;inset:0;opacity:0;transition:opacity .4s}
+.card:hover .media .alt{opacity:1}
+.badge{position:absolute;left:10px;top:10px;background:var(--card);font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:5px 8px;font-weight:600;z-index:1}
+.badge.partner{background:var(--emerald);color:var(--on-dark)}
+.badge.out{background:var(--ink);color:var(--paper)}
+.card .quick{position:absolute;left:10px;right:10px;bottom:10px;height:42px;background:var(--ink);color:var(--paper);font-size:12px;letter-spacing:.16em;text-transform:uppercase;opacity:0;transform:translateY(6px);transition:.25s;z-index:1}
+.card:hover .quick,.card .quick:focus-visible{opacity:1;transform:none}
+@media (hover:none){.card .quick{opacity:1;transform:none;position:static}}
+.card .brand{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.card .name{font-family:var(--display);font-size:16px;font-weight:600;line-height:1.3}
+.card .meta{font-size:13px;color:var(--ink-2)}
+.price{display:flex;gap:10px;align-items:baseline;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;flex-wrap:wrap}
+.price s{color:var(--ink-2);font-weight:400}
+.price .off{color:var(--sale);font-size:12px;letter-spacing:.06em}
+
+.rituals{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ritual{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column}
+.ritual .imgs{display:grid;grid-template-columns:repeat(3,1fr)}
+.ritual .body{padding:22px;display:flex;flex-direction:column;gap:12px;flex:1}
+.ritual ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px}
+.ritual .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+@media (max-width:900px){.rituals{grid-template-columns:1fr}}
+
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chip{border:1px solid var(--line);background:var(--card);padding:14px 20px;font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:170px;transition:border-color .2s;text-align:left}
+.chip:hover{border-color:var(--ink)}
+.chip small{color:var(--ink-2);font-size:12px}
+.scent-band{background:var(--oud);color:var(--on-dark)}
+.scent-band .eyebrow{color:#E6D3A8}
+.families{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(244,238,228,.18);border:1px solid rgba(244,238,228,.18)}
+.family{background:var(--oud);padding:28px 22px;display:flex;flex-direction:column;gap:10px;min-height:220px;transition:background .25s}
+.family:hover{background:var(--oud-2)}
+.family .n{font-family:var(--display);font-size:28px;font-weight:700;letter-spacing:-.02em}
+.family p{color:var(--on-dark-2);font-size:14px}
+.family .c{margin-top:auto;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+@media (max-width:900px){.families{grid-template-columns:repeat(2,1fr)}}
+
+.brandgrid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.brandcell{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 18px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;min-height:130px;transition:background .2s}
+.brandcell:hover{background:var(--card)}
+.brandcell .bn{font-family:var(--display);font-size:20px;font-weight:700;letter-spacing:-.01em}
+.brandcell small{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.brandcell small.p{color:var(--emerald);font-weight:600}
+@media (max-width:900px){.brandgrid{grid-template-columns:repeat(2,1fr)}}
+
+.story{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px);align-items:center}
+.story .imgs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.story .copy{display:flex;flex-direction:column;gap:20px}
+@media (max-width:900px){.story{grid-template-columns:1fr}}
+
+.ugc{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.ugc div{position:relative}
+.ugc span{position:absolute;left:8px;bottom:8px;background:var(--card);font-size:11px;padding:3px 7px;letter-spacing:.06em}
+@media (max-width:900px){.ugc{grid-template-columns:repeat(3,1fr)}}
+.journal{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.post{display:flex;flex-direction:column;gap:12px}
+.post .eyebrow{color:var(--ink-2)}
+@media (max-width:900px){.journal{grid-template-columns:1fr}}
+
+.news{background:var(--emerald);color:var(--on-dark);text-align:center}
+.news .wrap{display:flex;flex-direction:column;align-items:center;gap:18px}
+.news p{color:var(--on-dark-2)}
+.news form{display:flex;gap:0;width:min(520px,100%);margin-top:8px}
+.news input{flex:1;min-width:0;height:52px;border:1px solid var(--on-dark-2);background:transparent;color:var(--on-dark);padding:0 16px;font:inherit}
+.news input::placeholder{color:var(--on-dark-2)}
+.news button{height:52px;padding:0 22px;background:var(--on-dark);color:var(--ink);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+footer.site{background:var(--ink);color:var(--on-dark-2);font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.4fr repeat(6,1fr);gap:28px;padding-block:64px 40px}
+footer h5{margin:0 0 14px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--on-dark);font-weight:600}
+footer a{display:block;padding:3px 0}
+footer a:hover{color:var(--on-dark)}
+footer .legal{border-top:1px solid #3A332E;padding-block:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px}
+footer .logo{text-align:left;color:var(--on-dark)}
+@media (max-width:1000px){footer .cols{grid-template-columns:repeat(2,1fr)}}
+
+.crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding-top:24px;display:flex;flex-wrap:wrap;gap:8px}
+.crumbs a:hover{color:var(--ink)}
+.pagehead{padding-block:28px 40px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;border-bottom:1px solid var(--line)}
+.pagehead.dark{background:var(--emerald);color:var(--on-dark);border:0;padding:48px var(--gutter);margin-top:16px}
+.pagehead.dark.oud{background:var(--oud)}
+.pagehead.dark .lede{color:var(--on-dark-2)}
+.pagehead.dark .eyebrow{color:#E6D3A8}
+@media (max-width:800px){.pagehead{grid-template-columns:1fr}}
+.subnav{display:flex;gap:10px;flex-wrap:wrap;padding-block:20px}
+.subnav a{border:1px solid var(--line);padding:8px 14px;font-size:13px;background:var(--card)}
+.subnav a.on,.subnav a:hover{border-color:var(--ink)}
+.listing{display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px;padding-block:24px 64px}
+.filters{display:flex;flex-direction:column;gap:26px;font-size:14px}
+/* Filters stay in place while the product grid scrolls (desktop) */
+@media (min-width:901px){.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 150px);align-self:start;max-height:calc(100vh - 170px);overflow-y:auto;padding-right:8px;overscroll-behavior:contain}}
+.filters h4{margin:0 0 10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600}
+.filters .opts label.extra{display:none}
+.filters .opts.all label.extra{display:flex}
+.filters .showall{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;border-bottom:1px solid currentColor;margin-top:8px;padding:0}
+.filters label{display:flex;gap:10px;align-items:center;padding:4px 0;color:var(--ink-2);cursor:pointer}
+.filters input{accent-color:var(--emerald)}
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;font-size:14px;color:var(--ink-2);gap:12px;flex-wrap:wrap}
+select{font:inherit;border:1px solid var(--line);background:var(--card);padding:8px 12px;color:var(--ink)}
+.more{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:40px;font-size:14px;color:var(--ink-2)}
+@media (max-width:900px){.listing{grid-template-columns:1fr}.filters{display:none}.filters.open{display:flex}}
+.ftoggle{display:none}
+@media (max-width:900px){.ftoggle{display:inline-flex}}
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq summary{cursor:pointer;font-family:var(--display);font-size:18px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::after{content:"+";font-family:var(--body)}
+.faq details[open] summary::after{content:"\2212"}
+.faq p{color:var(--ink-2);margin-top:10px;max-width:70ch}
+/* Advent calendars */
+.advents{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-top:32px}
+.advent{color:var(--on-dark);display:flex;flex-direction:column;overflow:hidden}
+.advent.skin{background:var(--emerald)}
+.advent.scent{background:var(--oud)}
+.advent-top{padding:clamp(24px,3.4vw,44px);display:flex;flex-direction:column;gap:14px}
+.advent .eyebrow{color:#E6D3A8}
+.advent h2{font-size:clamp(26px,2.8vw,38px)}
+.advent p{color:var(--on-dark-2);max-width:48ch}
+.advent-price{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-top:6px}
+.advent-price .now{font-size:40px;font-weight:800;letter-spacing:-.03em}
+.advent-price .worth{color:var(--on-dark-2);text-decoration:line-through}
+.advent-price .save{background:#E6D3A8;color:var(--ink);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px}
+.advent-ctas{display:flex;gap:10px;flex-wrap:wrap}
+.advent-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin-top:auto}
+@media (max-width:900px){.advents{grid-template-columns:1fr}}
+.advent-perks{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding-top:20px}
+.advent-perks div{background:var(--card);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;font-size:14px}
+.advent-perks .ic{width:46px;height:46px;border-radius:50%;background:var(--emerald);color:#FFFDF9;display:grid;place-items:center;margin-bottom:4px}
+.advent-perks div:nth-child(2) .ic{background:var(--brass)}
+.advent-perks div:nth-child(3) .ic{background:var(--oud)}
+.advent-perks small{color:var(--ink-2)}
+@media (max-width:900px){.advent-perks{grid-template-columns:repeat(2,1fr)}}
+.doors{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.doors{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.door{position:relative;aspect-ratio:4/5;border:1px solid var(--line);background:linear-gradient(160deg,var(--card),var(--mount));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:left;padding:0;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.door:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(31,26,23,.1)}
+.door .num{font-size:clamp(38px,4vw,56px);font-weight:800;letter-spacing:-.04em;color:var(--brass)}
+.door .hint{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2)}
+.door.open{justify-content:flex-start;background:var(--card)}
+.door.open .pic{aspect-ratio:auto;height:62%}
+.door .dn{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:700;padding:8px 10px 0;align-self:stretch}
+.door .dt{font-size:12px;line-height:1.3;padding:2px 10px;align-self:stretch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.door .dp{font-size:12px;font-weight:600;padding:2px 10px 8px;align-self:stretch}
+.kwchips{display:flex;flex-direction:column;gap:12px}
+.kwchips>div{display:flex;flex-wrap:wrap;gap:8px}
+.kwchips a{border:1px solid var(--line);background:var(--card);padding:7px 14px;font-size:13px;border-radius:999px;transition:border-color .2s,background .2s}
+.kwchips a:hover{border-color:var(--ink)}
+.searches{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px}
+.searches h4{margin:0 0 10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.searches a{display:block;padding:4px 0;color:var(--ink-2);font-size:14px}
+.searches a:hover{color:var(--ink)}
+@media (max-width:900px){.searches{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.related{display:flex;flex-wrap:wrap;gap:10px 24px;font-size:14px}
+.related a{border-bottom:1px solid var(--line)}
+
+.pdp{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);padding-block:20px 64px}
+.gallery{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-self:start;position:sticky;top:150px}
+.gallery.single{grid-template-columns:minmax(0,1fr)}
+.thumbs{display:flex;flex-direction:column;gap:10px}
+.thumbs button{border:1px solid transparent;padding:0}
+.thumbs button[aria-current="true"]{border-color:var(--ink)}
+@media (max-width:900px){.pdp{grid-template-columns:1fr}.gallery{position:static;grid-template-columns:1fr}.thumbs{flex-direction:row;order:2}.thumbs button{width:64px}}
+.buy{display:flex;flex-direction:column;gap:18px}
+.buy .brandlink{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.buy h1{font-size:clamp(28px,3vw,42px);font-weight:700}
+.reviews-line{font-size:14px;color:var(--ink-2);display:flex;gap:10px;align-items:center}
+.reviews-line .stars{letter-spacing:2px;color:var(--line)}
+.buy .price{font-size:22px}
+.benefit{font-size:16px;color:var(--ink-2);font-weight:300}
+.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.notes div{background:var(--card);padding:12px 14px;font-size:13px}
+.notes b{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:4px}
+.qtyrow{display:flex;gap:12px}
+.qty{display:flex;border:1px solid var(--ink);height:50px}
+.qty button{width:40px;font-size:18px}
+.qty output{width:36px;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.qtyrow .btn{flex:1}
+.express{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.express span{height:44px;display:grid;place-items:center;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:600}
+.delivery{background:var(--card);border:1px solid var(--line);padding:14px 16px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.delivery .bar{height:4px;background:var(--line)}
+.delivery .bar i{display:block;height:100%;background:var(--emerald)}
+.trustmini{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;font-size:13px;color:var(--ink);text-align:center}
+.trustmini div{border:1px solid var(--line);background:var(--card);padding:16px 8px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;font-weight:500}
+.trustmini .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#FFFDF9}
+.trustmini .ic.g{background:var(--emerald)}
+.trustmini .ic.b{background:var(--brass)}
+.trustmini .ic.o{background:var(--oud)}
+.trustmini small{display:block;font-size:11px;color:var(--ink-2);font-weight:400;margin-top:-6px}
+.acc details{border-top:1px solid var(--line);padding:16px 0}
+.acc details:last-child{border-bottom:1px solid var(--line)}
+.acc summary{cursor:pointer;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+.acc summary::after{content:"+"}
+.acc details[open] summary::after{content:"\2212"}
+.acc .in{padding-top:12px;color:var(--ink-2);font-size:15px;display:flex;flex-direction:column;gap:8px}
+.acc ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.complete{background:var(--card);border:1px solid var(--line);padding:clamp(20px,3vw,36px);display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px;align-items:center}
+.complete .items{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.complete .it{width:150px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.complete .plus{font-family:var(--display);font-size:28px;color:var(--ink-2)}
+@media (max-width:800px){.complete{grid-template-columns:1fr}.complete .it{width:110px}}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--card);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:none;gap:12px;align-items:center}
+.stickybar .t{flex:1;min-width:0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:900px){.stickybar.show{display:flex}}
+
+.scrim{position:fixed;inset:0;background:rgba(31,26,23,.4);z-index:70}
+.bag{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--paper);z-index:71;display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.15)}
+.bag header{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line)}
+.bag .lines{flex:1;overflow:auto;padding:16px 24px;display:flex;flex-direction:column;gap:18px}
+.bag .line{display:grid;grid-template-columns:72px 1fr auto;gap:14px;align-items:start;font-size:14px}
+.bag .line .rm{font-size:12px;text-decoration:underline;color:var(--ink-2)}
+.bag .foot{border-top:1px solid var(--line);padding:18px 24px calc(18px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:12px}
+.bag .extras{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
+.bag .extra{flex:none;width:120px;font-size:12px;display:flex;flex-direction:column;gap:6px}
+.bag .extra button{border:1px solid var(--ink);padding:5px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.search{position:fixed;inset:0 0 auto 0;z-index:71;background:var(--paper);padding:28px var(--gutter);box-shadow:0 20px 60px rgba(0,0,0,.12);max-height:85vh;overflow:auto}
+.search input{width:100%;font-family:var(--display);font-size:clamp(22px,3vw,34px);font-weight:600;border:0;border-bottom:1px solid var(--ink);background:transparent;padding:10px 0;color:var(--ink)}
+.search input:focus{outline:none}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:12px 20px;font-size:14px;z-index:80}
+.proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
+</style>
+
+<div class="proto">Design prototype for Swansura · the full catalogue, prices and descriptions from swansura.com (Oct 2026) · checkout, accounts and reviews are illustrative</div>
+<div class="announce"><div class="wrap"><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span><span><b>100%</b> authentic, shipped from the UK</span></div></div>
+<header class="site">
+  <div class="wrap">
+    <div class="hrow">
+      <div class="hleft">
+        <button class="burger" id="burger" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+        <button id="openSearch" aria-label="Search" style="display:flex;gap:8px;align-items:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="txt">Search</span></button>
+      </div>
+      <a href="#home" class="logo"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></a>
+      <div class="hright">
+        <a href="#brands" class="txt">Brands A–Z</a>
+        <button id="openBag" aria-label="Open bag" style="display:flex;align-items:center"><span class="txt">Bag</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-left:6px"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bagcount" id="bagCount">0</span></button>
+      </div>
+    </div>
+    <nav class="main" id="mainNav" aria-label="Main"></nav>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"><div class="wrap" style="padding-block:120px;text-align:center;color:var(--ink-2)">Loading the studio…</div></main>
+
+<section class="news" id="newsletter">
+  <div class="wrap">
+    <div class="eyebrow" style="color:#E6D3A8">The Studio Letter</div>
+    <h2>10% off your first order</h2>
+    <p>New arrivals, rituals and fragrance notes, once or twice a month.</p>
+    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Sign up</button></form>
+    <p id="newsMsg" hidden>Thank you. Your welcome code is on its way.</p>
+  </div>
+</section>
+<footer class="site" id="footer"></footer>
+<div class="stickybar" id="stickybar"></div>
+<div id="layer"></div>
+
+<script>
+const STORIES = {
+  'Deyga': {partner:true, line:'Natural skincare from India', story:'Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Beetroot lip balm, charcoal face wash and botanical sunscreen are the cult favourites. Swansura is an official UK partner, so every product is genuine and ships from the UK.'},
+  'Vilvah': {partner:true, line:'Goat milk and botanical care', story:'Vilvah is an Indian natural beauty brand known for goat milk and botanical formulas for face, hair and body. The Milk Drops serum and goat milk shampoo are the place to start. Swansura is an official UK partner, so every product is genuine and ships from the UK.'},
+  'Highborn London': {line:'Luxury skincare, made in England', story:'Highborn London makes luxury face, eye and neck care in England, built around simple morning and evening routines.'},
+  'anatomē': {line:'London apothecary for sleep and senses', story:'anatomē is a London apothecary making functional fragrances, sleep oils, pillow sprays and bath salts designed around how you want to feel.'},
+  'Tiziana Terenzi': {line:'Italian niche extraits', story:'Tiziana Terenzi is an Italian niche perfume house known for rich, long-lasting extraits de parfum such as Kaff, Orza and Gold Rose Oudh.'},
+  'Al Haramain': {line:'Arabian perfume house', story:'Al Haramain is an Arabian perfume house famous for the Amber Oud collection: warm, long-lasting eaux de parfum in many editions.'},
+  'Hemel': {line:'Modern luxury eaux de parfum', story:'Hemel creates modern, long-lasting eaux de parfum with refined floral, woody and amber accords.'},
+  "Signature D'orient": {line:'Arabian-inspired, with travel sprays', story:"Signature D'orient makes Arabian-inspired eaux de parfum, many presented with a 15ml travel spray for the bag."},
+  'Fumeri': {line:'Bold scents, everyday prices', story:'Fumeri makes bold, long-lasting eaux de parfum at accessible prices, from amber nights to fresh blues.'},
+  'Gucci': {line:'Italian fashion house fragrance', story:'Gucci fragrances at Swansura, including Bloom, Flora, Guilty and Intense Oud, from pen sprays and miniature sets to full bottles.'},
+  'Swansura Selection': {line:'Chosen by the Studio', story:'Skincare, body care and gifts selected by the Swansura team.'}
+};
+const CATS = {
+  'all': {name:'All products', world:'skin', intro:'The full Swansura catalogue: natural skincare, haircare, bath and body, and niche, Arabian and designer fragrance, 100% authentic and shipped from the UK.', faq:[]},
+  'skincare': {name:'Skincare', world:'skin', intro:'Natural Indian skincare from Deyga and Vilvah, and luxury English formulas from Highborn London. Cleansers, serums, moisturisers, sun care and lip care, all shipped from the UK.', faq:[['Are Deyga and Vilvah products genuine?','Yes. Swansura is an official UK partner of both brands, so every product comes direct from the brand and ships from the UK.'],['Which serum should I start with?','For hydration, try Deyga 2% Hyaluronic Acid Serum. For glow and dark spots, Vilvah Milk Drops serum. For ageing concerns, Highborn London YOUTHBOOST.'],['Do you deliver across the UK?','Yes. Delivery is free on orders over £50.']]},
+  'haircare': {name:'Haircare', world:'skin', intro:'Shampoos, conditioners and hair oils with natural ingredients like rice water, goat milk and herbal extracts, for hair fall, dandruff and dryness.', faq:[['What helps with hair fall?','Vilvah Hair Growth Oil, with pumpkin seed, kalonji and castor oils, is made for hair fall. Pair it with a gentle shampoo.'],['Are the shampoos sulphate-free?','Check each product page: ingredients and benefits are listed under Details.']]},
+  'bath-body': {name:'Bath & Body', world:'skin', intro:'Body butters, bath bars, scrubs, deodorants, sleep oils and pillow sprays. Everyday rituals that pair with your fragrance.', faq:[['What pairs well with perfume?','An unscented or lightly scented body butter helps fragrance last longer on the skin.']]},
+  'fragrance': {name:'Fragrance', world:'scent', intro:"Niche, Arabian and designer perfume: Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari, Acqua di Parma and more, 100% authentic and shipped from the UK.", faq:[['What is the difference between extrait and eau de parfum?','An extrait de parfum has a higher concentration of perfume oils than an eau de parfum, so it usually lasts longer and wears closer to the skin.'],['How do I choose a scent family?','Oud and amber are warm and evening-friendly. Floral and fresh feel lighter for daytime. Browse by family to compare.'],['Are your fragrances authentic?','Yes. Every fragrance at Swansura is 100% authentic.']]},
+  'gifts': {name:'Gifts & Sets', world:'scent', intro:'Kits, routines, miniature sets, discovery sets and gift sets. Ready to give, or to keep.', faq:[['Do you offer gift wrapping?','A gift box option is planned for fragrance and sets.']]}
+};
+const CONCERNS = {acne:['Acne & oil control','Charcoal, neem, tea tree'], glow:['Glow & even tone','Dark spots, dullness'], hydration:['Deep hydration','Dry, tight skin'], lips:['Lip care','Tint and nourish'], sun:['Sun care','Daily SPF'], hairfall:['Hair fall','Stronger roots'], dandruff:['Dandruff','Calm scalp'], calm:['Calm & sleep','Wind-down rituals']};
+const FAMILIES = {oud:['Oud','Smoky, resinous, regal'], amber:['Amber','Warm, sweet, golden'], floral:['Floral','Rose, jasmine, white flowers'], woody:['Woody','Sandalwood, cedar, patchouli'], fresh:['Fresh','Citrus, bergamot, air']};
+const PAGE = 24;
+
+let P = [], byId = {}, BR = {};
+const fmt = n => '£' + Number(n).toFixed(2);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slugify = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const brandSlug = b => slugify(b);
+const brandBySlug = s => Object.keys(BR).find(b => BR[b].slug === s);
+
+function buildBrands(){
+  P.forEach(p => { const b = BR[p.brand] || (BR[p.brand] = {slug:brandSlug(p.brand), count:0, skin:0}); b.count++; if (p.cat !== 'fragrance') b.skin++; });
+  Object.entries(BR).forEach(([n,b]) => { const s = STORIES[n] || {}; b.world = b.skin > b.count/2 ? 'skin' : 'scent'; b.partner = !!s.partner;
+    b.line = s.line || (b.world==='scent' ? 'Fragrance house' : 'Skin & body care');
+    b.story = s.story || `${n} at Swansura: ${b.count} ${b.count===1?'product':'products'}, 100% authentic and shipped from the UK.`; });
+}
+const topBrands = (world, n) => Object.keys(BR).filter(b => !world || BR[b].world === world).sort((a,b) => (!!STORIES[b] - !!STORIES[a]) || BR[b].count - BR[a].count).slice(0, n);
+
+function cleanTitle(p){
+  let t = p.title.split(/\s+[–|]\s+/)[0];
+  const re = {'Deyga':/^deyga'?s?\s+/i, 'Vilvah':/^vilvah( store)?\s+/i, "Signature D'orient":/^signature\s+/i}[p.brand] || new RegExp('^' + p.brand.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s+', 'i');
+  t = t.replace(re,'');
+  return t.replace(/\s{2,}/g,' ').trim() || p.title;
+}
+function bullets(p){ return p.desc.split('\n').filter(l => /^-\s*\S/.test(l)).map(l => l.replace(/^-\s*/,'')); }
+function paras(p){ return p.desc.split('\n').filter(l => l && !/^-/.test(l) && !/(top|heart|base)\s*(notes)?\s*[:—-]/i.test(l) && !/^olfactive notes/i.test(l)); }
+function notes(p){
+  const d = p.desc.replace(/\n/g,' ');
+  const grab = k => { const m = d.match(new RegExp(k + '\\s*(?:notes?)?\\s*[:—-]\\s*([^]+?)(?=(?:Top|Heart|Middle|Base)\\s*(?:notes?)?\\s*[:—-]|$)','i')); return m ? m[1].replace(/[-–]\s*$/,'').trim().replace(/\.$/,'').slice(0,90) : ''; };
+  const n = {top:grab('Top'), heart:grab('Heart') || grab('Middle'), base:grab('Base')};
+  return (n.top || n.heart || n.base) ? n : null;
+}
+function family(p){
+  const t = p.title.toLowerCase();
+  if (/oud/.test(t)) return 'oud'; if (/rose|flora|bloom|valley|gabriella|jasmin|fleur|flower/.test(t)) return 'floral';
+  if (/amber|ambre|ruby|vanill/.test(t)) return 'amber'; if (/santal|patchouli|wood|cedar|vetiver/.test(t)) return 'woody';
+  if (/blue|bleu|fresh|aventure|plateado|aqua|acqua|citrus/.test(t)) return 'fresh';
+  return p.tags.find(x => FAMILIES[x]) || 'amber';
+}
+function subtype(p){
+  const t = p.title.toLowerCase();
+  if (p.cat === 'fragrance') return /unisex/i.test(p.title) ? 'Unisex' : /women|femme|for her|pour elle/i.test(p.title) ? 'For her' : /\bmen\b|\bmen.s\b|homme|for him|pour lui/i.test(p.title) ? 'For him' : 'Unisex';
+  if (/kit|set|combo|phase|duo|trio/.test(t)) return 'Kits & routines';
+  if (/face wash|cleanser|powder face|micellar/.test(t)) return 'Cleansers';
+  if (/serum|elixir|drops/.test(t)) return 'Serums';
+  if (/sunscreen|spf/.test(t)) return 'Sun care';
+  if (/lip/.test(t)) return 'Lip care';
+  if (/mask|pack/.test(t)) return 'Masks';
+  if (/toner|mist/.test(t)) return 'Toners';
+  if (/cream|moistur|gel|lotion/.test(t)) return 'Moisturisers';
+  if (/shampoo/.test(t)) return 'Shampoo'; if (/conditioner/.test(t)) return 'Conditioner'; if (/oil/.test(t) && p.cat==='haircare') return 'Hair oil';
+  if (/butter/.test(t)) return 'Body butters'; if (/scrub/.test(t)) return 'Scrubs'; if (/deo|roll/.test(t)) return 'Deodorants'; if (/bath|soap|bar/.test(t)) return 'Bath & soap'; if (/sleep|pillow/.test(t)) return 'Sleep';
+  return 'More';
+}
+function inCat(p, c){ return c === 'all' ? true : c === 'gifts' ? p.tags.includes('gift') : p.cat === c; }
+function findP(re, brand){ const m = P.filter(p => re.test(p.title) && (!brand || p.brand===brand) && p.available); return m.sort((a,b)=>a.title.length-b.title.length)[0] || P.find(p => re.test(p.title)); }
+
+/* picture from the one-file-per-product image strip */
+function pic(p, i = 0, alt = '', cls = ''){
+  const f = p.frames || 1, y = f > 1 ? (Math.min(i, f-1) / (f-1)) * 100 : 0;
+  return `<div class="pic ${cls}" role="img" aria-label="${esc(alt || cleanTitle(p))}" data-bg="${p.img}" style="background-size:100% ${f*100}%;background-position:0 ${y}%"></div>`;
+}
+const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.style.backgroundImage = `url("${e.target.dataset.bg}")`; io.unobserve(e.target); } }), {rootMargin:'400px'}) : null;
+function lazy(root = document){ root.querySelectorAll('.pic[data-bg]:not([data-seen])').forEach(el => { el.dataset.seen = 1; if (io) io.observe(el); else el.style.backgroundImage = `url("${el.dataset.bg}")`; }); }
+
+/* ---------- Bag ---------- */
+let bag = [];
+try { bag = JSON.parse(localStorage.getItem('swansura-bag') || '[]'); } catch(e) { bag = []; }
+function saveBag(){ bag = bag.filter(l => byId[l.id]); try { localStorage.setItem('swansura-bag', JSON.stringify(bag)); } catch(e){} document.getElementById('bagCount').textContent = bag.reduce((a,b)=>a+b.q,0); }
+function addToBag(id, q=1, silent){ const l = bag.find(x=>x.id===id); if (l) l.q += q; else bag.push({id, q}); saveBag(); if (!silent) { toast(cleanTitle(byId[id]) + ' added to your bag'); openBag(); } }
+function bagTotal(){ return bag.reduce((a,l)=> a + (byId[l.id]?.price||0)*l.q, 0); }
+function toast(msg){ const t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); t.textContent = msg; document.body.appendChild(t); setTimeout(()=>t.remove(), 2400); }
+function closeLayer(){ document.getElementById('layer').innerHTML=''; document.body.style.overflow=''; }
+function openBag(){
+  const total = bagTotal(), left = Math.max(0, 50 - total);
+  const extras = P.filter(p => p.price < 12 && p.available && !bag.find(l=>l.id===p.id)).sort((a,b)=>a.price-b.price).slice(0,6);
+  document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div>
+  <aside class="bag" role="dialog" aria-label="Your bag">
+    <header><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></header>
+    <div class="lines">${bag.length ? bag.map(l => { const p = byId[l.id]; return `<div class="line">${pic(p)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)">${esc(p.brand)}</div><a href="#p-${p.id}" data-close>${esc(cleanTitle(p))}</a><div style="color:var(--ink-2)">Qty ${l.q}</div><button class="rm" data-rm="${p.id}">Remove</button></div><div>${fmt(p.price*l.q)}</div></div>`; }).join('') : '<p style="color:var(--ink-2)">Your bag is empty. Start with our bestsellers.</p>'}</div>
+    <div class="foot">
+      <div class="delivery" style="border:0;padding:0;background:none"><span>${left>0 ? `You're <b>${fmt(left)}</b> away from free UK delivery` : '<b>You have free UK delivery</b>'}</span><div class="bar"><i style="width:${Math.min(100,total/50*100)}%"></i></div></div>
+      ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(p=>`<div class="extra">${pic(p)}<span>${esc(cleanTitle(p))}</span><b>${fmt(p.price)}</b><button data-add="${p.id}">Add</button></div>`).join('')}</div></div>` : ''}
+      <div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${fmt(total)}</b></div>
+      <button class="btn solid" id="checkoutBtn">Checkout securely</button>
+      <p style="font-size:12px;color:var(--ink-2);text-align:center">Apple Pay · Google Pay · PayPal · Shop Pay · Visa · Mastercard</p>
+    </div>
+  </aside>`;
+  document.body.style.overflow='hidden'; lazy(document.getElementById('layer'));
+}
+function openSearch(){
+  document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div><div class="search" role="dialog" aria-label="Search"><div class="wrap" style="padding:0;display:flex;flex-direction:column;gap:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Search ${P.length} products</span><button data-close>Close</button></div><label for="q" style="position:absolute;left:-9999px">Search products and brands</label><input id="q" placeholder="Search Deyga, oud, serum, Gucci…" autocomplete="off"><div id="qres"></div></div></div>`;
+  const q = document.getElementById('q'); q.focus();
+  const run = () => { const v = q.value.trim().toLowerCase(); const res = v.length < 2 ? [] : P.filter(p => (p.title + ' ' + p.brand + ' ' + p.tags.join(' ')).toLowerCase().includes(v));
+    document.getElementById('qres').innerHTML = v.length < 2 ? `<div class="chips">${['Deyga','Vilvah','Oud','Lip balm','Serum','Al Haramain','Gucci','Gift set'].map(s=>`<button class="chip" data-suggest="${s}">${s}</button>`).join('')}</div>` : res.length ? `<p style="color:var(--ink-2);margin-bottom:14px">${res.length} results${res.length>12?', showing 12':''}</p><div class="grid-p">${res.slice(0,12).map(card).join('')}</div>` : '<p style="color:var(--ink-2)">No matches. Try a brand or an ingredient.</p>'; lazy(document.getElementById('qres')); };
+  q.addEventListener('input', run); run();
+}
+
+/* ---------- Components ---------- */
+const icon = {
+  shield:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>',
+  truck:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>',
+  leaf:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19c0-8 6-13 14-14-1 8-6 14-14 14Z"/><path d="M5 19 13 11"/></svg>',
+  ret:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg>',
+  lock:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
+};
+function trustStrip(){ return `<div class="trust"><div class="wrap"><div>${icon.leaf}Official UK partner of Deyga &amp; Vilvah</div><div>${icon.shield}100% authentic products</div><div>${icon.truck.replace(/16/g,'20')}Free UK delivery over £50</div><div>${icon.ret}Easy 30-day returns</div><div>${icon.lock}Secure checkout</div></div></div>`; }
+function card(p){
+  const partner = BR[p.brand]?.partner;
+  const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
+  const meta = p.cat === 'fragrance' ? (FAMILIES[family(p)][0] + ' · ' + subtype(p)) : (bullets(p)[0] || paras(p)[0] || subtype(p)).split(/[:.–]/)[0].slice(0,60);
+  return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
+}
+function grid(list){ return `<div class="grid-p">${list.map(card).join('')}</div>`; }
+/* Curated cross-brand routines, in the spirit of The Body Shop's routines and gift sets. Saving is a proposal. */
+const RITUAL_SAVE = 0.15;
+const RITUALS = [
+  {g:'skin', name:'The Clear Skin Routine', note:'For oily, breakout-prone skin: deep cleanse, balance, then a drop of neem.', steps:['Cleanse','Tone','Treat'], f:[[/charcoal face wash/i,'Deyga'],[/tea tree facial toner/i],[/neem seed oil/i]]},
+  {g:'skin', name:'The Vitamin C Glow Routine', note:'Brighter, more even-looking skin by day, finished with SPF.', steps:['Cleanse','Serum','Protect'], f:[[/vitamin c foaming face wash/i],[/10% vitamin c/i],[/sunscreen 50ml/i,'Deyga']]},
+  {g:'skin', name:'The Deep Hydration Routine', note:'For dry, tight skin: a gentle wash, hyaluronic acid and a rich cream.', steps:['Cleanse','Serum','Moisturise'], f:[[/honey face wash/i],[/hyaluronic acid serum/i],[/deep moisturising face cream/i]]},
+  {g:'skin', name:'The Milk Glow Routine', note:"Vilvah's milk range for soft, radiant skin.", steps:['Cleanse','Tone','Serum'], f:[[/milk powder face wash/i],[/milk face toner/i],[/milk drops/i]]},
+  {g:'skin', name:'The Sensitive Skin Routine', note:'Fragrance-free cleansing, pure aloe and a light cream.', steps:['Cleanse','Soothe','Moisturise'], f:[[/fragrance-free cream face wash/i],[/aloe vera gel/i],[/light moisturising face cream/i]]},
+  {g:'skin', name:'The Age-Defying Routine', note:'Luxury English skincare: cleanse, peptide serum, rich moisturiser.', steps:['Cleanse','Serum','Moisturise'], f:[[/crystal cleanser/i],[/youthboost/i],[/imperial moisturiser/i]]},
+  {g:'hair', name:'The Hair Fall Rescue', note:'Oil the roots, wash gently, condition the lengths.', steps:['Oil','Wash','Condition'], f:[[/^vilvah hair growth oil/i],[/herbal shampoo 250/i],[/cream conditioner 250/i]]},
+  {g:'hair', name:'The Smooth & Shine Routine', note:'Rice water and soy milk care, finished with a frizz serum.', steps:['Wash','Condition','Style'], f:[[/rice water shampoo/i],[/soy milk conditioner/i],[/anti-frizz hair serum/i]]},
+  {g:'hair', name:'The Calm Scalp Duo', note:'A scalp oil and shampoo for flakes and itch.', steps:['Oil','Wash'], f:[[/anti-dandruff hair oil/i],[/anti dandruff shampoo/i,'Deyga']]},
+  {g:'body', name:'The Body Polish Ritual', note:'Wash, scrub and seal in moisture for smooth skin.', steps:['Wash','Scrub','Butter'], f:[[/wild berry body wash/i],[/deyga body scrub/i],[/chocolate body butter/i]]},
+  {g:'body', name:'The Foot Spa at Home', note:'Soak, scrub and cream: a weekly treat for tired feet.', steps:['Soak','Scrub','Cream'], f:[[/foot soak powder/i],[/deyga foot scrub/i],[/foot care cream/i]]},
+  {g:'body', name:'The Sleep Ritual', note:'A chamomile soak, sleep oil and pillow mist for a calmer night.', steps:['Bathe','Massage','Mist'], f:[[/chamomile bath salts/i],[/sleep oil for restless/i],[/^sleep pillow spray/i]]},
+  {g:'body', name:'The Lip Wardrobe', note:'Scrub, tint and protect: three lip heroes.', steps:['Scrub','Tint','Protect'], f:[[/strawberry lip scrub/i],[/beetroot lip balm classic/i],[/milk lip balm spf/i]]},
+  {g:'scent', name:'The Amber Oud Evening', note:'Butter first, then oud: fragrance lasts longer on moisturised skin.', steps:['Moisturise','Spray'], f:[[/chocolate body butter/i],[/amber oud ruby/i]]},
+  {g:'scent', name:'The Amber Oud Discovery', note:'Three editions of Al Haramain Amber Oud, from fresh to rich.', steps:['Day','Evening','Night'], f:[[/amber oud bleu/i],[/amber oud white/i],[/amber oud gold edition eau/i]]},
+  {g:'scent', name:'The Gentleman’s Set', note:'A fresh scent, a charcoal body wash and a neem wood comb.', steps:['Wash','Groom','Spray'], f:[[/activated charcoal body wash/i],[/men's neem wood comb/i],[/blue for men/i]]}
+];
+const RITUAL_GROUPS = {skin:'Skincare routines', hair:'Hair routines', body:'Body & bath', scent:'Skin + scent'};
+let ritualCache = null;
+function ritualsData(){
+  if (ritualCache) return ritualCache;
+  ritualCache = RITUALS.map(r => ({...r, items:r.f.map(([re,b]) => findP(re,b)).filter(Boolean)})).filter((r) => r.items.length >= 2 && new Set(r.items.map(p=>p.id)).size === r.items.length);
+  return ritualCache;
+}
+function ritualCard(r){
+  const total = r.items.reduce((a,p)=>a+p.price,0);
+  return `<article class="ritual"><div class="imgs" style="grid-template-columns:repeat(${r.items.length},1fr)">${r.items.map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div><div class="body"><div class="eyebrow">${RITUAL_GROUPS[r.g]}</div><h3>${r.name}</h3><p style="color:var(--ink-2);font-size:15px">${r.note}</p><ol>${r.items.map((p,i)=>`<li><b style="font-weight:600">${r.steps[i]||''}</b> · <a href="#p-${p.id}">${esc(cleanTitle(p))}</a></li>`).join('')}</ol><div class="foot"><div class="price">${fmt(total*(1-RITUAL_SAVE))} <s>${fmt(total)}</s> <span class="off">SAVE ${Math.round(RITUAL_SAVE*100)}%</span></div><button class="btn solid" style="height:44px;padding:0 18px" data-addall="${r.items.map(p=>p.id).join(',')}">Add routine</button></div></div></article>`;
+}
+/* Ingredient ranges, like The Body Shop's "Ranges loved by you" */
+const RANGES = {
+  beetroot:['Beetroot','Natural tint for lips', /beetroot/i], 'goat-milk':['Goat milk','Gentle, creamy care', /goat ?milk|\bmilk\b/i], charcoal:['Charcoal','Deep-cleansing detox', /charcoal/i],
+  'vitamin-c':['Vitamin C','Brightening glow', /vitamin c/i], rose:['Rose','Soft, floral, soothing', /\brose\b/i], neem:['Neem & tea tree','Clarifying botanicals', /neem|tea tree/i],
+  'rice-water':['Rice water','Smooth, glossy hair', /rice water|rice milk/i], oud:['Oud','Smoky, regal fragrance', /oud/i]
+};
+function rangeList(k){ const re = RANGES[k][2]; return P.filter(p => re.test(p.title)); }
+
+/* Keyword landing pages: one page per non-branded search term (modelled on The Body Shop's category pages).
+   H1 = the keyword, intro uses it naturally, and every product that fits links back to it. */
+const T = (p, re) => re.test(p.title);
+const skinish = p => p.cat !== 'fragrance';
+const KW = [
+  // Product types
+  {s:'body-butter', k:'Body butter', grp:'Bath & body', f:p=>skinish(p)&&T(p,/body butter|foot butter|lip butter/i), d:'Rich body butters with shea, cocoa and natural oils for very dry skin. Thicker than a lotion, they lock in moisture for hours.'},
+  {s:'shower-gel-body-wash', k:'Shower gel & body wash', grp:'Bath & body', f:p=>skinish(p)&&T(p,/body wash|shower|bath bar|soap|bath oil/i), d:'Natural shower gels, body washes and soap bars, from charcoal detox to goat milk and rose.'},
+  {s:'body-lotion', k:'Body lotion', grp:'Bath & body', f:p=>skinish(p)&&T(p,/body lotion|body milk|body cream/i), d:'Lightweight body lotions that absorb fast and keep skin soft all day.'},
+  {s:'body-scrub', k:'Body scrub', grp:'Bath & body', f:p=>skinish(p)&&T(p,/scrub|polish|exfoliat/i), d:'Body scrubs, polishes and exfoliators for smooth, glowing skin.'},
+  {s:'face-wash', k:'Face wash & cleanser', grp:'Skincare', f:p=>p.cat==='skincare'&&T(p,/face wash|cleanser|cleansing/i), d:'Gentle face washes and cleansers for every skin type, from oily and acne-prone to dry and sensitive.'},
+  {s:'vitamin-c-serum', k:'Vitamin C serum', grp:'Skincare', f:p=>T(p,/vitamin c/i)&&skinish(p), d:'Vitamin C serums and washes for brighter, more even-looking skin and a healthy glow.'},
+  {s:'hyaluronic-acid-serum', k:'Hyaluronic acid serum', grp:'Skincare', f:p=>T(p,/hyaluronic/i), d:'Hyaluronic acid serums that draw in moisture for plumper, hydrated skin.'},
+  {s:'face-serum', k:'Face serum', grp:'Skincare', f:p=>p.cat==='skincare'&&T(p,/serum|elixir|drops|face oil/i), d:'Face serums and oils for glow, hydration, ageing and blemishes.'},
+  {s:'moisturiser', k:'Face moisturiser', grp:'Skincare', f:p=>p.cat==='skincare'&&T(p,/moistur|face cream|hydration gel|night elixir/i)&&!T(p,/kit|set/i), d:'Day creams, night creams and gel moisturisers for dry, oily and combination skin.'},
+  {s:'sunscreen', k:'Sunscreen & SPF', grp:'Skincare', f:p=>T(p,/sunscreen|spf/i), d:'Daily sunscreens and SPF lip balms with broad-spectrum protection.'},
+  {s:'face-mask', k:'Face mask', grp:'Skincare', f:p=>p.cat==='skincare'&&T(p,/mask|face pack/i), d:'Clay, charcoal, sheet-style and overnight face masks for a weekly reset.'},
+  {s:'toner', k:'Toner & face mist', grp:'Skincare', f:p=>p.cat==='skincare'&&T(p,/toner|rose water|mist/i), d:'Toners and face mists to refresh, balance and prep skin.'},
+  {s:'lip-balm', k:'Lip balm & lip care', grp:'Skincare', f:p=>T(p,/\blip/i), d:'Tinted lip balms, lip scrubs and SPF lip care, including the cult Deyga beetroot lip balm.'},
+  {s:'eye-cream', k:'Under-eye cream', grp:'Skincare', f:p=>T(p,/eye cream|eye gel|under eye/i), d:'Under-eye creams, gels and masks for puffiness and dark circles.'},
+  {s:'shampoo', k:'Shampoo', grp:'Haircare', f:p=>T(p,/shampoo/i), d:'Natural shampoos with rice water, goat milk and herbs for hair fall, dandruff and dryness.'},
+  {s:'conditioner', k:'Conditioner', grp:'Haircare', f:p=>T(p,/conditioner/i), d:'Creamy conditioners that detangle and soften without weighing hair down.'},
+  {s:'hair-oil', k:'Hair oil', grp:'Haircare', f:p=>p.cat==='haircare'&&T(p,/oil|serum/i), d:'Hair growth oils, anti-dandruff oils and frizz serums for stronger, shinier hair.'},
+  {s:'deodorant', k:'Natural deodorant', grp:'Bath & body', f:p=>T(p,/deo/i), d:'Aluminium-free natural deodorants in fresh lavender and rose scents.'},
+  // Skin and hair needs
+  {s:'dry-skin', k:'Skincare for dry skin', grp:'By skin type', f:p=>skinish(p)&&p.tags.includes('hydration'), d:'Hydrating cleansers, serums and creams for dry, tight or dehydrated skin.'},
+  {s:'oily-skin', k:'Skincare for oily & acne-prone skin', grp:'By skin type', f:p=>skinish(p)&&p.tags.includes('acne'), d:'Charcoal, neem and tea tree care to clear pores and control shine.'},
+  {s:'sensitive-skin', k:'Skincare for sensitive skin', grp:'By skin type', f:p=>skinish(p)&&T(p,/sensitive|fragrance-free|aloe|oat/i), d:'Gentle, fragrance-free and soothing formulas for sensitive skin.'},
+  {s:'dull-skin', k:'Skincare for dull skin & dark spots', grp:'By skin type', f:p=>skinish(p)&&p.tags.includes('glow'), d:'Brightening care for dullness, tan and uneven skin tone.'},
+  {s:'hair-fall', k:'Hair fall treatment', grp:'By skin type', f:p=>p.tags.includes('hairfall'), d:'Oils, shampoos and kits to reduce hair fall and support stronger roots.'},
+  {s:'natural-skincare', k:'Natural skincare', grp:'By skin type', f:p=>['Deyga','Vilvah'].includes(p.brand), d:'Natural, plant-based skincare from Deyga and Vilvah, official UK partner, shipped from the UK.'},
+  // Fragrance
+  {s:'oud-perfume', k:'Oud perfume', grp:'Fragrance', f:p=>p.cat==='fragrance'&&T(p,/oud/i), d:'Oud perfumes from Arabian, niche and designer houses: smoky, resinous and long-lasting.'},
+  {s:'arabian-perfume', k:'Arabian perfume', grp:'Fragrance', f:p=>p.cat==='fragrance'&&["Al Haramain","Signature D'orient",'Armaf'].includes(p.brand), d:'Arabian perfumes from Al Haramain, Signature D\'orient and more, from Amber Oud to musk.'},
+  {s:'perfume-for-women', k:'Perfume for women', grp:'Fragrance', f:p=>p.cat==='fragrance'&&subtype(p)==='For her', d:'Perfumes for women: floral, amber and fresh eaux de parfum from niche and designer houses.'},
+  {s:'perfume-for-men', k:'Perfume for men', grp:'Fragrance', f:p=>p.cat==='fragrance'&&subtype(p)==='For him', d:'Aftershaves and perfumes for men, from fresh woody to rich oud.'},
+  {s:'unisex-perfume', k:'Unisex perfume', grp:'Fragrance', f:p=>p.cat==='fragrance'&&subtype(p)==='Unisex', d:'Unisex and niche perfumes made to be shared.'},
+  {s:'niche-perfume', k:'Niche perfume', grp:'Fragrance', f:p=>p.cat==='fragrance'&&['Tiziana Terenzi','Hemel','anatomē','Jo Milano','Serge Lutens','Montale','Mancera'].includes(p.brand), d:'Niche perfume houses: Tiziana Terenzi extraits, Hemel, anatomē, Montale, Mancera and more.'},
+  {s:'perfume-gift-sets', k:'Perfume gift sets', grp:'Fragrance', f:p=>p.cat==='fragrance'&&(p.tags.includes('gift')||T(p,/set|travel|\+\s?15ml/i)), d:'Perfume gift sets, discovery sets and bottles with travel sprays.'},
+  {s:'travel-size-minis', k:'Travel size & mini perfumes', grp:'Fragrance', f:p=>T(p,/mini|travel|\b(5|7\.5|10|15|20)\s?ml\b|pen spray/i), d:'Travel-size perfumes, miniatures and pen sprays for the bag.'},
+  // Gifts
+  {s:'gifts-for-her', k:'Gifts for her', grp:'Gifts', f:p=>p.available&&(p.tags.includes('gift')&&skinish(p) || (p.cat==='fragrance'&&subtype(p)==='For her')), d:'Skincare sets and perfumes she will love, all gift-ready.'},
+  {s:'gifts-for-him', k:'Gifts for him', grp:'Gifts', f:p=>p.available&&((p.cat==='fragrance'&&subtype(p)==='For him')||T(p,/\bmen.s\b|beard|comb/i)), d:'Perfumes, grooming and practical gifts for him.'},
+  {s:'gifts-under-25', k:'Gifts under £25', grp:'Gifts', f:p=>p.available&&p.price<25&&(p.tags.includes('gift')||T(p,/kit|combo|lip|mini|travel/i)), d:'Thoughtful gifts under £25: lip kits, minis and little luxuries.'},
+  {s:'gifts-25-to-50', k:'Gifts £25 to £50', grp:'Gifts', f:p=>p.available&&p.price>=25&&p.price<50&&(p.tags.includes('gift')||p.cat==='fragrance'), d:'Gift sets and perfumes between £25 and £50.'},
+  {s:'gifts-over-50', k:'Luxury gifts over £50', grp:'Gifts', f:p=>p.available&&p.price>=50&&(p.tags.includes('gift')||p.cat==='fragrance'), d:'Luxury gifts over £50: niche extraits, designer perfume and skincare collections.'},
+  {s:'diwali-gifts', k:'Diwali gifts', grp:'Gifts', f:p=>p.available&&((['Deyga','Vilvah'].includes(p.brand)&&p.tags.includes('gift'))||(p.cat==='fragrance'&&T(p,/oud|amber|saffron|rose/i))), d:'Diwali gifts: natural Indian skincare sets from Deyga and Vilvah, and rich oud and amber perfumes.'},
+  {s:'ramadan-eid-gifts', k:'Ramadan & Eid gifts', grp:'Gifts', f:p=>p.available&&p.cat==='fragrance'&&(["Al Haramain","Signature D'orient"].includes(p.brand)||T(p,/oud|musk|amber/i)), d:'Ramadan and Eid gifts: oud, musk and amber perfumes from Arabian and niche houses.'},
+  {s:'christmas-gifts', k:'Christmas gifts', grp:'Gifts', f:p=>p.available&&p.tags.includes('gift'), d:'Christmas gift sets for everyone on your list, from skincare kits to perfume sets.'},
+  {s:'stocking-fillers', k:'Stocking fillers', grp:'Gifts', f:p=>p.available&&p.price<15&&skinish(p), d:'Stocking fillers under £15: lip balms, soaps, scrubs and minis.'},
+  {s:'mens-grooming', k:'Men\'s grooming', grp:'Gifts', f:p=>T(p,/\bmen.s\b|homme|for men|beard|comb|charcoal body wash/i), d:'Men\'s grooming: fragrance, body wash and natural care for him.'}
+];
+const KWBY = Object.fromEntries(KW.map(k => [k.s, k]));
+const kwList = k => P.filter(k.f);
+const kwLive = () => KW.filter(k => kwList(k).length >= 2);
+const kwFor = p => kwLive().filter(k => k.f(p));
+const kwChips = (list, label='Popular searches') => list.length ? `<div class="kwchips"><span class="eyebrow">${label}</span><div>${list.map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div></div>` : '';
+/* Advent calendars (concept, modelled on The Body Shop's Classic vs Ultimate advent page).
+   Contents are real Swansura products; "worth" is the sum of their current prices; the calendar price is a proposal. */
+const ADVENT = [
+  {id:'skin', name:'The Skin Studio Advent', tag:'12 days of natural rituals', world:'skin', days:12, price:59,
+   blurb:'Twelve natural skin, lip and body favourites from Deyga and Vilvah, one for each day of the countdown.',
+   pick:() => P.filter(p => p.available && p.cat !== 'fragrance' && ['Deyga','Vilvah','Swansura Selection'].includes(p.brand) && !/kit|combo|set|comb|colou?r|removal|powder/i.test(p.title)).sort((a,b)=>a.price-b.price)},
+  {id:'scent', name:'The Scent Studio Advent', tag:'12 days of fine fragrance', world:'scent', days:12, price:119,
+   blurb:'Twelve designer fragrance miniatures from Gucci, Calvin Klein and Hermès to discover your next signature scent.',
+   pick:() => P.filter(p => p.available && p.cat === 'fragrance' && /\b(5|7\.5|10|12|15|20)\s?ml\b|miniature|pen spray/i.test(p.title) && !/set|\dx|x\d|discovery|deodorant/i.test(p.title)).sort((a,b)=>a.price-b.price)}
+];
+function adventData(a){
+  const uniq = []; const seen = new Set();
+  for (const p of a.pick()) { const key = cleanTitle(p).toLowerCase().replace(/\s+\d+\s?(ml|g)$/,''); if (!seen.has(key)) { seen.add(key); uniq.push(p); } if (uniq.length === a.days) break; }
+  const worth = uniq.reduce((s,p)=>s+p.price,0);
+  return {...a, items:uniq, worth};
+}
+let openedDoors = {};
+try { openedDoors = JSON.parse(localStorage.getItem('swansura-advent') || '{}'); } catch(e) { openedDoors = {}; }
+function saveDoors(){ try { localStorage.setItem('swansura-advent', JSON.stringify(openedDoors)); } catch(e){} }
+function adventCard(d, compact){
+  const save = Math.round((1 - d.price / d.worth) * 100);
+  return `<article class="advent ${d.world}"><div class="advent-top"><div class="eyebrow">${d.days} doors · ${d.tag}</div><h2>${d.name}</h2><p>${d.blurb}</p>
+    <div class="advent-price"><span class="now">£${d.price}</span><span class="worth">Worth £${d.worth.toFixed(2)}</span><span class="save">Save ${save}%</span></div>
+    <div class="advent-ctas"><a class="btn light" href="#advent-${d.id}">${compact?'See what\'s inside':'Peek inside'}</a><button class="btn light" data-notify="${d.id}">Notify me at launch</button></div></div>
+    <div class="advent-strip">${d.items.slice(0,6).map(p=>pic(p)).join('')}</div></article>`;
+}
+function adventPage(focus){
+  const cals = ADVENT.map(adventData);
+  const doors = d => `<div class="doors">${d.items.map((p,i)=>{ const k = d.id+'-'+(i+1); const open = openedDoors[k]; return `<button class="door ${open?'open':''}" data-door="${k}" aria-label="Day ${i+1}${open?': '+esc(cleanTitle(p)):''}">${open?`${pic(p)}<span class="dn">Day ${i+1}</span><span class="dt">${esc(p.brand)} · ${esc(cleanTitle(p))}</span><span class="dp">${fmt(p.price)}</span>`:`<span class="num">${i+1}</span><span class="hint">Open</span>`}</button>`; }).join('')}</div>`;
+  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><a href="#c-gifts">Gifts &amp; Sets</a><span>/</span><span style="color:var(--ink)">Advent calendars</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Christmas 2026 · Concept</div><h1 style="font-size:clamp(34px,4.6vw,64px);margin-top:10px">Two calendars. Twelve days of rituals.</h1></div><p class="lede">Choose the Skin Studio for natural skin and body care, or the Scent Studio for fragrance miniatures. Free UK delivery on every advent calendar.</p></div>
+  <div class="advents">${cals.map(d=>adventCard(d)).join('')}</div>
+  <div class="advent-perks">${[[icon.truck.replace(/16/g,'22'),'Free UK delivery','on every advent calendar'],[icon.leaf,'Real products','from brands we stock'],[icon.shield,'100% authentic','official UK partner of Deyga & Vilvah'],[icon.ret,'Gift-ready','wrapped and ready to give']].map(([i,t,s])=>`<div><span class="ic">${i}</span><b>${t}</b><small>${s}</small></div>`).join('')}</div>
+  ${cals.map(d=>`<section id="advent-${d.id}" style="padding-block:56px 8px"><div class="sec-head"><div><div class="eyebrow">Peek inside · ${d.days} doors</div><h2>${d.name}</h2></div><button class="link" data-revealall="${d.id}">Reveal all ${d.days}</button></div>${doors(d)}</section>`).join('')}
+  <section><div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px" class="faqwrap"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Advent calendar questions</h2></div><div class="faq">${[
+    ['What is the difference between the two calendars?', `The Skin Studio Advent (£${cals[0].price}) has ${cals[0].items.length} natural skin, lip and body products from Deyga and Vilvah. The Scent Studio Advent (£${cals[1].price}) has ${cals[1].items.length} designer and niche fragrance miniatures.`],
+    ['How much are the contents worth?', `Skin Studio contents are worth £${cals[0].worth.toFixed(2)} and Scent Studio contents £${cals[1].worth.toFixed(2)}, based on Swansura's individual prices.`],
+    ['Are the products full size?', 'The Skin Studio Advent is mostly full-size lip, soap and skincare favourites. The Scent Studio Advent is fragrance miniatures between 5ml and 20ml.'],
+    ['Is it a good gift?', 'Yes. Each calendar arrives gift-ready, and it is a good way to try a brand or fragrance before buying the full size.'],
+    ['When should I buy?', 'Order by late November so it arrives before 1 December. Calendars are limited and sell out quickly.']
+  ].map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div></section>
+  <section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">You might also like</div><h2>Gifts &amp; stocking fillers</h2></div><a class="link" href="#k-stocking-fillers">All stocking fillers</a></div>${grid(kwList(KWBY['stocking-fillers']).slice(0,4))}</section></div>`;
+}
+function infoPage(key){
+  const pages = {
+    about:['About Swansura','Swansura – The Body Studio is a UK online store for natural skincare and fine fragrance. We are an official UK partner of Deyga and Vilvah, and we stock niche, Arabian and designer perfume houses including Tiziana Terenzi, Al Haramain, Hemel and Gucci. Every product is 100% authentic and shipped from the UK.'],
+    delivery:['Delivery & returns','Free UK delivery on orders over £50. Orders are dispatched from the UK. Unopened items can be returned within 30 days for a refund. [Confirm dispatch times, delivery charges under £50 and the returns window with Swansura before launch.]'],
+    faq:['FAQ','Are your products authentic? Yes. Every product is 100% authentic, and Swansura is an official UK partner of Deyga and Vilvah. Do you deliver outside the UK? [Confirm with Swansura.] How long does delivery take? [Confirm with Swansura.] Can I return a product? Unopened items within 30 days.'],
+    contact:['Contact us','Questions about an order, a product or a fragrance recommendation? Message us on Instagram @swansura_thebodystudio or use the contact form. [Add Swansura\'s email, phone and business address.]']
+  };
+  const pg = pages[key]; if (!pg) return notFound();
+  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">${pg[0]}</span></nav><div class="pagehead"><div><div class="eyebrow">Customer care</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${pg[0]}</h1></div><p class="lede">${pg[1]}</p></div><section>${kwChips(kwLive().filter(k=>k.grp==='Gifts').slice(0,6),'Popular right now')}</section></div>`;
+}
+function ritualsPage(){
+  const all = ritualsData();
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Routines &amp; sets</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Routines &amp; sets</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Routines that work together</h1></div><p class="lede">${all.length} step-by-step routines built from products across our brands. Buy the full routine and save ${Math.round(RITUAL_SAVE*100)}%.</p></div>
+  ${Object.entries(RITUAL_GROUPS).map(([g,label]) => { const rs = all.filter(r=>r.g===g); return rs.length ? `<section style="padding-block:48px 8px"><div class="sec-head"><div><div class="eyebrow">${rs.length} routines</div><h2>${label}</h2></div></div><div class="rituals">${rs.map(ritualCard).join('')}</div></section>` : ''; }).join('')}
+  <section><div class="sec-head"><div><div class="eyebrow">Ready-made kits</div><h2>Brand kits &amp; gift sets</h2></div><a class="link" href="#c-gifts">All gifts &amp; sets</a></div>${grid(P.filter(p=>p.tags.includes('gift') && p.available).slice(0,8))}</section>
+  <section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Gifts by price</div><h2>Find a gift</h2></div></div><div class="chips">${['gifts-under-25','gifts-25-to-50','gifts-over-50','gifts-for-her','gifts-for-him','diwali-gifts','ramadan-eid-gifts','stocking-fillers'].map(s=>KWBY[s]).map(k=>`<a class="chip" href="#k-${k.s}">${esc(k.k)}<small>${kwList(k).length} gifts</small></a>`).join('')}</div></section></div>`;
+}
+function journal(){
+  return [
+    {t:'Deyga or Vilvah: which natural brand suits your skin?', tag:'Skin Studio', d:'Farm-grown botanicals or goat milk care? A simple guide to both official partner brands.', p:findP(/rose glow/i)},
+    {t:'How to layer oud with body butter so it lasts all day', tag:'Skin + Scent', d:'Why fragrance lasts longer on moisturised skin, and three pairings to try.', p:findP(/amber oud ruby/i)},
+    {t:'Extrait vs eau de parfum: what the label means', tag:'Scent Studio', d:'Concentration, longevity and how close a scent sits to the skin.', p:findP(/kaff/i)}
+  ].map(j => ({...j, p:j.p || P[0]}));
+}
+
+/* ---------- Pages ---------- */
+function home(){
+  const lip = findP(/beetroot lip balm/i), oud = findP(/gold rose oudh/i) || P.find(p=>p.cat==='fragrance');
+  const pick = keys => keys.map(k=>findP(new RegExp(k,'i'))).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i);
+  const bestSkin = pick(['beetroot lip balm','charcoal face wash','milk drops','sunscreen','hyaluronic','goat milk shampoo','hair growth oil','ultra moisturising']);
+  const bestScent = pick(['amber oud ruby','kaff','gold rose oudh','rosado','santal','intense oud','ambre night','amber oud bleu']);
+  const tileP = c => P.find(p=>inCat(p,c) && p.available && (c!=='fragrance' || /kaff|orza/i.test(p.title))) || P.find(p=>inCat(p,c));
+  const ugc = pick(['beetroot lip balm','amber oud white','milk drops','orza','chocolate body butter','rosado']);
+  const counts = c => P.filter(p=>inCat(p,c)).length;
+  return `
+  <section class="hero"><div class="wrap">
+    <div class="copy">
+      <div class="eyebrow">Natural skincare · Rare fragrance</div>
+      <h1>Rituals for the skin, <em>signatures</em> for the senses.</h1>
+      <p class="lede">The Body Studio brings together ${P.length} products: natural skincare from India's best-loved brands, and niche, Arabian and designer perfume. Chosen with care, 100% authentic, shipped from the UK.</p>
+      <div class="ctas"><a class="btn solid" href="#c-skincare">Shop skincare</a><a class="btn" href="#c-fragrance">Discover fragrance</a></div>
+    </div>
+    <div class="art">
+      <figure><a href="#p-${lip.id}">${pic(lip)}</a><figcaption>Deyga · Beetroot Lip Balm</figcaption></figure>
+      <figure><a href="#p-${oud.id}">${pic(oud)}</a><figcaption>${esc(oud.brand)} · ${esc(cleanTitle(oud).replace(/ extrait.*$/i,''))}</figcaption></figure>
+    </div>
+  </div></section>
+  ${trustStrip()}
+  <section style="padding-bottom:0"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Christmas 2026 · Advent calendars</div><h2>Two calendars. Twelve days of rituals.</h2></div><a class="link" href="#advent">Choose your advent</a></div>
+    <div class="advents" style="padding-top:0">${ADVENT.map(adventData).map(d=>adventCard(d,true)).join('')}</div>
+  </div></section>
+  <section class="studios"><div class="grid">
+    <div class="studio skin"><span class="mark">Skin</span><div class="eyebrow">The Skin Studio</div><h2>Natural care, from farm to skin</h2><p>${counts('skincare')+counts('haircare')+counts('bath-body')} products from Deyga, Vilvah, Highborn London and more. Cleansers, serums, lip care, hair and body.</p><div class="links"><a href="#c-skincare">Skincare</a><a href="#c-haircare">Haircare</a><a href="#c-bath-body">Bath &amp; Body</a><a href="#b-deyga">Deyga</a><a href="#b-vilvah">Vilvah</a></div></div>
+    <div class="studio scent"><span class="mark">Scent</span><div class="eyebrow">The Scent Studio</div><h2>Niche, Arabian and designer perfume</h2><p>${counts('fragrance')} fragrances: Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari and more.</p><div class="links"><a href="#c-fragrance">All fragrance</a><a href="#scent-oud">Oud</a><a href="#scent-amber">Amber</a><a href="#b-tiziana-terenzi">Tiziana Terenzi</a><a href="#b-al-haramain">Al Haramain</a></div></div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Shop by category</div><h2>Find your shelf</h2></div><a class="link" href="#c-all">Shop all ${P.length}</a></div>
+    <div class="tiles">${['skincare','haircare','bath-body','fragrance','gifts'].map(c=>`<a class="tile" href="#c-${c}"><div class="img">${pic(tileP(c))}</div><span>${CATS[c].name} · ${counts(c)}</span></a>`).join('')}</div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Iconic bestsellers</div><h2>Most loved at the Studio</h2></div><a class="link" href="#c-all">View all</a></div>
+    <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="skin">Skincare &amp; body</button><button role="tab" aria-selected="false" data-tab="scent">Fragrance</button></div>
+    <div id="bestGrid">${grid(bestSkin)}</div>
+    <template id="best-skin">${grid(bestSkin)}</template><template id="best-scent">${grid(bestScent)}</template>
+  </div></section>
+  <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Most loved routines</div><h2>Routines that work together</h2></div><a class="link" href="#rituals">All ${ritualsData().length} routines</a></div>
+    <div class="rituals">${['skin','hair','scent'].map(g=>ritualsData().find(r=>r.g===g)).filter(Boolean).map(ritualCard).join('')}</div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Ranges loved by you</div><h2>Shop by hero ingredient</h2></div></div>
+    <div class="tiles" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))">${Object.entries(RANGES).map(([k,[n,d]])=>{ const l = rangeList(k); const p = l.find(x=>x.available) || l[0]; return p ? `<a class="tile" href="#range-${k}"><div class="img">${pic(p)}</div><span>${n} · ${l.length}</span></a>` : ''; }).join('')}</div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Shop by concern</div><h2>What does your skin need?</h2></div></div>
+    <div class="chips">${Object.entries(CONCERNS).map(([k,[n,s]])=>`<a class="chip" href="#concern-${k}">${n}<small>${s} · ${P.filter(p=>p.cat!=='fragrance'&&p.tags.includes(k)).length} products</small></a>`).join('')}</div>
+  </div></section>
+  <section class="scent-band"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Find your signature scent</div><h2>Shop by scent family</h2></div><a class="link" href="#c-fragrance">All fragrance</a></div>
+    <div class="families">${Object.entries(FAMILIES).map(([k,[n,d]])=>`<a class="family" href="#scent-${k}"><span class="n">${n}</span><p>${d}</p><span class="c">${P.filter(p=>p.cat==='fragrance'&&family(p)===k).length} scents →</span></a>`).join('')}</div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Shop by brand</div><h2>The houses we carry</h2></div><a class="link" href="#brands">All ${Object.keys(BR).length} brands A–Z</a></div>
+    <div class="brandgrid">${topBrands(null,10).map(b=>`<a class="brandcell" href="#b-${BR[b].slug}"><span class="bn">${esc(b)}</span><small class="${BR[b].partner?'p':''}">${BR[b].partner?'Official UK partner':esc(BR[b].line)}</small></a>`).join('')}</div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap story">
+    <div class="imgs"><a href="#b-deyga">${pic(findP(/charcoal face wash/i)||lip, 1)}</a><a href="#b-deyga">${pic(findP(/shea saffron/i)||lip)}</a></div>
+    <div class="copy"><div class="eyebrow">Official UK partner</div><h2>Deyga: grown, made, and now shipped from the UK</h2><p class="lede">${STORIES.Deyga.story}</p><div style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="#b-deyga">Shop all ${BR.Deyga?.count||''} Deyga</a><a class="btn" href="#b-vilvah">Discover Vilvah</a></div></div>
+  </div></section>
+  <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Trusted tales</div><h2>Your rituals, shared</h2></div><p class="lede" style="font-size:16px;max-width:44ch">Tag <b>@swansura_thebodystudio</b> with #SwansuraStudio to be featured.</p></div>
+    <div class="ugc">${ugc.map(p=>`<div><a href="#p-${p.id}">${pic(p, p.frames-1)}</a><span>Customer photo slot</span></div>`).join('')}</div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">The Journal</div><h2>Latest reads</h2></div><a class="link" href="#journal">All stories</a></div>
+    <div class="journal">${journal().map(j=>`<a class="post" href="#journal">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
+  </div></section>
+  <section style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Popular searches</div><h2>What people shop for</h2></div></div>
+    <div class="searches">${['Skincare','Bath & body','Fragrance','Gifts','By skin type'].map(g=>`<div><h4>${g}</h4>${kwLive().filter(k=>k.grp===g || (g==='Skincare'&&k.grp==='Haircare')).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div>`).join('')}</div>
+  </div></section>`;
+}
+let current = [];
+function listing(kind, key){
+  let title, intro, eyebrow, list, dark = '', faq = [], crumbs = [['Home','#home']], ctxBrands = true;
+  if (kind === 'c'){ const c = CATS[key]; if(!c) return notFound(); title = c.name; intro = c.intro; eyebrow = key==='all'?'The full catalogue':c.world==='skin'?'The Skin Studio':'The Scent Studio'; list = P.filter(p=>inCat(p,key)); faq = c.faq; dark = c.world==='scent'?'oud':''; crumbs.push([title]); }
+  if (kind === 'concern'){ const c = CONCERNS[key]; if(!c) return notFound(); title = c[0]; intro = `Products chosen for ${c[1].toLowerCase()}, from Deyga, Vilvah, Highborn London and more.`; eyebrow = 'Shop by concern'; list = P.filter(p=>p.cat!=='fragrance' && p.tags.includes(key)); crumbs.push(['Skincare','#c-skincare'],[title]); }
+  if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £50.'; eyebrow = k.grp; list = kwList(k); crumbs.push([title]); }
+  if (kind === 'range'){ const r = RANGES[key]; if(!r) return notFound(); title = r[0] + ' range'; intro = `${r[1]}. Every product at Swansura made with ${r[0].toLowerCase()}, across skincare, body, hair and fragrance.`; eyebrow = 'Ranges loved by you'; list = rangeList(key); crumbs.push(['Ranges','#home'],[title]); }
+  if (kind === 'scent'){ const f = FAMILIES[key]; if(!f) return notFound(); title = f[0] + ' fragrances'; intro = `${f[1]}. Explore ${f[0].toLowerCase()} perfumes from niche, Arabian and designer houses.`; eyebrow = 'Scent family'; list = P.filter(p=>p.cat==='fragrance' && family(p)===key); dark='oud'; crumbs.push(['Fragrance','#c-fragrance'],[title]); }
+  list = [...list].sort((a,b) => b.available - a.available);
+  current = list;
+  const brands = [...new Set(list.map(p=>p.brand))].sort((a,b)=>BR[b].count-BR[a].count);
+  const subs = [...new Set(list.map(subtype))];
+  const facet = kind==='c' && key==='fragrance' ? Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('') : kind==='c' && CATS[key].world==='skin' && key!=='all' ? Object.keys(CONCERNS).filter(k=>P.some(p=>inCat(p,key)&&p.tags.includes(k))).map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('') : '';
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">${crumbs.map(c=>c[1]?`<a href="${c[1]}">${c[0]}</a><span>/</span>`:`<span style="color:var(--ink)">${c[0]}</span>`).join('')}</nav></div>
+  <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${eyebrow}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${title}</h1></div><p class="lede">${intro}</p></div>
+  ${facet?`<div class="subnav">${facet}</div>`:''}
+  ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return ks.length ? `<div style="padding-top:16px">${kwChips(ks)}</div>` : ''; })()}
+  <div class="listing">
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div><h4>Type</h4><div class="opts">${subs.map((s,i)=>`<label class="${i>=8?'extra':''}"><input type="checkbox" data-f="sub" value="${esc(s)}">${esc(s)}</label>`).join('')}</div>${subs.length>8?`<button class="showall" data-showall>Show all ${subs.length}</button>`:''}</div>
+      <div><h4>Brand</h4><div class="opts">${brands.map((b,i)=>`<label class="${i>=8?'extra':''}"><input type="checkbox" data-f="brand" value="${esc(b)}">${esc(b)} <small style="margin-left:auto">${list.filter(p=>p.brand===b).length}</small></label>`).join('')}</div>${brands.length>8?`<button class="showall" data-showall>Show all ${brands.length} brands</button>`:''}</div>
+      <div><h4>Price</h4>${[['0-20','Under £20'],['20-50','£20 – £50'],['50-100','£50 – £100'],['100-9999','Over £100']].map(([v,l])=>`<label><input type="checkbox" data-f="price" value="${v}">${l}</label>`).join('')}</div>
+      <div><h4>Availability</h4><label><input type="checkbox" data-f="stock" value="1">In stock only</label></div>
+    </aside>
+    <div style="min-width:0">
+      <div class="toolbar"><span><button class="ftoggle link" id="ftoggle">Filters</button> <span id="count">${list.length}</span> products</span><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div>
+      <div id="results"></div>
+    </div>
+  </div>
+  ${faq.length?`<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${title} questions</h2></div><div class="faq">${faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`:''}
+  <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="related">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
+  </div>`;
+}
+let shown = PAGE, filtered = [];
+function applyFilters(reset){
+  const res = document.getElementById('results'); if (!res) return;
+  let list = [...current];
+  const sel = f => [...document.querySelectorAll(`#filters input[data-f="${f}"]:checked`)].map(i=>i.value);
+  const subs = sel('sub'), brs = sel('brand'), prs = sel('price'), stock = sel('stock').length;
+  if (subs.length) list = list.filter(p=>subs.includes(subtype(p)));
+  if (brs.length) list = list.filter(p=>brs.includes(p.brand));
+  if (prs.length) list = list.filter(p=>prs.some(r=>{const [a,b]=r.split('-').map(Number); return p.price>=a && p.price<b;}));
+  if (stock) list = list.filter(p=>p.available);
+  const s = document.getElementById('sort').value;
+  if (s==='low') list.sort((a,b)=>a.price-b.price); if (s==='high') list.sort((a,b)=>b.price-a.price); if (s==='az') list.sort((a,b)=>cleanTitle(a).localeCompare(cleanTitle(b)));
+  filtered = list; if (reset) shown = PAGE;
+  res.innerHTML = list.length ? grid(list.slice(0, shown)) + (list.length > shown ? `<div class="more"><span>Showing ${shown} of ${list.length}</span><button class="btn" id="loadMore">Load more</button></div>` : '') : '<p style="color:var(--ink-2);padding:40px 0">No products match these filters.</p>';
+  document.getElementById('count').textContent = list.length;
+  lazy(res);
+}
+function brandPage(slug){
+  const b = brandBySlug(slug); if(!b) return notFound();
+  const B = BR[b];
+  current = P.filter(p=>p.brand===b).sort((a,c)=>c.available-a.available);
+  const others = topBrands(B.world, 12).filter(k=>k!==b).slice(0,5);
+  const heroP = current.filter(p=>p.available).slice(0,2);
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#brands">Brands</a><span>/</span><span style="color:var(--ink)">${esc(b)}</span></nav></div>
+  <section style="padding-block:24px 0"><div class="wrap"><div class="story" style="background:${B.world==='skin'?'var(--emerald)':'var(--oud)'};color:var(--on-dark);padding:clamp(24px,4vw,56px)">
+    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 style="font-size:clamp(40px,5.6vw,80px)">${esc(b)}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div><a class="btn light" href="#allp">Shop all ${B.count} products</a></div></div>
+    <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
+  </div></div></section>
+  <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="results"></div></div></section>
+  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell" href="#b-${BR[k].slug}"><span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
+}
+function brandsAZ(){
+  const all = Object.keys(BR).sort((a,b)=>a.localeCompare(b));
+  const groups = {}; all.forEach(n=>{ const L = n[0].toUpperCase().normalize('NFD').replace(/[^A-Z0-9]/g,'') || '#'; (groups[L]=groups[L]||[]).push(n); });
+  const letters = Object.keys(groups).sort();
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Brands A–Z</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Every house we carry</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Brands A–Z</h1></div><p class="lede">${all.length} skincare and fragrance houses, ${P.length} products. Each brand has its own page, linked from the homepage, menus and every product.</p></div>
+  <div class="subnav">${letters.map(l=>`<a href="#brands" data-jump="L-${l}">${l}</a>`).join('')}</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px;padding-block:24px 72px">${letters.map(l=>`<div id="L-${l}"><div style="font-family:var(--display);font-weight:800;font-size:40px;border-bottom:1px solid var(--line);margin-bottom:10px">${l}</div>${groups[l].map(n=>`<a href="#b-${BR[n].slug}" style="display:flex;justify-content:space-between;gap:8px;padding:5px 0"><span>${esc(n)}${BR[n].partner?' <small style="color:var(--emerald);letter-spacing:.1em;text-transform:uppercase;font-size:10px">Official partner</small>':''}</span><small style="color:var(--ink-2)">${BR[n].count}</small></a>`).join('')}</div>`).join('')}</div></div>`;
+}
+function productPage(id){
+  const p = byId[id]; if(!p) return notFound();
+  const B = BR[p.brand]||{}, n = notes(p), bl = bullets(p), pr = paras(p), cat = CATS[p.cat];
+  const sameBrand = P.filter(x=>x.brand===p.brand && x.id!==p.id && x.available);
+  const sameCat = P.filter(x=>x.cat===p.cat && x.brand!==p.brand && x.available);
+  let pair;
+  if (p.cat==='fragrance') pair = [findP(/body butter/i,'Deyga'), findP(/pillow spray/i)].filter(x=>x && x.id!==p.id);
+  else pair = sameBrand.filter(x=>x.cat===p.cat).slice(0,2);
+  if (pair.length < 2) pair = [...pair, ...sameBrand].filter((x,i,a)=>a.indexOf(x)===i).slice(0,2);
+  const setItems = [p, ...pair].slice(0,3), setTotal = setItems.reduce((a,x)=>a+x.price,0);
+  const left = Math.max(0, 50 - p.price);
+  const howTo = bl.filter(x=>/apply|massage|spray|rinse|before use|after|daily|how to use/i.test(x));
+  const benefit = p.cat==='fragrance' ? ((pr[0]||'').split('. ')[0] + '.').replace(/^\.$/,'') : (bl[0]||pr[0]||'').replace(/^[^:]{0,40}:\s*/,'');
+  const similar = (p.cat==='fragrance' ? sameCat.filter(x=>family(x)===family(p)).concat(sameCat) : sameCat).filter((x,i,a)=>a.indexOf(x)===i).slice(0,4);
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#c-${p.cat}">${cat.name}</a><span>/</span><a href="#b-${brandSlug(p.brand)}">${esc(p.brand)}</a><span>/</span><span style="color:var(--ink)">${esc(cleanTitle(p))}</span></nav>
+  <div class="pdp">
+    <div class="gallery ${p.frames>1?'':'single'}">${p.frames>1?`<div class="thumbs">${Array.from({length:p.frames},(_,i)=>`<button data-frame="${i}" aria-current="${i===0}" aria-label="Image ${i+1}">${pic(p,i,'Image '+(i+1))}</button>`).join('')}</div>`:''}<div id="mainImg">${pic(p,0)}</div></div>
+    <div class="buy">
+      <a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a>
+      <h1>${esc(cleanTitle(p))}</h1>
+      <div class="reviews-line"><span class="stars" aria-hidden="true">★★★★★</span><span>No reviews yet · <a href="#p-${p.id}" style="text-decoration:underline">Write the first review</a></span></div>
+      ${benefit?`<p class="benefit">${esc(benefit)}</p>`:''}
+      <div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>
+      ${n?`<div class="notes"><div><b>Top</b>${esc(n.top||'—')}</div><div><b>Heart</b>${esc(n.heart||'—')}</div><div><b>Base</b>${esc(n.base||'—')}</div></div>`:''}
+      <div class="qtyrow"><div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button></div>
+      ${p.available?'<div class="express"><span>Apple Pay</span><span>Shop Pay</span></div>':''}
+      <div class="delivery"><span>${icon.truck} Dispatched from the UK. ${left>0?`Add <b>${fmt(left)}</b> more for free UK delivery.`:'<b>This order qualifies for free UK delivery.</b>'}</span><div class="bar"><i style="width:${Math.min(100,p.price/50*100)}%"></i></div></div>
+      <div class="trustmini"><div><span class="ic g">${icon.shield}</span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b">${icon.ret}</span>Easy 30-day returns<small>Unopened items</small></div><div><span class="ic o">${icon.lock}</span>Secure checkout<small>Encrypted payment</small></div></div>
+      <div class="acc">
+        <details open><summary>Details</summary><div class="in">${pr.slice(0,3).map(x=>`<p>${esc(x)}</p>`).join('')}${bl.length?`<ul>${bl.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</div></details>
+        ${n?`<details><summary>Notes</summary><div class="in"><p><b>Top:</b> ${esc(n.top)}</p><p><b>Heart:</b> ${esc(n.heart)}</p><p><b>Base:</b> ${esc(n.base)}</p></div></details>`:''}
+        <details><summary>${p.cat==='fragrance'?'How to wear':'How to use'}</summary><div class="in">${howTo.length?`<ul>${howTo.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:p.cat==='fragrance'?'<p>Spray onto pulse points: wrists, neck and behind the ears. For longer wear, apply after a body butter.</p>':'<p>Use as directed on the pack. Patch test before first use.</p>'}</div></details>
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £50. Unopened items can be returned within 30 days.</p></div></details>
+      </div>
+      ${(() => { const ks = kwFor(p); return ks.length ? `<p style="font-size:14px;color:var(--ink-2)">Part of our ${ks.slice(0,3).map(k=>`<a href="#k-${k.s}" style="text-decoration:underline">${esc(k.k.toLowerCase())}</a>`).join(', ')} edit${ks.length>1?'s':''}.</p>${kwChips(ks.slice(0,8),'Shop related')}` : ''; })()}
+    </div>
+  </div>
+  ${pair.length?`<div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">${p.cat==='fragrance'?'Complete the ritual: skin + scent':'Complete the ritual'}</div><div class="items">${setItems.map((x,i)=>`${i?'<span class="plus">+</span>':''}<a class="it" href="#p-${x.id}">${pic(x)}<span>${esc(cleanTitle(x))}</span><b>${fmt(x.price)}</b></a>`).join('')}</div></div><div style="display:flex;flex-direction:column;gap:12px"><div class="price" style="font-size:20px">${fmt(setTotal*0.9)} <s>${fmt(setTotal)}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE 10% WHEN BOUGHT TOGETHER</span><button class="btn solid" data-addall="${setItems.map(x=>x.id).join(',')}">Add all ${setItems.length} to bag</button></div></div>`:''}
+  ${sameBrand.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">More from ${esc(p.brand)}</div><h2>From the same house</h2></div><a class="link" href="#b-${brandSlug(p.brand)}">Shop all ${B.count} ${esc(p.brand)}</a></div>${grid(sameBrand.slice(0,4))}</section>`:''}
+  ${similar.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">You may also like</div><h2>${p.cat==='fragrance'?'Similar scents':'More '+cat.name.toLowerCase()}</h2></div><a class="link" href="#c-${p.cat}">View all</a></div>${grid(similar)}</section>`:''}
+  </div>`;
+}
+function journalPage(){
+  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
+}
+function notFound(){ return `<div class="wrap" style="padding-block:120px;text-align:center"><h1>Page not found</h1><p class="lede" style="margin:16px auto">That page has moved or does not exist.</p><a class="btn solid" href="#home">Back to the Studio</a></div>`; }
+
+/* ---------- Chrome ---------- */
+function navHTML(){
+  const skinFeat = findP(/milk drops/i) || P[0], scentFeat = findP(/kaff/i) || P[0];
+  const types = c => [...new Set(P.filter(p=>p.cat===c).map(subtype))].filter(t=>t!=='More');
+  return `
+  <div class="item"><a href="#c-skincare">Skincare</a><div class="mega"><div><h4>By type</h4>${types('skincare').slice(0,9).map(t=>`<a href="#c-skincare">${t}</a>`).join('')}</div><div><h4>By concern</h4>${['acne','glow','hydration','lips','sun'].map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('')}</div><div><h4>Brands</h4>${topBrands('skin',6).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div><a class="feat" href="#p-${skinFeat.id}">${pic(skinFeat)}<b style="font-weight:600">${esc(cleanTitle(skinFeat))}</b></a></div></div>
+  <div class="item"><a href="#c-haircare">Haircare</a><div class="mega" style="grid-template-columns:repeat(3,1fr);width:min(640px,92vw)"><div><h4>By type</h4>${types('haircare').map(t=>`<a href="#c-haircare">${t}</a>`).join('')}</div><div><h4>By concern</h4>${['hairfall','dandruff','hydration'].map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('')}</div><div><h4>Brands</h4><a href="#b-deyga">Deyga</a><a href="#b-vilvah">Vilvah</a></div></div></div>
+  <div class="item"><a href="#c-bath-body">Bath &amp; Body</a></div>
+  <div class="item"><a href="#c-fragrance">Fragrance</a><div class="mega"><div><h4>For</h4><a href="#c-fragrance">For her</a><a href="#c-fragrance">For him</a><a href="#c-fragrance">Unisex</a><a href="#c-gifts">Minis &amp; sets</a></div><div><h4>Scent family</h4>${Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('')}</div><div><h4>Houses</h4>${topBrands('scent',10).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}<a href="#brands" style="color:var(--ink)">All brands A–Z →</a></div><a class="feat" href="#p-${scentFeat.id}">${pic(scentFeat)}<b style="font-weight:600">${esc(cleanTitle(scentFeat))}</b></a></div></div>
+  <div class="item"><a href="#rituals">Routines</a><div class="mega" style="grid-template-columns:repeat(3,1fr);width:min(720px,92vw)">${Object.entries(RITUAL_GROUPS).slice(0,3).map(([g,l])=>`<div><h4>${l}</h4>${ritualsData().filter(r=>r.g===g).map(r=>`<a href="#rituals">${r.name.replace(/^The /,'')}</a>`).join('')}</div>`).join('')}</div></div>
+  <div class="item"><a href="#c-gifts">Gifts &amp; Sets</a><div class="mega" style="grid-template-columns:repeat(3,1fr);width:min(720px,92vw)"><div><h4>Christmas 2026</h4><a href="#advent" style="color:var(--ink);font-weight:600">Advent calendars</a><a href="#advent-skin">Skin Studio Advent</a><a href="#advent-scent">Scent Studio Advent</a><a href="#k-stocking-fillers">Stocking fillers</a></div><div><h4>By recipient</h4><a href="#k-gifts-for-her">Gifts for her</a><a href="#k-gifts-for-him">Gifts for him</a><a href="#k-perfume-gift-sets">Perfume gift sets</a><a href="#c-gifts">All gift sets</a></div><div><h4>By price &amp; occasion</h4><a href="#k-gifts-under-25">Under £25</a><a href="#k-gifts-25-to-50">£25 to £50</a><a href="#k-gifts-over-50">Over £50</a><a href="#k-diwali-gifts">Diwali gifts</a><a href="#k-ramadan-eid-gifts">Ramadan &amp; Eid gifts</a></div></div></div>
+  <div class="item"><a href="#advent" style="color:var(--brass);font-weight:600">Advent</a></div>
+  <div class="item"><a href="#brands">Brands</a><div class="mega" style="grid-template-columns:repeat(3,1fr);width:min(720px,92vw)"><div><h4>Skin Studio</h4>${topBrands('skin',8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}${BR[b].partner?' · Official partner':''}</a>`).join('')}</div><div><h4>Scent Studio</h4>${topBrands('scent',20).slice(0,10).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div><div><h4>&nbsp;</h4>${topBrands('scent',20).slice(10).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}<a href="#brands" style="color:var(--ink)">All ${Object.keys(BR).length} brands A–Z →</a></div></div></div>
+  <div class="item"><a href="#c-all">Shop all</a></div>
+  <div class="item"><a href="#journal">Journal</a></div>`;
+}
+function footerHTML(){
+  return `<div class="wrap"><div class="cols">
+    <div><a href="#home" class="logo"><span class="w" style="font-size:24px">SWANSURA</span><span class="s" style="color:var(--on-dark-2)">THE BODY STUDIO</span></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><p style="margin-top:14px">Instagram · TikTok · YouTube · Facebook</p></div>
+    <div><h5>Shop</h5>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#brands">Brands A–Z</a></div>
+    <div><h5>Concerns</h5>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</div>
+    <div><h5>Ranges</h5>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</div>
+    <div><h5>Brands</h5>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div>
+    <div><h5>Popular searches</h5>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div>
+    <div><h5>Help</h5><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a></div>
+  </div><div class="legal"><span>© 2026 Swansura – The Body Studio</span><span>Visa · Mastercard · Amex · PayPal · Apple Pay · Google Pay · Shop Pay</span></div></div>`;
+}
+
+/* ---------- Router ---------- */
+function route(){
+  const h = (location.hash || '#home').slice(1);
+  if (h === 'allp' || /^L-/.test(h)) return;
+  if (/^advent-(skin|scent)$/.test(h)) { if (!document.getElementById(h)) { document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); } document.getElementById(h)?.scrollIntoView({behavior:'smooth'}); return; }
+  let html, m;
+  if (h === 'home' || h === '') html = home();
+  else if ((m = h.match(/^c-(.+)$/))) html = listing('c', m[1]);
+  else if ((m = h.match(/^concern-(.+)$/))) html = listing('concern', m[1]);
+  else if ((m = h.match(/^scent-(.+)$/))) html = listing('scent', m[1]);
+  else if ((m = h.match(/^range-(.+)$/))) html = listing('range', m[1]);
+  else if ((m = h.match(/^k-(.+)$/))) html = listing('k', m[1]);
+  else if ((m = h.match(/^page-(.+)$/))) html = infoPage(m[1]);
+  else if (h === 'rituals') html = ritualsPage();
+  else if (h === 'advent') html = adventPage();
+  else if ((m = h.match(/^b-(.+)$/))) html = brandPage(m[1]);
+  else if (h === 'brands') html = brandsAZ();
+  else if (h === 'journal') html = journalPage();
+  else if ((m = h.match(/^p-(\d+)$/))) html = productPage(m[1]);
+  else html = notFound();
+  const app = document.getElementById('app');
+  app.innerHTML = html;
+  if (document.getElementById('results')) applyFilters(true);
+  closeLayer(); window.scrollTo(0,0); lazy(app);
+  document.querySelectorAll('nav.main .item>a').forEach(a=>{ const k = a.getAttribute('href').slice(1); a.classList.toggle('on', h===k || (h.startsWith('scent-') && k==='c-fragrance') || (h.startsWith('concern-') && k==='c-skincare')); });
+  const sb = document.getElementById('stickybar');
+  if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]] && byId[m[1]].available) { const p = byId[m[1]]; sb.innerHTML = `<span class="t">${esc(cleanTitle(p))} · ${fmt(p.price)}</span><button class="btn solid" style="height:44px" data-add="${p.id}">Add to bag</button>`; sb.classList.add('show'); }
+  else sb.classList.remove('show');
+}
+
+/* ---------- Events ---------- */
+document.addEventListener('click', e => {
+  const dr = e.target.closest('[data-door]'); if (dr){ openedDoors[dr.dataset.door] = !openedDoors[dr.dataset.door]; saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); window.scrollTo(0,y); return; }
+  const ra = e.target.closest('[data-revealall]'); if (ra){ const d = adventData(ADVENT.find(a=>a.id===ra.dataset.revealall)); const allOpen = d.items.every((_,i)=>openedDoors[d.id+'-'+(i+1)]); d.items.forEach((_,i)=>openedDoors[d.id+'-'+(i+1)] = !allOpen); saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); window.scrollTo(0,y); return; }
+  const nt = e.target.closest('[data-notify]'); if (nt){ toast('Thanks. We will email you when the ' + (nt.dataset.notify==='skin'?'Skin':'Scent') + ' Studio Advent launches'); return; }
+  const sa = e.target.closest('[data-showall]'); if (sa){ const o = sa.previousElementSibling; const open = o.classList.toggle('all'); sa.textContent = open ? 'Show fewer' : sa.dataset.label || sa.textContent; if (open) sa.dataset.label = sa.dataset.label || ('Show all ' + o.children.length); return; }
+  const s = e.target.closest('[data-suggest]'); if (s){ const q = document.getElementById('q'); q.value = s.dataset.suggest; q.dispatchEvent(new Event('input')); return; }
+  const t = e.target.closest('[data-add],[data-addall],[data-addq],[data-rm],[data-close],[data-tab],[data-frame],[data-q],[data-jump],#openBag,#openSearch,#burger,#checkoutBtn,#ftoggle,#loadMore');
+  if (!t) { if (e.target.closest('.drawer-nav a')) closeLayer(); return; }
+  if (t.dataset.add){ e.preventDefault(); addToBag(t.dataset.add); }
+  else if (t.dataset.addall){ t.dataset.addall.split(',').forEach(id=>addToBag(id,1,true)); toast('Ritual added to your bag'); openBag(); }
+  else if (t.dataset.addq){ const p = byId[t.dataset.addq]; if (!p.available){ toast("We'll email you when it's back"); return; } addToBag(p.id, +document.getElementById('qty').value); }
+  else if (t.dataset.rm){ bag = bag.filter(l=>l.id!==t.dataset.rm); saveBag(); openBag(); }
+  else if ('close' in t.dataset){ closeLayer(); }
+  else if (t.dataset.tab){ document.querySelectorAll('.tabs [data-tab]').forEach(b=>b.setAttribute('aria-selected', b===t)); const g = document.getElementById('bestGrid'); g.innerHTML = document.getElementById('best-'+t.dataset.tab).innerHTML; lazy(g); }
+  else if (t.dataset.frame){ const id = (location.hash.match(/p-(\d+)/)||[])[1]; const p = byId[id]; const box = document.getElementById('mainImg'); box.innerHTML = pic(p, +t.dataset.frame); lazy(box); t.parentElement.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current', b===t)); }
+  else if (t.dataset.q){ const o = document.getElementById('qty'); o.value = o.textContent = Math.max(1, (+o.textContent) + (+t.dataset.q)); }
+  else if (t.dataset.jump){ e.preventDefault(); document.getElementById(t.dataset.jump)?.scrollIntoView({behavior:'smooth'}); }
+  else if (t.id==='openBag') openBag();
+  else if (t.id==='openSearch') openSearch();
+  else if (t.id==='ftoggle') document.getElementById('filters').classList.toggle('open');
+  else if (t.id==='loadMore'){ shown += PAGE; applyFilters(false); }
+  else if (t.id==='checkoutBtn') toast('In the live store this opens Shopify checkout');
+  else if (t.id==='burger'){ document.getElementById('layer').innerHTML = `<nav class="drawer-nav" aria-label="Menu"><div style="display:flex;justify-content:space-between;margin-bottom:12px"><span class="eyebrow">Menu</span><button data-close>Close</button></div>${[['Skincare','#c-skincare'],['Haircare','#c-haircare'],['Bath & Body','#c-bath-body'],['Fragrance','#c-fragrance'],['Routines','#rituals'],['Advent calendars','#advent'],['Gifts & Sets','#c-gifts'],['Shop all','#c-all'],['Brands A–Z','#brands'],['Journal','#journal']].map(([n,h])=>`<a href="${h}">${n}</a>`).join('')}<div class="eyebrow" style="margin-top:24px">Scent families</div>${Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('')}</nav>`; }
+});
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeLayer(); });
+document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
+document.getElementById('newsForm').addEventListener('submit', e => { e.preventDefault(); e.target.hidden = true; document.getElementById('newsMsg').hidden = false; });
+window.addEventListener('hashchange', route);
+
+fetch('products.json').then(r=>r.json()).then(data => {
+  P = data.map(p => ({...p, id:String(p.id), tags:p.tags||[], desc:p.desc||'', frames:p.frames||1}));
+  P.forEach(p => byId[p.id] = p);
+  buildBrands();
+  document.getElementById('mainNav').innerHTML = navHTML();
+  document.getElementById('footer').innerHTML = footerHTML();
+  lazy(document.getElementById('mainNav'));
+  saveBag(); route();
+}).catch(() => { document.getElementById('app').innerHTML = '<div class="wrap" style="padding-block:120px;text-align:center">The product catalogue could not load. Refresh to try again.</div>'; });
+</script>

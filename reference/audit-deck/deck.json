@@ -1,0 +1,20 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-06T10:00:00Z"},
+  "lists": "css",
+  "title": "Swansura Growth Audit",
+  "cover": "cover",
+  "order": ["cover", "summary", "opportunity", "scorecard", "web-divider", "web-blockers", "web-catalogue", "web-fix", "web-cro-aov", "web-pricing", "web-pricing-2", "web-routines", "seo-divider", "seo-index", "seo-targets", "seo-onpage", "seo-rankings", "seo-brands", "seo-structure", "seo-tbs-keywords", "seo-keyword-map", "seo-plan", "meta-divider", "meta-landscape", "meta-patterns", "meta-swansura", "meta-plan", "seasonal", "social-benchmark", "social-plan", "roadmap"],
+  "sections": {
+    "s1": {"description": "Where Swansura stands and the opportunity", "start": "cover"},
+    "s2": {"description": "Website audit: conversion and catalogue", "start": "web-divider"},
+    "s3": {"description": "SEO audit: indexing, on-page, rankings", "start": "seo-divider"},
+    "s4": {"description": "Meta Ads audit of LOOKFANTASTIC, Cult Beauty, Beauty Bay, Space NK and the plan for Swansura", "start": "meta-divider"},
+    "s5": {"description": "Social media benchmark and recommendations", "start": "social-benchmark"},
+    "s6": {"description": "90-day roadmap: 30-day fix, Meta Ads from day 31", "start": "roadmap"}
+  },
+  "faces": {
+    "plus-jakarta-sans": {"family": "Plus Jakarta Sans", "href": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"}
+  },
+  "designSystems": []
+}

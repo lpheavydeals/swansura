@@ -1,0 +1,5 @@
+products.json
+prototype/images/
+*.zip
+__pycache__/
+.DS_Store
