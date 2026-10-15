@@ -63,6 +63,8 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
 - Send ad traffic to swansura.com, not Amazon (Meta can't see Amazon sales).
 
 ## Open items
+- **Shopify connector connected (15 Oct 2026)** to "Swansura - The Body Studio" (www.swansura.com, Basic plan, GBP). Admin counts that day: 706 products (549 active, 157 draft), vendor "Generic" 121, vendor "Swansura - The Body Studio" 82, 138 collections. These differ from the 9 Oct audit (493 live, 88 Generic) — the audit counted storefront products only; recheck before quoting.
+- Theme push still blocked: the environment network policy refuses *.myshopify.com / *.shopify.com / github.com.
 - Waiting on: client's filled product sheet + Shopify collaborator access.
 - Send quote to client.
 - Deck footer sources: unresolved whether to add "Screaming Frog, Semrush, Ahrefs & Claude".
