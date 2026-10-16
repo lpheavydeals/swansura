@@ -96,16 +96,45 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .trust svg{flex:none;color:var(--brass)}
 @media (max-width:900px){.trust .wrap{grid-template-columns:repeat(2,1fr)}}
 
-.hero{padding-block:clamp(40px,6vw,88px)}
-.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(24px,5vw,72px);align-items:center}
-.hero h1 em{font-style:italic;font-weight:600;color:var(--emerald)}
-.hero .copy{display:flex;flex-direction:column;gap:24px}
+.hero{--gold:#C9A66B;--gold-2:#E2C48E;position:relative;overflow:hidden;color:var(--on-dark);padding-block:clamp(56px,6.5vw,104px);background:radial-gradient(110% 90% at 88% 12%,#2C4C43 0%,transparent 58%),radial-gradient(80% 90% at -5% 105%,var(--oud) 0%,transparent 62%),#162A25}
+.hero::before{content:"";position:absolute;inset:0;opacity:.09;mix-blend-mode:overlay;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,166,107,.55),transparent)}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(32px,6vw,96px);align-items:center}
+.hero .copy{display:flex;flex-direction:column;gap:28px}
+.hero .eyebrow{color:var(--gold);display:flex;align-items:center;gap:14px}
+.hero .eyebrow::before{content:"";width:44px;height:1px;background:currentColor}
+.hero h1{font-size:clamp(42px,5.6vw,82px);font-weight:300;line-height:1.02;letter-spacing:-.045em;color:#FBF7F0}
+.hero h1 b{font-weight:700}
+.hero h1 em{font-style:italic;font-weight:300;color:var(--gold-2)}
+.hero .lede{color:var(--on-dark-2);font-size:17px;max-width:46ch;line-height:1.75}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
-.hero .art{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:end}
-.hero .art figure{margin:0;background:var(--mount)}
-.hero .art figure:first-child{transform:translateY(-28px)}
-.hero .art figcaption{font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:10px 12px;color:var(--ink-2)}
-@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .art figure:first-child{transform:none}}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn.gold:hover{background:#FBF7F0;border-color:#FBF7F0;color:var(--ink)}
+.btn.gold svg{transition:transform .25s}.btn.gold:hover svg{transform:translateX(4px)}
+.hero .facts{display:flex;gap:clamp(20px,4vw,48px);flex-wrap:wrap;margin-top:6px;padding-top:26px;border-top:1px solid rgba(244,238,228,.14)}
+.hero .facts div{display:flex;flex-direction:column;gap:4px}
+.hero .facts b{font-size:clamp(22px,2.2vw,30px);font-weight:300;letter-spacing:-.02em;color:#FBF7F0}
+.hero .facts span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--on-dark-2)}
+.hero .stage{position:relative;width:100%;max-width:520px;justify-self:end;padding:0 0 64px 64px}
+.hero .arch{display:block;position:relative;isolation:isolate;border-radius:999px 999px 6px 6px;overflow:hidden;background:var(--mount);box-shadow:0 40px 80px -30px rgba(0,0,0,.6)}
+.hero .arch .pic{aspect-ratio:4/5}
+.hero .arch:hover .pic{transform:scale(1.04)}
+.hero .ring{position:absolute;top:-14px;right:-14px;bottom:50px;left:50px;border:1px solid rgba(201,166,107,.45);border-radius:999px 999px 10px 10px;pointer-events:none}
+.hero .tag{position:absolute;right:16px;bottom:18px;white-space:nowrap;display:flex;gap:12px;align-items:center;padding:10px 18px;background:rgba(22,42,37,.78);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#FBF7F0;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.hero .tag i{font-style:normal;color:var(--gold-2)}
+.hero .float{position:absolute;left:0;bottom:0;width:42%;background:var(--card);color:var(--ink);padding:10px 10px 14px;box-shadow:0 30px 60px -24px rgba(0,0,0,.55);transition:transform .4s}
+.hero .float:hover{transform:translateY(-4px)}
+.hero .float small{display:block;margin-top:10px;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.hero .float span{display:block;font-size:13px;line-height:1.35;margin-top:3px}
+.hero .float b{display:block;font-size:13px;margin-top:6px}
+.hero .seal{position:absolute;top:-30px;left:14px;width:118px;height:118px;color:var(--gold);animation:spin 26s linear infinite}
+.hero .seal text{font-size:9.6px;letter-spacing:.1em;text-transform:uppercase;fill:currentColor;font-weight:600}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero .rise{opacity:0;transform:translateY(18px);animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.hero .rise{opacity:1;transform:none}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .stage{justify-self:center;max-width:430px;padding:0 0 48px 40px}.hero .ring{left:26px;bottom:34px}.hero .seal{width:92px;height:92px;top:-22px;left:0}}
+@media (max-width:520px){.hero .tag{font-size:10px;padding:8px 12px;right:10px;bottom:12px}.hero .float{width:46%}.hero .ctas .btn{flex:1 1 100%}.hero .eyebrow::before{display:none}.hero .facts{display:grid;grid-template-columns:1fr 1fr;row-gap:20px}}
 
 .studios{padding:0}
 .studios .grid{display:grid;grid-template-columns:1fr 1fr}
@@ -704,14 +733,17 @@ function home(){
   return `
   <section class="hero"><div class="wrap">
     <div class="copy">
-      <div class="eyebrow">Natural skincare · Rare fragrance</div>
-      <h1>Rituals for the skin, <em>signatures</em> for the senses.</h1>
-      <p class="lede">The Body Studio brings together ${P.length} products: natural skincare from India's best-loved brands, and niche, Arabian and designer perfume. Chosen with care, 100% authentic, shipped from the UK.</p>
-      <div class="ctas"><a class="btn solid" href="#c-skincare">Shop skincare</a><a class="btn" href="#c-fragrance">Discover fragrance</a></div>
+      <div class="eyebrow rise">Natural skincare · Rare fragrance</div>
+      <h1 class="rise" style="animation-delay:.08s">Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>.</h1>
+      <p class="lede rise" style="animation-delay:.16s">India's best-loved natural skincare and niche Arabian and designer perfume, in one UK studio. Chosen with care, 100% authentic, delivered from the UK.</p>
+      <div class="ctas rise" style="animation-delay:.24s"><a class="btn gold" href="#c-skincare">Shop skincare <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4"/></svg></a><a class="btn light" href="#c-fragrance">Discover fragrance</a></div>
+      <div class="facts rise" style="animation-delay:.32s"><div><b>${P.length}</b><span>Products</span></div><div><b>${new Set(P.map(p=>p.brand)).size}</b><span>Brands</span></div><div><b>100%</b><span>Authentic</span></div><div><b>£50</b><span>Free UK delivery</span></div></div>
     </div>
-    <div class="art">
-      <figure><a href="#p-${lip.id}">${pic(lip)}</a><figcaption>Deyga · Beetroot Lip Balm</figcaption></figure>
-      <figure><a href="#p-${oud.id}">${pic(oud)}</a><figcaption>${esc(oud.brand)} · ${esc(cleanTitle(oud).replace(/ extrait.*$/i,''))}</figcaption></figure>
+    <div class="stage rise" style="animation-delay:.2s">
+      <span class="ring" aria-hidden="true"></span>
+      <a class="arch" href="#p-${lip.id}">${pic(lip, 0, 'Deyga Beetroot Lip Balm')}<span class="tag">Beetroot Lip Balm <i>${fmt(lip.price)}</i></span></a>
+      <a class="float" href="#p-${oud.id}">${pic(oud)}<small>${esc(oud.brand)}</small><span>${esc(cleanTitle(oud).replace(/ extrait.*$/i,''))}</span><b>${fmt(oud.price)}</b></a>
+      <svg class="seal" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="sealPath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#sealPath" textLength="285" lengthAdjust="spacing">Official UK partner · Deyga &amp; Vilvah ·</textPath></text><circle cx="60" cy="60" r="3" fill="currentColor"/></svg>
     </div>
   </div></section>
   ${trustStrip()}
