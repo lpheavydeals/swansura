@@ -21,6 +21,7 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
 - `reference/audit-deck/` — slide HTML of the Growth Audit deck (reference only; the live deck artifact is canonical, and some later footer edits are missing here).
 - `docs/HANDOFF.md` — full handoff: audit numbers, quote, advice given, next steps.
 - `docs/Swansura_Growth_Audit.pdf` — final 31-slide Growth Audit deck (PDF export; canonical over `reference/audit-deck/`).
+- `docs/Competitor_UX_Benchmark.md` — 17 Oct 2026 UX benchmark of LOOKFANTASTIC, Purplle, Clinikally, The Skin Store vs our prototype (gaps by section, priorities, top-12 list); screenshot sheets in `docs/benchmark/`.
 - `docs/Competitors_Meta_Ads.docx` — "Swansura UK Competitor & Meta Ads Research" (4 Oct 2026). Main input for the Ads phase.
 
 ## Design system (from deck + prototype)
