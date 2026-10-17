@@ -87,6 +87,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .mega .feat .pic{margin-bottom:10px}
 .burger{display:none}
 @media (max-width:900px){nav.main{display:none}.burger{display:inline-flex}.hleft .txt,.hright .txt{display:none}}
+@media (max-width:600px){#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
 .drawer-nav{position:fixed;inset:0;z-index:60;background:var(--paper);padding:24px var(--gutter);overflow:auto}
 .drawer-nav a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;letter-spacing:.12em;text-transform:uppercase}
 
@@ -359,6 +360,28 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .acc details[open] summary::after{content:"\2212"}
 .acc .in{padding-top:12px;color:var(--ink-2);font-size:15px;display:flex;flex-direction:column;gap:8px}
 .acc ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.hicon{display:inline-flex;align-items:center;position:relative}
+.hicon .wcount{position:absolute;top:-8px;right:-12px;margin:0}
+.announce a{color:inherit}.announce a:hover{text-decoration:underline}
+.heart{position:absolute;top:8px;right:8px;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,249,.92);color:var(--ink);transition:transform .2s,color .2s}
+.heart:hover{transform:scale(1.08)}
+.heart[aria-pressed="true"]{color:var(--sale)}.heart[aria-pressed="true"] svg{fill:currentColor}
+.heart.big{position:static;width:54px;height:54px;border-radius:0;border:1px solid var(--line);background:var(--card);flex:none}
+.btn.buynow{width:100%;border-color:var(--emerald);color:var(--emerald)}.btn.buynow:hover{background:var(--emerald);color:var(--on-dark)}
+.badge.pick{background:var(--brass);color:#fff}
+.bands{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.band{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center;padding:14px;background:var(--card);border:1px solid var(--line);transition:border-color .2s,transform .2s}
+.band:hover{border-color:var(--ink);transform:translateY(-2px)}
+.band .pic{aspect-ratio:1}
+.band .n{display:block;font-size:22px;font-weight:700;letter-spacing:-.02em}.band small{display:block;color:var(--ink-2);font-size:13px;margin-top:2px}.band .c{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-top:10px}
+@media (max-width:1000px){.bands{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.bands{grid-template-columns:1fr}}
+.story.rev .copy{order:-1}
+#offer{position:fixed;left:20px;bottom:20px;z-index:60;width:min(360px,calc(100vw - 32px));background:var(--card);border:1px solid var(--line);box-shadow:0 30px 60px -20px rgba(31,26,23,.35);padding:26px 24px 20px;display:flex;flex-direction:column;gap:10px;animation:rise .5s cubic-bezier(.2,.7,.2,1)}
+#offer h3{font-size:24px;letter-spacing:-.02em}#offer p{color:var(--ink-2);font-size:14px}#offer small{color:var(--ink-2);font-size:12px}
+#offer form{display:flex;flex-direction:column;gap:8px}#offer input{height:46px;border:1px solid var(--line);padding:0 14px;font:inherit;background:var(--paper)}
+#offer .x{position:absolute;top:8px;right:10px;font-size:24px;line-height:1;width:32px;height:32px}
+@media (max-width:700px){#offer{left:16px;bottom:84px}}
 .card .rate{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-2)}
 .card .rate .stars{color:#C9BBA6;letter-spacing:1px;font-size:12px}
 .reviews-line .stars{color:#C9BBA6}
@@ -444,7 +467,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 </style>
 
 <div class="proto">Design prototype for Swansura · the full catalogue, prices and descriptions from swansura.com (Oct 2026) · checkout, accounts and reviews are illustrative</div>
-<div class="announce"><div class="wrap"><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span><span><b>100%</b> authentic, shipped from the UK</span></div></div>
+<div class="announce"><div class="wrap"><a href="#newsletter" data-jump="newsletter"><b>10% off</b> your first order · join the Studio Letter</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></div>
 <header class="site">
   <div class="wrap">
     <div class="hrow">
@@ -455,6 +478,8 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
       <a href="#home" class="logo"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></a>
       <div class="hright">
         <a href="#brands" class="txt">Brands A–Z</a>
+        <button class="hicon" id="openAccount" aria-label="Account"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></button>
+        <a class="hicon" href="#wishlist" aria-label="Wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg><span class="bagcount wcount" id="wishCount" hidden>0</span></a>
         <button id="openBag" aria-label="Open bag" style="display:flex;align-items:center"><span class="txt">Bag</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-left:6px"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bagcount" id="bagCount">0</span></button>
       </div>
     </div>
@@ -535,6 +560,16 @@ function chipsOf(p){
   return [...new Set(c)].slice(0,3);
 }
 const PACK_SAVE = {duo:0.10, routine:0.10};
+const HEART = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>';
+const store = { get(k, d){ try { return JSON.parse(localStorage.getItem(k) || d); } catch(e){ return JSON.parse(d); } }, set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} } };
+let wish = store.get('swansura-wish','[]'), seen = store.get('swansura-seen','[]');
+function saveWish(){ wish = wish.filter(id=>byId[id]); store.set('swansura-wish', wish); const c = document.getElementById('wishCount'); if (c){ c.textContent = wish.length; c.hidden = !wish.length; } }
+function heartBtn(p, cls=''){ const on = wish.includes(p.id); return `<button class="heart ${cls}" data-wish="${p.id}" aria-pressed="${on}" aria-label="${on?'Remove from':'Save to'} wishlist">${HEART}</button>`; }
+const STUDIO_KEYS = ['beetroot lip balm','charcoal face wash','milk drops','sunscreen','hyaluronic','goat milk shampoo','hair growth oil','ultra moisturising','amber oud ruby','kaff','gold rose oudh','rosado','santal','intense oud','ambre night','amber oud bleu'];
+let PICKS = null;
+function isPick(p){ if (!PICKS) PICKS = new Set(STUDIO_KEYS.map(k=>findP(new RegExp(k,'i'))).filter(Boolean).map(x=>x.id)); return PICKS.has(p.id); }
+const PRICE_BANDS = [['0-15','Under £15','Lip care, minis and add-ons'],['15-25','£15 – £25','Everyday heroes'],['25-50','£25 – £50','Routines and treats'],['50-9999','£50 and over','Free UK delivery included']];
+function inBand(p, key){ const [a,b] = key.split('-').map(Number); return p.price>=a && p.price<b; }
 function stars(n){ return `<span class="stars" aria-hidden="true">${'★'.repeat(n)}${'☆'.repeat(5-n)}</span>`; }
 function payLater(price){ return `<div class="paylater">or 3 interest-free payments of <b>${fmt(price/3)}</b> with <span class="pl k">Klarna</span> <span class="pl c">Clearpay</span> <span class="pl p">PayPal</span></div>`; }
 const PAYMENTS = ['Visa','Mastercard','Amex','PayPal','Apple Pay','Google Pay','Shop Pay','Klarna','Clearpay'];
@@ -646,9 +681,9 @@ const icon = {
 function trustStrip(){ return `<div class="trust"><div class="wrap"><div>${icon.leaf}Official UK partner of Deyga &amp; Vilvah</div><div>${icon.shield}100% authentic products</div><div>${icon.truck.replace(/16/g,'20')}Free UK delivery over £50</div><div>${icon.ret}Easy 30-day returns</div><div>${icon.lock}Secure checkout</div></div></div>`; }
 function card(p){
   const partner = BR[p.brand]?.partner;
-  const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
+  const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : isPick(p) ? '<span class="badge pick">Studio pick</span>' : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
   const meta = p.cat === 'fragrance' ? (FAMILIES[family(p)][0] + ' · ' + subtype(p)) : (bullets(p)[0] || paras(p)[0] || subtype(p)).split(/[:.–]/)[0].slice(0,60);
-  return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="rate">${stars(0)}<span>No reviews yet</span></div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
+  return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${heartBtn(p)}${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="rate">${stars(0)}<span>No reviews yet</span></div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
 }
 function grid(list){ return `<div class="grid-p">${list.map(card).join('')}</div>`; }
 /* Curated cross-brand routines, in the spirit of The Body Shop's routines and gift sets. Saving is a proposal. */
@@ -855,6 +890,10 @@ function home(){
     <div class="tiles">${['skincare','haircare','bath-body','fragrance','gifts'].map(c=>`<a class="tile" href="#c-${c}"><div class="img">${pic(tileP(c))}</div><span>${CATS[c].name} · ${counts(c)}</span></a>`).join('')}</div>
   </div></section>
   <section style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Shop by price</div><h2>Something for every budget</h2></div><a class="link" href="#c-gifts">Gifts &amp; sets</a></div>
+    <div class="bands">${PRICE_BANDS.map(([k,n,d],i)=>{ const all = P.filter(p=>inBand(p,k)), l = all.filter(p=>p.available); const im = l.find(p=>i<2 ? p.cat!=='fragrance' : true) || l[0]; return `<a class="band" href="#price-${k}">${im?pic(im):''}<div><span class="n">${n}</span><small>${d}</small><span class="c">${all.length} products →</span></div></a>`; }).join('')}</div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Iconic bestsellers</div><h2>Most loved at the Studio</h2></div><a class="link" href="#c-all">View all</a></div>
     <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="skin">Skincare &amp; body</button><button role="tab" aria-selected="false" data-tab="scent">Fragrance</button></div>
     <div id="bestGrid">${grid(bestSkin)}</div>
@@ -882,8 +921,13 @@ function home(){
   </div></section>
   <section style="padding-top:0"><div class="wrap story">
     <div class="imgs"><a href="#b-deyga">${pic(findP(/charcoal face wash/i)||lip, 1)}</a><a href="#b-deyga">${pic(findP(/shea saffron/i)||lip)}</a></div>
-    <div class="copy"><div class="eyebrow">Official UK partner</div><h2>Deyga: grown, made, and now shipped from the UK</h2><p class="lede">${STORIES.Deyga.story}</p><div style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="#b-deyga">Shop all ${BR.Deyga?.count||''} Deyga</a><a class="btn" href="#b-vilvah">Discover Vilvah</a></div></div>
+    <div class="copy"><div class="eyebrow">Behind the brand · Official UK partner</div><h2>Deyga: grown, made, and now shipped from the UK</h2><p class="lede">${STORIES.Deyga.story}</p><div style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="#b-deyga">Shop all ${BR.Deyga?.count||''} Deyga</a><a class="btn" href="#b-vilvah">Discover Vilvah</a></div></div>
   </div></section>
+  <section style="padding-top:0"><div class="wrap story rev">
+    <div class="copy"><div class="eyebrow">Behind the brand · Official UK partner</div><h2>Vilvah: the goat-milk ritual, from India to the UK</h2><p class="lede">${STORIES.Vilvah.story}</p><div style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="#b-vilvah">Shop all Vilvah</a><a class="btn" href="#concern-hydration">Shop hydration</a></div></div>
+    <div class="imgs">${[findP(/milk drops/i), findP(/goat milk shampoo/i) || findP(/goat milk/i)].filter(Boolean).map(x=>`<a href="#p-${x.id}">${pic(x)}</a>`).join('')}</div>
+  </div></section>
+  ${(() => { const rv = seen.filter(id=>byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">Picking up where you left off</div><h2>Recently viewed</h2></div></div>${grid(rv)}</div></section>` : ''; })()}
   <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Trusted tales</div><h2>Your rituals, shared</h2></div><p class="lede" style="font-size:16px;max-width:44ch">Tag <b>@swansura_thebodystudio</b> with #SwansuraStudio to be featured.</p></div>
     <div class="ugc">${ugc.map(p=>`<div><a href="#p-${p.id}">${pic(p, p.frames-1)}</a><span>Customer photo slot</span></div>`).join('')}</div>
@@ -902,6 +946,7 @@ function listing(kind, key){
   let title, intro, eyebrow, list, dark = '', faq = [], crumbs = [['Home','#home']], ctxBrands = true;
   if (kind === 'c'){ const c = CATS[key]; if(!c) return notFound(); title = c.name; intro = c.intro; eyebrow = key==='all'?'The full catalogue':c.world==='skin'?'The Skin Studio':'The Scent Studio'; list = P.filter(p=>inCat(p,key)); faq = c.faq; dark = c.world==='scent'?'oud':''; crumbs.push([title]); }
   if (kind === 'concern'){ const c = CONCERNS[key]; if(!c) return notFound(); title = c[0]; intro = `Products chosen for ${c[1].toLowerCase()}, from Deyga, Vilvah, Highborn London and more.`; eyebrow = 'Shop by concern'; list = P.filter(p=>p.cat!=='fragrance' && p.tags.includes(key)); crumbs.push(['Skincare','#c-skincare'],[title]); }
+  if (kind === 'price'){ const b = PRICE_BANDS.find(x=>x[0]===key); if(!b) return notFound(); title = b[1]; intro = `${b[2]}. Natural skincare, body care and fragrance ${b[1].startsWith('Under')?b[1].toLowerCase():'at '+b[1]}, 100% authentic and shipped from the UK.`; eyebrow = 'Shop by price'; list = P.filter(p=>inBand(p,key)); crumbs.push(['Shop by price','#home'],[title]); }
   if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £50.'; eyebrow = k.grp; list = kwList(k); crumbs.push([title]); }
   if (kind === 'range'){ const r = RANGES[key]; if(!r) return notFound(); title = r[0] + ' range'; intro = `${r[1]}. Every product at Swansura made with ${r[0].toLowerCase()}, across skincare, body, hair and fragrance.`; eyebrow = 'Ranges loved by you'; list = rangeList(key); crumbs.push(['Ranges','#home'],[title]); }
   if (kind === 'scent'){ const f = FAMILIES[key]; if(!f) return notFound(); title = f[0] + ' fragrances'; intro = `${f[1]}. Explore ${f[0].toLowerCase()} perfumes from niche, Arabian and designer houses.`; eyebrow = 'Scent family'; list = P.filter(p=>p.cat==='fragrance' && family(p)===key); dark='oud'; crumbs.push(['Fragrance','#c-fragrance'],[title]); }
@@ -1036,7 +1081,8 @@ function productPage(id){
       <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}</div>
       ${packs?`<fieldset class="packs"><legend>Choose your pack</legend>${packs.map((k,i)=>`<label class="pack${k.best?' best':''}"><input type="radio" name="pack" value="${k.v}" ${i===0?'checked':''}>${k.best?'<em>Best value</em>':''}<b>${k.name}</b><span>${k.sub}</span><strong>${fmt(k.price)}</strong>${k.save?`<small>Save ${fmt(k.save)}</small>`:'<small>&nbsp;</small>'}</label>`).join('')}</fieldset>`:''}
       ${n?`<div class="notes"><div><b>Top</b>${esc(n.top||'—')}</div><div><b>Heart</b>${esc(n.heart||'—')}</div><div><b>Base</b>${esc(n.base||'—')}</div></div>`:''}
-      <div class="qtyrow"><div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button></div>
+      <div class="qtyrow"><div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button>${heartBtn(p,'big')}</div>
+      ${p.available?`<button class="btn buynow" data-buynow="${p.id}">Buy it now</button>`:''}
       <div class="dispatch ${p.available?'':'out'}"><i></i>${p.available?'<b>In stock</b> · Usually dispatched within 1–2 working days from the UK':'<b>Out of stock</b> · Get an email when it is back'}</div>
       ${p.available?'<div class="express"><span>Apple Pay</span><span>Shop Pay</span></div>':''}
       <div class="delivery"><span>${icon.truck} Dispatched from the UK. ${left>0?`Add <b>${fmt(left)}</b> more for free UK delivery.`:'<b>This order qualifies for free UK delivery.</b>'}</span><div class="bar"><i style="width:${Math.min(100,p.price/50*100)}%"></i></div></div>
@@ -1065,11 +1111,18 @@ function productPage(id){
   </section>
   ${pair.length?`<div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">${p.cat==='fragrance'?'Complete the ritual: skin + scent':'Complete the ritual'}</div><div class="items">${setItems.map((x,i)=>`${i?'<span class="plus">+</span>':''}<a class="it" href="#p-${x.id}">${pic(x)}<span>${esc(cleanTitle(x))}</span><b>${fmt(x.price)}</b></a>`).join('')}</div></div><div style="display:flex;flex-direction:column;gap:12px"><div class="price" style="font-size:20px">${fmt(setTotal*0.9)} <s>${fmt(setTotal)}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE 10% WHEN BOUGHT TOGETHER</span><button class="btn solid" data-addall="${setItems.map(x=>x.id).join(',')}">Add all ${setItems.length} to bag</button></div></div>`:''}
   ${sameBrand.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">More from ${esc(p.brand)}</div><h2>From the same house</h2></div><a class="link" href="#b-${brandSlug(p.brand)}">Shop all ${B.count} ${esc(p.brand)}</a></div>${grid(sameBrand.slice(0,4))}</section>`:''}
+  ${(() => { const rv = seen.filter(id=>id!==p.id && byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Picking up where you left off</div><h2>Recently viewed</h2></div></div>${grid(rv)}</section>` : ''; })()}
   ${similar.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">You may also like</div><h2>${p.cat==='fragrance'?'Similar scents':'More '+cat.name.toLowerCase()}</h2></div><a class="link" href="#c-${p.cat}">View all</a></div>${grid(similar)}</section>`:''}
   </div>`;
 }
 function journalPage(){
   return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
+}
+function wishlistPage(){
+  const list = wish.map(id=>byId[id]).filter(Boolean);
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Wishlist</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Saved for later</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Your wishlist</h1></div><p class="lede">${list.length ? `${list.length} saved product${list.length>1?'s':''}. Sign in to keep your wishlist across devices and hear first when a saved product is on offer.` : 'Tap the heart on any product to save it here.'}</p></div>
+  <section style="padding-top:24px">${list.length ? grid(list) : `<div style="text-align:center;padding:40px 0 80px"><a class="btn solid" href="#c-all">Start browsing</a></div>`}</section></div>`;
 }
 function notFound(){ return `<div class="wrap" style="padding-block:120px;text-align:center"><h1>Page not found</h1><p class="lede" style="margin:16px auto">That page has moved or does not exist.</p><a class="btn solid" href="#home">Back to the Studio</a></div>`; }
 
@@ -1113,6 +1166,8 @@ function route(){
   else if ((m = h.match(/^scent-(.+)$/))) html = listing('scent', m[1]);
   else if ((m = h.match(/^range-(.+)$/))) html = listing('range', m[1]);
   else if ((m = h.match(/^k-(.+)$/))) html = listing('k', m[1]);
+  else if ((m = h.match(/^price-(\d+-\d+)$/))) html = listing('price', m[1]);
+  else if (h === 'wishlist') html = wishlistPage();
   else if ((m = h.match(/^page-(.+)$/))) html = infoPage(m[1]);
   else if (h === 'rituals') html = ritualsPage();
   else if (h === 'advent') html = adventPage();
@@ -1126,6 +1181,7 @@ function route(){
   if (document.getElementById('results')) applyFilters(true);
   closeLayer(); window.scrollTo(0,0); lazy(app);
   document.querySelectorAll('nav.main .item>a').forEach(a=>{ const k = a.getAttribute('href').slice(1); a.classList.toggle('on', h===k || (h.startsWith('scent-') && k==='c-fragrance') || (h.startsWith('concern-') && k==='c-skincare')); });
+  if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]) { seen = [m[1], ...seen.filter(x=>x!==m[1])].slice(0,12); store.set('swansura-seen', seen); }
   const sb = document.getElementById('stickybar');
   if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]] && byId[m[1]].available) { const p = byId[m[1]]; sb.innerHTML = `<span class="t">${esc(cleanTitle(p))} · ${fmt(p.price)}</span><button class="btn solid" style="height:44px" data-add="${p.id}">Add to bag</button>`; sb.classList.add('show'); }
   else sb.classList.remove('show');
@@ -1138,19 +1194,26 @@ document.addEventListener('click', e => {
   const nt = e.target.closest('[data-notify]'); if (nt){ toast('Thanks. We will email you when the ' + (nt.dataset.notify==='skin'?'Skin':'Scent') + ' Studio Advent launches'); return; }
   const sa = e.target.closest('[data-showall]'); if (sa){ const o = sa.previousElementSibling; const open = o.classList.toggle('all'); sa.textContent = open ? 'Show fewer' : sa.dataset.label || sa.textContent; if (open) sa.dataset.label = sa.dataset.label || ('Show all ' + o.children.length); return; }
   const s = e.target.closest('[data-suggest]'); if (s){ const q = document.getElementById('q'); q.value = s.dataset.suggest; q.dispatchEvent(new Event('input')); return; }
+  const wb = e.target.closest('[data-wish]');
+  if (wb){ e.preventDefault(); const id = wb.dataset.wish, on = !wish.includes(id); wish = on ? [id, ...wish] : wish.filter(x=>x!==id); saveWish();
+    document.querySelectorAll(`[data-wish="${id}"]`).forEach(b=>{ b.setAttribute('aria-pressed', String(on)); b.setAttribute('aria-label', (on?'Remove from':'Save to')+' wishlist'); });
+    toast(on ? 'Saved to your wishlist' : 'Removed from your wishlist'); if (location.hash==='#wishlist' && !on) route(); return; }
+  if (e.target.closest('#openAccount')){ toast('In the live store this opens sign in / create account'); return; }
+  if (e.target.closest('[data-offer-close]')){ document.getElementById('offer')?.remove(); store.set('swansura-offer', 1); return; }
   const chip = e.target.closest('[data-chip]');
   if (chip){ document.querySelectorAll('#filters input[data-f="sub"]').forEach(i=>{ i.checked = chip.dataset.chip!=='' && i.value===chip.dataset.chip; }); applyFilters(true); return; }
   const rv = e.target.closest('[data-review]');
   if (rv){ toast(rv.dataset.review==='q' ? 'Questions are answered by our team within a working day' : 'In the live store this opens the review form for verified buyers'); return; }
-  const t = e.target.closest('[data-add],[data-addall],[data-addq],[data-rm],[data-close],[data-tab],[data-frame],[data-q],[data-jump],#openBag,#openSearch,#burger,#checkoutBtn,#ftoggle,#loadMore');
+  const t = e.target.closest('[data-add],[data-addall],[data-addq],[data-buynow],[data-rm],[data-close],[data-tab],[data-frame],[data-q],[data-jump],#openBag,#openSearch,#burger,#checkoutBtn,#ftoggle,#loadMore');
   if (!t) { if (e.target.closest('.drawer-nav a')) closeLayer(); return; }
   if (t.dataset.add){ e.preventDefault(); addToBag(t.dataset.add); }
   else if (t.dataset.addall){ t.dataset.addall.split(',').forEach(id=>addToBag(id,1,true)); toast('Ritual added to your bag'); openBag(); }
-  else if (t.dataset.addq){ const p = byId[t.dataset.addq]; if (!p.available){ toast("We'll email you when it's back"); return; }
+  else if (t.dataset.addq || t.dataset.buynow){ const bn = !!t.dataset.buynow, p = byId[t.dataset.addq || t.dataset.buynow]; if (!p.available){ toast("We'll email you when it's back"); return; }
     const pk = document.querySelector('input[name="pack"]:checked')?.value || 'single', q = +document.getElementById('qty').value;
     if (pk==='duo'){ addToBag(p.id, 2*q, true); toast('Duo added · 10% pack saving applied at checkout'); openBag(); }
     else if (pk==='routine'){ const ids = [...document.querySelectorAll('.complete .it')].map(a=>a.getAttribute('href').slice(3)); ids.forEach(id=>addToBag(id, q, true)); toast('Routine added · 10% pack saving applied at checkout'); openBag(); }
-    else addToBag(p.id, q); }
+    else addToBag(p.id, q, bn);
+    if (bn){ openBag(); toast('In the live store, Buy it now goes straight to Shopify checkout'); } }
   else if (t.dataset.rm){ bag = bag.filter(l=>l.id!==t.dataset.rm); saveBag(); openBag(); }
   else if ('close' in t.dataset){ closeLayer(); }
   else if (t.dataset.tab){ document.querySelectorAll('.tabs [data-tab]').forEach(b=>b.setAttribute('aria-selected', b===t)); const g = document.getElementById('bestGrid'); g.innerHTML = document.getElementById('best-'+t.dataset.tab).innerHTML; lazy(g); }
@@ -1168,6 +1231,10 @@ document.addEventListener('keydown', e => { if (e.key==='Escape') closeLayer(); 
 document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
 document.getElementById('newsForm').addEventListener('submit', e => { e.preventDefault(); e.target.hidden = true; document.getElementById('newsMsg').hidden = false; });
 window.addEventListener('hashchange', route);
+setTimeout(() => { if (store.get('swansura-offer','0')) return; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
+  d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>10% off your first order</h3><p>Join the Studio Letter for new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Get my 10%</button></form><small>Unsubscribe any time.</small>`;
+  d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Your welcome code is on its way.</p>'; store.set('swansura-offer', 1); });
+  document.body.appendChild(d); }, 7000);
 
 fetch('products.json').then(r=>r.json()).then(data => {
   P = data.map(p => ({...p, id:String(p.id), tags:p.tags||[], desc:p.desc||'', frames:p.frames||1}));
@@ -1176,7 +1243,7 @@ fetch('products.json').then(r=>r.json()).then(data => {
   document.getElementById('mainNav').innerHTML = navHTML();
   document.getElementById('footer').innerHTML = footerHTML();
   lazy(document.getElementById('mainNav'));
-  saveBag(); route();
+  saveBag(); saveWish(); route();
 }).catch(() => { document.getElementById('app').innerHTML = '<div class="wrap" style="padding-block:120px;text-align:center">The product catalogue could not load. Refresh to try again.</div>'; });
 </script>
 
