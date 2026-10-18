@@ -561,7 +561,6 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .bcard .bi{display:block;border-radius:calc(var(--r) - 4px);overflow:hidden}.bcard .bi .pic{aspect-ratio:1;mix-blend-mode:multiply}
 .brandmore{display:flex;flex-wrap:wrap;gap:8px 22px;padding-top:22px;font-size:14px;color:var(--ink-2)}.brandmore a:hover{color:var(--ink)}.brandmore .all{color:var(--ink);font-weight:600}
 @media (max-width:900px){.brandcards{grid-template-columns:1fr 1fr}.bcard{grid-template-columns:1fr;padding:16px}.bcard .bi{display:none}}
-footer .fmark{font-family:var(--display);font-weight:800;font-size:clamp(64px,17.5vw,270px);line-height:.78;letter-spacing:.04em;text-align:center;color:rgba(244,238,228,.07);overflow:hidden;white-space:nowrap;padding-top:12px;user-select:none}
 @media (max-width:720px){.steps.rail{grid-auto-columns:70%}.ingcards.rail{grid-auto-columns:40%}.catrow.rail{grid-auto-columns:27%}}
 .proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
 /* ---------- Royal emerald: silk surfaces + gold ribbon on every page ---------- */
@@ -579,7 +578,21 @@ footer .fmark{font-family:var(--display);font-weight:800;font-size:clamp(64px,17
 .news{background:var(--ribbon) no-repeat right -120px center/auto 150%,var(--silk);border-top:1px solid rgba(181,132,58,.5)}
 footer.site{background:var(--ribbon) no-repeat right -470px bottom -60px/auto 105%,linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75)),var(--silk);color:#C9D6CF}
 footer.site .legal{border-top-color:rgba(181,132,58,.35)}footer details.fcol{border-color:rgba(181,132,58,.3)!important}
-footer .fmark{color:transparent;background:linear-gradient(180deg,rgba(233,203,142,.22),rgba(181,132,58,.04));-webkit-background-clip:text;background-clip:text}
+@property --mx{syntax:'<percentage>';inherits:false;initial-value:50%}
+@property --my{syntax:'<percentage>';inherits:false;initial-value:50%}
+footer .fmark-wrap{container-type:inline-size;position:relative;overflow:hidden;padding-bottom:clamp(16px,3vw,40px)}
+footer .fmark{--g:.07;font-family:var(--display);font-weight:800;font-size:15.6cqw;line-height:1.02;letter-spacing:.04em;padding-left:.04em;text-align:center;white-space:nowrap;user-select:none;color:transparent;
+  background-image:radial-gradient(circle at var(--mx) var(--my),rgba(255,240,205,.95) 0,rgba(226,190,126,.8) 7%,rgba(181,132,58,.38) 17%,transparent 34%),
+    radial-gradient(rgba(255,238,196,var(--g)) .7px,transparent 1.3px),radial-gradient(rgba(233,203,142,var(--g)) .6px,transparent 1.2px),
+    linear-gradient(180deg,rgba(233,203,142,.34),rgba(181,132,58,.10));
+  background-size:auto,7px 7px,11px 11px,auto;background-position:0 0,0 0,3px 5px,0 0;
+  -webkit-background-clip:text;background-clip:text;animation:fsweep 7s ease-in-out infinite,twinkle 1.4s steps(5) infinite;transition:--g .4s}
+footer .fmark-wrap.live .fmark{--g:.55;animation:twinkle .9s steps(5) infinite}
+@keyframes fsweep{0%{--mx:-15%;--my:40%}50%{--mx:115%;--my:60%}100%{--mx:-15%;--my:40%}}
+@keyframes twinkle{0%{background-position:0 0,0 0,3px 5px,0 0}100%{background-position:0 0,7px 4px,-8px 9px,0 0}}
+.spark{position:absolute;width:var(--s,10px);height:var(--s,10px);pointer-events:none;transform:translate(-50%,-50%);background:radial-gradient(circle,#FFF4D6 0,#E9CB8E 35%,#B5843A 70%);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);animation:spark .8s ease-out forwards;filter:drop-shadow(0 0 4px rgba(233,203,142,.9))}
+@keyframes spark{0%{opacity:0;transform:translate(-50%,-50%) scale(.2) rotate(0)}30%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx,0px)),calc(-50% + var(--dy,0px))) scale(1) rotate(90deg)}}
+@media (prefers-reduced-motion:reduce){footer .fmark{animation:none}.spark{display:none}}
 .studio.scent,.advent.scent,.dn-feat .sc{background:var(--silk-oud)}
 /* page headers: emerald silk with the gold ribbon (fragrance keeps oud silk) */
 .pagehead,.pagehead:not(.dark){background:var(--ribbon) no-repeat right -300px top -30px/auto 210%,var(--silk);color:var(--on-dark);border:0;padding:clamp(32px,4.5vw,56px) var(--gutter);margin-top:16px;border-radius:var(--r);overflow:hidden}
@@ -1355,7 +1368,7 @@ function footerHTML(){
     <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Brands</h5></summary>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Popular searches</h5></summary>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Help</h5></summary><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a></details>
-  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="fmark" aria-hidden="true">SWANSURA</div>`;
+  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
 }
 
 /* ---------- Router ---------- */
@@ -1439,6 +1452,17 @@ document.addEventListener('keydown', e => { if (e.key==='Escape') closeLayer(); 
 document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
 document.getElementById('newsForm').addEventListener('submit', e => { e.preventDefault(); e.target.hidden = true; document.getElementById('newsMsg').hidden = false; });
 window.addEventListener('hashchange', route);
+/* Footer wordmark: gold glint follows the cursor and throws a few sparkles */
+(() => { let last = 0; const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.addEventListener('pointermove', e => { const w = e.target.closest && e.target.closest('.fmark-wrap'); if (!w || e.pointerType === 'touch') return;
+    const r = w.getBoundingClientRect(), m = w.querySelector('.fmark'), x = e.clientX - r.left, y = e.clientY - r.top;
+    w.classList.add('live'); m.style.setProperty('--mx', (x / r.width * 100) + '%'); m.style.setProperty('--my', (y / r.height * 100) + '%');
+    const now = performance.now(); if (calm || now - last < 45) return; last = now;
+    const sp = document.createElement('i'); sp.className = 'spark'; sp.style.left = x + 'px'; sp.style.top = y + 'px';
+    sp.style.setProperty('--s', (6 + Math.random() * 12) + 'px'); sp.style.setProperty('--dx', (Math.random() * 40 - 20) + 'px'); sp.style.setProperty('--dy', (Math.random() * 30 - 22) + 'px');
+    w.appendChild(sp); setTimeout(() => sp.remove(), 820); });
+  document.addEventListener('pointerout', e => { const w = e.target.closest && e.target.closest('.fmark-wrap'); if (w && !w.contains(e.relatedTarget)){ w.classList.remove('live'); const m = w.querySelector('.fmark'); m.style.removeProperty('--mx'); m.style.removeProperty('--my'); } });
+})();
 function showOffer(){ if (showOffer.done || store.get('swansura-offer','0')) return; showOffer.done = true; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
   d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>10% off your first order</h3><p>Join the Studio Letter for new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Get my 10%</button></form><small>Unsubscribe any time.</small>`;
   d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Your welcome code is on its way.</p>'; store.set('swansura-offer', 1); });
