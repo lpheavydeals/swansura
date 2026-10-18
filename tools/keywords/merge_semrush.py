@@ -1,14 +1,20 @@
-"""Merge Semrush Keyword Overview exports (Batch_N_UK_keywords.xlsx) into Swansura_Keyword_Research.xlsx."""
+"""Merge Semrush Keyword Overview exports into Swansura_Keyword_Research.xlsx.
+Pass ALL exports every time (Tier 1 Batch_N_UK_keywords.xlsx + Tier 2 Tier2_Batch_N_UK_keywords.xlsx): the Semrush Data tab is rebuilt from them."""
 import openpyxl, glob, re, sys
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter as L
 WB, EXPORTS = sys.argv[1], sys.argv[2:]
 A = 'Arial'; F = Font(name=A, size=10); B = Font(name=A, size=10, bold=True); H = Font(name=A, bold=True, color='FFFFFF', size=10); HF = PatternFill('solid', fgColor='1F3B34')
 wb = openpyxl.load_workbook(WB)
-batches = {i+1: [c for c in col[1:] if c] for i, col in enumerate(wb['Semrush Batches'].iter_cols(values_only=True))}
+batches = {}
+for col in wb['Semrush Batches'].iter_cols(values_only=True):
+    h = str(col[0] or '')
+    key = f"T2-{h.split()[-1]}" if h.startswith('T2 Batch') else (int(h.split()[1]) if h.startswith('Batch') else None)
+    if key is not None: batches[key] = [c for c in col[1:] if c]
 rows = {}
 for f in EXPORTS:
-    n = int(re.search(r'Batch_(\d+)', f).group(1)); want = batches[n]
+    m2 = re.search(r'Tier2_Batch_(\d+)', f)
+    n = f'T2-{m2.group(1)}' if m2 else int(re.search(r'Batch_(\d+)', f).group(1)); want = batches[n]
     data = list(openpyxl.load_workbook(f, data_only=True).worksheets[0].iter_rows(values_only=True))
     hdr = [str(h or '').lower() for h in data[0]]
     col = lambda *names: next((i for i, h in enumerate(hdr) for nm in names if h.startswith(nm)), None)
@@ -38,7 +44,7 @@ for c, w in zip('ABCDEFGH', [52,24,10,10,10,11,7,70]): ws.column_dimensions[c].w
 ws.freeze_panes = 'A2'; ws.auto_filter.ref = f'A1:H{len(rows)+1}'
 # currency is USD in this Semrush account
 p = wb['Products']; ph = [c.value for c in p[1]]
-pc = ph.index('Primary CPC') + 1
+pc = next(i for i, h in enumerate(ph) if str(h).startswith('Primary CPC')) + 1
 for r in range(2, p.max_row + 1): p.cell(row=r, column=pc).number_format = '$0.00'
 p.cell(row=1, column=pc).value = 'Primary CPC ($)'
 k = wb['Keyword List']; k.cell(row=1, column=9).value = 'CPC ($)'
