@@ -178,7 +178,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 @media (hover:none){.card .quick{opacity:1;transform:none;position:static}}
 .card .brand{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600}
 .card .name{font-family:var(--display);font-size:16px;font-weight:600;line-height:1.3}
-.card .meta{font-size:13px;color:var(--ink-2)}
+.card .meta{font-size:13px;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .price{display:flex;gap:10px;align-items:baseline;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;flex-wrap:wrap}
 .price s{color:var(--ink-2);font-weight:400}
 .price .off{color:var(--sale);font-size:12px;letter-spacing:.06em}
@@ -247,6 +247,7 @@ footer .logo{text-align:left;color:var(--on-dark)}
 .crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding-top:24px;display:flex;flex-wrap:wrap;gap:8px}
 .crumbs a:hover{color:var(--ink)}
 .pagehead{padding-block:28px 40px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;border-bottom:1px solid var(--line)}
+.pagehead:not(.dark){background:var(--mount);border:0;padding:40px var(--gutter);margin-top:16px}
 .pagehead.dark{background:var(--emerald);color:var(--on-dark);border:0;padding:48px var(--gutter);margin-top:16px}
 .pagehead.dark.oud{background:var(--oud)}
 .pagehead.dark .lede{color:var(--on-dark-2)}
@@ -444,6 +445,13 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .vb{display:inline-flex;gap:4px;align-items:center;font-size:12px;color:var(--emerald);font-weight:600}
 .sk{display:block;height:10px;border-radius:5px;background:var(--mount);width:100%}
 .typechips{display:flex;gap:8px;flex-wrap:wrap;padding-top:18px}
+@media (max-width:720px){.typechips{flex-wrap:nowrap;overflow-x:auto;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter);scrollbar-width:none}.typechips::-webkit-scrollbar{display:none}.typechips button{white-space:nowrap;flex:none}}
+.active{display:flex;flex-wrap:wrap;gap:8px;margin:-6px 0 18px}
+.active button{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--ink);font-size:13px;border-radius:999px;background:var(--card)}
+.active button.clear{border-color:transparent;text-decoration:underline;text-underline-offset:3px;background:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.related{display:flex;flex-direction:column;gap:28px;padding-block:8px 56px;border-top:1px solid var(--line);margin-top:40px;padding-top:32px}
+.related .kwchips>div a{border-radius:999px}
 .typechips button{padding:8px 16px;border:1px solid var(--line);background:var(--card);font-size:13px;border-radius:999px;transition:all .2s}
 .typechips button small{color:var(--ink-2);margin-left:4px}
 .typechips button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}.typechips button[aria-pressed="true"] small{color:var(--on-dark-2)}
@@ -702,7 +710,8 @@ function trustStrip(){ return `<div class="trust"><div class="wrap"><div>${icon.
 function card(p){
   const partner = BR[p.brand]?.partner;
   const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : isPick(p) ? '<span class="badge pick">Studio pick</span>' : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
-  const meta = p.cat === 'fragrance' ? (FAMILIES[family(p)][0] + ' · ' + subtype(p)) : (bullets(p)[0] || paras(p)[0] || subtype(p)).split(/[:.–]/)[0].slice(0,60);
+  const src = [bullets(p)[0], paras(p)[0]].find(x => x && !/^\s*["“‘']/.test(x)) || subtype(p);
+  const meta = p.cat === 'fragrance' ? (FAMILIES[family(p)][0] + ' · ' + subtype(p)) : src.split(/[:.–]/)[0].trim().slice(0,70);
   return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${heartBtn(p)}${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
 }
 function grid(list){ return `<div class="grid-p">${list.map(card).join('')}</div>`; }
@@ -990,7 +999,8 @@ function listing(kind, key){
   if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £50.'; eyebrow = k.grp; list = kwList(k); faq = k.faq || []; crumbs.push([title]); }
   if (kind === 'range'){ const r = RANGES[key]; if(!r) return notFound(); title = r[0] + ' range'; intro = `${r[1]}. Every product at Swansura made with ${r[0].toLowerCase()}, across skincare, body, hair and fragrance.`; eyebrow = 'Ranges loved by you'; list = rangeList(key); crumbs.push(['Ranges','#home'],[title]); }
   if (kind === 'scent'){ const f = FAMILIES[key]; if(!f) return notFound(); title = f[0] + ' fragrances'; intro = `${f[1]}. Explore ${f[0].toLowerCase()} perfumes from niche, Arabian and designer houses.`; eyebrow = 'Scent family'; list = P.filter(p=>p.cat==='fragrance' && family(p)===key); dark='oud'; crumbs.push(['Fragrance','#c-fragrance'],[title]); }
-  list = [...list].sort((a,b) => b.available - a.available);
+  const rank = p => (p.available?0:8) + (isPick(p)?0:4) + (BR[p.brand]?.partner?0:2) + (p.compare?0:1);
+  list = [...list].sort((a,b) => rank(a) - rank(b));
   current = list;
   const brands = [...new Set(list.map(p=>p.brand))].sort((a,b)=>BR[b].count-BR[a].count);
   const subs = [...new Set(list.map(subtype))];
@@ -1007,9 +1017,7 @@ function listing(kind, key){
   const facet = kind==='c' && key==='fragrance' ? Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('') : kind==='c' && CATS[key].world==='skin' && key!=='all' ? Object.keys(CONCERNS).filter(k=>P.some(p=>inCat(p,key)&&p.tags.includes(k))).map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('') : '';
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">${crumbs.map(c=>c[1]?`<a href="${c[1]}">${c[0]}</a><span>/</span>`:`<span style="color:var(--ink)">${c[0]}</span>`).join('')}</nav></div>
   <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${eyebrow}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${title}</h1></div><p class="lede">${intro}</p></div>
-  ${facet?`<div class="subnav">${facet}</div>`:''}
   ${topSubs.length>1?`<div class="typechips" role="group" aria-label="Quick filter by type"><button data-chip="" aria-pressed="true">All ${list.length}</button>${topSubs.map(([s,c])=>`<button data-chip="${esc(s)}" aria-pressed="false">${esc(s)} <small>${c}</small></button>`).join('')}</div>`:''}
-  ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return ks.length ? `<div style="padding-top:16px">${kwChips(ks)}</div>` : ''; })()}
   <div class="listing">
     <aside class="filters" id="filters" aria-label="Filters">
       <div><h4>Type</h4><div class="opts">${subs.map((s,i)=>`<label class="${i>=8?'extra':''}"><input type="checkbox" data-f="sub" value="${esc(s)}">${esc(s)}</label>`).join('')}</div>${subs.length>8?`<button class="showall" data-showall>Show all ${subs.length}</button>`:''}</div>
@@ -1020,9 +1028,10 @@ function listing(kind, key){
     </aside>
     <div style="min-width:0">
       <div class="toolbar"><span><button class="ftoggle link" id="ftoggle">Filters</button> <span id="count">${list.length}</span> products</span><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div>
-      <div id="results"></div>
+      <div id="active" class="active" hidden></div><div id="results"></div>
     </div>
   </div>
+  ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return facet || ks.length ? `<div class="related">${facet?`<div class="kwchips"><span class="eyebrow">${kind==='c'&&key==='fragrance'?'Shop by scent family':'Shop by concern'}</span><div>${facet}</div></div>`:''}${kwChips(ks)}</div>` : ''; })()}
   ${faq.length?`<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${title} questions</h2></div><div class="faq">${faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`:''}
   <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="related">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
   </div>`;
@@ -1046,6 +1055,9 @@ function applyFilters(reset){
   if (stock) list = list.filter(p=>p.available);
   const s = document.getElementById('sort').value;
   if (s==='low') list.sort((a,b)=>a.price-b.price); if (s==='high') list.sort((a,b)=>b.price-a.price); if (s==='az') list.sort((a,b)=>cleanTitle(a).localeCompare(cleanTitle(b)));
+  const act = document.getElementById('active');
+  if (act){ const on = [...document.querySelectorAll('#filters input:checked')]; act.hidden = !on.length;
+    act.innerHTML = on.map(i=>`<button data-unf="${esc(i.dataset.f)}|${esc(i.value)}">${esc(i.parentElement.firstChild.nextSibling.textContent.trim())} <span aria-hidden="true">×</span><span class="sr">Remove filter</span></button>`).join('') + (on.length>1?'<button class="clear" data-unf="*">Clear all</button>':''); }
   filtered = list; if (reset) shown = PAGE;
   res.innerHTML = list.length ? grid(list.slice(0, shown)) + (list.length > shown ? `<div class="more"><span>Showing ${shown} of ${list.length}</span><button class="btn" id="loadMore">Load more</button></div>` : '') : '<p style="color:var(--ink-2);padding:40px 0">No products match these filters.</p>';
   document.getElementById('count').textContent = list.length;
@@ -1062,7 +1074,7 @@ function brandPage(slug){
     <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 style="font-size:clamp(40px,5.6vw,80px)">${esc(b)}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div><a class="btn light" href="#allp">Shop all ${B.count} products</a></div></div>
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
-  <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="results"></div></div></section>
+  <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
   <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell" href="#b-${BR[k].slug}"><span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
 }
 function brandsAZ(){
@@ -1243,6 +1255,8 @@ document.addEventListener('click', e => {
   if (e.target.closest('#openAccount')){ toast('In the live store this opens sign in / create account'); return; }
   if (e.target.closest('[data-offer-close]')){ document.getElementById('offer')?.remove(); store.set('swansura-offer', 1); return; }
   const chip = e.target.closest('[data-chip]');
+  const unf = e.target.closest('[data-unf]');
+  if (unf){ const [f,v] = unf.dataset.unf.split('|'); document.querySelectorAll('#filters input:checked').forEach(i=>{ if (f==='*' || (i.dataset.f===f && i.value===v)) i.checked = false; }); applyFilters(true); return; }
   if (chip){ document.querySelectorAll('#filters input[data-f="sub"]').forEach(i=>{ i.checked = chip.dataset.chip!=='' && i.value===chip.dataset.chip; }); applyFilters(true); return; }
   const rv = e.target.closest('[data-review]');
   if (rv){ toast(rv.dataset.review==='q' ? 'Questions are answered by our team within a working day' : 'In the live store this opens the review form for verified buyers'); return; }
