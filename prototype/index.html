@@ -542,7 +542,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .ingcards{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}
 .ingcard{display:flex;flex-direction:column;gap:3px;padding:14px 12px 12px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);transition:border-color .2s}
 .ingcard:hover{border-color:var(--emerald)}
-.ingcard b{font-family:var(--display);font-size:16px;font-weight:700}.ingcard small{font-size:12px;color:var(--ink-2);line-height:1.35;min-height:2.7em}
+.ingcard b{font-family:var(--display);font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ingcard small{font-size:12px;color:var(--ink-2);line-height:1.35;height:2.7em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ingcard .ii{display:block;margin-top:10px;border-radius:calc(var(--r) - 4px);overflow:hidden}.ingcard .ii .pic{aspect-ratio:1;mix-blend-mode:multiply}
 @media (max-width:1100px){.ingcards{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
@@ -1083,7 +1083,7 @@ function home(){
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Ranges loved by you</div><h2>Shop by hero ingredient</h2></div></div>
-    <div class="ingcards rail">${Object.entries(RANGES).map(([k,[n,d]],i)=>{ const l = rangeList(k); const p = (k!=='oud' && l.find(x=>x.available && x.cat!=='fragrance')) || l.find(x=>x.available) || l[0]; return p ? `<a class="ingcard" href="#range-${k}"><b>${n}</b><small>${d}</small><span class="ii" style="background:var(--tint-${i%6+1})">${pic(p)}</span></a>` : ''; }).join('')}</div>
+    <div class="ingcards rail">${Object.entries(RANGES).map(([k,[n,d]],i)=>{ const l = rangeList(k); const p = (k!=='oud' && l.find(x=>x.available && x.cat!=='fragrance')) || l.find(x=>x.available) || l[0]; const short = {neem:['Neem','With tea tree, clarifying']}[k] || [n,d]; return p ? `<a class="ingcard" href="#range-${k}"><b>${short[0]}</b><small>${short[1]}</small><span class="ii" style="background:var(--tint-${i%6+1})">${pic(p)}</span></a>` : ''; }).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by concern</div><h2>What does your skin need?</h2></div></div>
