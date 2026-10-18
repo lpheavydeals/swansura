@@ -525,7 +525,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 }
 @media (min-width:721px){.searches summary{pointer-events:none;list-style:none}.searches summary::-webkit-details-marker{display:none}}
 /* Category row, concern / ingredient / step / brand cards */
-.catrow-sec{padding-block:48px 8px}
+.catrow-sec{padding-block:48px 64px}
 .catrow{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:14px}
 .cat{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;font-size:13px;font-weight:500}
 .cat .ci{display:block;width:100%;aspect-ratio:1;border-radius:var(--r);overflow:hidden;transition:transform .25s}.cat .ci .pic{aspect-ratio:1;mix-blend-mode:multiply}
@@ -1055,10 +1055,6 @@ function home(){
     <div class="sec-head"><div><div class="eyebrow">Shop by category</div><h2>Find your shelf</h2></div><a class="link" href="#c-all">Shop all ${P.length}</a></div>
     <div class="catrow rail">${[['Face wash','k','face-wash'],['Serums','k','face-serum'],['Moisturisers','k','moisturiser'],['Sunscreen','k','sunscreen'],['Lip care','k','lip-balm'],['Hair oil','k','hair-oil'],['Shampoo','k','shampoo'],['Body butter','k','body-butter'],['Fragrance','c','fragrance'],['Gift sets','c','gifts']].map(([n,t,k],i)=>{ const l = t==='k' ? (KWBY[k] ? kwList(KWBY[k]) : []) : P.filter(p=>inCat(p,k)); const im = t==='c' ? tileP(k) : pickImg(l); return im ? `<a class="cat" href="#${t}-${k}"><span class="ci" style="background:var(--tint-${i%6+1})">${pic(im)}</span><span>${n}</span></a>` : ''; }).join('')}</div>
   </div></section>
-  <section style="padding-bottom:0"><div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow">Christmas 2026 · Advent calendars</div><h2>Two calendars. Twelve days of rituals.</h2></div><a class="link" href="#advent">Choose your advent</a></div>
-    <div class="advents" style="padding-top:0">${ADVENT.map(adventData).map(d=>adventCard(d,true)).join('')}</div>
-  </div></section>
   <section class="studios"><div class="grid">
     <div class="studio skin"><span class="mark">Skin</span><div class="eyebrow">The Skin Studio</div><h2>Natural care, from farm to skin</h2><p>${counts('skincare')+counts('haircare')+counts('bath-body')} products from Deyga, Vilvah, Highborn London and more. Cleansers, serums, lip care, hair and body.</p><div class="links"><a href="#c-skincare">Skincare</a><a href="#c-haircare">Haircare</a><a href="#c-bath-body">Bath &amp; Body</a><a href="#b-deyga">Deyga</a><a href="#b-vilvah">Vilvah</a></div></div>
     <div class="studio scent"><span class="mark">Scent</span><div class="eyebrow">The Scent Studio</div><h2>Niche, Arabian and designer perfume</h2><p>${counts('fragrance')} fragrances: Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari and more.</p><div class="links"><a href="#c-fragrance">All fragrance</a><a href="#scent-oud">Oud</a><a href="#scent-amber">Amber</a><a href="#b-tiziana-terenzi">Tiziana Terenzi</a><a href="#b-al-haramain">Al Haramain</a></div></div>
@@ -1098,6 +1094,10 @@ function home(){
     <div class="sec-head"><div><div class="eyebrow">Shop by brand</div><h2>The houses we carry</h2></div><a class="link" href="#brands">All ${Object.keys(BR).length} brands A–Z</a></div>
     <div class="brandcards">${topBrands(null,6).map((b,i)=>{ const im = pickImg(P.filter(p=>p.brand===b)); return `<a class="bcard" href="#b-${BR[b].slug}" style="background:var(--tint-${i%6+1})"><div><span class="bn">${esc(b)}</span><small class="${BR[b].partner?'p':''}">${BR[b].partner?'Official UK partner':esc(BR[b].line)}</small><span class="c">${BR[b].count} products →</span></div><span class="bi">${im?pic(im):''}</span></a>`; }).join('')}</div>
     <div class="brandmore">${topBrands(null,16).slice(6).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}<a href="#brands" class="all">All ${Object.keys(BR).length} brands A–Z →</a></div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Christmas 2026 · Advent calendars</div><h2>Two calendars. Twelve days of rituals.</h2></div><a class="link" href="#advent">Choose your advent</a></div>
+    <div class="advents" style="padding-top:0">${ADVENT.map(adventData).map(d=>adventCard(d,true)).join('')}</div>
   </div></section>
   <section style="padding-top:0"><div class="wrap story">
     <div class="imgs"><a href="#b-deyga">${pic(findP(/charcoal face wash/i)||lip, 1)}</a><a href="#b-deyga">${pic(findP(/shea saffron/i)||lip)}</a></div>
