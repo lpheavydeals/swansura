@@ -449,7 +449,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .types{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:20px;font-size:13px;color:var(--ink-2)}
 .types em{font-style:normal;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--ink)}
 .muted{color:var(--ink-2)}
-.pfaq{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
+.pfaq{border-top:1px solid var(--line);padding-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
 .reviews{border-top:1px solid var(--line);padding-block:48px 56px}
 .rv-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
 .rv-actions{display:flex;gap:10px;flex-wrap:wrap}
@@ -1285,7 +1285,6 @@ function productPage(id){
     <div><h2>Hero ingredients</h2>${ings.length?`<div class="ings">${ings.map(i=>`<div class="ing"><span class="dot">${esc(i[1][0])}</span><div><b>${esc(i[1])}</b><small>${esc(i[2])}</small></div></div>`).join('')}</div>`:'<p class="muted">The full ingredient list is printed on the pack.</p>'}</div>
     <div><h2>Key benefits</h2><ul class="kb">${kb.slice(0,5).map(x=>`<li>${icon.check}<span>${esc(x)}</span></li>`).join('')}</ul>${types.length?`<div class="types"><span>Suits</span>${types.map(t=>`<em>${t==='All'?'All types':t}</em>`).join('')}</div>`:''}</div>
   </div></section>` : ''}
-  <section class="pfaq"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   <section class="reviews" id="reviews"><div class="rv-head"><div><div class="eyebrow">Reviews</div><h2 style="margin-top:10px">What customers say</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button><button class="btn" data-review="q">Ask a question</button></div></div>
     <div class="rv-grid">
       <div class="rv-sum"><div class="avg">—</div>${stars(0)}<small>No reviews yet</small><div class="bars">${[5,4,3,2,1].map(n=>`<div><span>${n}★</span><i><b style="width:0"></b></i><span>0</span></div>`).join('')}</div></div>
@@ -1298,6 +1297,7 @@ function productPage(id){
   ${sameBrand.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">More from ${esc(p.brand)}</div><h2>From the same house</h2></div><a class="link" href="#b-${brandSlug(p.brand)}">Shop all ${B.count} ${esc(p.brand)}</a></div>${grid(sameBrand.slice(0,4))}</section>`:''}
   ${(() => { const rv = seen.filter(id=>id!==p.id && byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Picking up where you left off</div><h2>Recently viewed</h2></div></div>${grid(rv)}</section>` : ''; })()}
   ${similar.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">You may also like</div><h2>${p.cat==='fragrance'?'Similar scents':'More '+cat.name.toLowerCase()}</h2></div><a class="link" href="#c-${p.cat}">View all</a></div>${grid(similar)}</section>`:''}
+  <section class="pfaq"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   </div>`;
 }
 function journalPage(){
