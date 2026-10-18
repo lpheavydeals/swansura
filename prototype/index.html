@@ -91,7 +91,14 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 @media (max-width:900px){nav.main{display:none}.burger{display:inline-flex}.hleft .txt,.hright .txt{display:none}}
 @media (max-width:600px){#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
 .drawer-nav{position:fixed;inset:0;z-index:60;background:var(--paper);padding:24px var(--gutter);overflow:auto}
-.drawer-nav a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;letter-spacing:.12em;text-transform:uppercase}
+.drawer-nav>a,.dn-g summary{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line);font-size:17px;cursor:pointer;list-style:none}
+.dn-g summary::-webkit-details-marker{display:none}.dn-g summary::after{content:'+';color:var(--brass);font-size:20px;line-height:1}.dn-g[open] summary::after{content:'–'}
+.dn-in{display:flex;flex-direction:column;padding:4px 0 14px 2px;border-bottom:1px solid var(--line)}.dn-in a{padding:8px 0;color:var(--ink-2);font-size:15px}.dn-in a:first-child{color:var(--ink);font-weight:600}.dn-in .eyebrow{margin:12px 0 2px}
+.dn-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.dn-top .logo{text-align:left}
+.dn-search{display:flex;align-items:center;gap:10px;width:100%;height:46px;padding:0 14px;border:1px solid var(--line);background:var(--card);color:var(--ink-2);font-size:14px;margin-bottom:14px}.dn-search svg{width:16px;height:16px}
+.dn-feat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:8px}.dn-feat a{padding:16px 14px;display:flex;flex-direction:column;gap:6px;color:var(--on-dark);min-height:96px;justify-content:flex-end}.dn-feat .sk{background:var(--emerald)}.dn-feat .sc{background:var(--oud)}.dn-feat .eyebrow{color:#E6D3A8;font-size:10px}.dn-feat b{font-size:17px;font-weight:600}
+.drawer-nav>a.dn-advent{color:var(--brass);font-weight:600}.dn-advent small{font-weight:400;color:var(--ink-2);font-size:12px}
+.dn-foot{display:flex;flex-direction:column;gap:2px;padding-top:18px}.dn-foot a{padding:7px 0;font-size:14px;color:var(--ink-2)}.dn-foot p{font-size:12px;color:var(--ink-2);margin-top:10px}
 
 .trust{border-block:1px solid var(--line);background:var(--card)}
 .trust .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding-block:20px}
@@ -242,6 +249,18 @@ footer a{display:block;padding:3px 0}
 footer a:hover{color:var(--on-dark)}
 footer .legal{border-top:1px solid #3A332E;padding-block:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px}
 footer .logo{text-align:left;color:var(--on-dark)}
+footer .fpromise{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:13px}
+footer .fpromise li::before{content:'✓';color:#E6D3A8;margin-right:8px}
+footer .social{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:var(--on-dark)}
+footer summary{list-style:none}footer summary::-webkit-details-marker{display:none}
+footer .legal .lg{display:flex;gap:8px 20px;flex-wrap:wrap;align-items:center}
+footer .legal nav{display:flex;gap:16px;flex-wrap:wrap}footer .legal nav a{padding:0;text-decoration:underline;text-underline-offset:3px}
+@media (min-width:721px){footer summary{pointer-events:none}}
+@media (max-width:720px){footer .cols{grid-template-columns:1fr!important;gap:0;padding-block:44px 24px}footer .cols>div:first-child{padding-bottom:24px}
+footer details.fcol{border-top:1px solid #3A332E}footer details.fcol:last-child{border-bottom:1px solid #3A332E}
+footer details.fcol summary{display:flex;justify-content:space-between;align-items:center;padding:16px 0;cursor:pointer}footer details.fcol summary h5{margin:0}
+footer details.fcol summary::after{content:'+';color:#E6D3A8;font-size:18px;line-height:1}footer details.fcol[open] summary::after{content:'–'}
+footer details.fcol[open]{padding-bottom:12px}footer details.fcol a{padding:6px 0}}
 @media (max-width:1000px){footer .cols{grid-template-columns:repeat(2,1fr)}}
 
 .crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding-top:24px;display:flex;flex-wrap:wrap;gap:8px}
@@ -482,6 +501,16 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .search input{width:100%;font-family:var(--display);font-size:clamp(22px,3vw,34px);font-weight:600;border:0;border-bottom:1px solid var(--ink);background:transparent;padding:10px 0;color:var(--ink)}
 .search input:focus{outline:none}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:12px 20px;font-size:14px;z-index:80}
+.toast.top{bottom:auto;top:16px;left:16px;right:auto;transform:none;max-width:min(380px,calc(100vw - 32px));background:var(--emerald)}
+.bag .line.just{animation:justin 1.6s ease-out}@keyframes justin{0%{background:#EEF5F1}100%{background:transparent}}
+@media (max-width:700px){.toast.top{left:16px;right:16px;max-width:none}}
+.bag .bq{display:flex;align-items:center;gap:14px;margin-top:6px}
+.qty.sm{height:32px}.qty.sm button{width:30px;font-size:16px}.qty.sm span{min-width:22px;display:grid;place-items:center;font-size:14px;font-variant-numeric:tabular-nums}
+.bag-note{font-size:12px;color:var(--ink-2);margin:-4px 0 0}
+.bag-trust{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--ink-2)}.bag-trust span{display:inline-flex;align-items:center;gap:5px}.bag-trust svg{width:14px;height:14px}
+.bag .pays{display:flex;flex-wrap:wrap;gap:5px;justify-content:center}.bag .pay{border-color:var(--line);color:var(--ink-2)}
+.bag-empty{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding-top:12px}.bag-empty p{color:var(--ink-2)}
+#checkoutBtn:disabled{opacity:.4;cursor:not-allowed}
 @media (max-width:720px){
 .rail{display:grid!important;grid-auto-flow:column;grid-template-columns:none!important;grid-auto-columns:44%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding:0 var(--gutter) 6px;scroll-padding-inline:var(--gutter);scrollbar-width:none;overscroll-behavior-x:contain}
 .rail::-webkit-scrollbar{display:none}.rail>*{scroll-snap-align:start}
@@ -668,23 +697,25 @@ function lazy(root = document){ root.querySelectorAll('.pic[data-bg]:not([data-s
 let bag = [];
 try { bag = JSON.parse(localStorage.getItem('swansura-bag') || '[]'); } catch(e) { bag = []; }
 function saveBag(){ bag = bag.filter(l => byId[l.id]); try { localStorage.setItem('swansura-bag', JSON.stringify(bag)); } catch(e){} document.getElementById('bagCount').textContent = bag.reduce((a,b)=>a+b.q,0); }
-function addToBag(id, q=1, silent){ const l = bag.find(x=>x.id===id); if (l) l.q += q; else bag.push({id, q}); saveBag(); if (!silent) { toast(cleanTitle(byId[id]) + ' added to your bag'); openBag(); } }
+function addToBag(id, q=1, silent){ const l = bag.find(x=>x.id===id); if (l) l.q += q; else bag.push({id, q}); saveBag(); if (!silent) { openBag(id); } }
 function bagTotal(){ return bag.reduce((a,l)=> a + (byId[l.id]?.price||0)*l.q, 0); }
-function toast(msg){ const t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); t.textContent = msg; document.body.appendChild(t); setTimeout(()=>t.remove(), 2400); }
+function toast(msg){ const t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); t.textContent = msg; document.body.appendChild(t); requestAnimationFrame(()=>{ if (document.querySelector('#layer .bag')) t.classList.add('top'); }); setTimeout(()=>t.remove(), 2400); }
 function closeLayer(){ document.getElementById('layer').innerHTML=''; document.body.style.overflow=''; }
-function openBag(){
+function openBag(justAdded){
   const total = bagTotal(), left = Math.max(0, 50 - total);
   const extras = P.filter(p => p.price < 12 && p.available && !bag.find(l=>l.id===p.id)).sort((a,b)=>a.price-b.price).slice(0,6);
   document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div>
   <aside class="bag" role="dialog" aria-label="Your bag">
     <header><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></header>
-    <div class="lines">${bag.length ? bag.map(l => { const p = byId[l.id]; return `<div class="line">${pic(p)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)">${esc(p.brand)}</div><a href="#p-${p.id}" data-close>${esc(cleanTitle(p))}</a><div style="color:var(--ink-2)">Qty ${l.q}</div><button class="rm" data-rm="${p.id}">Remove</button></div><div>${fmt(p.price*l.q)}</div></div>`; }).join('') : '<p style="color:var(--ink-2)">Your bag is empty. Start with our bestsellers.</p>'}</div>
+    <div class="lines">${bag.length ? bag.map(l => { const p = byId[l.id]; return `<div class="line${l.id===justAdded?' just':''}">${pic(p)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)">${esc(p.brand)}</div><a href="#p-${p.id}" data-close>${esc(cleanTitle(p))}</a><div class="bq"><div class="qty sm"><button data-bq="${p.id}|-1" aria-label="Decrease quantity">−</button><span>${l.q}</span><button data-bq="${p.id}|1" aria-label="Increase quantity">+</button></div><button class="rm" data-rm="${p.id}">Remove</button></div></div><div>${fmt(p.price*l.q)}</div></div>`; }).join('') : '<div class="bag-empty"><p>Your bag is empty.</p><a class="btn solid" href="#c-all" data-close>Shop bestsellers</a><a class="link" href="#rituals" data-close>Or start with a routine</a></div>'}</div>
     <div class="foot">
       <div class="delivery" style="border:0;padding:0;background:none"><span>${left>0 ? `You're <b>${fmt(left)}</b> away from free UK delivery` : '<b>You have free UK delivery</b>'}</span><div class="bar"><i style="width:${Math.min(100,total/50*100)}%"></i></div></div>
       ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(p=>`<div class="extra">${pic(p)}<span>${esc(cleanTitle(p))}</span><b>${fmt(p.price)}</b><button data-add="${p.id}">Add</button></div>`).join('')}</div></div>` : ''}
       <div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${fmt(total)}</b></div>
-      <button class="btn solid" id="checkoutBtn">Checkout securely</button>
-      <p style="font-size:12px;color:var(--ink-2);text-align:center">Apple Pay · Google Pay · PayPal · Shop Pay · Visa · Mastercard</p>
+      <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
+      <button class="btn solid" id="checkoutBtn" ${bag.length?'':'disabled'}>Checkout securely</button>
+      <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} 30-day returns</span><span>${icon.lock} Secure checkout</span></div>
+      <span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span>
     </div>
   </aside>`;
   document.body.style.overflow='hidden'; lazy(document.getElementById('layer'));
@@ -878,6 +909,10 @@ function infoPage(key){
     about:['About Swansura','Swansura – The Body Studio is a UK online store for natural skincare and fine fragrance. We are an official UK partner of Deyga and Vilvah, and we stock niche, Arabian and designer perfume houses including Tiziana Terenzi, Al Haramain, Hemel and Gucci. Every product is 100% authentic and shipped from the UK.'],
     delivery:['Delivery & returns','Free UK delivery on orders over £50. Orders are dispatched from the UK. Unopened items can be returned within 30 days for a refund. [Confirm dispatch times, delivery charges under £50 and the returns window with Swansura before launch.]'],
     faq:['FAQ','Are your products authentic? Yes. Every product is 100% authentic, and Swansura is an official UK partner of Deyga and Vilvah. Do you deliver outside the UK? [Confirm with Swansura.] How long does delivery take? [Confirm with Swansura.] Can I return a product? Unopened items within 30 days.'],
+    privacy:['Privacy policy','How Swansura collects, uses and protects your personal data, in line with UK GDPR. [In the live store this page is Shopify\'s privacy policy (Settings › Policies), reviewed by Swansura.]'],
+    terms:['Terms of service','The terms that apply when you shop at swansura.com. [In the live store this page is Shopify\'s terms of service (Settings › Policies), reviewed by Swansura.]'],
+    refunds:['Refund policy','Unopened items can be returned within 30 days for a refund to the original payment method. [Confirm the returns window and who pays return postage with Swansura; published from Settings › Policies.]'],
+    shipping:['Shipping policy','Orders ship from the UK, usually within 1–2 working days. Free UK delivery on orders over £50. [Confirm carriers, delivery charges under £50 and international shipping with Swansura.]'],
     contact:['Contact us','Questions about an order, a product or a fragrance recommendation? Message us on Instagram @swansura_thebodystudio or use the contact form. [Add Swansura\'s email, phone and business address.]']
   };
   const pg = pages[key]; if (!pg) return notFound();
@@ -1196,16 +1231,35 @@ function navHTML(){
   <div class="item"><a href="#c-all">Shop all</a></div>
   <div class="item"><a href="#journal">Journal</a></div>`;
 }
+function drawerNav(){
+  const L = (h, n) => `<a href="${h}">${n}</a>`;
+  const grp = (title, href, cols) => `<details class="dn-g"><summary>${title}</summary><div class="dn-in">${L(href, 'Shop all '+title.toLowerCase())}${cols.map(([h,links])=>`<span class="eyebrow">${h}</span>${links}`).join('')}</div></details>`;
+  const kw = ks => ks.filter(k=>KWBY[k]).map(k=>L('#k-'+k, KWBY[k].k)).join('');
+  return `<nav class="drawer-nav" aria-label="Menu">
+    <div class="dn-top"><a href="#home" class="logo"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></a><button data-close aria-label="Close menu">Close</button></div>
+    <button class="dn-search" id="drawerSearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search products, brands, concerns</span></button>
+    <div class="dn-feat"><a href="#c-skincare" class="sk"><span class="eyebrow">The Skin Studio</span><b>Natural skincare</b></a><a href="#c-fragrance" class="sc"><span class="eyebrow">The Scent Studio</span><b>Fine fragrance</b></a></div>
+    ${grp('Skincare','#c-skincare',[['By concern', ['acne','glow','hydration','lips','sun'].map(k=>L('#concern-'+k, CONCERNS[k][0])).join('')],['Most searched', kw(['moisturiser-for-dry-skin','face-wash-for-oily-skin','face-wash-for-dry-skin','natural-sunscreen'])]])}
+    ${grp('Haircare','#c-haircare',[['By concern', ['hairfall','dandruff'].map(k=>L('#concern-'+k, CONCERNS[k][0])).join('')],['Most searched', kw(['hair-oil-for-dry-hair','hair-growth-oil','shampoo-for-dandruff','shampoo-for-hair-loss'])]])}
+    ${L('#c-bath-body','Bath &amp; Body')}
+    ${grp('Fragrance','#c-fragrance',[['Scent family', Object.keys(FAMILIES).map(k=>L('#scent-'+k, FAMILIES[k][0])).join('')],['Houses', topBrands('scent',6).map(b=>L('#b-'+BR[b].slug, esc(b))).join('')]])}
+    ${L('#rituals','Routines')}
+    ${grp('Gifts &amp; Sets','#c-gifts',[['Christmas 2026', L('#advent','Advent calendars')+kw(['stocking-fillers'])],['By recipient &amp; price', kw(['gifts-for-her','gifts-for-him','gifts-under-25','gifts-25-to-50'])]])}
+    <a href="#advent" class="dn-advent">Advent calendars <small>Christmas 2026</small></a>
+    ${L('#brands','Brands A–Z')}${L('#journal','Journal')}
+    <div class="dn-foot"><a href="#wishlist">Wishlist</a><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-contact">Contact us</a><p>Official UK partner of Deyga &amp; Vilvah · Free UK delivery over £50</p></div>
+  </nav>`;
+}
 function footerHTML(){
   return `<div class="wrap"><div class="cols">
-    <div><a href="#home" class="logo"><span class="w" style="font-size:24px">SWANSURA</span><span class="s" style="color:var(--on-dark-2)">THE BODY STUDIO</span></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><p style="margin-top:14px">Instagram · TikTok · YouTube · Facebook</p></div>
-    <div><h5>Shop</h5>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#brands">Brands A–Z</a></div>
-    <div><h5>Concerns</h5>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</div>
-    <div><h5>Ranges</h5>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</div>
-    <div><h5>Brands</h5>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div>
-    <div><h5>Popular searches</h5>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div>
-    <div><h5>Help</h5><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a></div>
-  </div><div class="legal"><span>© 2026 Swansura – The Body Studio</span><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div>`;
+    <div><a href="#home" class="logo"><span class="w" style="font-size:24px">SWANSURA</span><span class="s" style="color:var(--on-dark-2)">THE BODY STUDIO</span></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £50</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Shop</h5></summary>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#brands">Brands A–Z</a></details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Concerns</h5></summary>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Ranges</h5></summary>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Brands</h5></summary>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Popular searches</h5></summary>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h5>Help</h5></summary><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a></details>
+  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div>`;
 }
 
 /* ---------- Router ---------- */
@@ -1260,7 +1314,7 @@ document.addEventListener('click', e => {
   if (chip){ document.querySelectorAll('#filters input[data-f="sub"]').forEach(i=>{ i.checked = chip.dataset.chip!=='' && i.value===chip.dataset.chip; }); applyFilters(true); return; }
   const rv = e.target.closest('[data-review]');
   if (rv){ toast(rv.dataset.review==='q' ? 'Questions are answered by our team within a working day' : 'In the live store this opens the review form for verified buyers'); return; }
-  const t = e.target.closest('[data-add],[data-addall],[data-addq],[data-buynow],[data-rm],[data-close],[data-tab],[data-frame],[data-q],[data-jump],#openBag,#openSearch,#burger,#checkoutBtn,#ftoggle,#loadMore');
+  const t = e.target.closest('#drawerSearch,[data-bq],[data-add],[data-addall],[data-addq],[data-buynow],[data-rm],[data-close],[data-tab],[data-frame],[data-q],[data-jump],#openBag,#openSearch,#burger,#checkoutBtn,#ftoggle,#loadMore');
   if (!t) { if (e.target.closest('.drawer-nav a')) closeLayer(); return; }
   if (t.dataset.add){ e.preventDefault(); addToBag(t.dataset.add); }
   else if (t.dataset.addall){ t.dataset.addall.split(',').forEach(id=>addToBag(id,1,true)); toast('Ritual added to your bag'); openBag(); }
@@ -1270,6 +1324,7 @@ document.addEventListener('click', e => {
     else if (pk==='routine'){ const ids = [...document.querySelectorAll('.complete .it')].map(a=>a.getAttribute('href').slice(3)); ids.forEach(id=>addToBag(id, q, true)); toast('Routine added · 10% pack saving applied at checkout'); openBag(); }
     else addToBag(p.id, q, bn);
     if (bn){ openBag(); toast('In the live store, Buy it now goes straight to Shopify checkout'); } }
+  else if (t.dataset.bq){ const [id, d] = t.dataset.bq.split('|'); const l = bag.find(x=>x.id===id); if (l){ l.q += +d; if (l.q < 1) bag = bag.filter(x=>x!==l); } saveBag(); openBag(); }
   else if (t.dataset.rm){ bag = bag.filter(l=>l.id!==t.dataset.rm); saveBag(); openBag(); }
   else if ('close' in t.dataset){ closeLayer(); }
   else if (t.dataset.tab){ document.querySelectorAll('.tabs [data-tab]').forEach(b=>b.setAttribute('aria-selected', b===t)); const g = document.getElementById('bestGrid'); g.innerHTML = document.getElementById('best-'+t.dataset.tab).innerHTML; lazy(g); }
@@ -1281,7 +1336,8 @@ document.addEventListener('click', e => {
   else if (t.id==='ftoggle') document.getElementById('filters').classList.toggle('open');
   else if (t.id==='loadMore'){ shown += PAGE; applyFilters(false); }
   else if (t.id==='checkoutBtn') toast('In the live store this opens Shopify checkout');
-  else if (t.id==='burger'){ document.getElementById('layer').innerHTML = `<nav class="drawer-nav" aria-label="Menu"><div style="display:flex;justify-content:space-between;margin-bottom:12px"><span class="eyebrow">Menu</span><button data-close>Close</button></div>${[['Skincare','#c-skincare'],['Haircare','#c-haircare'],['Bath & Body','#c-bath-body'],['Fragrance','#c-fragrance'],['Routines','#rituals'],['Advent calendars','#advent'],['Gifts & Sets','#c-gifts'],['Shop all','#c-all'],['Brands A–Z','#brands'],['Journal','#journal']].map(([n,h])=>`<a href="${h}">${n}</a>`).join('')}<div class="eyebrow" style="margin-top:24px">Scent families</div>${Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('')}</nav>`; }
+  else if (t.id==='burger'){ document.getElementById('layer').innerHTML = drawerNav(); lazy(document.getElementById('layer')); }
+  else if (t.id==='drawerSearch'){ closeLayer(); openSearch(); }
 });
 document.addEventListener('keydown', e => { if (e.key==='Escape') closeLayer(); });
 document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
