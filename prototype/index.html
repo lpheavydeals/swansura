@@ -1149,7 +1149,7 @@ function home(){
     <div class="sec-head"><div><div class="eyebrow">The Journal</div><h2>Latest reads</h2></div><a class="link" href="#journal">All stories</a></div>
     <div class="journal rail">${journal().map(j=>`<a class="post" href="#journal">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
   </div></section>
-  <section style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
+  <section id="popular" style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Popular searches</div><h2>What people shop for</h2></div></div>
     <div class="searches">${['Skin & hair needs','Skincare','Bath & body','Fragrance','Gifts','By skin type'].map(g=>`<details${innerWidth>720?' open':''}><summary><h4>${g}</h4></summary><div>${kwLive().filter(k=>k.grp===g || (g==='Skincare'&&k.grp==='Haircare')).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div></details>`).join('')}</div>
   </div></section>`;
@@ -1395,7 +1395,7 @@ function footerHTML(){
 function route(){
   const h = (location.hash || '#home').slice(1);
   if (h === 'allp' || /^L-/.test(h)) return;
-  if (/^advent-(skin|scent)$/.test(h)) { if (!document.getElementById(h)) { document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); } document.getElementById(h)?.scrollIntoView({behavior:'smooth'}); return; }
+  if (/^advent-(skin|scent)$/.test(h)) { if (!document.getElementById(h)) { const ap = document.getElementById('app'), nw = document.getElementById('newsletter'); if (ap.contains(nw)) ap.after(nw); ap.innerHTML = adventPage(); lazy(document.getElementById('app')); } document.getElementById(h)?.scrollIntoView({behavior:'smooth'}); return; }
   let html, m;
   if (h === 'home' || h === '') html = home();
   else if ((m = h.match(/^c-(.+)$/))) html = listing('c', m[1]);
@@ -1414,7 +1414,9 @@ function route(){
   else if ((m = h.match(/^p-(\d+)$/))) html = productPage(m[1]);
   else html = notFound();
   const app = document.getElementById('app');
+  const news = document.getElementById('newsletter'); if (app.contains(news)) app.after(news);
   app.innerHTML = html;
+  { const pop = document.getElementById('popular'); if (pop) pop.before(news); }
   if (document.getElementById('results')) applyFilters(true);
   closeLayer(); window.scrollTo(0,0); lazy(app);
   document.querySelectorAll('nav.main .item>a').forEach(a=>{ const k = a.getAttribute('href').slice(1); a.classList.toggle('on', h===k || (h.startsWith('scent-') && k==='c-fragrance') || (h.startsWith('concern-') && k==='c-skincare')); });
