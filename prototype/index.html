@@ -563,16 +563,15 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 @media (max-width:900px){.brandcards{grid-template-columns:1fr 1fr}.bcard{grid-template-columns:1fr;padding:16px}.bcard .bi{display:none}}
 @media (max-width:720px){.steps.rail{grid-auto-columns:70%}.ingcards.rail{grid-auto-columns:40%}.catrow.rail{grid-auto-columns:27%}}
 .proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
-/* ---------- Royal emerald: silk surfaces + gold ribbon on every page ---------- */
+/* ---------- Royal emerald: silk surfaces and gold accents on every page ---------- */
 :root{
   --emerald-deep:#0A3024;
   --gold-line:linear-gradient(90deg,rgba(140,98,38,0),#B5843A 18%,#E9CB8E 45%,#B5843A 70%,rgba(140,98,38,0));
   --gold-fill:linear-gradient(90deg,#8C6226,#D9B06E 45%,#B5843A 70%,#E4C285);
-  --ribbon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236E4A1C'/%3E%3Cstop offset='.3' stop-color='%23E4C285'/%3E%3Cstop offset='.5' stop-color='%23B5843A'/%3E%3Cstop offset='.7' stop-color='%23F2D8A0'/%3E%3Cstop offset='1' stop-color='%238C6226'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23B5843A' stop-opacity='0'/%3E%3Cstop offset='.4' stop-color='%23E9CB8E'/%3E%3Cstop offset='1' stop-color='%238C6226' stop-opacity='.2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M840 30C690 110 735 250 585 300S330 350 255 640' fill='none' stroke='url%28%23g%29' stroke-width='11' stroke-linecap='round' opacity='.85'/%3E%3Cpath d='M852 52C708 128 752 268 600 318S350 370 280 650' fill='none' stroke='url%28%23h%29' stroke-width='2' opacity='.7'/%3E%3Cpath d='M880 230C780 270 790 380 680 420S530 480 500 660' fill='none' stroke='url%28%23g%29' stroke-width='4' stroke-linecap='round' opacity='.55'/%3E%3C/svg%3E");
   --silk:linear-gradient(118deg,transparent 22%,rgba(255,255,255,.07) 34%,transparent 44%),linear-gradient(118deg,transparent 58%,rgba(255,255,255,.05) 66%,transparent 74%),radial-gradient(120% 90% at 85% 0%,rgba(52,140,106,.55) 0%,transparent 55%),radial-gradient(90% 80% at 0% 100%,rgba(3,22,16,.85) 0%,transparent 60%),linear-gradient(135deg,#0C3A2C 0%,#1B4D3E 42%,#0F3F31 68%,#1D5A46 100%);
   --silk-oud:linear-gradient(118deg,transparent 24%,rgba(255,255,255,.05) 36%,transparent 46%),radial-gradient(110% 90% at 85% 0%,rgba(110,62,52,.6) 0%,transparent 55%),linear-gradient(135deg,#24130F 0%,#3A2421 45%,#2C1814 70%,#46302A 100%);
 }
-.hero{background:var(--ribbon) no-repeat right -60px center/auto 118%,var(--silk)!important}
+.hero{background:var(--silk)!important}
 .announce,.advent.skin,.dn-feat .sk,.studio.skin,.toast.top{background:var(--silk)}
 .announce{border-bottom:1px solid rgba(181,132,58,.55)}
 .news{background:var(--silk);border-top:1px solid rgba(181,132,58,.5)}
@@ -594,9 +593,9 @@ footer .fmark-wrap.live .fmark{--g:.55;animation:twinkle .9s steps(5) infinite}
 @keyframes spark{0%{opacity:0;transform:translate(-50%,-50%) scale(.2) rotate(0)}30%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx,0px)),calc(-50% + var(--dy,0px))) scale(1) rotate(90deg)}}
 @media (prefers-reduced-motion:reduce){footer .fmark{animation:none}.spark{display:none}}
 .studio.scent,.advent.scent,.dn-feat .sc{background:var(--silk-oud)}
-/* page headers: emerald silk with the gold ribbon (fragrance keeps oud silk) */
-.pagehead,.pagehead:not(.dark){background:var(--ribbon) no-repeat right -300px top -30px/auto 210%,var(--silk);color:var(--on-dark);border:0;padding:clamp(32px,4.5vw,56px) var(--gutter);margin-top:16px;border-radius:var(--r);overflow:hidden}
-.pagehead.dark.oud{background:var(--ribbon) no-repeat right -300px top -30px/auto 210%,var(--silk-oud)}
+/* page headers: emerald silk with a gold hairline (fragrance keeps oud silk) */
+.pagehead,.pagehead:not(.dark){background:var(--silk);color:var(--on-dark);border:0;padding:clamp(32px,4.5vw,56px) var(--gutter);margin-top:16px;border-radius:var(--r);overflow:hidden}
+.pagehead.dark.oud{background:var(--silk-oud)}
 .pagehead .lede{color:#D6E2DB;text-shadow:0 1px 14px rgba(3,22,16,.85)}.pagehead .eyebrow{color:#E2BE7E}.pagehead a{color:inherit}
 /* gold thread: header hairline, section eyebrows, progress bars */
 header.site{border-bottom:0}
@@ -619,7 +618,7 @@ header.site::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1
 .pagehead{position:relative}.pagehead::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--gold-line)}
 .news{position:relative}.news::before{content:'';position:absolute;left:0;right:0;top:0;height:1px;background:var(--gold-line)}
 @media (max-width:720px){
-.hero{background:var(--ribbon) no-repeat right -190px bottom -40px/auto 52%,var(--silk)!important}
+.hero{background:var(--silk)!important}
 footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75)),var(--silk)}
 .news{background:var(--silk)}
 }
