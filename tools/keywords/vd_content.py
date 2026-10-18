@@ -7,6 +7,17 @@ vals = openpyxl.load_workbook(WB, data_only=True)
 P = [dict(zip([c.value for c in vals['Products'][1]], r)) for r in vals['Products'].iter_rows(min_row=2, values_only=True)]
 VD = [p for p in P if p['Source sheet'] == 'Vilvah & Deyga']
 pj = [x for x in json.load(open(PJ)) if x['brand'] in ('Vilvah', 'Deyga')]
+SDV = {r[0]: (r[2] if isinstance(r[2], (int, float)) else 0) for r in vals['Semrush Data'].iter_rows(min_row=2, values_only=True) if r[0]}
+GENERIC = [r[0] for r in vals['Keyword List'].iter_rows(min_row=2, values_only=True) if r[1] in ('Generic product term', 'Category / concern', 'VD target keyword') and r[0]]
+EXTRA = {'Body Butters': ['body butter'], 'Hair Oil': ['hair growth oil'], 'Deodorant': ['aluminium free deodorant', 'natural deodorant'], 'Body Scrub & Exfoliators': ['body scrub', 'coffee body scrub']}
+SLUG = {'body butter': 'body-butter', 'skincare gift set': 'gifts-for-her', 'hair growth oil': 'hair-growth-oil', 'lip scrub': 'lip-scrub', 'night cream': 'night-cream', 'aloe vera gel': 'moisturiser-for-dry-skin', 'under eye cream': 'eye-cream', 'under eye cream for dark circles': 'eye-cream', 'tinted lip balm': 'lip-balm-for-dry-lips', 'spf lip balm': 'lip-balm-for-dry-lips', 'natural lip balm': 'lip-balm-for-dry-lips', 'beetroot lip balm': 'lip-balm-for-dry-lips', 'rice water shampoo': 'natural-shampoo', 'goat milk shampoo': 'natural-shampoo', 'amla hair oil': 'hair-growth-oil', 'onion hair oil': 'hair-growth-oil', 'castor oil for hair': 'hair-growth-oil', 'shampoo for hair loss': 'shampoo-for-hair-loss', 'aluminium free deodorant': 'deodorant', 'natural deodorant': 'deodorant', 'goat milk soap': 'shower-gel-body-wash', 'charcoal soap': 'shower-gel-body-wash', 'charcoal face wash': 'face-wash-for-oily-skin', 'tea tree face wash': 'face-wash-for-oily-skin', 'vitamin c face wash': 'face-wash', 'vitamin c serum': 'vitamin-c-serum', 'niacinamide serum': 'face-serum', 'foot cream': 'body-lotion-for-dry-skin', 'body scrub': 'body-scrub', 'coffee body scrub': 'body-scrub', 'clay face mask': 'face-mask-for-oily-skin', 'rose water toner': 'toner-for-dry-skin', 'hair removal powder': 'natural-skincare', 'natural hair dye': 'natural-skincare', 'henna hair dye': 'natural-skincare'}
+def best_target(p, kw, slug):
+    name = set(re.findall(r'[a-z]+', p['Product name'].lower().replace('&', ' ')))
+    if p['Type'] == 'Gift Sets & Combos': return (kw, slug)
+    cands = [(kw, slug)] + [(g, SLUG.get(g, slug)) for g in GENERIC if set(g.replace(' uk', '').split()) <= name | {'for', 'hair'} and len(g.split()) >= 2 and not g.endswith(' uk')]
+    cands += [(g, SLUG.get(g, slug)) for g in EXTRA.get(p['Type'], [])]
+    if p['Type'] == 'Lip Care' and 'scrub' in name: cands.append(('lip scrub', 'lip-scrub'))
+    return max(cands, key=lambda c: SDV.get(c[0], 0))
 def toks(s): return set(re.sub(r'[^a-z0-9 ]', '', re.sub(r'\b\d+\s*(ml|g|gm)\b', '', s.lower())).replace('deygas', 'deyga').split())
 def match(p):
     t = toks(p['Product name']) | {p['Brand'].lower()}
@@ -37,7 +48,7 @@ def target(typ, con):
              'Dry Hair': ('hair mask for dry hair', 'hair-mask-for-dry-hair'), 'Body Hydration': ('body lotion for dry skin', 'body-lotion-for-dry-skin'), 'Anti-Dandruff': ('shampoo for dandruff', 'shampoo-for-dandruff'),
              'Frizzy Hair': ('hair serum for frizzy hair', 'hair-serum-for-frizzy-hair'), 'Hair Thinning & Loss': ('hair oil for hair loss', 'hair-oil-for-hair-loss'), 'Sun Protection': ('natural sunscreen', 'natural-sunscreen'),
              'Acne & Blemishes': ('face wash for oily skin', 'face-wash-for-oily-skin'), 'Oily Skin': ('face wash for oily skin', 'face-wash-for-oily-skin')}
-        return m.get(con, ('natural skincare gift set', 'gifts-for-her'))
+        return m.get(con, ('skincare gift set', 'gifts-for-her'))
     return ('natural skincare', 'natural-skincare')
 RISK = re.compile(r'pigment|dark spots?|wrinkle|acne scars?|regrow|re-grow|cure|treat(s|ment of)?\b|heal|clinical|guarantee|eliminat|prevent|within \d+ days|100% results|permanent|remove(s)? (dark|pigment|acne|scars)|acne-free|anti-?bacterial|fungal|hair fall within|stops? hair', re.I)
 def facts(src):
@@ -77,6 +88,8 @@ for r, p in enumerate(VD, 2):
     if kw == 'moisturiser for dry skin' and oily and not dry: kw, slug = 'moisturiser for oily skin', 'moisturiser'
     if kw == 'face wash for dry skin' and oily and not dry: kw, slug = 'face wash for oily skin', 'face-wash-for-oily-skin'
     if kw == 'face wash for oily skin' and dry and not oily: kw, slug = 'face wash for dry skin', 'face-wash-for-dry-skin'
+    concern_kw = kw
+    kw, slug = best_target(p, kw, slug)
     h1 = p['Draft H1']; brand = p['Brand']; KW = tcase(kw)
     tc = [f'{h1} | {KW}', f'{h1} – {KW} | Swansura', f'{h1} | {brand} UK | Swansura', f'{h1} | Swansura UK']
     title = next((t for t in tc[:2][::-1] if 50 <= len(t) <= 60), None) or next((t for t in tc if len(t) <= 60), h1[:47] + ' | Swansura')

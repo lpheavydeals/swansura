@@ -25,7 +25,7 @@ def head(cols):
     for i, h in enumerate(cols, 1):
         c = ws.cell(row=r, column=i, value=h); c.font = H; c.fill = HF; c.alignment = Alignment(wrap_text=True)
     r += 1
-title('Semrush insights — UK, Tier 1 (900 keywords, batches 1–9)', 'Figures are formulas over the "Semrush Data" tab (pasted 18 Oct 2026 from Semrush Keyword Overview, UK database). Volume = average monthly UK searches; KD = keyword difficulty 0–100; 0 / blank = no Semrush data.')
+title('Semrush insights — UK, Tier 1 + focused Tier 2', 'Figures are formulas over the "Semrush Data" tab (Semrush Keyword Overview, UK database: Tier 1 batches 1–9 and Tier 2 batches T2-1 to T2-3, Oct 2026). Volume = average monthly UK searches; KD = keyword difficulty 0–100; 0 / blank = no Semrush data.')
 r += 1
 title('Summary')
 summary = [
@@ -50,7 +50,7 @@ for t in [
  '2. Vilvah and Deyga product names get very few searches (10–30 a month each); "vilvah" (480), "vilvah milk drops" (390) and "deyga" (140) are the brand terms people use. Brand pages + the Milk Drops page should target these.',
  '3. The skincare opportunity is non-branded: "moisturiser for dry skin" (2,900), "hair mask for dry hair" (2,400), "hair oil for dry hair" (1,900), "face wash for dry/oily skin" (1,600 each), "shampoo for dandruff" (1,600). Build concern collection pages for these and use the phrases in Vilvah/Deyga product copy and FAQs.',
  '4. Product pages: keep the brand + product name as H1 (it is the primary keyword for 265 products); add the matching concern phrase in the first paragraph and meta description.',
- '5. Next Semrush run: Tier 2 (batches 10+) checks "+ uk" and perfume-type variants; only worth running for the Top 50 hero products below.']:
+ '5. Tier 2 checked perfume-type / "+ uk" variants for the top 100 fragrances and generic ingredient and product-type terms; the Primary keyword per product now picks the highest-volume variant.']:
     c = ws.cell(row=r, column=2, value=t); c.font = F; c.alignment = Alignment(wrap_text=True, vertical='top'); ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=8); ws.row_dimensions[r].height = 30; r += 1
 r += 1
 title('Top 50 hero products', 'Ranked by primary-keyword volume, KD as tie-break. Suggested set for the "premium description rewrite × 50" in the quote. Ranking is a snapshot; volumes are live formulas.')
@@ -90,6 +90,8 @@ def cluster(t, sub, types, use, n=30):
     r += 1
 cluster('Non-branded skincare & haircare opportunities', 'Category and concern searches: the main organic opportunity for Vilvah & Deyga.', {'Category / concern'},
         lambda k: 'Concern collection page (H1 + intro + FAQ); product copy & meta description' if ' for ' in k else 'Category page H1 / intro; homepage section')
+cluster('Ingredient & product-type searches (Tier 2)', 'Generic searches that match the Vilvah & Deyga range: candidates for new collection pages, product-copy phrases and blog topics.', {'Generic product term', 'VD target keyword'},
+        lambda k: 'New collection / keyword page + product copy' if not k.endswith(' uk') else 'Homepage / brand page copy', n=45)
 cluster('Vilvah & Deyga brand searches', 'What people type about the two partner brands.', {'Brand', 'Google suggest (brand)'},
         lambda k: 'Brand page title + intro' if k in ('vilvah', 'deyga', 'vilvah uk', 'deyga products', 'vilvah products', 'deyga organics', 'vilvah store', 'vilvah official website') else 'Product page H1 / meta (matching product)')
 cluster('Fragrance brand & scent-family searches', 'Brand pages and scent-family collections. High-volume designer terms are hard (LOOKFANTASTIC, Boots, The Perfume Shop); target "Easier" ones first.', {'Brand / family'},
