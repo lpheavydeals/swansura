@@ -156,6 +156,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .tile .img{overflow:hidden}
 .tile:hover .pic{transform:scale(1.04)}
 .tile span{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+.ings-row{grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}.ings-row span{font-size:12px}
 @media (max-width:900px){.tiles{grid-template-columns:repeat(2,1fr)}}
 
 .tabs{display:flex;gap:28px;border-bottom:1px solid var(--line);margin-bottom:28px;flex-wrap:wrap}
@@ -194,6 +195,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .chip{border:1px solid var(--line);background:var(--card);padding:14px 20px;font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:170px;transition:border-color .2s;text-align:left}
 .chip:hover{border-color:var(--ink)}
 .chip small{color:var(--ink-2);font-size:12px}
+@media (max-width:600px){.chips:has(.chip small){display:grid;grid-template-columns:1fr 1fr;gap:8px}.chips .chip:has(small){min-width:0;padding:12px 14px}}
 .scent-band{background:var(--oud);color:var(--on-dark)}
 .scent-band .eyebrow{color:#E6D3A8}
 .families{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(244,238,228,.18);border:1px solid rgba(244,238,228,.18)}
@@ -310,6 +312,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .door .dt{font-size:12px;line-height:1.3;padding:2px 10px;align-self:stretch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .door .dp{font-size:12px;font-weight:600;padding:2px 10px 8px;align-self:stretch}
 .kwchips{display:flex;flex-direction:column;gap:12px}
+.chips+.kwchips{margin-top:32px}
 .kwchips>div{display:flex;flex-wrap:wrap;gap:8px}
 .kwchips a{border:1px solid var(--line);background:var(--card);padding:7px 14px;font-size:13px;border-radius:999px;transition:border-color .2s,background .2s}
 .kwchips a:hover{border-color:var(--ink)}
@@ -365,12 +368,14 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .hicon{display:inline-flex;align-items:center;position:relative}
 .hicon .wcount{position:absolute;top:-8px;right:-12px;margin:0}
 .announce a{color:inherit}.announce a:hover{text-decoration:underline}
+@media (max-width:900px){.announce{font-size:11px;letter-spacing:.12em}.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .5s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
 .heart{position:absolute;top:8px;right:8px;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,249,.92);color:var(--ink);transition:transform .2s,color .2s}
 .heart:hover{transform:scale(1.08)}
 .heart[aria-pressed="true"]{color:var(--sale)}.heart[aria-pressed="true"] svg{fill:currentColor}
 .heart.big{position:static;width:54px;height:54px;border-radius:0;border:1px solid var(--line);background:var(--card);flex:none}
 .btn.buynow{width:100%;border-color:var(--emerald);color:var(--emerald)}.btn.buynow:hover{background:var(--emerald);color:var(--on-dark)}
-.badge.pick{background:var(--brass);color:#fff}
+.badge.pick{background:var(--card);color:var(--brass);box-shadow:inset 0 0 0 1px rgba(154,117,54,.45)}
+.best .badge.pick{display:none}
 .bands{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .band{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center;padding:14px;background:var(--card);border:1px solid var(--line);transition:border-color .2s,transform .2s}
 .band:hover{border-color:var(--ink);transform:translateY(-2px)}
@@ -383,7 +388,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 #offer h3{font-size:24px;letter-spacing:-.02em}#offer p{color:var(--ink-2);font-size:14px}#offer small{color:var(--ink-2);font-size:12px}
 #offer form{display:flex;flex-direction:column;gap:8px}#offer input{height:46px;border:1px solid var(--line);padding:0 14px;font:inherit;background:var(--paper)}
 #offer .x{position:absolute;top:8px;right:10px;font-size:24px;line-height:1;width:32px;height:32px}
-@media (max-width:700px){#offer{left:16px;bottom:84px}}
+@media (max-width:700px){#offer{left:0;right:0;bottom:0;width:100%;border-width:1px 0 0;padding:18px 16px calc(14px + env(safe-area-inset-bottom,0px));gap:6px;box-shadow:0 -18px 40px -20px rgba(31,26,23,.35)}#offer .eyebrow{display:none}#offer h3{font-size:19px;padding-right:32px}#offer p{font-size:13px}#offer form{flex-direction:row}#offer input{flex:1;min-width:0;height:44px}#offer .btn{height:44px;padding:0 14px;white-space:nowrap}#offer small{display:none}}
 .card .rate{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-2)}
 .card .rate .stars{color:#C9BBA6;letter-spacing:1px;font-size:12px}
 .reviews-line .stars{color:#C9BBA6}
@@ -465,6 +470,15 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .search input{width:100%;font-family:var(--display);font-size:clamp(22px,3vw,34px);font-weight:600;border:0;border-bottom:1px solid var(--ink);background:transparent;padding:10px 0;color:var(--ink)}
 .search input:focus{outline:none}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:12px 20px;font-size:14px;z-index:80}
+@media (max-width:720px){
+.rail{display:grid!important;grid-auto-flow:column;grid-template-columns:none!important;grid-auto-columns:44%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding:0 var(--gutter) 6px;scroll-padding-inline:var(--gutter);scrollbar-width:none;overscroll-behavior-x:contain}
+.rail::-webkit-scrollbar{display:none}.rail>*{scroll-snap-align:start}
+.bands.rail,.rituals.rail,.journal.rail{grid-auto-columns:82%}.families.rail{grid-auto-columns:62%;background:none;border:0;gap:10px}.families.rail .family{border:1px solid rgba(244,238,228,.18)}.ugc.rail{grid-auto-columns:38%}
+.best .grid-p{grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:46%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding:0 var(--gutter) 6px;scroll-padding-inline:var(--gutter);scrollbar-width:none}
+.best .grid-p::-webkit-scrollbar{display:none}.best .card{scroll-snap-align:start}
+.searches{display:block}.searches details{border-top:1px solid var(--line)}.searches details:last-child{border-bottom:1px solid var(--line)}.searches summary{list-style:none;display:flex;justify-content:space-between;align-items:center;padding:14px 0;cursor:pointer}.searches summary::-webkit-details-marker{display:none}.searches summary::after{content:'+';color:var(--brass);font-size:18px;line-height:1}.searches details[open] summary::after{content:'–'}.searches summary h4{margin:0}.searches details>div{padding-bottom:12px;columns:2;column-gap:16px}
+}
+@media (min-width:721px){.searches summary{pointer-events:none;list-style:none}.searches summary::-webkit-details-marker{display:none}}
 .proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
 </style>
 
@@ -685,7 +699,7 @@ function card(p){
   const partner = BR[p.brand]?.partner;
   const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : isPick(p) ? '<span class="badge pick">Studio pick</span>' : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
   const meta = p.cat === 'fragrance' ? (FAMILIES[family(p)][0] + ' · ' + subtype(p)) : (bullets(p)[0] || paras(p)[0] || subtype(p)).split(/[:.–]/)[0].slice(0,60);
-  return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${heartBtn(p)}${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="rate">${stars(0)}<span>No reviews yet</span></div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
+  return `<article class="card"><div class="mwrap"><a href="#p-${p.id}" class="media" aria-label="${esc(cleanTitle(p))}">${pic(p,0)}${p.frames>1?pic(p,1,'','alt'):''}${badge}</a>${heartBtn(p)}${p.available?`<button class="quick" data-add="${p.id}">Add to bag</button>`:''}</div><a href="#b-${brandSlug(p.brand)}" class="brand">${esc(p.brand)}</a><a href="#p-${p.id}" class="name">${esc(cleanTitle(p))}</a><div class="meta">${esc(meta)}</div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s>`:''}</div></article>`;
 }
 function grid(list){ return `<div class="grid-p">${list.map(card).join('')}</div>`; }
 /* Curated cross-brand routines, in the spirit of The Body Shop's routines and gift sets. Saving is a proposal. */
@@ -908,25 +922,25 @@ function home(){
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by category</div><h2>Find your shelf</h2></div><a class="link" href="#c-all">Shop all ${P.length}</a></div>
-    <div class="tiles">${['skincare','haircare','bath-body','fragrance','gifts'].map(c=>`<a class="tile" href="#c-${c}"><div class="img">${pic(tileP(c))}</div><span>${CATS[c].name} · ${counts(c)}</span></a>`).join('')}</div>
+    <div class="tiles rail">${['skincare','haircare','bath-body','fragrance','gifts'].map(c=>`<a class="tile" href="#c-${c}"><div class="img">${pic(tileP(c))}</div><span>${CATS[c].name} · ${counts(c)}</span></a>`).join('')}</div>
   </div></section>
   <section style="padding-top:0"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by price</div><h2>Something for every budget</h2></div><a class="link" href="#c-gifts">Gifts &amp; sets</a></div>
-    <div class="bands">${PRICE_BANDS.map(([k,n,d],i)=>{ const all = P.filter(p=>inBand(p,k)), l = all.filter(p=>p.available); const im = l.find(p=>i<2 ? p.cat!=='fragrance' : true) || l[0]; return `<a class="band" href="#price-${k}">${im?pic(im):''}<div><span class="n">${n}</span><small>${d}</small><span class="c">${all.length} products →</span></div></a>`; }).join('')}</div>
+    <div class="bands rail">${PRICE_BANDS.map(([k,n,d],i)=>{ const all = P.filter(p=>inBand(p,k)), l = all.filter(p=>p.available); const im = l.find(p=>i<2 ? p.cat!=='fragrance' : true) || l[0]; return `<a class="band" href="#price-${k}">${im?pic(im):''}<div><span class="n">${n}</span><small>${d}</small><span class="c">${all.length} products →</span></div></a>`; }).join('')}</div>
   </div></section>
   <section style="padding-top:0"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Iconic bestsellers</div><h2>Most loved at the Studio</h2></div><a class="link" href="#c-all">View all</a></div>
     <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="skin">Skincare &amp; body</button><button role="tab" aria-selected="false" data-tab="scent">Fragrance</button></div>
-    <div id="bestGrid">${grid(bestSkin)}</div>
+    <div id="bestGrid" class="best">${grid(bestSkin)}</div>
     <template id="best-skin">${grid(bestSkin)}</template><template id="best-scent">${grid(bestScent)}</template>
   </div></section>
   <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Most loved routines</div><h2>Routines that work together</h2></div><a class="link" href="#rituals">All ${ritualsData().length} routines</a></div>
-    <div class="rituals">${['skin','hair','scent'].map(g=>ritualsData().find(r=>r.g===g)).filter(Boolean).map(ritualCard).join('')}</div>
+    <div class="rituals rail">${['skin','hair','scent'].map(g=>ritualsData().find(r=>r.g===g)).filter(Boolean).map(ritualCard).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Ranges loved by you</div><h2>Shop by hero ingredient</h2></div></div>
-    <div class="tiles" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))">${Object.entries(RANGES).map(([k,[n,d]])=>{ const l = rangeList(k); const p = l.find(x=>x.available) || l[0]; return p ? `<a class="tile" href="#range-${k}"><div class="img">${pic(p)}</div><span>${n} · ${l.length}</span></a>` : ''; }).join('')}</div>
+    <div class="tiles ings-row rail">${Object.entries(RANGES).map(([k,[n,d]])=>{ const l = rangeList(k); const p = (k!=='oud' && l.find(x=>x.available && x.cat!=='fragrance')) || l.find(x=>x.available) || l[0]; return p ? `<a class="tile" href="#range-${k}"><div class="img">${pic(p)}</div><span>${n} · ${l.length}</span></a>` : ''; }).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by concern</div><h2>What does your skin need?</h2></div></div>
@@ -935,7 +949,7 @@ function home(){
   </div></section>
   <section class="scent-band"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Find your signature scent</div><h2>Shop by scent family</h2></div><a class="link" href="#c-fragrance">All fragrance</a></div>
-    <div class="families">${Object.entries(FAMILIES).map(([k,[n,d]])=>`<a class="family" href="#scent-${k}"><span class="n">${n}</span><p>${d}</p><span class="c">${P.filter(p=>p.cat==='fragrance'&&family(p)===k).length} scents →</span></a>`).join('')}</div>
+    <div class="families rail">${Object.entries(FAMILIES).map(([k,[n,d]])=>`<a class="family" href="#scent-${k}"><span class="n">${n}</span><p>${d}</p><span class="c">${P.filter(p=>p.cat==='fragrance'&&family(p)===k).length} scents →</span></a>`).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by brand</div><h2>The houses we carry</h2></div><a class="link" href="#brands">All ${Object.keys(BR).length} brands A–Z</a></div>
@@ -952,15 +966,15 @@ function home(){
   ${(() => { const rv = seen.filter(id=>byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">Picking up where you left off</div><h2>Recently viewed</h2></div></div>${grid(rv)}</div></section>` : ''; })()}
   <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Trusted tales</div><h2>Your rituals, shared</h2></div><p class="lede" style="font-size:16px;max-width:44ch">Tag <b>@swansura_thebodystudio</b> with #SwansuraStudio to be featured.</p></div>
-    <div class="ugc">${ugc.map(p=>`<div><a href="#p-${p.id}">${pic(p, p.frames-1)}</a><span>Customer photo slot</span></div>`).join('')}</div>
+    <div class="ugc rail">${ugc.map(p=>`<div><a href="#p-${p.id}">${pic(p, p.frames-1)}</a><span>Customer photo slot</span></div>`).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">The Journal</div><h2>Latest reads</h2></div><a class="link" href="#journal">All stories</a></div>
-    <div class="journal">${journal().map(j=>`<a class="post" href="#journal">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
+    <div class="journal rail">${journal().map(j=>`<a class="post" href="#journal">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
   </div></section>
   <section style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Popular searches</div><h2>What people shop for</h2></div></div>
-    <div class="searches">${['Skin & hair needs','Skincare','Bath & body','Fragrance','Gifts','By skin type'].map(g=>`<div><h4>${g}</h4>${kwLive().filter(k=>k.grp===g || (g==='Skincare'&&k.grp==='Haircare')).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div>`).join('')}</div>
+    <div class="searches">${['Skin & hair needs','Skincare','Bath & body','Fragrance','Gifts','By skin type'].map(g=>`<details${innerWidth>720?' open':''}><summary><h4>${g}</h4></summary><div>${kwLive().filter(k=>k.grp===g || (g==='Skincare'&&k.grp==='Haircare')).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div></details>`).join('')}</div>
   </div></section>`;
 }
 let current = [];
@@ -1253,10 +1267,13 @@ document.addEventListener('keydown', e => { if (e.key==='Escape') closeLayer(); 
 document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
 document.getElementById('newsForm').addEventListener('submit', e => { e.preventDefault(); e.target.hidden = true; document.getElementById('newsMsg').hidden = false; });
 window.addEventListener('hashchange', route);
-setTimeout(() => { if (store.get('swansura-offer','0')) return; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
+function showOffer(){ if (showOffer.done || store.get('swansura-offer','0')) return; showOffer.done = true; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
   d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>10% off your first order</h3><p>Join the Studio Letter for new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Get my 10%</button></form><small>Unsubscribe any time.</small>`;
   d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Your welcome code is on its way.</p>'; store.set('swansura-offer', 1); });
-  document.body.appendChild(d); }, 7000);
+  document.body.appendChild(d); }
+setTimeout(showOffer, 20000);
+addEventListener('scroll', function onS(){ if (scrollY > document.body.scrollHeight * .45){ removeEventListener('scroll', onS); showOffer(); } }, {passive:true});
+(() => { const items = [...document.querySelectorAll('.announce .wrap>*')]; let i = 0; items[0].classList.add('on'); setInterval(() => { items[i].classList.remove('on'); i = (i+1) % items.length; items[i].classList.add('on'); }, 4500); })();
 
 fetch('products.json').then(r=>r.json()).then(data => {
   P = data.map(p => ({...p, id:String(p.id), tags:p.tags||[], desc:p.desc||'', frames:p.frames||1}));
