@@ -337,7 +337,8 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .reviews-line{font-size:14px;color:var(--ink-2);display:flex;gap:10px;align-items:center}
 .reviews-line .stars{letter-spacing:2px;color:var(--line)}
 .buy .price{font-size:22px}
-.benefit{font-size:16px;color:var(--ink-2);font-weight:300}
+.benefit{font-size:16px;color:var(--ink-2);font-weight:300;line-height:1.6}
+.readmore{color:var(--ink);text-decoration:underline;text-underline-offset:3px;font-weight:500;white-space:nowrap}
 .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
 .notes div{background:var(--card);padding:12px 14px;font-size:13px}
 .notes b{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:4px}
@@ -351,13 +352,15 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .delivery{background:var(--card);border:1px solid var(--line);padding:14px 16px;font-size:14px;display:flex;flex-direction:column;gap:6px}
 .delivery .bar{height:4px;background:var(--line)}
 .delivery .bar i{display:block;height:100%;background:var(--emerald)}
-.trustmini{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;font-size:13px;color:var(--ink);text-align:center}
-.trustmini div{border:1px solid var(--line);background:var(--card);padding:16px 8px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;font-weight:500}
-.trustmini .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#FFFDF9}
+.trustmini{display:grid;grid-template-columns:repeat(3,1fr);font-size:13px;color:var(--ink);border-block:1px solid var(--line)}
+.trustmini div{padding:14px 6px;display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:center;font-weight:500;line-height:1.3}
+.trustmini div+div{border-left:1px solid var(--line);padding-left:12px}
+.trustmini .ic{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;color:#FFFDF9;grid-row:span 2}.trustmini .ic svg{width:16px;height:16px}
 .trustmini .ic.g{background:var(--emerald)}
 .trustmini .ic.b{background:var(--brass)}
 .trustmini .ic.o{background:var(--oud)}
-.trustmini small{display:block;font-size:11px;color:var(--ink-2);font-weight:400;margin-top:-6px}
+.trustmini small{display:block;font-size:11px;color:var(--ink-2);font-weight:400}
+@media (max-width:520px){.trustmini{font-size:12px}.trustmini div{grid-template-columns:1fr;justify-items:center;text-align:center;row-gap:6px}.trustmini .ic{grid-row:auto}}
 .acc details{border-top:1px solid var(--line);padding:16px 0}
 .acc details:last-child{border-bottom:1px solid var(--line)}
 .acc summary{cursor:pointer;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;list-style:none;display:flex;justify-content:space-between}
@@ -398,6 +401,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .pl{font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.02em}
 .pl.k{background:#FFB3C7;color:#17120F}.pl.c{background:#B2FCE4;color:#17120F}.pl.p{background:#E8EEF8;color:#1F3B8C}
 .packs{border:0;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+@media (max-width:600px){.packs{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pack{padding:12px 10px 10px}.pack b{font-size:14px}.pack span{font-size:11px;min-height:4em}.pack strong{font-size:15px}.pack small{font-size:11px}.pack em{right:6px;font-size:9px;padding:2px 6px}}
 .packs legend{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:10px;padding:0}
 .pack{position:relative;display:flex;flex-direction:column;gap:2px;padding:14px 14px 12px;border:1px solid var(--line);background:var(--card);cursor:pointer;transition:border-color .2s,box-shadow .2s}
 .pack input{position:absolute;opacity:0;pointer-events:none}
@@ -405,10 +409,10 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .pack:has(input:checked){border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .pack:has(input:focus-visible){outline:2px solid var(--brass);outline-offset:2px}
 .pack em{position:absolute;top:-10px;right:10px;font-style:normal;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;background:var(--brass);color:#fff;padding:3px 8px}
-.dispatch{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--ink-2)}
-.dispatch i{width:9px;height:9px;border-radius:50%;background:#2E8B57;box-shadow:0 0 0 4px rgba(46,139,87,.15);flex:none}
+.dispatch{font-size:14px;color:var(--ink-2);line-height:1.5}
+.dispatch i{display:inline-block;margin:0 10px 1px 2px;vertical-align:middle;width:9px;height:9px;border-radius:50%;background:#2E8B57;box-shadow:0 0 0 4px rgba(46,139,87,.15);flex:none}
 .dispatch.out i{background:var(--sale);box-shadow:0 0 0 4px rgba(138,47,42,.15)}
-.dispatch b{color:var(--ink)}
+.dispatch b{color:var(--ink);white-space:nowrap}
 .inside{background:var(--card);border:1px solid var(--line);padding:clamp(22px,3.5vw,44px);margin-bottom:48px}
 .inside-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px);margin-top:14px}
 .inside h2{font-size:clamp(22px,2.2vw,28px);margin-bottom:18px}
@@ -451,7 +455,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .complete .items{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
 .complete .it{width:150px;display:flex;flex-direction:column;gap:6px;font-size:13px}
 .complete .plus{font-family:var(--display);font-size:28px;color:var(--ink-2)}
-@media (max-width:800px){.complete{grid-template-columns:1fr}.complete .it{width:110px}}
+@media (max-width:800px){.complete{grid-template-columns:1fr}.complete .items{flex-wrap:nowrap;gap:6px;align-items:flex-start}.complete .it{width:auto;flex:1 1 0;min-width:0;font-size:12px}.complete .plus{font-size:20px;align-self:center;margin-top:-30px}}
 .stickybar{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--card);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:none;gap:12px;align-items:center}
 .stickybar .t{flex:1;min-width:0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:900px){.stickybar.show{display:flex}}
@@ -1070,6 +1074,7 @@ function brandsAZ(){
   <div class="subnav">${letters.map(l=>`<a href="#brands" data-jump="L-${l}">${l}</a>`).join('')}</div>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px;padding-block:24px 72px">${letters.map(l=>`<div id="L-${l}"><div style="font-family:var(--display);font-weight:800;font-size:40px;border-bottom:1px solid var(--line);margin-bottom:10px">${l}</div>${groups[l].map(n=>`<a href="#b-${BR[n].slug}" style="display:flex;justify-content:space-between;gap:8px;padding:5px 0"><span>${esc(n)}${BR[n].partner?' <small style="color:var(--emerald);letter-spacing:.1em;text-transform:uppercase;font-size:10px">Official partner</small>':''}</span><small style="color:var(--ink-2)">${BR[n].count}</small></a>`).join('')}</div>`).join('')}</div></div>`;
 }
+function summary(t, max=170){ t = (t||'').trim(); if (t.length <= max) return t; const parts = t.match(/[^.!?]+[.!?]+/g) || [t]; let out = ''; for (const x of parts){ if ((out + x).length > max && out) break; out += x; } return out.length > max + 60 ? out.slice(0, max).replace(/\s+\S*$/,'') + '…' : out.trim(); }
 function productPage(id){
   const p = byId[id]; if(!p) return notFound();
   const B = BR[p.brand]||{}, n = notes(p), bl = bullets(p), pr = paras(p), cat = CATS[p.cat];
@@ -1084,6 +1089,8 @@ function productPage(id){
   const howTo = bl.filter(x=>/apply|massage|spray|rinse|before use|after|daily|how to use/i.test(x));
   const benefit = p.cat==='fragrance' ? ((pr[0]||'').split('. ')[0] + '.').replace(/^\.$/,'') : (bl[0]||pr[0]||'').replace(/^[^:]{0,40}:\s*/,'');
   const chips = chipsOf(p), ings = ingsOf(p), types = skinTypes(p);
+  const short = summary(benefit), more = benefit.length > short.length;
+  const kb = bl.length ? bl.map(x=>x.replace(/^[^:]{0,40}:\s*/,'')) : chips;
   const packs = p.available && p.cat!=='fragrance' ? [
     {v:'single', name:'Single', sub:'Just this one', price:p.price},
     {v:'duo', name:'Duo', sub:'2 × at '+fmt(p.price*(1-PACK_SAVE.duo))+' each', price:p.price*2*(1-PACK_SAVE.duo), save:p.price*2*PACK_SAVE.duo},
@@ -1096,7 +1103,7 @@ function productPage(id){
     ['Is this the genuine '+p.brand+' fragrance?', 'Yes. Every fragrance at Swansura is 100% authentic, sourced through authorised channels and shipped from the UK.'],
     ['How fast is delivery, and can I return it?', 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £50, and unopened items can be returned within 30 days.']
   ] : [
-    ['What is '+cleanTitle(p)+'?', (benefit || paras(p)[0] || 'A '+subtype(p).toLowerCase()+' from '+p.brand+'.').replace(/\.?$/,'.')],
+    ['What is '+cleanTitle(p)+'?', (summary(benefit, 260) || paras(p)[0] || 'A '+subtype(p).toLowerCase()+' from '+p.brand+'.').replace(/\.?$/,'.')],
     ['What are the key ingredients?', ings.length ? ings.map(i=>`${i[1]}: ${i[2].toLowerCase()}`).join('. ')+'. The full ingredient list is printed on the pack.' : 'The full ingredient list is printed on the pack and in the product details above.'],
     ['How do I use it?', howTo.length ? howTo.join(' ') : 'Use as directed on the pack. Patch test 24 hours before first use.'],
     ['Which skin or hair types is it for?', types.length ? (types.includes('All') ? 'It is made for all types' : 'It suits '+types.join(', ').toLowerCase()+' types')+'. If your skin is sensitive, patch test before first use.' : 'Most types. If your skin is sensitive, patch test 24 hours before first use.'],
@@ -1112,19 +1119,18 @@ function productPage(id){
       <a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a>
       <h1>${esc(cleanTitle(p))}</h1>
       <div class="reviews-line">${stars(0)}<span>No reviews yet · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">Write the first review</a></span></div>
-      ${chips.length?`<div class="bchips">${chips.map(c=>`<span>${icon.check}${esc(c)}</span>`).join('')}</div>`:''}
-      ${benefit?`<p class="benefit">${esc(benefit)}</p>`:''}
       <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}</div>
+      ${short?`<p class="benefit">${esc(short)}${more?` <a href="#details" data-jump="details" class="readmore">Read more</a>`:''}</p>`:''}
+      ${chips.length?`<div class="bchips">${chips.map(c=>`<span>${icon.check}${esc(c)}</span>`).join('')}</div>`:''}
       ${packs?`<fieldset class="packs"><legend>Choose your pack</legend>${packs.map((k,i)=>`<label class="pack${k.best?' best':''}"><input type="radio" name="pack" value="${k.v}" ${i===0?'checked':''}>${k.best?'<em>Best value</em>':''}<b>${k.name}</b><span>${k.sub}</span><strong>${fmt(k.price)}</strong>${k.save?`<small>Save ${fmt(k.save)}</small>`:'<small>&nbsp;</small>'}</label>`).join('')}</fieldset>`:''}
       ${n?`<div class="notes"><div><b>Top</b>${esc(n.top||'—')}</div><div><b>Heart</b>${esc(n.heart||'—')}</div><div><b>Base</b>${esc(n.base||'—')}</div></div>`:''}
       <div class="qtyrow"><div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button>${heartBtn(p,'big')}</div>
       ${p.available?`<button class="btn buynow" data-buynow="${p.id}">Buy it now</button>`:''}
       <div class="dispatch ${p.available?'':'out'}"><i></i>${p.available?'<b>In stock</b> · Usually dispatched within 1–2 working days from the UK':'<b>Out of stock</b> · Get an email when it is back'}</div>
-      ${p.available?'<div class="express"><span>Apple Pay</span><span>Shop Pay</span></div>':''}
       <div class="delivery"><span>${icon.truck} Dispatched from the UK. ${left>0?`Add <b>${fmt(left)}</b> more for free UK delivery.`:'<b>This order qualifies for free UK delivery.</b>'}</span><div class="bar"><i style="width:${Math.min(100,p.price/50*100)}%"></i></div></div>
       <div class="trustmini"><div><span class="ic g">${icon.shield}</span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b">${icon.ret}</span>Easy 30-day returns<small>Unopened items</small></div><div><span class="ic o">${icon.lock}</span>Secure checkout<small>Encrypted payment</small></div></div>
       <div class="acc">
-        <details open><summary>Details</summary><div class="in">${pr.slice(0,3).map(x=>`<p>${esc(x)}</p>`).join('')}${bl.length?`<ul>${bl.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</div></details>
+        <details open id="details"><summary>Details</summary><div class="in">${pr.slice(0,3).map(x=>`<p>${esc(x)}</p>`).join('')}${bl.length?`<ul>${bl.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</div></details>
         ${n?`<details><summary>Notes</summary><div class="in"><p><b>Top:</b> ${esc(n.top)}</p><p><b>Heart:</b> ${esc(n.heart)}</p><p><b>Base:</b> ${esc(n.base)}</p></div></details>`:''}
         <details><summary>${p.cat==='fragrance'?'How to wear':'How to use'}</summary><div class="in">${howTo.length?`<ul>${howTo.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:p.cat==='fragrance'?'<p>Spray onto pulse points: wrists, neck and behind the ears. For longer wear, apply after a body butter.</p>':'<p>Use as directed on the pack. Patch test before first use.</p>'}</div></details>
         <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £50. Unopened items can be returned within 30 days.</p></div></details>
@@ -1132,9 +1138,9 @@ function productPage(id){
       ${(() => { const ks = kwFor(p); return ks.length ? `<p style="font-size:14px;color:var(--ink-2)">Part of our ${ks.slice(0,3).map(k=>`<a href="#k-${k.s}" style="text-decoration:underline">${esc(k.k.toLowerCase())}</a>`).join(', ')} edit${ks.length>1?'s':''}.</p>${kwChips(ks.slice(0,8),'Shop related')}` : ''; })()}
     </div>
   </div>
-  ${p.cat!=='fragrance' && (ings.length || bl.length) ? `<section class="inside"><div class="eyebrow">What's inside</div><div class="inside-grid">
+  ${p.cat!=='fragrance' && (ings.length || kb.length) ? `<section class="inside"><div class="eyebrow">What's inside</div><div class="inside-grid">
     <div><h2>Hero ingredients</h2>${ings.length?`<div class="ings">${ings.map(i=>`<div class="ing"><span class="dot">${esc(i[1][0])}</span><div><b>${esc(i[1])}</b><small>${esc(i[2])}</small></div></div>`).join('')}</div>`:'<p class="muted">The full ingredient list is printed on the pack.</p>'}</div>
-    <div><h2>Key benefits</h2><ul class="kb">${(bl.length?bl:pr).slice(0,5).map(x=>`<li>${icon.check}<span>${esc(x.replace(/^[^:]{0,40}:\s*/,''))}</span></li>`).join('')}</ul>${types.length?`<div class="types"><span>Suits</span>${types.map(t=>`<em>${t==='All'?'All types':t}</em>`).join('')}</div>`:''}</div>
+    <div><h2>Key benefits</h2><ul class="kb">${kb.slice(0,5).map(x=>`<li>${icon.check}<span>${esc(x)}</span></li>`).join('')}</ul>${types.length?`<div class="types"><span>Suits</span>${types.map(t=>`<em>${t==='All'?'All types':t}</em>`).join('')}</div>`:''}</div>
   </div></section>` : ''}
   <section class="pfaq"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   <section class="reviews" id="reviews"><div class="rv-head"><div><div class="eyebrow">Reviews</div><h2 style="margin-top:10px">What customers say</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button><button class="btn" data-review="q">Ask a question</button></div></div>
