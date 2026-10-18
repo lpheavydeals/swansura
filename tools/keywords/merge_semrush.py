@@ -9,12 +9,13 @@ wb = openpyxl.load_workbook(WB)
 batches = {}
 for col in wb['Semrush Batches'].iter_cols(values_only=True):
     h = str(col[0] or '')
-    key = f"T2-{h.split()[-1]}" if h.startswith('T2 Batch') else (int(h.split()[1]) if h.startswith('Batch') else None)
+    mt = re.match(r'T(\d) Batch (\d+)', h)
+    key = f"T{mt.group(1)}-{mt.group(2)}" if mt else (int(h.split()[1]) if h.startswith('Batch') else None)
     if key is not None: batches[key] = [c for c in col[1:] if c]
 rows = {}
 for f in EXPORTS:
-    m2 = re.search(r'Tier2_Batch_(\d+)', f)
-    n = f'T2-{m2.group(1)}' if m2 else int(re.search(r'Batch_(\d+)', f).group(1)); want = batches[n]
+    m2 = re.search(r'Tier(\d)_Batch_(\d+)', f)
+    n = f'T{m2.group(1)}-{m2.group(2)}' if m2 else int(re.search(r'Batch_(\d+)', f).group(1)); want = batches[n]
     data = list(openpyxl.load_workbook(f, data_only=True).worksheets[0].iter_rows(values_only=True))
     hdr = [str(h or '').lower() for h in data[0]]
     col = lambda *names: next((i for i, h in enumerate(hdr) for nm in names if h.startswith(nm)), None)
