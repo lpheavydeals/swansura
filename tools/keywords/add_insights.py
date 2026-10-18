@@ -25,7 +25,7 @@ def head(cols):
     for i, h in enumerate(cols, 1):
         c = ws.cell(row=r, column=i, value=h); c.font = H; c.fill = HF; c.alignment = Alignment(wrap_text=True)
     r += 1
-title('Semrush insights — UK, Tier 1 + focused Tier 2', 'Figures are formulas over the "Semrush Data" tab (Semrush Keyword Overview, UK database: Tier 1 batches 1–9 and Tier 2 batches T2-1 to T2-3, Oct 2026). Volume = average monthly UK searches; KD = keyword difficulty 0–100; 0 / blank = no Semrush data.')
+title('Semrush insights — UK, Tiers 1–3', 'Figures are formulas over the "Semrush Data" tab (Semrush Keyword Overview, UK database: Tier 1 batches 1–9, Tier 2 T2-1 to T2-3, Tier 3 T3-1 to T3-2, Oct 2026). Volume = average monthly UK searches; KD = keyword difficulty 0–100; 0 / blank = no Semrush data.')
 r += 1
 title('Summary')
 summary = [
@@ -92,6 +92,8 @@ cluster('Non-branded skincare & haircare opportunities', 'Category and concern s
         lambda k: 'Concern collection page (H1 + intro + FAQ); product copy & meta description' if ' for ' in k else 'Category page H1 / intro; homepage section')
 cluster('Ingredient & product-type searches (Tier 2)', 'Generic searches that match the Vilvah & Deyga range: candidates for new collection pages, product-copy phrases and blog topics.', {'Generic product term', 'VD target keyword'},
         lambda k: 'New collection / keyword page + product copy' if not k.endswith(' uk') else 'Homepage / brand page copy', n=45)
+cluster('Questions & buying searches (Tier 3)', 'What people ask and how they shop for the hero and Vilvah & Deyga products.', {'Google suggest', 'Buy online', 'Price'},
+        lambda k: 'Meta title / description wording' if k.startswith('buy ') or k.endswith(' price') else 'Product FAQ question' if any(w in k for w in ('review', 'how to', 'dupe', 'notes', 'smell', 'benefit', 'vs', 'similar', 'long lasting', 'ingredients')) else 'Product copy / secondary keyword', n=50)
 cluster('Vilvah & Deyga brand searches', 'What people type about the two partner brands.', {'Brand', 'Google suggest (brand)'},
         lambda k: 'Brand page title + intro' if k in ('vilvah', 'deyga', 'vilvah uk', 'deyga products', 'vilvah products', 'deyga organics', 'vilvah store', 'vilvah official website') else 'Product page H1 / meta (matching product)')
 cluster('Fragrance brand & scent-family searches', 'Brand pages and scent-family collections. High-volume designer terms are hard (LOOKFANTASTIC, Boots, The Perfume Shop); target "Easier" ones first.', {'Brand / family'},
