@@ -66,7 +66,7 @@ section{padding-block:clamp(56px,7vw,104px)}
 .sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
 .sec-head .eyebrow{margin-bottom:12px}
 
-/* Product pictures: one image file per product holding up to two frames, shown by background position */
+/* Product pictures: cells of packed image sheets, shown by background position */
 .pic{width:100%;aspect-ratio:4/5;background-color:var(--mount);background-repeat:no-repeat;transition:transform .6s}
 
 .announce{background:var(--emerald);color:var(--on-dark);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
@@ -380,10 +380,10 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .pdp{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);padding-block:20px 64px}
 .gallery{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-self:start;position:sticky;top:150px}
 .gallery.single{grid-template-columns:minmax(0,1fr)}
-.thumbs{display:flex;flex-direction:column;gap:10px}
+.thumbs{display:flex;flex-direction:column;gap:10px;max-height:min(760px,calc(100vh - 190px));overflow-y:auto;scrollbar-width:thin}.thumbs button{flex:0 0 auto}
 .thumbs button{border:1px solid transparent;padding:0}
 .thumbs button[aria-current="true"]{border-color:var(--ink)}
-@media (max-width:900px){.pdp{grid-template-columns:1fr}.gallery{position:static;grid-template-columns:1fr}.thumbs{flex-direction:row;order:2}.thumbs button{width:64px}}
+@media (max-width:900px){.pdp{grid-template-columns:1fr}.gallery{position:static;grid-template-columns:1fr}.thumbs{flex-direction:row;order:2;max-height:none;overflow-x:auto;overflow-y:hidden;padding-bottom:4px}.thumbs button{width:64px}}
 .buy{display:flex;flex-direction:column;gap:18px}
 .buy .brandlink{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
 .buy h1{font-size:clamp(28px,3vw,42px);font-weight:700}
@@ -819,10 +819,14 @@ function subtype(p){
 function inCat(p, c){ return c === 'all' ? true : c === 'gifts' ? p.tags.includes('gift') : p.cat === c; }
 function findP(re, brand){ const m = P.filter(p => re.test(p.title) && (!brand || p.brand===brand) && p.available); return m.sort((a,b)=>a.title.length-b.title.length)[0] || P.find(p => re.test(p.title)); }
 
-/* picture from the one-file-per-product image strip */
-function pic(p, i = 0, alt = '', cls = ''){
-  const f = p.frames || 1, y = f > 1 ? (Math.min(i, f-1) / (f-1)) * 100 : 0;
-  return `<div class="pic ${cls}" role="img" aria-label="${esc(alt || cleanTitle(p))}" data-bg="${p.img}" style="background-size:100% ${f*100}%;background-position:0 ${y}%"></div>`;
+/* pictures come from packed sheets: cards/cN.webp (frames 0-1 of each product, 6x4 grid) and gallery/gN.webp (every frame, 5x4 grid) */
+function pic(p, i = 0, alt = '', cls = '', big = false){
+  const f = p.frames || 0;
+  if (!f) return `<div class="pic ${cls}" role="img" aria-label="${esc(alt || cleanTitle(p))}"></div>`;
+  i = Math.min(i, f-1);
+  const card = !big && i < 2, C = card ? 6 : 5, R = 4, n = (card ? p.ci : p.gi) + i, k = n % (C*R);
+  const src = card ? `cards/c${Math.floor(n/(C*R))}.webp` : `gallery/g${Math.floor(n/(C*R))}.webp`;
+  return `<div class="pic ${cls}" role="img" aria-label="${esc(alt || p.alts?.[i] || cleanTitle(p))}" data-bg="${src}" style="background-size:${C*100}% ${R*100}%;background-position:${(k%C)/(C-1)*100}% ${Math.floor(k/C)/(R-1)*100}%"></div>`;
 }
 const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.style.backgroundImage = `url("${e.target.dataset.bg}")`; io.unobserve(e.target); } }), {rootMargin:'400px'}) : null;
 function lazy(root = document){ root.querySelectorAll('.pic[data-bg]:not([data-seen])').forEach(el => { el.dataset.seen = 1; if (io) io.observe(el); else el.style.backgroundImage = `url("${el.dataset.bg}")`; }); }
@@ -1302,7 +1306,7 @@ function productPage(id){
   const similar = (p.cat==='fragrance' ? sameCat.filter(x=>family(x)===family(p)).concat(sameCat) : sameCat).filter((x,i,a)=>a.indexOf(x)===i).slice(0,4);
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#c-${p.cat}">${cat.name}</a><span>/</span><a href="#b-${brandSlug(p.brand)}">${esc(p.brand)}</a><span>/</span><span style="color:var(--ink)">${esc(cleanTitle(p))}</span></nav>
   <div class="pdp">
-    <div class="gallery ${p.frames>1?'':'single'}">${p.frames>1?`<div class="thumbs">${Array.from({length:p.frames},(_,i)=>`<button data-frame="${i}" aria-current="${i===0}" aria-label="Image ${i+1}">${pic(p,i,'Image '+(i+1))}</button>`).join('')}</div>`:''}<div id="mainImg">${pic(p,0)}</div></div>
+    <div class="gallery ${p.frames>1?'':'single'}">${p.frames>1?`<div class="thumbs">${Array.from({length:p.frames},(_,i)=>`<button data-frame="${i}" aria-current="${i===0}" aria-label="Image ${i+1} of ${p.frames}">${pic(p,i,'','',true)}</button>`).join('')}</div>`:''}<div id="mainImg">${pic(p,0,'','',true)}</div></div>
     <div class="buy">
       <a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a>
       <h1>${esc(cleanTitle(p))}</h1>
@@ -1471,7 +1475,7 @@ document.addEventListener('click', e => {
   else if (t.dataset.rm){ bag = bag.filter(l=>l.id!==t.dataset.rm); saveBag(); openBag(); }
   else if ('close' in t.dataset){ closeLayer(); }
   else if (t.dataset.tab){ document.querySelectorAll('.tabs [data-tab]').forEach(b=>b.setAttribute('aria-selected', b===t)); const g = document.getElementById('bestGrid'); g.innerHTML = document.getElementById('best-'+t.dataset.tab).innerHTML; lazy(g); }
-  else if (t.dataset.frame){ const id = (location.hash.match(/p-(\d+)/)||[])[1]; const p = byId[id]; const box = document.getElementById('mainImg'); box.innerHTML = pic(p, +t.dataset.frame); lazy(box); t.parentElement.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current', b===t)); }
+  else if (t.dataset.frame){ const id = (location.hash.match(/p-(\d+)/)||[])[1]; const p = byId[id]; const box = document.getElementById('mainImg'); box.innerHTML = pic(p, +t.dataset.frame, '', '', true); lazy(box); t.parentElement.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current', b===t)); }
   else if (t.dataset.q){ const o = document.getElementById('qty'); o.value = o.textContent = Math.max(1, (+o.textContent) + (+t.dataset.q)); }
   else if (t.dataset.jump){ e.preventDefault(); document.getElementById(t.dataset.jump)?.scrollIntoView({behavior:'smooth'}); }
   else if (t.id==='openBag') openBag();
@@ -1507,7 +1511,7 @@ addEventListener('scroll', function onS(){ if (scrollY > document.body.scrollHei
 (() => { const items = [...document.querySelectorAll('.announce .wrap>*')]; let i = 0; items[0].classList.add('on'); setInterval(() => { items[i].classList.remove('on'); i = (i+1) % items.length; items[i].classList.add('on'); }, 4500); })();
 
 fetch('products.json').then(r=>r.json()).then(data => {
-  P = data.map(p => ({...p, id:String(p.id), tags:p.tags||[], desc:p.desc||'', frames:p.frames||1}));
+  P = data.map(p => ({...p, id:String(p.id), tags:p.tags||[], desc:p.desc||'', frames:p.frames||0}));
   P.forEach(p => byId[p.id] = p);
   buildBrands();
   document.getElementById('mainNav').innerHTML = navHTML();
