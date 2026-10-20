@@ -247,6 +247,8 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .brandcell .bn{font-family:var(--display);font-size:20px;font-weight:700;letter-spacing:-.01em}
 .brandcell small{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
 .brandcell small.p{color:var(--emerald);font-weight:600}
+.brandcell .blogo{height:40px;display:flex;align-items:center;justify-content:center;margin-bottom:6px}.brandcell .blogo img{max-height:40px;max-width:150px;width:auto;height:auto;object-fit:contain}
+.brandcell.haslogo .bn{font-size:15px}.brandcell .logo.sw .w{font-size:20px;letter-spacing:.2em}.brandcell .logo.sw .s{font-size:7px;letter-spacing:.38em;margin-top:4px}
 @media (max-width:900px){.brandgrid{grid-template-columns:repeat(2,1fr)}}
 
 .story{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px);align-items:center}
@@ -686,6 +688,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 <div class="stickybar" id="stickybar" role="region" aria-label="Quick add to bag"></div>
 <div id="layer"></div>
 
+<script src="logos.js"></script>
 <script>
 const STORIES = {
   'Deyga': {partner:true, line:'Natural skincare from India', story:'Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Beetroot lip balm, charcoal face wash and botanical sunscreen are the cult favourites. Swansura is an official UK partner, so every product is genuine and ships from the UK.'},
@@ -700,6 +703,8 @@ const STORIES = {
   'Gucci': {line:'Italian fashion house fragrance', story:'Gucci fragrances at Swansura, including Bloom, Flora, Guilty and Intense Oud, from pen sprays and miniature sets to full bottles.'},
   'Swansura Selection': {line:'Chosen by the Studio', story:'Skincare, body care and gifts selected by the Swansura team.'}
 };
+/* Official brand logos (brand sites / Wikipedia); brands without one show their name only */
+const LOGOS = window.SW_LOGOS || {};
 const CATS = {
   'all': {name:'All products', world:'skin', intro:'The full Swansura catalogue: natural skincare, haircare, bath and body, and niche, Arabian and designer fragrance, 100% authentic and shipped from the UK.', faq:[]},
   'skincare': {name:'Skincare', world:'skin', intro:'Natural Indian skincare from Deyga and Vilvah, and luxury English formulas from Highborn London. Cleansers, serums, moisturisers, sun care and lip care, all shipped from the UK.', faq:[['Are Deyga and Vilvah products genuine?','Yes. Swansura is an official UK partner of both brands, so every product comes direct from the brand and ships from the UK.'],['Which serum should I start with?','For hydration, try Deyga 2% Hyaluronic Acid Serum. For glow and dark spots, Vilvah Milk Drops serum. For ageing concerns, Highborn London YOUTHBOOST.'],['Do you deliver across the UK?','Yes. Delivery is free on orders over £50.']]},
@@ -1244,7 +1249,7 @@ function brandPage(slug){
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
-  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell" href="#b-${BR[k].slug}"><span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
+  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell${LOGOS[k]||k==='Swansura Selection'?' haslogo':''}" href="#b-${BR[k].slug}">${LOGOS[k]?`<span class="blogo"><img src="${LOGOS[k]}" alt="${esc(k)} logo" loading="lazy" decoding="async"></span>`:k==='Swansura Selection'?'<span class="blogo"><span class="logo sw" aria-hidden="true"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></span></span>':''}<span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
 }
 function brandsAZ(){
   const all = Object.keys(BR).sort((a,b)=>a.localeCompare(b));
