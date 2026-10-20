@@ -106,3 +106,30 @@ Method: automated Chromium tests (Playwright) on desktop 1440×900 and mobile 39
   - add to cart and the cart page worked
   - the Shopify checkout page loaded (contact/delivery step)
 - robots.txt, sitemap.xml, contact, refund, privacy and terms are all 200; the 404 page returns a proper 404.
+
+## Fixes applied to the prototype (20 Oct 2026, preview v24)
+
+Issues 2–7 are fixed in `prototype/index.html`:
+
+- **Issue 2 (narrow phones):** the header now fits from 320 px up, so there is no sideways scrolling at 320/360/375/390 px.
+  - Below 400 px the logo is smaller and the icons are closer together.
+  - Below 340 px the "The Body Studio" line is hidden.
+- **Issue 3 (language):** `<html lang="en-GB">`.
+- **Issue 4 (contrast):** the Klarna and Clearpay badge text in the bag is now dark (#17120F).
+- **Issue 5 (skip link):** a "Skip to content" link appears on the first Tab and moves focus to the main content without changing the page.
+- **Issue 6 (heading order):**
+  - Popular searches and footer columns: h3.
+  - Listing filter titles: h2.
+  - Journal post titles: h2 with the same look.
+- **Issue 7 (landmarks):**
+  - The prototype notice and announcement bar are labelled `aside` landmarks.
+  - The newsletter and the mobile add-to-bag bar are labelled regions.
+  - The bag drawer is a `div role="dialog" aria-modal="true"` and no longer has a second `<header>`.
+
+Re-test after the fixes:
+
+- **axe-core (WCAG 2.1 AA + best practice, 31 page states):** 0 violations.
+- **Full crawl (618 routes × desktop/mobile):** 0 JS errors, broken images, failed requests or overflow; exactly one H1 per page.
+- **User journeys:** all pass. The remaining script failures were selector mistakes in the test script, and the corrected tests pass.
+
+Still open: issue 1 (shipping policy, client to add in Shopify), issue 8 (CLS/LCP, solved by server-rendered Liquid), issue 9 (titles/meta/OG/favicon, in the theme), issue 10 (24 px tap targets, in the theme) and issue 11 (live-theme gallery).
