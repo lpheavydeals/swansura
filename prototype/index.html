@@ -1064,7 +1064,7 @@ function ritualsPage(){
   <div class="pagehead"><div><div class="eyebrow">Routines &amp; sets</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Routines that work together</h1></div><p class="lede">${all.length} step-by-step routines built from products across our brands. Buy the full routine and save ${Math.round(RITUAL_SAVE*100)}%.</p></div>
   ${Object.entries(RITUAL_GROUPS).map(([g,label]) => { const rs = all.filter(r=>r.g===g); return rs.length ? `<section style="padding-block:48px 8px"><div class="sec-head"><div><div class="eyebrow">${rs.length} routines</div><h2>${label}</h2></div></div><div class="rituals">${rs.map(ritualCard).join('')}</div></section>` : ''; }).join('')}
   <section><div class="sec-head"><div><div class="eyebrow">Ready-made kits</div><h2>Brand kits &amp; gift sets</h2></div><a class="link" href="#c-gifts">All gifts &amp; sets</a></div>${grid(P.filter(p=>p.tags.includes('gift') && p.available).slice(0,8))}</section>
-  <section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Gifts by price</div><h2>Find a gift</h2></div></div><div class="chips">${['gifts-under-25','gifts-25-to-50','gifts-over-50','gifts-for-her','gifts-for-him','diwali-gifts','ramadan-eid-gifts','stocking-fillers'].map(s=>KWBY[s]).map(k=>`<a class="chip" href="#k-${k.s}">${esc(k.k)}<small>${kwList(k).length} gifts</small></a>`).join('')}</div></section></div>`;
+  <section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Gifts by price</div><h2>Find a gift</h2></div></div><div class="chips">${['gifts-under-25','gifts-25-to-50','gifts-over-50','gifts-for-her','gifts-for-him','diwali-gifts','ramadan-eid-gifts','stocking-fillers'].map(s=>KWBY[s]).map(k=>`<a class="chip" href="#k-${k.s}">${esc(k.k)}<small>${kwList(k).length} gifts</small></a>`).join('')}</div></section>${faqBlock('Routine questions', ritualFaq(all))}</div>`;
 }
 function journal(){
   return [
@@ -1214,7 +1214,7 @@ function listing(kind, key){
     </div>
   </div>
   ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return facet || ks.length ? `<div class="related">${facet?`<div class="kwchips"><span class="eyebrow">${kind==='c'&&key==='fragrance'?'Shop by scent family':'Shop by concern'}</span><div>${facet}</div></div>`:''}${kwChips(ks)}</div>` : ''; })()}
-  ${faq.length?`<div class="lfaq" data-faq style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${title} questions</h2></div><div class="faq">${faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`:''}
+  ${(() => { const auto = listingFaq(kind, key, title, list); return faqBlock(`${title} questions`, auto.length ? auto : topUpFaq(faq, list)); })()}
   <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="related">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
   </div>`;
 }
@@ -1257,7 +1257,8 @@ function brandPage(slug){
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
-  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell${LOGOS[k]||k==='Swansura Selection'?' haslogo':''}" href="#b-${BR[k].slug}">${LOGOS[k]?`<span class="blogo"><img src="${LOGOS[k]}" alt="${esc(k)} logo" loading="lazy" decoding="async"></span>`:k==='Swansura Selection'?'<span class="blogo"><img src="brand/swansura-logo-brown.svg" alt="Swansura logo" loading="lazy" style="max-height:44px"></span>':''}<span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
+  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell${LOGOS[k]||k==='Swansura Selection'?' haslogo':''}" href="#b-${BR[k].slug}">${LOGOS[k]?`<span class="blogo"><img src="${LOGOS[k]}" alt="${esc(k)} logo" loading="lazy" decoding="async"></span>`:k==='Swansura Selection'?'<span class="blogo"><img src="brand/swansura-logo-brown.svg" alt="Swansura logo" loading="lazy" style="max-height:44px"></span>':''}<span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>
+  ${faqBlock(`${b} questions`, brandFaq(b))}`;
 }
 function brandsAZ(){
   const all = Object.keys(BR).sort((a,b)=>a.localeCompare(b));
@@ -1266,7 +1267,7 @@ function brandsAZ(){
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Brands A–Z</span></nav>
   <div class="pagehead"><div><div class="eyebrow">Every house we carry</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Brands A–Z</h1></div><p class="lede">${all.length} skincare and fragrance houses, ${P.length} products. Each brand has its own page, linked from the homepage, menus and every product.</p></div>
   <div class="subnav">${letters.map(l=>`<a href="#brands" data-jump="L-${l}">${l}</a>`).join('')}</div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px;padding-block:24px 72px">${letters.map(l=>`<div id="L-${l}"><div style="font-family:var(--display);font-weight:800;font-size:40px;border-bottom:1px solid var(--line);margin-bottom:10px">${l}</div>${groups[l].map(n=>`<a href="#b-${BR[n].slug}" style="display:flex;justify-content:space-between;gap:8px;padding:5px 0"><span>${esc(n)}${BR[n].partner?' <small style="color:var(--emerald);letter-spacing:.1em;text-transform:uppercase;font-size:10px">Official partner</small>':''}</span><small style="color:var(--ink-2)">${BR[n].count}</small></a>`).join('')}</div>`).join('')}</div></div>`;
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px;padding-block:24px 72px">${letters.map(l=>`<div id="L-${l}"><div style="font-family:var(--display);font-weight:800;font-size:40px;border-bottom:1px solid var(--line);margin-bottom:10px">${l}</div>${groups[l].map(n=>`<a href="#b-${BR[n].slug}" style="display:flex;justify-content:space-between;gap:8px;padding:5px 0"><span>${esc(n)}${BR[n].partner?' <small style="color:var(--emerald);letter-spacing:.1em;text-transform:uppercase;font-size:10px">Official partner</small>':''}</span><small style="color:var(--ink-2)">${BR[n].count}</small></a>`).join('')}</div>`).join('')}</div>${faqBlock('Brand questions', brandsFaq(all))}</div>`;
 }
 function summary(t, max=170){ t = (t||'').trim(); if (t.length <= max) return t; const parts = t.match(/[^.!?]+[.!?]+/g) || [t]; let out = ''; for (const x of parts){ if ((out + x).length > max && out) break; out += x; } return out.length > max + 60 ? out.slice(0, max).replace(/\s+\S*$/,'') + '…' : out.trim(); }
 function productPage(id){
@@ -1409,10 +1410,106 @@ function footerHTML(){
   </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
 }
 
+/* ---------- FAQs (built from catalogue data: counts, prices, real product names; no medical claims) ---------- */
+function faqBlock(title, faqs, sub=''){
+  if (!faqs || !faqs.length) return '';
+  const ld = JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}).replace(/</g,'\\u003c');
+  return `<div class="lfaq" data-faq style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${esc(title)}</h2>${sub?`<p class="muted" style="margin-top:12px">${sub}</p>`:''}</div><div class="faq">${faqs.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${ld}<\/script></div>`;
+}
+const scentFor = p => { const t = subtype(p); return t === 'Unisex' && !/unisex/i.test(p.title) ? forWho(p) : t; };
+const andList = a => a.length < 2 ? (a[0]||'') : a.slice(0,-1).join(', ') + ' and ' + a[a.length-1];
+const topNames = (list, n=3) => andList([...new Set(list.filter(p=>p.available).map(cleanTitle))].slice(0,n));
+const priceSpan = list => { const v = list.map(p=>p.price).filter(x=>x>0); return v.length ? `${fmt(Math.min(...v))} to ${fmt(Math.max(...v))}` : ''; };
+const countBy = (list, fn) => Object.entries(list.reduce((m,p)=>{ const k = fn(p); m[k]=(m[k]||0)+1; return m; },{})).sort((a,b)=>b[1]-a[1]);
+const CAT_WORD = {skincare:'skincare', haircare:'haircare', 'bath-body':'bath and body', fragrance:'fragrance'};
+const minisOf = list => list.filter(p=>/mini|miniature|travel|gift set|\bset\b|discovery|pen spray/i.test(p.title));
+const FAQ_AUTH = (who='') => ['Are the products genuine?', `Yes. Every ${who?who+' ':''}product at Swansura is 100% authentic. Swansura is an official UK partner of Deyga and Vilvah.`];
+const FAQ_DELIVERY = ['How does delivery work?', 'Every order ships from Swansura in the UK. UK delivery is free on orders over £50, and the cost for smaller orders is shown at checkout. See Delivery & returns for times and the returns policy.'];
+const ROUTINE_TIP = {
+  acne:'Use a gentle clarifying cleanser morning and evening, a light toner or serum, then an oil-free moisturiser. Add a clay or charcoal mask once or twice a week, and finish with sunscreen in the morning.',
+  glow:'Cleanse, apply a brightening serum such as vitamin C in the morning, then moisturise and finish with sunscreen. Exfoliate or use a mask once or twice a week.',
+  hydration:'Cleanse with a gentle, non-foaming wash, layer a hydrating serum on damp skin, then seal it in with a richer moisturiser morning and evening.',
+  lips:'Buff with a lip scrub once or twice a week, then apply balm through the day and a thicker layer at night.',
+  sun:'Apply sunscreen as the last step of your morning routine, after moisturiser, and reapply through the day when you are outdoors.',
+  hairfall:'Massage a hair oil into the scalp a few hours or a night before washing, wash with a gentle shampoo, and use a conditioner on the lengths.',
+  dandruff:'Wash with a scalp-care shampoo two or three times a week, massaging it into the scalp, and keep heavy oils to the lengths of the hair.',
+  calm:'Run a bath or shower with a body wash or bath salts, apply body oil or butter, and finish with a pillow spray at bedtime.'
+};
+function listingFaq(kind, key, title, list){
+  if (!list.length) return [];
+  const n = list.length, span = priceSpan(list), brands = andList(countBy(list, p=>p.brand).slice(0,3).map(x=>x[0])), lt = title.toLowerCase();
+  if (kind === 'concern') return [
+    [`Which products are in the ${lt} edit?`, `${n} products from ${brands}, including ${topNames(list)}.`],
+    [`How do I build a routine for ${lt}?`, (ROUTINE_TIP[key]||'Start with a cleanser, then a serum, then a moisturiser.') + ' Our Routines page has ready-made step-by-step sets that cost less than buying each product on its own.'],
+    [`How much do ${lt} products cost?`, `Prices in this edit run from ${span}.`], FAQ_AUTH(), FAQ_DELIVERY];
+  if (kind === 'scent'){ const f = FAMILIES[key], fl = f[0].toLowerCase(), who = countBy(list, scentFor), mini = minisOf(list); return [
+    [`What does ${/^[aeiou]/.test(fl)?'an':'a'} ${fl} perfume smell like?`, `${f[0]} fragrances are ${f[1].toLowerCase()}. Examples here include ${topNames(list)}.`],
+    [`Are there ${fl} perfumes for men and women?`, `Yes: ${who.map(([w,c])=>`${c} ${w==='Unisex'?'unisex':w.toLowerCase()}`).join(', ')}.`],
+    [`How long do ${fl} perfumes last?`, 'It depends mostly on the concentration. An extrait or parfum usually lasts longest, then eau de parfum, then eau de toilette. Applying to moisturised skin helps any fragrance last longer.'],
+    [`Do you have ${fl} miniatures or gift sets?`, mini.length ? `Yes, ${mini.length}: ${topNames(mini)}${mini.length>3?' and more':''}.` : 'Not in this family at the moment. See Gifts & Sets for miniatures and discovery sets.'],
+    [`How much do ${fl} perfumes cost?`, `From ${span}.`], FAQ_AUTH('fragrance')]; }
+  if (kind === 'range'){ const r = RANGES[key], rl = r[0].toLowerCase(), cats = countBy(list, p=>CAT_WORD[p.cat]||p.cat); return [
+    [`What is the ${rl} range?`, `${r[1]}. It brings together every product at Swansura made with ${rl}: ${cats.map(([c,k])=>`${k} ${c} product${k>1?'s':''}`).join(', ')}.`],
+    [`Which ${rl} products should I start with?`, `Good places to start are ${topNames(list)}.`],
+    [`How much do ${rl} products cost?`, `From ${span}.`], FAQ_AUTH(), FAQ_DELIVERY]; }
+  if (kind === 'price'){ const cats = countBy(list, p=>CAT_WORD[p.cat]||p.cat), lo = +key.split('-')[0]; return [
+    [`What can I buy ${title.startsWith('Under')?lt:'for '+title}?`, `${n} products: ${cats.map(([c,k])=>`${k} ${c}`).join(', ')}, including ${topNames(list)}.`],
+    ['Is delivery free?', lo >= 50 ? 'Yes. Every product in this range is over £50, so UK delivery is free.' : 'UK delivery is free on orders over £50, so adding a second product or a routine can save the delivery cost.'],
+    FAQ_AUTH(), ['Can I return a product?', 'Returns are covered by our returns policy. See Delivery & returns for what can be returned and how.']]; }
+  if (kind === 'c' && key === 'all') return [
+    ['What does Swansura sell?', `${P.length} products from ${Object.keys(BR).length} brands: natural Indian skincare, haircare and body care from Deyga and Vilvah, luxury English skincare, and niche, Arabian and designer fragrance.`],
+    FAQ_AUTH(), FAQ_DELIVERY,
+    ['How much do products cost?', `From ${span}. Shop by price from the homepage to see products under £15, £15 to £25, £25 to £50 and over £50.`],
+    ['Do you sell gift sets?', `Yes, ${P.filter(p=>p.tags.includes('gift')).length} kits, routines, miniature sets and gift sets. See Gifts & Sets.`]];
+  if (kind === 'c' && key === 'gifts'){ const mini = minisOf(list).filter(p=>p.cat==='fragrance'); return [
+    ['What gift sets do you have?', `${n} kits, routines, miniature sets and discovery sets, including ${topNames(list)}.`],
+    ['Do you have fragrance miniatures?', mini.length ? `Yes, ${mini.length} miniature, travel and discovery sets, such as ${topNames(mini)}.` : 'See the fragrance pages for travel sizes.'],
+    ['Do you offer gift wrapping?', 'A gift box option is planned for fragrance and sets.'],
+    ['How much do gift sets cost?', `From ${span}. Browse gifts under £25, £25 to £50 and over £50 from the menu.`],
+    FAQ_DELIVERY]; }
+  return [];
+}
+function topUpFaq(faq, list){
+  const out = [...faq], has = re => out.some(([q,a])=>re.test(q+' '+a));
+  if (out.length < 5 && list.length && !has(/cost|price|£\d/i)) out.push(['How much do these products cost?', `Prices run from ${priceSpan(list)}.`]);
+  if (out.length < 5 && !has(/genuine|authentic/i)) out.push(FAQ_AUTH());
+  if (out.length < 5 && !has(/deliver/i)) out.push(FAQ_DELIVERY);
+  return out;
+}
+function brandFaq(b){
+  const B = BR[b], list = P.filter(p=>p.brand===b), span = priceSpan(list), types = countBy(list, B.world==='scent' ? scentFor : subtype).filter(([t])=>t!=='More').slice(0,3);
+  const picks = list.filter(p=>p.available && isPick(p)), start = [...picks, ...list.filter(p=>p.available && !picks.includes(p))], mini = minisOf(list);
+  const faqs = [
+    [`Is ${b} at Swansura genuine?`, B.partner ? `Yes. Swansura is an official UK partner of ${b}, so every product comes direct from the brand and ships from the UK.` : `Yes. Every ${b} product at Swansura is 100% authentic and ships from the UK.`],
+    [`Which ${b} products do you stock?`, `${list.length} product${list.length>1?'s':''}${span?`, from ${span}`:''}${types.length?`: ${types.map(([t,c])=>`${t==='Unisex'?'unisex':t.toLowerCase()} (${c})`).join(', ')}`:''}.`]];
+  if (start.length > 1) faqs.push([`Which ${b} product should I start with?`, `Good places to start are ${andList(start.slice(0,3).map(cleanTitle))}.`]);
+  if (B.world === 'scent') faqs.push([`Does ${b} come in miniatures or gift sets?`, mini.length ? `Yes, ${mini.length}: ${andList(mini.slice(0,3).map(cleanTitle))}${mini.length>3?' and more':''}.` : `Not at the moment. Every ${b} product we stock is listed above.`]);
+  else if (STORIES[b]?.line) faqs.push([`What is ${b} known for?`, `${STORIES[b].line}.`]);
+  faqs.push([`How fast is ${b} delivery?`, `All ${b} orders ship from Swansura in the UK. UK delivery is free on orders over £50, and the cost for smaller orders is shown at checkout.`]);
+  return faqs;
+}
+function ritualFaq(all){
+  const sizes = all.map(r=>r.items.length), gifts = P.filter(p=>p.tags.includes('gift')).length;
+  return [
+    ['What is a routine?', `A set of ${Math.min(...sizes)} to ${Math.max(...sizes)} products chosen to be used together, with each step listed in order. There are ${all.length} routines across skincare, hair, body and skin + scent.`],
+    ['How much do I save on a routine?', `Buying the full routine saves ${Math.round(RITUAL_SAVE*100)}% compared with buying each product on its own.`],
+    ['Can I buy one product from a routine?', 'Yes. Every product in a routine links to its own page, where you can buy it on its own.'],
+    ['In what order should I use the products?', 'Follow the numbered steps on each routine card. Skincare usually goes cleanse, tone or treat, then moisturise, with sunscreen last in the morning.'],
+    ['Do you also sell ready-made kits?', `Yes. There are ${gifts} brand kits, miniature sets and gift sets in Gifts & Sets.`]];
+}
+function brandsFaq(all){
+  return [
+    ['How many brands does Swansura stock?', `${all.length} skincare and fragrance brands, with ${P.length} products in total.`],
+    ['Which brands is Swansura an official partner of?', 'Swansura is an official UK partner of Deyga and Vilvah, the Indian natural skincare brands.'],
+    ['Are all brands genuine?', 'Yes. Every product from every brand at Swansura is 100% authentic and ships from the UK.'],
+    ['Can I ask for a brand you do not stock?', 'Yes. Use the contact page to tell us which brand or product you are looking for.']];
+}
+
 /* FAQs sit in their own band between the Studio Letter and the footer on every page that has them */
 function placeFaq(){
   const slot = document.getElementById('faqslot'), box = slot.firstElementChild, f = document.getElementById('app').querySelector('[data-faq]');
   box.innerHTML = ''; if (f) box.appendChild(f); slot.hidden = !f; lazy(box);
+  if (f && !f.querySelector('script[type="application/ld+json"]')) { const ld = document.createElement('script'); ld.type = 'application/ld+json'; ld.textContent = JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:[...f.querySelectorAll('details')].map(d=>({'@type':'Question',name:d.querySelector('summary').textContent.trim(),acceptedAnswer:{'@type':'Answer',text:d.querySelector('p').textContent.trim()}}))}); f.appendChild(ld); }
 }
 
 /* ---------- Router ---------- */
