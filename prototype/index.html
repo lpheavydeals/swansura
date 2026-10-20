@@ -479,6 +479,13 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .types em{font-style:normal;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--ink)}
 .muted{color:var(--ink-2)}
 .faqslot .pfaq,.faqslot .lfaq,.faqslot section{border-top:0;padding:0}
+.seocopy{border-top:1px solid var(--line);padding-block:56px}
+.seocopy .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px}
+.seocopy h2{margin-top:10px;font-size:clamp(24px,2.6vw,34px);text-wrap:balance}
+.seocopy .txt{display:flex;flex-direction:column;gap:14px;max-width:72ch;color:var(--ink-2);font-size:16px;line-height:1.7}
+.seocopy h3{font-family:var(--display);font-size:19px;font-weight:600;color:var(--ink);margin-top:8px}
+.seocopy a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+@media (max-width:800px){.seocopy .wrap{grid-template-columns:1fr;gap:16px}}
 .pfaq{border-top:1px solid var(--line);padding-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
 .reviews{border-top:1px solid var(--line);padding-block:48px 56px}
 .rv-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
@@ -693,6 +700,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 <div id="layer"></div>
 
 <script src="logos.js"></script>
+<script src="seocopy.js"></script>
 <script>
 const STORIES = {
   'Deyga': {partner:true, line:'Natural skincare from India', story:'Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Beetroot lip balm, charcoal face wash and botanical sunscreen are the cult favourites. Swansura is an official UK partner, so every product is genuine and ships from the UK.'},
@@ -1505,6 +1513,14 @@ function brandsFaq(all){
     ['Can I ask for a brand you do not stock?', 'Yes. Use the contact page to tell us which brand or product you are looking for.']];
 }
 
+/* Descriptive SEO copy per page (seocopy.js, written from catalogue data and the Semrush keyword research) */
+const COPY = window.SW_COPY || {};
+function seoBlock(route){
+  const c = COPY[route]; if (!c) return '';
+  const md = t => esc(t).replace(/\[([^\]]+)\]\((#[a-z0-9-]+)\)/g, '<a href="$2">$1</a>');
+  return `<section class="seocopy" aria-labelledby="seo-h"><div class="wrap"><div><div class="eyebrow">About this page</div><h2 id="seo-h">${esc(c.h2)}</h2></div><div class="txt">${c.blocks.map(b=>`${b.h3?`<h3>${esc(b.h3)}</h3>`:''}<p>${md(b.p)}</p>`).join('')}</div></div></section>`;
+}
+
 /* FAQs sit in their own band between the Studio Letter and the footer on every page that has them */
 function placeFaq(){
   const slot = document.getElementById('faqslot'), box = slot.firstElementChild, f = document.getElementById('app').querySelector('[data-faq]');
@@ -1536,7 +1552,7 @@ function route(){
   else html = notFound();
   const app = document.getElementById('app');
   const news = document.getElementById('newsletter'); if (app.contains(news)) app.after(news);
-  app.innerHTML = html;
+  app.innerHTML = html + seoBlock(h);
   { const pop = document.getElementById('popular'); if (pop) pop.before(news); }
   if (document.getElementById('results')) applyFilters(true);
   placeFaq();
