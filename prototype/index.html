@@ -480,6 +480,15 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .muted{color:var(--ink-2)}
 .faqslot .pfaq,.faqslot .lfaq,.faqslot section{border-top:0;padding:0}
 .seocopy{border-top:1px solid var(--line);padding-block:56px}
+.smgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:36px 32px;padding-block:24px 48px}
+.smcol{padding:0;display:flex;flex-direction:column;gap:2px}
+.smcol h2,.smbrands h2{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-family:var(--body);font-weight:600;color:var(--brass-ink);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:8px}
+.smcol a{padding:5px 0;min-height:24px;display:flex;justify-content:space-between;gap:8px}.smcol a small,.smbrands small{color:var(--ink-2)}
+.smcol a:hover,.smprod a:hover,.smbrands summary a:hover{text-decoration:underline}
+.smbrands{padding-block:8px 72px}
+.smbrands details{border-bottom:1px solid var(--line);padding:12px 0}
+.smbrands summary{cursor:pointer;display:flex;gap:10px;align-items:baseline;font-family:var(--display);font-weight:600;font-size:17px}
+.smprod{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:2px 24px;padding-top:10px;font-size:14px}.smprod a{padding:4px 0;min-height:24px;color:var(--ink-2)}
 .seocopy .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px}
 .seocopy h2{margin-top:10px;font-size:clamp(24px,2.6vw,34px);text-wrap:balance}
 .seocopy .txt{display:flex;flex-direction:column;gap:14px;max-width:72ch;color:var(--ink-2);font-size:16px;line-height:1.7}
@@ -1360,6 +1369,26 @@ function productPage(id){
   <section class="pfaq" data-faq><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   </div>`;
 }
+function sitemapPage(){
+  const L = (h, t, n) => `<a href="${h}">${esc(t)}${n!=null?` <small>${n}</small>`:''}</a>`;
+  const col = (title, links) => links.length ? `<section class="smcol"><h2>${title}</h2>${links.join('')}</section>` : '';
+  const kw = kwLive(), groups = [...new Set(kw.map(k=>k.grp))];
+  const brands = Object.keys(BR).sort((a,b)=>a.localeCompare(b));
+  const info = {about:'About us', contact:'Contact', faq:'FAQ', delivery:'Delivery & returns', shipping:'Shipping policy', refunds:'Refund policy', privacy:'Privacy policy', terms:'Terms of service'};
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Sitemap</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Every page in one place</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Sitemap</h1></div><p class="lede">All ${Object.keys(CATS).length} categories, ${Object.keys(CONCERNS).length} skin and hair concerns, ${Object.keys(FAMILIES).length} scent families, ${kw.length} popular searches, ${brands.length} brands and ${P.length} products at Swansura.</p></div>
+  <div class="smgrid">
+    ${col('Shop', [...Object.entries(CATS).map(([k,c])=>L('#c-'+k, c.name, P.filter(p=>inCat(p,k)).length)), L('#rituals','Routines & sets'), L('#advent','Advent calendars'), L('#brands','Brands A–Z'), L('#journal','Journal'), L('#wishlist','Wishlist')])}
+    ${col('Shop by concern', Object.entries(CONCERNS).map(([k,c])=>L('#concern-'+k, c[0])))}
+    ${col('Scent families', Object.entries(FAMILIES).map(([k,f])=>L('#scent-'+k, f[0]+' fragrances')))}
+    ${col('Ranges', Object.entries(RANGES).map(([k,r])=>L('#range-'+k, r[0]+' range')))}
+    ${col('Shop by price', PRICE_BANDS.map(x=>L('#price-'+x[0], x[1])))}
+    ${groups.map(g=>col(esc(g), kw.filter(k=>k.grp===g).map(k=>L('#k-'+k.s, k.k)))).join('')}
+    ${col('Help &amp; policies', Object.entries(info).map(([k,t])=>L('#page-'+k, t)))}
+  </div>
+  <section class="smbrands"><h2>Brands and their products</h2>${brands.map(b=>{ const ps = P.filter(p=>p.brand===b).sort((x,y)=>cleanTitle(x).localeCompare(cleanTitle(y))); return `<details><summary><a href="#b-${BR[b].slug}">${esc(b)}</a> <small>${ps.length} product${ps.length>1?'s':''}</small></summary><div class="smprod">${ps.map(p=>`<a href="#p-${p.id}">${esc(cleanTitle(p))}</a>`).join('')}</div></details>`; }).join('')}</section>
+  </div>`;
+}
 function journalPage(){
   return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h2 class="ph">${j.t}</h2><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
 }
@@ -1414,8 +1443,8 @@ function footerHTML(){
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Ranges</h3></summary>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Brands</h3></summary>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Popular searches</h3></summary>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</details>
-    <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Help</h3></summary><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a></details>
-  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Help</h3></summary><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a><a href="#sitemap">Sitemap</a></details>
+  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#sitemap">Sitemap</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
 }
 
 /* ---------- FAQs (built from catalogue data: counts, prices, real product names; no medical claims) ---------- */
@@ -1548,6 +1577,7 @@ function route(){
   else if ((m = h.match(/^b-(.+)$/))) html = brandPage(m[1]);
   else if (h === 'brands') html = brandsAZ();
   else if (h === 'journal') html = journalPage();
+  else if (h === 'sitemap') html = sitemapPage();
   else if ((m = h.match(/^p-(\d+)$/))) html = productPage(m[1]);
   else html = notFound();
   const app = document.getElementById('app');
