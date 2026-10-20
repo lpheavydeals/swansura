@@ -56,7 +56,7 @@ def tags_of(p, cat):
     if cat == 'fragrance':
         for k, r in [('oud', 'oud'), ('floral', 'floral|rose|jasmine'), ('woody', 'wood|cedar|sandal|vetiver|patchouli'), ('amber', 'amber|oriental|vanilla'), ('fresh', 'fresh|citrus|aquatic|bergamot')]:
             if re.search('(?i)' + r, t): g.append(k)
-        g.append('men' if re.search(r"(?i)\bmen\b|men[’']s|homme|for him", p['title']) else 'women' if re.search(r"(?i)women|femme|for her", p['title']) else 'unisex')
+        g.append('men' if re.search(r"(?i)\bmen\b|\bmen[’']s|homme|for him", p['title']) else 'women' if re.search(r"(?i)women|femme|for her", p['title']) else 'unisex')
     else:
         for k, r in [('acne', 'acne|pimple|charcoal|tea tree|oil control'), ('glow', r'pigment|dark spot|bright|vitamin c|glow|\btan\b'), ('hydration', 'dry skin|hydrat|moistur|hyaluronic|aloe'), ('hairfall', 'hair ?fall|hair growth|onion'), ('dandruff', 'dandruff'), ('sun', 'sunscreen|spf'), ('calm', 'sleep|relax|calm')]:
             if re.search('(?i)' + r, t): g.append(k)
