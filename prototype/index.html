@@ -1,5 +1,7 @@
 <!doctype html><html lang="en-GB"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Swansura Website Prototype</title>
+<link rel="icon" href="brand/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap">
@@ -75,7 +77,7 @@ header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;backgrou
 .hrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-block:18px}
 .hleft,.hright{display:flex;gap:22px;align-items:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
 .hright{justify-content:flex-end}
-.logo{text-align:center;line-height:1}
+.logo{text-align:center;line-height:1}.logo-img{display:block;height:70px;width:auto;margin-inline:auto}.logo-img.dn{height:54px;margin:0}.logo-img.ft{height:84px;margin:0}
 .logo .w{font-family:var(--display);font-size:clamp(24px,2.8vw,32px);letter-spacing:.2em;font-weight:700}
 .logo .s{display:block;font-size:10px;letter-spacing:.42em;margin-top:6px;color:var(--ink-2)}
 .bagcount{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:10px;background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:0;margin-left:6px;padding:0 6px}
@@ -94,9 +96,9 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .mega .feat .pic{margin-bottom:10px}
 .burger{display:none}
 @media (max-width:900px){nav.main{display:none}.burger{display:inline-flex}.hleft .txt,.hright .txt{display:none}}
-@media (max-width:600px){#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
-@media (max-width:400px){.hleft,.hright{gap:10px}.hrow{column-gap:6px}.logo .w{font-size:20px;letter-spacing:.14em}.logo .s{font-size:8px;letter-spacing:.3em;margin-top:4px}}
-@media (max-width:340px){.hleft,.hright{gap:6px}.logo .w{font-size:17px;letter-spacing:.1em}.logo .s{display:none}}
+@media (max-width:600px){header.site .logo-img{height:54px}#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
+@media (max-width:400px){header.site .logo-img{height:48px}.hleft,.hright{gap:10px}.hrow{column-gap:6px}.logo .w{font-size:20px;letter-spacing:.14em}.logo .s{font-size:8px;letter-spacing:.3em;margin-top:4px}}
+@media (max-width:340px){header.site .logo-img{height:42px}.hleft,.hright{gap:6px}.logo .w{font-size:17px;letter-spacing:.1em}.logo .s{display:none}}
 .drawer-nav{position:fixed;inset:0;z-index:60;background:var(--paper);padding:24px var(--gutter);overflow:auto}
 .drawer-nav>a,.dn-g summary{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line);font-size:17px;cursor:pointer;list-style:none}
 .dn-g summary::-webkit-details-marker{display:none}.dn-g summary::after{content:'+';color:var(--brass-ink);font-size:20px;line-height:1}.dn-g[open] summary::after{content:'–'}
@@ -661,7 +663,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
         <button class="burger" id="burger" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
         <button id="openSearch" aria-label="Search" style="display:flex;gap:8px;align-items:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="txt">Search</span></button>
       </div>
-      <a href="#home" class="logo"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></a>
+      <a href="#home" class="logo" aria-label="Swansura – The Body Studio, home"><img src="brand/swansura-logo-brown.svg" alt="Swansura – The Body Studio" class="logo-img" width="115" height="70"></a>
       <div class="hright">
         <a href="#brands" class="txt">Brands A–Z</a>
         <button class="hicon" id="openAccount" aria-label="Account"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></button>
@@ -1249,7 +1251,7 @@ function brandPage(slug){
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
-  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell${LOGOS[k]||k==='Swansura Selection'?' haslogo':''}" href="#b-${BR[k].slug}">${LOGOS[k]?`<span class="blogo"><img src="${LOGOS[k]}" alt="${esc(k)} logo" loading="lazy" decoding="async"></span>`:k==='Swansura Selection'?'<span class="blogo"><span class="logo sw" aria-hidden="true"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></span></span>':''}<span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
+  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">${others.map(k=>`<a class="brandcell${LOGOS[k]||k==='Swansura Selection'?' haslogo':''}" href="#b-${BR[k].slug}">${LOGOS[k]?`<span class="blogo"><img src="${LOGOS[k]}" alt="${esc(k)} logo" loading="lazy" decoding="async"></span>`:k==='Swansura Selection'?'<span class="blogo"><img src="brand/swansura-logo-brown.svg" alt="Swansura logo" loading="lazy" style="max-height:44px"></span>':''}<span class="bn">${esc(k)}</span><small>${esc(BR[k].line)}</small></a>`).join('')}</div></div></section>`;
 }
 function brandsAZ(){
   const all = Object.keys(BR).sort((a,b)=>a.localeCompare(b));
@@ -1375,7 +1377,7 @@ function drawerNav(){
   const grp = (title, href, cols) => `<details class="dn-g"><summary>${title}</summary><div class="dn-in">${L(href, 'Shop all '+title.toLowerCase())}${cols.map(([h,links])=>`<span class="eyebrow">${h}</span>${links}`).join('')}</div></details>`;
   const kw = ks => ks.filter(k=>KWBY[k]).map(k=>L('#k-'+k, KWBY[k].k)).join('');
   return `<nav class="drawer-nav" aria-label="Menu">
-    <div class="dn-top"><a href="#home" class="logo"><span class="w">SWANSURA</span><span class="s">THE BODY STUDIO</span></a><button data-close aria-label="Close menu">Close</button></div>
+    <div class="dn-top"><a href="#home" class="logo"><img src="brand/swansura-logo-brown.svg" alt="Swansura – The Body Studio" class="logo-img dn" width="89" height="54"></a><button data-close aria-label="Close menu">Close</button></div>
     <button class="dn-search" id="drawerSearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search products, brands, concerns</span></button>
     <div class="dn-feat"><a href="#c-skincare" class="sk"><span class="eyebrow">The Skin Studio</span><b>Natural skincare</b></a><a href="#c-fragrance" class="sc"><span class="eyebrow">The Scent Studio</span><b>Fine fragrance</b></a></div>
     ${grp('Skincare','#c-skincare',[['By concern', ['acne','glow','hydration','lips','sun'].map(k=>L('#concern-'+k, CONCERNS[k][0])).join('')],['Most searched', kw(['moisturiser-for-dry-skin','face-wash-for-oily-skin','face-wash-for-dry-skin','natural-sunscreen'])]])}
@@ -1391,7 +1393,7 @@ function drawerNav(){
 }
 function footerHTML(){
   return `<div class="wrap"><div class="cols">
-    <div><a href="#home" class="logo"><span class="w" style="font-size:24px">SWANSURA</span><span class="s" style="color:var(--on-dark-2)">THE BODY STUDIO</span></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £50</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
+    <div><a href="#home" class="logo"><img src="brand/swansura-logo-white.svg" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £50</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Shop</h3></summary>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#brands">Brands A–Z</a></details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Concerns</h3></summary>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Ranges</h3></summary>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</details>
