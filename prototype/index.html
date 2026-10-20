@@ -478,6 +478,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .types{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:20px;font-size:13px;color:var(--ink-2)}
 .types em{font-style:normal;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--ink)}
 .muted{color:var(--ink-2)}
+.faqslot .pfaq,.faqslot .lfaq,.faqslot section{border-top:0;padding:0}
 .pfaq{border-top:1px solid var(--line);padding-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
 .reviews{border-top:1px solid var(--line);padding-block:48px 56px}
 .rv-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
@@ -510,7 +511,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .pays{display:flex;flex-wrap:wrap;gap:6px}
 .pay{font-size:11px;font-weight:600;padding:4px 8px;border:1px solid rgba(244,238,228,.25);border-radius:4px;color:var(--on-dark)}
 .pay.k{background:#FFB3C7;color:#17120F;border-color:#FFB3C7}.pay.c{background:#B2FCE4;color:#17120F;border-color:#B2FCE4}
-@media (max-width:800px){.inside-grid,.rv-grid,.pfaq{grid-template-columns:1fr;gap:24px}.ings{grid-template-columns:1fr}}
+@media (max-width:800px){.faqslot .lfaq,.faqslot .faqwrap{grid-template-columns:1fr!important;gap:24px!important}.inside-grid,.rv-grid,.pfaq{grid-template-columns:1fr;gap:24px}.ings{grid-template-columns:1fr}}
 .complete{background:var(--card);border:1px solid var(--line);padding:clamp(20px,3vw,36px);display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px;align-items:center}
 .complete .items{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
 .complete .it{width:150px;display:flex;flex-direction:column;gap:6px;font-size:13px}
@@ -686,6 +687,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
     <p id="newsMsg" hidden>Thank you. Your welcome code is on its way.</p>
   </div>
 </section>
+<section class="faqslot" id="faqslot" aria-label="Frequently asked questions" hidden><div class="wrap"></div></section>
 <footer class="site" id="footer"></footer>
 <div class="stickybar" id="stickybar" role="region" aria-label="Quick add to bag"></div>
 <div id="layer"></div>
@@ -1033,7 +1035,7 @@ function adventPage(focus){
   <div class="advents">${cals.map(d=>adventCard(d)).join('')}</div>
   <div class="advent-perks">${[[icon.truck.replace(/16/g,'22'),'Free UK delivery','on every advent calendar'],[icon.leaf,'Real products','from brands we stock'],[icon.shield,'100% authentic','official UK partner of Deyga & Vilvah'],[icon.ret,'Gift-ready','wrapped and ready to give']].map(([i,t,s])=>`<div><span class="ic">${i}</span><b>${t}</b><small>${s}</small></div>`).join('')}</div>
   ${cals.map(d=>`<section id="advent-${d.id}" style="padding-block:56px 8px"><div class="sec-head"><div><div class="eyebrow">Peek inside · ${d.days} doors</div><h2>${d.name}</h2></div><button class="link" data-revealall="${d.id}">Reveal all ${d.days}</button></div>${doors(d)}</section>`).join('')}
-  <section><div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px" class="faqwrap"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Advent calendar questions</h2></div><div class="faq">${[
+  <section data-faq><div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px" class="faqwrap"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Advent calendar questions</h2></div><div class="faq">${[
     ['What is the difference between the two calendars?', `The Skin Studio Advent (£${cals[0].price}) has ${cals[0].items.length} natural skin, lip and body products from Deyga and Vilvah. The Scent Studio Advent (£${cals[1].price}) has ${cals[1].items.length} designer and niche fragrance miniatures.`],
     ['How much are the contents worth?', `Skin Studio contents are worth £${cals[0].worth.toFixed(2)} and Scent Studio contents £${cals[1].worth.toFixed(2)}, based on Swansura's individual prices.`],
     ['Are the products full size?', 'The Skin Studio Advent is mostly full-size lip, soap and skincare favourites. The Scent Studio Advent is fragrance miniatures between 5ml and 20ml.'],
@@ -1212,7 +1214,7 @@ function listing(kind, key){
     </div>
   </div>
   ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return facet || ks.length ? `<div class="related">${facet?`<div class="kwchips"><span class="eyebrow">${kind==='c'&&key==='fragrance'?'Shop by scent family':'Shop by concern'}</span><div>${facet}</div></div>`:''}${kwChips(ks)}</div>` : ''; })()}
-  ${faq.length?`<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${title} questions</h2></div><div class="faq">${faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`:''}
+  ${faq.length?`<div class="lfaq" data-faq style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">${title} questions</h2></div><div class="faq">${faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`:''}
   <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="related">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
   </div>`;
 }
@@ -1346,7 +1348,7 @@ function productPage(id){
       </div>
     </div>
   </section>
-  <section class="pfaq"><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
+  <section class="pfaq" data-faq><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   </div>`;
 }
 function journalPage(){
@@ -1407,11 +1409,17 @@ function footerHTML(){
   </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
 }
 
+/* FAQs sit in their own band between the Studio Letter and the footer on every page that has them */
+function placeFaq(){
+  const slot = document.getElementById('faqslot'), box = slot.firstElementChild, f = document.getElementById('app').querySelector('[data-faq]');
+  box.innerHTML = ''; if (f) box.appendChild(f); slot.hidden = !f; lazy(box);
+}
+
 /* ---------- Router ---------- */
 function route(){
   const h = (location.hash || '#home').slice(1);
   if (h === 'allp' || /^L-/.test(h)) return;
-  if (/^advent-(skin|scent)$/.test(h)) { if (!document.getElementById(h)) { const ap = document.getElementById('app'), nw = document.getElementById('newsletter'); if (ap.contains(nw)) ap.after(nw); ap.innerHTML = adventPage(); lazy(document.getElementById('app')); } document.getElementById(h)?.scrollIntoView({behavior:'smooth'}); return; }
+  if (/^advent-(skin|scent)$/.test(h)) { if (!document.getElementById(h)) { const ap = document.getElementById('app'), nw = document.getElementById('newsletter'); if (ap.contains(nw)) ap.after(nw); ap.innerHTML = adventPage(); lazy(document.getElementById('app')); placeFaq(); } document.getElementById(h)?.scrollIntoView({behavior:'smooth'}); return; }
   let html, m;
   if (h === 'home' || h === '') html = home();
   else if ((m = h.match(/^c-(.+)$/))) html = listing('c', m[1]);
@@ -1434,6 +1442,7 @@ function route(){
   app.innerHTML = html;
   { const pop = document.getElementById('popular'); if (pop) pop.before(news); }
   if (document.getElementById('results')) applyFilters(true);
+  placeFaq();
   closeLayer(); window.scrollTo(0,0); lazy(app);
   document.querySelectorAll('nav.main .item>a').forEach(a=>{ const k = a.getAttribute('href').slice(1); a.classList.toggle('on', h===k || (h.startsWith('scent-') && k==='c-fragrance') || (h.startsWith('concern-') && k==='c-skincare')); });
   if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]) { seen = [m[1], ...seen.filter(x=>x!==m[1])].slice(0,12); store.set('swansura-seen', seen); }
@@ -1444,8 +1453,8 @@ function route(){
 
 /* ---------- Events ---------- */
 document.addEventListener('click', e => {
-  const dr = e.target.closest('[data-door]'); if (dr){ openedDoors[dr.dataset.door] = !openedDoors[dr.dataset.door]; saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); window.scrollTo(0,y); return; }
-  const ra = e.target.closest('[data-revealall]'); if (ra){ const d = adventData(ADVENT.find(a=>a.id===ra.dataset.revealall)); const allOpen = d.items.every((_,i)=>openedDoors[d.id+'-'+(i+1)]); d.items.forEach((_,i)=>openedDoors[d.id+'-'+(i+1)] = !allOpen); saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); window.scrollTo(0,y); return; }
+  const dr = e.target.closest('[data-door]'); if (dr){ openedDoors[dr.dataset.door] = !openedDoors[dr.dataset.door]; saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); placeFaq(); window.scrollTo(0,y); return; }
+  const ra = e.target.closest('[data-revealall]'); if (ra){ const d = adventData(ADVENT.find(a=>a.id===ra.dataset.revealall)); const allOpen = d.items.every((_,i)=>openedDoors[d.id+'-'+(i+1)]); d.items.forEach((_,i)=>openedDoors[d.id+'-'+(i+1)] = !allOpen); saveDoors(); const y = window.scrollY; document.getElementById('app').innerHTML = adventPage(); lazy(document.getElementById('app')); placeFaq(); window.scrollTo(0,y); return; }
   const nt = e.target.closest('[data-notify]'); if (nt){ toast('Thanks. We will email you when the ' + (nt.dataset.notify==='skin'?'Skin':'Scent') + ' Studio Advent launches'); return; }
   const sa = e.target.closest('[data-showall]'); if (sa){ const o = sa.previousElementSibling; const open = o.classList.toggle('all'); sa.textContent = open ? 'Show fewer' : sa.dataset.label || sa.textContent; if (open) sa.dataset.label = sa.dataset.label || ('Show all ' + o.children.length); return; }
   const s = e.target.closest('[data-suggest]'); if (s){ const q = document.getElementById('q'); q.value = s.dataset.suggest; q.dispatchEvent(new Event('input')); return; }
