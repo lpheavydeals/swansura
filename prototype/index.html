@@ -495,6 +495,14 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .seocopy h3{font-family:var(--display);font-size:19px;font-weight:600;color:var(--ink);margin-top:8px}
 .seocopy a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 @media (max-width:800px){.seocopy .wrap{grid-template-columns:1fr;gap:16px}}
+/* Phones: 24px minimum tap targets (WCAG 2.2 target size) and nothing under 11px */
+@media (max-width:800px){
+  .crow a.brand,.related a,.crumbs a,.links a,.brandmore a,.brandlink{display:inline-flex;align-items:center;min-height:24px}
+  #app summary{min-height:24px;display:flex;align-items:center}
+  .badge,.tag{font-size:11px!important}
+  .media .badge{top:auto;bottom:10px;letter-spacing:.1em;padding:5px 7px;max-width:calc(100% - 20px)}
+  #app small{font-size:max(11px,.83em)!important}
+}
 .pfaq{border-top:1px solid var(--line);padding-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
 .reviews{border-top:1px solid var(--line);padding-block:48px 56px}
 .rv-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
