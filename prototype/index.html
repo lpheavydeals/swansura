@@ -1470,7 +1470,7 @@ function offersPage(){
   const o = OFFERS, r = o.rewards;
   const tile = (eyebrow, h, p, cta) => `<article class="offer"><div class="eyebrow">${eyebrow}</div><h3>${h}</h3><p>${p}</p>${cta||''}</article>`;
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers &amp; rewards</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Offers, rewards and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers &amp; rewards</h1></div><p class="lede">Every way to save at Swansura: a welcome discount, routines that cost less together, a free gift over £${o.gift.min}, Swansura Rewards points and discounts for students, NHS and key workers.</p></div>
+  <div class="pagehead"><div><div class="eyebrow">Offers, rewards and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers &amp; rewards</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: a welcome discount, routines that cost less together, a free gift over £${o.gift.min}, Swansura Rewards points and discounts for students, NHS and key workers.</p></div>
   <p class="proto-note">Proposed offers for Swansura to confirm before launch. Values are set in one place in the theme settings.</p>
   <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
   <div class="offers">
@@ -1905,6 +1905,8 @@ function shareData(route){
     return {url: pageUrl(route), title: `${b} | Swansura`, text: `${b} at Swansura: ${ps.length} product${ps.length > 1 ? 's' : ''}, 100% authentic and shipped from the UK`, img}; }
   if (route === 'advent'){ const cs = ADVENT.map(adventData), img = cs.flatMap(c => c.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('advent'), title: 'Advent calendars | Swansura', text: `Swansura advent calendars: ${cs.map(c => `${c.name} (£${c.price})`).join(' and ')}, twelve days of natural skincare and fine fragrance`, img}; }
+  if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
+    return {url: pageUrl('offers'), title: 'Offers & rewards | Swansura', text: `Swansura offers: ${o.welcome.pct}% off your first order, a free mini when you spend £${o.gift.min}, free UK delivery over £50, ${Math.round(RITUAL_SAVE*100)}% off routines and Swansura Rewards points on every order`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('rituals'), title: 'Routines that work together | Swansura', text: `Swansura routines: ${rs.length} step-by-step skincare, hair, body and scent routines that save ${Math.round(RITUAL_SAVE*100)}% when bought together`, img}; }
   if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
