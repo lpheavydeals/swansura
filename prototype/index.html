@@ -493,6 +493,11 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 main#app{min-height:100vh;min-height:100svh}
 .buyhead{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .share{position:relative}
+.brandctas{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.share.dark .sharebtn{background:transparent;color:var(--on-dark);border-color:rgba(244,238,228,.45);min-height:44px;padding:0 18px}
+.share.dark .sharebtn:hover,.share.dark .sharebtn[aria-expanded="true"]{border-color:#E6D3A8;color:#E6D3A8}
+.share.dark .sharemenu{left:0;right:auto;color:var(--ink)}
+.sharemenu.up{top:auto;bottom:calc(100% + 8px)}
 .sharebtn{display:flex;align-items:center;gap:7px;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:34px;background:var(--card);color:var(--ink)}
 .sharebtn:hover,.sharebtn[aria-expanded="true"]{border-color:var(--emerald);color:var(--emerald)}
 .sharemenu{position:absolute;right:0;top:calc(100% + 8px);z-index:30;width:230px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 40px rgba(0,0,0,.14);padding:8px;display:flex;flex-direction:column}
@@ -1352,7 +1357,7 @@ function brandPage(slug){
   const heroP = current.filter(p=>p.available).slice(0,2);
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#brands">Brands</a><span>/</span><span style="color:var(--ink)">${esc(b)}</span></nav></div>
   <section style="padding-block:24px 0"><div class="wrap"><div class="story" style="background:${B.world==='skin'?'var(--emerald)':'var(--oud)'};color:var(--on-dark);padding:clamp(24px,4vw,56px)">
-    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 style="font-size:clamp(40px,5.6vw,80px)">${esc(b)}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div><a class="btn light" href="#allp">Shop all ${B.count} products</a></div></div>
+    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 style="font-size:clamp(40px,5.6vw,80px)">${esc(b)}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div class="brandctas"><a class="btn light" href="#allp">Shop all ${B.count} products</a><div class="share dark"><button class="sharebtn" data-share="b-${B.slug}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></div>
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><div class="eyebrow">${esc(b)} at Swansura</div><h2>The full range · ${B.count}</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
@@ -1410,7 +1415,7 @@ function productPage(id){
   <div class="pdp">
     <div class="gallery ${p.frames>1?'':'single'}">${p.frames>1?`<div class="thumbs">${Array.from({length:p.frames},(_,i)=>`<button data-frame="${i}" aria-current="${i===0}" aria-label="Image ${i+1} of ${p.frames}">${pic(p,i,'','',true)}</button>`).join('')}</div>`:''}<div id="mainImg">${pic(p,0,'','',true)}</div></div>
     <div class="buy">
-      <div class="buyhead"><a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a><div class="share"><button class="sharebtn" data-share="${p.id}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>
+      <div class="buyhead"><a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a><div class="share"><button class="sharebtn" data-share="p-${p.id}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>
       <h1>${esc(cleanTitle(p))}</h1>
       <div class="reviews-line">${stars(0)}<span>No reviews yet · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">Write the first review</a></span></div>
       <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}<div class="earn">${icon.check}<span>Earn <b>${pts(p.price)} Swansura Rewards points</b> on this item · <a href="#offers">How it works</a></span></div></div>
@@ -1892,25 +1897,32 @@ document.addEventListener('click', e => {
   if (c){ const done = () => { c.querySelector('span').textContent = 'Copied'; setTimeout(() => c.querySelector('span').textContent = 'Copy list', 1800); };
     try { navigator.clipboard.writeText(c.dataset.incicopy).then(done, () => toast('Select the list to copy it')); } catch(err){ toast('Select the list to copy it'); } }
 });
-/* product share: native share sheet where the browser offers one, otherwise a small menu */
-function shareMenu(p){
-  const url = pageUrl('p-' + p.id), title = `${cleanTitle(p)} | Swansura`, text = `${cleanTitle(p)} by ${p.brand}, ${fmt(p.price)} at Swansura`;
-  const u = encodeURIComponent(url), t = encodeURIComponent(text);
-  const opts = [['WhatsApp', `https://wa.me/?text=${t}%20${u}`], ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`], ['Pinterest', `https://pinterest.com/pin/create/button/?url=${u}&media=${encodeURIComponent(p.i0||'')}&description=${t}`], ['X', `https://x.com/intent/post?text=${t}&url=${u}`], ['Email', `mailto:?subject=${encodeURIComponent(title)}&body=${t}%0A${u}`]];
-  return `<div class="sharemenu" role="menu" aria-label="Share this product">${opts.map(([n, h]) => `<a role="menuitem" href="${h}" target="_blank" rel="noopener">${n}</a>`).join('')}<button role="menuitem" data-sharecopy="${url}">Copy link</button><p class="sharelink">${esc(url)}</p></div>`;
+/* share (product and brand pages): native share sheet on touch devices that offer one, otherwise a small menu */
+function shareData(route){
+  let m;
+  if ((m = route.match(/^p-(\d+)$/)) && byId[m[1]]){ const p = byId[m[1]]; return {url: pageUrl(route), title: `${cleanTitle(p)} | Swansura`, text: `${cleanTitle(p)} by ${p.brand}, ${fmt(p.price)} at Swansura`, img: p.i0}; }
+  if ((m = route.match(/^b-(.+)$/))){ const b = brandBySlug(m[1]); if (!b) return null; const ps = P.filter(p => p.brand === b), img = ps.find(p => p.available && p.i0)?.i0;
+    return {url: pageUrl(route), title: `${b} | Swansura`, text: `${b} at Swansura: ${ps.length} product${ps.length > 1 ? 's' : ''}, 100% authentic and shipped from the UK`, img}; }
+  return null;
 }
+function shareMenu(d){
+  const u = encodeURIComponent(d.url), t = encodeURIComponent(d.text);
+  const opts = [['WhatsApp', `https://wa.me/?text=${t}%20${u}`], ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`], ['Pinterest', `https://pinterest.com/pin/create/button/?url=${u}&media=${encodeURIComponent(d.img||'')}&description=${t}`], ['X', `https://x.com/intent/post?text=${t}&url=${u}`], ['Email', `mailto:?subject=${encodeURIComponent(d.title)}&body=${t}%0A${u}`]];
+  return `<div class="sharemenu" role="menu" aria-label="Share this page">${opts.map(([n, h]) => `<a role="menuitem" href="${h}" target="_blank" rel="noopener">${n}</a>`).join('')}<button role="menuitem" data-sharecopy="${d.url}">Copy link</button><p class="sharelink">${esc(d.url)}</p></div>`;
+}
+const closeShares = except => document.querySelectorAll('.share').forEach(w => { if (w === except) return; w.querySelector('.sharemenu')?.remove(); w.querySelector('[data-share]')?.setAttribute('aria-expanded', 'false'); });
 document.addEventListener('click', async e => {
-  const b = e.target.closest('[data-share]'), wrap = document.querySelector('.share');
-  if (b){ const p = byId[b.dataset.share]; if (!p) return;
-    if (navigator.share && matchMedia('(pointer:coarse)').matches){ try { await navigator.share({title: cleanTitle(p), text: `${cleanTitle(p)} by ${p.brand} at Swansura`, url: pageUrl('p-' + p.id)}); return; } catch(err){ if (err && err.name === 'AbortError') return; } }
-    const open = !wrap.querySelector('.sharemenu'); wrap.querySelector('.sharemenu')?.remove();
-    if (open){ wrap.insertAdjacentHTML('beforeend', shareMenu(p)); wrap.querySelector('.sharemenu [role=menuitem]').focus(); }
+  const b = e.target.closest('[data-share]');
+  if (b){ const d = shareData(b.dataset.share), wrap = b.closest('.share'); if (!d) return;
+    if (navigator.share && matchMedia('(pointer:coarse)').matches){ try { await navigator.share({title: d.title, text: d.text, url: d.url}); return; } catch(err){ if (err && err.name === 'AbortError') return; } }
+    closeShares(wrap); const open = !wrap.querySelector('.sharemenu'); wrap.querySelector('.sharemenu')?.remove();
+    if (open){ wrap.insertAdjacentHTML('beforeend', shareMenu(d)); const mn = wrap.querySelector('.sharemenu'), r = mn.getBoundingClientRect(), bt = b.getBoundingClientRect(); if (r.bottom > innerHeight - 8 && bt.top - r.height - 16 > 0) mn.classList.add('up'); mn.querySelector('[role=menuitem]').focus({preventScroll: true}); }
     b.setAttribute('aria-expanded', open); return; }
   const c = e.target.closest('[data-sharecopy]');
   if (c){ try { await navigator.clipboard.writeText(c.dataset.sharecopy); c.textContent = 'Link copied'; } catch(err){ const r = document.createRange(), l = c.parentElement.querySelector('.sharelink'); r.selectNodeContents(l); getSelection().removeAllRanges(); getSelection().addRange(r); c.textContent = 'Press Ctrl+C to copy'; } return; }
-  if (wrap && !e.target.closest('.share')){ wrap.querySelector('.sharemenu')?.remove(); wrap.querySelector('[data-share]')?.setAttribute('aria-expanded', 'false'); }
+  if (!e.target.closest('.share')) closeShares();
 });
-document.addEventListener('keydown', e => { if (e.key === 'Escape'){ const m = document.querySelector('.sharemenu'); if (m){ m.remove(); const b = document.querySelector('[data-share]'); b?.setAttribute('aria-expanded','false'); b?.focus(); } } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape'){ const m = document.querySelector('.sharemenu'); if (m){ const b = m.closest('.share').querySelector('[data-share]'); closeShares(); b?.focus(); } } });
 /* help / chat panel */
 (() => { const b = document.getElementById('chatBtn'), p = document.getElementById('chatPanel'); const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
   b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); }); document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden){ set(false); b.focus(); } }); })();
