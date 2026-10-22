@@ -147,13 +147,23 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .hero .float small{display:block;margin-top:10px;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
 .hero .float span{display:block;font-size:13px;line-height:1.35;margin-top:3px}
 .hero .float b{display:block;font-size:13px;margin-top:6px}
-.hero .seal{position:absolute;top:-30px;left:14px;width:118px;height:118px;color:var(--gold);animation:spin 26s linear infinite}
-.hero .seal text{font-size:9.6px;letter-spacing:.1em;text-transform:uppercase;fill:currentColor;font-weight:600}
+.hero .arch .track,.hero .float .track{display:flex;transition:transform .8s cubic-bezier(.65,0,.25,1)}
+.hero .arch .slide,.hero .float .slide{flex:0 0 100%;min-width:0;display:block;position:relative}
+.hero .float{overflow:hidden;padding:0}.hero .float .slide{padding:10px 10px 14px}
+.hero .arch .tag{max-width:calc(100% - 32px);white-space:normal;line-height:1.35}.hero .tag i{white-space:nowrap}
+.hero .hctl{position:absolute;right:0;bottom:6px;display:flex;align-items:center;gap:10px}
+.hero .hctl>button{width:32px;height:32px;border-radius:50%;border:1px solid rgba(217,176,110,.55);color:#F4EEE4;font-size:20px;line-height:1;display:grid;place-items:center}
+.hero .hctl>button:hover{background:rgba(217,176,110,.18)}
+.hero .hdots{display:flex;gap:6px}.hero .hdots button{width:24px;height:24px;display:grid;place-items:center;padding:0}
+.hero .hdots button::before{content:"";width:7px;height:7px;border-radius:50%;background:rgba(244,238,228,.4);transition:width .3s,background .3s}
+.hero .hdots button[aria-selected="true"]::before{width:20px;border-radius:4px;background:var(--gold-2)}
+@media (prefers-reduced-motion: reduce){.hero .arch .track,.hero .float .track{transition:none}}
+@media (max-width:600px){.hero .arch .tag{max-width:50%;flex-wrap:wrap;gap:2px 8px;right:10px}.hero .hctl>button{display:none}.hero .hdots{gap:2px}.hero .hctl{bottom:4px}}
 @keyframes spin{to{transform:rotate(360deg)}}
 .hero .rise{opacity:0;transform:translateY(18px);animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
 @keyframes rise{to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){.hero .rise{opacity:1;transform:none}}
-@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .stage{justify-self:center;max-width:430px;padding:0 0 48px 40px}.hero .ring{left:26px;bottom:34px}.hero .seal{width:92px;height:92px;top:-22px;left:0}}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .stage{justify-self:center;max-width:430px;padding:0 0 48px 40px}.hero .ring{left:26px;bottom:34px}}
 @media (max-width:520px){.hero .tag{font-size:10px;padding:8px 12px;right:10px;bottom:12px}.hero .float{width:46%}.hero .ctas .btn{flex:1 1 100%}.hero .eyebrow::before{display:none}.hero .facts{display:grid;grid-template-columns:1fr 1fr;row-gap:20px}}
 
 .studios{padding:0}
@@ -1137,10 +1147,10 @@ function journal(){
 
 /* ---------- Pages ---------- */
 function home(){
-  const lip = findP(/beetroot lip balm/i), oud = findP(/gold rose oudh/i) || P.find(p=>p.cat==='fragrance');
   const pick = keys => keys.map(k=>findP(new RegExp(k,'i'))).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i);
   const bestSkin = pick(['beetroot lip balm','charcoal face wash','milk drops','sunscreen','hyaluronic','goat milk shampoo','hair growth oil','ultra moisturising']);
   const bestScent = pick(['amber oud ruby','kaff','gold rose oudh','rosado','santal','intense oud','ambre night','amber oud bleu']);
+  const heroPairs = bestSkin.map((k,i)=>[k, bestScent[i]]).filter(x=>x[1] && x[0].available && x[1].available).slice(0,6);
   const usedImg = new Set();
   const pickImg = l => l.find(p=>p.available && BR[p.brand]?.partner) || l.find(p=>p.available) || l[0];
   const tileP = c => P.find(p=>inCat(p,c) && p.available && (c!=='fragrance' || /kaff|orza/i.test(p.title))) || P.find(p=>inCat(p,c));
@@ -1157,9 +1167,9 @@ function home(){
     </div>
     <div class="stage rise" style="animation-delay:.2s">
       <span class="ring" aria-hidden="true"></span>
-      <a class="arch" href="#p-${lip.id}">${pic(lip, 0, 'Deyga Beetroot Lip Balm')}<span class="tag">Beetroot Lip Balm <i>${fmt(lip.price)}</i></span></a>
-      <a class="float" href="#p-${oud.id}">${pic(oud)}<small>${esc(oud.brand)}</small><span>${esc(cleanTitle(oud).replace(/ extrait.*$/i,''))}</span><b>${fmt(oud.price)}</b></a>
-      <svg class="seal" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="sealPath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#sealPath" textLength="285" lengthAdjust="spacing">Official UK partner · Deyga &amp; Vilvah ·</textPath></text><circle cx="60" cy="60" r="3" fill="currentColor"/></svg>
+      <div class="arch" aria-roledescription="carousel" aria-label="Featured skincare"><div class="track">${heroPairs.map(([k],n)=>`<a class="slide" href="#p-${k.id}" aria-label="${n+1} of ${heroPairs.length}: ${esc(cleanTitle(k))}"${n?' tabindex="-1"':''}>${pic(k, 0)}<span class="tag">${esc(cleanTitle(k).replace(/\s+\d+(\.\d+)?\s?(ml|g|gm)\b.*$/i,''))} <i>${fmt(k.price)}</i></span></a>`).join('')}</div></div>
+      <div class="float" aria-label="Featured fragrance"><div class="track">${heroPairs.map(([,f],n)=>`<a class="slide" href="#p-${f.id}"${n?' tabindex="-1"':''}>${pic(f)}<small>${esc(f.brand)}</small><span>${esc(cleanTitle(f).replace(/ (extrait|eau de|edp|parfum).*$/i,''))}</span><b>${fmt(f.price)}</b></a>`).join('')}</div></div>
+      <div class="hctl"><button class="hprev" aria-label="Previous pair">‹</button><div class="hdots" role="tablist">${heroPairs.map((_,n)=>`<button role="tab" aria-label="Show pair ${n+1}" aria-selected="${!n}" data-hdot="${n}"></button>`).join('')}</div><button class="hnext" aria-label="Next pair">›</button></div>
     </div>
   </div></section>
   ${trustStrip()}
@@ -1724,7 +1734,7 @@ function route(){
   app.innerHTML = html + seoBlock(h);
   { const pop = document.getElementById('popular'); if (pop) pop.before(news); }
   if (document.getElementById('results')) applyFilters(true);
-  placeFaq(); setMeta(h);
+  placeFaq(); setMeta(h); initHero();
   closeLayer(); window.scrollTo(0,0); lazy(app);
   document.querySelectorAll('nav.main .item>a').forEach(a=>{ const k = a.getAttribute('href').slice(1); a.classList.toggle('on', h===k || (h.startsWith('scent-') && k==='c-fragrance') || (h.startsWith('concern-') && k==='c-skincare')); });
   if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]) { seen = [m[1], ...seen.filter(x=>x!==m[1])].slice(0,12); store.set('swansura-seen', seen); }
@@ -1801,6 +1811,25 @@ setTimeout(showOffer, 20000);
 addEventListener('scroll', function onS(){ if (scrollY > document.body.scrollHeight * .45){ removeEventListener('scroll', onS); showOffer(); } }, {passive:true});
 (() => { const items = [...document.querySelectorAll('.announce .wrap>*')]; let i = 0; items[0].classList.add('on'); setInterval(() => { items[i].classList.remove('on'); i = (i+1) % items.length; items[i].classList.add('on'); }, 4500); })();
 
+/* hero: skin + scent pairs slide together */
+let heroTimer;
+function initHero(){
+  clearInterval(heroTimer);
+  const st = document.querySelector('.hero .stage'); if (!st) return;
+  const tracks = st.querySelectorAll('.track'), dots = st.querySelectorAll('[data-hdot]'), n = dots.length; let i = 0;
+  const go = k => { i = (k + n) % n; tracks.forEach(t => { t.style.transform = `translateX(-${i*100}%)`; t.querySelectorAll('.slide').forEach((a,j) => { a.tabIndex = j === i ? 0 : -1; a.setAttribute('aria-hidden', j !== i); }); [i, (i+1)%n].forEach(j => { const pc = t.children[j]?.querySelector('.pic[data-bg]'); if (pc) showPic(pc); }); });
+    dots.forEach((d,j) => d.setAttribute('aria-selected', j === i)); };
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const play = () => { clearInterval(heroTimer); if (!reduce && n > 1) heroTimer = setInterval(() => go(i + 1), 5000); };
+  st.querySelector('.hprev').onclick = () => { go(i - 1); play(); };
+  st.querySelector('.hnext').onclick = () => { go(i + 1); play(); };
+  dots.forEach((d,j) => d.onclick = () => { go(j); play(); });
+  st.onmouseenter = st.onfocusin = () => clearInterval(heroTimer);
+  st.onmouseleave = st.onfocusout = play;
+  let x0 = null; st.ontouchstart = e => { x0 = e.touches[0].clientX; clearInterval(heroTimer); };
+  st.ontouchend = e => { if (x0 != null){ const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1)); x0 = null; } play(); };
+  go(0); play();
+}
 /* help / chat panel */
 (() => { const b = document.getElementById('chatBtn'), p = document.getElementById('chatPanel'); const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
   b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); }); document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden){ set(false); b.focus(); } }); })();
