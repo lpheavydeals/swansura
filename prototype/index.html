@@ -491,27 +491,25 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .muted{color:var(--ink-2)}
 .faqslot .pfaq,.faqslot .lfaq,.faqslot section{border-top:0;padding:0}
 main#app{min-height:100vh;min-height:100svh}
-.incisec{border-top:1px solid var(--line);padding-block:56px;display:flex;flex-direction:column;gap:22px}
-.inci-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}.inci-head h2{margin-top:10px}.inci-head p{color:var(--ink-2);margin-top:10px;max-width:62ch}
-.inci-legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--ink-2)}.inci-legend span{display:flex;align-items:center;gap:8px}
-.incisec .mk{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
-.incisec .m1 .mk{background:var(--emerald)}.incisec .m2 .mk{background:var(--brass);border-radius:2px;transform:rotate(45deg);width:9px;height:9px}
-.inci-legend .top .mk{background:#F4EADA;border:1px solid var(--brass);border-radius:3px}
-.inci-tabs{display:flex;gap:8px;flex-wrap:wrap}.inci-tabs button{border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:14px;min-height:40px}
+.inci{margin-top:clamp(24px,3vw,36px);padding-top:clamp(20px,2.6vw,30px);border-top:1px solid var(--line);display:flex;flex-direction:column;gap:14px}
+.inci-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px 24px;flex-wrap:wrap}.inci-head h3{font-family:var(--display);font-size:clamp(20px,2vw,24px);font-weight:600}
+.inci-intro,.inci-note{font-size:13px;color:var(--ink-2)}
+.inci-legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink-2)}.inci-legend span{display:flex;align-items:center;gap:7px}
+.inci-legend .lg-hero i{width:22px;height:10px;border-radius:3px;background:linear-gradient(transparent 35%,rgba(181,132,58,.32) 35%)}
+.inci .mk{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--emerald);flex:none;vertical-align:middle}.inci .mk.m2{background:var(--brass);border-radius:1px;transform:rotate(45deg);width:7px;height:7px}
+.inci-tabs{display:flex;gap:8px;flex-wrap:wrap}.inci-tabs button{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:14px;min-height:38px;background:var(--card)}
 .inci-tabs button[aria-selected="true"]{background:var(--emerald);border-color:var(--emerald);color:var(--on-dark)}
-.inci-meta{display:flex;align-items:center;gap:8px 18px;flex-wrap:wrap;font-size:14px;margin-bottom:14px}.inci-meta .st{display:flex;align-items:center;gap:7px;color:var(--ink-2)}.inci-meta .st i{width:8px;height:8px;border-radius:50%;background:var(--emerald)}.inci-meta .st.m2 i{background:var(--brass);border-radius:1px;transform:rotate(45deg)}
-.inci-copy{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:7px 12px;min-height:32px}.inci-copy svg{color:var(--brass)}
-.inci-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px;counter-reset:none}
-.inci-list li{display:flex;align-items:flex-start;gap:12px;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--card);min-width:0}
-.inci-list li.top{background:#FBF6EC;border-color:#E9D9BA}
-.inci-list .no{font-size:12px;font-weight:600;color:var(--brass-ink);font-variant-numeric:tabular-nums;padding-top:2px;flex:none;width:20px}
-.inci-list .nm{flex:1;min-width:0;font-size:14px;line-height:1.4;overflow-wrap:anywhere}.inci-list .nm small{display:block;color:var(--ink-2);font-size:12px;margin-top:2px}
-.inci-list .mk{margin-top:5px}
-.inci-list.clip li:nth-child(n+13){display:none}
-.inci-more{align-self:flex-start;margin-top:12px;text-decoration:underline;font-size:14px;min-height:24px}
-.inci-note{font-size:13px;color:var(--ink-2)}
-@media (max-width:600px){.inci-list{grid-template-columns:1fr 1fr}.inci-list li{padding:10px;gap:8px}.inci-copy{margin-left:0}}
-@media (max-width:380px){.inci-list{grid-template-columns:1fr}}
+.inci-meta{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;font-size:14px;margin-bottom:10px}.inci-meta .st{display:flex;align-items:center;gap:7px;color:var(--ink-2)}
+.inci-copy{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:6px 12px;min-height:32px;background:var(--card)}.inci-copy svg{color:var(--brass)}
+.inci-flow{font-size:15px;line-height:2;color:var(--ink);background:var(--mount);border-radius:10px;padding:14px 18px;position:relative}
+.inci-flow .ii{white-space:normal}.inci-flow .ii small{color:var(--ink-2);font-size:12.5px}
+.inci-flow .ii .mk{margin-left:6px;position:relative;top:-1px}
+.inci-flow .ii.hi{font-weight:600;background:linear-gradient(transparent 58%,rgba(181,132,58,.32) 58%);padding:0 2px}
+.inci-flow .sep{color:var(--brass);margin:0 9px;font-weight:700}
+.inci-flow.clip{max-height:calc(2em * 4 + 28px);overflow:hidden}
+.inci-flow.clip::after{content:"";position:absolute;left:0;right:0;bottom:0;height:56px;background:linear-gradient(rgba(245,242,237,0),var(--mount));border-radius:0 0 10px 10px}
+.inci-more{align-self:flex-start;margin-top:10px;text-decoration:underline;font-size:14px;min-height:24px}
+@media (max-width:600px){.inci-copy{margin-left:0}.inci-flow{font-size:14px;padding:12px 14px}}
 .earn{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2);margin-top:8px}.earn svg{color:var(--brass);flex:none}.earn a{text-decoration:underline}
 .fbt{border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px}
 .fbt-row{display:grid;grid-template-columns:72px auto 72px minmax(0,1fr);align-items:center;gap:10px}.fbt-row .pic{border-radius:8px}.fbt-row .plus{font-size:20px;color:var(--ink-2)}
@@ -1427,11 +1425,10 @@ function productPage(id){
       ${(() => { const ks = kwFor(p); return ks.length ? `<p style="font-size:14px;color:var(--ink-2)">Part of our ${ks.slice(0,3).map(k=>`<a href="#k-${k.s}" style="text-decoration:underline">${esc(k.k.toLowerCase())}</a>`).join(', ')} edit${ks.length>1?'s':''}.</p>${kwChips(ks.slice(0,8),'Shop related')}` : ''; })()}
     </div>
   </div>
-  ${p.cat!=='fragrance' && (ings.length || kb.length) ? `<section class="inside"><div class="eyebrow">What's inside</div><div class="inside-grid">
-    <div><h2>Hero ingredients</h2>${ings.length?`<div class="ings">${ings.map(i=>`<div class="ing"><span class="dot">${esc(i[1][0])}</span><div><b>${esc(i[1])}</b><small>${esc(i[2])}</small></div></div>`).join('')}</div>`:'<p class="muted">The full ingredient list is printed on the pack.</p>'}</div>
+  ${p.cat!=='fragrance' && (ings.length || kb.length || p.inci?.length) ? `<section class="inside" id="ingredients"><div class="eyebrow">What's inside</div>${ings.length || kb.length ? `<div class="inside-grid">
+    <div><h2>Hero ingredients</h2>${ings.length?`<div class="ings">${ings.map(i=>`<div class="ing"><span class="dot">${esc(i[1][0])}</span><div><b>${esc(i[1])}</b><small>${esc(i[2])}</small></div></div>`).join('')}</div>`:(p.inci?.length?'<p class="muted">See the full list below.</p>':'<p class="muted">The full ingredient list is printed on the pack.</p>')}</div>
     <div><h2>Key benefits</h2><ul class="kb">${kb.slice(0,5).map(x=>`<li>${icon.check}<span>${esc(x)}</span></li>`).join('')}</ul>${types.length?`<div class="types"><span>Suits</span>${types.map(t=>`<em>${t==='All'?'All types':t}</em>`).join('')}</div>`:''}</div>
-  </div></section>` : ''}
-  ${inciSection(p)}
+  </div>` : ''}${inciBlock(p, ings.map(i=>i[1]))}</section>` : ''}
   ${pair.length?`<div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">${p.cat==='fragrance'?'Complete the ritual: skin + scent':'Complete the ritual'}</div><div class="items">${setItems.map((x,i)=>`${i?'<span class="plus">+</span>':''}<a class="it" href="#p-${x.id}">${pic(x)}<span>${esc(cleanTitle(x))}</span><b>${fmt(x.price)}</b></a>`).join('')}</div></div><div style="display:flex;flex-direction:column;gap:12px"><div class="price" style="font-size:20px">${fmt(setTotal*0.9)} <s>${fmt(setTotal)}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE 10% WHEN BOUGHT TOGETHER</span><button class="btn solid" data-addall="${setItems.map(x=>x.id).join(',')}">Add all ${setItems.length} to bag</button></div></div>`:''}
   ${sameBrand.length?`<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">More from ${esc(p.brand)}</div><h2>From the same house</h2></div><a class="link" href="#b-${brandSlug(p.brand)}">Shop all ${B.count} ${esc(p.brand)}</a></div>${grid(sameBrand.slice(0,4))}</section>`:''}
   ${(() => { const rv = seen.filter(id=>id!==p.id && byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Picking up where you left off</div><h2>Recently viewed</h2></div></div>${grid(rv)}</section>` : ''; })()}
@@ -1478,25 +1475,29 @@ function offersPage(){
   <section style="padding-top:0"><div class="refer"><div><div class="eyebrow">Refer a friend</div><h2>Give £${o.refer.give}, get £${o.refer.get}</h2><p>Share your link. Your friend gets £${o.refer.give} off their first order over £30, and you get £${o.refer.get} when they buy.</p></div><button class="btn solid" data-acct>Get my link</button></div></section>
   </div>`;
 }
-/* Full ingredients (INCI) section: brand-supplied lists, numbered in pack order, organic / plant-derived markers, tabs for kits */
-function inciSection(p){
+/* Full ingredient list, shown inside "What's inside" under the hero ingredients: pack order, hero ingredients highlighted,
+   organic / plant-derived markers from the brand's list, one tab per product for kits */
+function inciBlock(p, heroes){
   if (!p.inci?.length) return '';
+  const GEN = /^(milk|water|extract|oil|oils|butter|powder|seed|leaf|flower|root|juice|proteins?|natural|pure|fresh|organic)$/;
+  const hk = heroes.map(h => h.toLowerCase().split(/[\s&,]+/).filter(w => w.length >= 4 && !GEN.test(w))).filter(ws => ws.length).map(ws => new RegExp(`\\b(${ws.map(w => w.replace(/[^a-z0-9]/g, '')).join('|')})`, 'i'));
+  const isHero = n => hk.some(re => re.test(n));
   const split = n => { const m = n.match(/^(.+?)\s*\(([^()]*)\)$/); return m ? [m[1], m[2]] : [n, '']; };
+  const g = Object.assign({}, ...p.inci.map(c => c.g)), lab = (c, m) => c.g[m] || g[m] || (m === 1 || m === '1' ? 'Organic' : 'Plant derived');
   const panel = (c, k) => {
-    const marks = {}; c.l.forEach(([, m]) => { if (m) marks[m] = (marks[m]||0) + 1; });
-    const stats = Object.entries(marks).map(([m, n]) => `<span class="st m${m}"><i></i>${n} ${esc((c.g[m] || (m === '1' ? 'Organic' : 'Plant derived')).toLowerCase())}</span>`).join('');
+    const cnt = {}; c.l.forEach(([, m]) => { if (m) cnt[m] = (cnt[m]||0) + 1; });
     return `<div class="inci-panel" role="tabpanel" id="inci-${p.id}-${k}"${k ? ' hidden' : ''}>
-      <div class="inci-meta"><b>${c.l.length} ingredient${c.l.length > 1 ? 's' : ''}</b>${stats}<button class="inci-copy" data-incicopy="${esc(c.l.map(x => x[0]).join(', '))}">${icon.check}<span>Copy list</span></button></div>
-      <ol class="inci-list${c.l.length > 12 ? ' clip' : ''}">${c.l.map(([n, m], i) => { const [main, sub] = split(n); return `<li class="${i < 5 && c.l.length > 6 ? 'top ' : ''}m${m}"><span class="no">${String(i + 1).padStart(2, '0')}</span><span class="nm">${esc(main)}${sub ? `<small>${esc(sub)}</small>` : ''}</span>${m ? `<i class="mk" title="${esc(c.g[m] || '')}" aria-label="${esc(c.g[m] || '')}"></i>` : ''}</li>`; }).join('')}</ol>
-      ${c.l.length > 12 ? `<button class="inci-more" data-incimore>Show all ${c.l.length} ingredients</button>` : ''}
+      <div class="inci-meta"><b>${c.l.length} ingredient${c.l.length > 1 ? 's' : ''}</b>${Object.entries(cnt).map(([m, n]) => `<span class="st"><i class="mk m${m}"></i>${n} ${esc(lab(c, m).toLowerCase())}</span>`).join('')}<button class="inci-copy" data-incicopy="${esc(c.l.map(x => x[0]).join(', '))}">${icon.check}<span>Copy list</span></button></div>
+      <p class="inci-flow${c.l.length > 14 ? ' clip' : ''}">${c.l.map(([n, m]) => { const [main, sub] = split(n), h = isHero(n); return `<span class="ii${h ? ' hi' : ''}">${esc(main)}${sub ? ` <small>(${esc(sub)})</small>` : ''}${m ? `<i class="mk m${m}" title="${esc(lab(c, m))}" aria-label="${esc(lab(c, m))}"></i>` : ''}</span>`; }).join('<span class="sep" aria-hidden="true">·</span>')}</p>
+      ${c.l.length > 14 ? `<button class="inci-more" data-incimore aria-expanded="false">Show all ${c.l.length} ingredients</button>` : ''}
     </div>`;
   };
-  const g = Object.assign({}, ...p.inci.map(c => c.g));
-  return `<section class="incisec" id="ingredients"><div class="inci-head"><div><div class="eyebrow">Full ingredients</div><h2>What's in it, in full</h2><p>Every ingredient as listed by ${esc(p.brand)}, from the highest to the lowest amount.${p.inci.length > 1 ? ` This kit has ${p.inci.length} products: choose one to see its list.` : ''}</p></div>
-    ${Object.keys(g).length ? `<div class="inci-legend">${Object.entries(g).map(([m, l]) => `<span class="m${m}"><i class="mk"></i>${esc(l)}</span>`).join('')}<span class="top"><i class="mk"></i>Top 5 by amount</span></div>` : ''}</div>
+  return `<div class="inci"><div class="inci-head"><h3>Full ingredient list</h3>
+      <div class="inci-legend">${hk.length ? '<span class="lg-hero"><i></i>Hero ingredient</span>' : ''}${Object.keys(g).map(m => `<span><i class="mk m${m}"></i>${esc(g[m])}</span>`).join('')}</div></div>
+    <p class="inci-intro">As listed by ${esc(p.brand)}, from the highest to the lowest amount.${p.inci.length > 1 ? ` This kit has ${p.inci.length} products.` : ''}</p>
     ${p.inci.length > 1 ? `<div class="inci-tabs" role="tablist" aria-label="Products in this kit">${p.inci.map((c, k) => `<button role="tab" aria-selected="${!k}" aria-controls="inci-${p.id}-${k}" data-incitab="${k}">${esc(c.n)}</button>`).join('')}</div>` : ''}
     ${p.inci.map(panel).join('')}
-    <p class="inci-note">Always check the pack for the most up-to-date list, and patch test before first use.</p></section>`;
+    <p class="inci-note">Always check the pack for the most up-to-date list, and patch test before first use.</p></div>`;
 }
 function sitemapPage(){
   const L = (h, t, n) => `<a href="${h}">${esc(t)}${n!=null?` <small>${n}</small>`:''}</a>`;
@@ -1875,9 +1876,9 @@ function initHero(){
 /* ingredients: kit tabs, show all, copy */
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-incitab]');
-  if (t){ const sec = t.closest('.incisec'); sec.querySelectorAll('[data-incitab]').forEach(b => b.setAttribute('aria-selected', b === t)); sec.querySelectorAll('.inci-panel').forEach((p, k) => p.hidden = k !== +t.dataset.incitab); return; }
+  if (t){ const sec = t.closest('.inci'); sec.querySelectorAll('[data-incitab]').forEach(b => b.setAttribute('aria-selected', b === t)); sec.querySelectorAll('.inci-panel').forEach((p, k) => p.hidden = k !== +t.dataset.incitab); return; }
   const m = e.target.closest('[data-incimore]');
-  if (m){ const l = m.previousElementSibling, clipped = l.classList.toggle('clip'); m.textContent = clipped ? `Show all ${l.children.length} ingredients` : 'Show fewer'; return; }
+  if (m){ const l = m.previousElementSibling, clipped = l.classList.toggle('clip'); m.setAttribute('aria-expanded', !clipped); m.textContent = clipped ? `Show all ${l.querySelectorAll('.ii').length} ingredients` : 'Show fewer'; return; }
   const c = e.target.closest('[data-incicopy]');
   if (c){ const done = () => { c.querySelector('span').textContent = 'Copied'; setTimeout(() => c.querySelector('span').textContent = 'Copy list', 1800); };
     try { navigator.clipboard.writeText(c.dataset.incicopy).then(done, () => toast('Select the list to copy it')); } catch(err){ toast('Select the list to copy it'); } }
