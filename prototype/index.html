@@ -1533,7 +1533,7 @@ function sitemapPage(){
   </div>`;
 }
 function journalPage(){
-  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h2 class="ph">${j.t}</h2><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
+  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1><div class="share dark ph"><button class="sharebtn" data-share="journal" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h2 class="ph">${j.t}</h2><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
 }
 function wishlistPage(){
   const list = wish.map(id=>byId[id]).filter(Boolean);
@@ -1905,6 +1905,8 @@ function shareData(route){
     return {url: pageUrl(route), title: `${b} | Swansura`, text: `${b} at Swansura: ${ps.length} product${ps.length > 1 ? 's' : ''}, 100% authentic and shipped from the UK`, img}; }
   if (route === 'advent'){ const cs = ADVENT.map(adventData), img = cs.flatMap(c => c.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('advent'), title: 'Advent calendars | Swansura', text: `Swansura advent calendars: ${cs.map(c => `${c.name} (£${c.price})`).join(' and ')}, twelve days of natural skincare and fine fragrance`, img}; }
+  if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
+    return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
     return {url: pageUrl('offers'), title: 'Offers & rewards | Swansura', text: `Swansura offers: ${o.welcome.pct}% off your first order, a free mini when you spend £${o.gift.min}, free UK delivery over £50, ${Math.round(RITUAL_SAVE*100)}% off routines and Swansura Rewards points on every order`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
