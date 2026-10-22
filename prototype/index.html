@@ -496,11 +496,10 @@ main#app{min-height:100vh;min-height:100svh}
 .brandctas{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .share.dark .sharebtn{background:transparent;color:var(--on-dark);border-color:rgba(244,238,228,.45);min-height:44px;padding:0 18px}
 .share.dark .sharebtn:hover,.share.dark .sharebtn[aria-expanded="true"]{border-color:#E6D3A8;color:#E6D3A8}
-.share.dark .sharemenu{left:0;right:auto;color:var(--ink)}
-.sharemenu.up{top:auto;bottom:calc(100% + 8px)}
+.share.ph{margin-top:18px;display:inline-block}.share.ph .sharebtn{min-height:38px;padding:0 16px}
 .sharebtn{display:flex;align-items:center;gap:7px;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:34px;background:var(--card);color:var(--ink)}
 .sharebtn:hover,.sharebtn[aria-expanded="true"]{border-color:var(--emerald);color:var(--emerald)}
-.sharemenu{position:absolute;right:0;top:calc(100% + 8px);z-index:30;width:230px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 40px rgba(0,0,0,.14);padding:8px;display:flex;flex-direction:column}
+.sharemenu{position:fixed;z-index:60;color:var(--ink);width:230px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 40px rgba(0,0,0,.14);padding:8px;display:flex;flex-direction:column}
 .sharemenu a,.sharemenu button{display:flex;align-items:center;min-height:40px;padding:0 12px;border-radius:8px;font-size:14px;text-align:left;width:100%}
 .sharemenu a:hover,.sharemenu button:hover,.sharemenu a:focus-visible,.sharemenu button:focus-visible{background:var(--mount)}
 .sharemenu button{border-top:1px solid var(--line);border-radius:0 0 8px 8px;margin-top:4px;font-weight:600}
@@ -1302,7 +1301,7 @@ function listing(kind, key){
   const topSubs = subs.filter(s=>s!=='More').map(s=>[s, list.filter(p=>subtype(p)===s).length]).sort((a,b)=>b[1]-a[1]).slice(0,7);
   const facet = kind==='c' && key==='fragrance' ? Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('') : kind==='c' && CATS[key].world==='skin' && key!=='all' ? Object.keys(CONCERNS).filter(k=>P.some(p=>inCat(p,key)&&p.tags.includes(k))).map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('') : '';
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">${crumbs.map(c=>c[1]?`<a href="${c[1]}">${c[0]}</a><span>/</span>`:`<span style="color:var(--ink)">${c[0]}</span>`).join('')}</nav></div>
-  <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${eyebrow}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${title}</h1></div><p class="lede">${intro}</p></div>
+  <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${eyebrow}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${title}</h1><div class="share dark ph"><button class="sharebtn" data-share="${kind}-${key}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${intro}</p></div>
   ${topSubs.length>1?`<div class="typechips" role="group" aria-label="Quick filter by type"><button data-chip="" aria-pressed="true">All ${list.length}</button>${topSubs.map(([s,c])=>`<button data-chip="${esc(s)}" aria-pressed="false">${esc(s)} <small>${c}</small></button>`).join('')}</div>`:''}
   <div class="listing">
     <aside class="filters" id="filters" aria-label="Filters">
@@ -1849,6 +1848,7 @@ document.querySelector('[data-skip]').addEventListener('click', e => { e.prevent
 document.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id==='sort') applyFilters(true); });
 document.getElementById('newsForm').addEventListener('submit', e => { e.preventDefault(); e.target.hidden = true; document.getElementById('newsMsg').hidden = false; });
 window.addEventListener('hashchange', route);
+window.addEventListener('hashchange', () => closeShares());
 /* Footer wordmark: gold glint follows the cursor and throws a few sparkles */
 (() => { let last = 0; const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.addEventListener('pointermove', e => { const w = e.target.closest && e.target.closest('.fmark-wrap'); if (!w || e.pointerType === 'touch') return;
@@ -1903,6 +1903,8 @@ function shareData(route){
   if ((m = route.match(/^p-(\d+)$/)) && byId[m[1]]){ const p = byId[m[1]]; return {url: pageUrl(route), title: `${cleanTitle(p)} | Swansura`, text: `${cleanTitle(p)} by ${p.brand}, ${fmt(p.price)} at Swansura`, img: p.i0}; }
   if ((m = route.match(/^b-(.+)$/))){ const b = brandBySlug(m[1]); if (!b) return null; const ps = P.filter(p => p.brand === b), img = ps.find(p => p.available && p.i0)?.i0;
     return {url: pageUrl(route), title: `${b} | Swansura`, text: `${b} at Swansura: ${ps.length} product${ps.length > 1 ? 's' : ''}, 100% authentic and shipped from the UK`, img}; }
+  if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
+    return {url: pageUrl(route), title: `${h1} | Swansura`, text: `${h1} at Swansura: ${n} product${n !== 1 ? 's' : ''}, 100% authentic and shipped from the UK`, img}; }
   return null;
 }
 function shareMenu(d){
@@ -1910,19 +1912,27 @@ function shareMenu(d){
   const opts = [['WhatsApp', `https://wa.me/?text=${t}%20${u}`], ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`], ['Pinterest', `https://pinterest.com/pin/create/button/?url=${u}&media=${encodeURIComponent(d.img||'')}&description=${t}`], ['X', `https://x.com/intent/post?text=${t}&url=${u}`], ['Email', `mailto:?subject=${encodeURIComponent(d.title)}&body=${t}%0A${u}`]];
   return `<div class="sharemenu" role="menu" aria-label="Share this page">${opts.map(([n, h]) => `<a role="menuitem" href="${h}" target="_blank" rel="noopener">${n}</a>`).join('')}<button role="menuitem" data-sharecopy="${d.url}">Copy link</button><p class="sharelink">${esc(d.url)}</p></div>`;
 }
-const closeShares = except => document.querySelectorAll('.share').forEach(w => { if (w === except) return; w.querySelector('.sharemenu')?.remove(); w.querySelector('[data-share]')?.setAttribute('aria-expanded', 'false'); });
+let shareOwner = null;
+const closeShares = () => { document.querySelectorAll('.sharemenu').forEach(m => m.remove()); document.querySelectorAll('[data-share][aria-expanded="true"]').forEach(b => b.setAttribute('aria-expanded', 'false')); shareOwner = null; };
+/* the menu floats above the page (fixed), so headers with clipped edges cannot hide it */
+function placeShare(mn, b){ const bt = b.getBoundingClientRect(), r = mn.getBoundingClientRect(), gap = 8;
+  let left = b.closest('.share.dark') ? bt.left : bt.right - r.width; left = Math.max(12, Math.min(left, innerWidth - r.width - 12));
+  let top = bt.bottom + gap; if (top + r.height > innerHeight - 8 && bt.top - r.height - gap > 8) top = bt.top - r.height - gap;
+  mn.style.left = left + 'px'; mn.style.top = top + 'px'; }
+const reShare = () => { const m = document.querySelector('.sharemenu'); if (shareOwner && m){ if (!document.contains(shareOwner)) closeShares(); else placeShare(m, shareOwner); } };
+addEventListener('scroll', reShare, {passive: true}); addEventListener('resize', reShare);
 document.addEventListener('click', async e => {
   const b = e.target.closest('[data-share]');
   if (b){ const d = shareData(b.dataset.share), wrap = b.closest('.share'); if (!d) return;
     if (navigator.share && matchMedia('(pointer:coarse)').matches){ try { await navigator.share({title: d.title, text: d.text, url: d.url}); return; } catch(err){ if (err && err.name === 'AbortError') return; } }
-    closeShares(wrap); const open = !wrap.querySelector('.sharemenu'); wrap.querySelector('.sharemenu')?.remove();
-    if (open){ wrap.insertAdjacentHTML('beforeend', shareMenu(d)); const mn = wrap.querySelector('.sharemenu'), r = mn.getBoundingClientRect(), bt = b.getBoundingClientRect(); if (r.bottom > innerHeight - 8 && bt.top - r.height - 16 > 0) mn.classList.add('up'); mn.querySelector('[role=menuitem]').focus({preventScroll: true}); }
+    const open = shareOwner !== b; closeShares();
+    if (open){ document.body.insertAdjacentHTML('beforeend', shareMenu(d)); const mn = document.body.lastElementChild; placeShare(mn, b); shareOwner = b; mn.querySelector('[role=menuitem]').focus({preventScroll: true}); }
     b.setAttribute('aria-expanded', open); return; }
   const c = e.target.closest('[data-sharecopy]');
   if (c){ try { await navigator.clipboard.writeText(c.dataset.sharecopy); c.textContent = 'Link copied'; } catch(err){ const r = document.createRange(), l = c.parentElement.querySelector('.sharelink'); r.selectNodeContents(l); getSelection().removeAllRanges(); getSelection().addRange(r); c.textContent = 'Press Ctrl+C to copy'; } return; }
-  if (!e.target.closest('.share')) closeShares();
+  if (!e.target.closest('.share,.sharemenu')) closeShares();
 });
-document.addEventListener('keydown', e => { if (e.key === 'Escape'){ const m = document.querySelector('.sharemenu'); if (m){ const b = m.closest('.share').querySelector('[data-share]'); closeShares(); b?.focus(); } } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && shareOwner){ const b = shareOwner; closeShares(); b.focus(); } });
 /* help / chat panel */
 (() => { const b = document.getElementById('chatBtn'), p = document.getElementById('chatPanel'); const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
   b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); }); document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden){ set(false); b.focus(); } }); })();
