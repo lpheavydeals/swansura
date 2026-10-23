@@ -1507,7 +1507,7 @@ function inciBlock(p, heroes){
   };
   return `<div class="inci"><div class="inci-head"><h3>Full ingredient list</h3>
       <div class="inci-legend">${hk.length ? '<span class="lg-hero"><i></i>Hero ingredient</span>' : ''}${Object.keys(g).map(m => `<span><i class="mk m${m}"></i>${esc(g[m])}</span>`).join('')}</div></div>
-    <p class="inci-intro">As listed by ${esc(p.brand)}, from the highest to the lowest amount.${p.inci.length > 1 ? ` This kit has ${p.inci.length} products.` : ''}</p>
+    <p class="inci-intro">As listed by ${esc(p.brand)}, from the highest to the lowest amount.${p.inci.length > 1 ? (/^Step \d/.test(p.inci[0].n) ? ` Used in ${p.inci.length} steps.` : ` This kit has ${p.inci.length} products.`) : ''}</p>
     ${p.inci.length > 1 ? `<div class="inci-tabs" role="tablist" aria-label="Products in this kit">${p.inci.map((c, k) => `<button role="tab" aria-selected="${!k}" aria-controls="inci-${p.id}-${k}" data-incitab="${k}">${esc(c.n)}</button>`).join('')}</div>` : ''}
     ${p.inci.map(panel).join('')}
     <p class="inci-note">Always check the pack for the most up-to-date list, and patch test before first use.</p></div>`;
