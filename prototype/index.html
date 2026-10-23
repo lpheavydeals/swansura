@@ -387,6 +387,9 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 @media (max-width:900px){.searches{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .related{display:flex;flex-wrap:wrap;gap:10px 24px;font-size:14px}
 .related a{border-bottom:1px solid var(--line)}
+.explore{display:flex;flex-wrap:wrap;gap:8px}
+.explore a{display:inline-flex;align-items:center;min-height:36px;border:1px solid var(--line);background:var(--card);padding:6px 16px;font-size:14px;border-radius:999px;transition:border-color .2s,background .2s}
+.explore a:hover{border-color:var(--ink)}
 
 .pdp{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);padding-block:20px 64px}
 .gallery{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-self:start;position:sticky;top:150px}
@@ -1319,7 +1322,7 @@ function listing(kind, key){
   </div>
   ${(() => { const ids = new Set(list.map(p=>p.id)); const ks = kwLive().filter(k => k.s !== key && kwList(k).some(p=>ids.has(p.id))).sort((a,b)=>kwList(b).filter(p=>ids.has(p.id)).length - kwList(a).filter(p=>ids.has(p.id)).length).slice(0,10); return facet || ks.length ? `<div class="related">${facet?`<div class="kwchips"><span class="eyebrow">${kind==='c'&&key==='fragrance'?'Shop by scent family':'Shop by concern'}</span><div>${facet}</div></div>`:''}${kwChips(ks)}</div>` : ''; })()}
   ${(() => { const auto = listingFaq(kind, key, title, list); return faqBlock(`${title} questions`, auto.length ? auto : topUpFaq(faq, list)); })()}
-  <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="related">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
+  <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="explore">${Object.entries(CATS).filter(([k])=>k!==key).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}${brands.slice(0,12).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</div></div>
   </div>`;
 }
 let shown = PAGE, filtered = [];
