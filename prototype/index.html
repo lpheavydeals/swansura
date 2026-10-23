@@ -720,6 +720,23 @@ footer .fmark-wrap.live .fmark{--g:.55;animation:twinkle .9s steps(5) infinite}
 .spark{position:absolute;width:var(--s,10px);height:var(--s,10px);pointer-events:none;transform:translate(-50%,-50%);background:radial-gradient(circle,#FFF4D6 0,#E9CB8E 35%,#B5843A 70%);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);animation:spark .8s ease-out forwards;filter:drop-shadow(0 0 4px rgba(233,203,142,.9))}
 @keyframes spark{0%{opacity:0;transform:translate(-50%,-50%) scale(.2) rotate(0)}30%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx,0px)),calc(-50% + var(--dy,0px))) scale(1) rotate(90deg)}}
 @media (prefers-reduced-motion:reduce){footer .fmark{animation:none}.spark{display:none}}
+/* compact footer (user, 23 Oct 2026): tighter spacing, smaller logo and wordmark, 3 columns on tablets */
+footer .cols{padding-block:40px 24px;gap:20px 24px}
+footer h3{margin-bottom:10px}
+footer a{padding:2px 0}
+footer .logo-img.ft{height:60px}
+footer .cols>div:first-child p{margin-top:10px!important}
+footer .fpromise{margin-top:10px;gap:3px}
+footer .social{margin-top:10px}
+footer .legal{padding-block:12px}
+footer .fmark-wrap{padding-bottom:clamp(6px,1.2vw,16px)}
+footer .fmark{font-size:8.5cqw}
+@media (min-width:1001px){footer .cols{grid-template-columns:1.9fr repeat(6,1fr)}}
+@media (min-width:721px) and (max-width:1000px){footer .cols{grid-template-columns:repeat(6,minmax(0,1fr));gap:16px 14px;font-size:13px}footer h3{font-size:10px;letter-spacing:.14em}
+  footer .cols>div:first-child{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:8px 32px}
+  footer .cols>div:first-child p,footer .cols>div:first-child .fpromise,footer .cols>div:first-child .social{margin:0!important}}
+@media (max-width:720px){footer .cols{padding-block:28px 16px;gap:0}footer .cols>div:first-child{padding-bottom:16px}footer .logo-img.ft{height:48px}footer .fmark{font-size:13cqw}
+  footer details.fcol summary{padding:12px 0}footer .legal{gap:10px}footer .legal .lg{gap:6px 14px}footer .legal nav{gap:6px 14px}}
 .studio.scent,.advent.scent,.dn-feat .sc{background:var(--silk-oud)}
 /* page headers: emerald silk with a gold hairline (fragrance keeps oud silk) */
 .pagehead,.pagehead:not(.dark){background:var(--silk);color:var(--on-dark);border:0;padding:clamp(32px,4.5vw,56px) var(--gutter);margin-top:16px;border-radius:var(--r);overflow:hidden}

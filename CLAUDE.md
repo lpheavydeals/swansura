@@ -54,6 +54,7 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
 - 'Explore more' block at the bottom of every listing page (categories + up to 12 brands) is a horizontal row of pill links that wraps (user, 23 Oct 2026, preview v50; class `.explore` — it had been stacked vertically by the `.related` column style).
 - PDP section order (user, 23 Oct 2026, preview v52): … From the same house → More <category> / Similar scents → Recently viewed → Reviews → FAQs (Recently viewed moved from above 'More …' to directly above Reviews).
 - Header bag count (user, 23 Oct 2026, preview v53): a 17 px emerald badge on the bag icon's top-right corner (same as the wishlist count, white ring), hidden when the bag is empty, 99+ cap; the button's aria-label reads 'Open bag, N items'. Was a separate pill floating beside the icon showing 0.
+- Compact footer (user, 23 Oct 2026, preview v54): tighter padding/link spacing, logo 60 px (48 on phones), faded SWANSURA wordmark 8.5cqw (was 15.6), brand column 1.9fr on desktop, all 6 link columns in one row on tablets (721–1000 px, brand block across the top), no gaps between the mobile accordions. Height: desktop 790 → 550 px, tablet 1,439 → 596, mobile 957 → 761.
 - Prototype features to carry into the theme: shop with sticky filter panel, coloured trust badges, fixed Add-to-bag bar, styled scrollbar, brand pages, keyword pages (The Body Shop non-branded keywords), routines & combos, advent-calendar concept.
 
 ## Shopify build — agreed approach
