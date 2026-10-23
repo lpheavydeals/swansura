@@ -436,7 +436,10 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .acc .in{padding-top:12px;color:var(--ink-2);font-size:15px;display:flex;flex-direction:column;gap:8px}
 .acc ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
 .hicon{display:inline-flex;align-items:center;position:relative}
-.hicon .wcount{position:absolute;top:-8px;right:-12px;margin:0}
+/* header counts: small badge on the icon's top-right corner, hidden at 0 */
+.bagic{position:relative;display:inline-flex;margin-left:6px}
+.hicon .wcount,.bagic .bagcount{position:absolute;top:-7px;right:-10px;margin:0;min-width:17px;height:17px;padding:0 4px;font-size:10px;font-weight:700;line-height:1;border-radius:9px;box-shadow:0 0 0 2px var(--paper)}
+.bagcount[hidden]{display:none}
 .announce a{color:inherit}.announce a:hover{text-decoration:underline}
 @media (max-width:900px){.announce{font-size:11px;letter-spacing:.12em}.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .5s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
 .heart{position:absolute;top:8px;right:8px;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,249,.92);color:var(--ink);transition:transform .2s,color .2s}
@@ -764,7 +767,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
         <a href="#brands" class="txt">Brands A–Z</a>
         <button class="hicon" id="openAccount" aria-label="Account"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></button>
         <a class="hicon" href="#wishlist" aria-label="Wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg><span class="bagcount wcount" id="wishCount" hidden>0</span></a>
-        <button id="openBag" aria-label="Open bag" style="display:flex;align-items:center"><span class="txt">Bag</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-left:6px"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bagcount" id="bagCount">0</span></button>
+        <button id="openBag" aria-label="Open bag" style="display:flex;align-items:center"><span class="txt">Bag</span><span class="bagic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bagcount" id="bagCount" hidden>0</span></span></button>
       </div>
     </div>
     <nav class="main" id="mainNav" aria-label="Main"></nav>
@@ -941,7 +944,7 @@ function lazy(root = document){ root.querySelectorAll('.pic[data-bg]:not([data-s
 /* ---------- Bag ---------- */
 let bag = [];
 try { bag = JSON.parse(localStorage.getItem('swansura-bag') || '[]'); } catch(e) { bag = []; }
-function saveBag(){ bag = bag.filter(l => byId[l.id]); try { localStorage.setItem('swansura-bag', JSON.stringify(bag)); } catch(e){} document.getElementById('bagCount').textContent = bag.reduce((a,b)=>a+b.q,0); }
+function saveBag(){ bag = bag.filter(l => byId[l.id]); try { localStorage.setItem('swansura-bag', JSON.stringify(bag)); } catch(e){} const n = bag.reduce((a,b)=>a+b.q,0), c = document.getElementById('bagCount'); c.textContent = n > 99 ? '99+' : n; c.hidden = !n; document.getElementById('openBag').setAttribute('aria-label', n ? `Open bag, ${n} item${n>1?'s':''}` : 'Open bag'); }
 function addToBag(id, q=1, silent){ const l = bag.find(x=>x.id===id); if (l) l.q += q; else bag.push({id, q}); saveBag(); if (!silent) { openBag(id); } }
 function bagTotal(){ return bag.reduce((a,l)=> a + (byId[l.id]?.price||0)*l.q, 0); }
 function toast(msg){ const t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); t.textContent = msg; document.body.appendChild(t); requestAnimationFrame(()=>{ if (document.querySelector('#layer .bag')) t.classList.add('top'); }); setTimeout(()=>t.remove(), 2400); }
