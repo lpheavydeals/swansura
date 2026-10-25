@@ -690,6 +690,19 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
 .brandmore{display:flex;flex-wrap:wrap;gap:8px 22px;padding-top:22px;font-size:14px;color:var(--ink-2)}.brandmore a:hover{color:var(--ink)}.brandmore .all{color:var(--ink);font-weight:600}
 @media (max-width:900px){.brandcards{grid-template-columns:1fr 1fr}.bcard{grid-template-columns:1fr;padding:16px}.bcard .bi{display:none}}
 @media (max-width:720px){.steps.rail{grid-auto-columns:70%}.ingcards.rail{grid-auto-columns:40%}.catrow.rail{grid-auto-columns:27%}}
+/* phones (user, 24 Oct 2026): a section with up to 4 items is a still 2-column grid (2 on top, 2 below);
+   more than 4 scrolls sideways in two rows */
+@media (max-width:720px){
+  .rail:not(:has(>:nth-child(5))),.best .grid-p:not(:has(>:nth-child(5))){grid-auto-flow:row!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-columns:auto!important;overflow:visible;margin-inline:0;padding:0;scroll-snap-type:none}
+  .rail:has(>:nth-child(5)),.best .grid-p:has(>:nth-child(5)){grid-template-rows:repeat(2,auto);grid-auto-flow:column;align-items:stretch}
+  .families.rail:has(>:nth-child(5)){grid-auto-columns:44%}
+  /* half-width cards: price bands stack image over text; routine cards drop the step list (the photos show the products) */
+  .bands.rail .band{grid-template-columns:1fr;gap:10px;padding:12px;align-content:start}.bands.rail .band .pic{aspect-ratio:4/3}
+  .bands.rail .band .n{font-size:20px}.bands.rail .band small{font-size:12px}.bands.rail .band .c{font-size:11px;letter-spacing:.08em}
+  .rituals.rail .ritual .body{padding:14px;gap:8px}.rituals.rail .ritual h3{font-size:17px}.rituals.rail .ritual ol{display:none}
+  .rituals.rail .ritual .body>p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:13px}
+  .rituals.rail .ritual .btn{padding-inline:10px;letter-spacing:.08em;width:100%}
+}
 .proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
 /* ---------- Royal emerald: silk surfaces and gold accents on every page ---------- */
 :root{
