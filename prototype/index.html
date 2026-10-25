@@ -236,6 +236,8 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .ritual ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px}
 .ritual .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 @media (max-width:900px){.rituals{grid-template-columns:1fr}}
+.rituals.home4{grid-template-columns:repeat(4,1fr)}@media (max-width:1100px){.rituals.home4{grid-template-columns:repeat(2,1fr)}}
+.viewall{display:flex;justify-content:center;margin-top:28px}@media (max-width:720px){.viewall{margin-top:20px}.viewall .btn{width:100%}}
 
 .chips{display:flex;flex-wrap:wrap;gap:12px}
 .chip{border:1px solid var(--line);background:var(--card);padding:14px 20px;font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:170px;transition:border-color .2s;text-align:left}
@@ -1264,8 +1266,9 @@ function home(){
     <div class="steps rail">${[['Cleanse','face-wash','Lift away oil and the day'],['Treat','face-serum','A serum for what your skin needs'],['Moisturise','moisturiser','Lock in softness and comfort'],['Protect','sunscreen','Daily SPF, every morning']].map(([n,k,d],i)=>{ const kw = KWBY[k]; const im = kw ? pickImg(kwList(kw)) : null; return kw ? `<a class="step" href="#k-${k}" style="background:var(--tint-${i+1})"><span class="eyebrow">Step ${i+1}</span><b>${n}</b><small>${d}</small><span class="si">${im?pic(im):''}</span><span class="go">Shop ${esc(kw.k.toLowerCase())} →</span></a>` : ''; }).join('')}</div>
   </div></section>
   <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow">Most loved routines</div><h2>Routines that work together</h2></div><a class="link" href="#rituals">All ${ritualsData().length} routines</a></div>
-    <div class="rituals rail">${['skin','hair','scent'].map(g=>ritualsData().find(r=>r.g===g)).filter(Boolean).map(ritualCard).join('')}</div>
+    <div class="sec-head"><div><div class="eyebrow">Most loved routines</div><h2>Routines that work together</h2></div></div>
+    <div class="rituals home4 rail">${['skin','hair','body','scent'].map(g=>ritualsData().find(r=>r.g===g)).filter(Boolean).map(ritualCard).join('')}</div>
+    <div class="viewall"><a class="btn" href="#rituals">View all ${ritualsData().length} routines</a></div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Ranges loved by you</div><h2>Shop by hero ingredient</h2></div></div>
