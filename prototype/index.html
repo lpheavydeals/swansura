@@ -100,6 +100,10 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 @media (max-width:600px){header.site .logo-img{height:54px}#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
 @media (max-width:400px){header.site .logo-img{height:48px}.hleft,.hright{gap:10px}.hrow{column-gap:6px}.logo .w{font-size:20px;letter-spacing:.14em}.logo .s{font-size:8px;letter-spacing:.3em;margin-top:4px}}
 @media (max-width:340px){header.site .logo-img{height:42px}.hleft,.hright{gap:6px}.logo .w{font-size:17px;letter-spacing:.1em}.logo .s{display:none}}
+/* mobile tap targets (23 Oct 2026): header icons get 40 px touch areas, small links reach 24 px+ */
+@media (max-width:900px){.hleft>a,.hleft>button,.hright>a,.hright>button{min-width:40px;min-height:40px;justify-content:center}.hleft,.hright{gap:2px!important}}
+@media (max-width:720px){.announce a{display:inline-block;padding-block:5px}.earn a{display:inline-block;padding-block:4px}
+  .fbt-txt a{min-height:24px}.reviews-line a{display:inline-block;padding-block:4px}.ritual .body ol li a{display:inline-block;padding-block:3px}}
 .drawer-nav{position:fixed;inset:0;z-index:60;background:var(--paper);padding:24px var(--gutter);overflow:auto}
 .drawer-nav>a,.dn-g summary{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line);font-size:17px;cursor:pointer;list-style:none}
 .dn-g summary::-webkit-details-marker{display:none}.dn-g summary::after{content:'+';color:var(--brass-ink);font-size:20px;line-height:1}.dn-g[open] summary::after{content:'–'}
@@ -238,6 +242,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .chip:hover{border-color:var(--ink)}
 .chip small{color:var(--ink-2);font-size:12px}
 @media (max-width:600px){.chips:has(.chip small){display:grid;grid-template-columns:1fr 1fr;gap:8px}.chips .chip:has(small){min-width:0;padding:12px 14px}}
+#qres .chips{gap:8px}#qres .chip{min-width:0;padding:9px 16px;border-radius:999px}
 .scent-band{background:var(--oud);color:var(--on-dark)}
 .scent-band .eyebrow{color:#E6D3A8}
 .families{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(244,238,228,.18);border:1px solid rgba(244,238,228,.18)}
@@ -402,7 +407,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .readmore{color:var(--ink);text-decoration:underline;text-underline-offset:3px;font-weight:500;white-space:nowrap}
 .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
 .notes div{background:var(--card);padding:12px 14px;font-size:13px}
-.notes b{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-ink);font-weight:600;margin-bottom:4px}
+.notes b{display:block;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-ink);font-weight:600;margin-bottom:4px}
 .qtyrow{display:flex;gap:12px}
 .qty{display:flex;border:1px solid var(--ink);height:50px}
 .qty button{width:40px;font-size:18px}
@@ -472,7 +477,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .pack b{font-size:15px}.pack span{font-size:12px;color:var(--ink-2);line-height:1.35;min-height:2.7em}.pack strong{font-size:17px;margin-top:6px}.pack small{font-size:12px;color:var(--sale);font-weight:600}
 .pack:has(input:checked){border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .pack:has(input:focus-visible){outline:2px solid var(--brass);outline-offset:2px}
-.pack em{position:absolute;top:-10px;right:10px;font-style:normal;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;background:var(--brass);color:#fff;padding:3px 8px}
+.pack em{position:absolute;top:-10px;right:10px;font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;background:var(--brass);color:#fff;padding:3px 8px}
 .dispatch{font-size:14px;color:var(--ink-2);line-height:1.5}
 .dispatch i{display:inline-block;margin:0 10px 1px 2px;vertical-align:middle;width:9px;height:9px;border-radius:50%;background:#2E8B57;box-shadow:0 0 0 4px rgba(46,139,87,.15);flex:none}
 .dispatch.out i{background:var(--sale);box-shadow:0 0 0 4px rgba(138,47,42,.15)}
@@ -540,6 +545,7 @@ main#app{min-height:100vh;min-height:100svh}
 @media (max-width:800px){.rewards{grid-template-columns:1fr}}
 .chatbtn{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:44;display:flex;align-items:center;gap:8px;background:var(--emerald);color:var(--on-dark);border-radius:999px;padding:12px 16px;box-shadow:0 8px 24px rgba(19,58,47,.28);font-weight:600;font-size:14px}
 .chatbtn:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+@media (max-width:600px){.chatbtn{width:48px;height:48px;padding:0;justify-content:center}.chatbtn span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .chatpanel{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(76px + env(safe-area-inset-bottom,0px));z-index:46;width:min(340px,calc(100vw - 32px));background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.18);padding:18px;display:flex;flex-direction:column;gap:12px}
 .chatpanel[hidden]{display:none!important}
@@ -568,7 +574,7 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
   .crow a.brand,.related a,.crumbs a,.links a,.brandmore a,.brandlink{display:inline-flex;align-items:center;min-height:24px}
   #app summary{min-height:24px;display:flex;align-items:center}
   .badge,.tag{font-size:11px!important}
-  .media .badge{top:auto;bottom:10px;letter-spacing:.1em;padding:5px 7px;max-width:calc(100% - 20px)}
+  .media .badge{top:auto;bottom:8px;left:8px;letter-spacing:.06em;padding:4px 6px;max-width:calc(100% - 16px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   #app small{font-size:max(11px,.83em)!important}
 }
 .pfaq{border-top:1px solid var(--line);padding-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px;padding-bottom:56px}
