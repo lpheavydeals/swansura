@@ -333,6 +333,7 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .news input{flex:1;min-width:0;height:52px;border:1px solid var(--on-dark-2);background:transparent;color:var(--on-dark);padding:0 16px;font:inherit}
 .news input::placeholder{color:var(--on-dark-2)}
 .news button{height:52px;padding:0 22px;background:var(--on-dark);color:var(--ink);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+@media (max-width:480px){.news form{flex-direction:column;gap:10px}.news input,.news button{flex:none;width:100%;height:48px}}
 footer.site{background:var(--ink);color:var(--on-dark-2);font-size:14px}
 footer .cols{display:grid;grid-template-columns:1.4fr repeat(6,1fr);gap:28px;padding-block:64px 40px}
 footer h3{margin:0 0 14px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--on-dark);font-weight:600}
@@ -836,7 +837,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 
 <a class="skip" href="#app" data-skip>Skip to content</a>
 <aside class="proto" aria-label="About this prototype">Design prototype for Swansura · the full catalogue, prices and descriptions from swansura.com (Oct 2026) · checkout, accounts and reviews are illustrative</aside>
-<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#offers"><b>10% off</b> your first order · see all offers</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
+<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#newsletter" data-jump="newsletter">Become a member for <b>surprise gifts</b> · join free</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
 <header class="site">
   <div class="wrap">
     <div class="hrow">
@@ -860,11 +861,11 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 
 <section class="news" id="newsletter" aria-label="Newsletter">
   <div class="wrap">
-    <div class="eyebrow" style="color:#E6D3A8">The Studio Letter</div>
-    <h2>10% off your first order</h2>
-    <p>New arrivals, rituals and fragrance notes, once or twice a month.</p>
-    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Sign up</button></form>
-    <p id="newsMsg" hidden>Thank you. Your welcome code is on its way.</p>
+    <div class="eyebrow" style="color:#E6D3A8">Swansura Members</div>
+    <h2>Members get surprise gifts</h2>
+    <p>Become a member for surprise gifts, early access to new arrivals, plus rituals and fragrance notes once or twice a month.</p>
+    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Become a member</button></form>
+    <p id="newsMsg" hidden>Welcome to the Studio. Look out for your first surprise.</p>
   </div>
 </section>
 <section class="faqslot" id="faqslot" aria-label="Frequently asked questions" hidden><div class="wrap"></div></section>
@@ -1658,7 +1659,7 @@ function productPage(id){
 }
 /* ---------- Offers & rewards (proposed values: Swansura to confirm before launch) ---------- */
 const OFFERS = {
-  welcome: {pct:10, how:'join the Studio Letter'},
+  welcome: {perk:'surprise gifts', how:'become a member'},
   gift: {min:40, item:'a free Deyga or Vilvah travel mini'},
   rewards: {perPound:1, redeem:100, value:5, birthday:2},
   refer: {give:5, get:5},
@@ -1669,11 +1670,11 @@ function offersPage(){
   const o = OFFERS, r = o.rewards;
   const tile = (eyebrow, h, p, cta) => `<article class="offer"><div class="eyebrow">${eyebrow}</div><h3>${h}</h3><p>${p}</p>${cta||''}</article>`;
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers &amp; rewards</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Offers, rewards and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers &amp; rewards</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: a welcome discount, routines that cost less together, a free gift over £${o.gift.min}, Swansura Rewards points and discounts for students, NHS and key workers.</p></div>
+  <div class="pagehead"><div><div class="eyebrow">Offers, rewards and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers &amp; rewards</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: surprise gifts for members, routines that cost less together, a free gift over £${o.gift.min}, Swansura Rewards points and discounts for students, NHS and key workers.</p></div>
   <p class="proto-note">Proposed offers for Swansura to confirm before launch. Values are set in one place in the theme settings.</p>
   <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
   <div class="offers">
-    ${tile('Welcome offer', `${o.welcome.pct}% off your first order`, `Sign up to the Studio Letter and we will email your code straight away.`, `<a class="btn solid" href="#newsletter" data-jump="newsletter">Get my code</a>`)}
+    ${tile('Members', 'Members get surprise gifts', 'Become a member with your email for surprise gifts, early access to new arrivals and member-only news.', `<a class="btn solid" href="#newsletter" data-jump="newsletter">Become a member</a>`)}
     ${tile('Free gift', `Spend £${o.gift.min}, get ${o.gift.item}`, `Added to your bag automatically at checkout while stocks last.`, `<a class="btn" href="#c-skincare">Shop skincare</a>`)}
     ${tile('Free delivery', 'Free UK delivery over £50', 'Every order ships from the UK. The bag shows how close you are.', `<a class="btn" href="#c-all">Shop all</a>`)}
     ${tile('Routines', 'Save 15% on a full routine', 'Two or three products chosen to work together, in order.', `<a class="btn" href="#rituals">Shop routines</a>`)}
@@ -2065,8 +2066,8 @@ window.addEventListener('hashchange', () => closeShares());
   document.addEventListener('pointerout', e => { const w = e.target.closest && e.target.closest('.fmark-wrap'); if (w && !w.contains(e.relatedTarget)){ w.classList.remove('live'); const m = w.querySelector('.fmark'); m.style.removeProperty('--mx'); m.style.removeProperty('--my'); } });
 })();
 function showOffer(){ if (showOffer.done || store.get('swansura-offer','0')) return; showOffer.done = true; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
-  d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>10% off your first order</h3><p>Join the Studio Letter for new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Get my 10%</button></form><small>Unsubscribe any time.</small>`;
-  d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Your welcome code is on its way.</p>'; store.set('swansura-offer', 1); });
+  d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>Members get surprise gifts</h3><p>Become a member for surprise gifts, early access to new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Become a member</button></form><small>Unsubscribe any time.</small>`;
+  d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Welcome to the Studio. Look out for your first surprise.</p>'; store.set('swansura-offer', 1); });
   document.body.appendChild(d); }
 setTimeout(showOffer, 20000);
 addEventListener('scroll', function onS(){ if (scrollY > document.body.scrollHeight * .45){ removeEventListener('scroll', onS); showOffer(); } }, {passive:true});
@@ -2112,7 +2113,7 @@ function shareData(route){
   if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
     return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
-    return {url: pageUrl('offers'), title: 'Offers & rewards | Swansura', text: `Swansura offers: ${o.welcome.pct}% off your first order, a free mini when you spend £${o.gift.min}, free UK delivery over £50, ${Math.round(RITUAL_SAVE*100)}% off routines and Swansura Rewards points on every order`, img}; }
+    return {url: pageUrl('offers'), title: 'Offers & rewards | Swansura', text: `Swansura offers: surprise gifts for members, a free mini when you spend £${o.gift.min}, free UK delivery over £50, ${Math.round(RITUAL_SAVE*100)}% off routines and Swansura Rewards points on every order`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('rituals'), title: 'Routines that work together | Swansura', text: `Swansura routines: ${rs.length} step-by-step skincare, hair, body and scent routines that save ${Math.round(RITUAL_SAVE*100)}% when bought together`, img}; }
   if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
