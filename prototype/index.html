@@ -833,7 +833,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 
 <a class="skip" href="#app" data-skip>Skip to content</a>
 <aside class="proto" aria-label="About this prototype">Design prototype for Swansura · the full catalogue, prices and descriptions from swansura.com (Oct 2026) · checkout, accounts and reviews are illustrative</aside>
-<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#newsletter" data-jump="newsletter">Become a member for <b>surprise gifts</b> · join free</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
+<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#rituals">Save <b>5%</b> on routines &amp; bundles</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
 <header class="site">
   <div class="wrap">
     <div class="hrow">
@@ -857,11 +857,11 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 
 <section class="news" id="newsletter" aria-label="Newsletter">
   <div class="wrap">
-    <div class="eyebrow" style="color:#E6D3A8">Swansura Members</div>
-    <h2>Members get surprise gifts</h2>
-    <p>Become a member for surprise gifts, early access to new arrivals, plus rituals and fragrance notes once or twice a month.</p>
-    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Become a member</button></form>
-    <p id="newsMsg" hidden>Welcome to the Studio. Look out for your first surprise.</p>
+    <div class="eyebrow" style="color:#E6D3A8">The Studio Letter</div>
+    <h2>Rituals, new arrivals and fragrance notes</h2>
+    <p>Our letter lands once or twice a month. Unsubscribe any time.</p>
+    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Sign up</button></form>
+    <p id="newsMsg" hidden>Thank you for signing up.</p>
   </div>
 </section>
 <section class="faqslot" id="faqslot" aria-label="Frequently asked questions" hidden><div class="wrap"></div></section>
@@ -1042,7 +1042,6 @@ function openBag(justAdded){
     <div class="lines">${bag.length ? bag.map(l => { const p = byId[l.id]; return `<div class="line${l.id===justAdded?' just':''}">${pic(p)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-ink)">${esc(p.brand)}</div><a href="#p-${p.id}" data-close>${esc(cleanTitle(p))}</a><div class="bq"><div class="qty sm"><button data-bq="${p.id}|-1" aria-label="Decrease quantity">−</button><span>${l.q}</span><button data-bq="${p.id}|1" aria-label="Increase quantity">+</button></div><button class="rm" data-rm="${p.id}">Remove</button></div></div><div>${fmt(p.price*l.q)}</div></div>`; }).join('') : '<div class="bag-empty"><p>Your bag is empty.</p><a class="btn solid" href="#c-all" data-close>Shop bestsellers</a><a class="link" href="#rituals" data-close>Or start with a routine</a></div>'}</div>
     <div class="foot">
       <div class="delivery" style="border:0;padding:0;background:none"><span>${left>0 ? `You're <b>${fmt(left)}</b> away from free UK delivery` : '<b>You have free UK delivery</b>'}</span><div class="bar"><i style="width:${Math.min(100,total/50*100)}%"></i></div></div>
-      <div class="gwp${total>=OFFERS.gift.min?' on':''}">${icon.check}<span>${total>=OFFERS.gift.min ? `<b>Free gift unlocked:</b> ${OFFERS.gift.item} is added at checkout.` : `Spend <b>${fmt(OFFERS.gift.min-total)}</b> more for ${OFFERS.gift.item}.`}</span></div>
       
       ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(p=>`<div class="extra">${pic(p)}<span>${esc(cleanTitle(p))}</span><b>${fmt(p.price)}</b><button data-add="${p.id}">Add</button></div>`).join('')}</div></div>` : ''}
       <div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${fmt(total)}</b></div>
@@ -1081,7 +1080,7 @@ function card(p){
 }
 function grid(list){ return `<div class="grid-p">${list.map(card).join('')}</div>`; }
 /* Curated cross-brand routines, in the spirit of The Body Shop's routines and gift sets. Saving is a proposal. */
-const RITUAL_SAVE = 0.15;
+const RITUAL_SAVE = BUNDLE_SAVE;
 const RITUALS = [
   {g:'skin', name:'The Clear Skin Routine', note:'For oily, breakout-prone skin: deep cleanse, balance, then a drop of neem.', steps:['Cleanse','Tone','Treat'], f:[[/charcoal face wash/i,'Deyga'],[/tea tree facial toner/i],[/neem seed oil/i]]},
   {g:'skin', name:'The Vitamin C Glow Routine', note:'Brighter, more even-looking skin by day, finished with SPF.', steps:['Cleanse','Serum','Protect'], f:[[/vitamin c foaming face wash/i],[/10% vitamin c/i],[/sunscreen 50ml/i,'Deyga']]},
@@ -1289,7 +1288,7 @@ const JOURNAL = [
 <p>Try one serum from each brand on alternate days: Vilvah Milk Drops for hydration and Deyga Rose Glow for radiance. Keep everything else simple.</p>
 <h2>A simple routine using both brands</h2>
 <ol><li><strong>Cleanse:</strong> Deyga Charcoal Face Wash (oilier skin) or Vilvah Fragrance-Free Cream Face Wash (drier skin).</li><li><strong>Treat:</strong> Vilvah Milk Drops in the morning, Deyga Rose Glow in the evening.</li><li><strong>Lips and body:</strong> Deyga Beetroot Lip Balm through the day and Vilvah Milk Body Lotion after showering.</li></ol>
-<p>Patch test anything new and introduce one product at a time. Ready-made pairings with 15% off are on our <a href="#rituals">routines page</a>.</p>
+<p>Patch test anything new and introduce one product at a time. Ready-made pairings with 5% off are on our <a href="#rituals">routines page</a>.</p>
 <h2>Why buy Deyga and Vilvah from Swansura?</h2>
 <p>We are an official UK partner of both brands, so there are no grey imports and no long waits from abroad: orders are dispatched from the UK, usually within 1–2 working days, with free UK delivery over £50. Explore the full <a href="#k-natural-skincare">natural skincare</a> edit, or go straight to <a href="#b-deyga">all Deyga</a> and <a href="#b-vilvah">all Vilvah</a> products.</p>`,
   faq:[['Are Deyga and Vilvah products genuine at Swansura?','Yes. Swansura is an official UK partner of both Deyga and Vilvah, and every order ships from the UK.'],
@@ -1659,30 +1658,20 @@ function productPage(id){
   </div>`;
 }
 /* ---------- Offers (proposed values: Swansura to confirm before launch) ---------- */
-const OFFERS = {
-  welcome: {perk:'surprise gifts', how:'become a member'},
-  gift: {min:40, item:'a free Deyga or Vilvah travel mini'},
-  refer: {give:5, get:5},
-  schemes: [['Students','Verified through Student Beans','10%'],['NHS & key workers','Verified through Blue Light Card','10%'],['16–26 year olds','Verified through Student Beans','10%'],['Over 60s','Verified at checkout','10%']]
-};
+/* Live offers only. Members' gifts, free gift, discount schemes and refer-a-friend are on hold until Swansura confirms them
+   (see the 'Offers & Rewards on Hold' doc, 25 Oct 2026). */
+const OFFERS = {delivery: 50};
 function offersPage(){
-  const o = OFFERS;
   const tile = (eyebrow, h, p, cta) => `<article class="offer"><div class="eyebrow">${eyebrow}</div><h3>${h}</h3><p>${p}</p>${cta||''}</article>`;
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Offers and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: surprise gifts for members, routines that cost less together, a free gift over £${o.gift.min} and discounts for students, NHS and key workers.</p></div>
-  <p class="proto-note">Proposed offers for Swansura to confirm before launch. Values are set in one place in the theme settings.</p>
+  <div class="pagehead"><div><div class="eyebrow">Offers and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Two ways to save at Swansura today: ${Math.round(RITUAL_SAVE*100)}% off routines and bundles that work together, and free UK delivery on orders over £${OFFERS.delivery}.</p></div>
+  <p class="proto-note">Only offers the store can honour today are shown. Values are set in one place in the theme settings.</p>
   <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
   <div class="offers">
-    ${tile('Members', 'Members get surprise gifts', 'Become a member with your email for surprise gifts, early access to new arrivals and member-only news.', `<a class="btn solid" href="#newsletter" data-jump="newsletter">Become a member</a>`)}
-    ${tile('Free gift', `Spend £${o.gift.min}, get ${o.gift.item}`, `Added to your bag automatically at checkout while stocks last.`, `<a class="btn" href="#c-skincare">Shop skincare</a>`)}
-    ${tile('Free delivery', 'Free UK delivery over £50', 'Every order ships from the UK. The bag shows how close you are.', `<a class="btn" href="#c-all">Shop all</a>`)}
-    ${tile('Routines', 'Save 15% on a full routine', 'Two or three products chosen to work together, in order.', `<a class="btn" href="#rituals">Shop routines</a>`)}
+    ${tile('Free delivery', `Free UK delivery over £${OFFERS.delivery}`, 'Every order ships from the UK. The bag shows how close you are.', `<a class="btn" href="#c-all">Shop all</a>`)}
+    ${tile('Routines', `Save ${Math.round(RITUAL_SAVE*100)}% on a full routine`, 'Two or three products chosen to work together, in order.', `<a class="btn" href="#rituals">Shop routines</a>`)}
     ${tile('Packs', `Save ${SAVE_PCT}% with Duo and Routine packs`, 'Choose a pack on any product page: two of the same, or the product plus two that complete it.', `<a class="btn" href="#c-skincare">Browse skincare</a>`)}
-    ${tile('Gift sets', 'Ready-made kits and minis', 'Kits, discovery sets and fragrance miniatures that cost less than buying each item.', `<a class="btn" href="#c-gifts">Shop gifts &amp; sets</a>`)}
   </div></section>
-  <section style="padding-top:0"><div class="sec-head"><div><h2>Discount schemes</h2></div></div>
-  <div class="schemes">${o.schemes.map(([n,how,pct])=>`<div class="scheme"><b>${pct} off</b><span>${n}</span><small>${how}</small></div>`).join('')}</div></section>
-  <section style="padding-top:0"><div class="refer"><div><div class="eyebrow">Refer a friend</div><h2>Give £${o.refer.give}, get £${o.refer.get}</h2><p>Share your link. Your friend gets £${o.refer.give} off their first order over £30, and you get £${o.refer.get} when they buy.</p></div><button class="btn solid" data-acct>Get my link</button></div></section>
   </div>`;
 }
 /* Full ingredient list, shown inside "What's inside" under the hero ingredients: pack order, hero ingredients highlighted,
@@ -2067,7 +2056,7 @@ function showOffer(){ if (showOffer.done || store.get('swansura-offer','0')) ret
   d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Welcome to the Studio. Look out for your first surprise.</p>'; store.set('swansura-offer', 1); });
   document.body.appendChild(d); }
 setTimeout(showOffer, 20000);
-addEventListener('scroll', function onS(){ if (scrollY > document.body.scrollHeight * .45){ removeEventListener('scroll', onS); showOffer(); } }, {passive:true});
+/* First-visit sign-up pop-up switched off with the welcome offer (on hold); showOffer() kept for later. */
 (() => { const items = [...document.querySelectorAll('.announce .wrap>*')]; let i = 0; items[0].classList.add('on'); setInterval(() => { items[i].classList.remove('on'); i = (i+1) % items.length; items[i].classList.add('on'); }, 4500); })();
 
 /* hero: skin + scent pairs slide together */
@@ -2110,7 +2099,7 @@ function shareData(route){
   if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
     return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
-    return {url: pageUrl('offers'), title: 'Offers | Swansura', text: `Swansura offers: surprise gifts for members, a free mini when you spend £${o.gift.min} and free UK delivery over £50, plus ${Math.round(RITUAL_SAVE*100)}% off routines`, img}; }
+    return {url: pageUrl('offers'), title: 'Offers | Swansura', text: `Swansura offers: ${Math.round(RITUAL_SAVE*100)}% off routines and bundles, and free UK delivery over £${OFFERS.delivery}`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('rituals'), title: 'Routines that work together | Swansura', text: `Swansura routines: ${rs.length} step-by-step skincare, hair, body and scent routines that save ${Math.round(RITUAL_SAVE*100)}% when bought together`, img}; }
   if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
