@@ -286,6 +286,18 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .post{display:flex;flex-direction:column;gap:12px}
 .post .eyebrow{color:var(--ink-2)}
 .post h2.ph{font-size:21px;letter-spacing:-.01em}
+/* Journal article (24 Oct 2026) */
+.article .ahead{max-width:760px;margin:12px auto 0;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px}
+.article .ahead h1{font-size:clamp(30px,4.2vw,52px);line-height:1.08;letter-spacing:-.02em}
+.article .ahead .lede{color:var(--ink-2);max-width:56ch}
+.article .ameta{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 18px;font-size:13px;color:var(--ink-2)}
+.article .ameta .share.ph{margin:0}
+.article .ahero{max-width:760px;margin:28px auto 0;border-radius:var(--r);overflow:hidden}.article .ahero .pic{aspect-ratio:16/10}
+.abody{max-width:720px;margin:32px auto 48px;font-size:17px;line-height:1.75;color:var(--ink)}
+.abody p,.abody ul,.abody ol{margin:0 0 18px}.abody ul,.abody ol{padding-left:22px}.abody li{margin-bottom:8px}
+.abody h2{font-size:clamp(22px,2.4vw,28px);margin:36px 0 12px;letter-spacing:-.01em}.abody h3{font-size:19px;margin:24px 0 8px}
+.abody a{color:var(--emerald);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(27,77,62,.35)}.abody a:hover{text-decoration-color:currentColor}
+@media (max-width:600px){.abody{font-size:16px;line-height:1.7;margin:24px auto 36px}.article .ahead{text-align:left;align-items:flex-start}.article .ameta{justify-content:flex-start}.article .ahero{margin-top:20px}}
 @media (max-width:900px){.journal{grid-template-columns:1fr}}
 
 .news{background:var(--emerald);color:var(--on-dark);text-align:center}
@@ -1220,12 +1232,123 @@ function ritualsPage(){
   <section><div class="sec-head"><div><div class="eyebrow">Ready-made kits</div><h2>Brand kits &amp; gift sets</h2></div><a class="link" href="#c-gifts">All gifts &amp; sets</a></div>${grid(P.filter(p=>p.tags.includes('gift') && p.available).slice(0,8))}</section>
   <section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Gifts by price</div><h2>Find a gift</h2></div></div><div class="chips">${['gifts-under-25','gifts-25-to-50','gifts-over-50','gifts-for-her','gifts-for-him','diwali-gifts','ramadan-eid-gifts','stocking-fillers'].map(s=>KWBY[s]).map(k=>`<a class="chip" href="#k-${k.s}">${esc(k.k)}<small>${kwList(k).length} gifts</small></a>`).join('')}</div></section>${faqBlock('Routine questions', ritualFaq(all))}</div>`;
 }
+/* ---------- Journal articles (written 24 Oct 2026 from catalogue facts + Semrush UK keywords; no medical claims) ---------- */
+const P_ = id => `#p-${id}`;
+const JOURNAL = [
+{ s:'deyga-or-vilvah', tag:'Skin Studio', date:'2026-10-24', mins:5, hero:/rose glow/i,
+  t:'Deyga or Vilvah: which natural brand suits your skin?',
+  d:'Farm-grown botanicals or goat milk care? A simple guide to both official partner brands.',
+  mt:'Deyga or Vilvah? Natural Skincare UK Guide | Swansura',
+  md:'Deyga or Vilvah? How the two Indian natural skincare brands differ, what to try first, and how to build a simple routine. Both ship from the UK.',
+  kw:['natural skincare UK','Vilvah','Deyga','Vilvah Milk Drops','goat milk shampoo','Deyga lip balm'],
+  shop:['15415435067779','15415430873475','15415432446339','15415430283651','15415432151427','15979354620291','15415431135619','15981312016771'],
+  body:`<p>If you are looking for <strong>natural skincare in the UK</strong> with roots in Indian beauty traditions, two names come up again and again: <a href="#b-deyga">Deyga</a> and <a href="#b-vilvah">Vilvah</a>. Both are Indian brands, both work with plant-based and kitchen-cupboard ingredients, and Swansura is an official UK partner of both, so every product is genuine and ships from the UK. They are not the same, though. Here is how to tell which one suits your skin, and where to start.</p>
+<h2>The short answer</h2>
+<p>Choose <strong>Vilvah</strong> if you like creamy, comforting textures built around goat milk, oat milk and gentle botanicals. Choose <strong>Deyga</strong> if you prefer farm-grown herbs, clays, charcoal and fruit actives with a fresher feel. Many people end up using both: a Vilvah cleanser or serum in the morning and a Deyga treat, such as a lip balm or face pack, alongside it.</p>
+<h2>Vilvah: goat milk and botanical care</h2>
+<p>Vilvah is known for milk-based formulas for face, hair and body. The best place to start is <a href="${P_('15415435067779')}">Vilvah Milk Drops Hydrating Serum</a>, a lightweight milk serum with natural milk proteins that sinks in quickly and leaves skin feeling soft rather than greasy. It is the product people search for most: "Vilvah Milk Drops" is one of the brand's top searches in the UK.</p>
+<p>For hair, the <a href="${P_('15415430873475')}">Vilvah Goat Milk Shampoo</a> pairs goat milk with pea protein and jasmine. It is pH-balanced and free from artificial colours and fragrances, so it suits frequent washing, and it is a good fit for dry or frizzy hair. If you want the full ritual, the <a href="${P_('15976115470723')}">Goat Milk Hair Kit</a> puts the shampoo with its partners in one box.</p>
+<p>For the body, <a href="${P_('15415432446339')}">Vilvah Milk Body Lotion</a> uses oat milk, ceramides and olive squalane in a quick-absorbing, vegan formula that is gentle enough for the whole family. Prefer a no-scent wash? The <a href="${P_('15415430414723')}">Fragrance-Free Cream Face Wash</a> is the calmest place to begin. See the whole range on our <a href="#range-goat-milk">goat milk edit</a>.</p>
+<h2>Deyga: farm-grown botanicals</h2>
+<p>Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Its cult favourite is the <a href="${P_('15415430283651')}">Deyga Beetroot Lip Balm</a>: beetroot extract and natural butters give a soft, sheer tint, and the 10 g tin fits any pocket. "Deyga lip balm" is one of the brand's most searched products, and it makes an easy first try at under £11.</p>
+<p>For oilier or combination skin, the <a href="${P_('15415432151427')}">Deyga Charcoal Face Wash</a> uses activated charcoal for a deep, refreshing cleanse without a tight finish. For glow, the <a href="${P_('15979354620291')}">Deyga Rose Glow Serum</a> is a light rose and saffron oil serum that leaves skin looking radiant. On wash day, <a href="${P_('15415431135619')}">Deyga Rice Water Shampoo</a> is a gentle, sulfate-free everyday cleanser.</p>
+<h2>Which is better for your skin type?</h2>
+<h3>Dry or sensitive skin</h3>
+<p>Lean towards Vilvah. Milk textures, fragrance-free options and the oat milk body lotion are made for comfort. Add a Deyga <a href="#k-body-butter-for-dry-skin">body butter for dry skin</a>, such as the <a href="${P_('15981312016771')}">Chocolate Body Butter</a>, for extra richness on elbows and legs.</p>
+<h3>Oily or combination skin</h3>
+<p>Start with Deyga's charcoal face wash and a lightweight serum, then use a Vilvah milk product only where skin feels dry. Our <a href="#k-face-wash-for-oily-skin">face wash for oily skin</a> page compares the options side by side.</p>
+<h3>Dull-looking skin</h3>
+<p>Try one serum from each brand on alternate days: Vilvah Milk Drops for hydration and Deyga Rose Glow for radiance. Keep everything else simple.</p>
+<h2>A simple routine using both brands</h2>
+<ol><li><strong>Cleanse:</strong> Deyga Charcoal Face Wash (oilier skin) or Vilvah Fragrance-Free Cream Face Wash (drier skin).</li><li><strong>Treat:</strong> Vilvah Milk Drops in the morning, Deyga Rose Glow in the evening.</li><li><strong>Lips and body:</strong> Deyga Beetroot Lip Balm through the day and Vilvah Milk Body Lotion after showering.</li></ol>
+<p>Patch test anything new and introduce one product at a time. Ready-made pairings with 15% off are on our <a href="#rituals">routines page</a>.</p>
+<h2>Why buy Deyga and Vilvah from Swansura?</h2>
+<p>We are an official UK partner of both brands, so there are no grey imports and no long waits from abroad: orders are dispatched from the UK, usually within 1–2 working days, with free UK delivery over £50. Explore the full <a href="#k-natural-skincare">natural skincare</a> edit, or go straight to <a href="#b-deyga">all Deyga</a> and <a href="#b-vilvah">all Vilvah</a> products.</p>`,
+  faq:[['Are Deyga and Vilvah products genuine at Swansura?','Yes. Swansura is an official UK partner of both Deyga and Vilvah, and every order ships from the UK.'],
+       ['What should I try first from Vilvah?','Vilvah Milk Drops Hydrating Serum is the most searched Vilvah product in the UK and the easiest place to start. For hair, try the Goat Milk Shampoo.'],
+       ['What is Deyga best known for?','The Deyga Beetroot Lip Balm, a tinted balm made with beetroot extract and natural butters, plus the Charcoal Face Wash and Rose Glow Serum.'],
+       ['Can I use Deyga and Vilvah together?','Yes. Many customers cleanse with one brand and use a serum or body product from the other. Introduce one new product at a time and patch test first.']] },
+
+{ s:'layer-oud-with-body-butter', tag:'Skin + Scent', date:'2026-10-24', mins:5, hero:/amber oud ruby/i,
+  t:'How to layer oud with body butter so it lasts all day',
+  d:'Why fragrance lasts longer on moisturised skin, and three pairings to try.',
+  mt:'How to Layer Oud Perfume with Body Butter | Swansura UK',
+  md:'Make oud perfume last longer by layering it over body butter. Why it works, how to apply it and three skin + scent pairings to try, shipped from the UK.',
+  kw:['oud perfume UK','body butter','body butter for dry skin','chocolate body butter','Al Haramain Amber Oud','Gucci Intense Oud'],
+  shop:['16306908594563','15981312016771','16306788008323','15979358945667','16345744998787','16303477227907','15415432446339','16368958407043'],
+  body:`<p>Oud is one of the richest notes in perfumery: smoky, resinous and warm. Yet even a great <strong>oud perfume</strong> can fade sooner than you expect on dry skin. The fix is simple and costs very little: layer it over a <strong>body butter</strong>. Here is why it works, how to do it, and three pairings from our shelves to try.</p>
+<h2>Why fragrance lasts longer on moisturised skin</h2>
+<p>Perfume oils evaporate fastest from dry skin. A thin layer of butter or lotion gives the fragrance something to cling to, so it tends to unfold more slowly and stay closer to you for longer. Rich butters with cocoa, shea or almond oil work especially well under warm notes such as oud, amber and vanilla. If your skin runs dry, a <a href="#k-body-butter-for-dry-skin">body butter for dry skin</a> does two jobs at once.</p>
+<h2>How to layer, step by step</h2>
+<ol><li><strong>Shower first.</strong> Pat skin almost dry; slightly damp skin takes butter more evenly.</li><li><strong>Warm a little butter</strong> between your palms and press it into pulse points: wrists, inner elbows, the base of the neck and behind the knees.</li><li><strong>Wait a minute</strong> so the butter settles.</li><li><strong>Spray once or twice</strong> from about 15 cm onto the same spots. Don't rub your wrists together; let it dry.</li><li><strong>Top up the butter, not the perfume,</strong> later in the day if skin feels dry. The scent often comes back with it.</li></ol>
+<h2>Three skin + scent pairings to try</h2>
+<h3>1. Sweet and golden: Chocolate Body Butter + Amber Oud Gold</h3>
+<p>The <a href="${P_('15981312016771')}">Deyga Chocolate Body Butter</a> is made with cocoa and nourishing oils and has a light chocolate scent. Under <a href="${P_('16306788008323')}">Al Haramain Amber Oud Gold Edition</a>, with its melon, pineapple, vanilla and musk, it reads as a soft gourmand. For more intensity, try the <a href="${P_('16305569694083')}">Amber Oud Extreme Gold Edition</a> extrait. "Chocolate body butter" and "Al Haramain Amber Oud" are both popular UK searches, and this is the pairing that shows why.</p>
+<h3>2. Floral and warm: Rose & Geranium Body Butter + Amber Oud Ruby</h3>
+<p>The <a href="${P_('15979358945667')}">Deyga Rose & Geranium Body Butter</a> carries rose and geranium essential oils. Layer it under <a href="${P_('16306908594563')}">Al Haramain Amber Oud Ruby Edition</a>, which opens with saffron and bitter almond over jasmine, cedarwood, ambergris and musk, and the florals meet in the middle. If you love rose with oud, <a href="${P_('16345744998787')}">Montale Aoud Damascus</a> is another lovely match.</p>
+<h3>3. Clean and smoky: a light lotion + Gucci Intense Oud</h3>
+<p>Not every pairing needs a scented base. A light, quick-absorbing lotion such as <a href="${P_('15415432446339')}">Vilvah Milk Body Lotion</a> lets a dark scent like <a href="${P_('16303477227907')}">Gucci Intense Oud</a> (black pepper, incense, woods, leather and an oud accord) lead the way, while still giving it something to hold on to. Want a luxury option? Try <a href="${P_('16368958407043')}">Highborn London Natural Luminosity Body Butter</a>.</p>
+<h2>Which base suits your skin?</h2>
+<p>If your skin is very dry, a rich butter such as Deyga's cocoa or rose formulas gives the most staying power. If you prefer something lighter in warm weather, a lotion like <a href="${P_('15555979608451')}">Deyga Almond Milk Body Lotion</a> absorbs faster and still helps the fragrance last. On sensitive days, keep the base unscented and let the perfume do the talking.</p>
+<h2>A few tips for oud</h2>
+<ul><li><strong>Less is more.</strong> Oud projects well; one or two sprays over butter usually lasts.</li><li><strong>Spray clothes lightly,</strong> not silk, to keep a soft trail.</li><li><strong>Match the mood.</strong> Sweet butters suit amber ouds, floral butters suit rose ouds, and neutral lotions suit smoky ouds.</li></ul>
+<p>Browse every <a href="#k-oud-perfume">oud perfume</a> we stock, the full <a href="#scent-oud">oud scent family</a>, or our <a href="#k-body-butter">body butter</a> edit. Each pairing above also makes a thoughtful gift, and orders over £50 ship free across the UK.</p>`,
+  faq:[['Does body butter make perfume last longer?','Fragrance usually lasts longer on moisturised skin because the oils evaporate more slowly. Apply a thin layer of butter to pulse points, then spray over it.'],
+       ['Should the body butter be scented or unscented?','Either works. Choose a scent that shares notes with your perfume, such as chocolate under amber and vanilla or rose under a rose oud, or use a light, neutral lotion under smoky ouds.'],
+       ['Which oud perfume is best for layering?','Warm, sweet ouds such as Al Haramain Amber Oud Gold and Ruby Editions layer easily over body butter. Smoky ouds like Gucci Intense Oud suit a neutral lotion.'],
+       ['Do you ship oud perfume within the UK?','Yes. Every order ships from the UK, with free UK delivery on orders over £50.']] },
+
+{ s:'extrait-vs-eau-de-parfum', tag:'Scent Studio', date:'2026-10-24', mins:4, hero:/kaff/i,
+  t:'Extrait vs eau de parfum: what the label means',
+  d:'Concentration, longevity and how close a scent sits to the skin.',
+  mt:'Extrait vs Eau de Parfum vs EDT: What It Means | Swansura',
+  md:'Extrait de parfum, eau de parfum or eau de toilette? What the label means for strength, longevity and price, with examples you can shop in the UK.',
+  kw:['extrait de parfum','eau de parfum','eau de toilette','Tiziana Terenzi perfume','Tiziana Terenzi Kirke','Al Haramain Amber Oud Gold Edition'],
+  shop:['16274498945411','16274581029251','16273541792131','16305569694083','16306788008323','16373138751875','16373073215875','16373111062915'],
+  body:`<p><strong>Extrait de parfum</strong>, <strong>eau de parfum</strong>, <strong>eau de toilette</strong>: the words on the bottle tell you how concentrated the fragrance is. That affects how long it lasts, how far it travels and, often, the price. Here is what each label means and how to choose.</p>
+<h2>The labels, from strongest to lightest</h2>
+<h3>Extrait de parfum (also "parfum")</h3>
+<p>The most concentrated form, typically around 20–40% perfume oil. Extraits sit close to the skin, develop slowly and can last from morning to evening. Italian house <a href="#b-tiziana-terenzi">Tiziana Terenzi</a> is known for them: <a href="${P_('16274498945411')}">Kaff Extrait de Parfum</a> opens with bergamot, juniper and white iris before lavender, magnolia and leather settle into amber, musk and woods. <a href="${P_('16274581029251')}">Tiziana Terenzi Kirke</a>, one of the house's most searched perfumes in the UK, is a fruity extrait, and <a href="${P_('16273541792131')}">Gold Rose Oudh</a> brings rose and oud together.</p>
+<h3>Eau de parfum (EDP)</h3>
+<p>Usually around 15–20% perfume oil, and the most popular strength today. An EDP has good projection and wears for several hours. Good examples: <a href="${P_('16306788008323')}">Al Haramain Amber Oud Gold Edition</a> and <a href="${P_('16373138751875')}">Calvin Klein Eternity Eau de Parfum</a>.</p>
+<h3>Eau de toilette (EDT)</h3>
+<p>Lighter, typically around 5–15%, with a bright opening that suits daytime and warm weather. Try <a href="${P_('16373073215875')}">Calvin Klein Eternity for Men Eau de Toilette</a> or <a href="${P_('16373218148739')}">Davidoff Champion</a>.</p>
+<p>These ranges are typical, not fixed rules. Every house sets its own formula, which is why one brand's EDP can outlast another's extrait.</p>
+<h2>Same name, different strength</h2>
+<p>Many perfumes come in more than one concentration, and they don't always smell identical. Al Haramain's <a href="${P_('16306788008323')}">Amber Oud Gold Edition</a> eau de parfum and the <a href="${P_('16305569694083')}">Amber Oud Extreme Gold Edition</a> extrait share the same fruity amber notes, but the extrait feels richer and closer to the skin. Calvin Klein's Eternity comes as an EDT, an EDP and a <a href="${P_('16373111062915')}">parfum miniature</a>, which is an easy way to compare.</p>
+<h2>Which should you choose?</h2>
+<ul><li><strong>For all-day wear and evenings:</strong> an extrait, or an EDP layered over <a href="#journal-layer-oud-with-body-butter">body butter</a>.</li><li><strong>For the office and everyday:</strong> an EDP, with one or two sprays.</li><li><strong>For hot weather or the gym bag:</strong> an EDT, which you can reapply freely.</li><li><strong>For gifting:</strong> an EDP is the safe choice; a <a href="#k-travel-size-minis">travel-size mini</a> lets someone try a new strength first.</li></ul>
+<h2>Other words you might see on the label</h2>
+<ul><li><strong>Intense, Extreme or Elixir:</strong> a richer version of an existing scent. It is often closer to an extrait in feel, but there is no fixed rule, so check the notes.</li><li><strong>Cologne or eau de cologne:</strong> the lightest style, usually fresh and citrusy, made for a quick lift.</li><li><strong>ml:</strong> the bottle size. A 10 ml miniature is a low-cost way to test a scent on your own skin before buying 100 ml.</li></ul>
+<h2>How to make any concentration last longer</h2>
+<p>Whatever the label says, skin matters. Fragrance tends to last longer on moisturised skin, so apply a little body lotion or butter to pulse points first, then spray. Keep bottles out of sunlight and heat, and avoid rubbing your wrists together. Our guide to <a href="#journal-layer-oud-with-body-butter">layering oud with body butter</a> walks through it step by step, and the <a href="#k-body-lotion-for-dry-skin">body lotion for dry skin</a> edit has easy bases to try.</p>
+<h2>Is extrait worth the price?</h2>
+<p>Per spray, often yes: you use less, and it lasts longer. But "stronger" doesn't mean "better". Choose the scent first and the concentration second. Browse our <a href="#k-niche-perfume">niche perfume</a> edit for extraits, every <a href="#k-unisex-perfume">unisex perfume</a> we stock, or the full <a href="#c-fragrance">fragrance</a> shelf. Every bottle is 100% authentic and ships from the UK.</p>`,
+  faq:[['What is the difference between extrait de parfum and eau de parfum?','Extrait de parfum has a higher concentration of perfume oil (typically around 20–40%) than eau de parfum (around 15–20%), so it usually lasts longer and sits closer to the skin.'],
+       ['Is eau de parfum stronger than eau de toilette?','Usually, yes. Eau de parfum typically contains more perfume oil than eau de toilette, so it lasts longer, while an EDT feels lighter and brighter.'],
+       ['Do extrait and EDP versions smell the same?','Not always. Houses often adjust the formula, so an extrait can feel richer or warmer than the eau de parfum with the same name.'],
+       ['Which Tiziana Terenzi extraits do you stock?','Kaff, Kirke, Gold Rose Oudh, Orza, Andromeda and more, all 100% authentic and shipped from the UK.']] }
+];
+const jBySlug = s => JOURNAL.find(j => j.s === s);
 function journal(){
-  return [
-    {t:'Deyga or Vilvah: which natural brand suits your skin?', tag:'Skin Studio', d:'Farm-grown botanicals or goat milk care? A simple guide to both official partner brands.', p:findP(/rose glow/i)},
-    {t:'How to layer oud with body butter so it lasts all day', tag:'Skin + Scent', d:'Why fragrance lasts longer on moisturised skin, and three pairings to try.', p:findP(/amber oud ruby/i)},
-    {t:'Extrait vs eau de parfum: what the label means', tag:'Scent Studio', d:'Concentration, longevity and how close a scent sits to the skin.', p:findP(/kaff/i)}
-  ].map(j => ({...j, p:j.p || P[0]}));
+  return JOURNAL.map(j => ({...j, p:findP(j.hero) || P[0]}));
+}
+function articlePage(slug){
+  const j = journal().find(x => x.s === slug); if (!j) return notFound();
+  const shop = j.shop.map(id => byId[id]).filter(Boolean), more = journal().filter(x => x.s !== slug);
+  const date = new Date(j.date + 'T12:00:00').toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric'});
+  const ld = JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:j.t,description:j.md,datePublished:j.date,dateModified:j.date,
+    author:{'@type':'Organization',name:'Swansura Studio'},publisher:{'@type':'Organization',name:SITE_NAME},image:j.p.i0?[j.p.i0]:undefined,
+    mainEntityOfPage:pageUrl('journal-'+slug),keywords:j.kw.join(', ')}).replace(/</g,'\\u003c');
+  return `<div class="wrap article"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#journal">Journal</a><span>/</span><span style="color:var(--ink)">${esc(j.t)}</span></nav>
+  <header class="ahead"><div class="eyebrow">${j.tag}</div><h1>${esc(j.t)}</h1><p class="lede">${esc(j.d)}</p>
+    <div class="ameta"><span>Swansura Studio</span><span>${date}</span><span>${j.mins} min read</span><div class="share ph"><button class="sharebtn" data-share="journal-${slug}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></header>
+  <div class="ahero">${pic(j.p, 0, `${cleanTitle(j.p)} – ${j.t}`)}</div>
+  <article class="abody">${j.body}</article>
+  <section style="padding-top:8px"><div class="sec-head"><div><div class="eyebrow">Shop the story</div><h2>Products in this article</h2></div></div>${grid(shop)}</section>
+  ${more.length ? `<section style="padding-top:0"><div class="sec-head"><div><div class="eyebrow">Keep reading</div><h2>More from the Journal</h2></div><a class="link" href="#journal">All stories</a></div><div class="journal">${more.map(x => `<a class="post" href="#journal-${x.s}">${pic(x.p)}<span class="eyebrow">${x.tag}</span><h3>${x.t}</h3><p style="color:var(--ink-2)">${x.d}</p></a>`).join('')}</div></section>` : ''}
+  ${faqBlock(j.t.split(':')[0] + ': questions', j.faq)}
+  <script type="application/ld+json">${ld}<\/script></div>`;
 }
 
 /* ---------- Pages ---------- */
@@ -1319,7 +1442,7 @@ function home(){
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">The Journal</div><h2>Latest reads</h2></div><a class="link" href="#journal">All stories</a></div>
-    <div class="journal rail">${journal().map(j=>`<a class="post" href="#journal">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
+    <div class="journal rail">${journal().map(j=>`<a class="post" href="#journal-${j.s}">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h3>${j.t}</h3><p style="color:var(--ink-2);font-size:15px">${j.d}</p></a>`).join('')}</div>
   </div></section>
   <section id="popular" style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Popular searches</div><h2>What people shop for</h2></div></div>
@@ -1574,13 +1697,14 @@ function sitemapPage(){
     ${col('Ranges', Object.entries(RANGES).map(([k,r])=>L('#range-'+k, r[0]+' range')))}
     ${col('Shop by price', PRICE_BANDS.map(x=>L('#price-'+x[0], x[1])))}
     ${groups.map(g=>col(esc(g), kw.filter(k=>k.grp===g).map(k=>L('#k-'+k.s, k.k)))).join('')}
+    ${col('Journal', [L('#journal','All stories'), ...JOURNAL.map(j=>L('#journal-'+j.s, j.t))])}
     ${col('Help &amp; policies', Object.entries(info).map(([k,t])=>L('#page-'+k, t)))}
   </div>
   <section class="smbrands"><h2>Brands and their products</h2>${brands.map(b=>{ const ps = P.filter(p=>p.brand===b).sort((x,y)=>cleanTitle(x).localeCompare(cleanTitle(y))); return `<details><summary><a href="#b-${BR[b].slug}">${esc(b)}</a> <small>${ps.length} product${ps.length>1?'s':''}</small></summary><div class="smprod">${ps.map(p=>`<a href="#p-${p.id}">${esc(cleanTitle(p))}</a>`).join('')}</div></details>`; }).join('')}</section>
   </div>`;
 }
 function journalPage(){
-  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1><div class="share dark ph"><button class="sharebtn" data-share="journal" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<article class="post">${pic(j.p)}<span class="eyebrow">${j.tag}</span><h2 class="ph">${j.t}</h2><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Article coming soon</span></article>`).join('')}</div></section></div>`;
+  return `<div class="wrap"><nav class="crumbs"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Journal</span></nav><div class="pagehead"><div><div class="eyebrow">The Journal</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Stories from the Studio</h1><div class="share dark ph"><button class="sharebtn" data-share="journal" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Guides to ingredients, rituals and fragrance, each linking to the brands and products it mentions.</p></div><section><div class="journal">${journal().map(j=>`<a class="post" href="#journal-${j.s}">${pic(j.p)}<span class="eyebrow">${j.tag} · ${j.mins} min read</span><h2 class="ph">${j.t}</h2><p style="color:var(--ink-2)">${j.d}</p><span class="link" style="align-self:start">Read the article</span></a>`).join('')}</div></section></div>`;
 }
 function wishlistPage(){
   const list = wish.map(id=>byId[id]).filter(Boolean);
@@ -1763,6 +1887,7 @@ function pageUrl(h){
   if (!h || h === 'home') return SITE + '/';
   if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]) return `${SITE}/products/${byId[m[1]].h || m[1]}`;
   if ((m = h.match(/^(?:c|b|k|concern|scent|range|price)-(.+)$/))) return `${SITE}/collections/${h.startsWith('c-') ? m[1] : h.replace(/^(b|k)-/,'')}`;
+  if ((m = h.match(/^journal-(.+)$/))) return `${SITE}/blogs/journal/${m[1]}`;
   if ((m = h.match(/^page-(.+)$/))) return ['privacy','terms','refunds','shipping'].includes(m[1]) ? `${SITE}/policies/${({privacy:'privacy-policy',terms:'terms-of-service',refunds:'refund-policy',shipping:'shipping-policy'})[m[1]]}` : `${SITE}/pages/${m[1]}`;
   return `${SITE}/pages/${h}`;
 }
@@ -1776,6 +1901,8 @@ function setMeta(h){
     desc = 'Official UK partner of Deyga & Vilvah: natural skin, hair and body care, plus niche, Arabian and designer perfume. 100% authentic, free UK delivery over £50.';
     ld.push({'@type':'Organization','@id':SITE+'/#org',name:SITE_NAME,url:SITE+'/',logo:image,sameAs:['https://www.instagram.com/swansura_thebodystudio/']},
             {'@type':'WebSite','@id':SITE+'/#site',name:'Swansura',url:SITE+'/',publisher:{'@id':SITE+'/#org'},potentialAction:{'@type':'SearchAction',target:SITE+'/search?q={search_term_string}','query-input':'required name=search_term_string'}});
+  } else if ((m = h.match(/^journal-(.+)$/)) && jBySlug(m[1])){
+    const j = jBySlug(m[1]); title = j.mt; desc = j.md; type = 'article';
   } else if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]){
     const p = byId[m[1]]; type = 'product';
     const tail = ' 100% authentic, free UK delivery over £50.';
@@ -1828,6 +1955,7 @@ function route(){
   else if ((m = h.match(/^b-(.+)$/))) html = brandPage(m[1]);
   else if (h === 'brands') html = brandsAZ();
   else if (h === 'journal') html = journalPage();
+  else if (h.startsWith('journal-')) html = articlePage(h.slice(8));
   else if (h === 'sitemap') html = sitemapPage();
   else if (h === 'offers') html = offersPage();
   else if ((m = h.match(/^p-(\d+)$/))) html = productPage(m[1]);
@@ -1950,6 +2078,8 @@ function shareData(route){
     return {url: pageUrl('advent'), title: 'Advent calendars | Swansura', text: `Swansura advent calendars: ${cs.map(c => `${c.name} (£${c.price})`).join(' and ')}, twelve days of natural skincare and fine fragrance`, img}; }
   if (route === 'brands'){ const n = Object.keys(BR).length, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
     return {url: pageUrl('brands'), title: 'Brands A–Z | Swansura', text: `Brands A–Z at Swansura: ${n} skincare and fragrance houses and ${P.length} products, from Deyga and Vilvah to niche, Arabian and designer perfume`, img}; }
+  if ((m = route.match(/^journal-(.+)$/)) && jBySlug(m[1])){ const j = journal().find(x => x.s === m[1]);
+    return {url: pageUrl(route), title: j.mt, text: `${j.t} – ${j.d}`, img: j.p.i0}; }
   if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
     return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
