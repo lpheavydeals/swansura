@@ -77,6 +77,7 @@ section{padding-block:var(--sec)}
 .announce{background:var(--emerald);color:var(--on-dark);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
 .announce .wrap{display:flex;justify-content:center;gap:clamp(16px,4vw,56px);padding-block:10px;flex-wrap:wrap;text-align:center}
 .announce b{font-weight:600;color:#E6D3A8}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--emerald);color:#fff;padding:10px 16px;border-radius:6px;font-size:14px}.skip:focus{top:12px}
 .hrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-block:18px}
@@ -86,11 +87,11 @@ header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;backgrou
 .logo .w{font-family:var(--display);font-size:clamp(24px,2.8vw,32px);letter-spacing:.2em;font-weight:700}
 .logo .s{display:block;font-size:10px;letter-spacing:.42em;margin-top:6px;color:var(--ink-2)}
 .bagcount{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:10px;background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:0;margin-left:6px;padding:0 6px}
-nav.main{display:flex;justify-content:center;gap:clamp(18px,2.6vw,40px);padding-bottom:14px;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+nav.main{display:flex;justify-content:center;gap:clamp(18px,1.9vw,30px);padding-bottom:14px;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
 nav.main{position:relative}
 nav.main .item{position:static}
 .mega::before{content:"";position:absolute;left:0;right:0;top:-18px;height:18px}
-nav.main .item>a{display:block;padding:6px 0;border-bottom:1px solid transparent}
+nav.main .item>a{display:block;padding:6px 0;border-bottom:1px solid transparent;font-size:15px;letter-spacing:.1em;font-weight:500;white-space:nowrap}
 nav.main .item>a:hover,nav.main .item>a.on{border-bottom-color:var(--ink)}
 .mega{position:absolute;left:50%;top:100%;transform:translateX(-50%);width:min(900px,92vw);background:var(--card);border:1px solid var(--line);box-shadow:0 24px 60px rgba(31,26,23,.12);padding:28px;display:none;grid-template-columns:repeat(4,1fr);gap:24px;text-transform:none;letter-spacing:0;font-size:15px}
 nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
@@ -100,6 +101,8 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .mega .feat{background:var(--mount);padding:14px}
 .mega .feat .pic{margin-bottom:10px}
 .burger{display:none}
+@media (max-width:1320px){nav.main{gap:20px}nav.main .item>a{font-size:14px;letter-spacing:.07em}}
+@media (max-width:1080px){nav.main{gap:13px}nav.main .item>a{font-size:12.5px;letter-spacing:.04em}}
 @media (max-width:900px){nav.main{display:none}.burger{display:inline-flex}.hleft .txt,.hright .txt{display:none}}
 @media (max-width:600px){header.site .logo-img{height:54px}#openAccount{display:none}.hleft,.hright{gap:14px}.logo .w{letter-spacing:.2em}}
 @media (max-width:400px){header.site .logo-img{height:48px}.hleft,.hright{gap:10px}.hrow{column-gap:6px}.logo .w{font-size:20px;letter-spacing:.14em}.logo .s{font-size:8px;letter-spacing:.3em;margin-top:4px}}
@@ -355,7 +358,7 @@ footer details.fcol summary::after{content:'+';color:#E6D3A8;font-size:18px;line
 footer details.fcol[open]{padding-bottom:12px}footer details.fcol a{padding:6px 0}}
 @media (max-width:1000px){footer .cols{grid-template-columns:repeat(2,1fr)}}
 
-.crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);padding-top:24px;display:flex;flex-wrap:wrap;gap:8px}
+.crumbs{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);padding-top:24px;display:flex;flex-wrap:wrap;gap:8px}
 .crumbs a:hover{color:var(--ink)}
 .pagehead{padding-block:28px 40px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;border-bottom:1px solid var(--line)}
 .pagehead:not(.dark){background:var(--mount);border:0;padding:40px var(--gutter);margin-top:16px}
@@ -489,7 +492,8 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .hicon .wcount,.bagic .bagcount{position:absolute;top:-7px;right:-10px;margin:0;min-width:17px;height:17px;padding:0 4px;font-size:10px;font-weight:700;line-height:1;border-radius:9px;box-shadow:0 0 0 2px var(--paper)}
 .bagcount[hidden]{display:none}
 .announce a{color:inherit}.announce a:hover{text-decoration:underline}
-@media (max-width:900px){.announce{font-size:11px;letter-spacing:.12em}.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .5s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
+@media (max-width:900px){.announce{font-size:11px;letter-spacing:.12em}}
+@media (max-width:1100px){.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .5s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
 .heart{position:absolute;top:8px;right:8px;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,249,.92);color:var(--ink);transition:transform .2s,color .2s}
 .heart:hover{transform:scale(1.08)}
 .heart[aria-pressed="true"]{color:var(--sale)}.heart[aria-pressed="true"] svg{fill:currentColor}
@@ -832,8 +836,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 </style>
 
 <a class="skip" href="#app" data-skip>Skip to content</a>
-<aside class="proto" aria-label="About this prototype">Design prototype for Swansura · the full catalogue, prices and descriptions from swansura.com (Oct 2026) · checkout, accounts and reviews are illustrative</aside>
-<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#rituals">Save <b>5%</b> on routines &amp; bundles</a><span>Free UK delivery over <b>£50</b></span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
+<aside class="announce" aria-label="Offers"><div class="wrap"><a href="#rituals">Save <b>5%</b> on routines &amp; bundles</a><span>Free UK delivery over <b>£40</b> · <b>£5 off</b> over £70</span><span>Official UK partner of <b>Deyga</b> &amp; <b>Vilvah</b></span></div></aside>
 <header class="site">
   <div class="wrap">
     <div class="hrow">
@@ -860,7 +863,7 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
     <div class="eyebrow" style="color:#E6D3A8">The Studio Letter</div>
     <h2>Rituals, new arrivals and fragrance notes</h2>
     <p>Our letter lands once or twice a month. Unsubscribe any time.</p>
-    <form id="newsForm"><label for="newsEmail" style="position:absolute;left:-9999px">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Sign up</button></form>
+    <form id="newsForm"><label for="newsEmail" class="sr-only">Email address</label><input id="newsEmail" type="email" required placeholder="Your email address"><button type="submit">Sign up</button></form>
     <p id="newsMsg" hidden>Thank you for signing up.</p>
   </div>
 </section>
@@ -895,7 +898,7 @@ const STORIES = {
 let LOGOS = window.SW_LOGOS || {};
 const CATS = {
   'all': {name:'All products', world:'skin', intro:'The full Swansura catalogue: natural skincare, haircare, bath and body, and niche, Arabian and designer fragrance, 100% authentic and shipped from the UK.', faq:[]},
-  'skincare': {name:'Skincare', world:'skin', intro:'Natural Indian skincare from Deyga and Vilvah, and luxury English formulas from Highborn London. Cleansers, serums, moisturisers, sun care and lip care, all shipped from the UK.', faq:[['Are Deyga and Vilvah products genuine?','Yes. Swansura is an official UK partner of both brands, so every product comes direct from the brand and ships from the UK.'],['Which serum should I start with?','For hydration, try Deyga 2% Hyaluronic Acid Serum. For glow and dark spots, Vilvah Milk Drops serum. For ageing concerns, Highborn London YOUTHBOOST.'],['Do you deliver across the UK?','Yes. Delivery is free on orders over £50.']]},
+  'skincare': {name:'Skincare', world:'skin', intro:'Natural Indian skincare from Deyga and Vilvah, and luxury English formulas from Highborn London. Cleansers, serums, moisturisers, sun care and lip care, all shipped from the UK.', faq:[['Are Deyga and Vilvah products genuine?','Yes. Swansura is an official UK partner of both brands, so every product comes direct from the brand and ships from the UK.'],['Which serum should I start with?','For hydration, try Deyga 2% Hyaluronic Acid Serum. For glow and dark spots, Vilvah Milk Drops serum. For ageing concerns, Highborn London YOUTHBOOST.'],['Do you deliver across the UK?','Yes. Delivery is free on orders over £40.']]},
   'haircare': {name:'Haircare', world:'skin', intro:'Shampoos, conditioners and hair oils with natural ingredients like rice water, goat milk and herbal extracts, for hair fall, dandruff and dryness.', faq:[['What helps with hair fall?','Vilvah Hair Growth Oil, with pumpkin seed, kalonji and castor oils, is made for hair fall. Pair it with a gentle shampoo.'],['Are the shampoos sulphate-free?','Check each product page: ingredients and benefits are listed under Details.']]},
   'bath-body': {name:'Bath & Body', world:'skin', intro:'Body butters, bath bars, scrubs, deodorants, sleep oils and pillow sprays. Everyday rituals that pair with your fragrance.', faq:[['What pairs well with perfume?','An unscented or lightly scented body butter helps fragrance last longer on the skin.']]},
   'fragrance': {name:'Fragrance', world:'scent', intro:"Niche, Arabian and designer perfume: Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari, Acqua di Parma and more, 100% authentic and shipped from the UK.", faq:[['What is the difference between extrait and eau de parfum?','An extrait de parfum has a higher concentration of perfume oils than an eau de parfum, so it usually lasts longer and wears closer to the skin.'],['How do I choose a scent family?','Oud and amber are warm and evening-friendly. Floral and fresh feel lighter for daytime. Browse by family to compare.'],['Are your fragrances authentic?','Yes. Every fragrance at Swansura is 100% authentic.']]},
@@ -1034,14 +1037,14 @@ function bagTotal(){ return bag.reduce((a,l)=> a + (byId[l.id]?.price||0)*l.q, 0
 function toast(msg){ const t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); t.textContent = msg; document.body.appendChild(t); requestAnimationFrame(()=>{ if (document.querySelector('#layer .bag')) t.classList.add('top'); }); setTimeout(()=>t.remove(), 2400); }
 function closeLayer(){ document.getElementById('layer').innerHTML=''; document.body.style.overflow=''; }
 function openBag(justAdded){
-  const total = bagTotal(), left = Math.max(0, 50 - total);
+  const total = bagTotal(), ng = nextGoal(total);
   const extras = P.filter(p => p.price < 12 && p.available && !bag.find(l=>l.id===p.id)).sort((a,b)=>a.price-b.price).slice(0,6);
   document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div>
   <div class="bag" role="dialog" aria-modal="true" aria-label="Your bag">
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
     <div class="lines">${bag.length ? bag.map(l => { const p = byId[l.id]; return `<div class="line${l.id===justAdded?' just':''}">${pic(p)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-ink)">${esc(p.brand)}</div><a href="#p-${p.id}" data-close>${esc(cleanTitle(p))}</a><div class="bq"><div class="qty sm"><button data-bq="${p.id}|-1" aria-label="Decrease quantity">−</button><span>${l.q}</span><button data-bq="${p.id}|1" aria-label="Increase quantity">+</button></div><button class="rm" data-rm="${p.id}">Remove</button></div></div><div>${fmt(p.price*l.q)}</div></div>`; }).join('') : '<div class="bag-empty"><p>Your bag is empty.</p><a class="btn solid" href="#c-all" data-close>Shop bestsellers</a><a class="link" href="#rituals" data-close>Or start with a routine</a></div>'}</div>
     <div class="foot">
-      <div class="delivery" style="border:0;padding:0;background:none"><span>${left>0 ? `You're <b>${fmt(left)}</b> away from free UK delivery` : '<b>You have free UK delivery</b>'}</span><div class="bar"><i style="width:${Math.min(100,total/50*100)}%"></i></div></div>
+      <div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>${fmt(ng.left)}</b> away from ${ng.what}${total>=OFFERS.delivery?' (free UK delivery unlocked)':''}` : `<b>Free UK delivery + £${OFFERS.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100,total/(ng?ng.goal:1)*100)}%"></i></div></div>
       
       ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(p=>`<div class="extra">${pic(p)}<span>${esc(cleanTitle(p))}</span><b>${fmt(p.price)}</b><button data-add="${p.id}">Add</button></div>`).join('')}</div></div>` : ''}
       <div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${fmt(total)}</b></div>
@@ -1054,7 +1057,7 @@ function openBag(justAdded){
   document.body.style.overflow='hidden'; lazy(document.getElementById('layer'));
 }
 function openSearch(){
-  document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div><div class="search" role="dialog" aria-label="Search"><div class="wrap" style="padding:0;display:flex;flex-direction:column;gap:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Search ${P.length} products</span><button data-close>Close</button></div><label for="q" style="position:absolute;left:-9999px">Search products and brands</label><input id="q" placeholder="Search Deyga, oud, serum, Gucci…" autocomplete="off"><div id="qres"></div></div></div>`;
+  document.getElementById('layer').innerHTML = `<div class="scrim" data-close></div><div class="search" role="dialog" aria-label="Search"><div class="wrap" style="padding:0;display:flex;flex-direction:column;gap:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Search ${P.length} products</span><button data-close>Close</button></div><label for="q" class="sr-only">Search products and brands</label><input id="q" placeholder="Search Deyga, oud, serum, Gucci…" autocomplete="off"><div id="qres"></div></div></div>`;
   const q = document.getElementById('q'); q.focus();
   const run = () => { const v = q.value.trim().toLowerCase(); const res = v.length < 2 ? [] : P.filter(p => (p.title + ' ' + p.brand + ' ' + p.tags.join(' ')).toLowerCase().includes(v));
     document.getElementById('qres').innerHTML = v.length < 2 ? `<div class="chips">${['Deyga','Vilvah','Oud','Lip balm','Serum','Al Haramain','Gucci','Gift set'].map(s=>`<button class="chip" data-suggest="${s}">${s}</button>`).join('')}</div>` : res.length ? `<p style="color:var(--ink-2);margin-bottom:14px">${res.length} results${res.length>12?', showing 12':''}</p><div class="grid-p">${res.slice(0,12).map(card).join('')}</div>` : '<p style="color:var(--ink-2)">No matches. Try a brand or an ingredient.</p>'; lazy(document.getElementById('qres')); };
@@ -1070,7 +1073,7 @@ const icon = {
   ret:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg>',
   lock:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>'
 };
-function trustStrip(){ return `<div class="trust"><div class="wrap"><div>${icon.leaf}Official UK partner of Deyga &amp; Vilvah</div><div>${icon.shield}100% authentic products</div><div>${icon.truck.replace(/16/g,'20')}Free UK delivery over £50</div><div>${icon.ret}Easy 30-day returns</div><div>${icon.lock}Secure checkout</div></div></div>`; }
+function trustStrip(){ return `<div class="trust"><div class="wrap"><div>${icon.leaf}Official UK partner of Deyga &amp; Vilvah</div><div>${icon.shield}100% authentic products</div><div>${icon.truck.replace(/16/g,'20')}Free UK delivery over £40</div><div>${icon.ret}Easy 30-day returns</div><div>${icon.lock}Secure checkout</div></div></div>`; }
 function card(p){
   const partner = BR[p.brand]?.partner;
   const badge = !p.available ? '<span class="badge out">Sold out</span>' : p.compare ? `<span class="badge" style="color:var(--sale)">Save ${Math.round((1-p.price/p.compare)*100)}%</span>` : isPick(p) ? '<span class="badge pick">Studio pick</span>' : partner ? '<span class="badge partner">Official partner</span>' : p.tags.includes('gift') ? '<span class="badge">Gift set</span>' : '';
@@ -1240,12 +1243,12 @@ function adventPage(focus){
 function infoPage(key){
   const pages = {
     about:['About Swansura','Swansura – The Body Studio is a UK online store for natural skincare and fine fragrance. We are an official UK partner of Deyga and Vilvah, and we stock niche, Arabian and designer perfume houses including Tiziana Terenzi, Al Haramain, Hemel and Gucci. Every product is 100% authentic and shipped from the UK.'],
-    delivery:['Delivery & returns','Free UK delivery on orders over £50. Orders are dispatched from the UK. Unopened items can be returned within 30 days for a refund. [Confirm dispatch times, delivery charges under £50 and the returns window with Swansura before launch.]'],
+    delivery:['Delivery & returns','Free UK delivery on orders over £40, and £5 off orders over £70. Orders are dispatched from the UK. Unopened items can be returned within 30 days for a refund. [Confirm dispatch times, delivery charges under £40 and the returns window with Swansura before launch.]'],
     faq:['FAQ','Are your products authentic? Yes. Every product is 100% authentic, and Swansura is an official UK partner of Deyga and Vilvah. Do you deliver outside the UK? [Confirm with Swansura.] How long does delivery take? [Confirm with Swansura.] Can I return a product? Unopened items within 30 days.'],
     privacy:['Privacy policy','How Swansura collects, uses and protects your personal data, in line with UK GDPR. [In the live store this page is Shopify\'s privacy policy (Settings › Policies), reviewed by Swansura.]'],
     terms:['Terms of service','The terms that apply when you shop at swansura.com. [In the live store this page is Shopify\'s terms of service (Settings › Policies), reviewed by Swansura.]'],
     refunds:['Refund policy','Unopened items can be returned within 30 days for a refund to the original payment method. [Confirm the returns window and who pays return postage with Swansura; published from Settings › Policies.]'],
-    shipping:['Shipping policy','Orders ship from the UK, usually within 1–2 working days. Free UK delivery on orders over £50. [Confirm carriers, delivery charges under £50 and international shipping with Swansura.]'],
+    shipping:['Shipping policy','Orders ship from the UK, usually within 1–2 working days. Free UK delivery on orders over £40, and £5 off orders over £70. [Confirm carriers, delivery charges under £40 and international shipping with Swansura.]'],
     contact:['Contact us','Questions about an order, a product or a fragrance recommendation? Message us on Instagram @swansura_thebodystudio or use the contact form. [Add Swansura\'s email, phone and business address.]']
   };
   const pg = pages[key]; if (!pg) return notFound();
@@ -1290,7 +1293,7 @@ const JOURNAL = [
 <ol><li><strong>Cleanse:</strong> Deyga Charcoal Face Wash (oilier skin) or Vilvah Fragrance-Free Cream Face Wash (drier skin).</li><li><strong>Treat:</strong> Vilvah Milk Drops in the morning, Deyga Rose Glow in the evening.</li><li><strong>Lips and body:</strong> Deyga Beetroot Lip Balm through the day and Vilvah Milk Body Lotion after showering.</li></ol>
 <p>Patch test anything new and introduce one product at a time. Ready-made pairings with 5% off are on our <a href="#rituals">routines page</a>.</p>
 <h2>Why buy Deyga and Vilvah from Swansura?</h2>
-<p>We are an official UK partner of both brands, so there are no grey imports and no long waits from abroad: orders are dispatched from the UK, usually within 1–2 working days, with free UK delivery over £50. Explore the full <a href="#k-natural-skincare">natural skincare</a> edit, or go straight to <a href="#b-deyga">all Deyga</a> and <a href="#b-vilvah">all Vilvah</a> products.</p>`,
+<p>We are an official UK partner of both brands, so there are no grey imports and no long waits from abroad: orders are dispatched from the UK, usually within 1–2 working days, with free UK delivery over £40. Explore the full <a href="#k-natural-skincare">natural skincare</a> edit, or go straight to <a href="#b-deyga">all Deyga</a> and <a href="#b-vilvah">all Vilvah</a> products.</p>`,
   faq:[['Are Deyga and Vilvah products genuine at Swansura?','Yes. Swansura is an official UK partner of both Deyga and Vilvah, and every order ships from the UK.'],
        ['What should I try first from Vilvah?','Vilvah Milk Drops Hydrating Serum is the most searched Vilvah product in the UK and the easiest place to start. For hair, try the Goat Milk Shampoo.'],
        ['What is Deyga best known for?','The Deyga Beetroot Lip Balm, a tinted balm made with beetroot extract and natural butters, plus the Charcoal Face Wash and Rose Glow Serum.'],
@@ -1319,11 +1322,11 @@ const JOURNAL = [
 <p>If your skin is very dry, a rich butter such as Deyga's cocoa or rose formulas gives the most staying power. If you prefer something lighter in warm weather, a lotion like <a href="${P_('15555979608451')}">Deyga Almond Milk Body Lotion</a> absorbs faster and still helps the fragrance last. On sensitive days, keep the base unscented and let the perfume do the talking.</p>
 <h2>A few tips for oud</h2>
 <ul><li><strong>Less is more.</strong> Oud projects well; one or two sprays over butter usually lasts.</li><li><strong>Spray clothes lightly,</strong> not silk, to keep a soft trail.</li><li><strong>Match the mood.</strong> Sweet butters suit amber ouds, floral butters suit rose ouds, and neutral lotions suit smoky ouds.</li></ul>
-<p>Browse every <a href="#k-oud-perfume">oud perfume</a> we stock, the full <a href="#scent-oud">oud scent family</a>, or our <a href="#k-body-butter">body butter</a> edit. Each pairing above also makes a thoughtful gift, and orders over £50 ship free across the UK.</p>`,
+<p>Browse every <a href="#k-oud-perfume">oud perfume</a> we stock, the full <a href="#scent-oud">oud scent family</a>, or our <a href="#k-body-butter">body butter</a> edit. Each pairing above also makes a thoughtful gift, and orders over £40 ship free across the UK.</p>`,
   faq:[['Does body butter make perfume last longer?','Fragrance usually lasts longer on moisturised skin because the oils evaporate more slowly. Apply a thin layer of butter to pulse points, then spray over it.'],
        ['Should the body butter be scented or unscented?','Either works. Choose a scent that shares notes with your perfume, such as chocolate under amber and vanilla or rose under a rose oud, or use a light, neutral lotion under smoky ouds.'],
        ['Which oud perfume is best for layering?','Warm, sweet ouds such as Al Haramain Amber Oud Gold and Ruby Editions layer easily over body butter. Smoky ouds like Gucci Intense Oud suit a neutral lotion.'],
-       ['Do you ship oud perfume within the UK?','Yes. Every order ships from the UK, with free UK delivery on orders over £50.']] },
+       ['Do you ship oud perfume within the UK?','Yes. Every order ships from the UK, with free UK delivery on orders over £40.']] },
 
 { s:'extrait-vs-eau-de-parfum', tag:'Scent Studio', date:'2026-10-24', mins:4, hero:/kaff/i,
   t:'Extrait vs eau de parfum: what the label means',
@@ -1397,7 +1400,7 @@ function home(){
       <h1 class="rise" style="animation-delay:.08s">Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>.</h1>
       <p class="lede rise" style="animation-delay:.16s">India's best-loved natural skincare and niche Arabian and designer perfume, in one UK studio. Chosen with care, 100% authentic, delivered from the UK.</p>
       <div class="ctas rise" style="animation-delay:.24s"><a class="btn gold" href="#c-skincare">Shop skincare <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4"/></svg></a><a class="btn light" href="#c-fragrance">Discover fragrance</a></div>
-      <div class="facts rise" style="animation-delay:.32s"><div><b>${P.length}</b><span>Products</span></div><div><b>${new Set(P.map(p=>p.brand)).size}</b><span>Brands</span></div><div><b>100%</b><span>Authentic</span></div><div><b>£50</b><span>Free UK delivery</span></div></div>
+      <div class="facts rise" style="animation-delay:.32s"><div><b>${P.length}</b><span>Products</span></div><div><b>${new Set(P.map(p=>p.brand)).size}</b><span>Brands</span></div><div><b>100%</b><span>Authentic</span></div><div><b>£40</b><span>Free UK delivery</span></div></div>
     </div>
     <div class="stage rise" style="animation-delay:.2s">
       <span class="ring" aria-hidden="true"></span>
@@ -1465,7 +1468,7 @@ function home(){
   ${(() => { const rv = seen.filter(id=>byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="wrap"><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div>${grid(rv)}</div></section>` : ''; })()}
   <section class="xmas"><div class="wrap xmas-in">
     <div class="xmas-copy"><h2>Christmas gifting, sorted</h2>
-      <p>Perfume gift sets, miniatures and natural skincare kits for everyone on your list. Every gift is 100% authentic and dispatched from the UK, with free UK delivery over £50.</p>
+      <p>Perfume gift sets, miniatures and natural skincare kits for everyone on your list. Every gift is 100% authentic and dispatched from the UK, with free UK delivery over £40.</p>
       <div class="xmas-links"><a href="#k-gifts-for-her">Gifts for her</a><a href="#k-gifts-for-him">Gifts for him</a><a href="#k-gifts-under-25">Under £25</a><a href="#k-perfume-gift-sets">Perfume gift sets</a><a href="#k-stocking-fillers">Stocking fillers</a><a href="#advent">Advent calendars</a></div>
       <a class="btn gold" href="#k-christmas-gifts">Shop Christmas gifts</a></div>
     <div class="xmas-pics">${xmas.map((p,i)=>`<a class="xp xp${i}" href="#p-${p.id}" aria-label="${esc(cleanTitle(p))}">${pic(p)}<span>${esc(p.brand)}</span></a>`).join('')}</div>
@@ -1485,7 +1488,7 @@ function listing(kind, key){
   if (kind === 'c'){ const c = CATS[key]; if(!c) return notFound(); title = c.name; intro = c.intro; eyebrow = key==='all'?'The full catalogue':c.world==='skin'?'The Skin Studio':'The Scent Studio'; list = P.filter(p=>inCat(p,key)); faq = c.faq; dark = c.world==='scent'?'oud':''; crumbs.push([title]); }
   if (kind === 'concern'){ const c = CONCERNS[key]; if(!c) return notFound(); title = c[0]; intro = `Products chosen for ${c[1].toLowerCase()}, from Deyga, Vilvah, Highborn London and more.`; eyebrow = 'Shop by concern'; list = P.filter(p=>p.cat!=='fragrance' && p.tags.includes(key)); crumbs.push(['Skincare','#c-skincare'],[title]); }
   if (kind === 'price'){ const b = PRICE_BANDS.find(x=>x[0]===key); if(!b) return notFound(); title = b[1]; intro = `${b[2]}. Natural skincare, body care and fragrance ${b[1].startsWith('Under')?b[1].toLowerCase():'at '+b[1]}, 100% authentic and shipped from the UK.`; eyebrow = 'Shop by price'; list = P.filter(p=>inBand(p,key)); crumbs.push(['Shop by price','#home'],[title]); }
-  if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £50.'; eyebrow = k.grp; list = kwList(k); faq = k.faq || []; crumbs.push([title]); }
+  if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £40.'; eyebrow = k.grp; list = kwList(k); faq = k.faq || []; crumbs.push([title]); }
   if (kind === 'range'){ const r = RANGES[key]; if(!r) return notFound(); title = r[0] + ' range'; intro = `${r[1]}. Every product at Swansura made with ${r[0].toLowerCase()}, across skincare, body, hair and fragrance.`; eyebrow = 'Ranges loved by you'; list = rangeList(key); crumbs.push(['Ranges','#home'],[title]); }
   if (kind === 'scent'){ const f = FAMILIES[key]; if(!f) return notFound(); title = f[0] + ' fragrances'; intro = `${f[1]}. Explore ${f[0].toLowerCase()} perfumes from niche, Arabian and designer houses.`; eyebrow = 'Scent family'; list = P.filter(p=>p.cat==='fragrance' && family(p)===key); dark='oud'; crumbs.push(['Fragrance','#c-fragrance'],[title]); }
   const rank = p => (p.available?0:8) + (isPick(p)?0:4) + (BR[p.brand]?.partner?0:2) + (p.compare?0:1);
@@ -1587,7 +1590,7 @@ function productPage(id){
   else pair = sameBrand.filter(x=>x.cat===p.cat).slice(0,2);
   if (pair.length < 2) pair = [...pair, ...sameBrand].filter((x,i,a)=>a.indexOf(x)===i).slice(0,2);
   const setItems = [p, ...pair].slice(0,3), setTotal = setItems.reduce((a,x)=>a+x.price,0);
-  const left = Math.max(0, 50 - p.price);
+  const ng = nextGoal(p.price);
   const howTo = bl.filter(x=>/apply|massage|spray|rinse|before use|after|daily|how to use/i.test(x));
   const benefit = p.cat==='fragrance' ? ((pr[0]||'').split('. ')[0] + '.').replace(/^\.$/,'') : (bl[0]||pr[0]||'').replace(/^[^:]{0,40}:\s*/,'');
   const chips = chipsOf(p), ings = ingsOf(p), types = skinTypes(p);
@@ -1603,14 +1606,14 @@ function productPage(id){
     ['Is it for men or women?', forWho(p)==='Unisex' ? 'It is a unisex fragrance, worn by everyone.' : forWho(p)==='For him' ? 'It is presented as a men\u2019s fragrance, but scent has no rules.' : 'It is presented as a women\u2019s fragrance, but scent has no rules.'],
     ['How do I make it last longer?', 'Apply to moisturised skin on pulse points (wrists, neck, behind the ears) and don\u2019t rub. Layering over an unscented body butter helps it last.'],
     ['Is this the genuine '+p.brand+' fragrance?', 'Yes. Every fragrance at Swansura is 100% authentic, sourced through authorised channels and shipped from the UK.'],
-    ['How fast is delivery, and can I return it?', 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £50, and unopened items can be returned within 30 days.']
+    ['How fast is delivery, and can I return it?', 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £40, and unopened items can be returned within 30 days.']
   ] : [
     ['What is '+cleanTitle(p)+'?', (summary(benefit, 260) || paras(p)[0] || 'A '+subtype(p).toLowerCase()+' from '+p.brand+'.').replace(/\.?$/,'.')],
     ['What are the key ingredients?', ings.length ? ings.map(i=>`${i[1]}: ${i[2].toLowerCase()}`).join('. ')+'. The full ingredient list is printed on the pack.' : 'The full ingredient list is printed on the pack and in the product details above.'],
     ['How do I use it?', howTo.length ? howTo.join(' ') : 'Use as directed on the pack. Patch test 24 hours before first use.'],
     ['Which skin or hair types is it for?', types.length ? (types.includes('All') ? 'It is made for all types' : 'It suits '+types.join(', ').toLowerCase()+' types')+'. If your skin is sensitive, patch test before first use.' : 'Most types. If your skin is sensitive, patch test 24 hours before first use.'],
     ['Is this the genuine '+p.brand+' product?', B.partner ? `Yes. Swansura is an official UK partner of ${p.brand}, and stock comes direct from the brand.` : 'Yes. Every product at Swansura is 100% authentic and sourced through authorised channels.'],
-    ['How fast is delivery, and can I return it?', 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £50, and unopened items can be returned within 30 days.']
+    ['How fast is delivery, and can I return it?', 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £40, and unopened items can be returned within 30 days.']
   ];
   const faqLd = JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}).replace(/</g,'\\u003c');
   const similar = (p.cat==='fragrance' ? sameCat.filter(x=>family(x)===family(p)).concat(sameCat) : sameCat).filter((x,i,a)=>a.indexOf(x)===i).slice(0,4);
@@ -1630,14 +1633,14 @@ function productPage(id){
       ${p.available?`<button class="btn buynow" data-buynow="${p.id}">Buy it now</button>`:''}
       <div class="dispatch ${p.available?'':'out'}"><i></i>${p.available?'<b>In stock</b> · Usually dispatched within 1–2 working days from the UK':'<b>Out of stock</b> · Get an email when it is back'}</div>
       ${pair.length && p.available ? (() => { const f = pair[0], tot = p.price + f.price; return `<div class="fbt"><div class="eyebrow">Frequently bought together</div><div class="fbt-row"><a href="#p-${p.id}" aria-label="${esc(cleanTitle(p))}">${pic(p)}</a><span class="plus">+</span><a href="#p-${f.id}" aria-label="${esc(cleanTitle(f))}">${pic(f)}</a><div class="fbt-txt"><a href="#p-${f.id}">${esc(cleanTitle(f))}</a><span>${fmt(f.price)}</span></div></div><button class="btn solid" data-addall="${p.id},${f.id}">Add both · ${fmt(tot)}</button></div>`; })() : ''}
-      <div class="delivery"><span>${icon.truck} Dispatched from the UK. ${left>0?`Add <b>${fmt(left)}</b> more for free UK delivery.`:'<b>This order qualifies for free UK delivery.</b>'}</span><div class="bar"><i style="width:${Math.min(100,p.price/50*100)}%"></i></div></div>
+      <div class="delivery"><span>${icon.truck} Dispatched from the UK. ${!ng ? `<b>Free UK delivery + £${OFFERS.bonus.off} off</b> on this item.` : p.price>=OFFERS.delivery ? `<b>Free UK delivery.</b> Add <b>${fmt(ng.left)}</b> more for £${OFFERS.bonus.off} off.` : `Add <b>${fmt(ng.left)}</b> more for free UK delivery.`}</span><div class="bar"><i style="width:${Math.min(100,p.price/(ng?ng.goal:1)*100)}%"></i></div></div>
       <div class="trustmini"><div><span class="ic g">${icon.shield}</span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b">${icon.ret}</span>Easy 30-day returns<small>Unopened items</small></div><div><span class="ic o">${icon.lock}</span>Secure checkout<small>Encrypted payment</small></div></div>
       <div class="acc">
         <details open id="details"><summary>Details</summary><div class="in">${pr.slice(0,3).map(x=>`<p>${esc(x)}</p>`).join('')}${bl.length?`<ul>${bl.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</div></details>
         ${n?`<details><summary>Notes</summary><div class="in"><p><b>Top:</b> ${esc(n.top)}</p><p><b>Heart:</b> ${esc(n.heart)}</p><p><b>Base:</b> ${esc(n.base)}</p></div></details>`:''}
         <details><summary>${p.cat==='fragrance'?'How to wear':'How to use'}</summary><div class="in">${howTo.length?`<ul>${howTo.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:p.cat==='fragrance'?'<p>Spray onto pulse points: wrists, neck and behind the ears. For longer wear, apply after a body butter.</p>':'<p>Use as directed on the pack. Patch test before first use.</p>'}</div></details>
         ${p.cat!=='fragrance' ? (() => { const m = p.desc.match(/\bingredients?\s*[:\-–]\s*([^\n]{40,})/i), inci = m && m[1].split(',').length >= 6 ? m[1].trim() : ''; return p.inci?.length ? `<details id="ingredients"><summary>Ingredients</summary><div class="in">${inciBlock(p, ings.map(i=>i[1]))}</div></details>` : `<details><summary>Ingredients</summary><div class="in">${inci ? `<p><b>Full ingredients list:</b> ${esc(inci)}</p>` : `${ings.length ? `<p><b>Key ingredients:</b> ${ings.map(i=>esc(i[1])).join(', ')}.</p>` : ''}<p class="muted">The full ingredients list (INCI) is printed on the pack. We are adding it here for every product.</p>`}</div></details>`; })() : ''}
-        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £50. Unopened items can be returned within 30 days.</p></div></details>
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £40, plus £5 off orders over £70. Unopened items can be returned within 30 days.</p></div></details>
       </div>
       ${(() => { const ks = kwFor(p); return ks.length ? `<p style="font-size:14px;color:var(--ink-2)">Part of our ${ks.slice(0,3).map(k=>`<a href="#k-${k.s}" style="text-decoration:underline">${esc(k.k.toLowerCase())}</a>`).join(', ')} edit${ks.length>1?'s':''}.</p>${kwChips(ks.slice(0,8),'Shop related')}` : ''; })()}
     </div>
@@ -1660,15 +1663,17 @@ function productPage(id){
 /* ---------- Offers (proposed values: Swansura to confirm before launch) ---------- */
 /* Live offers only. Members' gifts, free gift, discount schemes and refer-a-friend are on hold until Swansura confirms them
    (see the 'Offers & Rewards on Hold' doc, 25 Oct 2026). */
-const OFFERS = {delivery: 50};
+const OFFERS = {delivery: 40, bonus: {min: 70, off: 5}};
+const nextGoal = t => t < OFFERS.delivery ? {goal: OFFERS.delivery, left: OFFERS.delivery - t, what: 'free UK delivery'} : t < OFFERS.bonus.min ? {goal: OFFERS.bonus.min, left: OFFERS.bonus.min - t, what: `£${OFFERS.bonus.off} off your order`} : null;
 function offersPage(){
   const tile = (eyebrow, h, p, cta) => `<article class="offer"><div class="eyebrow">${eyebrow}</div><h3>${h}</h3><p>${p}</p>${cta||''}</article>`;
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Offers and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Two ways to save at Swansura today: ${Math.round(RITUAL_SAVE*100)}% off routines and bundles that work together, and free UK delivery on orders over £${OFFERS.delivery}.</p></div>
+  <div class="pagehead"><div><div class="eyebrow">Offers and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Ways to save at Swansura today: free UK delivery over £${OFFERS.delivery}, free delivery plus £${OFFERS.bonus.off} off over £${OFFERS.bonus.min}, and ${Math.round(RITUAL_SAVE*100)}% off routines and bundles that work together.</p></div>
   <p class="proto-note">Only offers the store can honour today are shown. Values are set in one place in the theme settings.</p>
   <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
   <div class="offers">
     ${tile('Free delivery', `Free UK delivery over £${OFFERS.delivery}`, 'Every order ships from the UK. The bag shows how close you are.', `<a class="btn" href="#c-all">Shop all</a>`)}
+    ${tile('Spend more, save more', `Spend £${OFFERS.bonus.min}: free delivery + £${OFFERS.bonus.off} off`, `Orders over £${OFFERS.bonus.min} get free UK delivery and £${OFFERS.bonus.off} off, applied at checkout.`, `<a class="btn" href="#c-fragrance">Shop fragrance</a>`)}
     ${tile('Routines', `Save ${Math.round(RITUAL_SAVE*100)}% on a full routine`, 'Two or three products chosen to work together, in order.', `<a class="btn" href="#rituals">Shop routines</a>`)}
     ${tile('Packs', `Save ${SAVE_PCT}% with Duo and Routine packs`, 'Choose a pack on any product page: two of the same, or the product plus two that complete it.', `<a class="btn" href="#c-skincare">Browse skincare</a>`)}
   </div></section>
@@ -1763,12 +1768,12 @@ function drawerNav(){
     ${grp('Gifts &amp; Sets','#c-gifts',[['Christmas 2026', L('#advent','Advent calendars')+kw(['stocking-fillers'])],['By recipient &amp; price', kw(['gifts-for-her','gifts-for-him','gifts-under-25','gifts-25-to-50'])]])}
     <a href="#advent" class="dn-advent">Advent calendars <small>Christmas 2026</small></a>
     ${L('#brands','Brands A–Z')}${L('#journal','Journal')}
-    <div class="dn-foot"><a href="#wishlist">Wishlist</a><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-contact">Contact us</a><p>Official UK partner of Deyga &amp; Vilvah · Free UK delivery over £50</p></div>
+    <div class="dn-foot"><a href="#wishlist">Wishlist</a><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-contact">Contact us</a><p>Official UK partner of Deyga &amp; Vilvah · Free UK delivery over £40</p></div>
   </nav>`;
 }
 function footerHTML(){
   return `<div class="wrap"><div class="cols">
-    <div><a href="#home" class="logo"><img src="brand/swansura-logo-white.svg" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £50</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
+    <div><a href="#home" class="logo"><img src="brand/swansura-logo-white.svg" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £40</li><li>£5 off orders over £70</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Shop</h3></summary>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#offers">Offers</a><a href="#brands">Brands A–Z</a></details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Concerns</h3></summary>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Ranges</h3></summary>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</details>
@@ -1792,7 +1797,7 @@ const countBy = (list, fn) => Object.entries(list.reduce((m,p)=>{ const k = fn(p
 const CAT_WORD = {skincare:'skincare', haircare:'haircare', 'bath-body':'bath and body', fragrance:'fragrance'};
 const minisOf = list => list.filter(p=>/mini|miniature|travel|gift set|\bset\b|discovery|pen spray/i.test(p.title));
 const FAQ_AUTH = (who='') => ['Are the products genuine?', `Yes. Every ${who?who+' ':''}product at Swansura is 100% authentic. Swansura is an official UK partner of Deyga and Vilvah.`];
-const FAQ_DELIVERY = ['How does delivery work?', 'Every order ships from Swansura in the UK. UK delivery is free on orders over £50, and the cost for smaller orders is shown at checkout. See Delivery & returns for times and the returns policy.'];
+const FAQ_DELIVERY = ['How does delivery work?', 'Every order ships from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout. See Delivery & returns for times and the returns policy.'];
 const ROUTINE_TIP = {
   acne:'Use a gentle clarifying cleanser morning and evening, a light toner or serum, then an oil-free moisturiser. Add a clay or charcoal mask once or twice a week, and finish with sunscreen in the morning.',
   glow:'Cleanse, apply a brightening serum such as vitamin C in the morning, then moisturise and finish with sunscreen. Exfoliate or use a mask once or twice a week.',
@@ -1822,7 +1827,7 @@ function listingFaq(kind, key, title, list){
     [`How much do ${rl} products cost?`, `From ${span}.`], FAQ_AUTH(), FAQ_DELIVERY]; }
   if (kind === 'price'){ const cats = countBy(list, p=>CAT_WORD[p.cat]||p.cat), lo = +key.split('-')[0]; return [
     [`What can I buy ${title.startsWith('Under')?lt:'for '+title}?`, `${n} products: ${cats.map(([c,k])=>`${k} ${c}`).join(', ')}, including ${topNames(list)}.`],
-    ['Is delivery free?', lo >= 50 ? 'Yes. Every product in this range is over £50, so UK delivery is free.' : 'UK delivery is free on orders over £50, so adding a second product or a routine can save the delivery cost.'],
+    ['Is delivery free?', lo >= OFFERS.delivery ? `Yes. Every product in this range is over £${OFFERS.delivery}, so UK delivery is free.` : 'UK delivery is free on orders over £40, so adding a second product or a routine can save the delivery cost.'],
     FAQ_AUTH(), ['Can I return a product?', 'Returns are covered by our returns policy. See Delivery & returns for what can be returned and how.']]; }
   if (kind === 'c' && key === 'all') return [
     ['What does Swansura sell?', `${P.length} products from ${Object.keys(BR).length} brands: natural Indian skincare, haircare and body care from Deyga and Vilvah, luxury English skincare, and niche, Arabian and designer fragrance.`],
@@ -1853,7 +1858,7 @@ function brandFaq(b){
   if (start.length > 1) faqs.push([`Which ${b} product should I start with?`, `Good places to start are ${andList(start.slice(0,3).map(cleanTitle))}.`]);
   if (B.world === 'scent') faqs.push([`Does ${b} come in miniatures or gift sets?`, mini.length ? `Yes, ${mini.length}: ${andList(mini.slice(0,3).map(cleanTitle))}${mini.length>3?' and more':''}.` : `Not at the moment. Every ${b} product we stock is listed above.`]);
   else if (STORIES[b]?.line) faqs.push([`What is ${b} known for?`, `${STORIES[b].line}.`]);
-  faqs.push([`How fast is ${b} delivery?`, `All ${b} orders ship from Swansura in the UK. UK delivery is free on orders over £50, and the cost for smaller orders is shown at checkout.`]);
+  faqs.push([`How fast is ${b} delivery?`, `All ${b} orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.`]);
   return faqs;
 }
 function ritualFaq(all){
@@ -1914,14 +1919,14 @@ function setMeta(h){
   const ld = [];
   if (h === 'home'){
     title = 'Swansura | Indian Natural Skincare & Niche Perfume UK';
-    desc = 'Official UK partner of Deyga & Vilvah: natural skin, hair and body care, plus niche, Arabian and designer perfume. 100% authentic, free UK delivery over £50.';
+    desc = 'Official UK partner of Deyga & Vilvah: natural skin, hair and body care, plus niche, Arabian and designer perfume. 100% authentic, free UK delivery over £40.';
     ld.push({'@type':'Organization','@id':SITE+'/#org',name:SITE_NAME,url:SITE+'/',logo:image,sameAs:['https://www.instagram.com/swansura_thebodystudio/']},
             {'@type':'WebSite','@id':SITE+'/#site',name:'Swansura',url:SITE+'/',publisher:{'@id':SITE+'/#org'},potentialAction:{'@type':'SearchAction',target:SITE+'/search?q={search_term_string}','query-input':'required name=search_term_string'}});
   } else if ((m = h.match(/^journal-(.+)$/)) && jBySlug(m[1])){
     const j = jBySlug(m[1]); title = j.mt; desc = j.md; type = 'article';
   } else if ((m = h.match(/^p-(\d+)$/)) && byId[m[1]]){
     const p = byId[m[1]]; type = 'product';
-    const tail = ' 100% authentic, free UK delivery over £50.';
+    const tail = ' 100% authentic, free UK delivery over £40.';
     title = p.st || fitTitle(cleanTitle(p).toLowerCase().startsWith(p.brand.toLowerCase()) ? cleanTitle(p) : `${p.brand} ${cleanTitle(p)}`, 'Swansura UK');
     desc = p.sd || (sentences(p.desc, 158 - tail.length) + tail);
     if (p.i0) image = p.i0;
@@ -1934,7 +1939,7 @@ function setMeta(h){
     else if (!kw || kw.toLowerCase().includes(h1.toLowerCase())) title = fitTitle(kw || name, 'Shop at Swansura UK');
     else title = fitTitle(kw, name, 'Swansura');
     const intro = c ? c.blocks[0].p : (app.querySelector('.pagehead .lede, .lede, .story .lede')?.textContent || '');
-    desc = sentences(intro || `${h1} at Swansura: natural skincare and fine fragrance, 100% authentic, free UK delivery over £50.`, 158);
+    desc = sentences(intro || `${h1} at Swansura: natural skincare and fine fragrance, 100% authentic, free UK delivery over £40.`, 158);
     const items = [...app.querySelectorAll('#results .card a.media, .grid-p .card a.media')].slice(0, 24).map(a => byId[(a.getAttribute('href').match(/p-(\d+)/)||[])[1]]).filter(Boolean);
     if (items.length) ld.push({'@type':'CollectionPage',name:h1,url:pageUrl(h),description:desc,mainEntity:{'@type':'ItemList',numberOfItems:items.length,itemListElement:items.map((p,i)=>({'@type':'ListItem',position:i+1,url:pageUrl('p-'+p.id),name:cleanTitle(p)}))}});
   }
@@ -2052,7 +2057,7 @@ window.addEventListener('hashchange', () => closeShares());
   document.addEventListener('pointerout', e => { const w = e.target.closest && e.target.closest('.fmark-wrap'); if (w && !w.contains(e.relatedTarget)){ w.classList.remove('live'); const m = w.querySelector('.fmark'); m.style.removeProperty('--mx'); m.style.removeProperty('--my'); } });
 })();
 function showOffer(){ if (showOffer.done || store.get('swansura-offer','0')) return; showOffer.done = true; const d = document.createElement('aside'); d.id = 'offer'; d.setAttribute('aria-label','First order offer');
-  d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>Members get surprise gifts</h3><p>Become a member for surprise gifts, early access to new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" style="position:absolute;left:-9999px">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Become a member</button></form><small>Unsubscribe any time.</small>`;
+  d.innerHTML = `<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">Welcome to the Studio</div><h3>Members get surprise gifts</h3><p>Become a member for surprise gifts, early access to new arrivals, rituals and fragrance notes.</p><form><label for="offerEmail" class="sr-only">Email address</label><input id="offerEmail" type="email" required placeholder="Your email address"><button class="btn solid" type="submit">Become a member</button></form><small>Unsubscribe any time.</small>`;
   d.querySelector('form').addEventListener('submit', ev => { ev.preventDefault(); d.innerHTML = '<button class="x" data-offer-close aria-label="Close">×</button><div class="eyebrow">You\'re in</div><h3>Check your inbox</h3><p>Welcome to the Studio. Look out for your first surprise.</p>'; store.set('swansura-offer', 1); });
   document.body.appendChild(d); }
 setTimeout(showOffer, 20000);
@@ -2099,7 +2104,7 @@ function shareData(route){
   if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
     return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
-    return {url: pageUrl('offers'), title: 'Offers | Swansura', text: `Swansura offers: ${Math.round(RITUAL_SAVE*100)}% off routines and bundles, and free UK delivery over £${OFFERS.delivery}`, img}; }
+    return {url: pageUrl('offers'), title: 'Offers | Swansura', text: `Swansura offers: free UK delivery over £${OFFERS.delivery}, £${OFFERS.bonus.off} off over £${OFFERS.bonus.min}, and ${Math.round(RITUAL_SAVE*100)}% off routines and bundles`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('rituals'), title: 'Routines that work together | Swansura', text: `Swansura routines: ${rs.length} step-by-step skincare, hair, body and scent routines that save ${Math.round(RITUAL_SAVE*100)}% when bought together`, img}; }
   if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
