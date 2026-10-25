@@ -234,10 +234,13 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .ritual .imgs{display:grid;grid-template-columns:repeat(3,1fr)}
 .ritual .body{padding:22px;display:flex;flex-direction:column;gap:12px;flex:1}
 .ritual ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px}
+.ritual .rbtn{height:44px;padding:0 18px}
 .ritual .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 @media (max-width:900px){.rituals{grid-template-columns:1fr}}
 .rituals.home4{grid-template-columns:repeat(4,1fr)}@media (max-width:1100px){.rituals.home4{grid-template-columns:repeat(2,1fr)}}
-.viewall{display:flex;justify-content:center;margin-top:28px}@media (max-width:720px){.viewall{margin-top:20px}.viewall .btn{width:100%}}
+.viewall{display:flex;justify-content:center;margin-top:28px}@media (max-width:720px){.viewall{margin-top:20px}}
+/* phone-sized buttons (user, 24 Oct 2026): 44 px tall (still a comfortable tap), tighter padding and letter spacing */
+@media (max-width:600px){.btn{height:44px;padding:0 18px;font-size:12px;letter-spacing:.1em;gap:8px;white-space:nowrap}.qtyrow .btn{padding-inline:12px}.pack em{white-space:nowrap;letter-spacing:.06em;padding:2px 6px;right:6px;top:-9px}.btn.sm,.btn.small{height:38px;padding:0 14px}}
 
 .chips{display:flex;flex-wrap:wrap;gap:12px}
 .chip{border:1px solid var(--line);background:var(--card);padding:14px 20px;font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:170px;transition:border-color .2s;text-align:left}
@@ -703,7 +706,7 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
   .bands.rail .band .n{font-size:20px}.bands.rail .band small{font-size:12px}.bands.rail .band .c{font-size:11px;letter-spacing:.08em}
   .rituals.rail .ritual .body{padding:14px;gap:8px}.rituals.rail .ritual h3{font-size:17px}.rituals.rail .ritual ol{display:none}
   .rituals.rail .ritual .body>p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:13px}
-  .rituals.rail .ritual .btn{padding-inline:10px;letter-spacing:.08em;width:100%}
+  .rituals.rail .ritual .btn{height:38px;padding-inline:8px;font-size:11px;letter-spacing:.06em;width:100%;white-space:nowrap}
 }
 .proto{background:#EDE4D3;color:var(--ink-2);font-size:12px;text-align:center;padding:6px 16px}
 /* ---------- Royal emerald: silk surfaces and gold accents on every page ---------- */
@@ -1057,7 +1060,7 @@ function ritualsData(){
 }
 function ritualCard(r){
   const total = r.items.reduce((a,p)=>a+p.price,0);
-  return `<article class="ritual"><div class="imgs" style="grid-template-columns:repeat(${r.items.length},1fr)">${r.items.map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div><div class="body"><div class="eyebrow">${RITUAL_GROUPS[r.g]}</div><h3>${r.name}</h3><p style="color:var(--ink-2);font-size:15px">${r.note}</p><ol>${r.items.map((p,i)=>`<li><b style="font-weight:600">${r.steps[i]||''}</b> · <a href="#p-${p.id}">${esc(cleanTitle(p))}</a></li>`).join('')}</ol><div class="foot"><div class="price">${fmt(total*(1-RITUAL_SAVE))} <s>${fmt(total)}</s> <span class="off">SAVE ${Math.round(RITUAL_SAVE*100)}%</span></div><button class="btn solid" style="height:44px;padding:0 18px" data-addall="${r.items.map(p=>p.id).join(',')}">Add routine</button></div></div></article>`;
+  return `<article class="ritual"><div class="imgs" style="grid-template-columns:repeat(${r.items.length},1fr)">${r.items.map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div><div class="body"><div class="eyebrow">${RITUAL_GROUPS[r.g]}</div><h3>${r.name}</h3><p style="color:var(--ink-2);font-size:15px">${r.note}</p><ol>${r.items.map((p,i)=>`<li><b style="font-weight:600">${r.steps[i]||''}</b> · <a href="#p-${p.id}">${esc(cleanTitle(p))}</a></li>`).join('')}</ol><div class="foot"><div class="price">${fmt(total*(1-RITUAL_SAVE))} <s>${fmt(total)}</s> <span class="off">SAVE ${Math.round(RITUAL_SAVE*100)}%</span></div><button class="btn solid rbtn" data-addall="${r.items.map(p=>p.id).join(',')}">Add routine</button></div></div></article>`;
 }
 /* Ingredient ranges, like The Body Shop's "Ranges loved by you" */
 const RANGES = {
