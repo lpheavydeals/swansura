@@ -940,7 +940,10 @@ function chipsOf(p){
   if (/paraben/.test(t)) c.push('Paraben-free'); if (/natural|plant|botanical|organic/.test(t)) c.push('Natural formula'); if (/cruelty|vegan/.test(t)) c.push('Cruelty-free');
   return [...new Set(c)].slice(0,3);
 }
-const PACK_SAVE = {duo:0.10, routine:0.10};
+/* One bundle saving used everywhere: Duo/Routine packs and Complete the ritual */
+const BUNDLE_SAVE = 0.05;
+const SAVE_PCT = Math.round(BUNDLE_SAVE*100);
+const PACK_SAVE = {duo:BUNDLE_SAVE, routine:BUNDLE_SAVE};
 const HEART = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>';
 const store = { get(k, d){ try { return JSON.parse(localStorage.getItem(k) || d); } catch(e){ return JSON.parse(d); } }, set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} } };
 let wish = store.get('swansura-wish','[]'), seen = store.get('swansura-seen','[]');
@@ -1642,7 +1645,7 @@ function productPage(id){
       ${(() => { const ks = kwFor(p); return ks.length ? `<p style="font-size:14px;color:var(--ink-2)">Part of our ${ks.slice(0,3).map(k=>`<a href="#k-${k.s}" style="text-decoration:underline">${esc(k.k.toLowerCase())}</a>`).join(', ')} edit${ks.length>1?'s':''}.</p>${kwChips(ks.slice(0,8),'Shop related')}` : ''; })()}
     </div>
   </div>
-  ${pair.length?`<div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">${p.cat==='fragrance'?'Complete the ritual: skin + scent':'Complete the ritual'}</div><div class="items">${setItems.map((x,i)=>`${i?'<span class="plus">+</span>':''}<a class="it" href="#p-${x.id}">${pic(x)}<span>${esc(cleanTitle(x))}</span><b>${fmt(x.price)}</b></a>`).join('')}</div></div><div style="display:flex;flex-direction:column;gap:12px"><div class="price" style="font-size:20px">${fmt(setTotal*0.9)} <s>${fmt(setTotal)}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE 10% WHEN BOUGHT TOGETHER</span><button class="btn solid" data-addall="${setItems.map(x=>x.id).join(',')}">Add all ${setItems.length} to bag</button></div></div>`:''}
+  ${pair.length?`<div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">${p.cat==='fragrance'?'Complete the ritual: skin + scent':'Complete the ritual'}</div><div class="items">${setItems.map((x,i)=>`${i?'<span class="plus">+</span>':''}<a class="it" href="#p-${x.id}">${pic(x)}<span>${esc(cleanTitle(x))}</span><b>${fmt(x.price)}</b></a>`).join('')}</div></div><div style="display:flex;flex-direction:column;gap:12px"><div class="price" style="font-size:20px">${fmt(setTotal*(1-BUNDLE_SAVE))} <s>${fmt(setTotal)}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE ${SAVE_PCT}% WHEN BOUGHT TOGETHER</span><button class="btn solid" data-addall="${setItems.map(x=>x.id).join(',')}">Add all ${setItems.length} to bag</button></div></div>`:''}
   ${sameBrand.length?`<section style="padding-top:0"><div class="sec-head"><div><h2>More from ${esc(p.brand)}</h2></div><a class="link" href="#b-${brandSlug(p.brand)}">Shop all ${B.count} ${esc(p.brand)}</a></div>${grid(sameBrand.slice(0,4))}</section>`:''}
   ${similar.length?`<section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="link" href="#c-${p.cat}">View all</a></div>${grid(similar)}</section>`:''}
   ${(() => { const rv = seen.filter(id=>id!==p.id && byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div>${grid(rv)}</section>` : ''; })()}
@@ -1678,7 +1681,7 @@ function offersPage(){
     ${tile('Free gift', `Spend £${o.gift.min}, get ${o.gift.item}`, `Added to your bag automatically at checkout while stocks last.`, `<a class="btn" href="#c-skincare">Shop skincare</a>`)}
     ${tile('Free delivery', 'Free UK delivery over £50', 'Every order ships from the UK. The bag shows how close you are.', `<a class="btn" href="#c-all">Shop all</a>`)}
     ${tile('Routines', 'Save 15% on a full routine', 'Two or three products chosen to work together, in order.', `<a class="btn" href="#rituals">Shop routines</a>`)}
-    ${tile('Packs', 'Save 10% with Duo and Routine packs', 'Choose a pack on any product page: two of the same, or the product plus two that complete it.', `<a class="btn" href="#c-skincare">Browse skincare</a>`)}
+    ${tile('Packs', `Save ${SAVE_PCT}% with Duo and Routine packs`, 'Choose a pack on any product page: two of the same, or the product plus two that complete it.', `<a class="btn" href="#c-skincare">Browse skincare</a>`)}
     ${tile('Gift sets', 'Ready-made kits and minis', 'Kits, discovery sets and fragrance miniatures that cost less than buying each item.', `<a class="btn" href="#c-gifts">Shop gifts &amp; sets</a>`)}
   </div></section>
   <section style="padding-top:0" id="rewards"><div class="rewards"><div><div class="eyebrow" style="color:#E6D3A8">Swansura Rewards</div><h2>Earn ${r.perPound} point for every £1</h2><p>Collect points on every order and spend ${r.redeem} points as £${r.value} off. Double points in your birthday month. Join free when you create an account.</p><button class="btn light" data-acct>Join Swansura Rewards</button></div>
@@ -2029,8 +2032,8 @@ document.addEventListener('click', e => {
   else if (t.dataset.addall){ t.dataset.addall.split(',').forEach(id=>addToBag(id,1,true)); toast('Ritual added to your bag'); openBag(); }
   else if (t.dataset.addq || t.dataset.buynow){ const bn = !!t.dataset.buynow, p = byId[t.dataset.addq || t.dataset.buynow]; if (!p.available){ toast("We'll email you when it's back"); return; }
     const pk = document.querySelector('input[name="pack"]:checked')?.value || 'single', q = +document.getElementById('qty').value;
-    if (pk==='duo'){ addToBag(p.id, 2*q, true); toast('Duo added · 10% pack saving applied at checkout'); openBag(); }
-    else if (pk==='routine'){ const ids = [...document.querySelectorAll('.complete .it')].map(a=>a.getAttribute('href').slice(3)); ids.forEach(id=>addToBag(id, q, true)); toast('Routine added · 10% pack saving applied at checkout'); openBag(); }
+    if (pk==='duo'){ addToBag(p.id, 2*q, true); toast(`Duo added · ${SAVE_PCT}% pack saving applied at checkout`); openBag(); }
+    else if (pk==='routine'){ const ids = [...document.querySelectorAll('.complete .it')].map(a=>a.getAttribute('href').slice(3)); ids.forEach(id=>addToBag(id, q, true)); toast(`Routine added · ${SAVE_PCT}% pack saving applied at checkout`); openBag(); }
     else addToBag(p.id, q, bn);
     if (bn){ openBag(); toast('In the live store, Buy it now goes straight to Shopify checkout'); } }
   else if (t.dataset.bq){ const [id, d] = t.dataset.bq.split('|'); const l = bag.find(x=>x.id===id); if (l){ l.q += +d; if (l.q < 1) bag = bag.filter(x=>x!==l); } saveBag(); openBag(); }
