@@ -1384,7 +1384,6 @@ function home(){
       <div class="float" aria-label="Featured fragrance"><div class="track">${heroPairs.map(([,f],n)=>`<a class="slide" href="#p-${f.id}"${n?' tabindex="-1"':''}>${pic(f)}<small>${esc(f.brand)}</small><span>${esc(cleanTitle(f).replace(/ (extrait|eau de|edp|parfum).*$/i,''))}</span><b>${fmt(f.price)}</b></a>`).join('')}</div></div>
     </div>
   </div></section>
-  ${trustStrip()}
   <section class="catrow-sec"><div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Shop by category</div><h2>Find your shelf</h2></div><a class="link" href="#c-all">Shop all ${P.length}</a></div>
     <div class="catrow rail">${[['Face wash','k','face-wash'],['Serums','k','face-serum'],['Moisturisers','k','moisturiser'],['Sunscreen','k','sunscreen'],['Lip care','k','lip-balm'],['Hair oil','k','hair-oil'],['Shampoo','k','shampoo'],['Body butter','k','body-butter'],['Fragrance','c','fragrance'],['Gift sets','c','gifts']].map(([n,t,k],i)=>{ const l = t==='k' ? (KWBY[k] ? kwList(KWBY[k]) : []) : P.filter(p=>inCat(p,k)); const im = t==='c' ? tileP(k) : pickImg(l); return im ? `<a class="cat" href="#${t}-${k}"><span class="ci" style="background:var(--tint-${i%6+1})">${pic(im)}</span><span>${n}</span></a>` : ''; }).join('')}</div>
