@@ -125,6 +125,9 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,166,107,.55),transparent)}
 .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(32px,6vw,96px);align-items:center}
 .hero .copy{display:flex;flex-direction:column;gap:28px}
+/* phones/tablets (user, 24 Oct 2026): product slider sits between the headline and the sub-headline */
+@media (max-width:900px){.hero .wrap{row-gap:22px}.hero .copy{display:contents}
+  .hero .copy>.eyebrow{order:1}.hero .copy>h1{order:2}.hero .stage{order:3;margin-block:6px 4px}.hero .copy>.lede{order:4}.hero .copy>.ctas{order:5}.hero .copy>.facts{order:6}}
 .hero .eyebrow{color:var(--gold-2);display:flex;align-items:center;gap:14px}
 .hero .eyebrow::before{content:"";width:44px;height:1px;background:currentColor}
 .hero h1{font-size:clamp(42px,5.6vw,82px);font-weight:300;line-height:1.02;letter-spacing:-.045em;color:#FBF7F0}
