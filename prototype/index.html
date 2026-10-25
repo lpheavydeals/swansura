@@ -293,6 +293,21 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .post{display:flex;flex-direction:column;gap:12px}
 .post .eyebrow{color:var(--ink-2)}
 .post h2.ph{font-size:21px;letter-spacing:-.01em}
+/* Christmas gifting banner (user, 24 Oct 2026; replaces the 'Trusted tales' customer-photo slots until real photos exist) */
+.xmas{background:var(--silk);color:var(--on-dark);border-block:1px solid rgba(181,132,58,.5);overflow:hidden;position:relative}
+.xmas::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 12% 20%,rgba(233,203,142,.18) 0 1.5px,transparent 2px) 0 0/46px 46px,radial-gradient(circle at 70% 60%,rgba(233,203,142,.12) 0 1px,transparent 1.6px) 0 0/31px 31px;pointer-events:none}
+.xmas-in{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,5vw,72px);align-items:center}
+.xmas-copy{display:flex;flex-direction:column;gap:18px;align-items:flex-start}
+.xmas-copy h2{color:#FBF7F0;font-size:clamp(30px,3.6vw,48px)}
+.xmas-copy p{color:var(--on-dark-2);max-width:48ch;line-height:1.7}
+.xmas-links{display:flex;flex-wrap:wrap;gap:8px}
+.xmas-links a{border:1px solid rgba(233,203,142,.45);color:var(--on-dark);border-radius:999px;padding:7px 14px;font-size:13px;min-height:32px;display:inline-flex;align-items:center}
+.xmas-links a:hover{background:rgba(233,203,142,.14)}
+.xmas .btn.gold{background:var(--gold-fill,#B5843A);border:0;color:#1F1A17}.xmas .btn.gold:hover{filter:brightness(1.08)}
+.xmas-pics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:end}
+.xmas-pics .xp{background:var(--card);border-radius:var(--r);padding:8px 8px 10px;box-shadow:0 24px 50px -24px rgba(0,0,0,.55);display:flex;flex-direction:column;gap:6px;color:var(--ink)}
+.xmas-pics .xp1{transform:translateY(-22px)}.xmas-pics .xp span{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass-ink);font-weight:600;padding-inline:4px}
+@media (max-width:800px){.xmas-in{grid-template-columns:1fr}.xmas-pics{order:-1;gap:8px}.xmas-pics .xp1{transform:translateY(-10px)}.xmas-copy .btn{width:100%}.xmas-links a{font-size:12.5px;padding:6px 12px}}
 /* Journal article (24 Oct 2026) */
 .article .ahead{max-width:760px;margin:12px auto 0;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px}
 .article .ahead h1{font-size:clamp(30px,4.2vw,52px);line-height:1.08;letter-spacing:-.02em}
@@ -1368,6 +1383,7 @@ function home(){
   const pickImg = l => l.find(p=>p.available && BR[p.brand]?.partner) || l.find(p=>p.available) || l[0];
   const tileP = c => P.find(p=>inCat(p,c) && p.available && (c!=='fragrance' || /kaff|orza/i.test(p.title))) || P.find(p=>inCat(p,c));
   const ugc = pick(['beetroot lip balm','amber oud white','milk drops','orza','chocolate body butter','rosado']);
+  const xmas = ['16303208038787','16368958308739','16372985856387'].map(id=>byId[id]).filter(p=>p&&p.available);
   const counts = c => P.filter(p=>inCat(p,c)).length;
   return `
   <section class="hero"><div class="wrap">
@@ -1442,9 +1458,12 @@ function home(){
     <div class="imgs">${[findP(/milk drops/i), findP(/goat milk shampoo/i) || findP(/goat milk/i)].filter(Boolean).map(x=>`<a href="#p-${x.id}">${pic(x)}</a>`).join('')}</div>
   </div></section>
   ${(() => { const rv = seen.filter(id=>byId[id]).slice(0,4).map(id=>byId[id]); return rv.length ? `<section style="padding-top:0"><div class="wrap"><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div>${grid(rv)}</div></section>` : ''; })()}
-  <section style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
-    <div class="sec-head"><div><h2>Trusted tales</h2></div><p class="lede" style="font-size:16px;max-width:44ch">Tag <b>@swansura_thebodystudio</b> with #SwansuraStudio to be featured.</p></div>
-    <div class="ugc rail">${ugc.map(p=>`<div><a href="#p-${p.id}">${pic(p, p.frames-1)}</a><span>Customer photo slot</span></div>`).join('')}</div>
+  <section class="xmas"><div class="wrap xmas-in">
+    <div class="xmas-copy"><h2>Christmas gifting, sorted</h2>
+      <p>Perfume gift sets, miniatures and natural skincare kits for everyone on your list. Every gift is 100% authentic and dispatched from the UK, with free UK delivery over £50.</p>
+      <div class="xmas-links"><a href="#k-gifts-for-her">Gifts for her</a><a href="#k-gifts-for-him">Gifts for him</a><a href="#k-gifts-under-25">Under £25</a><a href="#k-perfume-gift-sets">Perfume gift sets</a><a href="#k-stocking-fillers">Stocking fillers</a><a href="#advent">Advent calendars</a></div>
+      <a class="btn gold" href="#k-christmas-gifts">Shop Christmas gifts</a></div>
+    <div class="xmas-pics">${xmas.map((p,i)=>`<a class="xp xp${i}" href="#p-${p.id}" aria-label="${esc(cleanTitle(p))}">${pic(p)}<span>${esc(p.brand)}</span></a>`).join('')}</div>
   </div></section>
   <section><div class="wrap">
     <div class="sec-head"><div><h2>The Journal</h2></div><a class="link" href="#journal">All stories</a></div>
