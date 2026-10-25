@@ -63,7 +63,11 @@ p{margin:0}
 .btn.light{border-color:var(--on-dark);color:var(--on-dark)}
 .btn.light:hover{background:var(--on-dark);color:var(--ink)}
 .link{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;border-bottom:1px solid currentColor;padding-bottom:3px}
-section{padding-block:clamp(56px,7vw,104px)}
+/* one section rhythm site-wide (user, 24 Oct 2026): every section gets the same top and bottom space,
+   so the gap between any two sections is equal (2 × --sec: 120 px desktop → 72 px phones) */
+:root{--sec:clamp(36px,4.2vw,60px)}
+section{padding-block:var(--sec)}
+#app section:not(.hero),section.news,section.faqslot{padding-top:var(--sec)!important;padding-bottom:var(--sec)!important}
 .sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
 .sec-head .eyebrow{margin-bottom:12px}
 
