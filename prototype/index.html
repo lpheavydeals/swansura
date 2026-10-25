@@ -706,6 +706,10 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
   .rail:not(:has(>:nth-child(5))),.best .grid-p:not(:has(>:nth-child(5))){grid-auto-flow:row!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-columns:auto!important;overflow:visible;margin-inline:0;padding:0;scroll-snap-type:none}
   .rail:has(>:nth-child(5)),.best .grid-p:has(>:nth-child(5)){grid-template-rows:repeat(2,auto);grid-auto-flow:column;align-items:stretch}
   .families.rail:has(>:nth-child(5)){grid-auto-columns:44%}
+  /* Latest reads (user, 24 Oct 2026): one row that scrolls sideways, smaller titles */
+  .journal.rail{grid-auto-flow:column!important;grid-template-columns:none!important;grid-template-rows:auto;grid-auto-columns:68%!important;overflow-x:auto!important;margin-inline:calc(-1 * var(--gutter))!important;padding:0 var(--gutter) 6px!important;scroll-padding-inline:var(--gutter);scroll-snap-type:x mandatory!important}
+  .journal.rail .post{gap:8px}.journal.rail .post h3,.journal.rail .post h2{font-size:17px;line-height:1.25;letter-spacing:-.005em}
+  .journal.rail .post p{font-size:13px!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   /* half-width cards: price bands stack image over text; routine cards drop the step list (the photos show the products) */
   .bands.rail .band{grid-template-columns:1fr;gap:10px;padding:12px;align-content:start}.bands.rail .band .pic{aspect-ratio:4/3}
   .bands.rail .band .n{font-size:20px}.bands.rail .band small{font-size:12px}.bands.rail .band .c{font-size:11px;letter-spacing:.08em}
