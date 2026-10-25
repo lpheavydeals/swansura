@@ -517,7 +517,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .bchips span{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid #CFE0D8;background:#EEF5F1;color:var(--emerald);font-size:13px;border-radius:999px}
 .paylater{margin-top:6px;font-size:13px;color:var(--ink-2);display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 .pl{font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.02em}
-.pl.k{background:#FFB3C7;color:#17120F}.pl.c{background:#B2FCE4;color:#17120F}.pl.p{background:#E8EEF8;color:#1F3B8C}
+.pl.p{background:#E8EEF8;color:#1F3B8C}
 .packs{border:0;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
 @media (max-width:600px){.packs{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pack{padding:12px 10px 10px}.pack b{font-size:14px}.pack span{font-size:11px;min-height:4em}.pack strong{font-size:15px}.pack small{font-size:11px}.pack em{right:6px;font-size:9px;padding:2px 6px}}
 .packs legend{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:10px;padding:0}
@@ -657,7 +657,7 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
 .typechips button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}.typechips button[aria-pressed="true"] small{color:var(--on-dark-2)}
 .pays{display:flex;flex-wrap:wrap;gap:6px}
 .pay{font-size:11px;font-weight:600;padding:4px 8px;border:1px solid rgba(244,238,228,.25);border-radius:4px;color:var(--on-dark)}
-.pay.k{background:#FFB3C7;color:#17120F;border-color:#FFB3C7}.pay.c{background:#B2FCE4;color:#17120F;border-color:#B2FCE4}
+
 @media (max-width:800px){.faqslot .lfaq,.faqslot .faqwrap{grid-template-columns:1fr!important;gap:24px!important}.inside-grid,.rv-grid,.pfaq{grid-template-columns:1fr;gap:24px}.ings{grid-template-columns:1fr}}
 .complete{background:var(--card);border:1px solid var(--line);padding:clamp(20px,3vw,36px);display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px;align-items:center}
 .complete .items{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
@@ -689,7 +689,7 @@ body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom
 .qty.sm{height:32px}.qty.sm button{width:30px;font-size:16px}.qty.sm span{min-width:22px;display:grid;place-items:center;font-size:14px;font-variant-numeric:tabular-nums}
 .bag-note{font-size:12px;color:var(--ink-2);margin:-4px 0 0}
 .bag-trust{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--ink-2)}.bag-trust span{display:inline-flex;align-items:center;gap:5px}.bag-trust svg{width:14px;height:14px}
-.bag .pays{display:flex;flex-wrap:wrap;gap:5px;justify-content:center}.bag .pay{border-color:var(--line);color:var(--ink-2)}.bag .pay.k,.bag .pay.c{color:#17120F}
+.bag .pays{display:flex;flex-wrap:wrap;gap:5px;justify-content:center}.bag .pay{border-color:var(--line);color:var(--ink-2)}
 .bag-empty{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding-top:12px}.bag-empty p{color:var(--ink-2)}
 #checkoutBtn:disabled{opacity:.4;cursor:not-allowed}
 @media (max-width:720px){
@@ -955,8 +955,10 @@ function isPick(p){ if (!PICKS) PICKS = new Set(STUDIO_KEYS.map(k=>findP(new Reg
 const PRICE_BANDS = [['0-15','Under £15','Lip care, minis and add-ons'],['15-25','£15 – £25','Everyday heroes'],['25-50','£25 – £50','Routines and treats'],['50-9999','£50 and over','Free UK delivery included']];
 function inBand(p, key){ const [a,b] = key.split('-').map(Number); return p.price>=a && p.price<b; }
 function stars(n){ return `<span class="stars" aria-hidden="true">${'★'.repeat(n)}${'☆'.repeat(5-n)}</span>`; }
-function payLater(price){ return `<div class="paylater">or 3 interest-free payments of <b>${fmt(price/3)}</b> with <span class="pl k">Klarna</span> <span class="pl c">Clearpay</span> <span class="pl p">PayPal</span></div>`; }
-const PAYMENTS = ['Visa','Mastercard','Amex','PayPal','Apple Pay','Google Pay','Shop Pay','Klarna','Clearpay'];
+/* Only what the store's checkout actually offers (Shopify admin, 25 Oct 2026): cards via Shopify Payments, PayPal, Shop Pay, Apple Pay, Google Pay.
+   Pay in 3 = PayPal Pay in 3 (UK orders £30–£2,000). Add Klarna/Clearpay back only once they are switched on in Shopify Payments. */
+function payLater(price){ return price>=30 && price<=2000 ? `<div class="paylater">or 3 interest-free payments of <b>${fmt(price/3)}</b> with <span class="pl p">PayPal Pay in 3</span></div>` : ''; }
+const PAYMENTS = ['Visa','Mastercard','Amex','Maestro','PayPal','Apple Pay','Google Pay','Shop Pay'];
 
 let P = [], byId = {}, BR = {};
 const fmt = n => '£' + Number(n).toFixed(2);
@@ -1051,7 +1053,7 @@ function openBag(justAdded){
       <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
       <button class="btn solid" id="checkoutBtn" ${bag.length?'':'disabled'}>Checkout securely</button>
       <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} 30-day returns</span><span>${icon.lock} Secure checkout</span></div>
-      <span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span>
+      <span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay">${x}</span>`).join('')}</span>
     </div>
   </div>`;
   document.body.style.overflow='hidden'; lazy(document.getElementById('layer'));
@@ -1792,7 +1794,7 @@ function footerHTML(){
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Brands</h3></summary>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Popular searches</h3></summary>${['body-butter','vitamin-c-serum','lip-balm','oud-perfume','perfume-for-women','perfume-for-men','gifts-for-her','gifts-under-25'].map(s=>KWBY[s]).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Help</h3></summary><a href="#page-delivery">Delivery &amp; returns</a><a href="#page-faq">FAQ</a><a href="#page-about">About us</a><a href="#page-contact">Contact</a><a href="#journal">Journal</a><a href="#sitemap">Sitemap</a></details>
-  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#sitemap">Sitemap</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay ${x==='Klarna'?'k':x==='Clearpay'?'c':''}">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
+  </div><div class="legal"><div class="lg"><span>© 2026 Swansura – The Body Studio</span><nav aria-label="Policies"><a href="#page-privacy">Privacy</a><a href="#page-terms">Terms</a><a href="#page-refunds">Refunds</a><a href="#page-shipping">Shipping</a><a href="#sitemap">Sitemap</a><a href="#page-delivery">Cookie settings</a></nav></div><span class="pays" aria-label="Payment methods">${PAYMENTS.map(x=>`<span class="pay">${x}</span>`).join('')}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div>`;
 }
 
 /* ---------- FAQs (built from catalogue data: counts, prices, real product names; no medical claims) ---------- */
