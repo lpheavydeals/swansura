@@ -586,12 +586,8 @@ main#app{min-height:100vh;min-height:100svh}
 .proto-note{font-size:13px;color:var(--ink-2);background:#F4EADA;border-radius:8px;padding:10px 14px;margin-top:16px}
 .offers{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
 .offer{border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}.offer h3{font-size:21px}.offer p{color:var(--ink-2);flex:1}
-.rewards{background:var(--silk, var(--emerald));background:linear-gradient(135deg,#133A2F,#1B4D3E 55%,#24604E);color:var(--on-dark);border-radius:12px;padding:clamp(24px,4vw,48px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;align-items:center}
-.rewards h2{color:var(--on-dark)}.rewards p{color:var(--on-dark-2);margin-block:12px 20px;max-width:52ch}
-.rewards .steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:12px;counter-reset:s}.rewards .steps li{display:flex;flex-direction:column;width:auto;border:1px solid rgba(230,211,168,.35);border-radius:10px;padding:14px 16px}.rewards .steps b{color:#E6D3A8}
 .schemes{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}.scheme{border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:4px}.scheme b{font-size:24px;font-family:var(--display);color:var(--emerald)}.scheme small{color:var(--ink-2)}
 .refer{border:1px solid var(--line);border-radius:12px;padding:clamp(20px,3vw,36px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}.refer p{color:var(--ink-2);max-width:60ch;margin-top:8px}
-@media (max-width:800px){.rewards{grid-template-columns:1fr}}
 .chatbtn{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:44;display:flex;align-items:center;gap:8px;background:var(--emerald);color:var(--on-dark);border-radius:999px;padding:12px 16px;box-shadow:0 8px 24px rgba(19,58,47,.28);font-weight:600;font-size:14px}
 .chatbtn:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
 @media (max-width:600px){.chatbtn{width:48px;height:48px;padding:0;justify-content:center}.chatbtn span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
@@ -1047,7 +1043,7 @@ function openBag(justAdded){
     <div class="foot">
       <div class="delivery" style="border:0;padding:0;background:none"><span>${left>0 ? `You're <b>${fmt(left)}</b> away from free UK delivery` : '<b>You have free UK delivery</b>'}</span><div class="bar"><i style="width:${Math.min(100,total/50*100)}%"></i></div></div>
       <div class="gwp${total>=OFFERS.gift.min?' on':''}">${icon.check}<span>${total>=OFFERS.gift.min ? `<b>Free gift unlocked:</b> ${OFFERS.gift.item} is added at checkout.` : `Spend <b>${fmt(OFFERS.gift.min-total)}</b> more for ${OFFERS.gift.item}.`}</span></div>
-      ${bag.length ? `<div class="earn">${icon.check}<span>You'll earn <b>${pts(total)} Rewards points</b> on this order.</span></div>` : ''}
+      
       ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(p=>`<div class="extra">${pic(p)}<span>${esc(cleanTitle(p))}</span><b>${fmt(p.price)}</b><button data-add="${p.id}">Add</button></div>`).join('')}</div></div>` : ''}
       <div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${fmt(total)}</b></div>
       <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
@@ -1626,7 +1622,7 @@ function productPage(id){
       <div class="buyhead"><a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a><div class="share"><button class="sharebtn" data-share="p-${p.id}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>
       <h1>${esc(cleanTitle(p))}</h1>
       <div class="reviews-line">${stars(0)}<span>No reviews yet · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">Write the first review</a></span></div>
-      <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}<div class="earn">${icon.check}<span>Earn <b>${pts(p.price)} Swansura Rewards points</b> on this item · <a href="#offers">How it works</a></span></div></div>
+      <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}</div>
       ${short?`<p class="benefit">${esc(short)}${more?` <a href="#details" data-jump="details" class="readmore">Read more</a>`:''}</p>`:''}
       ${chips.length?`<div class="bchips">${chips.map(c=>`<span>${icon.check}${esc(c)}</span>`).join('')}</div>`:''}
       ${packs?`<fieldset class="packs"><legend>Choose your pack</legend>${packs.map((k,i)=>`<label class="pack${k.best?' best':''}"><input type="radio" name="pack" value="${k.v}" ${i===0?'checked':''}>${k.best?'<em>Best value</em>':''}<b>${k.name}</b><span>${k.sub}</span><strong>${fmt(k.price)}</strong>${k.save?`<small>Save ${fmt(k.save)}</small>`:'<small>&nbsp;</small>'}</label>`).join('')}</fieldset>`:''}
@@ -1662,20 +1658,18 @@ function productPage(id){
   <section class="pfaq" data-faq><div><div class="eyebrow">Good to know</div><h2 style="margin-top:10px">Questions about this ${p.cat==='fragrance'?'fragrance':'product'}</h2><p class="muted" style="margin-top:12px">Can't find your answer? <a href="#page-contact" style="text-decoration:underline">Ask us</a> and we'll reply within a working day.</p></div><div class="faq">${faqs.map(([q,a],i)=>`<details ${i===0?'open':''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div><script type="application/ld+json">${faqLd}<\/script></section>
   </div>`;
 }
-/* ---------- Offers & rewards (proposed values: Swansura to confirm before launch) ---------- */
+/* ---------- Offers (proposed values: Swansura to confirm before launch) ---------- */
 const OFFERS = {
   welcome: {perk:'surprise gifts', how:'become a member'},
   gift: {min:40, item:'a free Deyga or Vilvah travel mini'},
-  rewards: {perPound:1, redeem:100, value:5, birthday:2},
   refer: {give:5, get:5},
   schemes: [['Students','Verified through Student Beans','10%'],['NHS & key workers','Verified through Blue Light Card','10%'],['16–26 year olds','Verified through Student Beans','10%'],['Over 60s','Verified at checkout','10%']]
 };
-const pts = price => Math.floor(price * OFFERS.rewards.perPound);
 function offersPage(){
-  const o = OFFERS, r = o.rewards;
+  const o = OFFERS;
   const tile = (eyebrow, h, p, cta) => `<article class="offer"><div class="eyebrow">${eyebrow}</div><h3>${h}</h3><p>${p}</p>${cta||''}</article>`;
-  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers &amp; rewards</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Offers, rewards and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers &amp; rewards</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: surprise gifts for members, routines that cost less together, a free gift over £${o.gift.min}, Swansura Rewards points and discounts for students, NHS and key workers.</p></div>
+  return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Offers</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Offers and discounts</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Offers</h1><div class="share dark ph"><button class="sharebtn" data-share="offers" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">Every way to save at Swansura: surprise gifts for members, routines that cost less together, a free gift over £${o.gift.min} and discounts for students, NHS and key workers.</p></div>
   <p class="proto-note">Proposed offers for Swansura to confirm before launch. Values are set in one place in the theme settings.</p>
   <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
   <div class="offers">
@@ -1686,8 +1680,6 @@ function offersPage(){
     ${tile('Packs', `Save ${SAVE_PCT}% with Duo and Routine packs`, 'Choose a pack on any product page: two of the same, or the product plus two that complete it.', `<a class="btn" href="#c-skincare">Browse skincare</a>`)}
     ${tile('Gift sets', 'Ready-made kits and minis', 'Kits, discovery sets and fragrance miniatures that cost less than buying each item.', `<a class="btn" href="#c-gifts">Shop gifts &amp; sets</a>`)}
   </div></section>
-  <section style="padding-top:0" id="rewards"><div class="rewards"><div><div class="eyebrow" style="color:#E6D3A8">Swansura Rewards</div><h2>Earn ${r.perPound} point for every £1</h2><p>Collect points on every order and spend ${r.redeem} points as £${r.value} off. Double points in your birthday month. Join free when you create an account.</p><button class="btn light" data-acct>Join Swansura Rewards</button></div>
-    <ol class="steps"><li><b>Join</b><span>Create a free account</span></li><li><b>Earn</b><span>${r.perPound} point per £1, ${r.birthday}× in your birthday month</span></li><li><b>Spend</b><span>${r.redeem} points = £${r.value} off</span></li></ol></div></section>
   <section style="padding-top:0"><div class="sec-head"><div><h2>Discount schemes</h2></div></div>
   <div class="schemes">${o.schemes.map(([n,how,pct])=>`<div class="scheme"><b>${pct} off</b><span>${n}</span><small>${how}</small></div>`).join('')}</div></section>
   <section style="padding-top:0"><div class="refer"><div><div class="eyebrow">Refer a friend</div><h2>Give £${o.refer.give}, get £${o.refer.get}</h2><p>Share your link. Your friend gets £${o.refer.give} off their first order over £30, and you get £${o.refer.get} when they buy.</p></div><button class="btn solid" data-acct>Get my link</button></div></section>
@@ -1726,7 +1718,7 @@ function sitemapPage(){
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Sitemap</span></nav>
   <div class="pagehead"><div><div class="eyebrow">Every page in one place</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Sitemap</h1></div><p class="lede">All ${Object.keys(CATS).length} categories, ${Object.keys(CONCERNS).length} skin and hair concerns, ${Object.keys(FAMILIES).length} scent families, ${kw.length} popular searches, ${brands.length} brands and ${P.length} products at Swansura.</p></div>
   <div class="smgrid">
-    ${col('Shop', [...Object.entries(CATS).map(([k,c])=>L('#c-'+k, c.name, P.filter(p=>inCat(p,k)).length)), L('#rituals','Routines & sets'), L('#offers','Offers & rewards'), L('#advent','Advent calendars'), L('#brands','Brands A–Z'), L('#journal','Journal'), L('#wishlist','Wishlist')])}
+    ${col('Shop', [...Object.entries(CATS).map(([k,c])=>L('#c-'+k, c.name, P.filter(p=>inCat(p,k)).length)), L('#rituals','Routines & sets'), L('#offers','Offers'), L('#advent','Advent calendars'), L('#brands','Brands A–Z'), L('#journal','Journal'), L('#wishlist','Wishlist')])}
     ${col('Shop by concern', Object.entries(CONCERNS).map(([k,c])=>L('#concern-'+k, c[0])))}
     ${col('Scent families', Object.entries(FAMILIES).map(([k,f])=>L('#scent-'+k, f[0]+' fragrances')))}
     ${col('Ranges', Object.entries(RANGES).map(([k,r])=>L('#range-'+k, r[0]+' range')))}
@@ -1778,7 +1770,7 @@ function drawerNav(){
     ${L('#c-bath-body','Bath &amp; Body')}
     ${grp('Fragrance','#c-fragrance',[['Scent family', Object.keys(FAMILIES).map(k=>L('#scent-'+k, FAMILIES[k][0])).join('')],['Houses', topBrands('scent',6).map(b=>L('#b-'+BR[b].slug, esc(b))).join('')]])}
     ${L('#rituals','Routines')}
-    ${L('#offers','Offers &amp; rewards')}
+    ${L('#offers','Offers')}
     ${grp('Gifts &amp; Sets','#c-gifts',[['Christmas 2026', L('#advent','Advent calendars')+kw(['stocking-fillers'])],['By recipient &amp; price', kw(['gifts-for-her','gifts-for-him','gifts-under-25','gifts-25-to-50'])]])}
     <a href="#advent" class="dn-advent">Advent calendars <small>Christmas 2026</small></a>
     ${L('#brands','Brands A–Z')}${L('#journal','Journal')}
@@ -1788,7 +1780,7 @@ function drawerNav(){
 function footerHTML(){
   return `<div class="wrap"><div class="cols">
     <div><a href="#home" class="logo"><img src="brand/swansura-logo-white.svg" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">Natural skincare and rare fragrance, 100% authentic and shipped from the UK.</p><ul class="fpromise"><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £50</li></ul><a class="social" href="https://www.instagram.com/swansura_thebodystudio/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@swansura_thebodystudio</a></div>
-    <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Shop</h3></summary>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#offers">Offers &amp; rewards</a><a href="#brands">Brands A–Z</a></details>
+    <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Shop</h3></summary>${Object.entries(CATS).map(([k,c])=>`<a href="#c-${k}">${c.name}</a>`).join('')}<a href="#rituals">Routines</a><a href="#offers">Offers</a><a href="#brands">Brands A–Z</a></details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Concerns</h3></summary>${Object.entries(CONCERNS).slice(0,6).map(([k,c])=>`<a href="#concern-${k}">${c[0]}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Ranges</h3></summary>${Object.entries(RANGES).map(([k,r])=>`<a href="#range-${k}">${r[0]}</a>`).join('')}</details>
     <details class="fcol"${innerWidth>720?' open':''}><summary><h3>Brands</h3></summary>${topBrands(null,8).map(b=>`<a href="#b-${BR[b].slug}">${esc(b)}</a>`).join('')}</details>
@@ -2118,7 +2110,7 @@ function shareData(route){
   if (route === 'journal'){ const img = journal().map(j => j.p).find(p => p.i0)?.i0;
     return {url: pageUrl('journal'), title: 'The Journal | Swansura', text: 'The Swansura Journal: guides to ingredients, rituals and fragrance, from choosing between Deyga and Vilvah to layering oud so it lasts all day', img}; }
   if (route === 'offers'){ const o = OFFERS, img = P.find(p => /^(Deyga|Vilvah)$/.test(p.brand) && p.available && p.i0)?.i0;
-    return {url: pageUrl('offers'), title: 'Offers & rewards | Swansura', text: `Swansura offers: surprise gifts for members, a free mini when you spend £${o.gift.min}, free UK delivery over £50, ${Math.round(RITUAL_SAVE*100)}% off routines and Swansura Rewards points on every order`, img}; }
+    return {url: pageUrl('offers'), title: 'Offers | Swansura', text: `Swansura offers: surprise gifts for members, a free mini when you spend £${o.gift.min} and free UK delivery over £50, plus ${Math.round(RITUAL_SAVE*100)}% off routines`, img}; }
   if (route === 'rituals'){ const rs = ritualsData(), img = rs.flatMap(r => r.items).find(p => p.available && p.i0)?.i0;
     return {url: pageUrl('rituals'), title: 'Routines that work together | Swansura', text: `Swansura routines: ${rs.length} step-by-step skincare, hair, body and scent routines that save ${Math.round(RITUAL_SAVE*100)}% when bought together`, img}; }
   if (/^(c|concern|scent|range|price|k)-/.test(route)){ const h1 = document.querySelector('#app h1')?.textContent.trim() || 'Swansura', n = current.length, img = current.find(p => p.available && p.i0)?.i0;
