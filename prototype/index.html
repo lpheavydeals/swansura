@@ -240,7 +240,8 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .rituals.home4{grid-template-columns:repeat(4,1fr)}@media (max-width:1100px){.rituals.home4{grid-template-columns:repeat(2,1fr)}}
 .viewall{display:flex;justify-content:center;margin-top:28px}@media (max-width:720px){.viewall{margin-top:20px}}
 /* phone-sized buttons (user, 24 Oct 2026): 44 px tall (still a comfortable tap), tighter padding and letter spacing */
-@media (max-width:600px){.btn{height:44px;padding:0 18px;font-size:12px;letter-spacing:.1em;gap:8px;white-space:nowrap}.qtyrow .btn{padding-inline:12px}.pack em{white-space:nowrap;letter-spacing:.06em;padding:2px 6px;right:6px;top:-9px}.btn.sm,.btn.small{height:38px;padding:0 14px}}
+@media (max-width:600px){.btn{height:auto;min-height:44px;padding:8px 18px;font-size:12px;letter-spacing:.1em;gap:8px;text-align:center}.qtyrow .btn{padding-inline:10px;min-width:0;letter-spacing:.06em}.pack em{white-space:nowrap;letter-spacing:.06em;padding:2px 6px;right:6px;top:-9px}.btn.sm,.btn.small{height:38px;padding:0 14px}}
+@media (max-width:400px){.qtyrow .qty{height:44px}.qtyrow .qty button{width:32px}.qtyrow .qty output{width:auto;min-width:22px}}
 
 .chips{display:flex;flex-wrap:wrap;gap:12px}
 .chip{border:1px solid var(--line);background:var(--card);padding:14px 20px;font-size:14px;display:flex;flex-direction:column;gap:2px;min-width:170px;transition:border-color .2s;text-align:left}
@@ -1464,7 +1465,7 @@ function productPage(id){
       ${chips.length?`<div class="bchips">${chips.map(c=>`<span>${icon.check}${esc(c)}</span>`).join('')}</div>`:''}
       ${packs?`<fieldset class="packs"><legend>Choose your pack</legend>${packs.map((k,i)=>`<label class="pack${k.best?' best':''}"><input type="radio" name="pack" value="${k.v}" ${i===0?'checked':''}>${k.best?'<em>Best value</em>':''}<b>${k.name}</b><span>${k.sub}</span><strong>${fmt(k.price)}</strong>${k.save?`<small>Save ${fmt(k.save)}</small>`:'<small>&nbsp;</small>'}</label>`).join('')}</fieldset>`:''}
       ${n?`<div class="notes"><div><b>Top</b>${esc(n.top||'—')}</div><div><b>Heart</b>${esc(n.heart||'—')}</div><div><b>Base</b>${esc(n.base||'—')}</div></div>`:''}
-      <div class="qtyrow"><div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button>${heartBtn(p,'big')}</div>
+      <div class="qtyrow">${p.available?`<div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div>`:''}<button class="btn solid" data-addq="${p.id}">${p.available?'Add to bag':'Notify me when back'}</button>${heartBtn(p,'big')}</div>
       ${p.available?`<button class="btn buynow" data-buynow="${p.id}">Buy it now</button>`:''}
       <div class="dispatch ${p.available?'':'out'}"><i></i>${p.available?'<b>In stock</b> · Usually dispatched within 1–2 working days from the UK':'<b>Out of stock</b> · Get an email when it is back'}</div>
       ${pair.length && p.available ? (() => { const f = pair[0], tot = p.price + f.price; return `<div class="fbt"><div class="eyebrow">Frequently bought together</div><div class="fbt-row"><a href="#p-${p.id}" aria-label="${esc(cleanTitle(p))}">${pic(p)}</a><span class="plus">+</span><a href="#p-${f.id}" aria-label="${esc(cleanTitle(f))}">${pic(f)}</a><div class="fbt-txt"><a href="#p-${f.id}">${esc(cleanTitle(f))}</a><span>${fmt(f.price)}</span></div></div><button class="btn solid" data-addall="${p.id},${f.id}">Add both · ${fmt(tot)}</button></div>`; })() : ''}
