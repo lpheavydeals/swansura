@@ -7,8 +7,8 @@ const PDP = '/products/milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbuti
 const KIT = '/products/vilvah-goat-milk-hair-kit';
 (async () => {
   const b = await chromium.launch(); const res = [];
-  const ok = (n, v, extra = '') => res.push(`${v ? 'PASS' : 'FAIL'} ${n} ${extra}`);
-  for (const w of [1366, 390]) {
+  const ok = (n, v, extra = '') => { const l = `${v ? 'PASS' : 'FAIL'} ${n} ${extra}`; res.push(l); console.log(l); }; // printed at once so a later bot-check stop keeps earlier results
+  for (const w of (process.env.WIDTHS || '1366,390').split(',').map(Number)) { // WIDTHS=390 runs the phone pass alone
     const ctx = await b.newContext({ viewport: { width: w, height: 900 } }); await ctx.route(/\.(png|jpe?g|webp|gif|svg|woff2?|mp4)(\?|$)/i, r => r.abort()); // photos/fonts aren't needed and every request counts toward Shopify's bot limit
     await curlRoute(ctx, theme); const p = await ctx.newPage();
     const errs = []; p.on('pageerror', e => errs.push(e.message));
@@ -60,5 +60,5 @@ const KIT = '/products/vilvah-goat-milk-hair-kit';
     ok(`${w} no JS errors`, errs.length === 0, errs.slice(0, 3).join(' | '));
     await ctx.close();
   }
-  console.log(res.join('\n')); await b.close();
+  console.log(`done: ${res.filter(l => l.startsWith('PASS')).length} pass, ${res.filter(l => l.startsWith('FAIL')).length} fail`); await b.close();
 })();
