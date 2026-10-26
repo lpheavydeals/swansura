@@ -134,14 +134,15 @@ nav.main .item:hover .mega,nav.main .item:focus-within .mega{display:grid}
 .hero .copy{display:flex;flex-direction:column;gap:28px}
 /* phones/tablets (user, 24 Oct 2026): product slider sits between the headline and the sub-headline */
 @media (max-width:900px){.hero .wrap{row-gap:22px}.hero .copy{display:contents}
-  .hero .copy>.eyebrow{order:1}.hero .copy>h1{order:2}.hero .stage{order:3;margin-block:6px 4px}.hero .copy>.lede{order:4}.hero .copy>.ctas{order:5}.hero .copy>.facts{order:6}}
+  .hero .copy>.eyebrow{order:1}.hero .copy>.htitle{order:2}.hero .stage{order:3;margin-block:6px 4px}.hero .copy>.lede{order:4}.hero .copy>.ctas{order:5}.hero .copy>.facts{order:6}}
 /* hero buttons on phones (user, 24 Oct 2026): side by side, same size and shape, smaller */
 @media (max-width:600px){.hero .wrap .ctas{flex-wrap:nowrap;gap:10px}.hero .wrap .ctas .btn{flex:1 1 0;min-width:0;height:40px;min-height:40px;padding:0 8px;font-size:11px;letter-spacing:.06em;gap:6px;white-space:nowrap}.hero .wrap .ctas .btn svg{width:12px;height:8px}}
 .hero .eyebrow{color:var(--gold-2);display:flex;align-items:center;gap:14px}
 .hero .eyebrow::before{content:"";width:44px;height:1px;background:currentColor}
-.hero h1{font-size:clamp(42px,5.6vw,82px);font-weight:300;line-height:1.02;letter-spacing:-.045em;color:#FBF7F0}
-.hero h1 b{font-weight:700}
-.hero h1 em{font-style:italic;font-weight:300;color:var(--gold-2)}
+.hero .htitle{font-size:clamp(42px,5.6vw,82px);font-weight:300;line-height:1.02;letter-spacing:-.045em;color:#FBF7F0;margin:0}
+.hero h1.eyebrow{font-size:12px;line-height:1.4;letter-spacing:.22em;font-weight:600;margin:0}
+.hero .htitle b{font-weight:700}
+.hero .htitle em{font-style:italic;font-weight:300;color:var(--gold-2)}
 .hero .lede{color:var(--on-dark-2);font-size:17px;max-width:46ch;line-height:1.75}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
 .btn.gold{background:var(--gold);border-color:var(--gold);color:var(--ink)}
@@ -1267,7 +1268,7 @@ function infoPage(key){
 function ritualsPage(){
   const all = ritualsData();
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Routines &amp; sets</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Routines &amp; sets</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Routines that work together</h1><div class="share dark ph"><button class="sharebtn" data-share="rituals" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${all.length} step-by-step routines built from products across our brands. Buy the full routine and save ${Math.round(RITUAL_SAVE*100)}%.</p></div>
+  <div class="pagehead"><div><div class="eyebrow">Routines &amp; sets</div><h1 data-label="Routines that work together" style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Skincare Routines That Work Together</h1><div class="share dark ph"><button class="sharebtn" data-share="rituals" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${all.length} step-by-step routines built from products across our brands. Buy the full routine and save ${Math.round(RITUAL_SAVE*100)}%.</p></div>
   ${Object.entries(RITUAL_GROUPS).map(([g,label]) => { const rs = all.filter(r=>r.g===g); return rs.length ? `<section style="padding-block:48px 8px"><div class="sec-head"><div><div class="eyebrow">${rs.length} routines</div><h2>${label}</h2></div></div><div class="rituals">${rs.map(ritualCard).join('')}</div></section>` : ''; }).join('')}
   <section><div class="sec-head"><div><h2>Ready-made kits</h2></div><a class="link" href="#c-gifts">All gifts &amp; sets</a></div>${grid(P.filter(p=>p.tags.includes('gift') && p.available).slice(0,8))}</section>
   <section style="padding-top:0"><div class="sec-head"><div><h2>Gifts by price</h2></div></div><div class="chips">${['gifts-under-25','gifts-25-to-50','gifts-over-50','gifts-for-her','gifts-for-him','diwali-gifts','ramadan-eid-gifts','stocking-fillers'].map(s=>KWBY[s]).map(k=>`<a class="chip" href="#k-${k.s}">${esc(k.k)}<small>${kwList(k).length} gifts</small></a>`).join('')}</div></section>${faqBlock('Routine questions', ritualFaq(all))}</div>`;
@@ -1406,8 +1407,8 @@ function home(){
   return `
   <section class="hero"><div class="wrap">
     <div class="copy">
-      <div class="eyebrow rise">Natural skincare · Rare fragrance</div>
-      <h1 class="rise" style="animation-delay:.08s">Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>.</h1>
+      <h1 class="eyebrow rise">Natural skincare UK · Niche perfume</h1>
+      <p class="htitle rise" style="animation-delay:.08s">Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>.</p>
       <p class="lede rise" style="animation-delay:.16s">Best-loved natural skincare and niche and designer perfume, in one UK studio. Chosen with care, 100% authentic, delivered from the UK.</p>
       <div class="ctas rise" style="animation-delay:.24s"><a class="btn gold" href="#c-skincare">Shop skincare <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4"/></svg></a><a class="btn light" href="#c-fragrance">Discover fragrance</a></div>
       <div class="facts rise" style="animation-delay:.32s"><div><b>${P.length}</b><span>Products</span></div><div><b>${new Set(P.map(p=>p.brand)).size}</b><span>Brands</span></div><div><b>100%</b><span>Authentic</span></div><div><b>£40</b><span>Free UK delivery</span></div></div>
@@ -1492,6 +1493,31 @@ function home(){
     <div class="searches">${['Skin & hair needs','Skincare','Bath & body','Fragrance','Gifts','By skin type'].map(g=>`<details${innerWidth>720?' open':''}><summary><h3>${g}</h3></summary><div>${kwLive().filter(k=>k.grp===g || (g==='Skincare'&&k.grp==='Haircare')).map(k=>`<a href="#k-${k.s}">${esc(k.k)}</a>`).join('')}</div></details>`).join('')}</div>
   </div></section>`;
 }
+/* Keyword-led H1s (26 Oct 2026). The short page name stays in the eyebrow and breadcrumb; the H1 carries
+   the page's primary keyword from seo/page_copy_keywords_2026-10-20.csv. Keyword pages (k-) already use it. */
+const LIST_H1 = {
+  'c-all':'Shop All: Ayurvedic Skincare & Perfume UK', 'c-skincare':'Natural Skincare', 'c-haircare':'Haircare: Natural Shampoo & Hair Oil',
+  'c-bath-body':'Bath & Body: Body Butter, Wash & Scrub', 'c-fragrance':'Perfume UK: Niche & Designer Fragrance', 'c-gifts':'Gifts & Skincare Gift Sets',
+  'concern-acne':'Face Wash for Oily Skin', 'concern-glow':'Face Serum for Glowing Skin', 'concern-hydration':'Moisturiser for Dry Skin',
+  'concern-lips':'Lip Care & Tinted Lip Balm', 'concern-sun':'Sunscreen SPF 50 & Sun Care', 'concern-hairfall':'Hair Growth Oil & Hair Care',
+  'concern-dandruff':'Shampoo for Dandruff', 'concern-calm':'Aloe Vera Gel & Soothing Skincare',
+  'scent-oud':'Oud Perfume UK', 'scent-amber':'Amber Perfume UK', 'scent-floral':'Floral Perfume UK', 'scent-woody':'Woody Perfume', 'scent-fresh':'Fresh & Citrus Perfume UK',
+  'range-beetroot':'Beetroot Range: Beetroot Lip Balm & More', 'range-goat-milk':'Goat Milk Range: Goat Milk Soap & More', 'range-charcoal':'Charcoal Range: Charcoal Face Wash & More',
+  'range-vitamin-c':'Vitamin C Range: Vitamin C Serum & More', 'range-rose':'Rose Range: Rose Water Toner & More', 'range-neem':'Neem Range: Toner for Oily Skin & More',
+  'range-rice-water':'Rice Water Range: Rice Water Shampoo & More', 'range-oud':'Oud Range: Oud Perfume for Men UK & More',
+  'price-0-15':'Natural Skincare Under £15', 'price-15-25':'£15 – £25: Gifts Under £25', 'price-25-50':'£25 – £50: Gifts Under £50', 'price-50-9999':'Over £50: Luxury Gifts'
+};
+const BRAND_KW = {"davidoff": "davidoff perfume", "calvin-klein": "calvin klein perfume", "coach": "coach shower gel", "dkny": "dkny perfume", "chloe": "chloe perfume", "abercrombie-fitch": "abercrombie & fitch perfume", "highborn-london": "highborn london skincare", "anatome": "anatomē perfume", "armaf": "armaf perfume", "bentley": "bentley perfume", "hugo-boss": "hugo boss perfume", "burberry": "burberry perfume", "antonio-banderas": "antonio banderas perfume", "anna-sui": "anna sui perfume", "philipp-plein": "philipp plein perfume", "john-varvatos": "john varvatos perfume", "ariana-grande": "ariana grande perfume", "hemel": "hemel perfume", "joop": "joop homme", "mancera": "mancera perfume", "montale": "montale perfume", "estee-lauder": "estee lauder perfume", "jean-paul-gaultier": "jean paul gaultier scandal gold", "serge-lutens": "serge lutens perfume", "giorgio-armani": "giorgio armani perfume", "guerlain": "guerlain perfume", "al-haramain": "al haramain amber oud", "la-maison": "la maison perfume", "gucci": "gucci perfume", "dolce-gabbana": "dolce & gabbana perfume", "chopard": "chopard perfume", "tom-ford": "tom ford perfume", "hermes": "hermes perfume", "bvlgari": "bvlgari perfume", "tiziana-terenzi": "tiziana terenzi perfume", "dior": "dior perfume", "acqua-di-parma": "acqua di parma perfume", "yves-saint-laurent": "ysl perfume", "the-woods-collection": "the woods collection perfume", "signature-d-orient": "signature d'orient perfume", "deyga": "deyga", "swansura-selection": "goat milk soap bar", "vilvah": "vilvah", "korloff": "korloff perfume", "sap": "SAP extrait de parfum", "fumeri": "Fumeri perfume", "jo-milano": "Jo Milano perfume", "nina-ricci": "Nina Ricci perfume", "paloma": "Paloma Picasso", "trussardi": "Trussardi perfume", "lancome": "Lancôme perfume", "kenneth-cole": "Kenneth Cole perfume", "juicy-couture": "Juicy Couture perfume", "jimmy-choo": "Jimmy Choo perfume", "escada": "Escada perfume", "hollister": "Hollister perfume", "givenchy": "Givenchy perfume", "dunhill": "Dunhill perfume", "etienne-aigner": "Etienne Aigner perfume", "s-t-dupont": "S.T. Dupont perfume", "shiseido": "Shiseido", "viktor-rolf": "Viktor & Rolf perfume", "marc-jacobs": "Marc Jacobs perfume", "elizabeth-arden": "Elizabeth Arden perfume", "elie-saab": "Elie Saab perfume", "carolina-herrera": "Carolina Herrera perfume"};
+const BRAND_H1 = {'deyga':'Deyga Natural Skincare', 'vilvah':'Vilvah Natural Skincare', 'swansura-selection':'Swansura Selection: Goat Milk Soap Bars & Skincare',
+  'al-haramain':'Al Haramain Perfume & Amber Oud', 'jean-paul-gaultier':'Jean Paul Gaultier Perfume & Scandal Gold', 'yves-saint-laurent':'Yves Saint Laurent (YSL) Perfume',
+  'joop':'JOOP! Homme & Perfume', 'paloma':'Paloma Picasso Perfume', 'shiseido':'Shiseido Perfume & Skincare', 'sap':'SAP Extrait de Parfum'};
+const fold = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+function brandH1(b, slug){
+  if (BRAND_H1[slug]) return BRAND_H1[slug];
+  const k = BRAND_KW[slug]; if (!k) return b;
+  if (fold(k).startsWith(fold(b))){ const rest = k.slice(b.length).trim(); return rest ? `${b} ${cap(rest)}` : b; }
+  return `${b} ${cap(k)}`;
+}
 let current = [];
 function listing(kind, key){
   let title, intro, eyebrow, list, dark = '', faq = [], crumbs = [['Home','#home']], ctxBrands = true;
@@ -1518,7 +1544,7 @@ function listing(kind, key){
   const topSubs = subs.filter(s=>s!=='More').map(s=>[s, list.filter(p=>subtype(p)===s).length]).sort((a,b)=>b[1]-a[1]).slice(0,7);
   const facet = kind==='c' && key==='fragrance' ? Object.keys(FAMILIES).map(k=>`<a href="#scent-${k}">${FAMILIES[k][0]}</a>`).join('') : kind==='c' && CATS[key].world==='skin' && key!=='all' ? Object.keys(CONCERNS).filter(k=>P.some(p=>inCat(p,key)&&p.tags.includes(k))).map(k=>`<a href="#concern-${k}">${CONCERNS[k][0]}</a>`).join('') : '';
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">${crumbs.map(c=>c[1]?`<a href="${c[1]}">${c[0]}</a><span>/</span>`:`<span style="color:var(--ink)">${c[0]}</span>`).join('')}</nav></div>
-  <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${eyebrow}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${title}</h1><div class="share dark ph"><button class="sharebtn" data-share="${kind}-${key}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${intro}</p></div>
+  <div class="wrap"><div class="pagehead ${dark?'dark oud':''}"><div><div class="eyebrow">${LIST_H1[kind+'-'+key] ? eyebrow + ' · ' + title : eyebrow}</div><h1 data-label="${esc(title)}" style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">${LIST_H1[kind+'-'+key] || title}</h1><div class="share dark ph"><button class="sharebtn" data-share="${kind}-${key}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${intro}</p></div>
   ${topSubs.length>1?`<div class="typechips" role="group" aria-label="Quick filter by type"><button data-chip="" aria-pressed="true">All ${list.length}</button>${topSubs.map(([s,c])=>`<button data-chip="${esc(s)}" aria-pressed="false">${esc(s)} <small>${c}</small></button>`).join('')}</div>`:''}
   <div class="listing">
     <aside class="filters" id="filters" aria-label="Filters">
@@ -1573,7 +1599,7 @@ function brandPage(slug){
   const heroP = current.filter(p=>p.available).slice(0,2);
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><a href="#brands">Brands</a><span>/</span><span style="color:var(--ink)">${esc(b)}</span></nav></div>
   <section style="padding-block:24px 0"><div class="wrap"><div class="story" style="background:${B.world==='skin'?'var(--emerald)':'var(--oud)'};color:var(--on-dark);padding:clamp(24px,4vw,56px)">
-    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 style="font-size:clamp(40px,5.6vw,80px)">${esc(b)}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div class="brandctas"><a class="btn light" href="#allp">Shop all ${B.count} products</a><div class="share dark"><button class="sharebtn" data-share="b-${B.slug}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></div>
+    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">${B.partner?'Official UK partner':B.world==='skin'?'The Skin Studio':'The Scent Studio'}</div><h1 data-label="${esc(b)}" style="font-size:clamp(34px,4.6vw,64px)">${esc(brandH1(b, slug))}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">${esc(B.line)}</p><p class="lede" style="color:var(--on-dark-2)">${esc(B.story)}</p><div class="brandctas"><a class="btn light" href="#allp">Shop all ${B.count} products</a><div class="share dark"><button class="sharebtn" data-share="b-${B.slug}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></div>
     <div class="imgs">${(heroP.length?heroP:current.slice(0,2)).map(p=>`<a href="#p-${p.id}">${pic(p)}</a>`).join('')}</div>
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><h2>${esc(b)} at Swansura</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="active" hidden></div><div id="results"></div></div></section>
@@ -1585,7 +1611,7 @@ function brandsAZ(){
   const groups = {}; all.forEach(n=>{ const L = n[0].toUpperCase().normalize('NFD').replace(/[^A-Z0-9]/g,'') || '#'; (groups[L]=groups[L]||[]).push(n); });
   const letters = Object.keys(groups).sort();
   return `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><span>/</span><span style="color:var(--ink)">Brands A–Z</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Every house we carry</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Brands A–Z</h1><div class="share dark ph"><button class="sharebtn" data-share="brands" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${all.length} skincare and fragrance houses, ${P.length} products. Each brand has its own page, linked from the homepage, menus and every product.</p></div>
+  <div class="pagehead"><div><div class="eyebrow">Every house we carry</div><h1 data-label="Brands A–Z" style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Perfume &amp; Skincare Brands A–Z</h1><div class="share dark ph"><button class="sharebtn" data-share="brands" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div><p class="lede">${all.length} skincare and fragrance houses, ${P.length} products. Each brand has its own page, linked from the homepage, menus and every product.</p></div>
   <div class="subnav">${letters.map(l=>`<a href="#brands" data-jump="L-${l}">${l}</a>`).join('')}</div>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px;padding-block:24px 72px">${letters.map(l=>`<div id="L-${l}"><div style="font-family:var(--display);font-weight:800;font-size:40px;border-bottom:1px solid var(--line);margin-bottom:10px">${l}</div>${groups[l].map(n=>`<a href="#b-${BR[n].slug}" style="display:flex;justify-content:space-between;gap:8px;padding:5px 0"><span>${esc(n)}${BR[n].partner?' <small style="color:var(--emerald);letter-spacing:.1em;text-transform:uppercase;font-size:10px">Official partner</small>':''}</span><small style="color:var(--ink-2)">${BR[n].count}</small></a>`).join('')}</div>`).join('')}</div>${faqBlock('Brand questions', brandsFaq(all))}</div>`;
 }
@@ -1632,7 +1658,7 @@ function productPage(id){
     <div class="gallery ${p.frames>1?'':'single'}">${p.frames>1?`<div class="thumbs">${Array.from({length:p.frames},(_,i)=>`<button data-frame="${i}" aria-current="${i===0}" aria-label="Image ${i+1} of ${p.frames}">${pic(p,i,'','',true)}</button>`).join('')}</div>`:''}<div id="mainImg">${pic(p,0,'','',true)}</div></div>
     <div class="buy">
       <div class="buyhead"><a class="brandlink" href="#b-${brandSlug(p.brand)}">${esc(p.brand)}${B.partner?' · Official UK partner':''}</a><div class="share"><button class="sharebtn" data-share="p-${p.id}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>
-      <h1>${esc(cleanTitle(p))}</h1>
+      <h1>${esc(p.h1 || cleanTitle(p))}</h1>
       <div class="reviews-line">${stars(0)}<span>No reviews yet · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">Write the first review</a></span></div>
       <div><div class="price">${fmt(p.price)}${p.compare?` <s>${fmt(p.compare)}</s> <span class="off">SAVE ${Math.round((1-p.price/p.compare)*100)}%</span>`:''}</div>${p.available?payLater(p.price):''}</div>
       ${short?`<p class="benefit">${esc(short)}${more?` <a href="#details" data-jump="details" class="readmore">Read more</a>`:''}</p>`:''}
@@ -1906,6 +1932,7 @@ function placeFaq(){
 /* ---------- Per-page SEO: title, description, canonical, Open Graph and structured data ----------
    URLs use the live store's Shopify paths so the theme can reuse the same values. */
 const SITE = 'https://www.swansura.com', SITE_NAME = 'Swansura – The Body Studio';
+const SHOP_TAIL = ' 100% authentic, shipped from the UK, free UK delivery over £40.';
 const SMALL = new Set(['for','and','of','the','under','to','in','with','a','an','or','by','at','on']);
 const cap = s => s.split(' ').map((w, i) => /^uk$/i.test(w) ? 'UK' : (i && SMALL.has(w.toLowerCase())) ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 /* description: whole sentences up to n characters, never cut mid-word */
@@ -1924,12 +1951,12 @@ function pageUrl(h){
 }
 function setMeta(h){
   h = h || 'home';
-  const app = document.getElementById('app'), h1 = app.querySelector('h1')?.textContent.trim() || 'Swansura', c = COPY[h];
+  const app = document.getElementById('app'), h1el = app.querySelector('h1'), h1 = h1el?.dataset.label || h1el?.textContent.trim() || 'Swansura', c = COPY[h];
   let m, title, desc, type = 'website', image = SITE + '/cdn/shop/files/swansura-logo.png', noindex = /^(wishlist)$/.test(h) || !!app.querySelector('[data-404]') || h1 === 'Page not found';
   const ld = [];
   if (h === 'home'){
     title = 'Swansura | Indian Natural Skincare & Niche Perfume UK';
-    desc = 'Official UK partner of Deyga & Vilvah: natural skin, hair and body care, plus niche, Arabian and designer perfume. 100% authentic, free UK delivery over £40.';
+    desc = 'Natural skincare UK from Deyga & Vilvah (official UK partner), plus niche and designer perfume. 100% authentic, free UK delivery over £40.';
     ld.push({'@type':'Organization','@id':SITE+'/#org',name:SITE_NAME,url:SITE+'/',logo:image,sameAs:['https://www.instagram.com/swansura_thebodystudio/']},
             {'@type':'WebSite','@id':SITE+'/#site',name:'Swansura',url:SITE+'/',publisher:{'@id':SITE+'/#org'},potentialAction:{'@type':'SearchAction',target:SITE+'/search?q={search_term_string}','query-input':'required name=search_term_string'}});
   } else if ((m = h.match(/^journal-(.+)$/)) && jBySlug(m[1])){
@@ -1938,18 +1965,21 @@ function setMeta(h){
     const p = byId[m[1]]; type = 'product';
     const tail = ' 100% authentic, free UK delivery over £40.';
     title = p.st || fitTitle(cleanTitle(p).toLowerCase().startsWith(p.brand.toLowerCase()) ? cleanTitle(p) : `${p.brand} ${cleanTitle(p)}`, 'Swansura UK');
-    desc = p.sd || (sentences(p.desc, 158 - tail.length) + tail);
+    const lead = `Buy ${p.h1 || cleanTitle(p)} at Swansura UK. `;
+    desc = p.sd || (lead.length + tail.length <= 158 ? (lead + sentences(p.desc, 158 - lead.length - tail.length)).trim() + tail : sentences(p.desc, 158 - tail.length) + tail);
     if (p.i0) image = p.i0;
     ld.push({'@type':'Product',name:cleanTitle(p),sku:p.id,url:pageUrl(h),image:p.i0?[p.i0]:undefined,description:summary(p.desc, 300),brand:{'@type':'Brand',name:p.brand},
       offers:{'@type':'Offer',url:pageUrl(h),priceCurrency:'GBP',price:p.price.toFixed(2),availability:'https://schema.org/'+(p.available?'InStock':'OutOfStock'),itemCondition:'https://schema.org/NewCondition',seller:{'@type':'Organization',name:SITE_NAME},
         shippingDetails:{'@type':'OfferShippingDetails',shippingDestination:{'@type':'DefinedRegion',addressCountry:'GB'}}}});
   } else {
     const name = cap(h1.charAt(0) + h1.slice(1).toLowerCase() === h1 ? h1 : h1), kw = c?.kw ? cap(c.kw) : '';
-    if (/^b-/.test(h) && BR[h1]) title = kw && kw.toLowerCase().startsWith(h1.toLowerCase()) && kw.length > h1.length ? fitTitle(kw, 'Shop at Swansura UK') : fitTitle(`${h1} – ${BR[h1].line || 'Shop the range'}`, 'Swansura UK');
+    if (/^b-/.test(h) && BR[h1]) title = fitTitle(h1el.textContent.trim(), 'Shop at Swansura UK');
     else if (!kw || kw.toLowerCase().includes(h1.toLowerCase())) title = fitTitle(kw || name, 'Shop at Swansura UK');
     else title = fitTitle(kw, name, 'Swansura');
     const intro = c ? c.blocks[0].p : (app.querySelector('.pagehead .lede, .lede, .story .lede')?.textContent || '');
     desc = sentences(intro || `${h1} at Swansura: natural skincare and fine fragrance, 100% authentic, free UK delivery over £40.`, 158);
+    if (desc.length < 120 && c) desc = sentences([intro, ...c.blocks.slice(1).map(b => b.p || '')].join(' '), 158);
+    if (desc.length < 120) desc += [SHOP_TAIL, ' 100% authentic, free UK delivery over £40.', ' Free UK delivery over £40.'].find(t => desc.length + t.length <= 158) || '';
     const items = [...app.querySelectorAll('#results .card a.media, .grid-p .card a.media')].slice(0, 24).map(a => byId[(a.getAttribute('href').match(/p-(\d+)/)||[])[1]]).filter(Boolean);
     if (items.length) ld.push({'@type':'CollectionPage',name:h1,url:pageUrl(h),description:desc,mainEntity:{'@type':'ItemList',numberOfItems:items.length,itemListElement:items.map((p,i)=>({'@type':'ListItem',position:i+1,url:pageUrl('p-'+p.id),name:cleanTitle(p)}))}});
   }
