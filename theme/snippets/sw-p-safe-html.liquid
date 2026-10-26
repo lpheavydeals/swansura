@@ -1,0 +1,16 @@
+{%- comment -%}
+  Product description for the Details accordion. Inline formatting tags (strong, b, em, i, u, font) become
+  spans, with or without attributes: browsers carry an unclosed formatting tag into every later element, and
+  removing only '</strong>' left '<strong style=…>' open on 82 products, nesting the card grids below it.
+  Usage: render 'sw-p-safe-html', html: product.description
+{%- endcomment -%}
+{%- liquid
+  assign h = html | remove: '<meta charset="utf-8">'
+  assign h = h | replace: '<strong', '<span' | replace: '</strong>', '</span>' | replace: '<STRONG', '<span' | replace: '</STRONG>', '</span>'
+  assign h = h | replace: '<b>', '<span>' | replace: '<b ', '<span ' | replace: '</b>', '</span>'
+  assign h = h | replace: '<em>', '<span>' | replace: '<em ', '<span ' | replace: '</em>', '</span>'
+  assign h = h | replace: '<i>', '<span>' | replace: '<i ', '<span ' | replace: '</i>', '</span>'
+  assign h = h | replace: '<u>', '<span>' | replace: '<u ', '<span ' | replace: '</u>', '</span>'
+  assign h = h | replace: '<font', '<span' | replace: '</font>', '</span>'
+  echo h
+-%}
