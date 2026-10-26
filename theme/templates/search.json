@@ -1,1 +1,16 @@
-{"sections":{"main":{"type":"main-search","settings":{"columns_desktop":4,"columns_mobile":"2","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_filtering":true,"filter_type":"vertical","enable_sorting":true,"article_show_date":true,"article_show_author":false,"padding_top":32,"padding_bottom":32}},"recent":{"type":"sw-recent","settings":{"heading":"Recently viewed","limit":6}}},"order":["main","recent"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-search",
+   "settings": {}
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

@@ -27,6 +27,15 @@ for line in open(ROOT / "docs/backups/products_before_day4_2026-10-26.jsonl"):
         ACTIVE.add(pid)
 
 
+def clean_ben(b):
+    """Drop benefit lines the prototype's summary() mangled: cut at an abbreviation ('Elie Saab … No.', 'S.T.'),
+    customer quotes used as product copy, and placeholder text."""
+    b = (b or "").strip()
+    if len(b) < 30 or b.endswith(" No.") or b[:1] in "\"“'‘" or "short product description" in b.lower():
+        return ""
+    return b
+
+
 def handles(ids):
     return [HANDLE[i] for i in ids if i in ACTIVE]
 
@@ -35,7 +44,7 @@ out = []
 for pid, v in D.items():
     if pid not in ACTIVE:
         continue
-    d = {"cat": v["cat"], "ben": v["ben"], "more": v["more"], "chips": v["chips"], "how": v["how"],
+    d = {"cat": v["cat"], "ben": clean_ben(v["ben"]), "more": v["more"], "chips": v["chips"], "how": v["how"],
          "pair": handles(v["pair"]), "sim": handles(v["sim"]),
          "kw": [[k, link(k, "#" + r)["url"]] for k, r in v["kw"]]}
     out.append({"ownerId": f"gid://shopify/Product/{pid}", "namespace": "custom", "key": "pdp", "type": "json",

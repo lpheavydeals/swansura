@@ -147,3 +147,44 @@ write("list-collections.json", {"main": {"type": "sw-p-brands", "settings": {}},
                                 "faq": FAQ_PAGE(fh, fq)}, ["main", "seo", "newsletter", "faq"])
 
 write("404.json", {"main": {"type": "sw-p-404", "settings": {}}, "newsletter": NEWS}, ["main", "newsletter"])
+
+# Advent page (adventPage()): header, calendar cards + perks + doors, newsletter, FAQs.
+# Prices / 'worth' only once a calendar product exists; FAQ answers avoid unconfirmed prices and stock claims.
+home_adv = next(v for v in json.loads((T / "index.json").read_text())["sections"].values() if v["type"] == "sw-p-advents")
+old_adv = json.loads((T / "page.advent.json").read_text())["sections"].get("advent", {}).get("blocks", {})
+blocks = {}
+for k, b in home_adv["blocks"].items():
+    st = dict(b["settings"])
+    st["inside_url"] = f"#{st['kind']}"
+    contents = (old_adv.get(k) or old_adv.get(st["kind"]) or {}).get("settings", {}).get("contents")
+    if contents:
+        st["contents"] = contents
+    blocks[k] = {"type": "advent", "settings": st}
+adv_faq = {f"q{i}": {"type": "faq", "settings": {"q": q, "a": f"<p>{a}</p>"}} for i, (q, a) in enumerate([
+    ("What is the difference between the two calendars?", "The Skin Studio Advent has 12 natural skin, lip and body products from Deyga and Vilvah. The Scent Studio Advent has 12 designer and niche fragrance miniatures."),
+    ("Are the products full size?", "The Skin Studio Advent is mostly full-size lip, soap and skincare favourites. The Scent Studio Advent is fragrance miniatures."),
+    ("Is it a good gift?", "Yes. Each calendar arrives gift-ready, and it is a good way to try a brand or fragrance before buying the full size."),
+    ("When can I buy one?", "The calendars are coming soon for Christmas 2026. Sign up to the Studio Letter to hear when they launch."),
+])}
+write("page.advent.json", {
+    "head": {"type": "sw-p-page", "settings": {"eyebrow": "Christmas 2026", "heading": "Two calendars. Twelve days of rituals.", "show_content": False,
+                                               "share": True, "share_text": "Two advent calendars at Swansura: 12 days of natural skincare or 12 fragrance miniatures",
+                                               "lede": "<p>Choose the Skin Studio for natural skin and body care, or the Scent Studio for fragrance miniatures.</p>"}},
+    "advent": {"type": "sw-p-advents", "settings": {"layout": "page", "more_collection": "stocking-fillers"}, "blocks": blocks, "block_order": list(blocks)},
+    "newsletter": NEWS, "faq": FAQ_PAGE("Advent calendar questions", adv_faq)}, ["head", "advent", "newsletter", "faq"])
+
+# Sitemap (sitemapPage()): link columns from the prototype, Journal, brands with products
+sm = dump("sitemap", "00_")
+cols = {}
+for i, (head, body) in enumerate(re.findall(r'<section class="smcol"><h2>(.*?)</h2>(.*?)</section>', sm, re.S)):
+    head = H.unescape(head)
+    if head == "Journal":
+        continue
+    links = [f"{H.unescape(re.sub(r'<small>.*?</small>', '', t)).strip()}|{route_url(h)}" for h, t in re.findall(r'<a href="#([^"]+)">(.*?)</a>', body)]
+    cols[f"c{i}"] = {"type": "col", "settings": {"heading": head, "links": "\n".join(links), "counts": "<small>" in body}}
+write("page.sitemap.json", {"main": {"type": "sw-p-sitemap", "settings": {"blog": "journal"}, "blocks": cols, "block_order": list(cols)},
+                            "newsletter": NEWS}, ["main", "newsletter"])
+
+# Bag page (the drawer inline) and search results
+write("cart.json", {"main": {"type": "sw-p-cart", "settings": {}}}, ["main"])
+write("search.json", {"main": {"type": "sw-p-search", "settings": {}}, "newsletter": NEWS}, ["main", "newsletter"])

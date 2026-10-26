@@ -1,1 +1,139 @@
-{"sections":{"head":{"type":"sw-page","settings":{"eyebrow":"Find anything","tone":"auto","show_content":true,"map":"fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product"}},"map":{"type":"sw-sitemap","settings":{}}},"order":["head","map"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-sitemap",
+   "settings": {
+    "blog": "journal"
+   },
+   "blocks": {
+    "c0": {
+     "type": "col",
+     "settings": {
+      "heading": "Shop",
+      "links": "All products|/collections/all\nSkincare|/collections/skincare\nHaircare|/collections/haircare\nBath & Body|/collections/bodycare\nFragrance|/collections/fragrance\nGifts & Sets|/collections/sets-combos\nRoutines & sets|/pages/rituals\nOffers|/pages/offers\nAdvent calendars|/pages/advent\nBrands A–Z|/collections\nJournal|/blogs/journal\nWishlist|/pages/wishlist",
+      "counts": true
+     }
+    },
+    "c1": {
+     "type": "col",
+     "settings": {
+      "heading": "Shop by concern",
+      "links": "Acne & oil control|/collections/concern-acne\nGlow & even tone|/collections/concern-glow\nDeep hydration|/collections/concern-hydration\nLip care|/collections/concern-lips\nSun care|/collections/concern-sun\nHair fall|/collections/concern-hairfall\nDandruff|/collections/concern-dandruff\nCalm & sleep|/collections/concern-calm",
+      "counts": false
+     }
+    },
+    "c2": {
+     "type": "col",
+     "settings": {
+      "heading": "Scent families",
+      "links": "Oud fragrances|/collections/scent-oud\nAmber fragrances|/collections/scent-amber\nFloral fragrances|/collections/scent-floral\nWoody fragrances|/collections/scent-woody\nFresh fragrances|/collections/scent-fresh",
+      "counts": false
+     }
+    },
+    "c3": {
+     "type": "col",
+     "settings": {
+      "heading": "Ranges",
+      "links": "Beetroot range|/collections/range-beetroot\nGoat milk range|/collections/range-goat-milk\nCharcoal range|/collections/range-charcoal\nVitamin C range|/collections/range-vitamin-c\nRose range|/collections/range-rose\nNeem & tea tree range|/collections/range-neem\nRice water range|/collections/range-rice-water\nOud range|/collections/range-oud",
+      "counts": false
+     }
+    },
+    "c4": {
+     "type": "col",
+     "settings": {
+      "heading": "Shop by price",
+      "links": "Under £15|/collections/price-0-15\n£15 – £25|/collections/price-15-25\n£25 – £50|/collections/price-25-50\n£50 and over|/collections/price-50-9999",
+      "counts": false
+     }
+    },
+    "c5": {
+     "type": "col",
+     "settings": {
+      "heading": "Bath & body",
+      "links": "Body butter|/collections/body-butter\nShower gel & body wash|/collections/shower-gel-body-wash\nBody lotion|/collections/body-lotion\nBody scrub|/collections/body-scrub\nNatural deodorant|/collections/deodrants",
+      "counts": false
+     }
+    },
+    "c6": {
+     "type": "col",
+     "settings": {
+      "heading": "Skincare",
+      "links": "Face wash & cleanser|/collections/cleanser\nVitamin C serum|/collections/vitamin-c-serum\nFace serum|/collections/serum\nFace moisturiser|/collections/moisturizers-gels\nSunscreen & SPF|/collections/sunscreen\nFace mask|/collections/face-mask-pack\nToner & face mist|/collections/toner\nLip balm & lip care|/collections/lip-balm\nUnder eye cream|/collections/eye-cream",
+      "counts": false
+     }
+    },
+    "c7": {
+     "type": "col",
+     "settings": {
+      "heading": "Haircare",
+      "links": "Shampoo|/collections/shampoo\nConditioner|/collections/conditioner\nHair oil|/collections/hair-oil",
+      "counts": false
+     }
+    },
+    "c8": {
+     "type": "col",
+     "settings": {
+      "heading": "Skin & hair needs",
+      "links": "Moisturiser for dry skin|/collections/moisturiser-for-dry-skin\nHair mask for dry hair|/collections/hair-mask-for-dry-hair\nHair oil for dry hair|/collections/hair-oil-for-dry-hair\nFace wash for dry skin|/collections/face-wash-for-dry-skin\nFace wash for oily skin|/collections/face-wash-for-oily-skin\nShampoo for dandruff|/collections/shampoo-for-dandruff\nBody lotion for dry skin|/collections/body-lotion-for-dry-skin\nHair serum for frizzy hair|/collections/hair-serum-for-frizzy-hair\nLip balm for dry lips|/collections/lip-balm-for-dry-lips\nToner for dry skin|/collections/toner-for-dry-skin\nNatural sunscreen|/collections/natural-sunscreen\nNatural shampoo|/collections/natural-shampoo\nBody butter for dry skin|/collections/body-butter-for-dry-skin\nHair growth oil|/collections/hair-growth-oil\nFace mask for oily skin|/collections/face-mask-for-oily-skin\nLip scrub|/collections/lip-scrub\nShampoo for hair loss|/collections/shampoo-for-hair-loss",
+      "counts": false
+     }
+    },
+    "c9": {
+     "type": "col",
+     "settings": {
+      "heading": "By skin type",
+      "links": "Skincare for dry skin|/collections/dry-skin\nSkincare for oily & acne-prone skin|/collections/oily-skin\nSkincare for sensitive skin|/collections/sensitive-skin\nSkincare for dull skin|/collections/dull-skin\nHair fall treatment|/collections/hair-fall\nNatural skincare|/collections/natural-skincare",
+      "counts": false
+     }
+    },
+    "c10": {
+     "type": "col",
+     "settings": {
+      "heading": "Fragrance",
+      "links": "Oud perfume|/collections/oud-perfume\nArabian perfume|/collections/arabian-perfume\nPerfume for women|/collections/perfume-for-women\nPerfume for men|/collections/perfume-for-men\nUnisex perfume|/collections/unisex-perfume\nNiche perfume|/collections/niche-perfume\nPerfume gift sets|/collections/perfume-gift-sets\nTravel size & mini perfumes|/collections/travel-size-minis",
+      "counts": false
+     }
+    },
+    "c11": {
+     "type": "col",
+     "settings": {
+      "heading": "Gifts",
+      "links": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nGifts under £25|/collections/gifts-under-25\nGifts £25 to £50|/collections/gifts-25-to-50\nLuxury gifts over £50|/collections/gifts-over-50\nDiwali gifts|/collections/diwali-gifts\nRamadan & Eid gifts|/collections/ramadan-eid-gifts\nChristmas gifts|/collections/christmas-gifts\nStocking fillers|/collections/stocking-fillers\nMen's grooming|/collections/mens-grooming",
+      "counts": false
+     }
+    },
+    "c13": {
+     "type": "col",
+     "settings": {
+      "heading": "Help & policies",
+      "links": "About us|/pages/about\nContact|/pages/contact\nFAQ|/pages/faq\nDelivery & returns|/pages/shipping\nShipping policy|/pages/shipping\nRefund policy|/policies/refund-policy\nPrivacy policy|/policies/privacy-policy\nTerms of service|/policies/terms-of-service",
+      "counts": false
+     }
+    }
+   },
+   "block_order": [
+    "c0",
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7",
+    "c8",
+    "c9",
+    "c10",
+    "c11",
+    "c13"
+   ]
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

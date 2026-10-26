@@ -1,1 +1,11 @@
-{"sections":{"goal":{"type":"sw-cart-goal","settings":{}},"cart-items":{"type":"main-cart-items","settings":{"color_scheme":"scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e","padding_top":16,"padding_bottom":24}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{"color_scheme":"scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e","padding_top":20,"padding_bottom":40}},"recent":{"type":"sw-recent","settings":{"heading":"Recently viewed","limit":6}}},"order":["goal","cart-items","cart-footer","recent"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-cart",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main"
+ ]
+}

@@ -1,0 +1,26 @@
+{%- comment -%}
+  Search results page (/search), in the prototype's listing style: breadcrumbs, page header with the search box,
+  product cards (sw-p-card) 24 per page, then matching pages and articles. The header search overlay
+  (sw-proto.js) covers live search; this page is for full results and no-JS visitors.
+{%- endcomment -%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">Search</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Search</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{%- if search.performed -%}Results for “{{ search.terms | escape }}”{%- else -%}Search the Studio{%- endif -%}</h1></div>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="cform" style="max-width:520px"><label class="full">Search products, brands and concerns<input type="search" name="q" value="{{ search.terms | escape }}" autocomplete="off"></label><input type="hidden" name="options[prefix]" value="last"><button class="btn p-light" type="submit">Search</button></form></div>
+  {%- if search.performed -%}
+    {%- paginate search.results by 24 -%}
+      {%- assign prods = search.results | where: 'object_type', 'product' -%}
+      {%- assign others = search.results | where: 'object_type', 'page' -%}
+      {%- assign arts = search.results | where: 'object_type', 'article' -%}
+      <section style="padding-top:24px"><div class="sec-head"><div><h2>{{ search.results_count }} result{% if search.results_count != 1 %}s{% endif %}</h2></div></div>
+        {%- if prods.size > 0 -%}<div class="grid-p">{%- for p in prods -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div>{%- endif -%}
+        {%- if others.size > 0 or arts.size > 0 -%}<div class="kwchips" style="margin-top:32px"><span class="eyebrow">Pages and stories</span><div>{%- for x in others -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}{%- for x in arts -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
+        {%- if search.results_count == 0 -%}<p class="lede" style="padding:40px 0">Nothing matched “{{ search.terms | escape }}”. Try a brand, a product type or a concern, or browse <a href="{{ routes.all_products_collection_url }}" style="text-decoration:underline">all products</a>.</p>{%- endif -%}
+        {%- if paginate.pages > 1 -%}<div class="more">{{ paginate | default_pagination }}</div>{%- endif -%}
+      </section>
+    {%- endpaginate -%}
+  {%- endif -%}
+</div></div>
+
+{% schema %}
+{ "name": "Swansura search", "settings": [] }
+{% endschema %}

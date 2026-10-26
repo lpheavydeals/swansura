@@ -302,7 +302,7 @@
     "layout": "steps",
     "heading": "Four steps, one ritual",
     "link_label": "Ready-made routines",
-    "link_url": "/collections/sets-combos"
+    "link_url": "/pages/rituals"
    },
    "blocks": {
     "t0": {
@@ -358,7 +358,7 @@
    "settings": {
     "heading": "Most loved routines",
     "all_label": "View all 16 routines",
-    "all_url": "/collections/sets-combos",
+    "all_url": "/pages/rituals",
     "discount_live": false,
     "save_pct": 5
    },
@@ -924,8 +924,12 @@
    "settings": {
     "eyebrow": "About this page",
     "heading": "Natural skincare in the UK from Deyga and Vilvah, plus fine fragrance",
-    "text": "<p>Swansura is the UK home of natural skincare from Indian brands Deyga and Vilvah, and for niche, Arabian and designer fragrance. We bring both brands to your door, alongside 357 perfumes from around the world. Swansura is an official UK partner of Deyga and Vilvah, every product is 100% authentic, and every order ships from the UK.</p><h3>Indian natural care, made simple</h3><p>Deyga and Vilvah build their products on plant oils, milks, clays and traditional herbs such as neem, amla, bhringraj and turmeric. Try Vilvah Goat Milk Shampoo, Deyga Rice Water Shampoo or the Hair Growth Oils if you want a natural shampoo UK delivery can bring quickly, or start your face with a gentle wash, a serum and a moisturiser. Lip balms, bath bars, body butters and face packs complete the range. This is natural skincare made for everyday use, and many products draw on Ayurvedic tradition, so it is a good place to begin if you want Ayurvedic skincare in the UK without the wait. Browse <a href=\"/collections/skincare\">Skincare</a> or shop by concern, such as <a href=\"/collections/concern-hydration\">deep hydration</a>.</p><h3>Fragrance from three worlds</h3><p>Our fragrance shelf mixes designer houses such as Gucci, Chloé, Dolce &amp; Gabbana and Calvin Klein with Arabian perfumers such as Al Haramain, Hemel and Signature D'orient, and niche names such as Tiziana Terenzi and Jo Milano. If you are looking for oud perfume, our <a href=\"/collections/scent-oud\">oud fragrances</a> bring the smoky, resinous side together. Miniatures and discovery sets help you try before you commit.</p><h3>Routines, gifts and delivery</h3><p>Not sure where to start? Our <a href=\"/collections/sets-combos\">routines and sets</a> pair two or three products in the right order, and kits from Deyga, Vilvah and Highborn London make an easy skincare gift set. Every order over £40 travels free across the UK, which makes us an easy choice for natural skincare in the UK. Shop by concern, by scent family or by price, and find the products that suit you.</p>"
+    "text": "<p>Swansura is the UK home of natural skincare from Indian brands Deyga and Vilvah, and for niche, Arabian and designer fragrance. We bring both brands to your door, alongside 357 perfumes from around the world. Swansura is an official UK partner of Deyga and Vilvah, every product is 100% authentic, and every order ships from the UK.</p><h3>Indian natural care, made simple</h3><p>Deyga and Vilvah build their products on plant oils, milks, clays and traditional herbs such as neem, amla, bhringraj and turmeric. Try Vilvah Goat Milk Shampoo, Deyga Rice Water Shampoo or the Hair Growth Oils if you want a natural shampoo UK delivery can bring quickly, or start your face with a gentle wash, a serum and a moisturiser. Lip balms, bath bars, body butters and face packs complete the range. This is natural skincare made for everyday use, and many products draw on Ayurvedic tradition, so it is a good place to begin if you want Ayurvedic skincare in the UK without the wait. Browse <a href=\"/collections/skincare\">Skincare</a> or shop by concern, such as <a href=\"/collections/concern-hydration\">deep hydration</a>.</p><h3>Fragrance from three worlds</h3><p>Our fragrance shelf mixes designer houses such as Gucci, Chloé, Dolce &amp; Gabbana and Calvin Klein with Arabian perfumers such as Al Haramain, Hemel and Signature D'orient, and niche names such as Tiziana Terenzi and Jo Milano. If you are looking for oud perfume, our <a href=\"/collections/scent-oud\">oud fragrances</a> bring the smoky, resinous side together. Miniatures and discovery sets help you try before you commit.</p><h3>Routines, gifts and delivery</h3><p>Not sure where to start? Our <a href=\"/pages/rituals\">routines and sets</a> pair two or three products in the right order, and kits from Deyga, Vilvah and Highborn London make an easy skincare gift set. Every order over £40 travels free across the UK, which makes us an easy choice for natural skincare in the UK. Shop by concern, by scent family or by price, and find the products that suit you.</p>"
    }
+  },
+  "seen": {
+   "type": "sw-p-seen",
+   "settings": {}
   }
  },
  "order": [
@@ -943,6 +947,7 @@
   "advent",
   "story_deyga",
   "story_vilvah",
+  "seen",
   "xmas",
   "journal",
   "newsletter",

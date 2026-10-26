@@ -52,9 +52,10 @@
     const inBag = new Set(cart.items.map(i => i.variant_id));
     const extras = (cfg.extras || []).filter(x => !inBag.has(x.id)).sort((a, b) => a.price - b.price).slice(0, 6);
     const lines = cart.items.length ? cart.items.map(l => `<div class="line${l.variant_id == justAdded ? ' just' : ''}">${pic(l.image, l.product_title)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-ink)">${esc(l.vendor)}</div><a href="${esc(l.url)}" data-close>${esc(l.product_title)}${l.variant_title && !/default/i.test(l.variant_title) ? ' · ' + esc(l.variant_title) : ''}</a><div class="bq"><div class="qty sm"><button data-bq="${esc(l.key)}|${l.quantity - 1}" aria-label="Decrease quantity">−</button><span>${l.quantity}</span><button data-bq="${esc(l.key)}|${l.quantity + 1}" aria-label="Increase quantity">+</button></div><button class="rm" data-bq="${esc(l.key)}|0">Remove</button></div></div><div>${money(l.final_line_price)}</div></div>`).join('')
-      : `<div class="bag-empty"><p>Your bag is empty.</p><a class="btn solid" href="/collections/all" data-close>Shop bestsellers</a><a class="p-link" href="/collections/sets-combos" data-close>Or start with a routine</a></div>`;
+      : `<div class="bag-empty"><p>Your bag is empty.</p><a class="btn solid" href="/collections/all" data-close>Shop bestsellers</a><a class="p-link" href="/pages/rituals" data-close>Or start with a routine</a></div>`;
     const discount = cart.total_discount > 0 ? `<div style="display:flex;justify-content:space-between;font-size:14px;color:var(--emerald)"><span>Savings</span><b>−${money(cart.total_discount)}</b></div>` : '';
-    openLayer(`<div class="scrim" data-close></div>
+    const page = $('#bagPage');
+    (page ? h => { page.innerHTML = h.replace(/^<div class="scrim" data-close><\/div>\s*/, '').replace('role="dialog" aria-modal="true"', 'role="region"'); } : openLayer)(`<div class="scrim" data-close></div>
   <div class="bag" role="dialog" aria-modal="true" aria-label="Your bag">
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
     <div class="lines">${lines}</div>
@@ -324,6 +325,22 @@
     Promise.all(list.map(h => fetch(`/products/${encodeURIComponent(h)}?section_id=sw-p-card-one`).then(r => r.ok ? r.text() : '').catch(() => '')))
       .then(hs => { const html = hs.map(h => { const m = h.match(/<article[\s\S]*<\/article>/); return m ? m[0] : ''; }).join('');
         if (html) { g.innerHTML = html; g.hidden = false; empty.hidden = true; syncHearts(); } });
+  })();
+
+  /* ---------- advent doors (adventPage()): opened doors are remembered in this browser ---------- */
+  (() => {
+    if (!$('[data-door]')) return;
+    let opened = store.get('swansura-advent', {});
+    const paint = d => { const on = !!opened[d.dataset.door], t = d.querySelector('template');
+      if (on && !d.classList.contains('open')) { d.dataset.closed = d.dataset.closed || d.innerHTML.replace(/<template[\s\S]*<\/template>/, ''); d.innerHTML = t.innerHTML + t.outerHTML; d.classList.add('open'); d.setAttribute('aria-label', d.dataset.label); }
+      else if (!on && d.classList.contains('open')) { d.innerHTML = d.dataset.closed + t.outerHTML; d.classList.remove('open'); d.setAttribute('aria-label', d.dataset.label.split(':')[0]); } };
+    $$('[data-door]').forEach(paint);
+    document.addEventListener('click', e => {
+      const d = e.target.closest('[data-door]'); if (d) { opened[d.dataset.door] = !opened[d.dataset.door]; store.set('swansura-advent', opened); paint(d); return; }
+      const r = e.target.closest('[data-revealall]'); if (!r) return;
+      const ds = $$(`[data-doors="${r.dataset.revealall}"] [data-door]`), all = ds.every(x => opened[x.dataset.door]);
+      ds.forEach(x => { opened[x.dataset.door] = !all; paint(x); }); store.set('swansura-advent', opened);
+    });
   })();
 
   syncHearts(); getCart().catch(() => {});

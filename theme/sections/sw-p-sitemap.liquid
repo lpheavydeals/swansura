@@ -1,0 +1,57 @@
+{%- comment -%}
+  HTML sitemap, prototype markup (sitemapPage()): page header, link columns (blocks: heading + 'Label|url' lines;
+  collection links show their live product count), Journal articles, then every brand (collections with
+  custom.brand) with its products. Brands show up to 50 products here; their page lists the rest.
+{%- endcomment -%}
+{%- paginate collections by 250 -%}
+{%- liquid
+  assign names = ''
+  assign nb = 0
+  assign np = collections.all.products_count
+  for c in collections
+    assign b = c.metafields.custom.brand.value
+    if b != blank
+      assign key = b.name | downcase | replace: 'ē', 'e' | replace: 'è', 'e' | replace: 'é', 'e'
+      assign names = names | append: key | append: '|' | append: c.handle | append: '~'
+      assign nb = nb | plus: 1
+    endif
+  endfor
+  assign rows = names | split: '~' | sort
+-%}
+{%- endpaginate -%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">Sitemap</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{{ page.title | default: 'Sitemap' | escape }}</h1></div><p class="lede">Every category, concern, scent family, popular search, {{ nb }} brands and {{ np }} products at Swansura.</p></div>
+  <div class="smgrid">
+    {%- for block in section.blocks -%}
+      {%- assign lines = block.settings.links | newline_to_br | split: '<br />' -%}
+      <section class="smcol" {{ block.shopify_attributes }}><h2>{{ block.settings.heading | escape }}</h2>
+        {%- for line in lines -%}{%- assign kv = line | strip | split: '|' -%}{%- if kv.size == 2 -%}{%- assign u = kv[1] | strip -%}{%- assign n = blank -%}
+          {%- if block.settings.counts and u contains '/collections/' -%}{%- assign hd = u | remove: '/collections/' | split: '?' | first -%}{%- assign n = collections[hd].products_count -%}{%- endif -%}
+          <a href="{{ u }}">{{ kv[0] | strip | escape }}{% if n != blank and block.settings.counts %} <small>{{ n }}</small>{% endif %}</a>
+        {%- endif -%}{%- endfor -%}
+      </section>
+    {%- endfor -%}
+    {%- assign jb = blogs[section.settings.blog] -%}
+    {%- if jb != blank -%}<section class="smcol"><h2>{{ jb.title | escape }}</h2><a href="{{ jb.url }}">All stories</a>{%- for a in jb.articles limit: 50 -%}<a href="{{ a.url }}">{{ a.title | escape }}</a>{%- endfor -%}</section>{%- endif -%}
+  </div>
+  <section class="smbrands"><h2>Brands and their products</h2>
+    {%- for r in rows -%}{%- assign hd = r | split: '|' | last -%}{%- assign c = collections[hd] -%}{%- assign b = c.metafields.custom.brand.value -%}
+      <details><summary><a href="{{ c.url }}">{{ b.name | escape }}</a> <small>{{ c.products_count }} product{% if c.products_count != 1 %}s{% endif %}</small></summary><div class="smprod">{%- for p in c.products -%}<a href="{{ p.url }}">{{ p.title | split: ' – ' | first | split: ' | ' | first | escape }}</a>{%- endfor -%}{%- if c.products_count > 50 -%}<a href="{{ c.url }}">All {{ c.products_count }} {{ b.name | escape }} products</a>{%- endif -%}</div></details>
+    {%- endfor -%}
+  </section>
+</div></div>
+
+{% schema %}
+{
+  "name": "Swansura sitemap",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Every page in one place" },
+    { "type": "blog", "id": "blog", "label": "Journal" }
+  ],
+  "blocks": [ { "type": "col", "name": "Column", "settings": [
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "textarea", "id": "links", "label": "Links (Label|url per line)" },
+    { "type": "checkbox", "id": "counts", "label": "Show product counts", "default": false }
+  ] } ]
+}
+{% endschema %}

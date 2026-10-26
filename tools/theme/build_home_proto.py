@@ -255,6 +255,9 @@ body = re.search(r'<div class="txt">(.*?)</div></div></section>', html, re.S).gr
 body = re.sub(r'href="#([^"]+)"', lambda m: f'href="{u(m.group(1))}"', body)
 add("seo", {"type": "sw-p-seocopy", "settings": {"eyebrow": "About this page", "heading": text(re.search(r"<h2[^>]*>(.*?)</h2>", html).group(1)), "text": body}})
 
+# 'Picking up where you left off' sits after the brand stories, before the Christmas banner (shown once there is history)
+sections["seen"] = {"type": "sw-p-seen", "settings": {}}
+order.insert(order.index("xmas"), "seen")
 json.dump({"sections": sections, "order": order}, open(ROOT / "theme/templates/index.json", "w"), ensure_ascii=False, indent=1)
 
 # header group: announcement bar + Swansura header (prototype markup); Dawn's header is no longer used

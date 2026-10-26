@@ -1,0 +1,9 @@
+{%- comment -%} Bag page (/cart): the prototype's bag drawer rendered inline by sw-proto.js (#bagPage), with a no-JS fallback list. {%- endcomment -%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">Bag</span></nav>
+  <h1 class="visually-hidden">Your bag</h1><div id="bagPage"><noscript><div class="pagebody">{%- if cart.item_count > 0 -%}<ul>{%- for l in cart.items -%}<li><a href="{{ l.url }}">{{ l.product.title | escape }}</a> × {{ l.quantity }} · {{ l.final_line_price | money }}</li>{%- endfor -%}</ul><p>Subtotal {{ cart.total_price | money }}</p><a class="btn solid" href="{{ routes.root_url }}checkout">Checkout securely</a>{%- else -%}<p>Your bag is empty.</p>{%- endif -%}</div></noscript></div>
+</div></div>
+<script>document.addEventListener('DOMContentLoaded', () => { const b = document.getElementById('openBag'); if (b) b.click(); });</script>
+
+{% schema %}
+{ "name": "Swansura bag page", "settings": [] }
+{% endschema %}

@@ -69,6 +69,9 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .cform input:focus,.swp .cform textarea:focus{outline:2px solid var(--emerald);outline-offset:1px}
 .swp .cform .btn{justify-self:start}
 .swp .okmsg{color:var(--emerald)}.swp .errmsg{color:var(--sale)}
+/* the bag drawer shown inline on the /cart page */
+.swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
+.swp #bagPage .bag .bag-head button{display:none}
 """
 
 
