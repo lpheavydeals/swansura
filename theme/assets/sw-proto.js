@@ -45,7 +45,7 @@
   async function change(key, quantity) {
     await fetch('/cart/change.js', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ id: key, quantity }) });
   }
-  const pic = (src, alt) => src ? `<img class="pic" src="${esc(src)}${src.includes('?') ? '&' : '?'}width=200" alt="${esc(alt)}" loading="lazy" width="200" height="250">` : '<div class="pic"></div>';
+  const pic = (src, alt) => src ? `<img class="pic" src="${esc(src)}${src.includes('?') ? '&' : '?'}width=200" alt="${esc(alt)}" width="200" height="250">` : '<div class="pic"></div>';
   async function openBag(justAdded) {
     await getCart();
     const total = cart.total_price / 100, ng = nextGoal(total);
@@ -135,6 +135,107 @@
   (() => { const b = $('#chatBtn'), p = $('#chatPanel'); if (!b || !p) return; const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
     b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden) { set(false); b.focus(); } }); })();
+
+  /* ---------- share (shareMenu() in the prototype): native sheet on touch devices, else a menu ---------- */
+  let shareOwner = null;
+  const closeShares = () => { $$('.sharemenu').forEach(m => m.remove()); $$('[data-share][aria-expanded="true"]').forEach(b => b.setAttribute('aria-expanded', 'false')); shareOwner = null; };
+  function placeShare(mn, b) { const bt = b.getBoundingClientRect(), r = mn.getBoundingClientRect(), gap = 8;
+    let left = b.closest('.share.dark') ? bt.left : bt.right - r.width; left = Math.max(12, Math.min(left, innerWidth - r.width - 12));
+    let top = bt.bottom + gap; if (top + r.height > innerHeight - 8 && bt.top - r.height - gap > 8) top = bt.top - r.height - gap;
+    mn.style.left = left + 'px'; mn.style.top = top + 'px'; }
+  const reShare = () => { const m = $('.sharemenu'); if (shareOwner && m) { if (!document.contains(shareOwner)) closeShares(); else placeShare(m, shareOwner); } };
+  addEventListener('scroll', reShare, { passive: true }); addEventListener('resize', reShare);
+  document.addEventListener('click', async e => {
+    const b = e.target.closest('[data-share]');
+    if (b) { const url = new URL(b.dataset.share || location.pathname, location.origin).href, d = { url, title: b.dataset.shareTitle || document.title, text: b.dataset.shareText || document.title, img: b.dataset.shareImg || '' };
+      if (navigator.share && matchMedia('(pointer:coarse)').matches) { try { await navigator.share({ title: d.title, text: d.text, url: d.url }); return; } catch (err) { if (err && err.name === 'AbortError') return; } }
+      const open = shareOwner !== b; closeShares();
+      if (open) { const u = encodeURIComponent(d.url), t = encodeURIComponent(d.text);
+        const opts = [['WhatsApp', `https://wa.me/?text=${t}%20${u}`], ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`], ['Pinterest', `https://pinterest.com/pin/create/button/?url=${u}&media=${encodeURIComponent(d.img)}&description=${t}`], ['X', `https://x.com/intent/post?text=${t}&url=${u}`], ['Email', `mailto:?subject=${encodeURIComponent(d.title)}&body=${t}%0A${u}`]];
+        ($('.swp-fixed') || document.body).insertAdjacentHTML('beforeend', `<div class="sharemenu" role="menu" aria-label="Share this page">${opts.map(([n, h]) => `<a role="menuitem" href="${h}" target="_blank" rel="noopener">${n}</a>`).join('')}<button role="menuitem" data-sharecopy="${esc(d.url)}">Copy link</button><p class="sharelink">${esc(d.url)}</p></div>`);
+        const mn = $('.sharemenu'); placeShare(mn, b); shareOwner = b; mn.querySelector('[role=menuitem]').focus({ preventScroll: true }); }
+      b.setAttribute('aria-expanded', open); return; }
+    const c = e.target.closest('[data-sharecopy]');
+    if (c) { try { await navigator.clipboard.writeText(c.dataset.sharecopy); c.textContent = 'Link copied'; } catch (err) { const r = document.createRange(), l = c.parentElement.querySelector('.sharelink'); r.selectNodeContents(l); getSelection().removeAllRanges(); getSelection().addRange(r); c.textContent = 'Press Ctrl+C to copy'; } return; }
+    if (!e.target.closest('.share,.sharemenu')) closeShares();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && shareOwner) { const b = shareOwner; closeShares(); b.focus(); } });
+
+  /* ---------- listing filters, sort and paging (listing() / applyFilters() in the prototype) ---------- */
+  (() => {
+    const root = $('[data-listing]'); if (!root) return;
+    const pool = $('#sw-pool'), PAGE = 24, brandMode = 'brand' in root.dataset;
+    const CONCERNS = { acne: 'Acne & oil control', glow: 'Glow & even tone', hydration: 'Deep hydration', lips: 'Lip care', sun: 'Sun care', hairfall: 'Hair fall', dandruff: 'Dandruff', calm: 'Calm & sleep' };
+    const FAM = { oud: 'Oud', amber: 'Amber', floral: 'Floral', woody: 'Woody', fresh: 'Fresh' };
+    let brandCount = {}; try { brandCount = JSON.parse($('#sw-brand-counts').textContent); } catch (e) {}
+    const split = v => v ? v.split('|').filter(Boolean) : [];
+    let all = [], shown = PAGE;
+    const collect = () => { all = $$('article.p-card', pool).map((el, i) => ({ el, i, t: el.dataset.t || 'More', b: el.dataset.b, c: split(el.dataset.c), s: split(el.dataset.s), g: split(el.dataset.g), f: el.dataset.f, w: el.dataset.w, p: +el.dataset.p, ok: el.dataset.in === '1', n: el.dataset.n || '', r: +el.dataset.r || 9999 })); };
+    function build() {
+      const list = all, N = list.length;
+      const cnt = (fn, v) => list.filter(p => fn(p).includes(v)).length;
+      const mk = (h, f, fn, labels) => { const vals = [...new Set(list.flatMap(fn))]; const opts = vals.map(v => [v, labels ? labels(v) : v, cnt(fn, v)]).filter(o => o[2] > 0).sort((a, b) => b[2] - a[2]); return opts.length > 1 || (opts.length === 1 && opts[0][2] < N) ? { h, f, opts } : null; };
+      const groups = [
+        mk('Concern', 'concern', p => p.f ? [] : p.c.filter(c => CONCERNS[c]), v => CONCERNS[v]),
+        mk('Skin / hair type', 'skin', p => p.s, v => v === 'All' ? 'All types' : v),
+        mk('Key ingredient', 'ing', p => p.g),
+        mk('Scent family', 'fam', p => p.f ? [p.f] : [], v => FAM[v] || v),
+        mk('For', 'for', p => p.f && p.w ? [p.w] : [])
+      ].filter(Boolean);
+      const subs = [...new Set(list.map(p => p.t))];
+      const brands = [...new Set(list.map(p => p.b))].sort((a, b) => (brandCount[b] || 0) - (brandCount[a] || 0));
+      const topSubs = subs.filter(s => s !== 'More').map(s => [s, list.filter(p => p.t === s).length]).sort((a, b) => b[1] - a[1]).slice(0, 7);
+      const tc = $('.typechips');
+      if (tc) { tc.hidden = topSubs.length < 2; tc.innerHTML = topSubs.length < 2 ? '' : `<button data-chip="" aria-pressed="true">All ${N}</button>` + topSubs.map(([s, c]) => `<button data-chip="${esc(s)}" aria-pressed="false">${esc(s)} <small>${c}</small></button>`).join(''); }
+      const opt = (f, v, label, i, c) => `<label class="${i >= 8 ? 'extra' : ''}"><input type="checkbox" data-f="${f}" value="${esc(v)}">${esc(label)}${c != null ? ` <small style="margin-left:auto">${c}</small>` : ''}</label>`;
+      $('#filters').innerHTML = `<div><h2>Type</h2><div class="opts">${subs.map((s, i) => opt('sub', s, s, i)).join('')}</div>${subs.length > 8 ? `<button class="showall" data-showall>Show all ${subs.length}</button>` : ''}</div>
+      <div><h2>Brand</h2><div class="opts">${brands.map((b, i) => opt('brand', b, b, i, list.filter(p => p.b === b).length)).join('')}</div>${brands.length > 8 ? `<button class="showall" data-showall>Show all ${brands.length} brands</button>` : ''}</div>
+      ${groups.map(g => `<div><h2>${g.h}</h2><div class="opts">${g.opts.map((o, i) => opt(g.f, o[0], o[1], i, o[2])).join('')}</div>${g.opts.length > 8 ? `<button class="showall" data-showall>Show all ${g.opts.length}</button>` : ''}</div>`).join('')}
+      <div><h2>Price</h2>${[['0-20', 'Under £20'], ['20-50', '£20 – £50'], ['50-100', '£50 – £100'], ['100-9999', 'Over £100']].map(([v, l]) => `<label><input type="checkbox" data-f="price" value="${v}">${l}</label>`).join('')}</div>
+      <div><h2>Availability</h2><label><input type="checkbox" data-f="stock" value="1">In stock only</label></div>`;
+    }
+    function apply(reset) {
+      let list = [...all];
+      const sel = f => $$(`#filters input[data-f="${f}"]:checked`).map(i => i.value);
+      const subs = sel('sub'), brs = sel('brand'), prs = sel('price'), stock = sel('stock').length, con = sel('concern'), sk = sel('skin'), ig = sel('ing'), fm = sel('fam'), fw = sel('for');
+      if (con.length) list = list.filter(p => con.some(c => p.c.includes(c)));
+      if (sk.length) list = list.filter(p => sk.some(v => p.s.includes(v)));
+      if (ig.length) list = list.filter(p => ig.some(v => p.g.includes(v)));
+      if (fm.length) list = list.filter(p => p.f && fm.includes(p.f));
+      if (fw.length) list = list.filter(p => p.f && fw.includes(p.w));
+      $$('.typechips [data-chip]').forEach(b => b.setAttribute('aria-pressed', String(subs.length ? subs.length === 1 && b.dataset.chip === subs[0] : b.dataset.chip === '')));
+      if (subs.length) list = list.filter(p => subs.includes(p.t));
+      if (brs.length) list = list.filter(p => brs.includes(p.b));
+      if (prs.length) list = list.filter(p => prs.some(r => { const [a, b] = r.split('-').map(Number); return p.p >= a && p.p < b; }));
+      if (stock) list = list.filter(p => p.ok);
+      const s = $('#sort').value;
+      if (s === 'feat' && brandMode) list.sort((a, b) => (b.ok - a.ok) || (a.i - b.i));
+      if (s === 'low') list.sort((a, b) => a.p - b.p); if (s === 'high') list.sort((a, b) => b.p - a.p); if (s === 'az') list.sort((a, b) => a.n.localeCompare(b.n));
+      const act = $('#active');
+      if (act) { const on = $$('#filters input:checked'); act.hidden = !on.length;
+        act.innerHTML = on.map(i => `<button data-unf="${esc(i.dataset.f)}|${esc(i.value)}">${esc(i.nextSibling.textContent.trim())} <span aria-hidden="true">×</span><span class="sr">Remove filter</span></button>`).join('') + (on.length > 1 ? '<button class="clear" data-unf="*">Clear all</button>' : ''); }
+      if (reset) shown = PAGE;
+      all.forEach(p => { p.el.hidden = true; });
+      list.slice(0, shown).forEach(p => { p.el.hidden = false; pool.appendChild(p.el); });
+      const res = $('#results'); res.querySelector('.more')?.remove(); res.querySelector('.none')?.remove();
+      if (!list.length) res.insertAdjacentHTML('beforeend', '<p class="none" style="color:var(--ink-2);padding:40px 0">No products match these filters.</p>');
+      else if (list.length > shown) res.insertAdjacentHTML('beforeend', `<div class="more"><span>Showing ${shown} of ${list.length}</span><button class="btn" id="loadMore">Load more</button></div>`);
+      $('#count').textContent = list.length; syncHearts();
+    }
+    root.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id === 'sort') apply(true); });
+    document.addEventListener('click', e => {
+      const chip = e.target.closest('[data-chip]'); if (chip) { $$('#filters input[data-f="sub"]').forEach(i => { i.checked = chip.dataset.chip !== '' && i.value === chip.dataset.chip; }); apply(true); return; }
+      const unf = e.target.closest('[data-unf]'); if (unf) { const [f, v] = unf.dataset.unf.split('|'); $$('#filters input:checked').forEach(i => { if (f === '*' || (i.dataset.f === f && i.value === v)) i.checked = false; }); apply(true); return; }
+      const sa = e.target.closest('[data-showall]'); if (sa) { const o = sa.previousElementSibling; const open = o.classList.toggle('all'); if (open) sa.dataset.label = sa.dataset.label || sa.textContent; sa.textContent = open ? 'Show fewer' : sa.dataset.label; return; }
+      if (e.target.closest('#loadMore')) { shown += PAGE; apply(false); return; }
+      if (e.target.closest('#ftoggle')) $('#filters').classList.toggle('open');
+    });
+    collect(); build(); if (brandMode) apply(true);
+    const pages = +root.dataset.pages || 1;
+    if (pages > 1) (async () => { for (let n = 2; n <= pages; n++) { const html = await (await fetch(`${root.dataset.url}?page=${n}&section_id=${root.dataset.section}`)).text();
+      const d = new DOMParser().parseFromString(html, 'text/html'); $$('#sw-pool article.p-card', d).forEach(a => { a.hidden = true; pool.appendChild(document.importNode(a, true)); }); }
+      collect(); build(); if (brandMode) apply(false); })();
+  })();
 
   syncHearts(); getCart().catch(() => {});
 })();

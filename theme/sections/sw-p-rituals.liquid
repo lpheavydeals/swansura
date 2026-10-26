@@ -14,7 +14,7 @@
           {%- for i in (1..3) -%}{%- assign key = 'p' | append: i -%}{%- assign p = block.settings[key] -%}{%- if p != blank -%}<a href="{{ p.url }}">{{ p.featured_media.preview_image | image_url: width: 400 | image_tag: class: 'pic', widths: '200,300,400', sizes: '(min-width: 1100px) 100px, 30vw', loading: 'lazy', alt: p.featured_media.alt }}</a>{%- endif -%}{%- endfor -%}
         </div><div class="body"><div class="eyebrow">{{ block.settings.group | escape }}</div><h3>{{ block.settings.name | escape }}</h3><p style="color:var(--ink-2);font-size:15px">{{ block.settings.intro | escape }}</p><ol>
           {%- for i in (1..3) -%}{%- assign key = 'p' | append: i -%}{%- assign sk = 's' | append: i -%}{%- assign p = block.settings[key] -%}{%- if p != blank -%}
-            {%- assign total = total | plus: p.price -%}{%- assign ids = ids | append: p.selected_or_first_available_variant.id | append: ',' -%}
+            {%- assign total = total | plus: p.price -%}{%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}{%- assign ids = ids | append: vid | append: ',' -%}
             {%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}
             <li><b style="font-weight:600">{{ block.settings[sk] | escape }}</b> · <a href="{{ p.url }}">{{ pn | escape }}</a></li>
           {%- endif -%}{%- endfor -%}

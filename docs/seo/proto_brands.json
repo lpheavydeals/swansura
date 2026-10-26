@@ -1,0 +1,2722 @@
+{
+ "davidoff": {
+  "name": "Davidoff",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Davidoff at Swansura: 4 products, 100% authentic and shipped from the UK.",
+  "count": 4,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "calvin-klein": {
+  "name": "Calvin Klein",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Calvin Klein at Swansura: 10 products, 100% authentic and shipped from the UK.",
+  "count": 10,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "coach": {
+  "name": "Coach",
+  "world": "skin",
+  "partner": false,
+  "line": "Skin & body care",
+  "story": "Coach at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "Deyga",
+    "/collections/milk-drop-brightening-serum-1",
+    "Natural skincare from India",
+    "deyga"
+   ],
+   [
+    "Vilvah",
+    "/collections/milk-drop-brightening-serum",
+    "Goat milk and botanical care",
+    "vilvah"
+   ],
+   [
+    "Highborn London",
+    "/collections/highborn-london",
+    "Luxury skincare, made in England",
+    "highborn-london"
+   ],
+   [
+    "Swansura Selection",
+    "/collections/swansura-selection",
+    "Chosen by the Studio",
+    null
+   ],
+   [
+    "Shiseido",
+    "/collections/shiseido",
+    "Skin & body care",
+    null
+   ]
+  ]
+ },
+ "dkny": {
+  "name": "DKNY",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "DKNY at Swansura: 4 products, 100% authentic and shipped from the UK.",
+  "count": 4,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "chloe": {
+  "name": "Chloé",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Chloé at Swansura: 7 products, 100% authentic and shipped from the UK.",
+  "count": 7,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "abercrombie-fitch": {
+  "name": "Abercrombie & Fitch",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Abercrombie & Fitch at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "highborn-london": {
+  "name": "Highborn London",
+  "world": "skin",
+  "partner": false,
+  "line": "Luxury skincare, made in England",
+  "story": "Highborn London makes luxury face, eye and neck care in England, built around simple morning and evening routines.",
+  "count": 22,
+  "others": [
+   [
+    "Deyga",
+    "/collections/milk-drop-brightening-serum-1",
+    "Natural skincare from India",
+    "deyga"
+   ],
+   [
+    "Vilvah",
+    "/collections/milk-drop-brightening-serum",
+    "Goat milk and botanical care",
+    "vilvah"
+   ],
+   [
+    "Swansura Selection",
+    "/collections/swansura-selection",
+    "Chosen by the Studio",
+    null
+   ],
+   [
+    "Shiseido",
+    "/collections/shiseido",
+    "Skin & body care",
+    null
+   ],
+   [
+    "Coach",
+    "/collections/coach",
+    "Skin & body care",
+    "coach"
+   ]
+  ]
+ },
+ "anatome": {
+  "name": "anatomē",
+  "world": "scent",
+  "partner": false,
+  "line": "London apothecary for sleep and senses",
+  "story": "anatomē is a London apothecary making functional fragrances, sleep oils, pillow sprays and bath salts designed around how you want to feel.",
+  "count": 24,
+  "others": [
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ],
+   [
+    "Signature D'orient",
+    "/collections/signature-sillage-dorient",
+    "Arabian-inspired, with travel sprays",
+    null
+   ]
+  ]
+ },
+ "armaf": {
+  "name": "Armaf",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Armaf at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "bentley": {
+  "name": "Bentley",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Bentley at Swansura: 11 products, 100% authentic and shipped from the UK.",
+  "count": 6,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "hugo-boss": {
+  "name": "Hugo Boss",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Hugo Boss at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "burberry": {
+  "name": "Burberry",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Burberry at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "antonio": {
+  "name": "Antonio Banderas",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Antonio Banderas at Swansura: 6 products, 100% authentic and shipped from the UK.",
+  "count": 4,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "anna-sui": {
+  "name": "Anna Sui",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Anna Sui at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "phillip-plein": {
+  "name": "Philipp Plein",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Philipp Plein at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "john-varvatos": {
+  "name": "John Varvatos",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "John Varvatos at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "ariana-grande": {
+  "name": "Ariana Grande",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Ariana Grande at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "hemel-h": {
+  "name": "Hemel",
+  "world": "scent",
+  "partner": false,
+  "line": "Modern luxury eaux de parfum",
+  "story": "Hemel creates modern, long-lasting eaux de parfum with refined floral, woody and amber accords.",
+  "count": 18,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ],
+   [
+    "Signature D'orient",
+    "/collections/signature-sillage-dorient",
+    "Arabian-inspired, with travel sprays",
+    null
+   ]
+  ]
+ },
+ "joop-homme": {
+  "name": "Joop!",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Joop! at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "mancera": {
+  "name": "Mancera",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Mancera at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "montale": {
+  "name": "Montale",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Montale at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "estee-lauder": {
+  "name": "Estée Lauder",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Estée Lauder at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "jean-paul": {
+  "name": "Jean Paul Gaultier",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Jean Paul Gaultier at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "serge-lutens": {
+  "name": "Serge Lutens",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Serge Lutens at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "giorgio-armani": {
+  "name": "Giorgio Armani",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Giorgio Armani at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "guerlain": {
+  "name": "Guerlain",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Guerlain at Swansura: 8 products, 100% authentic and shipped from the UK.",
+  "count": 8,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "al-haramain": {
+  "name": "Al Haramain",
+  "world": "scent",
+  "partner": false,
+  "line": "Arabian perfume house",
+  "story": "Al Haramain is an Arabian perfume house famous for the Amber Oud collection: warm, long-lasting eaux de parfum in many editions.",
+  "count": 16,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Signature D'orient",
+    "/collections/signature-sillage-dorient",
+    "Arabian-inspired, with travel sprays",
+    null
+   ]
+  ]
+ },
+ "la-maison": {
+  "name": "La Maison",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "La Maison at Swansura: 4 products, 100% authentic and shipped from the UK.",
+  "count": 4,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "gucci": {
+  "name": "Gucci",
+  "world": "scent",
+  "partner": false,
+  "line": "Italian fashion house fragrance",
+  "story": "Gucci fragrances at Swansura, including Bloom, Flora, Guilty and Intense Oud, from pen sprays and miniature sets to full bottles.",
+  "count": 13,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "dolce-gabbana": {
+  "name": "Dolce & Gabbana",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Dolce & Gabbana at Swansura: 12 products, 100% authentic and shipped from the UK.",
+  "count": 12,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "chopard": {
+  "name": "Chopard",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Chopard at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "tomford": {
+  "name": "Tom Ford",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Tom Ford at Swansura: 6 products, 100% authentic and shipped from the UK.",
+  "count": 6,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "hermes": {
+  "name": "Hermès",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Hermès at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "bvlgari": {
+  "name": "Bvlgari",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Bvlgari at Swansura: 8 products, 100% authentic and shipped from the UK.",
+  "count": 8,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "tiziana-terenzi": {
+  "name": "Tiziana Terenzi",
+  "world": "scent",
+  "partner": false,
+  "line": "Italian niche extraits",
+  "story": "Tiziana Terenzi is an Italian niche perfume house known for rich, long-lasting extraits de parfum such as Kaff, Orza and Gold Rose Oudh.",
+  "count": 22,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ],
+   [
+    "Signature D'orient",
+    "/collections/signature-sillage-dorient",
+    "Arabian-inspired, with travel sprays",
+    null
+   ]
+  ]
+ },
+ "dior": {
+  "name": "Dior",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Dior at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "acqua-di-parma": {
+  "name": "Acqua di Parma",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Acqua di Parma at Swansura: 9 products, 100% authentic and shipped from the UK.",
+  "count": 9,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "ysl": {
+  "name": "Yves Saint Laurent",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Yves Saint Laurent at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "the-woods-collection": {
+  "name": "The Woods Collection",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "The Woods Collection at Swansura: 11 products, 100% authentic and shipped from the UK.",
+  "count": 11,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "signature-sillage-dorient": {
+  "name": "Signature D'orient",
+  "world": "scent",
+  "partner": false,
+  "line": "Arabian-inspired, with travel sprays",
+  "story": "Signature D'orient makes Arabian-inspired eaux de parfum, many presented with a 15ml travel spray for the bag.",
+  "count": 16,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "milk-drop-brightening-serum-1": {
+  "name": "Deyga",
+  "world": "skin",
+  "partner": true,
+  "line": "Natural skincare from India",
+  "story": "Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Beetroot lip balm, charcoal face wash and botanical sunscreen are the cult favourites. Swansura is an official UK partner, so every product is genuine and ships from the UK.",
+  "count": 73,
+  "others": [
+   [
+    "Vilvah",
+    "/collections/milk-drop-brightening-serum",
+    "Goat milk and botanical care",
+    "vilvah"
+   ],
+   [
+    "Highborn London",
+    "/collections/highborn-london",
+    "Luxury skincare, made in England",
+    "highborn-london"
+   ],
+   [
+    "Swansura Selection",
+    "/collections/swansura-selection",
+    "Chosen by the Studio",
+    null
+   ],
+   [
+    "Shiseido",
+    "/collections/shiseido",
+    "Skin & body care",
+    null
+   ],
+   [
+    "Coach",
+    "/collections/coach",
+    "Skin & body care",
+    "coach"
+   ]
+  ]
+ },
+ "swansura-selection": {
+  "name": "Swansura Selection",
+  "world": "skin",
+  "partner": false,
+  "line": "Chosen by the Studio",
+  "story": "Skincare, body care and gifts selected by the Swansura team.",
+  "count": 7,
+  "others": [
+   [
+    "Deyga",
+    "/collections/milk-drop-brightening-serum-1",
+    "Natural skincare from India",
+    "deyga"
+   ],
+   [
+    "Vilvah",
+    "/collections/milk-drop-brightening-serum",
+    "Goat milk and botanical care",
+    "vilvah"
+   ],
+   [
+    "Highborn London",
+    "/collections/highborn-london",
+    "Luxury skincare, made in England",
+    "highborn-london"
+   ],
+   [
+    "Shiseido",
+    "/collections/shiseido",
+    "Skin & body care",
+    null
+   ],
+   [
+    "Coach",
+    "/collections/coach",
+    "Skin & body care",
+    "coach"
+   ]
+  ]
+ },
+ "milk-drop-brightening-serum": {
+  "name": "Vilvah",
+  "world": "skin",
+  "partner": true,
+  "line": "Goat milk and botanical care",
+  "story": "Vilvah is an Indian natural beauty brand known for goat milk and botanical formulas for face, hair and body. The Milk Drops serum and goat milk shampoo are the place to start. Swansura is an official UK partner, so every product is genuine and ships from the UK.",
+  "count": 72,
+  "others": [
+   [
+    "Deyga",
+    "/collections/milk-drop-brightening-serum-1",
+    "Natural skincare from India",
+    "deyga"
+   ],
+   [
+    "Highborn London",
+    "/collections/highborn-london",
+    "Luxury skincare, made in England",
+    "highborn-london"
+   ],
+   [
+    "Swansura Selection",
+    "/collections/swansura-selection",
+    "Chosen by the Studio",
+    null
+   ],
+   [
+    "Shiseido",
+    "/collections/shiseido",
+    "Skin & body care",
+    null
+   ],
+   [
+    "Coach",
+    "/collections/coach",
+    "Skin & body care",
+    "coach"
+   ]
+  ]
+ },
+ "korloff": {
+  "name": "Korloff",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Korloff at Swansura: 9 products, 100% authentic and shipped from the UK.",
+  "count": 9,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "sap": {
+  "name": "SAP",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "SAP at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "fumeri": {
+  "name": "Fumeri",
+  "world": "scent",
+  "partner": false,
+  "line": "Bold scents, everyday prices",
+  "story": "Fumeri makes bold, long-lasting eaux de parfum at accessible prices, from amber nights to fresh blues.",
+  "count": 18,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ],
+   [
+    "Signature D'orient",
+    "/collections/signature-sillage-dorient",
+    "Arabian-inspired, with travel sprays",
+    null
+   ]
+  ]
+ },
+ "luxury-collection-1": {
+  "name": "Jo Milano",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Jo Milano at Swansura: 15 products, 100% authentic and shipped from the UK.",
+  "count": 15,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "nina-ricci": {
+  "name": "Nina Ricci",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Nina Ricci at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "paloma": {
+  "name": "Paloma",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Paloma at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "trussardi": {
+  "name": "Trussardi",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Trussardi at Swansura: 6 products, 100% authentic and shipped from the UK.",
+  "count": 6,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "lancome": {
+  "name": "Lancôme",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Lancôme at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "kenneth-cole": {
+  "name": "Kenneth Cole",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Kenneth Cole at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "juicy-couture": {
+  "name": "Juicy Couture",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Juicy Couture at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "jimmy-choo": {
+  "name": "Jimmy Choo",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Jimmy Choo at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "escada": {
+  "name": "Escada",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Escada at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "hollister": {
+  "name": "Hollister",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Hollister at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "givenchy": {
+  "name": "Givenchy",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Givenchy at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "dunhill": {
+  "name": "Dunhill",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Dunhill at Swansura: 14 products, 100% authentic and shipped from the UK.",
+  "count": 14,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "etienne-aigner": {
+  "name": "Etienne Aigner",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Etienne Aigner at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "s-t-dupont": {
+  "name": "S.T. Dupont",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "S.T. Dupont at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "shiseido": {
+  "name": "Shiseido",
+  "world": "skin",
+  "partner": false,
+  "line": "Skin & body care",
+  "story": "Shiseido at Swansura: 3 products, 100% authentic and shipped from the UK.",
+  "count": 3,
+  "others": [
+   [
+    "Deyga",
+    "/collections/milk-drop-brightening-serum-1",
+    "Natural skincare from India",
+    "deyga"
+   ],
+   [
+    "Vilvah",
+    "/collections/milk-drop-brightening-serum",
+    "Goat milk and botanical care",
+    "vilvah"
+   ],
+   [
+    "Highborn London",
+    "/collections/highborn-london",
+    "Luxury skincare, made in England",
+    "highborn-london"
+   ],
+   [
+    "Swansura Selection",
+    "/collections/swansura-selection",
+    "Chosen by the Studio",
+    null
+   ],
+   [
+    "Coach",
+    "/collections/coach",
+    "Skin & body care",
+    "coach"
+   ]
+  ]
+ },
+ "viktor-rolf": {
+  "name": "Viktor & Rolf",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Viktor & Rolf at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "marc-jacobs": {
+  "name": "Marc Jacobs",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Marc Jacobs at Swansura: 7 products, 100% authentic and shipped from the UK.",
+  "count": 7,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "elizabeth-arden": {
+  "name": "Elizabeth Arden",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Elizabeth Arden at Swansura: 1 product, 100% authentic and shipped from the UK.",
+  "count": 1,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "elie-saab": {
+  "name": "Elie Saab",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Elie Saab at Swansura: 10 products, 100% authentic and shipped from the UK.",
+  "count": 10,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "carolina-herrera": {
+  "name": "Carolina Herrera",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Carolina Herrera at Swansura: 7 products, 100% authentic and shipped from the UK.",
+  "count": 7,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "azzaro": {
+  "name": "Azzaro",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Azzaro at Swansura: 5 products, 100% authentic and shipped from the UK.",
+  "count": 5,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ },
+ "boucheron": {
+  "name": "Boucheron",
+  "world": "scent",
+  "partner": false,
+  "line": "Fragrance house",
+  "story": "Boucheron at Swansura: 2 products, 100% authentic and shipped from the UK.",
+  "count": 2,
+  "others": [
+   [
+    "anatomē",
+    "/collections/anatome",
+    "London apothecary for sleep and senses",
+    "anatome"
+   ],
+   [
+    "Tiziana Terenzi",
+    "/collections/tiziana-terenzi",
+    "Italian niche extraits",
+    "tiziana-terenzi"
+   ],
+   [
+    "Hemel",
+    "/collections/hemel-h",
+    "Modern luxury eaux de parfum",
+    null
+   ],
+   [
+    "Fumeri",
+    "/collections/fumeri",
+    "Bold scents, everyday prices",
+    null
+   ],
+   [
+    "Al Haramain",
+    "/collections/al-haramain",
+    "Arabian perfume house",
+    "al-haramain"
+   ]
+  ]
+ }
+}

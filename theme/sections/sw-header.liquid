@@ -47,12 +47,23 @@
           elsif ncols <= 3
             assign mstyle = 'grid-template-columns:repeat(3,1fr);width:min(720px,92vw)'
           endif
+          comment
+            underline like the prototype: the exact page, Fragrance on scent families, Skincare on concerns
+          endcomment
+          assign on = false
+          if link.url == request.path
+            assign on = true
+          elsif collection.handle contains 'scent-' and link.url == '/collections/fragrance'
+            assign on = true
+          elsif collection.handle contains 'concern-' and link.url == '/collections/skincare'
+            assign on = true
+          endif
           assign astyle = ''
           if lt contains 'advent'
             assign astyle = ' style="color:var(--brass-ink);font-weight:600"'
           endif
         -%}
-        <div class="item"><a href="{{ link.url }}"{% if link.active or link.child_active %} class="on"{% endif %}{{ astyle }}>{{ link.title | escape }}</a>
+        <div class="item"><a href="{{ link.url }}"{% if on %} class="on"{% endif %}{{ astyle }}>{{ link.title | escape }}</a>
           {%- if link.links.size > 0 -%}<div class="mega"{% if mstyle != '' %} style="{{ mstyle }}"{% endif %}>
             {%- for col in link.links -%}<div><h4>{{ col.title | escape }}</h4>{%- for l in col.links -%}<a href="{{ l.url }}">{{ l.title | escape }}{% if l.title contains 'A–Z' %} →{% endif %}</a>{%- endfor -%}</div>{%- endfor -%}
             {%- if feat != blank -%}{%- capture fname -%}{% render 'sw-p-name', product: feat %}{%- endcapture -%}<a class="feat" href="{{ feat.url }}">{{ feat.featured_media.preview_image | image_url: width: 400 | image_tag: class: 'pic', loading: 'lazy', alt: feat.featured_media.alt | default: feat.title }}<b style="font-weight:600">{{ fname | escape }}</b></a>{%- endif -%}
@@ -90,7 +101,7 @@
   "count": {{ collections.all.products_count | json }},
   "returnsUrl": {{ shop.refund_policy.url | default: '/pages/shipping' | json }},
   "pays": {{ pays | json }},
-  "extras": [{%- assign k = 0 -%}{%- for p in extras_c.products limit: 60 -%}{%- if p.available and p.price < 1200 and k < 12 -%}{%- assign k = k | plus: 1 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}{% unless k == 1 %},{% endunless %}{"id": {{ p.selected_or_first_available_variant.id }}, "title": {{ pn | json }}, "price": {{ p.price }}, "img": {{ p.featured_media.preview_image | image_url: width: 200 | json }}}{%- endif -%}{%- endfor -%}]
+  "extras": [{%- assign k = 0 -%}{%- for p in extras_c.products limit: 60 -%}{%- if p.available and p.price < 1200 and k < 12 -%}{%- assign k = k | plus: 1 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}{% unless k == 1 %},{% endunless %}{%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}{"id": {{ vid }}, "title": {{ pn | json }}, "price": {{ p.price }}, "img": {{ p.featured_media.preview_image | image_url: width: 200 | json }}}{%- endif -%}{%- endfor -%}]
 }</script>
 
 <div class="swp swp-fixed">

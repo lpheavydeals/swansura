@@ -2,7 +2,7 @@
 
 1) python3 tools/theme/stage_upload.py input FILE...   -> prints the stagedUploadsCreate `input` JSON
 2) run stagedUploadsCreate with that input (Shopify connector)
-3) python3 tools/theme/stage_upload.py post TRANSCRIPT.jsonl
+3) python3 tools/theme/stage_upload.py post TRANSCRIPT.jsonl   (or: post-file RESPONSE.json)
    -> finds the latest stagedUploadsCreate result in the session transcript, POSTs each file
       (paths relative to theme/), prints themeFilesUpsert `files` JSON (body type URL)
 4) run themeFilesUpsert with those files; check checksums (sections with schema errors fail
@@ -41,9 +41,9 @@ def latest_targets(transcript):
     return json.loads(next(walk(found)))["data"]["stagedUploadsCreate"]["stagedTargets"]
 
 
-def post(transcript):
+def post(transcript, targets=None):
     out = []
-    for tg in latest_targets(transcript):
+    for tg in targets if targets is not None else latest_targets(transcript):
         fn = tg["resourceUrl"].rsplit("/", 1)[1][:-4].replace("__", "/")
         args = ["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code}", tg["url"]]
         for p in tg["parameters"]:
@@ -58,5 +58,10 @@ def post(transcript):
 if __name__ == "__main__":
     if sys.argv[1] == "input":
         print(json.dumps(staged_input(sys.argv[2:])))
+    elif sys.argv[1] == "post-file":
+        # the stagedUploadsCreate response saved to a file (for helper agents without this transcript)
+        d = json.load(open(sys.argv[2]))
+        d = d.get("data", d).get("stagedUploadsCreate", d)
+        post(None, d["stagedTargets"])
     else:
         post(sys.argv[2])

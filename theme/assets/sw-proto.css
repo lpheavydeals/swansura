@@ -2243,8 +2243,17 @@ background:var(--silk)}
 .swp{display:block;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 .swp h1,.swp h2,.swp h3{color:inherit}
 .swp img{height:auto}
-.swp img.pic{object-fit:cover;object-position:center}
+/* the prototype packs each photo whole (contain) at 86% of a 4:5 cell on the ivory mount, with white graded
+   to ivory (tools/proto_gallery.py frame()); cards and brand-hero photos copy that with padding + multiply */
+.swp img.pic{object-fit:contain;object-position:center}
+.swp .p-card .p-media,.swp .story .imgs>a{background:var(--mount)}
+.swp .p-card img.pic,.swp .story .imgs img.pic{padding:7%;background:transparent;mix-blend-mode:multiply}
+.swp .p-card .p-media img.pic:not(.alt){transition:opacity .4s}
+.swp .p-card:hover .p-media:has(.alt) img.pic:not(.alt){opacity:0}
+/* Search and Bag are <button>s in the prototype, so they don't inherit the uppercase of .hleft/.hright */
+.swp #openSearch,.swp #openBag{text-transform:none;letter-spacing:normal}
 .swp-fixed{background:none!important}
+.swp [hidden]{display:none!important}
 /* Shopify wraps each section in a div, so the header's wrapper is the sticky element */
 .shopify-section:has(> .swp > header.site){position:sticky;top:env(safe-area-inset-top,0px);z-index:40}
 body:has(.stickybar.show) .swp .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom,0px))}

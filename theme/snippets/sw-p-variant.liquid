@@ -1,0 +1,15 @@
+{%- comment -%}
+  Id of the variant whose price is the product's price (the cheapest available one), so 'Add' buttons put
+  the price shown in the bag; falls back to the first available variant. Usage:
+  {%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}
+{%- endcomment -%}
+{%- liquid
+  assign v = product.selected_or_first_available_variant
+  for x in product.variants
+    if x.available and x.price == product.price
+      assign v = x
+      break
+    endif
+  endfor
+  echo v.id
+-%}

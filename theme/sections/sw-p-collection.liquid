@@ -1,0 +1,122 @@
+{%- comment -%}
+  Collection / listing page, prototype markup (listing() in prototype/index.html): breadcrumbs, silk page
+  header (eyebrow, H1, share, intro), quick type chips, filters column + toolbar + product grid with
+  'Load more', related keyword links and 'Explore more'.
+  All of the collection's products are rendered as cards with their filter values (sw-p-card facets: true);
+  the first 24 show and sw-proto.js filters, sorts and pages them in the browser like the prototype.
+  Collections over 250 products load the rest from ?page=N&section_id=… .
+  Brand collections (custom.brand json from tools/shopify/proto_brands.py) get the brand page instead: story hero,
+  sort-only grid ('<Brand> at Swansura', in-stock first, then catalogue rank) and 'You may also love'.
+  Data: custom.eyebrow, custom.h1, custom.related (json: facet_label, facet, chips, explore; from
+  tools/shopify/proto_related.py). The collection's manual order is the prototype's featured order.
+{%- endcomment -%}
+{%- liquid
+  assign brand = collection.metafields.custom.brand.value
+  assign h = collection.handle
+  assign rel = collection.metafields.custom.related.value
+  assign dark = false
+  if h == 'fragrance' or h contains 'scent-'
+    assign dark = true
+  endif
+  assign crumb_t = ''
+  assign crumb_u = ''
+  if h contains 'concern-'
+    assign crumb_t = 'Skincare'
+    assign crumb_u = '/collections/skincare'
+  elsif h contains 'scent-'
+    assign crumb_t = 'Fragrance'
+    assign crumb_u = '/collections/fragrance'
+  elsif h contains 'price-'
+    assign crumb_t = 'Shop by price'
+    assign crumb_u = routes.root_url
+  elsif h contains 'range-'
+    assign crumb_t = 'Ranges'
+    assign crumb_u = routes.root_url
+  endif
+  assign label = collection.title
+  assign h1 = collection.metafields.custom.h1.value | default: collection.title
+  assign eyebrow = collection.metafields.custom.eyebrow.value
+  if eyebrow == blank
+    if h == 'all'
+      assign eyebrow = 'The full catalogue'
+    elsif dark
+      assign eyebrow = 'The Scent Studio'
+    else
+      assign eyebrow = 'The Skin Studio'
+    endif
+  endif
+-%}
+<div class="swp app">
+{%- if brand != blank -%}
+  {%- comment -%} Brand page (brandPage() in the prototype) {%- endcomment -%}
+  {%- liquid
+    assign bg = 'var(--oud)'
+    assign eb = 'The Scent Studio'
+    if brand.world == 'skin'
+      assign bg = 'var(--emerald)'
+      assign eb = 'The Skin Studio'
+    endif
+    if brand.partner
+      assign eb = 'Official UK partner'
+    endif
+  -%}
+  <div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><a href="{{ section.settings.brands_url | default: '/collections' }}">Brands</a><span>/</span><span style="color:var(--ink)">{{ brand.name | escape }}</span></nav></div>
+  <section style="padding-block:24px 0"><div class="wrap"><div class="story" style="background:{{ bg }};color:var(--on-dark);padding:clamp(24px,4vw,56px)">
+    <div class="copy"><div class="eyebrow" style="color:#E6D3A8">{{ eb }}</div><h1 data-label="{{ brand.name | escape }}" style="font-size:clamp(34px,4.6vw,64px)">{{ h1 | escape }}</h1><p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-2)">{{ brand.line | escape }}</p><p class="lede" style="color:var(--on-dark-2)">{{ brand.story | escape }}</p><div class="brandctas"><a class="btn p-light" href="#allp">Shop all {{ collection.products_count }} products</a><div class="share dark"><button class="sharebtn" data-share="{{ collection.url }}" data-share-title="{{ brand.name | escape }} | Swansura" data-share-text="{{ brand.name | escape }} at Swansura: {{ collection.products_count }} products, 100% authentic and shipped from the UK" data-share-img="{{ collection.products.first.featured_media.preview_image | image_url: width: 1000 }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></div>
+    <div class="imgs">{%- assign k = 0 -%}{%- for p in collection.products limit: 50 -%}{%- if p.available and k < 2 -%}{%- assign k = k | plus: 1 -%}<a href="{{ p.url }}">{{ p.featured_media.preview_image | image_url: width: 800 | image_tag: class: 'pic', widths: '300,500,800', sizes: '(min-width: 900px) 300px, 45vw', alt: p.featured_media.alt }}</a>{%- endif -%}{%- endfor -%}</div>
+  </div></div></section>
+  <section id="allp"><div class="wrap"><div class="sec-head"><div><h2>{{ brand.name | escape }} at Swansura</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="p-active" hidden></div>
+    <div id="results" data-listing data-brand data-pages="{{ collection.products_count | divided_by: 250.0 | ceil }}" data-url="{{ collection.url }}" data-section="{{ section.id }}"><div class="grid-p" id="sw-pool">
+      {%- paginate collection.products by 250 -%}{%- for p in collection.products -%}{%- assign later = false -%}{%- if forloop.index > 24 -%}{%- assign later = true -%}{%- endif -%}{% render 'sw-p-card', product: p, facets: true, hidden: later %}{%- endfor -%}{%- endpaginate -%}
+    </div>{%- if collection.products_count > 24 -%}<div class="more"><span>Showing 24 of {{ collection.products_count }}</span><button class="btn" id="loadMore">Load more</button></div>{%- endif -%}</div></div></section>
+  {%- if brand.others.size > 0 -%}
+  <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">
+    {%- for o in brand.others -%}
+      {%- if o[3] != blank -%}{%- assign logo = 'logo-' | append: o[3] | append: '.webp' -%}<a class="brandcell haslogo" href="{{ o[1] }}"><span class="blogo"><img src="{{ logo | asset_url }}" alt="{{ o[0] | escape }} logo" loading="lazy" decoding="async"></span><span class="bn">{{ o[0] | escape }}</span><small>{{ o[2] | escape }}</small></a>
+      {%- elsif o[0] == 'Swansura Selection' -%}<a class="brandcell haslogo" href="{{ o[1] }}"><span class="blogo"><img src="{{ 'swansura-logo-brown.svg' | asset_url }}" alt="Swansura logo" loading="lazy" style="max-height:44px"></span><span class="bn">{{ o[0] | escape }}</span><small>{{ o[2] | escape }}</small></a>
+      {%- else -%}<a class="brandcell" href="{{ o[1] }}"><span class="bn">{{ o[0] | escape }}</span><small>{{ o[2] | escape }}</small></a>{%- endif -%}
+    {%- endfor -%}
+  </div></div></section>
+  {%- endif -%}
+{%- else -%}
+<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span>{%- if crumb_t != '' -%}<a href="{{ crumb_u }}">{{ crumb_t }}</a><span>/</span>{%- endif -%}<span style="color:var(--ink)">{{ label | escape }}</span></nav></div>
+<div class="wrap"><div class="pagehead {% if dark %}dark oud{% endif %}"><div><div class="eyebrow">{{ eyebrow | escape }}</div><h1 data-label="{{ label | escape }}" style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{{ h1 | escape }}</h1><div class="share dark ph"><button class="sharebtn" data-share="{{ collection.url }}" data-share-title="{{ label | escape }} at Swansura" data-share-text="{{ label | escape }} at Swansura: {{ collection.products_count }} products, 100% authentic and shipped from the UK." aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>{%- if collection.description != blank -%}<p class="lede">{{ collection.description | strip_html | strip }}</p>{%- endif -%}</div>
+  <div class="typechips" role="group" aria-label="Quick filter by type" hidden></div>
+  <div class="listing" data-listing data-pages="{{ collection.products_count | divided_by: 250.0 | ceil }}" data-url="{{ collection.url }}" data-section="{{ section.id }}">
+    <aside class="filters" id="filters" aria-label="Filters"></aside>
+    <div style="min-width:0">
+      <div class="toolbar"><span><button class="ftoggle p-link" id="ftoggle">Filters</button> <span id="count">{{ collection.products_count }}</span> products</span><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div>
+      <div id="active" class="p-active" hidden></div><div id="results"><div class="grid-p" id="sw-pool">
+        {%- paginate collection.products by 250 -%}
+          {%- for p in collection.products -%}
+            {%- assign later = false -%}{%- if forloop.index > 24 -%}{%- assign later = true -%}{%- endif -%}
+            {% render 'sw-p-card', product: p, facets: true, hidden: later %}
+          {%- endfor -%}
+        {%- endpaginate -%}
+      </div>{%- if collection.products_count > 24 -%}<div class="more"><span>Showing 24 of {{ collection.products_count }}</span><button class="btn" id="loadMore">Load more</button></div>{%- endif -%}</div>
+    </div>
+  </div>
+  {%- if rel.facet.size > 0 or rel.chips.size > 0 -%}
+    <div class="related">
+      {%- if rel.facet.size > 0 -%}<div class="kwchips"><span class="eyebrow">{{ rel.facet_label | escape }}</span><div>{%- for l in rel.facet -%}<a href="{{ l[1] }}">{{ l[0] | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
+      {%- if rel.chips.size > 0 -%}<div class="kwchips"><span class="eyebrow">Popular searches</span><div>{%- for l in rel.chips -%}<a href="{{ l[1] }}">{{ l[0] | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
+    </div>
+  {%- endif -%}
+  <div style="padding-bottom:64px"><div class="eyebrow" style="margin-bottom:14px">Explore more</div><div class="explore">
+    {%- if rel.explore.size > 0 -%}{%- for l in rel.explore -%}<a href="{{ l[1] }}">{{ l[0] | escape }}</a>{%- endfor -%}
+    {%- else -%}{%- for l in linklists[section.settings.explore_menu].links -%}{%- unless l.url == collection.url -%}<a href="{{ l.url }}">{{ l.title | escape }}</a>{%- endunless -%}{%- endfor -%}{%- endif -%}
+  </div></div>
+</div>
+{%- endif -%}
+<script type="application/json" id="sw-brand-counts">{% render 'sw-brand-counts' %}</script>
+</div>
+
+{% schema %}
+{
+  "name": "Swansura collection",
+  "settings": [
+    { "type": "link_list", "id": "explore_menu", "label": "'Explore more' fallback menu", "default": "main-menu" },
+    { "type": "url", "id": "brands_url", "label": "Brands A–Z page" }
+  ]
+}
+{% endschema %}

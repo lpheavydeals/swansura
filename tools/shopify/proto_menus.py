@@ -32,7 +32,8 @@ EXTRA = {"advent": "/pages/advent", "advent-skin": "/pages/advent#skin", "advent
          "page-shipping": "/pages/shipping", "sitemap": "/pages/sitemap", "offers": "/pages/offers"}
 
 
-NEW_BRANDS = {"b-highborn-london": "highborn-london", "b-swansura-selection": "swansura-selection", "b-anatome": "anatome"}
+NEW_BRANDS = {"b-highborn-london": "highborn-london", "b-swansura-selection": "swansura-selection", "b-anatome": "anatome",
+              "b-azzaro": "azzaro", "b-boucheron": "boucheron"}
 
 
 def link(title, href, top=None, col=None):
