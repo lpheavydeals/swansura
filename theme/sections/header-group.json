@@ -41,8 +41,8 @@
       "settings": {
         "logo_position": "top-center",
         "mobile_logo_position": "center",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu": "sw-main",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",

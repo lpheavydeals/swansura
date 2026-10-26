@@ -1,0 +1,862 @@
+{
+ "items": [
+  {
+   "t": "Skincare",
+   "h": "#c-skincare",
+   "cols": [
+    {
+     "h": "By type",
+     "links": [
+      [
+       "Serums",
+       "#c-skincare"
+      ],
+      [
+       "Moisturisers",
+       "#c-skincare"
+      ],
+      [
+       "Masks",
+       "#c-skincare"
+      ],
+      [
+       "Toners",
+       "#c-skincare"
+      ],
+      [
+       "Cleansers",
+       "#c-skincare"
+      ],
+      [
+       "Kits & routines",
+       "#c-skincare"
+      ],
+      [
+       "Sun care",
+       "#c-skincare"
+      ],
+      [
+       "Lip care",
+       "#c-skincare"
+      ]
+     ]
+    },
+    {
+     "h": "By concern",
+     "links": [
+      [
+       "Acne & oil control",
+       "#concern-acne"
+      ],
+      [
+       "Glow & even tone",
+       "#concern-glow"
+      ],
+      [
+       "Deep hydration",
+       "#concern-hydration"
+      ],
+      [
+       "Lip care",
+       "#concern-lips"
+      ],
+      [
+       "Sun care",
+       "#concern-sun"
+      ]
+     ]
+    },
+    {
+     "h": "Most searched",
+     "links": [
+      [
+       "Moisturiser for dry skin",
+       "#k-moisturiser-for-dry-skin"
+      ],
+      [
+       "Face wash for oily skin",
+       "#k-face-wash-for-oily-skin"
+      ],
+      [
+       "Face wash for dry skin",
+       "#k-face-wash-for-dry-skin"
+      ],
+      [
+       "Toner for dry skin",
+       "#k-toner-for-dry-skin"
+      ],
+      [
+       "Lip balm for dry lips",
+       "#k-lip-balm-for-dry-lips"
+      ],
+      [
+       "Natural sunscreen",
+       "#k-natural-sunscreen"
+      ]
+     ]
+    },
+    {
+     "h": "Brands",
+     "links": [
+      [
+       "Deyga",
+       "#b-deyga"
+      ],
+      [
+       "Vilvah",
+       "#b-vilvah"
+      ],
+      [
+       "Highborn London",
+       "#b-highborn-london"
+      ],
+      [
+       "Swansura Selection",
+       "#b-swansura-selection"
+      ],
+      [
+       "Shiseido",
+       "#b-shiseido"
+      ],
+      [
+       "Coach",
+       "#b-coach"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Haircare",
+   "h": "#c-haircare",
+   "cols": [
+    {
+     "h": "By type",
+     "links": [
+      [
+       "Hair oil",
+       "#c-haircare"
+      ],
+      [
+       "Kits & routines",
+       "#c-haircare"
+      ],
+      [
+       "Shampoo",
+       "#c-haircare"
+      ],
+      [
+       "Moisturisers",
+       "#c-haircare"
+      ],
+      [
+       "Serums",
+       "#c-haircare"
+      ],
+      [
+       "Masks",
+       "#c-haircare"
+      ],
+      [
+       "Conditioner",
+       "#c-haircare"
+      ]
+     ]
+    },
+    {
+     "h": "By concern",
+     "links": [
+      [
+       "Hair fall",
+       "#concern-hairfall"
+      ],
+      [
+       "Dandruff",
+       "#concern-dandruff"
+      ],
+      [
+       "Deep hydration",
+       "#concern-hydration"
+      ]
+     ]
+    },
+    {
+     "h": "Most searched",
+     "links": [
+      [
+       "Hair oil for dry hair",
+       "#k-hair-oil-for-dry-hair"
+      ],
+      [
+       "Hair mask for dry hair",
+       "#k-hair-mask-for-dry-hair"
+      ],
+      [
+       "Shampoo for dandruff",
+       "#k-shampoo-for-dandruff"
+      ],
+      [
+       "Hair serum for frizzy hair",
+       "#k-hair-serum-for-frizzy-hair"
+      ],
+      [
+       "Hair growth oil",
+       "#k-hair-growth-oil"
+      ],
+      [
+       "Shampoo for hair loss",
+       "#k-shampoo-for-hair-loss"
+      ]
+     ]
+    },
+    {
+     "h": "Brands",
+     "links": [
+      [
+       "Deyga",
+       "#b-deyga"
+      ],
+      [
+       "Vilvah",
+       "#b-vilvah"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Bath & Body",
+   "h": "#c-bath-body",
+   "cols": []
+  },
+  {
+   "t": "Fragrance",
+   "h": "#c-fragrance",
+   "cols": [
+    {
+     "h": "For",
+     "links": [
+      [
+       "For her",
+       "#c-fragrance"
+      ],
+      [
+       "For him",
+       "#c-fragrance"
+      ],
+      [
+       "Unisex",
+       "#c-fragrance"
+      ],
+      [
+       "Minis & sets",
+       "#c-gifts"
+      ]
+     ]
+    },
+    {
+     "h": "Scent family",
+     "links": [
+      [
+       "Oud",
+       "#scent-oud"
+      ],
+      [
+       "Amber",
+       "#scent-amber"
+      ],
+      [
+       "Floral",
+       "#scent-floral"
+      ],
+      [
+       "Woody",
+       "#scent-woody"
+      ],
+      [
+       "Fresh",
+       "#scent-fresh"
+      ]
+     ]
+    },
+    {
+     "h": "Houses",
+     "links": [
+      [
+       "anatomē",
+       "#b-anatome"
+      ],
+      [
+       "Tiziana Terenzi",
+       "#b-tiziana-terenzi"
+      ],
+      [
+       "Hemel",
+       "#b-hemel"
+      ],
+      [
+       "Fumeri",
+       "#b-fumeri"
+      ],
+      [
+       "Al Haramain",
+       "#b-al-haramain"
+      ],
+      [
+       "Signature D'orient",
+       "#b-signature-d-orient"
+      ],
+      [
+       "Gucci",
+       "#b-gucci"
+      ],
+      [
+       "Jo Milano",
+       "#b-jo-milano"
+      ],
+      [
+       "Dunhill",
+       "#b-dunhill"
+      ],
+      [
+       "Dolce & Gabbana",
+       "#b-dolce-gabbana"
+      ],
+      [
+       "All brands A–Z →",
+       "#brands"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Routines",
+   "h": "#rituals",
+   "cols": [
+    {
+     "h": "Skincare routines",
+     "links": [
+      [
+       "Clear Skin Routine",
+       "#rituals"
+      ],
+      [
+       "Vitamin C Glow Routine",
+       "#rituals"
+      ],
+      [
+       "Deep Hydration Routine",
+       "#rituals"
+      ],
+      [
+       "Milk Glow Routine",
+       "#rituals"
+      ],
+      [
+       "Sensitive Skin Routine",
+       "#rituals"
+      ],
+      [
+       "Age-Defying Routine",
+       "#rituals"
+      ]
+     ]
+    },
+    {
+     "h": "Hair routines",
+     "links": [
+      [
+       "Hair Fall Rescue",
+       "#rituals"
+      ],
+      [
+       "Smooth & Shine Routine",
+       "#rituals"
+      ],
+      [
+       "Calm Scalp Duo",
+       "#rituals"
+      ]
+     ]
+    },
+    {
+     "h": "Body & bath",
+     "links": [
+      [
+       "Body Polish Ritual",
+       "#rituals"
+      ],
+      [
+       "Foot Spa at Home",
+       "#rituals"
+      ],
+      [
+       "Sleep Ritual",
+       "#rituals"
+      ],
+      [
+       "Lip Wardrobe",
+       "#rituals"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Gifts & Sets",
+   "h": "#c-gifts",
+   "cols": [
+    {
+     "h": "Christmas 2026",
+     "links": [
+      [
+       "Advent calendars",
+       "#advent"
+      ],
+      [
+       "Skin Studio Advent",
+       "#advent-skin"
+      ],
+      [
+       "Scent Studio Advent",
+       "#advent-scent"
+      ],
+      [
+       "Stocking fillers",
+       "#k-stocking-fillers"
+      ]
+     ]
+    },
+    {
+     "h": "By recipient",
+     "links": [
+      [
+       "Gifts for her",
+       "#k-gifts-for-her"
+      ],
+      [
+       "Gifts for him",
+       "#k-gifts-for-him"
+      ],
+      [
+       "Perfume gift sets",
+       "#k-perfume-gift-sets"
+      ],
+      [
+       "All gift sets",
+       "#c-gifts"
+      ]
+     ]
+    },
+    {
+     "h": "By price & occasion",
+     "links": [
+      [
+       "Under £25",
+       "#k-gifts-under-25"
+      ],
+      [
+       "£25 to £50",
+       "#k-gifts-25-to-50"
+      ],
+      [
+       "Over £50",
+       "#k-gifts-over-50"
+      ],
+      [
+       "Diwali gifts",
+       "#k-diwali-gifts"
+      ],
+      [
+       "Ramadan & Eid gifts",
+       "#k-ramadan-eid-gifts"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Advent",
+   "h": "#advent",
+   "cols": []
+  },
+  {
+   "t": "Brands",
+   "h": "#brands",
+   "cols": [
+    {
+     "h": "Skin Studio",
+     "links": [
+      [
+       "Deyga · Official partner",
+       "#b-deyga"
+      ],
+      [
+       "Vilvah · Official partner",
+       "#b-vilvah"
+      ],
+      [
+       "Highborn London",
+       "#b-highborn-london"
+      ],
+      [
+       "Swansura Selection",
+       "#b-swansura-selection"
+      ],
+      [
+       "Shiseido",
+       "#b-shiseido"
+      ],
+      [
+       "Coach",
+       "#b-coach"
+      ]
+     ]
+    },
+    {
+     "h": "Scent Studio",
+     "links": [
+      [
+       "anatomē",
+       "#b-anatome"
+      ],
+      [
+       "Tiziana Terenzi",
+       "#b-tiziana-terenzi"
+      ],
+      [
+       "Hemel",
+       "#b-hemel"
+      ],
+      [
+       "Fumeri",
+       "#b-fumeri"
+      ],
+      [
+       "Al Haramain",
+       "#b-al-haramain"
+      ],
+      [
+       "Signature D'orient",
+       "#b-signature-d-orient"
+      ],
+      [
+       "Gucci",
+       "#b-gucci"
+      ],
+      [
+       "Jo Milano",
+       "#b-jo-milano"
+      ],
+      [
+       "Dunhill",
+       "#b-dunhill"
+      ],
+      [
+       "Dolce & Gabbana",
+       "#b-dolce-gabbana"
+      ]
+     ]
+    },
+    {
+     "h": "",
+     "links": [
+      [
+       "Bentley",
+       "#b-bentley"
+      ],
+      [
+       "The Woods Collection",
+       "#b-the-woods-collection"
+      ],
+      [
+       "Calvin Klein",
+       "#b-calvin-klein"
+      ],
+      [
+       "Elie Saab",
+       "#b-elie-saab"
+      ],
+      [
+       "Acqua di Parma",
+       "#b-acqua-di-parma"
+      ],
+      [
+       "Korloff",
+       "#b-korloff"
+      ],
+      [
+       "Guerlain",
+       "#b-guerlain"
+      ],
+      [
+       "Bvlgari",
+       "#b-bvlgari"
+      ],
+      [
+       "Chloé",
+       "#b-chloe"
+      ],
+      [
+       "Marc Jacobs",
+       "#b-marc-jacobs"
+      ],
+      [
+       "All 66 brands A–Z →",
+       "#brands"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Shop all",
+   "h": "#c-all",
+   "cols": []
+  },
+  {
+   "t": "Journal",
+   "h": "#journal",
+   "cols": []
+  }
+ ],
+ "foot": [
+  {
+   "h": "Shop",
+   "links": [
+    [
+     "All products",
+     "#c-all"
+    ],
+    [
+     "Skincare",
+     "#c-skincare"
+    ],
+    [
+     "Haircare",
+     "#c-haircare"
+    ],
+    [
+     "Bath & Body",
+     "#c-bath-body"
+    ],
+    [
+     "Fragrance",
+     "#c-fragrance"
+    ],
+    [
+     "Gifts & Sets",
+     "#c-gifts"
+    ],
+    [
+     "Routines",
+     "#rituals"
+    ],
+    [
+     "Offers",
+     "#offers"
+    ],
+    [
+     "Brands A–Z",
+     "#brands"
+    ]
+   ]
+  },
+  {
+   "h": "Concerns",
+   "links": [
+    [
+     "Acne & oil control",
+     "#concern-acne"
+    ],
+    [
+     "Glow & even tone",
+     "#concern-glow"
+    ],
+    [
+     "Deep hydration",
+     "#concern-hydration"
+    ],
+    [
+     "Lip care",
+     "#concern-lips"
+    ],
+    [
+     "Sun care",
+     "#concern-sun"
+    ],
+    [
+     "Hair fall",
+     "#concern-hairfall"
+    ]
+   ]
+  },
+  {
+   "h": "Ranges",
+   "links": [
+    [
+     "Beetroot",
+     "#range-beetroot"
+    ],
+    [
+     "Goat milk",
+     "#range-goat-milk"
+    ],
+    [
+     "Charcoal",
+     "#range-charcoal"
+    ],
+    [
+     "Vitamin C",
+     "#range-vitamin-c"
+    ],
+    [
+     "Rose",
+     "#range-rose"
+    ],
+    [
+     "Neem & tea tree",
+     "#range-neem"
+    ],
+    [
+     "Rice water",
+     "#range-rice-water"
+    ],
+    [
+     "Oud",
+     "#range-oud"
+    ]
+   ]
+  },
+  {
+   "h": "Brands",
+   "links": [
+    [
+     "Deyga",
+     "#b-deyga"
+    ],
+    [
+     "Vilvah",
+     "#b-vilvah"
+    ],
+    [
+     "anatomē",
+     "#b-anatome"
+    ],
+    [
+     "Highborn London",
+     "#b-highborn-london"
+    ],
+    [
+     "Tiziana Terenzi",
+     "#b-tiziana-terenzi"
+    ],
+    [
+     "Hemel",
+     "#b-hemel"
+    ],
+    [
+     "Fumeri",
+     "#b-fumeri"
+    ],
+    [
+     "Al Haramain",
+     "#b-al-haramain"
+    ]
+   ]
+  },
+  {
+   "h": "Popular searches",
+   "links": [
+    [
+     "Body butter",
+     "#k-body-butter"
+    ],
+    [
+     "Vitamin C serum",
+     "#k-vitamin-c-serum"
+    ],
+    [
+     "Lip balm & lip care",
+     "#k-lip-balm"
+    ],
+    [
+     "Oud perfume",
+     "#k-oud-perfume"
+    ],
+    [
+     "Perfume for women",
+     "#k-perfume-for-women"
+    ],
+    [
+     "Perfume for men",
+     "#k-perfume-for-men"
+    ],
+    [
+     "Gifts for her",
+     "#k-gifts-for-her"
+    ],
+    [
+     "Gifts under £25",
+     "#k-gifts-under-25"
+    ]
+   ]
+  },
+  {
+   "h": "Help",
+   "links": [
+    [
+     "Delivery & returns",
+     "#page-delivery"
+    ],
+    [
+     "FAQ",
+     "#page-faq"
+    ],
+    [
+     "About us",
+     "#page-about"
+    ],
+    [
+     "Contact",
+     "#page-contact"
+    ],
+    [
+     "Journal",
+     "#journal"
+    ],
+    [
+     "Sitemap",
+     "#sitemap"
+    ]
+   ]
+  }
+ ],
+ "legal": [
+  [
+   "Privacy",
+   "#page-privacy"
+  ],
+  [
+   "Terms",
+   "#page-terms"
+  ],
+  [
+   "Refunds",
+   "#page-refunds"
+  ],
+  [
+   "Shipping",
+   "#page-shipping"
+  ],
+  [
+   "Sitemap",
+   "#sitemap"
+  ],
+  [
+   "Cookie settings",
+   "#page-delivery"
+  ]
+ ]
+}

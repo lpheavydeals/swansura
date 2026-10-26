@@ -101,16 +101,18 @@ hg['sections'] = {'sw-announcement': {'type': 'sw-announcement', 'blocks': {
     'm3': {'type': 'message', 'settings': {'text': 'Official UK partner of <strong>Deyga</strong> &amp; <strong>Vilvah</strong>', 'link': 'shopify://collections/milk-drop-brightening-serum-1'}}},
     'block_order': ['m1', 'm2', 'm3'], 'settings': {'speed': 1}}, 'header': hg['sections']['header']}
 hg['order'] = ['sw-announcement', 'header']
-hg['sections']['header']['settings'].update({'logo_position': 'top-center', 'show_line_separator': False, 'sticky_header_type': 'on-scroll-up'})
+hg['sections']['header']['settings'].update({'menu': 'sw-main', 'menu_type_desktop': 'mega', 'logo_position': 'top-center', 'show_line_separator': False, 'sticky_header_type': 'on-scroll-up'})
 json.dump(hg, open(hg_path, 'w'), ensure_ascii=False, indent=2)
 
+FOOT_MENUS = [('Shop', 'sw-footer-shop'), ('Concerns', 'sw-footer-concerns'), ('Ranges', 'sw-footer-ranges'),
+              ('Brands', 'sw-footer-brands'), ('Popular searches', 'sw-footer-popular-searches'), ('Help', 'sw-footer-help')]
 fg_path = 'theme/sections/footer-group.json'
 raw = open(fg_path).read(); fg = json.loads(raw[raw.index('{'):])
 fg['sections'] = {'sw-footer': {'type': 'sw-footer', 'blocks': {
-    'b1': {'type': 'menu', 'settings': {'heading': 'Shop', 'menu': 'footer'}},
-    'b2': {'type': 'menu', 'settings': {'heading': 'Help', 'menu': 'footer-customer-care'}},
-    'b3': {'type': 'menu', 'settings': {'heading': 'Quick links', 'menu': 'quick-links'}}},
-    'block_order': ['b1', 'b2', 'b3'], 'settings': {'text': 'Natural skincare and rare fragrance, 100% authentic and shipped from the UK.',
+    # the prototype footer's six columns (store menus sw-footer-*, built by tools/shopify/proto_menus.py)
+    **{f'b{i}': {'type': 'menu', 'settings': {'heading': h, 'menu': m}} for i, (h, m) in enumerate(FOOT_MENUS, 1)}},
+    'block_order': [f'b{i}' for i in range(1, len(FOOT_MENUS) + 1)], 'settings': {
+    'legal_links': 'sw-legal', 'sitemap_url': '/pages/sitemap','text': 'Natural skincare and rare fragrance, 100% authentic and shipped from the UK.',
     'promises': '<ul><li>Official UK partner of Deyga &amp; Vilvah</li><li>Dispatched from the UK in 1–2 working days</li><li>Free UK delivery over £40</li><li>£5 off orders over £70</li></ul>'}}}
 fg['order'] = ['sw-footer']
 json.dump(fg, open(fg_path, 'w'), ensure_ascii=False, indent=2)

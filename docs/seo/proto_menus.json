@@ -1,0 +1,1077 @@
+[
+ {
+  "handle": "sw-main",
+  "title": "Swansura main menu",
+  "items": [
+   {
+    "title": "Skincare",
+    "type": "HTTP",
+    "url": "/collections/skincare",
+    "items": [
+     {
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/serum"
+       },
+       {
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/moisturizers-gels"
+       },
+       {
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/face-mask-pack"
+       },
+       {
+        "title": "Toners",
+        "type": "HTTP",
+        "url": "/collections/toner"
+       },
+       {
+        "title": "Cleansers",
+        "type": "HTTP",
+        "url": "/collections/cleanser"
+       },
+       {
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/skincare-tools-kits"
+       },
+       {
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/sunscreen"
+       },
+       {
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/lip-balm"
+       }
+      ]
+     },
+     {
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "title": "Acne & oil control",
+        "type": "HTTP",
+        "url": "/collections/concern-acne"
+       },
+       {
+        "title": "Glow & even tone",
+        "type": "HTTP",
+        "url": "/collections/concern-glow"
+       },
+       {
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration"
+       },
+       {
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/concern-lips"
+       },
+       {
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/concern-sun"
+       }
+      ]
+     },
+     {
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "title": "Moisturiser for dry skin",
+        "type": "HTTP",
+        "url": "/collections/moisturiser-for-dry-skin"
+       },
+       {
+        "title": "Face wash for oily skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-oily-skin"
+       },
+       {
+        "title": "Face wash for dry skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-dry-skin"
+       },
+       {
+        "title": "Toner for dry skin",
+        "type": "HTTP",
+        "url": "/collections/toner-for-dry-skin"
+       },
+       {
+        "title": "Lip balm for dry lips",
+        "type": "HTTP",
+        "url": "/collections/lip-balm-for-dry-lips"
+       },
+       {
+        "title": "Natural sunscreen",
+        "type": "HTTP",
+        "url": "/collections/natural-sunscreen"
+       }
+      ]
+     },
+     {
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum-1"
+       },
+       {
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum"
+       },
+       {
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london"
+       },
+       {
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection"
+       },
+       {
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido"
+       },
+       {
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Haircare",
+    "type": "HTTP",
+    "url": "/collections/haircare",
+    "items": [
+     {
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "title": "Hair oil",
+        "type": "HTTP",
+        "url": "/collections/hair-oil"
+       },
+       {
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/haircare-tools-kits"
+       },
+       {
+        "title": "Shampoo",
+        "type": "HTTP",
+        "url": "/collections/shampoo"
+       },
+       {
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/hair-styling-products"
+       },
+       {
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair"
+       },
+       {
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/hair-mask"
+       },
+       {
+        "title": "Conditioner",
+        "type": "HTTP",
+        "url": "/collections/conditioner"
+       }
+      ]
+     },
+     {
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "title": "Hair fall",
+        "type": "HTTP",
+        "url": "/collections/concern-hairfall"
+       },
+       {
+        "title": "Dandruff",
+        "type": "HTTP",
+        "url": "/collections/concern-dandruff"
+       },
+       {
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration"
+       }
+      ]
+     },
+     {
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "title": "Hair oil for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-oil-for-dry-hair"
+       },
+       {
+        "title": "Hair mask for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-mask-for-dry-hair"
+       },
+       {
+        "title": "Shampoo for dandruff",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-dandruff"
+       },
+       {
+        "title": "Hair serum for frizzy hair",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair"
+       },
+       {
+        "title": "Hair growth oil",
+        "type": "HTTP",
+        "url": "/collections/hair-growth-oil"
+       },
+       {
+        "title": "Shampoo for hair loss",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-hair-loss"
+       }
+      ]
+     },
+     {
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum-1"
+       },
+       {
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Bath & Body",
+    "type": "HTTP",
+    "url": "/collections/bodycare"
+   },
+   {
+    "title": "Fragrance",
+    "type": "HTTP",
+    "url": "/collections/fragrance",
+    "items": [
+     {
+      "title": "For",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "title": "For her",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-women"
+       },
+       {
+        "title": "For him",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-men"
+       },
+       {
+        "title": "Unisex",
+        "type": "HTTP",
+        "url": "/collections/unisex-perfume"
+       },
+       {
+        "title": "Minis & sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets"
+       }
+      ]
+     },
+     {
+      "title": "Scent family",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "title": "Oud",
+        "type": "HTTP",
+        "url": "/collections/scent-oud"
+       },
+       {
+        "title": "Amber",
+        "type": "HTTP",
+        "url": "/collections/scent-amber"
+       },
+       {
+        "title": "Floral",
+        "type": "HTTP",
+        "url": "/collections/scent-floral"
+       },
+       {
+        "title": "Woody",
+        "type": "HTTP",
+        "url": "/collections/scent-woody"
+       },
+       {
+        "title": "Fresh",
+        "type": "HTTP",
+        "url": "/collections/scent-fresh"
+       }
+      ]
+     },
+     {
+      "title": "Houses",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome"
+       },
+       {
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi"
+       },
+       {
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel-h"
+       },
+       {
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri"
+       },
+       {
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain"
+       },
+       {
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-sillage-dorient"
+       },
+       {
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci"
+       },
+       {
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/luxury-collection-1"
+       },
+       {
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill"
+       },
+       {
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana"
+       },
+       {
+        "title": "All brands A–Z",
+        "type": "HTTP",
+        "url": "/collections"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Routines",
+    "type": "HTTP",
+    "url": "/collections/sets-combos",
+    "items": [
+     {
+      "title": "Skincare routines",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Clear Skin Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Vitamin C Glow Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Deep Hydration Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Milk Glow Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Sensitive Skin Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Age-Defying Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       }
+      ]
+     },
+     {
+      "title": "Hair routines",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Hair Fall Rescue",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Smooth & Shine Routine",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Calm Scalp Duo",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       }
+      ]
+     },
+     {
+      "title": "Body & bath",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Body Polish Ritual",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Foot Spa at Home",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Sleep Ritual",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       },
+       {
+        "title": "Lip Wardrobe",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Gifts & Sets",
+    "type": "HTTP",
+    "url": "/collections/sets-combos",
+    "items": [
+     {
+      "title": "Christmas 2026",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Advent calendars",
+        "type": "HTTP",
+        "url": "/pages/advent"
+       },
+       {
+        "title": "Skin Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#skin"
+       },
+       {
+        "title": "Scent Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#scent"
+       },
+       {
+        "title": "Stocking fillers",
+        "type": "HTTP",
+        "url": "/collections/stocking-fillers"
+       }
+      ]
+     },
+     {
+      "title": "By recipient",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Gifts for her",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-her"
+       },
+       {
+        "title": "Gifts for him",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-him"
+       },
+       {
+        "title": "Perfume gift sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets"
+       },
+       {
+        "title": "All gift sets",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       }
+      ]
+     },
+     {
+      "title": "By price & occasion",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "title": "Under £25",
+        "type": "HTTP",
+        "url": "/collections/gifts-under-25"
+       },
+       {
+        "title": "£25 to £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-25-to-50"
+       },
+       {
+        "title": "Over £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-over-50"
+       },
+       {
+        "title": "Diwali gifts",
+        "type": "HTTP",
+        "url": "/collections/diwali-gifts"
+       },
+       {
+        "title": "Ramadan & Eid gifts",
+        "type": "HTTP",
+        "url": "/collections/ramadan-eid-gifts"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Advent",
+    "type": "HTTP",
+    "url": "/pages/advent"
+   },
+   {
+    "title": "Brands",
+    "type": "HTTP",
+    "url": "/collections",
+    "items": [
+     {
+      "title": "Skin Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "title": "Deyga · Official partner",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum-1"
+       },
+       {
+        "title": "Vilvah · Official partner",
+        "type": "HTTP",
+        "url": "/collections/milk-drop-brightening-serum"
+       },
+       {
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london"
+       },
+       {
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection"
+       },
+       {
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido"
+       },
+       {
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach"
+       }
+      ]
+     },
+     {
+      "title": "Scent Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome"
+       },
+       {
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi"
+       },
+       {
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel-h"
+       },
+       {
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri"
+       },
+       {
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain"
+       },
+       {
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-sillage-dorient"
+       },
+       {
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci"
+       },
+       {
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/luxury-collection-1"
+       },
+       {
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill"
+       },
+       {
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana"
+       }
+      ]
+     },
+     {
+      "title": "More houses",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "title": "Bentley",
+        "type": "HTTP",
+        "url": "/collections/bentley"
+       },
+       {
+        "title": "The Woods Collection",
+        "type": "HTTP",
+        "url": "/collections/the-woods-collection"
+       },
+       {
+        "title": "Calvin Klein",
+        "type": "HTTP",
+        "url": "/collections/calvin-klein"
+       },
+       {
+        "title": "Elie Saab",
+        "type": "HTTP",
+        "url": "/collections/elie-saab"
+       },
+       {
+        "title": "Acqua di Parma",
+        "type": "HTTP",
+        "url": "/collections/acqua-di-parma"
+       },
+       {
+        "title": "Korloff",
+        "type": "HTTP",
+        "url": "/collections/korloff"
+       },
+       {
+        "title": "Guerlain",
+        "type": "HTTP",
+        "url": "/collections/guerlain"
+       },
+       {
+        "title": "Bvlgari",
+        "type": "HTTP",
+        "url": "/collections/bvlgari"
+       },
+       {
+        "title": "Chloé",
+        "type": "HTTP",
+        "url": "/collections/chloe"
+       },
+       {
+        "title": "Marc Jacobs",
+        "type": "HTTP",
+        "url": "/collections/marc-jacobs"
+       },
+       {
+        "title": "All 66 brands A–Z",
+        "type": "HTTP",
+        "url": "/collections"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Shop all",
+    "type": "HTTP",
+    "url": "/collections/all"
+   },
+   {
+    "title": "Journal",
+    "type": "HTTP",
+    "url": "/blogs/journal"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-shop",
+  "title": "Swansura footer – Shop",
+  "items": [
+   {
+    "title": "All products",
+    "type": "HTTP",
+    "url": "/collections/all"
+   },
+   {
+    "title": "Skincare",
+    "type": "HTTP",
+    "url": "/collections/skincare"
+   },
+   {
+    "title": "Haircare",
+    "type": "HTTP",
+    "url": "/collections/haircare"
+   },
+   {
+    "title": "Bath & Body",
+    "type": "HTTP",
+    "url": "/collections/bodycare"
+   },
+   {
+    "title": "Fragrance",
+    "type": "HTTP",
+    "url": "/collections/fragrance"
+   },
+   {
+    "title": "Gifts & Sets",
+    "type": "HTTP",
+    "url": "/collections/sets-combos"
+   },
+   {
+    "title": "Routines",
+    "type": "HTTP",
+    "url": "/collections/sets-combos"
+   },
+   {
+    "title": "Offers",
+    "type": "HTTP",
+    "url": "/pages/offers"
+   },
+   {
+    "title": "Brands A–Z",
+    "type": "HTTP",
+    "url": "/collections"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-concerns",
+  "title": "Swansura footer – Concerns",
+  "items": [
+   {
+    "title": "Acne & oil control",
+    "type": "HTTP",
+    "url": "/collections/concern-acne"
+   },
+   {
+    "title": "Glow & even tone",
+    "type": "HTTP",
+    "url": "/collections/concern-glow"
+   },
+   {
+    "title": "Deep hydration",
+    "type": "HTTP",
+    "url": "/collections/concern-hydration"
+   },
+   {
+    "title": "Lip care",
+    "type": "HTTP",
+    "url": "/collections/concern-lips"
+   },
+   {
+    "title": "Sun care",
+    "type": "HTTP",
+    "url": "/collections/concern-sun"
+   },
+   {
+    "title": "Hair fall",
+    "type": "HTTP",
+    "url": "/collections/concern-hairfall"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-ranges",
+  "title": "Swansura footer – Ranges",
+  "items": [
+   {
+    "title": "Beetroot",
+    "type": "HTTP",
+    "url": "/collections/range-beetroot"
+   },
+   {
+    "title": "Goat milk",
+    "type": "HTTP",
+    "url": "/collections/range-goat-milk"
+   },
+   {
+    "title": "Charcoal",
+    "type": "HTTP",
+    "url": "/collections/range-charcoal"
+   },
+   {
+    "title": "Vitamin C",
+    "type": "HTTP",
+    "url": "/collections/range-vitamin-c"
+   },
+   {
+    "title": "Rose",
+    "type": "HTTP",
+    "url": "/collections/range-rose"
+   },
+   {
+    "title": "Neem & tea tree",
+    "type": "HTTP",
+    "url": "/collections/range-neem"
+   },
+   {
+    "title": "Rice water",
+    "type": "HTTP",
+    "url": "/collections/range-rice-water"
+   },
+   {
+    "title": "Oud",
+    "type": "HTTP",
+    "url": "/collections/range-oud"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-brands",
+  "title": "Swansura footer – Brands",
+  "items": [
+   {
+    "title": "Deyga",
+    "type": "HTTP",
+    "url": "/collections/milk-drop-brightening-serum-1"
+   },
+   {
+    "title": "Vilvah",
+    "type": "HTTP",
+    "url": "/collections/milk-drop-brightening-serum"
+   },
+   {
+    "title": "anatomē",
+    "type": "HTTP",
+    "url": "/collections/anatome"
+   },
+   {
+    "title": "Highborn London",
+    "type": "HTTP",
+    "url": "/collections/highborn-london"
+   },
+   {
+    "title": "Tiziana Terenzi",
+    "type": "HTTP",
+    "url": "/collections/tiziana-terenzi"
+   },
+   {
+    "title": "Hemel",
+    "type": "HTTP",
+    "url": "/collections/hemel-h"
+   },
+   {
+    "title": "Fumeri",
+    "type": "HTTP",
+    "url": "/collections/fumeri"
+   },
+   {
+    "title": "Al Haramain",
+    "type": "HTTP",
+    "url": "/collections/al-haramain"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-popular-searches",
+  "title": "Swansura footer – Popular searches",
+  "items": [
+   {
+    "title": "Body butter",
+    "type": "HTTP",
+    "url": "/collections/body-butter"
+   },
+   {
+    "title": "Vitamin C serum",
+    "type": "HTTP",
+    "url": "/collections/vitamin-c-serum"
+   },
+   {
+    "title": "Lip balm & lip care",
+    "type": "HTTP",
+    "url": "/collections/lip-balm"
+   },
+   {
+    "title": "Oud perfume",
+    "type": "HTTP",
+    "url": "/collections/oud-perfume"
+   },
+   {
+    "title": "Perfume for women",
+    "type": "HTTP",
+    "url": "/collections/perfume-for-women"
+   },
+   {
+    "title": "Perfume for men",
+    "type": "HTTP",
+    "url": "/collections/perfume-for-men"
+   },
+   {
+    "title": "Gifts for her",
+    "type": "HTTP",
+    "url": "/collections/gifts-for-her"
+   },
+   {
+    "title": "Gifts under £25",
+    "type": "HTTP",
+    "url": "/collections/gifts-under-25"
+   }
+  ]
+ },
+ {
+  "handle": "sw-footer-help",
+  "title": "Swansura footer – Help",
+  "items": [
+   {
+    "title": "Delivery & returns",
+    "type": "HTTP",
+    "url": "/pages/shipping"
+   },
+   {
+    "title": "FAQ",
+    "type": "HTTP",
+    "url": "/pages/faq"
+   },
+   {
+    "title": "About us",
+    "type": "HTTP",
+    "url": "/pages/about"
+   },
+   {
+    "title": "Contact",
+    "type": "HTTP",
+    "url": "/pages/contact"
+   },
+   {
+    "title": "Journal",
+    "type": "HTTP",
+    "url": "/blogs/journal"
+   },
+   {
+    "title": "Sitemap",
+    "type": "HTTP",
+    "url": "/pages/sitemap"
+   }
+  ]
+ },
+ {
+  "handle": "sw-legal",
+  "title": "Swansura legal bar",
+  "items": [
+   {
+    "title": "Privacy",
+    "type": "HTTP",
+    "url": "/policies/privacy-policy"
+   },
+   {
+    "title": "Terms",
+    "type": "HTTP",
+    "url": "/policies/terms-of-service"
+   },
+   {
+    "title": "Refunds",
+    "type": "HTTP",
+    "url": "/policies/refund-policy"
+   },
+   {
+    "title": "Shipping",
+    "type": "HTTP",
+    "url": "/pages/shipping"
+   }
+  ]
+ }
+]
