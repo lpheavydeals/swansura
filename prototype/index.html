@@ -74,7 +74,7 @@ section{padding-block:var(--sec)}
 /* Product pictures: cells of packed image sheets, shown by background position */
 .pic{width:100%;aspect-ratio:4/5;background-color:var(--mount);background-repeat:no-repeat;transition:transform .6s}
 
-.announce{background:var(--emerald);color:var(--on-dark);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.announce{background:var(--emerald);color:var(--on-dark);font-size:14px;letter-spacing:.12em;text-transform:uppercase}
 .announce .wrap{display:flex;justify-content:center;gap:clamp(16px,4vw,56px);padding-block:10px;flex-wrap:wrap;text-align:center}
 .announce b{font-weight:600;color:#E6D3A8}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -492,8 +492,9 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);padding:
 .hicon .wcount,.bagic .bagcount{position:absolute;top:-7px;right:-10px;margin:0;min-width:17px;height:17px;padding:0 4px;font-size:10px;font-weight:700;line-height:1;border-radius:9px;box-shadow:0 0 0 2px var(--paper)}
 .bagcount[hidden]{display:none}
 .announce a{color:inherit}.announce a:hover{text-decoration:underline}
-@media (max-width:900px){.announce{font-size:11px;letter-spacing:.12em}}
-@media (max-width:1100px){.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .25s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
+@media (max-width:900px){.announce{font-size:13px;letter-spacing:.06em}}
+@media (max-width:380px){.announce{font-size:12px;letter-spacing:.02em}}
+@media (max-width:1320px){.announce .wrap{display:grid;padding-block:9px}.announce .wrap>*{grid-area:1/1;opacity:0;transition:opacity .25s;pointer-events:none}.announce .wrap>.on{opacity:1;pointer-events:auto}}
 .heart{position:absolute;top:8px;right:8px;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,249,.92);color:var(--ink);transition:transform .2s,color .2s}
 .heart:hover{transform:scale(1.08)}
 .heart[aria-pressed="true"]{color:var(--sale)}.heart[aria-pressed="true"] svg{fill:currentColor}
