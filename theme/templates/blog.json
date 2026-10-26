@@ -1,1 +1,16 @@
-{"sections":{"main":{"type":"sw-blog","settings":{"eyebrow":"The Journal","intro":"<p>Skincare routines, fragrance know-how and gift ideas from the Swansura studio.</p>"}},"newsletter":{"type":"sw-newsletter","settings":{}}},"order":["main","newsletter"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-blog",
+   "settings": {}
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

@@ -101,7 +101,7 @@
   "count": {{ collections.all.products_count | json }},
   "returnsUrl": {{ shop.refund_policy.url | default: '/pages/shipping' | json }},
   "pays": {{ pays | json }},
-  "extras": [{%- assign k = 0 -%}{%- for p in extras_c.products limit: 60 -%}{%- if p.available and p.price < 1200 and k < 12 -%}{%- assign k = k | plus: 1 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}{% unless k == 1 %},{% endunless %}{%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}{"id": {{ vid }}, "title": {{ pn | json }}, "price": {{ p.price }}, "img": {{ p.featured_media.preview_image | image_url: width: 200 | json }}}{%- endif -%}{%- endfor -%}]
+  "extras": [{%- assign k = 0 -%}{%- for p in extras_c.products limit: 60 -%}{%- if p.available and p.selected_or_first_available_variant.price < 1200 and k < 12 -%}{%- assign k = k | plus: 1 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}{% unless k == 1 %},{% endunless %}{%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}{"id": {{ vid }}, "title": {{ pn | json }}, "price": {{ p.selected_or_first_available_variant.price }}, "img": {{ p.featured_media.preview_image | image_url: width: 200 | json }}}{%- endif -%}{%- endfor -%}]
 }</script>
 
 <div class="swp swp-fixed">

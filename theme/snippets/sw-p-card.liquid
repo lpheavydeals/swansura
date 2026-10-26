@@ -18,7 +18,7 @@
     size tag: the first number followed by ml, gm, g, kg or l in the title, as in the prototype
   endcomment
   assign size = ''
-  assign words = full | downcase | replace: '(', ' ' | replace: ')', ' ' | replace: '+', ' ' | replace: ',', ' ' | split: ' '
+  assign words = product.title | downcase | replace: '(', ' ' | replace: ')', ' ' | replace: '+', ' ' | replace: ',', ' ' | split: ' '
   assign prev = ''
   assign units = 'ml,gm,kg,g,l' | split: ','
   for w in words
@@ -73,23 +73,24 @@
   if vl == 'deyga' or vl contains 'vilvah'
     assign partner = true
   endif
+  assign fv = product.selected_or_first_available_variant
   assign img0 = product.featured_media.preview_image
   assign img1 = product.media[1].preview_image
 -%}
 {%- capture t -%}{% render 'sw-p-name', product: product %}{%- endcapture -%}
 {%- capture vid -%}{% render 'sw-p-variant', product: product %}{%- endcapture -%}
 {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
-<article class="p-card"{% if hidden %} hidden{% endif %}{% if facets %} data-t="{{ sw.t | escape }}" data-b="{{ product.vendor | escape }}" data-c="{{ sw.c | join: '|' }}" data-s="{{ sw.s | join: '|' }}" data-g="{{ sw.g | join: '|' | escape }}" data-f="{{ sw.f }}" data-w="{{ sw.w | escape }}" data-p="{{ product.price | divided_by: 100.0 }}" data-in="{% if product.available %}1{% else %}0{% endif %}" data-n="{{ t | escape }}" data-r="{{ sw.r | default: 9999 }}"{% endif %}><div class="mwrap"><a href="{{ product.url }}" class="p-media" aria-label="{{ t | escape }}">
+<article class="p-card"{% if hidden %} hidden{% endif %}{% if facets %} data-t="{{ sw.t | escape }}" data-b="{{ product.vendor | escape }}" data-c="{{ sw.c | join: '|' }}" data-s="{{ sw.s | join: '|' }}" data-g="{{ sw.g | join: '|' | escape }}" data-f="{{ sw.f }}" data-w="{{ sw.w | escape }}" data-p="{{ fv.price | divided_by: 100.0 }}" data-in="{% if product.available %}1{% else %}0{% endif %}" data-n="{{ t | escape }}" data-r="{{ sw.r | default: 9999 }}"{% endif %}><div class="mwrap"><a href="{{ product.url }}" class="p-media" aria-label="{{ t | escape }}">
   {%- if img0 -%}{{ img0 | image_url: width: 900 | image_tag: class: 'pic', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: img0.alt | default: product.title }}{%- else -%}<div class="pic"></div>{%- endif -%}
   {%- if img1 -%}{{ img1 | image_url: width: 900 | image_tag: class: 'pic alt', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: img1.alt | default: product.title }}{%- endif -%}
   {%- if product.available == false -%}<span class="p-badge out">Sold out</span>
-  {%- elsif product.compare_at_price > product.price -%}{%- assign pct = product.price | times: 100.0 | divided_by: product.compare_at_price | round -%}<span class="p-badge" style="color:var(--sale)">Save {{ 100 | minus: pct }}%</span>
+  {%- elsif fv.compare_at_price > fv.price -%}{%- assign pct = fv.price | times: 100.0 | divided_by: fv.compare_at_price | round -%}<span class="p-badge" style="color:var(--sale)">Save {{ 100 | minus: pct }}%</span>
   {%- elsif sw.k -%}<span class="p-badge pick">Studio pick</span>
   {%- elsif partner -%}<span class="p-badge partner">Official partner</span>
   {%- elsif gift -%}<span class="p-badge">Gift set</span>
   {%- endif -%}
 </a><button class="heart" data-wish="{{ product.handle }}" aria-pressed="false" aria-label="Save to wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"></path></svg></button></div>
-<div class="cbody"><div class="crow"><a href="{{ brand_url }}" class="brand">{{ product.vendor | escape }}</a>{%- if size != '' -%}<span class="size">{{ size | escape }}</span>{%- endif -%}</div><a href="{{ product.url }}" class="name" title="{{ t | escape }}">{{ t | escape }}</a><div class="cfoot"><div class="p-price">{{ product.price | money }}{%- if product.compare_at_price > product.price %} <s>{{ product.compare_at_price | money }}</s>{%- endif -%}</div>
+<div class="cbody"><div class="crow"><a href="{{ brand_url }}" class="brand">{{ product.vendor | escape }}</a>{%- if size != '' -%}<span class="size">{{ size | escape }}</span>{%- endif -%}</div><a href="{{ product.url }}" class="name" title="{{ t | escape }}">{{ t | escape }}</a><div class="cfoot"><div class="p-price">{{ fv.price | money }}{%- if fv.compare_at_price > fv.price %} <s>{{ fv.compare_at_price | money }}</s>{%- endif -%}</div>
   {%- if product.available -%}<button class="add" data-add="{{ vid }}" aria-label="Add {{ t | escape }} to bag"><span>Add</span></button>
   {%- else -%}<a class="add soon" href="{{ product.url }}"><span>Notify</span></a>{%- endif -%}
 </div></div></article>

@@ -65,8 +65,11 @@ def url(route):
         return f"/products/{h}" if h else "/collections/all"
     if route.startswith("journal-"):
         return "/blogs/journal/" + route[8:]
-    return {"rituals": "/collections/sets-combos", "brands": "/collections", "journal": "/blogs/journal",
-            "offers": "/pages/offers", "advent": "/pages/advent", "sitemap": "/pages/sitemap"}.get(
+    return {"rituals": "/pages/rituals", "wishlist": "/pages/wishlist", "brands": "/collections", "journal": "/blogs/journal",
+            "offers": "/pages/offers", "advent": "/pages/advent", "sitemap": "/pages/sitemap",
+            "page-about": "/pages/about", "page-faq": "/pages/faq", "page-contact": "/pages/contact", "page-delivery": "/pages/shipping",
+            "page-shipping": "/policies/shipping-policy", "page-refunds": "/policies/refund-policy",
+            "page-privacy": "/policies/privacy-policy", "page-terms": "/policies/terms-of-service"}.get(
         route, "/search?type=product&q=" + re.sub(r"^[a-z]+-", "", route).replace("-", "+"))
 
 

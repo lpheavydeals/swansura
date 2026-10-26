@@ -1,26 +1,69 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "main": {
-      "type": "main-list-collections",
-      "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
-      }
-    }
+ "sections": {
+  "main": {
+   "type": "sw-p-brands",
+   "settings": {}
   },
-  "order": [
-    "main"
-  ]
+  "seo": {
+   "type": "sw-p-seocopy",
+   "settings": {
+    "eyebrow": "About this page",
+    "heading": "Beauty and perfume brands A to Z",
+    "text": "<p>Our perfume brands and skincare labels run from Abercrombie &amp; Fitch to Yves Saint Laurent. Our 66 brands range from Indian natural care to European fashion houses, Arabian perfumers and niche labels, and every product is authentic and shipped from the UK.</p><h3>Natural skincare brands</h3><p>Our care side is led by <a href=\"/collections/milk-drop-brightening-serum-1\">Deyga</a> and <a href=\"/collections/milk-drop-brightening-serum\">Vilvah</a>, two Indian natural skincare brands with more than 70 products each. Swansura is an official UK partner of both. Highborn London brings 22 luxury English skincare and body products, anatomē adds sleep oils, bath oils and mindful fragrance, and our own Swansura Selection gathers goat milk soaps and small treats. Shiseido completes the list.</p><h3>Designer perfume houses</h3><p>Fashion and beauty houses include Calvin Klein, Chloé, Burberry, DKNY, Gucci, Dior, Guerlain, Bvlgari, Hermès, Givenchy, Lancôme, Tom Ford and Yves Saint Laurent. The <a href=\"/collections/dolce-gabbana\">Dolce &amp; Gabbana</a> perfume range covers The One, Devotion and K with gift sets, and the Jean Paul perfume line from <a href=\"/collections/jean-paul\">Jean Paul Gaultier</a> includes Scandal Gold. Elie Saab, Carolina Herrera, Marc Jacobs and Dunhill each bring a strong line-up too.</p><h3>Arabian and niche</h3><p>For Arabian perfume, Al Haramain, Hemel, Signature D'orient, Fumeri, SAP and Korloff offer oud, amber and spice. Niche perfume lovers will find Tiziana Terenzi with 22 fragrances, Jo Milano, Mancera, Montale, Serge Lutens and The Woods Collection. Every page in our list of perfume brands shows the full range with prices, and free UK delivery applies on orders over £40.</p>"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  },
+  "faq": {
+   "type": "sw-auto-faq",
+   "settings": {
+    "eyebrow": "Good to know",
+    "heading": "Brand questions"
+   },
+   "blocks": {
+    "q0": {
+     "type": "faq",
+     "settings": {
+      "q": "How many brands does Swansura stock?",
+      "a": "<p>66 skincare and fragrance brands, with 545 products in total.</p>"
+     }
+    },
+    "q1": {
+     "type": "faq",
+     "settings": {
+      "q": "Which brands is Swansura an official partner of?",
+      "a": "<p>Swansura is an official UK partner of Deyga and Vilvah, the Indian natural skincare brands.</p>"
+     }
+    },
+    "q2": {
+     "type": "faq",
+     "settings": {
+      "q": "Are all brands genuine?",
+      "a": "<p>Yes. Every product from every brand at Swansura is 100% authentic and ships from the UK.</p>"
+     }
+    },
+    "q3": {
+     "type": "faq",
+     "settings": {
+      "q": "Can I ask for a brand you do not stock?",
+      "a": "<p>Yes. Use the contact page to tell us which brand or product you are looking for.</p>"
+     }
+    }
+   },
+   "block_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3"
+   ]
+  }
+ },
+ "order": [
+  "main",
+  "seo",
+  "newsletter",
+  "faq"
+ ]
 }

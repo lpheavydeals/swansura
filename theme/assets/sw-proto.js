@@ -237,5 +237,94 @@
       collect(); build(); if (brandMode) apply(false); })();
   })();
 
+  /* ---------- product page (productPage() handlers) ---------- */
+  (() => {
+    const root = $('[data-pdp]'); const seenKey = 'swansura-seen'; let seen = store.get(seenKey, []);
+    const cur = root ? root.dataset.handle : null;
+    /* recently viewed: product pages + homepage section, cards from the sw-p-card-one section */
+    const sec = $('#seenSec'), grid = $('#seenGrid');
+    if (sec && grid) {
+      const list = seen.filter(h => h !== cur).slice(0, 4);
+      if (list.length) Promise.all(list.map(h => fetch(`/products/${encodeURIComponent(h)}?section_id=sw-p-card-one`).then(r => r.ok ? r.text() : '').catch(() => '')))
+        .then(hs => { const html = hs.map(h => { const m = h.match(/<article[\s\S]*<\/article>/); return m ? m[0] : ''; }).join(''); if (html) { grid.innerHTML = html; sec.hidden = false; syncHearts(); } });
+    }
+    if (!root) return;
+    store.set(seenKey, [cur, ...seen.filter(h => h !== cur)].slice(0, 12));
+    const V = JSON.parse($('#sw-variants')?.textContent || '{}'), vars = V.variants || [];
+    let v = vars.find(x => x.id == ($('[data-addq]')?.dataset.addq)) || vars[0];
+    const keep = 1 - (V.save || 0);
+    const setVariant = id => {
+      v = vars.find(x => x.id == id) || v;
+      $$('[data-addq]').forEach(b => b.dataset.addq = v.id); $$('[data-buynow]').forEach(b => b.dataset.buynow = v.id);
+      const sb = $('#stickybar [data-add]'); if (sb) sb.dataset.add = v.id;
+      const sp = $('[data-sticky-price]'); if (sp) sp.textContent = money(v.price);
+      const pr = $('#pdpPrice'); if (pr) pr.innerHTML = money(v.price) + (v.compare > v.price ? ` <s>${money(v.compare)}</s> <span class="off">SAVE ${100 - Math.round(v.price * 100 / v.compare)}%</span>` : '');
+      const pl = $('#payLater'); if (pl) { pl.hidden = !(v.ok && v.price >= 3000 && v.price <= 200000); pl.querySelector('b').textContent = money(Math.floor(v.price / 3)); }
+      const one = $('[data-pk="1"]'), two = $('[data-pk="2"]'), each = $('[data-pk="each"]');
+      if (one) one.textContent = money(v.price);
+      if (two) two.textContent = money(V.live ? Math.round(v.price * 2 * keep) : v.price * 2);
+      if (each) each.textContent = money(V.live ? Math.round(v.price * keep) : v.price);
+      const u = new URL(location.href); u.searchParams.set('variant', v.id); history.replaceState(null, '', u);
+    };
+    document.addEventListener('change', e => { if (e.target.name === 'variant') setVariant(e.target.value); });
+    /* ingredients: inciBlock() */
+    $$('[data-inci]').forEach(box => {
+      const d = JSON.parse(box.querySelector('script').textContent), inci = d.inci || [], heroes = d.heroes || [], id = box.dataset.id; if (!inci.length) return;
+      const GEN = /^(milk|water|extract|oil|oils|butter|powder|seed|leaf|flower|root|juice|proteins?|natural|pure|fresh|organic)$/;
+      const hk = heroes.map(h => h.toLowerCase().split(/[\s&,]+/).filter(w => w.length >= 4 && !GEN.test(w))).filter(ws => ws.length).map(ws => new RegExp(`\\b(${ws.map(w => w.replace(/[^a-z0-9]/g, '')).join('|')})`, 'i'));
+      const isHero = n => hk.some(re => re.test(n));
+      const split = n => { const m = n.match(/^(.+?)\s*\(([^()]*)\)$/); return m ? [m[1], m[2]] : [n, '']; };
+      const g = Object.assign({}, ...inci.map(c => c.g)), lab = (c, m) => c.g[m] || g[m] || (m === 1 || m === '1' ? 'Organic' : 'Plant derived');
+      const ck = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>';
+      const panel = (c, k) => { const cnt = {}; c.l.forEach(([, m]) => { if (m) cnt[m] = (cnt[m] || 0) + 1; });
+        return `<div class="inci-panel" role="tabpanel" id="inci-${id}-${k}"${k ? ' hidden' : ''}>
+      <div class="inci-meta"><b>${c.l.length} ingredient${c.l.length > 1 ? 's' : ''}</b>${Object.entries(cnt).map(([m, n]) => `<span class="st"><i class="mk m${m}"></i>${n} ${esc(lab(c, m).toLowerCase())}</span>`).join('')}<button class="inci-copy" data-incicopy="${esc(c.l.map(x => x[0]).join(', '))}">${ck}<span>Copy list</span></button></div>
+      <p class="inci-flow${c.l.length > 14 ? ' clip' : ''}">${c.l.map(([n, m]) => { const [main, sub] = split(n), h = isHero(n); return `<span class="ii${h ? ' hi' : ''}">${esc(main)}${sub ? ` <small>(${esc(sub)})</small>` : ''}${m ? `<i class="mk m${m}" title="${esc(lab(c, m))}" aria-label="${esc(lab(c, m))}"></i>` : ''}</span>`; }).join('<span class="sep" aria-hidden="true">·</span>')}</p>
+      ${c.l.length > 14 ? `<button class="inci-more" data-incimore aria-expanded="false">Show all ${c.l.length} ingredients</button>` : ''}
+    </div>`; };
+      box.innerHTML = `<div class="inci"><div class="inci-head"><h3>Full ingredient list</h3>
+      <div class="inci-legend">${hk.length ? '<span class="lg-hero"><i></i>Hero ingredient</span>' : ''}${Object.keys(g).map(m => `<span><i class="mk m${m}"></i>${esc(g[m])}</span>`).join('')}</div></div>
+    <p class="inci-intro">As listed by ${esc(box.dataset.brand)}, from the highest to the lowest amount.${inci.length > 1 ? (/^Step \d/.test(inci[0].n) ? ` Used in ${inci.length} steps.` : ` This kit has ${inci.length} products.`) : ''}</p>
+    ${inci.length > 1 ? `<div class="inci-tabs" role="tablist" aria-label="Products in this kit">${inci.map((c, k) => `<button role="tab" aria-selected="${!k}" aria-controls="inci-${id}-${k}" data-incitab="${k}">${esc(c.n)}</button>`).join('')}</div>` : ''}
+    ${inci.map(panel).join('')}
+    <p class="inci-note">Always check the pack for the most up-to-date list, and patch test before first use.</p></div>`;
+    });
+    document.addEventListener('click', async e => {
+      const it = e.target.closest('[data-incitab]');
+      if (it) { const s = it.closest('.inci'); $$('[data-incitab]', s).forEach(b => b.setAttribute('aria-selected', b === it)); $$('.inci-panel', s).forEach((p, k) => p.hidden = k !== +it.dataset.incitab); return; }
+      const m = e.target.closest('[data-incimore]');
+      if (m) { const l = m.previousElementSibling, clipped = l.classList.toggle('clip'); m.setAttribute('aria-expanded', !clipped); m.textContent = clipped ? `Show all ${l.querySelectorAll('.ii').length} ingredients` : 'Show fewer'; return; }
+      const c = e.target.closest('[data-incicopy]');
+      if (c) { const done = () => { c.querySelector('span').textContent = 'Copied'; setTimeout(() => c.querySelector('span').textContent = 'Copy list', 1800); };
+        try { navigator.clipboard.writeText(c.dataset.incicopy).then(done, () => toast('Select the list to copy it')); } catch (err) { toast('Select the list to copy it'); } return; }
+      const rv = e.target.closest('[data-review]');
+      if (rv) { const w = $('#judgeme_product_reviews'); if (w) { w.hidden = false; const l = w.querySelector('.jdgm-write-rev-link'); if (l) l.click(); else w.scrollIntoView({ behavior: 'smooth' }); } return; }
+      const t = e.target.closest('[data-frame],[data-q],[data-jump],[data-addq],[data-buynow]'); if (!t) return;
+      if (t.dataset.frame) { const img = $('#mainImg img'); if (img) { img.srcset = t.dataset.srcset; img.src = t.dataset.full; img.alt = t.dataset.alt; } $$('button', t.parentElement).forEach(b => b.setAttribute('aria-current', b === t)); return; }
+      if (t.dataset.q) { const o = $('#qty'); o.value = o.textContent = Math.max(1, (+o.textContent) + (+t.dataset.q)); return; }
+      if (t.dataset.jump) { e.preventDefault(); const el = document.getElementById(t.dataset.jump); if (el) { if (el.tagName === 'DETAILS') el.open = true; el.scrollIntoView({ behavior: 'smooth' }); } return; }
+      e.preventDefault(); const bn = !!t.dataset.buynow, q = +($('#qty')?.textContent || 1), pk = $('input[name="pack"]:checked')?.value || 'single';
+      let items = [{ id: +v.id, quantity: q }];
+      if (pk === 'duo') items = [{ id: +v.id, quantity: 2 * q }];
+      else if (pk === 'routine') { const ids = ($('.complete [data-addall]')?.dataset.addall || '').split(',').filter(Boolean); ids[0] = v.id; items = ids.map(id => ({ id: +id, quantity: q })); }
+      t.disabled = true; const ok = await addItems(items); t.disabled = false; if (!ok) return;
+      if (bn) { location.href = '/checkout'; return; }
+      if (pk === 'duo') toast(V.live ? `Duo added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Duo added to your bag');
+      else if (pk === 'routine') toast(V.live ? `Routine added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Routine added to your bag');
+      await openBag(String(v.id));
+    });
+  })();
+
+  /* ---------- wishlist page (wishlistPage()) ---------- */
+  (() => {
+    const g = $('#wishGrid'); if (!g) return;
+    const list = store.get('swansura-wish', []), lede = $('#wishLede'), empty = $('#wishEmpty');
+    if (!list.length) return;
+    lede.textContent = `${list.length} saved product${list.length > 1 ? 's' : ''}.`;
+    Promise.all(list.map(h => fetch(`/products/${encodeURIComponent(h)}?section_id=sw-p-card-one`).then(r => r.ok ? r.text() : '').catch(() => '')))
+      .then(hs => { const html = hs.map(h => { const m = h.match(/<article[\s\S]*<\/article>/); return m ? m[0] : ''; }).join('');
+        if (html) { g.innerHTML = html; g.hidden = false; empty.hidden = true; syncHearts(); } });
+  })();
+
   syncHearts(); getCart().catch(() => {});
 })();

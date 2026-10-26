@@ -1,1 +1,19 @@
-{"sections":{"head":{"type":"sw-page","settings":{"eyebrow":"","tone":"auto","show_content":true,"map":"fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product"}},"newsletter":{"type":"sw-newsletter","settings":{}}},"order":["head","newsletter"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-page",
+   "settings": {
+    "map": "fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product",
+    "chips": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nGifts under £25|/collections/gifts-under-25\nGifts £25 to £50|/collections/gifts-25-to-50\nLuxury gifts over £50|/collections/gifts-over-50\nDiwali gifts|/collections/diwali-gifts"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

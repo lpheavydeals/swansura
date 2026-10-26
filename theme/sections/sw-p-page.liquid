@@ -1,0 +1,58 @@
+{%- comment -%}
+  Info page, prototype markup (infoPage() in prototype/index.html): breadcrumbs, page header (eyebrow, H1, optional
+  share, lede), then the page's own text, an optional contact form, and 'Popular right now' keyword chips.
+  Pages without text (the old menu pages: lipcare, body-care, jo-milano …) show the products of the collection
+  mapped to their handle in 'map' (handle:collection per line) instead.
+{%- endcomment -%}
+{%- liquid
+  assign h1 = section.settings.heading | default: page.metafields.custom.h1.value | default: page.title
+  assign mapped = blank
+  assign lines = section.settings.map | newline_to_br | split: '<br />'
+  for line in lines
+    assign kv = line | strip | split: ':'
+    if kv[0] == page.handle
+      assign mapped = collections[kv[1]]
+    endif
+  endfor
+-%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">{{ page.title | escape }}</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h1 data-label="{{ page.title | escape }}" style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{{ h1 | escape }}</h1>
+    {%- if section.settings.share -%}<div class="share dark ph"><button class="sharebtn" data-share="{{ page.url }}" data-share-title="{{ page.title | escape }} | Swansura" data-share-text="{{ section.settings.share_text | default: page.title | escape }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div>{%- endif -%}</div>
+    {%- if section.settings.lede != blank -%}<p class="lede">{{ section.settings.lede }}</p>{%- endif -%}</div>
+  {%- if page.content != blank and section.settings.show_content -%}
+    <section style="padding-top:24px"><div class="pagebody">{{ page.content }}</div></section>
+  {%- elsif mapped != blank -%}
+    <section style="padding-top:24px"><div class="sec-head"><div><h2>{{ mapped.title | escape }}</h2></div><a class="p-link" href="{{ mapped.url }}">Shop all {{ mapped.products_count }}</a></div><div class="grid-p">{%- for p in mapped.products limit: 48 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div></section>
+  {%- endif -%}
+  {%- if section.settings.form -%}
+    <section style="padding-top:8px"><div class="pagebody">{%- form 'contact', class: 'cform' -%}
+      {%- if form.posted_successfully? -%}<p class="okmsg" role="status">Thanks for your message. We usually reply within a working day.</p>{%- endif -%}
+      {%- if form.errors -%}<p class="errmsg" role="alert">{{ form.errors | default_errors }}</p>{%- endif -%}
+      <label>Name<input type="text" name="contact[name]" autocomplete="name" value="{{ form.name }}"></label>
+      <label>Email *<input type="email" name="contact[email]" autocomplete="email" required value="{{ form.email }}"></label>
+      <label>Phone<input type="tel" name="contact[phone]" autocomplete="tel" value="{{ form.phone }}"></label>
+      <label class="full">Message *<textarea name="contact[body]" rows="6" required>{{ form.body }}</textarea></label>
+      <button class="btn solid" type="submit">Send message</button>
+    {%- endform -%}</div></section>
+  {%- endif -%}
+  {%- assign chip_lines = section.settings.chips | newline_to_br | split: '<br />' -%}
+  {%- if section.settings.chips != blank -%}<section><div class="kwchips"><span class="eyebrow">{{ section.settings.chips_heading | escape }}</span><div>{%- for line in chip_lines -%}{%- assign kv = line | strip | split: '|' -%}{%- if kv.size == 2 -%}<a href="{{ kv[1] | strip }}">{{ kv[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></div></section>{%- endif -%}
+</div></div>
+
+{% schema %}
+{
+  "name": "Swansura page",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Customer care" },
+    { "type": "text", "id": "heading", "label": "Heading (defaults to the page title)" },
+    { "type": "richtext", "id": "lede", "label": "Intro under the title" },
+    { "type": "checkbox", "id": "show_content", "label": "Show the page text", "default": true },
+    { "type": "checkbox", "id": "share", "label": "Share button", "default": false },
+    { "type": "text", "id": "share_text", "label": "Share text" },
+    { "type": "checkbox", "id": "form", "label": "Contact form", "default": false },
+    { "type": "textarea", "id": "chips", "label": "Keyword chips (Label|url per line)" },
+    { "type": "text", "id": "chips_heading", "label": "Chips heading", "default": "Popular right now" },
+    { "type": "textarea", "id": "map", "label": "Pages without text: handle:collection per line" }
+  ]
+}
+{% endschema %}

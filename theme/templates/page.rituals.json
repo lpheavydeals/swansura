@@ -1,0 +1,442 @@
+{
+ "sections": {
+  "head": {
+   "type": "sw-p-page",
+   "settings": {
+    "eyebrow": "Routines & sets",
+    "heading": "Skincare Routines That Work Together",
+    "share": true,
+    "show_content": false,
+    "share_text": "16 step-by-step skincare, hair, body and scent routines at Swansura",
+    "lede": "<p>16 step-by-step routines built from products across our brands.</p>"
+   }
+  },
+  "g0": {
+   "type": "sw-p-rituals",
+   "settings": {
+    "layout": "page",
+    "heading": "Skincare routines",
+    "all_label": ""
+   },
+   "blocks": {
+    "r0": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Clear Skin Routine",
+      "intro": "For oily, breakout-prone skin: deep cleanse, balance, then a drop of neem.",
+      "s1": "Cleanse",
+      "p1": "charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas",
+      "s2": "Tone",
+      "p2": "deyga-tea-tree-facial-toner-100ml",
+      "s3": "Treat",
+      "p3": "deyga-neem-seed-oil-30ml"
+     }
+    },
+    "r1": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Vitamin C Glow Routine",
+      "intro": "Brighter, more even-looking skin by day, finished with SPF.",
+      "s1": "Cleanse",
+      "p1": "deyga-vitamin-c-foaming-face-wash-100ml",
+      "s2": "Serum",
+      "p2": "10-vitamin-c-face-serum-20ml-deygas-natural-brightening-even-skin-tone-dark-spots-suitable-for-all-skin-types",
+      "s3": "Protect",
+      "p3": "deyga-sunscreen-50ml"
+     }
+    },
+    "r2": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Deep Hydration Routine",
+      "intro": "For dry, tight skin: a gentle wash, hyaluronic acid and a rich cream.",
+      "s1": "Cleanse",
+      "p1": "vilvah-honey-face-wash-raw-honey-fruit-extracts-100ml",
+      "s2": "Serum",
+      "p2": "deyga-2-hyaluronic-acid-serum-20ml",
+      "s3": "Moisturise",
+      "p3": "deyga-deep-moisturising-face-cream-30g"
+     }
+    },
+    "r3": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Milk Glow Routine",
+      "intro": "Vilvah's milk range for soft, radiant skin.",
+      "s1": "Cleanse",
+      "p1": "vilvah-store-milk-powder-face-wash-50g-brightening-powder-to-foam-cleanser-with-rice-complex-hyaluronic-acid-papain-for-normal-to-oily-skin-fragrance-talc-free",
+      "s2": "Tone",
+      "p2": "vilvah-milk-face-toner-100ml-earth-marine-water-rice-milk-glycolic-acid-pore-minimizer-hydrating-brightening-toner",
+      "s3": "Serum",
+      "p3": "milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone"
+     }
+    },
+    "r4": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Sensitive Skin Routine",
+      "intro": "Fragrance-free cleansing, pure aloe and a light cream.",
+      "s1": "Cleanse",
+      "p1": "vilvah-fragrance-free-cream-face-wash-100ml-gentle-hydrating-cleanser-for-sensitive-dry-skin-sulfate-free-paraben-free-silicone-free-enriched-with-banana-coconut-milk-extracts",
+      "s2": "Soothe",
+      "p2": "vilvah-aloe-vera-gel-100ml-100-pure-multi-purpose-face-skin-hair-gel-soothing-sunburn-hydrating-acne-calming",
+      "s3": "Moisturise",
+      "p3": "deyga-light-moisturising-face-cream-30g"
+     }
+    },
+    "r5": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Age-Defying Routine",
+      "intro": "Luxury English skincare: cleanse, peptide serum, rich moisturiser.",
+      "s1": "Cleanse",
+      "p1": "crystal-cleanser-100ml",
+      "s2": "Serum",
+      "p2": "youthboost-anti-ageing-peptide-serum",
+      "s3": "Moisturise",
+      "p3": "imperial-moisturiser"
+     }
+    }
+   },
+   "block_order": [
+    "r0",
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "r5"
+   ]
+  },
+  "g1": {
+   "type": "sw-p-rituals",
+   "settings": {
+    "layout": "page",
+    "heading": "Hair routines",
+    "all_label": ""
+   },
+   "blocks": {
+    "r0": {
+     "type": "ritual",
+     "settings": {
+      "group": "Hair routines",
+      "name": "The Hair Fall Rescue",
+      "intro": "Oil the roots, wash gently, condition the lengths.",
+      "s1": "Oil",
+      "p1": "vilvah-hair-growth-oil-50ml-natural-hair-regrowth-treatment-with-pumpkin-seed-kalonji-castor-oils-reduces-hair-fall-promotes-thicker-hair",
+      "s2": "Wash",
+      "p2": "vilvah-herbal-shampoo-250ml",
+      "s3": "Condition",
+      "p3": "vilvah-cream-conditioner-250ml"
+     }
+    },
+    "r1": {
+     "type": "ritual",
+     "settings": {
+      "group": "Hair routines",
+      "name": "The Smooth & Shine Routine",
+      "intro": "Rice water and soy milk care, finished with a frizz serum.",
+      "s1": "Wash",
+      "p1": "deygas-rice-water-shampoo-220ml-natural-hair-care-for-smooth-nourished-hair",
+      "s2": "Condition",
+      "p2": "deygas-soy-milk-conditioner-220-ml-vegan-protein-enriched-hair-conditioner-smooth-soft-frizz-free-hair",
+      "s3": "Style",
+      "p3": "vilvah-anti-frizz-hair-serum-30ml-silicone-free-hair-serum-with-black-seed-curry-leaf-oil-for-frizz-control-split-end-prevention-and-heat-protection"
+     }
+    },
+    "r2": {
+     "type": "ritual",
+     "settings": {
+      "group": "Hair routines",
+      "name": "The Calm Scalp Duo",
+      "intro": "A scalp oil and shampoo for flakes and itch.",
+      "s1": "Oil",
+      "p1": "vilvah-anti-dandruff-hair-oil-100ml-natural-scalp-treatment-with-tea-tree-neem-peppermint-oils-for-flake-free-healthy-hair",
+      "s2": "Wash",
+      "p2": "deygas-anti-dandruff-shampoo-220-ml-scalp-soothing-flake-control-hair-cleanser"
+     }
+    }
+   },
+   "block_order": [
+    "r0",
+    "r1",
+    "r2"
+   ]
+  },
+  "g2": {
+   "type": "sw-p-rituals",
+   "settings": {
+    "layout": "page",
+    "heading": "Body & bath",
+    "all_label": ""
+   },
+   "blocks": {
+    "r0": {
+     "type": "ritual",
+     "settings": {
+      "group": "Body & bath",
+      "name": "The Body Polish Ritual",
+      "intro": "Wash, scrub and seal in moisture for smooth skin.",
+      "s1": "Wash",
+      "p1": "deyga-wild-berry-body-wash-220ml",
+      "s2": "Scrub",
+      "p2": "deyga-body-scrub-100g",
+      "s3": "Butter",
+      "p3": "deyga-chocolate-body-butter-100g"
+     }
+    },
+    "r1": {
+     "type": "ritual",
+     "settings": {
+      "group": "Body & bath",
+      "name": "The Foot Spa at Home",
+      "intro": "Soak, scrub and cream: a weekly treat for tired feet.",
+      "s1": "Soak",
+      "p1": "deyga-foot-soak-powder-160g",
+      "s2": "Scrub",
+      "p2": "deyga-foot-scrub-100-g",
+      "s3": "Cream",
+      "p3": "vilvah-foot-care-cream-100ml-moisturising-treatment-for-cracked-heels-dry-calloused-feet-enriched-with-peppermint-argan-kalonji-oils-shea-mango-avocado-butters-unisex-all-skin-types"
+     }
+    },
+    "r2": {
+     "type": "ritual",
+     "settings": {
+      "group": "Body & bath",
+      "name": "The Sleep Ritual",
+      "intro": "A chamomile soak, sleep oil and pillow mist for a calmer night.",
+      "s1": "Bathe",
+      "p1": "relax-sleep-chamomile-bath-salts",
+      "s2": "Massage",
+      "p2": "sleep-oil-for-restless-sleep-roman-chamomile-cornish-lavender-anatome",
+      "s3": "Mist",
+      "p3": "sleep-pillow-spray-roman-chamomile-28-botanical-extracts-anatome"
+     }
+    },
+    "r3": {
+     "type": "ritual",
+     "settings": {
+      "group": "Body & bath",
+      "name": "The Lip Wardrobe",
+      "intro": "Scrub, tint and protect: three lip heroes.",
+      "s1": "Scrub",
+      "p1": "strawberry-lip-scrub-16g-deygas-natural-exfoliating-lip-care-avocado-almond-oils-shea-butter-and-vitamin-e-hydrates-softens-smooths-lips",
+      "s2": "Tint",
+      "p2": "deygas-beetroot-lip-balm-classic-10-g-100-natural-no-harsh-chemicals",
+      "s3": "Protect",
+      "p3": "vilvah-milk-lip-balm-spf-30-pa-natural-uv-protection-hydrating-lip-care-for-all-skin-types"
+     }
+    }
+   },
+   "block_order": [
+    "r0",
+    "r1",
+    "r2",
+    "r3"
+   ]
+  },
+  "g3": {
+   "type": "sw-p-rituals",
+   "settings": {
+    "layout": "page",
+    "heading": "Skin + scent",
+    "all_label": ""
+   },
+   "blocks": {
+    "r0": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skin + scent",
+      "name": "The Amber Oud Evening",
+      "intro": "Butter first, then oud: fragrance lasts longer on moisturised skin.",
+      "s1": "Moisturise",
+      "p1": "deyga-chocolate-body-butter-100g",
+      "s2": "Spray",
+      "p2": "al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance"
+     }
+    },
+    "r1": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skin + scent",
+      "name": "The Amber Oud Discovery",
+      "intro": "Three editions of Al Haramain Amber Oud, from fresh to rich.",
+      "s1": "Day",
+      "p1": "al-haramain-amber-oud-bleu-edition-eau-de-parfum-60ml-luxury-unisex-fresh-woody-fragrance",
+      "s2": "Evening",
+      "p2": "al-haramain-amber-oud-white-edition-eau-de-parfum-luxury-women-s-floral-oriental-fragrance",
+      "s3": "Night",
+      "p3": "al-haramain-amber-oud-gold-edition-eau-de-parfum-luxury-unisex-fruity-amber-fragrance"
+     }
+    },
+    "r2": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skin + scent",
+      "name": "The Gentleman’s Set",
+      "intro": "A fresh scent, a charcoal body wash and a neem wood comb.",
+      "s1": "Wash",
+      "p1": "deyga-activated-charcoal-body-wash-220ml",
+      "s2": "Groom",
+      "p2": "vilvah-mens-neem-wood-comb-natural-detangling-comb-for-hair-beard-eco-friendly-anti-static-frizz-free-grooming-tool-set-of-2",
+      "s3": "Spray",
+      "p3": "fumeri-blue-for-men-eau-de-parfum-100ml"
+     }
+    }
+   },
+   "block_order": [
+    "r0",
+    "r1",
+    "r2"
+   ]
+  },
+  "kits": {
+   "type": "sw-p-grid",
+   "settings": {
+    "heading": "Ready-made kits",
+    "collection": "sets-combos",
+    "limit": 8,
+    "link_label": "All gifts & sets"
+   }
+  },
+  "gifts": {
+   "type": "sw-p-chips",
+   "settings": {
+    "heading": "Gifts by price",
+    "unit": "gifts"
+   },
+   "blocks": {
+    "c0": {
+     "type": "chip",
+     "settings": {
+      "collection": "gifts-under-25"
+     }
+    },
+    "c1": {
+     "type": "chip",
+     "settings": {
+      "collection": "gifts-25-to-50"
+     }
+    },
+    "c2": {
+     "type": "chip",
+     "settings": {
+      "collection": "gifts-over-50"
+     }
+    },
+    "c3": {
+     "type": "chip",
+     "settings": {
+      "collection": "gifts-for-her"
+     }
+    },
+    "c4": {
+     "type": "chip",
+     "settings": {
+      "collection": "gifts-for-him"
+     }
+    },
+    "c5": {
+     "type": "chip",
+     "settings": {
+      "collection": "diwali-gifts"
+     }
+    },
+    "c6": {
+     "type": "chip",
+     "settings": {
+      "collection": "ramadan-eid-gifts"
+     }
+    },
+    "c7": {
+     "type": "chip",
+     "settings": {
+      "collection": "stocking-fillers"
+     }
+    }
+   },
+   "block_order": [
+    "c0",
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7"
+   ]
+  },
+  "seo": {
+   "type": "sw-p-seocopy",
+   "settings": {
+    "eyebrow": "About this page",
+    "heading": "Skincare routine sets for skin, hair, body and scent",
+    "text": "<p>A good skincare routine does not need ten steps. Our routines put two or three products in the right order, so you can shop a complete regime in one go. There are 16 in total, for skin, hair, body and fragrance, built mostly from Deyga and Vilvah, the Indian brands Swansura is an official UK partner of, plus Highborn London, anatomē and Al Haramain. Everything ships from the UK.</p><h3>Skin</h3><p>The Clear Skin Routine pairs Deyga Charcoal Face Wash, Tea Tree Facial Toner and Neem Seed Oil for oily skin. The Vitamin C Glow Routine runs from foaming wash to 10% Vitamin C serum to Deyga Sunscreen. For skincare for dry skin, the Deep Hydration Routine combines Vilvah Honey Face Wash, Deyga 2% Hyaluronic Acid Serum and Deep Moisturising Face Cream. The Milk Glow Routine uses Vilvah's milk range, the Sensitive Skin Routine starts with a fragrance-free cleanser and pure aloe, and the Age-Defying Routine brings together Highborn London Crystal Cleanser, YOUTHBOOST serum and Imperial Moisturiser.</p><h3>Hair and body</h3><p>The Hair Fall Rescue oils the roots, washes gently and conditions the lengths with Vilvah. The Smooth &amp; Shine Routine pairs Deyga Rice Water Shampoo and Soy Milk Conditioner with Vilvah Anti-Frizz Hair Serum, and makes a thoughtful hair care gift set. The Calm Scalp Duo is an oil and shampoo for flakes. For the body, the Body Polish Ritual adds a body scrub between wash and butter, and the Foot Spa at Home ends with Vilvah Foot Care Cream, a rich foot cream with shea and mango butter. The Lip Wardrobe starts with a lip scrub and finishes with SPF, and the Sleep Ritual uses anatomē bath salts, sleep oil and pillow spray.</p><h3>Scent</h3><p>Fragrance lasts longer on moisturised skin, and every skincare routine can end with scent, so the Amber Oud Evening pairs Deyga Chocolate Body Butter with Al Haramain Amber Oud Ruby Edition. The Amber Oud Discovery lets you compare Bleu, White and Gold editions, and the Gentleman's Set brings a charcoal body wash, a neem wood comb and Fumeri Blue For Men together. Browse <a href=\"/collections/sets-combos\">gifts and sets</a>, <a href=\"/collections/scent-oud\">oud fragrances</a> or shop by concern from <a href=\"/collections/concern-hydration\">deep hydration</a>. Orders over £40 get free UK delivery.</p>"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  },
+  "faq": {
+   "type": "sw-auto-faq",
+   "settings": {
+    "eyebrow": "Good to know",
+    "heading": "Routine questions"
+   },
+   "blocks": {
+    "q0": {
+     "type": "faq",
+     "settings": {
+      "q": "What is a routine?",
+      "a": "<p>A set of 2 to 3 products chosen to be used together, with each step listed in order. There are 16 routines across skincare, hair, body and skin + scent.</p>"
+     }
+    },
+    "q2": {
+     "type": "faq",
+     "settings": {
+      "q": "Can I buy one product from a routine?",
+      "a": "<p>Yes. Every product in a routine links to its own page, where you can buy it on its own.</p>"
+     }
+    },
+    "q3": {
+     "type": "faq",
+     "settings": {
+      "q": "In what order should I use the products?",
+      "a": "<p>Follow the numbered steps on each routine card. Skincare usually goes cleanse, tone or treat, then moisturise, with sunscreen last in the morning.</p>"
+     }
+    },
+    "q4": {
+     "type": "faq",
+     "settings": {
+      "q": "Do you also sell ready-made kits?",
+      "a": "<p>Yes. There are 116 brand kits, miniature sets and gift sets in Gifts &amp; Sets.</p>"
+     }
+    }
+   },
+   "block_order": [
+    "q0",
+    "q2",
+    "q3",
+    "q4"
+   ]
+  }
+ },
+ "order": [
+  "head",
+  "g0",
+  "g1",
+  "g2",
+  "g3",
+  "kits",
+  "gifts",
+  "seo",
+  "newsletter",
+  "faq"
+ ]
+}

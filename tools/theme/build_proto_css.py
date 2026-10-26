@@ -55,6 +55,20 @@ EXTRA = """
 body:has(.stickybar.show) .swp .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:smooth}
 .swp .visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* page text (Shopify page content) and the contact form, in the prototype's type scale */
+.swp .pagebody{max-width:72ch;color:var(--ink-2);font-size:16px;line-height:1.7;display:flex;flex-direction:column;gap:14px}
+.swp .pagebody h2,.swp .pagebody h3{color:var(--ink);margin-top:14px}
+.swp .pagebody h2{font-size:26px}.swp .pagebody h3{font-size:19px}
+.swp .pagebody a{text-decoration:underline}
+.swp .pagebody ul,.swp .pagebody ol{padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.swp .pagebody table{border-collapse:collapse;width:100%;font-size:15px}.swp .pagebody td,.swp .pagebody th{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left}
+.swp .cform{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;align-items:end}
+.swp .cform label{display:flex;flex-direction:column;gap:6px;font-size:13px;letter-spacing:.06em;color:var(--ink)}
+.swp .cform .full,.swp .cform .okmsg,.swp .cform .errmsg{grid-column:1/-1}
+.swp .cform input,.swp .cform textarea{font:inherit;font-size:15px;letter-spacing:0;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+.swp .cform input:focus,.swp .cform textarea:focus{outline:2px solid var(--emerald);outline-offset:1px}
+.swp .cform .btn{justify-self:start}
+.swp .okmsg{color:var(--emerald)}.swp .errmsg{color:var(--sale)}
 """
 
 

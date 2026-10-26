@@ -1,0 +1,30 @@
+{%- comment -%}
+  Offers page, prototype markup (offersPage()): page header with share, 'Live now' offer tiles.
+  Tiles marked 'needs discount' (routines, packs) only show when 'Bundle discount is live' is on.
+{%- endcomment -%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">{{ page.title | escape }}</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{{ page.title | escape }}</h1><div class="share dark ph"><button class="sharebtn" data-share="{{ page.url }}" data-share-title="{{ page.title | escape }} | Swansura" data-share-text="{{ section.settings.lede | strip_html | escape }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>{%- if section.settings.lede != blank -%}<p class="lede">{{ section.settings.lede }}</p>{%- endif -%}</div>
+  <section style="padding-top:24px"><div class="sec-head"><div><div class="eyebrow">Live now</div><h2>Current offers</h2></div></div>
+  <div class="offers">
+    {%- for block in section.blocks -%}{%- if block.settings.needs_discount and section.settings.discount_live == false -%}{%- continue -%}{%- endif -%}
+      <article class="offer" {{ block.shopify_attributes }}><div class="eyebrow">{{ block.settings.eyebrow | escape }}</div><h3>{{ block.settings.title | escape }}</h3><p>{{ block.settings.text | escape }}</p>{%- if block.settings.btn != blank -%}<a class="btn" href="{{ block.settings.url }}">{{ block.settings.btn | escape }}</a>{%- endif -%}</article>
+    {%- endfor -%}
+  </div></section></div></div>
+
+{% schema %}
+{
+  "name": "Swansura offers",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Offers and discounts" },
+    { "type": "richtext", "id": "lede", "label": "Intro" },
+    { "type": "checkbox", "id": "discount_live", "label": "Bundle discount is live", "info": "Shows the routine and pack tiles", "default": false }
+  ],
+  "blocks": [
+    { "type": "offer", "name": "Offer", "settings": [
+      { "type": "text", "id": "eyebrow", "label": "Eyebrow" }, { "type": "text", "id": "title", "label": "Title" },
+      { "type": "textarea", "id": "text", "label": "Text" }, { "type": "text", "id": "btn", "label": "Button" },
+      { "type": "url", "id": "url", "label": "Button link" }, { "type": "checkbox", "id": "needs_discount", "label": "Needs the bundle discount", "default": false }
+    ] }
+  ]
+}
+{% endschema %}

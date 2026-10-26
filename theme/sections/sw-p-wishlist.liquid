@@ -1,0 +1,8 @@
+{%- comment -%} Wishlist page, prototype markup (wishlistPage()): saved handles from localStorage ('swansura-wish'), cards loaded by sw-proto.js from the sw-p-card-one section. {%- endcomment -%}
+<div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">Wishlist</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">Saved for later</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">Your wishlist</h1></div><p class="lede" id="wishLede">Tap the heart on any product to save it here.</p></div>
+  <section style="padding-top:24px" data-wishpage><div class="grid-p" id="wishGrid" hidden></div><div id="wishEmpty" style="text-align:center;padding:40px 0 80px"><a class="btn solid" href="{{ section.settings.browse_url | default: '/collections/all' }}">Start browsing</a></div></section></div></div>
+
+{% schema %}
+{ "name": "Swansura wishlist", "settings": [ { "type": "url", "id": "browse_url", "label": "'Start browsing' link" } ] }
+{% endschema %}

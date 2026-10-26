@@ -1,0 +1,32 @@
+{%- comment -%}
+  Journal article, prototype markup (articlePage()): breadcrumbs, header (tag, H1, summary, author · date · read time,
+  share), hero image, body, 'Shop the story' (custom.products), 'Keep reading' (other articles), BlogPosting JSON-LD.
+{%- endcomment -%}
+{%- liquid
+  assign words = article.content | strip_html | split: ' ' | size
+  assign mins = article.metafields.custom.read_minutes.value | default: words
+  if mins > 60
+    assign mins = mins | divided_by: 140 | at_least: 1
+  endif
+  assign shop_list = article.metafields.custom.products.value
+-%}
+<div class="swp app"><div class="wrap p-article"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><a href="{{ blog.url }}">{{ section.settings.crumb | default: blog.title | escape }}</a><span>/</span><span style="color:var(--ink)">{{ article.title | escape }}</span></nav>
+  <header class="ahead"><div class="eyebrow">{{ article.tags.first | default: blog.title | escape }}</div><h1>{{ article.title | escape }}</h1>{%- if article.excerpt != blank -%}<p class="lede">{{ article.excerpt | strip_html }}</p>{%- endif -%}
+    <div class="ameta"><span>{{ section.settings.author }}</span><span>{{ article.published_at | date: '%-d %B %Y' }}</span><span>{{ mins }} min read</span><div class="share ph"><button class="sharebtn" data-share="{{ article.url }}" data-share-title="{{ article.title | escape }} | Swansura" data-share-text="{{ article.excerpt | strip_html | escape }}" data-share-img="{{ article.image | image_url: width: 1000 }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></header>
+  {%- if article.image -%}<div class="ahero">{{ article.image | image_url: width: 1600 | image_tag: class: 'pic', widths: '800,1200,1600', sizes: '(min-width: 1000px) 900px, 92vw', fetchpriority: 'high', alt: article.image.alt | default: article.title }}</div>{%- endif -%}
+  <article class="abody">{{ article.content }}</article>
+  {%- if shop_list.size > 0 -%}<section style="padding-top:8px"><div class="sec-head"><div><h2>Shop the story</h2></div></div><div class="grid-p">{%- for p in shop_list limit: 8 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div></section>{%- endif -%}
+  {%- capture more -%}{%- assign k = 0 -%}{%- for a in blog.articles -%}{%- if a.id != article.id and k < 3 -%}{%- assign k = k | plus: 1 -%}<a class="post" href="{{ a.url }}">{%- if a.image -%}{{ a.image | image_url: width: 800 | image_tag: class: 'pic', widths: '400,600,800', sizes: '(min-width: 1000px) 400px, 90vw', loading: 'lazy', alt: a.image.alt | default: a.title }}{%- else -%}<div class="pic"></div>{%- endif -%}<span class="eyebrow">{{ a.tags.first | default: blog.title | escape }}</span><h3>{{ a.title | escape }}</h3><p style="color:var(--ink-2)">{{ a.excerpt_or_content | strip_html | truncatewords: 30 }}</p></a>{%- endif -%}{%- endfor -%}{%- endcapture -%}
+  {%- if more != blank -%}<section style="padding-top:0"><div class="sec-head"><div><h2>Keep reading</h2></div><a class="p-link" href="{{ blog.url }}">All stories</a></div><div class="journal">{{ more }}</div></section>{%- endif -%}
+</div></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ article.title | json }},"description":{{ article.excerpt | strip_html | json }},"datePublished":{{ article.published_at | date: '%Y-%m-%d' | json }},"dateModified":{{ article.updated_at | date: '%Y-%m-%d' | json }},"author":{"@type":"Organization","name":{{ section.settings.author | json }}},"publisher":{"@type":"Organization","name":{{ shop.name | json }}},{% if article.image %}"image":{{ article.image | image_url: width: 1600 | prepend: 'https:' | json }},{% endif %}"mainEntityOfPage":{{ shop.url | append: article.url | json }}}</script>
+
+{% schema %}
+{
+  "name": "Swansura article",
+  "settings": [
+    { "type": "text", "id": "crumb", "label": "Breadcrumb", "default": "Journal" },
+    { "type": "text", "id": "author", "label": "Author line", "default": "Swansura Studio" }
+  ]
+}
+{% endschema %}

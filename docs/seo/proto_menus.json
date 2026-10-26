@@ -424,91 +424,91 @@
    {
     "title": "Routines",
     "type": "HTTP",
-    "url": "/collections/sets-combos",
+    "url": "/pages/rituals",
     "items": [
      {
       "title": "Skincare routines",
       "type": "HTTP",
-      "url": "/collections/sets-combos",
+      "url": "/pages/rituals",
       "items": [
        {
         "title": "Clear Skin Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Vitamin C Glow Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Deep Hydration Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Milk Glow Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Sensitive Skin Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Age-Defying Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        }
       ]
      },
      {
       "title": "Hair routines",
       "type": "HTTP",
-      "url": "/collections/sets-combos",
+      "url": "/pages/rituals",
       "items": [
        {
         "title": "Hair Fall Rescue",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Smooth & Shine Routine",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Calm Scalp Duo",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        }
       ]
      },
      {
       "title": "Body & bath",
       "type": "HTTP",
-      "url": "/collections/sets-combos",
+      "url": "/pages/rituals",
       "items": [
        {
         "title": "Body Polish Ritual",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Foot Spa at Home",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Sleep Ritual",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        },
        {
         "title": "Lip Wardrobe",
         "type": "HTTP",
-        "url": "/collections/sets-combos"
+        "url": "/pages/rituals"
        }
       ]
      }
@@ -824,7 +824,7 @@
    {
     "title": "Routines",
     "type": "HTTP",
-    "url": "/collections/sets-combos"
+    "url": "/pages/rituals"
    },
    {
     "title": "Offers",

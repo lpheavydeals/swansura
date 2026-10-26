@@ -1,0 +1,18 @@
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-wishlist",
+   "settings": {
+    "browse_url": "/collections/all"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

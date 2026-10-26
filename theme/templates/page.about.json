@@ -1,1 +1,19 @@
-{"sections":{"head":{"type":"sw-page","settings":{"eyebrow":"Our story","tone":"auto","show_content":true,"map":"fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product"}},"about":{"type":"sw-about","blocks":{"v1":{"type":"value","settings":{"title":"Official UK partner of Deyga & Vilvah","text":"We are an official UK partner of Deyga and Vilvah, two Indian natural skincare brands, so you can shop their range in the UK.","link":"/collections/milk-drop-brightening-serum-1","link_label":"Shop Deyga"}},"v2":{"type":"value","settings":{"title":"100% authentic","text":"Every product we sell is 100% authentic, from natural skincare to designer perfume.","link":"","link_label":""}},"v3":{"type":"value","settings":{"title":"Fine fragrance","text":"Niche, Arabian and designer perfume from houses such as Tiziana Terenzi, Al Haramain, Hemel and Gucci.","link":"/collections/fragrance","link_label":"Shop fragrance"}},"v4":{"type":"value","settings":{"title":"Dispatched from the UK","text":"Orders leave our UK base within 1–2 working days, with free UK delivery over £40.","link":"/pages/faq","link_label":"Delivery questions"}}},"block_order":["v1","v2","v3","v4"],"settings":{"eyebrow":"About Swansura","heading":"Natural skincare and fine fragrance, from one UK studio","text":"<p>Swansura – The Body Studio is a UK online store for natural skincare and fine fragrance. We bring Indian natural skincare from Deyga and Vilvah to the UK, alongside niche, Arabian and designer perfume.</p><p>Everything is chosen with care, 100% authentic and delivered from the UK.</p>"}},"newsletter":{"type":"sw-newsletter","settings":{}}},"order":["head","about","newsletter"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-page",
+   "settings": {
+    "map": "fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product",
+    "chips": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nGifts under £25|/collections/gifts-under-25\nGifts £25 to £50|/collections/gifts-25-to-50\nLuxury gifts over £50|/collections/gifts-over-50\nDiwali gifts|/collections/diwali-gifts"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

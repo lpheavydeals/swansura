@@ -1,0 +1,6 @@
+{%- comment -%} One product card (sw-p-card) for the Section Rendering API: /products/<handle>?section_id=sw-p-card-one (recently viewed) {%- endcomment -%}
+<div class="swp">{%- if product -%}{% render 'sw-p-card', product: product %}{%- endif -%}</div>
+
+{% schema %}
+{ "name": "Swansura card", "settings": [] }
+{% endschema %}

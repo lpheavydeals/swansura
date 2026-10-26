@@ -1,1 +1,21 @@
-{"sections":{"head":{"type":"sw-page","settings":{"eyebrow":"Customer care","tone":"auto","show_content":true,"map":"fragrance:fragrance\nskincare:skincare\nhaircare:haircare\nbody-care:bodycare\nlipcare:lip-balm\ngift-set:sets-combos\nbest-sellers:best-sellers\ncleanser:cleanser\nmoisturiser:moisturizers-gels\ntoner:toner\nserum:serum\nunder-eye-cream:skincare\nfor-her:fragrance\nfor-him:fragrance\nlipbalm:lip-balm\nlib-scrub:lip-scrub\nshampoo:shampoo\nconditioner:shampoo\nhair-oil:hair-oil\nhair-serum:hair-styling-products\ncomb:haircare-tools-kits\nbody-lotion:body-cream-exfoliants\nbody-wash:body-cream-exfoliants\nbody-scrub-mask:body-cream-exfoliants\nfoot-cream:body-cream-exfoliants\nbody-butter:body-cream-exfoliants\nbody-scrub:body-cream-exfoliants\nbath-bar:body-cream-exfoliants\njo-milano:luxury-collection-1\ndiamond-collection:diamond-collection\nmake-up-products:makeup-product","intro":"<p>Questions about a product, an order or delivery? We're happy to help.</p>"}},"cards":{"type":"sw-contact","settings":{"heading":"How can we help?","email_note":"We reply on working days","help_url":"/pages/faq"}},"form":{"type":"contact-form","settings":{"heading":"Send us a message","heading_size":"h2","color_scheme":"scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e","padding_top":20,"padding_bottom":48}}},"order":["head","cards","form"]}
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-page",
+   "settings": {
+    "form": true,
+    "chips": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nGifts under £25|/collections/gifts-under-25\nGifts £25 to £50|/collections/gifts-25-to-50\nLuxury gifts over £50|/collections/gifts-over-50\nDiwali gifts|/collections/diwali-gifts",
+    "heading": "Contact us",
+    "lede": "<p>Questions about an order, a product or a fragrance recommendation? Message us on Instagram @swansura_thebodystudio or use the contact form.</p>"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

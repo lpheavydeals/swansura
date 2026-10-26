@@ -1,0 +1,70 @@
+{
+ "sections": {
+  "main": {
+   "type": "sw-p-offers",
+   "blocks": {
+    "o0": {
+     "type": "offer",
+     "settings": {
+      "eyebrow": "Free delivery",
+      "title": "Free UK delivery over £40",
+      "text": "Every order ships from the UK. The bag shows how close you are.",
+      "btn": "Shop all",
+      "url": "/collections/all",
+      "needs_discount": false
+     }
+    },
+    "o1": {
+     "type": "offer",
+     "settings": {
+      "eyebrow": "Spend more, save more",
+      "title": "Spend £70: free delivery + £5 off",
+      "text": "Orders over £70 get free UK delivery and £5 off, applied at checkout.",
+      "btn": "Shop fragrance",
+      "url": "/collections/fragrance",
+      "needs_discount": false
+     }
+    },
+    "o2": {
+     "type": "offer",
+     "settings": {
+      "eyebrow": "Routines",
+      "title": "Save 5% on a full routine",
+      "text": "Two or three products chosen to work together, in order.",
+      "btn": "Shop routines",
+      "url": "/pages/rituals",
+      "needs_discount": true
+     }
+    },
+    "o3": {
+     "type": "offer",
+     "settings": {
+      "eyebrow": "Packs",
+      "title": "Save 5% with Duo and Routine packs",
+      "text": "Choose a pack on any product page: two of the same, or the product plus two that complete it.",
+      "btn": "Browse skincare",
+      "url": "/collections/skincare",
+      "needs_discount": true
+     }
+    }
+   },
+   "block_order": [
+    "o0",
+    "o1",
+    "o2",
+    "o3"
+   ],
+   "settings": {
+    "lede": "<p>Ways to save at Swansura today: free UK delivery over £40, and free delivery plus £5 off over £70.</p>"
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {}
+  }
+ },
+ "order": [
+  "main",
+  "newsletter"
+ ]
+}

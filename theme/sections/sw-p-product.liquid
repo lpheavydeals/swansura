@@ -1,0 +1,221 @@
+{%- comment -%}
+  Product page, prototype markup (productPage() in prototype/index.html): breadcrumbs, gallery with thumbnails,
+  buy column (brand + share, H1, reviews line, price + PayPal Pay in 3, benefit line, chips, sizes, packs,
+  fragrance notes, quantity + Add to bag + wishlist, Buy it now, dispatch, frequently bought together, delivery
+  progress, trust row, accordions, related keyword links), 'Complete the ritual', More from <brand>,
+  You may also like, recently viewed, reviews, sticky Add-to-bag bar.
+  Data: custom.pdp (json from tools/shopify/proto_pdp.py: cat, ben, more, chips, how, pair, sim, kw),
+  custom.sw (notes n, key ingredients g, family f), custom.inci_data (structured lists, rendered by sw-proto.js
+  like inciBlock()), custom.inci (plain list fallback), custom.h1, Judge.me reviews.rating metafields.
+  Pack and ritual savings only show when 'bundle_discount_live' is on (a matching Shopify discount must exist).
+{%- endcomment -%}
+{%- liquid
+  assign d = product.metafields.custom.pdp.value
+  assign sw = product.metafields.custom.sw.value
+  assign v0 = product.selected_or_first_available_variant
+  assign cat = d.cat
+  if cat == blank
+    if sw.f != blank
+      assign cat = 'fragrance'
+    else
+      assign cat = 'skincare'
+    endif
+  endif
+  case cat
+    when 'fragrance'
+      assign cat_name = 'Fragrance'
+      assign cat_url = '/collections/fragrance'
+    when 'haircare'
+      assign cat_name = 'Haircare'
+      assign cat_url = '/collections/haircare'
+    when 'bath-body'
+      assign cat_name = 'Bath & Body'
+      assign cat_url = '/collections/bodycare'
+    else
+      assign cat_name = 'Skincare'
+      assign cat_url = '/collections/skincare'
+  endcase
+  assign vl = product.vendor | downcase | strip
+  assign partner = false
+  if vl == 'deyga' or vl contains 'vilvah'
+    assign partner = true
+  endif
+  assign live = section.settings.bundle_discount_live
+  assign save = section.settings.bundle_save | divided_by: 100.0
+  assign keep = 1 | minus: save
+  assign dmin = section.settings.delivery_min | times: 100
+  assign bmin = section.settings.bonus_min | times: 100
+  assign n = sw.n
+  assign rating = product.metafields.reviews.rating.value
+  assign rcount = product.metafields.reviews.rating_count.value | default: 0
+
+  comment
+    'Frequently bought together' / 'Complete the ritual' partners (available ones)
+  endcomment
+  assign pair = ''
+  assign pcount = 0
+  for h in d.pair
+    assign q = all_products[h]
+    if q != blank and q.available and q.id != product.id
+      assign pair = pair | append: h | append: ','
+      assign pcount = pcount | plus: 1
+    endif
+  endfor
+  assign pair = pair | split: ','
+  assign set_total = v0.price
+  for h in pair
+    assign set_total = set_total | plus: all_products[h].selected_or_first_available_variant.price
+  endfor
+-%}
+{%- capture t -%}{% render 'sw-p-name', product: product %}{%- endcapture -%}
+{%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
+{%- capture ic_check -%}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>{%- endcapture -%}
+{%- capture heart -%}<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"></path></svg>{%- endcapture -%}
+<div class="swp app" data-pdp data-handle="{{ product.handle }}">
+<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><a href="{{ cat_url }}">{{ cat_name }}</a><span>/</span><a href="{{ brand_url }}">{{ product.vendor | escape }}</a><span>/</span><span style="color:var(--ink)">{{ t | escape }}</span></nav>
+  <div class="pdp">
+    <div class="gallery {% if product.media.size < 2 %}single{% endif %}">
+      {%- if product.media.size > 1 -%}<div class="thumbs">
+        {%- for m in product.media -%}{%- assign im = m.preview_image -%}<button data-frame="{{ forloop.index0 }}" data-full="{{ im | image_url: width: 1100 }}" data-srcset="{{ im | image_url: width: 600 }} 600w, {{ im | image_url: width: 900 }} 900w, {{ im | image_url: width: 1100 }} 1100w, {{ im | image_url: width: 1500 }} 1500w" data-alt="{{ im.alt | default: product.title | escape }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="Image {{ forloop.index }} of {{ product.media.size }}">{{ im | image_url: width: 200 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}</button>{%- endfor -%}
+      </div>{%- endif -%}
+      <div id="mainImg">{%- assign im = product.featured_media.preview_image -%}{%- if im -%}{{ im | image_url: width: 1100 | image_tag: class: 'pic', widths: '600,900,1100,1500', sizes: '(min-width: 1000px) 560px, 92vw', fetchpriority: 'high', loading: 'eager', alt: im.alt | default: product.title }}{%- else -%}<div class="pic"></div>{%- endif -%}</div>
+    </div>
+    <div class="buy">
+      <div class="buyhead"><a class="brandlink" href="{{ brand_url }}">{{ product.vendor | escape }}{% if partner %} · Official UK partner{% endif %}</a><div class="share"><button class="sharebtn" data-share="{{ product.url }}" data-share-title="{{ t | escape }} | Swansura" data-share-text="{{ t | escape }} by {{ product.vendor | escape }}, {{ v0.price | money }} at Swansura" data-share-img="{{ product.featured_media.preview_image | image_url: width: 1000 }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div>
+      <h1>{{ product.metafields.custom.h1.value | default: t | escape }}</h1>
+      <div class="reviews-line">
+        {%- if rcount > 0 -%}{%- assign full = rating.rating | round -%}<span class="stars" aria-hidden="true">{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}</span><span>{{ rating.rating | round: 1 }} · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">{{ rcount }} review{% if rcount != 1 %}s{% endif %}</a></span>
+        {%- else -%}<span class="stars" aria-hidden="true">☆☆☆☆☆</span><span>No reviews yet · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">Write the first review</a></span>{%- endif -%}
+      </div>
+      <div><div class="p-price" id="pdpPrice">{{ v0.price | money }}{%- if v0.compare_at_price > v0.price -%}{%- assign pct = v0.price | times: 100.0 | divided_by: v0.compare_at_price | round -%} <s>{{ v0.compare_at_price | money }}</s> <span class="off">SAVE {{ 100 | minus: pct }}%</span>{%- endif -%}</div>
+        <div class="paylater" id="payLater"{% unless product.available and v0.price >= 3000 and v0.price <= 200000 %} hidden{% endunless %}>or 3 interest-free payments of <b>{{ v0.price | divided_by: 3 | money }}</b> with <span class="pl p">PayPal Pay in 3</span></div></div>
+      {%- if d.ben != blank -%}<p class="benefit">{{ d.ben | escape }}{% if d.more %} <a href="#details" data-jump="details" class="readmore">Read more</a>{% endif %}</p>{%- endif -%}
+      {%- if d.chips.size > 0 -%}<div class="bchips">{%- for c in d.chips -%}<span>{{ ic_check }}{{ c | escape }}</span>{%- endfor -%}</div>{%- endif -%}
+      {%- unless product.has_only_default_variant -%}
+        <fieldset class="packs sizes"><legend>Choose your {{ product.options.first | downcase | escape }}</legend>
+          {%- for v in product.variants -%}<label class="pack{% unless v.available %} na{% endunless %}"><input type="radio" name="variant" value="{{ v.id }}" {% if v.id == v0.id %}checked{% endif %}{% unless v.available %} disabled{% endunless %}><b>{{ v.title | escape }}</b><span>{% if v.available %}In stock{% else %}Sold out{% endif %}</span><strong>{{ v.price | money }}</strong><small>&nbsp;</small></label>{%- endfor -%}
+        </fieldset>
+      {%- endunless -%}
+      {%- if product.available and cat != 'fragrance' -%}
+        {%- assign duo = v0.price | times: 2 -%}{%- assign duo_each = v0.price -%}{%- if live -%}{%- assign duo = duo | times: keep | round -%}{%- assign duo_each = v0.price | times: keep | round -%}{%- endif -%}
+        <fieldset class="packs"><legend>Choose your pack</legend>
+          <label class="pack"><input type="radio" name="pack" value="single" checked><b>Single</b><span>Just this one</span><strong data-pk="1">{{ v0.price | money }}</strong><small>&nbsp;</small></label>
+          <label class="pack"><input type="radio" name="pack" value="duo"><b>Duo</b><span>2 × at <i data-pk="each" style="font-style:normal">{{ duo_each | money }}</i> each</span><strong data-pk="2">{{ duo | money }}</strong>{% if live %}<small>Save {{ v0.price | times: 2 | minus: duo | money }}</small>{% else %}<small>&nbsp;</small>{% endif %}</label>
+          {%- if pcount >= 2 -%}{%- assign rt = set_total -%}{%- if live -%}{%- assign rt = set_total | times: keep | round -%}{%- endif -%}
+          <label class="pack{% if live %} best{% endif %}"><input type="radio" name="pack" value="routine">{% if live %}<em>Best value</em>{% endif %}<b>Routine</b><span>This + {{ pcount }} to complete it</span><strong>{{ rt | money }}</strong>{% if live %}<small>Save {{ set_total | minus: rt | money }}</small>{% else %}<small>&nbsp;</small>{% endif %}</label>
+          {%- endif -%}
+        </fieldset>
+      {%- endif -%}
+      {%- if n != blank and n.top != blank -%}<div class="notes"><div><b>Top</b>{{ n.top | default: '—' | escape }}</div><div><b>Heart</b>{{ n.heart | default: '—' | escape }}</div><div><b>Base</b>{{ n.base | default: '—' | escape }}</div></div>{%- endif -%}
+      <div class="qtyrow">{%- if product.available -%}<div class="qty"><button data-q="-1" aria-label="Decrease quantity">−</button><output id="qty">1</output><button data-q="1" aria-label="Increase quantity">+</button></div><button class="btn solid" data-addq="{{ v0.id }}">Add to bag</button>{%- else -%}<a class="btn solid" href="{{ section.settings.notify_url | default: '/pages/contact' }}">Notify me when back</a>{%- endif -%}<button class="heart big" data-wish="{{ product.handle }}" aria-pressed="false" aria-label="Save to wishlist">{{ heart }}</button></div>
+      {%- if product.available -%}<button class="btn buynow" data-buynow="{{ v0.id }}">Buy it now</button>{%- endif -%}
+      <div class="dispatch {% unless product.available %}out{% endunless %}"><i></i>{% if product.available %}<b>In stock</b> · Usually dispatched within 1–2 working days from the UK{% else %}<b>Out of stock</b> · Ask us to tell you when it is back{% endif %}</div>
+      {%- if pcount > 0 and product.available -%}{%- assign f = all_products[pair[0]] -%}{%- capture fname -%}{% render 'sw-p-name', product: f %}{%- endcapture -%}{%- capture fvid -%}{% render 'sw-p-variant', product: f %}{%- endcapture -%}
+        <div class="fbt"><div class="eyebrow">Frequently bought together</div><div class="fbt-row"><a href="{{ product.url }}" aria-label="{{ t | escape }}">{{ product.featured_media.preview_image | image_url: width: 200 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}</a><span class="plus">+</span><a href="{{ f.url }}" aria-label="{{ fname | escape }}">{{ f.featured_media.preview_image | image_url: width: 200 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}</a><div class="fbt-txt"><a href="{{ f.url }}">{{ fname | escape }}</a><span>{{ f.selected_or_first_available_variant.price | money }}</span></div></div><button class="btn solid" data-addall="{{ v0.id }},{{ fvid }}">Add both · {{ v0.price | plus: f.selected_or_first_available_variant.price | money }}</button></div>
+      {%- endif -%}
+      {%- liquid
+        assign p = v0.price
+        if p < dmin
+          assign goal = dmin
+        elsif p < bmin
+          assign goal = bmin
+        else
+          assign goal = 0
+        endif
+        if goal > 0
+          assign left = goal | minus: p
+          assign w = p | times: 100.0 | divided_by: goal
+        else
+          assign w = 100
+        endif
+      -%}
+      <div class="delivery"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg> Dispatched from the UK. {% if goal == 0 %}<b>Free UK delivery + £{{ section.settings.bonus_off }} off</b> on this item.{% elsif p >= dmin %}<b>Free UK delivery.</b> Add <b>{{ left | money }}</b> more for £{{ section.settings.bonus_off }} off.{% else %}Add <b>{{ left | money }}</b> more for free UK delivery.{% endif %}</span><div class="bar"><i style="width:{{ w | at_most: 100 }}%"></i></div></div>
+      <div class="trustmini"><div><span class="ic g"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg></span>{{ section.settings.returns_title }}<small>{{ section.settings.returns_sub }}</small></div><div><span class="ic o"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>Secure checkout<small>Encrypted payment</small></div></div>
+      <div class="acc">
+        <details open id="details"><summary>Details</summary><div class="in">{{ product.description | remove: '<meta charset="utf-8">' | remove: '<strong>' | remove: '</strong>' | remove: '<b>' | remove: '</b>' }}</div></details>
+        {%- if n != blank and n.top != blank -%}<details><summary>Notes</summary><div class="in"><p><b>Top:</b> {{ n.top | escape }}</p><p><b>Heart:</b> {{ n.heart | escape }}</p><p><b>Base:</b> {{ n.base | escape }}</p></div></details>{%- endif -%}
+        <details><summary>{% if cat == 'fragrance' %}How to wear{% else %}How to use{% endif %}</summary><div class="in">
+          {%- if d.how.size > 0 -%}<ul>{%- for h in d.how -%}<li>{{ h | escape }}</li>{%- endfor -%}</ul>
+          {%- elsif product.metafields.custom.how_to_use != blank -%}<p>{{ product.metafields.custom.how_to_use.value | escape | newline_to_br }}</p>
+          {%- elsif cat == 'fragrance' -%}<p>Spray onto pulse points: wrists, neck and behind the ears. For longer wear, apply after a body butter.</p>
+          {%- else -%}<p>Use as directed on the pack. Patch test before first use.</p>{%- endif -%}
+        </div></details>
+        {%- if cat != 'fragrance' -%}
+          {%- assign idata = product.metafields.custom.inci_data.value -%}
+          {%- if idata != blank -%}
+            <details id="ingredients"><summary>Ingredients</summary><div class="in" data-inci data-brand="{{ product.vendor | escape }}" data-id="{{ product.id }}"><script type="application/json">{"inci": {{ product.metafields.custom.inci_data.value | json }}, "heroes": {{ sw.g | json }}}</script></div></details>
+          {%- elsif product.metafields.custom.inci != blank -%}
+            <details id="ingredients"><summary>Ingredients</summary><div class="in"><p><b>Full ingredients list:</b> {{ product.metafields.custom.inci.value | escape | newline_to_br }}</p></div></details>
+          {%- else -%}
+            <details><summary>Ingredients</summary><div class="in">{%- if sw.g.size > 0 -%}<p><b>Key ingredients:</b> {{ sw.g | join: ', ' | escape }}.</p>{%- endif -%}<p class="muted">The full ingredients list (INCI) is printed on the pack. We are adding it here for every product.</p></div></details>
+          {%- endif -%}
+        {%- endif -%}
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }}. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
+      </div>
+      {%- if d.kw.size > 0 -%}
+        <p style="font-size:14px;color:var(--ink-2)">Part of our {% for k in d.kw limit: 3 %}<a href="{{ k[1] }}" style="text-decoration:underline">{{ k[0] | downcase | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} edit{% if d.kw.size > 1 %}s{% endif %}.</p>
+        <div class="kwchips"><span class="eyebrow">Shop related</span><div>{%- for k in d.kw limit: 8 -%}<a href="{{ k[1] }}">{{ k[0] | escape }}</a>{%- endfor -%}</div></div>
+      {%- endif -%}
+    </div>
+  </div>
+  {%- if pcount > 0 -%}
+    {%- capture ids -%}{{ v0.id }}{%- for h in pair -%},{%- render 'sw-p-variant', product: all_products[h] -%}{%- endfor -%}{%- endcapture -%}
+    <div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">{% if cat == 'fragrance' %}Complete the ritual: skin + scent{% else %}Complete the ritual{% endif %}</div><div class="items">
+      <a class="it" href="{{ product.url }}">{{ product.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}<span>{{ t | escape }}</span><b>{{ v0.price | money }}</b></a>
+      {%- for h in pair -%}{%- assign x = all_products[h] -%}{%- capture xn -%}{% render 'sw-p-name', product: x %}{%- endcapture -%}<span class="plus">+</span><a class="it" href="{{ x.url }}">{{ x.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}<span>{{ xn | escape }}</span><b>{{ x.selected_or_first_available_variant.price | money }}</b></a>{%- endfor -%}
+    </div></div><div style="display:flex;flex-direction:column;gap:12px">
+      {%- if live -%}<div class="p-price" style="font-size:20px">{{ set_total | times: keep | round | money }} <s>{{ set_total | money }}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE {{ section.settings.bundle_save }}% WHEN BOUGHT TOGETHER</span>
+      {%- else -%}<div class="p-price" style="font-size:20px">{{ set_total | money }}</div>{%- endif -%}
+      <button class="btn solid" data-addall="{{ ids }}">Add all {{ pcount | plus: 1 }} to bag</button></div></div>
+  {%- endif -%}
+
+  {%- liquid
+    assign bh = brand_url | remove: '/collections/'
+    assign bc = collections[bh]
+  -%}
+  {%- if bc != blank -%}
+    {%- capture more -%}{%- assign k = 0 -%}{%- for x in bc.products limit: 60 -%}{%- if x.available and x.id != product.id and x.vendor == product.vendor and k < 4 -%}{%- assign k = k | plus: 1 -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+    {%- if more != blank -%}<section style="padding-top:0"><div class="sec-head"><div><h2>More from {{ product.vendor | escape }}</h2></div><a class="p-link" href="{{ bc.url }}">Shop all {{ bc.products_count }} {{ product.vendor | escape }}</a></div><div class="grid-p">{{ more }}</div></section>{%- endif -%}
+  {%- endif -%}
+  {%- if d.sim.size > 0 -%}
+    <section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="p-link" href="{{ cat_url }}">View all</a></div><div class="grid-p">{%- for h in d.sim -%}{%- assign x = all_products[h] -%}{%- if x != blank -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}</div></section>
+  {%- endif -%}
+  <section style="padding-top:0" id="seenSec" hidden><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div><div class="grid-p" id="seenGrid"></div></section>
+
+  <section class="reviews" id="reviews"><div class="rv-head"><div><h2>Reviews</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button><a class="btn" href="{{ section.settings.ask_url | default: '/pages/contact' }}">Ask a question</a></div></div>
+    {%- if rcount > 0 -%}
+      <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">{{ product.metafields.judgeme.widget }}</div>
+    {%- else -%}
+    <div class="rv-grid">
+      <div class="rv-sum"><div class="avg">—</div><span class="stars" aria-hidden="true">☆☆☆☆☆</span><small>No reviews yet</small><div class="bars">{%- for s in (1..5) reversed -%}<div><span>{{ s }}★</span><i><b style="width:0"></b></i><span>0</span></div>{%- endfor -%}</div></div>
+      <div class="rv-list"><div class="rv-empty"><b>Be the first to review {{ t | escape }}</b><p>Reviews come only from verified buyers, invited by email after delivery. Photos are welcome, and every rating is published, good or bad.</p></div>
+        <div class="rv-example" aria-label="Example of how a review will appear"><span class="tag">Example layout</span><div class="rv-top"><span class="stars" aria-hidden="true">★★★★★</span><b class="sk" style="width:46%"></b></div><div class="rv-meta"><span class="vb">{{ ic_check }} Verified buyer</span><b class="sk" style="width:22%"></b></div><b class="sk"></b><b class="sk" style="width:84%"></b><b class="sk" style="width:62%"></b><div class="rv-meta"><small>Skin type · Age range · Used for</small></div></div>
+      </div>
+    </div>
+    <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}" hidden>{{ product.metafields.judgeme.widget }}</div>
+    {%- endif -%}
+  </section>
+</div>
+</div>
+<script type="application/json" id="sw-variants">{"product": {{ product.handle | json }}, "variants": [{%- for v in product.variants -%}{"id": {{ v.id }}, "price": {{ v.price }}, "compare": {{ v.compare_at_price | default: 0 }}, "ok": {{ v.available }}}{% unless forloop.last %},{% endunless %}{%- endfor -%}], "live": {{ live }}, "save": {{ save }}}</script>
+{%- if product.available -%}<div class="swp swp-fixed"><div class="stickybar show" id="stickybar"><span class="t">{{ t | escape }} · <span data-sticky-price>{{ v0.price | money }}</span></span><button class="btn solid" style="height:44px" data-add="{{ v0.id }}">Add to bag</button></div></div>{%- endif -%}
+<script type="application/ld+json">{{ product | structured_data }}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ shop.url | append: '/' | json }}},{"@type":"ListItem","position":2,"name":{{ cat_name | json }},"item":{{ shop.url | append: cat_url | json }}},{"@type":"ListItem","position":3,"name":{{ product.vendor | json }},"item":{{ shop.url | append: brand_url | json }}},{"@type":"ListItem","position":4,"name":{{ t | json }}}]}</script>
+
+{% schema %}
+{
+  "name": "Swansura product",
+  "settings": [
+    { "type": "checkbox", "id": "bundle_discount_live", "label": "Show pack / ritual savings", "info": "Only when a matching Shopify discount is live at checkout", "default": false },
+    { "type": "range", "id": "bundle_save", "label": "Pack / ritual saving (%)", "min": 1, "max": 30, "step": 1, "default": 5 },
+    { "type": "number", "id": "delivery_min", "label": "Free UK delivery from (£)", "default": 40 },
+    { "type": "number", "id": "bonus_min", "label": "£ off from (£)", "default": 70 },
+    { "type": "number", "id": "bonus_off", "label": "£ off", "default": 5 },
+    { "type": "text", "id": "returns_title", "label": "Trust row: returns", "default": "Returns" },
+    { "type": "text", "id": "returns_sub", "label": "Trust row: returns detail", "default": "See our returns policy" },
+    { "type": "text", "id": "returns_text", "label": "Delivery & returns text", "default": "Unopened items can be returned." },
+    { "type": "url", "id": "notify_url", "label": "'Notify me when back' link" },
+    { "type": "url", "id": "ask_url", "label": "'Ask a question' link" }
+  ]
+}
+{% endschema %}
