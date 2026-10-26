@@ -1,41 +1,29 @@
 {%- comment -%}
-  Swansura footer: white logo + promise list, link columns from menus (accordions on phones),
-  payment badges from the store's enabled payment types, legal bar, faded SWANSURA wordmark.
+  Site footer, prototype markup (footer.site): white logo, promise list, Instagram, link columns from menus
+  (accordions on phones, closed below 720px like the prototype), legal bar from the 'legal_links' menu +
+  sitemap + cookie settings, payment names from the store's enabled payment types, faded SWANSURA wordmark.
 {%- endcomment -%}
-<footer class="sw-footer">
-  <div class="page-width sw-footer__in">
-    <div class="sw-footer__brand">
-      <img src="{{ 'swansura-logo-white.webp' | file_url }}" alt="{{ shop.name | escape }}" width="99" height="60" loading="lazy">
-      <p>{{ section.settings.text }}</p>
-      {%- if section.settings.promises != blank -%}<div class="sw-footer__promises">{{ section.settings.promises }}</div>{%- endif -%}
-      {%- if settings.social_instagram_link != blank -%}<a class="sw-footer__social" href="{{ settings.social_instagram_link }}" rel="noopener">Instagram</a>{%- endif -%}
-    </div>
+{%- capture pays -%}{% render 'sw-p-pays' %}{%- endcapture -%}
+{%- assign pays = pays | split: '|' -%}
+<div class="swp"><footer class="site" id="footer"><div class="wrap"><div class="cols">
+    <div><a href="{{ routes.root_url }}" class="logo"><img src="{{ 'swansura-logo-white.svg' | asset_url }}" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">{{ section.settings.text }}</p>
+      {%- if section.settings.promises != blank -%}{{ section.settings.promises | replace: '<ul>', '<ul class="fpromise">' }}{%- endif -%}
+      {%- if settings.social_instagram_link != blank -%}<a class="social" href="{{ settings.social_instagram_link }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>{{ section.settings.social_label }}</a>{%- endif -%}</div>
     {%- for block in section.blocks -%}
       {%- assign menu = linklists[block.settings.menu] -%}
-      <details class="sw-footer__col" {{ block.shopify_attributes }} open>
-        <summary><h3>{{ block.settings.heading | default: menu.title }}</h3></summary>
-        <ul>{%- for l in menu.links -%}<li><a href="{{ l.url }}">{{ l.title }}</a></li>{%- endfor -%}</ul>
-      </details>
+      <details class="fcol" open {{ block.shopify_attributes }}><summary><h3>{{ block.settings.heading | default: menu.title | escape }}</h3></summary>{%- for l in menu.links -%}<a href="{{ l.url }}">{{ l.title | escape }}</a>{%- endfor -%}</details>
     {%- endfor -%}
-  </div>
-  <div class="page-width sw-footer__legal">
-    <span>© {{ 'now' | date: '%Y' }} {{ shop.name }}</span>
-    <nav aria-label="Policies">
-      {%- if section.settings.legal_links != blank -%}
-        {%- for l in section.settings.legal_links.links -%}<a href="{{ l.url }}">{{ l.title }}</a>{%- endfor -%}
-      {%- else -%}
-        {%- for policy in shop.policies -%}<a href="{{ policy.url }}">{{ policy.title }}</a>{%- endfor -%}
-      {%- endif -%}
-      {%- if section.settings.sitemap_url != blank -%}<a href="{{ section.settings.sitemap_url }}">Sitemap</a>{%- endif -%}
-    </nav>
-    <ul class="sw-footer__pay" aria-label="Payment methods">
-      {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}</li>{%- endfor -%}
-    </ul>
-  </div>
-  <div class="sw-footer__mark" aria-hidden="true">SWANSURA</div>
-</footer>
+  </div><div class="legal"><div class="lg"><span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span><nav aria-label="Policies">
+    {%- if section.settings.legal_links != blank -%}
+      {%- for l in section.settings.legal_links.links -%}<a href="{{ l.url }}">{{ l.title | escape }}</a>{%- endfor -%}
+    {%- else -%}
+      {%- for policy in shop.policies -%}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{%- endfor -%}
+    {%- endif -%}
+    {%- if section.settings.sitemap_url != blank -%}<a href="{{ section.settings.sitemap_url }}">Sitemap</a>{%- endif -%}
+    <a href="#" onclick="if(window.privacyBanner){privacyBanner.showPreferences();}return false;">Cookie settings</a></nav></div>
+    <span class="pays" aria-label="Payment methods">{%- for n in pays -%}<span class="pay">{{ n }}</span>{%- endfor -%}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div></footer></div>
 <script>
-  if (window.matchMedia('(max-width: 720px)').matches) document.querySelectorAll('.sw-footer__col').forEach(d => d.removeAttribute('open'));
+  if (window.innerWidth <= 720) document.querySelectorAll('footer.site .fcol').forEach(d => d.removeAttribute('open'));
 </script>
 
 {% schema %}
@@ -44,6 +32,7 @@
   "settings": [
     { "type": "textarea", "id": "text", "label": "Text", "default": "Natural skincare and rare fragrance, 100% authentic and shipped from the UK." },
     { "type": "richtext", "id": "promises", "label": "Promises list" },
+    { "type": "text", "id": "social_label", "label": "Instagram label", "default": "@swansura_thebodystudio" },
     { "type": "link_list", "id": "legal_links", "label": "Legal-bar links (menu)", "info": "Replaces the automatic policy links" },
     { "type": "url", "id": "sitemap_url", "label": "Sitemap page", "info": "A page using the 'sitemap' template" }
   ],

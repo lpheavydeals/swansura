@@ -1,0 +1,22 @@
+{%- comment -%} Christmas gifting band, prototype markup (section.xmas): heading, text, pill links, gold button, three gift photos with brand. {%- endcomment -%}
+<div class="swp app"><section class="xmas"><div class="wrap xmas-in">
+    <div class="xmas-copy"><h2>{{ section.settings.heading | escape }}</h2>
+      <p>{{ section.settings.text | escape }}</p>
+      <div class="xmas-links">{%- assign lines = section.settings.links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div>
+      <a class="btn gold" href="{{ section.settings.btn_url }}">{{ section.settings.btn | escape }}</a></div>
+    <div class="xmas-pics">{%- for p in section.settings.products limit: 3 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}<a class="xp xp{{ forloop.index0 }}" href="{{ p.url }}" aria-label="{{ pn | escape }}">{{ p.featured_media.preview_image | image_url: width: 600 | image_tag: class: 'pic', widths: '300,450,600', sizes: '(min-width: 900px) 240px, 33vw', loading: 'lazy', alt: p.featured_media.alt }}<span>{{ p.vendor | escape }}</span></a>{%- endfor -%}</div>
+  </div></section></div>
+{% schema %}
+{
+  "name": "Swansura Christmas band",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Christmas gifting, sorted" },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "textarea", "id": "links", "label": "Pill links", "info": "One per line: Label|/collections/handle" },
+    { "type": "text", "id": "btn", "label": "Button", "default": "Shop Christmas gifts" },
+    { "type": "url", "id": "btn_url", "label": "Button link" },
+    { "type": "product_list", "id": "products", "label": "Three gift photos", "limit": 3 }
+  ],
+  "presets": [{ "name": "Swansura Christmas band" }]
+}
+{% endschema %}

@@ -1,1 +1,952 @@
-{"sections":{"hero":{"type":"sw-hero","blocks":{"f0":{"type":"fact","settings":{"value":"545","label":"Products"}},"f1":{"type":"fact","settings":{"value":"66","label":"Brands"}},"f2":{"type":"fact","settings":{"value":"100%","label":"Authentic"}},"f3":{"type":"fact","settings":{"value":"£40","label":"Free UK delivery"}}},"block_order":["f0","f1","f2","f3"],"settings":{"h1":"Natural skincare UK · Niche perfume","title":"Rituals for the <strong>skin</strong>, <em>signatures</em> for the <strong>senses</strong>.","lede":"Best-loved natural skincare and niche and designer perfume, in one UK studio. Chosen with care, 100% authentic, delivered from the UK.","button1_label":"Shop skincare","button1_link":"shopify://collections/skincare","button2_label":"Discover fragrance","button2_link":"shopify://collections/fragrance","skin_products":["deygas-beetroot-lip-balm-classic-10-g-100-natural-no-harsh-chemicals","charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas","milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone","deyga-sunscreen-50ml","deyga-2-hyaluronic-acid-serum-20ml","vilvah-goat-milk-shampoo-250ml"],"scent_products":["al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance","kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume","gold-rose-oudh-extrait-de-parfum-100ml-luxury-unisex-oud-perfume","hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance","signature-santal-eau-de-parfum-100ml-15ml-unisex","gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance"],"interval":1}},"categories":{"type":"sw-tiles","blocks":{"tile_0":{"type":"tile","settings":{"title":"Face wash","collection":"cleanser"}},"tile_1":{"type":"tile","settings":{"title":"Serums","collection":"serum"}},"tile_2":{"type":"tile","settings":{"title":"Moisturisers","collection":"moisturizers-gels"}},"tile_3":{"type":"tile","settings":{"title":"Sunscreen","collection":"sunscreen"}},"tile_4":{"type":"tile","settings":{"title":"Lip care","collection":"lip-balm"}},"tile_5":{"type":"tile","settings":{"title":"Hair oil","collection":"hair-oil"}},"tile_6":{"type":"tile","settings":{"title":"Shampoo","collection":"shampoo"}},"tile_7":{"type":"tile","settings":{"title":"Body care","collection":"body-cream-exfoliants"}},"tile_8":{"type":"tile","settings":{"title":"Fragrance","collection":"fragrance"}},"tile_9":{"type":"tile","settings":{"title":"Gift sets","collection":"sets-combos"}}},"block_order":["tile_0","tile_1","tile_2","tile_3","tile_4","tile_5","tile_6","tile_7","tile_8","tile_9"],"settings":{"heading":"Shop by category","style":"category","show_count":false,"band":false,"link_label":"Shop all","link_url":"shopify://collections/all"}},"studios":{"type":"sw-studios","blocks":{"s1":{"type":"studio","settings":{"style":"skin","mark":"Skin","title":"The Skin Studio","text":"Natural skincare from Deyga, Vilvah, Highborn London and more. Cleansers, serums, lip care, hair and body.","links":"<a href=\"/collections/skincare\" title=\"Skincare\">Skincare</a> <a href=\"/collections/haircare\" title=\"Haircare\">Haircare</a> <a href=\"/collections/bodycare\" title=\"Bath & Body\">Bath &amp; Body</a> <a href=\"/collections/milk-drop-brightening-serum-1\" title=\"Deyga\">Deyga</a> <a href=\"/collections/milk-drop-brightening-serum\" title=\"Vilvah\">Vilvah</a>"}},"s2":{"type":"studio","settings":{"style":"scent","mark":"Scent","title":"The Scent Studio","text":"Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari and more.","links":"<a href=\"/collections/fragrance\" title=\"All fragrance\">All fragrance</a> <a href=\"/search?type=product&q=oud\" title=\"Oud\">Oud</a> <a href=\"/search?type=product&q=amber\" title=\"Amber\">Amber</a> <a href=\"/collections/tiziana-terenzi\" title=\"Tiziana Terenzi\">Tiziana Terenzi</a> <a href=\"/collections/al-haramain\" title=\"Al Haramain\">Al Haramain</a>"}}},"block_order":["s1","s2"],"settings":{}},"price":{"type":"sw-tiles","blocks":{"tile_0":{"type":"tile","settings":{"title":"Under £15","subtitle":"Lip care, minis and add-ons","collection":"lip-balm","link":"/collections/all?filter.v.price.lte=15"}},"tile_1":{"type":"tile","settings":{"title":"£15 – £25","subtitle":"Everyday heroes","collection":"serum","link":"/collections/all?filter.v.price.gte=15&filter.v.price.lte=25"}},"tile_2":{"type":"tile","settings":{"title":"£25 – £50","subtitle":"Routines and treats","collection":"fragrance","link":"/collections/all?filter.v.price.gte=25&filter.v.price.lte=50"}},"tile_3":{"type":"tile","settings":{"title":"Over £50","subtitle":"Luxury gifts","collection":"tiziana-terenzi","link":"/collections/all?filter.v.price.gte=50"}}},"block_order":["tile_0","tile_1","tile_2","tile_3"],"settings":{"heading":"Shop by price","style":"price","show_count":false,"band":false,"link_label":"Gifts & sets","link_url":"shopify://collections/sets-combos"}},"bestsellers":{"type":"sw-product-tabs","blocks":{"t1":{"type":"tab","settings":{"label":"Skincare & body","products":["deygas-beetroot-lip-balm-classic-10-g-100-natural-no-harsh-chemicals","charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas","milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone","deyga-sunscreen-50ml","deyga-2-hyaluronic-acid-serum-20ml","vilvah-goat-milk-shampoo-250ml","vilvah-hair-growth-oil-50ml-natural-hair-regrowth-treatment-with-pumpkin-seed-kalonji-castor-oils-reduces-hair-fall-promotes-thicker-hair","vilvah-ultra-moisturising-cream-anti-aging-hydration-for-fine-lines-wrinkles-50ml"],"limit":8}},"t2":{"type":"tab","settings":{"label":"Fragrance","products":["al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance","kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume","gold-rose-oudh-extrait-de-parfum-100ml-luxury-unisex-oud-perfume","hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance","signature-santal-eau-de-parfum-100ml-15ml-unisex","gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance","fumeri-amber-night-unisex-eau-de-parfum-100ml","al-haramain-amber-oud-bleu-edition-eau-de-parfum-60ml-luxury-unisex-fresh-woody-fragrance"],"limit":8}}},"block_order":["t1","t2"],"settings":{"heading":"Iconic bestsellers","link_label":"View all","link_url":"shopify://collections/best-sellers"}},"concerns":{"type":"sw-tiles","blocks":{"tile_0":{"type":"tile","settings":{"title":"Acne & oil control","subtitle":"Face wash for oily skin","collection":"cleanser","link":"/search?type=product&q=oily+skin"}},"tile_1":{"type":"tile","settings":{"title":"Glow & even tone","subtitle":"Serums for glowing skin","collection":"serum"}},"tile_2":{"type":"tile","settings":{"title":"Deep hydration","subtitle":"Moisturiser for dry skin","collection":"moisturizers-gels"}},"tile_3":{"type":"tile","settings":{"title":"Lip care","subtitle":"Balms and scrubs","collection":"lip-balm"}},"tile_4":{"type":"tile","settings":{"title":"Sun care","subtitle":"SPF 50 sunscreen","collection":"sunscreen"}},"tile_5":{"type":"tile","settings":{"title":"Hair fall","subtitle":"Hair oils","collection":"hair-oil"}},"tile_6":{"type":"tile","settings":{"title":"Dandruff","subtitle":"Scalp care","collection":"shampoo","link":"/search?type=product&q=dandruff"}},"tile_7":{"type":"tile","settings":{"title":"Calm & soothe","subtitle":"Aloe vera and gentle care","collection":"toner","link":"/search?type=product&q=aloe+vera"}}},"block_order":["tile_0","tile_1","tile_2","tile_3","tile_4","tile_5","tile_6","tile_7"],"settings":{"heading":"Shop by concern","style":"concern","show_count":false,"band":false}},"families":{"type":"sw-tiles","blocks":{"tile_0":{"type":"tile","settings":{"title":"Oud","subtitle":"Smoky, resinous and deep","link":"/search?type=product&q=oud"}},"tile_1":{"type":"tile","settings":{"title":"Amber","subtitle":"Warm, sweet and enveloping","link":"/search?type=product&q=amber"}},"tile_2":{"type":"tile","settings":{"title":"Floral","subtitle":"Rose, jasmine and bright petals","link":"/search?type=product&q=floral"}},"tile_3":{"type":"tile","settings":{"title":"Woody","subtitle":"Sandalwood, cedar and vetiver","link":"/search?type=product&q=woody"}},"tile_4":{"type":"tile","settings":{"title":"Fresh","subtitle":"Citrus, aquatic and green","link":"/search?type=product&q=fresh"}}},"block_order":["tile_0","tile_1","tile_2","tile_3","tile_4"],"settings":{"heading":"Find your signature scent","style":"family","show_count":false,"band":false,"link_label":"All fragrance","link_url":"shopify://collections/fragrance"}},"brands":{"type":"sw-tiles","blocks":{"tile_0":{"type":"tile","settings":{"title":"Deyga","subtitle":"Official UK partner","collection":"milk-drop-brightening-serum-1"}},"tile_1":{"type":"tile","settings":{"title":"Vilvah","subtitle":"Official UK partner","collection":"milk-drop-brightening-serum"}},"tile_2":{"type":"tile","settings":{"title":"Tiziana Terenzi","subtitle":"Italian niche extraits","collection":"tiziana-terenzi"}},"tile_3":{"type":"tile","settings":{"title":"Al Haramain","subtitle":"Arabian perfume house","collection":"al-haramain"}},"tile_4":{"type":"tile","settings":{"title":"Gucci","subtitle":"Designer fragrance","collection":"gucci"}},"tile_5":{"type":"tile","settings":{"title":"Hemel","subtitle":"Arabian-inspired luxury","collection":"hemel-h"}},"tile_6":{"type":"tile","settings":{"title":"Signature D'orient","subtitle":"Oud and amber","collection":"signature-sillage-dorient"}},"tile_7":{"type":"tile","settings":{"title":"Dolce & Gabbana","subtitle":"Designer fragrance","collection":"dolce-gabbana"}}},"block_order":["tile_0","tile_1","tile_2","tile_3","tile_4","tile_5","tile_6","tile_7"],"settings":{"heading":"Shop by brand","style":"brand","show_count":true,"band":false,"link_label":"All brands","link_url":"shopify://collections"}},"story_deyga":{"type":"sw-story","settings":{"eyebrow":"Behind the brand · Official UK partner","heading":"Deyga: grown, made, and now shipped from the UK","text":"<p>Deyga is a family-run Indian brand that grows many of its own botanicals and turns them into simple, plant-based skin, hair and body care. Swansura is its official UK partner, so every Deyga product is 100% authentic and ships from the UK.</p>","products":["charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas","deyga-shea-saffron-bath-bar-100g"],"button1_label":"Shop all Deyga","button1_link":"shopify://collections/milk-drop-brightening-serum-1","button2_label":"Discover Vilvah","button2_link":"shopify://collections/milk-drop-brightening-serum","reverse":false}},"story_vilvah":{"type":"sw-story","settings":{"eyebrow":"Behind the brand · Official UK partner","heading":"Vilvah: the goat-milk ritual, from India to the UK","text":"<p>Vilvah is known for goat milk and botanical formulas for face, hair and body, from Milk Drops to its goat milk shampoo. Swansura is its official UK partner, with every product 100% authentic and dispatched from the UK.</p>","products":["milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone","vilvah-goat-milk-shampoo-250ml"],"button1_label":"Shop all Vilvah","button1_link":"shopify://collections/milk-drop-brightening-serum","button2_label":"Shop moisturisers","button2_link":"shopify://collections/moisturizers-gels","reverse":true}},"xmas":{"type":"sw-xmas","settings":{"heading":"Christmas gifting, sorted","text":"Perfume gift sets, miniatures and natural skincare kits for everyone on your list. Every gift is 100% authentic and dispatched from the UK, with free UK delivery over £40.","links":"<a href=\"/search?type=product&q=gift+set+women\" title=\"Gifts for her\">Gifts for her</a> <a href=\"/search?type=product&q=gift+set+men\" title=\"Gifts for him\">Gifts for him</a> <a href=\"/collections/all?filter.v.price.lte=25\" title=\"Under £25\">Under £25</a> <a href=\"/search?type=product&q=perfume+gift+set\" title=\"Perfume gift sets\">Perfume gift sets</a> <a href=\"/search?type=product&q=miniature\" title=\"Stocking fillers\">Stocking fillers</a> <a href=\"/collections/skincare-tools-kits\" title=\"Skincare kits\">Skincare kits</a>","button_label":"Shop Christmas gifts","button_link":"shopify://collections/sets-combos","products":["gucci-bloom-eau-de-parfum-gift-set-100ml-10ml-body-lotion-100ml-women-s-fragrance-set","ultimate-day-night-moisture-set","calvin-klein-women-s-miniature-fragrance-set-4x15ml-obsession-eternity-ck-one"]}},"popular":{"type":"sw-chips","blocks":{"c0":{"type":"chip","settings":{"label":"Natural skincare","link":"/collections/skincare"}},"c1":{"type":"chip","settings":{"label":"Moisturiser for dry skin","link":"/collections/moisturizers-gels"}},"c2":{"type":"chip","settings":{"label":"Face wash for oily skin","link":"/collections/cleanser"}},"c3":{"type":"chip","settings":{"label":"Hair growth oil","link":"/collections/hair-oil"}},"c4":{"type":"chip","settings":{"label":"Natural shampoo","link":"/collections/shampoo"}},"c5":{"type":"chip","settings":{"label":"Lip balm","link":"/collections/lip-balm"}},"c6":{"type":"chip","settings":{"label":"Body butter","link":"/search?type=product&q=body+butter"}},"c7":{"type":"chip","settings":{"label":"Sunscreen SPF 50","link":"/collections/sunscreen"}},"c8":{"type":"chip","settings":{"label":"Aloe vera gel","link":"/search?type=product&q=aloe+vera+gel"}},"c9":{"type":"chip","settings":{"label":"Oud perfume","link":"/search?type=product&q=oud"}},"c10":{"type":"chip","settings":{"label":"Amber perfume","link":"/search?type=product&q=amber"}},"c11":{"type":"chip","settings":{"label":"Tiziana Terenzi","link":"/collections/tiziana-terenzi"}},"c12":{"type":"chip","settings":{"label":"Al Haramain Amber Oud","link":"/collections/al-haramain"}},"c13":{"type":"chip","settings":{"label":"Perfume gift sets","link":"/search?type=product&q=perfume+gift+set"}},"c14":{"type":"chip","settings":{"label":"Miniature perfume","link":"/search?type=product&q=miniature"}}},"block_order":["c0","c1","c2","c3","c4","c5","c6","c7","c8","c9","c10","c11","c12","c13","c14"],"settings":{"heading":"Popular searches","band":true}},"seo":{"type":"sw-seo-copy","settings":{"eyebrow":"About Swansura","heading":"Natural skincare in the UK from Deyga and Vilvah, plus fine fragrance","body":"<p>Swansura is the UK home of natural skincare from Indian brands Deyga and Vilvah, and for niche, Arabian and designer fragrance. We bring both brands to your door, alongside 357 perfumes from around the world. Swansura is an official UK partner of Deyga and Vilvah, every product is 100% authentic, and every order ships from the UK.</p><h3>Indian natural care, made simple</h3><p>Deyga and Vilvah build their products on plant oils, milks, clays and traditional herbs such as neem, amla, bhringraj and turmeric. Try Vilvah Goat Milk Shampoo, Deyga Rice Water Shampoo or the Hair Growth Oils if you want a natural shampoo UK delivery can bring quickly, or start your face with a gentle wash, a serum and a moisturiser. Lip balms, bath bars, body butters and face packs complete the range. This is natural skincare made for everyday use, and many products draw on Ayurvedic tradition, so it is a good place to begin if you want Ayurvedic skincare in the UK without the wait. Browse <a href=\"/collections/skincare\">Skincare</a> or shop by concern, such as <a href=\"/search?type=product&q=hydration\">deep hydration</a>.</p><h3>Fragrance from three worlds</h3><p>Our fragrance shelf mixes designer houses such as Gucci, Chloé, Dolce &amp; Gabbana and Calvin Klein with Arabian perfumers such as Al Haramain, Hemel and Signature D'orient, and niche names such as Tiziana Terenzi and Jo Milano. If you are looking for oud perfume, our <a href=\"/search?type=product&q=oud\">oud fragrances</a> bring the smoky, resinous side together. Miniatures and discovery sets help you try before you commit.</p><h3>Routines, gifts and delivery</h3><p>Not sure where to start? Our <a href=\"/collections/sets-combos\">routines and sets</a> pair two or three products in the right order, and kits from Deyga, Vilvah and Highborn London make an easy skincare gift set. Every order over £40 travels free across the UK, which makes us an easy choice for natural skincare in the UK. Shop by concern, by scent family or by price, and find the products that suit you.</p>"}},"newsletter":{"type":"sw-newsletter","settings":{}}},"order":["hero","categories","studios","price","bestsellers","concerns","families","brands","story_deyga","story_vilvah","xmas","popular","seo","newsletter"]}
+{
+ "sections": {
+  "hero": {
+   "type": "sw-p-hero",
+   "settings": {
+    "eyebrow": "Natural skincare UK · Niche perfume",
+    "title": "Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>.",
+    "lede": "Best-loved natural skincare and niche and designer perfume, in one UK studio. Chosen with care, 100% authentic, delivered from the UK.",
+    "btn1": "Shop skincare",
+    "btn1_url": "/collections/skincare",
+    "btn2": "Discover fragrance",
+    "btn2_url": "/collections/fragrance",
+    "brands_count": 66,
+    "delivery_min": 40
+   },
+   "blocks": {
+    "pair0": {
+     "type": "pair",
+     "settings": {
+      "skin": "beetroot-lip-balm-stick-natural-tinted-balm-for-dry-lips-100-organic-ingredients-plant-based-cruelty-free-5-5-g",
+      "skin_label": "Beetroot Lip Balm Stick",
+      "scent": "al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance",
+      "scent_label": "Amber Oud Ruby Edition"
+     }
+    },
+    "pair1": {
+     "type": "pair",
+     "settings": {
+      "skin": "charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas",
+      "skin_label": "Charcoal Face Wash",
+      "scent": "kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume",
+      "scent_label": "Kaff"
+     }
+    },
+    "pair2": {
+     "type": "pair",
+     "settings": {
+      "skin": "milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone",
+      "skin_label": "Milk Drops Hydrating Serum",
+      "scent": "gold-rose-oudh-extrait-de-parfum-100ml-luxury-unisex-oud-perfume",
+      "scent_label": "Gold Rose Oudh"
+     }
+    },
+    "pair3": {
+     "type": "pair",
+     "settings": {
+      "skin": "deyga-sunscreen-50ml",
+      "skin_label": "Sunscreen",
+      "scent": "hemel-rosado-eau-de-parfum-100ml",
+      "scent_label": "Rosado"
+     }
+    },
+    "pair4": {
+     "type": "pair",
+     "settings": {
+      "skin": "deyga-2-hyaluronic-acid-serum-20ml",
+      "skin_label": "2% Hyaluronic Acid Serum",
+      "scent": "signature-santal-eau-de-parfum-100ml-15ml-unisex",
+      "scent_label": "Santal"
+     }
+    },
+    "pair5": {
+     "type": "pair",
+     "settings": {
+      "skin": "vilvah-goat-milk-shampoo-500-ml-intense-moisturisation-pea-protein-jasmine-for-frizz-control-shine",
+      "skin_label": "Goat Milk Shampoo",
+      "scent": "gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance",
+      "scent_label": "Intense Oud"
+     }
+    }
+   },
+   "block_order": [
+    "pair0",
+    "pair1",
+    "pair2",
+    "pair3",
+    "pair4",
+    "pair5"
+   ]
+  },
+  "categories": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "catrow",
+    "heading": "Shop by category",
+    "link_label": "Shop all 545",
+    "link_url": "/collections/all"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Face wash",
+      "collection": "cleanser",
+      "product": "deyga-vitamin-c-foaming-face-wash-100ml"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Serums",
+      "collection": "serum",
+      "product": "deyga-2-hyaluronic-acid-serum-20ml"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "Moisturisers",
+      "collection": "moisturizers-gels",
+      "product": "deyga-deep-moisturising-face-cream-30g"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Sunscreen",
+      "collection": "sunscreen",
+      "product": "deyga-sunscreen-50ml"
+     }
+    },
+    "t4": {
+     "type": "tile",
+     "settings": {
+      "title": "Lip care",
+      "collection": "lip-balm",
+      "product": "deyga-soft-lip-combo"
+     }
+    },
+    "t5": {
+     "type": "tile",
+     "settings": {
+      "title": "Hair oil",
+      "collection": "hair-oil",
+      "product": "deyga-premature-greying-hair-oil-100ml"
+     }
+    },
+    "t6": {
+     "type": "tile",
+     "settings": {
+      "title": "Shampoo",
+      "collection": "shampoo",
+      "product": "vilvah-shampoo-hair-serum-kit"
+     }
+    },
+    "t7": {
+     "type": "tile",
+     "settings": {
+      "title": "Body butter",
+      "collection": "body-butter",
+      "product": "deyga-chocolate-body-butter-100g"
+     }
+    },
+    "t8": {
+     "type": "tile",
+     "settings": {
+      "title": "Fragrance",
+      "collection": "fragrance",
+      "product": "orza-extrait-de-parfum-linea-tt-100ml-luxury-unisex-niche-perfume"
+     }
+    },
+    "t9": {
+     "type": "tile",
+     "settings": {
+      "title": "Gift sets",
+      "collection": "sets-combos",
+      "product": "calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t6",
+    "t7",
+    "t8",
+    "t9"
+   ]
+  },
+  "studios": {
+   "type": "sw-p-studios",
+   "settings": {
+    "fragrance_collection": "fragrance"
+   },
+   "blocks": {
+    "skin": {
+     "type": "studio",
+     "settings": {
+      "kind": "skin",
+      "mark": "Skin",
+      "heading": "The Skin Studio",
+      "text": "[skin] products from Deyga, Vilvah, Highborn London and more. Cleansers, serums, lip care, hair and body.",
+      "links": "Skincare|/collections/skincare\nHaircare|/collections/haircare\nBath & Body|/collections/bodycare\nDeyga|/collections/milk-drop-brightening-serum-1\nVilvah|/collections/milk-drop-brightening-serum"
+     }
+    },
+    "scent": {
+     "type": "studio",
+     "settings": {
+      "kind": "scent",
+      "mark": "Scent",
+      "heading": "The Scent Studio",
+      "text": "[fragrance] fragrances: Tiziana Terenzi extraits, Al Haramain Amber Oud, Hemel, Signature D'orient, Gucci, Bvlgari and more.",
+      "links": "All fragrance|/collections/fragrance\nOud|/collections/scent-oud\nAmber|/collections/scent-amber\nTiziana Terenzi|/collections/tiziana-terenzi\nAl Haramain|/collections/al-haramain"
+     }
+    }
+   },
+   "block_order": [
+    "skin",
+    "scent"
+   ]
+  },
+  "price": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "bands",
+    "heading": "Shop by price",
+    "link_label": "Gifts & sets",
+    "link_url": "/collections/sets-combos"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Under £15",
+      "line": "Lip care, minis and add-ons",
+      "collection": "price-0-15",
+      "product": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "£15 – £25",
+      "line": "Everyday heroes",
+      "collection": "price-15-25",
+      "product": "crystal-cleanser-100ml"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "£25 – £50",
+      "line": "Routines and treats",
+      "collection": "price-25-50",
+      "product": "calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "£50 and over",
+      "line": "Free UK delivery included",
+      "collection": "price-50-9999",
+      "product": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3"
+   ]
+  },
+  "bestsellers": {
+   "type": "sw-p-best",
+   "settings": {
+    "heading": "Iconic bestsellers",
+    "link_label": "View all",
+    "link_url": "/collections/all",
+    "tab1": "Skincare & body",
+    "products1": [
+     "beetroot-lip-balm-stick-natural-tinted-balm-for-dry-lips-100-organic-ingredients-plant-based-cruelty-free-5-5-g",
+     "charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas",
+     "milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone",
+     "deyga-sunscreen-50ml",
+     "deyga-2-hyaluronic-acid-serum-20ml",
+     "vilvah-goat-milk-shampoo-500-ml-intense-moisturisation-pea-protein-jasmine-for-frizz-control-shine",
+     "vilvah-hair-growth-oil-50ml-natural-hair-regrowth-treatment-with-pumpkin-seed-kalonji-castor-oils-reduces-hair-fall-promotes-thicker-hair",
+     "vilvah-ultra-moisturising-cream-anti-aging-hydration-for-fine-lines-wrinkles-50ml"
+    ],
+    "tab2": "Fragrance",
+    "products2": [
+     "al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance",
+     "kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume",
+     "gold-rose-oudh-extrait-de-parfum-100ml-luxury-unisex-oud-perfume",
+     "hemel-rosado-eau-de-parfum-100ml",
+     "signature-santal-eau-de-parfum-100ml-15ml-unisex",
+     "gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance",
+     "fumeri-amber-night-unisex-eau-de-parfum-100ml",
+     "al-haramain-amber-oud-bleu-edition-eau-de-parfum-60ml-luxury-unisex-fresh-woody-fragrance"
+    ]
+   }
+  },
+  "steps": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "steps",
+    "heading": "Four steps, one ritual",
+    "link_label": "Ready-made routines",
+    "link_url": "/collections/sets-combos"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Cleanse",
+      "line": "Lift away oil and the day",
+      "collection": "cleanser",
+      "product": "deyga-vitamin-c-foaming-face-wash-100ml",
+      "go": "Shop face wash & cleanser"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Treat",
+      "line": "A serum for what your skin needs",
+      "collection": "serum",
+      "product": "deyga-2-hyaluronic-acid-serum-20ml",
+      "go": "Shop face serum"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "Moisturise",
+      "line": "Lock in softness and comfort",
+      "collection": "moisturizers-gels",
+      "product": "deyga-deep-moisturising-face-cream-30g",
+      "go": "Shop face moisturiser"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Protect",
+      "line": "Daily SPF, every morning",
+      "collection": "sunscreen",
+      "product": "deyga-sunscreen-50ml",
+      "go": "Shop sunscreen & spf"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3"
+   ]
+  },
+  "routines": {
+   "type": "sw-p-rituals",
+   "settings": {
+    "heading": "Most loved routines",
+    "all_label": "View all 16 routines",
+    "all_url": "/collections/sets-combos",
+    "discount_live": false,
+    "save_pct": 5
+   },
+   "blocks": {
+    "r0": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skincare routines",
+      "name": "The Clear Skin Routine",
+      "intro": "For oily, breakout-prone skin: deep cleanse, balance, then a drop of neem.",
+      "s1": "Cleanse",
+      "p1": "charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas",
+      "s2": "Tone",
+      "p2": "deyga-tea-tree-facial-toner-100ml",
+      "s3": "Treat",
+      "p3": "deyga-neem-seed-oil-30ml"
+     }
+    },
+    "r1": {
+     "type": "ritual",
+     "settings": {
+      "group": "Hair routines",
+      "name": "The Hair Fall Rescue",
+      "intro": "Oil the roots, wash gently, condition the lengths.",
+      "s1": "Oil",
+      "p1": "vilvah-hair-growth-oil-50ml-natural-hair-regrowth-treatment-with-pumpkin-seed-kalonji-castor-oils-reduces-hair-fall-promotes-thicker-hair",
+      "s2": "Wash",
+      "p2": "vilvah-herbal-shampoo-250ml",
+      "s3": "Condition",
+      "p3": "vilvah-cream-conditioner-250ml"
+     }
+    },
+    "r2": {
+     "type": "ritual",
+     "settings": {
+      "group": "Body & bath",
+      "name": "The Body Polish Ritual",
+      "intro": "Wash, scrub and seal in moisture for smooth skin.",
+      "s1": "Wash",
+      "p1": "deyga-wild-berry-body-wash-220ml",
+      "s2": "Scrub",
+      "p2": "deyga-body-scrub-100g",
+      "s3": "Butter",
+      "p3": "deyga-chocolate-body-butter-100g"
+     }
+    },
+    "r3": {
+     "type": "ritual",
+     "settings": {
+      "group": "Skin + scent",
+      "name": "The Amber Oud Evening",
+      "intro": "Butter first, then oud: fragrance lasts longer on moisturised skin.",
+      "s1": "Moisturise",
+      "p1": "deyga-chocolate-body-butter-100g",
+      "s2": "Spray",
+      "p2": "al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance"
+     }
+    }
+   },
+   "block_order": [
+    "r0",
+    "r1",
+    "r2",
+    "r3"
+   ]
+  },
+  "ranges": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "ingcards",
+    "heading": "Ranges loved by you"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Beetroot",
+      "line": "Natural tint for lips",
+      "collection": "range-beetroot",
+      "product": "deygas-beetroot-lip-balm-classic-10-g-100-natural-no-harsh-chemicals"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Goat milk",
+      "line": "Gentle, creamy care",
+      "collection": "range-goat-milk",
+      "product": "charcoal-goatmilk-soap-bar-115g"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "Charcoal",
+      "line": "Deep-cleansing detox",
+      "collection": "range-charcoal",
+      "product": "deyga-charcoal-detox-face-mask-100g"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Vitamin C",
+      "line": "Brightening glow",
+      "collection": "range-vitamin-c",
+      "product": "deyga-vitamin-c-daily-glow-combo"
+     }
+    },
+    "t4": {
+     "type": "tile",
+     "settings": {
+      "title": "Rose",
+      "line": "Soft, floral, soothing",
+      "collection": "range-rose",
+      "product": "illuminating-rose-hip-grape-seed-avocado-face-oil"
+     }
+    },
+    "t5": {
+     "type": "tile",
+     "settings": {
+      "title": "Neem",
+      "line": "With tea tree, clarifying",
+      "collection": "range-neem",
+      "product": "deyga-neem-seed-oil-30ml"
+     }
+    },
+    "t6": {
+     "type": "tile",
+     "settings": {
+      "title": "Rice water",
+      "line": "Smooth, glossy hair",
+      "collection": "range-rice-water",
+      "product": "deygas-rice-water-shampoo-220ml-natural-hair-care-for-smooth-nourished-hair"
+     }
+    },
+    "t7": {
+     "type": "tile",
+     "settings": {
+      "title": "Oud",
+      "line": "Smoky, regal fragrance",
+      "collection": "range-oud",
+      "product": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t6",
+    "t7"
+   ]
+  },
+  "concerns": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "concerns",
+    "heading": "Shop by concern",
+    "chips_label": "Most searched",
+    "chips": "Moisturiser for dry skin|/collections/moisturiser-for-dry-skin\nHair mask for dry hair|/collections/hair-mask-for-dry-hair\nHair oil for dry hair|/collections/hair-oil-for-dry-hair\nFace wash for dry skin|/collections/face-wash-for-dry-skin\nFace wash for oily skin|/collections/face-wash-for-oily-skin\nShampoo for dandruff|/collections/shampoo-for-dandruff\nBody lotion for dry skin|/collections/body-lotion-for-dry-skin\nHair serum for frizzy hair|/collections/hair-serum-for-frizzy-hair\nLip balm for dry lips|/collections/lip-balm-for-dry-lips\nToner for dry skin|/collections/toner-for-dry-skin\nNatural sunscreen|/collections/natural-sunscreen\nNatural shampoo|/collections/natural-shampoo\nBody butter for dry skin|/collections/body-butter-for-dry-skin\nHair growth oil|/collections/hair-growth-oil\nFace mask for oily skin|/collections/face-mask-for-oily-skin\nLip scrub|/collections/lip-scrub\nShampoo for hair loss|/collections/shampoo-for-hair-loss"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Acne & oil control",
+      "line": "Charcoal, neem, tea tree",
+      "collection": "concern-acne",
+      "product": "deyga-vitamin-c-daily-glow-combo"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Glow & even tone",
+      "line": "Dark spots, dullness",
+      "collection": "concern-glow",
+      "product": "deyga-charcoal-detox-face-mask-100g"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "Deep hydration",
+      "line": "Dry, tight skin",
+      "collection": "concern-hydration",
+      "product": "deyga-soft-lip-combo"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Lip care",
+      "line": "Tint and nourish",
+      "collection": "concern-lips",
+      "product": "deyga-natural-vanilla-lip-balm-8g"
+     }
+    },
+    "t4": {
+     "type": "tile",
+     "settings": {
+      "title": "Sun care",
+      "line": "Daily SPF",
+      "collection": "concern-sun",
+      "product": "deyga-tangerine-cleansing-balm-for-makeup-removal-30g"
+     }
+    },
+    "t5": {
+     "type": "tile",
+     "settings": {
+      "title": "Hair fall",
+      "line": "Stronger roots",
+      "collection": "concern-hairfall",
+      "product": "deyga-premature-greying-hair-oil-100ml"
+     }
+    },
+    "t6": {
+     "type": "tile",
+     "settings": {
+      "title": "Dandruff",
+      "line": "Calm scalp",
+      "collection": "concern-dandruff",
+      "product": "deyga-neem-seed-oil-30ml"
+     }
+    },
+    "t7": {
+     "type": "tile",
+     "settings": {
+      "title": "Calm & sleep",
+      "line": "Wind-down rituals",
+      "collection": "concern-calm",
+      "product": "deyga-mini-foot-spa-combo"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t6",
+    "t7"
+   ]
+  },
+  "families": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "families",
+    "heading": "Find your signature scent",
+    "link_label": "All fragrance",
+    "link_url": "/collections/fragrance"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Oud",
+      "line": "Smoky, resinous, regal",
+      "collection": "scent-oud"
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Amber",
+      "line": "Warm, sweet, golden",
+      "collection": "scent-amber"
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "Floral",
+      "line": "Rose, jasmine, white flowers",
+      "collection": "scent-floral"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Woody",
+      "line": "Sandalwood, cedar, patchouli",
+      "collection": "scent-woody"
+     }
+    },
+    "t4": {
+     "type": "tile",
+     "settings": {
+      "title": "Fresh",
+      "line": "Citrus, bergamot, air",
+      "collection": "scent-fresh"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ]
+  },
+  "brands": {
+   "type": "sw-p-tiles",
+   "settings": {
+    "layout": "brands",
+    "heading": "Shop by brand",
+    "link_label": "All 66 brands A–Z",
+    "link_url": "/collections",
+    "more_links": "Fumeri|/collections/fumeri\nAl Haramain|/collections/al-haramain\nSignature D'orient|/collections/signature-sillage-dorient\nGucci|/collections/gucci\nSwansura Selection|/collections/swansura-selection\nJo Milano|/collections/luxury-collection-1\nDunhill|/collections/dunhill\nDolce & Gabbana|/collections/dolce-gabbana\nBentley|/collections/bentley\nThe Woods Collection|/collections/the-woods-collection\nAll 66 brands A–Z →|/collections"
+   },
+   "blocks": {
+    "t0": {
+     "type": "tile",
+     "settings": {
+      "title": "Deyga",
+      "line": "Official UK partner",
+      "collection": "milk-drop-brightening-serum-1",
+      "product": "deyga-soft-lip-combo",
+      "partner": true
+     }
+    },
+    "t1": {
+     "type": "tile",
+     "settings": {
+      "title": "Vilvah",
+      "line": "Official UK partner",
+      "collection": "milk-drop-brightening-serum",
+      "product": "vilvah-tan-protection-kit",
+      "partner": true
+     }
+    },
+    "t2": {
+     "type": "tile",
+     "settings": {
+      "title": "anatomē",
+      "line": "London apothecary for sleep and senses",
+      "collection": "anatome",
+      "product": "balance-eau-de-parfum-travel-10ml"
+     }
+    },
+    "t3": {
+     "type": "tile",
+     "settings": {
+      "title": "Highborn London",
+      "line": "Luxury skincare, made in England",
+      "collection": "highborn-london",
+      "product": "pre-eminent-beauty-serum"
+     }
+    },
+    "t4": {
+     "type": "tile",
+     "settings": {
+      "title": "Tiziana Terenzi",
+      "line": "Italian niche extraits",
+      "collection": "tiziana-terenzi",
+      "product": "white-fire-extrait-de-parfum-100ml-luxury-unisex-niche-perfume"
+     }
+    },
+    "t5": {
+     "type": "tile",
+     "settings": {
+      "title": "Hemel",
+      "line": "Modern luxury eaux de parfum",
+      "collection": "hemel-h",
+      "product": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran"
+     }
+    }
+   },
+   "block_order": [
+    "t0",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5"
+   ]
+  },
+  "advent": {
+   "type": "sw-p-advents",
+   "settings": {
+    "heading": "Christmas 2026 · Advent calendars",
+    "link_label": "Choose your advent",
+    "link_url": "/pages/advent"
+   },
+   "blocks": {
+    "skin": {
+     "type": "advent",
+     "settings": {
+      "kind": "skin",
+      "eyebrow": "12 doors · 12 days of natural rituals",
+      "heading": "The Skin Studio Advent",
+      "text": "Twelve natural skin, lip and body favourites from Deyga and Vilvah, one for each day of the countdown.",
+      "inside_url": "/pages/advent#skin",
+      "strip": [
+       "vilvah-natural-lip-scrub-10-g-lemon-shea-butter-exfoliator-for-pigmented-dry-chapped-lips-gentle-sugar-polish-for-soft-even-lips",
+       "vilvah-natural-lemon-lip-balm-10g-deep-hydration-pigmentation-reduction-with-shea-butter-avocado-oil-vitamin-e",
+       "vilvah-grape-fruit-lip-balm-10g",
+       "deyga-natural-vanilla-lip-balm-8g",
+       "cucumber-curd-mint-soap-bar-115g",
+       "charcoal-goatmilk-soap-bar-115g"
+      ]
+     }
+    },
+    "scent": {
+     "type": "advent",
+     "settings": {
+      "kind": "scent",
+      "eyebrow": "12 doors · 12 days of fine fragrance",
+      "heading": "The Scent Studio Advent",
+      "text": "Twelve designer fragrance miniatures from Gucci, Calvin Klein and Hermès to discover your next signature scent.",
+      "inside_url": "/pages/advent#scent",
+      "strip": [
+       "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance",
+       "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance",
+       "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance",
+       "gucci-bloom-profumo-di-fiori-eau-de-parfum-10ml-pen-spray-women-s-floral-fragrance",
+       "gucci-flora-gorgeous-orchid-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance",
+       "gucci-bloom-eau-de-toilette-10ml-miniature-women-s-floral-perfume"
+      ]
+     }
+    }
+   },
+   "block_order": [
+    "skin",
+    "scent"
+   ]
+  },
+  "story_deyga": {
+   "type": "sw-p-story",
+   "settings": {
+    "reverse": false,
+    "products": [
+     "charcoal-face-wash-100ml-natural-deep-cleansing-for-all-skin-types-deygas",
+     "deyga-shea-saffron-bath-bar-100g"
+    ],
+    "eyebrow": "Behind the brand · Official UK partner",
+    "heading": "Deyga: grown, made, and now shipped from the UK",
+    "text": "Deyga makes natural skin, hair and body care with plant-based ingredients, many grown on its own farm in India. Beetroot lip balm, charcoal face wash and botanical sunscreen are the cult favourites. Swansura is an official UK partner, so every product is genuine and ships from the UK.",
+    "btn1": "Shop all [count] Deyga",
+    "btn1_url": "/collections/milk-drop-brightening-serum-1",
+    "count_collection": "milk-drop-brightening-serum-1",
+    "btn2": "Discover Vilvah",
+    "btn2_url": "/collections/milk-drop-brightening-serum"
+   }
+  },
+  "story_vilvah": {
+   "type": "sw-p-story",
+   "settings": {
+    "reverse": true,
+    "products": [
+     "milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone",
+     "vilvah-goat-milk-shampoo-500-ml-intense-moisturisation-pea-protein-jasmine-for-frizz-control-shine"
+    ],
+    "eyebrow": "Behind the brand · Official UK partner",
+    "heading": "Vilvah: the goat-milk ritual, from India to the UK",
+    "text": "Vilvah is an Indian natural beauty brand known for goat milk and botanical formulas for face, hair and body. The Milk Drops serum and goat milk shampoo are the place to start. Swansura is an official UK partner, so every product is genuine and ships from the UK.",
+    "btn1": "Shop all Vilvah",
+    "btn1_url": "/collections/milk-drop-brightening-serum",
+    "count_collection": "milk-drop-brightening-serum",
+    "btn2": "Shop hydration",
+    "btn2_url": "/collections/concern-hydration"
+   }
+  },
+  "xmas": {
+   "type": "sw-p-xmas",
+   "settings": {
+    "heading": "Christmas gifting, sorted",
+    "text": "Perfume gift sets, miniatures and natural skincare kits for everyone on your list. Every gift is 100% authentic and dispatched from the UK, with free UK delivery over £40.",
+    "links": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nUnder £25|/collections/gifts-under-25\nPerfume gift sets|/collections/perfume-gift-sets\nStocking fillers|/collections/stocking-fillers\nAdvent calendars|/pages/advent",
+    "btn": "Shop Christmas gifts",
+    "btn_url": "/collections/christmas-gifts",
+    "products": [
+     "gucci-bloom-eau-de-parfum-gift-set-100ml-10ml-body-lotion-100ml-women-s-fragrance-set",
+     "ultimate-day-night-moisture-set",
+     "calvin-klein-women-s-miniature-fragrance-set-4x15ml-obsession-eternity-ck-one"
+    ]
+   }
+  },
+  "journal": {
+   "type": "sw-p-journal",
+   "settings": {
+    "heading": "The Journal",
+    "link_label": "All stories",
+    "blog": "journal",
+    "limit": 3
+   }
+  },
+  "newsletter": {
+   "type": "sw-p-news",
+   "settings": {
+    "eyebrow": "The Studio Letter",
+    "heading": "Rituals, new arrivals and fragrance notes",
+    "text": "Our letter lands once or twice a month. Unsubscribe any time."
+   }
+  },
+  "popular": {
+   "type": "sw-p-searches",
+   "settings": {
+    "heading": "Popular searches"
+   },
+   "blocks": {
+    "g0": {
+     "type": "group",
+     "settings": {
+      "title": "Skin & hair needs",
+      "links": "Moisturiser for dry skin|/collections/moisturiser-for-dry-skin\nHair mask for dry hair|/collections/hair-mask-for-dry-hair\nHair oil for dry hair|/collections/hair-oil-for-dry-hair\nFace wash for dry skin|/collections/face-wash-for-dry-skin\nFace wash for oily skin|/collections/face-wash-for-oily-skin\nShampoo for dandruff|/collections/shampoo-for-dandruff\nBody lotion for dry skin|/collections/body-lotion-for-dry-skin\nHair serum for frizzy hair|/collections/hair-serum-for-frizzy-hair\nLip balm for dry lips|/collections/lip-balm-for-dry-lips\nToner for dry skin|/collections/toner-for-dry-skin\nNatural sunscreen|/collections/natural-sunscreen\nNatural shampoo|/collections/natural-shampoo\nBody butter for dry skin|/collections/body-butter-for-dry-skin\nHair growth oil|/collections/hair-growth-oil\nFace mask for oily skin|/collections/face-mask-for-oily-skin\nLip scrub|/collections/lip-scrub\nShampoo for hair loss|/collections/shampoo-for-hair-loss"
+     }
+    },
+    "g1": {
+     "type": "group",
+     "settings": {
+      "title": "Skincare",
+      "links": "Face wash & cleanser|/collections/cleanser\nVitamin C serum|/collections/vitamin-c-serum\nFace serum|/collections/serum\nFace moisturiser|/collections/moisturizers-gels\nSunscreen & SPF|/collections/sunscreen\nFace mask|/collections/face-mask-pack\nToner & face mist|/collections/toner\nLip balm & lip care|/collections/lip-balm\nUnder eye cream|/collections/eye-cream\nShampoo|/collections/shampoo\nConditioner|/collections/conditioner\nHair oil|/collections/hair-oil"
+     }
+    },
+    "g2": {
+     "type": "group",
+     "settings": {
+      "title": "Bath & body",
+      "links": "Body butter|/collections/body-butter\nShower gel & body wash|/collections/shower-gel-body-wash\nBody lotion|/collections/body-lotion\nBody scrub|/collections/body-scrub\nNatural deodorant|/collections/deodrants"
+     }
+    },
+    "g3": {
+     "type": "group",
+     "settings": {
+      "title": "Fragrance",
+      "links": "Oud perfume|/collections/oud-perfume\nArabian perfume|/collections/arabian-perfume\nPerfume for women|/collections/perfume-for-women\nPerfume for men|/collections/perfume-for-men\nUnisex perfume|/collections/unisex-perfume\nNiche perfume|/collections/niche-perfume\nPerfume gift sets|/collections/perfume-gift-sets\nTravel size & mini perfumes|/collections/travel-size-minis"
+     }
+    },
+    "g4": {
+     "type": "group",
+     "settings": {
+      "title": "Gifts",
+      "links": "Gifts for her|/collections/gifts-for-her\nGifts for him|/collections/gifts-for-him\nGifts under £25|/collections/gifts-under-25\nGifts £25 to £50|/collections/gifts-25-to-50\nLuxury gifts over £50|/collections/gifts-over-50\nDiwali gifts|/collections/diwali-gifts\nRamadan & Eid gifts|/collections/ramadan-eid-gifts\nChristmas gifts|/collections/christmas-gifts\nStocking fillers|/collections/stocking-fillers\nMen's grooming|/collections/mens-grooming"
+     }
+    },
+    "g5": {
+     "type": "group",
+     "settings": {
+      "title": "By skin type",
+      "links": "Skincare for dry skin|/collections/dry-skin\nSkincare for oily & acne-prone skin|/collections/oily-skin\nSkincare for sensitive skin|/collections/sensitive-skin\nSkincare for dull skin|/collections/dull-skin\nHair fall treatment|/collections/hair-fall\nNatural skincare|/collections/natural-skincare"
+     }
+    }
+   },
+   "block_order": [
+    "g0",
+    "g1",
+    "g2",
+    "g3",
+    "g4",
+    "g5"
+   ]
+  },
+  "seo": {
+   "type": "sw-p-seocopy",
+   "settings": {
+    "eyebrow": "About this page",
+    "heading": "Natural skincare in the UK from Deyga and Vilvah, plus fine fragrance",
+    "text": "<p>Swansura is the UK home of natural skincare from Indian brands Deyga and Vilvah, and for niche, Arabian and designer fragrance. We bring both brands to your door, alongside 357 perfumes from around the world. Swansura is an official UK partner of Deyga and Vilvah, every product is 100% authentic, and every order ships from the UK.</p><h3>Indian natural care, made simple</h3><p>Deyga and Vilvah build their products on plant oils, milks, clays and traditional herbs such as neem, amla, bhringraj and turmeric. Try Vilvah Goat Milk Shampoo, Deyga Rice Water Shampoo or the Hair Growth Oils if you want a natural shampoo UK delivery can bring quickly, or start your face with a gentle wash, a serum and a moisturiser. Lip balms, bath bars, body butters and face packs complete the range. This is natural skincare made for everyday use, and many products draw on Ayurvedic tradition, so it is a good place to begin if you want Ayurvedic skincare in the UK without the wait. Browse <a href=\"/collections/skincare\">Skincare</a> or shop by concern, such as <a href=\"/collections/concern-hydration\">deep hydration</a>.</p><h3>Fragrance from three worlds</h3><p>Our fragrance shelf mixes designer houses such as Gucci, Chloé, Dolce &amp; Gabbana and Calvin Klein with Arabian perfumers such as Al Haramain, Hemel and Signature D'orient, and niche names such as Tiziana Terenzi and Jo Milano. If you are looking for oud perfume, our <a href=\"/collections/scent-oud\">oud fragrances</a> bring the smoky, resinous side together. Miniatures and discovery sets help you try before you commit.</p><h3>Routines, gifts and delivery</h3><p>Not sure where to start? Our <a href=\"/collections/sets-combos\">routines and sets</a> pair two or three products in the right order, and kits from Deyga, Vilvah and Highborn London make an easy skincare gift set. Every order over £40 travels free across the UK, which makes us an easy choice for natural skincare in the UK. Shop by concern, by scent family or by price, and find the products that suit you.</p>"
+   }
+  }
+ },
+ "order": [
+  "hero",
+  "categories",
+  "studios",
+  "price",
+  "bestsellers",
+  "steps",
+  "routines",
+  "ranges",
+  "concerns",
+  "families",
+  "brands",
+  "advent",
+  "story_deyga",
+  "story_vilvah",
+  "xmas",
+  "journal",
+  "newsletter",
+  "popular",
+  "seo"
+ ]
+}

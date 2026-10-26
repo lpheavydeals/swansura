@@ -48,26 +48,31 @@ def link(title, href, top=None, col=None):
     return {"title": title.replace(" →", ""), "type": "HTTP", "url": u}
 
 
-main = []
-for it in NAV["items"]:
-    top = link(it["t"], it["h"])
-    cols = []
-    for c in it["cols"]:
-        # Dawn's mega menu needs a heading per column; the unlabeled third brands column continues 'Scent Studio'
-        head = c["h"] or "More houses"
-        cols.append({"title": head, "type": "HTTP", "url": top["url"],
-                     "items": [link(t, h, it["t"], c["h"]) for t, h in c["links"]]})
-    if cols:
-        top["items"] = cols
-    main.append(top)
+def main():
+    items = []
+    for it in NAV["items"]:
+        top = link(it["t"], it["h"])
+        cols = []
+        for c in it["cols"]:
+            # Dawn's mega menu needs a heading per column; the unlabeled third brands column continues 'Scent Studio'
+            head = c["h"] or "More houses"
+            cols.append({"title": head, "type": "HTTP", "url": top["url"],
+                         "items": [link(t, h, it["t"], c["h"]) for t, h in c["links"]]})
+        if cols:
+            top["items"] = cols
+        items.append(top)
 
-menus = [{"handle": "sw-main", "title": "Swansura main menu", "items": main}]
-for f in NAV["foot"]:
-    h = "sw-footer-" + f["h"].lower().replace(" ", "-")
-    menus.append({"handle": h, "title": "Swansura footer – " + f["h"], "items": [link(t, x) for t, x in f["links"]]})
-menus.append({"handle": "sw-legal", "title": "Swansura legal bar",
-              "items": [link(t, x) for t, x in NAV["legal"] if t not in ("Sitemap", "Cookie settings")]})
-json.dump(menus, open(ROOT / "docs/seo/proto_menus.json", "w"), ensure_ascii=False, indent=1)
-for m in menus:
-    n = sum(1 + sum(1 + len(c.get("items", [])) for c in i.get("items", [])) for i in m["items"])
-    print(m["handle"], n, "links")
+    menus = [{"handle": "sw-main", "title": "Swansura main menu", "items": items}]
+    for f in NAV["foot"]:
+        h = "sw-footer-" + f["h"].lower().replace(" ", "-")
+        menus.append({"handle": h, "title": "Swansura footer – " + f["h"], "items": [link(t, x) for t, x in f["links"]]})
+    menus.append({"handle": "sw-legal", "title": "Swansura legal bar",
+                  "items": [link(t, x) for t, x in NAV["legal"] if t not in ("Sitemap", "Cookie settings")]})
+    json.dump(menus, open(ROOT / "docs/seo/proto_menus.json", "w"), ensure_ascii=False, indent=1)
+    for m in menus:
+        n = sum(1 + sum(1 + len(c.get("items", [])) for c in i.get("items", [])) for i in m["items"])
+        print(m["handle"], n, "links")
+
+
+if __name__ == "__main__":
+    main()

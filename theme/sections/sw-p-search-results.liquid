@@ -1,0 +1,19 @@
+{%- comment -%}
+  Search overlay results (fetched by sw-proto.js with ?section_id=sw-p-search-results on /search):
+  result count and up to 12 product cards, as in the prototype's search layer.
+{%- endcomment -%}
+<div id="sw-qres">
+  {%- if search.performed -%}
+    {%- paginate search.results by 12 -%}
+      {%- if search.results_count > 0 -%}
+        <p style="color:var(--ink-2);margin-bottom:14px">{{ search.results_count }} result{% if search.results_count != 1 %}s{% endif %}{% if search.results_count > 12 %}, showing 12 · <a href="{{ routes.search_url }}?q={{ search.terms | url_encode }}&amp;type=product" style="text-decoration:underline" data-close>see all</a>{% endif %}</p>
+        <div class="grid-p">{%- for item in search.results -%}{%- if item.object_type == 'product' -%}{% render 'sw-p-card', product: item %}{%- endif -%}{%- endfor -%}</div>
+      {%- else -%}
+        <p style="color:var(--ink-2)">No matches. Try a brand or an ingredient.</p>
+      {%- endif -%}
+    {%- endpaginate -%}
+  {%- endif -%}
+</div>
+{% schema %}
+{ "name": "Swansura search results", "settings": [] }
+{% endschema %}

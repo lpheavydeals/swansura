@@ -1,33 +1,25 @@
 {%- comment -%}
-  Swansura announcement bar: all messages side by side on wide screens; one at a time,
-  changing every second, up to 1320px (messages rotate in swansura.js).
+  Announcement bar, prototype markup (aside.announce): all messages side by side on wide screens; one at a time,
+  changing every second, up to 1320px (rotation in sw-proto.js). Bold text shows in gold.
+  Also loads the older Swansura design system (swansura.css / .js) for sections not yet on the prototype markup.
 {%- endcomment -%}
-{%- comment -%} The announcement section is in the header group on every page, so it also loads the Swansura design system. {%- endcomment -%}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap">
 {{ 'swansura.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'swansura.js' | asset_url }}" defer="defer"></script>
-<aside class="sw-announce" aria-label="{{ 'sections.announcement_bar.announcement' | t | default: 'Announcements' }}" data-sw-rotate="{{ section.settings.speed | times: 1000 }}">
-  <div class="sw-announce__in page-width">
-    {%- for block in section.blocks -%}
-      <div class="sw-announce__msg{% if forloop.first %} is-on{% endif %}" {{ block.shopify_attributes }}>
-        {%- if block.settings.link != blank -%}
-          <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
-        {%- else -%}
-          <span>{{ block.settings.text }}</span>
-        {%- endif -%}
-      </div>
-    {%- endfor -%}
-  </div>
-</aside>
+<div class="swp"><aside class="announce" aria-label="Offers"><div class="wrap">
+  {%- for block in section.blocks -%}
+    {%- assign txt = block.settings.text | replace: '<strong>', '<b>' | replace: '</strong>', '</b>' -%}
+    {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}" {{ block.shopify_attributes }}>{{ txt }}</a>
+    {%- else -%}<span {{ block.shopify_attributes }}>{{ txt }}</span>{%- endif -%}
+  {%- endfor -%}
+</div></aside></div>
 
 {% schema %}
 {
   "name": "Swansura announcement",
   "class": "sw-announce-section",
-  "settings": [
-    { "type": "range", "id": "speed", "label": "Seconds per message on phones and tablets", "min": 1, "max": 6, "step": 1, "default": 1 }
-  ],
+  "settings": [],
   "blocks": [
     {
       "type": "message",

@@ -1,0 +1,62 @@
+{%- comment -%}
+  Homepage hero, prototype markup (section.hero): eyebrow H1, display line, lede, two buttons, four facts,
+  and the stage: arch slider (skincare) + floating card (fragrance) that slide together every second
+  (sw-proto.js). One block per skin + scent pair; labels are short names shown on the slides.
+{%- endcomment -%}
+{%- liquid
+  assign n = section.blocks.size
+-%}
+<div class="swp app"><section class="hero"><div class="wrap">
+    <div class="copy">
+      <h1 class="eyebrow rise">{{ section.settings.eyebrow | escape }}</h1>
+      <p class="htitle rise" style="animation-delay:.08s">{{ section.settings.title }}</p>
+      <p class="lede rise" style="animation-delay:.16s">{{ section.settings.lede | escape }}</p>
+      <div class="ctas rise" style="animation-delay:.24s"><a class="btn gold" href="{{ section.settings.btn1_url }}">{{ section.settings.btn1 | escape }} <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4"></path></svg></a><a class="btn p-light" href="{{ section.settings.btn2_url }}">{{ section.settings.btn2 | escape }}</a></div>
+      <div class="facts rise" style="animation-delay:.32s"><div><b>{{ collections.all.products_count }}</b><span>Products</span></div><div><b>{{ section.settings.brands_count }}</b><span>Brands</span></div><div><b>100%</b><span>Authentic</span></div><div><b>£{{ section.settings.delivery_min }}</b><span>Free UK delivery</span></div></div>
+    </div>
+    <div class="stage rise" style="animation-delay:.2s">
+      <span class="ring" aria-hidden="true"></span>
+      <div class="arch" aria-roledescription="carousel" aria-label="Featured skincare"><div class="track">
+        {%- for block in section.blocks -%}{%- assign p = block.settings.skin -%}{%- if p != blank -%}
+          <a class="slide" href="{{ p.url }}" aria-label="{{ forloop.index }} of {{ n }}: {{ block.settings.skin_label | escape }}"{% unless forloop.first %} tabindex="-1" aria-hidden="true"{% endunless %} {{ block.shopify_attributes }}>
+            {%- assign lz = 'lazy' -%}{%- assign fp = 'auto' -%}{%- if forloop.first -%}{%- assign lz = 'eager' -%}{%- assign fp = 'high' -%}{%- endif -%}
+            {{ p.featured_media.preview_image | image_url: width: 1000 | image_tag: class: 'pic', widths: '400,600,800,1000', sizes: '(min-width: 900px) 420px, 70vw', loading: lz, fetchpriority: fp, alt: p.featured_media.alt | default: p.title }}
+            <span class="tag">{{ block.settings.skin_label | escape }} <i>{{ p.price | money }}</i></span></a>
+        {%- endif -%}{%- endfor -%}
+      </div></div>
+      <div class="float" aria-label="Featured fragrance"><div class="track">
+        {%- for block in section.blocks -%}{%- assign p = block.settings.scent -%}{%- if p != blank -%}
+          <a class="slide" href="{{ p.url }}"{% unless forloop.first %} tabindex="-1" aria-hidden="true"{% endunless %}>
+            {{ p.featured_media.preview_image | image_url: width: 500 | image_tag: class: 'pic', widths: '250,400,500', sizes: '200px', loading: 'lazy', alt: p.featured_media.alt | default: p.title }}
+            <small>{{ p.vendor | escape }}</small><span>{{ block.settings.scent_label | escape }}</span><b>{{ p.price | money }}</b></a>
+        {%- endif -%}{%- endfor -%}
+      </div></div>
+    </div>
+  </div></section></div>
+
+{% schema %}
+{
+  "name": "Swansura hero",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow (page H1)", "default": "Natural skincare UK · Niche perfume" },
+    { "type": "inline_richtext", "id": "title", "label": "Display line", "default": "Rituals for the <b>skin</b>, <em>signatures</em> for the <b>senses</b>." },
+    { "type": "textarea", "id": "lede", "label": "Sub-headline" },
+    { "type": "text", "id": "btn1", "label": "Gold button", "default": "Shop skincare" },
+    { "type": "url", "id": "btn1_url", "label": "Gold button link" },
+    { "type": "text", "id": "btn2", "label": "Outline button", "default": "Discover fragrance" },
+    { "type": "url", "id": "btn2_url", "label": "Outline button link" },
+    { "type": "number", "id": "brands_count", "label": "Brands (fact)", "default": 66 },
+    { "type": "number", "id": "delivery_min", "label": "Free UK delivery from (£)", "default": 40 }
+  ],
+  "blocks": [
+    { "type": "pair", "name": "Skin + scent pair", "settings": [
+      { "type": "product", "id": "skin", "label": "Skincare (arch)" },
+      { "type": "text", "id": "skin_label", "label": "Skincare label" },
+      { "type": "product", "id": "scent", "label": "Fragrance (card)" },
+      { "type": "text", "id": "scent_label", "label": "Fragrance label" }
+    ] }
+  ],
+  "max_blocks": 8,
+  "presets": [{ "name": "Swansura hero" }]
+}
+{% endschema %}

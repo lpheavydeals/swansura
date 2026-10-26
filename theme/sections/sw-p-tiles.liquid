@@ -1,0 +1,100 @@
+{%- comment -%}
+  Linked tile rows from the prototype homepage, one section with a layout setting (exact prototype markup each):
+    catrow    Shop by category      (a.cat: tinted square photo + label)
+    bands     Shop by price         (a.band: photo, name, line, count)
+    steps     Four steps, one ritual (a.step: tinted card, step no., name, line, photo, link text)
+    ingcards  Ranges loved by you   (a.ingcard: name, line, tinted photo)
+    concerns  Shop by concern       (a.concern: name, line, count, round photo)
+    families  Find your signature scent (a.family on the oud band: name, line, count)
+    brands    Shop by brand         (a.bcard: tinted card, name, line, count, photo; + 'more' links)
+  Block: collection (link + live count) or link, title, line, product (photo). Tints cycle 1–6.
+{%- endcomment -%}
+{%- liquid
+  assign L = section.settings.layout
+  assign sec_class = ''
+  case L
+    when 'catrow'
+      assign sec_class = 'catrow-sec'
+    when 'families'
+      assign sec_class = 'scent-band'
+  endcase
+  assign wrap_class = L | append: ' rail'
+  case L
+    when 'catrow'
+      assign wrap_class = 'catrow rail'
+    when 'concerns'
+      assign wrap_class = 'concerns'
+    when 'brands'
+      assign wrap_class = 'brandcards'
+  endcase
+-%}
+<div class="swp app"><section{% if sec_class != '' %} class="{{ sec_class }}"{% endif %}><div class="wrap">
+    <div class="sec-head"><div><h2>{{ section.settings.heading | escape }}</h2></div>{%- if section.settings.link_label != blank -%}<a class="p-link" href="{{ section.settings.link_url }}">{{ section.settings.link_label | escape }}</a>{%- endif -%}</div>
+    <div class="{{ wrap_class }}">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign c = block.settings.collection
+          assign url = block.settings.url | default: c.url
+          assign count = c.products_count
+          assign tint = forloop.index0 | modulo: 6 | plus: 1
+          assign p = block.settings.product
+          capture img
+            if p != blank
+              assign im = p.featured_media.preview_image
+              echo im | image_url: width: 600 | image_tag: class: 'pic', widths: '200,300,450,600', sizes: '(min-width: 900px) 260px, 45vw', loading: 'lazy', alt: im.alt
+            else
+              echo '<div class="pic"></div>'
+            endif
+          endcapture
+          assign t = block.settings.title | escape
+          assign s = block.settings.line | escape
+        -%}
+        {%- case L -%}
+          {%- when 'catrow' -%}<a class="cat" href="{{ url }}" {{ block.shopify_attributes }}><span class="ci" style="background:var(--tint-{{ tint }})">{{ img }}</span><span>{{ t }}</span></a>
+          {%- when 'bands' -%}<a class="band" href="{{ url }}" {{ block.shopify_attributes }}>{{ img }}<div><span class="n">{{ t }}</span><small>{{ s }}</small><span class="c">{{ count }} products →</span></div></a>
+          {%- when 'steps' -%}<a class="step" href="{{ url }}" style="background:var(--tint-{{ tint }})" {{ block.shopify_attributes }}><span class="eyebrow">Step {{ forloop.index }}</span><b>{{ t }}</b><small>{{ s }}</small><span class="si">{{ img }}</span><span class="go">{{ block.settings.go | escape }} →</span></a>
+          {%- when 'ingcards' -%}<a class="ingcard" href="{{ url }}" {{ block.shopify_attributes }}><b>{{ t }}</b><small>{{ s }}</small><span class="ii" style="background:var(--tint-{{ tint }})">{{ img }}</span></a>
+          {%- when 'concerns' -%}<a class="concern" href="{{ url }}" {{ block.shopify_attributes }}><div><b>{{ t }}</b><small>{{ s }}</small><em>{{ count }} products <span aria-hidden="true">→</span></em></div><span class="cimg" style="background:var(--tint-{{ tint }})">{{ img }}</span></a>
+          {%- when 'families' -%}<a class="family" href="{{ url }}" {{ block.shopify_attributes }}><span class="n">{{ t }}</span><p>{{ s }}</p><span class="c">{{ count }} scents →</span></a>
+          {%- when 'brands' -%}<a class="bcard" href="{{ url }}" style="background:var(--tint-{{ tint }})" {{ block.shopify_attributes }}><div><span class="bn">{{ t }}</span><small class="{% if block.settings.partner %}p{% endif %}">{{ s }}</small><span class="c">{{ count }} products →</span></div><span class="bi">{{ img }}</span></a>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+    {%- if section.settings.chips != blank -%}
+      <div class="kwchips"><span class="eyebrow">{{ section.settings.chips_label | escape }}</span><div>{%- assign lines = section.settings.chips | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></div>
+    {%- endif -%}
+    {%- if L == 'brands' and section.settings.more_links != blank -%}
+      <div class="brandmore">{%- assign lines = section.settings.more_links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}"{% if parts[0] contains 'A–Z' %} class="all"{% endif %}>{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div>
+    {%- endif -%}
+  </div></section></div>
+
+{% schema %}
+{
+  "name": "Swansura tiles",
+  "settings": [
+    { "type": "select", "id": "layout", "label": "Layout", "default": "catrow", "options": [
+      { "value": "catrow", "label": "Category row" }, { "value": "bands", "label": "Price bands" },
+      { "value": "steps", "label": "Routine steps" }, { "value": "ingcards", "label": "Ranges" },
+      { "value": "concerns", "label": "Concerns" }, { "value": "families", "label": "Scent families" },
+      { "value": "brands", "label": "Brand cards" } ] },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "text", "id": "link_label", "label": "Header link" },
+    { "type": "url", "id": "link_url", "label": "Header link URL" },
+    { "type": "text", "id": "chips_label", "label": "Keyword pills: label", "default": "Most searched" },
+    { "type": "textarea", "id": "chips", "label": "Keyword pills under the tiles", "info": "One per line: Label|/collections/handle" },
+    { "type": "textarea", "id": "more_links", "label": "Brand cards: more brands", "info": "One per line: Name|/collections/handle" }
+  ],
+  "blocks": [
+    { "type": "tile", "name": "Tile", "settings": [
+      { "type": "collection", "id": "collection", "label": "Collection (link and count)" },
+      { "type": "url", "id": "url", "label": "Link (overrides the collection)" },
+      { "type": "text", "id": "title", "label": "Title" },
+      { "type": "text", "id": "line", "label": "Line" },
+      { "type": "product", "id": "product", "label": "Photo from product" },
+      { "type": "text", "id": "go", "label": "Steps: link text" },
+      { "type": "checkbox", "id": "partner", "label": "Brand cards: partner line in emerald", "default": false }
+    ] }
+  ],
+  "presets": [{ "name": "Swansura tiles" }]
+}
+{% endschema %}

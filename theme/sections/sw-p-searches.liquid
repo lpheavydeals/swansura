@@ -1,0 +1,16 @@
+{%- comment -%} Popular searches, prototype markup (div.searches > details): one block per group of links. {%- endcomment -%}
+<div class="swp app"><section id="popular" style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
+    <div class="sec-head"><div><h2>{{ section.settings.heading | escape }}</h2></div></div>
+    <div class="searches">{%- for block in section.blocks -%}<details open {{ block.shopify_attributes }}><summary><h3>{{ block.settings.title | escape }}</h3></summary><div>{%- assign lines = block.settings.links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></details>{%- endfor -%}</div>
+  </div></section></div>
+{% schema %}
+{
+  "name": "Swansura popular searches",
+  "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "Popular searches" } ],
+  "blocks": [ { "type": "group", "name": "Group", "settings": [
+    { "type": "text", "id": "title", "label": "Title" },
+    { "type": "textarea", "id": "links", "label": "Links", "info": "One per line: Label|/collections/handle" }
+  ] } ],
+  "presets": [{ "name": "Swansura popular searches" }]
+}
+{% endschema %}

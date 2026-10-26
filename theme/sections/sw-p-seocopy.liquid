@@ -1,0 +1,26 @@
+{%- comment -%}
+  'About this page' copy, prototype markup (section.seocopy). On collections it reads custom.seo_heading /
+  custom.seo_copy; elsewhere the section settings. Hidden when empty.
+{%- endcomment -%}
+{%- liquid
+  assign h = section.settings.heading
+  assign body = section.settings.text
+  if collection and collection.metafields.custom.seo_copy != blank
+    assign h = collection.metafields.custom.seo_heading.value | default: h
+    assign body = collection.metafields.custom.seo_copy.value
+  endif
+-%}
+{%- if body != blank -%}
+<div class="swp app"><section class="seocopy" aria-labelledby="seo-h-{{ section.id }}"><div class="wrap"><div><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h2 id="seo-h-{{ section.id }}">{{ h | escape }}</h2></div><div class="txt">{{ body }}</div></div></section></div>
+{%- endif -%}
+{% schema %}
+{
+  "name": "Swansura about this page",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "About this page" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "text", "label": "Text" }
+  ],
+  "presets": [{ "name": "Swansura about this page" }]
+}
+{% endschema %}

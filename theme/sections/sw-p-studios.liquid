@@ -1,0 +1,30 @@
+{%- comment -%}
+  The Skin Studio / The Scent Studio panels, prototype markup (section.studios). Text may use [skin] and
+  [fragrance]: live product counts (fragrance = the fragrance collection, skin = all products minus fragrance).
+{%- endcomment -%}
+{%- liquid
+  assign frag = collections[section.settings.fragrance_collection].products_count | default: 0
+  assign skin = collections.all.products_count | minus: frag
+-%}
+<div class="swp app"><section class="studios"><div class="p-grid">
+  {%- for block in section.blocks -%}
+    <div class="studio {{ block.settings.kind }}" {{ block.shopify_attributes }}><span class="mark">{{ block.settings.mark | escape }}</span><h2>{{ block.settings.heading | escape }}</h2><p>{{ block.settings.text | replace: '[skin]', skin | replace: '[fragrance]', frag | escape }}</p><div class="links">{%- assign lines = block.settings.links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></div>
+  {%- endfor -%}
+</div></section></div>
+{% schema %}
+{
+  "name": "Swansura studios",
+  "settings": [ { "type": "collection", "id": "fragrance_collection", "label": "Fragrance collection (counts)" } ],
+  "blocks": [
+    { "type": "studio", "name": "Studio", "settings": [
+      { "type": "select", "id": "kind", "label": "Colour", "default": "skin", "options": [ { "value": "skin", "label": "Emerald (skin)" }, { "value": "scent", "label": "Oud (scent)" } ] },
+      { "type": "text", "id": "mark", "label": "Background word" },
+      { "type": "text", "id": "heading", "label": "Heading" },
+      { "type": "textarea", "id": "text", "label": "Text", "info": "[skin] and [fragrance] show live product counts" },
+      { "type": "textarea", "id": "links", "label": "Links", "info": "One per line: Label|/collections/handle" }
+    ] }
+  ],
+  "max_blocks": 2,
+  "presets": [{ "name": "Swansura studios" }]
+}
+{% endschema %}

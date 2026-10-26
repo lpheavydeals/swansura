@@ -1,0 +1,27 @@
+{%- comment -%}
+  Iconic bestsellers, prototype markup: section head, two tabs (skincare & body / fragrance), product grid of
+  prototype cards. The second tab's grid waits in a <template> (swapped in by sw-proto.js, as in the prototype).
+{%- endcomment -%}
+<div class="swp app"><section><div class="wrap">
+    <div class="sec-head"><div><h2>{{ section.settings.heading | escape }}</h2></div>{%- if section.settings.link_label != blank -%}<a class="p-link" href="{{ section.settings.link_url }}">{{ section.settings.link_label | escape }}</a>{%- endif -%}</div>
+    <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="skin">{{ section.settings.tab1 | escape }}</button><button role="tab" aria-selected="false" data-tab="scent">{{ section.settings.tab2 | escape }}</button></div>
+    {%- capture g1 -%}<div class="grid-p">{%- for p in section.settings.products1 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div>{%- endcapture -%}
+    <div id="bestGrid" class="best">{{ g1 }}</div>
+    <template id="best-skin">{{ g1 }}</template>
+    <template id="best-scent"><div class="grid-p">{%- for p in section.settings.products2 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div></template>
+  </div></section></div>
+{% schema %}
+{
+  "name": "Swansura bestsellers",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Iconic bestsellers" },
+    { "type": "text", "id": "link_label", "label": "Header link", "default": "View all" },
+    { "type": "url", "id": "link_url", "label": "Header link URL" },
+    { "type": "text", "id": "tab1", "label": "Tab 1", "default": "Skincare & body" },
+    { "type": "product_list", "id": "products1", "label": "Tab 1 products", "limit": 12 },
+    { "type": "text", "id": "tab2", "label": "Tab 2", "default": "Fragrance" },
+    { "type": "product_list", "id": "products2", "label": "Tab 2 products", "limit": 12 }
+  ],
+  "presets": [{ "name": "Swansura bestsellers" }]
+}
+{% endschema %}

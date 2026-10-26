@@ -1,0 +1,49 @@
+{%- comment -%}
+  Names of the store's enabled payment types, prototype order first (Visa, Mastercard, Amex, Maestro, PayPal,
+  Apple Pay, Google Pay, Shop Pay), then any others. Outputs names joined by '|'.
+{%- endcomment -%}
+{%- liquid
+  assign order = 'visa,master,american_express,maestro,paypal,apple_pay,google_pay,shopify_pay' | split: ','
+  assign types = shop.enabled_payment_types
+  assign out = ''
+  for t in order
+    if types contains t
+      assign out = out | append: t | append: ','
+    endif
+  endfor
+  for t in types
+    unless order contains t
+      assign out = out | append: t | append: ','
+    endunless
+  endfor
+  assign list = out | split: ','
+  assign names = ''
+  for type in list
+    case type
+      when 'visa'
+        assign n = 'Visa'
+      when 'master'
+        assign n = 'Mastercard'
+      when 'american_express'
+        assign n = 'Amex'
+      when 'maestro'
+        assign n = 'Maestro'
+      when 'paypal'
+        assign n = 'PayPal'
+      when 'apple_pay'
+        assign n = 'Apple Pay'
+      when 'google_pay'
+        assign n = 'Google Pay'
+      when 'shopify_pay'
+        assign n = 'Shop Pay'
+      when 'diners_club'
+        assign n = 'Diners Club'
+      when 'unionpay'
+        assign n = 'UnionPay'
+      else
+        assign n = type | replace: '_', ' ' | capitalize
+    endcase
+    assign names = names | append: n | append: '|'
+  endfor
+  echo names
+-%}

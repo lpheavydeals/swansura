@@ -1,0 +1,83 @@
+{%- comment -%}
+  Product card, markup of card() in prototype/index.html (classes renamed p-card / p-media / p-badge / p-price,
+  see tools/theme/build_proto_css.py). Use inside a .swp wrapper.
+  - name: title before ' – ' / ' | ', without the leading brand (cleanTitle)
+  - tag: first size in the title ('100 ml', '5.5 g'), else scent family (fragrance) or product type (custom.sw)
+  - badge: sold out > save % > Studio pick (custom.sw.k) > Official partner (Deyga / Vilvah)
+  - Add puts the first available variant in the bag (sw-proto.js); sold out links to the product
+  Usage: {% render 'sw-p-card', product: product %}
+{%- endcomment -%}
+{%- liquid
+  assign sw = product.metafields.custom.sw.value
+  assign full = product.title | split: ' – ' | first | split: ' | ' | first | strip
+  assign vl = product.vendor | downcase | strip
+
+  comment
+    size tag: the first number followed by ml, gm, g, kg or l in the title, as in the prototype
+  endcomment
+  assign size = ''
+  assign words = full | downcase | replace: '(', ' ' | replace: ')', ' ' | replace: '+', ' ' | replace: ',', ' ' | split: ' '
+  assign prev = ''
+  assign units = 'ml,gm,kg,g,l' | split: ','
+  for w in words
+    for u in units
+      assign base = ''
+      if w == u and prev != ''
+        assign base = prev
+      else
+        assign n = u.size | times: -1
+        assign tail = w | slice: n, u.size
+        if tail == u and w.size > u.size
+          assign keep = w.size | minus: u.size
+          assign base = w | slice: 0, keep
+        endif
+      endif
+      if base != ''
+        assign digits = base | remove: '.' | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
+        assign first_ch = base | slice: 0
+        if digits == '' and first_ch != '.'
+          assign unit = u
+          if u == 'gm'
+            assign unit = 'g'
+          endif
+          assign size = base | append: ' ' | append: unit
+          break
+        endif
+      endif
+    endfor
+    if size != ''
+      break
+    endif
+    assign prev = w
+  endfor
+  if size == ''
+    if sw.f != blank
+      assign size = sw.f | capitalize
+    elsif sw.t != blank and sw.t != 'More'
+      assign size = sw.t
+    endif
+  endif
+
+  assign partner = false
+  if vl == 'deyga' or vl contains 'vilvah'
+    assign partner = true
+  endif
+  assign v = product.selected_or_first_available_variant
+  assign img0 = product.featured_media.preview_image
+  assign img1 = product.media[1].preview_image
+-%}
+{%- capture t -%}{% render 'sw-p-name', product: product %}{%- endcapture -%}
+{%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
+<article class="p-card"><div class="mwrap"><a href="{{ product.url }}" class="p-media" aria-label="{{ t | escape }}">
+  {%- if img0 -%}{{ img0 | image_url: width: 900 | image_tag: class: 'pic', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: img0.alt | default: product.title }}{%- else -%}<div class="pic"></div>{%- endif -%}
+  {%- if img1 -%}{{ img1 | image_url: width: 900 | image_tag: class: 'pic alt', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: img1.alt | default: product.title }}{%- endif -%}
+  {%- if product.available == false -%}<span class="p-badge out">Sold out</span>
+  {%- elsif product.compare_at_price > product.price -%}{%- assign pct = product.price | times: 100.0 | divided_by: product.compare_at_price | round -%}<span class="p-badge" style="color:var(--sale)">Save {{ 100 | minus: pct }}%</span>
+  {%- elsif sw.k -%}<span class="p-badge pick">Studio pick</span>
+  {%- elsif partner -%}<span class="p-badge partner">Official partner</span>
+  {%- endif -%}
+</a><button class="heart" data-wish="{{ product.handle }}" aria-pressed="false" aria-label="Save to wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"></path></svg></button></div>
+<div class="cbody"><div class="crow"><a href="{{ brand_url }}" class="brand">{{ product.vendor | escape }}</a>{%- if size != '' -%}<span class="size">{{ size | escape }}</span>{%- endif -%}</div><a href="{{ product.url }}" class="name" title="{{ t | escape }}">{{ t | escape }}</a><div class="cfoot"><div class="p-price">{{ product.price | money }}{%- if product.compare_at_price > product.price %} <s>{{ product.compare_at_price | money }}</s>{%- endif -%}</div>
+  {%- if product.available -%}<button class="add" data-add="{{ v.id }}" aria-label="Add {{ t | escape }} to bag"><span>Add</span></button>
+  {%- else -%}<a class="add soon" href="{{ product.url }}"><span>Notify</span></a>{%- endif -%}
+</div></div></article>

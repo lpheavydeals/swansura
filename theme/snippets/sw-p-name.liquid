@@ -1,0 +1,29 @@
+{%- comment -%}
+  Short product name, like cleanTitle() in the prototype: the title before ' – ' / ' | ', without the leading
+  brand ("Deyga's …", "Vilvah Store …", "Signature …"). Usage: {%- capture n -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}
+{%- endcomment -%}
+{%- liquid
+  assign t = product.title | split: ' – ' | first | split: ' | ' | first | strip
+  assign vl = product.vendor | downcase | strip
+  assign tl = t | downcase
+  assign cands = vl | append: ' '
+  if vl == 'deyga'
+    assign cands = "deyga's |deyga’s |deygas |deyga "
+  elsif vl contains 'vilvah'
+    assign cands = 'vilvah store |vilvah '
+  elsif vl contains 'signature'
+    assign cands = 'signature |' | append: vl | append: ' '
+  endif
+  assign cands = cands | split: '|'
+  for c in cands
+    assign head = tl | slice: 0, c.size
+    if head == c
+      assign t = t | slice: c.size, 300 | strip
+      break
+    endif
+  endfor
+  if t == blank
+    assign t = product.title
+  endif
+  echo t
+-%}

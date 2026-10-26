@@ -22,14 +22,14 @@ def lst(v):
 
 
 out = []
-for j in X["journal"]:
+for n, j in enumerate(X["journal"]):
     body = re.sub(r'href="#([^"]+)"', lambda m: f'href="{url(m.group(1))}"', j["body"])
     shop = [i for i in lst(j["shop"]) if i in BY]
     hero = BY[shop[0]]
     out.append({
         "title": j["t"], "handle": j["s"], "author": {"name": "Swansura"}, "body": body,
         "summary": f"<p>{j['d']}</p>", "tags": [j["tag"]], "isPublished": True,
-        "publishDate": j["date"] + "T09:00:00Z",
+        "publishDate": j["date"] + f"T09:0{len(X['journal']) - 1 - n}:00Z",  # newest first = prototype order
         "image": {"url": hero["i0"], "altText": j["t"]},
         "metafields": [
             {"namespace": "global", "key": "title_tag", "type": "single_line_text_field", "value": j["mt"]},

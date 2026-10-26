@@ -1,0 +1,280 @@
+{
+ "handle": "sw-drawer",
+ "title": "Swansura phone menu",
+ "items": [
+  {
+   "title": "Skincare",
+   "type": "HTTP",
+   "url": "/collections/skincare",
+   "items": [
+    {
+     "title": "By concern",
+     "type": "HTTP",
+     "url": "/collections/skincare",
+     "items": [
+      {
+       "title": "Acne & oil control",
+       "type": "HTTP",
+       "url": "/collections/concern-acne"
+      },
+      {
+       "title": "Glow & even tone",
+       "type": "HTTP",
+       "url": "/collections/concern-glow"
+      },
+      {
+       "title": "Deep hydration",
+       "type": "HTTP",
+       "url": "/collections/concern-hydration"
+      },
+      {
+       "title": "Lip care",
+       "type": "HTTP",
+       "url": "/collections/concern-lips"
+      },
+      {
+       "title": "Sun care",
+       "type": "HTTP",
+       "url": "/collections/concern-sun"
+      }
+     ]
+    },
+    {
+     "title": "Most searched",
+     "type": "HTTP",
+     "url": "/collections/skincare",
+     "items": [
+      {
+       "title": "Moisturiser for dry skin",
+       "type": "HTTP",
+       "url": "/collections/moisturiser-for-dry-skin"
+      },
+      {
+       "title": "Face wash for oily skin",
+       "type": "HTTP",
+       "url": "/collections/face-wash-for-oily-skin"
+      },
+      {
+       "title": "Face wash for dry skin",
+       "type": "HTTP",
+       "url": "/collections/face-wash-for-dry-skin"
+      },
+      {
+       "title": "Natural sunscreen",
+       "type": "HTTP",
+       "url": "/collections/natural-sunscreen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Haircare",
+   "type": "HTTP",
+   "url": "/collections/haircare",
+   "items": [
+    {
+     "title": "By concern",
+     "type": "HTTP",
+     "url": "/collections/haircare",
+     "items": [
+      {
+       "title": "Hair fall",
+       "type": "HTTP",
+       "url": "/collections/concern-hairfall"
+      },
+      {
+       "title": "Dandruff",
+       "type": "HTTP",
+       "url": "/collections/concern-dandruff"
+      }
+     ]
+    },
+    {
+     "title": "Most searched",
+     "type": "HTTP",
+     "url": "/collections/haircare",
+     "items": [
+      {
+       "title": "Hair oil for dry hair",
+       "type": "HTTP",
+       "url": "/collections/hair-oil-for-dry-hair"
+      },
+      {
+       "title": "Hair growth oil",
+       "type": "HTTP",
+       "url": "/collections/hair-growth-oil"
+      },
+      {
+       "title": "Shampoo for dandruff",
+       "type": "HTTP",
+       "url": "/collections/shampoo-for-dandruff"
+      },
+      {
+       "title": "Shampoo for hair loss",
+       "type": "HTTP",
+       "url": "/collections/shampoo-for-hair-loss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bath & Body",
+   "type": "HTTP",
+   "url": "/collections/bodycare"
+  },
+  {
+   "title": "Fragrance",
+   "type": "HTTP",
+   "url": "/collections/fragrance",
+   "items": [
+    {
+     "title": "Scent family",
+     "type": "HTTP",
+     "url": "/collections/fragrance",
+     "items": [
+      {
+       "title": "Oud",
+       "type": "HTTP",
+       "url": "/collections/scent-oud"
+      },
+      {
+       "title": "Amber",
+       "type": "HTTP",
+       "url": "/collections/scent-amber"
+      },
+      {
+       "title": "Floral",
+       "type": "HTTP",
+       "url": "/collections/scent-floral"
+      },
+      {
+       "title": "Woody",
+       "type": "HTTP",
+       "url": "/collections/scent-woody"
+      },
+      {
+       "title": "Fresh",
+       "type": "HTTP",
+       "url": "/collections/scent-fresh"
+      }
+     ]
+    },
+    {
+     "title": "Houses",
+     "type": "HTTP",
+     "url": "/collections/fragrance",
+     "items": [
+      {
+       "title": "anatomē",
+       "type": "HTTP",
+       "url": "/collections/anatome"
+      },
+      {
+       "title": "Tiziana Terenzi",
+       "type": "HTTP",
+       "url": "/collections/tiziana-terenzi"
+      },
+      {
+       "title": "Hemel",
+       "type": "HTTP",
+       "url": "/collections/hemel-h"
+      },
+      {
+       "title": "Fumeri",
+       "type": "HTTP",
+       "url": "/collections/fumeri"
+      },
+      {
+       "title": "Al Haramain",
+       "type": "HTTP",
+       "url": "/collections/al-haramain"
+      },
+      {
+       "title": "Signature D'orient",
+       "type": "HTTP",
+       "url": "/collections/signature-sillage-dorient"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Routines",
+   "type": "HTTP",
+   "url": "/collections/sets-combos"
+  },
+  {
+   "title": "Offers",
+   "type": "HTTP",
+   "url": "/pages/offers"
+  },
+  {
+   "title": "Gifts & Sets",
+   "type": "HTTP",
+   "url": "/collections/sets-combos",
+   "items": [
+    {
+     "title": "Christmas 2026",
+     "type": "HTTP",
+     "url": "/collections/sets-combos",
+     "items": [
+      {
+       "title": "Advent calendars",
+       "type": "HTTP",
+       "url": "/pages/advent"
+      },
+      {
+       "title": "Stocking fillers",
+       "type": "HTTP",
+       "url": "/collections/stocking-fillers"
+      }
+     ]
+    },
+    {
+     "title": "By recipient & price",
+     "type": "HTTP",
+     "url": "/collections/sets-combos",
+     "items": [
+      {
+       "title": "Gifts for her",
+       "type": "HTTP",
+       "url": "/collections/gifts-for-her"
+      },
+      {
+       "title": "Gifts for him",
+       "type": "HTTP",
+       "url": "/collections/gifts-for-him"
+      },
+      {
+       "title": "Gifts under £25",
+       "type": "HTTP",
+       "url": "/collections/gifts-under-25"
+      },
+      {
+       "title": "Gifts £25 to £50",
+       "type": "HTTP",
+       "url": "/collections/gifts-25-to-50"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Advent calendars",
+   "type": "HTTP",
+   "url": "/pages/advent"
+  },
+  {
+   "title": "Brands A–Z",
+   "type": "HTTP",
+   "url": "/collections"
+  },
+  {
+   "title": "Journal",
+   "type": "HTTP",
+   "url": "/blogs/journal"
+  }
+ ]
+}

@@ -90,7 +90,8 @@ sections = dict([
  ('newsletter', {'type': 'sw-newsletter', 'settings': {}}),
 ])
 order = ['hero', 'categories', 'studios', 'price', 'bestsellers', 'concerns', 'families', 'brands', 'story_deyga', 'story_vilvah', 'xmas', 'popular', 'seo', 'newsletter']
-json.dump({'sections': sections, 'order': order}, open('theme/templates/index.json', 'w'), ensure_ascii=False, separators=(',', ':'))
+# index.json is now built from the prototype by tools/theme/build_home_proto.py (26 Oct 2026, design port)
+# json.dump({'sections': sections, 'order': order}, open('theme/templates/index.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 
 # header group: Swansura announcement bar + Dawn header (kept for cart drawer / search / menus)
 hg_path = 'theme/sections/header-group.json'
