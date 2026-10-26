@@ -8,8 +8,8 @@
         "m1": {
           "type": "message",
           "settings": {
-            "text": "Save <strong>5%</strong> on routines &amp; bundles",
-            "link": "shopify://collections/sets-combos"
+            "text": "Routines: products chosen to <strong>work together</strong>",
+            "link": "shopify://pages/rituals"
           }
         },
         "m2": {

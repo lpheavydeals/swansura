@@ -266,6 +266,9 @@ raw = hg_path.read_text()
 hg = json.loads(raw[raw.index("{"):])
 ann = hg["sections"]["sw-announcement"]
 ann["settings"] = {}
+# The prototype's first message promised 5% off routines & bundles; no Shopify discount gives that yet (client, 26 Oct
+# 2026: replace it with a true message). Put the saving back here once the bundle discount is live.
+ann["blocks"]["m1"]["settings"] = {"text": "Routines: products chosen to <strong>work together</strong>", "link": "shopify://pages/rituals"}
 hg["sections"] = {"sw-announcement": ann, "sw-header": {"type": "sw-header", "settings": {
     "menu": "sw-main", "drawer_menu": "sw-drawer",
     "feat_skin_item": "Skincare", "feat_skin": handle_of("15415435067779"),
