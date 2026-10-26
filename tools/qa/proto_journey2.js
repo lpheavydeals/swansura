@@ -12,7 +12,8 @@ const KIT = '/products/vilvah-goat-milk-hair-kit';
     const ctx = await b.newContext({ viewport: { width: w, height: 900 } }); await curlRoute(ctx, theme); const p = await ctx.newPage();
     const errs = []; p.on('pageerror', e => errs.push(e.message));
     const SLOW = +(process.env.SLOW || 0); // ms pause before each page load, to stay under Shopify's rate limit
-    const go = async u => { if (SLOW) await p.waitForTimeout(SLOW); await p.goto('https://www.swansura.com' + u, { waitUntil: 'load', timeout: 60000 }); await p.addStyleTag({ content: '#preview-bar-iframe,#PBarNextFrameWrapper,#shopify-pc__banner{display:none!important}' }); await p.waitForTimeout(800); };
+    const go = async u => { if (SLOW) await p.waitForTimeout(SLOW); for (let t = 0; t < 6; t++) { const r = await p.goto('https://www.swansura.com' + u, { waitUntil: 'load', timeout: 60000 }); if (r && r.status() !== 429) break; console.error(`429 on ${u}, waiting 90 s`); await p.waitForTimeout(90000); } // Shopify's bot check clears after a minute or two
+    await p.addStyleTag({ content: '#preview-bar-iframe,#PBarNextFrameWrapper,#shopify-pc__banner{display:none!important}' }); await p.waitForTimeout(800); };
     const bagLines = async () => { await p.waitForSelector('#layer .bag', { timeout: 15000 }).catch(() => {}); return p.evaluate(() => [...document.querySelectorAll('#layer .bag .line')].map(l => l.querySelector('.qty span')?.textContent)); };
     const clear = async () => { await p.evaluate(() => fetch('/cart/clear.js', { method: 'POST' })); await p.evaluate(() => document.querySelector('#layer') && (document.querySelector('#layer').innerHTML = '')); };
     await go(`/?preview_theme_id=${theme}`); await clear();
