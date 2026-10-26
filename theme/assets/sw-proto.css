@@ -2281,6 +2281,24 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 /* search page: long page / article titles wrap inside their pills */
 .swp .srch-links a{white-space:normal;max-width:100%}
 .swp .srch-links>div{flex-wrap:wrap;overflow:visible}
+/* bag drawer (user, 26 Oct 2026): items, delivery bar, extras, trust and payment marks scroll together in
+   .bag-body; subtotal + checkout stay pinned in .foot, so the items and the checkout button are always visible */
+.swp .bag .bag-body{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:16px 24px 20px;display:flex;flex-direction:column;gap:18px}
+.swp .bag .bag-body .lines{flex:none;overflow:visible;padding:0}
+.swp .bag .line .pic{width:72px;height:90px;padding:6%;background:var(--mount);mix-blend-mode:multiply;border-radius:6px}
+.swp .bag .extras{gap:10px;scrollbar-width:thin}
+.swp .bag .extra{width:104px;max-width:104px;font-size:12px;line-height:1.35;gap:4px}
+.swp .bag .extra .pic{width:104px;height:104px;padding:8px;background:var(--mount);border-radius:6px}
+.swp .bag .extra span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.swp .bag .extra button{min-height:30px;padding:4px}
+.swp .bag .bag-body .bag-trust{flex-wrap:wrap;justify-content:flex-start;column-gap:14px;row-gap:6px}
+.swp .bag .bag-body .pays{justify-content:flex-start}
+.swp .bag .foot{flex:none;gap:10px;box-shadow:0 -8px 20px rgba(31,26,23,.06);background:var(--paper)}
+.swp .bag .bag-sub{display:flex;justify-content:space-between;font-size:16px}
+.swp .bag .bag-view{align-self:center;font-size:13px;min-height:24px;display:inline-flex;align-items:center}
+@media (max-height:620px){.swp .bag .bag-head{padding:12px 20px}.swp .bag .bag-note{display:none}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
+.swp #bagPage .bag .bag-body{overflow:visible}
+.swp #bagPage .bag .foot{box-shadow:none}

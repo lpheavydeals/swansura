@@ -58,15 +58,18 @@
     (page ? h => { page.innerHTML = h.replace(/^<div class="scrim" data-close><\/div>\s*/, '').replace('role="dialog" aria-modal="true"', 'role="region"'); } : openLayer)(`<div class="scrim" data-close></div>
   <div class="bag" role="dialog" aria-modal="true" aria-label="Your bag">
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
+    <div class="bag-body">
     <div class="lines">${lines}</div>
+    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>` : ''}
+    ${extras.length && cart.items.length ? `<div class="bag-extras"><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
+    <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
+    <span class="pays" aria-label="Payment methods">${(cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
+    </div>
     <div class="foot">
-      <div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>
-      ${extras.length ? `<div><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
-      ${discount}<div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><b>${money(cart.total_price)}</b></div>
+      ${discount}<div class="bag-sub"><span>Subtotal${cart.item_count ? ` (${cart.item_count} item${cart.item_count === 1 ? '' : 's'})` : ''}</span><b>${money(cart.total_price)}</b></div>
       <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
       <a class="btn solid" id="checkoutBtn" href="/checkout"${cart.items.length ? '' : ' aria-disabled="true" style="pointer-events:none;opacity:.5"'}>Checkout securely</a>
-      <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
-      <span class="pays" aria-label="Payment methods">${(cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
+      ${page ? '' : `<a class="p-link bag-view" href="/cart">View bag</a>`}
     </div>
   </div>`);
   }
@@ -112,7 +115,7 @@
     if (t.dataset.bq) { const [key, q] = t.dataset.bq.split('|'); await change(key, Math.max(0, +q)); await openBag(); return; }
     if ('close' in t.dataset) { if (t.tagName !== 'A') e.preventDefault(); closeLayer(); return; }
     if (t.dataset.tab) { $$('.tabs [data-tab]').forEach(b => b.setAttribute('aria-selected', b === t)); const g = $('#bestGrid'), src = $('#best-' + t.dataset.tab); if (g && src) { g.innerHTML = src.innerHTML; syncHearts(); } return; }
-    if (t.id === 'openBag') { e.preventDefault(); openBag(); return; }
+    if (t.id === 'openBag') return; // the bag icon opens the bag page (/cart); the drawer only opens after adding
     if (t.id === 'openSearch') { e.preventDefault(); openSearch(); return; }
     if (t.id === 'burger') { const tp = $('#sw-drawer-tpl'); if (tp) openLayer(tp.innerHTML); return; }
     if (t.id === 'drawerSearch') { closeLayer(); openSearch(); }
