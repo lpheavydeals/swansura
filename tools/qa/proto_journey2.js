@@ -17,7 +17,7 @@ const KIT = '/products/vilvah-goat-milk-hair-kit';
     await p.addStyleTag({ content: '#preview-bar-iframe,#PBarNextFrameWrapper,#shopify-pc__banner,#shopify-pc__banner__dialog{display:none!important}' }); await p.waitForTimeout(800); };
     const bagLines = async () => { await p.waitForSelector('#layer .bag', { timeout: 15000 }).catch(() => {}); return p.evaluate(() => [...document.querySelectorAll('#layer .bag .line')].map(l => l.querySelector('.qty span')?.textContent)); };
     const clear = async () => { await p.evaluate(() => fetch('/cart/clear.js', { method: 'POST' })); await p.evaluate(() => document.querySelector('#layer') && (document.querySelector('#layer').innerHTML = '')); };
-    await go(`/?preview_theme_id=${theme}`); await clear();
+    await go(`/cart?preview_theme_id=${theme}`); await clear(); // the light bag page, not the homepage: the desktop homepage alone trips the bot limit
     // product page
     await go(PDP);
     const p0 = await p.textContent('#pdpPrice');
