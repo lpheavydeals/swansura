@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17610455258df1ae82": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_product_wEAKKE": {
+      "type": "featured-product",
+      "blocks": {
+        "text_PqJJHX": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_UHJCef": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_TCiqgg": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_pwcbqU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_HHzVXN": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_i7fnPB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_PGQUCr": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_PqJJHX",
+        "title_UHJCef",
+        "price_TCiqgg",
+        "variant_picker_pwcbqU",
+        "quantity_selector_HHzVXN",
+        "buy_buttons_i7fnPB",
+        "share_PGQUCr"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "24k-gold-hydrating-face-mask",
+        "color_scheme": "scheme-4",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_yEhGfb": {
+      "type": "featured-product",
+      "blocks": {
+        "text_V3BjAr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_7mVdaB": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_AKHh4T": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_6hMVWp": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_QYnfDB": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Dq33f3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_TE6Jy7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_V3BjAr",
+        "title_7mVdaB",
+        "price_AKHh4T",
+        "variant_picker_6hMVWp",
+        "quantity_selector_QYnfDB",
+        "buy_buttons_Dq33f3",
+        "share_TE6Jy7"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "caviar-serum-with-24k-gold",
+        "color_scheme": "scheme-4",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "176710973374464411": {
+      "type": "_blocks",
+      "settings": {}
+    }
+  },
+  "order": [
+    "17610455258df1ae82",
+    "main",
+    "featured_product_wEAKKE",
+    "featured_product_yEhGfb",
+    "176710973374464411"
+  ]
+}

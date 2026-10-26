@@ -1,0 +1,695 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_qTrgGT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_UpVFmb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Swansura_Hero_Banner_1920x950_54895b90-6c3e-45c2-a919-900828215931.png",
+            "mobile_image": "shopify://shop_images/Luxury_Perfume_Collection_in_Gold_and_Crimson.png",
+            "image_overlay_opacity": 0,
+            "heading": "DISCOVER YOUR SIGNATURE STYLE",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "SHOP FRAGRANCES",
+            "link": "shopify://collections/fragrance",
+            "button_style_secondary": true,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "slide_wtdF7p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Rice_Milk_Radiance_Skincare_Ad.png",
+            "mobile_image": "shopify://shop_images/Rice_Milk_Skincare_Glow_1.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_NqGWTw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Beetroot_Tint_Lip_Balm_Advertisement.png",
+            "mobile_image": "shopify://shop_images/Beetroot_Bliss_Lip_Balm_Ad.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/milk-drop-brightening-serum-1",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-right",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e"
+          }
+        },
+        "slide_VXYje4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Natural_Skincare_with_Milk_and_Oats.png",
+            "mobile_image": "shopify://shop_images/Pure_Care_From_Nature_s_Goodness.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UpVFmb",
+        "slide_wtdF7p",
+        "slide_NqGWTw",
+        "slide_VXYje4"
+      ],
+      "custom_css": [],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "swansura_shop_collection_ziCF9L": {
+      "type": "swansura-shop-collection",
+      "name": "Swansura shop collection",
+      "settings": {
+        "heading": "SHOP OUR COLLECTION",
+        "deyga_image": "shopify://shop_images/swansura_shop_collection_deyga.png",
+        "deyga_link": "shopify://collections/milk-drop-brightening-serum-1",
+        "vilvah_image": "shopify://shop_images/swansura_shop_collection_vilvah.png",
+        "vilvah_link": "shopify://collections/milk-drop-brightening-serum",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24
+      }
+    },
+    "featured_collection_gigxBm": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "best-sellers",
+        "products_to_show": 14,
+        "title": "BEST SELLERS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "swansura_category_grid_bpwAxC": {
+      "type": "swansura-category-grid",
+      "blocks": {
+        "category_VBp3aJ": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/swansura_skincare_category.png",
+            "link": "shopify://collections/skincare"
+          }
+        },
+        "category_VfrQXa": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/swansura_fragrance_category.png",
+            "link": "shopify://collections/fragrance"
+          }
+        },
+        "category_UiYxeV": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/swansura_haircare_category.png",
+            "link": "shopify://collections/haircare"
+          }
+        },
+        "category_Cdf7r3": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/swansura_bodycare_category.png",
+            "link": "shopify://collections/bodycare"
+          }
+        },
+        "category_kdbJ7a": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/swansura_sets_combos_category_7c941c7e-b9b6-41ad-95d6-15a117ed3ae1.png",
+            "link": "shopify://collections/sets-combos"
+          }
+        }
+      },
+      "block_order": [
+        "category_VBp3aJ",
+        "category_VfrQXa",
+        "category_UiYxeV",
+        "category_Cdf7r3",
+        "category_kdbJ7a"
+      ],
+      "name": "Swansura category grid",
+      "settings": {
+        "heading": "SHOP BY CATEGORY",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24
+      }
+    },
+    "collection_list_zjNVf4": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_nYyFaE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "milk-drop-brightening-serum"
+          }
+        },
+        "featured_collection_gMHghY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "milk-drop-brightening-serum-1"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_nYyFaE",
+        "featured_collection_gMHghY"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "SHOP OUR COLLECTION",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_MyPVmh": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "sets-combos",
+        "products_to_show": 20,
+        "title": "SHOP SETS & COMBOS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_aQmgwq": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_HdCKdD": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "collection_list_Gp844b": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_mRUP8P": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skincare"
+          }
+        },
+        "featured_collection_hr9Bq8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "haircare"
+          }
+        },
+        "featured_collection_TcayUF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bodycare"
+          }
+        },
+        "featured_collection_ehQtcm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fragrance"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_mRUP8P",
+        "featured_collection_hr9Bq8",
+        "featured_collection_TcayUF",
+        "featured_collection_ehQtcm"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1786026456287c267f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_T9X8i7": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_T9X8i7"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_banner_npeaUr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fNHkjp": {
+          "type": "heading",
+          "settings": {
+            "heading": "FIND YOUR SIGNATURE SCENT",
+            "heading_size": "h1"
+          }
+        },
+        "text_zD6NVJ": {
+          "type": "text",
+          "settings": {
+            "text": "From timeless icons to captivating new discoveries.",
+            "text_style": "body"
+          }
+        },
+        "buttons_TAqe99": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP FRAGRANCE",
+            "button_link_1": "shopify://collections/fragrance",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fNHkjp",
+        "text_zD6NVJ",
+        "buttons_TAqe99"
+      ],
+      "custom_css": [
+        ".banner__box {background: transparent !important; padding: 20px 0 !important; max-width: 620px !important;}",
+        "@media screen and (min-width: 750px) {.banner__content {justify-content: flex-end !important; padding-right: 1% !important; padding-left: 70% !important; }}",
+        ".banner__heading {color: #111 !important; font-size: 38px !important; font-weight: 600 !important; line-height: 1.05 !important;}",
+        ".banner__text {color: #17130f !important; font-weight: 500 !important;}",
+        ".banner__buttons .button {color: #17130f !important; font-weight: 600 !important;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_29_2026_12_44_18_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "right",
+        "show_text_box": false,
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_H6GjCC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8xBqxV": {
+          "type": "heading",
+          "settings": {
+            "heading": "D I S C O V E R",
+            "heading_size": "h2"
+          }
+        },
+        "heading_x7K7zk": {
+          "type": "heading",
+          "settings": {
+            "heading": "ICONIC BRANDS",
+            "heading_size": "h0"
+          }
+        },
+        "text_K7Y8YN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the world's most sought-after fragrance and beauty brands, all in one place.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xBqxV",
+        "heading_x7K7zk",
+        "text_K7Y8YN"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 1100px;}",
+        ".rich-text__blocks > * + * {margin-top: 10px;}",
+        ".rich-text__heading {margin-top: 0; margin-bottom: 0;}",
+        ".rich-text__text {margin-top: 10px !important; margin-bottom: 0 !important;}",
+        ".rich-text__text p {margin: 0;}",
+        "@media screen and (max-width: 749px) {.rich-text__heading {font-size: 32px; line-height: 1.1; } .rich-text__blocks > * + * {margin-top: 8px; } .rich-text__text {margin-top: 12px !important; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_Lt4M9g": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_378M6d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_29_2026_05_18_06_PM.png",
+            "title": "<strong>AL HARAMAIN</strong>",
+            "text": "",
+            "link_label": "SHOP BRAND",
+            "link": ""
+          }
+        },
+        "column_6Mqtyt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/swansura_featured_brand_montale.png",
+            "title": "<strong>MONTALE</strong>",
+            "text": "",
+            "link_label": "SHOP BRAND",
+            "link": "shopify://collections/montale"
+          }
+        },
+        "column_XR43QB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/swansura_featured_brand_mancera.png",
+            "title": "<strong>MANCERA</strong>",
+            "text": "",
+            "link_label": "SHOP BRAND",
+            "link": ""
+          }
+        },
+        "column_AAWaRx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/swansura_featured_brand_tiziana_terenzi.png",
+            "title": "<strong>TIZIANA TERENZI</strong>",
+            "text": "",
+            "link_label": "SHOP BRAND",
+            "link": "shopify://collections/tiziana-terenzi"
+          }
+        }
+      },
+      "block_order": [
+        "column_378M6d",
+        "column_6Mqtyt",
+        "column_XR43QB",
+        "column_AAWaRx"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "VIEW ALL BRANDS",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "featured_blog_QTWHJD": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 2,
+        "heading": "FROM OUR JOURNAL",
+        "heading_size": "h1",
+        "columns_desktop": 1,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-59d2f8b9-4a37-4dc1-8c6e-dfe3d9894e6e",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_RmxFwJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7icjdm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ABOUT US</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BVEdGQ": {
+          "type": "text",
+          "settings": {
+            "text": "At Swansura, we bring together luxury fragrances, natural skincare and thoughtfully selected beauty essentials. From timeless scents to everyday self-care, discover a curated collection of brands chosen for quality, authenticity and individuality. Based in the UK, we're passionate about making exceptional beauty accessible for every occasion.",
+            "text_style": "body"
+          }
+        },
+        "buttons_i8qVrV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "CONTACT US",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7icjdm",
+        "text_BVEdGQ",
+        "buttons_i8qVrV"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Body_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multicolumn_WnUMEN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3Eq3Jz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "<em><strong>FAST SHIPPING</strong></em>",
+            "text": "<p>We deliver quickly across the UK with reliable service and full order tracking.</p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_36zzbq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "<em><strong>100% AUTHENTIC PRODUCTS</strong></em>",
+            "text": "<p>Our direct brand partnerships ensure every product is 100% genuine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FJb6jt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "<em><strong>CUSTOMER SUPPORT</strong></em>",
+            "text": "<p>Count on our friendly team for quick help, guidance, and hassle-free service.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3Eq3Jz",
+        "column_36zzbq",
+        "column_FJb6jt"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_qTrgGT",
+    "swansura_shop_collection_ziCF9L",
+    "featured_collection_gigxBm",
+    "swansura_category_grid_bpwAxC",
+    "collection_list_zjNVf4",
+    "featured_collection_MyPVmh",
+    "rich_text_aQmgwq",
+    "rich_text_HdCKdD",
+    "collection_list_Gp844b",
+    "1786026456287c267f",
+    "image_banner_npeaUr",
+    "rich_text_H6GjCC",
+    "multicolumn_Lt4M9g",
+    "featured_blog_QTWHJD",
+    "image_banner_RmxFwJ",
+    "multicolumn_WnUMEN"
+  ]
+}

@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17607348104a5de6d4": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "blocks_qttfDb": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9916ec2_QnY3L4": {
+          "type": "ai_gen_block_9916ec2",
+          "settings": {
+            "heading": "Shop by collection",
+            "heading_size": 32,
+            "heading_color": "#ffffff",
+            "heading_alignment": "center",
+            "heading_spacing": 30,
+            "collection_1": "deyga-solo-products",
+            "collection_2": "deyga-kits",
+            "collection_3": "bestsellers",
+            "collection_4": "deyga-gift-bundle",
+            "section_padding": 40,
+            "grid_gap": 20,
+            "image_ratio": 100,
+            "card_border_radius": 0,
+            "content_padding": 20,
+            "content_bg_color": "#ffffff",
+            "text_alignment": "center",
+            "title_size": 20,
+            "title_color": "#121212",
+            "show_description": false,
+            "description_size": 14,
+            "description_color": "#666666",
+            "button_text": "Shop now",
+            "button_text_size": 14,
+            "button_bg_color": "#2b2722",
+            "button_text_color": "#ffffff",
+            "button_hover_bg_color": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 12,
+            "button_border_width": 1,
+            "button_border_color": "#121212"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9916ec2_QnY3L4"
+      ],
+      "name": "Collection grid",
+      "settings": {}
+    }
+  },
+  "order": [
+    "17607348104a5de6d4",
+    "main",
+    "blocks_qttfDb"
+  ]
+}

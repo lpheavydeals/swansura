@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17610455258df1ae82": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9916ec2_xN7aEr": {
+          "type": "ai_gen_block_9916ec2",
+          "settings": {
+            "heading": "Shop by collection",
+            "heading_size": 32,
+            "heading_color": "#ffffff",
+            "heading_alignment": "center",
+            "heading_spacing": 30,
+            "collection_1": "luxury-collection-1",
+            "collection_2": "",
+            "collection_3": "",
+            "collection_4": "",
+            "section_padding": 40,
+            "grid_gap": 20,
+            "image_ratio": 115,
+            "card_border_radius": 26,
+            "content_padding": 20,
+            "content_bg_color": "#ffffff",
+            "text_alignment": "center",
+            "title_size": 20,
+            "title_color": "#121212",
+            "show_description": false,
+            "description_size": 14,
+            "description_color": "#666666",
+            "button_text": "Shop now",
+            "button_text_size": 14,
+            "button_bg_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_bg_color": "#ffffff",
+            "button_hover_text_color": "#000000",
+            "button_border_radius": 12,
+            "button_border_width": 1,
+            "button_border_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9916ec2_xN7aEr"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "17610455258df1ae82",
+    "main"
+  ]
+}

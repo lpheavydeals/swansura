@@ -1,0 +1,238 @@
+<section class="swansura-shop-collection">
+
+  {% if section.settings.heading != blank %}
+    <h2 class="swansura-shop-collection__heading">
+      {{ section.settings.heading }}
+    </h2>
+  {% endif %}
+
+  <div class="swansura-shop-collection__grid">
+
+    <!-- DEYGA -->
+    <a
+      class="swansura-shop-collection__tile"
+      {% if section.settings.deyga_link != blank %}
+        href="{{ section.settings.deyga_link }}"
+      {% endif %}
+    >
+      {% if section.settings.deyga_image != blank %}
+        {{
+          section.settings.deyga_image
+          | image_url: width: 2000
+          | image_tag:
+            loading: 'lazy',
+            widths: '600, 900, 1200, 1600, 2000',
+            class: 'swansura-shop-collection__image'
+        }}
+      {% else %}
+        {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </a>
+
+    <!-- VILVAH -->
+    <a
+      class="swansura-shop-collection__tile"
+      {% if section.settings.vilvah_link != blank %}
+        href="{{ section.settings.vilvah_link }}"
+      {% endif %}
+    >
+      {% if section.settings.vilvah_image != blank %}
+        {{
+          section.settings.vilvah_image
+          | image_url: width: 2000
+          | image_tag:
+            loading: 'lazy',
+            widths: '600, 900, 1200, 1600, 2000',
+            class: 'swansura-shop-collection__image'
+        }}
+      {% else %}
+        {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </a>
+
+  </div>
+
+</section>
+
+<style>
+
+#shopify-section-{{ section.id }} {
+  width: 100%;
+}
+
+/* SECTION */
+#shopify-section-{{ section.id }} .swansura-shop-collection {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding:
+    {{ section.settings.padding_top }}px
+    16px
+    {{ section.settings.padding_bottom }}px;
+}
+
+/* HEADING */
+#shopify-section-{{ section.id }} .swansura-shop-collection__heading {
+  width: 100%;
+  text-align: center;
+  color: #17130f;
+  margin: 0 0 30px;
+  font-size: clamp(32px, 3vw, 48px);
+  line-height: 1.1;
+}
+
+/* TWO LARGE TILES */
+#shopify-section-{{ section.id }} .swansura-shop-collection__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* WIDE RECTANGLE */
+#shopify-section-{{ section.id }} .swansura-shop-collection__tile {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.45 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #f5f2ed;
+}
+
+/* IMAGE */
+#shopify-section-{{ section.id }} .swansura-shop-collection__image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform .5s ease;
+}
+
+/* SUBTLE PREMIUM HOVER */
+#shopify-section-{{ section.id }} .swansura-shop-collection__tile:hover
+.swansura-shop-collection__image {
+  transform: scale(1.02);
+}
+
+/* MOBILE */
+@media screen and (max-width: 749px) {
+
+  #shopify-section-{{ section.id }} .swansura-shop-collection {
+    padding:
+      {{ section.settings.mobile_padding_top }}px
+      8px
+      {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-shop-collection__heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-shop-collection__grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-shop-collection__tile {
+    aspect-ratio: 1.45 / 1;
+  }
+}
+
+</style>
+
+{% schema %}
+{
+  "name": "Swansura shop collection",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "SHOP OUR COLLECTION"
+    },
+    {
+      "type": "header",
+      "content": "Deyga"
+    },
+    {
+      "type": "image_picker",
+      "id": "deyga_image",
+      "label": "Deyga image"
+    },
+    {
+      "type": "url",
+      "id": "deyga_link",
+      "label": "Deyga collection link"
+    },
+    {
+      "type": "header",
+      "content": "Vilvah"
+    },
+    {
+      "type": "image_picker",
+      "id": "vilvah_image",
+      "label": "Vilvah image"
+    },
+    {
+      "type": "url",
+      "id": "vilvah_link",
+      "label": "Vilvah collection link"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop top padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "Mobile top padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "Mobile bottom padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    }
+  ],
+  "presets": [
+    {
+      "name": "Swansura shop collection"
+    }
+  ]
+}
+{% endschema %}

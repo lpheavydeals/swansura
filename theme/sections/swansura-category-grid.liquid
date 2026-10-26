@@ -1,0 +1,246 @@
+<section class="swansura-categories">
+
+  {% if section.settings.heading != blank %}
+    <h2 class="swansura-categories__heading">
+      {{ section.settings.heading }}
+    </h2>
+  {% endif %}
+
+  <div class="swansura-category-grid">
+
+    {% for block in section.blocks %}
+      <a
+        class="swansura-category-card swansura-category-card--{{ forloop.index }}"
+        {% if block.settings.link != blank %}
+          href="{{ block.settings.link }}"
+        {% endif %}
+        {{ block.shopify_attributes }}
+      >
+
+        {% if block.settings.image != blank %}
+          {{
+            block.settings.image
+            | image_url: width: 2000
+            | image_tag:
+              loading: 'lazy',
+              widths: '500, 750, 1000, 1300, 1600, 2000',
+              class: 'swansura-category-card__image'
+          }}
+        {% endif %}
+
+      </a>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<style>
+
+/* FULL-WIDTH SECTION */
+#shopify-section-{{ section.id }} .swansura-categories {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding:
+    {{ section.settings.padding_top }}px
+    16px
+    {{ section.settings.padding_bottom }}px;
+  box-sizing: border-box;
+}
+
+/* HEADING */
+#shopify-section-{{ section.id }} .swansura-categories__heading {
+  width: 100%;
+  text-align: center;
+  color: #17130f;
+  margin: 0 0 28px;
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-weight: var(--font-heading-weight);
+  font-size: calc(var(--font-heading-scale) * 4rem);
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}
+
+/* CATEGORY GRID */
+#shopify-section-{{ section.id }} .swansura-category-grid {
+  width: 100%;
+  max-width: none;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* CATEGORY CARDS */
+#shopify-section-{{ section.id }} .swansura-category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f5f2ed;
+  text-decoration: none;
+  line-height: 0;
+}
+
+/* TOP TWO LARGE CARDS */
+#shopify-section-{{ section.id }} .swansura-category-card--1,
+#shopify-section-{{ section.id }} .swansura-category-card--2 {
+  grid-column: span 3;
+  aspect-ratio: 758 / 488;
+}
+
+/* BOTTOM THREE CARDS */
+#shopify-section-{{ section.id }} .swansura-category-card--3,
+#shopify-section-{{ section.id }} .swansura-category-card--4,
+#shopify-section-{{ section.id }} .swansura-category-card--5 {
+  grid-column: span 2;
+  aspect-ratio: 500 / 444;
+}
+
+/* IMAGES */
+#shopify-section-{{ section.id }} .swansura-category-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  transition: transform .45s ease;
+}
+
+/* SUBTLE HOVER */
+#shopify-section-{{ section.id }} .swansura-category-card:hover
+.swansura-category-card__image {
+  transform: scale(1.015);
+}
+
+/* MOBILE */
+@media screen and (max-width: 749px) {
+
+  #shopify-section-{{ section.id }} .swansura-categories {
+    padding:
+      {{ section.settings.mobile_padding_top }}px
+      8px
+      {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-category-card--1,
+  #shopify-section-{{ section.id }} .swansura-category-card--2,
+  #shopify-section-{{ section.id }} .swansura-category-card--3,
+  #shopify-section-{{ section.id }} .swansura-category-card--4 {
+    grid-column: span 1;
+    aspect-ratio: 1 / 1.05;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-category-card--5 {
+    grid-column: span 2;
+    aspect-ratio: 2 / 1;
+  }
+
+  #shopify-section-{{ section.id }} .swansura-categories__heading {
+    margin-bottom: 20px;
+    font-size: calc(var(--font-heading-scale) * 3rem);
+  }
+}
+
+</style>
+
+{% schema %}
+{
+  "name": "Swansura category grid",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "SHOP BY CATEGORY"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Desktop top padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Desktop bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "Mobile top padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "Mobile bottom padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category tile",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Category image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Category link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Swansura category grid",
+      "blocks": [
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

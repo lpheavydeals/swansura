@@ -1,0 +1,54 @@
+{% layout 'theme' %}
+
+<div style="max-width:1000px;margin:auto;padding:30px;">
+  <h2>Step 2: Choose Your Products</h2>
+  <p>Select up to <strong>5 products</strong> to include in your gift box.</p>
+  <p>Selected: <span id="selectedCount">0</span>/5</p>
+
+  <div class="gift-products" style="display:flex;flex-wrap:wrap;justify-content:space-between;">
+    {% for product in collections['deyga-gift-bundle'].products %}
+      <div class="gift-item" style="border:1px solid #eee;padding:15px;border-radius:12px;margin:10px;width:calc(33% - 20px);text-align:center;">
+        <h4>{{ product.title }}</h4>
+        <p>₹{{ product.price | money_without_currency }}</p>
+        <button class="add-btn" data-handle="{{ product.handle }}" style="background:#000;color:#fff;padding:8px 15px;border:none;border-radius:6px;margin-top:5px;">Add</button>
+      </div>
+    {% endfor %}
+  </div>
+
+  <form action="/pages/gift-builder-step-3" method="GET" id="nextForm" style="margin-top:20px;">
+    <input type="hidden" name="box" value="{{ request.params.box }}">
+    <input type="hidden" id="selectedProducts" name="products">
+    <button type="submit" style="background:#000;color:#fff;padding:10px 20px;border:none;border-radius:6px;">Next →</button>
+  </form>
+</div>
+
+<script>
+  const selected = [];
+  const maxSelection = 5;
+  const countEl = document.getElementById('selectedCount');
+
+  document.querySelectorAll('.add-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const handle = btn.dataset.handle;
+      const index = selected.indexOf(handle);
+
+      if (index === -1) {
+        if (selected.length >= maxSelection) {
+          alert(`You can select up to ${maxSelection} products only.`);
+          return;
+        }
+        selected.push(handle);
+        btn.textContent = 'Added';
+        btn.style.background = '#4CAF50';
+      } else {
+        selected.splice(index, 1);
+        btn.textContent = 'Add';
+        btn.style.background = '#000';
+      }
+
+      document.getElementById('selectedProducts').value = selected.join(',');
+      countEl.textContent = selected.length;
+    });
+  });
+</script>
+
