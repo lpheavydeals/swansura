@@ -16,8 +16,9 @@ We currently deliver to addresses in the **United Kingdom** only, including Nort
 
 | Service | Order value | Cost | Delivery time after dispatch |
 |---|---|---|---|
-| Standard UK delivery | Under £[50] | £[2.00 up to £20 / £3.00 from £20] | [2–3] working days |
-| Standard UK delivery | £[50] and over | **Free** | [2–3] working days |
+| Standard UK delivery | Under £[40] | £[2.00 up to £20 / £3.00 from £20] | [2–3] working days |
+| Standard UK delivery | £[40] and over | **Free** | [2–3] working days |
+| Standard UK delivery | £[70] and over | **Free**, plus £[5] off the order | [2–3] working days |
 | Express UK delivery | Any | £[4.00] | [1–2] working days |
 
 The delivery cost is shown at checkout before you pay. Orders to the Scottish Highlands and Islands, Northern Ireland and offshore addresses can take [1–2] extra working days.
@@ -64,12 +65,12 @@ We aim to reply within [1 working day], Monday to Friday.
 
 ## Notes for Swansura (not part of the policy)
 
-1. **The free-delivery promise is not set up in Shopify.** The website and our new design say "Free UK delivery over £50". Shopify's delivery settings currently have:
+1. **The free-delivery promise is not set up in Shopify.** The new design says "Free UK delivery over £40" and "£5 off over £70" (changed from £50 on 25 Oct 2026). Shopify's delivery settings currently have:
    - Standard £2.00 for orders £0–£20
    - Standard £3.00 for orders of £21 and over
    - Express £4.00
 
-   There is no free rate, so customers spending £50 or more are still charged delivery. Add a free Standard rate for orders of £50 and over (Settings → Shipping and delivery → General profile → United Kingdom → Add rate → Free, condition "Order price ≥ £50"), then raise the £3.00 rate's upper limit to £49.99. Alternatively, change the website message if free delivery is no longer offered.
+   There is no free rate, so customers spending £40 or more would still be charged delivery. Add a free Standard rate for orders of £40 and over (Settings → Shipping and delivery → General profile → United Kingdom → Add rate → Free, condition "Order price ≥ £40"), then give the £3.00 rate an upper limit of £39.99. Then add an automatic £5-off discount for orders of £70 and over (Discounts → Create discount → Amount off order, minimum purchase £70). Alternatively, change the website message if these offers are not wanted.
 2. **There is a price gap between £20.01 and £20.99.** Neither Standard rate applies to those baskets, so those customers only see Express (£4). Change the £3.00 rate's minimum from £21.00 to £20.01.
 3. **Please confirm:**
    - the courier
