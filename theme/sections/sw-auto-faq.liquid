@@ -12,9 +12,9 @@
   assign qs = ''
   assign as = ''
   if shop.refund_policy != blank
-    assign returns_a = 'Our <a href="' | append: shop.refund_policy.url | append: '">refund policy</a> explains how returns work, including what to do if an item arrives damaged.'
+    assign returns_a = 'You can return unopened, sealed items within 14 days of delivery (return postage is paid by you). Damaged, faulty or wrong items are replaced or refunded at no cost. Our <a href="' | append: shop.refund_policy.url | append: '">refund policy</a> has the details.'
   else
-    assign returns_a = 'Please <a href="/pages/contact">contact us</a> and we will help with your return.'
+    assign returns_a = 'You can return unopened, sealed items within 14 days of delivery (return postage is paid by you). Damaged, faulty or wrong items are replaced or refunded at no cost. <a href="/pages/contact">Contact us</a> to start a return.'
   endif
   assign delivery_a = 'Orders are dispatched from the UK within 1–2 working days. UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.'
 

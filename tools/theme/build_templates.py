@@ -172,7 +172,7 @@ STORE_FAQ = [
     ("How quickly do you dispatch?", "<p>Orders are dispatched from the UK within 1–2 working days.</p>"),
     ("How much is UK delivery?", "<p>UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.</p>"),
     ("Do you deliver outside the UK?", "<p>At the moment we deliver to UK addresses only.</p>"),
-    ("Can I return an item?", "<p>Our <a href=\"/policies/refund-policy\">refund policy</a> explains how returns work, including what to do if something arrives damaged.</p>"),
+    ("Can I return an item?", "<p>You can return unopened, sealed items within 14 days of delivery (return postage is paid by you). Damaged, faulty or wrong items are replaced or refunded at no cost. Our <a href=\"/policies/refund-policy\">refund policy</a> has the details.</p>"),
     ("How can I pay?", "<p>We accept Visa, Mastercard, American Express, Maestro, PayPal, Apple Pay, Google Pay and Shop Pay. Eligible orders can also be split into interest-free payments where this is offered at checkout.</p>"),
     ("How do I track my order?", "<p>Sign in to <a href=\"/account\">your account</a> with the email you ordered with to see your orders and tracking.</p>"),
     ("How can I contact you?", "<p>Use our <a href=\"/pages/contact\">contact page</a>, email us, or send us a message on Instagram.</p>"),
