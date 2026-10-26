@@ -1,0 +1,30 @@
+{%- comment -%}
+  'About this page' SEO copy below the products. Reads collection.metafields.custom.seo_copy
+  (rich text or HTML) and its heading from custom.seo_heading; hidden when empty.
+{%- endcomment -%}
+{%- liquid
+  assign copy = collection.metafields.custom.seo_copy
+  assign heading = collection.metafields.custom.seo_heading.value | default: collection.title
+-%}
+{%- if copy != blank -%}
+  <section class="sw-sec sw-seo">
+    <div class="page-width sw-seo__in">
+      <div class="sw-eyebrow">{{ section.settings.eyebrow }}</div>
+      <h2>{{ heading | escape }}</h2>
+      <div class="sw-seo__body rte">
+        {%- if copy.type == 'rich_text_field' -%}{{ copy | metafield_tag }}{%- else -%}{{ copy.value }}{%- endif -%}
+      </div>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura collection copy",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "About this page" }
+  ],
+  "enabled_on": { "templates": ["collection"] },
+  "presets": [{ "name": "Swansura collection copy" }]
+}
+{% endschema %}

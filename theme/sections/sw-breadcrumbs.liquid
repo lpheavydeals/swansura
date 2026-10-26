@@ -1,0 +1,46 @@
+{%- comment -%}
+  Breadcrumbs + BreadcrumbList JSON-LD for product pages (Home › Brand › Product).
+  Collection pages show their crumbs inside the collection header instead.
+{%- endcomment -%}
+{%- if template.name == 'product' -%}
+  {%- liquid
+    assign v = product.vendor | downcase | strip
+    assign show_brand = true
+    if v == 'generic' or v contains 'swansura'
+      assign show_brand = false
+    endif
+    assign brand_name = product.vendor
+    if v contains 'vilvah'
+      assign brand_name = 'Vilvah'
+    endif
+  -%}
+  {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
+  {%- assign brand_url = brand_url | strip -%}
+  <nav class="sw-crumbs page-width" aria-label="Breadcrumb">
+    <a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span>
+    {%- if show_brand -%}<a href="{{ brand_url }}">{{ brand_name | escape }}</a><span aria-hidden="true">›</span>{%- endif -%}
+    <span aria-current="page">{{ product.title | split: ' – ' | first | truncatewords: 8 | escape }}</span>
+  </nav>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": {{ shop.url | append: '/' | json }}}
+        {%- if show_brand -%},
+        {"@type": "ListItem", "position": 2, "name": {{ brand_name | json }}, "item": {{ shop.url | append: brand_url | json }}}
+        {%- endif -%},
+        {"@type": "ListItem", "position": {% if show_brand %}3{% else %}2{% endif %}, "name": {{ product.title | json }}, "item": {{ shop.url | append: product.url | json }}}
+      ]
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura breadcrumbs",
+  "settings": [],
+  "enabled_on": { "templates": ["product"] },
+  "presets": [{ "name": "Swansura breadcrumbs" }]
+}
+{% endschema %}

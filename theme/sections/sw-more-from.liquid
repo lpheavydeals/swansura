@@ -1,0 +1,53 @@
+{%- comment -%} "More from <brand>": up to N other products from the product's brand collection. {%- endcomment -%}
+{%- liquid
+  assign v = product.vendor | downcase | strip
+  assign brand_name = product.vendor
+  if v == 'deyga'
+    assign bc = collections['milk-drop-brightening-serum-1']
+  elsif v contains 'vilvah'
+    assign bc = collections['milk-drop-brightening-serum']
+    assign brand_name = 'Vilvah'
+  elsif v == 'generic' or v contains 'swansura'
+    assign bc = nil
+  else
+    assign h = product.vendor | handleize
+    assign bc = collections[h]
+  endif
+-%}
+{%- if bc != blank and bc.products_count > 1 -%}
+  {{ 'component-card.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <section class="sw-sec sw-more">
+    <div class="page-width">
+      <div class="sw-head">
+        <h2>More from {{ brand_name | escape }}</h2>
+        <a class="sw-link" href="{{ bc.url }}">Shop all {{ bc.products_count }}</a>
+      </div>
+      <ul class="sw-grid grid product-grid" role="list">
+        {%- assign shown = 0 -%}
+        {%- for p in bc.products -%}
+          {%- if p.id == product.id or p.available == false -%}{%- continue -%}{%- endif -%}
+          <li class="grid__item">
+            {% render 'card-product', card_product: p, media_aspect_ratio: 'portrait', image_shape: 'default', show_secondary_image: true, show_vendor: false, show_rating: false, lazy_load: true, section_id: section.id, quick_add: 'standard' %}
+          </li>
+          {%- assign shown = shown | plus: 1 -%}
+          {%- if shown >= section.settings.limit -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura more from brand",
+  "settings": [
+    { "type": "range", "id": "limit", "label": "Products shown", "min": 2, "max": 8, "step": 2, "default": 4 }
+  ],
+  "enabled_on": { "templates": ["product"] },
+  "presets": [{ "name": "Swansura more from brand" }]
+}
+{% endschema %}

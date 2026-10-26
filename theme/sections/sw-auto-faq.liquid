@@ -1,0 +1,164 @@
+{%- comment -%}
+  FAQ band generated from catalogue data (no hand-written answers needed), with FAQPage JSON-LD.
+  Collection pages: product count, brands, price range, authenticity, delivery, returns.
+  Product pages: authenticity, partner status (Deyga/Vilvah), dispatch, free delivery, returns.
+  Extra questions can be added as blocks; they show after the generated ones.
+  Sits below the newsletter, directly above the footer (agreed page order).
+{%- endcomment -%}
+{%- liquid
+  assign sep = '~~'
+  assign qs = ''
+  assign as = ''
+  if shop.refund_policy != blank
+    assign returns_a = 'Our <a href="' | append: shop.refund_policy.url | append: '">refund policy</a> explains how returns work, including what to do if an item arrives damaged.'
+  else
+    assign returns_a = 'Please <a href="/pages/contact">contact us</a> and we will help with your return.'
+  endif
+  assign delivery_a = 'Orders are dispatched from the UK within 1–2 working days. UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.'
+
+  if template.name == 'collection'
+    assign name = collection.title
+    assign count = collection.products_count
+    assign brands = ''
+    assign partner = false
+    for vd in collection.all_vendors
+      assign vl = vd | downcase | strip
+      if vl == 'generic' or vl contains 'swansura'
+        continue
+      endif
+      assign shown = vd
+      if vl contains 'vilvah'
+        assign shown = 'Vilvah'
+        assign partner = true
+      elsif vl == 'deyga'
+        assign partner = true
+      endif
+      unless brands contains shown
+        assign brands = brands | append: shown | append: sep
+      endunless
+    endfor
+    assign brand_list = brands | split: sep
+    assign min = 0
+    assign max = 0
+    for p in collection.products limit: 50
+      if min == 0 or p.price_min < min
+        assign min = p.price_min
+      endif
+      if p.price_max > max
+        assign max = p.price_max
+      endif
+    endfor
+
+    if count > 0
+      assign q = 'How many ' | append: name | append: ' products does Swansura stock?'
+      assign a = 'We have ' | append: count | append: ' products in ' | append: name
+      if brand_list.size > 1
+        assign a = a | append: ' from ' | append: brand_list.size | append: ' brands, including ' | append: brand_list[0] | append: ', ' | append: brand_list[1]
+        if brand_list.size > 2
+          assign a = a | append: ' and ' | append: brand_list[2]
+        endif
+      elsif brand_list.size == 1
+        assign a = a | append: ', all from ' | append: brand_list[0]
+      endif
+      assign a = a | append: '.'
+      assign qs = qs | append: q | append: sep
+      assign as = as | append: a | append: sep
+    endif
+    if count > 0 and count <= 50 and max > 0
+      assign q = 'How much do ' | append: name | append: ' products cost?'
+      assign min_m = min | money
+      assign max_m = max | money
+      if min == max
+        assign a = 'Every product here costs ' | append: min_m | append: '.'
+      else
+        assign a = 'Prices run from ' | append: min_m | append: ' to ' | append: max_m | append: '. Use the price filter to narrow the list.'
+      endif
+      assign qs = qs | append: q | append: sep
+      assign as = as | append: a | append: sep
+    endif
+    assign qs = qs | append: 'Are the products authentic?' | append: sep
+    if partner
+      assign as = as | append: 'Yes. Every product is 100% authentic, and Swansura is an official UK partner of Deyga and Vilvah.' | append: sep
+    else
+      assign as = as | append: 'Yes. Every product we sell is 100% authentic.' | append: sep
+    endif
+    assign qs = qs | append: 'How fast is UK delivery, and is it free?' | append: sep
+    assign as = as | append: delivery_a | append: sep
+    assign qs = qs | append: 'Can I return an item?' | append: sep
+    assign as = as | append: returns_a | append: sep
+    assign heading = 'Questions about ' | append: name
+
+  elsif template.name == 'product'
+    assign short = product.title | split: ' – ' | first | split: ' | ' | first | truncatewords: 10, ''
+    assign vl = product.vendor | downcase | strip
+    assign brand_name = product.vendor
+    if vl contains 'vilvah'
+      assign brand_name = 'Vilvah'
+    endif
+    assign qs = qs | append: 'Is ' | append: short | append: ' authentic?' | append: sep
+    if vl == 'deyga' or vl contains 'vilvah'
+      assign a = 'Yes. Swansura is an official UK partner of ' | append: brand_name | append: ', and every product we sell is 100% authentic.'
+    else
+      assign a = 'Yes. Every product we sell is 100% authentic.'
+    endif
+    assign as = as | append: a | append: sep
+    assign qs = qs | append: 'How quickly will my order arrive?' | append: sep
+    assign as = as | append: 'We dispatch from the UK within 1–2 working days, so most UK orders arrive within a few days of ordering.' | append: sep
+    assign qs = qs | append: 'Is UK delivery free?' | append: sep
+    assign as = as | append: 'UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.' | append: sep
+    assign qs = qs | append: 'Can I return it?' | append: sep
+    assign as = as | append: returns_a | append: sep
+    assign heading = 'Questions about ' | append: short
+  endif
+
+  assign q_list = qs | split: sep
+  assign a_list = as | split: sep
+-%}
+{%- if q_list.size > 0 or section.blocks.size > 0 -%}
+  <section class="sw-sec sw-faq" id="faq">
+    <div class="page-width sw-faq__in">
+      <div>
+        <div class="sw-eyebrow">{{ section.settings.eyebrow }}</div>
+        <h2>{{ heading | default: section.settings.heading | escape }}</h2>
+      </div>
+      <div class="sw-faq__list">
+        {%- for q in q_list -%}
+          <details{% if forloop.first %} open{% endif %}>
+            <summary>{{ q | escape }}</summary>
+            <div class="rte"><p>{{ a_list[forloop.index0] }}</p></div>
+          </details>
+        {%- endfor -%}
+        {%- for block in section.blocks -%}
+          <details {{ block.shopify_attributes }}>
+            <summary>{{ block.settings.q }}</summary>
+            <div class="rte">{{ block.settings.a }}</div>
+          </details>
+        {%- endfor -%}
+      </div>
+    </div>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+        {%- for q in q_list -%}{"@type":"Question","name":{{ q | json }},"acceptedAnswer":{"@type":"Answer","text":{{ a_list[forloop.index0] | strip_html | json }}}}{% unless forloop.last and section.blocks.size == 0 %},{% endunless %}{%- endfor -%}
+        {%- for block in section.blocks -%}{"@type":"Question","name":{{ block.settings.q | json }},"acceptedAnswer":{"@type":"Answer","text":{{ block.settings.a | strip_html | json }}}}{% unless forloop.last %},{% endunless %}{%- endfor -%}
+      ]}
+    </script>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura FAQs (auto)",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Good to know" },
+    { "type": "text", "id": "heading", "label": "Heading (fallback)", "default": "Questions about Swansura" }
+  ],
+  "blocks": [
+    { "type": "faq", "name": "Extra question", "settings": [
+      { "type": "text", "id": "q", "label": "Question" },
+      { "type": "richtext", "id": "a", "label": "Answer" }
+    ] }
+  ],
+  "enabled_on": { "templates": ["product", "collection"] },
+  "presets": [{ "name": "Swansura FAQs (auto)" }]
+}
+{% endschema %}

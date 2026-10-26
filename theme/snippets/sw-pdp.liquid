@@ -1,0 +1,161 @@
+{%- comment -%}
+  Swansura product-page parts, placed through Dawn "Custom liquid" blocks in the product templates:
+    {% render 'sw-pdp', part: 'brand' %}        brand link (+ partner badge for Deyga / Vilvah)
+    {% render 'sw-pdp', part: 'paylater' %}     PayPal Pay in 3 line (£30–£2,000 only)
+    {% render 'sw-pdp', part: 'delivery' %}     dispatch line + free-delivery progress
+    {% render 'sw-pdp', part: 'trust' %}        coloured trust badges
+    {% render 'sw-pdp', part: 'details' %}      product description in an accordion (open)
+    {% render 'sw-pdp', part: 'ingredients' %}  accordion from product.metafields.custom.inci (hidden if empty)
+    {% render 'sw-pdp', part: 'how_to_use' %}   accordion from product.metafields.custom.how_to_use (hidden if empty)
+    {% render 'sw-pdp', part: 'shipping' %}     delivery & returns accordion
+    {% render 'sw-pdp', part: 'bundle' %}       "In this set" from product.metafields.custom.bundle_items
+  Offer values match the prototype OFFERS config: free UK delivery over £40, £5 off over £70.
+{%- endcomment -%}
+{%- liquid
+  assign free_min = 4000
+  assign bonus_min = 7000
+  assign bonus_off = 500
+  assign v = product.vendor | downcase | strip
+  assign brand_name = product.vendor
+  assign is_partner = false
+  if v == 'deyga'
+    assign is_partner = true
+  elsif v contains 'vilvah'
+    assign brand_name = 'Vilvah'
+    assign is_partner = true
+  endif
+  assign hide_brand = false
+  if v == 'generic' or v contains 'swansura'
+    assign hide_brand = true
+  endif
+  assign current = product.selected_or_first_available_variant
+-%}
+{%- case part -%}
+  {%- when 'brand' -%}
+    {%- unless hide_brand -%}
+      {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
+      <p class="sw-pdp-brand">
+        <a href="{{ brand_url | strip }}">{{ brand_name | escape }}</a>
+        {%- if is_partner %}<span class="sw-pdp-brand__badge">Official UK partner</span>{% endif -%}
+      </p>
+    {%- endunless -%}
+
+  {%- when 'paylater' -%}
+    {%- assign third = current.price | divided_by: 3.0 | round -%}
+    <p class="sw-pdp-paylater" data-sw-paylater{% if current.price < 3000 or current.price > 200000 %} hidden{% endif %}>
+      or 3 interest-free payments of <b data-sw-paylater-amount>{{ third | money }}</b> with <span class="sw-paypal">PayPal</span> Pay in 3
+    </p>
+
+  {%- when 'delivery' -%}
+    <div class="sw-pdp-ship" data-sw-goal data-free="{{ free_min }}" data-bonus="{{ bonus_min }}" data-off="{{ bonus_off }}">
+      <p class="sw-pdp-ship__line">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg>
+        <span>Dispatched from the UK in 1–2 working days</span>
+      </p>
+      {%- liquid
+        assign total = cart.total_price
+        assign pct = total | times: 100 | divided_by: bonus_min
+        if pct > 100
+          assign pct = 100
+        endif
+      -%}
+      <p class="sw-pdp-ship__goal" data-sw-goal-text>
+        {%- if total >= bonus_min -%}
+          Your bag gets free UK delivery and £5 off.
+        {%- elsif total >= free_min -%}
+          Free UK delivery unlocked. Spend {{ bonus_min | minus: total | money }} more for £5 off.
+        {%- elsif total > 0 -%}
+          Spend {{ free_min | minus: total | money }} more for free UK delivery.
+        {%- else -%}
+          Free UK delivery over £40 · free delivery + £5 off over £70
+        {%- endif -%}
+      </p>
+      <span class="sw-pdp-ship__bar" aria-hidden="true"><i data-sw-goal-bar style="width:{{ pct }}%"></i></span>
+    </div>
+
+  {%- when 'trust' -%}
+    <ul class="sw-trust" role="list">
+      <li class="sw-trust__i sw-trust__i--1">100% authentic</li>
+      <li class="sw-trust__i sw-trust__i--2">{% if is_partner %}Official UK partner{% else %}Ships from the UK{% endif %}</li>
+      <li class="sw-trust__i sw-trust__i--3">Free UK delivery over £40</li>
+      <li class="sw-trust__i sw-trust__i--4">Secure checkout</li>
+    </ul>
+
+  {%- when 'details' -%}
+    {%- if product.description != blank -%}
+      <div class="product__accordion accordion quick-add-hidden">
+        <details open>
+          <summary><div class="summary__title"><h2 class="h4 accordion__title">Details</h2></div>{{- 'icon-caret.svg' | inline_asset_content -}}</summary>
+          <div class="accordion__content rte">{{ product.description }}</div>
+        </details>
+      </div>
+    {%- endif -%}
+
+  {%- when 'ingredients' -%}
+    {%- assign inci = product.metafields.custom.inci -%}
+    {%- if inci != blank -%}
+      <div class="product__accordion accordion quick-add-hidden" id="ingredients">
+        <details>
+          <summary><div class="summary__title"><h2 class="h4 accordion__title">Ingredients</h2></div>{{- 'icon-caret.svg' | inline_asset_content -}}</summary>
+          <div class="accordion__content rte sw-inci">
+            {%- if inci.type == 'multi_line_text_field' or inci.type == 'single_line_text_field' -%}
+              <p>{{ inci.value | escape | newline_to_br }}</p>
+            {%- else -%}
+              {{ inci | metafield_tag }}
+            {%- endif -%}
+            <p class="sw-inci__note">Ingredient lists are taken from the brand. Packs can change, so always check the list on your pack.</p>
+          </div>
+        </details>
+      </div>
+    {%- endif -%}
+
+  {%- when 'how_to_use' -%}
+    {%- assign how = product.metafields.custom.how_to_use -%}
+    {%- if how != blank -%}
+      <div class="product__accordion accordion quick-add-hidden">
+        <details>
+          <summary><div class="summary__title"><h2 class="h4 accordion__title">How to use</h2></div>{{- 'icon-caret.svg' | inline_asset_content -}}</summary>
+          <div class="accordion__content rte">{{ how | metafield_tag }}</div>
+        </details>
+      </div>
+    {%- endif -%}
+
+  {%- when 'shipping' -%}
+    <div class="product__accordion accordion quick-add-hidden">
+      <details>
+        <summary><div class="summary__title"><h2 class="h4 accordion__title">Delivery &amp; returns</h2></div>{{- 'icon-caret.svg' | inline_asset_content -}}</summary>
+        <div class="accordion__content rte">
+          <p>Orders are dispatched from the UK within 1–2 working days. UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.</p>
+          <p>
+            {%- if shop.shipping_policy != blank -%}<a href="{{ shop.shipping_policy.url }}">Shipping policy</a>{%- endif -%}
+            {%- if shop.shipping_policy != blank and shop.refund_policy != blank %} · {% endif -%}
+            {%- if shop.refund_policy != blank -%}<a href="{{ shop.refund_policy.url }}">Returns and refunds</a>{%- endif -%}
+          </p>
+        </div>
+      </details>
+    </div>
+
+  {%- when 'bundle' -%}
+    {%- assign items = product.metafields.custom.bundle_items.value -%}
+    {%- if items != blank -%}
+      {%- assign separate = 0 -%}
+      <div class="sw-bundle">
+        <h2 class="sw-bundle__h">In this set</h2>
+        <ul class="sw-bundle__list" role="list">
+          {%- for it in items -%}
+            {%- assign separate = separate | plus: it.price -%}
+            <li>
+              <a href="{{ it.url }}">
+                {%- if it.featured_media -%}{{ it.featured_media | image_url: width: 160 | image_tag: loading: 'lazy', alt: it.featured_media.alt | default: it.title }}{%- endif -%}
+                <span>{{ it.title | split: ' – ' | first | escape }}</span>
+              </a>
+              <b>{{ it.price | money }}</b>
+            </li>
+          {%- endfor -%}
+        </ul>
+        {%- if separate > current.price -%}
+          <p class="sw-bundle__save">Bought separately {{ separate | money }} · you save <b>{{ separate | minus: current.price | money }}</b></p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+{%- endcase -%}

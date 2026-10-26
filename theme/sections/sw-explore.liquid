@@ -1,0 +1,28 @@
+{%- comment -%} 'Explore more': a wrapping row of pill links to categories and brands (current page left out). {%- endcomment -%}
+<section class="sw-sec sw-explore">
+  <div class="page-width">
+    <div class="sw-head"><h2>{{ section.settings.heading }}</h2></div>
+    <div class="sw-explore__pills">
+      {%- for c in section.settings.categories -%}
+        {%- if collection and c.id == collection.id -%}{%- continue -%}{%- endif -%}
+        <a href="{{ c.url }}">{{ c.title | escape }}</a>
+      {%- endfor -%}
+      {%- for c in section.settings.brands -%}
+        {%- if collection and c.id == collection.id -%}{%- continue -%}{%- endif -%}
+        <a href="{{ c.url }}" class="sw-explore__brand">{{ c.title | escape }}</a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura explore more",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Explore more" },
+    { "type": "collection_list", "id": "categories", "label": "Categories", "limit": 20 },
+    { "type": "collection_list", "id": "brands", "label": "Brands", "limit": 20 }
+  ],
+  "presets": [{ "name": "Swansura explore more" }]
+}
+{% endschema %}

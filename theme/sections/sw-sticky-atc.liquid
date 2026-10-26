@@ -1,0 +1,29 @@
+{%- comment -%}
+  Fixed Add-to-bag bar on product pages. Appears once the main Add-to-bag button scrolls out
+  of view; its button clicks the main form's submit button, so variant and quantity choices
+  carry over. Hidden for sold-out products.
+{%- endcomment -%}
+{%- assign current = product.selected_or_first_available_variant -%}
+{%- if product.available -%}
+  <div class="sw-sticky" data-sw-sticky hidden>
+    <div class="page-width sw-sticky__in">
+      {%- if product.featured_media -%}
+        {{ product.featured_media | image_url: width: 120 | image_tag: loading: 'lazy', class: 'sw-sticky__img', alt: '' }}
+      {%- endif -%}
+      <div class="sw-sticky__txt">
+        <span class="sw-sticky__title">{{ product.title | split: ' – ' | first | truncatewords: 8 | escape }}</span>
+        <b class="sw-sticky__price" data-sw-sticky-price>{{ current.price | money }}</b>
+      </div>
+      <button type="button" class="sw-btn sw-btn--solid sw-sticky__btn" data-sw-sticky-btn>Add to cart</button>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura sticky bag bar",
+  "settings": [],
+  "enabled_on": { "templates": ["product"] },
+  "presets": [{ "name": "Swansura sticky bag bar" }]
+}
+{% endschema %}
