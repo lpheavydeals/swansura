@@ -1,7 +1,7 @@
 {%- comment -%}
   Returns the URL of a vendor's brand page in `sw_brand_url` (assign via capture).
-  Deyga and Vilvah live on collections with legacy handles; other brands use the
-  collection named after the vendor if it has products, else Shopify's vendor page.
+  Deyga, Vilvah and a few other brands live on collections with legacy handles (map below);
+  other brands use the collection named after the vendor if it has products, else Shopify's vendor page.
   Usage: {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
 {%- endcomment -%}
 {%- liquid
@@ -12,6 +12,26 @@
     echo '/collections/milk-drop-brightening-serum'
   else
     assign h = vendor | handleize
+    case h
+      when 'tom-ford'
+        assign h = 'tomford'
+      when 'antonio-banderas'
+        assign h = 'antonio'
+      when 'yves-saint-laurent'
+        assign h = 'ysl'
+      when 'philipp-plein'
+        assign h = 'phillip-plein'
+      when 'joop'
+        assign h = 'joop-homme'
+      when 'jean-paul-gaultier'
+        assign h = 'jean-paul'
+      when 'hemel'
+        assign h = 'hemel-h'
+      when 'jo-milano'
+        assign h = 'luxury-collection-1'
+      when 'signature-d-orient'
+        assign h = 'signature-sillage-dorient'
+    endcase
     assign c = collections[h]
     if c != blank and c.products_count > 0
       echo c.url

@@ -1,18 +1,18 @@
 {%- comment -%} "More from <brand>": up to N other products from the product's brand collection. {%- endcomment -%}
+{%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
 {%- liquid
   assign v = product.vendor | downcase | strip
   assign brand_name = product.vendor
-  if v == 'deyga'
-    assign bc = collections['milk-drop-brightening-serum-1']
-  elsif v contains 'vilvah'
-    assign bc = collections['milk-drop-brightening-serum']
+  if v contains 'vilvah'
     assign brand_name = 'Vilvah'
-  elsif v == 'generic' or v contains 'swansura'
-    assign bc = nil
-  else
-    assign h = product.vendor | handleize
-    assign bc = collections[h]
   endif
+  assign bc = nil
+  unless v == 'generic' or v contains 'swansura'
+    if brand_url contains '/collections/'
+      assign h = brand_url | split: '/collections/' | last | strip
+      assign bc = collections[h]
+    endif
+  endunless
 -%}
 {%- if bc != blank and bc.products_count > 1 -%}
   {{ 'component-card.css' | asset_url | stylesheet_tag }}
