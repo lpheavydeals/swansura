@@ -1,0 +1,11 @@
+{%- comment -%} Cart page: free-delivery progress above the cart items. {%- endcomment -%}
+<div class="page-width sw-cart-goal-wrap">{% render 'sw-cart-goal' %}</div>
+
+{% schema %}
+{
+  "name": "Swansura delivery goal",
+  "settings": [],
+  "enabled_on": { "templates": ["cart"] },
+  "presets": [{ "name": "Swansura delivery goal" }]
+}
+{% endschema %}

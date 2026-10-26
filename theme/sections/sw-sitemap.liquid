@@ -1,0 +1,59 @@
+{%- comment -%}
+  HTML sitemap: every collection with products, store pages, blog articles, policies and all products
+  (paginated, 250 per page). Linked from the footer; submit /sitemap.xml in Search Console as well.
+{%- endcomment -%}
+<section class="sw-sec sw-sitemap">
+  <div class="page-width">
+    {%- paginate collections.all.products by 250 -%}
+      {%- if paginate.current_page == 1 -%}
+        <div class="sw-sitemap__grid">
+          <div>
+            <h2>Collections</h2>
+            <ul role="list">
+              {%- for c in collections -%}
+                {%- if c.products_count == 0 or c.handle == 'all' -%}{%- continue -%}{%- endif -%}
+                {%- if c.handle contains 'example-products' -%}{%- continue -%}{%- endif -%}
+                <li><a href="{{ c.url }}">{{ c.title | escape }}</a> <small>({{ c.products_count }})</small></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+          <div>
+            <h2>Pages</h2>
+            <ul role="list">
+              <li><a href="{{ routes.root_url }}">Home</a></li>
+              <li><a href="{{ routes.all_products_collection_url }}">All products</a></li>
+              <li><a href="{{ routes.collections_url }}">All collections</a></li>
+              {%- for pg in pages -%}
+                {%- unless pg.handle == page.handle -%}<li><a href="{{ pg.url }}">{{ pg.title | escape }}</a></li>{%- endunless -%}
+              {%- endfor -%}
+            </ul>
+            <h2>Journal</h2>
+            <ul role="list">
+              {%- for b in blogs -%}
+                {%- for a in b.articles limit: 50 -%}<li><a href="{{ a.url }}">{{ a.title | escape }}</a></li>{%- endfor -%}
+              {%- endfor -%}
+            </ul>
+            <h2>Help &amp; policies</h2>
+            <ul role="list">
+              {%- for pol in shop.policies -%}<li><a href="{{ pol.url }}">{{ pol.title | escape }}</a></li>{%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      {%- endif -%}
+      <h2>Products</h2>
+      <ul class="sw-sitemap__products" role="list">
+        {%- for p in collections.all.products -%}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{%- endfor -%}
+      </ul>
+      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
+    {%- endpaginate -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura sitemap",
+  "settings": [],
+  "enabled_on": { "templates": ["page"] },
+  "presets": [{ "name": "Swansura sitemap" }]
+}
+{% endschema %}

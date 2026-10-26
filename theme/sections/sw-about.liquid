@@ -1,0 +1,51 @@
+{%- comment -%}
+  About page body: intro, then value cards (blocks), with live catalogue counts.
+  Copy is limited to facts from the brief (official UK partner of Deyga and Vilvah, 100% authentic,
+  dispatched from the UK); no founder story until the client supplies one.
+{%- endcomment -%}
+<section class="sw-sec sw-about">
+  <div class="page-width sw-about__in">
+    <div class="sw-about__copy">
+      <div class="sw-eyebrow">{{ section.settings.eyebrow }}</div>
+      <h2>{{ section.settings.heading }}</h2>
+      <div class="rte">{{ section.settings.text }}</div>
+      <ul class="sw-about__facts" role="list">
+        <li><b>{{ collections.all.products_count }}</b><span>Products</span></li>
+        <li><b>100%</b><span>Authentic</span></li>
+        <li><b>1–2</b><span>Working days to dispatch</span></li>
+        <li><b>£40</b><span>Free UK delivery over</span></li>
+      </ul>
+    </div>
+    <ul class="sw-about__values" role="list">
+      {%- for block in section.blocks -%}
+        <li class="sw-about__v" {{ block.shopify_attributes }}>
+          <b>{{ block.settings.title }}</b>
+          <p>{{ block.settings.text }}</p>
+          {%- if block.settings.link != blank -%}<a class="sw-link" href="{{ block.settings.link }}">{{ block.settings.link_label }}</a>{%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura about",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "About Swansura" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Natural skincare and fine fragrance, from one UK studio" },
+    { "type": "richtext", "id": "text", "label": "Text" }
+  ],
+  "blocks": [
+    { "type": "value", "name": "Value", "settings": [
+      { "type": "text", "id": "title", "label": "Title" },
+      { "type": "textarea", "id": "text", "label": "Text" },
+      { "type": "url", "id": "link", "label": "Link" },
+      { "type": "text", "id": "link_label", "label": "Link label" }
+    ] }
+  ],
+  "max_blocks": 6,
+  "enabled_on": { "templates": ["page"] },
+  "presets": [{ "name": "Swansura about" }]
+}
+{% endschema %}

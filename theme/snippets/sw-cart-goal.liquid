@@ -1,0 +1,28 @@
+{%- comment -%}
+  Free-delivery progress for the cart drawer and cart page (server-rendered; Dawn re-renders the
+  drawer after every cart change). Offer values match sw-pdp: free UK delivery over £40, £5 off over £70.
+{%- endcomment -%}
+{%- liquid
+  assign free_min = 4000
+  assign bonus_min = 7000
+  assign total = cart.total_price
+  assign pct = total | times: 100 | divided_by: bonus_min
+  if pct > 100
+    assign pct = 100
+  endif
+-%}
+{%- if cart.item_count > 0 -%}
+  <div class="sw-cart-goal" data-sw-goal data-free="{{ free_min }}" data-bonus="{{ bonus_min }}" data-off="500">
+    <p data-sw-goal-text>
+      {%- if total >= bonus_min -%}
+        Your bag gets <b>free UK delivery and £5 off</b>.
+      {%- elsif total >= free_min -%}
+        <b>Free UK delivery unlocked.</b> Spend {{ bonus_min | minus: total | money }} more for £5 off.
+      {%- else -%}
+        Spend <b>{{ free_min | minus: total | money }}</b> more for free UK delivery.
+      {%- endif -%}
+    </p>
+    <span class="sw-pdp-ship__bar" aria-hidden="true"><i data-sw-goal-bar style="width:{{ pct }}%"></i></span>
+    <span class="sw-cart-goal__marks" aria-hidden="true"><i style="left:{{ free_min | times: 100 | divided_by: bonus_min }}%">£40</i><i style="left:100%">£70</i></span>
+  </div>
+{%- endif -%}

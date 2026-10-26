@@ -1,0 +1,93 @@
+{%- comment -%}
+  Swansura page: silk header (breadcrumbs, eyebrow, H1 = page title) and the page content.
+  Many store pages (Lipcare, Body care, Fragrance, Jo Milano…) are menu links with no text of their
+  own: when the page body is empty, the section shows the products of a matching collection instead
+  (from the "Page → collection" list, else the collection with the page's handle).
+{%- endcomment -%}
+{%- liquid
+  assign coll = blank
+  if page.content == blank
+    assign lines = section.settings.map | newline_to_br | split: '<br />'
+    for line in lines
+      assign pair = line | strip | split: ':'
+      assign ph = pair[0] | strip
+      if ph == page.handle
+        assign ch = pair[1] | strip
+        assign coll = collections[ch]
+        break
+      endif
+    endfor
+    if coll == blank and collections[page.handle].products_count > 0
+      assign coll = collections[page.handle]
+    endif
+  endif
+  assign tone = section.settings.tone
+  if tone == 'auto'
+    assign tone = 'skin'
+    if coll != blank
+      assign first = coll.products | first
+      assign fh = first.collections | map: 'handle'
+      if fh contains 'fragrance'
+        assign tone = 'scent'
+      endif
+    endif
+  endif
+  assign eyebrow = section.settings.eyebrow
+  if eyebrow == blank and coll != blank
+    assign eyebrow = 'Shop'
+  endif
+-%}
+<section class="sw-chead sw-chead--{{ tone }} sw-chead--page">
+  <div class="page-width sw-chead__in">
+    <nav class="sw-crumbs sw-crumbs--dark" aria-label="Breadcrumb">
+      <a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span>
+      <span aria-current="page">{{ page.title | escape }}</span>
+    </nav>
+    {%- if eyebrow != blank -%}<div class="sw-eyebrow sw-chead__eyebrow">{{ eyebrow | escape }}</div>{%- endif -%}
+    <h1 class="sw-chead__h1">{{ page.title | escape }}</h1>
+    {%- if section.settings.intro != blank -%}<div class="sw-chead__intro rte">{{ section.settings.intro }}</div>{%- endif -%}
+    {%- if coll != blank -%}<p class="sw-chead__count">{{ coll.products_count }} product{% if coll.products_count != 1 %}s{% endif %}</p>{%- endif -%}
+  </div>
+</section>
+{%- if page.content != blank and section.settings.show_content -%}
+  <section class="sw-sec sw-page">
+    <div class="page-width sw-page__in rte">{{ page.content }}</div>
+  </section>
+{%- elsif coll != blank -%}
+  {{ 'component-card.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <section class="sw-sec">
+    <div class="page-width">
+      <ul class="sw-grid grid product-grid" role="list">
+        {%- for p in coll.products limit: 24 -%}
+          <li class="grid__item">
+            {% render 'card-product', card_product: p, media_aspect_ratio: 'portrait', image_shape: 'default', show_secondary_image: true, show_vendor: false, show_rating: false, lazy_load: true, section_id: section.id, quick_add: 'standard' %}
+          </li>
+        {%- endfor -%}
+      </ul>
+      <p class="sw-page__more"><a class="sw-btn sw-btn--solid" href="{{ coll.url }}">Shop all {{ coll.products_count }} with filters</a></p>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura page",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow" },
+    { "type": "richtext", "id": "intro", "label": "Intro under the title" },
+    { "type": "select", "id": "tone", "label": "Colour", "default": "auto", "options": [
+      { "value": "auto", "label": "Detect (oud for fragrance)" },
+      { "value": "skin", "label": "Emerald" },
+      { "value": "scent", "label": "Oud" }
+    ] },
+    { "type": "checkbox", "id": "show_content", "label": "Show the page text", "default": true },
+    { "type": "textarea", "id": "map", "label": "Page → collection (for pages without text)", "info": "One per line: page-handle:collection-handle" }
+  ],
+  "enabled_on": { "templates": ["page"] },
+  "presets": [{ "name": "Swansura page" }]
+}
+{% endschema %}

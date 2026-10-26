@@ -1,0 +1,57 @@
+{%- comment -%}
+  Below an article: optional "Shop the story" products (article.metafields.custom.products), then
+  "Keep reading" (other articles in the blog). Dawn's main-article already outputs Article JSON-LD.
+{%- endcomment -%}
+{%- assign shop_list = article.metafields.custom.products.value -%}
+{%- if shop_list != blank -%}
+  {{ 'component-card.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <section class="sw-sec">
+    <div class="page-width">
+      <div class="sw-head"><h2>Shop the story</h2></div>
+      <ul class="sw-grid grid product-grid" role="list">
+        {%- for p in shop_list limit: 8 -%}
+          <li class="grid__item">{% render 'card-product', card_product: p, media_aspect_ratio: 'portrait', image_shape: 'default', show_secondary_image: true, show_vendor: false, show_rating: false, lazy_load: true, section_id: section.id, quick_add: 'standard' %}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}
+{%- assign others = 0 -%}
+{%- for a in blog.articles -%}{%- if a.id != article.id -%}{%- assign others = others | plus: 1 -%}{%- endif -%}{%- endfor -%}
+{%- if others > 0 -%}
+  <section class="sw-sec">
+    <div class="page-width">
+      <div class="sw-head"><h2>{{ section.settings.heading }}</h2><a class="sw-link" href="{{ blog.url }}">All stories</a></div>
+      <ul class="sw-posts" role="list">
+        {%- assign shown = 0 -%}
+        {%- for a in blog.articles -%}
+          {%- if a.id == article.id -%}{%- continue -%}{%- endif -%}
+          <li class="sw-post">
+            <a href="{{ a.url }}">
+              <span class="sw-post__img">{%- if a.image -%}{{ a.image | image_url: width: 600 | image_tag: loading: 'lazy', alt: a.image.alt | default: a.title }}{%- endif -%}</span>
+              <time datetime="{{ a.published_at | date: '%Y-%m-%d' }}">{{ a.published_at | date: '%-d %B %Y' }}</time>
+              <h3>{{ a.title | escape }}</h3>
+            </a>
+          </li>
+          {%- assign shown = shown | plus: 1 -%}
+          {%- if shown >= 3 -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Swansura article extras",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Keep reading heading", "default": "Keep reading" }
+  ],
+  "enabled_on": { "templates": ["article"] },
+  "presets": [{ "name": "Swansura article extras" }]
+}
+{% endschema %}

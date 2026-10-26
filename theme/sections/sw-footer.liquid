@@ -22,6 +22,8 @@
     <span>© {{ 'now' | date: '%Y' }} {{ shop.name }}</span>
     <nav aria-label="Policies">
       {%- for policy in shop.policies -%}<a href="{{ policy.url }}">{{ policy.title }}</a>{%- endfor -%}
+      {%- for l in section.settings.legal_links.links -%}<a href="{{ l.url }}">{{ l.title }}</a>{%- endfor -%}
+      {%- if section.settings.sitemap_url != blank -%}<a href="{{ section.settings.sitemap_url }}">Sitemap</a>{%- endif -%}
     </nav>
     <ul class="sw-footer__pay" aria-label="Payment methods">
       {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}</li>{%- endfor -%}
@@ -38,7 +40,9 @@
   "name": "Swansura footer",
   "settings": [
     { "type": "textarea", "id": "text", "label": "Text", "default": "Natural skincare and rare fragrance, 100% authentic and shipped from the UK." },
-    { "type": "richtext", "id": "promises", "label": "Promises list" }
+    { "type": "richtext", "id": "promises", "label": "Promises list" },
+    { "type": "link_list", "id": "legal_links", "label": "Extra legal-bar links (menu)" },
+    { "type": "url", "id": "sitemap_url", "label": "Sitemap page", "info": "A page using the 'sitemap' template" }
   ],
   "blocks": [
     { "type": "menu", "name": "Link column", "settings": [

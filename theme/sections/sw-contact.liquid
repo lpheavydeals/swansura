@@ -1,0 +1,29 @@
+{%- comment -%} Contact page: ways to reach Swansura (email, Instagram DM, orders, help pages). Dawn's contact form follows. {%- endcomment -%}
+<section class="sw-sec sw-contact">
+  <div class="page-width">
+    <div class="sw-head"><h2>{{ section.settings.heading }}</h2></div>
+    <ul class="sw-contact__cards" role="list">
+      {%- if shop.email != blank -%}
+        <li><a href="mailto:{{ shop.email }}"><b>Email us</b><span>{{ shop.email }}</span><small>{{ section.settings.email_note }}</small></a></li>
+      {%- endif -%}
+      {%- if settings.social_instagram_link != blank -%}
+        <li><a href="{{ settings.social_instagram_link }}" target="_blank" rel="noopener"><b>Message us on Instagram</b><span>@swansura_thebodystudio</span><small>Quick questions about products and orders</small></a></li>
+      {%- endif -%}
+      <li><a href="{{ routes.account_url }}"><b>Your orders</b><span>Track or view an order</span><small>Sign in with the email you ordered with</small></a></li>
+      <li><a href="{{ section.settings.help_url | default: '/pages/faq' }}"><b>Delivery &amp; returns</b><span>Answers to common questions</span><small>Free UK delivery over £40</small></a></li>
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura contact cards",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "How can we help?" },
+    { "type": "text", "id": "email_note", "label": "Email note", "default": "We reply on working days" },
+    { "type": "url", "id": "help_url", "label": "Help link (FAQ page)" }
+  ],
+  "enabled_on": { "templates": ["page"] },
+  "presets": [{ "name": "Swansura contact cards" }]
+}
+{% endschema %}

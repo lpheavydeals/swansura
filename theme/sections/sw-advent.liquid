@@ -1,0 +1,80 @@
+{%- comment -%}
+  Advent calendars (concept from the prototype). Each block is one calendar: name, tag, blurb and up
+  to 12 contents (real products; "worth" = sum of their current prices). Price and the buy button
+  appear only when the calendar itself exists as a product; until then the card shows "Coming soon"
+  with a sign-up link, so no price is invented.
+{%- endcomment -%}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+<section class="sw-sec sw-advents-sec">
+  <div class="page-width">
+    <div class="sw-advents">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign worth = 0
+          for it in block.settings.contents
+            assign worth = worth | plus: it.price
+          endfor
+          assign cal = block.settings.calendar
+        -%}
+        <article class="sw-advent sw-advent--{{ block.settings.tone }}" {{ block.shopify_attributes }}>
+          <div class="sw-advent__top">
+            <div class="sw-eyebrow">{{ block.settings.tag }}</div>
+            <h2>{{ block.settings.title }}</h2>
+            <p>{{ block.settings.blurb }}</p>
+            <div class="sw-advent__price">
+              {%- if cal != blank -%}
+                <b>{{ cal.price | money }}</b>
+                {%- if worth > cal.price -%}<s>Worth {{ worth | money }}</s><span class="sw-advent__save">Save {{ worth | minus: cal.price | money }}</span>{%- endif -%}
+              {%- else -%}
+                <span class="sw-advent__save">Coming soon</span>
+                {%- if worth > 0 -%}<s class="sw-advent__worth">Contents worth {{ worth | money }}</s>{%- endif -%}
+              {%- endif -%}
+            </div>
+            <div class="sw-advent__ctas">
+              {%- if cal != blank and cal.available -%}
+                <a class="sw-btn sw-btn--gold" href="{{ cal.url }}">Shop the calendar</a>
+              {%- else -%}
+                <a class="sw-btn sw-btn--light" href="#newsletter">Tell me when it's live</a>
+              {%- endif -%}
+            </div>
+          </div>
+          {%- if block.settings.contents.count > 0 -%}
+            <ol class="sw-advent__days" aria-label="What's inside">
+              {%- for it in block.settings.contents limit: 12 -%}
+                <li>
+                  <a href="{{ it.url }}">
+                    <span class="sw-advent__n">{{ forloop.index }}</span>
+                    {%- if it.featured_media -%}{{ it.featured_media | image_url: width: 240 | image_tag: loading: 'lazy', alt: it.featured_media.alt | default: it.title }}{%- endif -%}
+                    <span class="sw-advent__t">{{ it.title | split: ' – ' | first | truncatewords: 6 | escape }}</span>
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ol>
+          {%- endif -%}
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura advent",
+  "settings": [],
+  "blocks": [
+    { "type": "calendar", "name": "Calendar", "settings": [
+      { "type": "text", "id": "title", "label": "Name", "default": "The Skin Studio Advent" },
+      { "type": "text", "id": "tag", "label": "Tag line", "default": "12 days of natural rituals" },
+      { "type": "textarea", "id": "blurb", "label": "Description" },
+      { "type": "select", "id": "tone", "label": "Colour", "default": "skin", "options": [
+        { "value": "skin", "label": "Emerald" }, { "value": "scent", "label": "Oud" }
+      ] },
+      { "type": "product", "id": "calendar", "label": "Calendar product (shows price + buy button)" },
+      { "type": "product_list", "id": "contents", "label": "What's inside (12)", "limit": 12 }
+    ] }
+  ],
+  "max_blocks": 3,
+  "enabled_on": { "templates": ["page"] },
+  "presets": [{ "name": "Swansura advent", "blocks": [{ "type": "calendar" }] }]
+}
+{% endschema %}
