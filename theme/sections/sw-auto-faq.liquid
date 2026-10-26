@@ -1,7 +1,9 @@
 {%- comment -%}
   FAQ band generated from catalogue data (no hand-written answers needed), with FAQPage JSON-LD.
   Collection pages: product count, brands, price range, authenticity, delivery, returns.
-  Product pages: authenticity, partner status (Deyga/Vilvah), dispatch, free delivery, returns.
+  Product pages: the prototype's questions rebuilt from custom.sw (smell / for whom, or what it is /
+  ingredients / use / types), then authenticity, partner status (Deyga/Vilvah), delivery and returns.
+  Collections and Journal articles with a custom.faq metafield (prototype FAQs) show those instead.
   Extra questions can be added as blocks; they show after the generated ones.
   Sits below the newsletter, directly above the footer (agreed page order).
 {%- endcomment -%}
@@ -16,7 +18,29 @@
   endif
   assign delivery_a = 'Orders are dispatched from the UK within 1–2 working days. UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.'
 
+  assign faq_mf = blank
   if template.name == 'collection'
+    assign faq_mf = collection.metafields.custom.faq.value
+  elsif template.name == 'article'
+    assign faq_mf = article.metafields.custom.faq.value
+  endif
+
+  if faq_mf != blank
+    comment
+      Prototype FAQs uploaded per collection / Journal article: json [[question, answer], ...]
+    endcomment
+    for pair in faq_mf
+      assign qs = qs | append: pair[0] | append: sep
+      assign a = pair[1] | escape
+      assign as = as | append: a | append: sep
+    endfor
+    if template.name == 'article'
+      assign heading = article.title | split: ':' | first | append: ': questions'
+    else
+      assign heading = collection.title | append: ' questions'
+    endif
+
+  elsif template.name == 'collection'
     assign name = collection.title
     assign count = collection.products_count
     assign brands = ''
@@ -95,20 +119,76 @@
     if vl contains 'vilvah'
       assign brand_name = 'Vilvah'
     endif
-    assign qs = qs | append: 'Is ' | append: short | append: ' authentic?' | append: sep
+    assign partner = false
     if vl == 'deyga' or vl contains 'vilvah'
-      assign a = 'Yes. Swansura is an official UK partner of ' | append: brand_name | append: ', and every product we sell is 100% authentic.'
-    else
-      assign a = 'Yes. Every product we sell is 100% authentic.'
+      assign partner = true
     endif
-    assign as = as | append: a | append: sep
-    assign qs = qs | append: 'How quickly will my order arrive?' | append: sep
-    assign as = as | append: 'We dispatch from the UK within 1–2 working days, so most UK orders arrive within a few days of ordering.' | append: sep
-    assign qs = qs | append: 'Is UK delivery free?' | append: sep
-    assign as = as | append: 'UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.' | append: sep
-    assign qs = qs | append: 'Can I return it?' | append: sep
-    assign as = as | append: returns_a | append: sep
-    assign heading = 'Questions about ' | append: short
+    assign sw = product.metafields.custom.sw.value
+    assign delivery_p = 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £40, and orders over £70 get free delivery plus £5 off. ' | append: returns_a
+
+    if sw.f != blank
+      comment
+        Fragrance (custom.sw from the prototype): smell, who it is for, longevity, authenticity, delivery
+      endcomment
+      assign qs = qs | append: 'What does ' | append: short | append: ' smell like?' | append: sep
+      assign a = sw.a[0] | escape
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'Is it for men or women?' | append: sep
+      if sw.w == 'For him'
+        assign as = as | append: 'It is presented as a men’s fragrance, but scent has no rules.' | append: sep
+      elsif sw.w == 'For her'
+        assign as = as | append: 'It is presented as a women’s fragrance, but scent has no rules.' | append: sep
+      else
+        assign as = as | append: 'It is a unisex fragrance, worn by everyone.' | append: sep
+      endif
+      assign qs = qs | append: 'How do I make it last longer?' | append: sep
+      assign as = as | append: 'Apply to moisturised skin on pulse points (wrists, neck, behind the ears) and don’t rub. Layering over an unscented body butter helps it last.' | append: sep
+      assign qs = qs | append: 'Is this the genuine ' | append: brand_name | append: ' fragrance?' | append: sep
+      assign as = as | append: 'Yes. Every fragrance at Swansura is 100% authentic, sourced through authorised channels and shipped from the UK.' | append: sep
+      assign qs = qs | append: 'How fast is delivery, and can I return it?' | append: sep
+      assign as = as | append: delivery_p | append: sep
+
+    elsif sw.a != blank
+      comment
+        Skincare / hair / body (custom.sw): what it is, key ingredients, how to use, types, authenticity, delivery
+      endcomment
+      assign qs = qs | append: 'What is ' | append: short | append: '?' | append: sep
+      assign a = sw.a[0] | escape
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'What are the key ingredients?' | append: sep
+      assign a = sw.a[1] | escape
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'How do I use it?' | append: sep
+      assign a = sw.a[2] | escape
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'Which skin or hair types is it for?' | append: sep
+      assign a = sw.a[3] | escape
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'Is this the genuine ' | append: brand_name | append: ' product?' | append: sep
+      if partner
+        assign as = as | append: 'Yes. Swansura is an official UK partner of ' | append: brand_name | append: ', and stock comes direct from the brand.' | append: sep
+      else
+        assign as = as | append: 'Yes. Every product at Swansura is 100% authentic and sourced through authorised channels.' | append: sep
+      endif
+      assign qs = qs | append: 'How fast is delivery, and can I return it?' | append: sep
+      assign as = as | append: delivery_p | append: sep
+
+    else
+      assign qs = qs | append: 'Is ' | append: short | append: ' authentic?' | append: sep
+      if partner
+        assign a = 'Yes. Swansura is an official UK partner of ' | append: brand_name | append: ', and every product we sell is 100% authentic.'
+      else
+        assign a = 'Yes. Every product we sell is 100% authentic.'
+      endif
+      assign as = as | append: a | append: sep
+      assign qs = qs | append: 'How quickly will my order arrive?' | append: sep
+      assign as = as | append: 'We dispatch from the UK within 1–2 working days, so most UK orders arrive within a few days of ordering.' | append: sep
+      assign qs = qs | append: 'Is UK delivery free?' | append: sep
+      assign as = as | append: 'UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.' | append: sep
+      assign qs = qs | append: 'Can I return it?' | append: sep
+      assign as = as | append: returns_a | append: sep
+    endif
+    assign heading = short | append: ' questions'
   endif
 
   assign q_list = qs | split: sep
@@ -158,7 +238,7 @@
       { "type": "richtext", "id": "a", "label": "Answer" }
     ] }
   ],
-  "enabled_on": { "templates": ["product", "collection"] },
+  "enabled_on": { "templates": ["product", "collection", "article"] },
   "presets": [{ "name": "Swansura FAQs (auto)" }]
 }
 {% endschema %}

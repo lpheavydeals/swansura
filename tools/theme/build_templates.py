@@ -250,8 +250,9 @@ def day3_templates():
             }, "block_order": ["title", "featured_image", "content", "share"], "settings": {}},
             "more": {"type": "sw-article-more", "settings": {"heading": "Keep reading"}},
             "newsletter": NEWS,
+            "faq": {"type": "sw-auto-faq", "settings": {}},  # prototype article FAQs (custom.faq)
         },
-        "order": ["main", "more", "newsletter"],
+        "order": ["main", "more", "newsletter", "faq"],
     }
 
     t["search.json"] = {

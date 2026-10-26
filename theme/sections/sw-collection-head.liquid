@@ -1,5 +1,6 @@
 {%- comment -%}
   Collection / brand page header: silk band with breadcrumbs, eyebrow, H1, intro and product count.
+  - Eyebrow = collection.metafields.custom.eyebrow when set (the prototype's short page name), else by type.
   - H1 = collection.metafields.custom.h1 when set (keyword H1), else the collection title (no "Collection:" prefix).
   - Brand mode when every real vendor in the collection is one brand and the title names it
     (e.g. Tiziana Terenzi, Vilvah Store, Deyga Organics); Deyga and Vilvah get the partner eyebrow.
@@ -73,6 +74,9 @@
     assign eyebrow = 'Fragrance'
   else
     assign eyebrow = 'Shop'
+  endif
+  if collection.metafields.custom.eyebrow.value != blank
+    assign eyebrow = collection.metafields.custom.eyebrow.value
   endif
 -%}
 <section class="sw-chead sw-chead--{{ tone }}{% if is_brand %} sw-chead--brand{% endif %}">

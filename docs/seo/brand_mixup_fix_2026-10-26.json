@@ -1,0 +1,250 @@
+{
+ "products": [
+  {
+   "id": "gid://shopify/Product/16367216984451",
+   "vendor": "Azzaro",
+   "seo": {
+    "title": "Azzaro The Most Wanted Parfum 100ml | Swansura UK",
+    "description": "Buy Azzaro The Most Wanted Parfum 100ml for £60.99 at Swansura UK. An amber men's parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro The Most Wanted Parfum"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16367210561923",
+   "vendor": "Azzaro",
+   "seo": {
+    "title": "Azzaro The Most Wanted EDT Intense Gift Set | Swansura",
+    "description": "Buy Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml for £68.99 at Swansura UK. A woody men's eau de toilette. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16367198437763",
+   "vendor": "Azzaro",
+   "seo": {
+    "title": "Azzaro Pour Homme Deodorant Spray 150ml | Swansura UK",
+    "description": "Buy Azzaro Pour Homme Deodorant Spray 150ml for £22.99 at Swansura UK. An aromatic men's fragrance. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro Pour Homme Deodorant Spray"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16367171961219",
+   "vendor": "Azzaro",
+   "seo": {
+    "title": "Azzaro Chrome Legend 75ml EDT | Swansura UK",
+    "description": "Buy Azzaro Chrome Legend Eau de Toilette 75ml for £27.99 at Swansura UK. A fresh men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro Chrome Legend Eau de Toilette 75ml"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16367165276547",
+   "vendor": "Azzaro",
+   "seo": {
+    "title": "Azzaro Chrome Legend 125ml EDT | Swansura UK",
+    "description": "Buy Azzaro Chrome Legend Eau de Toilette 125ml for £33.99 at Swansura UK. A fresh men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro Chrome Legend Eau de Toilette 125ml"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16364242928003",
+   "vendor": "Boucheron",
+   "seo": {
+    "title": "Boucheron Rose d’Isparta EDP 125ml | Swansura UK",
+    "description": "Shop Boucheron Rose d’Isparta Eau de Parfum 125ml at Swansura UK. A unisex rose amber fragrance. 100% authentic, free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Boucheron Rose d’Isparta Eau de Parfum 125ml"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/16364237652355",
+   "vendor": "Boucheron",
+   "seo": {
+    "title": "Boucheron Patchouli d’Angkor EDP 125ml | Swansura UK",
+    "description": "Shop Boucheron Patchouli d’Angkor Eau de Parfum 125ml at Swansura UK. A unisex woody amber fragrance. 100% authentic, free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml"
+    }
+   ]
+  }
+ ],
+ "remove": {
+  "gid://shopify/Collection/713376792963": [
+   "gid://shopify/Product/16367216984451",
+   "gid://shopify/Product/16367210561923",
+   "gid://shopify/Product/16367198437763",
+   "gid://shopify/Product/16367171961219",
+   "gid://shopify/Product/16367165276547"
+  ],
+  "gid://shopify/Collection/713303032195": [
+   "gid://shopify/Product/16364242928003",
+   "gid://shopify/Product/16364237652355"
+  ]
+ },
+ "faq": {
+  "gid://shopify/Collection/713376792963": [
+   [
+    "Is Bentley at Swansura genuine?",
+    "Yes. Every Bentley product at Swansura is 100% authentic and ships from the UK."
+   ],
+   [
+    "Which Bentley products do you stock?",
+    "6 products, from £30.99 to £40.99: for him (6)."
+   ],
+   [
+    "Which Bentley product should I start with?",
+    "Good places to start are Bentley Momentum Unlimited Eau de Toilette 100ml, Bentley Infinite Eau de Toilette 100ml and Bentley Become Eau de Parfum 100ml."
+   ],
+   [
+    "Does Bentley come in miniatures or gift sets?",
+    "Not at the moment. Every Bentley product we stock is listed above."
+   ],
+   [
+    "How fast is Bentley delivery?",
+    "All Bentley orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout."
+   ]
+  ],
+  "gid://shopify/Collection/713303032195": [
+   [
+    "Is Antonio Banderas at Swansura genuine?",
+    "Yes. Every Antonio Banderas product at Swansura is 100% authentic and ships from the UK."
+   ],
+   [
+    "Which Antonio Banderas products do you stock?",
+    "4 products, from £16.99 to £20.99: for her (2), for him (2)."
+   ],
+   [
+    "Which Antonio Banderas product should I start with?",
+    "Good places to start are Power of Seduction Eau de Toilette 50ml, Her Secret Temptation Eau de Toilette 80ml and Diavolo Eau de Toilette."
+   ],
+   [
+    "Does Antonio Banderas come in miniatures or gift sets?",
+    "Not at the moment. Every Antonio Banderas product we stock is listed above."
+   ],
+   [
+    "How fast is Antonio Banderas delivery?",
+    "All Antonio Banderas orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout."
+   ]
+  ]
+ },
+ "create": [
+  {
+   "title": "Azzaro",
+   "handle": "azzaro",
+   "templateSuffix": "brand",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Azzaro fragrances for men, from The Most Wanted Parfum to Chrome Legend, 100% authentic and shipped from the UK.</p>",
+   "seo": {
+    "title": "Azzaro Perfume for Men | The Most Wanted & Chrome | Swansura",
+    "description": "Shop Azzaro perfume for men in the UK: The Most Wanted Parfum, Chrome Legend and Pour Homme. 100% authentic, free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Azzaro Perfume for Men"
+    },
+    {
+     "namespace": "custom",
+     "key": "eyebrow",
+     "type": "single_line_text_field",
+     "value": "The brand"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Azzaro at Swansura genuine?\", \"Yes. Every Azzaro product at Swansura is 100% authentic and ships from the UK.\"], [\"Which Azzaro products do you stock?\", \"5 products, from £22.99 to £68.99: for him (5).\"], [\"Which Azzaro product should I start with?\", \"Good places to start are Azzaro The Most Wanted Parfum 100ml, Azzaro Chrome Legend Eau de Toilette 75ml and Azzaro Pour Homme Deodorant Spray 150ml.\"], [\"Does Azzaro come in miniatures or gift sets?\", \"Yes, 1: Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml.\"], [\"How fast is Azzaro delivery?\", \"All Azzaro orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.\"]]"
+    }
+   ],
+   "products": [
+    "gid://shopify/Product/16367216984451",
+    "gid://shopify/Product/16367210561923",
+    "gid://shopify/Product/16367198437763",
+    "gid://shopify/Product/16367171961219",
+    "gid://shopify/Product/16367165276547"
+   ]
+  },
+  {
+   "title": "Boucheron",
+   "handle": "boucheron",
+   "templateSuffix": "brand",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Boucheron's unisex eaux de parfum, Rose d’Isparta and Patchouli d’Angkor, 100% authentic and shipped from the UK.</p>",
+   "seo": {
+    "title": "Boucheron Perfume | La Collection EDP 125ml | Swansura UK",
+    "description": "Shop Boucheron perfume in the UK: Rose d’Isparta and Patchouli d’Angkor eau de parfum, 125ml. 100% authentic, free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Boucheron Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "eyebrow",
+     "type": "single_line_text_field",
+     "value": "The brand"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Boucheron at Swansura genuine?\", \"Yes. Every Boucheron product at Swansura is 100% authentic and ships from the UK.\"], [\"Which Boucheron products do you stock?\", \"2 products, both £63.99: unisex (2).\"], [\"Which Boucheron product should I start with?\", \"Good places to start are Boucheron Rose d’Isparta Eau de Parfum 125ml and Boucheron Patchouli d’Angkor Eau de Parfum 125ml.\"], [\"Does Boucheron come in miniatures or gift sets?\", \"Not at the moment. Every Boucheron product we stock is listed above.\"], [\"How fast is Boucheron delivery?\", \"All Boucheron orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.\"]]"
+    }
+   ],
+   "products": [
+    "gid://shopify/Product/16364242928003",
+    "gid://shopify/Product/16364237652355"
+   ]
+  }
+ ]
+}
