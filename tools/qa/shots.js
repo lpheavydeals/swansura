@@ -1,13 +1,14 @@
 // Side-by-side screenshots: prototype (local server) vs draft theme preview.
 // node tools/qa/shots.js OUTDIR THEME_ID "protoRoute|storePath" ...  (widths 1366 and 390)
 const { chromium } = require('playwright');
+const curlRoute = require('./curl_route.js'); // store pages via curl while Shopify's bot check blocks the browser
 const [out, theme, ...pairs] = process.argv.slice(2);
 // LOCAL_CSS=path: replace the theme's sw-proto.css with a local build (check CSS changes before uploading)
 const localCss = process.env.LOCAL_CSS ? require('fs').readFileSync(process.env.LOCAL_CSS, 'utf8') : null;
 (async () => {
   const b = await chromium.launch();
   for (const w of [1366, 390]) {
-    const ctx = await b.newContext({ viewport: { width: w, height: 900 }, deviceScaleFactor: 1 });
+    const ctx = await b.newContext({ viewport: { width: w, height: 900 }, deviceScaleFactor: 1 }); await curlRoute(ctx, theme);
     const p = await ctx.newPage();
     await p.goto(`https://www.swansura.com/?preview_theme_id=${theme}`, { waitUntil: 'domcontentloaded' });
     for (const pair of pairs) {

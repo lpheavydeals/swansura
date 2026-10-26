@@ -62,13 +62,18 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .pagebody a{text-decoration:underline}
 .swp .pagebody ul,.swp .pagebody ol{padding-left:20px;display:flex;flex-direction:column;gap:6px}
 .swp .pagebody table{border-collapse:collapse;width:100%;font-size:15px}.swp .pagebody td,.swp .pagebody th{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left}
-.swp .cform{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;align-items:end}
+.swp .cform{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));min-width:0;gap:14px;align-items:end}
 .swp .cform label{display:flex;flex-direction:column;gap:6px;font-size:13px;letter-spacing:.06em;color:var(--ink)}
 .swp .cform .full,.swp .cform .okmsg,.swp .cform .errmsg{grid-column:1/-1}
-.swp .cform input,.swp .cform textarea{font:inherit;font-size:15px;letter-spacing:0;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+.swp .cform input,.swp .cform textarea{min-width:0;width:100%;font:inherit;font-size:15px;letter-spacing:0;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
 .swp .cform input:focus,.swp .cform textarea:focus{outline:2px solid var(--emerald);outline-offset:1px}
 .swp .cform .btn{justify-self:start}
 .swp .okmsg{color:var(--emerald)}.swp .errmsg{color:var(--sale)}
+/* phone tap targets (24px, WCAG 2.5.8) and fit, found by tools/qa/mobile_audit.js */
+.swp .brandcell{min-width:0}.swp .brandcell .blogo img{max-width:100%}
+.swp footer .legal nav a{display:inline-block;padding-block:3px}
+.swp a.p-link{display:inline-flex;align-items:center;min-height:24px}
+.swp .more a,.swp .more .page,.swp .more span{display:inline-block;min-width:28px;min-height:28px;padding:5px 8px;text-align:center}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}

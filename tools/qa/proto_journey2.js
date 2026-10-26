@@ -1,6 +1,7 @@
 // Journeys on the ported product / listing / advent / wishlist pages of the draft theme.
 // node tools/qa/proto_journey2.js THEME_ID
 const { chromium } = require('playwright');
+const curlRoute = require('./curl_route.js'); // pages via curl while Shopify's bot check blocks the browser
 const theme = process.argv[2];
 const PDP = '/products/milk-drops-brightening-serum-40-ml-rice-milk-alpha-arbutin-skin-brightening-treatment-for-dark-spots-uneven-skin-tone';
 const KIT = '/products/vilvah-goat-milk-hair-kit';
@@ -8,7 +9,7 @@ const KIT = '/products/vilvah-goat-milk-hair-kit';
   const b = await chromium.launch(); const res = [];
   const ok = (n, v, extra = '') => res.push(`${v ? 'PASS' : 'FAIL'} ${n} ${extra}`);
   for (const w of [1366, 390]) {
-    const ctx = await b.newContext({ viewport: { width: w, height: 900 } }); const p = await ctx.newPage();
+    const ctx = await b.newContext({ viewport: { width: w, height: 900 } }); await curlRoute(ctx, theme); const p = await ctx.newPage();
     const errs = []; p.on('pageerror', e => errs.push(e.message));
     const go = async u => { await p.goto('https://www.swansura.com' + u, { waitUntil: 'load', timeout: 60000 }); await p.addStyleTag({ content: '#preview-bar-iframe,#PBarNextFrameWrapper,#shopify-pc__banner{display:none!important}' }); await p.waitForTimeout(800); };
     const bagLines = async () => { await p.waitForSelector('#layer .bag', { timeout: 15000 }).catch(() => {}); return p.evaluate(() => [...document.querySelectorAll('#layer .bag .line')].map(l => l.querySelector('.qty span')?.textContent)); };
