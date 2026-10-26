@@ -1,0 +1,6 @@
+{"profile": "gid://shopify/DeliveryProfile/131849814403 (General profile)", "zone": "gid://shopify/DeliveryZone/631569842563 (United Kingdom)",
+ "methods": [
+  {"id": "gid://shopify/DeliveryMethodDefinition/1096035205507", "name": "Standard", "price": 2.0, "conditions": "TOTAL_PRICE >= 0 and <= 20"},
+  {"id": "gid://shopify/DeliveryMethodDefinition/1096035172739", "name": "Standard", "price": 3.0, "conditions": "TOTAL_PRICE >= 21 (condition gid://shopify/DeliveryCondition/94218715523)"},
+  {"id": "gid://shopify/DeliveryMethodDefinition/1096035238275", "name": "Express", "price": 4.0, "conditions": "none"}],
+ "note": "Shopify Collective profile (71 variants, CA/US/International carrier rates) not touched."}
