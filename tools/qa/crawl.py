@@ -1,7 +1,8 @@
 """Crawl the draft theme preview: status, Liquid errors, H1, title, description, canonical, JSON-LD, img alt, internal links."""
 import json, re, sys, http.cookiejar, urllib.request, concurrent.futures, html
 BASE = "https://www.swansura.com"
-THEME = "200301314435"
+import os
+THEME = os.environ.get("THEME", "200308064643")
 cj = http.cookiejar.CookieJar()
 op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
 op.addheaders = [("User-Agent", "Mozilla/5.0 (QA crawl)")]
