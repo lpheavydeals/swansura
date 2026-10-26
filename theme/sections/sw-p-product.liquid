@@ -161,11 +161,16 @@
   {%- if pcount > 0 -%}
     {%- capture ids -%}{{ v0.id }}{%- for h in pair -%},{%- render 'sw-p-variant', product: all_products[h] -%}{%- endfor -%}{%- endcapture -%}
     <div class="complete" style="margin-bottom:64px"><div><div class="eyebrow" style="margin-bottom:14px">{% if cat == 'fragrance' %}Complete the ritual: skin + scent{% else %}Complete the ritual{% endif %}</div><div class="items">
-      <a class="it" href="{{ product.url }}">{{ product.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}<span>{{ t | escape }}</span><b>{{ v0.price | money }}</b></a>
-      {%- for h in pair -%}{%- assign x = all_products[h] -%}{%- capture xn -%}{% render 'sw-p-name', product: x %}{%- endcapture -%}<span class="plus">+</span><a class="it" href="{{ x.url }}">{{ x.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', loading: 'lazy', alt: '' }}<span>{{ xn | escape }}</span><b>{{ x.selected_or_first_available_variant.price | money }}</b></a>{%- endfor -%}
+      <a class="it" href="{{ product.url }}">{{ product.featured_media.preview_image | image_url: width: 600 | image_tag: class: 'pic', loading: 'eager', widths: '300,600', sizes: '150px', alt: '' }}<span>{{ t | escape }}</span><b>{{ v0.price | money }}</b></a>
+      {%- for h in pair -%}{%- assign x = all_products[h] -%}{%- capture xn -%}{% render 'sw-p-name', product: x %}{%- endcapture -%}<span class="plus">+</span><a class="it" href="{{ x.url }}">{{ x.featured_media.preview_image | image_url: width: 600 | image_tag: class: 'pic', loading: 'eager', widths: '300,600', sizes: '150px', alt: '' }}<span>{{ xn | escape }}</span><b>{{ x.selected_or_first_available_variant.price | money }}</b></a>{%- endfor -%}
     </div></div><div style="display:flex;flex-direction:column;gap:12px">
       {%- if live -%}<div class="p-price" style="font-size:20px">{{ set_total | times: keep | round | money }} <s>{{ set_total | money }}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE {{ section.settings.bundle_save }}% WHEN BOUGHT TOGETHER</span>
-      {%- else -%}<div class="p-price" style="font-size:20px">{{ set_total | money }}</div>{%- endif -%}
+      {%- else -%}<div class="p-price" style="font-size:20px">{{ set_total | money }}</div>
+        {%- comment -%} no bundle discount in Shopify yet: say only what checkout really applies (the £5-off-over-£70 automatic discount, free delivery over £40) {%- endcomment -%}
+        {%- assign bmin = section.settings.bonus_min | times: 100 -%}{%- assign dmin = section.settings.delivery_min | times: 100 -%}
+        {%- if set_total >= bmin -%}<span style="color:#E8C98F;font-size:12px;letter-spacing:.12em;text-transform:uppercase">£{{ section.settings.bonus_off }} off + free UK delivery at checkout</span>
+        {%- elsif set_total >= dmin -%}<span style="color:#E8C98F;font-size:12px;letter-spacing:.12em;text-transform:uppercase">Free UK delivery on this set</span>{%- endif -%}
+      {%- endif -%}
       <button class="btn solid" data-addall="{{ ids }}">Add all {{ pcount | plus: 1 }} to bag</button></div></div>
   {%- endif -%}
 
