@@ -19,12 +19,32 @@
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains 'Swansura' %} &ndash; Swansura{% endunless -%}
+      {%- unless page_title contains 'Swansura' or page_title.size > 50 %} &ndash; Swansura{% endunless -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
+    {%- comment -%}
+      Meta description: the page's own SEO description; on pages without one (blog list, contact,
+      policies, cart …) a store line; long fallbacks (product/collection body text) cut to 160.
+    {%- endcomment -%}
+    {%- liquid
+      assign sw_tail = ' at Swansura: natural skincare and niche and designer perfume, 100% authentic, delivered from the UK.'
+      assign sw_desc = page_description | strip_newlines | strip
+      if template.name == 'index' and sw_desc.size > 160
+        assign sw_desc = 'Natural skincare UK from Deyga & Vilvah (official UK partner), plus niche and designer perfume. 100% authentic, free UK delivery over £40.'
+      elsif sw_desc == blank
+        assign sw_desc = page_title | append: sw_tail
+        if sw_desc.size > 160
+          assign sw_desc = page_title | append: ' at Swansura. 100% authentic, delivered from the UK.'
+        endif
+      endif
+      if sw_desc.size > 160
+        assign sw_desc = sw_desc | truncate: 158, '…'
+      endif
+    -%}
+    <meta name="description" content="{{ sw_desc | escape }}">
+    {%- if template.name == 'search' or template.name == 'cart' %}
+      <meta name="robots" content="noindex, follow">
+    {%- endif %}
 
     {% render 'meta-tags' %}
 

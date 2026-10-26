@@ -9,6 +9,16 @@
     <ul class="sw-recent__list" role="list" data-sw-recent-list></ul>
   </div>
 </section>
+{%- comment -%} Reserve the row before paint when this browser has viewed other products (no layout shift). {%- endcomment -%}
+<script>
+  (function () {
+    try {
+      var s = document.currentScript.previousElementSibling, c = s.dataset.current;
+      var l = JSON.parse(localStorage.getItem('sw-recent') || '[]').filter(function (h) { return h !== c; });
+      if (l.length) { s.hidden = false; s.classList.add('is-pending'); }
+    } catch (e) {}
+  })();
+</script>
 
 {% schema %}
 {

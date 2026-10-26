@@ -10,7 +10,19 @@
         <li><a href="{{ settings.social_instagram_link }}" target="_blank" rel="noopener"><b>Message us on Instagram</b><span>@swansura_thebodystudio</span><small>Quick questions about products and orders</small></a></li>
       {%- endif -%}
       <li><a href="{{ routes.account_url }}"><b>Your orders</b><span>Track or view an order</span><small>Sign in with the email you ordered with</small></a></li>
-      <li><a href="{{ section.settings.help_url | default: '/pages/faq' }}"><b>Delivery &amp; returns</b><span>Answers to common questions</span><small>Free UK delivery over £40</small></a></li>
+      {%- liquid
+        assign help = section.settings.help_url | default: '/pages/faq'
+        if help contains '/pages/'
+          assign help_page = help | split: '/pages/' | last
+          if pages[help_page].id == blank
+            assign help = routes.root_url | append: 'policies/shipping-policy'
+            if shop.shipping_policy == blank
+              assign help = shop.refund_policy.url | default: routes.root_url
+            endif
+          endif
+        endif
+      -%}
+      <li><a href="{{ help }}"><b>Delivery &amp; returns</b><span>Answers to common questions</span><small>Free UK delivery over £40</small></a></li>
     </ul>
   </div>
 </section>

@@ -92,7 +92,7 @@ h2,.h2{font-weight:800}
 .sw-hero__float{position:absolute;left:0;bottom:0;width:42%;background:#fff;color:var(--sw-ink);overflow:hidden;box-shadow:0 30px 60px -24px rgba(0,0,0,.55)}
 .sw-hero__float .sw-hero__slide{padding:10px 10px 14px}
 .sw-hero__float img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:var(--sw-mount);display:block}
-.sw-hero__float small{display:block;margin-top:10px;font-size:1rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sw-brass-ink);font-weight:600}
+.sw-hero__float small{display:block;margin-top:10px;font-size:1.1rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sw-brass-ink);font-weight:600}
 .sw-hero__float span{display:block;font-size:1.3rem;line-height:1.35;margin-top:3px}
 .sw-hero__float b{display:block;font-size:1.3rem;margin-top:6px}
 @media (max-width:900px){
@@ -480,3 +480,17 @@ body.sw-has-sticky{padding-bottom:72px}
 .shopify-policy__body{font-size:1.6rem;line-height:1.75;color:var(--sw-ink-2)}
 .shopify-policy__body h2,.shopify-policy__body h3,.shopify-policy__body strong{color:var(--sw-ink)}
 .shopify-policy__body a{color:var(--sw-emerald)}
+
+/* ---- Day 5 QA fixes (26 Oct 2026) ---- */
+/* Tap targets of at least 24px: announcement links, section 'Shop all' links, footer links */
+/* (padding, not inline-flex: flex drops the spaces around <strong> inside the links) */
+.sw-announce a{display:inline-block;padding-block:4px}
+.sw-link{display:inline-block;padding-block:3px}
+.sw-footer a{display:inline-block;padding-block:2px}
+/* No text under 11px: tax note, share 'Link' label, floating field labels */
+.product__tax{font-size:1.2rem}
+.share-button .field__label{font-size:1.2rem}
+.field__input:focus~.field__label,.field__input:not(:placeholder-shown)~.field__label{font-size:1.1rem}
+/* Recently viewed: space reserved before the cards load */
+.sw-recent.is-pending .sw-recent__list{min-height:240px}
+@media (min-width:990px){.sw-recent.is-pending .sw-recent__list{min-height:320px}}

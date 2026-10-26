@@ -111,7 +111,8 @@
     const ul = sec.querySelector('[data-sw-recent-list]');
     Promise.all(show.map(h => fetch(`/products/${h}.js`).then(r => r.ok ? r.json() : null).catch(() => null))).then(ps => {
       ps = ps.filter(Boolean);
-      if (!ps.length) return;
+      sec.classList.remove('is-pending');
+      if (!ps.length) { sec.hidden = true; return; }
       ul.innerHTML = ps.map(p => {
         const img = p.featured_image ? `<img src="${p.featured_image}${p.featured_image.includes('?') ? '&' : '?'}width=360" alt="" loading="lazy" width="360" height="450">` : '';
         const t = String(p.title).split(' – ')[0].replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

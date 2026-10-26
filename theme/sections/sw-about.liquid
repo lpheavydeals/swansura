@@ -21,7 +21,16 @@
         <li class="sw-about__v" {{ block.shopify_attributes }}>
           <b>{{ block.settings.title }}</b>
           <p>{{ block.settings.text }}</p>
-          {%- if block.settings.link != blank -%}<a class="sw-link" href="{{ block.settings.link }}">{{ block.settings.link_label }}</a>{%- endif -%}
+          {%- liquid
+            assign link = block.settings.link
+            if link contains '/pages/'
+              assign link_page = link | split: '/pages/' | last
+              if pages[link_page].id == blank
+                assign link = shop.refund_policy.url
+              endif
+            endif
+          -%}
+          {%- if link != blank -%}<a class="sw-link" href="{{ link }}">{{ block.settings.link_label }}</a>{%- endif -%}
         </li>
       {%- endfor -%}
     </ul>
