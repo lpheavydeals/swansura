@@ -271,6 +271,7 @@ hg["sections"] = {"sw-announcement": ann, "sw-header": {"type": "sw-header", "se
     "feat_skin_item": "Skincare", "feat_skin": handle_of("15415435067779"),
     "feat_scent_item": "Fragrance", "feat_scent": handle_of("16274498945411"),
     "brands_url": "/collections", "wishlist_url": "/pages/wishlist",
+    "whatsapp": "+44 7438 847453", "email": "info@swansura.com",
     "skin_url": "/collections/skincare", "scent_url": "/collections/fragrance",
     "extras_collection": "price-0-15", "delivery_min": 40, "bonus_min": 70, "bonus_off": 5}}}
 hg["order"] = ["sw-announcement", "sw-header"]

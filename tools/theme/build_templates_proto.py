@@ -92,7 +92,7 @@ page = {"main": {"type": "sw-p-page", "settings": {"map": MAP, "chips": chips}},
 write("page.json", page, ["main", "newsletter"])
 write("page.about.json", page, ["main", "newsletter"])
 write("page.contact.json", {"main": {"type": "sw-p-page", "settings": {"form": True, "chips": chips, "heading": "Contact us",
-    "lede": "<p>Questions about an order, a product or a fragrance recommendation? Message us on Instagram @swansura_thebodystudio or use the contact form.</p>"}}, "newsletter": NEWS},
+    "lede": "<p>Questions about an order, a product or a fragrance recommendation? Message us on <a href=\"https://wa.me/447438847453\">WhatsApp: +44 7438 847453</a> (messages only), email <a href=\"mailto:info@swansura.com\">info@swansura.com</a>, or use the form below.</p>"}}, "newsletter": NEWS},
       ["main", "newsletter"])
 old_faq = OLD_PAGE.get("sections", {}).get("faq", {})
 fb = {k: {"type": "faq", "settings": v["settings"]} for k, v in old_faq.get("blocks", {}).items()}

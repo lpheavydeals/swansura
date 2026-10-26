@@ -111,7 +111,8 @@
     <div class="cp-head"><b>Hi, how can we help?</b><button data-chatclose aria-label="Close help">×</button></div>
     <p>We usually reply within a few hours, Monday to Friday.</p>
     {%- if settings.social_instagram_link != blank -%}<a class="cp-opt" href="https://ig.me/m/swansura_thebodystudio" target="_blank" rel="noopener"><b>Message us on Instagram</b><small>@swansura_thebodystudio</small></a>{%- endif -%}
-    <a class="cp-opt" href="/pages/contact" data-chatclose><b>WhatsApp or email</b><small>Number and address on our contact page</small></a>
+    {%- if section.settings.whatsapp != blank -%}{%- assign wa = section.settings.whatsapp | remove: ' ' | remove: '+' -%}<a class="cp-opt" href="https://wa.me/{{ wa }}" target="_blank" rel="noopener"><b>Message us on WhatsApp</b><small>{{ section.settings.whatsapp }} · messages only</small></a>{%- endif -%}
+    {%- if section.settings.email != blank -%}<a class="cp-opt" href="mailto:{{ section.settings.email }}"><b>Email us</b><small>{{ section.settings.email }}</small></a>{%- endif -%}
     <div class="cp-q"><span class="eyebrow">Quick answers</span><a href="/pages/shipping" data-chatclose>Delivery and returns</a><a href="/pages/offers" data-chatclose>Offers and discount codes</a><a href="/pages/faq" data-chatclose>Is everything authentic?</a><a href="/collections/perfume-gift-sets" data-chatclose>Help me choose a gift</a></div>
   </div>
 </div>
@@ -129,6 +130,8 @@
     { "type": "product", "id": "feat_scent", "label": "Fragrance feature product" },
     { "type": "url", "id": "brands_url", "label": "Brands A–Z link" },
     { "type": "url", "id": "wishlist_url", "label": "Wishlist page" },
+    { "type": "text", "id": "whatsapp", "label": "Help panel: WhatsApp number (messages only)", "default": "+44 7438 847453" },
+    { "type": "text", "id": "email", "label": "Help panel: email", "default": "info@swansura.com" },
     { "type": "url", "id": "skin_url", "label": "Drawer: Skin Studio link" },
     { "type": "url", "id": "scent_url", "label": "Drawer: Scent Studio link" },
     { "type": "collection", "id": "extras_collection", "label": "Bag 'Little extras' from" },

@@ -6,6 +6,7 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
 - **Agency:** Lokesh · www.thebilliongame.com (India-based).
 - **Client:** Swansura — "Swansura - The Body Studio". UK online retailer of Indian natural skincare (Vilvah, Deyga, …) and Arabian fragrance brands. Official seller, not exclusive partner.
   - Store: swansura.com (Shopify) · Instagram @swansura_thebodystudio · also on Amazon UK.
+  - Contact (client, 26 Oct 2026): email info@swansura.com · WhatsApp +44 7438 847453 (messages only, no calls). Shown in the help panel (sw-header settings) and on /pages/contact.
 - **Competitors:** LOOKFANTASTIC, Cult Beauty (leaders); Beauty Bay, Space NK (contemporaries).
 - **Design benchmarks:** Forest Essentials, The Body Shop, Mamaearth. SEO-structure reference: indicrest.co.uk.
 
