@@ -13,7 +13,7 @@
       {%- assign arts = search.results | where: 'object_type', 'article' -%}
       <section style="padding-top:24px"><div class="sec-head"><div><h2>{{ search.results_count }} result{% if search.results_count != 1 %}s{% endif %}</h2></div></div>
         {%- if prods.size > 0 -%}<div class="grid-p">{%- for p in prods -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div>{%- endif -%}
-        {%- if others.size > 0 or arts.size > 0 -%}<div class="kwchips" style="margin-top:32px"><span class="eyebrow">Pages and stories</span><div>{%- for x in others -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}{%- for x in arts -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
+        {%- if others.size > 0 or arts.size > 0 -%}<div class="kwchips srch-links" style="margin-top:32px"><span class="eyebrow">Pages and stories</span><div>{%- for x in others -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}{%- for x in arts -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
         {%- if search.results_count == 0 -%}<p class="lede" style="padding:40px 0">Nothing matched “{{ search.terms | escape }}”. Try a brand, a product type or a concern, or browse <a href="{{ routes.all_products_collection_url }}" style="text-decoration:underline">all products</a>.</p>{%- endif -%}
         {%- if paginate.pages > 1 -%}<div class="more">{{ paginate | default_pagination }}</div>{%- endif -%}
       </section>

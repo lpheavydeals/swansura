@@ -74,6 +74,9 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp footer .legal nav a{display:inline-block;padding-block:3px}
 .swp a.p-link{display:inline-flex;align-items:center;min-height:24px}
 .swp .more a,.swp .more .page,.swp .more span{display:inline-block;min-width:28px;min-height:28px;padding:5px 8px;text-align:center}
+/* search page: long page / article titles wrap inside their pills */
+.swp .srch-links a{white-space:normal;max-width:100%}
+.swp .srch-links>div{flex-wrap:wrap;overflow:visible}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
