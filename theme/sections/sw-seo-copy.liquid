@@ -1,0 +1,20 @@
+{%- comment -%} 'About this page' SEO copy block (H2 + paragraphs/H3s with internal links). {%- endcomment -%}
+<section class="sw-sec sw-seo">
+  <div class="page-width sw-seo__in">
+    <div class="sw-eyebrow">{{ section.settings.eyebrow }}</div>
+    <h2>{{ section.settings.heading }}</h2>
+    <div class="sw-seo__body rte">{{ section.settings.body }}</div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura SEO copy",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "About this page" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "body", "label": "Text" }
+  ],
+  "presets": [{ "name": "Swansura SEO copy" }]
+}
+{% endschema %}

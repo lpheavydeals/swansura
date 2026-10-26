@@ -1,0 +1,31 @@
+{%- comment -%} The Skin Studio / The Scent Studio panels. {%- endcomment -%}
+<section class="sw-sec sw-studios">
+  <div class="sw-studios__grid">
+    {%- for block in section.blocks -%}
+      <div class="sw-studio sw-studio--{{ block.settings.style }}" {{ block.shopify_attributes }}>
+        <span class="sw-studio__mark" aria-hidden="true">{{ block.settings.mark }}</span>
+        <h2>{{ block.settings.title }}</h2>
+        <p>{{ block.settings.text }}</p>
+        {%- if block.settings.links != blank -%}<div class="sw-studio__links">{{ block.settings.links }}</div>{%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura studios",
+  "settings": [],
+  "blocks": [
+    { "type": "studio", "name": "Studio", "settings": [
+      { "type": "select", "id": "style", "label": "Colour", "default": "skin", "options": [ { "value": "skin", "label": "Emerald (skin)" }, { "value": "scent", "label": "Oud (scent)" } ] },
+      { "type": "text", "id": "mark", "label": "Large background word", "default": "Skin" },
+      { "type": "text", "id": "title", "label": "Heading", "default": "The Skin Studio" },
+      { "type": "textarea", "id": "text", "label": "Text" },
+      { "type": "inline_richtext", "id": "links", "label": "Links (add each as a link)" }
+    ] }
+  ],
+  "max_blocks": 2,
+  "presets": [{ "name": "Swansura studios", "blocks": [{ "type": "studio" }, { "type": "studio" }] }]
+}
+{% endschema %}

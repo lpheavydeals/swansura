@@ -122,7 +122,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
@@ -444,7 +444,6 @@
       ".card-wrapper .card__information {display: flex; flex-direction: column; height: 100%;}",
       ".card-wrapper .card__heading {min-height: 4.5em;}",
       ".card-wrapper .card-information {margin-top: auto;}",
-      " /* Remove card-box appearance */.card--standard {background: transparent !important; box-shadow: none !important; border: 0 !important;}",
       " /* Keep quick add aligned */.card-wrapper .quick-add {margin-top: auto;}"
     ]
   }

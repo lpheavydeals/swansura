@@ -1,38 +1,39 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "sw-announcement": {
+      "type": "sw-announcement",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "m1": {
+          "type": "message",
           "settings": {
-            "text": "Free UK Shipping On Orders Above £50",
+            "text": "Save <strong>5%</strong> on routines &amp; bundles",
+            "link": "shopify://collections/sets-combos"
+          }
+        },
+        "m2": {
+          "type": "message",
+          "settings": {
+            "text": "Free UK delivery over <strong>£40</strong> · <strong>£5 off</strong> over £70",
             "link": "shopify://collections/all"
+          }
+        },
+        "m3": {
+          "type": "message",
+          "settings": {
+            "text": "Official UK partner of <strong>Deyga</strong> &amp; <strong>Vilvah</strong>",
+            "link": "shopify://collections/milk-drop-brightening-serum-1"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "m1",
+        "m2",
+        "m3"
       ],
       "settings": {
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "color_scheme": "scheme-4",
-        "show_line_separator": true,
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "speed": 1
       }
     },
     "header": {
@@ -55,7 +56,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "sw-announcement",
     "header"
   ]
 }

@@ -1,0 +1,52 @@
+{%- comment -%}
+  Swansura footer: white logo + promise list, link columns from menus (accordions on phones),
+  payment badges from the store's enabled payment types, legal bar, faded SWANSURA wordmark.
+{%- endcomment -%}
+<footer class="sw-footer">
+  <div class="page-width sw-footer__in">
+    <div class="sw-footer__brand">
+      <img src="{{ 'swansura-logo-white.webp' | file_url }}" alt="{{ shop.name | escape }}" width="99" height="60" loading="lazy">
+      <p>{{ section.settings.text }}</p>
+      {%- if section.settings.promises != blank -%}<div class="sw-footer__promises">{{ section.settings.promises }}</div>{%- endif -%}
+      {%- if settings.social_instagram_link != blank -%}<a class="sw-footer__social" href="{{ settings.social_instagram_link }}" rel="noopener">Instagram</a>{%- endif -%}
+    </div>
+    {%- for block in section.blocks -%}
+      {%- assign menu = linklists[block.settings.menu] -%}
+      <details class="sw-footer__col" {{ block.shopify_attributes }} open>
+        <summary><h3>{{ block.settings.heading | default: menu.title }}</h3></summary>
+        <ul>{%- for l in menu.links -%}<li><a href="{{ l.url }}">{{ l.title }}</a></li>{%- endfor -%}</ul>
+      </details>
+    {%- endfor -%}
+  </div>
+  <div class="page-width sw-footer__legal">
+    <span>© {{ 'now' | date: '%Y' }} {{ shop.name }}</span>
+    <nav aria-label="Policies">
+      {%- for policy in shop.policies -%}<a href="{{ policy.url }}">{{ policy.title }}</a>{%- endfor -%}
+    </nav>
+    <ul class="sw-footer__pay" aria-label="Payment methods">
+      {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}</li>{%- endfor -%}
+    </ul>
+  </div>
+  <div class="sw-footer__mark" aria-hidden="true">SWANSURA</div>
+</footer>
+<script>
+  if (window.matchMedia('(max-width: 720px)').matches) document.querySelectorAll('.sw-footer__col').forEach(d => d.removeAttribute('open'));
+</script>
+
+{% schema %}
+{
+  "name": "Swansura footer",
+  "settings": [
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Natural skincare and rare fragrance, 100% authentic and shipped from the UK." },
+    { "type": "richtext", "id": "promises", "label": "Promises list" }
+  ],
+  "blocks": [
+    { "type": "menu", "name": "Link column", "settings": [
+      { "type": "text", "id": "heading", "label": "Heading" },
+      { "type": "link_list", "id": "menu", "label": "Menu" }
+    ] }
+  ],
+  "max_blocks": 5,
+  "presets": [{ "name": "Swansura footer" }]
+}
+{% endschema %}

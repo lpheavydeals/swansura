@@ -1,0 +1,44 @@
+{%- comment -%}
+  Swansura announcement bar: all messages side by side on wide screens; one at a time,
+  changing every second, up to 1320px (messages rotate in swansura.js).
+{%- endcomment -%}
+{%- comment -%} The announcement section is in the header group on every page, so it also loads the Swansura design system. {%- endcomment -%}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..600&display=swap">
+{{ 'swansura.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'swansura.js' | asset_url }}" defer="defer"></script>
+<aside class="sw-announce" aria-label="{{ 'sections.announcement_bar.announcement' | t | default: 'Announcements' }}" data-sw-rotate="{{ section.settings.speed | times: 1000 }}">
+  <div class="sw-announce__in page-width">
+    {%- for block in section.blocks -%}
+      <div class="sw-announce__msg{% if forloop.first %} is-on{% endif %}" {{ block.shopify_attributes }}>
+        {%- if block.settings.link != blank -%}
+          <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
+        {%- else -%}
+          <span>{{ block.settings.text }}</span>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</aside>
+
+{% schema %}
+{
+  "name": "Swansura announcement",
+  "class": "sw-announce-section",
+  "settings": [
+    { "type": "range", "id": "speed", "label": "Seconds per message on phones and tablets", "min": 1, "max": 6, "step": 1, "default": 1 }
+  ],
+  "blocks": [
+    {
+      "type": "message",
+      "name": "Message",
+      "settings": [
+        { "type": "inline_richtext", "id": "text", "label": "Text (bold shows in gold)", "default": "Free UK delivery over <strong>£40</strong>" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [{ "name": "Swansura announcement", "blocks": [{ "type": "message" }] }]
+}
+{% endschema %}

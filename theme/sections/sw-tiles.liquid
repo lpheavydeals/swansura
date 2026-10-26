@@ -1,0 +1,74 @@
+{%- comment -%}
+  Tile rail used for Shop by category, Shop by price, Shop by concern, Ranges, Scent families and brands.
+  Each tile links anywhere; its picture comes from the tile image, else the chosen collection's image,
+  else the first product in that collection. On phones: up to 4 tiles = 2×2 grid, more = two rows that scroll.
+{%- endcomment -%}
+<section class="sw-sec sw-tiles sw-tiles--{{ section.settings.style }}{% if section.settings.band %} sw-band{% endif %}">
+  <div class="page-width">
+    {%- if section.settings.heading != blank -%}
+      <div class="sw-head">
+        <h2>{{ section.settings.heading }}</h2>
+        {%- if section.settings.link_label != blank -%}<a class="sw-link" href="{{ section.settings.link_url }}">{{ section.settings.link_label }}</a>{%- endif -%}
+      </div>
+    {%- endif -%}
+    <div class="sw-rail">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign c = block.settings.collection
+          assign img = block.settings.image
+          if img == blank and c != blank
+            assign img = c.featured_image
+            if img == blank
+              assign img = c.products.first.featured_media
+            endif
+          endif
+          assign url = block.settings.link
+          if url == blank and c != blank
+            assign url = c.url
+          endif
+          assign tint = forloop.index0 | modulo: 6 | plus: 1
+        -%}
+        <a class="sw-tile" href="{{ url | default: '#' }}" style="--tint:var(--sw-tint-{{ tint }})" {{ block.shopify_attributes }}>
+          {%- if img != blank and section.settings.style != 'family' -%}
+            <span class="sw-tile__img">{{ img | image_url: width: 500 | image_tag: widths: '250, 375, 500', sizes: '(min-width: 990px) 16vw, 45vw', loading: 'lazy', alt: '' }}</span>
+          {%- endif -%}
+          <span class="sw-tile__txt">
+            <b>{{ block.settings.title | default: c.title }}</b>
+            {%- if block.settings.subtitle != blank -%}<small>{{ block.settings.subtitle }}</small>{%- endif -%}
+            {%- if section.settings.show_count and c != blank -%}<em>{{ c.products_count }} products →</em>{%- endif -%}
+          </span>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Swansura tiles",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Shop by category" },
+    { "type": "text", "id": "link_label", "label": "Link label" },
+    { "type": "url", "id": "link_url", "label": "Link" },
+    { "type": "select", "id": "style", "label": "Style", "default": "category", "options": [
+      { "value": "category", "label": "Category (round image)" },
+      { "value": "price", "label": "Price band (wide card)" },
+      { "value": "concern", "label": "Concern (tinted card + image)" },
+      { "value": "family", "label": "Scent family (text card)" },
+      { "value": "brand", "label": "Brand (tinted card + image)" }
+    ] },
+    { "type": "checkbox", "id": "show_count", "label": "Show product count", "default": false },
+    { "type": "checkbox", "id": "band", "label": "Tinted background band", "default": false }
+  ],
+  "blocks": [
+    { "type": "tile", "name": "Tile", "settings": [
+      { "type": "text", "id": "title", "label": "Title" },
+      { "type": "text", "id": "subtitle", "label": "Subtitle" },
+      { "type": "collection", "id": "collection", "label": "Collection (image, count and link)" },
+      { "type": "url", "id": "link", "label": "Link (overrides the collection)" },
+      { "type": "image_picker", "id": "image", "label": "Image (overrides the collection)" }
+    ] }
+  ],
+  "presets": [{ "name": "Swansura tiles", "blocks": [{ "type": "tile" }, { "type": "tile" }, { "type": "tile" }, { "type": "tile" }] }]
+}
+{% endschema %}
