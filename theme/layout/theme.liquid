@@ -24,6 +24,12 @@
       if request.page_type == 'collection' and collection.handle == 'all'
         assign sw_all = true
         assign sw_title = 'Fragrances UK, Skincare UK & Haircare UK | Swansura'
+      elsif request.page_type == 'list-collections'
+        comment
+          /collections is the Brands A–Z page (sw-p-brands); Shopify's default title is 'Collections' (SEO crawl 27 Oct 2026)
+        endcomment
+        assign sw_all = true
+        assign sw_title = 'Perfume & Skincare Brands A–Z | Swansura'
       endif
     -%}
     <title>
@@ -40,7 +46,9 @@
     {%- liquid
       assign sw_tail = ' at Swansura: natural skincare and niche and designer perfume, 100% authentic, delivered from the UK.'
       assign sw_desc = page_description | strip_newlines | strip
-      if sw_all
+      if sw_all and request.page_type == 'list-collections'
+        assign sw_desc = 'Every perfume and skincare brand at Swansura, A to Z: Deyga, Vilvah, Highborn London, Al Haramain, Tom Ford, Gucci and more. 100% authentic, UK delivery.'
+      elsif sw_all
         assign sw_desc = 'Shop fragrances, skincare and haircare in the UK: ' | append: collection.products_count | append: ' products, from Deyga and Vilvah natural care to niche and designer perfume. Free UK delivery over £40.'
       elsif template.name == 'index' and sw_desc.size > 160
         assign sw_desc = 'Natural skincare UK from Deyga & Vilvah (official UK partner), plus niche and designer perfume. 100% authentic, free UK delivery over £40.'
@@ -55,11 +63,12 @@
       endif
     -%}
     <meta name="description" content="{{ sw_desc | escape }}">
-    {%- if template.name == 'search' or template.name == 'cart' %}
+    {%- if template.name == 'search' or template.name == 'cart' or request.page_type == 'page' and page.handle == 'wishlist' %}
       <meta name="robots" content="noindex, follow">
     {%- endif %}
 
     {% render 'meta-tags', sw_all: sw_all, sw_title: sw_title, sw_desc: sw_desc %}
+    {% render 'sw-schema' %}
 
     <script type="module">
       import * as StandardEvents from 'https://cdn.shopify.com/storefront/standard-events.js';
