@@ -89,6 +89,31 @@
     bar.querySelector('.ab-x').addEventListener('click', () => bar.remove());
     addedTimer = setTimeout(() => bar.remove(), 6000);
   }
+  /* Sold out: 'Notify' opens a small email pop-up (user, 27 Oct 2026) instead of sending shoppers to the product
+     page and then the contact page. The request goes to the store inbox through Shopify's contact form. */
+  function backInStock(title, url) {
+    openLayer(`<div class="scrim" data-close></div><form class="bis" role="dialog" aria-modal="true" aria-labelledby="bisT" novalidate>
+      <button type="button" class="bis-x" data-close aria-label="Close">×</button>
+      <span class="eyebrow">Back in stock</span><h3 id="bisT">Get an email when it's back</h3><p class="bis-p">${esc(title)}</p>
+      <label class="sr-only" for="bisE">Email address</label><input id="bisE" type="email" name="email" placeholder="Your email address" autocomplete="email" required>
+      <button class="btn solid" type="submit">Notify me</button><p class="bis-note">We'll only use your email to tell you when this product is back.</p></form>`);
+    const f = $('.bis'), inp = $('#bisE'); setTimeout(() => inp.focus(), 50);
+    f.addEventListener('submit', async ev => {
+      ev.preventDefault(); const email = inp.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { inp.setAttribute('aria-invalid', 'true'); inp.focus(); return; }
+      const fd = new FormData(); fd.append('form_type', 'contact'); fd.append('utf8', '✓'); fd.append('contact[email]', email);
+      fd.append('contact[Request]', 'Back in stock'); fd.append('contact[Product]', title); fd.append('contact[body]', `Back-in-stock request: ${title} – ${location.origin}${url || ''}`);
+      const btn = f.querySelector('[type=submit]'); btn.disabled = true; btn.textContent = 'Sending…';
+      try {
+        const r = await fetch('/contact#contact_form', { method: 'POST', body: fd });
+        if (/challenge/.test(r.url)) { // Shopify's spam check: send the same request as a normal form so the shopper can confirm
+          const real = document.createElement('form'); real.method = 'post'; real.action = '/contact#contact_form'; real.hidden = true;
+          for (const [k, v] of fd) { const i = document.createElement('input'); i.name = k; i.value = v; real.appendChild(i); }
+          document.body.appendChild(real); real.submit(); return; }
+        f.innerHTML = `<button type="button" class="bis-x" data-close aria-label="Close">×</button><span class="eyebrow">Back in stock</span><h3>Thank you</h3><p class="bis-p">We'll email <b>${esc(email)}</b> when ${esc(title)} is back.</p><button type="button" class="btn solid" data-close>Continue shopping</button>`;
+      } catch (err) { btn.disabled = false; btn.textContent = 'Notify me'; toast('Sorry, that did not send. Please try again.'); }
+    });
+  }
   function burst(t) {
     if (reduce) return; const r = t.getBoundingClientRect();
     for (let i = 0; i < 9; i++) { const b = document.createElement('i'); b.className = 'burst'; const a = Math.PI * 2 * i / 9 + Math.random() * .4, d = 22 + Math.random() * 22;
@@ -122,6 +147,7 @@
     const wb = e.target.closest('[data-wish]');
     if (wb) { e.preventDefault(); const id = wb.dataset.wish, on = !wish.includes(id); wish = on ? [id, ...wish] : wish.filter(x => x !== id); store.set('swansura-wish', wish); syncHearts(); toast(on ? 'Saved to your wishlist' : 'Removed from your wishlist'); document.dispatchEvent(new CustomEvent('sw:wish')); return; }
     const sg = e.target.closest('[data-suggest]'); if (sg) { const q = $('#q'); q.value = sg.dataset.suggest; q.dispatchEvent(new Event('input')); return; }
+    const bis = e.target.closest('[data-backinstock]'); if (bis) { e.preventDefault(); backInStock(bis.dataset.backinstock, bis.dataset.url); return; }
     const nt = e.target.closest('[data-notify]'); if (nt) { toast('Thanks. We will email you when the ' + (nt.dataset.notify === 'skin' ? 'Skin' : 'Scent') + ' Studio Advent launches'); return; }
     const t = e.target.closest('[data-add],[data-addall],[data-bq],[data-close],[data-tab],#openBag,#openSearch,#burger,#drawerSearch');
     if (!t) { if (e.target.closest('.drawer-nav a')) closeLayer(); return; }

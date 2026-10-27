@@ -92,5 +92,5 @@
 </a><button class="heart" data-wish="{{ product.handle }}" aria-pressed="false" aria-label="Save to wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"></path></svg></button></div>
 <div class="cbody"><div class="crow"><a href="{{ brand_url }}" class="brand">{{ product.vendor | escape }}</a>{%- if size != '' -%}<span class="size">{{ size | escape }}</span>{%- endif -%}</div><a href="{{ product.url }}" class="name" title="{{ t | escape }}">{{ t | escape }}</a><div class="cfoot"><div class="p-price">{{ fv.price | money }}{%- if fv.compare_at_price > fv.price %} <s>{{ fv.compare_at_price | money }}</s>{%- endif -%}</div>
   {%- if product.available -%}<button class="add" data-add="{{ vid }}" aria-label="Add {{ t | escape }} to bag"><span>Add</span></button>
-  {%- else -%}<a class="add soon" href="{{ product.url }}"><span>Notify</span></a>{%- endif -%}
+  {%- else -%}<button class="add soon" type="button" data-backinstock="{{ product.title | escape }}" data-url="{{ product.url }}" aria-label="Email me when {{ product.title | escape }} is back"><span>Notify</span></button>{%- endif -%}
 </div></div></article>

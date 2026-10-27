@@ -126,6 +126,17 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp #openSearch.srchfield svg{flex:none;color:var(--ink)}
 .swp #openSearch.srchfield .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media (max-width:900px){.swp #openSearch.srchfield{width:auto;height:40px;padding:0 8px;border:0;background:none}}
+/* back-in-stock email pop-up (user, 27 Oct 2026): centred card on desktop, bottom sheet on phones */
+.swp .bis{position:fixed;z-index:71;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 32px));background:var(--card);border-radius:12px;border-top:3px solid var(--brass);box-shadow:0 24px 60px rgba(0,0,0,.2);padding:28px 24px 22px;display:flex;flex-direction:column;gap:12px}
+.swp .bis h3{font-size:22px;line-height:1.2;margin:0}
+.swp .bis .bis-p{margin:0;color:var(--ink-2);font-size:14px}
+.swp .bis input{height:46px;border:1px solid var(--line);border-radius:6px;padding:0 14px;font:inherit;font-size:15px;background:#fff;color:var(--ink)}
+.swp .bis input:focus{outline:2px solid var(--brass);outline-offset:1px}
+.swp .bis input[aria-invalid=true]{border-color:var(--sale)}
+.swp .bis .btn{width:100%}
+.swp .bis .bis-note{margin:0;font-size:12px;color:var(--ink-2)}
+.swp .bis .bis-x{position:absolute;top:10px;right:12px;width:32px;height:32px;font-size:22px;line-height:1;color:var(--ink-2)}
+@media (max-width:600px){.swp .bis{top:auto;bottom:0;left:0;transform:none;width:100%;border-radius:16px 16px 0 0;padding-bottom:calc(22px + env(safe-area-inset-bottom,0px));animation:abin .25s ease-out}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
