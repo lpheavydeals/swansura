@@ -73,6 +73,22 @@
     </div>
   </div>`);
   }
+  /* After 'Add': phones get a small bar at the bottom (user, 27 Oct 2026: the full-screen drawer got in the way);
+     desktop and the bag page keep the drawer / inline bag. */
+  const phone = () => matchMedia('(max-width: 720px)').matches;
+  let addedTimer;
+  async function added(justAdded, msg) {
+    if (!phone() || $('#bagPage')) { if (msg) toast(msg); return openBag(justAdded); }
+    await getCart();
+    const l = cart.items.find(i => String(i.variant_id) === String(justAdded)) || cart.items[0];
+    const total = cart.total_price / 100, ng = nextGoal(total);
+    $('#addedBar')?.remove(); clearTimeout(addedTimer);
+    const bar = document.createElement('div'); bar.id = 'addedBar'; bar.className = 'addedbar'; bar.setAttribute('role', 'status');
+    bar.innerHTML = `${l ? pic(l.image, l.product_title) : ''}<div class="ab-txt"><b>${esc(msg || 'Added to your bag')}</b>${l ? `<span>${esc(l.product_title)}</span>` : ''}<small>${ng ? `£${ng.left.toFixed(2)} away from ${ng.what}` : `Free UK delivery + £${offers.bonus.off} off unlocked`}</small></div><a class="btn solid" href="/cart">View bag (${cart.item_count})</a><button class="ab-x" type="button" aria-label="Close">×</button>`;
+    (document.querySelector('.swp-fixed') || document.body).appendChild(bar);
+    bar.querySelector('.ab-x').addEventListener('click', () => bar.remove());
+    addedTimer = setTimeout(() => bar.remove(), 6000);
+  }
   function burst(t) {
     if (reduce) return; const r = t.getBoundingClientRect();
     for (let i = 0; i < 9; i++) { const b = document.createElement('i'); b.className = 'burst'; const a = Math.PI * 2 * i / 9 + Math.random() * .4, d = 22 + Math.random() * 22;
@@ -110,8 +126,8 @@
     const t = e.target.closest('[data-add],[data-addall],[data-bq],[data-close],[data-tab],#openBag,#openSearch,#burger,#drawerSearch');
     if (!t) { if (e.target.closest('.drawer-nav a')) closeLayer(); return; }
     if (t.dataset.add) { e.preventDefault(); if (t.classList.contains('add')) burst(t); t.disabled = true;
-      if (await addItems([{ id: +t.dataset.add, quantity: 1 }])) await openBag(t.dataset.add); t.disabled = false; return; }
-    if (t.dataset.addall) { e.preventDefault(); if (await addItems(t.dataset.addall.split(',').map(id => ({ id: +id, quantity: 1 })))) { toast('Ritual added to your bag'); await openBag(); } return; }
+      if (await addItems([{ id: +t.dataset.add, quantity: 1 }])) await added(t.dataset.add); t.disabled = false; return; }
+    if (t.dataset.addall) { e.preventDefault(); if (await addItems(t.dataset.addall.split(',').map(id => ({ id: +id, quantity: 1 })))) { await added(t.dataset.addall.split(',')[0], 'Ritual added to your bag'); } return; }
     if (t.dataset.bq) { const [key, q] = t.dataset.bq.split('|'); await change(key, Math.max(0, +q)); await openBag(); return; }
     if ('close' in t.dataset) { if (t.tagName !== 'A') e.preventDefault(); closeLayer(); return; }
     if (t.dataset.tab) { $$('.tabs [data-tab]').forEach(b => b.setAttribute('aria-selected', b === t)); const g = $('#bestGrid'), src = $('#best-' + t.dataset.tab); if (g && src) { g.innerHTML = src.innerHTML; syncHearts(); } return; }
@@ -313,9 +329,9 @@
       else if (pk === 'routine') { const ids = ($('.complete [data-addall]')?.dataset.addall || '').split(',').filter(Boolean); ids[0] = v.id; items = ids.map(id => ({ id: +id, quantity: q })); }
       t.disabled = true; const ok = await addItems(items); t.disabled = false; if (!ok) return;
       if (bn) { location.href = '/checkout'; return; }
-      if (pk === 'duo') toast(V.live ? `Duo added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Duo added to your bag');
-      else if (pk === 'routine') toast(V.live ? `Routine added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Routine added to your bag');
-      await openBag(String(v.id));
+      const msg = pk === 'duo' ? (V.live ? `Duo added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Duo added to your bag')
+        : pk === 'routine' ? (V.live ? `Routine added · ${Math.round(V.save * 100)}% pack saving applied at checkout` : 'Routine added to your bag') : '';
+      await added(String(v.id), msg);
     });
   })();
 

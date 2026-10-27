@@ -93,6 +93,20 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .bag .bag-sub{display:flex;justify-content:space-between;font-size:16px}
 .swp .bag .bag-view{align-self:center;font-size:13px;min-height:24px;display:inline-flex;align-items:center}
 @media (max-height:620px){.swp .bag .bag-head{padding:12px 20px}.swp .bag .bag-note{display:none}}
+/* phones: 'Added to your bag' bar at the bottom instead of the drawer (user, 27 Oct 2026) */
+.swp .addedbar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:60;display:grid;grid-template-columns:48px minmax(0,1fr) auto 28px;align-items:center;gap:10px;padding:10px 8px 10px 10px;background:var(--card);border:1px solid var(--line);border-top:2px solid var(--brass);border-radius:12px;box-shadow:0 12px 36px rgba(31,26,23,.22);animation:abin .25s ease-out}
+.swp .addedbar .pic{width:48px;height:60px;padding:6%;background:var(--mount);border-radius:6px;mix-blend-mode:multiply}
+.swp .addedbar .ab-txt{display:flex;flex-direction:column;min-width:0;line-height:1.3}
+.swp .addedbar .ab-txt b{font-size:13px;color:var(--emerald)}
+.swp .addedbar .ab-txt span{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.swp .addedbar .ab-txt small{font-size:11px;color:var(--ink-2)}
+.swp .addedbar .btn{min-height:38px;padding:0 12px;font-size:11px;white-space:nowrap}
+.swp .addedbar .ab-x{width:28px;height:28px;font-size:20px;line-height:1;color:var(--ink-2)}
+@keyframes abin{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.swp .addedbar{animation:none}}
+@media (max-width:360px){.swp .addedbar{grid-template-columns:40px minmax(0,1fr) auto 24px;gap:8px}.swp .addedbar .pic{width:40px;height:50px}.swp .addedbar .btn{padding:0 10px}}
+/* bag page: the Liquid render reserves the space so the footer never shows first */
+.swp #bagPage{min-height:50vh}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
