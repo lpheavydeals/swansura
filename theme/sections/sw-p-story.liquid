@@ -1,7 +1,7 @@
 {%- comment -%} Behind the brand story (Deyga / Vilvah), prototype markup: div.wrap.story(.rev) > .imgs (2 photos) + .copy {%- endcomment -%}
 <div class="swp app"><section><div class="wrap story{% if section.settings.reverse %} rev{% endif %}">
     <div class="imgs">{%- for p in section.settings.products limit: 2 -%}<a href="{{ section.settings.btn1_url }}">{{ p.featured_media.preview_image | image_url: width: 800 | image_tag: class: 'pic', widths: '300,500,800', sizes: '(min-width: 900px) 300px, 45vw', loading: 'lazy', alt: p.featured_media.alt }}</a>{%- endfor -%}</div>
-    <div class="copy"><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h2>{{ section.settings.heading | escape }}</h2><p class="lede">{{ section.settings.text | escape }}</p><div style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="{{ section.settings.btn1_url }}">{{ section.settings.btn1 | replace: '[count]', section.settings.count_collection.products_count | escape }}</a><a class="btn" href="{{ section.settings.btn2_url }}">{{ section.settings.btn2 | escape }}</a></div></div>
+    <div class="copy"><div class="eyebrow">{{ section.settings.eyebrow | escape }}</div><h2>{{ section.settings.heading | escape }}</h2><p class="lede">{{ section.settings.text | escape }}</p><div class="storybtns" style="display:flex;gap:14px;flex-wrap:wrap"><a class="btn solid" href="{{ section.settings.btn1_url }}">{{ section.settings.btn1 | replace: '[count]', section.settings.count_collection.products_count | escape }}</a><a class="btn" href="{{ section.settings.btn2_url }}">{{ section.settings.btn2 | escape }}</a></div></div>
   </div></section></div>
 {% schema %}
 {

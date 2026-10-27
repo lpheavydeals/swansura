@@ -162,6 +162,8 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .story h1.fit{font-size:clamp(26px,calc(100cqi / (var(--n,20) * .54)),64px)!important}
 @media (min-width:721px){.swp .pagehead{grid-template-columns:1fr;gap:18px}.swp .pagehead .lede{max-width:780px}}
 @media (max-width:720px){.swp h1.fit,.swp .story h1.fit{font-size:clamp(22px,calc(100cqi / (var(--n,20) * .54)),36px)!important}}
+/* Deyga / Vilvah story buttons side by side on phones (user, 27 Oct 2026) */
+@media (max-width:600px){.swp .storybtns{flex-wrap:nowrap!important;gap:10px!important}.swp .storybtns .btn{flex:1 1 0;min-width:0;padding-inline:8px;letter-spacing:.06em;white-space:normal;text-align:center;line-height:1.25}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
