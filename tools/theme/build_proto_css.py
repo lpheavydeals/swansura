@@ -111,6 +111,21 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .pays{align-items:center;gap:6px}
 .swp .pay-ic{display:inline-flex;line-height:0}
 .swp .pay-ic svg{display:block;width:38px;height:24px;border-radius:4px}
+/* announcement bar on one line at every width (user, 27 Oct 2026): full width, no wrapping; .rot (set by
+   sw-proto.js when the messages don't fit side by side) shows one message at a time */
+.swp .announce .wrap{max-width:none;flex-wrap:nowrap;white-space:nowrap}
+.swp .announce.rot .wrap{display:grid;padding-block:9px}
+.swp .announce.rot .wrap>*{grid-area:1/1;opacity:0;transition:opacity .25s;pointer-events:none}
+.swp .announce.rot .wrap>.on{opacity:1;pointer-events:auto}
+@media (max-width:1320px){.swp .announce .wrap>*{overflow:hidden;text-overflow:ellipsis;max-width:100%}}
+@media (max-width:480px){.swp .announce{font-size:11.5px;letter-spacing:.03em}}
+@media (max-width:360px){.swp .announce{font-size:11px;letter-spacing:.01em}}
+/* minimal search field in the header (user, 27 Oct 2026); icon only below 900px */
+.swp #openSearch.srchfield{display:flex;align-items:center;gap:10px;height:40px;width:clamp(200px,17vw,280px);padding:0 16px;border:1px solid var(--line);border-radius:999px;background:#FAF8F4;color:var(--ink-2);font-size:13.5px;transition:border-color .2s,background .2s}
+.swp #openSearch.srchfield:hover,.swp #openSearch.srchfield:focus-visible{border-color:var(--brass);background:#fff}
+.swp #openSearch.srchfield svg{flex:none;color:var(--ink)}
+.swp #openSearch.srchfield .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:900px){.swp #openSearch.srchfield{width:auto;height:40px;padding:0 8px;border:0;background:none}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}

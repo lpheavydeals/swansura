@@ -140,6 +140,10 @@
 
   /* ---------- announcement bar: one message at a time where they don't fit side by side ---------- */
   (() => { const items = $$('.announce .wrap>*'); if (items.length < 2) return; let i = 0; items[0].classList.add('on');
+    // always one line (user, 27 Oct 2026): side by side when all messages fit, otherwise one at a time
+    const bar = $('.announce'), wrap = $('.announce .wrap');
+    const fit = () => { bar.classList.remove('rot'); if (wrap.scrollWidth > wrap.clientWidth + 1) bar.classList.add('rot'); };
+    fit(); addEventListener('resize', fit); document.fonts?.ready.then(fit);
     setInterval(() => { items[i].classList.remove('on'); i = (i + 1) % items.length; items[i].classList.add('on'); }, 1000); })();
 
   /* ---------- hero: skin + scent pairs slide together ---------- */
