@@ -1,0 +1,204 @@
+[
+ {
+  "id": "gid://shopify/Product/16396843581827",
+  "title": "Vilvah Anti-Frizz Hair Kit",
+  "collections": [
+   "milk-drop-brightening-serum",
+   "giftsets",
+   "haircare-tools-kits",
+   "haircare",
+   "sets-combos",
+   "concern-hydration",
+   "price-25-50",
+   "hair-serum-for-frizzy-hair",
+   "natural-skincare",
+   "gifts-for-her",
+   "gifts-25-to-50",
+   "diwali-gifts",
+   "christmas-gifts"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/16396843581827",
+   "descriptionHtml": "<p>A two-piece kit for smoother-looking, more manageable hair: Vilvah's Anti-Frizz Hair Serum 30ml and a neem wood comb with a handle.</p><h3>In this kit</h3><ul><li><b>Anti-Frizz Hair Serum 30ml</b> – a silicone-free serum with black seed, curry leaf, hibiscus and arnica oils that helps tame frizz and flyaways and adds shine.</li><li><b>Neem wood comb with handle</b> – a smooth wooden comb that glides through hair with less static than plastic.</li></ul><h3>How to use</h3><p>Warm 2–3 drops of serum between your palms and smooth over the lengths and ends of damp or dry hair, then comb through with the neem comb. Patch test before first use.</p>",
+   "seo": {
+    "title": "Vilvah Anti-Frizz Hair Kit: Serum & Neem Comb | Swansura",
+    "description": "Buy the Vilvah Anti-Frizz Hair Kit: a silicone-free hair serum with black seed and curry leaf oils plus a neem wood comb. Free UK delivery over £40."
+   },
+   "tags": [
+    "drive-photos",
+    "vilvah",
+    "Sets & Combos",
+    "Haircare"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Vilvah Anti-Frizz Hair Kit for Frizzy Hair"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Kits & routines\", \"s\": [\"Dry\", \"Combination\"], \"c\": [\"hydration\"], \"k\": false, \"r\": 62, \"g\": [\"Kalonji\", \"Hibiscus\"], \"a\": [\"Anti-Frizz Hair Serum 30ml with black seed, curry leaf, hibiscus and arnica oils, plus a neem wood comb.\", \"Kalonji: black-seed oil for hair care. Hibiscus: conditioning flower for hair. The full ingredient list is printed on the pack.\", \"Smooth 2–3 drops of serum over damp or dry hair, then comb through. Patch test before first use.\", \"It suits dry and frizz-prone hair. If your skin is sensitive, patch test before first use.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"haircare\", \"ben\": \"Silicone-free serum with black seed and curry leaf oils, plus a neem wood comb, for smoother-looking hair.\", \"more\": false, \"chips\": [\"Frizz control\", \"Natural formula\"], \"how\": [\"Warm 2–3 drops of serum in your palms, smooth over the lengths and ends, then comb through.\"], \"pair\": [\"vilvah-frizz-free-hair-kit\", \"vilvah-shampoo-hair-serum-kit\"], \"sim\": [\"vilvah-frizz-free-hair-kit\", \"vilvah-shampoo-hair-serum-kit\", \"vilvah-goat-milk-hair-kit\", \"vilvah-bestseller-hair-kit-goat-milk-shampoo-200ml-cream-conditioner-200ml-nourishing-frizz-control-sulfate-free-hair-care-set\"], \"kw\": [[\"Hair serum for frizzy hair\", \"/collections/hair-serum-for-frizzy-hair\"], [\"Natural skincare\", \"/collections/natural-skincare\"], [\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci",
+    "type": "multi_line_text_field",
+    "value": "Anti-Frizz Hair Serum: Black seed oil, Aloe barbadensis leaf extract, Curry leaf oil, Jasmine flower extract, Hibiscus oil, Glycerine, Arnica oil, Fenugreek seed extract, Baobab oil, Amla fruit extract, Vitamin E oil, Cypress essential oil"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci_data",
+    "type": "json",
+    "value": "[{\"n\": \"Anti-Frizz Hair Serum\", \"l\": [[\"Black seed oil\", 0], [\"Aloe barbadensis leaf extract\", 0], [\"Curry leaf oil\", 0], [\"Jasmine flower extract\", 0], [\"Hibiscus oil\", 0], [\"Glycerine\", 0], [\"Arnica oil\", 0], [\"Fenugreek seed extract\", 0], [\"Baobab oil\", 0], [\"Amla fruit extract\", 0], [\"Vitamin E oil\", 0], [\"Cypress essential oil\", 0]], \"g\": {}}]"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/16396843712899",
+  "title": "Vilvah Face Brightening Kit Large",
+  "collections": [
+   "milk-drop-brightening-serum",
+   "giftsets",
+   "skincare-tools-kits",
+   "skincare",
+   "sets-combos",
+   "concern-glow",
+   "concern-hydration",
+   "price-25-50",
+   "oily-skin",
+   "dull-skin",
+   "natural-skincare",
+   "gifts-for-her",
+   "gifts-25-to-50",
+   "diwali-gifts",
+   "christmas-gifts"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/16396843712899",
+   "descriptionHtml": "<p>The larger version of Vilvah's Face Brightening Kit: the Milk Powder Face Wash and the full-size Milk Drops Serum 40ml, for a simple cleanse-then-serum routine for dull-looking skin.</p><h3>In this kit</h3><ul><li><b>Milk Powder Face Wash</b> – a powder-to-foam cleanser with a rice complex, hyaluronic acid and papain that lathers with water and leaves skin feeling clean and soft.</li><li><b>Milk Drops Serum 40ml</b> – a lightweight serum with rice milk extract, aloe vera and hyaluronic acid for hydrated, radiant-looking skin.</li></ul><h3>How to use</h3><p>Morning and evening: mix a little face wash powder with water in your palm, massage onto damp skin and rinse. Then pat 2–3 drops of serum onto clean skin. Patch test before first use.</p>",
+   "seo": {
+    "title": "Vilvah Face Brightening Kit Large | Dull Skin | Swansura",
+    "description": "Buy the Vilvah Face Brightening Kit Large: Milk Powder Face Wash and Milk Drops Serum 40ml for dull-looking skin. Official UK partner, free delivery over £40."
+   },
+   "tags": [
+    "drive-photos",
+    "vilvah",
+    "Sets & Combos",
+    "Skincare"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Vilvah Face Brightening Kit Large – Skincare for Dull Skin"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Kits & routines\", \"s\": [\"Oily\", \"Combination\"], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 83, \"g\": [\"Hyaluronic acid\", \"Rice water\"], \"a\": [\"Milk Powder Face Wash and Milk Drops Serum 40ml: a cleanse-then-serum routine for dull-looking skin.\", \"Hyaluronic acid: draws in and holds moisture. Rice water: smoothing rice extract. The full ingredient list is printed on the pack.\", \"Use morning and evening: cleanse with the face wash, then apply 2–3 drops of serum. Patch test before first use.\", \"It suits normal, oily and combination skin. If your skin is sensitive, patch test before first use.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"skincare\", \"ben\": \"Milk Powder Face Wash plus the full-size Milk Drops Serum 40ml for a cleanse-then-serum routine.\", \"more\": false, \"chips\": [\"Radiance\", \"Hydration\"], \"how\": [\"Cleanse with the face wash, then pat 2–3 drops of serum onto clean skin, morning and evening.\"], \"pair\": [\"vilvah-tan-protection-kit\", \"vilvah-everyday-care-milk-kit\"], \"sim\": [\"vilvah-face-brightening-kit-milk-powder-face-wash-milk-drops-brightening-serum-duo-milky-cleanse-radiance-boost-evens-skin-tone-fades-dark-spots\", \"pre-eminent-beauty-serum\", \"imperial-moisturiser\", \"cleanse-and-tone-pack\"], \"kw\": [[\"Skincare for dull skin\", \"/collections/dull-skin\"], [\"Skincare for oily & acne-prone skin\", \"/collections/oily-skin\"], [\"Natural skincare\", \"/collections/natural-skincare\"], [\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci",
+    "type": "multi_line_text_field",
+    "value": "Milk Powder Face Wash: Zea Mays (Corn) Starch, Sodium lauryl sarcosinate, Sodium cocoyl isethionate, Betaine, Oryza sativa (rice) powder, Rice ferment (rice milk) extract, Hyaluronic acid, Oryza sativa hull (rice silk) powder, Avena sativa kernal (oat) flour, Guar hydroxypropyltrimonium chloride, Papain (papaya fruit enzyme), Crocus sativus (Saffron Flower) extract, Silica, Sodium Benzoate\nMilk Drops Serum: Aqua, Aloe vera juice, Natural Betaine, Glycerin, Xanthan gum, Hyaluronic acid, Caprylic Capric Triglyceride, Cystoseira tamariscifolia extract, Alpha Arbutin, Rice milk extract, Sodium benzoate & Potassium sorbate (ECOCERT approved ingredient)"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci_data",
+    "type": "json",
+    "value": "[{\"n\": \"Milk Powder Face Wash\", \"l\": [[\"Zea Mays (Corn) Starch\", 0], [\"Sodium lauryl sarcosinate\", 0], [\"Sodium cocoyl isethionate\", 0], [\"Betaine\", 0], [\"Oryza sativa (rice) powder\", 0], [\"Rice ferment (rice milk) extract\", 0], [\"Hyaluronic acid\", 0], [\"Oryza sativa hull (rice silk) powder\", 0], [\"Avena sativa kernal (oat) flour\", 0], [\"Guar hydroxypropyltrimonium chloride\", 0], [\"Papain (papaya fruit enzyme)\", 0], [\"Crocus sativus (Saffron Flower) extract\", 0], [\"Silica\", 0], [\"Sodium Benzoate\", 0]], \"g\": {}}, {\"n\": \"Milk Drops Serum\", \"l\": [[\"Aqua\", 0], [\"Aloe vera juice\", 2], [\"Natural Betaine\", 2], [\"Glycerin\", 2], [\"Xanthan gum\", 2], [\"Hyaluronic acid\", 2], [\"Caprylic Capric Triglyceride\", 1], [\"Cystoseira tamariscifolia extract\", 2], [\"Alpha Arbutin\", 2], [\"Rice milk extract\", 2], [\"Sodium benzoate & Potassium sorbate (ECOCERT approved ingredient)\", 0]], \"g\": {\"1\": \"Certified organic\", \"2\": \"Plant-derived\"}}]"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/16396843811203",
+  "title": "Vilvah Foot Cream & Body Lotion Kit",
+  "collections": [
+   "milk-drop-brightening-serum",
+   "giftsets",
+   "bodycare-kits",
+   "bodycare",
+   "sets-combos",
+   "body-cream-exfoliants",
+   "concern-hydration",
+   "price-25-50",
+   "body-lotion-for-dry-skin",
+   "dry-skin",
+   "natural-skincare",
+   "gifts-for-her",
+   "gifts-25-to-50",
+   "diwali-gifts",
+   "christmas-gifts"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/16396843811203",
+   "descriptionHtml": "<p>A body-care pair for dry skin from head to toe: Vilvah's Foot Care Cream 100ml and Milk Body Lotion 250ml.</p><h3>In this kit</h3><ul><li><b>Foot Care Cream 100ml</b> – a rich cream with shea, mango and avocado butters plus argan and kalonji oils that softens dry, rough-feeling feet.</li><li><b>Milk Body Lotion 250ml</b> – a fast-absorbing lotion with oat milk, ceramide, olive squalane and jojoba oil for everyday hydration.</li></ul><h3>How to use</h3><p>Smooth the body lotion over skin after a bath or shower. Massage the foot cream into clean, dry feet, ideally before bed. Patch test before first use.</p>",
+   "seo": {
+    "title": "Vilvah Foot Cream & Body Lotion Kit | Swansura",
+    "description": "Buy the Vilvah Foot Cream & Body Lotion Kit: Foot Care Cream 100ml with shea and avocado butters and oat milk Body Lotion 250ml. Free UK delivery over £40."
+   },
+   "tags": [
+    "drive-photos",
+    "vilvah",
+    "Sets & Combos",
+    "Bodycare"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Vilvah Foot Cream & Body Lotion Kit for Dry Skin"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Kits & routines\", \"s\": [\"All\", \"Dry\"], \"c\": [\"hydration\"], \"k\": false, \"r\": 108, \"g\": [\"Shea butter\", \"Oat milk\"], \"a\": [\"Foot Care Cream 100ml and Milk Body Lotion 250ml: a body-care pair for dry skin.\", \"Shea butter: rich, cushioning nourishment. Oat milk: soothing, softening hydration. The full ingredient list is printed on the pack.\", \"Use the lotion after bathing and the foot cream on clean, dry feet, ideally before bed. Patch test before first use.\", \"It is made for all skin types. If your skin is sensitive, patch test before first use.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"bath-body\", \"ben\": \"Foot Care Cream with shea and avocado butters plus an oat milk body lotion, for soft, hydrated skin.\", \"more\": false, \"chips\": [\"Hydration\", \"Natural formula\"], \"how\": [\"Lotion after bathing; foot cream on clean, dry feet before bed.\"], \"pair\": [\"vilvah-milk-body-kit-goat-milk-body-wash-milk-body-lotion-deep-hydration-skin-softening-nourishment-oat-milk-olive-squalane-coconut-oil-vanilla-scent\"], \"sim\": [\"natural-luminosity-body-butter\", \"natural-luminosity-scrub\", \"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"superior-lip-butter-large-50ml\"], \"kw\": [[\"Body lotion for dry skin\", \"/collections/body-lotion-for-dry-skin\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Natural skincare\", \"/collections/natural-skincare\"], [\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci",
+    "type": "multi_line_text_field",
+    "value": "Foot Care Cream: Aqua, Butyrospermum Parkii (Shea butter), Persea Gratissima Butter (Avocado butter), Mangifera Indica Seed Butter (Mango butter), Cocoa seed butter (Cocoa butter), Helianthus Annus Seed (Sunflower) oil, Cetearyl Alcohol & Cetearyl Glucoside, PEG 100 Stearate & Glyceryl Stearate, Glycerine, Potassium Sorbate & Sodium Benzoate (ECOCERT approved preservative), Mentha Piperita (Peppermint) Oil, Argania spinosa kernel (Argan) oil, Nigella sativa seed (Kalonji) oil, Xylitylglucoside and Anhydroxylitol and Xylitol\nMilk Body Lotion: Aqua, Oat Milk, Ceramide NP (Skin mimicking Ceramide) *Caprylic Capric Triglyceride (Coconut derived emollient), Glycerin, Coconut oil, Stearic acid, Glyceryl Monostearate SE, Polyacrylate-13 (and) Polyisobutene (and) Polysorbate 20, Arachidyl Alcohol (and) Behenyl Alcohol (and) Arachidyl Glucoside, Olive Squalane, Jojoba Oil, Phenoxyethanol and EthylhexylGlycerin, Fragrance (Hypo-allergenic certified)"
+   },
+   {
+    "namespace": "custom",
+    "key": "inci_data",
+    "type": "json",
+    "value": "[{\"n\": \"Foot Care Cream\", \"l\": [[\"Aqua\", 0], [\"Butyrospermum Parkii (Shea butter)\", 1], [\"Persea Gratissima Butter (Avocado butter)\", 0], [\"Mangifera Indica Seed Butter (Mango butter)\", 1], [\"Cocoa seed butter (Cocoa butter)\", 1], [\"Helianthus Annus Seed (Sunflower) oil\", 1], [\"Cetearyl Alcohol & Cetearyl Glucoside\", 2], [\"PEG 100 Stearate & Glyceryl Stearate\", 2], [\"Glycerine\", 0], [\"Potassium Sorbate & Sodium Benzoate (ECOCERT approved preservative)\", 0], [\"Mentha Piperita (Peppermint) Oil\", 1], [\"Argania spinosa kernel (Argan) oil\", 1], [\"Nigella sativa seed (Kalonji) oil\", 1], [\"Xylitylglucoside and Anhydroxylitol and Xylitol\", 2]], \"g\": {\"1\": \"Certified organic\", \"2\": \"Plant-derived\"}}, {\"n\": \"Milk Body Lotion\", \"l\": [[\"Aqua\", 0], [\"Oat Milk\", 2], [\"Ceramide NP (Skin mimicking Ceramide) *Caprylic Capric Triglyceride (Coconut derived emollient)\", 0], [\"Glycerin\", 1], [\"Coconut oil\", 1], [\"Stearic acid\", 0], [\"Glyceryl Monostearate SE\", 0], [\"Polyacrylate-13 (and) Polyisobutene (and) Polysorbate 20\", 0], [\"Arachidyl Alcohol (and) Behenyl Alcohol (and) Arachidyl Glucoside\", 0], [\"Olive Squalane\", 2], [\"Jojoba Oil\", 2], [\"Phenoxyethanol and EthylhexylGlycerin\", 0], [\"Fragrance (Hypo-allergenic certified)\", 0]], \"g\": {\"1\": \"Certified organic\", \"2\": \"Plant derived\"}}]"
+   }
+  ]
+ }
+]
