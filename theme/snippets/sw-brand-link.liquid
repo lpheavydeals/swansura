@@ -29,8 +29,14 @@
         assign h = 'hemel-h'
       when 'jo-milano'
         assign h = 'luxury-collection-1'
-      when 'signature-d-orient'
+      when 'signature-d-orient', 'signature-dorient'
         assign h = 'signature-sillage-dorient'
+      when 'swansura-the-body-studio', 'swansura'
+        comment
+          products still carrying the store name as vendor (client to confirm their brands) go to the Swansura Selection
+          page instead of Shopify's plain vendor page (live crawl 27 Oct 2026)
+        endcomment
+        assign h = 'swansura-selection'
     endcase
     assign c = collections[h]
     if c != blank and c.products_count > 0
