@@ -181,6 +181,12 @@
     st.ontouchend = e => { if (x0 != null) { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1)); x0 = null; } play(); };
     go(0); play(); })();
 
+  /* ---------- popular searches: on desktop the cards are dropdowns, one open at a time ---------- */
+  (() => { const g = $('#popular .searches'); if (!g) return; const all = () => [...g.querySelectorAll('details')];
+    g.addEventListener('toggle', e => { if (!phone() && e.target.open) all().forEach(d => { if (d !== e.target) d.open = false; }); }, true);
+    document.addEventListener('click', e => { if (!phone() && !e.target.closest('#popular .searches')) all().forEach(d => { d.open = false; }); });
+    document.addEventListener('keydown', e => { if (e.key !== 'Escape') return; const o = all().find(d => d.open); if (o && !phone()) { o.open = false; o.querySelector('summary').focus(); } }); })();
+
   /* ---------- help / chat panel ---------- */
   (() => { const b = $('#chatBtn'), p = $('#chatPanel'); if (!b || !p) return; const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
     b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); });

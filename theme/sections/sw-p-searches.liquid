@@ -1,7 +1,11 @@
-{%- comment -%} Popular searches, prototype markup (div.searches > details): one block per group of links. {%- endcomment -%}
+{%- comment -%}
+  Popular searches, prototype markup (div.searches > details): one block per group of links.
+  Desktop (user, 27 Oct 2026): one row of cards (group name + number of searches); a card opens its links as a
+  dropdown panel, one at a time (sw-proto.js). Phones: the same details work as a tap-to-open accordion.
+{%- endcomment -%}
 <div class="swp app"><section id="popular" style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap">
     <div class="sec-head"><div><h2>{{ section.settings.heading | escape }}</h2></div></div>
-    <div class="searches">{%- for block in section.blocks -%}<details open {{ block.shopify_attributes }}><summary><h3>{{ block.settings.title | escape }}</h3></summary><div>{%- assign lines = block.settings.links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></details>{%- endfor -%}</div>
+    <div class="searches">{%- for block in section.blocks -%}{%- assign lines = block.settings.links | newline_to_br | split: '<br />' -%}{%- assign n = 0 -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}{%- assign n = n | plus: 1 -%}{%- endif -%}{%- endfor -%}<details {{ block.shopify_attributes }}><summary><span><h3>{{ block.settings.title | escape }}</h3><small>{{ n }} searches</small></span></summary><div>{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div></details>{%- endfor -%}</div>
   </div></section></div>
 {% schema %}
 {
