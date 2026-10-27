@@ -164,13 +164,16 @@
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && layer()?.innerHTML) closeLayer(); });
 
+  // Motion starts 2.5 s after the page has loaded, so the first view settles fast (PageSpeed: Speed Index, 27 Oct 2026)
+  const afterLoad = fn => { const go = () => setTimeout(fn, 2500); if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true }); };
+
   /* ---------- announcement bar: one message at a time where they don't fit side by side ---------- */
   (() => { const items = $$('.announce .wrap>*'); if (items.length < 2) return; let i = 0; items[0].classList.add('on');
     // always one line (user, 27 Oct 2026): side by side when all messages fit, otherwise one at a time
     const bar = $('.announce'), wrap = $('.announce .wrap');
     const fit = () => { bar.classList.remove('rot'); if (wrap.scrollWidth > wrap.clientWidth + 1) bar.classList.add('rot'); };
     fit(); addEventListener('resize', fit); document.fonts?.ready.then(fit);
-    setInterval(() => { items[i].classList.remove('on'); i = (i + 1) % items.length; items[i].classList.add('on'); }, 1000); })();
+    afterLoad(() => setInterval(() => { items[i].classList.remove('on'); i = (i + 1) % items.length; items[i].classList.add('on'); }, 1000)); })();
 
   /* ---------- hero: skin + scent pairs slide together ---------- */
   (() => { const st = $('.hero .stage'); if (!st) return; const tracks = $$('.track', st), n = tracks[0]?.children.length || 0; let i = 0, timer;
@@ -179,7 +182,7 @@
     st.onmouseenter = st.onfocusin = () => clearInterval(timer); st.onmouseleave = st.onfocusout = play;
     let x0 = null; st.ontouchstart = e => { x0 = e.touches[0].clientX; clearInterval(timer); };
     st.ontouchend = e => { if (x0 != null) { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1)); x0 = null; } play(); };
-    go(0); play(); })();
+    go(0); afterLoad(play); })();
 
   /* ---------- popular searches: on desktop the cards are dropdowns, one open at a time ---------- */
   (() => { const g = $('#popular .searches'); if (!g) return; const all = () => [...g.querySelectorAll('details')];

@@ -2387,6 +2387,11 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 #shopify-pc__banner #shopify-pc__banner__btn-decline{order:2}
 #shopify-pc__banner #shopify-pc__banner__btn-manage-prefs{order:3;grid-column:1/-1;min-height:32px!important;border:0!important;background:none!important;text-decoration:underline;padding:4px!important}
 @media (max-width:600px){#shopify-pc__banner.shopify-pc__banner__dialog{left:12px!important;bottom:12px!important;width:calc(100vw - 24px)!important}#shopify-pc__banner .shopify-pc__banner__wrapper{padding:14px 14px 12px!important}#shopify-pc__banner .shopify-pc__banner__body p,#shopify-pc__banner .shopify-pc__banner__body{font-size:12px!important}}
+/* hero entrance: slide only, no fade, so the heading and the LCP image count as painted at once (PageSpeed 27 Oct 2026) */
+.swp .hero .rise{opacity:1;animation-name:riseT}
+@keyframes riseT{from{transform:translateY(18px)}to{transform:none}}
+/* Dawn's font variables point at Plus Jakarta Sans too, so Assistant / Cormorant are never downloaded (PageSpeed 27 Oct 2026) */
+:root{--font-body-family:'Plus Jakarta Sans','Helvetica Neue',Arial,sans-serif;--font-heading-family:'Plus Jakarta Sans','Helvetica Neue',Arial,sans-serif;--font-body-style:normal;--font-heading-style:normal}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
