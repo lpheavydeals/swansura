@@ -2359,6 +2359,9 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 }
 @media (min-width:721px) and (max-width:1100px){.swp #popular .searches{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:720px){.swp #popular .searches summary small{display:none}.swp #popular .searches summary h3{margin:0}}
+/* Shop all banner: the long keyword H1 stays on one line from 721 px (user, 27 Oct 2026) */
+@media (min-width:721px){.swp .pagehead h1.h1-line{font-size:clamp(26px,3.15vw,52px)!important;white-space:nowrap}}
+@media (max-width:720px){.swp .pagehead h1.h1-line{font-size:clamp(20px,6vw,26px)!important}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
