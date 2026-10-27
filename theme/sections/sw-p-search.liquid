@@ -4,7 +4,7 @@
   (sw-proto.js) covers live search; this page is for full results and no-JS visitors.
 {%- endcomment -%}
 <div class="swp app"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span>/</span><span style="color:var(--ink)">Search</span></nav>
-  <div class="pagehead"><div><div class="eyebrow">Search</div><h1 style="font-size:clamp(34px,4.4vw,60px);margin-top:10px">{%- if search.performed -%}Results for “{{ search.terms | escape }}”{%- else -%}Search the Studio{%- endif -%}</h1></div>
+  <div class="pagehead"><div><div class="eyebrow">Search</div><h1 class="fit" style="--n:{%- if search.performed -%}{{ search.terms | size | plus: 14 }}{%- else -%}17{%- endif -%};margin-top:10px">{%- if search.performed -%}Results for “{{ search.terms | escape }}”{%- else -%}Search the Studio{%- endif -%}</h1></div>
     <form action="{{ routes.search_url }}" method="get" role="search" class="cform" style="max-width:520px"><label class="full">Search products, brands and concerns<input type="search" name="q" value="{{ search.terms | escape }}" autocomplete="off"></label><input type="hidden" name="options[prefix]" value="last"><button class="btn p-light" type="submit">Search</button></form></div>
   {%- if search.performed -%}
     {%- paginate search.results by 24 -%}
