@@ -856,9 +856,9 @@
   "newsletter": {
    "type": "sw-p-news",
    "settings": {
-    "eyebrow": "The Studio Letter",
-    "heading": "Rituals, new arrivals and fragrance notes",
-    "text": "Our letter lands once or twice a month. Unsubscribe any time."
+    "eyebrow": "Swansura Members",
+    "heading": "Members get surprise gifts",
+    "text": "Become a member for surprise gifts, early access to new arrivals. Unsubscribe any time.", "button": "Become a member"
    }
   },
   "popular": {

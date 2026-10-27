@@ -1,15 +1,15 @@
-{%- comment -%} Studio Letter sign-up band, prototype markup (section.news#newsletter); Shopify customer form (tag: newsletter). {%- endcomment -%}
+{%- comment -%} Members sign-up band (user, 27 Oct 2026: back to the prototype's 'Swansura Members' wording), prototype markup (section.news#newsletter); Shopify customer form (tags: newsletter, member). {%- endcomment -%}
 <div class="swp app"><section class="news" id="newsletter" aria-label="Newsletter">
   <div class="wrap">
     <div class="eyebrow" style="color:#E6D3A8">{{ section.settings.eyebrow | escape }}</div>
     <h2>{{ section.settings.heading | escape }}</h2>
     <p>{{ section.settings.text | escape }}</p>
     {%- form 'customer', id: 'newsForm', class: 'news-form' -%}
-      <input type="hidden" name="contact[tags]" value="newsletter">
+      <input type="hidden" name="contact[tags]" value="newsletter,member">
       {%- if form.posted_successfully? -%}
-        <p id="newsMsg">Thank you for signing up.</p>
+        <p id="newsMsg">Welcome to Swansura Members. Look out for your first email from us.</p>
       {%- else -%}
-        <label for="newsEmail-{{ section.id }}" class="sr-only">Email address</label><input id="newsEmail-{{ section.id }}" type="email" name="contact[email]" required placeholder="Your email address" autocomplete="email"><button type="submit">Sign up</button>
+        <label for="newsEmail-{{ section.id }}" class="sr-only">Email address</label><input id="newsEmail-{{ section.id }}" type="email" name="contact[email]" required placeholder="Your email address" autocomplete="email"><button type="submit">{{ section.settings.button | default: 'Become a member' | escape }}</button>
         {%- if form.errors -%}<p role="alert" style="flex-basis:100%;margin-top:8px">{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>{%- endif -%}
       {%- endif -%}
     {%- endform -%}
@@ -19,9 +19,10 @@
 {
   "name": "Swansura Studio Letter",
   "settings": [
-    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "The Studio Letter" },
-    { "type": "text", "id": "heading", "label": "Heading", "default": "Rituals, new arrivals and fragrance notes" },
-    { "type": "text", "id": "text", "label": "Text", "default": "Our letter lands once or twice a month. Unsubscribe any time." }
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Swansura Members" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Members get surprise gifts" },
+    { "type": "text", "id": "text", "label": "Text", "default": "Become a member for surprise gifts, early access to new arrivals. Unsubscribe any time." },
+    { "type": "text", "id": "button", "label": "Button", "default": "Become a member" }
   ],
   "presets": [{ "name": "Swansura Studio Letter" }]
 }

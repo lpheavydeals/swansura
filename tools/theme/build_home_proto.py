@@ -236,10 +236,10 @@ add("journal", {"type": "sw-p-journal", "settings": {"heading": h, "link_label":
 
 # 16 newsletter
 html = part("16_")
+# members wording (user, 27 Oct 2026), not the prototype dump's plain Studio Letter text
 add("newsletter", {"type": "sw-p-news", "settings": {
-    "eyebrow": text(re.search(r'<div class="eyebrow"[^>]*>(.*?)</div>', html).group(1)),
-    "heading": text(re.search(r"<h2>(.*?)</h2>", html).group(1)),
-    "text": text(re.search(r"</h2>\s*<p>(.*?)</p>", html, re.S).group(1))}})
+    "eyebrow": "Swansura Members", "heading": "Members get surprise gifts",
+    "text": "Become a member for surprise gifts, early access to new arrivals. Unsubscribe any time.", "button": "Become a member"}})
 
 # 17 popular searches
 html = part("17_")
