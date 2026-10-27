@@ -35,6 +35,14 @@
   endif
   assign label = collection.title
   assign h1 = collection.metafields.custom.h1.value | default: collection.title
+  if h == 'all'
+    comment
+      /collections/all is Shopify's built-in catalogue (no collection to hold custom.h1): H1 set here (user, 27 Oct 2026);
+      <title> and meta description in layout/theme.liquid.
+    endcomment
+    assign label = 'Shop all'
+    assign h1 = 'Fragrances UK, Skincare UK and Haircare UK'
+  endif
   assign eyebrow = collection.metafields.custom.eyebrow.value
   if eyebrow == blank
     if h == 'all'
