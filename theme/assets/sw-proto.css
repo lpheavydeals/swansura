@@ -2374,6 +2374,19 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 /* wishlist count sits on the heart's corner: phones give .hicon a 40 px tap box, so anchor it to the centre (user, 27 Oct 2026) */
 .swp .hicon .wcount{top:calc(50% - 19px);right:calc(50% - 23px)}
 .swp .bagic .bagcount{top:-10px;right:-14px}
+/* Shopify's cookie banner (Customer Privacy, rendered into the page): compact card in the bottom-left corner instead of a
+   centred box (user, 27 Oct 2026). Accept and Decline stay the same size, side by side (ICO: rejecting must be as easy). */
+#shopify-pc__banner.shopify-pc__banner__dialog{left:20px!important;right:auto!important;top:auto!important;bottom:20px!important;transform:none!important;margin:0!important;width:min(380px,calc(100vw - 40px))!important;max-width:none!important;max-height:calc(100vh - 40px);overflow:auto;padding:0!important;border-radius:12px!important;border:1px solid #E3DACD!important;box-shadow:0 12px 36px rgba(31,26,23,.18)!important}
+#shopify-pc__banner .shopify-pc__banner__wrapper{padding:18px 20px 14px!important;margin:0!important;max-width:none!important;display:block!important}
+#shopify-pc__banner .shopify-pc__banner__body{margin:0 0 12px!important;max-width:none!important}
+#shopify-pc__banner #shopify-pc__banner__body-title{font-size:16px!important;margin:0 0 6px!important}
+#shopify-pc__banner .shopify-pc__banner__body p,#shopify-pc__banner .shopify-pc__banner__body{font-size:12.5px!important;line-height:1.5!important}
+#shopify-pc__banner .shopify-pc__banner__btns{display:grid!important;grid-template-columns:1fr 1fr;gap:8px!important;margin:0!important;width:100%!important;max-width:none!important}
+#shopify-pc__banner .shopify-pc__banner__btns button{width:100%!important;min-width:0!important;margin:0!important;min-height:40px!important;height:auto!important;padding:8px 10px!important;font-size:13px!important}
+#shopify-pc__banner #shopify-pc__banner__btn-accept{order:1}
+#shopify-pc__banner #shopify-pc__banner__btn-decline{order:2}
+#shopify-pc__banner #shopify-pc__banner__btn-manage-prefs{order:3;grid-column:1/-1;min-height:32px!important;border:0!important;background:none!important;text-decoration:underline;padding:4px!important}
+@media (max-width:600px){#shopify-pc__banner.shopify-pc__banner__dialog{left:12px!important;bottom:12px!important;width:calc(100vw - 24px)!important}#shopify-pc__banner .shopify-pc__banner__wrapper{padding:14px 14px 12px!important}#shopify-pc__banner .shopify-pc__banner__body p,#shopify-pc__banner .shopify-pc__banner__body{font-size:12px!important}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
