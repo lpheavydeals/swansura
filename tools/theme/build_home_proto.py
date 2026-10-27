@@ -119,7 +119,9 @@ blocks = {f"pair{i}": {"type": "pair", "settings": {"skin": handle_of(a), "skin_
           for i, ((a, al), (b, bl)) in enumerate(zip(skin, scent))}
 ctas = re.findall(r'<a class="btn [^"]*" href="#([^"]+)">(.*?)(?:<svg|</a>)', html)
 add("hero", {"type": "sw-p-hero", "settings": {
-    "eyebrow": text(re.search(r"<h1[^>]*>(.*?)</h1>", html).group(1)),
+    # rankable homepage H1 in the competitors' category-list style, one line on phones (user, 27 Oct 2026;
+    # was the prototype's 'Natural skincare UK · Niche perfume')
+    "eyebrow": "Natural Skincare, Haircare & Perfume UK",
     "title": re.search(r'<p class="htitle[^>]*>(.*?)</p>', html).group(1),
     "lede": text(re.search(r'<p class="lede[^>]*>(.*?)</p>', html).group(1)),
     "btn1": text(ctas[0][1]), "btn1_url": u(ctas[0][0]), "btn2": text(ctas[1][1]), "btn2_url": u(ctas[1][0]),

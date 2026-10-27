@@ -164,6 +164,12 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 @media (max-width:720px){.swp h1.fit,.swp .story h1.fit{font-size:clamp(22px,calc(100cqi / (var(--n,20) * .54)),36px)!important}}
 /* Deyga / Vilvah story buttons side by side on phones (user, 27 Oct 2026) */
 @media (max-width:600px){.swp .storybtns{flex-wrap:nowrap!important;gap:10px!important}.swp .storybtns .btn{flex:1 1 0;min-width:0;padding-inline:8px;letter-spacing:.06em;white-space:normal;text-align:center;line-height:1.25}}
+/* homepage H1 (hero eyebrow) on one line on phones (user, 27 Oct 2026) */
+@media (max-width:600px){.swp .hero h1.eyebrow{white-space:nowrap;letter-spacing:.1em}}
+@media (max-width:360px){.swp .hero h1.eyebrow{font-size:11px;letter-spacing:.06em}}
+/* wishlist count sits on the heart's corner: phones give .hicon a 40 px tap box, so anchor it to the centre (user, 27 Oct 2026) */
+.swp .hicon .wcount{top:calc(50% - 19px);right:calc(50% - 23px)}
+.swp .bagic .bagcount{top:-10px;right:-14px}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
