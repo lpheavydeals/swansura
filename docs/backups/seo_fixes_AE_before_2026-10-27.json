@@ -1,0 +1,330 @@
+{
+ "date": "2026-10-27",
+ "note": "SEO fixes A-E before-state. Undo A: publish each page again and delete its /pages/<handle> redirect. B-D: restore the seo/metafield values below. E: blog 'news' (Blog/120083349891, 0 articles) deleted; recreate with handle news if needed and delete the /blogs/news redirects.",
+ "A_pages": [
+  {
+   "id": "gid://shopify/Page/697752584579",
+   "handle": "fragrance",
+   "title": "Fragrance",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/fragrance"
+  },
+  {
+   "id": "gid://shopify/Page/697752813955",
+   "handle": "skincare",
+   "title": "Skincare",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/skincare"
+  },
+  {
+   "id": "gid://shopify/Page/697752912259",
+   "handle": "haircare",
+   "title": "Haircare",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/haircare"
+  },
+  {
+   "id": "gid://shopify/Page/697752977795",
+   "handle": "gift-set",
+   "title": "Gift Set",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/sets-combos"
+  },
+  {
+   "id": "gid://shopify/Page/698500743555",
+   "handle": "body-care",
+   "title": "Body Care",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/bodycare"
+  },
+  {
+   "id": "gid://shopify/Page/698500776323",
+   "handle": "lipcare",
+   "title": "LipCare",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/lip-balm"
+  },
+  {
+   "id": "gid://shopify/Page/698508181891",
+   "handle": "best-sellers",
+   "title": "Best sellers",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/best-sellers"
+  },
+  {
+   "id": "gid://shopify/Page/698508345731",
+   "handle": "cleanser",
+   "title": "Cleanser",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/cleanser"
+  },
+  {
+   "id": "gid://shopify/Page/698508935555",
+   "handle": "moisturiser",
+   "title": "Moisturiser",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/moisturizers-gels"
+  },
+  {
+   "id": "gid://shopify/Page/698509001091",
+   "handle": "toner",
+   "title": "Toner",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/toner"
+  },
+  {
+   "id": "gid://shopify/Page/698509033859",
+   "handle": "serum",
+   "title": "Serum",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/serum"
+  },
+  {
+   "id": "gid://shopify/Page/698509099395",
+   "handle": "under-eye-cream",
+   "title": "Under eye cream",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/eye-cream"
+  },
+  {
+   "id": "gid://shopify/Page/698511589763",
+   "handle": "for-her",
+   "title": "For Her",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/perfume-for-women"
+  },
+  {
+   "id": "gid://shopify/Page/698511622531",
+   "handle": "for-him",
+   "title": "Miniature",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/perfume-for-men"
+  },
+  {
+   "id": "gid://shopify/Page/698542489987",
+   "handle": "lipbalm",
+   "title": "LipBalm",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/lip-balm"
+  },
+  {
+   "id": "gid://shopify/Page/698542522755",
+   "handle": "lib-scrub",
+   "title": "Lib scrub",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/lip-scrub"
+  },
+  {
+   "id": "gid://shopify/Page/698542588291",
+   "handle": "shampoo",
+   "title": "Shampoo",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/shampoo"
+  },
+  {
+   "id": "gid://shopify/Page/698542653827",
+   "handle": "conditioner",
+   "title": "Conditioner",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/conditioner"
+  },
+  {
+   "id": "gid://shopify/Page/698542719363",
+   "handle": "hair-oil",
+   "title": "Hair oil",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/hair-oil"
+  },
+  {
+   "id": "gid://shopify/Page/698542752131",
+   "handle": "hair-serum",
+   "title": "Hair serum",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/hair-serum-for-frizzy-hair"
+  },
+  {
+   "id": "gid://shopify/Page/698542784899",
+   "handle": "comb",
+   "title": "Comb",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/haircare-tools-kits"
+  },
+  {
+   "id": "gid://shopify/Page/698542817667",
+   "handle": "body-lotion",
+   "title": "Body lotion",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-lotion"
+  },
+  {
+   "id": "gid://shopify/Page/698542850435",
+   "handle": "body-wash",
+   "title": "Body wash",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/shower-gel-body-wash"
+  },
+  {
+   "id": "gid://shopify/Page/698542915971",
+   "handle": "body-scrub-mask",
+   "title": "Body Scrub/Mask",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-scrub"
+  },
+  {
+   "id": "gid://shopify/Page/698542948739",
+   "handle": "foot-cream",
+   "title": "Foot cream",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-cream-exfoliants"
+  },
+  {
+   "id": "gid://shopify/Page/698666811779",
+   "handle": "body-butter",
+   "title": "Body Butter",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-butter"
+  },
+  {
+   "id": "gid://shopify/Page/698666844547",
+   "handle": "body-scrub",
+   "title": "Body scrub",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-scrub"
+  },
+  {
+   "id": "gid://shopify/Page/698666877315",
+   "handle": "bath-bar",
+   "title": "Bath Bar",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/body-cream-exfoliants"
+  },
+  {
+   "id": "gid://shopify/Page/698936099203",
+   "handle": "jo-milano",
+   "title": "Jo Milano",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/luxury-collection-1"
+  },
+  {
+   "id": "gid://shopify/Page/698962149763",
+   "handle": "mlt-products",
+   "title": "MLT Products",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/all"
+  },
+  {
+   "id": "gid://shopify/Page/708828201347",
+   "handle": "diamond-collection",
+   "title": "Diamond collection",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/diamond-collection"
+  },
+  {
+   "id": "gid://shopify/Page/709024907651",
+   "handle": "make-up-products",
+   "title": "Make up Products",
+   "isPublished_before": true,
+   "templateSuffix_before": "page",
+   "redirect_to": "/collections/makeup-product"
+  }
+ ],
+ "B_products": {
+  "order-eau-de-parfum-clarify-the-mind-expand-thought-100ml": {
+   "id": "gid://shopify/Product/16368951034243",
+   "seo_title": "anatomē Order Eau de Parfum | Swansura",
+   "seo_description": "Shop anatomē Order Eau de Parfum from anatomē at Swansura. 100% authentic, shipped from the UK, free UK delivery over £40.",
+   "h1": "anatomē Order Eau de Parfum"
+  },
+  "order-eau-de-parfum-travel-10ml": {
+   "id": "gid://shopify/Product/16368950903171",
+   "seo_title": "anatomē Order Eau de Parfum | Swansura",
+   "seo_description": "Shop anatomē Order Eau de Parfum from anatomē at Swansura. 100% authentic, shipped from the UK, free UK delivery over £40.",
+   "h1": "anatomē Order Eau de Parfum"
+  }
+ },
+ "C_collections": {
+  "skincare": {
+   "id": "gid://shopify/Collection/712998453635",
+   "seo_title": "Natural Skincare | Shop at Swansura UK",
+   "seo_description": "Shop natural skincare from Deyga and Vilvah, our official UK partner brands, and Highborn London. 100% authentic, free UK delivery over £40.",
+   "h1": "Natural Skincare"
+  },
+  "natural-skincare": {
+   "id": "gid://shopify/Collection/714070753667",
+   "seo_title": "Natural Skincare | Shop at Swansura UK",
+   "seo_description": "Natural skincare from India has a long tradition of using plants, clays and oils, and that is the heart of this edit. Free UK delivery over £40.",
+   "h1": "Natural skincare"
+  },
+  "concern-dandruff": {
+   "id": "gid://shopify/Collection/714068853123",
+   "seo_title": "Shampoo for Dandruff | Shop at Swansura UK",
+   "seo_description": "A gentle shampoo for dandruff, a scalp oil and the right comb make a simple routine for a flaky, itchy-feeling scalp. Free UK delivery over £40.",
+   "h1": "Shampoo for Dandruff"
+  }
+ },
+ "D_pages_blogs": {
+  "rituals": {
+   "id": "gid://shopify/Page/712869216643",
+   "title_tag": null,
+   "description_tag": null
+  },
+  "sitemap": {
+   "id": "gid://shopify/Page/712863089027",
+   "title_tag": null,
+   "description_tag": null
+  },
+  "contact": {
+   "id": "gid://shopify/Page/697608208771",
+   "title_tag": null,
+   "description_tag": null
+  },
+  "faq": {
+   "id": "gid://shopify/Page/712863023491",
+   "title_tag": null,
+   "description_tag": null
+  },
+  "journal_blog": {
+   "id": "gid://shopify/Blog/127584633219",
+   "title_tag": null,
+   "description_tag": null
+  }
+ },
+ "E_blog_news": {
+  "id": "gid://shopify/Blog/120083349891",
+  "handle": "news",
+  "title": "News",
+  "articles": 0,
+  "old_article_url": "/blogs/news/the-ultimate-2026-skincare-reset-after-the-festive-season (already deleted before 27 Oct 07:30 UTC)"
+ }
+}
