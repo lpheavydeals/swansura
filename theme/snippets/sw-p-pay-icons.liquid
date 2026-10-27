@@ -1,0 +1,22 @@
+{%- comment -%}
+  Official payment logos (Shopify's payment_type_svg_tag) for every payment type enabled at checkout, prototype
+  order first (Visa, Mastercard, Amex, Maestro, PayPal, Apple Pay, Google Pay, Shop Pay), then any others.
+  User, 27 Oct 2026: use the real logos wherever payment methods are shown (footer, bag).
+{%- endcomment -%}
+{%- liquid
+  assign order = 'visa,master,american_express,maestro,paypal,apple_pay,google_pay,shopify_pay' | split: ','
+  assign types = shop.enabled_payment_types
+  assign out = ''
+  for t in order
+    if types contains t
+      assign out = out | append: t | append: ','
+    endif
+  endfor
+  for t in types
+    unless order contains t
+      assign out = out | append: t | append: ','
+    endunless
+  endfor
+  assign list = out | split: ','
+-%}
+{%- for type in list -%}<span class="pay-ic">{{ type | payment_type_svg_tag }}</span>{%- endfor -%}

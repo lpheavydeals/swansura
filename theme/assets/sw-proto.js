@@ -63,7 +63,7 @@
     ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>` : ''}
     ${extras.length && cart.items.length ? `<div class="bag-extras"><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
     <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
-    <span class="pays" aria-label="Payment methods">${(cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
+    <span class="pays" aria-label="Payment methods">${$('#swPayIcons')?.innerHTML || (cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
     </div>
     <div class="foot">
       ${discount}<div class="bag-sub"><span>Subtotal${cart.item_count ? ` (${cart.item_count} item${cart.item_count === 1 ? '' : 's'})` : ''}</span><b>${money(cart.total_price)}</b></div>

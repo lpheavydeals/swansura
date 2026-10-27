@@ -2311,6 +2311,10 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 @media (max-width:360px){.swp .addedbar{grid-template-columns:40px minmax(0,1fr) auto 24px;gap:8px}.swp .addedbar .pic{width:40px;height:50px}.swp .addedbar .btn{padding:0 10px}}
 /* bag page: the Liquid render reserves the space so the footer never shows first */
 .swp #bagPage{min-height:50vh}
+/* official payment logos (Shopify payment_type_svg_tag) in the footer and the bag (user, 27 Oct 2026) */
+.swp .pays{align-items:center;gap:6px}
+.swp .pay-ic{display:inline-flex;line-height:0}
+.swp .pay-ic svg{display:block;width:38px;height:24px;border-radius:4px}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}

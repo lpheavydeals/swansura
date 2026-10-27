@@ -3,8 +3,6 @@
   (accordions on phones, closed below 720px like the prototype), legal bar from the 'legal_links' menu +
   sitemap + cookie settings, payment names from the store's enabled payment types, faded SWANSURA wordmark.
 {%- endcomment -%}
-{%- capture pays -%}{% render 'sw-p-pays' %}{%- endcapture -%}
-{%- assign pays = pays | split: '|' -%}
 <div class="swp"><footer class="site" id="footer"><div class="wrap"><div class="cols">
     <div><a href="{{ routes.root_url }}" class="logo"><img src="{{ 'swansura-logo-white.svg' | asset_url }}" alt="Swansura – The Body Studio" class="logo-img ft" width="138" height="84" loading="lazy"></a><p style="margin-top:16px;max-width:30ch">{{ section.settings.text }}</p>
       {%- if section.settings.promises != blank -%}{{ section.settings.promises | replace: '<ul>', '<ul class="fpromise">' }}{%- endif -%}
@@ -21,7 +19,7 @@
     {%- endif -%}
     {%- if section.settings.sitemap_url != blank -%}<a href="{{ section.settings.sitemap_url }}">Sitemap</a>{%- endif -%}
     <a href="#" onclick="if(window.privacyBanner){privacyBanner.showPreferences();}return false;">Cookie settings</a></nav></div>
-    <span class="pays" aria-label="Payment methods">{%- for n in pays -%}<span class="pay">{{ n }}</span>{%- endfor -%}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div></footer></div>
+    <span class="pays" aria-label="Payment methods">{%- render 'sw-p-pay-icons' -%}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div></footer></div>
 <script>
   if (window.innerWidth <= 720) document.querySelectorAll('footer.site .fcol').forEach(d => d.removeAttribute('open'));
 </script>
