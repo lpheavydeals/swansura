@@ -91,6 +91,14 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .bag .bag-body .pays{justify-content:flex-start}
 .swp .bag .foot{flex:none;gap:10px;box-shadow:0 -8px 20px rgba(31,26,23,.06);background:var(--paper)}
 .swp .bag .bag-sub{display:flex;justify-content:space-between;font-size:16px}
+/* UK delivery options in the bag (user, 27 Oct 2026): standard £1.99 (free over £40), two-day £2.99, next-day £3.99 */
+.swp .bag .shipopts{border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.swp .bag .shipopts .so-h{display:flex;justify-content:space-between;align-items:baseline;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
+.swp .bag .shipopts .so-h small{font-size:11px;letter-spacing:0;text-transform:none;color:var(--muted,#6b6158);font-weight:400}
+.swp .bag .shipopts .so{display:flex;justify-content:space-between;gap:10px}
+.swp .bag .shipopts .so small{color:var(--muted,#6b6158);font-size:12px;margin-left:6px}
+.swp .bag .shipopts .so b{color:var(--emerald);font-weight:600}
+.swp .bag .bag-ship{display:flex;justify-content:space-between;font-size:14px}
 .swp .bag .bag-view{align-self:center;font-size:13px;min-height:24px;display:inline-flex;align-items:center}
 @media (max-height:620px){.swp .bag .bag-head{padding:12px 20px}.swp .bag .bag-note{display:none}}
 /* phones: 'Added to your bag' bar at the bottom instead of the drawer (user, 27 Oct 2026) */

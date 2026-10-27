@@ -1,0 +1,7 @@
+{"note":"General profile, UK zone, before the 27 Oct 2026 change (user: £1.99 standard 3-4 business days under £40, £2.99 two-day, £3.99 next-day). Undo: restore these names/prices/conditions with deliveryProfileUpdate.",
+ "profile":"gid://shopify/DeliveryProfile/131849814403","locationGroup":"gid://shopify/DeliveryLocationGroup/132778918275","zone":"gid://shopify/DeliveryZone/631569842563",
+ "methods":[
+  {"id":"gid://shopify/DeliveryMethodDefinition/1096035205507","name":"Standard","price":2.0,"conditions":"TOTAL_PRICE 0.0-20.0"},
+  {"id":"gid://shopify/DeliveryMethodDefinition/1096035172739","name":"Standard","price":3.0,"conditions":"TOTAL_PRICE 20.01-39.99"},
+  {"id":"gid://shopify/DeliveryMethodDefinition/1308958884227","name":"Free UK delivery","price":0.0,"conditions":"TOTAL_PRICE >= 40.0"},
+  {"id":"gid://shopify/DeliveryMethodDefinition/1096035238275","name":"Express","price":4.0,"conditions":"none"}]}

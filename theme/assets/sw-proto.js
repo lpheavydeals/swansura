@@ -10,6 +10,12 @@
   const layer = () => $('#layer');
   const store = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
   const offers = cfg.offers || { delivery: 40, bonus: { min: 70, off: 5 } };
+  /* UK delivery rates in Shopify (user, 27 Oct 2026): standard £1.99 under the free-delivery threshold, two-day £2.99, next-day £3.99 */
+  const ship = cfg.ship || { std: 1.99, two: 2.99, next: 3.99 };
+  const shipOpts = total => `<div class="shipopts" role="group" aria-label="UK delivery options"><div class="so-h">UK delivery <small>Choose at checkout</small></div>
+      <div class="so"><span>Standard <small>3–4 business days</small></span><b>${total >= offers.delivery ? 'Free' : '£' + ship.std.toFixed(2)}</b></div>
+      <div class="so"><span>Two-day <small>2 business days</small></span><b>£${ship.two.toFixed(2)}</b></div>
+      <div class="so"><span>Next-day <small>Next business day</small></span><b>£${ship.next.toFixed(2)}</b></div></div>`;
   const nextGoal = t => t < offers.delivery ? { goal: offers.delivery, left: offers.delivery - t, what: 'free UK delivery' }
     : t < offers.bonus.min ? { goal: offers.bonus.min, left: offers.bonus.min - t, what: `£${offers.bonus.off} off your order` } : null;
   const icon = {
@@ -60,14 +66,14 @@
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
     <div class="bag-body">
     <div class="lines">${lines}</div>
-    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>` : ''}
+    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>${shipOpts(total)}` : ''}
     ${extras.length && cart.items.length ? `<div class="bag-extras"><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
     <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
     <span class="pays" aria-label="Payment methods">${$('#swPayIcons')?.innerHTML || (cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
     </div>
     <div class="foot">
-      ${discount}<div class="bag-sub"><span>Subtotal${cart.item_count ? ` (${cart.item_count} item${cart.item_count === 1 ? '' : 's'})` : ''}</span><b>${money(cart.total_price)}</b></div>
-      <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
+      ${discount}${cart.items.length ? `<div class="bag-ship"><span>Standard delivery</span><b>${total >= offers.delivery ? 'Free' : '£' + ship.std.toFixed(2)}</b></div>` : ''}<div class="bag-sub"><span>Subtotal${cart.item_count ? ` (${cart.item_count} item${cart.item_count === 1 ? '' : 's'})` : ''}</span><b>${money(cart.total_price)}</b></div>
+      <p class="bag-note">Taxes included. Delivery and discount codes are added at checkout.</p>
       <a class="btn solid" id="checkoutBtn" href="/checkout"${cart.items.length ? '' : ' aria-disabled="true" style="pointer-events:none;opacity:.5"'}>Checkout securely</a>
       ${page ? '' : `<a class="p-link bag-view" href="/cart">View bag</a>`}
     </div>

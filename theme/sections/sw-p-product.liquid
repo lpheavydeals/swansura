@@ -150,7 +150,7 @@
             <details><summary>Ingredients</summary><div class="in">{%- if sw.g.size > 0 -%}<p><b>Key ingredients:</b> {{ sw.g | join: ', ' | escape }}.</p>{%- endif -%}<p class="muted">The full ingredients list (INCI) is printed on the pack. We are adding it here for every product.</p></div></details>
           {%- endif -%}
         {%- endif -%}
-        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Free UK delivery on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }}. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Standard UK delivery is £1.99 (3–4 business days) and free on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }}. Two-day (£2.99) and next-day (£3.99) delivery are available at checkout. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
       </div>
       {%- if d.kw.size > 0 -%}
         <p style="font-size:14px;color:var(--ink-2)">Part of our {% for k in d.kw limit: 3 %}<a href="{{ k[1] }}" style="text-decoration:underline">{{ k[0] | downcase | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} edit{% if d.kw.size > 1 %}s{% endif %}.</p>

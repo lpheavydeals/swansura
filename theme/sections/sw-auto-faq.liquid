@@ -16,7 +16,7 @@
   else
     assign returns_a = 'You can return unopened, sealed items within 14 days of delivery (return postage is paid by you). Damaged, faulty or wrong items are replaced or refunded at no cost. <a href="/pages/contact">Contact us</a> to start a return.'
   endif
-  assign delivery_a = 'Orders are dispatched from the UK within 1–2 working days. UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.'
+  assign delivery_a = 'Orders are dispatched from the UK within 1–2 working days. Standard UK delivery is £1.99 (3–4 business days) and free on orders over £40, and orders over £70 also get £5 off. Two-day (£2.99) and next-day (£3.99) delivery are available at checkout.'
 
   assign faq_mf = blank
   if template.name == 'collection'
@@ -124,7 +124,7 @@
       assign partner = true
     endif
     assign sw = product.metafields.custom.sw.value
-    assign delivery_p = 'Orders are usually dispatched within 1–2 working days from the UK. Delivery is free over £40, and orders over £70 get free delivery plus £5 off. ' | append: returns_a
+    assign delivery_p = 'Orders are usually dispatched within 1–2 working days from the UK. Standard delivery is £1.99 (3–4 business days), free over £40, and orders over £70 also get £5 off; two-day (£2.99) and next-day (£3.99) are available at checkout. ' | append: returns_a
 
     if sw.f != blank
       comment
@@ -184,7 +184,7 @@
       assign qs = qs | append: 'How quickly will my order arrive?' | append: sep
       assign as = as | append: 'We dispatch from the UK within 1–2 working days, so most UK orders arrive within a few days of ordering.' | append: sep
       assign qs = qs | append: 'Is UK delivery free?' | append: sep
-      assign as = as | append: 'UK delivery is free on orders over £40, and orders over £70 get free delivery plus £5 off.' | append: sep
+      assign as = as | append: 'Standard UK delivery is £1.99 (3–4 business days) and free on orders over £40, and orders over £70 also get £5 off. Two-day (£2.99) and next-day (£3.99) delivery are available at checkout.' | append: sep
       assign qs = qs | append: 'Can I return it?' | append: sep
       assign as = as | append: returns_a | append: sep
     endif

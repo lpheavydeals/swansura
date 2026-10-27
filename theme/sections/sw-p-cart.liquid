@@ -22,8 +22,9 @@
     </div></div>
     <div class="foot">
       {%- if cart.total_discount > 0 -%}<div style="display:flex;justify-content:space-between;font-size:14px;color:var(--emerald)"><span>Savings</span><b>−{{ cart.total_discount | money }}</b></div>{%- endif -%}
+      {%- if cart.item_count > 0 -%}<div class="bag-ship"><span>Standard delivery</span><b>{% if cart.total_price >= 4000 %}Free{% else %}£1.99{% endif %}</b></div>{%- endif -%}
       <div class="bag-sub"><span>Subtotal{% if cart.item_count > 0 %} ({{ cart.item_count }} item{% if cart.item_count != 1 %}s{% endif %}){% endif %}</span><b>{{ cart.total_price | money }}</b></div>
-      <p class="bag-note">Taxes included. Discount codes and delivery are added at checkout.</p>
+      <p class="bag-note">Taxes included. Delivery and discount codes are added at checkout.</p>
       <a class="btn solid" id="checkoutBtn" href="{{ routes.root_url }}checkout"{% if cart.item_count == 0 %} aria-disabled="true" style="pointer-events:none;opacity:.5"{% endif %}>Checkout securely</a>
     </div>
   </div></div>
