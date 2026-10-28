@@ -29,4 +29,5 @@ Judge.me Reviews (theme embed, review block), Collective (supplies the 45 anatom
 
 ## Done
 - 28 Oct 2026: user uninstalled Instafeed, Store Migration and Canva Connect. Live homepage checked: the Instafeed script (cdn.nfcube.com) no longer loads.
-- Still installed from the 'Uninstall' list: IndexGPT, Subscriptions, TikTok Shop — SPL, MetaShop Instagram & Facebook, Clearer Address Validator, Spocket.
+- 28 Oct 2026 (later): IndexGPT and Subscriptions uninstalled.
+- Still installed from the 'Uninstall' list: TikTok Shop — SPL, MetaShop Instagram & Facebook, Clearer Address Validator, Spocket.
