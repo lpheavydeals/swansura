@@ -41,7 +41,14 @@
           capture img
             if p != blank
               assign im = p.featured_media.preview_image
-              echo im | image_url: width: 600 | image_tag: class: 'pic', widths: '200,300,450,600', sizes: '(min-width: 900px) 260px, 45vw', loading: 'lazy', alt: im.alt
+              if wrap_class contains 'catrow'
+                comment
+                  category row tiles show ~102–110 px (PageSpeed 28 Oct 2026: they were fetched at 450 px)
+                endcomment
+                echo im | image_url: width: 360 | image_tag: class: 'pic', widths: '120,240,360', sizes: '110px', loading: 'lazy', alt: im.alt
+              else
+                echo im | image_url: width: 600 | image_tag: class: 'pic', widths: '200,300,450,600', sizes: '(min-width: 900px) 260px, 45vw', loading: 'lazy', alt: im.alt
+              endif
             else
               echo '<div class="pic"></div>'
             endif

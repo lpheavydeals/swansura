@@ -170,8 +170,18 @@
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && layer()?.innerHTML) closeLayer(); });
 
-  // Motion starts 2.5 s after the page has loaded, so the first view settles fast (PageSpeed: Speed Index, 27 Oct 2026)
-  const afterLoad = fn => { const go = () => setTimeout(fn, 2500); if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true }); };
+  // Motion (hero slider, announcement rotation) starts on the shopper's first scroll / tap / mouse move / key, or 8 s
+  // after load, so the page settles before anything moves (PageSpeed: Speed Index + LCP, 27–28 Oct 2026)
+  const afterLoad = (() => { const q = []; let started = false;
+    const start = () => { if (started) return; started = true; EV.forEach(t => removeEventListener(t, start, opts)); q.splice(0).forEach(f => f()); };
+    const EV = ['pointerdown', 'pointermove', 'touchstart', 'scroll', 'keydown', 'wheel'], opts = { passive: true };
+    EV.forEach(t => addEventListener(t, start, opts));
+    const later = () => setTimeout(start, 8000); if (document.readyState === 'complete') later(); else addEventListener('load', later, { once: true });
+    return fn => { if (started) fn(); else q.push(fn); }; })();
+
+  /* ---------- footer wordmark shimmer only while the footer is on screen (PageSpeed, 28 Oct 2026) ---------- */
+  (() => { const w = $('footer .fmark-wrap'); if (!w || !('IntersectionObserver' in window)) return;
+    new IntersectionObserver(es => es.forEach(e => w.classList.toggle('inview', e.isIntersecting))).observe(w); })();
 
   /* ---------- announcement bar: one message at a time where they don't fit side by side ---------- */
   (() => { const items = $$('.announce .wrap>*'); if (items.length < 2) return; let i = 0; items[0].classList.add('on');

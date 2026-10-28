@@ -2400,6 +2400,14 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 @keyframes riseT{from{transform:translateY(18px)}to{transform:none}}
 /* Dawn's font variables point at Plus Jakarta Sans too, so Assistant / Cormorant are never downloaded (PageSpeed 27 Oct 2026) */
 :root{--font-body-family:'Plus Jakarta Sans','Helvetica Neue',Arial,sans-serif;--font-heading-family:'Plus Jakarta Sans','Helvetica Neue',Arial,sans-serif;--font-body-style:normal;--font-heading-style:normal}
+/* PageSpeed (user, 28 Oct 2026: mobile PSI 70, LCP 7.4 s): paint-only animations ran non-stop and kept the main thread busy.
+   Add-button shine moves with transform (composited) instead of 'left'; the footer wordmark shimmer runs only while the
+   footer is on screen (.inview, sw-proto.js); the hero price tag drops its live blur (re-rendered on every slide). */
+.swp .add::after{left:-60%;will-change:transform;animation-name:addshineT}
+@keyframes addshineT{0%,62%{transform:translateX(0) skewX(-18deg)}82%,100%{transform:translateX(500%) skewX(-18deg)}}
+.swp footer .fmark{animation-play-state:paused}
+.swp footer .fmark-wrap.inview .fmark{animation-play-state:running}
+.swp .hero .tag{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(22,42,37,.88)}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
