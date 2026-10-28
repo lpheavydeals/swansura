@@ -26,3 +26,7 @@ Checked: installed apps (appInstallations), live theme app embeds (settings_data
 
 ## Keep
 Judge.me Reviews (theme embed, review block), Collective (supplies the 45 anatomē + Highborn London products — uninstalling removes them), Messaging (Shopify customer emails/Inbox), Collabs (creator partnerships for the Ads phase), Knowledge Base (Shopify, harmless), Shopify Claude Connector (this build).
+
+## Done
+- 28 Oct 2026: user uninstalled Instafeed, Store Migration and Canva Connect. Live homepage checked: the Instafeed script (cdn.nfcube.com) no longer loads.
+- Still installed from the 'Uninstall' list: IndexGPT, Subscriptions, TikTok Shop — SPL, MetaShop Instagram & Facebook, Clearer Address Validator, Spocket.
