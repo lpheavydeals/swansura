@@ -1,4 +1,7 @@
 """Backlink plan for swansura.com (user, 28 Oct 2026: 'Give me the worthy backlinks').
+Profiles tab (user, 28 Oct 2026: 'basic social backlinks' + 'company registration like YourStory'): social and
+company-database profiles. Company facts from Companies House (checked 28 Oct 2026): SWANSURA LTD, 16575553,
+incorporated 11 July 2025, Flat 16 Avondale Court, South Woodford, London E18 2RD.
 Builds docs/seo/Swansura_Backlink_Plan_2026-10-28.xlsx: prospects by tier, how to win each link, target page,
 anchor idea, effort/cost, timing and a status column. Only white-hat routes (Google spam policy: no paid
 dofollow links, PBNs, link exchanges or directory blasts). 'Checked 28 Oct' = site/page reached that day;
@@ -44,6 +47,31 @@ ROWS = [
  ('3', 'Research', 'Semrush Backlink Gap', 'https://www.semrush.com', 'Shows exactly which sites link to competitors but not to Swansura.', 'In your Semrush account: Backlink Gap for swansura.com vs skincupid.co.uk, indicrest.co.uk and 1–2 UK fragrance shops; export and add the relevant domains to this sheet.', '—', '—', 'Low', 'Your Semrush plan', 'This week', 'Skin Cupid site reached 28 Oct; Indicrest returned 500'),
 ]
 
+CO = 'SWANSURA LTD (company no. 16575553)'
+PROFILES = [
+ # group, platform, url, status, what to do, link type
+ ('Company', 'Companies House', 'https://find-and-update.company-information.service.gov.uk/company/16575553', 'Registered (checked 28 Oct)', 'Not a backlink, but the source every company database copies. UK law (Companies Act 2006 / Company, LLP and Business Names Regs 2015) also needs the registered name, number, place of registration (England & Wales) and registered office on the website: add them to the footer legal line.', '—'),
+ ('Company', 'Crunchbase', 'https://www.crunchbase.com', 'To create', 'Free company profile: ' + CO + ', website, logo, founded July 2025, London, category Beauty / E-commerce, short description.', 'nofollow (brand signal)'),
+ ('Company', 'LinkedIn company page', 'https://www.linkedin.com/company/setup/new/', 'To create', 'Company page with website, logo, industry Retail / Personal Care, location London; founder lists Swansura as employer.', 'nofollow'),
+ ('Company', 'Dun & Bradstreet D-U-N-S number', 'https://www.dnb.co.uk/duns-number.html', 'To request (free)', 'Free D-U-N-S number for the Ltd; adds a trusted business record and is needed for Apple Business Connect / Apple developer accounts.', 'no link (trust record)'),
+ ('Company', 'F6S', 'https://www.f6s.com', 'To create', 'Free startup profile with website; also lists programmes and deals.', 'profile link'),
+ ('Company', 'Endole / company-data mirrors', 'https://www.endole.co.uk', 'Auto from Companies House', 'Profiles appear automatically; where a free claim is offered, add the website and logo. Do not pay for upgrades.', 'varies'),
+ ('Company', 'Tracxn / ZoomInfo / Owler', 'https://www.tracxn.com', 'Auto / optional', 'Company databases that pick up profiles from the web; check once and add the website if a free edit is allowed.', 'nofollow'),
+ ('Company', 'Wellfound (AngelList)', 'https://wellfound.com', 'Only if hiring or raising', 'Skip unless hiring or fundraising.', 'nofollow'),
+ ('Startup media', 'YourStory (India)', 'https://yourstory.com', 'Pitch', 'Story angle for Indian startup media: Indian natural brands Deyga and Vilvah reach UK customers through a London partner (Swansura). Use their story-submission route; give facts only (no sales figures you don\'t want public).', 'editorial, often dofollow'),
+ ('Startup media', 'Inc42 (India)', 'https://inc42.com', 'Pitch', 'Same angle (Indian D2C brands going global via UK partners); offer a founder quote.', 'editorial'),
+ ('Startup media', 'Startups.co.uk', 'https://www.startups.co.uk', 'Pitch', 'UK small-business media; founder story of a new London beauty e-commerce company (2025).', 'editorial'),
+ ('Startup media', 'UK Business Forums', 'https://www.ukbusinessforums.co.uk', 'Optional', 'Free member profile with website; take part genuinely, no link drops.', 'nofollow'),
+ ('Social', 'Instagram @swansura_thebodystudio', 'https://www.instagram.com/swansura_thebodystudio', 'Exists (linked in footer)', 'Website in bio; Instagram Shopping via the Facebook & Instagram channel.', 'nofollow'),
+ ('Social', 'Facebook page', 'https://www.facebook.com/share/16wUrverHK/', 'Exists', 'Website field, Shop tab, category Health/beauty.', 'nofollow'),
+ ('Social', 'TikTok @swansurathebodysh', 'https://www.tiktok.com/@swansurathebodysh', 'Exists – rename', 'Business account + website link. Rename the handle: "the body shop" is The Body Shop\'s trademark and not the brand ("The Body Studio").', 'nofollow'),
+ ('Social', 'YouTube @SwansuraThebodyshop', 'https://www.youtube.com/@SwansuraThebodyshop', 'Exists – rename', 'Add the website to channel links. Rename the handle for the same trademark reason.', 'nofollow'),
+ ('Social', 'Pinterest business', 'https://business.pinterest.com', 'To create', 'Claim swansura.com, connect the Shopify catalogue (Pinterest sales channel) for product pins: real traffic for beauty and gifts.', 'nofollow + traffic'),
+ ('Social', 'X (Twitter)', 'https://x.com', 'To create', 'Needed to answer #journorequest; website in bio.', 'nofollow'),
+ ('Social', 'Threads', 'https://www.threads.net', 'To create', 'One tap from Instagram.', 'nofollow'),
+ ('Site', 'sameAs + footer icons', 'https://www.swansura.com', 'To do (theme)', 'List every profile in the Organization schema sameAs and show the icons in the footer (live footer and schema list only Instagram).', '—'),
+]
+
 AVOID = [
  ('Buying dofollow links / "guest posts" for a fee', 'Against Google\'s spam policy (link schemes); can lead to a manual penalty. Paid placements must be rel="sponsored".'),
  ('PBNs, link farms, "500 backlinks for £20" gigs', 'Spam; links get ignored at best, penalised at worst.'),
@@ -85,6 +113,19 @@ for row in ws.iter_rows(min_row=2):
     for c in row:
         c.fill = PatternFill('solid', fgColor=tints[row[0].value])
 
+wsp = wb.create_sheet('Profiles', 1)
+wsp.append(['Group', 'Platform', 'URL', 'Status', 'What to do', 'Link type', 'Done (URL)'])
+for r in PROFILES:
+    wsp.append(list(r) + [''])
+for col, w in zip('ABCDEFG', [14, 34, 52, 24, 80, 22, 30]):
+    wsp.column_dimensions[col].width = w
+for row in wsp.iter_rows():
+    for c in row:
+        c.alignment = Alignment(wrap_text=True, vertical='top')
+for c in wsp[1]:
+    c.font = Font(bold=True, color='FFFFFF'); c.fill = head
+wsp.freeze_panes = 'C2'
+
 ws2 = wb.create_sheet('Pitch templates')
 ws2.append(['For', 'Email template (fill the <…> parts)'])
 for r in PITCH:
@@ -109,4 +150,4 @@ for c in ws3[1]:
 
 out = 'docs/seo/Swansura_Backlink_Plan_2026-10-28.xlsx'
 wb.save(out)
-print(out, len(ROWS), 'prospects')
+print(out, len(ROWS), 'prospects,', len(PROFILES), 'profiles')
