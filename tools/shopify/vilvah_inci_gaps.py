@@ -71,7 +71,7 @@ PRODUCTS = {
     "15979039097219": ("Cucumber, Curd & Mint Soap Bar 115G", [site("cucumber-yogurt-and-mint-soap", "Cucumber, Curd & Mint Soap")]),
     "15976557183363": ("Vilvah Pore Minimising Kit", [K("Milk Face Toner"), K("Milk Powder Face Wash")]),
     "15976569241987": ("Vilvah Tinted Lip Balm Kit", [site("cream-bun-lip-balm", "Cream Bun Lip Balm"), site("mango-milkshake-lip-balm", "Mango Milkshake Lip Balm")]),
-    "15976578351491": ("Vilvah Face Lift Kit", [K("Ultra Moisturising Cream"), K("Under Eye Cream")]),
+    "15976578351491": ("Vilvah Face Lift Kit", [K("Ultra Moisturising Cream"), site("under-eye-cream-advanced", "Under Eye Cream (Advanced)")]),
     "15976582873475": ("Vilvah AM Brightening Kit", [SKIN_FINISH, K("Milk Drops Serum")]),
     "15976586248579": ("Vilvah Oil Control Kit", [K("Milk Mud Mask"), K("Milk Powder Face Wash")]),
     "15976591950211": ("Vilvah Skin Radiance Large Kit", [SKIN_FINISH, K("Milk Powder Face Wash"), K("Milk Drops Serum")]),
