@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-30",
+ "note": "custom.inci and custom.inci_data did not exist on these products before; undo = metafieldsDelete for both keys",
+ "products": [
+  "gid://shopify/Product/15415436476803",
+  "gid://shopify/Product/15976330297731",
+  "gid://shopify/Product/15976557183363",
+  "gid://shopify/Product/15976569241987",
+  "gid://shopify/Product/15976578351491",
+  "gid://shopify/Product/15976582873475",
+  "gid://shopify/Product/15976586248579",
+  "gid://shopify/Product/15976591950211",
+  "gid://shopify/Product/15976626094467",
+  "gid://shopify/Product/15979036180867",
+  "gid://shopify/Product/15979037065603",
+  "gid://shopify/Product/15979039097219"
+ ]
+}
