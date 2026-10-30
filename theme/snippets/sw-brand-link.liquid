@@ -1,36 +1,42 @@
 {%- comment -%}
   Returns the URL of a vendor's brand page in `sw_brand_url` (assign via capture).
-  Deyga, Vilvah and a few other brands live on collections with legacy handles (map below);
+  Brand pages use the brand name as handle (legacy handles before 30 Oct 2026 in the map below);
   other brands use the collection named after the vendor if it has products, else Shopify's vendor page.
   Usage: {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
 {%- endcomment -%}
 {%- liquid
+  # brand collections were renamed to the brand name on 30 Oct 2026 (vilvah, deyga, tom-ford, jo-milano ...);
+  # the legacy handle is tried second so this also works before / without the rename
   assign v = vendor | downcase | strip
+  assign h = vendor | handleize
+  assign old = ''
   if v == 'deyga'
-    echo '/collections/milk-drop-brightening-serum-1'
+    assign h = 'deyga'
+    assign old = 'milk-drop-brightening-serum-1'
   elsif v contains 'vilvah'
-    echo '/collections/milk-drop-brightening-serum'
+    assign h = 'vilvah'
+    assign old = 'milk-drop-brightening-serum'
   else
-    assign h = vendor | handleize
     case h
       when 'tom-ford'
-        assign h = 'tomford'
+        assign old = 'tomford'
       when 'antonio-banderas'
-        assign h = 'antonio'
+        assign old = 'antonio'
       when 'yves-saint-laurent'
-        assign h = 'ysl'
+        assign old = 'ysl'
       when 'philipp-plein'
-        assign h = 'phillip-plein'
+        assign old = 'phillip-plein'
       when 'joop'
-        assign h = 'joop-homme'
+        assign old = 'joop-homme'
       when 'jean-paul-gaultier'
-        assign h = 'jean-paul'
+        assign old = 'jean-paul'
       when 'hemel'
-        assign h = 'hemel-h'
+        assign old = 'hemel-h'
       when 'jo-milano'
-        assign h = 'luxury-collection-1'
+        assign old = 'luxury-collection-1'
       when 'signature-d-orient', 'signature-dorient'
-        assign h = 'signature-sillage-dorient'
+        assign h = 'signature-dorient'
+        assign old = 'signature-sillage-dorient'
       when 'swansura-the-body-studio', 'swansura'
         comment
           products still carrying the store name as vendor (client to confirm their brands) go to the Swansura Selection
@@ -38,11 +44,14 @@
         endcomment
         assign h = 'swansura-selection'
     endcase
-    assign c = collections[h]
-    if c != blank and c.products_count > 0
-      echo c.url
-    else
-      echo vendor | url_for_vendor
-    endif
+  endif
+  assign c = collections[h]
+  if c == blank and old != ''
+    assign c = collections[old]
+  endif
+  if c != blank and c.products_count > 0
+    echo c.url
+  else
+    echo vendor | url_for_vendor
   endif
 -%}

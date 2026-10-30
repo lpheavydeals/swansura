@@ -11,7 +11,7 @@
       {%- assign menu = linklists[block.settings.menu] -%}
       <details class="fcol" open {{ block.shopify_attributes }}><summary><h3>{{ block.settings.heading | default: menu.title | escape }}</h3></summary>{%- for l in menu.links -%}<a href="{{ l.url }}">{{ l.title | escape }}</a>{%- endfor -%}</details>
     {%- endfor -%}
-  </div><div class="legal"><div class="lg"><span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span><nav aria-label="Policies">
+  </div><div class="legal"><div class="lg"><span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span>{%- if section.settings.company_line != blank -%}<span class="company">{{ section.settings.company_line | escape }}</span>{%- endif -%}<nav aria-label="Policies">
     {%- if section.settings.legal_links != blank -%}
       {%- for l in section.settings.legal_links.links -%}<a href="{{ l.url }}">{{ l.title | escape }}</a>{%- endfor -%}
     {%- else -%}
@@ -32,6 +32,7 @@
     { "type": "richtext", "id": "promises", "label": "Promises list" },
     { "type": "text", "id": "social_label", "label": "Instagram label", "default": "@swansura_thebodystudio" },
     { "type": "link_list", "id": "legal_links", "label": "Legal-bar links (menu)", "info": "Replaces the automatic policy links" },
+    { "type": "text", "id": "company_line", "label": "Company details (legal bar)", "default": "SWANSURA LTD · Registered in England and Wales, company no. 16575553 · Registered office: Flat 16 Avondale Court, South Woodford, London E18 2RD", "info": "UK law: company name, number, place of registration and registered office on the website" },
     { "type": "url", "id": "sitemap_url", "label": "Sitemap page", "info": "A page using the 'sitemap' template" }
   ],
   "blocks": [

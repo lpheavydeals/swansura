@@ -4,15 +4,29 @@
   - collections (incl. /collections/all): BreadcrumbList + CollectionPage with an ItemList of the first 24 products
   - /collections (Brands A–Z), pages, blogs: BreadcrumbList (+ CollectionPage / Blog)
   - articles: BreadcrumbList (BlogPosting + FAQPage come from sw-p-article)
-  Products keep their own Product/ProductGroup + BreadcrumbList + FAQPage in sw-p-product.
+  Products keep their own Product (snippets/sw-product-schema) + BreadcrumbList + FAQPage in sw-p-product.
 {%- endcomment -%}
 {%- liquid
   assign root = shop.url | append: '/'
   assign pt = request.page_type
   assign search_tpl = root | append: 'search?q={search_term_string}'
+  # sameAs: the social profiles set in Theme settings (query strings removed) + the Companies House record (30 Oct 2026)
+  assign socials = settings.social_instagram_link | append: '|' | append: settings.social_facebook_link | append: '|' | append: settings.social_tiktok_link | append: '|' | append: settings.social_youtube_link | append: '|' | append: settings.social_pinterest_link | append: '|' | append: settings.social_twitter_link | split: '|'
+  assign same_as = ''
+  for s in socials
+    assign u = s | split: '?' | first | strip
+    if u != blank
+      unless u contains 'http'
+        assign u = 'https://' | append: u
+      endunless
+      assign uj = u | json
+      assign same_as = same_as | append: uj | append: ','
+    endif
+  endfor
+  assign same_as = same_as | append: '"https://find-and-update.company-information.service.gov.uk/company/16575553"'
 -%}
 {%- if pt == 'index' -%}
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":{{ root | append: '#organization' | json }},"name":"Swansura – The Body Studio","url":{{ root | json }},"logo":{{ 'swansura-logo.webp' | file_url | prepend: 'https:' | json }},"email":"info@swansura.com","sameAs":["https://www.instagram.com/swansura_thebodystudio/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"info@swansura.com","areaServed":"GB","availableLanguage":"en-GB"}},{"@type":"WebSite","@id":{{ root | append: '#website' | json }},"name":"Swansura","url":{{ root | json }},"publisher":{"@id":{{ root | append: '#organization' | json }}},"inLanguage":"en-GB","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ search_tpl | json }}},"query-input":"required name=search_term_string"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":{{ root | append: '#organization' | json }},"name":"Swansura – The Body Studio","legalName":"SWANSURA LTD","url":{{ root | json }},"logo":{{ 'swansura-logo.webp' | file_url | prepend: 'https:' | json }},"email":"info@swansura.com","sameAs":[{{ same_as }}],"identifier":{"@type":"PropertyValue","propertyID":"Companies House company number","value":"16575553"},"address":{"@type":"PostalAddress","streetAddress":"Flat 16 Avondale Court","addressLocality":"South Woodford, London","postalCode":"E18 2RD","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"info@swansura.com","areaServed":"GB","availableLanguage":"en-GB"}},{"@type":"WebSite","@id":{{ root | append: '#website' | json }},"name":"Swansura","url":{{ root | json }},"publisher":{"@id":{{ root | append: '#organization' | json }}},"inLanguage":"en-GB","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ search_tpl | json }}},"query-input":"required name=search_term_string"}}]}</script>
 {%- elsif pt == 'collection' -%}
   {%- liquid
     assign c_name = collection.metafields.custom.h1.value | default: collection.title

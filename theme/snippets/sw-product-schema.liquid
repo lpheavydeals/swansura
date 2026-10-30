@@ -1,0 +1,57 @@
+{%- comment -%}
+  Product JSON-LD (replaces Shopify's `structured_data`, which has no delivery or returns details; 30 Oct 2026).
+  Adds per-variant sku / gtin (variant barcode, only when it is a real 8/12/13/14-digit GTIN), item condition, seller,
+  UK delivery (standard £1.99, free from the 'Free UK delivery from' amount; dispatch 1–2 working days, 3–4 days in
+  transit) and the returns policy (14 days, by post, return postage paid by the customer) so Google can show
+  'Free delivery' / '14-day returns' beside the price. anatomē and Highborn London ship through Shopify Collective
+  with the supplier's rates and returns, so their offers leave both out. No rating until real reviews exist.
+  Usage: {% render 'sw-product-schema', product: product, free_from: section.settings.delivery_min %}
+{%- endcomment -%}
+{%- liquid
+  assign vl = product.vendor | downcase
+  assign own_shipping = true
+  if vl contains 'anatom' or vl contains 'highborn'
+    assign own_shipping = false
+  endif
+  assign free_from = free_from | default: 40 | times: 100
+  assign url = shop.url | append: product.url
+  assign desc = product.description | strip_html | strip_newlines | strip | truncate: 4900
+  assign digits = '0,1,2,3,4,5,6,7,8,9' | split: ','
+-%}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","@id":{{ url | append: '#product' | json }},"name":{{ product.title | json }},"url":{{ url | json }},"description":{{ desc | json }},"brand":{"@type":"Brand","name":{{ product.vendor | json }}}
+{%- if product.type != blank -%},"category":{{ product.type | json }}{%- endif -%}
+,"image":[{%- for m in product.images limit: 6 -%}{{ m | image_url: width: 1200 | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]
+{%- if product.selected_or_first_available_variant.sku != blank -%},"sku":{{ product.selected_or_first_available_variant.sku | json }}{%- endif -%}
+,"offers":[
+{%- for v in product.variants -%}
+{%- liquid
+  assign gtin = v.barcode | strip
+  assign rest = gtin
+  for d in digits
+    assign rest = rest | remove: d
+  endfor
+  assign ok_gtin = false
+  if rest == ''
+    case gtin.size
+      when 8, 12, 13, 14
+        assign ok_gtin = true
+    endcase
+  endif
+  if v.price >= free_from
+    assign rate = '0.00'
+  else
+    assign rate = '1.99'
+  endif
+-%}
+{"@type":"Offer","url":{{ url | append: '?variant=' | append: v.id | json }},"priceCurrency":{{ cart.currency.iso_code | default: 'GBP' | json }},"price":{{ v.price | money_without_currency | remove: ',' | json }},"availability":"https://schema.org/{% if v.available %}InStock{% else %}OutOfStock{% endif %}","itemCondition":"https://schema.org/NewCondition"
+{%- if v.sku != blank -%},"sku":{{ v.sku | json }}{%- endif -%}
+{%- if ok_gtin -%},"gtin":{{ gtin | json }}{%- endif -%}
+{%- if product.variants.size > 1 -%},"name":{{ v.title | json }}{%- endif -%}
+,"seller":{"@type":"Organization","name":"Swansura"}
+{%- if own_shipping -%}
+,"shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":{{ rate }},"currency":"GBP"},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"GB"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":2,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":3,"maxValue":4,"unitCode":"DAY"}}}
+,"hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"GB","returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow","merchantReturnDays":14,"returnMethod":"https://schema.org/ReturnByMail","returnFees":"https://schema.org/ReturnFeesCustomerResponsibility"}
+{%- endif -%}
+}{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]}</script>

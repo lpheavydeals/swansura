@@ -294,6 +294,8 @@ html.as-open,html.as-open body{overflow:hidden}
 html.as-open .swp .chatbtn{display:none}
 }
 @media (prefers-reduced-motion:reduce){.swp .chatpanel.asst,.swp .asst .as-msg,.swp .as-scrim{animation:none!important}.swp .asst .as-bar i{transition:none}}
+/* company details in the footer legal bar (UK company law, 30 Oct 2026) */
+.swp footer .legal .company{flex-basis:100%;order:3;font-size:11.5px;line-height:1.5;color:var(--on-dark-2)}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}

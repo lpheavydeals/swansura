@@ -29,7 +29,25 @@
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:description" content="{{ og_description | escape }}">
 
-{%- if page_image -%}
+{%- liquid
+  # brand share card (assets/swansura-share.jpg, 1200x630) on the homepage, on pages without their own image, and in
+  # place of the old placeholder 'Gold_Modern_Ambigram…' logo that Preferences still holds (30 Oct 2026)
+  assign sw_share = false
+  if request.page_type == 'index'
+    assign sw_share = true
+  elsif page_image == blank
+    assign sw_share = true
+  elsif page_image.src contains 'Ambigram'
+    assign sw_share = true
+  endif
+-%}
+{%- if sw_share -%}
+  <meta property="og:image" content="https:{{ 'swansura-share.jpg' | asset_url }}">
+  <meta property="og:image:secure_url" content="https:{{ 'swansura-share.jpg' | asset_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Swansura – natural skincare, haircare and perfume, delivered from the UK">
+{%- elsif page_image -%}
   <meta property="og:image" content="http:{{ page_image | image_url }}">
   <meta property="og:image:secure_url" content="https:{{ page_image | image_url }}">
   <meta property="og:image:width" content="{{ page_image.width }}">
