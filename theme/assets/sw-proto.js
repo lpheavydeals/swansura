@@ -206,10 +206,163 @@
     document.addEventListener('click', e => { if (!phone() && !e.target.closest('#popular .searches')) all().forEach(d => { d.open = false; }); });
     document.addEventListener('keydown', e => { if (e.key !== 'Escape') return; const o = all().find(d => d.open); if (o && !phone()) { o.open = false; o.querySelector('summary').focus(); } }); })();
 
-  /* ---------- help / chat panel ---------- */
-  (() => { const b = $('#chatBtn'), p = $('#chatPanel'); if (!b || !p) return; const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
-    b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); });
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden) { set(false); b.focus(); } }); })();
+  /* ---------- shopping assistant (help panel; user, 30 Oct 2026) ----------
+     A guided chat: the shopper picks a need (concern, hair, body, perfume, gift, brand, orders), answers 1–3 short
+     questions and gets real products from the matching collection (/collections/<handle>?view=assist, section
+     sw-p-assist) filtered by skin type, scent family and budget. Typed text is matched to a known need or brand,
+     else Shopify's predictive search. No AI and no invented answers: order questions get the store's own facts
+     and a person on WhatsApp / Instagram / email. Every chip carries the whole state, so the log can be restored. */
+  (() => {
+    const b = $('#chatBtn'), p = $('#chatPanel'); if (!b || !p) return;
+    const log = $('#asLog', p), form = $('#asForm', p), q = $('#asQ', p), bar = $('.as-bar i', p), resetBtn = $('[data-asreset]', p);
+    const KEY = 'swAssist', ss = { get() { try { return JSON.parse(sessionStorage.getItem(KEY)); } catch (e) { return null; } }, set(v) { try { sessionStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} } };
+    const wa = p.dataset.wa, waLabel = p.dataset.waLabel, mail = p.dataset.email, ig = p.dataset.ig;
+    const BUDGET = [['0-1500', 'Under £15'], ['1500-3000', '£15 to £30'], ['3000-5000', '£30 to £50'], ['5000-', 'Over £50'], ['', 'Any budget']];
+    const BRANDS = [["Abercrombie & Fitch", "abercrombie-fitch"], ["Acqua di Parma", "acqua-di-parma"], ["Al Haramain", "al-haramain"], ["anatomē", "anatome"], ["Anna Sui", "anna-sui"], ["Antonio Banderas", "antonio"], ["Ariana Grande", "ariana-grande"], ["Armaf", "armaf"], ["Azzaro", "azzaro"], ["Bentley", "bentley"], ["Boucheron", "boucheron"], ["Burberry", "burberry"], ["Bvlgari", "bvlgari"], ["Calvin Klein", "calvin-klein"], ["Carolina Herrera", "carolina-herrera"], ["Chloé", "chloe"], ["Chopard", "chopard"], ["Coach", "coach"], ["Davidoff", "davidoff"], ["Deyga", "milk-drop-brightening-serum-1"], ["Dior", "dior"], ["DKNY", "dkny"], ["Dolce & Gabbana", "dolce-gabbana"], ["Dunhill", "dunhill"], ["Elie Saab", "elie-saab"], ["Elizabeth Arden", "elizabeth-arden"], ["Escada", "escada"], ["Estée Lauder", "estee-lauder"], ["Etienne Aigner", "etienne-aigner"], ["Fumeri", "fumeri"], ["Giorgio Armani", "giorgio-armani"], ["Givenchy", "givenchy"], ["Gucci", "gucci"], ["Guerlain", "guerlain"], ["Hemel", "hemel-h"], ["Hermès", "hermes"], ["Highborn London", "highborn-london"], ["Hollister", "hollister"], ["Hugo Boss", "hugo-boss"], ["Jean Paul Gaultier", "jean-paul"], ["Jimmy Choo", "jimmy-choo"], ["Jo Milano", "luxury-collection-1"], ["John Varvatos", "john-varvatos"], ["Joop!", "joop-homme"], ["Juicy Couture", "juicy-couture"], ["Kenneth Cole", "kenneth-cole"], ["Korloff", "korloff"], ["La Maison", "la-maison"], ["Lancôme", "lancome"], ["Mancera", "mancera"], ["Marc Jacobs", "marc-jacobs"], ["Montale", "montale"], ["Nina Ricci", "nina-ricci"], ["Paloma Picasso", "paloma"], ["Philipp Plein", "phillip-plein"], ["S.T. Dupont", "s-t-dupont"], ["SAP", "sap"], ["Serge Lutens", "serge-lutens"], ["Shiseido", "shiseido"], ["Signature D'orient", "signature-sillage-dorient"], ["Swansura Selection", "swansura-selection"], ["The Woods Collection", "the-woods-collection"], ["Tiziana Terenzi", "tiziana-terenzi"], ["Tom Ford", "tomford"], ["Trussardi", "trussardi"], ["Viktor & Rolf", "viktor-rolf"], ["Vilvah", "milk-drop-brightening-serum"], ["Yves Saint Laurent", "ysl"]];
+    const TOP_BRANDS = ['Deyga', 'Vilvah', 'Highborn London', 'anatomē', 'Al Haramain', 'Tiziana Terenzi', 'Jo Milano', 'Tom Ford', 'Dior', 'Gucci', 'Giorgio Armani', 'Montale'];
+    const START = [['skin', 'Skincare for a concern'], ['hair', 'Haircare'], ['body', 'Body care'], ['perfume', 'Find a perfume'], ['gift', 'A gift'], ['brand', 'Shop by brand'], ['help', 'Delivery, returns & orders']];
+    /* each flow: steps (key, question, options [value, label]) then the collection to show: src(state) */
+    const FLOWS = {
+      skin: { name: 'skincare', steps: [
+        { k: 'h', q: 'What would you most like help with?', o: [['concern-hydration', 'Dryness & hydration'], ['concern-glow', 'Dullness & glow'], ['concern-acne', 'Spots & oily skin'], ['concern-calm', 'Sensitive skin'], ['concern-lips', 'Dry lips'], ['concern-sun', 'Sun protection']] },
+        { k: 's', q: 'And how would you describe your skin?', o: [['Dry', 'Dry'], ['Oily', 'Oily'], ['Combination', 'Combination'], ['Sensitive', 'Sensitive'], ['', 'Not sure']], skip: st => st.h === 'concern-lips' || st.h === 'concern-sun' },
+        { k: 'b', q: 'Last one: what budget per product?', o: BUDGET }] },
+      hair: { name: 'haircare', steps: [
+        { k: 'h', q: 'What is your hair asking for?', o: [['concern-hairfall', 'Hair fall'], ['concern-dandruff', 'Dandruff & flakes'], ['hair-oil-for-dry-hair', 'Dry or frizzy hair'], ['hair-oil', 'A nourishing hair oil'], ['natural-shampoo', 'A gentle shampoo']] },
+        { k: 'b', q: 'What budget per product?', o: BUDGET }] },
+      body: { name: 'body care', steps: [
+        { k: 'h', q: 'What are you looking for?', o: [['body-butter-for-dry-skin', 'Rich care for dry skin'], ['body-scrub', 'A body scrub'], ['shower-gel-body-wash', 'Shower & bath'], ['deodrants', 'Natural deodorant'], ['lip-balm', 'Lip balm']] },
+        { k: 'b', q: 'What budget per product?', o: BUDGET }] },
+      perfume: { name: 'perfume', steps: [
+        { k: 'h', q: 'Lovely. Who is the perfume for?', o: [['perfume-for-women', 'For her'], ['perfume-for-men', 'For him'], ['unisex-perfume', 'Anyone (unisex)'], ['fragrance', 'Not sure yet']] },
+        { k: 'f', q: 'Which scent mood do you love?', o: [['floral', 'Floral & soft'], ['woody', 'Woody & warm'], ['oud', 'Rich oud'], ['amber', 'Amber & sweet'], ['fresh', 'Fresh & clean'], ['', 'Surprise me']] },
+        { k: 'b', q: 'And your budget?', o: BUDGET }] },
+      gift: { name: 'gifts', steps: [
+        { k: 'h', q: 'How exciting. Who are you shopping for?', o: [['gifts-for-her', 'Her'], ['gifts-for-him', 'Him'], ['perfume-gift-sets', 'Perfume gift sets'], ['giftsets', 'Skincare gift sets'], ['stocking-fillers', 'Stocking fillers']] },
+        { k: 'b', q: 'What would you like to spend?', o: BUDGET }] },
+      brand: { name: 'brand', steps: [
+        { k: 'h', q: 'Which brand would you like to see? You can also type any brand below.', o: [...TOP_BRANDS.map(n => [BRANDS.find(x => x[0] === n)[1], n]), ['@/collections', 'All brands A–Z']] }] }
+    };
+    const HELP = {
+      delivery: ['Delivery', `UK delivery, dispatched from the UK within 1–2 working days:<ul><li><b>Standard</b> £${ship.std.toFixed(2)}, 3–4 business days, <b>free over £${offers.delivery}</b></li><li><b>Two-day</b> £${ship.two.toFixed(2)}</li><li><b>Next-day</b> £${ship.next.toFixed(2)}</li></ul>Spend £${offers.bonus.min} and you also get £${offers.bonus.off} off at checkout.`, [['/pages/shipping', 'Delivery details']]],
+      returns: ['Returns', 'You can return unopened, sealed items within 14 days of delivery; return postage is paid by you. If something arrives faulty, damaged or wrong, we put it right at no cost.', [[cfg.returnsUrl || '/pages/shipping', 'Returns policy']]],
+      track: ['Track my order', 'Your shipping confirmation email has a tracking link. You can also sign in to see your orders, or message us with your order number and we will check for you.', [['/account', 'My account']]],
+      authentic: ['Is it authentic?', 'Yes. Everything we sell is 100% authentic, and we are the official UK partner of Deyga and Vilvah. Orders ship from the UK.', [['/pages/about', 'About Swansura']]],
+      pay: ['Ways to pay', 'Cards (Visa, Mastercard, Amex, Maestro), PayPal, Apple Pay, Google Pay and Shop Pay. With PayPal you can split £30 to £2,000 into 3 interest-free payments.', []]
+    };
+    const brandName = h => (BRANDS.find(x => x[1] === h) || [])[0];
+    const label = (fl, k, v) => { const s = FLOWS[fl]?.steps.find(x => x.k === k); return (s?.o.find(o => o[0] === v) || [])[1] || v; };
+    const go = st => esc(JSON.stringify(st));
+    const chips = (opts, extra = '') => `<div class="as-chips${extra}">${opts.map(([st, l]) => `<button type="button" class="as-chip" data-go="${go(st)}">${esc(l)}</button>`).join('')}</div>`;
+    const save = () => ss.set({ html: log.innerHTML, bar: bar.style.width });
+    const scroll = el => { const top = el.offsetTop - 8; log.scrollTo({ top, behavior: reduce ? 'auto' : 'smooth' }); };
+    const lockOld = () => $$('.as-chips:not(.keep) .as-chip', log).forEach(c => { c.disabled = true; });
+    function you(text) { lockOld(); log.insertAdjacentHTML('beforeend', `<div class="as-msg you"><p>${esc(text)}</p></div>`); }
+    async function bot(html) {
+      if (!reduce) { log.insertAdjacentHTML('beforeend', '<div class="as-msg bot as-typing" aria-hidden="true"><p><i></i><i></i><i></i></p></div>'); const t = log.lastElementChild; scroll(t); await new Promise(r => setTimeout(r, 420)); t.remove(); }
+      log.insertAdjacentHTML('beforeend', `<div class="as-msg bot">${html}</div>`); const m = log.lastElementChild; scroll(m); resetBtn.hidden = false; save();
+      const f = m.querySelector('.as-chip:not([disabled]), .as-card .as-ct a'); if (f && p.contains(document.activeElement) && !matchMedia('(pointer:coarse)').matches) f.focus({ preventScroll: true });
+      return m;
+    }
+    const people = () => `<div class="as-people">${wa ? `<a class="as-person wa" href="https://wa.me/${esc(wa)}" target="_blank" rel="noopener"><b>WhatsApp</b><small>${esc(waLabel)} · messages only</small></a>` : ''}${ig ? `<a class="as-person ig" href="${esc(ig)}" target="_blank" rel="noopener"><b>Instagram</b><small>@swansura_thebodystudio</small></a>` : ''}${mail ? `<a class="as-person em" href="mailto:${esc(mail)}"><b>Email</b><small>${esc(mail)}</small></a>` : ''}</div>`;
+    const greet = () => { const h = new Date().getHours(); return h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening'; };
+    async function start() {
+      log.innerHTML = ''; bar.style.width = '0%'; resetBtn.hidden = true;
+      await bot(`<p><b>${greet()}, welcome to Swansura.</b> I can help you find the right product in a few taps. What are you shopping for today?</p>${chips(START.map(([f, l]) => [{ f }, l]))}<p class="as-note">Prefer a person? <button type="button" class="as-link" data-go="${go({ f: 'help', a: 'person' })}">Message our team</button></p>`);
+    }
+    /* products of a collection (all pages), cached for the visit */
+    const cache = {};
+    async function products(h) {
+      if (cache[h]) return cache[h];
+      const all = []; let page = 1, pages = 1, count = 0;
+      do { const r = await fetch(`/collections/${h}?view=assist&page=${page}`, { headers: { Accept: 'text/html' } }); if (!r.ok) throw new Error(r.status);
+        const t = await r.text(), m = t.match(/<script type="application\/json" id="swAssistData">([\s\S]*?)<\/script>/); if (!m) throw new Error('no data');
+        const d = JSON.parse(m[1]); all.push(...d.products); pages = d.pages; count = d.count; page++; } while (page <= pages && page <= 4);
+      return (cache[h] = { list: all, count });
+    }
+    const inBudget = (x, bgt) => { if (!bgt) return true; const [lo, hi] = bgt.split('-'); return x.p >= +lo && (hi === '' || x.p < +hi); };
+    const card = x => `<div class="as-card"><a class="as-pic" href="${esc(x.u)}" tabindex="-1" aria-hidden="true">${x.i ? `<img src="${esc(x.i)}" alt="" width="64" height="80" loading="lazy">` : ''}</a><div class="as-ct"><small>${esc(x.b)}</small><a href="${esc(x.u)}">${esc(x.n)}</a><span class="as-pr">${money(x.p)}${x.c > x.p ? ` <s>${money(x.c)}</s>` : ''}</span></div>${x.a && x.v ? `<button type="button" class="as-add" data-add="${x.v}" aria-label="Add ${esc(x.n)} to bag">Add</button>` : x.a ? `<a class="as-add" href="${esc(x.u)}" aria-label="View ${esc(x.n)}">View</a>` : `<a class="as-add out" href="${esc(x.u)}">Sold out</a>`}</div>`;
+    async function results(st) {
+      const fl = FLOWS[st.f], h = st.h;
+      let data; try { data = await products(h); } catch (e) { await bot(`<p>Sorry, I could not load those products just now.</p>${chips([[{ u: '/collections/' + h }, 'Open the collection'], [{ f: 'help', a: 'person' }, 'Ask our team']])}`); return; }
+      const avail = data.list.filter(x => x.a);
+      const tests = [['s', x => !st.s || !x.s.length || x.s.includes(st.s) || x.s.includes('All')], ['f', x => !st.f2 || x.f === st.f2], ['b', x => inBudget(x, st.b)]];
+      let pick = avail.filter(x => tests.every(t => t[1](x))), relaxed = [];
+      const active = { s: st.s, f: st.f2, b: st.b };
+      for (const k of ['s', 'f', 'b']) { if (pick.length) break; if (!active[k]) continue; const keep = tests.filter(t => t[0] !== k && !relaxed.includes(t[0])); relaxed.push(k); pick = avail.filter(x => keep.every(t => t[1](x))); }
+      if (!pick.length) pick = data.list;
+      pick = [...pick.filter(x => x.k), ...pick.filter(x => !x.k)];
+      const PERF = { 'perfume-for-women': 'perfume for her', 'perfume-for-men': 'perfume for him', 'unisex-perfume': 'unisex perfume', fragrance: 'perfume' };
+      const what = st.f === 'brand' ? brandName(h) : PERF[h] ? [st.f2 && label('perfume', 'f', st.f2).toLowerCase(), PERF[h]].filter(Boolean).join(' ') : label(st.f, 'h', h).toLowerCase();
+      const note = relaxed.length ? `<p class="as-note">Nothing matched every answer, so I widened the ${relaxed.map(k => ({ s: 'skin type', f: 'scent mood', b: 'budget' })[k]).join(' and ')}.</p>` : '';
+      const first = pick.slice(0, 4), more = pick.slice(4, 12);
+      bar.style.width = '100%';
+      const next = [[{ u: '/collections/' + h }, `See all ${data.count}`]];
+      if (fl && fl.steps.some(s => s.k === 'b') && st.b !== undefined) next.push([{ ...st, b: undefined, step: fl.steps.findIndex(s => s.k === 'b') }, 'Change budget']);
+      next.push([{ f: st.f === 'brand' ? 'brand' : st.f }, st.f === 'brand' ? 'Another brand' : 'Try another answer'], [{ f: 'help', a: 'person' }, 'Ask a person']);
+      await bot(`<p>${pick.length ? `Here ${first.length === 1 ? 'is my pick' : `are ${first.length} picks`} for <b>${esc(what)}</b>${st.b ? `, ${esc(label('perfume', 'b', st.b).toLowerCase())}` : ''}.` : 'Here is the collection.'}</p>${note}<div class="as-cards">${first.map(card).join('')}</div>${more.length ? `<div class="as-cards" hidden>${more.map(card).join('')}</div><button type="button" class="as-more" data-asmore>Show ${more.length} more</button>` : ''}${chips(next, ' keep')}`);
+    }
+    async function step(st) {
+      const fl = FLOWS[st.f]; let i = st.step || 0;
+      while (fl.steps[i] && (st[fl.steps[i].k === 'f' ? 'f2' : fl.steps[i].k] !== undefined || fl.steps[i].skip?.(st))) i++;
+      const s = fl.steps[i];
+      if (!s) return results(st);
+      bar.style.width = Math.round(i / fl.steps.length * 100) + '%';
+      const key = s.k === 'f' ? 'f2' : s.k;
+      await bot(`<span class="as-step">Step ${i + 1} of ${fl.steps.length}</span><p>${esc(s.q)}</p>${chips(s.o.map(([v, l]) => v.startsWith('@') ? [{ u: v.slice(1) }, l] : [{ ...st, step: undefined, [key]: v }, l]))}`);
+    }
+    async function help(a) {
+      bar.style.width = '0%';
+      if (!a) return bot(`<p>Of course. What do you need help with?</p>${chips([...Object.entries(HELP).map(([k, v]) => [{ f: 'help', a: k }, v[0]]), [{ f: 'help', a: 'person' }, 'Talk to a person']])}`);
+      if (a === 'person') return bot(`<p>Our team usually replies within a few hours, Monday to Friday. Pick whichever suits you:</p>${people()}${chips([[{}, 'Back to shopping']], ' keep')}`);
+      const [, text, links] = HELP[a];
+      return bot(`<div class="as-bub">${text}</div>${links.length ? `<p class="as-links">${links.map(([u, l]) => `<a href="${esc(u)}">${esc(l)} →</a>`).join('')}</p>` : ''}${chips([[{ f: 'help' }, 'Something else'], [{ f: 'help', a: 'person' }, 'Talk to a person'], [{}, 'Back to shopping']], ' keep')}`);
+    }
+    async function run(st) {
+      if (st.u) { location.href = st.u; return; }
+      if (!st.f) return start();
+      if (st.f === 'help') return help(st.a);
+      if (st.h && FLOWS[st.f]?.steps.length === 1) return results(st);
+      return step(st);
+    }
+    /* typed text: order words → answers, a brand → its products, a need → its collection, else predictive search */
+    const WORDS = [[/deliver|shipping|postage|dispatch/, { f: 'help', a: 'delivery' }], [/return|refund|exchange/, { f: 'help', a: 'returns' }], [/track|my order|where is/, { f: 'help', a: 'track' }], [/authentic|genuine|fake|original/, { f: 'help', a: 'authentic' }], [/\bpay|paypal|klarna|instal/, { f: 'help', a: 'pay' }], [/human|person|talk|contact|whatsapp|call|speak/, { f: 'help', a: 'person' }],
+      [/dry skin|hydrat|moistur/, { f: 'skin', h: 'concern-hydration' }], [/glow|dull|bright|radian/, { f: 'skin', h: 'concern-glow' }], [/acne|spot|breakout|pimple|oily skin/, { f: 'skin', h: 'concern-acne' }], [/sensitive|redness|calm/, { f: 'skin', h: 'concern-calm' }], [/\blips?\b|lip balm|lip scrub/, { f: 'skin', h: 'concern-lips', s: '' }], [/\bsun|spf/, { f: 'skin', h: 'concern-sun', s: '' }],
+      [/hair ?fall|hair loss|thinning/, { f: 'hair', h: 'concern-hairfall' }], [/dandruff|flak/, { f: 'hair', h: 'concern-dandruff' }], [/frizz|dry hair/, { f: 'hair', h: 'hair-oil-for-dry-hair' }], [/hair oil/, { f: 'hair', h: 'hair-oil' }], [/shampoo/, { f: 'hair', h: 'natural-shampoo' }],
+      [/body butter/, { f: 'body', h: 'body-butter-for-dry-skin' }], [/scrub/, { f: 'body', h: 'body-scrub' }], [/shower|body wash|soap/, { f: 'body', h: 'shower-gel-body-wash' }], [/deodor/, { f: 'body', h: 'deodrants' }],
+      [/\boud\b/, { f: 'perfume', h: 'fragrance', f2: 'oud' }], [/perfume for (her|women)|women'?s perfume/, { f: 'perfume', h: 'perfume-for-women' }], [/perfume for (him|men)|men'?s (perfume|cologne)|aftershave/, { f: 'perfume', h: 'perfume-for-men' }], [/stocking/, { f: 'gift', h: 'stocking-fillers' }], [/gift/, { f: 'gift' }], [/perfume|fragrance|scent/, { f: 'perfume' }]];
+    const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    async function ask(text) {
+      const t = norm(text).trim(), br = BRANDS.find(([n]) => t.includes(norm(n)) || (norm(n).length > 4 && norm(n).includes(t) && t.length > 3));
+      // a brand on its own ('vilvah', 'tom ford products') shows the brand; a brand + product words goes to search
+      if (br && !(t.includes(norm(br[0])) ? t.replace(norm(br[0]), '') : '').replace(/\b(products?|brand|range|perfumes?|skincare|shop|all|the)\b/g, '').trim()) return results({ f: 'brand', h: br[1] });
+      const w = WORDS.find(([re]) => re.test(t)); if (w) return run({ ...w[1] });
+      try { const r = await fetch(`/search/suggest.json?q=${encodeURIComponent(text)}&resources[type]=product&resources[limit]=6&resources[options][unavailable_products]=last`), d = await r.json();
+        const list = (d.resources?.results?.products || []).map(x => { const v = (x.variants || []).find(y => y.available) || (x.variants || [])[0] || {}; const pr = s => Math.round(parseFloat(String(s ?? '0')) * (String(s ?? '').includes('.') ? 100 : 1));
+          return { u: x.url, n: x.title, b: x.vendor === 'Swansura - The Body Studio' ? 'Swansura Selection' : x.vendor, p: pr(v.price ?? x.price), c: pr(v.compare_at_price ?? x.compare_at_price_max ?? 0), a: x.available !== false && v.available !== false, v: v.id, i: x.featured_image?.url || x.image || '' }; });
+        if (list.length) return bot(`<p>Here is what I found for <b>${esc(text)}</b>:</p><div class="as-cards">${list.slice(0, 4).map(card).join('')}</div>${chips([[{ u: '/search?q=' + encodeURIComponent(text) }, 'See all results'], [{}, 'Guide me instead']], ' keep')}`);
+      } catch (e) {}
+      return bot(`<p>I could not find a match for <b>${esc(text)}</b>. Shall I guide you, or would you like to ask our team?</p>${chips([[{}, 'Guide me'], [{ f: 'help', a: 'person' }, 'Ask a person']], ' keep')}`);
+    }
+    function set(open) {
+      p.hidden = !open; b.setAttribute('aria-expanded', open); document.documentElement.classList.toggle('as-open', open);
+      if (!open) return;
+      if (!log.children.length) { const s = ss.get(); if (s?.html) { log.innerHTML = s.html; bar.style.width = s.bar || '0%'; resetBtn.hidden = false; log.scrollTop = log.scrollHeight; } else start(); }
+      p.focus({ preventScroll: true });
+    }
+    b.addEventListener('click', () => set(p.hidden));
+    p.addEventListener('click', e => {
+      const c = e.target.closest('[data-go]');
+      if (c) { if (c.disabled) return; const st = JSON.parse(c.dataset.go); if (!st.u) you(c.textContent.replace(/ →$/, '')); run(st); return; }
+      if (e.target.closest('[data-asmore]')) { const m = e.target.closest('[data-asmore]'); m.previousElementSibling.hidden = false; m.remove(); save(); return; }
+      if (e.target.closest('[data-asreset]')) { p.focus(); start(); return; }
+      if (e.target.closest('[data-chatclose]')) set(false);
+    });
+    p.addEventListener('click', e => { if (e.target.closest('.as-card a, .as-links a, .as-person')) save(); }, true);
+    form.addEventListener('submit', e => { e.preventDefault(); const t = q.value.trim(); if (!t) return; q.value = ''; you(t); ask(t); });
+    document.addEventListener('click', e => { if (!p.hidden && matchMedia('(max-width:600px)').matches && e.target.closest('.as-scrim')) set(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden) { set(false); b.focus(); } });
+  })();
 
   /* ---------- share (shareMenu() in the prototype): native sheet on touch devices, else a menu ---------- */
   let shareOwner = null;

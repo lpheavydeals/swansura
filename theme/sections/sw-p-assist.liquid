@@ -1,0 +1,26 @@
+{%- comment -%}
+  Product data for the shopping assistant (help panel, sw-proto.js 'assistant'): /collections/<handle>?view=assist
+  (templates/collection.assist.json, no layout) returns the collection's products in collection order as compact
+  JSON, 250 a page (&page=2 …). Not linked anywhere, only fetched by the assistant.
+  Fields: h handle, u url, n short name, b brand, p price (pence, first available variant), c compare-at, a available,
+  v variant id (Add), i image, s skin types, f scent family, w for, k Studio pick
+{%- endcomment -%}
+{%- paginate collection.products by 250 -%}
+<script type="application/json" id="swAssistData">{"count": {{ collection.products_count }}, "page": {{ paginate.current_page }}, "pages": {{ paginate.pages }}, "products": [
+{%- for p in collection.products -%}
+{%- liquid
+  assign sw = p.metafields.custom.sw.value
+  assign fv = p.selected_or_first_available_variant
+  assign brand = p.vendor
+  if brand == shop.name
+    assign brand = 'Swansura Selection'
+  endif
+-%}
+{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}
+{% unless forloop.first %},{% endunless %}{"h": {{ p.handle | json }}, "u": {{ p.url | json }}, "n": {{ pn | strip | json }}, "b": {{ brand | json }}, "p": {{ fv.price | json }}, "c": {{ fv.compare_at_price | default: 0 | json }}, "a": {{ p.available | json }}, "v": {{ fv.id | json }}, "i": {% if p.featured_media %}{{ p.featured_media.preview_image | image_url: width: 200 | json }}{% else %}""{% endif %}, "s": {% if sw.s %}{{ sw.s | json }}{% else %}[]{% endif %}, "f": {{ sw.f | json }}, "w": {{ sw.w | json }}, "k": {{ sw.k | default: false | json }}}
+{%- endfor -%}]}</script>
+{%- endpaginate -%}
+
+{% schema %}
+{ "name": "Assistant data", "settings": [] }
+{% endschema %}
