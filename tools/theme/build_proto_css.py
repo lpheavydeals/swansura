@@ -206,9 +206,10 @@ html{scrollbar-width:thin;scrollbar-color:#CBBFAE transparent;scroll-behavior:sm
 .swp .hero .tag{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(22,42,37,.88)}
 /* Shopping assistant (help panel, user 30 Oct 2026): emerald silk header with a gold line + step bar, chat log with
    ivory bot bubbles and emerald answers, chip choices, compact product rows, people cards; bottom sheet on phones */
-.swp .chatbtn{gap:9px;padding:12px 18px 12px 15px;background:var(--silk,var(--emerald));border:1px solid rgba(233,203,142,.45);letter-spacing:.01em}
-.swp .chatbtn svg{color:#E9CB8E}
-.swp .chatbtn:hover{box-shadow:0 10px 28px rgba(19,58,47,.36)}
+.swp .chatbtn{gap:9px;padding:12px 18px 12px 15px;background:linear-gradient(135deg,#EACB8E 0%,#D2A35A 50%,#C4924A 100%);color:#0F2E25;border:1px solid rgba(255,255,255,.55);box-shadow:0 8px 24px rgba(140,98,38,.38),inset 0 1px 0 rgba(255,255,255,.45);letter-spacing:.01em;font-weight:700;transition:transform .15s,box-shadow .15s}
+.swp .chatbtn svg{color:#0F2E25}
+.swp .chatbtn:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(140,98,38,.46),inset 0 1px 0 rgba(255,255,255,.45)}
+.swp .chatbtn:focus-visible{outline:2px solid var(--emerald);outline-offset:3px}
 .swp .chatpanel.asst{width:min(400px,calc(100vw - 32px));height:min(600px,calc(100vh - 112px));height:min(600px,calc(100dvh - 112px));padding:0;gap:0;overflow:hidden;border:0;border-radius:16px;box-shadow:0 24px 60px rgba(19,26,23,.26),0 0 0 1px rgba(31,26,23,.06);outline:none;transform-origin:100% 100%;animation:asin .22s cubic-bezier(.2,.8,.2,1)}
 @keyframes asin{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
 .swp .asst .as-head{position:relative;display:flex;align-items:center;gap:12px;padding:16px 12px 16px 18px;background:var(--silk,var(--emerald));color:var(--on-dark);flex:none}
