@@ -1,0 +1,35 @@
+{
+ "note": "deyga.in 'Full Ingredients List' drawer; fields did not exist before (draft products)",
+ "products": {
+  "gid://shopify/Product/16396770083203": {
+   "name": "Anti-Dandruff Hair Oil",
+   "source": "https://deyga.in/products/anti-dandruff-oil-200ml",
+   "scraped": "2026-10-31",
+   "list": [
+    "Cocos nucifera Sd.Kr.Ol (virgin coconut oil)",
+    "Eclipta prostrata Wh.Pl.Jce. (Bhringaraj)",
+    "Phyla nodiflora Wh.Pl.Jce (Turkey Tangle)",
+    "Glycyrrhiza glabra Rt. (liquorice)",
+    "Trigonella foenum graecum Sd. (fenugreek)",
+    "Emblica officinalis Fr.Rd. (Amla)",
+    "Azadirachta indica Sd.Ol (neem)",
+    "Ricinus communis Sd.Ol. (castor oil)"
+   ]
+  },
+  "gid://shopify/Product/16396770115971": {
+   "name": "Baby Bath Bar",
+   "source": "https://deyga.in/products/baby-bath-bar",
+   "scraped": "2026-10-31",
+   "list": [
+    "Cocos nucifera Sd.Kr.Ol.(Narikelathailam) (Extra virgin coconut oil)",
+    "Sodium hydroxide",
+    "Extra virgin Olive oil",
+    "Calendula officinalis (Calendula hydrosol)",
+    "Almond oil",
+    "Castor oil",
+    "Unrefined Shea butter",
+    "Aloe barbadensis Lf.Jce. (Kanya) (Aloevera extract)"
+   ]
+  }
+ }
+}
