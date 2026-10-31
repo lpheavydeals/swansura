@@ -1,0 +1,538 @@
+{
+ "date": "2026-10-31",
+ "note": "6 Game of Spades drafts before publishing (tools/shopify/publish_gos_drafts.py). Undo: productUpdate back to these fields + status DRAFT, collectionsToLeave, unpublish.",
+ "products": [
+  {
+   "id": "gid://shopify/Product/15415430119811",
+   "title": "Game Of Spades Bid For Men | Eau De Parfum 100ml",
+   "handle": "game-of-spades-bid-for-men-eau-de-parfum-100ml",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Long-Lasting Masculine Fragrance – Eau de Parfum concentration ensures all-day wear with a powerful, captivating scent.</li>\n<li>Sophisticated Composition – Fresh citrus opening, balanced by spicy-woody accords and warm amber undertones.</li>\n<li>Modern &amp; Elegant – Designed for men who value luxury, style, and individuality.</li>\n<li>Luxury Presentation – Comes in the signature Game of Spades bottle, making it a perfect addition to your collection or a gift.</li>\n<li>For Every Occasion – Ideal for both daily wear and special evenings, leaving a strong, confident impression.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": []
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613300535683",
+      "title": "Default Title",
+      "sku": "1L-K72S-KJ3J",
+      "price": "84.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 14,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/a26d3272.jpg?v=1761216495"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/2b413fda.jpg?v=1761216494"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/181419af.jpg?v=1761216495"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/08f8d59f.jpg?v=1761216495"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/bc6f9f32.jpg?v=1761216495"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/d4d24613.jpg?v=1761216495"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15415431496067",
+   "title": "Game Of Spades Boston For Men | Eau De Parfum 100ml",
+   "handle": "game-of-spades-boston-for-men-eau-de-parfum-100ml",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Masculine &amp; Confident – A sophisticated fragrance crafted exclusively for men.</li>\n<li>Long-Lasting Eau de Parfum – Strong concentration ensures hours of wear with just a few sprays.</li>\n<li>Dynamic Scent Profile – Fresh citrus top, spicy heart, and woody-amber base for depth and elegance.</li>\n<li>Luxury 100ml Bottle – Signature Game of Spades design, stylish and collectible.</li>\n<li>Perfect for Any Occasion – From workdays to evenings out, it leaves a bold, lasting impression.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": []
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613302206851",
+      "title": "Default Title",
+      "sku": "JI-ANV1-D5DQ",
+      "price": "89.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 23,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/e56abdfe.jpg?v=1761216504"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/f0d2abf3.jpg?v=1761216502"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/0d78e8f2.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/c1538720.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/e29cee85.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/b056b167.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/8ff48977.jpg?v=1761216503"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15415432184195",
+   "title": "Game of Spades Diamond Eau de Parfum Spray 100ml | Luxury Long Lasting Perfume for Men",
+   "handle": "game-of-spades-diamond-eau-de-parfum-spray-100ml-luxury-long-lasting-perfume-for-men",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Exclusive Jo Milano Fragrance – From the iconic Game of Spades collection.</li>\n<li>Unisex Luxury Perfume – Elegant Eau de Parfum designed for both men and women.</li>\n<li>Long Lasting Performance – Strong projection with all-day wear.</li>\n<li>Premium Bottle Design – Stylish 100ml EDP spray, perfect for everyday use or gifting.</li>\n<li>Versatile Signature Scent – Ideal for day or evening, casual or formal occasions.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": [
+     {
+      "handle": "fragrance"
+     }
+    ]
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613303058819",
+      "title": "Default Title",
+      "sku": "QN-13DX-X676",
+      "price": "85.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 5,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/31fa9d86.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/6be12190.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/7cfb3086.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/90af6363.jpg?v=1761216507"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/a0a39dfe.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/f21eb99e.jpg?v=1761216506"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15415431528835",
+   "title": "Game Of Spades Jackpot | Eau De Parfum 100ml | Long Lasting Fragrance For Men and Women",
+   "handle": "game-of-spades-jackpot-eau-de-parfum-100ml-long-lasting-fragrance-for-men-and-women",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Unisex &amp; Confident – Crafted for both men and women who enjoy versatile sophistication.</li>\n<li>Long-Lasting Eau de Parfum – High concentration ensures all-day wear with minimal sprays.</li>\n<li>Dynamic Scent Profile – Citrus top, floral-spicy heart, woody-amber base for elegance and depth.</li>\n<li>Luxury 100ml Bottle – Sleek and collectible Game Of Spades design.</li>\n<li>Ideal for Any Occasion – Perfect for work, social gatherings, and special events.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": []
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613302239619",
+      "title": "Default Title",
+      "sku": "JX-NUCQ-JIUX",
+      "price": "79.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 15,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/456ed1b8.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/270bc4a2.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/d2dec41e.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/84e208ba.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/af21d866.jpg?v=1761216503"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/2b89b6d2.jpg?v=1761216504"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/7029cec6.jpg?v=1761216503"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15415431922051",
+   "title": "Game Of Spades King Eau De Parfum 100ml | Perfume for Men and Women | Long Lasting Luxury Fragrance",
+   "handle": "game-of-spades-king-eau-de-parfum-100ml-perfume-for-men-and-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Unisex Elegance – A refined fragrance crafted for both men and women.</li>\n<li>Long-Lasting Eau de Parfum – High concentration ensures enduring wear.</li>\n<li>Dynamic Scent Profile – Citrus top notes, fruity heart, and amber-vanilla base for depth and sophistication.</li>\n<li>Luxury 100ml Bottle – Sleek design, stylish and collectible.</li>\n<li>Perfect for Any Occasion – Ideal for daily wear or special events, leaving a lasting impression.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": []
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613302665603",
+      "title": "Default Title",
+      "sku": "O8-8CN3-EI1R",
+      "price": "73.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 25,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/d74ae30a.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/88d407ed.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/1b9a9c72.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/16231dfb.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/2000d36f.jpg?v=1761216506"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/3be17456.jpg?v=1761216506"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15415432970627",
+   "title": "Game Of Spades Opal Eau De Parfum Spray 100 ml | Long Lasting Unisex Luxury Perfume | Citrus-Floral and Woody Amber Fragrance",
+   "handle": "game-of-spades-opal-eau-de-parfum-spray-100-ml-long-lasting-unisex-luxury-perfume-citrus-floral-and-woody-amber-fragrance",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Vibrant Top Notes – Opens with fresh citrus (bergamot, lemon) and lively fruit accents like pear and raspberry for an energetic, eye-catching start.</li>\n<li>Floral &amp; Green-Spice Heart – A lush blend of rose, jasmine, peony with subtle spicy/green nuances that balance sweetness with nature’s freshness.</li>\n<li>Warm, Deep Base – Anchored by amber, woody undertones (sandalwood and cedar), and soft musk that add grounding elegance and long-lasting appeal.</li>\n<li>Premium Longevity &amp; Unisex Appeal – 100ml Eau De Parfum strength crafted for both men and women to enjoy all day or night.</li>\n<li>Perfect Gift or Signature Scent – Stylish bottle, bold character—ideal for gifting or building your personal fragrance identity.</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": null
+   },
+   "templateSuffix": null,
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "collections": {
+    "nodes": []
+   },
+   "resourcePublicationsV2": {
+    "nodes": []
+   },
+   "metafields": {
+    "nodes": []
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/56613303878019",
+      "title": "Default Title",
+      "sku": "Y9-C7Q5-GI55",
+      "price": "109.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 7,
+      "inventoryItem": {
+       "tracked": true
+      }
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/955967f6.jpg?v=1761216511"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/b37cd272.jpg?v=1761216511"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/8e0e753e.jpg?v=1761216511"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/128bf1d6.jpg?v=1761216511"
+      }
+     },
+     {
+      "alt": "",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/f69e924c.jpg?v=1761216511"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
