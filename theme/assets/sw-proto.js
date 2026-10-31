@@ -16,8 +16,10 @@
       <div class="so"><span>Standard <small>3–4 business days</small></span><b>${total >= offers.delivery ? 'Free' : '£' + ship.std.toFixed(2)}</b></div>
       <div class="so"><span>Two-day <small>2 business days</small></span><b>£${ship.two.toFixed(2)}</b></div>
       <div class="so"><span>Next-day <small>Next business day</small></span><b>£${ship.next.toFixed(2)}</b></div></div>`;
-  const nextGoal = t => t < offers.delivery ? { goal: offers.delivery, left: offers.delivery - t, what: 'free UK delivery' }
-    : t < offers.bonus.min ? { goal: offers.bonus.min, left: offers.bonus.min - t, what: `£${offers.bonus.off} off your order` } : null;
+  /* t = bag total after discounts (decides the free-delivery rate); s = subtotal before order discounts (decides the
+     £5-off-over-£70 automatic discount). Using t for both said '£1.01 away from £5 off' when the £5 was already applied. */
+  const nextGoal = (t, s = t) => t < offers.delivery ? { goal: offers.delivery, have: t, left: offers.delivery - t, what: 'free UK delivery' }
+    : s < offers.bonus.min ? { goal: offers.bonus.min, have: s, left: offers.bonus.min - s, what: `£${offers.bonus.off} off your order` } : null;
   const icon = {
     truck: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>',
     ret: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg>',
@@ -54,7 +56,7 @@
   const pic = (src, alt) => src ? `<img class="pic" src="${esc(src)}${src.includes('?') ? '&' : '?'}width=200" alt="${esc(alt)}" width="200" height="250">` : '<div class="pic"></div>';
   async function openBag(justAdded) {
     await getCart();
-    const total = cart.total_price / 100, ng = nextGoal(total);
+    const total = cart.total_price / 100, ng = nextGoal(total, cart.items_subtotal_price / 100);
     const inBag = new Set(cart.items.map(i => i.variant_id));
     const extras = (cfg.extras || []).filter(x => !inBag.has(x.id)).sort((a, b) => a.price - b.price).slice(0, 6);
     const lines = cart.items.length ? cart.items.map(l => `<div class="line${l.variant_id == justAdded ? ' just' : ''}">${pic(l.image, l.product_title)}<div><div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-ink)">${esc(l.vendor)}</div><a href="${esc(l.url)}" data-close>${esc(l.product_title)}${l.variant_title && !/default/i.test(l.variant_title) ? ' · ' + esc(l.variant_title) : ''}</a><div class="bq"><div class="qty sm"><button data-bq="${esc(l.key)}|${l.quantity - 1}" aria-label="Decrease quantity">−</button><span>${l.quantity}</span><button data-bq="${esc(l.key)}|${l.quantity + 1}" aria-label="Increase quantity">+</button></div><button class="rm" data-bq="${esc(l.key)}|0">Remove</button></div></div><div>${money(l.final_line_price)}</div></div>`).join('')
@@ -66,7 +68,7 @@
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
     <div class="bag-body">
     <div class="lines">${lines}</div>
-    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${Math.min(100, total / (ng ? ng.goal : 1) * 100)}%"></i></div></div>${shipOpts(total)}` : ''}
+    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b> (applied at checkout)`}</span><div class="bar"><i style="width:${ng ? Math.min(100, ng.have / ng.goal * 100) : 100}%"></i></div></div>${shipOpts(total)}` : ''}
     ${extras.length && cart.items.length ? `<div class="bag-extras"><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
     <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
     <span class="pays" aria-label="Payment methods">${$('#swPayIcons')?.innerHTML || (cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
@@ -87,7 +89,7 @@
     if (!phone() || $('#bagPage')) { if (msg) toast(msg); return openBag(justAdded); }
     await getCart();
     const l = cart.items.find(i => String(i.variant_id) === String(justAdded)) || cart.items[0];
-    const total = cart.total_price / 100, ng = nextGoal(total);
+    const total = cart.total_price / 100, ng = nextGoal(total, cart.items_subtotal_price / 100);
     $('#addedBar')?.remove(); clearTimeout(addedTimer);
     const bar = document.createElement('div'); bar.id = 'addedBar'; bar.className = 'addedbar'; bar.setAttribute('role', 'status');
     bar.innerHTML = `${l ? pic(l.image, l.product_title) : ''}<div class="ab-txt"><b>${esc(msg || 'Added to your bag')}</b>${l ? `<span>${esc(l.product_title)}</span>` : ''}<small>${ng ? `£${ng.left.toFixed(2)} away from ${ng.what}` : `Free UK delivery + £${offers.bonus.off} off unlocked`}</small></div><a class="btn solid" href="/cart">View bag (${cart.item_count})</a><button class="ab-x" type="button" aria-label="Close">×</button>`;
