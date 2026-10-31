@@ -296,6 +296,31 @@ html.as-open .swp .chatbtn{display:none}
 @media (prefers-reduced-motion:reduce){.swp .chatpanel.asst,.swp .asst .as-msg,.swp .as-scrim{animation:none!important}.swp .asst .as-bar i{transition:none}}
 /* company details in the footer legal bar (UK company law, 30 Oct 2026) */
 .swp footer .legal .company{flex-basis:100%;order:3;font-size:11.5px;line-height:1.5;color:var(--on-dark-2)}
+/* Speed pass 3 (user, 31 Oct 2026). 1) The Add buttons' shine + glint ran non-stop on every card (16 animations
+   repainting on the homepage); now they play only while a mouse is over the card, never on touch screens.
+   2) Homepage sections below the first screen and the footer are skipped by the browser until they come near the
+   viewport (content-visibility; the HTML stays in the page for Google). Placeholder heights = measured section
+   heights at 1366 / 390 px (31 Oct 2026); 'auto' keeps the real height once a section has been drawn. 'Popular searches' is left out: its
+   dropdowns overflow the section and would be clipped. */
+.swp .add::before,.swp .add::after{animation-play-state:paused}
+@media (hover:hover) and (pointer:fine){.swp .p-card:hover .add::before,.swp .p-card:hover .add::after,.swp .add:hover::before,.swp .add:hover::after{animation-play-state:running}}
+[id^="shopify-section-template--"][id$="__price"],[id^="shopify-section-template--"][id$="__bestsellers"],[id^="shopify-section-template--"][id$="__steps"],[id^="shopify-section-template--"][id$="__routines"],[id^="shopify-section-template--"][id$="__ranges"],[id^="shopify-section-template--"][id$="__concerns"],[id^="shopify-section-template--"][id$="__families"],[id^="shopify-section-template--"][id$="__brands"],[id^="shopify-section-template--"][id$="__advent"],[id^="shopify-section-template--"][id$="__story_deyga"],[id^="shopify-section-template--"][id$="__story_vilvah"],[id^="shopify-section-template--"][id$="__xmas"],[id^="shopify-section-template--"][id$="__journal"],[id^="shopify-section-template--"][id$="__newsletter"],[id^="shopify-section-template--"][id$="__seo"],.shopify-section-group-footer-group{content-visibility:auto;contain-intrinsic-size:auto 600px}
+[id^="shopify-section-template--"][id$="__price"]{contain-intrinsic-size:auto 391px}
+[id^="shopify-section-template--"][id$="__bestsellers"]{contain-intrinsic-size:auto 1283px}
+[id^="shopify-section-template--"][id$="__steps"]{contain-intrinsic-size:auto 576px}
+[id^="shopify-section-template--"][id$="__routines"]{contain-intrinsic-size:auto 775px}
+[id^="shopify-section-template--"][id$="__ranges"]{contain-intrinsic-size:auto 416px}
+[id^="shopify-section-template--"][id$="__concerns"]{contain-intrinsic-size:auto 636px}
+[id^="shopify-section-template--"][id$="__families"]{contain-intrinsic-size:auto 421px}
+[id^="shopify-section-template--"][id$="__brands"]{contain-intrinsic-size:auto 645px}
+[id^="shopify-section-template--"][id$="__advent"]{contain-intrinsic-size:auto 697px}
+[id^="shopify-section-template--"][id$="__story_deyga"]{contain-intrinsic-size:auto 484px}
+[id^="shopify-section-template--"][id$="__story_vilvah"]{contain-intrinsic-size:auto 464px}
+[id^="shopify-section-template--"][id$="__xmas"]{contain-intrinsic-size:auto 437px}
+[id^="shopify-section-template--"][id$="__journal"]{contain-intrinsic-size:auto 833px}
+[id^="shopify-section-template--"][id$="__newsletter"]{contain-intrinsic-size:auto 323px}
+[id^="shopify-section-template--"][id$="__seo"]{contain-intrinsic-size:auto 803px}
+@media (max-width:720px){[id^="shopify-section-template--"][id$="__price"]{contain-intrinsic-size:auto 651px}[id^="shopify-section-template--"][id$="__bestsellers"]{contain-intrinsic-size:auto 901px}[id^="shopify-section-template--"][id$="__steps"]{contain-intrinsic-size:auto 857px}[id^="shopify-section-template--"][id$="__routines"]{contain-intrinsic-size:auto 939px}[id^="shopify-section-template--"][id$="__ranges"]{contain-intrinsic-size:auto 602px}[id^="shopify-section-template--"][id$="__concerns"]{contain-intrinsic-size:auto 761px}[id^="shopify-section-template--"][id$="__families"]{contain-intrinsic-size:auto 644px}[id^="shopify-section-template--"][id$="__brands"]{contain-intrinsic-size:auto 907px}[id^="shopify-section-template--"][id$="__advent"]{contain-intrinsic-size:auto 1215px}[id^="shopify-section-template--"][id$="__story_deyga"]{contain-intrinsic-size:auto 699px}[id^="shopify-section-template--"][id$="__story_vilvah"]{contain-intrinsic-size:auto 699px}[id^="shopify-section-template--"][id$="__xmas"]{contain-intrinsic-size:auto 637px}[id^="shopify-section-template--"][id$="__journal"]{contain-intrinsic-size:auto 598px}[id^="shopify-section-template--"][id$="__newsletter"]{contain-intrinsic-size:auto 342px}[id^="shopify-section-template--"][id$="__seo"]{contain-intrinsic-size:auto 1456px}.shopify-section-group-footer-group{contain-intrinsic-size:auto 847px}}
 /* the bag drawer shown inline on the /cart page */
 .swp #bagPage .bag{position:static;width:100%;max-width:760px;margin:24px auto 0;box-shadow:none;border:1px solid var(--line);border-radius:var(--r);z-index:auto}
 .swp #bagPage .bag .bag-head button{display:none}
