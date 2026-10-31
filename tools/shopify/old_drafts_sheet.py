@@ -157,7 +157,7 @@ for p in drafts:
         'stock': p['totalInventory'], 'images': p['mediaCount']['count'],
         'variants': p['variantsCount']['count'],
         'created': p['createdAt'][:10], 'updated': p['updatedAt'][:10],
-        'action': act_, 'why': why, 'link': ADMIN + p['id'].split('/')[-1],
+        'action': act_, 'why': why, 'link': ADMIN + p['id'].split('/')[-1], 'id': p['id'],
     })
 ORDER = ['Deyga', 'Vilvah', 'Game of Spades (Jo Milano)', 'Juicy Couture', 'Acqua di Parma',
          'Giorgio Armani', 'Chris Adams', 'Maison de Milan', 'RiiFFS / Nusuk']
@@ -249,4 +249,5 @@ d.freeze_panes = 'C2'
 d.auto_filter.ref = f'A1:N{len(rows) + 1}'
 
 wb.save(OUT)
+json.dump(rows, open('docs/data/old_drafts_suggestions_2026-10-31.json', 'w'), indent=1, ensure_ascii=False)
 print(OUT, len(rows), collections.Counter(x['action'] for x in rows))
