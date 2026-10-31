@@ -1,0 +1,1785 @@
+[
+ {
+  "old_id": "gid://shopify/Product/15415432577411",
+  "title": "10% Vitamin C Face Serum 20ml | Deyga's | Natural Brightening | Even Skin Tone |Dark Spots | Suitable for All Skin Types | set of 2",
+  "photos_lost": 1,
+  "input": {
+   "title": "10% Vitamin C Face Serum 20ml | Deyga's | Natural Brightening | Even Skin Tone |Dark Spots | Suitable for All Skin Types | set of 2",
+   "handle": "10-vitamin-c-face-serum-20ml-deygas-natural-brightening-even-skin-tone-dark-spots-suitable-for-all-skin-types-set-of-2",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Natural Brightening: Infused with Naranga (Citrus sinensis) extract, this serum revitalizes dull skin, giving it a fresh, healthy, and youthful glow.</li>\n<li>Evens Out Skin Tone: Ascorbyl Glucoside, a stable form of Vitamin C, penetrates deep into the skin to fade dark spots and pigmentation, leaving your complexion radiant and glowing.</li>\n<li>Protects &amp; Repairs Skin: Ectoin is a powerful natural molecule that shields your skin from environmental stressors like UV rays and pollution. It also repairs damaged skin, improving its resilience and texture over time.</li>\n<li>Provides Antioxidant Protection: Packed with antioxidants, this serum helps protect the skin from oxidative stress, contributing to a healthier appearance.</li>\n<li>Suitable for All Skin Types: This lightweight, 100% natural, beginner-friendly formula is suitable for all skin types, including sensitive skin.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "50.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 5
+      }
+     ],
+     "sku": "TJ-OUPX-POWI"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687768011139"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862170499"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415432479107",
+  "title": "Beautifying Serum 30 ml | Deyga's | Natural Glow & Even Tone Face Serum with Organic Oils | set of 2",
+  "photos_lost": 1,
+  "input": {
+   "title": "Beautifying Serum 30 ml | Deyga's | Natural Glow & Even Tone Face Serum with Organic Oils | set of 2",
+   "handle": "beautifying-serum-30-ml-deygas-natural-glow-even-tone-face-serum-with-organic-oils-set-of-2",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Enriched with a blend of organic oils (moringa, bitter almond, baobab, grapeseed, kukui, khus khus) to nourish and soften skin</li>\n<li>Lightweight, fast-absorbing texture leaves no sticky or heavy residue</li>\n<li>Helps fade the appearance of uneven tone, dark marks, and minor pigmentation over time</li>\n<li>Strengthens the skin barrier and supports a healthy-looking complexion</li>\n<li>Free from parabens, synthetic fragrances, and harsh chemicals — ideal for daily use</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "52.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 4
+      }
+     ],
+     "sku": "SZ-JYYA-LY1R"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687768011139"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862727555"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415432413571",
+  "title": "Charcoal Bath Bar 130 g | Deyga's | Natural Activated Charcoal Soap for All Skin Types | Deep Cleansing Body Bar | set of 2",
+  "photos_lost": 3,
+  "input": {
+   "title": "Charcoal Bath Bar 130 g | Deyga's | Natural Activated Charcoal Soap for All Skin Types | Deep Cleansing Body Bar | set of 2",
+   "handle": "charcoal-bath-bar-130-g-deygas-natural-activated-charcoal-soap-for-all-skin-types-deep-cleansing-body-bar-set-of-2",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Deep cleansing formula: Activated charcoal helps lift away dirt, excess oil, and surface impurities for a refreshed feel.</li>\n<li>Moisturising blend: Enriched with extra virgin coconut oil, unrefined shea butter, and olive oil to nourish and soften skin.</li>\n<li>Gentle and natural: Free from parabens, sulfates, synthetic fragrances, and artificial colours for a mild, skin-friendly experience.</li>\n<li>Everyday use: Suitable for face and body; safe for all skin types with routine use in daily shower or bath.</li>\n<li>Eco-conscious and biodegradable: Handmade with sustainable ingredients that leave no harmful residue on skin or environment.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "32.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 5
+      }
+     ],
+     "sku": "SM-ZI0I-2GRD"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687768011139"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862760323"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415432905091",
+  "title": "Deyga's Rose & Mulethi Skin Brightening Pack | 50 g | Natural Herbal Face Pack for Radiant & Even Skin",
+  "photos_lost": 3,
+  "input": {
+   "title": "Deyga's Rose & Mulethi Skin Brightening Pack | 50 g | Natural Herbal Face Pack for Radiant & Even Skin",
+   "handle": "deygas-rose-mulethi-skin-brightening-pack-50-g-natural-herbal-face-pack-for-radiant-even-skin",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Crafted with pure rose and mulethi powders blended with oatmeal for gentle exfoliation and skin smoothing.</li>\n<li>Helps reduce the appearance of uneven tone and restore brightness using botanical ingredients.</li>\n<li>Free from parabens, artificial colours, talc and synthetic fragrances — safe for all skin types.</li>\n<li>Easy to use: mix with rose water, curd, or your favorite base, apply 15–20 minutes, then rinse off.</li>\n<li>Comes in a 100 g refillable jar — ideal for regular weekly use with long-lasting value.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "21.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 8
+      }
+     ],
+     "sku": "X5-76OX-0R0B"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687768011139"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862793091"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415432741251",
+  "title": "Deyga's Under Eye Cream 15 g | Natural & Organic Eye Brightening Moisturizer for Dark Circles & Puffiness | set of 2",
+  "photos_lost": 1,
+  "input": {
+   "title": "Deyga's Under Eye Cream 15 g | Natural & Organic Eye Brightening Moisturizer for Dark Circles & Puffiness | set of 2",
+   "handle": "deygas-under-eye-cream-15-g-natural-organic-eye-brightening-moisturizer-for-dark-circles-puffiness-set-of-2",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Formulated with organic aloe vera and cucumber to deliver gentle hydration and a cooling sensation under the eyes.</li>\n<li>Includes potato extract to help soften the appearance of fine lines and promote smoother skin texture around the eye contour.</li>\n<li>Enriched with Vitamin E as an antioxidant to help protect the under eye skin from environmental stressors.</li>\n<li>Free from silicones, parabens, artificial fragrance, and harsh alcohols—ideal for sensitive skin types.</li>\n<li>Lightweight and non-greasy formula that absorbs quickly and can also be used under makeup or as a gentle day moisturiser.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "45.98",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 3
+      }
+     ],
+     "sku": "UY-T72X-X7EC"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687768011139"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862825859"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415432610179",
+  "title": "Game Of Spades Blind-Bid | Eau De Parfum 100ml | Long Lasting Luxury Unisex Perfume for Men & Women",
+  "photos_lost": 6,
+  "input": {
+   "title": "Game Of Spades Blind-Bid | Eau De Parfum 100ml | Long Lasting Luxury Unisex Perfume for Men & Women",
+   "handle": "game-of-spades-blind-bid-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Unisex Luxury Fragrance – Designed for both men and women who desire mystery and sophistication.</li>\n<li>Fresh Fruity Opening – Notes of litchi, pear, and bergamot deliver a vibrant, juicy start.</li>\n<li>Exotic Floral-Oriental Heart – Turkish rose, oud, and incense create a rich, daring elegance.</li>\n<li>Deep &amp; Sensual Base – Warm vanilla, amber, musk, vetiver, and woody notes for a lasting impression.</li>\n<li>Premium Jo Milano Craftsmanship – Long-lasting Eau de Parfum in a 100ml luxury bottle, perfect as a gift or personal signature scent.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 10
+      }
+     ],
+     "sku": "TY-HRZH-V5HR"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/689023713667",
+    "gid://shopify/Collection/689527685507"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862858627"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415430250883",
+  "title": "Game Of Spades Moon Unisex | Eau De Parfum 100ml | For Men & Women",
+  "photos_lost": 7,
+  "input": {
+   "title": "Game Of Spades Moon Unisex | Eau De Parfum 100ml | For Men & Women",
+   "handle": "game-of-spades-moon-unisex-eau-de-parfum-100ml-for-men-women",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Unisex &amp; Versatile – A refined fragrance crafted to complement both men and women.</li>\n<li>Long-Lasting Eau de Parfum – High concentration ensures all-day wear with just a few sprays.</li>\n<li>Dynamic Scent Profile – Citrus and floral top, woody-spicy heart, amber-vanilla base for depth and sophistication.</li>\n<li>Luxury 100ml Bottle – Sleek Game Of Spades Moon design, stylish and collectible.</li>\n<li>Perfect for Any Occasion – Ideal for work, evenings, and special events, leaving a lasting impression.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "85.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 7
+      }
+     ],
+     "sku": "25-OJEA-LA44"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418862891395"
+ },
+ {
+  "old_id": "gid://shopify/Product/16383882002819",
+  "title": "Juicy Couture Viva La Juicy Rosé Eau de Parfum 50ml – Women’s Floral Fruity Fragrance",
+  "photos_lost": 3,
+  "input": {
+   "title": "Juicy Couture Viva La Juicy Rosé Eau de Parfum 50ml – Women’s Floral Fruity Fragrance",
+   "handle": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-50ml-women-s-floral-fruity-fragrance",
+   "status": "DRAFT",
+   "vendor": "Juicy Couture",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<p><span>Juicy Couture Viva La Juicy Rosé Eau de Parfum 50ml is a sparkling and feminine fragrance with fruity, floral and soft musky accords. Fresh citrus and pear lead into a delicate heart of rose, peony and jasmine, while amber, musk and warm woods create a smooth, elegant finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Mandarin Orange, Pear, Jasmine </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Rose, Peony </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Musk, Amber, Woods</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 719346628372</span></p>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "31.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 2
+      }
+     ]
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/689527685507",
+    "gid://shopify/Collection/713590473091"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862924163"
+ },
+ {
+  "old_id": "gid://shopify/Product/16253615309187",
+  "title": "Acqua di Parma Holiday Discovery Set EDP 3x12ml",
+  "photos_lost": 1,
+  "input": {
+   "title": "Acqua di Parma Holiday Discovery Set EDP 3x12ml",
+   "handle": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-1",
+   "status": "DRAFT",
+   "vendor": "Acqua di Parma",
+   "productType": "",
+   "tags": [
+    "Sets & Combos"
+   ],
+   "descriptionHtml": "<p class=\"PDq2pG_selectionAnchorContainer\">Discover three distinctive Acqua di Parma fragrances with the <strong>Holiday Discovery Set Eau de Parfum 3x12ml</strong>, a luxurious <strong>unisex fragrance gift set</strong> featuring Osmanthus, Yuzu and Lily of the Valley. <span class=\"contents\"><span class=\"\"></span></span><span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>Perfect for fragrance discovery, gifting or travel, this beautifully curated set lets you experience three contrasting scents in convenient <strong>12ml Eau de Parfum sprays</strong>.</p>\n<p><strong>The set includes:</strong></p>\n<ul>\n<li>\n<strong>Osmanthus Eau de Parfum 12ml</strong> – A warm, elegant fragrance centred around the distinctive aroma of osmanthus.</li>\n<li>\n<strong>Yuzu Eau de Parfum 12ml</strong> – A vibrant fragrance characterised by the fresh, tart citrus character of yuzu.</li>\n<li>\n<strong>Lily of the Valley Eau de Parfum 12ml</strong> – A fresh floral fragrance with delicate green and floral qualities.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "65.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 10
+      }
+     ]
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/689527685507",
+    "gid://shopify/Collection/689549148547",
+    "gid://shopify/Collection/711465107843",
+    "gid://shopify/Collection/713096921475"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418862956931"
+ },
+ {
+  "old_id": "gid://shopify/Product/16274985189763",
+  "title": "Giorgio Armani Code EDT 125ml Refillable for Men",
+  "photos_lost": 4,
+  "input": {
+   "title": "Giorgio Armani Code EDT 125ml Refillable for Men",
+   "handle": "giorgio-armani-code-edt-125ml-refillable-for-men",
+   "status": "DRAFT",
+   "vendor": "Giorgia Armani",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<p class=\"isSelectedEnd\"><strong><span>Giorgio Armani Code Eau de Toilette</span></strong><span> is a warm, sophisticated and invigorating fragrance for men. Designed for versatility, this refined scent is suitable for both everyday wear and special occasions.</span></p>\n<p class=\"isSelectedEnd\"><span>The fragrance opens with fresh notes of </span><strong><span>bergamot and lemon</span></strong><span>, followed by the smooth character of </span><strong><span>olive blossom</span></strong><span> at the heart. A rich base of </span><strong><span>guaiac wood and tonka bean</span></strong><span> adds warmth and depth, creating a distinctive and masculine finish.</span></p>\n<p class=\"isSelectedEnd\"><strong><span>Fragrance Notes</span></strong></p>\n<p><strong><span>Top Notes:</span></strong><span> Bergamot, Lemon</span><br><strong><span>Heart Note:</span></strong><span> Olive Blossom</span><br><strong><span>Base Notes:</span></strong><span> Guaiac Wood, Tonka Bean</span></p>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "84.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 10
+      }
+     ]
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/689527685507",
+    "gid://shopify/Collection/711857176963"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418863022467"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415435723139",
+  "title": "'Nusuk - Ana Al Awwal Malaki 100ml EDP Unisex",
+  "photos_lost": 3,
+  "input": {
+   "title": "'Nusuk - Ana Al Awwal Malaki 100ml EDP Unisex",
+   "handle": "nusuk-ana-al-awwal-malaki-100ml-edp-unisex",
+   "status": "DRAFT",
+   "vendor": "NUSUK",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>LUXURIOUS FRAGRANCE: A sophisticated eau de parfum featuring an elegant blend of citrus top notes, spicy-floral mid notes, and deep woody base notes</li>\n<li>FRAGRANCE NOTES: Opens with bergamot and grapefruit, transitions to saffron, lavender and praline, finishing with oakmoss and musk undertones</li>\n<li>ELEGANT DESIGN: Striking red glass bottle adorned with golden Arabic calligraphy and crowned with an ornate metallic cap</li>\n<li>GENEROUS SIZE: 100ml/3.4 FL.OZ bottle measuring 12.3 cm in height and 6 cm in width, perfect for daily use</li>\n<li>LONG-LASTING FORMULA: Premium quality eau de parfum concentration ensures the sophisticated scent lingers throughout the day</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "14.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "GH-32NE-RFHO",
+     "barcodes": [
+      {
+       "value": "6291108739341"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863088003"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415435297155",
+  "title": "Ana Al Awwal Women Gold EDP Spray Perfume 100ml",
+  "photos_lost": 2,
+  "input": {
+   "title": "Ana Al Awwal Women Gold EDP Spray Perfume 100ml",
+   "handle": "ana-al-awwal-women-gold-edp-spray-perfume-100ml",
+   "status": "DRAFT",
+   "vendor": "NUSUK",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>LUXURIOUS FRAGRANCE: A sophisticated eau de parfum featuring an elegant blend of fruity and floral notes in a stunning 100ml crystal bottle with ornate crown cap</li>\n<li>FRAGRANCE NOTES: Top notes of fresh bergamot and fruity accords, heart notes of lily of valley, and base notes of vanilla and musk create a captivating scent</li>\n<li>ELEGANT DESIGN: Beautiful crystal bottle adorned with golden Arabic calligraphy and intricate patterns, complemented by a white and gold presentation box</li>\n<li>LONG-LASTING: Premium eau de parfum concentration ensures the sophisticated fragrance remains present throughout the day</li>\n<li>PERFECT GIFT: The combination of luxurious packaging, elegant bottle design, and refined fragrance makes this an ideal gift for special occasions</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "14.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "DZ-F84U-408H",
+     "barcodes": [
+      {
+       "value": "6291107455235"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863120771"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433232771",
+  "title": "CELESTO INTENSE",
+  "photos_lost": 9,
+  "input": {
+   "title": "CELESTO INTENSE",
+   "handle": "celesto-intense",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>PEAR</li>\n<li>CASCALONE AND AMBRETTE</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IYR",
+     "barcodes": [
+      {
+       "value": "6290360596174"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863481219"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433200003",
+  "title": "LUXURY VERT",
+  "photos_lost": 7,
+  "input": {
+   "title": "LUXURY VERT",
+   "handle": "luxury-vert",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>BITTER ORANGE AND PETITGRAIN</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IQA",
+     "barcodes": [
+      {
+       "value": "6290360592053"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863513987"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433560451",
+  "title": "MAISAN",
+  "photos_lost": 6,
+  "input": {
+   "title": "MAISAN",
+   "handle": "maisan",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>Apple; Bergamot; Ginger;</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IZU",
+     "barcodes": [
+      {
+       "value": "6292257645453"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863546755"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433462147",
+  "title": "MALIKA RED",
+  "photos_lost": 6,
+  "input": {
+   "title": "MALIKA RED",
+   "handle": "malika-red",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>BLACK CURRANT AND SAFFRON;;</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "24.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IZM",
+     "barcodes": [
+      {
+       "value": "6297001574072"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863579523"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433429379",
+  "title": "MALIKAT BLUE",
+  "photos_lost": 1,
+  "input": {
+   "title": "MALIKAT BLUE",
+   "handle": "malikat-blue",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>BLACK CURRANT AND SAFFRON;;</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "29.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IZL",
+     "barcodes": [
+      {
+       "value": "6297001574065"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863645059"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433396611",
+  "title": "MESHAL ARCTIC",
+  "photos_lost": 5,
+  "input": {
+   "title": "MESHAL ARCTIC",
+   "handle": "meshal-arctic",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>BLACK CURRANT AND SAFFRON;;</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "24.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IZJ",
+     "barcodes": [
+      {
+       "value": "6292257644821"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863677827"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415437623683",
+  "title": "Nusuk Agar Noir Intense Eau De Parfum for Men | Long-Lasting Luxury Fragrance",
+  "photos_lost": 5,
+  "input": {
+   "title": "Nusuk Agar Noir Intense Eau De Parfum for Men | Long-Lasting Luxury Fragrance",
+   "handle": "nusuk-agar-noir-intense-eau-de-parfum-for-men-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Luxurious oud and rose blend, creating a deep, intoxicating aroma that lasts all day.</li>\n<li>Long-lasting scent perfect for evening wear or special occasions.</li>\n<li>Sophisticated and masculine fragrance with woody, floral, and slightly spicy notes.</li>\n<li>Crafted with high-quality ingredients for a luxurious, indulgent experience.</li>\n<li>Versatile fragrance suitable for both warm and cool climates, perfect for any occasion.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "29.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "WP-JI4C-9AIY"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863743363"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433265539",
+  "title": "PRIVE GOLD",
+  "photos_lost": 2,
+  "input": {
+   "title": "PRIVE GOLD",
+   "handle": "prive-gold",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>ROSEMARY</li>\n<li>CEDAR</li>\n<li>BERGAMOT AND LEMON;</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "22.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IYT",
+     "barcodes": [
+      {
+       "value": "6290360597119"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863776131"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415435624835",
+  "title": "RiiFFS Abeer Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+  "photos_lost": 6,
+  "input": {
+   "title": "RiiFFS Abeer Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-abeer-eau-de-parfum-for-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Fresh and vibrant fragrance that evokes a sense of vitality and energy</li>\n<li>Crisp, clean notes perfect for an uplifting and invigorating impression</li>\n<li>Ideal for daytime wear, offering a light and refreshing scent</li>\n<li>Designed for women who appreciate a dynamic, energetic perfume</li>\n<li>Elegant packaging makes it a great gift option for any occasion</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "24.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "G7-CTK9-15WL"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863808899"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415436607875",
+  "title": "RiiFFS Aurum Femme Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+  "photos_lost": 5,
+  "input": {
+   "title": "RiiFFS Aurum Femme Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-aurum-femme-eau-de-parfum-for-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>A sophisticated and radiant fragrance designed for modern women.</li>\n<li>Delicate floral notes blend seamlessly with warm amber and rich woody undertones.</li>\n<li>Perfect for adding elegance to both daily wear and special occasions.</li>\n<li>Long-lasting formula ensures a lingering, feminine aura.</li>\n<li>Crafted with high-quality ingredients for a luxurious scent experience.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "22.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "OP-VBX2-56H5"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863841667"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415436771715",
+  "title": "Riiffs Bella Rouge Eau De Parfum Spray (Unisex) 100ml",
+  "photos_lost": 1,
+  "input": {
+   "title": "Riiffs Bella Rouge Eau De Parfum Spray (Unisex) 100ml",
+   "handle": "riiffs-bella-rouge-eau-de-parfum-spray-unisex-100ml",
+   "status": "DRAFT",
+   "vendor": "RiiFFS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Unisex Scent: Enjoy a captivating fragrance that appeals to both men and women</li>\n<li>Long-Lasting Eau De Parfum: Experience a rich, long-lasting scent with our Bella Rouge perfume</li>\n<li>Natural Notes: Indulge in a fragrance inspired by natural rose notes for a fresh, authentic aroma</li>\n<li>100ml Bottle: Perfect for travel or everyday use, our 100ml bottle fits easily into your bag or pocket</li>\n<li>Easy Application: Simply apply 1-2 sprays to pulse points for a long-lasting, subtle scent</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "16.49",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "P9-CSPC-Z7HZ",
+     "barcodes": [
+      {
+       "value": "6291107454818"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863874435"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415435592067",
+  "title": "Riiffs Bleu Absolu Eau De Parfum Spray (Unisex) 100ml",
+  "photos_lost": 1,
+  "input": {
+   "title": "Riiffs Bleu Absolu Eau De Parfum Spray (Unisex) 100ml",
+   "handle": "riiffs-bleu-absolu-eau-de-parfum-spray-unisex-100ml",
+   "status": "DRAFT",
+   "vendor": "RiiFFS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>Riiffs Blu Absoluto Eau De Parfum Spray (Unisex) 100ml</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "G0-1LIG-UDOY",
+     "barcodes": [
+      {
+       "value": "6291107454894"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418863939971"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415434936707",
+  "title": "RiiFFS Cafe Noir 100ml Eau De Parfum Masculine Perfume Long Lasting",
+  "photos_lost": 1,
+  "input": {
+   "title": "RiiFFS Cafe Noir 100ml Eau De Parfum Masculine Perfume Long Lasting",
+   "handle": "riiffs-cafe-noir-100ml-eau-de-parfum-masculine-perfume-long-lasting",
+   "status": "DRAFT",
+   "vendor": "Riiffs",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Brand New</li>\n<li>Original item</li>\n<li>Original packaging</li>\n<li>Never used</li>\n<li>Quality product</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "18.97",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "CE-FIFU-DYJ0",
+     "barcodes": [
+      {
+       "value": "6291107454825"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864628099"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415434772867",
+  "title": "RiiFFS Celesto Intense Eau De Parfum for Men and Women | Long-Lasting Luxury Fragrance",
+  "photos_lost": 6,
+  "input": {
+   "title": "RiiFFS Celesto Intense Eau De Parfum for Men and Women | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-celesto-intense-eau-de-parfum-for-men-and-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Celesto Intense Eau De Parfum, designed for a luxurious experience</li>\n<li>Celestial-inspired fragrance with a blend of beauty and mystery</li>\n<li>Long-lasting scent, perfect for all-day wear</li>\n<li>Enchanting aroma that leaves a captivating trail</li>\n<li>Ideal for formal and casual occasions, providing an elegant touch</li>\n<li>High-quality, sophisticated fragrance for both men and women</li>\n<li>Elegant packaging, perfect for gifting or personal use</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "AY-3HK4-6PYS"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864660867"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433986435",
+  "title": "RiiFFS Eyad Eau de Parfum 100ml For Unisex | Luxury Fragrance",
+  "photos_lost": 2,
+  "input": {
+   "title": "RiiFFS Eyad Eau de Parfum 100ml For Unisex | Luxury Fragrance",
+   "handle": "riiffs-eyad-eau-de-parfum-100ml-for-unisex-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>Unisex fragrance with spicy, woody, and amber notes Long-lasting Eau de Parfum in a premium 100ml bottle Ideal for daily sophistication or special occasions</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "15.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "4E-ZJVO-XUZT"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864693635"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415434838403",
+  "title": "Riiffs Imperial Rouge Eau De Parfum Spray 3.4 oz for Women",
+  "photos_lost": 1,
+  "input": {
+   "title": "Riiffs Imperial Rouge Eau De Parfum Spray 3.4 oz for Women",
+   "handle": "riiffs-imperial-rouge-eau-de-parfum-spray-3-4-oz-for-women",
+   "status": "DRAFT",
+   "vendor": "Rihanah",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Riiffs Imperial Rouge Eau De Parfum Spray, 100 ml for women</li>\n<li>Product type: PERSONAL FRAGRANCE</li>\n<li>Made from high quality ingredients</li>\n<li>Product brand: Rihanah</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.95",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "B8-Z0AK-9I7R",
+     "barcodes": [
+      {
+       "value": "6291108734049"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864726403"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433134467",
+  "title": "Riiffs La Femme Bloom Eau De Parfum Spray 100ml",
+  "photos_lost": 4,
+  "input": {
+   "title": "Riiffs La Femme Bloom Eau De Parfum Spray 100ml",
+   "handle": "riiffs-la-femme-bloom-eau-de-parfum-spray-100ml",
+   "status": "DRAFT",
+   "vendor": "Riiffs",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Riiffs La Femme Bloom Eau De Parfum Spray 100Ml</li>\n<li>Product Type: Personal Fragrance</li>\n<li>Brand: Riiffs</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "17.50",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "18-N1WW-T9MD",
+     "barcodes": [
+      {
+       "value": "6291107454863"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864759171"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415437525379",
+  "title": "RiiFFS Rosa Femme Eau De Parfum 100ml for Women | Long-Lasting Luxury Fragrance",
+  "photos_lost": 6,
+  "input": {
+   "title": "RiiFFS Rosa Femme Eau De Parfum 100ml for Women | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-rosa-femme-eau-de-parfum-100ml-for-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>A sophisticated floral fragrance designed for the modern woman</li>\n<li>Prominent rose notes blended with delicate jasmine for a refined aroma</li>\n<li>Soft musky base adds warmth and depth for a sensual finish</li>\n<li>Long-lasting scent perfect for day and evening wear</li>\n<li>A luxurious addition to any fragrance collection</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "WD-9ENN-EO24"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864791939"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415437656451",
+  "title": "RiiFFS Shanaya Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+  "photos_lost": 5,
+  "input": {
+   "title": "RiiFFS Shanaya Eau De Parfum for Women | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-shanaya-eau-de-parfum-for-women-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>A graceful, captivating fragrance that embodies femininity and charm</li>\n<li>Delicate floral notes create a fresh and enchanting aura</li>\n<li>Perfect for romantic and elegant occasions, day or night</li>\n<li>Refined and sophisticated, designed for women with a sense of elegance</li>\n<li>Elegant packaging makes it an ideal gift choice</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "24.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "WT-R0OJ-KFVO"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864824707"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415437689219",
+  "title": "RiiFFS Tanzanite Amber Eau De Parfum for Men | Long-Lasting Luxury Fragrance",
+  "photos_lost": 6,
+  "input": {
+   "title": "RiiFFS Tanzanite Amber Eau De Parfum for Men | Long-Lasting Luxury Fragrance",
+   "handle": "riiffs-tanzanite-amber-eau-de-parfum-for-men-long-lasting-luxury-fragrance",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Long-lasting fragrance that offers rich amber scent, warmth and allure throughout the day</li>\n<li>Exquisite blend of amber for a sophisticated and inviting aroma</li>\n<li>Perfect for casual and formal occasions, day-to-night wear</li>\n<li>Luxurious and masculine fragrance, ideal for confident men</li>\n<li>Elegant and sleek packaging, perfect for gifting</li>\n<li>High-quality formulation ensures an enduring and memorable scent experience</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "WZ-F5EW-9S6B"
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864857475"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415433331075",
+  "title": "SULTAN AL ARAB",
+  "photos_lost": 3,
+  "input": {
+   "title": "SULTAN AL ARAB",
+   "handle": "sultan-al-arab",
+   "status": "DRAFT",
+   "vendor": "RiiFFS PARFUMS",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul><li>CARDAMOM AND PINK PEPPER;</li></ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "29.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "1BM3-RJL6-9IZH",
+     "barcodes": [
+      {
+       "value": "6290360590974"
+      }
+     ]
+    }
+   ],
+   "collections": []
+  },
+  "new_id": "gid://shopify/Product/16418864890243"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415431364995",
+  "title": "Vilvah Aloe Vera Gel Pack of 2 – Pure & Natural Multi-Purpose Gel for Face, Hair & Skin Hydration – Soothing, Lightweight, Non-Sticky",
+  "photos_lost": 6,
+  "input": {
+   "title": "Vilvah Aloe Vera Gel Pack of 2 – Pure & Natural Multi-Purpose Gel for Face, Hair & Skin Hydration – Soothing, Lightweight, Non-Sticky",
+   "handle": "vilvah-aloe-vera-gel-pack-of-2-pure-natural-multi-purpose-gel-for-face-hair-skin-hydration-soothing-lightweight-non-sticky",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Pure and natural aloe vera gel formulated without parabens, silicones, or synthetic colors.</li>\n<li>Provides instant hydration and cooling relief for dry, irritated, or sun-exposed skin.</li>\n<li>Lightweight, non-sticky texture suitable as a daily moisturizer for face and body.</li>\n<li>Works as a multipurpose hair gel – reduces frizz, adds shine, and nourishes scalp.</li>\n<li>Value pack of 2 – convenient for home, travel, or sharing with family.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "19.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 2
+      }
+     ],
+     "sku": "II-21RR-UOOM"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687767716227"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418864923011"
+ },
+ {
+  "old_id": "gid://shopify/Product/15415431102851",
+  "title": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml",
+  "photos_lost": 7,
+  "input": {
+   "title": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml",
+   "handle": "vilvah-melt-in-milk-sunscreen-spf-50-pa-lightweight-non-greasy-no-white-cast-acne-safe-water-resistant-50ml",
+   "status": "DRAFT",
+   "vendor": "Generic",
+   "productType": "",
+   "tags": [],
+   "descriptionHtml": "<ul>\n<li>Broad-Spectrum Protection: Provides SPF 50 PA+++ to shield skin from harmful UVA and UVB rays.</li>\n<li>Acne-Safe Formula: Designed to be non-comedogenic, preventing breakouts and clogged pores.</li>\n<li>No White Cast: Absorbs quickly without leaving a visible residue, suitable for all skin tones.</li>\n<li>Water-Resistant: Ideal for active lifestyles, offering protection during swimming or sweating.</li>\n<li>Suitable for All Skin Types: Gentle enough for daily use on oily, dry, and combination skin.</li>\n</ul>",
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "15.99",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/111879553411",
+       "name": "available",
+       "quantity": 0
+      }
+     ],
+     "sku": "FO-MKZ2-3PDB"
+    }
+   ],
+   "collections": [
+    "gid://shopify/Collection/687767716227",
+    "gid://shopify/Collection/689292804483"
+   ]
+  },
+  "new_id": "gid://shopify/Product/16418864955779"
+ }
+]
