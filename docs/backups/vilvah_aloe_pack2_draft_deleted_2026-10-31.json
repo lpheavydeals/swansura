@@ -1,0 +1,95 @@
+{
+ "date": "2026-10-31",
+ "note": "Draft deleted (user: \"Yes, delete the aloe draft and move its stock\"). Its 2 units were added to the live Vilvah Aloe Vera Gel 100ml option \"2\" (variant 56693967978883, inventory item 55273713435011): 1 -> 3 at Swansura - The Body Studio. Undo: recreate from this data and adjust -2.",
+ "product": {
+  "id": "gid://shopify/Product/15415431364995",
+  "title": "Vilvah Aloe Vera Gel Pack of 2 – Pure & Natural Multi-Purpose Gel for Face, Hair & Skin Hydration – Soothing, Lightweight, Non-Sticky",
+  "handle": "vilvah-aloe-vera-gel-pack-of-2-pure-natural-multi-purpose-gel-for-face-hair-skin-hydration-soothing-lightweight-non-sticky",
+  "status": "DRAFT",
+  "vendor": "Generic",
+  "productType": "",
+  "tags": [],
+  "descriptionHtml": "<ul>\n<li>Pure and natural aloe vera gel formulated without parabens, silicones, or synthetic colors.</li>\n<li>Provides instant hydration and cooling relief for dry, irritated, or sun-exposed skin.</li>\n<li>Lightweight, non-sticky texture suitable as a daily moisturizer for face and body.</li>\n<li>Works as a multipurpose hair gel – reduces frizz, adds shine, and nourishes scalp.</li>\n<li>Value pack of 2 – convenient for home, travel, or sharing with family.</li>\n</ul>",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "templateSuffix": null,
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "collections": {
+   "nodes": [
+    {
+     "handle": "vilvah"
+    }
+   ]
+  },
+  "resourcePublicationsV2": {
+   "nodes": []
+  },
+  "metafields": {
+   "nodes": []
+  },
+  "variants": {
+   "nodes": [
+    {
+     "id": "gid://shopify/ProductVariant/56613302075779",
+     "title": "Default Title",
+     "sku": "II-21RR-UOOM",
+     "price": "19.99",
+     "compareAtPrice": null,
+     "inventoryQuantity": 2,
+     "inventoryItem": {
+      "tracked": true
+     }
+    }
+   ]
+  },
+  "media": {
+   "nodes": [
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – two aloe vera gel tins side by side",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/dd57fb74.jpg?v=1761216503"
+     }
+    },
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – open tin of gel with fresh aloe leaves",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/3893c126.jpg?v=1761216504"
+     }
+    },
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – open tin with benefits graphic",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/9a9b25e8.jpg?v=1761216502"
+     }
+    },
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – gel texture with face, hair and body uses",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/a9698a61.jpg?v=1761216502"
+     }
+    },
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – open tin held outdoors on grass",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/ed630c5f.jpg?v=1761216503"
+     }
+    },
+    {
+     "alt": "Vilvah Aloe Vera Gel Pack of 2 – model holding the aloe vera gel tin",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/2c7ae710.jpg?v=1761216502"
+     }
+    }
+   ]
+  }
+ }
+}
