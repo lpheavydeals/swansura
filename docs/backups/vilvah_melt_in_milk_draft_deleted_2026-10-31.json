@@ -1,0 +1,94 @@
+{
+ "date": "2026-10-31",
+ "note": "Draft deleted (user: \"Delete the Melt-in-Milk sunscreen draft\"). 0 in stock, never published; Vilvah sells Skin Finish Sunscreen SPF 50 (live). Media were Drive WebPs (19 Oct) + 1 product video; the image files stay in Shopify Files.",
+ "product": {
+  "id": "gid://shopify/Product/15415431102851",
+  "title": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml",
+  "handle": "vilvah-melt-in-milk-sunscreen-spf-50-pa-lightweight-non-greasy-no-white-cast-acne-safe-water-resistant-50ml",
+  "status": "DRAFT",
+  "vendor": "Generic",
+  "productType": "",
+  "tags": [],
+  "descriptionHtml": "<ul>\n<li>Broad-Spectrum Protection: Provides SPF 50 PA+++ to shield skin from harmful UVA and UVB rays.</li>\n<li>Acne-Safe Formula: Designed to be non-comedogenic, preventing breakouts and clogged pores.</li>\n<li>No White Cast: Absorbs quickly without leaving a visible residue, suitable for all skin tones.</li>\n<li>Water-Resistant: Ideal for active lifestyles, offering protection during swimming or sweating.</li>\n<li>Suitable for All Skin Types: Gentle enough for daily use on oily, dry, and combination skin.</li>\n</ul>",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "collections": {
+   "nodes": [
+    {
+     "handle": "vilvah"
+    },
+    {
+     "handle": "sunscreen"
+    }
+   ]
+  },
+  "metafields": {
+   "nodes": []
+  },
+  "variants": {
+   "nodes": [
+    {
+     "id": "gid://shopify/ProductVariant/56613301780867",
+     "title": "Default Title",
+     "sku": "FO-MKZ2-3PDB",
+     "price": "15.99",
+     "compareAtPrice": null,
+     "inventoryQuantity": 0
+    }
+   ]
+  },
+  "media": {
+   "nodes": [
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – tube in a milk splash",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-1.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – tube with what's special: water resistant, UV filters",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-2.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – hand holding the tube, no residue or white cast",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-3.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – model holding the tube beside her face",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-4.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – ingredients: soy milk extract, UV filters, carrot seed, basil and apricot",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-5.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – suggested routine with Milk Drops Serum then sunscreen",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/vilvah-melt-in-milk-sunscreen-spf-50-pa-50ml-6.webp?v=1792403830"
+     }
+    },
+    {
+     "alt": "Vilvah Melt-in-Milk Sunscreen SPF 50 PA+++ 50ml – product video"
+    }
+   ]
+  }
+ }
+}
