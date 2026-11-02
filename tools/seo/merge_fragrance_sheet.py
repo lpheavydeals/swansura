@@ -230,10 +230,12 @@ def build():
         desc = fit([d1, d2, d3], 160)
         primary = re.sub(r'\s+', ' ', base.lower()).strip()
         if ov:
+            primary = re.sub(r'\s+with travel atomiser', '', primary)
             primary = re.sub(r'\s*\(.*?\)', '', primary)
             primary = re.sub(r'\s*&\s*(deodorant|shower gel)', '', primary)
             primary = re.sub(r'\s+(parfum|eau de parfum|eau de toilette)\b', '', primary).strip()
-        secondary = f'{primary} {long.lower()}' if long not in ('Fragrance', 'Gift Set') else ''
+        primary = re.sub(r'\s*\(.*?\)', '', primary).strip()          # Semrush rejects brackets
+        secondary = f'{primary} {long.lower()}' if long not in ('Fragrance', 'Gift Set') and not gift else ''
         notes = ['NEW 2 Nov 2026 (client Fragrance Data sheet row %d)' % r['n'], 'Semrush volume not checked yet']
         if brand != r['brand']:
             notes.append(f"brand in client sheet: '{r['brand']}'")
