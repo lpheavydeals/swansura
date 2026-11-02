@@ -26,6 +26,11 @@ def handleize(s):
     return re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', s)).strip('-')
 
 BRAND_NAME = {'Bois': 'Bois 1920'}
+# client-sheet set names / typos left inside the client's description text (titles were cleaned in the merge)
+DESC_FIX = {'Guess Pink Set + + Bl + Pouch (2023)': 'Guess Pink Gift Set',
+            'Guess Seductive Homme Noir Set + Sg + + Pouch': 'Guess Seductive Homme Noir Gift Set',
+            'Guess Seductive Noir Set + Bl + + Pouch': 'Guess Seductive Noir Gift Set',
+            'Guess Uomo Set + Sg + + Pouch': 'Guess Uomo Gift Set', 'Champange': 'Champagne'}
 ARABIAN = {'Lattafa', 'Maison Alhambra', 'Afnan', 'Arabiyat Prestige', 'Rasasi', 'Swiss Arabian', 'Attar Collection', 'Armaf', 'Inaaya', 'Adi Guru'}
 LINE = {'Guess': 'American fashion fragrances and body mists', 'Franck Olivier': 'French-style perfumes at everyday prices',
         'Maison Alhambra': 'Arabian-inspired eaux de parfum', 'Natural By Woods': 'Woody niche eaux de parfum',
@@ -80,12 +85,17 @@ for h1, rows in groups.items():
     TAKEN.add(handle)
     prices = [float(x['price']) for x in rows]
     pmin = min(prices)
-    desc = (f"<p>{esc(r0['client_desc'])}</p>" if r0['client_desc'] else '') + notes_html(r0['scent']) + \
+    cdesc = r0['client_desc'] or ''
+    for a, b in DESC_FIX.items():
+        cdesc = cdesc.replace(a, b)
+    desc = (f"<p>{esc(cdesc)}</p>" if cdesc else '') + notes_html(r0['scent']) + \
         '<h3>Details</h3><ul>' + \
         f"<li>{esc(str(r0['type']).replace(' (EDP)', '').replace(' (EDT)', ''))}" + \
         (f", {esc(', '.join(x['size'] for x in rows))}" if any(x['size'] for x in rows) else '') + '</li>' + \
         f"<li>{'Made for men' if g == 'Men' else 'Made for women' if g == 'Women' else 'Unisex: for men and women'}</li>" + \
         f"<li>Brand: {esc(brand)}</li><li>100% authentic, dispatched from the UK</li></ul>"
+    # the merge guessed 'Body Mist' for the client's '+ Sg' (170g) item: contents not confirmed, so say so
+    desc = desc.replace('<li>Eau de Toilette + Body Mist, 100ml + 170g</li>', '<li>Eau de Toilette 100ml plus a 170g item (ask us for the full contents)</li>')
     sizes_opt = [x['size'] or 'One size' for x in rows]
     variants = []
     for x, sz in zip(rows, sizes_opt):

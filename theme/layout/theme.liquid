@@ -61,7 +61,7 @@
         assign sw_desc = sw_desc | truncate: 158, '…'
       endif
     -%}
-    <meta name="description" content="{{ sw_desc | escape }}">
+    <meta name="description" content="{{ sw_desc | escape_once }}">
     {%- if template.name == 'search' or template.name == 'cart' or request.page_type == 'page' and page.handle == 'wishlist' %}
       <meta name="robots" content="noindex, follow">
     {%- endif %}

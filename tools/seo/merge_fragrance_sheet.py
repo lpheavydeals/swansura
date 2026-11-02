@@ -3,6 +3,8 @@
 Input : docs/data/Swansura_Fragrance_Data_2026-11-02.xlsx (client: 674 fragrance + 159 Vilvah/Deyga rows)
         seo/Swansura_Keyword_Research.xlsx 'Final SEO' (546 prepared rows)
         live storefront /products.json
+NOTE (2 Nov 2026, later): the 201 new products are now live, so re-running match() would classify
+them as EXISTING — do not re-run; edit docs/seo/fragrance_new_seo_2026-11-02.json directly.
 Step 1 (this file, match()): classify each client row as EXISTING (same brand + size, names match),
         CHECK (close but not certain) or NEW. Writes docs/seo/fragrance_merge_match_2026-11-02.json.
 """
@@ -227,7 +229,8 @@ def build():
         d1 = f"Buy {h1}{sz_} for £{float(r['price']):.2f} at Swansura UK. {art} {fam + ' ' if fam else ''}{g} {kind}. 100% authentic, fast UK delivery, free over £40."
         d2 = d1.replace('fast UK delivery, free over £40', 'free UK delivery over £40')
         d3 = f"Buy {h1}{sz_} for £{float(r['price']):.2f} at Swansura UK. {art} {fam + ' ' if fam else ''}{g} {kind}. 100% authentic."
-        desc = fit([d1, d2, d3], 160)
+        d4 = d3.replace(' 100% authentic.', '')
+        desc = fit([d1, d2, d3, d4], 160)
         primary = re.sub(r'\s+', ' ', base.lower()).strip()
         if ov:
             primary = re.sub(r'\s+with travel atomiser', '', primary)
