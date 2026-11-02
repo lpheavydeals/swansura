@@ -137,7 +137,7 @@ def clean_core(r):
     name = re.sub(r'\((EDP|EDT|EDC)\)', '', name)
     name = re.sub(r'\s*\d+(?:\.\d+)?\s*ml(\s*\+\s*\d+(?:\.\d+)?\s*ml)*', '', name, flags=re.I)
     name = re.sub(r'\s*\d+\s*x\s*\d+\s*ml', '', name, flags=re.I)
-    name = caps(name)
+    name = caps(re.sub(r'\(\s*\)', '', name))      # client names like 'Jean Lowe Fraiche ( )'
     base = name
     for _, long, _ in CONC:
         base = re.sub(r'\s*' + re.escape(long) + r'\b', '', base, flags=re.I)

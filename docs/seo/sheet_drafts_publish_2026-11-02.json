@@ -1,0 +1,903 @@
+[
+ {
+  "id": "gid://shopify/Product/15415436837251",
+  "brand": "Chris Adams",
+  "collections": [
+   "fragrance",
+   "chris-adams",
+   "price-0-15",
+   "perfume-for-men",
+   "scent-woody"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415436837251",
+   "title": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men",
+   "handle": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml",
+   "vendor": "Chris Adams",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Chris Adams CA DX 77 Pour Homme is an eau de parfum for men, in a 100ml spray.</p><h3>Scent notes</h3><p>Top notes of citrus, bergamot, petitgrain, melon, apple, ginger and galbanum; a heart of vetiver, thyme, mint, lavender, geranium, nutmeg and clove; and a base of vetiver, sandalwood, cinnamon, amber and musk. Fragrance family: aromatic woods.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for men</li><li>Brand: Chris Adams</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Chris Adams CA DX 77 Pour Homme EDP 100ml | Swansura UK",
+    "description": "Buy Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for £14.50 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Chris Adams CA DX 77 Pour Homme Eau de Parfum for Men"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 800, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Top notes of citrus, bergamot, petitgrain, melon, apple, ginger and galbanum.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415434674563",
+  "brand": "Chris Adams",
+  "collections": [
+   "fragrance",
+   "chris-adams",
+   "price-0-15",
+   "perfume-for-men",
+   "scent-woody"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415434674563",
+   "title": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men",
+   "handle": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml",
+   "vendor": "Chris Adams",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Chris Adams Black Shadow Pour Homme is an eau de toilette for men, in a 100ml spray.</p><h3>Scent notes</h3><p>A chypre fragrance for men.</p><h3>Details</h3><ul><li>Eau de Toilette, 100ml spray</li><li>Made for men</li><li>Brand: Chris Adams</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Chris Adams Black Shadow Pour Homme EDT 100ml | Swansura UK",
+    "description": "Buy Chris Adams Black Shadow Pour Homme EDT 100ml for £11.94 at Swansura UK. A woody men's eau de toilette. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Chris Adams Black Shadow Pour Homme Eau de Toilette for Men"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 801, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A chypre fragrance for men.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415434805635",
+  "brand": "Game of Spades",
+  "collections": [
+   "fragrance",
+   "jo-milano",
+   "price-50-9999",
+   "unisex-perfume",
+   "scent-floral",
+   "niche-perfume",
+   "gifts-over-50"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415434805635",
+   "title": "Game of Spades Win Unisex Eau de Parfum 100ml",
+   "handle": "game-of-spades-win-eau-de-parfum-100ml",
+   "vendor": "Jo Milano",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Game of Spades Win is an eau de parfum for men and women from Jo Milano's Game of Spades collection, in a 100ml spray.</p><h3>Scent notes</h3><p>Top notes of litchi, cassis and mandarin orange, a floral heart, and a base of vanilla and musk.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Jo Milano (Game of Spades collection)</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Game of Spades Win Eau de Parfum 100ml | Swansura UK",
+    "description": "Buy Game of Spades Win Eau de Parfum 100ml for £79.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance",
+    "Game of Spades"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Game of Spades Win Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 802, \"f\": \"floral\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A floral fragrance: Top notes of litchi, cassis and mandarin orange, a floral heart, and a base of vanilla and musk.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"game-of-spades-king-eau-de-parfum-100ml\", \"game-of-spades-jackpot-eau-de-parfum-100ml\", \"game-of-spades-opal-eau-de-parfum-100ml\", \"game-of-spades-diamond-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415434969475",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-men",
+   "scent-fresh"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415434969475",
+   "title": "Maison de Milan Amalfi Bleu Eau de Parfum 100ml for Men",
+   "handle": "maison-de-milan-amalfi-bleu-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Amalfi Bleu is an eau de parfum for men, in a 100ml spray.</p><h3>Scent notes</h3><p>Mint and melon top notes, a heart of ginger, and a base of cedar and sandalwood.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for men</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Amalfi Bleu EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Amalfi Bleu Eau de Parfum 100ml for £17.99 at Swansura UK. A fresh men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Amalfi Bleu Eau de Parfum for Men"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 803, \"f\": \"fresh\", \"w\": \"Men\", \"n\": null, \"a\": [\"A fresh fragrance: Mint and melon top notes, a heart of ginger, and a base of cedar and sandalwood.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Fresh family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\", \"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415435100547",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-amber"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415435100547",
+   "title": "Maison de Milan Bliss Rouge Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-bliss-rouge-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Bliss Rouge is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Top notes of blood orange with saffron and almond, a heart of cedar and ambergris, and a musk base.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Bliss Rouge EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Bliss Rouge Eau de Parfum 100ml for £17.99 at Swansura UK. A warm amber women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Bliss Rouge Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 804, \"f\": \"amber\", \"w\": \"Women\", \"n\": null, \"a\": [\"A warm amber fragrance: Top notes of blood orange with saffron and almond, a heart of cedar and ambergris, and a musk base.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Amber family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\", \"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415437197699",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "unisex-perfume",
+   "scent-amber"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415437197699",
+   "title": "Maison de Milan Brave Lad Unisex Eau de Parfum 100ml",
+   "handle": "maison-de-milan-brave-lad-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Brave Lad is an eau de parfum for men and women, in a 100ml spray.</p><h3>Scent notes</h3><p>A blend of juicy fruits, florals and amber.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Brave Lad Eau de Parfum 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Brave Lad Eau de Parfum 100ml for £17.99 at Swansura UK. A warm amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Brave Lad Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 805, \"f\": \"amber\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A blend of juicy fruits, florals and amber.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Amber family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\", \"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415435166083",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415435166083",
+   "title": "Maison de Milan Delight Pour Femme Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-delight-pour-femme-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Delight Pour Femme is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Citrus and peach with peony and freesia, finishing on sandalwood and musk.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Delight Pour Femme EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Delight Pour Femme Eau de Parfum 100ml for £17.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Delight Pour Femme Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 806, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Citrus and peach with peony and freesia, finishing on sandalwood and musk.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415433658755",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415433658755",
+   "title": "Maison de Milan Elegance Pour Femme Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Elegance Pour Femme is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Bright citrus and rose over creamy sandalwood and soft musk.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Elegance Pour Femme EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Elegance Pour Femme EDP 100ml for £17.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Elegance Pour Femme Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 807, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Bright citrus and rose over creamy sandalwood and soft musk.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415435133315",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415435133315",
+   "title": "Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-gossip-pour-femme-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Gossip Pour Femme is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Citrus and pear, then violet and jasmine, ending on amber and musk.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Gossip Pour Femme EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for £17.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Gossip Pour Femme Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 808, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Citrus and pear, then violet and jasmine, ending on amber and musk.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415437918595",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415437918595",
+   "title": "Maison de Milan Invincible Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-invincible-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Invincible is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>A blend of floral and woody notes.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Invincible Eau de Parfum 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Invincible Eau de Parfum 100ml for £17.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Invincible Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 809, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A blend of floral and woody notes.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415437328771",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-men",
+   "scent-woody"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415437328771",
+   "title": "Maison de Milan L'Homme Suave Eau de Parfum 100ml for Men",
+   "handle": "maison-de-milan-lhomme-suave-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan L'Homme Suave is an eau de parfum for men, in a 100ml spray.</p><h3>Scent notes</h3><p>Bergamot with lavender and pepper over a base of cedarwood, patchouli and labdanum.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for men</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan L'Homme Suave EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan L'Homme Suave Eau de Parfum 100ml for £17.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan L'Homme Suave Eau de Parfum for Men"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 810, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot with lavender and pepper over a base of cedarwood, patchouli and labdanum.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415433757059",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "unisex-perfume",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415433757059",
+   "title": "Maison de Milan M Unisex Eau de Parfum 100ml",
+   "handle": "maison-de-milan-m-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan M is an eau de parfum for men and women, in a 100ml spray.</p><h3>Scent notes</h3><p>Bergamot and green apple, a heart of jasmine and iris, and a base of amber and sandalwood.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan M Eau de Parfum 100ml | Swansura UK",
+    "description": "Buy Maison de Milan M Eau de Parfum 100ml for £17.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan M Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 811, \"f\": \"floral\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A floral fragrance: Bergamot and green apple, a heart of jasmine and iris, and a base of amber and sandalwood.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415436444035",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415436444035",
+   "title": "Maison de Milan Milano Girl Black Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-milano-girl-black-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Milano Girl Black is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Floral and woody notes.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Milano Girl Black EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Milano Girl Black Eau de Parfum 100ml for £17.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Milano Girl Black Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 812, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Floral and woody notes.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415433593219",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415433593219",
+   "title": "Maison de Milan Milano Girl Red Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-milano-girl-red-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Milano Girl Red is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>Floral, fruity and amber notes.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Milano Girl Red EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Milano Girl Red Eau de Parfum 100ml for £19.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Milano Girl Red Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 813, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Floral, fruity and amber notes.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415434412419",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "perfume-for-women",
+   "scent-floral"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415434412419",
+   "title": "Maison de Milan Milano Girl White Eau de Parfum 100ml for Women",
+   "handle": "maison-de-milan-milano-girl-white-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Milano Girl White is an eau de parfum for women, in a 100ml spray.</p><h3>Scent notes</h3><p>White florals and musk with warm undertones.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Made for women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Milano Girl White EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Milano Girl White Eau de Parfum 100ml for £19.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Milano Girl White Eau de Parfum for Women"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 814, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: White florals and musk with warm undertones.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415433691523",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "unisex-perfume",
+   "scent-woody"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415433691523",
+   "title": "Maison de Milan Opulent Gold Unisex Eau de Parfum 100ml",
+   "handle": "maison-de-milan-opulent-gold-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Opulent Gold is an eau de parfum for men and women, in a 100ml spray.</p><h3>Scent notes</h3><p>Floral top notes over a woody base.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Opulent Gold EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Opulent Gold Eau de Parfum 100ml for £17.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Opulent Gold Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 815, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Floral top notes over a woody base.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415434183043",
+  "brand": "Maison de Milan",
+  "collections": [
+   "fragrance",
+   "maison-de-milan",
+   "price-15-25",
+   "unisex-perfume",
+   "scent-woody"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415434183043",
+   "title": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum 100ml",
+   "handle": "maison-de-milan-valiant-pour-homme-eau-de-parfum-100ml",
+   "vendor": "Maison de Milan",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Maison de Milan Valiant Pour Homme is an eau de parfum for men and women, in a 100ml spray.</p><h3>Scent notes</h3><p>Citrus and spice top notes over warm woods and leather.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Maison de Milan</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Maison de Milan Valiant Pour Homme EDP 100ml | Swansura UK",
+    "description": "Buy Maison de Milan Valiant Pour Homme Eau de Parfum 100ml for £17.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 816, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Citrus and spice top notes over warm woods and leather.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\", \"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\", \"maison-de-milan-brave-lad-eau-de-parfum-100ml\", \"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415431889283",
+  "brand": "Game of Spades",
+  "collections": [
+   "fragrance",
+   "jo-milano",
+   "price-50-9999",
+   "unisex-perfume",
+   "scent-woody",
+   "niche-perfume",
+   "gifts-over-50"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415431889283",
+   "title": "Game of Spades Rouge Unisex Extrait de Parfum 100ml",
+   "handle": "game-of-spades-rouge-extrait-de-parfum-100ml",
+   "vendor": "Jo Milano",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Game of Spades Rouge is an extrait de parfum for men and women from Jo Milano's Game of Spades collection, in a 100ml spray.</p><p>Ask us for the scent notes before you buy: message us on WhatsApp or Instagram and we will help.</p><h3>Details</h3><ul><li>Extrait de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Jo Milano (Game of Spades collection)</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Game of Spades Rouge Extrait de Parfum 100ml | Swansura UK",
+    "description": "Buy Game of Spades Rouge Extrait de Parfum 100ml for £85.99 at Swansura UK. A woody unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance",
+    "Game of Spades"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Game of Spades Rouge Unisex Extrait de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 817, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"Message us for the scent notes of this perfume.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Extrait de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"game-of-spades-king-eau-de-parfum-100ml\", \"game-of-spades-jackpot-eau-de-parfum-100ml\", \"game-of-spades-opal-eau-de-parfum-100ml\", \"game-of-spades-diamond-eau-de-parfum-100ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/15415436345731",
+  "brand": "Rihanah",
+  "collections": [
+   "fragrance",
+   "rihanah",
+   "price-15-25",
+   "unisex-perfume",
+   "scent-oud",
+   "oud-perfume",
+   "arabian-perfume"
+  ],
+  "input": {
+   "id": "gid://shopify/Product/15415436345731",
+   "title": "Rihanah Ajwaa Oud Unisex Eau de Parfum 100ml",
+   "handle": "rihanah-ajwaa-oud-eau-de-parfum-100ml",
+   "vendor": "Rihanah",
+   "productType": "Fragrance",
+   "descriptionHtml": "<p>Rihanah Ajwaa Oud is an eau de parfum for men and women, in a 100ml spray.</p><p>Ask us for the scent notes before you buy: message us on WhatsApp or Instagram and we will help.</p><h3>Details</h3><ul><li>Eau de Parfum, 100ml spray</li><li>Unisex: for men and women</li><li>Brand: Rihanah</li><li>100% authentic, dispatched from the UK</li></ul><h3>How to use</h3><p>Spray from 15–20 cm onto pulse points such as the neck, inner wrists and inner elbows. Don't rub your wrists together. Patch test before first use if your skin is sensitive.</p>",
+   "seo": {
+    "title": "Rihanah Ajwaa Oud Eau de Parfum 100ml | Swansura UK",
+    "description": "Buy Rihanah Ajwaa Oud Eau de Parfum 100ml for £17.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "tags": [
+    "Fragrance"
+   ],
+   "status": "ACTIVE"
+  },
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "h1",
+    "type": "single_line_text_field",
+    "value": "Rihanah Ajwaa Oud Unisex Eau de Parfum"
+   },
+   {
+    "namespace": "custom",
+    "key": "sw",
+    "type": "json",
+    "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 818, \"f\": \"oud\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"Message us for the scent notes of this perfume.\"]}"
+   },
+   {
+    "namespace": "custom",
+    "key": "pdp",
+    "type": "json",
+    "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Oud family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+   }
+  ]
+ }
+]

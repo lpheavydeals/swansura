@@ -1,0 +1,794 @@
+[
+ {
+  "handle": "adi-guru",
+  "existing": null,
+  "input": {
+   "title": "Adi Guru",
+   "handle": "adi-guru",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Adi Guru Perfume | Shop at Swansura UK",
+    "description": "Shop Adi Guru perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Adi Guru Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Adi Guru\", \"world\": \"scent\", \"partner\": false, \"line\": \"Eaux de parfum\", \"story\": \"Adi Guru at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Adi Guru at Swansura genuine?\", \"Yes. Every Adi Guru product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Adi Guru delivery?\", \"All Adi Guru orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "afnan",
+  "existing": null,
+  "input": {
+   "title": "Afnan",
+   "handle": "afnan",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Afnan Perfume | Shop at Swansura UK",
+    "description": "Shop Afnan perfume at Swansura: 3 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Afnan Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Afnan\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian perfume house\", \"story\": \"Afnan at Swansura: 3 products, 100% authentic and shipped from the UK.\", \"count\": 3, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Afnan at Swansura genuine?\", \"Yes. Every Afnan product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Afnan delivery?\", \"All Afnan orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "arabiyat-prestige",
+  "existing": null,
+  "input": {
+   "title": "Arabiyat Prestige",
+   "handle": "arabiyat-prestige",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Arabiyat Prestige Perfume | Shop at Swansura UK",
+    "description": "Shop Arabiyat Prestige perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Arabiyat Prestige Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Arabiyat Prestige\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian perfume house\", \"story\": \"Arabiyat Prestige at Swansura: 2 products, 100% authentic and shipped from the UK.\", \"count\": 2, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Arabiyat Prestige at Swansura genuine?\", \"Yes. Every Arabiyat Prestige product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Arabiyat Prestige delivery?\", \"All Arabiyat Prestige orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "armand-basi",
+  "existing": null,
+  "input": {
+   "title": "Armand Basi",
+   "handle": "armand-basi",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Armand Basi Perfume | Shop at Swansura UK",
+    "description": "Shop Armand Basi perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Armand Basi Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Armand Basi\", \"world\": \"scent\", \"partner\": false, \"line\": \"Spanish fashion fragrances\", \"story\": \"Armand Basi at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Armand Basi at Swansura genuine?\", \"Yes. Every Armand Basi product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Armand Basi delivery?\", \"All Armand Basi orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "attar-collection",
+  "existing": null,
+  "input": {
+   "title": "Attar Collection",
+   "handle": "attar-collection",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Attar Collection Perfume | Shop at Swansura UK",
+    "description": "Shop Attar Collection perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Attar Collection Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Attar Collection\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian-inspired eaux de parfum\", \"story\": \"Attar Collection at Swansura: 6 products, 100% authentic and shipped from the UK.\", \"count\": 6, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Attar Collection at Swansura genuine?\", \"Yes. Every Attar Collection product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Attar Collection delivery?\", \"All Attar Collection orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "bois-1920",
+  "existing": null,
+  "input": {
+   "title": "Bois 1920",
+   "handle": "bois-1920",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Bois 1920 Perfume | Shop at Swansura UK",
+    "description": "Shop Bois 1920 perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Bois 1920 Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Bois 1920\", \"world\": \"scent\", \"partner\": false, \"line\": \"Italian niche perfumes\", \"story\": \"Bois 1920 at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Bois 1920 at Swansura genuine?\", \"Yes. Every Bois 1920 product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Bois 1920 delivery?\", \"All Bois 1920 orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "david-beckham",
+  "existing": "gid://shopify/Collection/705881833859",
+  "input": {
+   "title": "David Beckham",
+   "handle": "david-beckham",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "David Beckham Perfume | Shop at Swansura UK",
+    "description": "Shop David Beckham perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "David Beckham Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"David Beckham\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances\", \"story\": \"David Beckham at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is David Beckham at Swansura genuine?\", \"Yes. Every David Beckham product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is David Beckham delivery?\", \"All David Beckham orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "fomo",
+  "existing": null,
+  "input": {
+   "title": "Fomo",
+   "handle": "fomo",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Fomo Perfume | Shop at Swansura UK",
+    "description": "Shop Fomo perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Fomo Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Fomo\", \"world\": \"scent\", \"partner\": false, \"line\": \"Niche extraits de parfum\", \"story\": \"Fomo at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Fomo at Swansura genuine?\", \"Yes. Every Fomo product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Fomo delivery?\", \"All Fomo orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "formula-1",
+  "existing": null,
+  "input": {
+   "title": "Formula 1",
+   "handle": "formula-1",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Formula 1 Perfume | Shop at Swansura UK",
+    "description": "Shop Formula 1 perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Formula 1 Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Formula 1\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances inspired by racing\", \"story\": \"Formula 1 at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Formula 1 at Swansura genuine?\", \"Yes. Every Formula 1 product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Formula 1 delivery?\", \"All Formula 1 orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "franck-olivier",
+  "existing": null,
+  "input": {
+   "title": "Franck Olivier",
+   "handle": "franck-olivier",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Franck Olivier Perfume | Shop at Swansura UK",
+    "description": "Shop Franck Olivier perfume at Swansura: 40 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Franck Olivier Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Franck Olivier\", \"world\": \"scent\", \"partner\": false, \"line\": \"French-style perfumes at everyday prices\", \"story\": \"Franck Olivier at Swansura: 40 products, 100% authentic and shipped from the UK.\", \"count\": 40, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Franck Olivier at Swansura genuine?\", \"Yes. Every Franck Olivier product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Franck Olivier delivery?\", \"All Franck Olivier orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "fun-basics",
+  "existing": null,
+  "input": {
+   "title": "Fun & Basics",
+   "handle": "fun-basics",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Fun & Basics Perfume | Shop at Swansura UK",
+    "description": "Shop Fun & Basics perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Fun & Basics Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Fun & Basics\", \"world\": \"scent\", \"partner\": false, \"line\": \"Body mists and fragrances\", \"story\": \"Fun & Basics at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Fun & Basics at Swansura genuine?\", \"Yes. Every Fun & Basics product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Fun & Basics delivery?\", \"All Fun & Basics orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "guess",
+  "existing": null,
+  "input": {
+   "title": "Guess",
+   "handle": "guess",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Guess Perfume | Shop at Swansura UK",
+    "description": "Shop Guess perfume at Swansura: 43 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Guess Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Guess\", \"world\": \"scent\", \"partner\": false, \"line\": \"American fashion fragrances and body mists\", \"story\": \"Guess at Swansura: 43 products, 100% authentic and shipped from the UK.\", \"count\": 43, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Guess at Swansura genuine?\", \"Yes. Every Guess product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Guess delivery?\", \"All Guess orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "inaaya",
+  "existing": null,
+  "input": {
+   "title": "Inaaya",
+   "handle": "inaaya",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Inaaya Perfume | Shop at Swansura UK",
+    "description": "Shop Inaaya perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Inaaya Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Inaaya\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian-inspired eaux de parfum\", \"story\": \"Inaaya at Swansura: 6 products, 100% authentic and shipped from the UK.\", \"count\": 6, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Inaaya at Swansura genuine?\", \"Yes. Every Inaaya product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Inaaya delivery?\", \"All Inaaya orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "jaguar",
+  "existing": null,
+  "input": {
+   "title": "Jaguar",
+   "handle": "jaguar",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Jaguar Perfume | Shop at Swansura UK",
+    "description": "Shop Jaguar perfume at Swansura: 5 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Jaguar Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Jaguar\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances for men\", \"story\": \"Jaguar at Swansura: 5 products, 100% authentic and shipped from the UK.\", \"count\": 5, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Jaguar at Swansura genuine?\", \"Yes. Every Jaguar product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Jaguar delivery?\", \"All Jaguar orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "lattafa",
+  "existing": null,
+  "input": {
+   "title": "Lattafa",
+   "handle": "lattafa",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Lattafa Perfume | Shop at Swansura UK",
+    "description": "Shop Lattafa perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Lattafa Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Lattafa\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian perfume house\", \"story\": \"Lattafa at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Lattafa at Swansura genuine?\", \"Yes. Every Lattafa product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Lattafa delivery?\", \"All Lattafa orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "maison-alhambra",
+  "existing": null,
+  "input": {
+   "title": "Maison Alhambra",
+   "handle": "maison-alhambra",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Maison Alhambra Perfume | Shop at Swansura UK",
+    "description": "Shop Maison Alhambra perfume at Swansura: 25 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Maison Alhambra Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Maison Alhambra\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian-inspired eaux de parfum\", \"story\": \"Maison Alhambra at Swansura: 25 products, 100% authentic and shipped from the UK.\", \"count\": 25, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Maison Alhambra at Swansura genuine?\", \"Yes. Every Maison Alhambra product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Maison Alhambra delivery?\", \"All Maison Alhambra orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "mercedes-benz",
+  "existing": null,
+  "input": {
+   "title": "Mercedes-Benz",
+   "handle": "mercedes-benz",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Mercedes-Benz Perfume | Shop at Swansura UK",
+    "description": "Shop Mercedes-Benz perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Mercedes-Benz Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Mercedes-Benz\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances for men\", \"story\": \"Mercedes-Benz at Swansura: 6 products, 100% authentic and shipped from the UK.\", \"count\": 6, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Mercedes-Benz at Swansura genuine?\", \"Yes. Every Mercedes-Benz product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Mercedes-Benz delivery?\", \"All Mercedes-Benz orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "natural-by-woods",
+  "existing": null,
+  "input": {
+   "title": "Natural By Woods",
+   "handle": "natural-by-woods",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Natural By Woods Perfume | Shop at Swansura UK",
+    "description": "Shop Natural By Woods perfume at Swansura: 13 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Natural By Woods Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Natural By Woods\", \"world\": \"scent\", \"partner\": false, \"line\": \"Woody niche eaux de parfum\", \"story\": \"Natural By Woods at Swansura: 13 products, 100% authentic and shipped from the UK.\", \"count\": 13, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Natural By Woods at Swansura genuine?\", \"Yes. Every Natural By Woods product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Natural By Woods delivery?\", \"All Natural By Woods orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "notebook",
+  "existing": null,
+  "input": {
+   "title": "Notebook",
+   "handle": "notebook",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Notebook Perfume | Shop at Swansura UK",
+    "description": "Shop Notebook perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Notebook Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Notebook\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances\", \"story\": \"Notebook at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Notebook at Swansura genuine?\", \"Yes. Every Notebook product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Notebook delivery?\", \"All Notebook orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "rasasi",
+  "existing": null,
+  "input": {
+   "title": "Rasasi",
+   "handle": "rasasi",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Rasasi Perfume | Shop at Swansura UK",
+    "description": "Shop Rasasi perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Rasasi Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Rasasi\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian perfume house\", \"story\": \"Rasasi at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Rasasi at Swansura genuine?\", \"Yes. Every Rasasi product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Rasasi delivery?\", \"All Rasasi orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "swiss-arabian",
+  "existing": null,
+  "input": {
+   "title": "Swiss Arabian",
+   "handle": "swiss-arabian",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Swiss Arabian Perfume | Shop at Swansura UK",
+    "description": "Shop Swiss Arabian perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Swiss Arabian Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Swiss Arabian\", \"world\": \"scent\", \"partner\": false, \"line\": \"Arabian perfume house\", \"story\": \"Swiss Arabian at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Swiss Arabian at Swansura genuine?\", \"Yes. Every Swiss Arabian product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Swiss Arabian delivery?\", \"All Swiss Arabian orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "tous",
+  "existing": null,
+  "input": {
+   "title": "Tous",
+   "handle": "tous",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Tous Perfume | Shop at Swansura UK",
+    "description": "Shop Tous perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Tous Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Tous\", \"world\": \"scent\", \"partner\": false, \"line\": \"Spanish fashion fragrances\", \"story\": \"Tous at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Tous at Swansura genuine?\", \"Yes. Every Tous product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Tous delivery?\", \"All Tous orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "unlimited",
+  "existing": null,
+  "input": {
+   "title": "Unlimited",
+   "handle": "unlimited",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Unlimited Perfume | Shop at Swansura UK",
+    "description": "Shop Unlimited perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Unlimited Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Unlimited\", \"world\": \"scent\", \"partner\": false, \"line\": \"Eaux de parfum\", \"story\": \"Unlimited at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Unlimited at Swansura genuine?\", \"Yes. Every Unlimited product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Unlimited delivery?\", \"All Unlimited orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "vera-wang",
+  "existing": null,
+  "input": {
+   "title": "Vera Wang",
+   "handle": "vera-wang",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Vera Wang Perfume | Shop at Swansura UK",
+    "description": "Shop Vera Wang perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Vera Wang Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Vera Wang\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances for women\", \"story\": \"Vera Wang at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"anatomē\", \"/collections/anatome\", \"London apothecary for sleep and senses\", \"anatome\"], [\"Tiziana Terenzi\", \"/collections/tiziana-terenzi\", \"Italian niche extraits\", \"tiziana-terenzi\"], [\"Hemel\", \"/collections/hemel\", \"Modern luxury eaux de parfum\", null], [\"Fumeri\", \"/collections/fumeri\", \"Bold scents, everyday prices\", null], [\"Al Haramain\", \"/collections/al-haramain\", \"Arabian perfume house\", \"al-haramain\"]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Vera Wang at Swansura genuine?\", \"Yes. Every Vera Wang product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Vera Wang delivery?\", \"All Vera Wang orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ }
+]
