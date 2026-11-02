@@ -276,8 +276,23 @@ def write():
     head = [x for x in next(ws.iter_rows(min_row=1, max_row=1, values_only=True))]
     old = [list(r) for r in ws.iter_rows(min_row=2, values_only=True) if r[0]]
     EXTRA = ['Status', 'Category (client)', 'Scent family (client)', 'Type (client)', 'Scent notes (client)', 'Description (client)', 'Drive photos (not yet in Shopify)']
+    import csv as _csv
+    VOL = {}
+    sem = ROOT / 'docs/seo/semrush_new_perfumes_results_2026-11-02.csv'
+    if sem.exists():
+        for x in _csv.DictReader(open(sem)):
+            VOL[x['keyword']] = (int(x['volume_uk']) if x['volume_uk'] else None, int(x['kd']) if x['kd'] else None)
+    def vk(k):
+        return VOL.get(' '.join(str(k or '').lower().split()), (None, None)) if k else (None, None)
+    def ease(v, kd):
+        if not VOL:
+            return 'Not checked'
+        if not v:
+            return 'No volume'
+        return 'Easier' if (kd or 0) <= 20 else 'Medium' if kd <= 35 else 'Hard'
     def newrow(r):
-        return [r['id'], r['source'], r['brand'], r['name'], r['size'], r['price'], r['primary'], None, None, 'Not checked', r['secondary'] or None, None,
+        pv, pkd = vk(r['primary']); sv, _ = vk(r['secondary'])
+        return [r['id'], r['source'], r['brand'], r['name'], r['size'], r['price'], r['primary'], pv, pkd, ease(pv, pkd), r['secondary'] or None, sv,
                 r['h1'], r['title'], len(r['title']), r['desc'], len(r['desc']), r['notes'],
                 'NEW 2 Nov 2026', r['cat'], r['family'], r['type'], r['scent'], r['client_desc'], r['drive']]
     EM, LINE = '1B4D3E', 'E3DACD'
@@ -327,19 +342,24 @@ def write():
           ex_rows, [9, 16, 60, 10, 10, 10, 60, 10, 30])
     sheet(f'Price changes ({len(pc)})', ['Our ID', 'Brand', 'Client product name', 'Our product name', 'Size', 'Our sheet £', 'Client new sheet £', 'Difference £'],
           pc, [12, 16, 55, 55, 10, 12, 14, 12])
+    if VOL:
+        brows = sorted([[k, v, kd] for k, (v, kd) in VOL.items() if k.endswith(' perfume')], key=lambda x: -(x[1] or 0))
+        top = sorted([[r[2], r[3], r[6], r[7], r[8]] for r in (newrow(x) for x in rows) if r[7]], key=lambda x: -x[3])[:25]
+        sheet('Brand searches', ['Brand search (UK)', 'Monthly volume', 'KD %'], brows, [34, 16, 10])
+        sheet('Top new products', ['Brand', 'Client product name', 'Keyword', 'Monthly volume', 'KD %'], top, [18, 70, 34, 16, 10])
     s = wb['Sheet']; s.title = 'Summary'
     lines = [('Swansura product SEO – merged sheet (2 Nov 2026)', True),
              ("Client's new sheet 'Swansura Fragrance Data.xlsx': 674 fragrance rows + 159 Vilvah & Deyga rows.", False),
              (f'Already in our prepared sheet / store: {len(exist)} fragrance rows + all 159 Vilvah & Deyga rows (skipped, see "Already prepared").', False),
              ('The client sheet repeats many existing perfumes in a second spelling (e.g. "… Eau de Parfum (EDP) 100ml – Unisex Fragrance"); those were matched to our rows by brand + size + name.', False),
              (f'NEW: {len(rows)} perfumes, prepared in the same format (H1, meta title ≤60, meta description ≤160, primary/secondary keyword). Green rows in "Final SEO (merged)".', False),
-             ('Semrush volumes for the new keywords are not checked yet (Ease = "Not checked").', False),
+             ('Semrush UK volumes for the new keywords: checked 2 Nov 2026 (392 keywords). Brand searches in "Brand searches" tab.', False),
              (f'Price changes: {len(pc)} existing products have a different price in the client\'s new sheet (see tab). Nothing has been changed in Shopify.', False),
              ('Notes column flags: gift-set contents to confirm, size variants, a missing perfume name, client typos corrected.', False)]
     for i, (t, b) in enumerate(lines, 1):
         x = s.cell(i, 1, t); x.font = Font(name=F, size=14 if i == 1 else 11, bold=b, color=EM if b else '1F1A17')
     s.column_dimensions['A'].width = 140
-    wb.move_sheet('Summary', offset=-4)
+    wb.move_sheet('Summary', offset=-(len(wb.sheetnames) - 1))
     wb.save(OUT)
     return res, rows, pc
 
