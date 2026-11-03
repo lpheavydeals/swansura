@@ -107,7 +107,7 @@
 <template id="swPayIcons">{%- render 'sw-p-pay-icons' -%}</template>
 <div class="swp swp-fixed">
   <div id="layer"></div>
-  <button class="chatbtn" id="chatBtn" aria-expanded="false" aria-controls="chatPanel"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l1.7 4.6 4.8 1.9-4.8 1.9L12 16.5l-1.7-4.6L5.5 10l4.8-1.9z"></path><path d="M18.5 15.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"></path></svg><span>Ask Swansura</span></button>
+  <button class="chatbtn" id="chatBtn" aria-expanded="false" aria-controls="chatPanel"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.57 12 20l-7.5-7.43A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.57"></path><path d="M12 6 8.7 9.3a1 1 0 0 0 0 1.4l.55.55c.69.69 1.8.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"></path><path d="m12.5 15.5 2 2M15 13l2 2"></path></svg><span>Choose What's Right for Your Skin</span></button>
   {%- liquid
     assign wa = section.settings.whatsapp | remove: ' ' | remove: '+'
     assign ig = ''
@@ -118,10 +118,10 @@
   <div class="as-scrim" aria-hidden="true"></div>
   <div class="chatpanel asst" id="chatPanel" tabindex="-1" role="dialog" aria-labelledby="asstTitle" hidden data-wa="{{ wa }}" data-wa-label="{{ section.settings.whatsapp | escape }}" data-email="{{ section.settings.email | escape }}" data-ig="{{ ig }}">
     <div class="as-head">
-      <span class="as-av" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3.5l1.7 4.6 4.8 1.9-4.8 1.9L12 16.5l-1.7-4.6L5.5 10l4.8-1.9z"></path><path d="M18.5 15.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"></path></svg></span>
-      <div class="as-t"><b id="asstTitle">Swansura Assistant</b><small>Personal shopping help</small></div>
+      <span class="as-av" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12.57 12 20l-7.5-7.43A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.57"></path><path d="M12 6 8.7 9.3a1 1 0 0 0 0 1.4l.55.55c.69.69 1.8.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"></path><path d="m12.5 15.5 2 2M15 13l2 2"></path></svg></span>
+      <div class="as-t"><b id="asstTitle">Choose What's Right for Your Skin</b><small>Personal shopping help from Swansura</small></div>
       <button class="as-ic" data-asreset aria-label="Start over" title="Start over" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6M4 4v4h4"></path></svg></button>
-      <button class="as-ic" data-chatclose aria-label="Close assistant" title="Close"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+      <button class="as-ic" data-chatclose aria-label="Close" title="Close"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
       <i class="as-bar" aria-hidden="true"><i></i></i>
     </div>
     <div class="as-log" id="asLog" aria-live="polite"></div>
