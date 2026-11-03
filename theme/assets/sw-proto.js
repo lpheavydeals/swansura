@@ -218,6 +218,10 @@
     const b = $('#chatBtn'), p = $('#chatPanel'); if (!b || !p) return;
     const log = $('#asLog', p), form = $('#asForm', p), q = $('#asQ', p), bar = $('.as-bar i', p), resetBtn = $('[data-asreset]', p);
     const KEY = 'swAssist', ss = { get() { try { return JSON.parse(sessionStorage.getItem(KEY)); } catch (e) { return null; } }, set(v) { try { sessionStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} } };
+    /* memory (client via user, 3 Nov 2026, like LOOKFANTASTIC's advisor): the last answers are kept on this device only
+       (localStorage, 180 days), so a returning shopper can see their picks again; 'Forget me' clears it */
+    const MEMKEY = 'swAdvisor', mem = { get() { try { const m = JSON.parse(localStorage.getItem(MEMKEY)); return m && Date.now() - (m.t || 0) < 180 * 864e5 ? m : null; } catch (e) { return null; } },
+      set(v) { try { localStorage.setItem(MEMKEY, JSON.stringify({ ...v, t: Date.now() })); } catch (e) {} }, clear() { try { localStorage.removeItem(MEMKEY); } catch (e) {} } };
     const wa = p.dataset.wa, waLabel = p.dataset.waLabel, mail = p.dataset.email, ig = p.dataset.ig;
     const BUDGET = [['0-1500', 'Under £15'], ['1500-3000', '£15 to £30'], ['3000-5000', '£30 to £50'], ['5000-', 'Over £50'], ['', 'Any budget']];
     const BRANDS = [["Abercrombie & Fitch", "abercrombie-fitch"], ["Acqua di Parma", "acqua-di-parma"], ["Al Haramain", "al-haramain"], ["anatomē", "anatome"], ["Anna Sui", "anna-sui"], ["Antonio Banderas", "antonio-banderas"], ["Ariana Grande", "ariana-grande"], ["Armaf", "armaf"], ["Azzaro", "azzaro"], ["Bentley", "bentley"], ["Boucheron", "boucheron"], ["Burberry", "burberry"], ["Bvlgari", "bvlgari"], ["Calvin Klein", "calvin-klein"], ["Carolina Herrera", "carolina-herrera"], ["Chloé", "chloe"], ["Chopard", "chopard"], ["Coach", "coach"], ["Davidoff", "davidoff"], ["Deyga", "deyga"], ["Dior", "dior"], ["DKNY", "dkny"], ["Dolce & Gabbana", "dolce-gabbana"], ["Dunhill", "dunhill"], ["Elie Saab", "elie-saab"], ["Elizabeth Arden", "elizabeth-arden"], ["Escada", "escada"], ["Estée Lauder", "estee-lauder"], ["Etienne Aigner", "etienne-aigner"], ["Fumeri", "fumeri"], ["Giorgio Armani", "giorgio-armani"], ["Givenchy", "givenchy"], ["Gucci", "gucci"], ["Guerlain", "guerlain"], ["Hemel", "hemel"], ["Hermès", "hermes"], ["Highborn London", "highborn-london"], ["Hollister", "hollister"], ["Hugo Boss", "hugo-boss"], ["Jean Paul Gaultier", "jean-paul-gaultier"], ["Jimmy Choo", "jimmy-choo"], ["Jo Milano", "jo-milano"], ["John Varvatos", "john-varvatos"], ["Joop!", "joop"], ["Juicy Couture", "juicy-couture"], ["Kenneth Cole", "kenneth-cole"], ["Korloff", "korloff"], ["La Maison", "la-maison"], ["Lancôme", "lancome"], ["Mancera", "mancera"], ["Marc Jacobs", "marc-jacobs"], ["Montale", "montale"], ["Nina Ricci", "nina-ricci"], ["Paloma Picasso", "paloma"], ["Philipp Plein", "philipp-plein"], ["S.T. Dupont", "s-t-dupont"], ["SAP", "sap"], ["Serge Lutens", "serge-lutens"], ["Shiseido", "shiseido"], ["Signature D'orient", "signature-dorient"], ["Swansura Selection", "swansura-selection"], ["The Woods Collection", "the-woods-collection"], ["Tiziana Terenzi", "tiziana-terenzi"], ["Tom Ford", "tom-ford"], ["Trussardi", "trussardi"], ["Viktor & Rolf", "viktor-rolf"], ["Vilvah", "vilvah"], ["Yves Saint Laurent", "yves-saint-laurent"]];
@@ -270,7 +274,8 @@
     const greet = () => { const h = new Date().getHours(); return h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening'; };
     async function start() {
       log.innerHTML = ''; bar.style.width = '0%'; resetBtn.hidden = true;
-      await bot(`<p><b>${greet()}, welcome to Swansura.</b> I can help you find the right product in a few taps. What are you shopping for today?</p>${chips(START.map(([f, l]) => [{ f }, l]))}<p class="as-note">Prefer a person? <button type="button" class="as-link" data-go="${go({ f: 'help', a: 'person' })}">Message our team</button></p>`);
+      const m = mem.get(), again = m && m.h ? (({ t, label, ...st }) => st)(m) : null;
+      await bot(`<p><b>${greet()}, welcome ${again ? 'back ' : ''}to Swansura.</b> I'm your Beauty Advisor. ${again ? `Last time you looked at <b>${esc(m.label || 'our picks')}</b>.` : 'I can help you find the right product in a few taps.'} What are you shopping for today?</p>${again ? chips([[again, 'Show those picks again']], ' keep') : ''}${chips(START.map(([f, l]) => [{ f }, l]))}<p class="as-note">Prefer a person? <button type="button" class="as-link" data-go="${go({ f: 'help', a: 'person' })}">Message our team</button></p><p class="as-note">${again ? 'I remember your last answers on this device only. <button type="button" class="as-link" data-asforget>Forget me</button>' : 'I remember your answers on this device only, so next time we can pick up where you left off.'}</p>`);
     }
     /* products of a collection (all pages), cached for the visit */
     const cache = {};
@@ -297,10 +302,22 @@
       const active = { s: st.s, f: st.f2, b: st.b };
       for (const k of ['s', 'f', 'b']) { if (pick.length) break; if (!active[k]) continue; const keep = tests.filter(t => t[0] !== k && !relaxed.includes(t[0])); relaxed.push(k); pick = avail.filter(x => keep.every(t => t[1](x))); }
       if (!pick.length) pick = data.list;
-      pick = [...pick.filter(x => x.k), ...pick.filter(x => !x.k)];
+      /* relevance (3 Nov 2026): name words that fit the answer first, single products before kits, combs/loofahs last;
+         sleep sprays and oils (Calm & sleep page) are not answers to a skin concern */
+      const REL = { 'concern-dandruff': [[/dandruff|scalp/, 3], [/neem|tea tree/, 2], [/shampoo|oil/, 1]], 'concern-hairfall': [[/hair ?fall|growth|strength/, 3], [/oil|shampoo/, 1]],
+        'hair-oil-for-dry-hair': [[/frizz|dry/, 3], [/serum|oil/, 1]], 'hair-oil': [[/\boil\b/, 1]], 'natural-shampoo': [[/shampoo/, 2]],
+        'concern-hydration': [[/hyaluronic|hydrat|moistur|hydro/, 3], [/cream|milk|gel|serum|lotion|butter/, 1]], 'concern-glow': [[/vitamin c|bright|glow|radian|lumin/, 3], [/serum|face/, 1]],
+        'concern-acne': [[/acne|charcoal|tea tree|oil control|clear skin|\bpore/, 3], [/face/, 1]], 'concern-calm': [[/sensitive|fragrance-free|\boat|aloe|calm|sooth/, 3], [/face|eye/, 1]],
+        'concern-sun': [[/spf|sunscreen/, 3]], 'concern-lips': [[/balm/, 1]] }[h];
+      const skin = st.f === 'skin', calmOut = x => skin && /pillow spray|sleep oil|good sleep|bath salts|bath & shower oil/i.test(x.n);
+      if (pick.some(x => !calmOut(x))) pick = pick.filter(x => !calmOut(x));
+      const score = x => { const n = x.n.toLowerCase(); let v = 0; for (const [re, w] of REL || []) if (re.test(n)) v += w;
+        if (/\bcombs?\b|loofah/.test(n)) v -= 4; if (/\bkit\b|\bcombo\b|\bset\b/.test(n)) v -= 1; if (skin && /body|bath|soap|foot|hand/.test(n)) v -= 1.5; if (x.k) v += .5; return v; };
+      pick = pick.map((x, i) => [x, score(x), i]).sort((a, b) => b[1] - a[1] || a[2] - b[2]).map(a => a[0]);
       const PERF = { 'perfume-for-women': 'perfume for her', 'perfume-for-men': 'perfume for him', 'unisex-perfume': 'unisex perfume', fragrance: 'perfume' };
       const what = st.f === 'brand' ? brandName(h) : PERF[h] ? [st.f2 && label('perfume', 'f', st.f2).toLowerCase(), PERF[h]].filter(Boolean).join(' ') : label(st.f, 'h', h).toLowerCase();
       const note = relaxed.length ? `<p class="as-note">Nothing matched every answer, so I widened the ${relaxed.map(k => ({ s: 'skin type', f: 'scent mood', b: 'budget' })[k]).join(' and ')}.</p>` : '';
+      if (st.f !== 'brand' && st.f !== 'help') mem.set({ f: st.f, h, s: st.s, b: st.b, f2: st.f2, label: what });
       const first = pick.slice(0, 4), more = pick.slice(4, 12);
       bar.style.width = '100%';
       const next = [[{ u: '/collections/' + h }, `See all ${data.count}`]];
@@ -315,7 +332,8 @@
       if (!s) return results(st);
       bar.style.width = Math.round(i / fl.steps.length * 100) + '%';
       const key = s.k === 'f' ? 'f2' : s.k;
-      await bot(`<span class="as-step">Step ${i + 1} of ${fl.steps.length}</span><p>${esc(s.q)}</p>${chips(s.o.map(([v, l]) => v.startsWith('@') ? [{ u: v.slice(1) }, l] : [{ ...st, step: undefined, [key]: v }, l]))}`);
+      const last = s.k === 's' ? mem.get()?.s : undefined, opts = last ? [...s.o.filter(o => o[0] === last).map(([v, l]) => [v, `${l} (last time)`]), ...s.o.filter(o => o[0] !== last)] : s.o;
+      await bot(`<span class="as-step">Step ${i + 1} of ${fl.steps.length}</span><p>${esc(s.q)}</p>${chips(opts.map(([v, l]) => v.startsWith('@') ? [{ u: v.slice(1) }, l] : [{ ...st, step: undefined, [key]: v }, l]))}`);
     }
     async function help(a) {
       bar.style.width = '0%';
@@ -362,6 +380,7 @@
       if (c) { if (c.disabled) return; const st = JSON.parse(c.dataset.go); if (!st.u) you(c.textContent.replace(/ →$/, '')); run(st); return; }
       if (e.target.closest('[data-asmore]')) { const m = e.target.closest('[data-asmore]'); m.previousElementSibling.hidden = false; m.remove(); save(); return; }
       if (e.target.closest('[data-asreset]')) { p.focus(); start(); return; }
+      if (e.target.closest('[data-asforget]')) { mem.clear(); p.focus(); start(); return; }
       if (e.target.closest('[data-chatclose]')) set(false);
     });
     p.addEventListener('click', e => { if (e.target.closest('.as-card a, .as-links a, .as-person')) save(); }, true);
