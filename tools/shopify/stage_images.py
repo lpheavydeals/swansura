@@ -36,8 +36,26 @@ def walk(o):
 
 def find_targets(names):
     want, found = set(names), {}
-    paths = sorted(glob.glob(PROJ + "/**/*.jsonl", recursive=True), key=os.path.getmtime)
+    paths = sorted(glob.glob(PROJ + "/**/*.jsonl", recursive=True) + glob.glob(PROJ + "/**/tool-results/*.txt", recursive=True),
+                   key=os.path.getmtime)
     for p in paths:
+        if p.endswith(".txt"):                 # large tool results saved to a file (whole file = the response)
+            try:
+                txt = open(p, errors="ignore").read()
+            except Exception:
+                continue
+            if "stagedUploadsCreate" in txt and any(n in txt for n in want):
+                try:
+                    d = json.loads(txt)
+                except Exception:
+                    d = None
+                for dd in ([d] if isinstance(d, dict) else []) + list(walk(d)):
+                    sc = (dd.get("data", dd) if isinstance(dd, dict) else {}).get("stagedUploadsCreate", {})
+                    for tg in (sc.get("stagedTargets") or []) if isinstance(sc, dict) else []:
+                        n = tg["resourceUrl"].rsplit("/", 1)[1]
+                        if n in want:
+                            found[n] = tg
+            continue
         try:
             lines = open(p, errors="ignore").readlines()
         except Exception:
