@@ -1,0 +1,1003 @@
+{
+ "fixes": [
+  {
+   "id": "gid://shopify/Product/16421453791619",
+   "before": {
+    "title": "Franck Olivier Eau de Passion Intense Men Eau de Toilette 75ml",
+    "handle": "franck-olivier-eau-de-passion-intense-men-eau-de-toilette-75ml",
+    "h1": "Franck Olivier Eau de Passion Intense Men Eau de Toilette",
+    "seo": {
+     "title": "Franck Olivier Eau de Passion Intense Men EDT | Swansura",
+     "description": "Buy Franck Olivier Eau de Passion Intense Men Eau de Toilette 75ml for £19.99 at Swansura UK. A woody men's eau de toilette. 100% authentic."
+    },
+    "descriptionHtml": "<p>Explore Franck Olivier Eau de Passion Intense Men Eau de Toilette (EDT) 75ml, a woody aromatic scent for men. The fragrance is shaped by an aromatic woody profile with a clean, confident character, giving it a balanced and wearable presence. Presented in 75ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Lemon, Mandarin, Mint</li><li>Heart Notes: Lavender, Geranium, Sage, Spices</li><li>Base Notes: Amber, Musk, Woods</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 75ml</li><li>Made for men</li><li>Brand: Franck Olivier</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421453791619",
+    "title": "Franck Olivier Eau de Passion Intense Men Eau de Parfum 75ml",
+    "handle": "franck-olivier-eau-de-passion-intense-men-eau-de-parfum-75ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Franck Olivier Eau de Passion Intense Men EDP | Swansura",
+     "description": "Buy Franck Olivier Eau de Passion Intense Men Eau de Parfum 75ml for £19.99 at Swansura UK. A woody men's eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Explore Franck Olivier Eau de Passion Intense Men Eau de Parfum (EDP) 75ml, a woody aromatic scent for men. The fragrance is shaped by an aromatic woody profile with a clean, confident character, giving it a balanced and wearable presence. Presented in 75ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Lemon, Mandarin, Mint</li><li>Heart Notes: Lavender, Geranium, Sage, Spices</li><li>Base Notes: Amber, Musk, Woods</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 75ml</li><li>Made for men</li><li>Brand: Franck Olivier</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Franck Olivier Eau de Passion Intense Men Eau de Parfum"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 634, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Lemon, Mandarin, Mint.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"franck-olivier-eau-de-parfum\", \"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\", \"franck-olivier-bamboo-america-deodorant-spray-250ml\", \"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421451137411",
+   "before": {
+    "title": "Guess Green Eau de Toilette 150ml",
+    "handle": "guess-green-eau-de-toilette-150ml",
+    "h1": "Guess Green Eau de Toilette",
+    "seo": {
+     "title": "Guess Green Eau de Toilette 150ml | Swansura UK",
+     "description": "Buy Guess Green Eau de Toilette 150ml for £29.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Guess Green Eau de Toilette (EDT) 150ml presents an aromatic woody profile with a clean, confident character in an Eau de Toilette (EDT) designed for men. Its refined, contemporary character suits both everyday wear and special occasions, with the 150ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Apple, Lavender, Bergamot</li><li>Heart Notes: Geranium, Sage, Jasmine</li><li>Base Notes: Cedarwood, Sandalwood, Musk</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 150ml</li><li>Made for men</li><li>Brand: Guess</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421451137411",
+    "title": "Guess Man Eau de Toilette 150ml",
+    "handle": "guess-man-eau-de-toilette-150ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Guess Man Eau de Toilette 150ml | Swansura UK",
+     "description": "Buy Guess Man Eau de Toilette 150ml for £29.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Guess Man Eau de Toilette (EDT) 150ml presents an aromatic woody profile with a clean, confident character in an Eau de Toilette (EDT) designed for men. Its refined, contemporary character suits both everyday wear and special occasions, with the 150ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Apple, Lavender, Bergamot</li><li>Heart Notes: Geranium, Sage, Jasmine</li><li>Base Notes: Cedarwood, Sandalwood, Musk</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 150ml</li><li>Made for men</li><li>Brand: Guess</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Guess Man Eau de Toilette"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 673, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Apple, Lavender, Bergamot.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml\", \"guess-1981-body-mist-250ml\", \"guess-1981-indigo-body-mist-250ml\", \"guess-1981-los-angeles-body-mist-250ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421452022147",
+   "before": {
+    "title": "Guess Miami Ribes Shimmer Body Mist 250ml",
+    "handle": "guess-miami-ribes-shimmer-body-mist-250ml",
+    "h1": "Guess Miami Ribes Shimmer Body Mist",
+    "seo": {
+     "title": "Guess Miami Ribes Shimmer Body Mist 250ml | Swansura UK",
+     "description": "Buy Guess Miami Ribes Shimmer Body Mist 250ml for £15.99 at Swansura UK. A floral women's body mist. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Guess Miami Ribes Shimmer Body Mist 250ml is a Body Mist created for women, with a bright floral-fruity profile with a feminine, easy-to-wear character. Its polished, versatile character makes the 250ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Red Currant, Pink Grapefruit, Raspberry</li><li>Heart Notes: Hibiscus, Rose Petals, Jasmine</li><li>Base Notes: Musk, Amber, Vanilla</li></ul><h3>Details</h3><ul><li>Body Mist, 250ml</li><li>Made for women</li><li>Brand: Guess</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421452022147",
+    "title": "Guess Miami Vibes Shimmer Body Mist 250ml",
+    "handle": "guess-miami-vibes-shimmer-body-mist-250ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Guess Miami Vibes Shimmer Body Mist 250ml | Swansura UK",
+     "description": "Buy Guess Miami Vibes Shimmer Body Mist 250ml for £15.99 at Swansura UK. A floral women's body mist. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Guess Miami Vibes Shimmer Body Mist 250ml is a Body Mist created for women, with a bright floral-fruity profile with a feminine, easy-to-wear character. Its polished, versatile character makes the 250ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Red Currant, Pink Grapefruit, Raspberry</li><li>Heart Notes: Hibiscus, Rose Petals, Jasmine</li><li>Base Notes: Musk, Amber, Vanilla</li></ul><h3>Details</h3><ul><li>Body Mist, 250ml</li><li>Made for women</li><li>Brand: Guess</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Guess Miami Vibes Shimmer Body Mist"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 680, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Red Currant, Pink Grapefruit, Raspberry.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Body Mist\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml\", \"guess-1981-body-mist-250ml\", \"guess-1981-indigo-body-mist-250ml\", \"guess-1981-los-angeles-body-mist-250ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421469749635",
+   "before": {
+    "title": "Mercedes-Benz le Eau de Parfum 120ml",
+    "handle": "mercedes-benz-le-eau-de-parfum-120ml",
+    "h1": "Mercedes-Benz le Eau de Parfum",
+    "seo": {
+     "title": "Mercedes-Benz le Eau de Parfum 120ml | Swansura UK",
+     "description": "Buy Mercedes-Benz le Eau de Parfum 120ml for £39.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Mercedes Benz le Eau de Parfum (EDP) 120ml is an Eau de Parfum (EDP) created for men, with an aromatic woody profile with a clean, confident character. Its polished, versatile character makes the 120ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Pink Pepper, Bergamot</li><li>Heart Notes: Violet Leaf, Saffron, Galbanum</li><li>Base Notes: Agarwood (Oud), Amber, Patchouli</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 120ml</li><li>Made for men</li><li>Brand: Mercedes-Benz</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421469749635",
+    "title": "Mercedes-Benz Le Parfum 120ml",
+    "handle": "mercedes-benz-le-parfum-120ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Mercedes-Benz Le Parfum 120ml | Swansura UK",
+     "description": "Buy Mercedes-Benz Le Parfum 120ml for £39.99 at Swansura UK. A woody men's parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Mercedes-Benz Le Parfum 120ml is a parfum created for men, with an aromatic woody profile with a clean, confident character. Its polished, versatile character makes the 120ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Pink Pepper, Bergamot</li><li>Heart Notes: Violet Leaf, Saffron, Galbanum</li><li>Base Notes: Agarwood (Oud), Amber, Patchouli</li></ul><h3>Details</h3><ul><li>Le Parfum, 120ml</li><li>Made for men</li><li>Brand: Mercedes-Benz</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Mercedes-Benz Le Parfum"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 746, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Pink Pepper, Bergamot.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Le Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-parfum-100ml\", \"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\", \"mercedes-benz-intense-eau-de-toilette-120ml\", \"mercedes-benz-man-private-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421471060355",
+   "before": {
+    "title": "Tous The Luminous Gold Eau de Toilette 50ml",
+    "handle": "tous-the-luminous-gold-eau-de-toilette-50ml",
+    "h1": "Tous The Luminous Gold Eau de Toilette",
+    "seo": {
+     "title": "Tous The Luminous Gold Eau de Toilette 50ml | Swansura UK",
+     "description": "Buy Tous The Luminous Gold Eau de Toilette 50ml for £26.99 at Swansura UK. A floral women's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Tous The Luminous Gold Eau de Toilette (EDT) 50ml presents a bright floral-fruity profile with a feminine, easy-to-wear character in an Eau de Toilette (EDT) designed for women. Its refined, contemporary character suits both everyday wear and special occasions, with the 50ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon, Pink Pepper</li><li>Heart Notes: Jasmine, Tuberose</li><li>Base Notes: Amber, Musk, Patchouli</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 50ml</li><li>Made for women</li><li>Brand: Tous</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421471060355",
+    "title": "Tous Touch The Luminous Gold Eau de Toilette 50ml",
+    "handle": "tous-touch-the-luminous-gold-eau-de-toilette-50ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Tous Touch The Luminous Gold EDT 50ml | Swansura UK",
+     "description": "Buy Tous Touch The Luminous Gold Eau de Toilette 50ml for £26.99 at Swansura UK. A floral women's eau de toilette. 100% authentic, free UK delivery over £40."
+    },
+    "descriptionHtml": "<p>Tous Touch The Luminous Gold Eau de Toilette (EDT) 50ml presents a bright floral-fruity profile with a feminine, easy-to-wear character in an Eau de Toilette (EDT) designed for women. Its refined, contemporary character suits both everyday wear and special occasions, with the 50ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon, Pink Pepper</li><li>Heart Notes: Jasmine, Tuberose</li><li>Base Notes: Amber, Musk, Patchouli</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 50ml</li><li>Made for women</li><li>Brand: Tous</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Tous Touch The Luminous Gold Eau de Toilette"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 751, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Lemon, Pink Pepper.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421466571139",
+   "before": {
+    "title": "Fun & Basics Be Fun Men Eau de Toilette 100ml",
+    "handle": "fun-basics-be-fun-men-eau-de-toilette-100ml",
+    "h1": "Fun & Basics Be Fun Men Eau de Toilette",
+    "seo": {
+     "title": "Fun & Basics Be Fun Men Eau de Toilette 100ml | Swansura UK",
+     "description": "Buy Fun & Basics Be Fun Men Eau de Toilette 100ml for £15.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Fun &amp; Basics Be Fun Men Eau de Toilette (EDT) 100ml, a woody aromatic scent for men. The fragrance is shaped by an aromatic woody profile with a clean, confident character, giving it a balanced and wearable presence. Presented in 100ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Myrtle</li><li>Heart Notes: Roasted Coffee Beans, Chocolate, Hazelnuts</li><li>Base Notes: Leather, Cedarwood</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 100ml</li><li>Made for men</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421466571139",
+    "title": "Fun & Basics Be Fun Man Eau de Toilette 100ml",
+    "handle": "fun-basics-be-fun-man-eau-de-toilette-100ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Fun & Basics Be Fun Man Eau de Toilette 100ml | Swansura UK",
+     "description": "Buy Fun & Basics Be Fun Man Eau de Toilette 100ml for £15.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Fun &amp; Basics Be Fun Man Eau de Toilette (EDT) 100ml, a woody aromatic scent for men. The fragrance is shaped by an aromatic woody profile with a clean, confident character, giving it a balanced and wearable presence. Presented in 100ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Myrtle</li><li>Heart Notes: Roasted Coffee Beans, Chocolate, Hazelnuts</li><li>Base Notes: Leather, Cedarwood</li></ul><h3>Details</h3><ul><li>Eau de Toilette, 100ml</li><li>Made for men</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Fun & Basics Be Fun Man Eau de Toilette"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 778, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Myrtle.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"fun-basics-be-fun-women-eau-de-toilette-100ml\", \"fun-basics-funtastic-man-eau-de-parfum-100ml\", \"fun-basics-funtastic-woman-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421466636675",
+   "before": {
+    "title": "Fun & Basics Funtastic Men Eau de Parfum 100ml",
+    "handle": "fun-basics-funtastic-men-eau-de-parfum-100ml",
+    "h1": "Fun & Basics Funtastic Men Eau de Parfum",
+    "seo": {
+     "title": "Fun & Basics Funtastic Men Eau de Parfum 100ml | Swansura UK",
+     "description": "Buy Fun & Basics Funtastic Men Eau de Parfum 100ml for £15.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Fun &amp; Basics Funtastic Men Eau de Parfum (EDP) 100ml is an Eau de Parfum (EDP) created for men, with an aromatic woody profile with a clean, confident character. Its polished, versatile character makes the 100ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Orange, Grapefruit, Bergamot</li><li>Heart Notes: Peach, Jasmine, Rose, Narcissus, Geranium</li><li>Base Notes: Musk, Patchouli, Sandalwood, Olibanum, Tonka Bean, Vanilla, Cloves</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml</li><li>Made for men</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421466636675",
+    "title": "Fun & Basics Funtastic Man Eau de Parfum 100ml",
+    "handle": "fun-basics-funtastic-man-eau-de-parfum-100ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Fun & Basics Funtastic Man Eau de Parfum 100ml | Swansura UK",
+     "description": "Buy Fun & Basics Funtastic Man Eau de Parfum 100ml for £15.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Fun &amp; Basics Funtastic Man Eau de Parfum (EDP) 100ml is an Eau de Parfum (EDP) created for men, with an aromatic woody profile with a clean, confident character. Its polished, versatile character makes the 100ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Orange, Grapefruit, Bergamot</li><li>Heart Notes: Peach, Jasmine, Rose, Narcissus, Geranium</li><li>Base Notes: Musk, Patchouli, Sandalwood, Olibanum, Tonka Bean, Vanilla, Cloves</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml</li><li>Made for men</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Fun & Basics Funtastic Man Eau de Parfum"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 780, \"f\": \"woody\", \"w\": \"Men\", \"n\": null, \"a\": [\"A woody fragrance: Orange, Grapefruit, Bergamot.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"fun-basics-be-fun-man-eau-de-toilette-100ml\", \"fun-basics-be-fun-women-eau-de-toilette-100ml\", \"fun-basics-funtastic-woman-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421466669443",
+   "before": {
+    "title": "Fun & Basics Funtastic Women Eau de Parfum 100ml",
+    "handle": "fun-basics-funtastic-women-eau-de-parfum-100ml",
+    "h1": "Fun & Basics Funtastic Women Eau de Parfum",
+    "seo": {
+     "title": "Fun & Basics Funtastic Women Eau de Parfum 100ml | Swansura",
+     "description": "Buy Fun & Basics Funtastic Women Eau de Parfum 100ml for £15.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Fun &amp; Basics Funtastic Women Eau de Parfum (EDP) 100ml, a floral fruity scent for women. The fragrance is shaped by a bright floral-fruity profile with a feminine, easy-to-wear character, giving it a balanced and wearable presence. Presented in 100ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon, Grapefruit, Pink Pepper, Bergamot, Mint</li><li>Heart Notes: Melon, Jasmine, Ginger, Nutmeg</li><li>Base Notes: Sandalwood, Patchouli, Cedarwood, Amber, Incense, Amberwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml</li><li>Made for women</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421466669443",
+    "title": "Fun & Basics Funtastic Woman Eau de Parfum 100ml",
+    "handle": "fun-basics-funtastic-woman-eau-de-parfum-100ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Fun & Basics Funtastic Woman Eau de Parfum 100ml | Swansura",
+     "description": "Buy Fun & Basics Funtastic Woman Eau de Parfum 100ml for £15.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Fun &amp; Basics Funtastic Woman Eau de Parfum (EDP) 100ml, a floral fruity scent for women. The fragrance is shaped by a bright floral-fruity profile with a feminine, easy-to-wear character, giving it a balanced and wearable presence. Presented in 100ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon, Grapefruit, Pink Pepper, Bergamot, Mint</li><li>Heart Notes: Melon, Jasmine, Ginger, Nutmeg</li><li>Base Notes: Sandalwood, Patchouli, Cedarwood, Amber, Incense, Amberwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml</li><li>Made for women</li><li>Brand: Fun &amp; Basics</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Fun & Basics Funtastic Woman Eau de Parfum"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 781, \"f\": \"floral\", \"w\": \"Women\", \"n\": null, \"a\": [\"A floral fragrance: Lemon, Grapefruit, Pink Pepper, Bergamot, Mint.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"fun-basics-be-fun-man-eau-de-toilette-100ml\", \"fun-basics-be-fun-women-eau-de-toilette-100ml\", \"fun-basics-funtastic-man-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421466702211",
+   "before": {
+    "title": "Natural By Woods Bloom 100 Eau de Parfum 5ml",
+    "handle": "natural-by-woods-bloom-100-eau-de-parfum-5ml",
+    "h1": "Natural By Woods Bloom 100 Eau de Parfum",
+    "seo": {
+     "title": "Natural By Woods Bloom 100 Eau de Parfum 5ml | Swansura UK",
+     "description": "Buy Natural By Woods Bloom 100 Eau de Parfum 5ml for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Natural By Woods Bloom 100 Eau de Parfum (EDP) 5ml presents a structured woody profile with smooth, refined depth in an Eau de Parfum (EDP) designed for all-gender wear. Its refined, contemporary character suits both everyday wear and special occasions, with the 5ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Lychee, Rhubarb, Bergamot, Nutmeg</li><li>Heart Notes: Turkish Rose, Lily of the Valley, Peony</li><li>Base Notes: Vanilla, Incense, White Musk, Cashmeran, Woods</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421466702211",
+    "title": "Natural By Woods Bloom Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Bloom EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Bloom Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Bloom is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Lychee, Rhubarb, Bergamot, Nutmeg</li><li>Heart Notes: Turkish Rose, Lily of the Valley, Peony</li><li>Base Notes: Vanilla, Incense, White Musk, Cashmeran, Woods</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Bloom Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 782, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Lychee, Rhubarb, Bergamot, Nutmeg.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ],
+    "collectionsToLeave": [
+     "gid://shopify/Collection/714071048579"
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421467488643",
+   "before": {
+    "title": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Dawn EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Dawn 100 + Atomizer Eau de Parfum (EDP) 5ml is an Eau de Parfum (EDP) created for all-gender wear, with a structured woody profile with smooth, refined depth. Its polished, versatile character makes the 5ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Pear</li><li>Heart Notes: Jasmine, Amber</li><li>Base Notes: Patchouli</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421467488643",
+    "title": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Dawn EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Dawn Eau de Parfum 100ml with a 5ml travel atomiser for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Dawn is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Pear</li><li>Heart Notes: Jasmine, Amber</li><li>Base Notes: Patchouli</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 783, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Pear.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421467521411",
+   "before": {
+    "title": "Natural By Woods Discovery Set None",
+    "handle": "natural-by-woods-discovery-set-none",
+    "h1": "Natural By Woods Discovery Set",
+    "seo": {
+     "title": "Natural By Woods Discovery Set | Swansura UK",
+     "description": "Buy Natural By Woods Discovery Set for £64.99 at Swansura UK. A woody unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Natural By Woods Discovery Set, a woody scent for all-gender wear. The fragrance is shaped by a structured woody profile with smooth, refined depth, giving it a balanced and wearable presence. Presented in a full-size format, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Varies by included Natural by Woods fragrances</li><li>Heart Notes: Varies by included fragrance</li><li>Base Notes: Varies by included fragrance</li></ul><h3>Details</h3><ul><li>Fragrance (type not specified)</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421467521411",
+    "title": "Natural By Woods Discovery Set",
+    "handle": "natural-by-woods-discovery-set",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Discovery Set | Swansura UK",
+     "description": "Buy the Natural By Woods Discovery Set for £64.99 at Swansura UK. Woody unisex fragrances to try. 100% authentic, free UK delivery over £40."
+    },
+    "descriptionHtml": "<p>Explore Natural By Woods Discovery Set, a woody scent for all-gender wear. The fragrance is shaped by a structured woody profile with smooth, refined depth, giving it a balanced and wearable presence. Message us on WhatsApp or Instagram for the sizes and scents in the set.</p><h3>Scent notes</h3><ul><li>Top Notes: Varies by included Natural by Woods fragrances</li><li>Heart Notes: Varies by included fragrance</li><li>Base Notes: Varies by included fragrance</li></ul><h3>Details</h3><ul><li>Discovery set</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Discovery Set"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 784, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Varies by included Natural by Woods fragrances.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Fragrance\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421467586947",
+   "before": {
+    "title": "Natural By Woods Dusk 100 Eau de Parfum 5ml",
+    "handle": "natural-by-woods-dusk-100-eau-de-parfum-5ml",
+    "h1": "Natural By Woods Dusk 100 Eau de Parfum",
+    "seo": {
+     "title": "Natural By Woods Dusk 100 Eau de Parfum 5ml | Swansura UK",
+     "description": "Buy Natural By Woods Dusk 100 Eau de Parfum 5ml for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Natural By Woods Dusk 100 Eau de Parfum (EDP) 5ml presents a structured woody profile with smooth, refined depth in an Eau de Parfum (EDP) designed for all-gender wear. Its refined, contemporary character suits both everyday wear and special occasions, with the 5ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Pink Pepper</li><li>Heart Notes: Patchouli, Cedarwood</li><li>Base Notes: Amber, Vetiver, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421467586947",
+    "title": "Natural By Woods Dusk Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Dusk EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Dusk Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Dusk is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Pink Pepper</li><li>Heart Notes: Patchouli, Cedarwood</li><li>Base Notes: Amber, Vetiver, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Dusk Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 785, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Pink Pepper.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ],
+    "collectionsToLeave": [
+     "gid://shopify/Collection/714071048579"
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421467619715",
+   "before": {
+    "title": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Earth Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Earth EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Earth 100 + Atomizer Eau de Parfum (EDP) 5ml is an Eau de Parfum (EDP) created for all-gender wear, with a structured woody profile with smooth, refined depth. Its polished, versatile character makes the 5ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Pink Pepper, Cardamom</li><li>Heart Notes: Patchouli, Cedarwood, Vetiver</li><li>Base Notes: Amber, Sandalwood, Oakmoss, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421467619715",
+    "title": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Earth EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Earth Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Earth is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Pink Pepper, Cardamom</li><li>Heart Notes: Patchouli, Cedarwood, Vetiver</li><li>Base Notes: Amber, Sandalwood, Oakmoss, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Earth Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 786, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Pink Pepper, Cardamom.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421467652483",
+   "before": {
+    "title": "Natural By Woods Eclipse Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-eclipse-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Eclipse Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Eclipse EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Eclipse Eau de Parfum with Travel Atomiser 100ml + 5ml for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Explore Natural By Woods Eclipse Eau de Parfum (EDP) 100ml + 5ml, a woody scent for all-gender wear. The fragrance is shaped by a structured woody profile with smooth, refined depth, giving it a balanced and wearable presence. Presented in 100ml + 5ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Amber</li><li>Heart Notes: Woody Notes</li><li>Base Notes: Musk, Amber, Woody Notes</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421467652483",
+    "title": "Natural By Woods Eclipse Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-eclipse-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Eclipse EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Eclipse Eau de Parfum 100ml with a 5ml travel atomiser for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Eclipse is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Amber</li><li>Heart Notes: Woody Notes</li><li>Base Notes: Musk, Amber, Woody Notes</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Eclipse Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 787, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Amber.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421468897667",
+   "before": {
+    "title": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Essence Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Essence EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Essence 100 + Atomizer Eau de Parfum (EDP) 5ml presents a structured woody profile with smooth, refined depth in an Eau de Parfum (EDP) designed for all-gender wear. Its refined, contemporary character suits both everyday wear and special occasions, with the 5ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Cardamom, Saffron, Cypress</li><li>Heart Notes: Jasmine, Nutmeg, Bulgarian Rose</li><li>Base Notes: Tonka Bean, Vanilla, Oud, Sandalwood, Amber, Leather, Musk, Cedarwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421468897667",
+    "title": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Essence EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Essence Eau de Parfum 100ml with a 5ml travel atomiser for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Essence is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Cardamom, Saffron, Cypress</li><li>Heart Notes: Jasmine, Nutmeg, Bulgarian Rose</li><li>Base Notes: Tonka Bean, Vanilla, Oud, Sandalwood, Amber, Leather, Musk, Cedarwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Essence Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 788, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Cardamom, Saffron, Cypress.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421468930435",
+   "before": {
+    "title": "Natural By Woods Flame 100 Fragrance 15ml",
+    "handle": "natural-by-woods-flame-100-fragrance-15ml",
+    "h1": "Natural By Woods Flame 100 Fragrance",
+    "seo": {
+     "title": "Natural By Woods Flame 100 Fragrance 15ml | Swansura UK",
+     "description": "Buy Natural By Woods Flame 100 Fragrance 15ml for £42.99 at Swansura UK. A woody unisex fragrance. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Natural By Woods Flame 100 15ml is a fragrance created for all-gender wear, with a structured woody profile with smooth, refined depth. Its polished, versatile character makes the 15ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon Zest, Bitter Orange Blossom</li><li>Heart Notes: Spices, Amber</li><li>Base Notes: Amber, Woods, Musk</li></ul><h3>Details</h3><ul><li>Fragrance (type not specified), 15ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421468930435",
+    "title": "Natural By Woods Flame Eau de Parfum with Travel Atomiser 100ml + 15ml",
+    "handle": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Flame EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Flame Eau de Parfum 100ml with a 15ml travel atomiser for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Flame is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 15ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Lemon Zest, Bitter Orange Blossom</li><li>Heart Notes: Spices, Amber</li><li>Base Notes: Amber, Woods, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 15ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Flame Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 789, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Lemon Zest, Bitter Orange Blossom.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ],
+    "collectionsToLeave": [
+     "gid://shopify/Collection/714071048579"
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421468995971",
+   "before": {
+    "title": "Natural By Woods Glow Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-glow-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Glow Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Glow EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Glow Eau de Parfum with Travel Atomiser 100ml + 5ml for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Explore Natural By Woods Glow 100 + Atomizer Eau de Parfum (EDP) 5ml, a woody scent for all-gender wear. The fragrance is shaped by a structured woody profile with smooth, refined depth, giving it a balanced and wearable presence. Presented in 5ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Saffron, Juniper Berry, Pomelo</li><li>Heart Notes: Rose, Leather, Violet</li><li>Base Notes: Vetiver, Raspberry, Cashmeran</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421468995971",
+    "title": "Natural By Woods Glow Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-glow-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Glow EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Glow Eau de Parfum 100ml with a 5ml travel atomiser for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Glow is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Saffron, Juniper Berry, Pomelo</li><li>Heart Notes: Rose, Leather, Violet</li><li>Base Notes: Vetiver, Raspberry, Cashmeran</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Glow Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 790, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Saffron, Juniper Berry, Pomelo.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421469061507",
+   "before": {
+    "title": "Natural By Woods Karma Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-karma-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Karma Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Karma EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Karma Eau de Parfum with Travel Atomiser 100ml + 5ml for £43.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Karma + Atomizer Eau de Parfum (EDP) 100ml + 5ml presents a structured woody profile with smooth, refined depth in an Eau de Parfum (EDP) designed for all-gender wear. Its refined, contemporary character suits both everyday wear and special occasions, with the 100ml + 5ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Not publicly specified</li><li>Heart Notes: Not publicly specified</li><li>Base Notes: Not publicly specified</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421469061507",
+    "title": "Natural By Woods Karma Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-karma-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Karma EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Karma Eau de Parfum 100ml with a 5ml travel atomiser for £43.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Karma is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Not publicly specified</li><li>Heart Notes: Not publicly specified</li><li>Base Notes: Not publicly specified</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Karma Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 791, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Not publicly specified.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421469094275",
+   "before": {
+    "title": "Natural By Woods North Star 100 Eau de Parfum 5ml",
+    "handle": "natural-by-woods-north-star-100-eau-de-parfum-5ml",
+    "h1": "Natural By Woods North Star 100 Eau de Parfum",
+    "seo": {
+     "title": "Natural By Woods North Star 100 Eau de Parfum 5ml | Swansura",
+     "description": "Buy Natural By Woods North Star 100 Eau de Parfum 5ml for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Natural By Woods North Star 100 Eau de Parfum (EDP) 5ml is an Eau de Parfum (EDP) created for all-gender wear, with a structured woody profile with smooth, refined depth. Its polished, versatile character makes the 5ml format suitable for regular wear, gifting or fragrance collections.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Lemon, Grapefruit, Vetiver, Pink Pepper, Marine Accord</li><li>Heart Notes: Grapefruit, Cedarwood, Labdanum, Nutmeg, Ginger, Jasmine</li><li>Base Notes: Frankincense, Ginger, New Caledonian Sandalwood, Amberwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421469094275",
+    "title": "Natural By Woods North Star Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods North Star EDP 100ml + 5ml | Swansura",
+     "description": "Buy Natural By Woods North Star Eau de Parfum 100ml with a 5ml travel atomiser for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods North Star is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Bergamot, Lemon, Grapefruit, Vetiver, Pink Pepper, Marine Accord</li><li>Heart Notes: Grapefruit, Cedarwood, Labdanum, Nutmeg, Ginger, Jasmine</li><li>Base Notes: Frankincense, Ginger, New Caledonian Sandalwood, Amberwood</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods North Star Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 792, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Bergamot, Lemon, Grapefruit, Vetiver, Pink Pepper, Marine Accord.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ],
+    "collectionsToLeave": [
+     "gid://shopify/Collection/714071048579"
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421469782403",
+   "before": {
+    "title": "Natural By Woods Royal Night 100 Eau de Parfum 5ml",
+    "handle": "natural-by-woods-royal-night-100-eau-de-parfum-5ml",
+    "h1": "Natural By Woods Royal Night 100 Eau de Parfum",
+    "seo": {
+     "title": "Natural By Woods Royal Night 100 EDP 5ml | Swansura",
+     "description": "Buy Natural By Woods Royal Night 100 Eau de Parfum 5ml for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+    },
+    "descriptionHtml": "<p>Explore Natural By Woods Royal Night 100 Eau de Parfum (EDP) 5ml, a woody scent for all-gender wear. The fragrance is shaped by a structured woody profile with smooth, refined depth, giving it a balanced and wearable presence. Presented in 5ml, it works well for daily use or gifting.</p><h3>Scent notes</h3><ul><li>Top Notes: Saffron, Cardamom</li><li>Heart Notes: Rose, Oud</li><li>Base Notes: Amber, Sandalwood, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421469782403",
+    "title": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Royal Night EDP 100ml + 5ml | Swansura",
+     "description": "Buy Natural By Woods Royal Night Eau de Parfum 100ml with a 5ml travel atomiser for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Royal Night is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Saffron, Cardamom</li><li>Heart Notes: Rose, Oud</li><li>Base Notes: Amber, Sandalwood, Musk</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 793, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Saffron, Cardamom.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ],
+    "collectionsToLeave": [
+     "gid://shopify/Collection/714071048579"
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16421469815171",
+   "before": {
+    "title": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "h1": "Natural By Woods Sun Eau de Parfum with Travel Atomiser",
+    "seo": {
+     "title": "Natural By Woods Sun EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml for £38.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Sun 100 + Atomizer Eau de Parfum (EDP) 5ml presents a structured woody profile with smooth, refined depth in an Eau de Parfum (EDP) designed for all-gender wear. Its refined, contemporary character suits both everyday wear and special occasions, with the 5ml presentation adding practical appeal.</p><h3>Scent notes</h3><ul><li>Top Notes: Citrus, Orange, Ginger</li><li>Heart Notes: Cedarwood, Olibanum, Rose</li><li>Base Notes: Amber, Fresh Spices, Vanilla</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml + 5ml</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>"
+   },
+   "input": {
+    "id": "gid://shopify/Product/16421469815171",
+    "title": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "handle": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+    "redirectNewHandle": true,
+    "seo": {
+     "title": "Natural By Woods Sun EDP with Travel Atomiser | Swansura",
+     "description": "Buy Natural By Woods Sun Eau de Parfum 100ml with a 5ml travel atomiser for £38.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic."
+    },
+    "descriptionHtml": "<p>Natural By Woods Sun is an Eau de Parfum (EDP) for all-gender wear, with a structured woody profile and smooth, refined depth. It comes as a 100ml bottle with a 5ml travel atomiser, so you can keep a little with you during the day.</p><h3>Scent notes</h3><ul><li>Top Notes: Citrus, Orange, Ginger</li><li>Heart Notes: Cedarwood, Olibanum, Rose</li><li>Base Notes: Amber, Fresh Spices, Vanilla</li></ul><h3>Details</h3><ul><li>Eau de Parfum, 100ml bottle + 5ml travel atomiser</li><li>Unisex: for men and women</li><li>Brand: Natural By Woods</li><li>100% authentic, dispatched from the UK</li></ul>",
+    "metafields": [
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "Natural By Woods Sun Eau de Parfum with Travel Atomiser"
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 794, \"f\": \"woody\", \"w\": \"Unisex\", \"n\": null, \"a\": [\"A woody fragrance: Citrus, Orange, Ginger.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml\", \"natural-by-woods-discovery-set\", \"natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   }
+  }
+ ],
+ "handle_map": {
+  "franck-olivier-eau-de-passion-intense-men-eau-de-toilette-75ml": "franck-olivier-eau-de-passion-intense-men-eau-de-parfum-75ml",
+  "guess-green-eau-de-toilette-150ml": "guess-man-eau-de-toilette-150ml",
+  "guess-miami-ribes-shimmer-body-mist-250ml": "guess-miami-vibes-shimmer-body-mist-250ml",
+  "mercedes-benz-le-eau-de-parfum-120ml": "mercedes-benz-le-parfum-120ml",
+  "tous-the-luminous-gold-eau-de-toilette-50ml": "tous-touch-the-luminous-gold-eau-de-toilette-50ml",
+  "fun-basics-be-fun-men-eau-de-toilette-100ml": "fun-basics-be-fun-man-eau-de-toilette-100ml",
+  "fun-basics-funtastic-men-eau-de-parfum-100ml": "fun-basics-funtastic-man-eau-de-parfum-100ml",
+  "fun-basics-funtastic-women-eau-de-parfum-100ml": "fun-basics-funtastic-woman-eau-de-parfum-100ml",
+  "natural-by-woods-bloom-100-eau-de-parfum-5ml": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+  "natural-by-woods-discovery-set-none": "natural-by-woods-discovery-set",
+  "natural-by-woods-dusk-100-eau-de-parfum-5ml": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+  "natural-by-woods-flame-100-fragrance-15ml": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml",
+  "natural-by-woods-north-star-100-eau-de-parfum-5ml": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+  "natural-by-woods-royal-night-100-eau-de-parfum-5ml": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml"
+ },
+ "sim_metafields": [
+  {
+   "ownerId": "gid://shopify/Product/16421469651331",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\", \"mercedes-benz-intense-eau-de-toilette-120ml\", \"mercedes-benz-le-parfum-120ml\", \"mercedes-benz-man-private-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "ownerId": "gid://shopify/Product/16421469684099",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-parfum-100ml\", \"mercedes-benz-intense-eau-de-toilette-120ml\", \"mercedes-benz-le-parfum-120ml\", \"mercedes-benz-man-private-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "ownerId": "gid://shopify/Product/16421469716867",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-parfum-100ml\", \"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\", \"mercedes-benz-le-parfum-120ml\", \"mercedes-benz-man-private-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "ownerId": "gid://shopify/Product/16421470929283",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-parfum-100ml\", \"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\", \"mercedes-benz-intense-eau-de-toilette-120ml\", \"mercedes-benz-le-parfum-120ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "ownerId": "gid://shopify/Product/16421470962051",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Woody family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mercedes-benz-club-black-eau-de-parfum-100ml\", \"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\", \"mercedes-benz-intense-eau-de-toilette-120ml\", \"mercedes-benz-le-parfum-120ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "ownerId": "gid://shopify/Product/16421466603907",
+   "namespace": "custom",
+   "key": "pdp",
+   "type": "json",
+   "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"fun-basics-be-fun-man-eau-de-toilette-100ml\", \"fun-basics-funtastic-man-eau-de-parfum-100ml\", \"fun-basics-funtastic-woman-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+  }
+ ]
+}
