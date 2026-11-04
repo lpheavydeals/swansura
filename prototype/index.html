@@ -609,10 +609,96 @@ main#app{min-height:100vh;min-height:100svh}
 body:has(.stickybar.show) .chatbtn{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .chatpanel{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(76px + env(safe-area-inset-bottom,0px));z-index:46;width:min(340px,calc(100vw - 32px));background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.18);padding:18px;display:flex;flex-direction:column;gap:12px}
 .chatpanel[hidden]{display:none!important}
-.cp-head{display:flex;justify-content:space-between;align-items:center;font-size:16px}.cp-head button{font-size:22px;line-height:1;width:32px;height:32px}
-.chatpanel p{font-size:13px;color:var(--ink-2)}
-.cp-opt{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;padding:12px 14px}.cp-opt:hover{border-color:var(--emerald)}.cp-opt small{color:var(--ink-2)}
-.cp-q{display:flex;flex-direction:column;gap:2px}.cp-q a{padding:6px 0;min-height:24px;text-decoration:underline;font-size:14px}
+/* Beauty Advisor (same as the live theme, 3–4 Nov 2026) */
+.chatbtn{gap:9px;padding:12px 18px 12px 15px;background:linear-gradient(135deg,#EACB8E 0%,#D2A35A 50%,#C4924A 100%);color:#0F2E25;border:1px solid rgba(255,255,255,.55);box-shadow:0 8px 24px rgba(140,98,38,.38),inset 0 1px 0 rgba(255,255,255,.45);letter-spacing:.01em;font-weight:700;transition:transform .15s,box-shadow .15s}
+.chatbtn svg{color:#0F2E25}
+.chatbtn:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(140,98,38,.46),inset 0 1px 0 rgba(255,255,255,.45)}
+.chatbtn:focus-visible{outline:2px solid var(--emerald);outline-offset:3px}
+.chatpanel.asst{width:min(400px,calc(100vw - 32px));height:min(600px,calc(100vh - 112px));height:min(600px,calc(100dvh - 112px));padding:0;gap:0;overflow:hidden;border:0;border-radius:16px;box-shadow:0 24px 60px rgba(19,26,23,.26),0 0 0 1px rgba(31,26,23,.06);outline:none;transform-origin:100% 100%;animation:asin .22s cubic-bezier(.2,.8,.2,1)}
+@keyframes asin{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+.asst .as-head{position:relative;display:flex;align-items:center;gap:12px;padding:16px 12px 16px 18px;background:var(--silk,var(--emerald));color:var(--on-dark);flex:none}
+.asst .as-head::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--gold-line,var(--brass))}
+.asst .as-av{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(233,203,142,.55);color:#E9CB8E}
+.asst .as-t{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+.asst .as-t b{font-size:16px;font-weight:700;letter-spacing:.01em}
+.asst .as-t small{font-size:12px;color:var(--on-dark-2);display:flex;align-items:center;gap:6px}
+.asst .as-t small::before{content:"";width:7px;height:7px;border-radius:50%;background:#7FD1A8;box-shadow:0 0 0 3px rgba(127,209,168,.18)}
+.asst .as-ic{flex:none;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;color:var(--on-dark);transition:background .15s}
+.asst .as-ic:hover{background:rgba(255,255,255,.12)}
+.asst .as-ic:focus-visible{outline:2px solid #E9CB8E;outline-offset:1px}
+.asst .as-bar{position:absolute;left:0;right:0;bottom:0;height:3px;z-index:1;background:transparent}
+.asst .as-bar i{display:block;height:100%;width:0;background:var(--gold-fill,var(--brass));transition:width .35s ease}
+.asst .as-log{position:relative;flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:18px 16px 8px;display:flex;flex-direction:column;gap:12px;background:linear-gradient(#fff,#FBF9F6);scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.asst .as-msg{max-width:100%;display:flex;flex-direction:column;gap:10px;animation:asmsg .25s ease-out}
+@keyframes asmsg{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.asst .as-msg.bot{align-self:flex-start;width:100%}
+.asst .as-msg.bot>p:not(.as-note):not(.as-links),.asst .as-msg.bot>.as-bub{align-self:flex-start;max-width:92%;background:var(--mount);border:1px solid #EDE5D9;border-radius:4px 14px 14px 14px;padding:11px 14px;font-size:14px;line-height:1.5;color:var(--ink)}
+.asst .as-msg.bot ul{margin:6px 0;padding-left:18px;list-style:disc}
+.asst .as-msg.bot li{margin:2px 0}
+.asst .as-msg.you{align-self:flex-end;max-width:85%}
+.asst .as-msg.you p{background:var(--emerald);color:#fff;border-radius:14px 4px 14px 14px;padding:10px 14px;font-size:14px;line-height:1.45}
+.asst .as-step{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-ink)}
+.asst .as-typing p{display:flex;gap:4px;padding:14px!important}
+.asst .as-typing i{width:6px;height:6px;border-radius:50%;background:var(--brass);opacity:.35;animation:asdot 1s infinite}
+.asst .as-typing i:nth-child(2){animation-delay:.15s}.asst .as-typing i:nth-child(3){animation-delay:.3s}
+@keyframes asdot{0%,80%,100%{opacity:.3;transform:none}40%{opacity:1;transform:translateY(-3px)}}
+.asst .as-chips{display:flex;flex-wrap:wrap;gap:8px}
+.asst .as-chip{min-height:36px;padding:7px 14px;border:1px solid #D9C6A5;border-radius:999px;background:#fff;color:var(--emerald-2);font-size:13.5px;font-weight:600;line-height:1.25;text-align:left;transition:background .15s,border-color .15s,color .15s,transform .15s}
+@media (hover:hover){.asst .as-chip:hover:not([disabled]){background:var(--emerald);border-color:var(--emerald);color:#fff}}
+.asst .as-chip:active:not([disabled]){transform:scale(.97)}
+.asst .as-chip:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.asst .as-chip[disabled]{opacity:.45;cursor:default}
+.asst .as-note{font-size:12.5px;color:var(--ink-2);line-height:1.45}
+.asst .as-link{font:inherit;color:var(--emerald);font-weight:600;text-decoration:underline;text-underline-offset:2px;padding:4px 0;min-height:24px}
+.asst .as-links{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13.5px}
+.asst .as-links a{color:var(--emerald);font-weight:600;padding:3px 0;min-height:24px}
+.asst .as-cards{display:flex;flex-direction:column;gap:8px}
+.asst .as-cards[hidden]{display:none}
+.asst .as-card{display:grid;grid-template-columns:56px minmax(0,1fr) auto;align-items:center;gap:12px;padding:8px 10px 8px 8px;background:#fff;border:1px solid var(--line);border-radius:12px;transition:border-color .15s,box-shadow .15s}
+.asst .as-card:hover{border-color:#D9C6A5;box-shadow:0 4px 14px rgba(31,26,23,.06)}
+.asst .as-pic{display:block;width:56px;height:70px;border-radius:8px;background:var(--mount);overflow:hidden}
+.asst .as-pic img{width:100%;height:100%;object-fit:contain;padding:5px;mix-blend-mode:multiply}
+.asst .as-ct{display:flex;flex-direction:column;gap:2px;min-width:0}
+.asst .as-ct small{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brass-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.asst .as-ct a{font-size:13.5px;font-weight:600;line-height:1.3;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.asst .as-ct a:hover{color:var(--emerald)}
+.asst .as-pr{font-size:13.5px;font-weight:700;color:var(--emerald-2)}
+.asst .as-pr s{font-weight:500;color:var(--ink-2);margin-left:4px}
+.asst .as-add{min-height:34px;padding:0 14px;border-radius:999px;background:var(--emerald);color:#fff;font-size:12.5px;font-weight:700;letter-spacing:.04em;display:inline-flex;align-items:center}
+.asst .as-add:hover{background:var(--emerald-2)}
+.asst .as-add.out{background:none;color:var(--ink-2);border:1px solid var(--line);font-weight:600}
+.asst .as-more{align-self:flex-start;font-size:13px;font-weight:600;color:var(--emerald);text-decoration:underline;text-underline-offset:2px;min-height:28px}
+.asst .as-people{display:grid;gap:8px}
+.asst .as-person{display:flex;flex-direction:column;gap:1px;padding:12px 14px 12px 50px;position:relative;border:1px solid var(--line);border-radius:12px;background:#fff;transition:border-color .15s}
+.asst .as-person:hover{border-color:var(--emerald)}
+.asst .as-person::before{content:"";position:absolute;left:14px;top:50%;width:24px;height:24px;margin-top:-12px;border-radius:50%;background:var(--emerald) center/14px no-repeat}
+.asst .as-person.wa::before{background-color:#1F8F5A;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2'%3E%3Cpath d='M21 12a9 9 0 0 1-13.4 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12Z'/%3E%3C/svg%3E")}
+.asst .as-person.ig::before{background-color:#9C4A6B;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2'%3E%3Crect x='4' y='4' width='16' height='16' rx='5'/%3E%3Ccircle cx='12' cy='12' r='3.6'/%3E%3C/svg%3E")}
+.asst .as-person.em::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='m3 7 9 6 9-6'/%3E%3C/svg%3E")}
+.asst .as-person b{font-size:14px}
+.asst .as-person small{font-size:12.5px;color:var(--ink-2)}
+.asst .as-foot{flex:none;display:flex;align-items:center;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);background:#fff}
+.asst .as-foot input{flex:1;min-width:0;height:42px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--mount);font:inherit;font-size:16px;color:var(--ink)}
+.asst .as-foot input::placeholder{color:#8A7F74;font-size:14px}
+.asst .as-foot input:focus{outline:none;border-color:var(--brass);background:#fff;box-shadow:0 0 0 3px rgba(181,132,58,.15)}
+.asst .as-foot input::-webkit-search-cancel-button{display:none}
+.asst .as-foot button{flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--emerald);color:#fff}
+.asst .as-foot button:hover{background:var(--emerald-2)}
+.asst .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.as-scrim{display:none}
+@media (max-width:600px){
+.chatbtn{padding:0}
+.chatpanel.asst{left:0;right:0;bottom:0;width:100%;height:88vh;height:88dvh;max-height:none;border-radius:18px 18px 0 0;z-index:58;animation:assheet .28s cubic-bezier(.2,.8,.2,1)}
+.asst .as-head{padding-top:20px}
+.asst .as-head::before{content:"";position:absolute;top:7px;left:50%;width:36px;height:4px;margin-left:-18px;border-radius:2px;background:rgba(255,255,255,.3)}
+@keyframes assheet{from{transform:translateY(100%)}to{transform:none}}
+html.as-open .as-scrim{display:block;position:fixed;inset:0;z-index:57;background:rgba(19,26,23,.45);animation:asfade .2s}
+@keyframes asfade{from{opacity:0}}
+html.as-open,html.as-open body{overflow:hidden}
+html.as-open .chatbtn{display:none}
+}
+@media (prefers-reduced-motion:reduce){.chatpanel.asst,.asst .as-msg,.as-scrim{animation:none!important}.asst .as-bar i{transition:none}}
+.asst .as-pic .pic{height:100%;aspect-ratio:auto;background-color:transparent;mix-blend-mode:multiply}
 .seocopy{border-top:1px solid var(--line);padding-block:56px}
 .smgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:36px 32px;padding-block:24px 48px}
 .smcol{padding:0;display:flex;flex-direction:column;gap:2px}
@@ -882,12 +968,21 @@ footer.site{background:linear-gradient(180deg,rgba(3,22,16,.35),rgba(3,22,16,.75
 <footer class="site" id="footer"></footer>
 <div class="stickybar" id="stickybar" role="region" aria-label="Quick add to bag"></div>
 <button class="chatbtn" id="chatBtn" aria-expanded="false" aria-controls="chatPanel"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.57 12 20l-7.5-7.43A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.57"/><path d="M12 6 8.7 9.3a1 1 0 0 0 0 1.4l.55.55c.69.69 1.8.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"/><path d="m12.5 15.5 2 2M15 13l2 2"/></svg><span>Choose What's Right for Your Skin</span></button>
-<div class="chatpanel" id="chatPanel" role="dialog" aria-label="Choose What's Right for Your Skin" hidden>
-  <div class="cp-head"><b>Hi, how can we help?</b><button data-chatclose aria-label="Close help">×</button></div>
-  <p>We usually reply within a few hours, Monday to Friday.</p>
-  <a class="cp-opt" href="https://ig.me/m/swansura_thebodystudio" target="_blank" rel="noopener"><b>Message us on Instagram</b><small>@swansura_thebodystudio</small></a>
-  <a class="cp-opt" href="#page-contact" data-chatclose><b>WhatsApp or email</b><small>Number and address on our contact page</small></a>
-  <div class="cp-q"><span class="eyebrow">Quick answers</span><a href="#page-delivery" data-chatclose>Delivery and returns</a><a href="#offers" data-chatclose>Offers and discount codes</a><a href="#page-faq" data-chatclose>Is everything authentic?</a><a href="#k-perfume-gift-sets" data-chatclose>Help me choose a gift</a></div>
+<div class="as-scrim" aria-hidden="true"></div>
+<div class="chatpanel asst" id="chatPanel" tabindex="-1" role="dialog" aria-labelledby="asstTitle" hidden>
+  <div class="as-head">
+    <span class="as-av" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12.57 12 20l-7.5-7.43A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.57"></path><path d="M12 6 8.7 9.3a1 1 0 0 0 0 1.4l.55.55c.69.69 1.8.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"></path><path d="m12.5 15.5 2 2M15 13l2 2"></path></svg></span>
+    <div class="as-t"><b id="asstTitle">Choose What's Right for Your Skin</b><small>Your Swansura Beauty Advisor</small></div>
+    <button class="as-ic" data-asreset aria-label="Start over" title="Start over" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6M4 4v4h4"></path></svg></button>
+    <button class="as-ic" data-chatclose aria-label="Close" title="Close"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+    <i class="as-bar" aria-hidden="true"><i></i></i>
+  </div>
+  <div class="as-log" id="asLog" aria-live="polite"></div>
+  <form class="as-foot" id="asForm" role="search">
+    <label class="vh" for="asQ">Ask for a product, brand or concern</label>
+    <input id="asQ" type="search" autocomplete="off" enterkeyhint="send" placeholder="Try 'dry skin', 'oud' or 'Vilvah'" maxlength="80">
+    <button type="submit" aria-label="Send"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button>
+  </form>
 </div>
 <div id="layer"></div>
 
@@ -1522,7 +1617,7 @@ let current = [];
 function listing(kind, key){
   let title, intro, eyebrow, list, dark = '', faq = [], crumbs = [['Home','#home']], ctxBrands = true;
   if (kind === 'c'){ const c = CATS[key]; if(!c) return notFound(); title = c.name; intro = c.intro; eyebrow = key==='all'?'The full catalogue':c.world==='skin'?'The Skin Studio':'The Scent Studio'; list = P.filter(p=>inCat(p,key)); faq = c.faq; dark = c.world==='scent'?'oud':''; crumbs.push([title]); }
-  if (kind === 'concern'){ const c = CONCERNS[key]; if(!c) return notFound(); title = c[0]; intro = `Products chosen for ${c[1].toLowerCase()}, from Deyga, Vilvah, Highborn London and more.`; eyebrow = 'Shop by concern'; list = P.filter(p=>p.cat!=='fragrance' && p.tags.includes(key)); crumbs.push(['Skincare','#c-skincare'],[title]); }
+  if (kind === 'concern'){ const c = CONCERNS[key]; if(!c) return notFound(); title = c[0]; intro = `Products chosen for ${c[1].toLowerCase()}, from Deyga, Vilvah, Highborn London and more.`; eyebrow = 'Shop by concern'; list = CARE_RULE['concern-'+key] ? ruleList('concern-'+key) : P.filter(p=>p.cat!=='fragrance' && p.tags.includes(key)); crumbs.push(['Skincare','#c-skincare'],[title]); }
   if (kind === 'price'){ const b = PRICE_BANDS.find(x=>x[0]===key); if(!b) return notFound(); title = b[1]; intro = `${b[2]}. Natural skincare, body care and fragrance ${b[1].startsWith('Under')?b[1].toLowerCase():'at '+b[1]}, 100% authentic and shipped from the UK.`; eyebrow = 'Shop by price'; list = P.filter(p=>inBand(p,key)); crumbs.push(['Shop by price','#home'],[title]); }
   if (kind === 'k'){ const k = KWBY[key]; if(!k) return notFound(); title = k.k; intro = k.d + ' 100% authentic, shipped from the UK, free delivery over £40.'; eyebrow = k.grp; list = kwList(k); faq = k.faq || []; crumbs.push([title]); }
   if (kind === 'range'){ const r = RANGES[key]; if(!r) return notFound(); title = r[0] + ' range'; intro = `${r[1]}. Every product at Swansura made with ${r[0].toLowerCase()}, across skincare, body, hair and fragrance.`; eyebrow = 'Ranges loved by you'; list = rangeList(key); crumbs.push(['Ranges','#home'],[title]); }
@@ -2177,9 +2272,190 @@ document.addEventListener('click', async e => {
   if (!e.target.closest('.share,.sharemenu')) closeShares();
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && shareOwner){ const b = shareOwner; closeShares(); b.focus(); } });
-/* help / chat panel */
-(() => { const b = document.getElementById('chatBtn'), p = document.getElementById('chatPanel'); const set = open => { p.hidden = !open; b.setAttribute('aria-expanded', open); if (open) p.querySelector('a').focus(); };
-  b.addEventListener('click', () => set(p.hidden)); p.addEventListener('click', e => { if (e.target.closest('[data-chatclose]')) set(false); }); document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden){ set(false); b.focus(); } }); })();
+/* concern pages + Beauty Advisor answers: the same rules as the live store's rebuilt concern collections
+   (tools/shopify/concern_rules.py, 3 Nov 2026): product area from the title + concern words */
+const careArea = t => { t = t.toLowerCase(); if (/\bcomb\b|loofah/.test(t)) return 'tool'; if (/\blip/.test(t)) return 'lip'; if (/shampoo|conditioner|\bhair|scalp|eyebrow|neem seed oil/.test(t)) return 'hair';
+    if (/body|bath|soap|foot|deo|shower|hand|pedicure|ubtan/.test(t)) return 'body'; if (/perfume|parfum|pillow spray|room|candle|diffuser|sleep oil|perfume oil|good sleep/.test(t)) return 'sleep'; return 'face'; };
+const CARE_RULE = {
+    'concern-dandruff': [['hair', 'tool'], /dandruff|neem|tea tree|scalp/, /eyebrow|greying/],
+    'concern-hairfall': [['hair'], /growth|hair ?fall|strengthen|bhringraj|hair care kit|nourishment kit|bestseller hair/, /eyebrow|greying|dandruff/],
+    'hair-oil-for-dry-hair': [['hair'], /(oil|serum)/, /dandruff|greying|eyebrow|neem/],
+    'concern-hydration': [['face', 'body'], /hyaluronic|moistur|hydrat|hydro|cream|milk|aloe|ceramide|\bgel\b|facial oil|face oil|balm|elixir|rose ?water|butter|lotion|four phase|beautifying|age|caviar|day & night/, /charcoal|tea tree|acne|oil control|clear skin|cleansing balm|scrub|polish|exfoliat|soap|bath bar|body wash|deo|mud/],
+    'concern-glow': [['face'], /vitamin c|bright|glow|radian|\btan\b|lumin|saffron|turmeric|orange|mulethi|gold|beautifying|pigment|rose glow|wild rose|spirulina|ubtan|abc kit|game changer|honey/, /charcoal|acne|dandruff/],
+    'concern-acne': [['face', 'body'], /charcoal|tea tree|\bneem|acne|oil control|clear skin|\bpore|spot|salicylic|mud mask|clay|spirulina|exfoliat/, /\blip|hair|\bcomb\b|bath & shower oil|hydration gel|rose ?hip|beautifying|moringa/],
+    'concern-calm': [['face', 'body', 'sleep'], /sensitive|fragrance-free|\boat|aloe|chamomile|calm|sooth|cucumber|under eye|eye gel|eye mask|rose ?water|hyaluronic|lavender|sleep|frankincense|bath salts/, /charcoal|scrub|polish|exfoliat|vitamin c|acne|dandruff|deo|perfume|parfum/],
+    'concern-lips': [['lip'], /lip/, /$^/],
+    'concern-sun': [['face', 'lip', 'body'], /spf|sunscreen|sun protection|tan protection|sun /, /cleansing balm/]
+  };
+const ruleList = h => { const [areas, inc, exc] = CARE_RULE[h]; return P.filter(x => x.cat !== 'fragrance' && areas.includes(careArea(x.title)) && inc.test(x.title.toLowerCase()) && !exc.test(x.title.toLowerCase())); };
+/* Beauty Advisor (port of the live theme's assistant, sw-proto.js; client via user, 3–4 Nov 2026): a guided chat.
+   The shopper picks a need, answers 1–3 short questions and gets real catalogue products (filtered by skin type,
+   scent family and budget, ranked by relevance). Typed text is matched to a need, a brand or a product title.
+   No AI and no invented answers. The last answers are remembered on this device only (localStorage 180 days). */
+(() => {
+  const $1 = (s, r = document) => r.querySelector(s), $$1 = (s, r = document) => [...r.querySelectorAll(s)];
+  const b = $1('#chatBtn'), p = $1('#chatPanel'); if (!b || !p) return;
+  const log = $1('#asLog', p), form = $1('#asForm', p), q = $1('#asQ', p), bar = $1('.as-bar i', p), resetBtn = $1('[data-asreset]', p);
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const KEY = 'swAssist', ss = { get() { try { return JSON.parse(sessionStorage.getItem(KEY)); } catch (e) { return null; } }, set(v) { try { sessionStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} } };
+  const MEMKEY = 'swAdvisor', mem = { get() { try { const m = JSON.parse(localStorage.getItem(MEMKEY)); return m && Date.now() - (m.t || 0) < 180 * 864e5 ? m : null; } catch (e) { return null; } },
+    set(v) { try { localStorage.setItem(MEMKEY, JSON.stringify({ ...v, t: Date.now() })); } catch (e) {} }, clear() { try { localStorage.removeItem(MEMKEY); } catch (e) {} } };
+  const WA = '447438847453', WA_LABEL = '+44 7438 847453', MAIL = 'info@swansura.com', IG = 'https://ig.me/m/swansura_thebodystudio';
+  const BUDGET = [['0-15', 'Under £15'], ['15-30', '£15 to £30'], ['30-50', '£30 to £50'], ['50-', 'Over £50'], ['', 'Any budget']];
+  const TOP_BRANDS = ['Deyga', 'Vilvah', 'Highborn London', 'anatomē', 'Al Haramain', 'Tiziana Terenzi', 'Jo Milano', 'Tom Ford', 'Dior', 'Gucci', 'Giorgio Armani', 'Montale'];
+  const START = [['skin', 'Skincare for a concern'], ['hair', 'Haircare'], ['body', 'Body care'], ['perfume', 'Find a perfume'], ['gift', 'A gift'], ['brand', 'Shop by brand'], ['help', 'Delivery, returns & orders']];
+  const FLOWS = {
+    skin: { name: 'skincare', steps: [
+      { k: 'h', q: 'What would you most like help with?', o: [['concern-hydration', 'Dryness & hydration'], ['concern-glow', 'Dullness & glow'], ['concern-acne', 'Spots & oily skin'], ['concern-calm', 'Sensitive skin'], ['concern-lips', 'Dry lips'], ['concern-sun', 'Sun protection']] },
+      { k: 's', q: 'And how would you describe your skin?', o: [['Dry', 'Dry'], ['Oily', 'Oily'], ['Combination', 'Combination'], ['Sensitive', 'Sensitive'], ['', 'Not sure']], skip: st => st.h === 'concern-lips' || st.h === 'concern-sun' },
+      { k: 'b', q: 'Last one: what budget per product?', o: BUDGET }] },
+    hair: { name: 'haircare', steps: [
+      { k: 'h', q: 'What is your hair asking for?', o: [['concern-hairfall', 'Hair fall'], ['concern-dandruff', 'Dandruff & flakes'], ['hair-oil-for-dry-hair', 'Dry or frizzy hair'], ['hair-oil', 'A nourishing hair oil'], ['natural-shampoo', 'A gentle shampoo']] },
+      { k: 'b', q: 'What budget per product?', o: BUDGET }] },
+    body: { name: 'body care', steps: [
+      { k: 'h', q: 'What are you looking for?', o: [['body-butter-for-dry-skin', 'Rich care for dry skin'], ['body-scrub', 'A body scrub'], ['shower-gel-body-wash', 'Shower & bath'], ['deodorant', 'Natural deodorant'], ['lip-balm', 'Lip balm']] },
+      { k: 'b', q: 'What budget per product?', o: BUDGET }] },
+    perfume: { name: 'perfume', steps: [
+      { k: 'h', q: 'Lovely. Who is the perfume for?', o: [['perfume-for-women', 'For her'], ['perfume-for-men', 'For him'], ['unisex-perfume', 'Anyone (unisex)'], ['fragrance', 'Not sure yet']] },
+      { k: 'f', q: 'Which scent mood do you love?', o: [['floral', 'Floral & soft'], ['woody', 'Woody & warm'], ['oud', 'Rich oud'], ['amber', 'Amber & sweet'], ['fresh', 'Fresh & clean'], ['', 'Surprise me']] },
+      { k: 'b', q: 'And your budget?', o: BUDGET }] },
+    gift: { name: 'gifts', steps: [
+      { k: 'h', q: 'How exciting. Who are you shopping for?', o: [['gifts-for-her', 'Her'], ['gifts-for-him', 'Him'], ['perfume-gift-sets', 'Perfume gift sets'], ['giftsets', 'Skincare gift sets'], ['stocking-fillers', 'Stocking fillers']] },
+      { k: 'b', q: 'What would you like to spend?', o: BUDGET }] },
+    brand: { name: 'brand', steps: [
+      { k: 'h', q: 'Which brand would you like to see? You can also type any brand below.', get o() { return [...TOP_BRANDS.filter(n => BR[n]).map(n => [BR[n].slug, n]), ['@#brands', 'All brands A–Z']]; } } /* BR fills after products.json loads */] }
+  };
+  const HELP = {
+    delivery: ['Delivery', `UK delivery, dispatched from the UK within 1–2 working days:<ul><li><b>Standard</b> £1.99, 3–4 business days, <b>free over £${OFFERS.delivery}</b></li><li><b>Two-day</b> £2.99</li><li><b>Next-day</b> £3.99</li></ul>Spend £${OFFERS.bonus.min} and you also get £${OFFERS.bonus.off} off at checkout.`, [['#page-delivery', 'Delivery details']]],
+    returns: ['Returns', 'You can return unopened, sealed items within 14 days of delivery; return postage is paid by you. If something arrives faulty, damaged or wrong, we put it right at no cost.', [['#page-refunds', 'Returns policy']]],
+    track: ['Track my order', 'Your shipping confirmation email has a tracking link. You can also sign in to see your orders, or message us with your order number and we will check for you.', [['#page-contact', 'Contact us']]],
+    authentic: ['Is it authentic?', 'Yes. Everything we sell is 100% authentic, and we are the official UK partner of Deyga and Vilvah. Orders ship from the UK.', [['#page-about', 'About Swansura']]],
+    pay: ['Ways to pay', 'Cards (Visa, Mastercard, Amex, Maestro), PayPal, Apple Pay, Google Pay and Shop Pay. With PayPal you can split £30 to £2,000 into 3 interest-free payments.', []]
+  };
+  const SRC = h => {
+    if (CARE_RULE[h]) return [ruleList(h), h.startsWith('concern-') ? '#concern-' + h.slice(8) : '#k-' + h];
+    if (h === 'fragrance') return [P.filter(x => x.cat === 'fragrance'), '#c-fragrance'];
+    if (h === 'giftsets') return [P.filter(x => x.cat !== 'fragrance' && x.tags.includes('gift')), '#c-gifts'];
+    if (KWBY[h]) return [kwList(KWBY[h]), '#k-' + h];
+    const br = Object.keys(BR).find(n => BR[n].slug === h); if (br) return [P.filter(x => x.brand === br), '#b-' + h];
+    return [[], '#c-all'];
+  };
+  const brandName = h => Object.keys(BR).find(n => BR[n].slug === h);
+  const label = (fl, k, v) => { const s = FLOWS[fl]?.steps.find(x => x.k === k); return (s?.o.find(o => o[0] === v) || [])[1] || v; };
+  const go = st => esc(JSON.stringify(st));
+  const chips = (opts, extra = '') => `<div class="as-chips${extra}">${opts.map(([st, l]) => `<button type="button" class="as-chip" data-go="${go(st)}">${esc(l)}</button>`).join('')}</div>`;
+  const save = () => ss.set({ html: log.innerHTML, bar: bar.style.width });
+  const scroll = el => { log.scrollTo({ top: el.offsetTop - 8, behavior: reduce ? 'auto' : 'smooth' }); };
+  const lockOld = () => $$1('.as-chips:not(.keep) .as-chip', log).forEach(c => { c.disabled = true; });
+  function you(text) { lockOld(); log.insertAdjacentHTML('beforeend', `<div class="as-msg you"><p>${esc(text)}</p></div>`); }
+  async function bot(html) {
+    if (!reduce) { log.insertAdjacentHTML('beforeend', '<div class="as-msg bot as-typing" aria-hidden="true"><p><i></i><i></i><i></i></p></div>'); const t = log.lastElementChild; scroll(t); await new Promise(r => setTimeout(r, 420)); t.remove(); }
+    log.insertAdjacentHTML('beforeend', `<div class="as-msg bot">${html}</div>`); const m = log.lastElementChild; $$1('.pic[data-bg]', m).forEach(showPic); scroll(m); resetBtn.hidden = false; save();
+    const f = m.querySelector('.as-chip:not([disabled]), .as-card .as-ct a'); if (f && p.contains(document.activeElement) && !matchMedia('(pointer:coarse)').matches) f.focus({ preventScroll: true });
+    return m;
+  }
+  const people = () => `<div class="as-people"><a class="as-person wa" href="https://wa.me/${WA}" target="_blank" rel="noopener"><b>WhatsApp</b><small>${WA_LABEL} · messages only</small></a><a class="as-person ig" href="${IG}" target="_blank" rel="noopener"><b>Instagram</b><small>@swansura_thebodystudio</small></a><a class="as-person em" href="mailto:${MAIL}"><b>Email</b><small>${MAIL}</small></a></div>`;
+  const greet = () => { const h = new Date().getHours(); return h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening'; };
+  async function start() {
+    log.innerHTML = ''; bar.style.width = '0%'; resetBtn.hidden = true;
+    const m = mem.get(), again = m && m.h ? (({ t, label, ...st }) => st)(m) : null;
+    await bot(`<p><b>${greet()}, welcome ${again ? 'back ' : ''}to Swansura.</b> I'm your Beauty Advisor. ${again ? `Last time you looked at <b>${esc(m.label || 'our picks')}</b>.` : 'I can help you find the right product in a few taps.'} What are you shopping for today?</p>${again ? chips([[again, 'Show those picks again']], ' keep') : ''}${chips(START.map(([f, l]) => [{ f }, l]))}<p class="as-note">Prefer a person? <button type="button" class="as-link" data-go="${go({ f: 'help', a: 'person' })}">Message our team</button></p><p class="as-note">${again ? 'I remember your last answers on this device only. <button type="button" class="as-link" data-asforget>Forget me</button>' : 'I remember your answers on this device only, so next time we can pick up where you left off.'}</p>`);
+  }
+  const item = x => ({ id: x.id, u: '#p-' + x.id, n: cleanTitle(x), b: x.brand, p: x.price, c: x.compare || 0, a: x.available, s: skinTypes(x), f: x.cat === 'fragrance' ? family(x) : '', k: isPick(x), x });
+  const inBudget = (x, bgt) => { if (!bgt) return true; const [lo, hi] = bgt.split('-'); return x.p >= +lo && (hi === '' || x.p < +hi); };
+  const card = x => `<div class="as-card"><a class="as-pic" href="${x.u}" tabindex="-1" aria-hidden="true">${pic(x.x)}</a><div class="as-ct"><small>${esc(x.b)}</small><a href="${x.u}">${esc(x.n)}</a><span class="as-pr">${fmt(x.p)}${x.c > x.p ? ` <s>${fmt(x.c)}</s>` : ''}</span></div>${x.a ? `<button type="button" class="as-add" data-asadd="${x.id}" aria-label="Add ${esc(x.n)} to bag">Add</button>` : `<a class="as-add out" href="${x.u}">Sold out</a>`}</div>`;
+  async function results(st) {
+    const fl = FLOWS[st.f], h = st.h, [src, href] = SRC(h), all = src.map(item);
+    const avail = all.filter(x => x.a);
+    const tests = [['s', x => !st.s || !x.s.length || x.s.includes(st.s) || x.s.includes('All')], ['f', x => !st.f2 || x.f === st.f2], ['b', x => inBudget(x, st.b)]];
+    let pick = avail.filter(x => tests.every(t => t[1](x))), relaxed = [];
+    const active = { s: st.s, f: st.f2, b: st.b };
+    for (const k of ['s', 'f', 'b']) { if (pick.length) break; if (!active[k]) continue; const keep = tests.filter(t => t[0] !== k && !relaxed.includes(t[0])); relaxed.push(k); pick = avail.filter(x => keep.every(t => t[1](x))); }
+    if (!pick.length) pick = all;
+    /* relevance: name words that fit the answer first, single products before kits, combs/loofahs last;
+       sleep sprays and oils (Calm & sleep page) are not answers to a skin concern */
+    const REL = { 'concern-dandruff': [[/dandruff|scalp/, 3], [/neem|tea tree/, 2], [/shampoo|oil/, 1]], 'concern-hairfall': [[/hair ?fall|growth|strength/, 3], [/oil|shampoo/, 1]],
+      'hair-oil-for-dry-hair': [[/frizz|dry/, 3], [/serum|oil/, 1]], 'hair-oil': [[/\boil\b/, 1]], 'natural-shampoo': [[/shampoo/, 2]],
+      'concern-hydration': [[/hyaluronic|hydrat|moistur|hydro/, 3], [/cream|milk|gel|serum|lotion|butter/, 1]], 'concern-glow': [[/vitamin c|bright|glow|radian|lumin/, 3], [/serum|face/, 1]],
+      'concern-acne': [[/acne|charcoal|tea tree|oil control|clear skin|\bpore/, 3], [/face/, 1]], 'concern-calm': [[/sensitive|fragrance-free|\boat|aloe|calm|sooth/, 3], [/face|eye/, 1]],
+      'concern-sun': [[/spf|sunscreen/, 3]], 'concern-lips': [[/balm/, 1]] }[h];
+    const skin = st.f === 'skin', calmOut = x => skin && /pillow spray|sleep oil|good sleep|bath salts|bath & shower oil/i.test(x.n);
+    if (pick.some(x => !calmOut(x))) pick = pick.filter(x => !calmOut(x));
+    const score = x => { const n = x.n.toLowerCase(); let v = 0; for (const [re, w] of REL || []) if (re.test(n)) v += w;
+      if (/\bcombs?\b|loofah/.test(n)) v -= 4; if (/\bkit\b|\bcombo\b|\bset\b/.test(n)) v -= 1; if (skin && /body|bath|soap|foot|hand/.test(n)) v -= 1.5; if (x.k) v += .5; return v; };
+    pick = pick.map((x, i) => [x, score(x), i]).sort((a, b) => b[1] - a[1] || a[2] - b[2]).map(a => a[0]);
+    const PERF = { 'perfume-for-women': 'perfume for her', 'perfume-for-men': 'perfume for him', 'unisex-perfume': 'unisex perfume', fragrance: 'perfume' };
+    const what = st.f === 'brand' ? brandName(h) : PERF[h] ? [st.f2 && label('perfume', 'f', st.f2).toLowerCase(), PERF[h]].filter(Boolean).join(' ') : label(st.f, 'h', h).toLowerCase();
+    const note = relaxed.length ? `<p class="as-note">Nothing matched every answer, so I widened the ${relaxed.map(k => ({ s: 'skin type', f: 'scent mood', b: 'budget' })[k]).join(' and ')}.</p>` : '';
+    if (st.f !== 'brand' && st.f !== 'help') mem.set({ f: st.f, h, s: st.s, b: st.b, f2: st.f2, label: what });
+    const first = pick.slice(0, 4), more = pick.slice(4, 12);
+    bar.style.width = '100%';
+    const next = [[{ u: href }, `See all ${all.length}`]];
+    if (fl && fl.steps.some(s => s.k === 'b') && st.b !== undefined) next.push([{ ...st, b: undefined, step: fl.steps.findIndex(s => s.k === 'b') }, 'Change budget']);
+    next.push([{ f: st.f === 'brand' ? 'brand' : st.f }, st.f === 'brand' ? 'Another brand' : 'Try another answer'], [{ f: 'help', a: 'person' }, 'Ask a person']);
+    await bot(`<p>${pick.length ? `Here ${first.length === 1 ? 'is my pick' : `are ${first.length} picks`} for <b>${esc(what)}</b>${st.b ? `, ${esc(label('perfume', 'b', st.b).toLowerCase())}` : ''}.` : 'Here is the collection.'}</p>${note}<div class="as-cards">${first.map(card).join('')}</div>${more.length ? `<div class="as-cards" hidden>${more.map(card).join('')}</div><button type="button" class="as-more" data-asmore>Show ${more.length} more</button>` : ''}${chips(next, ' keep')}`);
+  }
+  async function step(st) {
+    const fl = FLOWS[st.f]; let i = st.step || 0;
+    while (fl.steps[i] && (st[fl.steps[i].k === 'f' ? 'f2' : fl.steps[i].k] !== undefined || fl.steps[i].skip?.(st))) i++;
+    const s = fl.steps[i];
+    if (!s) return results(st);
+    bar.style.width = Math.round(i / fl.steps.length * 100) + '%';
+    const key = s.k === 'f' ? 'f2' : s.k;
+    const last = s.k === 's' ? mem.get()?.s : undefined, opts = last ? [...s.o.filter(o => o[0] === last).map(([v, l]) => [v, `${l} (last time)`]), ...s.o.filter(o => o[0] !== last)] : s.o;
+    await bot(`<span class="as-step">Step ${i + 1} of ${fl.steps.length}</span><p>${esc(s.q)}</p>${chips(opts.map(([v, l]) => v.startsWith('@') ? [{ u: v.slice(1) }, l] : [{ ...st, step: undefined, [key]: v }, l]))}`);
+  }
+  async function help(a) {
+    bar.style.width = '0%';
+    if (!a) return bot(`<p>Of course. What do you need help with?</p>${chips([...Object.entries(HELP).map(([k, v]) => [{ f: 'help', a: k }, v[0]]), [{ f: 'help', a: 'person' }, 'Talk to a person']])}`);
+    if (a === 'person') return bot(`<p>Our team usually replies within a few hours, Monday to Friday. Pick whichever suits you:</p>${people()}${chips([[{}, 'Back to shopping']], ' keep')}`);
+    const [, text, links] = HELP[a];
+    return bot(`<div class="as-bub">${text}</div>${links.length ? `<p class="as-links">${links.map(([u, l]) => `<a href="${u}">${esc(l)} →</a>`).join('')}</p>` : ''}${chips([[{ f: 'help' }, 'Something else'], [{ f: 'help', a: 'person' }, 'Talk to a person'], [{}, 'Back to shopping']], ' keep')}`);
+  }
+  async function run(st) {
+    if (st.u) { location.hash = st.u; if (matchMedia('(max-width:600px)').matches) set(false); return; }
+    if (!st.f) return start();
+    if (st.f === 'help') return help(st.a);
+    if (st.h && FLOWS[st.f]?.steps.length === 1) return results(st);
+    return step(st);
+  }
+  const WORDS = [[/deliver|shipping|postage|dispatch/, { f: 'help', a: 'delivery' }], [/return|refund|exchange/, { f: 'help', a: 'returns' }], [/track|my order|where is/, { f: 'help', a: 'track' }], [/authentic|genuine|fake|original/, { f: 'help', a: 'authentic' }], [/\bpay|paypal|klarna|instal/, { f: 'help', a: 'pay' }], [/human|person|talk|contact|whatsapp|call|speak/, { f: 'help', a: 'person' }],
+    [/dry skin|hydrat|moistur/, { f: 'skin', h: 'concern-hydration' }], [/glow|dull|bright|radian/, { f: 'skin', h: 'concern-glow' }], [/acne|spot|breakout|pimple|oily skin/, { f: 'skin', h: 'concern-acne' }], [/sensitive|redness|calm/, { f: 'skin', h: 'concern-calm' }], [/\blips?\b|lip balm|lip scrub/, { f: 'skin', h: 'concern-lips', s: '' }], [/\bsun|spf/, { f: 'skin', h: 'concern-sun', s: '' }],
+    [/hair ?fall|hair loss|thinning/, { f: 'hair', h: 'concern-hairfall' }], [/dandruff|flak/, { f: 'hair', h: 'concern-dandruff' }], [/frizz|dry hair/, { f: 'hair', h: 'hair-oil-for-dry-hair' }], [/hair oil/, { f: 'hair', h: 'hair-oil' }], [/shampoo/, { f: 'hair', h: 'natural-shampoo' }],
+    [/body butter/, { f: 'body', h: 'body-butter-for-dry-skin' }], [/scrub/, { f: 'body', h: 'body-scrub' }], [/shower|body wash|soap/, { f: 'body', h: 'shower-gel-body-wash' }], [/deodor/, { f: 'body', h: 'deodorant' }],
+    [/\boud\b/, { f: 'perfume', h: 'fragrance', f2: 'oud' }], [/perfume for (her|women)|women'?s perfume/, { f: 'perfume', h: 'perfume-for-women' }], [/perfume for (him|men)|men'?s (perfume|cologne)|aftershave/, { f: 'perfume', h: 'perfume-for-men' }], [/stocking/, { f: 'gift', h: 'stocking-fillers' }], [/gift/, { f: 'gift' }], [/perfume|fragrance|scent/, { f: 'perfume' }]];
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  async function ask(text) {
+    const t = norm(text).trim(), names = Object.keys(BR), br = names.find(n => t.includes(norm(n)) || (norm(n).length > 4 && norm(n).includes(t) && t.length > 3));
+    if (br && !(t.includes(norm(br)) ? t.replace(norm(br), '') : '').replace(/\b(products?|brand|range|perfumes?|skincare|shop|all|the)\b/g, '').trim()) return results({ f: 'brand', h: BR[br].slug });
+    const w = WORDS.find(([re]) => re.test(t)); if (w) return run({ ...w[1] });
+    /* else: products whose title has every typed word (the live store uses Shopify's predictive search here) */
+    const words = t.split(/\s+/).filter(x => x.length > 1), list = P.filter(x => words.every(wd => norm(x.brand + ' ' + x.title).includes(wd))).sort((a, b) => b.available - a.available).map(item);
+    if (list.length) return bot(`<p>Here is what I found for <b>${esc(text)}</b>:</p><div class="as-cards">${list.slice(0, 4).map(card).join('')}</div>${chips([[{}, 'Guide me instead'], [{ f: 'help', a: 'person' }, 'Ask a person']], ' keep')}`);
+    return bot(`<p>I could not find a match for <b>${esc(text)}</b>. Shall I guide you, or would you like to ask our team?</p>${chips([[{}, 'Guide me'], [{ f: 'help', a: 'person' }, 'Ask a person']], ' keep')}`);
+  }
+  function set(open) {
+    p.hidden = !open; b.setAttribute('aria-expanded', open); document.documentElement.classList.toggle('as-open', open);
+    if (!open) return;
+    if (!log.children.length) { const s = ss.get(); if (s?.html) { log.innerHTML = s.html; $$1('.pic[data-bg]', log).forEach(showPic); bar.style.width = s.bar || '0%'; resetBtn.hidden = false; log.scrollTop = log.scrollHeight; } else start(); }
+    p.focus({ preventScroll: true });
+  }
+  b.addEventListener('click', () => { if (P.length) set(p.hidden); });
+  p.addEventListener('click', e => {
+    const c = e.target.closest('[data-go]');
+    if (c) { if (c.disabled) return; const st = JSON.parse(c.dataset.go); if (!st.u) you(c.textContent.replace(/ →$/, '')); run(st); return; }
+    const ad = e.target.closest('[data-asadd]'); if (ad) { addToBag(ad.dataset.asadd, 1, true); toast('Added to your bag'); ad.textContent = 'Added'; return; }
+    if (e.target.closest('[data-asmore]')) { const m = e.target.closest('[data-asmore]'); m.previousElementSibling.hidden = false; $$1('.pic[data-bg]', m.previousElementSibling).forEach(showPic); m.remove(); save(); return; }
+    if (e.target.closest('[data-asreset]')) { p.focus(); start(); return; }
+    if (e.target.closest('[data-asforget]')) { mem.clear(); p.focus(); start(); return; }
+    if (e.target.closest('[data-chatclose]')) { set(false); return; }
+    if (e.target.closest('.as-card a, .as-links a') && matchMedia('(max-width:600px)').matches) { save(); set(false); }
+  });
+  p.addEventListener('click', e => { if (e.target.closest('.as-card a, .as-links a, .as-person')) save(); }, true);
+  form.addEventListener('submit', e => { e.preventDefault(); const t = q.value.trim(); if (!t) return; q.value = ''; you(t); ask(t); });
+  document.addEventListener('click', e => { if (!p.hidden && e.target.closest('.as-scrim')) set(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !p.hidden) { set(false); b.focus(); } });
+})();
 /* Brand logos and page copy are not needed for the first paint: load them after the page is drawn */
 function loadExtras(){
   const add = (src, done) => { const s = document.createElement('script'); s.src = src; s.async = true; s.onload = done; document.body.appendChild(s); };
