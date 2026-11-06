@@ -4,7 +4,9 @@ A guide is a dict: title, handle, tag, summary, mt (SEO title <=60), md (SEO des
 pick {key: handle or None}, titles {key: product-title prefix, for keys without a fixed handle},
 shop [keys for 'Shop the story'], body (HTML), faq [[q, a], ...].
 In the body, [[key|text]] is a product link and {{key}} its price ('from £x' when variants differ).
-Every product must be in stock in the storefront dump ALL (handle -> /products.json product).
+Every product must be in stock in the storefront dump ALL (handle -> /products.json product), except keys
+listed in a['soldout'] (optional): those may be linked in the text only (never in 'Shop the story'), and their
+price is the lowest variant price.
 Articles are created unpublished: the client approves and publishes.
 """
 import json
@@ -21,15 +23,17 @@ def avail(p):
 
 def build(a, ALL, out_name):
     pick = dict(a["pick"])
+    soldout = set(a.get("soldout", []))
+    assert not soldout & set(a["shop"]), "sold-out products cannot be in Shop the story"
     for k, h in pick.items():
         if h is None:
             hits = [x for x, p in ALL.items() if p["title"].startswith(a["titles"][k]) and avail(p)]
             assert len(hits) == 1, (k, hits)
             pick[k] = hits[0]
-        assert pick[k] in ALL and avail(ALL[pick[k]]), k
+        assert pick[k] in ALL and (k in soldout or avail(ALL[pick[k]])), k
 
     def price(k):
-        ps = {float(v["price"]) for v in ALL[pick[k]]["variants"] if v["available"]}
+        ps = {float(v["price"]) for v in ALL[pick[k]]["variants"] if v["available"] or k in soldout}
         return ("from " if len(ps) > 1 else "") + f"£{min(ps):.2f}".replace(".00", "")
 
     body = re.sub(r"\[\[([\w-]+)\|([^\]]+)\]\]", lambda m: f'<a href="/products/{pick[m.group(1)]}">{m.group(2)}</a>', a["body"])
