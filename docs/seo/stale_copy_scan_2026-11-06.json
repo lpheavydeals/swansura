@@ -1,0 +1,350 @@
+[
+ {
+  "handle": "deyga",
+  "live_count": 74,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   37.99
+  ]
+ },
+ {
+  "handle": "fumeri",
+  "live_count": 18,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   23.0,
+   37.95
+  ]
+ },
+ {
+  "handle": "sap",
+  "live_count": 5,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   37.95
+  ]
+ },
+ {
+  "handle": "the-woods-collection",
+  "live_count": 11,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   44.99
+  ]
+ },
+ {
+  "handle": "signature-dorient",
+  "live_count": 16,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   42.99,
+   44.99,
+   64.99,
+   74.95,
+   75.99
+  ]
+ },
+ {
+  "handle": "al-haramain",
+  "live_count": 16,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   24.99,
+   27.99,
+   30.99,
+   37.99
+  ]
+ },
+ {
+  "handle": "skincare",
+  "live_count": 117,
+  "stale_counts": [
+   109
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "armaf",
+  "live_count": 19,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   22.99
+  ]
+ },
+ {
+  "handle": "concern-acne",
+  "live_count": 18,
+  "stale_counts": [
+   42
+  ],
+  "prices_not_in_collection": [
+   68.0
+  ]
+ },
+ {
+  "handle": "concern-glow",
+  "live_count": 28,
+  "stale_counts": [
+   65
+  ],
+  "prices_not_in_collection": [
+   6.99,
+   94.0
+  ]
+ },
+ {
+  "handle": "concern-hydration",
+  "live_count": 51,
+  "stale_counts": [
+   121
+  ],
+  "prices_not_in_collection": [
+   6.99
+  ]
+ },
+ {
+  "handle": "concern-lips",
+  "live_count": 21,
+  "stale_counts": [
+   17
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "concern-sun",
+  "live_count": 6,
+  "stale_counts": [
+   9
+  ],
+  "prices_not_in_collection": [
+   145.0
+  ]
+ },
+ {
+  "handle": "concern-hairfall",
+  "live_count": 7,
+  "stale_counts": [
+   12
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "price-0-15",
+  "live_count": 72,
+  "stale_counts": [
+   56
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "price-15-25",
+  "live_count": 219,
+  "stale_counts": [
+   108
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "price-25-50",
+  "live_count": 308,
+  "stale_counts": [
+   219
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "vitamin-c-serum",
+  "live_count": 3,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   30.99
+  ]
+ },
+ {
+  "handle": "hair-oil-for-dry-hair",
+  "live_count": 4,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   18.99
+  ]
+ },
+ {
+  "handle": "face-mask-for-oily-skin",
+  "live_count": 5,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   15.99
+  ]
+ },
+ {
+  "handle": "oud-perfume",
+  "live_count": 32,
+  "stale_counts": [
+   27
+  ],
+  "prices_not_in_collection": [
+   23.95,
+   37.95
+  ]
+ },
+ {
+  "handle": "arabian-perfume",
+  "live_count": 104,
+  "stale_counts": [
+   33
+  ],
+  "prices_not_in_collection": [
+   30.99,
+   42.99,
+   64.99,
+   74.95,
+   75.99
+  ]
+ },
+ {
+  "handle": "perfume-for-women",
+  "live_count": 150,
+  "stale_counts": [
+   67
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "perfume-for-men",
+  "live_count": 96,
+  "stale_counts": [
+   59
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "unisex-perfume",
+  "live_count": 323,
+  "stale_counts": [
+   230
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "niche-perfume",
+  "live_count": 81,
+  "stale_counts": [
+   73
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "gifts-for-him",
+  "live_count": 71,
+  "stale_counts": [
+   66
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "gifts-25-to-50",
+  "live_count": 201,
+  "stale_counts": [
+   190
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "gifts-over-50",
+  "live_count": 152,
+  "stale_counts": [
+   140
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "diwali-gifts",
+  "live_count": 95,
+  "stale_counts": [
+   92
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "ramadan-eid-gifts",
+  "live_count": 64,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   24.99,
+   27.99,
+   28.99
+  ]
+ },
+ {
+  "handle": "range-charcoal",
+  "live_count": 6,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   15.99
+  ]
+ },
+ {
+  "handle": "range-vitamin-c",
+  "live_count": 3,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   30.99
+  ]
+ },
+ {
+  "handle": "range-oud",
+  "live_count": 27,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   23.95
+  ]
+ },
+ {
+  "handle": "scent-oud",
+  "live_count": 42,
+  "stale_counts": [
+   37
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "scent-amber",
+  "live_count": 99,
+  "stale_counts": [
+   34
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "scent-floral",
+  "live_count": 250,
+  "stale_counts": [
+   166
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "scent-woody",
+  "live_count": 149,
+  "stale_counts": [
+   95
+  ],
+  "prices_not_in_collection": []
+ },
+ {
+  "handle": "scent-fresh",
+  "live_count": 41,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   23.95
+  ]
+ },
+ {
+  "handle": "swansura-selection",
+  "live_count": 6,
+  "stale_counts": [],
+  "prices_not_in_collection": [
+   99.99
+  ]
+ }
+]
