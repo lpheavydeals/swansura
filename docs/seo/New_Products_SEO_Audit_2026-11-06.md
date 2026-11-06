@@ -122,3 +122,14 @@ Drafting (not deleting) keeps photos, SKUs and order history. Shopify follows a 
 2. Write the copy, SEO, FAQ and brand lists (`collectionUpdate` + `metafieldsSet`), then the menus (`menuUpdate`), then the duplicate drafts + redirects (only for the pairs approved).
 3. Theme draft with the two fixes, checked in preview.
 4. Re-crawl the 229 pages + hubs on live, check the copy renders (H2 + links 200), and record the results in CLAUDE.md.
+
+## 8. Status (6 Nov 2026, later)
+Applied after the user's go-ahead ('copy, menus and theme fixes'): sections 3, 4 (menus only) and 6.
+- Brand copy + SEO descriptions + FAQs + 'You may also love' lists on 28 brand pages, and the Oud / Arabian refresh, are live and verified.
+- Menus are updated (live straight away).
+- Theme fixes are on the draft 'Swansura – Brand pages (draft)' (200547697027), waiting for the user to publish.
+
+Not done (not approved):
+- the duplicate listings (section 5);
+- adding oud-led products to /collections/oud-perfume;
+- the 40 older pages with out-of-date counts/prices.

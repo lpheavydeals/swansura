@@ -2,7 +2,7 @@
 
 ## Vera Wang perfume — /collections/vera-wang
 
-*194 words · 5 links · meta description (154 chars):* Vera Wang perfume at Swansura UK: Embrace Green Tea and Pear Blossom eau de toilette, a fresh floral for women. 100% authentic, free UK delivery over £40.
+*192 words · 5 links · meta description (154 chars):* Vera Wang perfume at Swansura UK: Embrace Green Tea and Pear Blossom eau de toilette, a fresh floral for women. 100% authentic, free UK delivery over £40.
 
 **Vera Wang perfume: Embrace Green Tea and Pear Blossom**
 
@@ -16,7 +16,7 @@ Pear blossom, green tea and bergamot open the scent, so the first impression is 
 
 **Why the 30ml size works**
 
-The 30ml eau de toilette is a handy size for a handbag or a gym bag, and a simple way to try a Vera Wang perfume without committing to a big bottle. It also makes a thoughtful small present, so you will find it among our <a href="/collections/gifts-under-25">gifts under £25</a>.
+The 30ml eau de toilette is a handy size for a handbag or a gym bag, and a simple way to try a Vera Wang perfume without committing to a big bottle. It also makes a thoughtful small present, and it sits in our <a href="/collections/price-15-25">£15 to £25</a> range.
 
 
 **More like this**
@@ -30,7 +30,7 @@ Extra FAQs: *Which Vera Wang perfume do you sell?* Vera Wang Embrace Green Tea a
 
 ## David Beckham perfume — /collections/david-beckham
 
-*182 words · 7 links · meta description (141 chars):* David Beckham perfume at Swansura UK: Beyond eau de toilette 60ml, a woody aromatic scent for men. 100% authentic, free UK delivery over £40.
+*180 words · 6 links · meta description (141 chars):* David Beckham perfume at Swansura UK: Beyond eau de toilette 60ml, a woody aromatic scent for men. 100% authentic, free UK delivery over £40.
 
 **David Beckham perfume: Beyond eau de toilette**
 
@@ -44,7 +44,7 @@ Beyond opens with a cool mojito accord, cardamom and grapefruit, so it starts fr
 
 **A good-value gift**
 
-At 60ml and under £20, Beyond is one of the easiest fragrance gifts for him on our shelf. You will find it with our <a href="/collections/gifts-under-25">gifts under £25</a> and <a href="/collections/stocking-fillers">stocking fillers</a>, and it pairs well with a men's shower gel or deodorant from our <a href="/collections/mens-grooming">men's grooming</a> edit.
+At 60ml and under £20, Beyond is one of the easiest fragrance gifts for him on our shelf. You will find it in our <a href="/collections/price-15-25">£15 to £25</a> range, and it pairs well with a men's shower gel or deodorant from our <a href="/collections/mens-grooming">men's grooming</a> edit.
 
 
 **More like this**
@@ -91,11 +91,11 @@ Extra FAQs: *Which Lattafa perfume should I start with?* Khamrah Qahwa is warm a
 
 ## Guess perfume — /collections/guess
 
-*266 words · 7 links · meta description (160 chars):* Guess perfume at Swansura UK: Seductive, Seductive Noir and Red, Girl Belle, Dare and Guess Man, plus 250ml body mists and gift sets. Free UK delivery over £40.
+*265 words · 7 links · meta description (160 chars):* Guess perfume at Swansura UK: Seductive, Seductive Noir and Red, Girl Belle, Dare and Guess Man, plus 250ml body mists and gift sets. Free UK delivery over £40.
 
 **Guess perfume and Guess body mists**
 
-Guess perfume at Swansura covers the full range: eaux de toilette for women and men, 250ml body mists, and ready-wrapped gift sets, with prices from £15.99. Most of the line is bright, fruity and floral, with warmer woody scents for men.
+Guess perfume at Swansura covers the full range: eaux de toilette for women and men, 250ml body mists, and gift sets, with prices from £15.99. Most of the line is bright, fruity and floral, with warmer woody scents for men.
 
 
 **Guess Seductive, Noir and Red**
@@ -152,11 +152,11 @@ Extra FAQs: *Which Swiss Arabian perfume do you sell?* Swiss Arabian Shaghaf Oud
 
 ## Jaguar perfume — /collections/jaguar
 
-*196 words · 7 links · meta description (159 chars):* Jaguar perfume at Swansura UK: Classic Red, Classic Gold, Classic Motion and Ultimate Power eaux de toilette 100ml, plus a gift set. Free UK delivery over £40.
+*193 words · 7 links · meta description (159 chars):* Jaguar perfume at Swansura UK: Classic Red, Classic Gold, Classic Motion and Ultimate Power eaux de toilette 100ml, plus a gift set. Free UK delivery over £40.
 
 **Jaguar perfume: Classic Red, Classic Gold and Ultimate Power**
 
-Jaguar perfume at Swansura is a small, good-value line of 100ml eaux de toilette, from £17.99, plus a ready-made gift set. They are easy, good-value scents for every day.
+Jaguar perfume at Swansura is a small, good-value line of 100ml eaux de toilette, from £17.99, plus a ready-made gift set. They are easy scents for every day.
 
 
 **The Jaguar Classic line**
@@ -171,7 +171,7 @@ Jaguar perfume at Swansura is a small, good-value line of 100ml eaux de toilette
 
 **A ready-made gift**
 
-The <a href="/products/jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml">Jaguar Classic Eau de Toilette &amp; Shower Gel Gift Set</a> pairs a 100ml bottle with a 200ml shower gel, so it is a simple present for him. See more in <a href="/collections/gifts-for-him">gifts for him</a> and <a href="/collections/gifts-under-25">gifts under £25</a>, or compare with our <a href="/collections/perfume-for-men">perfume for men</a>. Every Jaguar perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
+The <a href="/products/jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml">Jaguar Classic Eau de Toilette &amp; Shower Gel Gift Set</a> pairs a 100ml bottle with a 200ml shower gel, so it is a simple present. See more in <a href="/collections/perfume-gift-sets">perfume gift sets</a> and <a href="/collections/gifts-under-25">gifts under £25</a>, or compare with our <a href="/collections/perfume-for-men">perfume for men</a>. Every Jaguar perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
 
 
 Extra FAQs: *Which Jaguar perfume should I choose?* Classic Red is fruity and warm, Classic Gold is fresh then woody, Classic Motion is green and woody, and Ultimate Power is crisp with mint and ginger. · *Do you sell a Jaguar gift set?* Yes: the Jaguar Classic Eau de Toilette & Shower Gel Gift Set (100ml + 200ml).
@@ -180,7 +180,7 @@ Extra FAQs: *Which Jaguar perfume should I choose?* Classic Red is fruity and wa
 
 ## Rasasi perfume — /collections/rasasi
 
-*168 words · 5 links · meta description (152 chars):* Rasasi perfume at Swansura UK: Hawas Elixir eau de parfum 100ml, mint and bergamot over dark chocolate, lavender and vanilla. Free UK delivery over £40.
+*165 words · 5 links · meta description (152 chars):* Rasasi perfume at Swansura UK: Hawas Elixir eau de parfum 100ml, mint and bergamot over dark chocolate, lavender and vanilla. Free UK delivery over £40.
 
 **Rasasi perfume: Hawas Elixir**
 
@@ -194,7 +194,7 @@ Hawas Elixir opens with mugwort, bergamot and mint, so the first spray is fresh 
 
 **How to wear it**
 
-As an eau de parfum it is fairly concentrated, so two or three sprays are plenty. The 100ml bottle makes it a generous present, and you will find it in our <a href="/collections/gifts-25-to-50">gifts £25 to £50</a> edit.
+As an eau de parfum it is fairly concentrated, so two or three sprays are plenty. The 100ml bottle makes it a generous present, and it sits in our <a href="/collections/price-25-50">£25 to £50</a> range.
 
 
 **More like this**
@@ -208,7 +208,7 @@ Extra FAQs: *Which Rasasi perfume do you sell?* Rasasi Hawas Elixir Eau de Parfu
 
 ## Tous perfume — /collections/tous
 
-*153 words · 5 links · meta description (157 chars):* Tous perfume at Swansura UK: Touch The Luminous Gold eau de toilette 50ml, lemon and pink pepper over jasmine, tuberose and amber. Free UK delivery over £40.
+*150 words · 5 links · meta description (157 chars):* Tous perfume at Swansura UK: Touch The Luminous Gold eau de toilette 50ml, lemon and pink pepper over jasmine, tuberose and amber. Free UK delivery over £40.
 
 **Tous perfume: Touch The Luminous Gold**
 
@@ -222,7 +222,7 @@ Lemon and pink pepper give it a sparkling, slightly spicy start. Jasmine and tub
 
 **Why the 50ml size**
 
-The 50ml eau de toilette is a comfortable size for everyday use and slips easily into a bag. It is also a neat gift, and you will find it among our <a href="/collections/gifts-25-to-50">gifts £25 to £50</a>.
+The 50ml eau de toilette is a comfortable size for everyday use and slips easily into a bag. It is also a neat gift, and it sits in our <a href="/collections/price-25-50">£25 to £50</a> range.
 
 
 **More like this**
@@ -269,7 +269,7 @@ Extra FAQs: *Which Afnan perfume should I start with?* 9am Dive is fresh with mi
 
 ## Maison Alhambra perfume — /collections/maison-alhambra
 
-*232 words · 8 links · meta description (154 chars):* Maison Alhambra perfume at Swansura UK: Philos, Baroque la Rouge, Narissa, Pink Shimmer Secret, Salvo and more, from under £20. Free UK delivery over £40.
+*233 words · 8 links · meta description (154 chars):* Maison Alhambra perfume at Swansura UK: Philos, Baroque la Rouge, Narissa, Pink Shimmer Secret, Salvo and more, from under £20. Free UK delivery over £40.
 
 **Maison Alhambra perfume: Philos, Baroque, Narissa and more**
 
@@ -293,7 +293,7 @@ For a soft floral, try Narissa Ambre (frangipani, amber and cashmeran) or Nariss
 
 **More like this**
 
-Browse the full <a href="/collections/arabian-perfume">Arabian perfume</a> edit and our <a href="/collections/gifts-under-25">gifts under £25</a>, or compare with <a href="/collections/lattafa">Lattafa</a> and <a href="/collections/afnan">Afnan</a>. Every Maison Alhambra perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
+Browse the full <a href="/collections/arabian-perfume">Arabian perfume</a> edit and our <a href="/collections/price-15-25">£15 to £25</a> range, or compare with <a href="/collections/lattafa">Lattafa</a> and <a href="/collections/afnan">Afnan</a>. Every Maison Alhambra perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
 
 
 Extra FAQs: *What do Maison Alhambra perfumes cost at Swansura?* Most are 80ml or 100ml eaux de parfum between about £18 and £28. · *Which Maison Alhambra perfume is best for men?* Salvo is a woody aromatic scent for men with bergamot, pepper, lavender and ambroxan; Philos Opus Noir and Jean Lowe Fraiche are warm, woody unisex options.
@@ -368,7 +368,7 @@ Extra FAQs: *Which Armaf perfume should I start with?* Club de Nuit Intense is a
 
 ## Formula 1 perfume — /collections/formula-1
 
-*176 words · 5 links · meta description (155 chars):* Formula 1 perfume at Swansura UK: Carbon Reign eau de toilette 1.5ml race vial, pink and timut pepper over lavender and vetiver. Free UK delivery over £40.
+*169 words · 5 links · meta description (155 chars):* Formula 1 perfume at Swansura UK: Carbon Reign eau de toilette 1.5ml race vial, pink and timut pepper over lavender and vetiver. Free UK delivery over £40.
 
 **Formula 1 perfume: Carbon Reign race vial**
 
@@ -382,7 +382,7 @@ Carbon Reign opens with pink pepper and timut pepper, a bright, slightly citrusy
 
 **Why a vial**
 
-At 1.5ml, the race vial is the easiest way to try the scent before you buy a full bottle elsewhere, and it fits in a pocket, a wash bag or a stocking. Add it to an order as a small extra, or pair it with a full-size bottle as a gift.
+At 1.5ml, the race vial is an easy way to try the scent, and it fits in a pocket, a wash bag or a stocking. Add it to an order as a small extra, or pair it with a full-size bottle as a gift.
 
 
 **More like this**
@@ -429,7 +429,7 @@ Extra FAQs: *What is Franck Olivier Collection Privée?* A line of 100ml 'le par
 
 ## Armand Basi perfume — /collections/armand-basi
 
-*160 words · 5 links · meta description (145 chars):* Armand Basi perfume at Swansura UK: In Red eau de parfum 100ml, ginger and bergamot over jasmine, rose and white musk. Free UK delivery over £40.
+*157 words · 5 links · meta description (145 chars):* Armand Basi perfume at Swansura UK: In Red eau de parfum 100ml, ginger and bergamot over jasmine, rose and white musk. Free UK delivery over £40.
 
 **Armand Basi perfume: In Red eau de parfum**
 
@@ -443,7 +443,7 @@ In Red opens with ginger, bergamot, mandarin and cardamom, so it starts bright w
 
 **A generous bottle**
 
-The 100ml eau de parfum is good value for everyday use and a smart choice for a gift. You will find it in our <a href="/collections/gifts-25-to-50">gifts £25 to £50</a> edit.
+The 100ml eau de parfum is good value for everyday use and a smart choice for a gift. It sits in our <a href="/collections/price-25-50">£25 to £50</a> range.
 
 
 **More like this**
@@ -532,7 +532,7 @@ As the name says, blackcurrant (cassis) and pink pepper lead the way: juicy, tar
 
 **Good value for everyday wear**
 
-The 100ml eau de toilette is a generous bottle at a friendly price, so it is easy to wear daily without saving it for best. Spray it on pulse points after a shower for the most even finish. It also suits our <a href="/collections/gifts-under-25">gifts under £25</a>.
+The 100ml eau de toilette is a generous bottle at a friendly price, so it is easy to wear daily without saving it for best. Spray it on pulse points after a shower for the most even finish. It sits in our <a href="/collections/price-15-25">£15 to £25</a> range.
 
 
 **More like this**
@@ -579,7 +579,7 @@ Extra FAQs: *Which Attar Collection perfume should I start with?* Crystal Love f
 
 ## Fomo perfume — /collections/fomo
 
-*160 words · 7 links · meta description (154 chars):* Fomo perfume at Swansura UK: Gary's Den and Envy le parfum, Fraglover's Tea and Essence of The Other World extraits, all 100ml. Free UK delivery over £40.
+*160 words · 7 links · meta description (132 chars):* Fomo perfume at Swansura UK: Gary's Den, Envy, Fraglover's Tea and Essence of The Other World, all 100ml. Free UK delivery over £40.
 
 **Fomo perfume: Gary's Den, Envy and the extraits**
 
@@ -635,7 +635,7 @@ Extra FAQs: *Which Adi Guru perfume should I choose?* Harmony is fresh with citr
 
 ## Fun & Basics perfume — /collections/fun-basics
 
-*154 words · 7 links · meta description (143 chars):* Fun & Basics perfume at Swansura UK: Be Fun and Funtastic for men and women, 100ml at an easy price. 100% authentic, free UK delivery over £40.
+*153 words · 6 links · meta description (143 chars):* Fun & Basics perfume at Swansura UK: Be Fun and Funtastic for men and women, 100ml at an easy price. 100% authentic, free UK delivery over £40.
 
 **Fun & Basics perfume: Be Fun and Funtastic**
 
@@ -654,7 +654,7 @@ Fun &amp; Basics perfume at Swansura is a playful, good-value line: four 100ml b
 
 **An easy gift**
 
-At under £20 for a full 100ml, these suit our <a href="/collections/gifts-under-25">gifts under £25</a> and <a href="/collections/stocking-fillers">stocking fillers</a>, or compare with <a href="/collections/franck-olivier">Franck Olivier</a>. Every Fun &amp; Basics perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
+At under £20 for a full 100ml, these sit in our <a href="/collections/price-15-25">£15 to £25</a> range; compare them with <a href="/collections/franck-olivier">Franck Olivier</a>. Every Fun &amp; Basics perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
 
 
 Extra FAQs: *Which Fun & Basics perfume should I choose?* Be Fun Man is a coffee, chocolate and leather scent; Be Fun Women is fruity with lemon, peach and apple; Funtastic Man and Funtastic Woman are fresh citrus scents with warm woody bases.
@@ -696,11 +696,11 @@ Extra FAQs: *What do Inaaya perfumes smell like?* Mostly warm and sweet: Amal ha
 
 ## Natural By Woods perfume — /collections/natural-by-woods
 
-*211 words · 5 links · meta description (160 chars):* Natural By Woods perfume at Swansura UK: 100ml eaux de parfum with a travel atomiser, from Bloom to Royal Night, and a discovery set. Free UK delivery over £40.
+*212 words · 5 links · meta description (160 chars):* Natural By Woods perfume at Swansura UK: 100ml eaux de parfum with a travel atomiser, from Bloom to Royal Night, and a discovery set. Free UK delivery over £40.
 
 **Natural By Woods perfume with travel atomisers**
 
-Natural By Woods perfume at Swansura comes in a handy format: each scent is a 100ml eau de parfum with a travel atomiser, from £38.99, so you have a bottle for home and a refill for your bag.
+Natural By Woods perfume at Swansura comes in a handy format: each scent is a 100ml eau de parfum with a travel atomiser, from £38.99, so you have a bottle for home and a travel spray for your bag.
 
 
 **Fresh and bright**
@@ -757,7 +757,7 @@ Extra FAQs: *Which Unlimited perfume should I choose?* Desire is fresh with lemo
 
 ## Maison de Milan perfume — /collections/maison-de-milan
 
-*193 words · 5 links · meta description (151 chars):* Maison de Milan perfume at Swansura UK: Milano Girl, Amalfi Bleu, L'Homme Suave, Opulent Gold and more, 100ml EDP under £20. Free UK delivery over £40.
+*195 words · 5 links · meta description (151 chars):* Maison de Milan perfume at Swansura UK: Milano Girl, Amalfi Bleu, L'Homme Suave, Opulent Gold and more, 100ml EDP under £20. Free UK delivery over £40.
 
 **Maison de Milan perfume: Milano Girl, Amalfi Bleu and more**
 
@@ -776,7 +776,7 @@ The Milano Girl trio covers three moods: <a href="/products/maison-de-milan-mila
 
 **Good value for everyday wear**
 
-With most bottles under £20, these suit our <a href="/collections/gifts-under-25">gifts under £25</a> and are an easy way to try a new style. Compare them with other <a href="/collections/perfume-for-women">perfume for women</a> or <a href="/collections/franck-olivier">Franck Olivier</a>. Every Maison de Milan perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
+With most bottles under £20, these sit in our <a href="/collections/price-15-25">£15 to £25</a> range and are an easy way to try a new style. Compare them with other <a href="/collections/perfume-for-women">perfume for women</a> or <a href="/collections/franck-olivier">Franck Olivier</a>. Every Maison de Milan perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
 
 
 Extra FAQs: *Which Maison de Milan perfume is for men?* Amalfi Bleu and L'Homme Suave are for men; Brave Lad, M, Opulent Gold and Valiant Pour Homme are unisex; the rest are for women.
@@ -785,7 +785,7 @@ Extra FAQs: *Which Maison de Milan perfume is for men?* Amalfi Bleu and L'Homme 
 
 ## Chris Adams perfume — /collections/chris-adams
 
-*172 words · 6 links · meta description (153 chars):* Chris Adams perfume at Swansura UK: CA DX 77 Pour Homme eau de parfum and Black Shadow Pour Homme eau de toilette, 100ml each. Free UK delivery over £40.
+*170 words · 5 links · meta description (153 chars):* Chris Adams perfume at Swansura UK: CA DX 77 Pour Homme eau de parfum and Black Shadow Pour Homme eau de toilette, 100ml each. Free UK delivery over £40.
 
 **Chris Adams perfume for men**
 
@@ -804,7 +804,7 @@ Chris Adams perfume at Swansura is two 100ml bottles for men, both under £15, m
 
 **Easy gifts**
 
-At these prices, both suit our <a href="/collections/stocking-fillers">stocking fillers</a> and <a href="/collections/gifts-under-25">gifts under £25</a>, or pair one with a shower gel from our <a href="/collections/mens-grooming">men's grooming</a> edit. See more <a href="/collections/perfume-for-men">perfume for men</a>. Every Chris Adams perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
+At these prices, both sit in our <a href="/collections/price-0-15">under £15</a> range, or pair one with a shower gel from our <a href="/collections/mens-grooming">men's grooming</a> edit. See more <a href="/collections/perfume-for-men">perfume for men</a>. Every Chris Adams perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.
 
 
 Extra FAQs: *Which Chris Adams perfume do you sell?* CA DX 77 Pour Homme Eau de Parfum 100ml (citrus and bergamot) and Black Shadow Pour Homme Eau de Toilette 100ml (a chypre scent), both for men.

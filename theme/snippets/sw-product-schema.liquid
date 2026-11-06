@@ -20,7 +20,8 @@
 -%}
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","@id":{{ url | append: '#product' | json }},"name":{{ product.title | json }},"url":{{ url | json }},"description":{{ desc | json }},"brand":{"@type":"Brand","name":{{ product.vendor | json }}}
 {%- if product.type != blank -%},"category":{{ product.type | json }}{%- endif -%}
-,"image":[{%- for m in product.images limit: 6 -%}{{ m | image_url: width: 1200 | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]
+{%- comment -%} no image key until the product has photos (an empty image array is an invalid Product item) {%- endcomment -%}
+{%- if product.images.size > 0 -%},"image":[{%- for m in product.images limit: 6 -%}{{ m | image_url: width: 1200 | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]{%- endif -%}
 {%- if product.selected_or_first_available_variant.sku != blank -%},"sku":{{ product.selected_or_first_available_variant.sku | json }}{%- endif -%}
 ,"offers":[
 {%- for v in product.variants -%}

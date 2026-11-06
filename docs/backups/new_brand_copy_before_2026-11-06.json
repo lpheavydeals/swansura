@@ -1,0 +1,2589 @@
+{
+ "taken": "2026-11-06",
+ "note": "before new_brand_copy apply: 30 collections (seo + custom metafields) and menus sw-main, sw-footer-brands, sw-drawer",
+ "collections": [
+  {
+   "id": "gid://shopify/Collection/714296426883",
+   "handle": "adi-guru",
+   "title": "Adi Guru",
+   "seo": {
+    "title": "Adi Guru Perfume | Shop at Swansura UK",
+    "description": "Shop Adi Guru perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824688427395",
+    "value": "Adi Guru Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824688492931",
+    "value": "[[\"Is Adi Guru at Swansura genuine?\",\"Yes. Every Adi Guru product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Adi Guru delivery?\",\"All Adi Guru orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824688460163",
+    "value": "{\"name\":\"Adi Guru\",\"world\":\"scent\",\"partner\":false,\"line\":\"Eaux de parfum\",\"story\":\"Adi Guru at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296459651",
+   "handle": "afnan",
+   "title": "Afnan",
+   "seo": {
+    "title": "Afnan Perfume | Shop at Swansura UK",
+    "description": "Shop Afnan perfume at Swansura: 3 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689017219",
+    "value": "Afnan Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689082755",
+    "value": "[[\"Is Afnan at Swansura genuine?\",\"Yes. Every Afnan product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Afnan delivery?\",\"All Afnan orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689049987",
+    "value": "{\"name\":\"Afnan\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Afnan at Swansura: 3 products, 100% authentic and shipped from the UK.\",\"count\":3,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296492419",
+   "handle": "arabiyat-prestige",
+   "title": "Arabiyat Prestige",
+   "seo": {
+    "title": "Arabiyat Prestige Perfume | Shop at Swansura UK",
+    "description": "Shop Arabiyat Prestige perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689181059",
+    "value": "Arabiyat Prestige Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689246595",
+    "value": "[[\"Is Arabiyat Prestige at Swansura genuine?\",\"Yes. Every Arabiyat Prestige product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Arabiyat Prestige delivery?\",\"All Arabiyat Prestige orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689213827",
+    "value": "{\"name\":\"Arabiyat Prestige\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Arabiyat Prestige at Swansura: 2 products, 100% authentic and shipped from the UK.\",\"count\":2,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296525187",
+   "handle": "armand-basi",
+   "title": "Armand Basi",
+   "seo": {
+    "title": "Armand Basi Perfume | Shop at Swansura UK",
+    "description": "Shop Armand Basi perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689344899",
+    "value": "Armand Basi Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689410435",
+    "value": "[[\"Is Armand Basi at Swansura genuine?\",\"Yes. Every Armand Basi product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Armand Basi delivery?\",\"All Armand Basi orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689377667",
+    "value": "{\"name\":\"Armand Basi\",\"world\":\"scent\",\"partner\":false,\"line\":\"Spanish fashion fragrances\",\"story\":\"Armand Basi at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296557955",
+   "handle": "attar-collection",
+   "title": "Attar Collection",
+   "seo": {
+    "title": "Attar Collection Perfume | Shop at Swansura UK",
+    "description": "Shop Attar Collection perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689508739",
+    "value": "Attar Collection Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689574275",
+    "value": "[[\"Is Attar Collection at Swansura genuine?\",\"Yes. Every Attar Collection product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Attar Collection delivery?\",\"All Attar Collection orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689541507",
+    "value": "{\"name\":\"Attar Collection\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian-inspired eaux de parfum\",\"story\":\"Attar Collection at Swansura: 6 products, 100% authentic and shipped from the UK.\",\"count\":6,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296590723",
+   "handle": "bois-1920",
+   "title": "Bois 1920",
+   "seo": {
+    "title": "Bois 1920 Perfume | Shop at Swansura UK",
+    "description": "Shop Bois 1920 perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689672579",
+    "value": "Bois 1920 Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689738115",
+    "value": "[[\"Is Bois 1920 at Swansura genuine?\",\"Yes. Every Bois 1920 product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Bois 1920 delivery?\",\"All Bois 1920 orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689705347",
+    "value": "{\"name\":\"Bois 1920\",\"world\":\"scent\",\"partner\":false,\"line\":\"Italian niche perfumes\",\"story\":\"Bois 1920 at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296623491",
+   "handle": "fomo",
+   "title": "Fomo",
+   "seo": {
+    "title": "Fomo Perfume | Shop at Swansura UK",
+    "description": "Shop Fomo perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824689836419",
+    "value": "Fomo Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824689901955",
+    "value": "[[\"Is Fomo at Swansura genuine?\",\"Yes. Every Fomo product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Fomo delivery?\",\"All Fomo orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824689869187",
+    "value": "{\"name\":\"Fomo\",\"world\":\"scent\",\"partner\":false,\"line\":\"Niche extraits de parfum\",\"story\":\"Fomo at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296656259",
+   "handle": "formula-1",
+   "title": "Formula 1",
+   "seo": {
+    "title": "Formula 1 Perfume | Shop at Swansura UK",
+    "description": "Shop Formula 1 perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824690000259",
+    "value": "Formula 1 Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824690065795",
+    "value": "[[\"Is Formula 1 at Swansura genuine?\",\"Yes. Every Formula 1 product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Formula 1 delivery?\",\"All Formula 1 orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824690033027",
+    "value": "{\"name\":\"Formula 1\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances inspired by racing\",\"story\":\"Formula 1 at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296689027",
+   "handle": "franck-olivier",
+   "title": "Franck Olivier",
+   "seo": {
+    "title": "Franck Olivier Perfume | Shop at Swansura UK",
+    "description": "Shop Franck Olivier perfume at Swansura: 40 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824690327939",
+    "value": "Franck Olivier Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824690393475",
+    "value": "[[\"Is Franck Olivier at Swansura genuine?\",\"Yes. Every Franck Olivier product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Franck Olivier delivery?\",\"All Franck Olivier orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824690360707",
+    "value": "{\"name\":\"Franck Olivier\",\"world\":\"scent\",\"partner\":false,\"line\":\"French-style perfumes at everyday prices\",\"story\":\"Franck Olivier at Swansura: 40 products, 100% authentic and shipped from the UK.\",\"count\":40,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296721795",
+   "handle": "fun-basics",
+   "title": "Fun & Basics",
+   "seo": {
+    "title": "Fun & Basics Perfume | Shop at Swansura UK",
+    "description": "Shop Fun & Basics perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824690655619",
+    "value": "Fun & Basics Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824690721155",
+    "value": "[[\"Is Fun & Basics at Swansura genuine?\",\"Yes. Every Fun & Basics product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Fun & Basics delivery?\",\"All Fun & Basics orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824690688387",
+    "value": "{\"name\":\"Fun & Basics\",\"world\":\"scent\",\"partner\":false,\"line\":\"Body mists and fragrances\",\"story\":\"Fun & Basics at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296754563",
+   "handle": "guess",
+   "title": "Guess",
+   "seo": {
+    "title": "Guess Perfume | Shop at Swansura UK",
+    "description": "Shop Guess perfume at Swansura: 43 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824690819459",
+    "value": "Guess Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824690884995",
+    "value": "[[\"Is Guess at Swansura genuine?\",\"Yes. Every Guess product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Guess delivery?\",\"All Guess orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824690852227",
+    "value": "{\"name\":\"Guess\",\"world\":\"scent\",\"partner\":false,\"line\":\"American fashion fragrances and body mists\",\"story\":\"Guess at Swansura: 43 products, 100% authentic and shipped from the UK.\",\"count\":43,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296787331",
+   "handle": "inaaya",
+   "title": "Inaaya",
+   "seo": {
+    "title": "Inaaya Perfume | Shop at Swansura UK",
+    "description": "Shop Inaaya perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824690983299",
+    "value": "Inaaya Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824691048835",
+    "value": "[[\"Is Inaaya at Swansura genuine?\",\"Yes. Every Inaaya product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Inaaya delivery?\",\"All Inaaya orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824691016067",
+    "value": "{\"name\":\"Inaaya\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian-inspired eaux de parfum\",\"story\":\"Inaaya at Swansura: 6 products, 100% authentic and shipped from the UK.\",\"count\":6,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296852867",
+   "handle": "jaguar",
+   "title": "Jaguar",
+   "seo": {
+    "title": "Jaguar Perfume | Shop at Swansura UK",
+    "description": "Shop Jaguar perfume at Swansura: 5 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824882807171",
+    "value": "Jaguar Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824882872707",
+    "value": "[[\"Is Jaguar at Swansura genuine?\",\"Yes. Every Jaguar product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Jaguar delivery?\",\"All Jaguar orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824882839939",
+    "value": "{\"name\":\"Jaguar\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances for men\",\"story\":\"Jaguar at Swansura: 5 products, 100% authentic and shipped from the UK.\",\"count\":5,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296885635",
+   "handle": "lattafa",
+   "title": "Lattafa",
+   "seo": {
+    "title": "Lattafa Perfume | Shop at Swansura UK",
+    "description": "Shop Lattafa perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824882971011",
+    "value": "Lattafa Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883036547",
+    "value": "[[\"Is Lattafa at Swansura genuine?\",\"Yes. Every Lattafa product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Lattafa delivery?\",\"All Lattafa orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883003779",
+    "value": "{\"name\":\"Lattafa\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Lattafa at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296918403",
+   "handle": "maison-alhambra",
+   "title": "Maison Alhambra",
+   "seo": {
+    "title": "Maison Alhambra Perfume | Shop at Swansura UK",
+    "description": "Shop Maison Alhambra perfume at Swansura: 25 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824883233155",
+    "value": "Maison Alhambra Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883298691",
+    "value": "[[\"Is Maison Alhambra at Swansura genuine?\",\"Yes. Every Maison Alhambra product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Maison Alhambra delivery?\",\"All Maison Alhambra orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883265923",
+    "value": "{\"name\":\"Maison Alhambra\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian-inspired eaux de parfum\",\"story\":\"Maison Alhambra at Swansura: 25 products, 100% authentic and shipped from the UK.\",\"count\":25,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296951171",
+   "handle": "mercedes-benz",
+   "title": "Mercedes-Benz",
+   "seo": {
+    "title": "Mercedes-Benz Perfume | Shop at Swansura UK",
+    "description": "Shop Mercedes-Benz perfume at Swansura: 6 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824883396995",
+    "value": "Mercedes-Benz Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883462531",
+    "value": "[[\"Is Mercedes-Benz at Swansura genuine?\",\"Yes. Every Mercedes-Benz product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Mercedes-Benz delivery?\",\"All Mercedes-Benz orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883429763",
+    "value": "{\"name\":\"Mercedes-Benz\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances for men\",\"story\":\"Mercedes-Benz at Swansura: 6 products, 100% authentic and shipped from the UK.\",\"count\":6,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714296983939",
+   "handle": "natural-by-woods",
+   "title": "Natural By Woods",
+   "seo": {
+    "title": "Natural By Woods Perfume | Shop at Swansura UK",
+    "description": "Shop Natural By Woods perfume at Swansura: 13 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824883560835",
+    "value": "Natural By Woods Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883626371",
+    "value": "[[\"Is Natural By Woods at Swansura genuine?\",\"Yes. Every Natural By Woods product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Natural By Woods delivery?\",\"All Natural By Woods orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883593603",
+    "value": "{\"name\":\"Natural By Woods\",\"world\":\"scent\",\"partner\":false,\"line\":\"Woody niche eaux de parfum\",\"story\":\"Natural By Woods at Swansura: 13 products, 100% authentic and shipped from the UK.\",\"count\":13,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297016707",
+   "handle": "notebook",
+   "title": "Notebook",
+   "seo": {
+    "title": "Notebook Perfume | Shop at Swansura UK",
+    "description": "Shop Notebook perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824883724675",
+    "value": "Notebook Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883790211",
+    "value": "[[\"Is Notebook at Swansura genuine?\",\"Yes. Every Notebook product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Notebook delivery?\",\"All Notebook orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883757443",
+    "value": "{\"name\":\"Notebook\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances\",\"story\":\"Notebook at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297049475",
+   "handle": "rasasi",
+   "title": "Rasasi",
+   "seo": {
+    "title": "Rasasi Perfume | Shop at Swansura UK",
+    "description": "Shop Rasasi perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824883921283",
+    "value": "Rasasi Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824883986819",
+    "value": "[[\"Is Rasasi at Swansura genuine?\",\"Yes. Every Rasasi product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Rasasi delivery?\",\"All Rasasi orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824883954051",
+    "value": "{\"name\":\"Rasasi\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Rasasi at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297082243",
+   "handle": "swiss-arabian",
+   "title": "Swiss Arabian",
+   "seo": {
+    "title": "Swiss Arabian Perfume | Shop at Swansura UK",
+    "description": "Shop Swiss Arabian perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824884085123",
+    "value": "Swiss Arabian Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824884150659",
+    "value": "[[\"Is Swiss Arabian at Swansura genuine?\",\"Yes. Every Swiss Arabian product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Swiss Arabian delivery?\",\"All Swiss Arabian orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824884117891",
+    "value": "{\"name\":\"Swiss Arabian\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Swiss Arabian at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297115011",
+   "handle": "tous",
+   "title": "Tous",
+   "seo": {
+    "title": "Tous Perfume | Shop at Swansura UK",
+    "description": "Shop Tous perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824884347267",
+    "value": "Tous Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824884412803",
+    "value": "[[\"Is Tous at Swansura genuine?\",\"Yes. Every Tous product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Tous delivery?\",\"All Tous orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824884380035",
+    "value": "{\"name\":\"Tous\",\"world\":\"scent\",\"partner\":false,\"line\":\"Spanish fashion fragrances\",\"story\":\"Tous at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297147779",
+   "handle": "unlimited",
+   "title": "Unlimited",
+   "seo": {
+    "title": "Unlimited Perfume | Shop at Swansura UK",
+    "description": "Shop Unlimited perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824884576643",
+    "value": "Unlimited Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824884642179",
+    "value": "[[\"Is Unlimited at Swansura genuine?\",\"Yes. Every Unlimited product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Unlimited delivery?\",\"All Unlimited orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824884609411",
+    "value": "{\"name\":\"Unlimited\",\"world\":\"scent\",\"partner\":false,\"line\":\"Eaux de parfum\",\"story\":\"Unlimited at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297180547",
+   "handle": "vera-wang",
+   "title": "Vera Wang",
+   "seo": {
+    "title": "Vera Wang Perfume | Shop at Swansura UK",
+    "description": "Shop Vera Wang perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824884773251",
+    "value": "Vera Wang Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824884838787",
+    "value": "[[\"Is Vera Wang at Swansura genuine?\",\"Yes. Every Vera Wang product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Vera Wang delivery?\",\"All Vera Wang orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824884806019",
+    "value": "{\"name\":\"Vera Wang\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances for women\",\"story\":\"Vera Wang at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/705881833859",
+   "handle": "david-beckham",
+   "title": "David Beckham",
+   "seo": {
+    "title": "David Beckham Perfume | Shop at Swansura UK",
+    "description": "Shop David Beckham perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204824923931011",
+    "value": "David Beckham Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204824923996547",
+    "value": "[[\"Is David Beckham at Swansura genuine?\",\"Yes. Every David Beckham product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is David Beckham delivery?\",\"All David Beckham orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204824923963779",
+    "value": "{\"name\":\"David Beckham\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrances\",\"story\":\"David Beckham at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297246083",
+   "handle": "maison-de-milan",
+   "title": "Maison de Milan",
+   "seo": {
+    "title": "Maison de Milan Perfume | Shop at Swansura UK",
+    "description": "Shop Maison de Milan perfume at Swansura: 14 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204825126076803",
+    "value": "Maison de Milan Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204825126142339",
+    "value": "[[\"Is Maison de Milan at Swansura genuine?\",\"Yes. Every Maison de Milan product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Maison de Milan delivery?\",\"All Maison de Milan orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204825126109571",
+    "value": "{\"name\":\"Maison de Milan\",\"world\":\"scent\",\"partner\":false,\"line\":\"Italian-inspired eaux de parfum\",\"story\":\"Maison de Milan at Swansura: 14 products, 100% authentic and shipped from the UK.\",\"count\":14,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297278851",
+   "handle": "chris-adams",
+   "title": "Chris Adams",
+   "seo": {
+    "title": "Chris Adams Perfume | Shop at Swansura UK",
+    "description": "Shop Chris Adams perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204825126240643",
+    "value": "Chris Adams Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204825126306179",
+    "value": "[[\"Is Chris Adams at Swansura genuine?\",\"Yes. Every Chris Adams product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Chris Adams delivery?\",\"All Chris Adams orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204825126273411",
+    "value": "{\"name\":\"Chris Adams\",\"world\":\"scent\",\"partner\":false,\"line\":\"Eaux de parfum and eaux de toilette for men\",\"story\":\"Chris Adams at Swansura: 2 products, 100% authentic and shipped from the UK.\",\"count\":2,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714297311619",
+   "handle": "rihanah",
+   "title": "Rihanah",
+   "seo": {
+    "title": "Rihanah Perfume | Shop at Swansura UK",
+    "description": "Shop Rihanah perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204825126404483",
+    "value": "Rihanah Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": null,
+   "cp": null,
+   "faq": {
+    "id": "gid://shopify/Metafield/204825126470019",
+    "value": "[[\"Is Rihanah at Swansura genuine?\",\"Yes. Every Rihanah product at Swansura is 100% authentic and ships from the UK.\"],[\"How fast is Rihanah delivery?\",\"All Rihanah orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204825126437251",
+    "value": "{\"name\":\"Rihanah\",\"world\":\"scent\",\"partner\":false,\"line\":\"Arabian perfume house\",\"story\":\"Rihanah at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/713388917123",
+   "handle": "armaf",
+   "title": "Armaf",
+   "seo": {
+    "title": "Armaf Perfume | Shop at Swansura UK",
+    "description": "Armaf perfume is popular for confident scents at friendly prices. 100% authentic, shipped from the UK, free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204431896641923",
+    "value": "Armaf Perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": {
+    "id": "gid://shopify/Metafield/204431896674691",
+    "value": "Armaf perfume: Hunter Eau de Parfum",
+    "type": "single_line_text_field"
+   },
+   "cp": {
+    "id": "gid://shopify/Metafield/204431896707459",
+    "value": "<p>Armaf perfume is popular for confident scents at friendly prices. At Swansura we stock one bottle from the house, the Armaf Hunter Eau de Parfum 100ml, at £22.99.</p><p>Armaf Hunter is a fresh, modern men's scent. Bright citrus and herbal notes open it up, then spices, cedarwood and musk give it a clean, woody finish that suits everyday wear. The generous 100ml bottle makes it good value if you want one dependable bottle for work and weekends. It has the kind of easy, crowd-pleasing character that makes Armaf perfume a popular choice as a present.</p><p>If you are looking for Armaf perfume for men alongside other options, compare it with our <a href=\"/search?type=product&q=woody\">woody fragrances</a> and <a href=\"/search?type=product&q=perfume+for+men\">perfume for men</a> edits, or see more bottles in the <a href=\"/collections/all?filter.v.price.gte=15&amp;filter.v.price.lte=25\">£15 to £25</a> range.</p><p>The Armaf Hunter Eau de Parfum is 100% authentic and ships from the UK. Add a second item to pass £40 and UK delivery is free.</p>",
+    "type": "multi_line_text_field"
+   },
+   "faq": {
+    "id": "gid://shopify/Metafield/204448304103811",
+    "value": "[[\"Is Armaf at Swansura genuine?\",\"Yes. Every Armaf product at Swansura is 100% authentic and ships from the UK.\"],[\"Which Armaf products do you stock?\",\"1 product, from £22.99 to £22.99: for him (1).\"],[\"Does Armaf come in miniatures or gift sets?\",\"Not at the moment. Every Armaf product we stock is listed above.\"],[\"How fast is Armaf delivery?\",\"All Armaf orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.\"]]",
+    "type": "json"
+   },
+   "br": {
+    "id": "gid://shopify/Metafield/204452781359491",
+    "value": "{\"name\":\"Armaf\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrance house\",\"story\":\"Armaf at Swansura: 1 product, 100% authentic and shipped from the UK.\",\"count\":1,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}",
+    "type": "json"
+   },
+   "rel": null
+  },
+  {
+   "id": "gid://shopify/Collection/714070786435",
+   "handle": "oud-perfume",
+   "title": "Oud perfume",
+   "seo": {
+    "title": "Oud Perfume | Shop at Swansura UK",
+    "description": "Oud perfume is built around agarwood, a dark, resinous material with a smoky, woody depth that lasts for hours on skin. Free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204447400362371",
+    "value": "Oud perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": {
+    "id": "gid://shopify/Metafield/204447400427907",
+    "value": "Oud perfume from Arabian, niche and designer houses",
+    "type": "single_line_text_field"
+   },
+   "cp": {
+    "id": "gid://shopify/Metafield/204447400460675",
+    "value": "<p>Oud perfume is built around agarwood, a dark, resinous material with a smoky, woody depth that lasts for hours on skin. This edit brings together 27 oud fragrances from Arabian, niche and designer houses, from £19.99, so you can find the style that suits you.</p><h3>Arabian classics</h3><p>Al Haramain's Amber Oud family is the easiest way in. Amber Oud Gold Edition (£29.99) is rich and sweet, the Tobacco Edition (£34.99) is warm and smoky, and Amber Oud Black Edition (£41.99) is deep and bold. La Maison de la Vanille Royal Oud (£19.99) adds a soft vanilla side, and Fumeri Oud Saffron for Men (£23.95) and SAP Saffron Oud (£37.95) pair the resin with spicy saffron.</p><h3>Niche and designer oud</h3><p>For something rarer, Montale's Aoud Safran (£54.99) and Aoud Damascus (£52.99) blend oud with saffron and rose, while Mancera Black Noir (£69.99) is dark and rich. Tiziana Terenzi's Gold Rose Oudh Extrait (£84.99) is a concentrated rose and oud. From the designer houses, Gucci Intense Oud (£73.99), Guerlain Oud Essentiel (£94.99) and Tom Ford Oud Wood (from £115.99) are smoother takes on the note. Acqua di Parma Oud &amp; Spice (20 ml, £40.99) comes in a handy smaller size.</p><p>Oud is strong, so start with one or two sprays on the wrists or neck. Most of these scents are unisex, and many pair oud with amber, rose or spices. Explore the <a href=\"/collections/scent-oud\">Oud fragrances</a> scent family, our <a href=\"/collections/arabian-perfume\">Arabian perfume</a> page or the <a href=\"/collections/al-haramain\">Al Haramain</a> collection.</p><p>Every bottle is 100% authentic. We dispatch from within the UK, which makes this a simple place to buy oud perfume online in the UK, with free delivery when you spend over £40.</p>",
+    "type": "multi_line_text_field"
+   },
+   "faq": {
+    "id": "gid://shopify/Metafield/204447400493443",
+    "value": "[[\"How much do these products cost?\",\"Prices run from £19.99 to £124.99.\"],[\"Are the products genuine?\",\"Yes. Every product at Swansura is 100% authentic. Swansura is an official UK partner of Deyga and Vilvah.\"],[\"How does delivery work?\",\"Every order ships from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout. See Delivery & returns for times and the returns policy.\"]]",
+    "type": "json"
+   },
+   "br": null,
+   "rel": {
+    "id": "gid://shopify/Metafield/204452637737347",
+    "value": "{\"facet_label\":\"\",\"facet\":[],\"chips\":[[\"Diwali gifts\",\"/collections/diwali-gifts\"],[\"Ramadan & Eid gifts\",\"/collections/ramadan-eid-gifts\"],[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Arabian perfume\",\"/collections/arabian-perfume\"],[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Gifts for him\",\"/collections/gifts-for-him\"],[\"Men's grooming\",\"/collections/mens-grooming\"]],\"explore\":[[\"All products\",\"/collections/all\"],[\"Skincare\",\"/collections/skincare\"],[\"Haircare\",\"/collections/haircare\"],[\"Bath & Body\",\"/collections/bodycare\"],[\"Fragrance\",\"/collections/fragrance\"],[\"Gifts & Sets\",\"/collections/sets-combos\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\"],[\"Fumeri\",\"/collections/fumeri\"],[\"Al Haramain\",\"/collections/al-haramain\"],[\"Gucci\",\"/collections/gucci\"],[\"Elie Saab\",\"/collections/elie-saab\"],[\"Acqua di Parma\",\"/collections/acqua-di-parma\"],[\"Korloff\",\"/collections/korloff\"],[\"Guerlain\",\"/collections/guerlain\"],[\"Tom Ford\",\"/collections/tom-ford\"],[\"Chopard\",\"/collections/chopard\"],[\"Hugo Boss\",\"/collections/hugo-boss\"],[\"SAP\",\"/collections/sap\"]]}",
+    "type": "json"
+   }
+  },
+  {
+   "id": "gid://shopify/Collection/714070819203",
+   "handle": "arabian-perfume",
+   "title": "Arabian perfume",
+   "seo": {
+    "title": "Arabian Perfume | Shop at Swansura UK",
+    "description": "Arabian perfume is known for rich, long-lasting blends of oud, amber, musk and rose. 100% authentic, shipped from the UK, free UK delivery over £40."
+   },
+   "h1": {
+    "id": "gid://shopify/Metafield/204447401345411",
+    "value": "Arabian perfume",
+    "type": "single_line_text_field"
+   },
+   "hd": {
+    "id": "gid://shopify/Metafield/204447401410947",
+    "value": "Arabian perfume: oud, amber and musk",
+    "type": "single_line_text_field"
+   },
+   "cp": {
+    "id": "gid://shopify/Metafield/204447401443715",
+    "value": "<p>Arabian perfume is known for rich, long-lasting blends of oud, amber, musk and rose. This edit gathers 33 fragrances from Al Haramain, Signature D'orient and Armaf, from £19.99, ranging from fresh everyday scents to deep evening blends.</p><h3>Al Haramain</h3><p>Al Haramain's L'Aventure (£27.99) is fresh and confident, L'Aventure Blanche (£24.99) is crisp and clean, and L'Aventure Intense (£30.99) is bolder. Detour Noir (£19.99) is warm and smooth. For a softer, skin-like scent, Amber Musk (£39.99) blends warm amber with musk, and the Amber Oud editions bring in the resinous side of the house.</p><h3>Signature D'orient</h3><p>Signature D'orient has a wide line of 100 ml eaux de parfum, many sold with a 15 ml travel spray. Signature Blue (£38.99) is fresh and modern, Signature Aura (£74.95) is soft and radiant with a refillable travel spray, and Black Pour Homme (£38.99) is smooth and masculine. If you prefer a clean musk perfume, Musk Eau De Parfum (£64.99) comes with a 15 ml spray and funnel. Not sure where to start? The Signature Discovery Set (10 x 10 ml, £75.99) lets you try ten scents before choosing a full bottle.</p><p>Rounding out the edit, Armaf Hunter (£22.99) is a fresh, confident scent for men, and Signature Le Femme Gold (£42.99) is radiant and feminine. Explore our <a href=\"/collections/oud-perfume\">oud perfume</a> page, the <a href=\"/collections/scent-amber\">Amber fragrances</a> family or the full <a href=\"/collections/signature-dorient\">Signature D'orient</a> range.</p><p>All fragrances are 100% authentic and sent from the UK, and delivery is free on orders over £40.</p>",
+    "type": "multi_line_text_field"
+   },
+   "faq": {
+    "id": "gid://shopify/Metafield/204447401476483",
+    "value": "[[\"How much do these products cost?\",\"Prices run from £19.99 to £75.99.\"],[\"Are the products genuine?\",\"Yes. Every product at Swansura is 100% authentic. Swansura is an official UK partner of Deyga and Vilvah.\"],[\"How does delivery work?\",\"Every order ships from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout. See Delivery & returns for times and the returns policy.\"]]",
+    "type": "json"
+   },
+   "br": null,
+   "rel": {
+    "id": "gid://shopify/Metafield/204452637770115",
+    "value": "{\"facet_label\":\"\",\"facet\":[],\"chips\":[[\"Ramadan & Eid gifts\",\"/collections/ramadan-eid-gifts\"],[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Diwali gifts\",\"/collections/diwali-gifts\"],[\"Oud perfume\",\"/collections/oud-perfume\"],[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Gifts for him\",\"/collections/gifts-for-him\"]],\"explore\":[[\"All products\",\"/collections/all\"],[\"Skincare\",\"/collections/skincare\"],[\"Haircare\",\"/collections/haircare\"],[\"Bath & Body\",\"/collections/bodycare\"],[\"Fragrance\",\"/collections/fragrance\"],[\"Gifts & Sets\",\"/collections/sets-combos\"],[\"Al Haramain\",\"/collections/al-haramain\"],[\"Signature D'orient\",\"/collections/signature-dorient\"],[\"Armaf\",\"/collections/armaf\"]]}",
+    "type": "json"
+   }
+  }
+ ],
+ "menus": [
+  {
+   "id": "gid://shopify/Menu/333156680067",
+   "handle": "sw-main",
+   "title": "Swansura main menu",
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/834005434755",
+     "title": "Skincare",
+     "type": "HTTP",
+     "url": "/collections/skincare",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834005467523",
+       "title": "By type",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834005500291",
+         "title": "Serums",
+         "type": "HTTP",
+         "url": "/collections/serum",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005533059",
+         "title": "Moisturisers",
+         "type": "HTTP",
+         "url": "/collections/moisturizers-gels",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005565827",
+         "title": "Masks",
+         "type": "HTTP",
+         "url": "/collections/face-mask-pack",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005598595",
+         "title": "Toners",
+         "type": "HTTP",
+         "url": "/collections/toner",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005631363",
+         "title": "Cleansers",
+         "type": "HTTP",
+         "url": "/collections/cleanser",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005664131",
+         "title": "Kits & routines",
+         "type": "HTTP",
+         "url": "/collections/skincare-tools-kits",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005696899",
+         "title": "Sun care",
+         "type": "HTTP",
+         "url": "/collections/sunscreen",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005729667",
+         "title": "Lip care",
+         "type": "HTTP",
+         "url": "/collections/lip-balm",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834005762435",
+       "title": "By concern",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834005795203",
+         "title": "Acne & oil control",
+         "type": "HTTP",
+         "url": "/collections/concern-acne",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005827971",
+         "title": "Glow & even tone",
+         "type": "HTTP",
+         "url": "/collections/concern-glow",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005860739",
+         "title": "Deep hydration",
+         "type": "HTTP",
+         "url": "/collections/concern-hydration",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005893507",
+         "title": "Lip care",
+         "type": "HTTP",
+         "url": "/collections/concern-lips",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005926275",
+         "title": "Sun care",
+         "type": "HTTP",
+         "url": "/collections/concern-sun",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834005959043",
+       "title": "Most searched",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834005991811",
+         "title": "Moisturiser for dry skin",
+         "type": "HTTP",
+         "url": "/collections/moisturiser-for-dry-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006024579",
+         "title": "Face wash for oily skin",
+         "type": "HTTP",
+         "url": "/collections/face-wash-for-oily-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006057347",
+         "title": "Face wash for dry skin",
+         "type": "HTTP",
+         "url": "/collections/face-wash-for-dry-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006090115",
+         "title": "Toner for dry skin",
+         "type": "HTTP",
+         "url": "/collections/toner-for-dry-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006122883",
+         "title": "Lip balm for dry lips",
+         "type": "HTTP",
+         "url": "/collections/lip-balm-for-dry-lips",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006155651",
+         "title": "Natural sunscreen",
+         "type": "HTTP",
+         "url": "/collections/natural-sunscreen",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834006188419",
+       "title": "Brands",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834006221187",
+         "title": "Deyga",
+         "type": "HTTP",
+         "url": "/collections/deyga",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006253955",
+         "title": "Vilvah",
+         "type": "HTTP",
+         "url": "/collections/vilvah",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006286723",
+         "title": "Highborn London",
+         "type": "HTTP",
+         "url": "/collections/highborn-london",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006319491",
+         "title": "Swansura Selection",
+         "type": "HTTP",
+         "url": "/collections/swansura-selection",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006352259",
+         "title": "Shiseido",
+         "type": "HTTP",
+         "url": "/collections/shiseido",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006385027",
+         "title": "Coach",
+         "type": "HTTP",
+         "url": "/collections/coach",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834006417795",
+     "title": "Haircare",
+     "type": "HTTP",
+     "url": "/collections/haircare",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834006450563",
+       "title": "By type",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834006483331",
+         "title": "Hair oil",
+         "type": "HTTP",
+         "url": "/collections/hair-oil",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006516099",
+         "title": "Kits & routines",
+         "type": "HTTP",
+         "url": "/collections/haircare-tools-kits",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006548867",
+         "title": "Shampoo",
+         "type": "HTTP",
+         "url": "/collections/shampoo",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006581635",
+         "title": "Moisturisers",
+         "type": "HTTP",
+         "url": "/collections/hair-styling-products",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006614403",
+         "title": "Serums",
+         "type": "HTTP",
+         "url": "/collections/hair-serum-for-frizzy-hair",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006647171",
+         "title": "Masks",
+         "type": "HTTP",
+         "url": "/collections/hair-mask",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006679939",
+         "title": "Conditioner",
+         "type": "HTTP",
+         "url": "/collections/conditioner",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834006712707",
+       "title": "By concern",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834006745475",
+         "title": "Hair fall",
+         "type": "HTTP",
+         "url": "/collections/concern-hairfall",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006778243",
+         "title": "Dandruff",
+         "type": "HTTP",
+         "url": "/collections/concern-dandruff",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006811011",
+         "title": "Deep hydration",
+         "type": "HTTP",
+         "url": "/collections/concern-hydration",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834006843779",
+       "title": "Most searched",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834006876547",
+         "title": "Hair oil for dry hair",
+         "type": "HTTP",
+         "url": "/collections/hair-oil-for-dry-hair",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006909315",
+         "title": "Hair mask for dry hair",
+         "type": "HTTP",
+         "url": "/collections/hair-mask-for-dry-hair",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006942083",
+         "title": "Shampoo for dandruff",
+         "type": "HTTP",
+         "url": "/collections/shampoo-for-dandruff",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834006974851",
+         "title": "Hair serum for frizzy hair",
+         "type": "HTTP",
+         "url": "/collections/hair-serum-for-frizzy-hair",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007007619",
+         "title": "Hair growth oil",
+         "type": "HTTP",
+         "url": "/collections/hair-growth-oil",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007040387",
+         "title": "Shampoo for hair loss",
+         "type": "HTTP",
+         "url": "/collections/shampoo-for-hair-loss",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834007073155",
+       "title": "Brands",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834007105923",
+         "title": "Deyga",
+         "type": "HTTP",
+         "url": "/collections/deyga",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007138691",
+         "title": "Vilvah",
+         "type": "HTTP",
+         "url": "/collections/vilvah",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834007171459",
+     "title": "Bath & Body",
+     "type": "HTTP",
+     "url": "/collections/bodycare",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834007204227",
+     "title": "Fragrance",
+     "type": "HTTP",
+     "url": "/collections/fragrance",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834007236995",
+       "title": "For",
+       "type": "HTTP",
+       "url": "/collections/fragrance",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834007269763",
+         "title": "For her",
+         "type": "HTTP",
+         "url": "/collections/perfume-for-women",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007302531",
+         "title": "For him",
+         "type": "HTTP",
+         "url": "/collections/perfume-for-men",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007335299",
+         "title": "Unisex",
+         "type": "HTTP",
+         "url": "/collections/unisex-perfume",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007368067",
+         "title": "Minis & sets",
+         "type": "HTTP",
+         "url": "/collections/perfume-gift-sets",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834007400835",
+       "title": "Scent family",
+       "type": "HTTP",
+       "url": "/collections/fragrance",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834007433603",
+         "title": "Oud",
+         "type": "HTTP",
+         "url": "/collections/scent-oud",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007466371",
+         "title": "Amber",
+         "type": "HTTP",
+         "url": "/collections/scent-amber",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007499139",
+         "title": "Floral",
+         "type": "HTTP",
+         "url": "/collections/scent-floral",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007531907",
+         "title": "Woody",
+         "type": "HTTP",
+         "url": "/collections/scent-woody",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007564675",
+         "title": "Fresh",
+         "type": "HTTP",
+         "url": "/collections/scent-fresh",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834007597443",
+       "title": "Houses",
+       "type": "HTTP",
+       "url": "/collections/fragrance",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834007630211",
+         "title": "anatomē",
+         "type": "HTTP",
+         "url": "/collections/anatome",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007662979",
+         "title": "Tiziana Terenzi",
+         "type": "HTTP",
+         "url": "/collections/tiziana-terenzi",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007695747",
+         "title": "Hemel",
+         "type": "HTTP",
+         "url": "/collections/hemel",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007728515",
+         "title": "Fumeri",
+         "type": "HTTP",
+         "url": "/collections/fumeri",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007761283",
+         "title": "Al Haramain",
+         "type": "HTTP",
+         "url": "/collections/al-haramain",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007794051",
+         "title": "Signature D'orient",
+         "type": "HTTP",
+         "url": "/collections/signature-dorient",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007826819",
+         "title": "Gucci",
+         "type": "HTTP",
+         "url": "/collections/gucci",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007859587",
+         "title": "Jo Milano",
+         "type": "HTTP",
+         "url": "/collections/jo-milano",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007892355",
+         "title": "Dunhill",
+         "type": "HTTP",
+         "url": "/collections/dunhill",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007925123",
+         "title": "Dolce & Gabbana",
+         "type": "HTTP",
+         "url": "/collections/dolce-gabbana",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834007957891",
+         "title": "All brands A–Z",
+         "type": "HTTP",
+         "url": "/collections",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834007990659",
+     "title": "Routines",
+     "type": "HTTP",
+     "url": "/pages/rituals",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834008023427",
+       "title": "Skincare routines",
+       "type": "HTTP",
+       "url": "/pages/rituals",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008056195",
+         "title": "Clear Skin Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008088963",
+         "title": "Vitamin C Glow Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008121731",
+         "title": "Deep Hydration Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008154499",
+         "title": "Milk Glow Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008187267",
+         "title": "Sensitive Skin Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008220035",
+         "title": "Age-Defying Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834008252803",
+       "title": "Hair routines",
+       "type": "HTTP",
+       "url": "/pages/rituals",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008285571",
+         "title": "Hair Fall Rescue",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008318339",
+         "title": "Smooth & Shine Routine",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008351107",
+         "title": "Calm Scalp Duo",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834008383875",
+       "title": "Body & bath",
+       "type": "HTTP",
+       "url": "/pages/rituals",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008416643",
+         "title": "Body Polish Ritual",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008449411",
+         "title": "Foot Spa at Home",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008482179",
+         "title": "Sleep Ritual",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008514947",
+         "title": "Lip Wardrobe",
+         "type": "HTTP",
+         "url": "/pages/rituals",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834008547715",
+     "title": "Gifts & Sets",
+     "type": "HTTP",
+     "url": "/collections/sets-combos",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834008580483",
+       "title": "Christmas 2026",
+       "type": "HTTP",
+       "url": "/collections/sets-combos",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008613251",
+         "title": "Advent calendars",
+         "type": "HTTP",
+         "url": "/pages/advent",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008646019",
+         "title": "Skin Studio Advent",
+         "type": "HTTP",
+         "url": "/pages/advent#skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008678787",
+         "title": "Scent Studio Advent",
+         "type": "HTTP",
+         "url": "/pages/advent#scent",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008711555",
+         "title": "Stocking fillers",
+         "type": "HTTP",
+         "url": "/collections/stocking-fillers",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834008744323",
+       "title": "By recipient",
+       "type": "HTTP",
+       "url": "/collections/sets-combos",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008777091",
+         "title": "Gifts for her",
+         "type": "HTTP",
+         "url": "/collections/gifts-for-her",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008809859",
+         "title": "Gifts for him",
+         "type": "HTTP",
+         "url": "/collections/gifts-for-him",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008842627",
+         "title": "Perfume gift sets",
+         "type": "HTTP",
+         "url": "/collections/perfume-gift-sets",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008875395",
+         "title": "All gift sets",
+         "type": "HTTP",
+         "url": "/collections/sets-combos",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834008908163",
+       "title": "By price & occasion",
+       "type": "HTTP",
+       "url": "/collections/sets-combos",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834008940931",
+         "title": "Under £25",
+         "type": "HTTP",
+         "url": "/collections/gifts-under-25",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834008973699",
+         "title": "£25 to £50",
+         "type": "HTTP",
+         "url": "/collections/gifts-25-to-50",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009006467",
+         "title": "Over £50",
+         "type": "HTTP",
+         "url": "/collections/gifts-over-50",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009039235",
+         "title": "Diwali gifts",
+         "type": "HTTP",
+         "url": "/collections/diwali-gifts",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009072003",
+         "title": "Ramadan & Eid gifts",
+         "type": "HTTP",
+         "url": "/collections/ramadan-eid-gifts",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834009104771",
+     "title": "Advent",
+     "type": "HTTP",
+     "url": "/pages/advent",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834009137539",
+     "title": "Brands",
+     "type": "HTTP",
+     "url": "/collections",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834009170307",
+       "title": "Skin Studio",
+       "type": "HTTP",
+       "url": "/collections",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834009203075",
+         "title": "Deyga · Official partner",
+         "type": "HTTP",
+         "url": "/collections/deyga",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009235843",
+         "title": "Vilvah · Official partner",
+         "type": "HTTP",
+         "url": "/collections/vilvah",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009268611",
+         "title": "Highborn London",
+         "type": "HTTP",
+         "url": "/collections/highborn-london",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009301379",
+         "title": "Swansura Selection",
+         "type": "HTTP",
+         "url": "/collections/swansura-selection",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009334147",
+         "title": "Shiseido",
+         "type": "HTTP",
+         "url": "/collections/shiseido",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009366915",
+         "title": "Coach",
+         "type": "HTTP",
+         "url": "/collections/coach",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834009399683",
+       "title": "Scent Studio",
+       "type": "HTTP",
+       "url": "/collections",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834009432451",
+         "title": "anatomē",
+         "type": "HTTP",
+         "url": "/collections/anatome",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009465219",
+         "title": "Tiziana Terenzi",
+         "type": "HTTP",
+         "url": "/collections/tiziana-terenzi",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009497987",
+         "title": "Hemel",
+         "type": "HTTP",
+         "url": "/collections/hemel",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009530755",
+         "title": "Fumeri",
+         "type": "HTTP",
+         "url": "/collections/fumeri",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009563523",
+         "title": "Al Haramain",
+         "type": "HTTP",
+         "url": "/collections/al-haramain",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009596291",
+         "title": "Signature D'orient",
+         "type": "HTTP",
+         "url": "/collections/signature-dorient",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009629059",
+         "title": "Gucci",
+         "type": "HTTP",
+         "url": "/collections/gucci",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009661827",
+         "title": "Jo Milano",
+         "type": "HTTP",
+         "url": "/collections/jo-milano",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009694595",
+         "title": "Dunhill",
+         "type": "HTTP",
+         "url": "/collections/dunhill",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009727363",
+         "title": "Dolce & Gabbana",
+         "type": "HTTP",
+         "url": "/collections/dolce-gabbana",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834009760131",
+       "title": "More houses",
+       "type": "HTTP",
+       "url": "/collections",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834009792899",
+         "title": "Bentley",
+         "type": "HTTP",
+         "url": "/collections/bentley",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009825667",
+         "title": "The Woods Collection",
+         "type": "HTTP",
+         "url": "/collections/the-woods-collection",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009858435",
+         "title": "Calvin Klein",
+         "type": "HTTP",
+         "url": "/collections/calvin-klein",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009891203",
+         "title": "Elie Saab",
+         "type": "HTTP",
+         "url": "/collections/elie-saab",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009923971",
+         "title": "Acqua di Parma",
+         "type": "HTTP",
+         "url": "/collections/acqua-di-parma",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009956739",
+         "title": "Korloff",
+         "type": "HTTP",
+         "url": "/collections/korloff",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834009989507",
+         "title": "Guerlain",
+         "type": "HTTP",
+         "url": "/collections/guerlain",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834010022275",
+         "title": "Bvlgari",
+         "type": "HTTP",
+         "url": "/collections/bvlgari",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834010055043",
+         "title": "Chloé",
+         "type": "HTTP",
+         "url": "/collections/chloe",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834010087811",
+         "title": "Marc Jacobs",
+         "type": "HTTP",
+         "url": "/collections/marc-jacobs",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834010120579",
+         "title": "All 66 brands A–Z",
+         "type": "HTTP",
+         "url": "/collections",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834010153347",
+     "title": "Shop all",
+     "type": "HTTP",
+     "url": "/collections/all",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834010186115",
+     "title": "Journal",
+     "type": "HTTP",
+     "url": "/blogs/journal",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Menu/333157663107",
+   "handle": "sw-footer-brands",
+   "title": "Swansura footer – Brands",
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/833972437379",
+     "title": "Deyga",
+     "type": "HTTP",
+     "url": "/collections/deyga",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972470147",
+     "title": "Vilvah",
+     "type": "HTTP",
+     "url": "/collections/vilvah",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972502915",
+     "title": "anatomē",
+     "type": "HTTP",
+     "url": "/collections/anatome",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972535683",
+     "title": "Highborn London",
+     "type": "HTTP",
+     "url": "/collections/highborn-london",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972568451",
+     "title": "Tiziana Terenzi",
+     "type": "HTTP",
+     "url": "/collections/tiziana-terenzi",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972601219",
+     "title": "Hemel",
+     "type": "HTTP",
+     "url": "/collections/hemel",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972633987",
+     "title": "Fumeri",
+     "type": "HTTP",
+     "url": "/collections/fumeri",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/833972666755",
+     "title": "Al Haramain",
+     "type": "HTTP",
+     "url": "/collections/al-haramain",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Menu/333160219011",
+   "handle": "sw-drawer",
+   "title": "Swansura phone menu",
+   "items": [
+    {
+     "id": "gid://shopify/MenuItem/834003730819",
+     "title": "Skincare",
+     "type": "HTTP",
+     "url": "/collections/skincare",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834003763587",
+       "title": "By concern",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834003796355",
+         "title": "Acne & oil control",
+         "type": "HTTP",
+         "url": "/collections/concern-acne",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834003829123",
+         "title": "Glow & even tone",
+         "type": "HTTP",
+         "url": "/collections/concern-glow",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834003861891",
+         "title": "Deep hydration",
+         "type": "HTTP",
+         "url": "/collections/concern-hydration",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834003894659",
+         "title": "Lip care",
+         "type": "HTTP",
+         "url": "/collections/concern-lips",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834003927427",
+         "title": "Sun care",
+         "type": "HTTP",
+         "url": "/collections/concern-sun",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834003960195",
+       "title": "Most searched",
+       "type": "HTTP",
+       "url": "/collections/skincare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834003992963",
+         "title": "Moisturiser for dry skin",
+         "type": "HTTP",
+         "url": "/collections/moisturiser-for-dry-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004025731",
+         "title": "Face wash for oily skin",
+         "type": "HTTP",
+         "url": "/collections/face-wash-for-oily-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004058499",
+         "title": "Face wash for dry skin",
+         "type": "HTTP",
+         "url": "/collections/face-wash-for-dry-skin",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004091267",
+         "title": "Natural sunscreen",
+         "type": "HTTP",
+         "url": "/collections/natural-sunscreen",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004124035",
+     "title": "Haircare",
+     "type": "HTTP",
+     "url": "/collections/haircare",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834004156803",
+       "title": "By concern",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834004189571",
+         "title": "Hair fall",
+         "type": "HTTP",
+         "url": "/collections/concern-hairfall",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004222339",
+         "title": "Dandruff",
+         "type": "HTTP",
+         "url": "/collections/concern-dandruff",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834004255107",
+       "title": "Most searched",
+       "type": "HTTP",
+       "url": "/collections/haircare",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834004287875",
+         "title": "Hair oil for dry hair",
+         "type": "HTTP",
+         "url": "/collections/hair-oil-for-dry-hair",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004320643",
+         "title": "Hair growth oil",
+         "type": "HTTP",
+         "url": "/collections/hair-growth-oil",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004353411",
+         "title": "Shampoo for dandruff",
+         "type": "HTTP",
+         "url": "/collections/shampoo-for-dandruff",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004386179",
+         "title": "Shampoo for hair loss",
+         "type": "HTTP",
+         "url": "/collections/shampoo-for-hair-loss",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004418947",
+     "title": "Bath & Body",
+     "type": "HTTP",
+     "url": "/collections/bodycare",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004451715",
+     "title": "Fragrance",
+     "type": "HTTP",
+     "url": "/collections/fragrance",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834004484483",
+       "title": "Scent family",
+       "type": "HTTP",
+       "url": "/collections/fragrance",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834004517251",
+         "title": "Oud",
+         "type": "HTTP",
+         "url": "/collections/scent-oud",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004550019",
+         "title": "Amber",
+         "type": "HTTP",
+         "url": "/collections/scent-amber",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004582787",
+         "title": "Floral",
+         "type": "HTTP",
+         "url": "/collections/scent-floral",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004615555",
+         "title": "Woody",
+         "type": "HTTP",
+         "url": "/collections/scent-woody",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004648323",
+         "title": "Fresh",
+         "type": "HTTP",
+         "url": "/collections/scent-fresh",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834004681091",
+       "title": "Houses",
+       "type": "HTTP",
+       "url": "/collections/fragrance",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834004713859",
+         "title": "anatomē",
+         "type": "HTTP",
+         "url": "/collections/anatome",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004746627",
+         "title": "Tiziana Terenzi",
+         "type": "HTTP",
+         "url": "/collections/tiziana-terenzi",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004779395",
+         "title": "Hemel",
+         "type": "HTTP",
+         "url": "/collections/hemel",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004812163",
+         "title": "Fumeri",
+         "type": "HTTP",
+         "url": "/collections/fumeri",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004844931",
+         "title": "Al Haramain",
+         "type": "HTTP",
+         "url": "/collections/al-haramain",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834004877699",
+         "title": "Signature D'orient",
+         "type": "HTTP",
+         "url": "/collections/signature-dorient",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004910467",
+     "title": "Routines",
+     "type": "HTTP",
+     "url": "/pages/rituals",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004943235",
+     "title": "Offers",
+     "type": "HTTP",
+     "url": "/pages/offers",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834004976003",
+     "title": "Gifts & Sets",
+     "type": "HTTP",
+     "url": "/collections/sets-combos",
+     "resourceId": null,
+     "tags": [],
+     "items": [
+      {
+       "id": "gid://shopify/MenuItem/834005008771",
+       "title": "Christmas 2026",
+       "type": "HTTP",
+       "url": "/collections/sets-combos",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834005041539",
+         "title": "Advent calendars",
+         "type": "HTTP",
+         "url": "/pages/advent",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005074307",
+         "title": "Stocking fillers",
+         "type": "HTTP",
+         "url": "/collections/stocking-fillers",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      },
+      {
+       "id": "gid://shopify/MenuItem/834005107075",
+       "title": "By recipient & price",
+       "type": "HTTP",
+       "url": "/collections/sets-combos",
+       "resourceId": null,
+       "tags": [],
+       "items": [
+        {
+         "id": "gid://shopify/MenuItem/834005139843",
+         "title": "Gifts for her",
+         "type": "HTTP",
+         "url": "/collections/gifts-for-her",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005172611",
+         "title": "Gifts for him",
+         "type": "HTTP",
+         "url": "/collections/gifts-for-him",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005205379",
+         "title": "Gifts under £25",
+         "type": "HTTP",
+         "url": "/collections/gifts-under-25",
+         "resourceId": null,
+         "tags": []
+        },
+        {
+         "id": "gid://shopify/MenuItem/834005238147",
+         "title": "Gifts £25 to £50",
+         "type": "HTTP",
+         "url": "/collections/gifts-25-to-50",
+         "resourceId": null,
+         "tags": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gid://shopify/MenuItem/834005270915",
+     "title": "Advent calendars",
+     "type": "HTTP",
+     "url": "/pages/advent",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834005303683",
+     "title": "Brands A–Z",
+     "type": "HTTP",
+     "url": "/collections",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    },
+    {
+     "id": "gid://shopify/MenuItem/834005336451",
+     "title": "Journal",
+     "type": "HTTP",
+     "url": "/blogs/journal",
+     "resourceId": null,
+     "tags": [],
+     "items": []
+    }
+   ]
+  }
+ ]
+}

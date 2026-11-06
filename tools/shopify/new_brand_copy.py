@@ -70,7 +70,7 @@ B["vera-wang"] = dict(
 Pear blossom, green tea and bergamot open the scent, so the first impression is clean and bright. Freesia, orange blossom and peony form the heart, and a soft base of sandalwood, cedar and musk keeps it gentle as it settles. It is an easy everyday fragrance that suits work, weekends and warmer days.
 
 ### Why the 30ml size works
-The 30ml eau de toilette is a handy size for a handbag or a gym bag, and a simple way to try a Vera Wang perfume without committing to a big bottle. It also makes a thoughtful small present, so you will find it among our [gifts under £25](/collections/gifts-under-25).
+The 30ml eau de toilette is a handy size for a handbag or a gym bag, and a simple way to try a Vera Wang perfume without committing to a big bottle. It also makes a thoughtful small present, and it sits in our [£15 to £25](/collections/price-15-25) range.
 
 ### More like this
 If you like fresh florals, compare it with the rest of our [perfume for women](/collections/perfume-for-women) and the [floral fragrances](/collections/scent-floral) family, or try a fruity [Guess body mist](/collections/guess) for a lighter layer. Every Vera Wang perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -86,7 +86,7 @@ B["david-beckham"] = dict(
 Beyond opens with a cool mojito accord, cardamom and grapefruit, so it starts fresh and a little spicy. Cedarwood, geranium and black pepper give the heart a clean, woody feel, and patchouli, vanilla and leather round it off with a smooth, warm finish. It is easy to wear in the day and still has enough depth for the evening.
 
 ### A good-value gift
-At 60ml and under £20, Beyond is one of the easiest fragrance gifts for him on our shelf. You will find it with our [gifts under £25](/collections/gifts-under-25) and [stocking fillers](/collections/stocking-fillers), and it pairs well with a men's shower gel or deodorant from our [men's grooming](/collections/mens-grooming) edit.
+At 60ml and under £20, Beyond is one of the easiest fragrance gifts for him on our shelf. You will find it in our [£15 to £25](/collections/price-15-25) range, and it pairs well with a men's shower gel or deodorant from our [men's grooming](/collections/mens-grooming) edit.
 
 ### More like this
 Compare it with other woody scents in our [perfume for men](/collections/perfume-for-men) edit, or look at fellow men's houses such as [Mercedes-Benz](/collections/mercedes-benz) and [Jaguar](/collections/jaguar). Every David Beckham perfume we sell is 100% authentic and ships from the UK, and UK delivery is free on orders over £40.""")
@@ -121,7 +121,7 @@ B["guess"] = dict(
             ["Ariana Grande", "/collections/ariana-grande", "Sweet fragrances for women", None]],
     faq=[["What is the difference between a Guess body mist and a Guess eau de toilette?", "A body mist is a lighter spray you can use generously over the body; an eau de toilette is more concentrated, so a few sprays last longer. Several Guess scents, such as Seductive, Seductive Noir, Seductive Red and Girl Belle, come in both."],
          ["Do you sell Guess gift sets?", "Yes: the Guess Seductive mini set (4 x 15ml), Guess Pink and Seductive Noir sets for women, and Seductive Homme Noir and Uomo sets for men."]],
-    body="""Guess perfume at Swansura covers the full range: eaux de toilette for women and men, 250ml body mists, and ready-wrapped gift sets, with prices from {£min}. Most of the line is bright, fruity and floral, with warmer woody scents for men.
+    body="""Guess perfume at Swansura covers the full range: eaux de toilette for women and men, 250ml body mists, and gift sets, with prices from {£min}. Most of the line is bright, fruity and floral, with warmer woody scents for men.
 
 ### Guess Seductive, Noir and Red
 [Guess Seductive Eau de Toilette 75ml](/products/guess-seductive-eau-de-toilette-75ml) blends bergamot, blackcurrant and pear with jasmine and orange flower over vanilla and cashmere wood. Seductive Noir adds sage, iris and vetiver for a cooler, more grown-up feel, while Seductive Red brings cherry, almond and pink pepper over tonka and sandalwood. Each comes as an eau de toilette and a body mist, and the [Seductive mini set (4 x 15ml)](/products/guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml) lets you try four at once.
@@ -157,7 +157,7 @@ B["jaguar"] = dict(
     others=[m for m in MEN if m[0] != "Jaguar"],
     faq=[["Which Jaguar perfume should I choose?", "Classic Red is fruity and warm, Classic Gold is fresh then woody, Classic Motion is green and woody, and Ultimate Power is crisp with mint and ginger."],
          ["Do you sell a Jaguar gift set?", "Yes: the Jaguar Classic Eau de Toilette & Shower Gel Gift Set (100ml + 200ml)."]],
-    body="""Jaguar perfume at Swansura is a small, good-value line of 100ml eaux de toilette, from {£min}, plus a ready-made gift set. They are easy, good-value scents for every day.
+    body="""Jaguar perfume at Swansura is a small, good-value line of 100ml eaux de toilette, from {£min}, plus a ready-made gift set. They are easy scents for every day.
 
 ### The Jaguar Classic line
 [Jaguar Classic Red Eau de Toilette 100ml](/products/jaguar-classic-red-eau-de-toilette-100ml) opens with raspberry, blueberry and bergamot, then black pepper and jasmine, and settles on tonka bean, amber and vanilla. [Jaguar Classic Gold](/products/jaguar-classic-gold-eau-de-toilette-100ml) starts with apple, lime and bergamot before orange blossom, teak wood and a vanilla-patchouli base. Classic Motion is greener, with mint and birch leaf over violet, vetiver and sandalwood.
@@ -166,7 +166,7 @@ B["jaguar"] = dict(
 [Jaguar Ultimate Power](/products/jaguar-ultimate-power-eau-de-toilette-100ml) is the freshest of the group: bergamot, lemon and mint lead into apple, green leaves and ginger, with moss, patchouli and white woods underneath. It suits daytime and warmer weather.
 
 ### A ready-made gift
-The [Jaguar Classic Eau de Toilette & Shower Gel Gift Set](/products/jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml) pairs a 100ml bottle with a 200ml shower gel, so it is a simple present for him. See more in [gifts for him](/collections/gifts-for-him) and [gifts under £25](/collections/gifts-under-25), or compare with our [perfume for men](/collections/perfume-for-men). Every Jaguar perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
+The [Jaguar Classic Eau de Toilette & Shower Gel Gift Set](/products/jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml) pairs a 100ml bottle with a 200ml shower gel, so it is a simple present. See more in [perfume gift sets](/collections/perfume-gift-sets) and [gifts under £25](/collections/gifts-under-25), or compare with our [perfume for men](/collections/perfume-for-men). Every Jaguar perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
 
 B["rasasi"] = dict(
     h2="Rasasi perfume: Hawas Elixir",
@@ -179,7 +179,7 @@ B["rasasi"] = dict(
 Hawas Elixir opens with mugwort, bergamot and mint, so the first spray is fresh and herbal. The heart turns richer, with dark chocolate, lavender and benzoin, and the base of vanilla, tonka bean and white musk gives it a smooth, sweet trail. It balances fresh and warm, which makes it easy to wear from the office to an evening out.
 
 ### How to wear it
-As an eau de parfum it is fairly concentrated, so two or three sprays are plenty. The 100ml bottle makes it a generous present, and you will find it in our [gifts £25 to £50](/collections/gifts-25-to-50) edit.
+As an eau de parfum it is fairly concentrated, so two or three sprays are plenty. The 100ml bottle makes it a generous present, and it sits in our [£25 to £50](/collections/price-25-50) range.
 
 ### More like this
 Browse our [Arabian perfume](/collections/arabian-perfume) and [perfume for men](/collections/perfume-for-men) pages, or try the Club de Nuit and Private Key extraits from [Armaf](/collections/armaf). Every Rasasi perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -198,7 +198,7 @@ B["tous"] = dict(
 Lemon and pink pepper give it a sparkling, slightly spicy start. Jasmine and tuberose form a creamy white-flower heart, and amber, musk and patchouli add warmth as it settles. It feels polished but easy, so it works for daytime and evenings alike.
 
 ### Why the 50ml size
-The 50ml eau de toilette is a comfortable size for everyday use and slips easily into a bag. It is also a neat gift, and you will find it among our [gifts £25 to £50](/collections/gifts-25-to-50).
+The 50ml eau de toilette is a comfortable size for everyday use and slips easily into a bag. It is also a neat gift, and it sits in our [£25 to £50](/collections/price-25-50) range.
 
 ### More like this
 If you like white florals, browse the [floral fragrances](/collections/scent-floral) family and our [perfume for women](/collections/perfume-for-women), or try [Armand Basi In Red](/collections/armand-basi). Every Tous perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -240,7 +240,7 @@ For a soft floral, try Narissa Ambre (frangipani, amber and cashmeran) or Nariss
 [Salvo](/products/maison-alhambra-salvo-eau-de-parfum-100ml) is a woody aromatic for men with bergamot, pepper and lavender over ambroxan and cedar. Pacific Blue (Porto Neroli) is a fresh citrus and neroli scent, while Athena and Galatea bring green, herbal openings over leather and vanilla.
 
 ### More like this
-Browse the full [Arabian perfume](/collections/arabian-perfume) edit and our [gifts under £25](/collections/gifts-under-25), or compare with [Lattafa](/collections/lattafa) and [Afnan](/collections/afnan). Every Maison Alhambra perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
+Browse the full [Arabian perfume](/collections/arabian-perfume) edit and our [£15 to £25](/collections/price-15-25) range, or compare with [Lattafa](/collections/lattafa) and [Afnan](/collections/afnan). Every Maison Alhambra perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
 
 B["arabiyat-prestige"] = dict(
     h2="Arabiyat Prestige perfume: Nyla and Nyla Vani-elle",
@@ -293,7 +293,7 @@ B["formula-1"] = dict(
 Carbon Reign opens with pink pepper and timut pepper, a bright, slightly citrusy spice. Geranium and lavender give the heart a clean, aromatic feel, and vetiver, patchouli and amber crystals finish it with a warm, woody trail. It is unisex, but its peppery, aromatic style will appeal to anyone who likes fresh men's scents.
 
 ### Why a vial
-At 1.5ml, the race vial is the easiest way to try the scent before you buy a full bottle elsewhere, and it fits in a pocket, a wash bag or a stocking. Add it to an order as a small extra, or pair it with a full-size bottle as a gift.
+At 1.5ml, the race vial is an easy way to try the scent, and it fits in a pocket, a wash bag or a stocking. Add it to an order as a small extra, or pair it with a full-size bottle as a gift.
 
 ### More like this
 Browse our [travel size and mini perfumes](/collections/travel-size-minis) and [stocking fillers](/collections/stocking-fillers), or compare with fuller bottles from [Mercedes-Benz](/collections/mercedes-benz) and [Jaguar](/collections/jaguar). Every Formula 1 perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -329,7 +329,7 @@ B["armand-basi"] = dict(
 In Red opens with ginger, bergamot, mandarin and cardamom, so it starts bright with a gentle spice. Jasmine, violet leaf, rose and lily of the valley make up a fresh floral heart, and woody notes and white musk give it a clean, soft finish. It sits between fresh and warm, which makes it easy to wear all year.
 
 ### A generous bottle
-The 100ml eau de parfum is good value for everyday use and a smart choice for a gift. You will find it in our [gifts £25 to £50](/collections/gifts-25-to-50) edit.
+The 100ml eau de parfum is good value for everyday use and a smart choice for a gift. It sits in our [£25 to £50](/collections/price-25-50) range.
 
 ### More like this
 Compare it with other [perfume for women](/collections/perfume-for-women) and the [floral fragrances](/collections/scent-floral) family, or try [Tous](/collections/tous) for another bright floral. Every Armand Basi perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -380,7 +380,7 @@ B["notebook"] = dict(
 As the name says, blackcurrant (cassis) and pink pepper lead the way: juicy, tart and lightly spicy. Rose and jasmine soften the heart, and musk, cedarwood and amber give it a smooth, warm finish. It is a cheerful everyday scent with a little more character than a plain fruity floral, and it works in any season.
 
 ### Good value for everyday wear
-The 100ml eau de toilette is a generous bottle at a friendly price, so it is easy to wear daily without saving it for best. Spray it on pulse points after a shower for the most even finish. It also suits our [gifts under £25](/collections/gifts-under-25).
+The 100ml eau de toilette is a generous bottle at a friendly price, so it is easy to wear daily without saving it for best. Spray it on pulse points after a shower for the most even finish. It sits in our [£15 to £25](/collections/price-15-25) range.
 
 ### More like this
 Browse our [perfume for women](/collections/perfume-for-women), the [amber fragrances](/collections/scent-amber) family, or try fruity florals from [Franck Olivier](/collections/franck-olivier). Every Notebook perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
@@ -406,7 +406,7 @@ Browse our [Arabian perfume](/collections/arabian-perfume) edit and the [amber f
 
 B["fomo"] = dict(
     h2="Fomo perfume: Gary's Den, Envy and the extraits",
-    desc="Fomo perfume at Swansura UK: Gary's Den and Envy le parfum, Fraglover's Tea and Essence of The Other World extraits, all 100ml. Free UK delivery over £40.",
+    desc="Fomo perfume at Swansura UK: Gary's Den, Envy, Fraglover's Tea and Essence of The Other World, all 100ml. Free UK delivery over £40.",
     others=[n for n in NICHE if n[0] != "Fomo"],
     faq=[["What is the difference between Fomo le parfum and extrait de parfum?", "Both are concentrated; the extraits (Fraglover's Tea and Essence of The Other World) are the richer of the two."]],
     body="""Fomo perfume at Swansura is a small niche line of four 100ml scents, from {£min}: two le parfum bottles and two extraits de parfum.
@@ -450,7 +450,7 @@ B["fun-basics"] = dict(
 [Funtastic Man](/products/fun-basics-funtastic-man-eau-de-parfum-100ml) opens with orange, grapefruit and bergamot and dries down to musk, patchouli, sandalwood and tonka bean. [Funtastic Woman](/products/fun-basics-funtastic-woman-eau-de-parfum-100ml) pairs lemon, grapefruit, pink pepper and mint with melon, jasmine and ginger, over sandalwood, cedarwood and amber.
 
 ### An easy gift
-At under £20 for a full 100ml, these suit our [gifts under £25](/collections/gifts-under-25) and [stocking fillers](/collections/stocking-fillers), or compare with [Franck Olivier](/collections/franck-olivier). Every Fun & Basics perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
+At under £20 for a full 100ml, these sit in our [£15 to £25](/collections/price-15-25) range; compare them with [Franck Olivier](/collections/franck-olivier). Every Fun & Basics perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
 
 B["inaaya"] = dict(
     h2="Inaaya perfume: Amal, Ghali, Jasim and more",
@@ -477,7 +477,7 @@ B["natural-by-woods"] = dict(
     others=[n for n in NICHE if n[0] != "Natural By Woods"],
     faq=[["What comes with a Natural By Woods perfume?", "Each bottle is a 100ml eau de parfum with a travel atomiser (5ml; 15ml with Flame)."],
          ["Is there a Natural By Woods discovery set?", "Yes, the Natural By Woods Discovery Set lets you try several scents before choosing a full bottle."]],
-    body="""Natural By Woods perfume at Swansura comes in a handy format: each scent is a 100ml eau de parfum with a travel atomiser, from {£min}, so you have a bottle for home and a refill for your bag.
+    body="""Natural By Woods perfume at Swansura comes in a handy format: each scent is a 100ml eau de parfum with a travel atomiser, from {£min}, so you have a bottle for home and a travel spray for your bag.
 
 ### Fresh and bright
 [Natural By Woods North Star](/products/natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml) is citrusy with bergamot, lemon and grapefruit over cedarwood, frankincense and sandalwood. Sun mixes citrus, orange and ginger with cedarwood, olibanum and rose, and Dawn pairs pear with jasmine, amber and patchouli.
@@ -521,7 +521,7 @@ The Milano Girl trio covers three moods: [Milano Girl Red](/products/maison-de-m
 [Maison de Milan Amalfi Bleu](/products/maison-de-milan-amalfi-bleu-eau-de-parfum-100ml) is fresh with mint and melon, and L'Homme Suave mixes bergamot, lavender and pepper. Unisex options include Opulent Gold (floral over warm woods), M (bergamot and green apple), Brave Lad (juicy fruits) and Valiant Pour Homme (citrus and spice).
 
 ### Good value for everyday wear
-With most bottles under £20, these suit our [gifts under £25](/collections/gifts-under-25) and are an easy way to try a new style. Compare them with other [perfume for women](/collections/perfume-for-women) or [Franck Olivier](/collections/franck-olivier). Every Maison de Milan perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
+With most bottles under £20, these sit in our [£15 to £25](/collections/price-15-25) range and are an easy way to try a new style. Compare them with other [perfume for women](/collections/perfume-for-women) or [Franck Olivier](/collections/franck-olivier). Every Maison de Milan perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
 
 B["chris-adams"] = dict(
     h2="Chris Adams perfume for men",
@@ -537,7 +537,7 @@ B["chris-adams"] = dict(
 [Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml](/products/chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml) ({£chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml}) is a chypre scent: a classic style built on a fresh opening and a mossy, woody base. It is a smart choice for evenings.
 
 ### Easy gifts
-At these prices, both suit our [stocking fillers](/collections/stocking-fillers) and [gifts under £25](/collections/gifts-under-25), or pair one with a shower gel from our [men's grooming](/collections/mens-grooming) edit. See more [perfume for men](/collections/perfume-for-men). Every Chris Adams perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
+At these prices, both sit in our [under £15](/collections/price-0-15) range, or pair one with a shower gel from our [men's grooming](/collections/mens-grooming) edit. See more [perfume for men](/collections/perfume-for-men). Every Chris Adams perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.""")
 
 B["rihanah"] = dict(
     h2="Rihanah perfume: Ajwaa Oud",
