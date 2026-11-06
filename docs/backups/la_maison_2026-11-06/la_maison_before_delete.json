@@ -1,0 +1,896 @@
+{
+ "nodes": [
+  {
+   "id": "gid://shopify/Product/16303589458307",
+   "handle": "la-maison-de-la-vanille-absolu-de-vanille-eau-de-parfum-100ml",
+   "title": "La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml",
+   "vendor": "La Maison",
+   "productType": "",
+   "status": "ACTIVE",
+   "tags": [
+    "Fragrance"
+   ],
+   "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Discover the rich and captivating character of </span><strong><span>La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml</span></strong><span>, an indulgent vanilla fragrance created for those who appreciate warm, sophisticated and sensual scents. Far from a simple sweet vanilla perfume, Absolu de Vanille combines the unmistakable richness of vanilla with woody, spicy and aromatic nuances to create a fragrance with depth, elegance and lasting appeal.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Notes:</strong> Vanilla Absolute, Patchouli, Cistus<br><strong>Fragrance Family:</strong> Vanilla, Woody, Spicy<br><strong>Scent Profile:</strong> Warm, rich, sensual, woody and aromatic</span></p>",
+   "templateSuffix": "",
+   "seo": {
+    "title": "La Maison de la Vanille Absolu de Vanille | Swansura UK",
+    "description": "Buy La Maison de la Vanille Absolu de Vanille Eau de Parfum for £19.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "metafields": {
+    "nodes": [
+     {
+      "namespace": "shopify",
+      "key": "color-pattern",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598139306371\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "product-form",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/486795510147\",\"gid://shopify/Metaobject/486795608451\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "material",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011445635\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "dispenser-type",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011609475\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "fragrance",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011642243\",\"gid://shopify/Metaobject/598011707779\",\"gid://shopify/Metaobject/598123250051\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "olfactory-family",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011773315\",\"gid://shopify/Metaobject/615671660931\"]"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "google_product_category",
+      "type": "string",
+      "value": "479"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "badge",
+      "type": "string",
+      "value": "<div style='display:none' class='jdgm-prev-badge' data-average-rating='0.00' data-number-of-reviews='0' data-number-of-questions='0'> <span class='jdgm-prev-badge__stars' data-score='0.00' tabindex='0' aria-label='0.00 stars' role='button'> <span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span> </span> <span class='jdgm-prev-badge__text'> No reviews </span> </div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "widget",
+      "type": "string",
+      "value": "<div></div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "review_widget_data",
+      "type": "json",
+      "value": "{\"number_of_reviews\":0,\"average_rating\":\"0.00\",\"number_of_questions\":0,\"product_name\":\"La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml\",\"product_external_id\":16303589458307,\"product_coupons_enabled\":true,\"image_url\":\"https://cdn.shopify.com/s/files/1/0954/5397/0819/files/gptimage227.png?v=1788901042\",\"histogram\":[{\"rating\":5,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":4,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":3,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":2,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":1,\"frequency\":0,\"percentage\":0,\"extra_class\":null}],\"review_keywords\":null,\"product_medals\":[],\"custom_form_filters_and_averages\":null,\"photo_gallery\":null,\"review_summary_text\":\"Be the first to write a review\",\"ai_summary_text\":\"\",\"sort_key\":\"created_at\",\"multi_language_sorting_enabled\":false,\"metafield_updated_at\":\"2026-09-08T21:00:01Z\",\"reviews\":[],\"pagination\":{\"total_pages\":0,\"current_page\":1,\"per_page\":5}}"
+     },
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "La Maison de la Vanille Absolu de Vanille Eau de Parfum"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string",
+      "value": "La Maison de la Vanille Absolu de Vanille | Swansura UK"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string",
+      "value": "Buy La Maison de la Vanille Absolu de Vanille Eau de Parfum for £19.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40."
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":278,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\":\"fragrance\",\"ben\":\"Discover the rich and captivating character of La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml, an indulgent vanilla fragrance created for those who appreciate warm, sophisticated and sensual scents.\",\"more\":false,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"balance-eau-de-parfum-travel-10ml\",\"parfum-travel-discovery-set-6-wellbeing-parfums\",\"order-eau-de-parfum-clarify-the-mind-expand-thought-100ml\",\"order-eau-de-parfum-travel-10ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   },
+   "collections": {
+    "nodes": [
+     {
+      "id": "gid://shopify/Collection/689527685507",
+      "handle": "fragrance"
+     },
+     {
+      "id": "gid://shopify/Collection/712316682627",
+      "handle": "la-maison"
+     },
+     {
+      "id": "gid://shopify/Collection/714069049731",
+      "handle": "price-15-25"
+     },
+     {
+      "id": "gid://shopify/Collection/714070950275",
+      "handle": "unisex-perfume"
+     },
+     {
+      "id": "gid://shopify/Collection/714071671171",
+      "handle": "scent-amber"
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml – black bottle with gold label, front view",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-absolu-de-vanille-eau-de-parfum-100ml-1.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml – bottle beside its black box",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-absolu-de-vanille-eau-de-parfum-100ml-2.webp?v=1792411391",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml – bottle in front of its black box",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-absolu-de-vanille-eau-de-parfum-100ml-3.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Absolu de Vanille Eau de Parfum 100ml – bottle with white rock-rose flowers and amber resin",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-absolu-de-vanille-eau-de-parfum-100ml-4.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     }
+    ]
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/62576573383043",
+      "title": "Default Title",
+      "sku": null,
+      "price": "19.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 10,
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ],
+      "inventoryItem": {
+       "id": "gid://shopify/InventoryItem/64592991191427",
+       "tracked": true
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16303590867331",
+   "handle": "la-maison-de-la-vanille-ambre-secret-eau-de-parfum-100ml",
+   "title": "La Maison de la Vanille Ambre Secret Eau de Parfum 100ml",
+   "vendor": "La Maison",
+   "productType": "",
+   "status": "ACTIVE",
+   "tags": [
+    "Fragrance"
+   ],
+   "descriptionHtml": "<p class=\"isSelectedEnd\"><strong><span>La Maison de la Vanille Ambre Secret Eau de Parfum</span></strong><span> opens with a soft touch of powdered vanilla, creating a warm and inviting introduction. The fragrance develops into a sensual woody heart before revealing the rich, sweet and spicy warmth of amber. The combination creates an exotic, comforting and sophisticated scent inspired by the atmosphere of warm countries and tropical forests.</span></p>\n<p><strong><span>Key Notes:</span></strong><span> Powdered Vanilla, Woody Accords, Spicy Amber</span><br><strong><span>Fragrance Family:</span></strong><span> Amber, Vanilla &amp; Woody</span><br><strong><span>Scent Character:</span></strong><span> Warm, Sweet, Powdery, Spicy, Woody &amp; Sensual</span></p>",
+   "templateSuffix": "",
+   "seo": {
+    "title": "La Maison de la Vanille Ambre Secret EDP 100ml | Swansura UK",
+    "description": "La Maison de la Vanille Ambre Secret Eau de Parfum for £19.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "metafields": {
+    "nodes": [
+     {
+      "namespace": "shopify",
+      "key": "color-pattern",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598139306371\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "product-form",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/486795510147\",\"gid://shopify/Metaobject/486795608451\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "material",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011445635\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "dispenser-type",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011609475\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "fragrance",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011642243\",\"gid://shopify/Metaobject/598011707779\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "olfactory-family",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598136455555\",\"gid://shopify/Metaobject/598011773315\"]"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "google_product_category",
+      "type": "string",
+      "value": "479"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "badge",
+      "type": "string",
+      "value": "<div style='display:none' class='jdgm-prev-badge' data-average-rating='0.00' data-number-of-reviews='0' data-number-of-questions='0'> <span class='jdgm-prev-badge__stars' data-score='0.00' tabindex='0' aria-label='0.00 stars' role='button'> <span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span> </span> <span class='jdgm-prev-badge__text'> No reviews </span> </div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "widget",
+      "type": "string",
+      "value": "<div></div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "review_widget_data",
+      "type": "json",
+      "value": "{\"number_of_reviews\":0,\"average_rating\":\"0.00\",\"number_of_questions\":0,\"product_name\":\"La Maison de la Vanille Ambre Secret Eau de Parfum 100ml\",\"product_external_id\":16303590867331,\"product_coupons_enabled\":true,\"image_url\":\"https://cdn.shopify.com/s/files/1/0954/5397/0819/files/gptimage588.png?v=1788901264\",\"histogram\":[{\"rating\":5,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":4,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":3,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":2,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":1,\"frequency\":0,\"percentage\":0,\"extra_class\":null}],\"review_keywords\":null,\"product_medals\":[],\"custom_form_filters_and_averages\":null,\"photo_gallery\":null,\"review_summary_text\":\"Be the first to write a review\",\"ai_summary_text\":\"\",\"sort_key\":\"created_at\",\"multi_language_sorting_enabled\":false,\"metafield_updated_at\":\"2026-09-08T21:03:46Z\",\"reviews\":[],\"pagination\":{\"total_pages\":0,\"current_page\":1,\"per_page\":5}}"
+     },
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "La Maison de la Vanille Ambre Secret Eau de Parfum"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string",
+      "value": "La Maison de la Vanille Ambre Secret EDP 100ml | Swansura UK"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string",
+      "value": "La Maison de la Vanille Ambre Secret Eau de Parfum for £19.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":277,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\":\"fragrance\",\"ben\":\"La Maison de la Vanille Ambre Secret Eau de Parfum opens with a soft touch of powdered vanilla, creating a warm and inviting introduction.\",\"more\":false,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"balance-eau-de-parfum-travel-10ml\",\"parfum-travel-discovery-set-6-wellbeing-parfums\",\"order-eau-de-parfum-clarify-the-mind-expand-thought-100ml\",\"order-eau-de-parfum-travel-10ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"]]}"
+     }
+    ]
+   },
+   "collections": {
+    "nodes": [
+     {
+      "id": "gid://shopify/Collection/689527685507",
+      "handle": "fragrance"
+     },
+     {
+      "id": "gid://shopify/Collection/712316682627",
+      "handle": "la-maison"
+     },
+     {
+      "id": "gid://shopify/Collection/714069049731",
+      "handle": "price-15-25"
+     },
+     {
+      "id": "gid://shopify/Collection/714070950275",
+      "handle": "unisex-perfume"
+     },
+     {
+      "id": "gid://shopify/Collection/714071671171",
+      "handle": "scent-amber"
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "La Maison de la Vanille Ambre Secret Eau de Parfum 100ml – black bottle with gold label, front view",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-ambre-secret-eau-de-parfum-100ml-1.webp?v=1792411389",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Ambre Secret Eau de Parfum 100ml – bottle beside its black box",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-ambre-secret-eau-de-parfum-100ml-2.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Ambre Secret Eau de Parfum 100ml – bottle with vanilla flower, vanilla pods, amber and wood",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-ambre-secret-eau-de-parfum-100ml-3.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     }
+    ]
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/62576600383875",
+      "title": "Default Title",
+      "sku": null,
+      "price": "19.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 10,
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ],
+      "inventoryItem": {
+       "id": "gid://shopify/InventoryItem/64593018225027",
+       "tracked": true
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16303608201603",
+   "handle": "la-maison-de-la-vanille-royal-oud-eau-de-parfum-100ml",
+   "title": "La Maison de la Vanille Royal Oud Eau de Parfum 100ml",
+   "vendor": "La Maison",
+   "productType": "",
+   "status": "ACTIVE",
+   "tags": [
+    "Fragrance"
+   ],
+   "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Discover the luxurious character of </span><strong><span>La Maison de la Vanille Royal Oud Eau de Parfum 100ml</span></strong><span>, a sophisticated unisex fragrance combining precious oud with elegant florals, warm woods and sensual musk. Created for fragrance lovers who appreciate rich, distinctive scents, Royal Oud delivers an alluring balance of intensity, warmth and refinement.</span></p>\n<p class=\"isSelectedEnd\"><strong><span>Top Notes:</span></strong><span> Turkish Rose, Egyptian Jasmine</span></p>\n<p class=\"isSelectedEnd\"><strong><span>Heart Notes:</span></strong><span> Agarwood (Oud), Patchouli, Sandalwood, Guaiac Wood</span></p>\n<p><strong><span>Base Note:</span></strong><span> White Musk</span></p>",
+   "templateSuffix": "",
+   "seo": {
+    "title": "La Maison de la Vanille Royal Oud EDP 100ml | Swansura UK",
+    "description": "Buy La Maison de la Vanille Royal Oud Eau de Parfum 100ml for £19.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, free UK delivery over £40."
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "metafields": {
+    "nodes": [
+     {
+      "namespace": "shopify",
+      "key": "color-pattern",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598139306371\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "product-form",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/486795608451\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "target-gender",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/486805340547\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "material",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011445635\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "dispenser-type",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011609475\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "fragrance",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011543939\",\"gid://shopify/Metaobject/598011707779\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "olfactory-family",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011675011\",\"gid://shopify/Metaobject/598011773315\"]"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "google_product_category",
+      "type": "string",
+      "value": "479"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "badge",
+      "type": "string",
+      "value": "<div style='display:none' class='jdgm-prev-badge' data-average-rating='0.00' data-number-of-reviews='0' data-number-of-questions='0'> <span class='jdgm-prev-badge__stars' data-score='0.00' tabindex='0' aria-label='0.00 stars' role='button'> <span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span> </span> <span class='jdgm-prev-badge__text'> No reviews </span> </div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "widget",
+      "type": "string",
+      "value": "<div></div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "review_widget_data",
+      "type": "json",
+      "value": "{\"number_of_reviews\":0,\"average_rating\":\"0.00\",\"number_of_questions\":0,\"product_name\":\"La Maison de la Vanille Royal Oud Eau de Parfum 100ml\",\"product_external_id\":16303608201603,\"product_coupons_enabled\":true,\"image_url\":\"https://cdn.shopify.com/s/files/1/0954/5397/0819/files/ChatGPT_Image_Sep_8_2026_at_10_18_59_PM.png?v=1788902415\",\"histogram\":[{\"rating\":5,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":4,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":3,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":2,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":1,\"frequency\":0,\"percentage\":0,\"extra_class\":null}],\"review_keywords\":null,\"product_medals\":[],\"custom_form_filters_and_averages\":null,\"photo_gallery\":null,\"review_summary_text\":\"Be the first to write a review\",\"ai_summary_text\":\"\",\"sort_key\":\"created_at\",\"multi_language_sorting_enabled\":false,\"metafield_updated_at\":\"2026-09-08T21:26:06Z\",\"reviews\":[],\"pagination\":{\"total_pages\":0,\"current_page\":1,\"per_page\":5}}"
+     },
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "La Maison de la Vanille Royal Oud Eau de Parfum"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string",
+      "value": "La Maison de la Vanille Royal Oud EDP 100ml | Swansura UK"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string",
+      "value": "Buy La Maison de la Vanille Royal Oud Eau de Parfum 100ml for £19.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, free UK delivery over £40."
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":275,\"f\":\"oud\",\"w\":\"Unisex\",\"n\":{\"top\":\"Turkish Rose, Egyptian Jasmine\",\"heart\":\"Agarwood (Oud), Patchouli, Sandalwood, Guaiac Wood\",\"base\":\"White Musk\"},\"a\":[\"It opens with Turkish Rose, Egyptian Jasmine, settles into Agarwood (Oud), Patchouli, Sandalwood, Guaiac Wood, and dries down to White Musk.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\":\"fragrance\",\"ben\":\"Discover the luxurious character of La Maison de la Vanille Royal Oud Eau de Parfum 100ml, a sophisticated unisex fragrance combining precious oud with elegant florals, warm woods and sensual musk.\",\"more\":false,\"chips\":[\"Oud family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\",\"montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\",\"montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance\",\"guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance\"],\"kw\":[[\"Oud perfume\",\"/collections/oud-perfume\"],[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Diwali gifts\",\"/collections/diwali-gifts\"],[\"Ramadan & Eid gifts\",\"/collections/ramadan-eid-gifts\"]]}"
+     }
+    ]
+   },
+   "collections": {
+    "nodes": [
+     {
+      "id": "gid://shopify/Collection/689527685507",
+      "handle": "fragrance"
+     },
+     {
+      "id": "gid://shopify/Collection/712316682627",
+      "handle": "la-maison"
+     },
+     {
+      "id": "gid://shopify/Collection/714069049731",
+      "handle": "price-15-25"
+     },
+     {
+      "id": "gid://shopify/Collection/714070786435",
+      "handle": "oud-perfume"
+     },
+     {
+      "id": "gid://shopify/Collection/714070950275",
+      "handle": "unisex-perfume"
+     },
+     {
+      "id": "gid://shopify/Collection/714071245187",
+      "handle": "diwali-gifts"
+     },
+     {
+      "id": "gid://shopify/Collection/714071277955",
+      "handle": "ramadan-eid-gifts"
+     },
+     {
+      "id": "gid://shopify/Collection/714071605635",
+      "handle": "range-oud"
+     },
+     {
+      "id": "gid://shopify/Collection/714071638403",
+      "handle": "scent-oud"
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "La Maison de la Vanille Royal Oud Eau de Parfum 100ml – black bottle with gold label, front view",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-royal-oud-eau-de-parfum-100ml-1.webp?v=1792411390",
+       "width": 1031,
+       "height": 1525
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Royal Oud Eau de Parfum 100ml – bottle beside its black box",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-royal-oud-eau-de-parfum-100ml-2.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la Vanille Royal Oud Eau de Parfum 100ml – bottle with rose, jasmine, mint and oud wood",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-vanille-royal-oud-eau-de-parfum-100ml-3.webp?v=1792411390",
+       "width": 1086,
+       "height": 1448
+      }
+     }
+    ]
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/62576860201347",
+      "title": "Default Title",
+      "sku": null,
+      "price": "19.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 10,
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ],
+      "inventoryItem": {
+       "id": "gid://shopify/InventoryItem/64593278435715",
+       "tracked": true
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "gid://shopify/Product/16303608856963",
+   "handle": "la-maison-de-la-vanille-vanilles-des-origines-wooden-coffret-5x30ml-edt-gift-set",
+   "title": "La Maison de la wooden coffret 5X30ML EDT - Vanilles Des Origines",
+   "vendor": "La Maison",
+   "productType": "",
+   "status": "ACTIVE",
+   "tags": [
+    "Fragrance",
+    "Sets & Combos"
+   ],
+   "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Discover the world of vanilla with the </span><strong><span>La Maison de la Vanille Vanilles des Origines Wooden Coffret 5x30ml Eau de Toilette Gift Set</span></strong><span>, a beautifully presented fragrance collection designed for lovers of distinctive and sophisticated vanilla perfumes.</span></p>\n<p><span><meta charset=\"UTF-8\">The collection includes <strong>Vanille Givrée des Antilles 30ml, Vanille Sauvage de Madagascar 30ml, Vanille Noire du Mexique 30ml, Vanille Fleurie de Tahiti 30ml and Vanille Divine des Tropiques 30ml</strong>. Together, these fragrances showcase the remarkable diversity of vanilla, from fresh and floral expressions to deeper, warmer and more exotic interpretations.</span></p>",
+   "templateSuffix": "",
+   "seo": {
+    "title": "La Maison de la Wooden Coffret 5X30ML EDT | Swansura UK",
+    "description": "Buy La Maison de la Wooden Coffret 5X30ML EDT for £84.99 at Swansura UK. An amber unisex eau de toilette. 100% authentic, fast UK delivery, free over £40."
+   },
+   "options": [
+    {
+     "name": "Title",
+     "values": [
+      "Default Title"
+     ]
+    }
+   ],
+   "metafields": {
+    "nodes": [
+     {
+      "namespace": "shopify",
+      "key": "product-form",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/486795510147\",\"gid://shopify/Metaobject/486795608451\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "material",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/680655585667\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "dispenser-type",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011609475\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "fragrance",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/598011642243\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "olfactory-family",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/599001137539\"]"
+     },
+     {
+      "namespace": "shopify",
+      "key": "gift-set-format",
+      "type": "list.metaobject_reference",
+      "value": "[\"gid://shopify/Metaobject/600267096451\"]"
+     },
+     {
+      "namespace": "mm-google-shopping",
+      "key": "google_product_category",
+      "type": "string",
+      "value": "479"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "badge",
+      "type": "string",
+      "value": "<div style='display:none' class='jdgm-prev-badge' data-average-rating='0.00' data-number-of-reviews='0' data-number-of-questions='0'> <span class='jdgm-prev-badge__stars' data-score='0.00' tabindex='0' aria-label='0.00 stars' role='button'> <span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span><span class='jdgm-star jdgm--off'></span> </span> <span class='jdgm-prev-badge__text'> No reviews </span> </div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "widget",
+      "type": "string",
+      "value": "<div></div>"
+     },
+     {
+      "namespace": "judgeme",
+      "key": "review_widget_data",
+      "type": "json",
+      "value": "{\"number_of_reviews\":0,\"average_rating\":\"0.00\",\"number_of_questions\":0,\"product_name\":\"La Maison de la Vanille Vanilles des Origines Wooden Coffret 5x30ml EDT Gift Set\",\"product_external_id\":16303608856963,\"product_coupons_enabled\":true,\"image_url\":\"https://cdn.shopify.com/s/files/1/0954/5397/0819/files/gptimage235.png?v=1788902146\",\"histogram\":[{\"rating\":5,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":4,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":3,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":2,\"frequency\":0,\"percentage\":0,\"extra_class\":null},{\"rating\":1,\"frequency\":0,\"percentage\":0,\"extra_class\":null}],\"review_keywords\":null,\"product_medals\":[],\"custom_form_filters_and_averages\":null,\"photo_gallery\":null,\"review_summary_text\":\"Be the first to write a review\",\"ai_summary_text\":\"\",\"sort_key\":\"created_at\",\"multi_language_sorting_enabled\":false,\"metafield_updated_at\":\"2026-09-08T21:24:13Z\",\"reviews\":[],\"pagination\":{\"total_pages\":0,\"current_page\":1,\"per_page\":5}}"
+     },
+     {
+      "namespace": "custom",
+      "key": "h1",
+      "type": "single_line_text_field",
+      "value": "La Maison de la Wooden Coffret 5X30ML EDT"
+     },
+     {
+      "namespace": "global",
+      "key": "title_tag",
+      "type": "string",
+      "value": "La Maison de la Wooden Coffret 5X30ML EDT | Swansura UK"
+     },
+     {
+      "namespace": "global",
+      "key": "description_tag",
+      "type": "string",
+      "value": "Buy La Maison de la Wooden Coffret 5X30ML EDT for £84.99 at Swansura UK. An amber unisex eau de toilette. 100% authentic, fast UK delivery, free over £40."
+     },
+     {
+      "namespace": "custom",
+      "key": "sw",
+      "type": "json",
+      "value": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":276,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}"
+     },
+     {
+      "namespace": "custom",
+      "key": "pdp",
+      "type": "json",
+      "value": "{\"cat\":\"fragrance\",\"ben\":\"Discover the world of vanilla with the La Maison de la Vanille Vanilles des Origines Wooden Coffret 5x30ml Eau de Toilette Gift Set, a beautifully presented fragrance…\",\"more\":true,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"balance-eau-de-parfum-travel-10ml\",\"parfum-travel-discovery-set-6-wellbeing-parfums\",\"order-eau-de-parfum-clarify-the-mind-expand-thought-100ml\",\"order-eau-de-parfum-travel-10ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+     }
+    ]
+   },
+   "collections": {
+    "nodes": [
+     {
+      "id": "gid://shopify/Collection/689527685507",
+      "handle": "fragrance"
+     },
+     {
+      "id": "gid://shopify/Collection/712316682627",
+      "handle": "la-maison"
+     },
+     {
+      "id": "gid://shopify/Collection/713096921475",
+      "handle": "sets-combos"
+     },
+     {
+      "id": "gid://shopify/Collection/714069311875",
+      "handle": "price-50-9999"
+     },
+     {
+      "id": "gid://shopify/Collection/714070950275",
+      "handle": "unisex-perfume"
+     },
+     {
+      "id": "gid://shopify/Collection/714071212419",
+      "handle": "gifts-over-50"
+     },
+     {
+      "id": "gid://shopify/Collection/714071671171",
+      "handle": "scent-amber"
+     }
+    ]
+   },
+   "media": {
+    "nodes": [
+     {
+      "alt": "La Maison de la wooden coffret 5X30ML EDT – open wooden case holding five aluminium sprays",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-wooden-coffret-5x30ml-edt-1.webp?v=1792411390",
+       "width": 1448,
+       "height": 1086
+      }
+     },
+     {
+      "alt": "La Maison de la wooden coffret 5X30ML EDT – wooden coffret with five sprays and illustrated lid",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-wooden-coffret-5x30ml-edt-2.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     },
+     {
+      "alt": "La Maison de la wooden coffret 5X30ML EDT – five sprays standing on the closed wooden case",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-wooden-coffret-5x30ml-edt-3.webp?v=1792411390",
+       "width": 1122,
+       "height": 1402
+      }
+     },
+     {
+      "alt": "La Maison de la wooden coffret 5X30ML EDT – five sprays on the case with bergamot, orange and lavender",
+      "mediaContentType": "IMAGE",
+      "image": {
+       "url": "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/la-maison-de-la-wooden-coffret-5x30ml-edt-4.webp?v=1792411390",
+       "width": 1254,
+       "height": 1254
+      }
+     }
+    ]
+   },
+   "variants": {
+    "nodes": [
+     {
+      "id": "gid://shopify/ProductVariant/62576866328963",
+      "title": "Default Title",
+      "sku": null,
+      "price": "84.99",
+      "compareAtPrice": null,
+      "inventoryQuantity": 10,
+      "selectedOptions": [
+       {
+        "name": "Title",
+        "value": "Default Title"
+       }
+      ],
+      "inventoryItem": {
+       "id": "gid://shopify/InventoryItem/64593284727171",
+       "tracked": true
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "c": {
+  "id": "gid://shopify/Collection/712316682627",
+  "handle": "la-maison",
+  "title": "La Maison",
+  "descriptionHtml": "",
+  "sortOrder": "MANUAL",
+  "seo": {
+   "title": "La Maison Perfume | Shop at Swansura UK",
+   "description": "La Maison perfume at Swansura means the La Maison de la Vanille collection: warm, unisex scents that put vanilla at the centre."
+  },
+  "metafields": {
+   "nodes": [
+    {
+     "namespace": "global",
+     "key": "title_tag",
+     "type": "string",
+     "value": "La Maison Perfume | Shop at Swansura UK"
+    },
+    {
+     "namespace": "global",
+     "key": "description_tag",
+     "type": "string",
+     "value": "La Maison perfume at Swansura means the La Maison de la Vanille collection: warm, unisex scents that put vanilla at the centre."
+    },
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "La Maison Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "seo_heading",
+     "type": "single_line_text_field",
+     "value": "La Maison perfume: La Maison de la Vanille"
+    },
+    {
+     "namespace": "custom",
+     "key": "seo_copy",
+     "type": "multi_line_text_field",
+     "value": "<p>La Maison perfume at Swansura means the La Maison de la Vanille collection: warm, unisex scents that put vanilla at the centre. Three 100ml eaux de parfum cost £19.99 each, which makes them an easy way to try a new signature. Each one wears well on anyone, so they are simple to share.</p><h3>Three ways with vanilla</h3><p>La Maison de la Vanille Absolu de Vanille Eau de Parfum is the richest of the three, a vanilla perfume that goes beyond simple sweetness. La Maison de la Vanille Ambre Secret opens with soft, powdered vanilla, moves into a sensual woody heart and finishes sweet and spicy. Royal Oud pairs precious oud with elegant florals, warm woods and musk for something deeper. It is the one to choose if you want vanilla with a smokier, more evening feel.</p><h3>A boxed collection</h3><p>The Vanilles des Origines Wooden Coffret holds five 30ml bottles of Eau de Toilette for £84.99. It is a beautifully presented eau de toilette gift set for anyone who loves vanilla and wants to explore different takes on it. The 30ml bottles also travel well, so you can carry a favourite in your bag.</p><p>All four sit comfortably in our <a href=\"/search?type=product&q=amber\">amber fragrances</a>, and the coffret also appears in <a href=\"/search?type=product&q=perfume+gift+sets\">perfume gift sets</a>. Prefer something smokier? Try our <a href=\"/search?type=product&q=oud\">oud fragrances</a>. Every La Maison perfume is 100% authentic and ships from the UK, with free UK delivery once your basket passes £40.</p>"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is La Maison at Swansura genuine?\",\"Yes. Every La Maison product at Swansura is 100% authentic and ships from the UK.\"],[\"Which La Maison products do you stock?\",\"4 products, from £19.99 to £84.99: unisex (4).\"],[\"Which La Maison product should I start with?\",\"Good places to start are de la Vanille Royal Oud Eau de Parfum 100ml, de la wooden coffret 5X30ML EDT - Vanilles Des Origines and de la Vanille Ambre Secret Eau de Parfum 100ml.\"],[\"Does La Maison come in miniatures or gift sets?\",\"Not at the moment. Every La Maison product we stock is listed above.\"],[\"How fast is La Maison delivery?\",\"All La Maison orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.\"]]"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\":\"La Maison\",\"world\":\"scent\",\"partner\":false,\"line\":\"Fragrance house\",\"story\":\"La Maison at Swansura: 4 products, 100% authentic and shipped from the UK.\",\"count\":4,\"others\":[[\"anatomē\",\"/collections/anatome\",\"London apothecary for sleep and senses\",\"anatome\"],[\"Tiziana Terenzi\",\"/collections/tiziana-terenzi\",\"Italian niche extraits\",\"tiziana-terenzi\"],[\"Hemel\",\"/collections/hemel\",\"Modern luxury eaux de parfum\",null],[\"Fumeri\",\"/collections/fumeri\",\"Bold scents, everyday prices\",null],[\"Al Haramain\",\"/collections/al-haramain\",\"Arabian perfume house\",\"al-haramain\"]]}"
+    }
+   ]
+  },
+  "image": null
+ },
+ "_note": "Backup before deleting the La Maison brand (user, 6 Nov 2026: \"remove La Maison completely\"). Images saved in images/."
+}
