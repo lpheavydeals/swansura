@@ -354,6 +354,7 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
     - Hemel collection (704189694339) now holds 9 products: brand count 9; FAQ '9 products, from £49.99 to £61.99'; the 'Some scents are listed more than once…' sentence removed from the copy.
     - Before-state: `docs/backups/hemel_duplicates_wave2_before_2026-11-07.json`. All 9 redirect ids are in `docs/seo/hemel_duplicates_2026-11-07.json`.
     - Stock not moved: the 9 drafts hold 10 each (90), the October listings 3–5. The client sheet now only asks for real stock (all rows marked done, October price filled in).
+    - Drive upload (user, 7 Nov 2026: 'Upload the Hemel sheet to the client's Drive'): the connected Drive account (sales@thebilliongame.com) cannot write to the client's Drive (info@swansura.com's files are read-only to it, none shared into it), so the .xlsx went into that account's My Drive, private: https://drive.google.com/file/d/1wEpYGmrzchGnvk8VyMOVLEkZHuerGONp/view . Not shared with the client yet.
     - MISTAKE, fixed the same day: the first Hemel count update (18 → 16) went to collection 704189858179, which is the-woods-collection, and overwrote its custom.brand with Hemel's. Restored from `docs/seo/brand_handles_metafields_2026-10-30.jsonl` and checked live. Always look up a collection id by handle before a metafieldsSet.
 - Waiting on: client's filled product sheet + Shopify collaborator access.
 - Send quote to client.
