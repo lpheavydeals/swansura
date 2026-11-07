@@ -21,3 +21,9 @@ Collections 71–75 (LCP 3.0–3.3 s); product pages 54–62 (LCP 3.8–5.7 s; t
 
 ## Site fixes for the website session
 1. PDP main image eager + fetchpriority high + preload. 2. Meta domain-verification tag if the client chooses it. 3. Shorten long claim-like Vilvah/Deyga handles with redirects (needs OK). 4. Optional Black Friday gift-edit collection. 5. Client restocks: Lattafa Khamrah Qahwa (0), Vilvah hair kits (0), Milk Drops (25).
+
+## Re-check 7 Nov 2026 (GSC, GA4, Meta)
+- **Meta Pixel 1593636862064099** (Facebook & Instagram channel web pixel): PageView, ViewContent, AddToCart, InitiateCheckout fire on the live site (browser journey home → PDP → Add to bag → checkout). Purchase, CAPI (data sharing level) and domain verification can only be confirmed in Meta Events Manager / Business settings; no domain-verification meta tag or DNS TXT found.
+- **GA4: not connected.** The site's only Google tag is GT-NFJ2RGMF (Google & YouTube app). Its config (page `webPixelsConfigList`) and the served gtag.js contain one destination, Merchant Center MC-X30FHZXTP7 (page_view, view_item, purchase). No G- (GA4) or AW- (Google Ads) ID anywhere. `target_country` is "ZZ" (not set) → set United Kingdom in the Google & YouTube app.
+- **Search Console:** verified (google-site-verification meta tag + DNS TXT rwXEHe1L…); robots.txt lists https://www.swansura.com/sitemap.xml. Sitemap submission + index status need GSC access (none here).
+- Cookie banner settings: not readable (connector lacks read_privacy_settings); our test browser is outside the UK so no banner showed.
