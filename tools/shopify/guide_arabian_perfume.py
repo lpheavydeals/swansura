@@ -7,12 +7,13 @@ alhambra perfume 390, afnan perfume 390, oud perfume uk 170.
 
 The Lattafa / Afnan / Arabiyat Prestige / Maison Alhambra products added on 2 Nov 2026 were all sold out on
 6 Nov 2026 (stock 0), so they are linked in the text only ('soldout'); 'Shop the story' uses in-stock Al
-Haramain, Fumeri, SAP, La Maison de la Vanille and Montale. Maison Alhambra has no photos yet: brand collection
+Haramain, Fumeri, SAP and Montale. La Maison de la Vanille Royal Oud was removed (brand deleted 6 Nov 2026; the
+live article was edited by hand the same day); SAP Saffron Oud took its 'Shop the story' place (user, 7 Nov 2026). Maison Alhambra has no photos yet: brand collection
 link only. Facts = the scent notes in our product descriptions. No 'long-lasting' / projection promises; no
 'dupe' or 'smells like' comparisons. Prices are written into the text: re-run if prices change.
 
 Usage: python3 tools/shopify/guide_arabian_perfume.py <allp.json>   (handle -> storefront product, /collections/all)
-Output: docs/seo/guide_arabian_perfume_2026-11-06.jsonl
+Output: docs/seo/guide_arabian_perfume_2026-11-07.jsonl
 """
 import json
 import sys
@@ -34,7 +35,6 @@ A = {
         "nyla": "arabiyat-prestige-nyla-eau-de-parfum-80ml",
         "tobacco": None, "gold": None, "black": None, "ruby": None, "musk": None,
         "fumeri": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml", "sap": "sap-saffron-oud-extrait-de-parfum-100ml",
-        "royal": "la-maison-de-la-vanille-royal-oud-eau-de-parfum-100ml",
         "montale": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance",
     },
     "titles": {
@@ -42,7 +42,7 @@ A = {
         "black": "Al Haramain Amber Oud Black Edition", "ruby": "Al Haramain Amber Oud Ruby Edition",
         "musk": "Al Haramain Amber Musk",
     },
-    "shop": ["tobacco", "gold", "black", "ruby", "musk", "fumeri", "royal", "montale"],
+    "shop": ["tobacco", "gold", "black", "ruby", "musk", "fumeri", "sap", "montale"],
     "body": """<p>Few perfumes have travelled by word of mouth like <strong>Lattafa Khamrah Qahwa</strong>. It belongs to a wave of Arabian perfume houses, from Lattafa and Afnan to Al Haramain, Arabiyat Prestige and Maison Alhambra, whose rich, warm scents have found a big following in the UK. Here is what is in Khamrah Qahwa, what makes a perfume "Arabian", and how to choose one.</p>
 <h2>What does Lattafa Khamrah Qahwa smell like?</h2>
 <p>"Qahwa" is the Arabic word for coffee, and that is the idea at the heart of [[kq|Lattafa Khamrah Qahwa Eau de Parfum]] ({{kq}}, 100ml). Its notes, from top to base:</p>
@@ -78,7 +78,7 @@ A = {
 <h3>Sweet and fruity</h3>
 <p>[[gold|Al Haramain Amber Oud Gold Edition]] ({{gold}}) is bergamot, melon and pineapple over vanilla and musk, a popular first Arabian perfume. [[ruby|Al Haramain Amber Oud Ruby Edition]] ({{ruby}}) mixes saffron and bitter almond with jasmine and ambergris. [[musk|Al Haramain Amber Musk]] ({{musk}}) is softer: amber, musk, vanilla and resins.</p>
 <h3>Oud and saffron</h3>
-<p>[[fumeri|Fumeri Oud Saffron]] ({{fumeri}}) and [[sap|SAP Saffron Oud Extrait de Parfum]] ({{sap}}) both open on saffron and spice before oud, cedarwood and smoky woods, with amber, leather and musk. [[montale|Montale Aoud Safran]] ({{montale}}) builds on saffron and oud with rose and amber, while [[royal|La Maison de la Vanille Royal Oud]] ({{royal}}) softens oud with Turkish rose and jasmine.</p>
+<p>[[fumeri|Fumeri Oud Saffron]] ({{fumeri}}) and [[sap|SAP Saffron Oud Extrait de Parfum]] ({{sap}}) both open on saffron and spice before oud, cedarwood and smoky woods, with amber, leather and musk. [[montale|Montale Aoud Safran]] ({{montale}}) builds on saffron and oud with rose and amber.</p>
 <p>Browse all <a href="/collections/arabian-perfume">Arabian perfume</a> and <a href="/collections/oud-perfume">oud perfume</a>.</p>
 <h2>How to wear a rich, warm perfume</h2>
 <ul>
@@ -100,4 +100,4 @@ A = {
     ],
 }
 
-build(A, json.load(open(sys.argv[1])), "guide_arabian_perfume_2026-11-06.jsonl")
+build(A, json.load(open(sys.argv[1])), "guide_arabian_perfume_2026-11-07.jsonl")
