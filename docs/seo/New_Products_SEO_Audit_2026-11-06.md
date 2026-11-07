@@ -132,4 +132,4 @@ Applied after the user's go-ahead ('copy, menus and theme fixes'): sections 3, 4
 Not done (not approved):
 - the duplicate listings (section 5);
 - adding oud-led products to /collections/oud-perfume;
-- the 40 older pages with out-of-date counts/prices.
+- the 40 older pages with out-of-date counts/prices: DONE 7 Nov 2026 (37 pages updated; the other 3 were already fixed; see `docs/seo/stale_copy_fix_2026-11-07.md`).
