@@ -1,0 +1,158 @@
+{
+ "note": "Before-state 7 Nov 2026, wave 2 (user: 'keep the OCT uploaded price'). The 7 May 2026 Hemel listings are set to DRAFT and redirected to the October listings, which keep their current prices. Undo: productUpdate status ACTIVE, then delete the redirects (ids in docs/seo/hemel_duplicates_2026-11-07.json). Media URLs and SEO are unchanged on the drafts.",
+ "drafted": [
+  {
+   "id": "gid://shopify/Product/15974724403587",
+   "handle": "hemel-amethyst-dream-unisex-eau-de-parfum-100ml",
+   "title": "Hemel Amethyst Dream Unisex EDP 100ML",
+   "status": "ACTIVE",
+   "price": "69.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072013930883",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-floral"
+   ],
+   "redirect_to": "/products/hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance",
+   "kept_price": "61.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974727156099",
+   "handle": "hemel-favourite-black-unisex-eau-de-parfum-100ml",
+   "title": "Hemel Favourite Black Unisex Eau De Parfum 100ML",
+   "status": "ACTIVE",
+   "price": "69.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072019403139",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-woody"
+   ],
+   "redirect_to": "/products/hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance",
+   "kept_price": "61.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974731579779",
+   "handle": "hemel-fragrance-affair-unisex-eau-de-parfum-100ml",
+   "title": "Hemel Fragrance Affair Unisex Eau De Parfum 100ML",
+   "status": "ACTIVE",
+   "price": "63.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072027824515",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-floral"
+   ],
+   "redirect_to": "/products/hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance",
+   "kept_price": "61.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974733644163",
+   "handle": "hemel-patchouli-for-all-eau-de-parfum-100ml",
+   "title": "Hemel Patchouli For All Eau De Parfum 100ML",
+   "status": "ACTIVE",
+   "price": "60.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072034279811",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-woody"
+   ],
+   "redirect_to": "/products/hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance",
+   "kept_price": "61.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974741279107",
+   "handle": "hemel-plateado-eau-de-parfum-100ml",
+   "title": "Hemel Plateado Eau De Parfum Unisex 100ML",
+   "status": "ACTIVE",
+   "price": "53.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072067277187",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-fresh"
+   ],
+   "redirect_to": "/products/hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance",
+   "kept_price": "49.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974743474563",
+   "handle": "hemel-rosado-eau-de-parfum-100ml",
+   "title": "Hemel Rosado Eau De Parfum Unisex 100ML",
+   "status": "ACTIVE",
+   "price": "53.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072086479235",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-floral"
+   ],
+   "redirect_to": "/products/hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance",
+   "kept_price": "49.99"
+  },
+  {
+   "id": "gid://shopify/Product/15974744621443",
+   "handle": "hemel-valley-of-diamond-unisex-eau-de-parfum-100ml",
+   "title": "Hemel Valley Of Diamond Unisex Eau De Parfum 100ML",
+   "status": "ACTIVE",
+   "price": "60.99",
+   "inventory": 10,
+   "variant": "gid://shopify/ProductVariant/58072089690499",
+   "createdAt": "2026-05-18",
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-floral"
+   ],
+   "redirect_to": "/products/hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran",
+   "kept_price": "61.99"
+  }
+ ],
+ "hemel_collection_before": {
+  "id": "gid://shopify/Collection/704189694339",
+  "brand_count": 18,
+  "faq": "[[\"Is Hemel at Swansura genuine?\",\"Yes. Every Hemel product at Swansura is 100% authentic and ships from the UK.\"],[\"Which Hemel products do you stock?\",\"18 products, from £49.99 to £87.95: unisex (18).\"],[\"Which Hemel product should I start with?\",\"Good places to start are Rosado Eau De Parfum Unisex 100ML, Valley of Diamond Eau de Parfum 100ml and Rosado Eau de Parfum 100ml.\"],[\"Does Hemel come in miniatures or gift sets?\",\"Not at the moment. Every Hemel product we stock is listed above.\"],[\"How fast is Hemel delivery?\",\"All Hemel orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off. The cost for smaller orders is shown at checkout.\"]]"
+ },
+ "mistake_fixed": "7 Nov 2026: the earlier Hemel count update (18 -> 16) was sent to the wrong collection id 704189858179 (the-woods-collection), overwriting its custom.brand with Hemel's. Restored the same day from docs/seo/brand_handles_metafields_2026-10-30.jsonl; the real Hemel collection (704189694339) still said 18."
+}

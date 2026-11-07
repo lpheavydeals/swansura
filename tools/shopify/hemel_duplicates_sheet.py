@@ -18,19 +18,19 @@ PAIRS = [
  ("Gris", ("Hemel Gris Eau de Parfum 100ml – Luxury Unisex Citrus Woody Fragrance", "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance", 53.99, 3),
   ("Hemel Paris Gris Eau De Parfum for all 100ML", "hemel-gris-eau-de-parfum-100ml", 87.95, 10), 53.99, True),
  ("Amethyst Dream", ("Hemel Amethyst Dream Eau de Parfum 100ml – Luxury Unisex Floral Fruity Fragrance", "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance", 61.99, 5),
-  ("Hemel Amethyst Dream Unisex EDP 100ML", "hemel-amethyst-dream-unisex-eau-de-parfum-100ml", 69.99, 10), 69.99, False),
+  ("Hemel Amethyst Dream Unisex EDP 100ML", "hemel-amethyst-dream-unisex-eau-de-parfum-100ml", 69.99, 10), 69.99, True),
  ("Favourite Black", ("Hemel Favourite Black Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance", "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance", 61.99, 5),
-  ("Hemel Favourite Black Unisex Eau De Parfum 100ML", "hemel-favourite-black-unisex-eau-de-parfum-100ml", 69.99, 10), 69.99, False),
+  ("Hemel Favourite Black Unisex Eau De Parfum 100ML", "hemel-favourite-black-unisex-eau-de-parfum-100ml", 69.99, 10), 69.99, True),
  ("Fragrance Affair", ("Hemel Fragrance Affair Eau de Parfum 100ml – Luxury Unisex Floral Spicy Fragrance", "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance", 61.99, 5),
-  ("Hemel Fragrance Affair Unisex Eau De Parfum 100ML", "hemel-fragrance-affair-unisex-eau-de-parfum-100ml", 63.99, 10), 63.99, False),
+  ("Hemel Fragrance Affair Unisex Eau De Parfum 100ML", "hemel-fragrance-affair-unisex-eau-de-parfum-100ml", 63.99, 10), 63.99, True),
  ("Patchouli For All", ("Hemel Patchouli For All Eau de Parfum 100ml – Luxury Unisex Woody Patchouli Fragrance", "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance", 61.99, 5),
-  ("Hemel Patchouli For All Eau De Parfum 100ML", "hemel-patchouli-for-all-eau-de-parfum-100ml", 60.99, 10), 60.99, False),
+  ("Hemel Patchouli For All Eau De Parfum 100ML", "hemel-patchouli-for-all-eau-de-parfum-100ml", 60.99, 10), 60.99, True),
  ("Plateado", ("Hemel Plateado Eau de Parfum 100ml – Luxury Unisex Spicy Woody Fragrance", "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance", 49.99, 3),
-  ("Hemel Plateado Eau De Parfum Unisex 100ML", "hemel-plateado-eau-de-parfum-100ml", 53.99, 10), 53.99, False),
+  ("Hemel Plateado Eau De Parfum Unisex 100ML", "hemel-plateado-eau-de-parfum-100ml", 53.99, 10), 53.99, True),
  ("Rosado", ("Hemel Rosado Eau de Parfum 100ml – Luxury Unisex Floral Amber Long lasting Fragrance", "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance", 49.99, 3),
-  ("Hemel Rosado Eau De Parfum Unisex 100ML", "hemel-rosado-eau-de-parfum-100ml", 53.99, 10), 53.99, False),
+  ("Hemel Rosado Eau De Parfum Unisex 100ML", "hemel-rosado-eau-de-parfum-100ml", 53.99, 10), 53.99, True),
  ("Valley of Diamond", ("Hemel Valley of Diamond Eau de Parfum 100ml – Luxury Unisex Floral Woody Fragrance", "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran", 61.99, 5),
-  ("Hemel Valley Of Diamond Unisex Eau De Parfum 100ML", "hemel-valley-of-diamond-unisex-eau-de-parfum-100ml", 60.99, 10), 60.99, False),
+  ("Hemel Valley Of Diamond Unisex Eau De Parfum 100ML", "hemel-valley-of-diamond-unisex-eau-de-parfum-100ml", 60.99, 10), 60.99, True),
 ]
 
 F = "Arial"
@@ -43,12 +43,12 @@ GBP = '£#,##0.00;-£#,##0.00;"-"'
 wb = Workbook()
 ws = wb.active
 ws.title = "Hemel duplicates"
-ws["A1"] = "Hemel: each scent is listed twice in the store – please confirm"
+ws["A1"] = "Hemel: duplicate pages tidied up – please confirm stock"
 ws["A1"].font = Font(name=F, size=14, bold=True, color=EMER)
-ws["A2"] = ("Every Hemel scent has two live product pages, one from May 2026 and one from October 2026, usually at different prices. "
-            "Customers and Google see both. We suggest keeping ONE page per scent (the October one: clearer name, SEO title and photo descriptions) "
-            "and hiding the other (set to Draft, nothing deleted, old link sends visitors to the kept page). "
-            "Please fill in the yellow columns. Rows 1–2 (Dorado, Gris) are already done; please just confirm price and stock.")
+ws["A2"] = ("Every Hemel scent had two live product pages, one from May 2026 and one from October 2026, at different prices. "
+            "On 7 Nov 2026 we kept ONE page per scent, the October one at its October price (as agreed), and hid the May page "
+            "(set to Draft, nothing deleted; its old link now sends visitors to the October page). "
+            "One thing is left: stock. The May pages held 10 bottles each and the October pages 3–5. Please fill in column Q with the real number of bottles per scent.")
 ws["A2"].font = Font(name=F, size=10)
 ws["A2"].alignment = WRAP
 ws.merge_cells("A2:R2")
@@ -70,10 +70,9 @@ ws.row_dimensions[HR].height = 44
 
 for i, (scent, a, b, sheet_price, done) in enumerate(PAIRS, 1):
     r = HR + i
-    status = ("DONE: B hidden (Draft) + link redirected to A. Please confirm price and stock."
-              if done else "Waiting for your choice. Both pages are live.")
+    status = "DONE 7 Nov: B hidden (Draft), its link now goes to A. A keeps its October price. Please confirm stock only."
     vals = [i, scent, status, a[0], a[2], a[3], U + a[1], b[0], b[2], b[3], U + b[1], sheet_price,
-            f"=ABS(E{r}-I{r})", f"=F{r}+J{r}", "Keep A (Oct) – hide B" if done else None, None, None, None]
+            f"=ABS(E{r}-I{r})", f"=F{r}+J{r}", "Keep A (Oct) – hide B", a[2], None, None]
     for c, v in enumerate(vals, 1):
         x = ws.cell(r, c, v)
         x.font = Font(name=F, size=10, color="0000FF" if c in (5, 6, 9, 10, 12) else "000000")
@@ -120,8 +119,8 @@ ws["N4"].comment = Comment("If both pages' stock is real, the kept page should g
 n = last + 3
 notes = [
  ("How to fill this in", True),
- ("1. Column O: pick which page to keep from the drop-down. Rows 1–2 are pre-filled because they are already done.", False),
- ("2. Column P: the correct selling price in £ (e.g. 54.99). Leave blank to use the 'Price on your 3 Nov sheet' (column L).", False),
+ ("1. Column O: already done for all 9 (October page kept). Use the drop-down only if you want a different page kept.", False),
+ ("2. Column P: the price now on the site (the October price, as agreed). Change it only if it is wrong.", False),
  ("3. Column Q: how many bottles you really have of that scent in total (e.g. 13). The two pages currently show different stock: "
   "are the May page's units (column J) extra bottles, or the same bottles counted twice?", False),
  ("Example: Dorado → O 'Keep A (Oct) – hide B', P 54.99, Q 13.", False),

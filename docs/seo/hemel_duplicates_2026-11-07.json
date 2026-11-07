@@ -10,6 +10,41 @@
    "id": "gid://shopify/Product/15974732235139",
    "handle": "hemel-gris-eau-de-parfum-100ml",
    "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974724403587",
+   "handle": "hemel-amethyst-dream-unisex-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974727156099",
+   "handle": "hemel-favourite-black-unisex-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974731579779",
+   "handle": "hemel-fragrance-affair-unisex-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974733644163",
+   "handle": "hemel-patchouli-for-all-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974741279107",
+   "handle": "hemel-plateado-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974743474563",
+   "handle": "hemel-rosado-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974744621443",
+   "handle": "hemel-valley-of-diamond-unisex-eau-de-parfum-100ml",
+   "status": "DRAFT"
   }
  ],
  "redirects": [
@@ -22,8 +57,45 @@
    "id": "gid://shopify/UrlRedirect/1771123179907",
    "path": "/products/hemel-gris-eau-de-parfum-100ml",
    "target": "/products/hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131339139",
+   "path": "/products/hemel-amethyst-dream-unisex-eau-de-parfum-100ml",
+   "target": "/products/hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131371907",
+   "path": "/products/hemel-favourite-black-unisex-eau-de-parfum-100ml",
+   "target": "/products/hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131404675",
+   "path": "/products/hemel-fragrance-affair-unisex-eau-de-parfum-100ml",
+   "target": "/products/hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131437443",
+   "path": "/products/hemel-patchouli-for-all-eau-de-parfum-100ml",
+   "target": "/products/hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131470211",
+   "path": "/products/hemel-plateado-eau-de-parfum-100ml",
+   "target": "/products/hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131502979",
+   "path": "/products/hemel-rosado-eau-de-parfum-100ml",
+   "target": "/products/hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771131535747",
+   "path": "/products/hemel-valley-of-diamond-unisex-eau-de-parfum-100ml",
+   "target": "/products/hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran"
   }
  ],
- "hemel_brand_count": "18 -> 16",
- "verified": "both old URLs 301 to the kept listings, kept listings 200, /collections/hemel 16 products"
+ "hemel_brand_count": "18 -> 9 (collection 704189694339); FAQ '9 products, from £49.99 to £61.99'; 'listed more than once' sentence removed from seo_copy",
+ "verified": "all 9 old URLs 301 to the October listings; /collections/hemel 9 products at £49.99–£61.99, no 87.95, no Liquid errors; the-woods-collection header back",
+ "prices": "October listings keep their current prices (user, 7 Nov 2026: 'keep the OCT uploaded price')",
+ "woods_fix": "custom.brand of the-woods-collection (704189858179) was overwritten by mistake with Hemel's and restored the same day"
 }

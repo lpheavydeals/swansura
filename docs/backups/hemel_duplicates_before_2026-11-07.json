@@ -1,5 +1,5 @@
 {
- "note": "Before-state 7 Nov 2026. The two 'Hemel Paris' listings (old £87.95) are set to DRAFT and their URLs redirected to the kept listings. Undo: productUpdate status ACTIVE, then delete the 2 URL redirects (ids in docs/seo/hemel_duplicates_2026-11-07.json).",
+ "note": "Before-state 7 Nov 2026. The two 'Hemel Paris' listings (old £87.95) are set to DRAFT and their URLs redirected to the kept listings. Undo: productUpdate status ACTIVE, then delete the 2 URL redirects (ids in docs/seo/hemel_duplicates_2026-11-07.json). NOTE: the Hemel count change recorded earlier went to the wrong collection; see hemel_duplicates_wave2_before_2026-11-07.json.",
  "drafted": [
   {
    "id": "gid://shopify/Product/15974725714307",
@@ -75,6 +75,5 @@
    "price": "53.99",
    "inventory": 3
   }
- ],
- "hemel_brand_count_before": 18
+ ]
 }
