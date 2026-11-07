@@ -345,6 +345,7 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
   - Records: before-state + undo `docs/backups/hemel_duplicates_before_2026-11-07.json`; redirect ids `docs/seo/hemel_duplicates_2026-11-07.json`.
   - Checked: no other product's custom.pdp lists, and no collection copy, linked the old URLs.
   - Stock NOT moved: the drafts hold 10 units each and the kept listings 3 each. The client should say whether those 20 units are real, and if so add them to the kept listings.
+  - Client check sheet (user, 7 Nov 2026: 'give it in Sheet for Client Conformation'): `docs/Swansura_Hemel_Duplicates_Client_Check_2026-11-07.xlsx` (generator `tools/shopify/hemel_duplicates_sheet.py`). It covers all 9 pairs with both pages' price, stock and links, plus the price from the client's 3 Nov sheet (one price per scent: it went onto the May page for 7 scents and the October page for Dorado/Gris). Yellow columns for the client: which page to keep (drop-down), correct price, real stock.
   - Still open: every other Hemel scent is listed twice too, 7 more pairs (Valley of Diamond, Rosado, Plateado, Patchouli For All, Fragrance Affair, Favourite Black, Amethyst Dream), each at two different prices (e.g. Favourite Black £61.99 vs £69.99). The Hemel copy says 'Some scents are listed more than once at different prices'.
 - Waiting on: client's filled product sheet + Shopify collaborator access.
 - Send quote to client.
