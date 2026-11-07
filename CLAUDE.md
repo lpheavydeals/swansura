@@ -340,6 +340,12 @@ Read this first in every session. Full history: `docs/HANDOFF.md` (handoff from 
     - Hemel Gris (£53.99) and Dorado (£54.99) each have a second active listing, 'Hemel Paris Gris Eau De Parfum for all 100ML' and 'Hemel Paris Dorado EDP Unisex 100ML', at the old £87.95. The copy uses the first two.
     - Gender splits recomputed from the live collections differ a lot from the old answers (e.g. floral now 3 for him, was 24). Those collections' memberships may need a review.
   - Prices and counts are written into the text: re-run the generator after big price or catalogue changes.
+- **Hemel Gris + Dorado duplicates drafted (user, 7 Nov 2026: "Draft the Hemel duplicates and redirect them"):** 'Hemel Paris Gris Eau De Parfum for all 100ML' and 'Hemel Paris Dorado EDP Unisex 100ML' (old £87.95, from May 2026) are now DRAFT. Their URLs 301 to the kept listings, hemel-gris-…-citrus-woody-fragrance (£53.99) and hemel-dorado-…-leather-amber-fragrance (£54.99).
+  - Nothing deleted: photos and SKUs stay on the drafts. Hemel brand count 18 → 16.
+  - Records: before-state + undo `docs/backups/hemel_duplicates_before_2026-11-07.json`; redirect ids `docs/seo/hemel_duplicates_2026-11-07.json`.
+  - Checked: no other product's custom.pdp lists, and no collection copy, linked the old URLs.
+  - Stock NOT moved: the drafts hold 10 units each and the kept listings 3 each. The client should say whether those 20 units are real, and if so add them to the kept listings.
+  - Still open: every other Hemel scent is listed twice too, 7 more pairs (Valley of Diamond, Rosado, Plateado, Patchouli For All, Fragrance Affair, Favourite Black, Amethyst Dream), each at two different prices (e.g. Favourite Black £61.99 vs £69.99). The Hemel copy says 'Some scents are listed more than once at different prices'.
 - Waiting on: client's filled product sheet + Shopify collaborator access.
 - Send quote to client.
 - Deck footer sources: unresolved whether to add "Screaming Frog, Semrush, Ahrefs & Claude".

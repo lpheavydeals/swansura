@@ -1,0 +1,80 @@
+{
+ "note": "Before-state 7 Nov 2026. The two 'Hemel Paris' listings (old £87.95) are set to DRAFT and their URLs redirected to the kept listings. Undo: productUpdate status ACTIVE, then delete the 2 URL redirects (ids in docs/seo/hemel_duplicates_2026-11-07.json).",
+ "drafted": [
+  {
+   "id": "gid://shopify/Product/15974725714307",
+   "handle": "hemel-dorado-eau-de-parfum-100ml",
+   "title": "Hemel Paris Dorado EDP Unisex 100ML",
+   "status": "ACTIVE",
+   "price": "87.95",
+   "variant": "gid://shopify/ProductVariant/58072016290179",
+   "inventory": 10,
+   "createdAt": "2026-05-18T17:30:03Z",
+   "seo": {
+    "title": "Hemel Paris Dorado EDP Unisex | Buy Online UK | Swansura",
+    "description": "Buy Hemel Paris Dorado EDP Unisex 100ml for £87.95 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-woody"
+   ],
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/hemel-paris-dorado-100ml-front-view.png?v=1792056991",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/hemel-paris-dorado-edp-100ml-product-view.png?v=1792057012",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/hemel-paris-dorado-unisex-edp-100ml-box-bottle.png?v=1792057047",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/hemel-paris-dorado-unisex-edp-100ml-bottle.jpg?v=1792057093"
+   ],
+   "redirect_to": "/products/hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance"
+  },
+  {
+   "id": "gid://shopify/Product/15974732235139",
+   "handle": "hemel-gris-eau-de-parfum-100ml",
+   "title": "Hemel Paris  Gris Eau De Parfum for all 100ML",
+   "status": "ACTIVE",
+   "price": "87.95",
+   "variant": "gid://shopify/ProductVariant/58072030970243",
+   "inventory": 10,
+   "createdAt": "2026-05-18T17:33:58Z",
+   "seo": {
+    "title": "Hemel Paris Gris Eau De Parfum for All 100ml | Swansura UK",
+    "description": "Buy Hemel Paris Gris Eau De Parfum for All 100ml for £87.95 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "collections": [
+    "fragrance",
+    "hemel",
+    "price-50-9999",
+    "unisex-perfume",
+    "niche-perfume",
+    "gifts-over-50",
+    "scent-woody"
+   ],
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/Gris_Eau_de_Parfum.png?v=1779125630",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/Gris_Eau_de_Parfum_1.png?v=1779125630",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/gs3.jpg?v=1779125629",
+    "https://cdn.shopify.com/s/files/1/0954/5397/0819/files/gs5.jpg?v=1779125629"
+   ],
+   "redirect_to": "/products/hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance"
+  }
+ ],
+ "kept": [
+  {
+   "id": "gid://shopify/Product/16359709933955",
+   "handle": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance",
+   "price": "54.99",
+   "inventory": 3
+  },
+  {
+   "id": "gid://shopify/Product/16359877050755",
+   "handle": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance",
+   "price": "53.99",
+   "inventory": 3
+  }
+ ],
+ "hemel_brand_count_before": 18
+}

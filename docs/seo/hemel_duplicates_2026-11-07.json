@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-07",
+ "drafted": [
+  {
+   "id": "gid://shopify/Product/15974725714307",
+   "handle": "hemel-dorado-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  },
+  {
+   "id": "gid://shopify/Product/15974732235139",
+   "handle": "hemel-gris-eau-de-parfum-100ml",
+   "status": "DRAFT"
+  }
+ ],
+ "redirects": [
+  {
+   "id": "gid://shopify/UrlRedirect/1771123147139",
+   "path": "/products/hemel-dorado-eau-de-parfum-100ml",
+   "target": "/products/hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1771123179907",
+   "path": "/products/hemel-gris-eau-de-parfum-100ml",
+   "target": "/products/hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance"
+  }
+ ],
+ "hemel_brand_count": "18 -> 16",
+ "verified": "both old URLs 301 to the kept listings, kept listings 200, /collections/hemel 16 products"
+}
