@@ -133,11 +133,11 @@
   /* ---------- search ---------- */
   let qTimer;
   function openSearch() {
-    openLayer(`<div class="scrim" data-close></div><div class="search" role="dialog" aria-label="Search"><div class="wrap" style="padding:0;display:flex;flex-direction:column;gap:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Search ${esc(cfg.count || '')} products</span><button data-close>Close</button></div><form action="/search" method="get" role="search" style="margin:0"><input type="hidden" name="type" value="product"><label for="q" class="sr-only">Search products and brands</label><input id="q" name="q" placeholder="Search Deyga, oud, serum, Gucci…" autocomplete="off"></form><div id="qres"></div></div></div>`);
+    openLayer(`<div class="scrim" data-close></div><div class="search" role="dialog" aria-label="Search"><div class="wrap" style="padding:0;display:flex;flex-direction:column;gap:20px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Search ${esc(cfg.count || '')} products</span><button data-close>Close</button></div><form action="/search" method="get" role="search" style="margin:0"><input type="hidden" name="type" value="product"><input type="hidden" name="options[unavailable_products]" value="last"><label for="q" class="sr-only">Search products and brands</label><input id="q" name="q" placeholder="Search Deyga, oud, serum, Gucci…" autocomplete="off"></form><div id="qres"></div></div></div>`);
     const q = $('#q'); q.focus();
     const chips = () => `<div class="chips">${['Deyga', 'Vilvah', 'Oud', 'Lip balm', 'Serum', 'Al Haramain', 'Gucci', 'Gift set'].map(s => `<button class="chip" data-suggest="${s}">${s}</button>`).join('')}</div>`;
     const run = () => { clearTimeout(qTimer); const v = q.value.trim(); if (v.length < 2) { $('#qres').innerHTML = chips(); return; }
-      qTimer = setTimeout(async () => { const html = await (await fetch(`/search?q=${encodeURIComponent(v)}&type=product&options[prefix]=last&section_id=sw-p-search-results`)).text();
+      qTimer = setTimeout(async () => { const html = await (await fetch(`/search?q=${encodeURIComponent(v)}&type=product&options[prefix]=last&options[unavailable_products]=last&section_id=sw-p-search-results`)).text();
         const d = new DOMParser().parseFromString(html, 'text/html'), r = d.querySelector('#sw-qres'); if (q.value.trim() === v && r) $('#qres').innerHTML = r.innerHTML; syncHearts(); }, 180); };
     q.addEventListener('input', run); run();
   }
@@ -364,7 +364,7 @@
       try { const r = await fetch(`/search/suggest.json?q=${encodeURIComponent(text)}&resources[type]=product&resources[limit]=6&resources[options][unavailable_products]=last`), d = await r.json();
         const list = (d.resources?.results?.products || []).map(x => { const v = (x.variants || []).find(y => y.available) || (x.variants || [])[0] || {}; const pr = s => Math.round(parseFloat(String(s ?? '0')) * (String(s ?? '').includes('.') ? 100 : 1));
           return { u: x.url, n: x.title, b: x.vendor === 'Swansura - The Body Studio' ? 'Swansura Selection' : x.vendor, p: pr(v.price ?? x.price), c: pr(v.compare_at_price ?? x.compare_at_price_max ?? 0), a: x.available !== false && v.available !== false, v: v.id, i: x.featured_image?.url || x.image || '' }; });
-        if (list.length) return bot(`<p>Here is what I found for <b>${esc(text)}</b>:</p><div class="as-cards">${list.slice(0, 4).map(card).join('')}</div>${chips([[{ u: '/search?q=' + encodeURIComponent(text) }, 'See all results'], [{}, 'Guide me instead']], ' keep')}`);
+        if (list.length) return bot(`<p>Here is what I found for <b>${esc(text)}</b>:</p><div class="as-cards">${list.slice(0, 4).map(card).join('')}</div>${chips([[{ u: '/search?options%5Bunavailable_products%5D=last&q=' + encodeURIComponent(text) }, 'See all results'], [{}, 'Guide me instead']], ' keep')}`);
       } catch (e) {}
       return bot(`<p>I could not find a match for <b>${esc(text)}</b>. Shall I guide you, or would you like to ask our team?</p>${chips([[{}, 'Guide me'], [{ f: 'help', a: 'person' }, 'Ask a person']], ' keep')}`);
     }
@@ -462,7 +462,7 @@
       if (prs.length) list = list.filter(p => prs.some(r => { const [a, b] = r.split('-').map(Number); return p.p >= a && p.p < b; }));
       if (stock) list = list.filter(p => p.ok);
       const s = $('#sort').value;
-      if (s === 'feat' && brandMode) list.sort((a, b) => (b.ok - a.ok) || (a.i - b.i));
+      if (s === 'feat') list.sort((a, b) => (b.ok - a.ok) || (a.i - b.i)); // in-stock first on every listing
       if (s === 'low') list.sort((a, b) => a.p - b.p); if (s === 'high') list.sort((a, b) => b.p - a.p); if (s === 'az') list.sort((a, b) => a.n.localeCompare(b.n));
       const act = $('#active');
       if (act) { const on = $$('#filters input:checked'); act.hidden = !on.length;
@@ -483,11 +483,11 @@
       if (e.target.closest('#loadMore')) { shown += PAGE; apply(false); return; }
       if (e.target.closest('#ftoggle')) $('#filters').classList.toggle('open');
     });
-    collect(); build(); if (brandMode) apply(true);
+    collect(); build(); apply(true);
     const pages = +root.dataset.pages || 1;
     if (pages > 1) (async () => { for (let n = 2; n <= pages; n++) { const html = await (await fetch(`${root.dataset.url}?page=${n}&section_id=${root.dataset.section}`)).text();
       const d = new DOMParser().parseFromString(html, 'text/html'); $$('#sw-pool article.p-card', d).forEach(a => { a.hidden = true; pool.appendChild(document.importNode(a, true)); }); }
-      collect(); build(); if (brandMode) apply(false); })();
+      collect(); build(); apply(false); })();
   })();
 
   /* ---------- product page (productPage() handlers) ---------- */

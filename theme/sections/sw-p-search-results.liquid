@@ -6,8 +6,8 @@
   {%- if search.performed -%}
     {%- paginate search.results by 12 -%}
       {%- if search.results_count > 0 -%}
-        <p style="color:var(--ink-2);margin-bottom:14px">{{ search.results_count }} result{% if search.results_count != 1 %}s{% endif %}{% if search.results_count > 12 %}, showing 12 · <a href="{{ routes.search_url }}?q={{ search.terms | url_encode }}&amp;type=product" style="text-decoration:underline" data-close>see all</a>{% endif %}</p>
-        <div class="grid-p">{%- for item in search.results -%}{%- if item.object_type == 'product' -%}{% render 'sw-p-card', product: item %}{%- endif -%}{%- endfor -%}</div>
+        <p style="color:var(--ink-2);margin-bottom:14px">{{ search.results_count }} result{% if search.results_count != 1 %}s{% endif %}{% if search.results_count > 12 %}, showing 12 · <a href="{{ routes.search_url }}?q={{ search.terms | url_encode }}&amp;type=product&amp;options%5Bunavailable_products%5D=last" style="text-decoration:underline" data-close>see all</a>{% endif %}</p>
+        <div class="grid-p">{%- for pass in (1..2) -%}{%- for item in search.results -%}{%- if item.object_type == 'product' -%}{%- if pass == 1 and item.available == false -%}{%- continue -%}{%- endif -%}{%- if pass == 2 and item.available -%}{%- continue -%}{%- endif -%}{% render 'sw-p-card', product: item %}{%- endif -%}{%- endfor -%}{%- endfor -%}</div>
       {%- else -%}
         <p style="color:var(--ink-2)">No matches. Try a brand or an ingredient.</p>
       {%- endif -%}
