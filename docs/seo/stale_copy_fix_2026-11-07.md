@@ -174,13 +174,13 @@
 - Deyga's Charcoal Detox Face Mask (£15.99)
   → Deyga's Charcoal Detox Face Mask (£13.99)
 
-## /collections/perfume-for-women (150 products)
+## /collections/perfume-for-women (158 products)
 - This edit brings together 67 eaux
   → This edit brings together more than 140 eaux
 - FAQ *How much do these products cost?* Prices run from £16.95 to £84.99.
   → Prices run from £15.99 to £99.99.
 
-## /collections/perfume-for-men (96 products)
+## /collections/perfume-for-men (99 products)
 - This edit gathers 59 eaux
   → This edit gathers more than 90 eaux
 - Armaf Hunter (£22.99)
@@ -188,11 +188,11 @@
 - FAQ *How much do these products cost?* Prices run from £16.99 to £144.99.
   → Prices run from £11.94 to £144.99.
 
-## /collections/unisex-perfume (319 products)
+## /collections/unisex-perfume (299 products)
 - **Description:** A unisex perfume is made for anyone who loves it, and many of the most interesting scents in our range sit outside the 'for him' or 'for her' labels.
-  → A unisex perfume is made for anyone who loves it: more than 310 scents beyond the for him and for her labels. Free UK delivery over £40.
+  → A unisex perfume is made for anyone who loves it: more than 290 scents beyond the for him and for her labels. Free UK delivery over £40.
 - more than 230 shareable fragrances
-  → more than 310 shareable fragrances
+  → more than 290 shareable fragrances
 - Montale Aoud Safran (£54.99)
   → Montale Aoud Safran (£62.99)
 - Amber Oud Tobacco Edition (£34.99)
@@ -200,9 +200,9 @@
 - FAQ *How much do these products cost?* Prices run from £14.99 to £299.99.
   → Prices run from £9.99 to £299.99.
 
-## /collections/niche-perfume (81 products)
+## /collections/niche-perfume (72 products)
 - This edit brings together 73 fragrances
-  → This edit brings together more than 80 fragrances
+  → This edit brings together more than 70 fragrances
 - Montale Aoud Safran (£54.99)
   → Montale Aoud Safran (£62.99)
 - FAQ *How much do these products cost?* Prices run from £28.00 to £299.99.
@@ -216,9 +216,9 @@
 - Hemel Gris and Dorado (£49.99 each)
   → Hemel Gris (£53.99) and Dorado (£54.99)
 
-## /collections/gifts-over-50 (151 products)
+## /collections/gifts-over-50 (142 products)
 - over 130 fragrances and skincare collections
-  → over 150 fragrances and skincare collections
+  → over 140 fragrances and skincare collections
 
 ## /collections/diwali-gifts (94 products)
 - Amber Oud Gold Edition (£29.99)
@@ -278,37 +278,41 @@
 - FAQ *How much do oud perfumes cost?* From £19.99 to £299.99.
   → From £17.99 to £299.99.
 
-## /collections/scent-amber (96 products)
+## /collections/scent-amber (103 products)
 - There are over 30 fragrances,
   → There are more than 90 fragrances,
 - Swansura Selection Roll It 1 is a unisex Eau de Parfum at £99.99.
   → Game of Spades Roll It 1 is a unisex Eau de Parfum at £99.99.
 - FAQ *Are there amber perfumes for men and women?* Yes: 25 unisex, 7 for him, 2 for her.
-  → Yes: 84 unisex, 7 for her, 5 for him.
+  → Yes: 86 unisex, 9 for him, 8 for her.
 - FAQ *Do you have amber miniatures or gift sets?* Yes, 8: Balance Eau de Parfum, Parfum Travel and Order Eau de Parfum and more.
   → Yes, 13: Balance Eau de Parfum, Parfum Travel and Order Eau de Parfum and more.
 - FAQ *How much do amber perfumes cost?* From £19.99 to £144.00.
-  → From £9.99 to £144.
+  → From £9.99 to £153.99.
 
-## /collections/scent-floral (250 products)
+## /collections/scent-floral (238 products)
 - **Description:** Floral is the biggest family on our shelf, and this floral perfume edit gathers 166 fragrances built around rose, jasmine and white flowers.
-  → Floral is the biggest family on our shelf, and this floral perfume edit gathers more than 240 fragrances built around rose, jasmine and white flowers.
+  → Floral is the biggest family on our shelf, and this floral perfume edit gathers more than 230 fragrances built around rose, jasmine and white flowers.
 - this floral perfume edit gathers 166 fragrances
-  → this floral perfume edit gathers more than 240 fragrances
+  → this floral perfume edit gathers more than 230 fragrances
+- FAQ *What does a floral perfume smell like?* Floral fragrances are rose, jasmine, white flowers. Examples here include Kaff Extrait de Parfum 100ml, Rosado Eau De Parfum Unisex 100ML and Cool Water Reborn Intense Eau de Parfum 50ml.
+  → Floral fragrances are rose, jasmine, white flowers. Examples here include Kaff Extrait de Parfum 100ml, Cool Water Reborn Intense Eau de Parfum 50ml and Eternity Eau de Parfum.
 - FAQ *Are there floral perfumes for men and women?* Yes: 76 for her, 66 unisex, 24 for him.
-  → Yes: 137 for her, 110 unisex, 3 for him.
+  → Yes: 144 for her, 94 unisex.
 - FAQ *Do you have floral miniatures or gift sets?* Yes, 48: My Euphoria Eau de Parfum 10ml Miniature, Eternity Aromatic Essence Parfum Intense 10ml Miniature and Women’s Miniature Fragrance Set 4x15ml and more.
   → Yes, 58: My Euphoria Eau de Parfum 10ml Miniature, Eternity Aromatic Essence Parfum Intense 10ml Miniature and Women’s Miniature Fragrance Set 4x15ml and more.
+- FAQ *How much do floral perfumes cost?* From £14.99 to £184.99.
+  → From £14.99 to £164.99.
 
-## /collections/scent-woody (149 products)
+## /collections/scent-woody (145 products)
 - This edit gathers 95 woody fragrances
   → This edit gathers more than 140 woody fragrances
 - FAQ *Are there woody perfumes for men and women?* Yes: 58 for him, 37 unisex.
-  → Yes: 76 unisex, 73 for him.
+  → Yes: 75 for him, 70 unisex.
 - FAQ *Do you have woody miniatures or gift sets?* Yes, 12: Eternity Aromatic Essence Parfum Intense 10ml Miniature, Eternity Parfum 10ml Miniature and Defy Parfum 10ml Miniature and more.
   → Yes, 21: Signature Santal Eau De Parfum 100ml+15ml (UNISEX), Eternity Aromatic Essence Parfum Intense 10ml Miniature and Eternity Parfum 10ml Miniature and more.
 - FAQ *How much do woody perfumes cost?* From £14.99 to £125.00.
-  → From £11.94 to £125.
+  → From £11.94 to £184.99.
 
 ## /collections/scent-fresh (41 products)
 - gathers 25 bright, clean and easy-to-wear fragrances from £16.99,
@@ -322,7 +326,7 @@
 - FAQ *Do you have fresh miniatures or gift sets?* Yes, 5: Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml, Energy Eau de Parfum and Men’s Miniature Fragrance Set and more.
   → Yes, 11: Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml, Energy Eau de Parfum and Men’s Miniature Fragrance Set and more.
 - FAQ *How much do fresh perfumes cost?* From £16.99 to £125.00.
-  → From £9.99 to £125.
+  → From £9.99 to £164.99.
 
 ## /collections/swansura-selection (6 products)
 - There are seven pieces, from £9.99.

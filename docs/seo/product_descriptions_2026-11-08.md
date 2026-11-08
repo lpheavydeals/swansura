@@ -33,7 +33,7 @@ The bright, peppery opening feels clean enough for daytime, while star anise, nu
 
 > Check: Family label says "floral" but the current text says Amber Floral and the notes (truffle, plum, rum, patchouli) read amber floral; described as amber floral.
 
-Tom Ford Black Orchid is a deep, dark parfum for anyone who likes their fragrance rich and warm. Made as a unisex scent, it opens on earthy truffle and ripe plum, then moves into rum, ylang-ylang and black orchid before resting on patchouli. The current text describes it as an amber floral with a sensual character, and that is how it reads.
+Tom Ford Black Orchid is a deep, dark parfum for anyone who likes their fragrance rich and warm. Made as a unisex scent, it opens on earthy truffle and ripe plum, then moves into rum, ylang-ylang and black orchid before resting on patchouli. It is an amber floral with a sensual character.
 
 **Fragrance notes**
 
@@ -311,7 +311,7 @@ Al Haramain Amber Oud Eau de Parfum is a rich unisex fragrance with warm amber, 
 
 **How it wears**
 
-Despite the name, its listed notes are fruit, amber, vanilla and musk rather than oud wood, so it reads warm and sweet more than smoky. An eau de parfum carries a higher concentration of fragrance oils than an eau de toilette, which suits this fuller, rounded style. Reach for it on cool evenings, at celebrations, or whenever you want something comforting and golden.
+Its notes are fruit, amber, vanilla and musk, so it reads warm and sweet more than smoky. An eau de parfum carries a higher concentration of fragrance oils than an eau de toilette, which suits this fuller, rounded style. Reach for it on cool evenings, at celebrations, or whenever you want something comforting and golden.
 
 **Good to know**
 
@@ -786,7 +786,7 @@ Davidoff Champion is a fresh, sporty men's eau de toilette built on bright citru
 
 **How it wears**
 
-This is an energetic, uncomplicated scent that feels at home on a weekday morning, after the gym or in the office. The citrus and herbs keep it crisp in warm weather, while the cedar and oakmoss base gives it enough backbone for cooler days. As an eau de toilette it is a lighter concentration, easy to reapply and hard to overdo.
+This is an energetic, uncomplicated scent that feels at home on a weekday morning, after the gym or in the office. The citrus and herbs keep it crisp in warm weather, while the cedar and oakmoss base gives it enough backbone for cooler days. As an eau de toilette it is a lighter concentration and hard to overdo.
 
 **Good to know**
 
@@ -888,7 +888,7 @@ Anna Sui Sky is a playful, airy women's eau de toilette that mixes juicy fruit, 
 
 **How it wears**
 
-Sky is light-hearted and whimsical, easy to wear to college, the office or a weekend lunch. The fresh pear and lotus feel right in spring and summer, and the popcorn and vanilla finish adds a cosy sweetness that keeps it interesting into autumn. An eau de toilette is a lighter concentration, so it is simple to top up during the day.
+Sky is light-hearted and whimsical, easy to wear to college, the office or a weekend lunch. The fresh pear and lotus feel right in spring and summer, and the popcorn and vanilla finish adds a cosy sweetness that keeps it interesting into autumn. An eau de toilette is a lighter concentration than an eau de parfum.
 
 **Good to know**
 
@@ -940,7 +940,7 @@ Carolina Herrera Bad Boy Extreme is an intense men's eau de parfum with warm spi
 
 **How it wears**
 
-With cacao and tonka at its centre, this is a dark, sweet-spiced scent made for evenings, dates and nights out rather than the gym. It feels most at home in autumn and winter, when the warmth of the base has room to show. The ginger keeps the opening lively, and the eau de parfum concentration means a few sprays go a long way.
+With cacao and tonka at its centre, this is a dark, sweet-spiced scent made for evenings, dates and nights out rather than the gym. It feels most at home in autumn and winter, when the warmth of the base has room to show. The ginger keeps the opening lively, and as an eau de parfum it is a higher concentration than an eau de toilette.
 
 **Good to know**
 
@@ -1050,7 +1050,7 @@ The opening is dark and spiced, built on resins such as myrrh and opopanax rathe
 **Good to know**
 
 - 50ml spray
-- Chloe Nomade Nuit d’Egypte eau de parfum: a richer, more concentrated form than an eau de toilette
+- Eau de parfum, a richer concentration than an eau de toilette
 - 100% authentic, shipped from the UK
 - Also try: [Chloé Nomade Jasmin Naturel Intense](/products/chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance) or [the Chloé Nomade gift set](/products/chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set)
 
