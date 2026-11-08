@@ -7,14 +7,14 @@ Fails a draft on: words outside 150-240, tags other than p/h3/ul/li/a, banned wo
 exclamation marks, links that are not in-stock live products, primary keyword missing from the first sentence,
 stored top/heart/base notes missing from the text.
 """
-import glob, html, json, re, sys
+import glob, html, json, re, sys, unicodedata
 
 drafts = json.load(open(sys.argv[1]))
 facts = {f["handle"]: f for f in json.load(open(sys.argv[2]))}
 SF = {p["handle"]: p for f in glob.glob(sys.argv[3] + "/sfall_*.json") for p in json.load(open(f))["products"]}
 BANNED = r"captivat|mesmeri|intoxicat|allur|unleash|elevat|indulg|exquisite|symphony|journey|embark|best.?sell|iconic|cult\b|award|no\.? ?1\b|limited edition|new formula|dupe|smells like|alternative to|hypoallergenic|sensitive skin|aphrodisiac|pheromone|mood|lasts all day|\bhours\b|free delivery|in stock|official (uk )?partner|launched|perfumer|\bnose\b"
 ALLOWED = {"p", "h3", "ul", "li", "a"}
-norm = lambda s: re.sub(r"[^a-z0-9]+", " ", html.unescape(s).lower().replace("’", "'")).strip()
+norm = lambda s: re.sub(r"[^a-z0-9]+", " ", unicodedata.normalize("NFKD", html.unescape(s).replace("’", "'")).encode("ascii", "ignore").decode().lower()).strip()
 bad = 0
 for d in drafts:
     f = facts[d["handle"]]; h = d["html"]; errs = []
@@ -29,16 +29,16 @@ for d in drafts:
     if m: errs.append(f"banned {sorted(set(x.lower() for x in m))}")
     if "£" in text or re.search(r"\d+\.\d\d", text): errs.append("price")
     if "—" in text or "–" in re.sub(r"<a [^>]*>.*?</a>", "", h): errs.append("dash")
-    if "!" in text: errs.append("exclamation")
+    if "!" in text.replace("Joop!", "Joop"): errs.append("exclamation")
     for url in re.findall(r'href="([^"]+)"', h):
         hd = url.rsplit("/", 1)[-1]
         p = SF.get(hd)
         if not url.startswith("/products/") or not p or not any(v["available"] for v in p["variants"]):
             errs.append(f"link {url}")
         if hd == d["handle"]: errs.append("self link")
-    first = norm(re.split(r"(?<=[.?])\s", text.strip(), 1)[0])
-    kw = norm(f["primary_keyword"]).replace("chloe", "chlo").split()
-    if not all(w in first.replace("chlo e", "chlo") for w in kw): errs.append(f"keyword '{f['primary_keyword']}' not in first sentence")
+    first = norm(re.split(r"(?<=[.?])\s", text.strip(), maxsplit=1)[0])
+    kw = norm(f["primary_keyword"]).split()
+    if not all(w in first.split() for w in kw): errs.append(f"keyword '{f['primary_keyword']}' not in first sentence")
     n = f["facets"].get("n")
     if isinstance(n, dict):
         for k, v in n.items():
