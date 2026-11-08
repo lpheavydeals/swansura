@@ -1,0 +1,305 @@
+{
+ "note": "Before-state 8 Nov 2026 for the first 50 longer product descriptions (descriptionHtml as stored). Undo: productUpdate(product:{id, descriptionHtml}) with these values.",
+ "products": [
+  {
+   "id": "gid://shopify/Product/16274977325443",
+   "handle": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set",
+   "title": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set",
+   "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Discover the bold and sophisticated scent of </span><strong><span>Dior Sauvage Eau de Parfum</span></strong><span>, an amber fougère fragrance created for men. Inspired by the desert at sundown, Sauvage EDP combines fresh, spicy and warm notes to create a powerful and refined fragrance with a distinctly masculine character.</span></p>\n<p class=\"isSelectedEnd\"><strong><span>Fragrance Notes</span></strong></p>\n<p><strong><span>Top Notes:</span></strong><span> Calabrian Bergamot, Sichuan Pepper</span><br><strong><span>Heart Notes:</span></strong><span> Star Anise, Nutmeg, Lavender</span><br><strong><span>Base Notes:</span></strong><span> Papua New Guinea Vanilla, Ambroxan</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16294245794179",
+   "handle": "tom-ford-black-orchid-parfum-100ml-unisex",
+   "title": "Tom Ford Black Orchid Parfum 100ml Unisex",
+   "descriptionHtml": "<p><span>Tom Ford Black Orchid Parfum is a rich and luxurious unisex fragrance with a deep, sensual character. It blends truffle, plum, rum, ylang-ylang, black orchid and patchouli to create a warm, sophisticated scent with lasting intensity. Perfect for evening wear and special occasions.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Family:</strong> Amber Floral<br><strong>Top Notes:</strong> Truffle, Plum<br><strong>Heart Notes:</strong> Rum, Ylang-Ylang, Black Orchid<br><strong>Base Note:</strong> Patchouli</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16294265553283",
+   "handle": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex",
+   "title": "Tom Ford Oud Wood Eau de Parfum Unisex",
+   "descriptionHtml": "<p><span>Tom Ford Oud Wood Eau de Parfum is a refined and sophisticated unisex fragrance built around the rich, smoky character of oud wood. Smooth, warm and understated, it combines exotic woods, aromatic spices and soft amber tones to create an elegant scent with a distinctive luxurious feel.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Family:</strong> Woody<br><strong>Key Notes:</strong> Oud Wood, Rosewood, Cardamom, Sandalwood, Vetiver, Tonka Bean, Amber</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16359643513219",
+   "handle": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance",
+   "title": "Joop! Homme Eau de Toilette 200ml – Men’s Warm Spicy Long lasting Fragrance",
+   "descriptionHtml": "<p><span>Joop! Homme Eau de Toilette 200ml is a bold and distinctive men’s fragrance with sweet, spicy, floral and woody accords. Bright citrus and orange blossom blend with cinnamon, jasmine, vanilla, tonka bean and sandalwood for a warm, sensual and long-lasting signature scent</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Mandarin Orange, Amalfi Lemon, Bergamot, Orange Blossom </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Cinnamon, Heliotrope, Jasmine, Lily of the Valley, Cardamom </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Vanilla, Tonka Bean, Sandalwood, Patchouli, Vetiver</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3607345800991</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16294258147715",
+   "handle": "tom-ford-noir-extreme-parfum-100ml-for-men",
+   "title": "Tom Ford Noir Extreme Parfum 100ml for Men",
+   "descriptionHtml": "<p><span>Tom Ford Noir Extreme Parfum is a rich, sensual and sophisticated fragrance for men, created for those who appreciate warm spices, creamy sweetness and deep woody accords. Bold and luxurious, it delivers an intense scent profile that is especially suited to evening wear, special occasions and cooler seasons.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Family:</strong> Oriental Vanilla<br><strong>Top Notes:</strong> Cardamom, Nutmeg, Saffron, Mandarin Orange, Neroli<br><strong>Heart Notes:</strong> Bulgarian Rose, Jasmine, Kulfi, Orange Blossom<br><strong>Base Notes:</strong> Vanilla, Amber, Woody Notes, Sandalwood</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16303477227907",
+   "handle": "gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance",
+   "title": "Gucci Intense Oud Eau de Parfum Spray 90ml – Long Lasting Luxury Unisex Oud Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Gucci Intense Oud Eau de Parfum 90ml is a deep and luxurious unisex fragrance built around intense oud, warm woods, leather and amber. Black pepper and incense add spicy depth, while sandalwood, cedarwood and patchouli create a rich, sophisticated and long-lasting finish.<b></b></p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Black Pepper, Olibanum</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Amber Woods, Sandalwood, Cedarwood</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Leather, Patchouli, Gurjun Balsam, Oud Accord </li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16373138751875",
+   "handle": "calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance",
+   "title": "Calvin Klein Eternity Eau de Parfum – Women’s Classic Floral Fragrance",
+   "descriptionHtml": "<p><span>Calvin Klein Eternity Eau de Parfum is a timeless women’s fragrance with fresh citrus, elegant florals and a soft woody base. Refined, romantic and versatile, it blends freesia, lily, rose and carnation with sandalwood, amber and musk for a graceful everyday scent.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Freesia, Mandarin Orange, Sage, Citruses </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Lily, Carnation, Violet, Jasmine, Rose, Lily of the Valley, Marigold, Narcissus </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Sandalwood, Amber, Musk, Heliotrope, Patchouli</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 088300601400</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16303309291907",
+   "handle": "gucci-flora-gorgeous-gardenia-eau-de-parfum-50ml-women-s-floral-fragrance",
+   "title": "Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml is a joyful and feminine floral fragrance centred around white gardenia and jasmine. Fruity pear blossom and sweet brown sugar add a playful softness, creating an elegant and uplifting everyday scent.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Key Notes:</b></span> Pear Blossom, White Gardenia, Jasmine Grandiflorum, Brown Sugar Accord</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16294254182787",
+   "handle": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex",
+   "title": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex",
+   "descriptionHtml": "<p><span>Tom Ford Neroli Portofino Eau de Parfum is a fresh, vibrant and sophisticated unisex fragrance inspired by the sparkling atmosphere of the Italian Riviera. Combining bright citrus notes with aromatic florals and warm undertones, it delivers a clean and uplifting scent that feels effortlessly luxurious.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Family:</strong> Citrus Aromatic<br><strong>Top Notes:</strong> Italian Bergamot, Winter Yellow Mandarin, Sicilian Lemon<br><strong>Heart Notes:</strong> Tunisian Neroli, Orange Flower, Lavender<br><strong>Base Notes:</strong> Amber, Rosemary</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16371438289283",
+   "handle": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance",
+   "title": "Chloé Nomade Eau de Parfum 50ml – Women’s Floral Chypre Fragrance",
+   "descriptionHtml": "<p><span>Chloé Nomade Eau de Parfum 50ml is an elegant and adventurous women’s fragrance with fresh fruity, floral and woody accords. Juicy mirabelle plum blends with soft freesia and earthy oakmoss to create a refined, feminine scent with a confident and sophisticated character.</span></p>\n<ul>\n<li>\n<strong><span>Top Note:</span></strong><span> Mirabelle Plum </span>\n</li>\n<li>\n<strong><span>Heart Note:</span></strong><span> Freesia </span>\n</li>\n<li>\n<strong><span>Base Note:</span></strong><span> Oakmoss</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3614223111565</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16385267958147",
+   "handle": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance",
+   "title": "Paloma Picasso Eau de Toilette 100ml – Women’s Chypre Floral Fragrance",
+   "descriptionHtml": "<p><span>Paloma Picasso Eau de Toilette 100ml is a sophisticated and distinctive women’s fragrance with floral, spicy and woody chypre accords. Bright citrus and aromatic spices lead into an elegant floral heart, while patchouli, oakmoss, sandalwood and musk create a deep, classic and refined finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Coriander, Bergamot, Lemon, Angelica </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Jasmine, Hyacinth, Ylang-Ylang, Carnation </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Patchouli, Oakmoss, Sandalwood, Vetiver, Musk, Amber</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3360373054749</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16305115955587",
+   "handle": "al-haramain-amber-oud-eau-de-parfum-60ml-luxury-unisex-amber-woody-fragrance",
+   "title": "Al Haramain Amber Oud Eau de Parfum 60ml – Luxury Unisex Amber Woody Fragrance",
+   "descriptionHtml": "<p class=\"PDq2pG_selectionAnchorContainer\">Al Haramain Amber Oud Eau de Parfum 60ml is a rich and sophisticated unisex fragrance with warm amber, woody and oriental accords. Smooth, elegant and long-lasting, it offers a deep scent profile with a luxurious character suitable for both men and women.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<ul>\n<li>\n<strong>Top Notes:</strong> Bergamot, Green Notes</li>\n<li>\n<strong>Heart Notes:</strong> Amber, Melon, Pineapple, Sweet Notes</li>\n<li>\n<strong>Base Notes:</strong> Vanilla, Musk, Woody Notes</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16378603340163",
+   "handle": "marc-jacobs-honey-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+   "title": "Marc Jacobs Honey Eau de Parfum 100ml – Women’s Floral Fruity Fragrance",
+   "descriptionHtml": "<p><span>Marc Jacobs Honey Eau de Parfum 100ml is a bright, playful and feminine fragrance with fruity, floral and softly sweet accords. Pear and mandarin blend with orange blossom, honeysuckle and peach, while honey, vanilla and smooth woods create a warm and cheerful finish. This version comes in the new packaging.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Pear, Mandarin Orange, Punch </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Honeysuckle, Orange Blossom, Peach </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Honey, Vanilla, Woods</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3616304940804</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16280183570819",
+   "handle": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance",
+   "title": "Bvlgari Man in Black Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Bvlgari Man in Black Eau de Parfum 100ml is a bold, warm and sophisticated men’s fragrance with spicy, leathery and woody accords. Rich rum, tobacco, leather, iris and tonka bean create an intense, masculine scent with a smooth and long-lasting finish.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Rum, Spices, Tobacco</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Leather, Tuberose, Iris</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Guaiac Wood, Benzoin, Tonka Bean</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/15415432806787",
+   "handle": "jo-milano-game-of-spades-full-house-eau-de-parfum-100ml-edp",
+   "title": "Jo Milano Game of Spades Full House Eau de Parfum 100ml",
+   "descriptionHtml": "<ul><li>game of spades full house perfume</li></ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16303465922947",
+   "handle": "gucci-guilty-pour-homme-eau-de-toilette-90ml-men-s-woody-aromatic-fragrance",
+   "title": "Gucci Guilty Pour Homme Eau de Toilette 90ml – Men’s Woody Aromatic Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Gucci Guilty Pour Homme Eau de Toilette 90ml is a fresh, aromatic and woody men’s fragrance. Vibrant lemon and pink pepper blend with lavender, orange blossom, patchouli and cedarwood for a confident, modern and masculine scent.<b></b></p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Italian Lemon, Pink Pepper</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Orange Blossom, Neroli, French Lavender</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Patchouli, Cedarwood</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16367119729027",
+   "handle": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance",
+   "title": "Bentley For Men Azure Eau de Toilette 100ml – Men’s Fresh Aquatic Woody Fragrance",
+   "descriptionHtml": "<p><span>Bentley For Men Azure Eau de Toilette 100ml is a fresh and sophisticated men’s fragrance with bright citrus, aromatic herbs and smooth woody accords. Clean, energetic and versatile, it offers a refreshing scent profile ideal for daytime wear and warmer weather.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Bergamot, Tangerine, Pineapple, Violet Leaf </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Lavender, Tea, Paprika, Clary Sage </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Cashmere Wood, Tonka Bean, Orcanox</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 7640111505631</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16385316848003",
+   "handle": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance",
+   "title": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance",
+   "descriptionHtml": "<p><span>Nina Ricci L'Air du Temps Eau de Toilette is a timeless and elegant women’s fragrance with soft floral, spicy and woody accords. Carnation and rose blend with jasmine and ylang-ylang, while sandalwood, iris, musk and cedar create a graceful, powdery and refined finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Carnation, Rose, Neroli, Peach, Bergamot </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Jasmine, Ylang-Ylang, Violet, Iris, Rosemary, Orchid </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Sandalwood, Musk, Cedarwood, Amber, Benzoin, Oakmoss</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3137370207016</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16373060501891",
+   "handle": "calvin-klein-defy-parfum-men-s-warm-woody-fragrance",
+   "title": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance",
+   "descriptionHtml": "<p><span>Calvin Klein Defy Parfum is a bold and refined men’s fragrance with aromatic freshness, smooth suede and warm woody accords. Richer and more intense than the original Defy, it delivers a confident, masculine scent with a deep, polished finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Mandarin, Pink Pepper </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Lavender, Suede Accord </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Vetiver, Amber, Woods</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3616304175978</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/15415431397763",
+   "handle": "game-of-spades-wildcard-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-woody-amber-vanilla-fragrance-for-men-women",
+   "title": "Game of Spades Wildcard Unisex Eau de Parfum 100ml",
+   "descriptionHtml": "<ul>\n<li>Luxury Unisex Fragrance – Bold and sophisticated Eau de Parfum for both men and women.</li>\n<li>Vibrant Opening – Fresh bergamot, florals, and coriander for a refined yet adventurous start.</li>\n<li>Captivating Heart – Crisp apple, smooth ambroxan, and creamy vanilla deliver addictive warmth.</li>\n<li>Lasting Depth – Tonka bean, ambergris, and woody notes create a bold, unforgettable trail.</li>\n<li>Long-Lasting &amp; Elegant – Eau de Parfum concentration ensures all-day wear with premium quality.</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16318051647875",
+   "handle": "al-haramain-l-aventure-intense-eau-de-parfum-100ml-men-s-fresh-woody-fragrance",
+   "title": "Al Haramain L’Aventure Intense Eau de Parfum 100ml – Men’s Fresh Woody Fragrance",
+   "descriptionHtml": "<p><meta charset=\"utf-8\">Al Haramain L’Aventure Intense Eau de Parfum 100ml is a bold and refined men’s fragrance with bright citrus, floral and woody accords. Elemi, lemon and bergamot open into jasmine and woods, while patchouli, amber and musk create a rich and long-lasting masculine finish.</p>\n<ul>\n<li>\n<strong>Top Notes:</strong> Elemi, Lemon, Bergamot<span class=\"PDq2pG_selectionAnchor\"></span>\n</li>\n<li>\n<strong>Heart Notes:</strong> Jasmine, Lily of the Valley, Woody Accord</li>\n<li>\n<strong>Base Notes:</strong> Patchouli, Amber, Musk</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16373706948995",
+   "handle": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "title": "Davidoff The Game Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "descriptionHtml": "<p><span>Davidoff The Game Eau de Toilette 100ml is a bold and masculine fragrance with aromatic, fruity and woody accords. Bright juniper berries open into a smooth iris heart, while ebony wood adds a deep, refined finish with a confident modern character.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Juniper Berries </span>\n</li>\n<li>\n<strong><span>Heart Note:</span></strong><span> Iris </span>\n</li>\n<li>\n<strong><span>Base Note:</span></strong><span> Ebony Wood</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3607341186805</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16294251495811",
+   "handle": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex",
+   "title": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex",
+   "descriptionHtml": "<p><meta charset=\"UTF-8\"><span>Tom Ford Ébène Fumé Eau de Parfum is a sophisticated unisex fragrance that combines smoky woods, warm spices and rich resinous accords to create a deep and luxurious scent. Bold yet refined, it is designed for those who appreciate distinctive woody fragrances with an elegant, sensual character.</span></p>\n<p><span><meta charset=\"UTF-8\">\n<strong>Fragrance Family:</strong> Woody Amber<br><strong>Top Notes:</strong> Palo Santo, Black Pepper<br><strong>Heart Notes:</strong> Rose, Leather<br><strong>Base Notes:</strong> Ebony Wood, Resin</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16299008360835",
+   "handle": "dolce-gabbana-the-one-for-men-eau-de-parfum-100ml-luxury-men-s-fragrance",
+   "title": "Dolce & Gabbana The One for Men Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Dolce &amp; Gabbana The One for Men Eau de Parfum 100ml is a warm, elegant and sophisticated fragrance with spicy, aromatic and woody accords. Grapefruit, cardamom and ginger lead into tobacco, amber and cedarwood for a smooth, masculine and long-lasting scent. </p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Grapefruit, Coriander, Basil</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Cardamom, Ginger, Orange Blossom</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Tobacco, Amber, Cedarwood</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16274581029251",
+   "handle": "kirke-extrait-de-parfum-100ml-luxury-unisex-fruity-niche-perfume",
+   "title": "Kirke Extrait de Parfum 100ml – Luxury Unisex Fruity Niche Perfume",
+   "descriptionHtml": "<p class=\"p1\">Tiziana Terenzi Kirke Extrait de Parfum 100ml is a bold and captivating unisex fragrance with a sweet, fruity and sensual character. Juicy tropical fruits blend with soft florals, musk, vanilla and sandalwood to create a rich, distinctive and long-lasting Italian niche scent.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Passion Fruit, Peach, Pear, Raspberry, Cassis, Sand</li>\n<li>\n<span class=\"s1\"><b>Heart Note:</b></span><span class=\"s2\"> Lily of the Valley</span>\n</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Musk, Sandalwood, Vanilla, Patchouli, Heliotrope</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16306788008323",
+   "handle": "al-haramain-amber-oud-gold-edition-eau-de-parfum-luxury-unisex-fruity-amber-fragrance",
+   "title": "Al Haramain Amber Oud Gold Edition Eau de Parfum – Luxury Unisex Fruity Amber Fragrance",
+   "descriptionHtml": "<p class=\"PDq2pG_selectionAnchorContainer\">Al Haramain Amber Oud Gold Edition Eau de Parfum is a rich, sweet and luxurious unisex fragrance with a vibrant fruity opening and a warm, creamy amber base. Melon, pineapple, vanilla and musk create a smooth, long-lasting scent with a bold gourmand character.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<ul>\n<li>\n<strong>Top Notes:</strong> Bergamot, Green Notes</li>\n<li>\n<strong>Heart Notes:</strong> Melon, Pineapple, Amber, Sweet Notes</li>\n<li>\n<strong>Base Notes:</strong> Vanilla, Musk, Woody Notes</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16296009793923",
+   "handle": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance",
+   "title": "Chopard Oud Malaki Eau de Parfum 80ml – Luxury Men’s Oud Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Chopard Oud Malaki Eau de Parfum 80ml is a rich and sophisticated men’s fragrance blending warm spices, leather, tobacco and precious oud. Deep, woody and masculine, it offers a luxurious oriental character with strong depth and long-lasting presence.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Grapefruit, Lavender, Artemisia</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Tobacco, Spices, Leather</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Oud, Ambergris, Dark Woods</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16322576187779",
+   "handle": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance",
+   "title": "Guerlain Oud Essentiel Eau de Parfum 125ml – Luxury Unisex Oud Woody Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Guerlain Oud Essentiel Eau de Parfum 125ml is a deep, elegant and sophisticated unisex fragrance built around rich oud, warm leather, rose and smoky woods. Intense and refined, it offers a luxurious amber-woody character with excellent depth and lasting presence.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Saffron, Pelargonium</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Rose, Oud, Cedarwood</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Leather, Frankincense, Guaiac Wood</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16383629885827",
+   "handle": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance",
+   "title": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance",
+   "descriptionHtml": "<p><span>Givenchy Amarige Eau de Toilette 100ml is a rich and elegant women’s fragrance with radiant florals, fruity accents and warm woody undertones. Bright citrus and peach lead into an opulent bouquet of gardenia, tuberose, jasmine and ylang-ylang, while sandalwood, amber and vanilla create a smooth, sensual finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Orange Blossom, Peach, Plum, Mandarin Orange, Neroli, Rosewood </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Gardenia, Tuberose, Ylang-Ylang, Jasmine, Mimosa, Carnation, Rose, Orchid </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Sandalwood, Amber, Vanilla, Musk, Cedarwood, Tonka Bean</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3274878122561</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16306954502531",
+   "handle": "al-haramain-amber-oud-tobacco-edition-eau-de-parfum-60ml-luxury-unisex-spicy-tobacco-fragrance",
+   "title": "Al Haramain Amber Oud Tobacco Edition Eau de Parfum 60ml – Luxury Unisex Spicy Tobacco Fragrance",
+   "descriptionHtml": "<p class=\"PDq2pG_selectionAnchorContainer\">Al Haramain Amber Oud Tobacco Edition Eau de Parfum 60ml is a rich, warm and sophisticated unisex fragrance with sweet tobacco, spices, vanilla and woody accords. Deep and smooth with a luxurious oriental character, it offers a bold and long-lasting scent ideal for cooler weather and evening wear.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<ul>\n<li>\n<strong>Top Notes:</strong> Tobacco Leaf, Cinnamon, Black Pepper, Ginger</li>\n<li>\n<strong>Heart Notes:</strong> Vanilla, Clove, Star Anise, Cacao, Tonka Bean</li>\n<li>\n<strong>Base Notes:</strong> Tobacco, Dried Fruits, Woody Notes</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16373218148739",
+   "handle": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance",
+   "title": "Davidoff Champion Eau de Toilette 90ml – Men’s Fresh Woody Aromatic Fragrance",
+   "descriptionHtml": "<p><span>Davidoff Champion Eau de Toilette 90ml is a fresh and masculine fragrance with bright citrus, aromatic herbs and smooth woody accords. Energetic and sporty, it combines lemon and bergamot with sage, cedarwood and oakmoss for a clean, confident everyday scent.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Lemon, Bergamot </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Clary Sage, Galbanum </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Cedarwood, Oakmoss</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3607340188602</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16318152475011",
+   "handle": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance",
+   "title": "Guerlain Habit Rouge Eau de Parfum 100ml – Luxury Men’s Amber Woody Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Guerlain Habit Rouge Eau de Parfum 100ml is a refined and timeless men’s fragrance with fresh citrus, warm spices, leather and vanilla. Elegant and sophisticated, it combines a bright opening with a smooth amber-woody base for a distinctive and long-lasting scent.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Lemon, Bergamot, Orange, Lime</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Rose, Patchouli, Cinnamon, Jasmine</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Leather, Vanilla, Amber, Benzoin, Labdanum</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16322980217219",
+   "handle": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance",
+   "title": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Guerlain Samsara Eau de Parfum 75ml is a warm, elegant and sensual women’s fragrance with rich floral, woody and creamy accords. Jasmine and ylang-ylang blend with sandalwood, vanilla and amber to create a smooth, sophisticated scent with a timeless character.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Bergamot, Peach, Ylang-Ylang</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Jasmine, Rose, Narcissus, Orris</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Sandalwood, Vanilla, Amber, Tonka Bean, Musk</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16375981343107",
+   "handle": "elie-saab-elixir-eau-de-parfum-50ml-women-s-floral-amber-fragrance",
+   "title": "Elie Saab Elixir Eau de Parfum 50ml – Women’s Floral Amber Fragrance",
+   "descriptionHtml": "<p><span>Elie Saab Elixir Eau de Parfum 50ml is a rich and sensual women’s fragrance with luminous florals, warm spices and a smooth amber base. Elegant and sophisticated, it blends mandarin, neroli and rose with creamy woods, vanilla and musk for a refined, long-lasting scent.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Mandarin, Neroli </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Rose, Iris </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Amber, Vanilla, Musk, Woods</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 7640233341407</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16364136268163",
+   "handle": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance",
+   "title": "Anna Sui Sky Eau de Toilette 30ml – Women’s Fruity Floral Gourmand Fragrance",
+   "descriptionHtml": "<p><span>Anna Sui Sky Eau de Toilette 30ml is a playful and airy women’s fragrance with fruity, floral and gourmand notes. Juicy pear and bergamot open into lily of the valley, rose and lotus, while vanilla, musk and a distinctive popcorn accord create a soft, sweet and whimsical finish. Anna Sui offers Sky in a 30ml size.</span><span></span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Pear, Bergamot, Pink Peppercorn </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Lily of the Valley, Rose, Lotus Flower </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Musk, Vanilla, Popcorn</span><span></span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 85715064301</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16372923531651",
+   "handle": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance",
+   "title": "DKNY Be Tempted Eau de Parfum 100ml – Women’s Fruity Floral Gourmand Fragrance",
+   "descriptionHtml": "<p><span>DKNY Be Tempted Eau de Parfum 100ml is a bold and feminine fragrance with juicy fruit, floral notes and a warm gourmand base. Bright red berries and citrus blend with rose and violet, while vanilla, patchouli and myrrh create a sensual, sweet and long-lasting finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Red Berries, Apple, Lemon, Licorice </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Rose, Violet, Orange Blossom </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Vanilla, Patchouli, Myrrh</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 085715950178</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16375749542275",
+   "handle": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance",
+   "title": "Carolina Herrera Bad Boy Extreme Eau de Parfum – Men’s Warm Spicy Amber Fragrance",
+   "descriptionHtml": "<p><span>Carolina Herrera Bad Boy Extreme Eau de Parfum is a bold and intense men’s fragrance with warm spicy, gourmand and woody accords. Ginger and bergamot lead into rich cacao and vetiver, while patchouli and tonka bean create a deep, sensual and long-lasting finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Ginger, Bergamot </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Cacao, Vetiver </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Patchouli, Tonka Bean</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 8411061099797</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16383680119171",
+   "handle": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance",
+   "title": "Escada Magnetism Eau de Parfum 25ml – Women’s Fruity Floral Fragrance",
+   "descriptionHtml": "<p><span>Escada Magnetism Eau de Parfum 25ml is a rich and feminine fragrance with sweet fruity, floral and warm gourmand accords. Juicy berries and tropical fruit blend with delicate florals, while vanilla, caramel, amber and musk create a smooth, sensual and long-lasting finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Blackcurrant, Red Berries, Pineapple, Melon, Cassia </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Magnolia, Iris, Jasmine, Freesia, Lily of the Valley </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Vanilla, Caramel, Amber, Musk, Sandalwood, Patchouli</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3614227293946</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16339025396099",
+   "handle": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+   "title": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "descriptionHtml": "<p class=\"PDq2pG_selectionAnchorContainer\">Estée Lauder SpellBound Eau de Parfum 50ml is a rich, sensual and sophisticated women’s fragrance with warm spices, florals, amber and woods. Bold and elegant, it blends rose, jasmine, cardamom, vanilla and sandalwood for a distinctive, long-lasting scent with classic character.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<ul>\n<li>\n<strong>Top Notes:</strong> Rose, Lily, Citrus, Cardamom</li>\n<li>\n<strong>Heart Notes:</strong> Jasmine, Narcissus, Carnation, Tuberose</li>\n<li>\n<strong>Base Notes:</strong> Amber, Vanilla, Sandalwood, Vetiver</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16375883923843",
+   "handle": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance",
+   "title": "Carolina Herrera Very Good Girl Glam Parfum 50ml – Women’s Floral Fruity Gourmand Fragrance",
+   "descriptionHtml": "<p><span>Carolina Herrera Very Good Girl Glam Parfum 50ml is a bold and glamorous women’s fragrance with juicy cherry, rich rose and warm vanilla accords. Feminine, sensual and sophisticated, it combines fruity sweetness with floral depth and a smooth woody finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Sour Cherry, Bitter Almond </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Rose, Lily </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Bourbon Vanilla, Vetiver</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 8411061058466</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16371586990467",
+   "handle": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+   "title": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "descriptionHtml": "<p><span>Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml is a warm, sensual and sophisticated women’s fragrance inspired by Egypt and the ancient perfume tradition of kyphi. Rich myrrh and spices blend with orange blossom and vanilla for a deep, resinous and elegant finish.</span><span></span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Myrrh, Ginger, Cinnamon, Broom Flower Nectar, Cypriol, Opopanax </span>\n</li>\n<li>\n<strong><span>Heart Note:</span></strong><span> Orange Blossom Absolute </span>\n</li>\n<li>\n<strong><span>Base Note:</span></strong><span> Vanilla</span><span></span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3616303477943</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16385123156355",
+   "handle": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance",
+   "title": "Lancôme Idôle Nectar Eau de Parfum 25ml – Women’s Floral Gourmand Fragrance",
+   "descriptionHtml": "<p><span>Lancôme Idôle Nectar Eau de Parfum 25ml is a modern and feminine fragrance with luminous rose, sweet gourmand and warm vanilla accords. A rich rose bouquet blends with a distinctive popcorn accord, while vanilla creates a smooth, creamy and sensual finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Rose, Turkish Rose </span>\n</li>\n<li>\n<strong><span>Heart Note:</span></strong><span> Popcorn Accord </span>\n</li>\n<li>\n<strong><span>Base Note:</span></strong><span> Vanilla</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3614273749428</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16367144501635",
+   "handle": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance",
+   "title": "Bentley For Men Silverlake Eau de Parfum 100ml – Men’s Fresh Aromatic Woody Fragrance",
+   "descriptionHtml": "<p><span>Bentley For Men Silverlake Eau de Parfum 100ml is a fresh, elegant and modern men’s fragrance with bright citrus, aromatic herbs and clean woody accords. Crisp lemon and mint blend with lavender and violet leaf, while amberwood and musk create a smooth, refined and long-lasting finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Lemon, Mint </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Lavender, Violet Leaf, Pink Pepper </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Amberwood, Musk, Woody Notes</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 7640171193403</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16302689583491",
+   "handle": "dolce-gabbana-devotion-eau-de-parfum-100ml-luxury-women-s-gourmand-fragrance",
+   "title": "Dolce & Gabbana Devotion Eau de Parfum 100ml – Luxury Women’s Gourmand Fragrance",
+   "descriptionHtml": "<p class=\"p1\">Dolce &amp; Gabbana Devotion Eau de Parfum 100ml is a warm and feminine gourmand fragrance with bright candied citrus, delicate orange blossom and creamy vanilla. Sweet, elegant and sensual, it creates a rich and comforting signature scent.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Note:</b></span><span class=\"s2\"> Candied Citrus</span>\n</li>\n<li>\n<span class=\"s1\"><b>Heart Note:</b></span><span class=\"s2\"> Orange Blossom</span>\n</li>\n<li>\n<span class=\"s1\"><b>Base Note:</b></span><span class=\"s2\"> Madagascar Vanilla</span>\n</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16303208038787",
+   "handle": "gucci-bloom-eau-de-parfum-gift-set-100ml-10ml-body-lotion-100ml-women-s-fragrance-set",
+   "title": "Gucci Bloom Eau de Parfum Gift Set 100ml + 10ml + Body Lotion 100ml – Women’s Fragrance Set",
+   "descriptionHtml": "<p class=\"p1\">Gucci Bloom Eau de Parfum is an elegant white floral fragrance built around jasmine, tuberose and Rangoon Creeper. This luxury women’s set combines a full-size fragrance, travel spray and matching body lotion, making it ideal for gifting and fragrance layering. </p>\n<ul>\n<li>\n<span class=\"s1\"><b>Key Notes:</b></span> Jasmine Bud Extract, Natural Tuberose, Rangoon Creeper Accord</li>\n</ul>"
+  },
+  {
+   "id": "gid://shopify/Product/16373690958211",
+   "handle": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance",
+   "title": "Davidoff Indigo Eau de Toilette 110ml – Men’s Aromatic Fougere Fragrance",
+   "descriptionHtml": "<p><span>Davidoff Indigo Eau de Toilette 110ml is a fresh and modern men’s fragrance with aromatic, green and woody accords. Peppermint gives the opening a crisp, cooling freshness, while lavender adds a clean aromatic heart and sandalwood creates a smooth, masculine finish. Indigo was launched in 2025.</span></p>\n<ul>\n<li>\n<strong><span>Top Note:</span></strong><span> Peppermint </span>\n</li>\n<li>\n<strong><span>Heart Note:</span></strong><span> Lavender </span>\n</li>\n<li>\n<strong><span>Base Note:</span></strong><span> Sandalwood</span><span></span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3616306633612</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16364386648451",
+   "handle": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance",
+   "title": "Burberry My Burberry Black Parfum 50ml – Women’s Rich Floral Amber Fragrance",
+   "descriptionHtml": "<p><span>Burberry My Burberry Black Parfum 50ml is a rich, sensual and sophisticated women’s fragrance with deep floral, fruity and amber accords. Jasmine and peach nectar blend with an intense rose heart, while warm amber and patchouli create a smooth, elegant and long-lasting finish.</span></p>\n<ul>\n<li>\n<strong><span>Top Note:</span></strong><span> Jasmine </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Peach Nectar, Candied Rose </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Amber, Patchouli</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3614229828993</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16362307158403",
+   "handle": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance",
+   "title": "John Varvatos Artisan Eau de Toilette 75ml – Men’s Citrus Woody Long lasting Fragrance",
+   "descriptionHtml": "<p><span>John Varvatos Artisan Eau de Toilette 75ml is a fresh, refined and masculine fragrance with bright citrus, aromatic herbs and smooth woody notes. Crisp mandarin and orange blossom blend with ginger, lavender and warm woods for a clean, stylish scent that works especially well for daytime wear.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Clementine, Mandarin Orange, Marjoram, Thyme </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Orange Blossom, Ginger, Lavender, Jasmine </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Musk, Woody Notes, Amber</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 873824001191</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16375798202755",
+   "handle": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance",
+   "title": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – Men’s Warm Spicy Fragrance",
+   "descriptionHtml": "<p><span>Carolina Herrera 212 Sexy Men Eau de Toilette 100ml is a warm, sensual and sophisticated men’s fragrance with spicy, aromatic and woody accords. Fresh citrus and cardamom blend with pepper, vanilla, sandalwood and musk for a smooth, seductive scent suited to evening wear.</span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Mandarin Orange, Bergamot, Green Notes </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Cardamom, Pepper, Flowers </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Vanilla, Sandalwood, Guaiac Wood, Musk, Amber</span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 8411061865583</span></p>"
+  },
+  {
+   "id": "gid://shopify/Product/16364328452483",
+   "handle": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance",
+   "title": "Burberry My Burberry Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "descriptionHtml": "<p><span>Burberry My Burberry Eau de Parfum 50ml is an elegant women’s floral fragrance inspired by a London garden after the rain. Fresh bergamot and sweet pea blend with geranium, quince and freesia, while patchouli and rose create a sophisticated, feminine finish.</span><span></span></p>\n<ul>\n<li>\n<strong><span>Top Notes:</span></strong><span> Sweet Pea, Bergamot </span>\n</li>\n<li>\n<strong><span>Heart Notes:</span></strong><span> Geranium Leaf, Golden Quince, Freesia </span>\n</li>\n<li>\n<strong><span>Base Notes:</span></strong><span> Patchouli, Damask Rose, Centifolia Rose</span><span></span>\n</li>\n</ul>\n<p><strong><span>Barcode:</span></strong><span> 3614226905994</span></p>"
+  }
+ ]
+}
