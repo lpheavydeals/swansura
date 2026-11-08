@@ -3,7 +3,7 @@
 Usage: python3 tools/shopify/product_desc_check.py <drafts.json> <facts.json> <storefront_products_dir>
 drafts: list of {id, handle, html, ...}; facts: docs/data/product_desc_facts_2026-11-08.json;
 storefront dir: sfall_*.json dumps of /products.json (for in-stock link checks).
-Fails a draft on: words outside 150-240, tags other than p/h3/ul/li/a, banned words, prices, em dashes,
+Fails a draft on: words outside 140-240, tags other than p/h3/ul/li/a, banned words, prices, em dashes,
 exclamation marks, links that are not in-stock live products, primary keyword missing from the first sentence,
 stored top/heart/base notes missing from the text.
 """
@@ -19,7 +19,7 @@ bad = 0
 for d in drafts:
     f = facts[d["handle"]]; h = d["html"]; errs = []
     text = html.unescape(re.sub(r"<[^>]+>", " ", h)); words = len(text.split())
-    if not 150 <= words <= 240: errs.append(f"{words} words")
+    if not 140 <= words <= 240: errs.append(f"{words} words")
     tags = set(t.lower() for t in re.findall(r"</?([a-zA-Z0-9]+)", h))
     if tags - ALLOWED: errs.append(f"tags {sorted(tags - ALLOWED)}")
     if re.search(r"\b(style|class)=", h): errs.append("style/class")

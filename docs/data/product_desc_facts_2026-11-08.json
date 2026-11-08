@@ -3778,5 +3778,42 @@
     "price": "39.99"
    }
   ]
+ },
+ {
+  "id": "gid://shopify/Product/16296405827971",
+  "handle": "dolce-gabbana-l-imperatrice-eau-de-toilette-100ml-women-s-fruity-floral-fragrance",
+  "title": "Dolce & Gabbana L’Imperatrice Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+  "vendor": "Dolce & Gabbana",
+  "h1": null,
+  "primary_keyword": "dolce & gabbana l'imperatrice",
+  "volume": 170,
+  "secondary_keyword": "dolce & gabbana l'imperatrice eau de toilette",
+  "secondary_volume": 40,
+  "variants": [
+   [
+    "Default Title",
+    "34.99",
+    true
+   ]
+  ],
+  "current_description_html": "<p class=\"p1\">Dolce &amp; Gabbana L’Imperatrice Eau de Toilette 100ml is a vibrant and feminine fragrance with juicy fruit, fresh floral and soft musky accords. Bright, playful and easy to wear, it combines watermelon, kiwi and rhubarb with delicate florals and smooth woods for a fresh, modern scent.</p>\n<ul>\n<li>\n<span class=\"s1\"><b>Top Notes:</b></span> Kiwi, Rhubarb, Pink Pepper</li>\n<li>\n<span class=\"s1\"><b>Heart Notes:</b></span> Watermelon, Cyclamen, Jasmine</li>\n<li>\n<span class=\"s1\"><b>Base Notes:</b></span> Musk, Sandalwood, Lemon Tree</li>\n</ul>",
+  "current_text": "Dolce & Gabbana L’Imperatrice Eau de Toilette 100ml is a vibrant and feminine fragrance with juicy fruit, fresh floral and soft musky accords. Bright, playful and easy to wear, it combines watermelon, kiwi and rhubarb with delicate florals and smooth woods for a fresh, modern scent.",
+  "facets": {
+   "f": "floral",
+   "w": "For her",
+   "n": {
+    "top": "Kiwi, Rhubarb, Pink Pepper",
+    "heart": "Watermelon, Cyclamen, Jasmine",
+    "base": "Musk, Sandalwood, Lemon Tree"
+   },
+   "t": "For her"
+  },
+  "faq_answers": null,
+  "pdp_chips": [
+   "Floral family",
+   "For her",
+   "Eau de Toilette"
+  ],
+  "similar_in_stock": []
  }
 ]

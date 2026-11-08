@@ -1,0 +1,628 @@
+[
+ {
+  "id": "gid://shopify/Product/16274977325443",
+  "handle": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set",
+  "html": "<p>This Dior Sauvage gift set pairs a full bottle of the eau de parfum with a 10ml travel spray, so the scent goes with him wherever the day leads. Sauvage EDP is an amber fougère for men, inspired by the desert at sundown, where fresh bergamot and pepper meet a warm vanilla and ambroxan finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Calabrian Bergamot, Sichuan Pepper</li><li>Heart notes: Star Anise, Nutmeg, Lavender</li><li>Base notes: Papua New Guinea Vanilla, Ambroxan</li></ul><h3>How it wears</h3><p>The bright, peppery opening feels clean enough for daytime, while star anise, nutmeg and lavender give the middle an aromatic warmth. As it settles, vanilla and ambroxan make it smoother and richer, which suits evenings out and cooler months. As an eau de parfum, it carries a higher concentration of fragrance oils than an eau de toilette.</p><h3>Good to know</h3><ul><li>Gift set: Dior Sauvage Eau de Parfum 100ml + 10ml</li><li>Eau de parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\">Azzaro The Most Wanted Parfum</a> or <a href=\"/products/guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance\">Guerlain Habit Rouge</a></li></ul>",
+  "word_count": 169,
+  "facts_used": [
+   "amber fougère, for men, desert at sundown, notes (current_text + facets.n)",
+   "set contents 100ml + 10ml (title)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16294245794179",
+  "handle": "tom-ford-black-orchid-parfum-100ml-unisex",
+  "html": "<p>Tom Ford Black Orchid is a deep, dark parfum for anyone who likes their fragrance rich and warm. Made as a unisex scent, it opens on earthy truffle and ripe plum, then moves into rum, ylang-ylang and black orchid before resting on patchouli. The current text describes it as an amber floral with a sensual character, and that is how it reads.</p><h3>Fragrance notes</h3><ul><li>Top notes: Truffle, Plum</li><li>Heart notes: Rum, Ylang-Ylang, Black Orchid</li><li>Base notes: Patchouli</li></ul><h3>How it wears</h3><p>This is a scent for evenings and special occasions rather than the office. The boozy rum and heady ylang-ylang give it a velvety, slightly sweet depth, and the patchouli base keeps it grounded and earthy. It feels at home in autumn and winter, when heavier scents sit well on the skin.</p><h3>Good to know</h3><ul><li>Size: 100ml spray</li><li>Tom Ford Black Orchid parfum, a stronger concentration than eau de parfum</li><li>Unisex, worn by men and women alike</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/tom-ford-oud-wood-eau-de-parfum-50ml-unisex\">Tom Ford Oud Wood</a></li></ul>",
+  "word_count": 168,
+  "facts_used": [
+   "unisex, rich, sensual, evening/special occasions, amber floral, notes (current_text + facets.n)",
+   "100ml (title)",
+   "Parfum (pdp_chips)"
+  ],
+  "reviewer_notes": "Family label says \"floral\" but the current text says Amber Floral and the notes (truffle, plum, rum, patchouli) read amber floral; described as amber floral."
+ },
+ {
+  "id": "gid://shopify/Product/16294265553283",
+  "handle": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex",
+  "html": "<p>Smooth, smoky and understated, Tom Ford Oud Wood is a unisex eau de parfum built around the rich character of oud wood. Rosewood and cardamom bring a warm spice to the start, while sandalwood, vetiver, tonka bean and amber soften the oud into something calm and refined.</p><h3>Fragrance notes</h3><ul><li>Notes: Oud Wood, Rosewood, Cardamom, Sandalwood, Vetiver, Tonka Bean, Amber</li></ul><h3>How it wears</h3><p>Unlike heavier oud blends, this one stays quiet and polished, with the woods and tonka giving it a creamy, gently sweet edge. That makes it easy to wear to work as well as to dinner, and it suits cool weather especially. An eau de parfum holds more fragrance oil than an eau de toilette, so a couple of sprays is a good place to start.</p><h3>Good to know</h3><ul><li>Available in 30ml and 50ml</li><li>Eau de parfum</li><li>Unisex, woody and smoky in character</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance\">Gucci Intense Oud</a> or <a href=\"/products/montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\">Montale Aoud Safran</a></li></ul>",
+  "word_count": 159,
+  "facts_used": [
+   "smoky oud wood, smooth, warm, understated, unisex, key notes (current_text)",
+   "30ml + 50ml (variants)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": "No top/heart/base notes stored (facets.n empty); used the flat key-notes list from the current text. Family label \"oud\" vs current text \"Woody\". Handle says 50ml but the product has 30ml + 50ml variants, and a separate Tom Ford Oud Wood 50ml listing exists (/products/tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1): possible duplicate."
+ },
+ {
+  "id": "gid://shopify/Product/16359643513219",
+  "handle": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance",
+  "html": "<p>Joop! Homme Eau de Toilette is a warm, sweet and spicy men's fragrance that has plenty to say. Citrus and orange blossom open it up brightly, then cinnamon, heliotrope and jasmine take over before a base of vanilla, tonka bean and sandalwood. This large bottle gives you a generous supply of a scent with a bold, distinctive signature.</p><h3>Fragrance notes</h3><ul><li>Top notes: Mandarin Orange, Amalfi Lemon, Bergamot, Orange Blossom</li><li>Heart notes: Cinnamon, Heliotrope, Jasmine, Lily of the Valley, Cardamom</li><li>Base notes: Vanilla, Tonka Bean, Sandalwood, Patchouli, Vetiver</li></ul><h3>How it wears</h3><p>The cinnamon and vanilla give it a cosy, almost dessert-like warmth, with the florals adding a soft powdery edge. It suits nights out, parties and colder days best. As an eau de toilette it is a little lighter than an eau de parfum, though the sweet spice still comes through clearly.</p><h3>Good to know</h3><ul><li>Size: 200ml spray</li><li>Eau de toilette</li><li>For him</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance\">Joop! Homme Le Parfum</a> or <a href=\"/products/tom-ford-noir-extreme-parfum-100ml-for-men\">Tom Ford Noir Extreme</a></li></ul>",
+  "word_count": 169,
+  "facts_used": [
+   "sweet, spicy, floral, woody, bold, distinctive, for men, notes (current_text + facets.n)",
+   "200ml (title)",
+   "EDT (pdp_chips)"
+  ],
+  "reviewer_notes": "Family label says \"floral\" but the notes (cinnamon, cardamom, vanilla, tonka, sandalwood) and title read warm spicy; described as warm spicy with floral touches. Current text says \"long-lasting\"; not repeated."
+ },
+ {
+  "id": "gid://shopify/Product/16294258147715",
+  "handle": "tom-ford-noir-extreme-parfum-100ml-for-men",
+  "html": "<p>For men who love warm spice and creamy sweetness, Tom Ford Noir Extreme Parfum brings cardamom, nutmeg and saffron together with a soft heart of rose and kulfi. It settles into vanilla, amber and sandalwood, giving a rich oriental vanilla scent with a deep woody finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Cardamom, Nutmeg, Saffron, Mandarin Orange, Neroli</li><li>Heart notes: Bulgarian Rose, Jasmine, Kulfi, Orange Blossom</li><li>Base notes: Vanilla, Amber, Woody Notes, Sandalwood</li></ul><h3>How it wears</h3><p>The kulfi note, a milky, dessert-like accord, sits beside rose and jasmine to make the heart smooth and round rather than sharp. With saffron at the top and vanilla and amber below, it is especially suited to evening wear, special occasions and cooler seasons. Parfum is a richer concentration than eau de parfum, so it feels dense and rich.</p><h3>Good to know</h3><ul><li>Size: 100ml spray</li><li>Parfum</li><li>For him</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance\">Joop! Homme Eau de Toilette</a></li></ul>",
+  "word_count": 155,
+  "facts_used": [
+   "warm spices, creamy sweetness, woody, evening/special occasions/cooler seasons, Oriental Vanilla, notes (current_text + facets.n)",
+   "100ml (title)",
+   "Parfum (pdp_chips)"
+  ],
+  "reviewer_notes": "Family label says \"floral\" but the current text says Oriental Vanilla and the notes are spice/vanilla/amber; described as oriental vanilla. \"Kulfi\" explained as a milky dessert-like accord (general meaning of the word); check wording."
+ },
+ {
+  "id": "gid://shopify/Product/16303477227907",
+  "handle": "gucci-intense-oud-eau-de-parfum-90ml-luxury-unisex-oud-fragrance",
+  "html": "<p>Gucci Intense Oud Eau de Parfum is a deep, smoky unisex fragrance with oud, leather and warm woods at its core. Black pepper and olibanum, another name for frankincense, open it with a spicy, resinous lift before sandalwood and cedarwood lead down to a dark leather and patchouli base.</p><h3>Fragrance notes</h3><ul><li>Top notes: Black Pepper, Olibanum</li><li>Heart notes: Amber Woods, Sandalwood, Cedarwood</li><li>Base notes: Leather, Patchouli, Gurjun Balsam, Oud Accord</li></ul><h3>How it wears</h3><p>Incense and pepper make the first impression dry and slightly austere, then the woods and balsam warm it into something richer. It is a scent for evenings, winter and occasions when you want a strong, grown-up presence. Being an eau de parfum, it holds a higher concentration of fragrance oils than an eau de toilette.</p><h3>Good to know</h3><ul><li>Size: 90ml spray</li><li>Eau de parfum</li><li>Unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\">Mancera Black Noir</a> or <a href=\"/products/guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance\">Guerlain Oud Essentiel</a></li></ul>",
+  "word_count": 153,
+  "facts_used": [
+   "oud, warm woods, leather, amber, spicy depth, unisex, notes (current_text + facets.n)",
+   "90ml (title)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": "Current text says \"long-lasting\"; not repeated. Olibanum glossed as frankincense (general meaning)."
+ },
+ {
+  "id": "gid://shopify/Product/16373138751875",
+  "handle": "calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance",
+  "html": "<p>Calvin Klein Eternity Eau de Parfum is a timeless floral for women, fresh at the start and soft and woody underneath. A bouquet of lily, carnation, rose, jasmine and violet sits between a citrus and sage opening and a base of sandalwood, amber and musk.</p><h3>Fragrance notes</h3><ul><li>Top notes: Freesia, Mandarin Orange, Sage, Citruses</li><li>Heart notes: Lily, Carnation, Violet, Jasmine, Rose, Lily of the Valley, Marigold, Narcissus</li><li>Base notes: Sandalwood, Amber, Musk, Heliotrope, Patchouli</li></ul><h3>How it wears</h3><p>Clean, graceful and easy to like, this is the kind of perfume that works for everyday wear, from the office to weekend lunches. The carnation adds a gentle spice to the florals, and the musky woods give it a soft, close finish. It sits well in spring and summer but has enough warmth for the cooler months too.</p><h3>Good to know</h3><ul><li>Available in 30ml and 100ml</li><li>Eau de parfum</li><li>Calvin Klein Eternity for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\">Eternity Aromatic Essence Parfum Intense 10ml</a> or <a href=\"/products/calvin-klein-women-s-miniature-fragrance-set-4x15ml-obsession-eternity-ck-one\">Calvin Klein Women's Miniature Set</a></li></ul>",
+  "word_count": 171,
+  "facts_used": [
+   "timeless, fresh citrus, florals, soft woody base, graceful everyday, for women, notes (current_text + facets.n)",
+   "30ml + 100ml (variants)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16303309291907",
+  "handle": "gucci-flora-gorgeous-gardenia-eau-de-parfum-50ml-women-s-floral-fragrance",
+  "html": "<p>Joyful and feminine, Gucci Flora Gorgeous Gardenia is a floral eau de parfum centred on white gardenia and jasmine. Pear blossom gives it a light, fruity touch, while a brown sugar accord adds a playful softness underneath. The result is elegant and bright rather than heavy.</p><h3>Fragrance notes</h3><ul><li>Notes: Pear Blossom, White Gardenia, Jasmine Grandiflorum, Brown Sugar Accord</li></ul><h3>How it wears</h3><p>The creamy white flowers lead from the first spray, kept bright by the pear blossom and rounded off by a hint of sweetness. It is an uplifting everyday scent that suits sunny days, brunch and the office alike. Gucci Flora Gorgeous Gardenia eau de parfum has a higher concentration of fragrance oils than an eau de toilette, so the gardenia comes through fully.</p><h3>Good to know</h3><ul><li>Size: 50ml spray</li><li>Eau de parfum</li><li>For her</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/gucci-flora-gorgeous-orchid-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\">Gucci Flora Gorgeous Orchid 10ml</a> or <a href=\"/products/calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\">Calvin Klein Eternity</a></li></ul>",
+  "word_count": 152,
+  "facts_used": [
+   "joyful, feminine, floral, white gardenia, jasmine, pear blossom, brown sugar, everyday, uplifting (current_text)",
+   "50ml (title)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": "No top/heart/base notes stored (facets.n empty); used the flat key-notes list from the current text. Stored FAQ answer is generic (\"rose, jasmine, white flowers\"); rose is not in this scent's notes."
+ },
+ {
+  "id": "gid://shopify/Product/16294254182787",
+  "handle": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex",
+  "html": "<p>Inspired by the sparkling atmosphere of the Italian Riviera, Tom Ford Neroli Portofino is a fresh, citrus aromatic eau de parfum for men and women. Italian bergamot, mandarin and Sicilian lemon lead the way, with Tunisian neroli, orange flower and lavender at the heart and a light base of amber and rosemary.</p><h3>Fragrance notes</h3><ul><li>Top notes: Italian Bergamot, Winter Yellow Mandarin, Sicilian Lemon</li><li>Heart notes: Tunisian Neroli, Orange Flower, Lavender</li><li>Base notes: Amber, Rosemary</li></ul><h3>How it wears</h3><p>Clean and uplifting, it brings to mind bright citrus peel softened by orange blossom, with herbs keeping it crisp. This is a natural choice for warm weather, holidays and daytime wear, and it is easy to wear to work. The amber in the base adds just enough warmth to stop the citrus feeling thin.</p><h3>Good to know</h3><ul><li>Size: 50ml spray</li><li>Eau de parfum</li><li>Unisex</li><li>100% authentic, shipped from the UK</li></ul>",
+  "word_count": 147,
+  "facts_used": [
+   "Italian Riviera, fresh, vibrant, clean, uplifting, unisex, Citrus Aromatic, notes (current_text + facets.n)",
+   "50ml (title)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": "Family label says \"floral\" but the current text says Citrus Aromatic and the notes are citrus/neroli/herbs; described as citrus aromatic. No \"Also try\" link: none of the similar_in_stock items is a fresh citrus scent."
+ },
+ {
+  "id": "gid://shopify/Product/16371438289283",
+  "handle": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance",
+  "html": "<p>Chloé Nomade Eau de Parfum is an elegant, adventurous women's fragrance with fruity, floral and woody accords. It has just three notes: juicy mirabelle plum, soft freesia and earthy oakmoss, which together make a refined floral chypre with a confident character.</p><h3>Fragrance notes</h3><ul><li>Top notes: Mirabelle Plum</li><li>Heart notes: Freesia</li><li>Base notes: Oakmoss</li></ul><h3>How it wears</h3><p>The plum feels fresh and sunny at first, the freesia keeps the middle light and airy, and the oakmoss brings a mossy, slightly green depth as it dries down. That contrast makes the Chloé Nomade perfume easy to wear by day yet polished enough for the evening, in spring or autumn. As an eau de parfum, it contains more fragrance oil than an eau de toilette.</p><h3>Good to know</h3><ul><li>Size: 50ml spray</li><li>Eau de parfum</li><li>For her</li><li>100% authentic, shipped from the UK at Swansura</li><li>Also try: <a href=\"/products/chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance\">Chloé Nomade Jasmin Naturel Intense</a> or <a href=\"/products/chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance\">Chloé Nomade Nuit d'Égypte</a></li></ul>",
+  "word_count": 153,
+  "facts_used": [
+   "elegant, adventurous, fruity floral woody, refined, confident, for women, notes (current_text + facets.n)",
+   "floral chypre (title)",
+   "50ml (title)",
+   "EDP (pdp_chips)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16385267958147",
+  "handle": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance",
+  "html": "<p>Paloma Picasso Eau de Toilette is a sophisticated women's chypre floral, distinctive in style, with floral, spicy and woody accords. Bright citrus and aromatic spice open it, an elegant floral heart follows, and patchouli, oakmoss, sandalwood and musk give a deep, classic finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Coriander, Bergamot, Lemon, Angelica</li><li>Heart notes: Jasmine, Hyacinth, Ylang-Ylang, Carnation</li><li>Base notes: Patchouli, Oakmoss, Sandalwood, Vetiver, Musk, Amber</li></ul><h3>How it wears</h3><p>Coriander and lemon give the first minutes a crisp, slightly peppery lift before jasmine, hyacinth and carnation take over. The oakmoss and patchouli base is what makes this Paloma Picasso perfume a chypre: dry, mossy and grown-up rather than sugary. As an eau de toilette it is a lighter concentration than an eau de parfum, so it works for the office and daytime as well as dinners out, and it feels especially at home in autumn and winter.</p><h3>Good to know</h3><ul><li>Size: 100ml</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\">Calvin Klein Eternity for women</a></li></ul>",
+  "word_count": 167,
+  "facts_used": [
+   "notes top/heart/base from facets.n",
+   "chypre floral, floral/spicy/woody accords, sophisticated/distinctive, classic refined finish from current text",
+   "100ml + EDT from title/variants",
+   "women's from title/facets.w"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16305115955587",
+  "handle": "al-haramain-amber-oud-eau-de-parfum-60ml-luxury-unisex-amber-woody-fragrance",
+  "html": "<p>Al Haramain Amber Oud Eau de Parfum is a rich unisex fragrance with warm amber, woody and oriental accords, made to suit men and women alike. Bergamot and green notes open it, melon and pineapple bring a juicy sweetness to the amber heart, and vanilla, musk and woods settle it into a smooth, deep base.</p><h3>Fragrance notes</h3><ul><li>Top notes: Bergamot, Green Notes</li><li>Heart notes: Amber, Melon, Pineapple, Sweet Notes</li><li>Base notes: Vanilla, Musk, Woody Notes</li></ul><h3>How it wears</h3><p>Despite the name, its listed notes are fruit, amber, vanilla and musk rather than oud wood, so it reads warm and sweet more than smoky. An eau de parfum carries a higher concentration of fragrance oils than an eau de toilette, which suits this fuller, rounded style. Reach for it on cool evenings, at celebrations, or whenever you want something comforting and golden.</p><h3>Good to know</h3><ul><li>Size: 60ml</li><li>Eau de parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance\">Amber Oud Ruby Edition</a> or <a href=\"/products/al-haramain-amber-oud-bleu-edition-eau-de-parfum-60ml-luxury-unisex-fresh-woody-fragrance\">Amber Oud Bleu Edition</a></li></ul>",
+  "word_count": 166,
+  "facts_used": [
+   "notes from facets.n",
+   "rich/sophisticated unisex, amber woody oriental accords, smooth deep from current text",
+   "60ml + EDP from title"
+  ],
+  "reviewer_notes": "Family label is 'oud' but the stored notes contain no oud; described from the notes (amber, fruit, vanilla). Current text's 'long-lasting' claim dropped."
+ },
+ {
+  "id": "gid://shopify/Product/16378603340163",
+  "handle": "marc-jacobs-honey-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+  "html": "<p>Bright, playful and softly sweet, Marc Jacobs Honey is a feminine eau de parfum built on fruity and floral accords. Pear and mandarin blend with orange blossom, honeysuckle and peach, while honey, vanilla and smooth woods create a warm, cheerful finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Pear, Mandarin Orange, Punch</li><li>Heart notes: Honeysuckle, Orange Blossom, Peach</li><li>Base notes: Honey, Vanilla, Woods</li></ul><h3>How it wears</h3><p>The pear and mandarin opening feels fresh and juicy, the honeysuckle and peach heart keeps things light and sunny, and the honey and vanilla base adds a soft, golden warmth underneath. Because the Marc Jacobs Honey eau de parfum has a higher concentration of fragrance oils than an eau de toilette, the sweet base comes through clearly as it settles. It is a cheerful everyday choice for spring and summer, and an easy gift for someone who loves fruity florals.</p><h3>Good to know</h3><ul><li>Size: 100ml</li><li>Eau de parfum</li><li>This version comes in the new packaging</li><li>100% authentic, shipped from the UK</li></ul>",
+  "word_count": 164,
+  "facts_used": [
+   "notes from facets.n",
+   "bright/playful/feminine, fruity floral sweet accords, warm cheerful finish, new packaging from current text",
+   "100ml + EDP + Women's from title"
+  ],
+  "reviewer_notes": "facets.w says 'For him' and pdp chip 'For him', but the title and current text say women's/feminine; written as feminine, fix the facet/chip. No 'Also try' link: all similar_in_stock items are men's scents."
+ },
+ {
+  "id": "gid://shopify/Product/16280183570819",
+  "handle": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance",
+  "html": "<p>Bvlgari Man in Black Eau de Parfum is a bold, warm and sophisticated men's fragrance with spicy, leathery and woody accords. Rum, spices and tobacco open it, leather sits at the heart softened by tuberose and iris, and guaiac wood, benzoin and tonka bean bring a smooth, rich finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Rum, Spices, Tobacco</li><li>Heart notes: Leather, Tuberose, Iris</li><li>Base notes: Guaiac Wood, Benzoin, Tonka Bean</li></ul><h3>How it wears</h3><p>The opening is dark and boozy, with the rum and tobacco giving it an intense, masculine start. Tuberose and iris keep the leather from feeling heavy, and the benzoin and tonka bean leave a warm, slightly sweet trail on the skin. As an eau de parfum it has a higher concentration of fragrance oils than an eau de toilette, which suits a scent this rich. Save it for evenings, colder weather and occasions that call for something deeper.</p><h3>Good to know</h3><ul><li>Size: 100ml</li><li>Eau de parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance\">Joop Homme</a> or <a href=\"/products/tom-ford-noir-extreme-parfum-100ml-for-men\">Tom Ford Noir Extreme</a></li></ul>",
+  "word_count": 172,
+  "facts_used": [
+   "notes from facets.n",
+   "bold/warm/sophisticated, spicy leathery woody accords, intense masculine, smooth finish from current text",
+   "100ml + EDP from title"
+  ],
+  "reviewer_notes": "Family label is 'floral' (pdp chip 'Floral family') but the notes are spicy, leather and woody; described from the notes. Current text's 'long-lasting' dropped."
+ },
+ {
+  "id": "gid://shopify/Product/16303465922947",
+  "handle": "gucci-guilty-pour-homme-eau-de-toilette-90ml-men-s-woody-aromatic-fragrance",
+  "html": "<p>Fresh, aromatic and woody, Gucci Guilty Pour Homme Eau de Toilette is a modern men's fragrance with a confident character. Italian lemon and pink pepper lead into orange blossom, neroli and French lavender, and patchouli and cedarwood ground it in a clean, masculine base.</p><h3>Fragrance notes</h3><ul><li>Top notes: Italian Lemon, Pink Pepper</li><li>Heart notes: Orange Blossom, Neroli, French Lavender</li><li>Base notes: Patchouli, Cedarwood</li></ul><h3>How it wears</h3><p>The first spray is bright and zesty, with pink pepper adding a little bite to the lemon. Lavender and neroli give the heart a polished, barbershop-clean feel, and patchouli and cedarwood keep the dry-down warm without turning heavy. As an eau de toilette it is a lighter concentration, which makes it an easy choice for the office, weekends and warmer days.</p><h3>Good to know</h3><ul><li>Size: 90ml</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\">Davidoff Champion</a> or <a href=\"/products/calvin-klein-defy-parfum-men-s-warm-woody-fragrance\">Calvin Klein Defy Parfum</a></li></ul>",
+  "word_count": 150,
+  "facts_used": [
+   "notes from facets.n",
+   "fresh aromatic woody, confident modern masculine from current text",
+   "90ml + EDT from title"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16367119729027",
+  "handle": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance",
+  "html": "<p>Made for daytime and warmer weather, Bentley Azure is a fresh, clean men's eau de toilette with bright citrus, aromatic herbs and smooth woody accords. Its full name is Bentley For Men Azure, and it opens on bergamot, tangerine and pineapple before lavender, tea and clary sage lead to a base of cashmere wood and tonka bean.</p><h3>Fragrance notes</h3><ul><li>Top notes: Bergamot, Tangerine, Pineapple, Violet Leaf</li><li>Heart notes: Lavender, Tea, Paprika, Clary Sage</li><li>Base notes: Cashmere Wood, Tonka Bean, Orcanox</li></ul><h3>How it wears</h3><p>Pineapple and violet leaf keep the start juicy and green, while tea and a pinch of paprika give the heart a dry, gently spiced edge. Cashmere wood and tonka bean soften everything as it settles. Bentley Azure eau de toilette is a versatile, energetic everyday scent that suits the office, summer days and holidays.</p><h3>Good to know</h3><ul><li>Size: 100ml</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance\">Bentley Momentum Unlimited</a> or <a href=\"/products/bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance\">Bentley Infinite</a></li></ul>",
+  "word_count": 159,
+  "facts_used": [
+   "notes from facets.n",
+   "fresh sophisticated, citrus/aromatic herbs/woody, clean energetic versatile, daytime and warmer weather from current text",
+   "100ml + EDT from title"
+  ],
+  "reviewer_notes": "Title says 'Aquatic' but no aquatic notes are stored; described from the notes (citrus, aromatic, woody)."
+ },
+ {
+  "id": "gid://shopify/Product/16385316848003",
+  "handle": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance",
+  "html": "<p>Carnation and rose open Nina Ricci L'Air du Temps, a timeless and elegant women's eau de toilette with soft floral, spicy and woody accords. Jasmine and ylang-ylang fill the heart, while sandalwood, iris, musk and cedar give it a graceful, powdery and refined finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Carnation, Rose, Neroli, Peach, Bergamot</li><li>Heart notes: Jasmine, Ylang-Ylang, Violet, Iris, Rosemary, Orchid</li><li>Base notes: Sandalwood, Musk, Cedarwood, Amber, Benzoin, Oakmoss</li></ul><h3>How it wears</h3><p>The carnation gives the opening a soft, clove-like spice that sits under the rose and peach. Violet and iris make the heart feel powdery and gentle, and the sandalwood, benzoin and amber base adds a warm, comforting glow. This Nina Ricci L'Air du Temps perfume is an eau de toilette, a lighter concentration that works well for daytime, weddings and family occasions all year round.</p><h3>Good to know</h3><ul><li>Available in 30ml and 100ml</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\">Calvin Klein Eternity for women</a></li></ul>",
+  "word_count": 161,
+  "facts_used": [
+   "notes from facets.n",
+   "timeless/elegant, soft floral spicy woody accords, graceful powdery refined finish from current text",
+   "30ml/100ml from variants",
+   "EDT + women's from title"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16373060501891",
+  "handle": "calvin-klein-defy-parfum-men-s-warm-woody-fragrance",
+  "html": "<p>Richer and more intense than the original Defy, Calvin Klein Defy Parfum is a bold, refined men's fragrance with aromatic freshness, smooth suede and warm woody accords. Mandarin and pink pepper open it, lavender and a suede accord form the heart, and vetiver, amber and woods give a deep, polished finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Mandarin, Pink Pepper</li><li>Heart notes: Lavender, Suede Accord</li><li>Base notes: Vetiver, Amber, Woods</li></ul><h3>How it wears</h3><p>It starts bright, with mandarin and a peppery spark, then softens into a smooth lavender and suede middle that feels clean but warm. Vetiver and amber give the base a dry, grounded depth. Parfum has a higher concentration of fragrance oils than an eau de parfum or eau de toilette, so this version suits evenings, autumn and winter, and smart occasions as well as everyday wear.</p><h3>Good to know</h3><ul><li>Available in 50ml and 200ml</li><li>Parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\">Calvin Klein Eternity Parfum miniature</a> or <a href=\"/products/davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\">Davidoff Champion</a></li></ul>",
+  "word_count": 162,
+  "facts_used": [
+   "notes from facets.n",
+   "richer and more intense than the original Defy, bold refined, aromatic/suede/woody, deep polished finish from current text",
+   "50ml/200ml from variants",
+   "parfum from title/pdp_chips"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/15415431397763",
+  "handle": "game-of-spades-wildcard-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-woody-amber-vanilla-fragrance-for-men-women",
+  "html": "<p>Bold and sophisticated, Game of Spades Wildcard is a unisex eau de parfum from Jo Milano for both men and women. Fresh bergamot, florals and coriander give it a refined yet adventurous start, crisp apple, smooth ambroxan and creamy vanilla bring warmth to the heart, and tonka bean, ambergris and woody notes create its depth.</p><h3>Fragrance notes</h3><ul><li>Top notes: Bergamot, Florals, Coriander</li><li>Heart notes: Apple, Ambroxan, Vanilla</li><li>Base notes: Tonka Bean, Ambergris, Woody Notes</li></ul><h3>How it wears</h3><p>The coriander adds a green, slightly spicy edge to the citrus opening, while the apple keeps the heart bright before the vanilla and tonka bean turn it soft and sweet. Ambergris and woods give the base a smooth, mineral warmth. With the higher concentration of an eau de parfum, it suits evenings, nights out and cooler weather, and its unisex balance makes it easy to share or to give as a gift.</p><h3>Good to know</h3><ul><li>Size: 100ml</li><li>Eau de parfum</li><li>Unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/jo-milano-game-of-spades-queen-for-unisex-perfume-spray-100-ml\">Game of Spades Queen</a> or <a href=\"/products/game-of-spades-rouge-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women\">Game of Spades Rouge</a></li></ul>",
+  "word_count": 175,
+  "facts_used": [
+   "notes from current text bullets (opening/heart/depth), not facets",
+   "bold sophisticated, unisex, refined yet adventurous, warmth from current text",
+   "vendor Jo Milano",
+   "100ml + EDP from title"
+  ],
+  "reviewer_notes": "No facets.n stored; notes taken from the current description's opening/heart/depth bullets (listed as top/heart/base). Family label is 'floral' but the notes are woody amber vanilla (handle says the same); described from the notes. Dropped current-text claims 'all-day wear', 'long-lasting', 'addictive', 'unforgettable'. 'Mineral warmth' for ambergris is interpretive; check."
+ },
+ {
+  "id": "gid://shopify/Product/16318051647875",
+  "handle": "al-haramain-l-aventure-intense-eau-de-parfum-100ml-men-s-fresh-woody-fragrance",
+  "html": "<p>Al Haramain L’Aventure Intense is a men’s eau de parfum that pairs bright citrus with soft florals and a woody, musky base. Elemi, lemon and bergamot give it a sharp, clean start, then jasmine and lily of the valley soften it before patchouli, amber and musk settle in. It is bold but refined, with a fresh woody character.</p><h3>Fragrance notes</h3><ul><li>Top notes: Elemi, Lemon, Bergamot</li><li>Heart notes: Jasmine, Lily of the Valley, Woody Accord</li><li>Base notes: Patchouli, Amber, Musk</li></ul><h3>How it wears</h3><p>The citrus opening makes it easy to wear in the daytime and in warmer weather, while the amber and patchouli give it enough warmth for an evening out. As an eau de parfum it carries more fragrance oil than an eau de toilette, so a couple of sprays on the neck and wrists is plenty for the office.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/al-haramain-l-aventure-eau-de-parfum-100ml-men-s-fresh-woody-fragrance\">Al Haramain L’Aventure</a> or <a href=\"/products/al-haramain-amber-oud-carbon-edition-eau-de-parfum-men-s-fresh-woody-fragrance\">Amber Oud Carbon Edition</a></li></ul>",
+  "word_count": 164,
+  "facts_used": [
+   "notes top/heart/base: facets.n + current_text",
+   "men's eau de parfum, 100ml: title/variants",
+   "bold and refined, fresh woody: current_text/title",
+   "citrus, floral, woody accords: current_text"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16373706948995",
+  "handle": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+  "html": "<p>With just three notes, Davidoff The Game keeps things simple: juniper berries, iris and ebony wood. This men’s eau de toilette has aromatic, fruity and woody accords, opening bright with juniper before a smooth iris heart and a deep ebony wood finish. The result is a confident, modern scent for men who like a clean structure.</p><h3>Fragrance notes</h3><ul><li>Top notes: Juniper Berries</li><li>Heart notes: Iris</li><li>Base notes: Ebony Wood</li></ul><h3>How it wears</h3><p>An eau de toilette is a lighter concentration than an eau de parfum, which suits everyday wear, the office and warmer days. The juniper keeps it lively in the morning, and the iris and ebony wood give it a polished, slightly powdery edge that also works for dinner or a night out.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\">Davidoff Champion</a> or <a href=\"/products/armaf-hunter-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance\">Armaf Hunter</a></li></ul>",
+  "word_count": 145,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "men's eau de toilette 100ml: title/variants",
+   "aromatic, fruity, woody accords; confident modern character: current_text"
+  ],
+  "reviewer_notes": "facets.t says 'Unisex' while facets.w, title and current text say men's; written as men's. 'Slightly powdery edge' is reasoned from the iris note."
+ },
+ {
+  "id": "gid://shopify/Product/16294251495811",
+  "handle": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex",
+  "html": "<p>Tom Ford Ébène Fumé is a unisex eau de parfum built on smoky woods, warm spice and resin. Palo santo and black pepper open it, rose and leather form the heart, and ebony wood with resin gives a deep, dark base. Its fragrance family is woody amber, and it is made for people who enjoy distinctive woody scents with an elegant, sensual character.</p><h3>Fragrance notes</h3><ul><li>Top notes: Palo Santo, Black Pepper</li><li>Heart notes: Rose, Leather</li><li>Base notes: Ebony Wood, Resin</li></ul><h3>How it wears</h3><p>The smoke and resin make this a natural fit for autumn and winter evenings, dinners and special occasions. The rose keeps it from feeling heavy, so a light touch can also work on a cool day at the office. Being an eau de parfum, it is richer than an eau de toilette, so start with one or two sprays.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Eau de parfum, unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1\">Tom Ford Oud Wood</a> or <a href=\"/products/kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume\">Kaff Extrait de Parfum</a></li></ul>",
+  "word_count": 168,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "Fragrance Family: Woody Amber: current_text",
+   "unisex eau de parfum, 50ml: title/variants",
+   "smoky woods, warm spices, resinous; distinctive woody, elegant sensual: current_text"
+  ],
+  "reviewer_notes": "facets.f / pdp chip say 'Floral family', but the notes and current text (Woody Amber) are smoky woody; written as woody amber. Consider changing the family to woody. Kaff link chosen without its notes in the input; check it fits."
+ },
+ {
+  "id": "gid://shopify/Product/16299008360835",
+  "handle": "dolce-gabbana-the-one-for-men-eau-de-parfum-100ml-luxury-men-s-fragrance",
+  "html": "<p>Warm, spicy and elegant, Dolce &amp; Gabbana The One for Men Eau de Parfum is a woody aromatic scent with tobacco at its core. Grapefruit, coriander and basil give a fresh, green opening, then cardamom, ginger and orange blossom bring spice before tobacco, amber and cedarwood settle into a smooth, masculine finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Grapefruit, Coriander, Basil</li><li>Heart notes: Cardamom, Ginger, Orange Blossom</li><li>Base notes: Tobacco, Amber, Cedarwood</li></ul><h3>How it wears</h3><p>The tobacco and amber base gives it a cosy warmth that really comes into its own on cooler days and in the evening. The fresh top notes and spice keep it versatile enough for a smart day at work. An eau de parfum has a higher share of fragrance oils than an eau de toilette, so it feels fuller on the skin.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de parfum, for men</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dolce-gabbana-the-one-for-men-eau-de-parfum-intense-100ml-luxury-men-s-fragrance\">The One for Men Eau de Parfum Intense</a> or <a href=\"/products/dolce-gabbana-the-one-gold-for-men-eau-de-parfum-intense-100ml-luxury-men-s-fragrance\">The One Gold for Men</a></li></ul>",
+  "word_count": 167,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "warm, elegant, spicy aromatic woody; smooth masculine: current_text",
+   "men's eau de parfum 100ml: title/variants"
+  ],
+  "reviewer_notes": "Primary keyword 'dolce & gabbana the one' is used inside the full name 'Dolce & Gabbana The One for Men' (secondary keyword) in the first sentence."
+ },
+ {
+  "id": "gid://shopify/Product/16274581029251",
+  "handle": "kirke-extrait-de-parfum-100ml-luxury-unisex-fruity-niche-perfume",
+  "html": "<p>Tiziana Terenzi Kirke is a unisex extrait de parfum from an Italian niche house, with a sweet, fruity and sensual character. Passion fruit, peach, pear, raspberry and cassis make a juicy opening, lily of the valley adds a soft floral heart, and musk, sandalwood, vanilla, patchouli and heliotrope round it off.</p><h3>Fragrance notes</h3><ul><li>Top notes: Passion Fruit, Peach, Pear, Raspberry, Cassis, Sand</li><li>Heart notes: Lily of the Valley</li><li>Base notes: Musk, Sandalwood, Vanilla, Patchouli, Heliotrope</li></ul><h3>How it wears</h3><p>The fruit is bright and playful at first, then the vanilla and sandalwood make it creamier and warmer as it settles. It suits spring and summer evenings, weekends and celebrations. An extrait de parfum is the most concentrated style of perfume, so one or two sprays is usually enough.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Extrait de parfum, unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/white-fire-extrait-de-parfum-100ml-luxury-unisex-niche-perfume\">White Fire Extrait de Parfum</a> or <a href=\"/products/kaff-extrait-de-parfum-100ml-luxury-unisex-niche-perfume\">Kaff Extrait de Parfum</a></li></ul>",
+  "word_count": 154,
+  "facts_used": [
+   "notes incl. 'Sand': facets.n + current_text",
+   "unisex extrait, Italian niche, sweet fruity sensual: current_text",
+   "100ml: title/variants"
+  ],
+  "reviewer_notes": "facets.f / pdp chip say 'Floral family', but the notes are mainly fruity with one floral heart note (the title says fruity); written as fruity with a soft floral heart. 'Sand' kept as stored. Vendor is Tiziana Terenzi but the product title lacks the brand. White Fire and Kaff are linked as unisex niche extraits; their notes are not in the input, so check they fit."
+ },
+ {
+  "id": "gid://shopify/Product/16306788008323",
+  "handle": "al-haramain-amber-oud-gold-edition-eau-de-parfum-luxury-unisex-fruity-amber-fragrance",
+  "html": "<p>Sweet melon and pineapple set the tone in Al Haramain Amber Oud Gold Edition, a unisex eau de parfum with a fruity opening and a warm, creamy amber base. Bergamot and green notes start it off, the fruit and amber form a sweet heart, and vanilla, musk and woody notes give a smooth finish with a gourmand feel.</p><h3>Fragrance notes</h3><ul><li>Top notes: Bergamot, Green Notes</li><li>Heart notes: Melon, Pineapple, Amber, Sweet Notes</li><li>Base notes: Vanilla, Musk, Woody Notes</li></ul><h3>How it wears</h3><p>It is rich and sweet, so it shines on evenings out, parties and cooler weather, and the fresh bergamot opening keeps it from feeling too heavy in the day. As an eau de parfum it has a higher concentration than an eau de toilette, so go easy in small or warm rooms.</p><h3>Good to know</h3><ul><li>Available in 60ml, 100ml and 200ml</li><li>Eau de parfum, unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance\">Amber Oud Ruby Edition</a></li></ul>",
+  "word_count": 158,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "rich sweet unisex, fruity opening, warm creamy amber base, gourmand: current_text",
+   "sizes 60/100/200ml: variants"
+  ],
+  "reviewer_notes": "facets.f / pdp chip say 'Oud family', but no oud is listed in the notes (fruity amber per title); described as fruity amber. "
+ },
+ {
+  "id": "gid://shopify/Product/16296009793923",
+  "handle": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance",
+  "html": "<p>Chopard Oud Malaki Eau de Parfum is a rich men’s fragrance that blends warm spices, leather and tobacco with precious oud. It opens fresh with grapefruit, lavender and artemisia, then turns darker as tobacco, spices and leather take over, before oud, ambergris and dark woods give a deep, woody base with an oriental character.</p><h3>Fragrance notes</h3><ul><li>Top notes: Grapefruit, Lavender, Artemisia</li><li>Heart notes: Tobacco, Spices, Leather</li><li>Base notes: Oud, Ambergris, Dark Woods</li></ul><h3>How it wears</h3><p>The leather and oud make it a scent for autumn and winter, formal dinners and evenings when you want something with depth. The citrus and lavender at the start give a cleaner first impression, so a single spray can work for a cool day at work. An eau de parfum is more concentrated than an eau de toilette, so apply with care.</p><h3>Good to know</h3><ul><li>80ml spray</li><li>Eau de parfum, for men</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men\">Hugo Boss Confident Oud</a> or <a href=\"/products/acqua-di-parma-oud-spice-edp-20ml-for-men\">Acqua di Parma Oud &amp; Spice</a></li></ul>",
+  "word_count": 166,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "rich sophisticated men's, warm spices, leather, tobacco, oud, oriental character: current_text",
+   "80ml eau de parfum: title/variants"
+  ],
+  "reviewer_notes": "Secondary keyword 'chopard oud malaki eau de parfum' used in the first sentence as the primary wording."
+ },
+ {
+  "id": "gid://shopify/Product/16322576187779",
+  "handle": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance",
+  "html": "<p>Rose, leather and smoky woods frame the oud in Guerlain Oud Essentiel, a deep and elegant unisex eau de parfum. Saffron and pelargonium open it, rose, oud and cedarwood make up the heart, and leather, frankincense and guaiac wood give the base its amber-woody warmth.</p><h3>Fragrance notes</h3><ul><li>Top notes: Saffron, Pelargonium</li><li>Heart notes: Rose, Oud, Cedarwood</li><li>Base notes: Leather, Frankincense, Guaiac Wood</li></ul><h3>How it wears</h3><p>This is an intense, refined scent for evenings, weddings and the colder months, where the frankincense and leather feel at home. The rose and saffron add a softer, spiced glow that suits both men and women. Eau de parfum is a stronger concentration than eau de toilette, so one spray on the neck and one on the wrist is a good start.</p><h3>Good to know</h3><ul><li>125ml spray</li><li>Eau de parfum, unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance\">Guerlain Épices Exquises</a> or <a href=\"/products/montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\">Montale Aoud Safran</a></li></ul>",
+  "word_count": 151,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "deep elegant unisex, oud, leather, rose, smoky woods, amber-woody, intense refined: current_text",
+   "125ml: title/variants"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16383629885827",
+  "handle": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance",
+  "html": "<p>Givenchy Amarige Eau de Toilette is a rich, elegant women’s floral with fruity accents and warm woody undertones. Citrus, peach and plum brighten the opening, a full bouquet of gardenia, tuberose, jasmine and ylang-ylang fills the heart, and sandalwood, amber and vanilla give a smooth, sensual finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Orange Blossom, Peach, Plum, Mandarin Orange, Neroli, Rosewood</li><li>Heart notes: Gardenia, Tuberose, Ylang-Ylang, Jasmine, Mimosa, Carnation, Rose, Orchid</li><li>Base notes: Sandalwood, Amber, Vanilla, Musk, Cedarwood, Tonka Bean</li></ul><h3>How it wears</h3><p>The white flowers make it a generous, radiant scent that feels made for celebrations, dinners and spring evenings. As an eau de toilette it is a lighter concentration than an eau de parfum, which makes this opulent bouquet easier to wear by day too. If you have been looking for Givenchy Amarige perfume as a gift, it suits someone who loves classic florals.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de toilette, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\">Calvin Klein Eternity for women</a> or <a href=\"/products/dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance\">DKNY Be Tempted</a></li></ul>",
+  "word_count": 171,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "rich elegant women's, radiant florals, fruity accents, warm woody undertones, opulent bouquet, smooth sensual finish: current_text",
+   "100ml eau de toilette: title/variants"
+  ],
+  "reviewer_notes": "facets.t says 'Unisex' while facets.w, title and current text say women's; written as women's."
+ },
+ {
+  "id": "gid://shopify/Product/16306954502531",
+  "handle": "al-haramain-amber-oud-tobacco-edition-eau-de-parfum-60ml-luxury-unisex-spicy-tobacco-fragrance",
+  "html": "<p>If you like spice and warmth, Al Haramain Amber Oud Tobacco Edition is a unisex eau de parfum built around sweet tobacco, spices, vanilla and woody accords. Tobacco leaf, cinnamon, black pepper and ginger open it, vanilla, clove, star anise, cacao and tonka bean form a rich heart, and tobacco, dried fruits and woody notes give a deep, smooth base.</p><h3>Fragrance notes</h3><ul><li>Top notes: Tobacco Leaf, Cinnamon, Black Pepper, Ginger</li><li>Heart notes: Vanilla, Clove, Star Anise, Cacao, Tonka Bean</li><li>Base notes: Tobacco, Dried Fruits, Woody Notes</li></ul><h3>How it wears</h3><p>With its oriental character, this one is ideal for cooler weather and evening wear, from winter nights to festive gatherings. The cacao and dried fruit give it a sweet, almost dessert-like edge. Eau de parfum holds more fragrance oil than eau de toilette, so a light hand is best indoors.</p><h3>Good to know</h3><ul><li>60ml spray</li><li>Eau de parfum, unisex</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/al-haramain-amber-oud-ruby-edition-eau-de-parfum-luxury-unisex-amber-floral-fragrance\">Amber Oud Ruby Edition</a> or <a href=\"/products/mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\">Mancera Black Noir</a></li></ul>",
+  "word_count": 164,
+  "facts_used": [
+   "notes: facets.n + current_text",
+   "rich warm unisex, sweet tobacco, spices, vanilla, woody, oriental character, ideal for cooler weather and evening wear: current_text",
+   "60ml: title/variants"
+  ],
+  "reviewer_notes": "facets.f / pdp chip say 'Oud family', but no oud appears in the notes (spicy tobacco per title); described from the notes."
+ },
+ {
+  "id": "gid://shopify/Product/16373218148739",
+  "handle": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance",
+  "html": "<p>Davidoff Champion is a fresh, sporty men's eau de toilette built on bright citrus, aromatic herbs and smooth woods. Lemon and bergamot open it up, clary sage and green galbanum give it a herbal lift, and cedarwood with oakmoss settle it into a clean, confident finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Lemon, Bergamot</li><li>Heart notes: Clary Sage, Galbanum</li><li>Base notes: Cedarwood, Oakmoss</li></ul><h3>How it wears</h3><p>This is an energetic, uncomplicated scent that feels at home on a weekday morning, after the gym or in the office. The citrus and herbs keep it crisp in warm weather, while the cedar and oakmoss base gives it enough backbone for cooler days. As an eau de toilette it is a lighter concentration, easy to reapply and hard to overdo.</p><h3>Good to know</h3><ul><li>90ml spray</li><li>Eau de toilette, for men</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/armaf-hunter-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance\">Armaf Hunter</a> or <a href=\"/products/calvin-klein-defy-eau-de-parfum-10ml-miniature-men-s-fresh-woody-fragrance\">Calvin Klein Defy Eau de Parfum 10ml</a></li></ul>",
+  "word_count": 153,
+  "facts_used": [
+   "citrus, aromatic herbs, woody accords, sporty, clean, everyday (current text)",
+   "notes top/heart/base (facets.n)",
+   "90ml (variants, title)",
+   "eau de toilette, for him (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16318152475011",
+  "handle": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance",
+  "html": "<p>Guerlain Habit Rouge in eau de parfum is a refined men's fragrance that moves from fresh citrus into warm spice, leather and vanilla. Four citrus notes make a bright start, cinnamon and patchouli warm the heart alongside rose and jasmine, and the base is a smooth amber woody blend of leather, vanilla, benzoin and labdanum.</p><h3>Fragrance notes</h3><ul><li>Top notes: Lemon, Bergamot, Orange, Lime</li><li>Heart notes: Rose, Patchouli, Cinnamon, Jasmine</li><li>Base notes: Leather, Vanilla, Amber, Benzoin, Labdanum</li></ul><h3>How it wears</h3><p>Habit Rouge has a polished, classic feel, the kind of scent that suits a tailored jacket, a dinner out or a special occasion. The resinous amber and leather base comes into its own in autumn and winter evenings, while the citrus opening keeps it from feeling heavy. An eau de parfum carries a higher concentration of fragrance oils than an eau de toilette, so a couple of sprays is plenty.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de parfum, for men</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance\">Joop Homme Le Parfum</a> or <a href=\"/products/azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\">Azzaro The Most Wanted Parfum</a></li></ul>",
+  "word_count": 177,
+  "facts_used": [
+   "refined, citrus, warm spices, leather, vanilla, amber-woody base (current text)",
+   "notes (facets.n)",
+   "100ml (variants/title)",
+   "eau de parfum, for him (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16322980217219",
+  "handle": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance",
+  "html": "<p>Guerlain Samsara eau de parfum is a warm, elegant women's fragrance where rich florals meet creamy sandalwood. Bergamot and peach open beside ylang-ylang, a heart of jasmine, rose, narcissus and orris follows, and the base melts into sandalwood, vanilla, amber, tonka bean and musk.</p><h3>Fragrance notes</h3><ul><li>Top notes: Bergamot, Peach, Ylang-Ylang</li><li>Heart notes: Jasmine, Rose, Narcissus, Orris</li><li>Base notes: Sandalwood, Vanilla, Amber, Tonka Bean, Musk</li></ul><h3>How it wears</h3><p>Samsara is smooth and sensual rather than sharp, with a soft, rounded character that leans towards evening plans, celebrations and the colder months. The sandalwood and vanilla give it a comforting, skin-close warmth, so it also works as a signature scent for someone who likes a fuller floral. Being an eau de parfum, it has more fragrance oil than an eau de toilette, so apply lightly to pulse points.</p><h3>Good to know</h3><ul><li>75ml spray</li><li>Eau de parfum, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance\">L'Instant de Guerlain</a> or the <a href=\"/products/guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection\">Mon Guerlain miniature set</a></li></ul>",
+  "word_count": 164,
+  "facts_used": [
+   "warm, elegant, sensual, floral, woody, creamy accords (current text)",
+   "notes (facets.n)",
+   "75ml (variants/title)",
+   "eau de parfum, for her (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16375981343107",
+  "handle": "elie-saab-elixir-eau-de-parfum-50ml-women-s-floral-amber-fragrance",
+  "html": "<p>Elie Saab Elixir is a rich women's eau de parfum that pairs luminous florals with a smooth amber base. Mandarin and neroli bring a bright, orange-blossom freshness, rose and powdery iris form the heart, and amber, vanilla, musk and creamy woods round it off.</p><h3>Fragrance notes</h3><ul><li>Top notes: Mandarin, Neroli</li><li>Heart notes: Rose, Iris</li><li>Base notes: Amber, Vanilla, Musk, Woods</li></ul><h3>How it wears</h3><p>The neroli and rose give Elixir a polished, grown-up feel by day, while the vanilla and amber become more noticeable as it settles, which makes it a good choice for dinners, weddings and evenings out. It suits cooler weather especially, though the citrus opening keeps it wearable in spring. As an eau de parfum it is more concentrated than an eau de toilette, so start with one or two sprays.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Eau de parfum, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance\">DKNY Be Tempted</a> or <a href=\"/products/calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\">Calvin Klein My Euphoria 10ml</a></li></ul>",
+  "word_count": 160,
+  "facts_used": [
+   "rich, sensual, luminous florals, smooth amber base, creamy woods (current text)",
+   "notes (facets.n)",
+   "50ml (variants/title)",
+   "eau de parfum, for her (title, facets.w, pdp_chips)"
+  ],
+  "reviewer_notes": "facets.t says Unisex while title, facets.w and chips say for her; written as a women's fragrance. Current text mentions 'warm spices' but no spice is in the stored notes, so spice was left out."
+ },
+ {
+  "id": "gid://shopify/Product/16364136268163",
+  "handle": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance",
+  "html": "<p>Anna Sui Sky is a playful, airy women's eau de toilette that mixes juicy fruit, soft florals and a sweet gourmand twist. Pear and bergamot open with a sparkle of pink peppercorn, lily of the valley, rose and lotus flower sit at the heart, and the base brings musk, vanilla and a distinctive popcorn accord.</p><h3>Fragrance notes</h3><ul><li>Top notes: Pear, Bergamot, Pink Peppercorn</li><li>Heart notes: Lily of the Valley, Rose, Lotus Flower</li><li>Base notes: Musk, Vanilla, Popcorn</li></ul><h3>How it wears</h3><p>Sky is light-hearted and whimsical, easy to wear to college, the office or a weekend lunch. The fresh pear and lotus feel right in spring and summer, and the popcorn and vanilla finish adds a cosy sweetness that keeps it interesting into autumn. An eau de toilette is a lighter concentration, so it is simple to top up during the day.</p><h3>Good to know</h3><ul><li>30ml spray</li><li>Eau de toilette, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\">Calvin Klein My Euphoria 10ml</a> or <a href=\"/products/dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance\">DKNY Be Tempted</a></li></ul>",
+  "word_count": 168,
+  "facts_used": [
+   "playful, airy, fruity floral gourmand, popcorn accord, soft sweet whimsical finish (current text)",
+   "notes (facets.n)",
+   "30ml (variants/title)",
+   "eau de toilette, for her (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16372923531651",
+  "handle": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance",
+  "html": "<p>DKNY Be Tempted is a bold, feminine eau de parfum with juicy fruit up front and a warm gourmand base. Red berries, apple and lemon open with a hint of licorice, rose, violet and orange blossom form the floral heart, and vanilla, patchouli and myrrh give it a sweet, sensual finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Red Berries, Apple, Lemon, Licorice</li><li>Heart notes: Rose, Violet, Orange Blossom</li><li>Base notes: Vanilla, Patchouli, Myrrh</li></ul><h3>How it wears</h3><p>Be Tempted has a confident, playful sweetness that suits nights out, parties and the run-up to Christmas. The myrrh and patchouli add depth beneath the fruit, so it feels richer than a simple fruity floral and sits well on cool evenings. This is a women's fruity floral perfume in eau de parfum strength, a higher concentration than eau de toilette, so a light hand works best.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de parfum, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance\">DKNY Be Delicious Orchard Street</a> or the <a href=\"/products/product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious\">DKNY miniature set</a></li></ul>",
+  "word_count": 168,
+  "facts_used": [
+   "bold, feminine, juicy fruit, warm gourmand base, sensual sweet finish (current text)",
+   "notes (facets.n)",
+   "100ml (variants/title)",
+   "eau de parfum, for her (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16375749542275",
+  "handle": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance",
+  "html": "<p>Carolina Herrera Bad Boy Extreme is an intense men's eau de parfum with warm spice, a gourmand edge and a woody core. Ginger and bergamot lead into rich cacao and earthy vetiver, and the dry down of patchouli and tonka bean is deep and sensual.</p><h3>Fragrance notes</h3><ul><li>Top notes: Ginger, Bergamot</li><li>Heart notes: Cacao, Vetiver</li><li>Base notes: Patchouli, Tonka Bean</li></ul><h3>How it wears</h3><p>With cacao and tonka at its centre, this is a dark, sweet-spiced scent made for evenings, dates and nights out rather than the gym. It feels most at home in autumn and winter, when the warmth of the base has room to show. The ginger keeps the opening lively, and the eau de parfum concentration means a few sprays go a long way.</p><h3>Good to know</h3><ul><li>Available in 10ml, 50ml and 100ml</li><li>Eau de parfum, for men</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance\">Carolina Herrera 212 Sexy Men</a> or <a href=\"/products/calvin-klein-defy-parfum-men-s-warm-woody-fragrance\">Calvin Klein Defy Parfum</a></li></ul>",
+  "word_count": 158,
+  "facts_used": [
+   "bold, intense, warm spicy, gourmand, woody, deep sensual finish (current text)",
+   "notes (facets.n)",
+   "10ml/50ml/100ml (variants)",
+   "eau de parfum, for him (title, facets.w)"
+  ],
+  "reviewer_notes": "facets.f says woody while the title says warm spicy amber; the notes (ginger, cacao, tonka) read as spicy gourmand woody, so described from the notes. facets.t says Unisex while title and facets.w say for him."
+ },
+ {
+  "id": "gid://shopify/Product/16383680119171",
+  "handle": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance",
+  "html": "<p>Escada Magnetism eau de parfum is a rich, feminine fragrance that blends sweet fruit and soft florals over a warm gourmand base. Blackcurrant, red berries, pineapple and melon open with a touch of cassia, a bouquet of magnolia, iris, jasmine, freesia and lily of the valley follows, and vanilla, caramel, amber, musk, sandalwood and patchouli bring a smooth, sensual finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Blackcurrant, Red Berries, Pineapple, Melon, Cassia</li><li>Heart notes: Magnolia, Iris, Jasmine, Freesia, Lily of the Valley</li><li>Base notes: Vanilla, Caramel, Amber, Musk, Sandalwood, Patchouli</li></ul><h3>How it wears</h3><p>The juicy fruit makes a cheerful first impression, then the caramel and amber take over for a cosy, dessert-like warmth. That mix suits evenings, parties and cooler months best. The 25ml bottle is handy for a handbag or for trying a sweeter scent before committing to a bigger size.</p><h3>Good to know</h3><ul><li>25ml spray</li><li>Eau de parfum, for women</li><li>100% authentic, shipped from the UK</li></ul>",
+  "word_count": 156,
+  "facts_used": [
+   "rich, feminine, fruity floral, warm gourmand, vanilla caramel amber musk, smooth sensual finish (current text)",
+   "notes (facets.n)",
+   "25ml (variants/title)",
+   "eau de parfum, for women (title, current text)"
+  ],
+  "reviewer_notes": "facets.w and pdp_chips say 'For him' (facets.t Unisex) but the title says Women's and the current text says feminine; written as a women's fragrance, please fix the chip. No 'Also try' link: the similar_in_stock list is men's fragrances only."
+ },
+ {
+  "id": "gid://shopify/Product/16339025396099",
+  "handle": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+  "html": "<p>Estée Lauder SpellBound is a rich, sophisticated women's eau de parfum that wraps spicy florals in amber and woods. Rose, lily and citrus open with a warm note of cardamom, jasmine, narcissus, carnation and tuberose fill the heart, and amber, vanilla, sandalwood and vetiver make up the base.</p><h3>Fragrance notes</h3><ul><li>Top notes: Rose, Lily, Citrus, Cardamom</li><li>Heart notes: Jasmine, Narcissus, Carnation, Tuberose</li><li>Base notes: Amber, Vanilla, Sandalwood, Vetiver</li></ul><h3>How it wears</h3><p>SpellBound has a bold, classic character, with carnation and tuberose giving the florals real presence. It is a natural fit for formal evenings, the theatre or winter occasions, and it rewards someone who enjoys a statement perfume. As an Estée Lauder SpellBound eau de parfum, it carries more fragrance oil than an eau de toilette, so one or two sprays are enough.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Eau de parfum, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\">Calvin Klein Eternity Eau de Parfum</a></li></ul>",
+  "word_count": 157,
+  "facts_used": [
+   "rich, sensual, sophisticated, warm spices, florals, amber, woods, classic character (current text)",
+   "notes (facets.n)",
+   "50ml (variants/title)",
+   "eau de parfum, for her (title, facets.w)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16375883923843",
+  "handle": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance",
+  "html": "<p>Carolina Herrera Very Good Girl Glam is a bold, glamorous women's parfum built around juicy cherry, rich rose and warm vanilla. Sour cherry and bitter almond give it a tart, nutty opening, rose and lily bring floral depth, and Bourbon vanilla with vetiver leaves a smooth, lightly woody finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Sour Cherry, Bitter Almond</li><li>Heart notes: Rose, Lily</li><li>Base notes: Bourbon Vanilla, Vetiver</li></ul><h3>How it wears</h3><p>The cherry and almond pairing feels sweet but grown-up, and the vetiver stops the vanilla from turning sugary. It is a scent for dressing up: parties, date nights and festive evenings, especially when the weather turns cold. Parfum is among the most concentrated forms of fragrance, so apply sparingly to the wrists and neck.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Parfum, for women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance\">DKNY Be Tempted</a> or <a href=\"/products/calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\">Calvin Klein My Euphoria 10ml</a></li></ul>",
+  "word_count": 148,
+  "facts_used": [
+   "bold, glamorous, juicy cherry, rich rose, warm vanilla, fruity sweetness, floral depth, smooth woody finish (current text)",
+   "notes (facets.n)",
+   "50ml (variants/title)",
+   "parfum, for her (title, pdp_chips, facets.w)"
+  ],
+  "reviewer_notes": "facets.t says Unisex while title, facets.w and chips say for her; written as a women's fragrance."
+ },
+ {
+  "id": "gid://shopify/Product/16371586990467",
+  "handle": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+  "html": "<p>Chloé Nomade Nuit d’Égypte is a warm, spicy eau de parfum for women, inspired by Egypt and the ancient perfume tradition of kyphi. Myrrh, ginger and cinnamon lead the way, with orange blossom and vanilla giving it a deep, resinous and elegant finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Myrrh, Ginger, Cinnamon, Broom Flower Nectar, Cypriol, Opopanax</li><li>Heart notes: Orange Blossom Absolute</li><li>Base notes: Vanilla</li></ul><h3>How it wears</h3><p>The opening is dark and spiced, built on resins such as myrrh and opopanax rather than bright citrus. Orange blossom softens the middle, and vanilla leaves a smooth, sweet trail. It suits cooler evenings, dinners and the autumn and winter months more than a hot summer afternoon. One or two sprays on the wrists and neck are enough to start with.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Chloe Nomade Nuit d’Egypte eau de parfum: a richer, more concentrated form than an eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance\">Chloé Nomade Jasmin Naturel Intense</a> or <a href=\"/products/chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set\">the Chloé Nomade gift set</a></li></ul>",
+  "word_count": 168,
+  "facts_used": [
+   "Women’s eau de parfum, 50ml (title, variants)",
+   "Inspired by Egypt and kyphi; myrrh, spices, orange blossom, vanilla; resinous, elegant finish (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: Nomade Jasmin Naturel Intense, Nomade gift set (similar_in_stock)"
+  ],
+  "reviewer_notes": "Family label says floral, but the notes are spicy and resinous (myrrh, ginger, cinnamon, opopanax) with orange blossom and vanilla; described as warm spicy, matching the title."
+ },
+ {
+  "id": "gid://shopify/Product/16385123156355",
+  "handle": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance",
+  "html": "<p>Lancôme Idôle Nectar is a modern, feminine eau de parfum that pairs a luminous rose bouquet with a sweet gourmand side, a playful take on rose for women who like a little sweetness. A distinctive popcorn accord sits at its heart, and warm vanilla gives it a smooth, creamy finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Rose, Turkish Rose</li><li>Heart notes: Popcorn Accord</li><li>Base notes: Vanilla</li></ul><h3>How it wears</h3><p>Rose comes first, fresh and bright, before the popcorn accord turns things playful and toasty. As it settles, vanilla makes it softer and more comforting. It is an easy pick for weekends, date nights and cooler days, and the 25ml size slips into a handbag for top-ups. It also makes a thoughtful small gift for someone who loves rose.</p><h3>Good to know</h3><ul><li>25ml spray, a handy size for trying a new scent or for travel</li><li>Eau de parfum: a higher concentration of fragrance oils than an eau de toilette, which is what the Lancome Idole Nectar eau de parfum offers in a compact bottle</li><li>100% authentic, shipped from the UK</li></ul>",
+  "word_count": 177,
+  "facts_used": [
+   "Eau de parfum, 25ml (title, variants)",
+   "Modern, feminine; luminous rose, gourmand, popcorn accord, vanilla; smooth creamy finish (current text)",
+   "Notes top/heart/base (facets.n)"
+  ],
+  "reviewer_notes": "Facets say \"For him\" (w) and \"Unisex\" (t), and the PDP chip says \"For him\", but the title and current text say women’s/feminine; written as a women’s fragrance, please fix the facet and chip. No \"Also try\" link: all similar_in_stock items are men’s scents."
+ },
+ {
+  "id": "gid://shopify/Product/16367144501635",
+  "handle": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance",
+  "html": "<p>Bentley Silverlake is a fresh, aromatic men’s eau de parfum with bright citrus, herbs and clean woods. Crisp lemon and mint open it, lavender and violet leaf follow, and amberwood and musk settle it into a smooth, refined finish. It is a versatile choice for men who prefer fresh aromatic scents to sweet ones.</p><h3>Fragrance notes</h3><ul><li>Top notes: Lemon, Mint</li><li>Heart notes: Lavender, Violet Leaf, Pink Pepper</li><li>Base notes: Amberwood, Musk, Woody Notes</li></ul><h3>How it wears</h3><p>Lemon and mint make the first minutes feel cool and clean, while pink pepper adds a little spark under the lavender. The dry-down is soft and woody rather than heavy. It works well for the office, warmer days and everyday wear, and stays polished enough for an evening out. As an eau de parfum it is more concentrated than an eau de toilette, so start with a couple of sprays.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Bentley For Men Silverlake eau de parfum, part of the Bentley For Men line</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance\">Bentley Infinite</a> or <a href=\"/products/bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance\">Bentley For Men Azure</a></li></ul>",
+  "word_count": 180,
+  "facts_used": [
+   "Men’s eau de parfum, 100ml (title, variants)",
+   "Fresh, elegant, modern; citrus, aromatic herbs, clean woods; smooth refined finish (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: Bentley Infinite, Bentley For Men Azure (similar_in_stock)"
+  ],
+  "reviewer_notes": "Current text says \"long-lasting\"; left out per the brief."
+ },
+ {
+  "id": "gid://shopify/Product/16302689583491",
+  "handle": "dolce-gabbana-devotion-eau-de-parfum-100ml-luxury-women-s-gourmand-fragrance",
+  "html": "<p>Warm and feminine, Dolce &amp; Gabbana Devotion is a gourmand eau de parfum for women. Bright candied citrus, delicate orange blossom and creamy Madagascar vanilla make a sweet, elegant and comforting signature scent. It is a good match for anyone who loves vanilla but wants a brighter, fresher start.</p><h3>Fragrance notes</h3><ul><li>Top notes: Candied Citrus</li><li>Heart notes: Orange Blossom</li><li>Base notes: Madagascar Vanilla</li></ul><h3>How it wears</h3><p>With only three notes, it is simple and easy to read: a sugared citrus start, a soft floral middle and a rich vanilla base. That sweetness makes it a natural fit for autumn and winter, evenings and celebrations, while a light spray works for daytime too. It is also an easy present for someone with a sweet tooth when it comes to perfume.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Dolce &amp; Gabbana Devotion eau de parfum, with a higher concentration of fragrance oils than an eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dolce-gabbana-devotion-eau-de-parfum-gift-set-50ml-10ml-women-s-fragrance-set\">the Devotion gift set (50ml + 10ml)</a> or <a href=\"/products/dolce-gabbana-women-s-miniature-fragrance-set-devotion-q-blue-jasmine-the-one-light-blue\">the Dolce &amp; Gabbana miniature set</a></li></ul>",
+  "word_count": 175,
+  "facts_used": [
+   "Women’s eau de parfum, 100ml (title, variants)",
+   "Warm, feminine gourmand; candied citrus, orange blossom, creamy vanilla; comforting signature scent (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: Devotion gift set 50ml + 10ml, D&G miniature set incl. Devotion (similar_in_stock)"
+  ],
+  "reviewer_notes": "Family label says amber; title and current text say gourmand. Written as gourmand (vanilla base fits both)."
+ },
+ {
+  "id": "gid://shopify/Product/16303208038787",
+  "handle": "gucci-bloom-eau-de-parfum-gift-set-100ml-10ml-body-lotion-100ml-women-s-fragrance-set",
+  "html": "<p>The Gucci Bloom gift set brings together an elegant white floral eau de parfum, a travel spray and a matching body lotion for women. Built around jasmine, tuberose and Rangoon Creeper, it makes a ready-to-give present and an easy way to layer one scent.</p><h3>Fragrance notes</h3><ul><li>Notes: Jasmine Bud Extract, Natural Tuberose, Rangoon Creeper Accord</li></ul><h3>How it wears</h3><p>Bloom is a full, creamy white floral, with jasmine and tuberose at its centre and Rangoon Creeper adding a softer floral note. Applying the lotion first and the perfume over it keeps the same floral character on the skin. It suits spring days, weddings and occasions where you want a classic floral.</p><h3>Good to know</h3><ul><li>Set contents: Gucci Bloom Eau de Parfum 100ml, Eau de Parfum 10ml travel spray and Body Lotion 100ml</li><li>Eau de parfum concentration</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/gucci-flora-gorgeous-orchid-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\">Gucci Flora Gorgeous Orchid mini</a> or <a href=\"/products/gucci-guilty-pour-femme-eau-de-parfum-gift-set-50ml-body-lotion-50ml-women-s-fragrance-set\">the Gucci Guilty Pour Femme gift set</a></li></ul>",
+  "word_count": 156,
+  "facts_used": [
+   "Women’s set: EDP 100ml + 10ml + body lotion 100ml (title)",
+   "10ml is a travel spray; white floral; jasmine, tuberose, Rangoon Creeper; for gifting and layering (current text)",
+   "Key notes list (current text \"Key Notes\")",
+   "Similar: Gucci Flora Gorgeous Orchid mini, Guilty Pour Femme gift set (similar_in_stock)"
+  ],
+  "reviewer_notes": "No facets.n stored; notes taken from the current text \"Key Notes\" as a flat list. FAQ answer mentions rose, which is not in the notes; not used. No secondary keyword given."
+ },
+ {
+  "id": "gid://shopify/Product/16373690958211",
+  "handle": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance",
+  "html": "<p>Davidoff Indigo is a fresh, modern eau de toilette for men with aromatic, green and woody accords. Peppermint gives the opening a crisp, cooling lift, lavender adds a clean aromatic heart, and sandalwood leaves a smooth finish. It keeps things clean and easy to wear.</p><h3>Fragrance notes</h3><ul><li>Top notes: Peppermint</li><li>Heart notes: Lavender</li><li>Base notes: Sandalwood</li></ul><h3>How it wears</h3><p>Three clear notes keep it uncomplicated: cool mint, then lavender, then soft wood. As an eau de toilette it has a lighter concentration than an eau de parfum, which suits spring and summer, the gym bag and the working week. The large 110ml bottle makes sense for a scent you reach for every day, and the lavender and sandalwood keep it smart enough for work.</p><h3>Good to know</h3><ul><li>110ml spray</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\">Davidoff Champion</a> or <a href=\"/products/armaf-hunter-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance\">Armaf Hunter</a></li></ul>",
+  "word_count": 145,
+  "facts_used": [
+   "Men’s eau de toilette, 110ml (title, variants)",
+   "Fresh, modern; aromatic, green, woody; peppermint, lavender, sandalwood; launched in 2025 (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: Davidoff Champion, Armaf Hunter (similar_in_stock)"
+  ],
+  "reviewer_notes": "Launch year 2025 is from the current text; please confirm. Family label says woody and facets.t says Unisex, while the title says Men’s Aromatic Fougère; peppermint + lavender + sandalwood read aromatic, written as men’s aromatic."
+ },
+ {
+  "id": "gid://shopify/Product/16364386648451",
+  "handle": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance",
+  "html": "<p>Burberry My Burberry Black is a rich parfum for women, with deep floral, fruity and amber accords. Jasmine opens it, peach nectar and candied rose form an intense heart, and warm amber with patchouli gives a smooth, elegant finish. It is a rich choice for women who like their florals warm and sweet.</p><h3>Fragrance notes</h3><ul><li>Top notes: Jasmine</li><li>Heart notes: Peach Nectar, Candied Rose</li><li>Base notes: Amber, Patchouli</li></ul><h3>How it wears</h3><p>This is the darker, sweeter side of My Burberry: jammy rose and ripe peach over an earthy patchouli and amber base. Parfum is the most concentrated of the usual strengths, so a light hand works best. Save it for evenings, colder weather and dressed-up occasions, when its deeper floral and amber character feels right. Spray on pulse points and let it settle before judging the dry-down.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance\">My Burberry Black 90ml</a> or <a href=\"/products/burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance\">My Burberry Eau de Parfum 50ml</a></li></ul>",
+  "word_count": 162,
+  "facts_used": [
+   "Women’s parfum, 50ml (title, variants, chips)",
+   "Rich, sophisticated; floral, fruity, amber; jasmine, peach nectar, rose, amber, patchouli; smooth elegant finish (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: My Burberry Black 90ml, My Burberry EDP 50ml (similar_in_stock)"
+  ],
+  "reviewer_notes": "Current text says \"long-lasting\"; left out per the brief."
+ },
+ {
+  "id": "gid://shopify/Product/16362307158403",
+  "handle": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance",
+  "html": "<p>For a bright, refined men’s scent, John Varvatos Artisan is an eau de toilette built on citrus, aromatic herbs and smooth woods. Clementine and mandarin meet marjoram and thyme, then orange blossom, ginger and lavender lead to a base of musk, woods and amber.</p><h3>Fragrance notes</h3><ul><li>Top notes: Clementine, Mandarin Orange, Marjoram, Thyme</li><li>Heart notes: Orange Blossom, Ginger, Lavender, Jasmine</li><li>Base notes: Musk, Woody Notes, Amber</li></ul><h3>How it wears</h3><p>The juicy citrus and garden herbs give it a sunny, relaxed feel, with ginger keeping the middle lively. It is clean and stylish and works especially well for daytime wear: the office, lunches and warm-weather weekends. The musky, woody base keeps it grown-up as it dries down. Reapply after lunch if you want the citrus back.</p><h3>Good to know</h3><ul><li>75ml spray</li><li>John Varvatos Artisan eau de toilette, a lighter concentration than an eau de parfum</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\">Davidoff Champion</a> or <a href=\"/products/calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\">Calvin Klein Eternity Aromatic Essence mini</a></li></ul>",
+  "word_count": 161,
+  "facts_used": [
+   "Men’s eau de toilette, 75ml (title, variants)",
+   "Fresh, refined; citrus, aromatic herbs, woody; clean, stylish; especially good for daytime wear (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: Davidoff Champion, CK Eternity Aromatic Essence mini (similar_in_stock)"
+  ],
+  "reviewer_notes": "Title says \"Long lasting\"; not used in the copy per the brief."
+ },
+ {
+  "id": "gid://shopify/Product/16375798202755",
+  "handle": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance",
+  "html": "<p>Carolina Herrera 212 Sexy Men is a warm, spicy eau de toilette for men with aromatic and woody accords. Fresh mandarin and bergamot give way to cardamom and pepper, and a base of vanilla, sandalwood, guaiac wood, musk and amber makes it smooth and sophisticated.</p><h3>Fragrance notes</h3><ul><li>Top notes: Mandarin Orange, Bergamot, Green Notes</li><li>Heart notes: Cardamom, Pepper, Flowers</li><li>Base notes: Vanilla, Sandalwood, Guaiac Wood, Musk, Amber</li></ul><h3>How it wears</h3><p>A short burst of citrus and greenery leads into a spiced heart, and the long base is where it shows its character: creamy wood, soft vanilla and the dry warmth of guaiac wood. It is suited to evening wear, nights out and cooler months, rather than a hot day at the desk. A couple of sprays before heading out is plenty.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance\">Carolina Herrera 212 VIP Men</a> or <a href=\"/products/calvin-klein-defy-parfum-men-s-warm-woody-fragrance\">Calvin Klein Defy Parfum</a></li></ul>",
+  "word_count": 157,
+  "facts_used": [
+   "Men’s eau de toilette, 100ml (title, variants)",
+   "Warm, sophisticated; spicy, aromatic, woody; citrus, cardamom, pepper, vanilla, sandalwood, musk; suited to evening wear (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: 212 VIP Men, CK Defy Parfum (similar_in_stock)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16364328452483",
+  "handle": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance",
+  "html": "<p>Inspired by a London garden after the rain, Burberry My Burberry is an elegant floral eau de parfum for women. Fresh bergamot and sweet pea open it, geranium, quince and freesia fill the heart, and patchouli with two roses gives a sophisticated, feminine finish.</p><h3>Fragrance notes</h3><ul><li>Top notes: Sweet Pea, Bergamot</li><li>Heart notes: Geranium Leaf, Golden Quince, Freesia</li><li>Base notes: Patchouli, Damask Rose, Centifolia Rose</li></ul><h3>How it wears</h3><p>It starts green and dewy, then turns softly fruity with golden quince before the rose and patchouli base adds depth. The result feels polished but light enough for daily use. Spring and early autumn suit it well, as do the office, weekend plans and weddings. Spray on the wrists and neck and let the rose come through as it settles.</p><h3>Good to know</h3><ul><li>50ml spray</li><li>Burberry My Burberry eau de parfum, more concentrated than an eau de toilette</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance\">My Burberry Eau de Parfum 90ml</a> or <a href=\"/products/burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance\">My Burberry Black Parfum 50ml</a></li></ul>",
+  "word_count": 166,
+  "facts_used": [
+   "Women’s eau de parfum, 50ml (title, variants)",
+   "Inspired by a London garden after the rain; bergamot, sweet pea, geranium, quince, freesia, patchouli, rose; sophisticated feminine finish (current text)",
+   "Notes top/heart/base (facets.n)",
+   "Similar: My Burberry EDP 90ml, My Burberry Black Parfum 50ml (similar_in_stock)"
+  ],
+  "reviewer_notes": ""
+ },
+ {
+  "id": "gid://shopify/Product/16296405827971",
+  "handle": "dolce-gabbana-l-imperatrice-eau-de-toilette-100ml-women-s-fruity-floral-fragrance",
+  "html": "<p>Dolce &amp; Gabbana L’Imperatrice is a women’s eau de toilette with juicy fruit, fresh florals and a soft musky finish. Watermelon, kiwi and rhubarb give it a bright, playful character, and smooth woods keep it modern and easy to wear.</p><h3>Fragrance notes</h3><ul><li>Top notes: Kiwi, Rhubarb, Pink Pepper</li><li>Heart notes: Watermelon, Cyclamen, Jasmine</li><li>Base notes: Musk, Sandalwood, Lemon Tree</li></ul><h3>How it wears</h3><p>The opening is crisp and green from kiwi and rhubarb, with a small lift of pink pepper. Watermelon, cyclamen and jasmine then give the heart a juicy, light floral feel before musk and sandalwood settle it down. As a Dolce &amp; Gabbana L’Imperatrice eau de toilette it is lighter than an eau de parfum, which makes it a natural choice for daytime, warm weather, the office and weekends.</p><h3>Good to know</h3><ul><li>100ml spray</li><li>Eau de toilette</li><li>For women</li><li>100% authentic, shipped from the UK</li><li>Also try: <a href=\"/products/dolce-gabbana-q-eau-de-parfum-100ml-luxury-women-s-fruity-floral-fragrance\">Dolce &amp; Gabbana Q</a> or <a href=\"/products/dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance\">DKNY Be Delicious Orchard Street</a></li></ul>",
+  "word_count": 158,
+  "facts_used": [
+   "current description",
+   "custom.sw notes",
+   "variants"
+  ],
+  "reviewer_notes": "Replacement for the duplicate Jo Milano Game of Spades Full House listing."
+ }
+]
