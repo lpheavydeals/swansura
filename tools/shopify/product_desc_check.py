@@ -41,7 +41,7 @@ for d in drafts:
         if not url.startswith("/products/") or not p or not any(v["available"] for v in p["variants"]):
             errs.append(f"link {url}")
         if hd == d["handle"]: errs.append("self link")
-    first = norm(re.split(r"(?<=[.?])\s", text.strip(), maxsplit=1)[0])
+    first = norm(re.split(r"(?<!\bNo\.)(?<!\bSt\.)(?<=[.?])\s", text.strip(), maxsplit=1)[0])  # 'No. 1' / 'St. Dupont' are not sentence ends
     kw = norm(f["primary_keyword"]).split()
     if not all(w in first.split() for w in kw): errs.append(f"keyword '{f['primary_keyword']}' not in first sentence")
     n = f["facets"].get("n")
