@@ -1,0 +1,578 @@
+[
+ {
+  "handle": "clinique",
+  "input": {
+   "title": "Clinique",
+   "handle": "clinique",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Clinique Perfume | Shop at Swansura UK",
+    "description": "Shop Clinique perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Clinique Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Clinique\", \"world\": \"scent\", \"partner\": false, \"line\": \"Classic fragrances\", \"story\": \"Clinique at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Clinique at Swansura genuine?\", \"Yes. Every Clinique product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Clinique delivery?\", \"All Clinique orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "gres",
+  "input": {
+   "title": "Grès",
+   "handle": "gres",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Grès Perfume | Shop at Swansura UK",
+    "description": "Shop Grès perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Grès Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Grès\", \"world\": \"scent\", \"partner\": false, \"line\": \"French fragrances\", \"story\": \"Grès at Swansura: 2 products, 100% authentic and shipped from the UK.\", \"count\": 2, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Grès at Swansura genuine?\", \"Yes. Every Grès product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Grès delivery?\", \"All Grès orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "issey-miyake",
+  "input": {
+   "title": "Issey Miyake",
+   "handle": "issey-miyake",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Issey Miyake Perfume | Shop at Swansura UK",
+    "description": "Shop Issey Miyake perfume at Swansura: 8 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Issey Miyake Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Issey Miyake\", \"world\": \"scent\", \"partner\": false, \"line\": \"Japanese designer fragrances\", \"story\": \"Issey Miyake at Swansura: 8 products, 100% authentic and shipped from the UK.\", \"count\": 8, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Issey Miyake at Swansura genuine?\", \"Yes. Every Issey Miyake product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Issey Miyake delivery?\", \"All Issey Miyake orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "lacoste",
+  "input": {
+   "title": "Lacoste",
+   "handle": "lacoste",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Lacoste Deodorant | Shop at Swansura UK",
+    "description": "Shop Lacoste deodorant at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Lacoste Deodorant"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Lacoste\", \"world\": \"scent\", \"partner\": false, \"line\": \"Fragrances and grooming for men\", \"story\": \"Lacoste at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Lacoste at Swansura genuine?\", \"Yes. Every Lacoste product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Lacoste delivery?\", \"All Lacoste orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "lalique",
+  "input": {
+   "title": "Lalique",
+   "handle": "lalique",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Lalique Perfume | Shop at Swansura UK",
+    "description": "Shop Lalique perfume at Swansura: 12 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Lalique Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Lalique\", \"world\": \"scent\", \"partner\": false, \"line\": \"French crystal-house fragrances\", \"story\": \"Lalique at Swansura: 12 products, 100% authentic and shipped from the UK.\", \"count\": 12, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Lalique at Swansura genuine?\", \"Yes. Every Lalique product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Lalique delivery?\", \"All Lalique orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "lanvin",
+  "input": {
+   "title": "Lanvin",
+   "handle": "lanvin",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Lanvin Perfume | Shop at Swansura UK",
+    "description": "Shop Lanvin perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Lanvin Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Lanvin\", \"world\": \"scent\", \"partner\": false, \"line\": \"Parisian fragrances\", \"story\": \"Lanvin at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Lanvin at Swansura genuine?\", \"Yes. Every Lanvin product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Lanvin delivery?\", \"All Lanvin orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "michael-kors",
+  "input": {
+   "title": "Michael Kors",
+   "handle": "michael-kors",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Michael Kors Perfume | Shop at Swansura UK",
+    "description": "Shop Michael Kors perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Michael Kors Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Michael Kors\", \"world\": \"scent\", \"partner\": false, \"line\": \"American designer fragrances\", \"story\": \"Michael Kors at Swansura: 2 products, 100% authentic and shipped from the UK.\", \"count\": 2, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Michael Kors at Swansura genuine?\", \"Yes. Every Michael Kors product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Michael Kors delivery?\", \"All Michael Kors orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "moschino",
+  "input": {
+   "title": "Moschino",
+   "handle": "moschino",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Moschino Perfume | Shop at Swansura UK",
+    "description": "Shop Moschino perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Moschino Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Moschino\", \"world\": \"scent\", \"partner\": false, \"line\": \"Italian designer fragrances\", \"story\": \"Moschino at Swansura: 2 products, 100% authentic and shipped from the UK.\", \"count\": 2, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Moschino at Swansura genuine?\", \"Yes. Every Moschino product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Moschino delivery?\", \"All Moschino orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "mugler",
+  "input": {
+   "title": "Mugler",
+   "handle": "mugler",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Mugler Perfume | Shop at Swansura UK",
+    "description": "Shop Mugler perfume at Swansura: 13 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Mugler Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Mugler\", \"world\": \"scent\", \"partner\": false, \"line\": \"Parisian designer fragrances\", \"story\": \"Mugler at Swansura: 13 products, 100% authentic and shipped from the UK.\", \"count\": 13, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Mugler at Swansura genuine?\", \"Yes. Every Mugler product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Mugler delivery?\", \"All Mugler orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "narciso-rodriguez",
+  "input": {
+   "title": "Narciso Rodriguez",
+   "handle": "narciso-rodriguez",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Narciso Rodriguez Perfume | Shop at Swansura UK",
+    "description": "Shop Narciso Rodriguez perfume at Swansura: 9 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Narciso Rodriguez Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Narciso Rodriguez\", \"world\": \"scent\", \"partner\": false, \"line\": \"Musk-led designer fragrances\", \"story\": \"Narciso Rodriguez at Swansura: 9 products, 100% authentic and shipped from the UK.\", \"count\": 9, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Narciso Rodriguez at Swansura genuine?\", \"Yes. Every Narciso Rodriguez product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Narciso Rodriguez delivery?\", \"All Narciso Rodriguez orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "paco-rabanne",
+  "input": {
+   "title": "Paco Rabanne",
+   "handle": "paco-rabanne",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Paco Rabanne Perfume | Shop at Swansura UK",
+    "description": "Shop Paco Rabanne perfume at Swansura: 23 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Paco Rabanne Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Paco Rabanne\", \"world\": \"scent\", \"partner\": false, \"line\": \"Parisian designer fragrances\", \"story\": \"Paco Rabanne at Swansura: 23 products, 100% authentic and shipped from the UK.\", \"count\": 23, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Paco Rabanne at Swansura genuine?\", \"Yes. Every Paco Rabanne product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Paco Rabanne delivery?\", \"All Paco Rabanne orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "ralph-lauren",
+  "input": {
+   "title": "Ralph Lauren",
+   "handle": "ralph-lauren",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Ralph Lauren Perfume | Shop at Swansura UK",
+    "description": "Shop Ralph Lauren perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Ralph Lauren Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Ralph Lauren\", \"world\": \"scent\", \"partner\": false, \"line\": \"American designer fragrances\", \"story\": \"Ralph Lauren at Swansura: 4 products, 100% authentic and shipped from the UK.\", \"count\": 4, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Ralph Lauren at Swansura genuine?\", \"Yes. Every Ralph Lauren product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Ralph Lauren delivery?\", \"All Ralph Lauren orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "roberto-cavalli",
+  "input": {
+   "title": "Roberto Cavalli",
+   "handle": "roberto-cavalli",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Roberto Cavalli Perfume | Shop at Swansura UK",
+    "description": "Shop Roberto Cavalli perfume at Swansura: 7 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Roberto Cavalli Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Roberto Cavalli\", \"world\": \"scent\", \"partner\": false, \"line\": \"Italian designer fragrances\", \"story\": \"Roberto Cavalli at Swansura: 7 products, 100% authentic and shipped from the UK.\", \"count\": 7, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Roberto Cavalli at Swansura genuine?\", \"Yes. Every Roberto Cavalli product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Roberto Cavalli delivery?\", \"All Roberto Cavalli orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "rochas",
+  "input": {
+   "title": "Rochas",
+   "handle": "rochas",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Rochas Perfume | Shop at Swansura UK",
+    "description": "Shop Rochas perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Rochas Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Rochas\", \"world\": \"scent\", \"partner\": false, \"line\": \"Parisian fragrances\", \"story\": \"Rochas at Swansura: 1 product, 100% authentic and shipped from the UK.\", \"count\": 1, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Rochas at Swansura genuine?\", \"Yes. Every Rochas product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Rochas delivery?\", \"All Rochas orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "salvatore-ferragamo",
+  "input": {
+   "title": "Salvatore Ferragamo",
+   "handle": "salvatore-ferragamo",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Salvatore Ferragamo Perfume | Shop at Swansura UK",
+    "description": "Shop Salvatore Ferragamo perfume at Swansura: 21 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Salvatore Ferragamo Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Salvatore Ferragamo\", \"world\": \"scent\", \"partner\": false, \"line\": \"Italian designer fragrances\", \"story\": \"Salvatore Ferragamo at Swansura: 21 products, 100% authentic and shipped from the UK.\", \"count\": 21, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Salvatore Ferragamo at Swansura genuine?\", \"Yes. Every Salvatore Ferragamo product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Salvatore Ferragamo delivery?\", \"All Salvatore Ferragamo orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "superdry",
+  "input": {
+   "title": "Superdry",
+   "handle": "superdry",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Superdry Perfume | Shop at Swansura UK",
+    "description": "Shop Superdry perfume at Swansura: 3 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Superdry Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Superdry\", \"world\": \"scent\", \"partner\": false, \"line\": \"Everyday fragrances\", \"story\": \"Superdry at Swansura: 3 products, 100% authentic and shipped from the UK.\", \"count\": 3, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Superdry at Swansura genuine?\", \"Yes. Every Superdry product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Superdry delivery?\", \"All Superdry orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "thomas-kosmala",
+  "input": {
+   "title": "Thomas Kosmala",
+   "handle": "thomas-kosmala",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Thomas Kosmala Perfume | Shop at Swansura UK",
+    "description": "Shop Thomas Kosmala perfume at Swansura: 12 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Thomas Kosmala Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Thomas Kosmala\", \"world\": \"scent\", \"partner\": false, \"line\": \"Niche eaux de parfum\", \"story\": \"Thomas Kosmala at Swansura: 12 products, 100% authentic and shipped from the UK.\", \"count\": 12, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Thomas Kosmala at Swansura genuine?\", \"Yes. Every Thomas Kosmala product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Thomas Kosmala delivery?\", \"All Thomas Kosmala orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ },
+ {
+  "handle": "versace",
+  "input": {
+   "title": "Versace",
+   "handle": "versace",
+   "sortOrder": "MANUAL",
+   "seo": {
+    "title": "Versace Perfume | Shop at Swansura UK",
+    "description": "Shop Versace perfume at Swansura: 7 products, 100% authentic and shipped from the UK. Free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Versace Perfume"
+    },
+    {
+     "namespace": "custom",
+     "key": "brand",
+     "type": "json",
+     "value": "{\"name\": \"Versace\", \"world\": \"scent\", \"partner\": false, \"line\": \"Italian designer fragrances\", \"story\": \"Versace at Swansura: 7 products, 100% authentic and shipped from the UK.\", \"count\": 7, \"others\": [[\"Dior\", \"/collections/dior\", \"Iconic French fragrances\", null], [\"Gucci\", \"/collections/gucci\", \"Italian designer fragrances\", null], [\"Yves Saint Laurent\", \"/collections/yves-saint-laurent\", \"Parisian designer fragrances\", null], [\"Giorgio Armani\", \"/collections/giorgio-armani\", \"Italian designer fragrances\", null], [\"Carolina Herrera\", \"/collections/carolina-herrera\", \"Designer fragrances\", null]]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "faq",
+     "type": "json",
+     "value": "[[\"Is Versace at Swansura genuine?\", \"Yes. Every Versace product at Swansura is 100% authentic and ships from the UK.\"], [\"How fast is Versace delivery?\", \"All Versace orders ship from Swansura in the UK. UK delivery is free on orders over £40, and orders over £70 also get £5 off.\"]]"
+    }
+   ]
+  }
+ }
+]
