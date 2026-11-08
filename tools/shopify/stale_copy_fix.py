@@ -11,7 +11,8 @@ Inputs:  docs/backups/stale_copy_before_2026-11-07.json (live values = before-st
 Output:  docs/seo/stale_copy_fix_2026-11-07.json (per collection: seo description, seo_copy, faq; old + new)
          docs/seo/stale_copy_fix_2026-11-07.md (review: changed sentences / FAQ answers)
 
-Counts updated 8 Nov 2026 after the Hemel duplicates and label fixes (unisex 299, floral 238, niche 72, gifts-over-50 142).
+Counts updated 8 Nov 2026 after the Hemel duplicates and label fixes (unisex 299, floral 238, niche 72, gifts-over-50 142),
+then after the site-wide gender fix (unisex 249, women 187, men 120).
 Rules: counts on big pages become 'more than N' (N = count rounded down to the ten below), so they stay
 true as products are added; small pages keep exact numbers. Named-product prices = current lowest price.
 Products that are no longer on a concern page are not named on it. FAQ price ranges, gender splits,
@@ -114,10 +115,10 @@ E = {
  "hair-oil-for-dry-hair": [("Our edit has six oils, serums and kits", "Our edit has four oils, serums and kits"),
                            (" Deyga's Premature Greying Hair Oil 100ML (£18.99) adds coconut, castor and moringa oils with traditional herbs.", "")],
  "face-mask-for-oily-skin": [("Deyga's Charcoal Detox Face Mask (£15.99)", "Deyga's Charcoal Detox Face Mask (£13.99)")],
- "perfume-for-women": [("This edit brings together 67 eaux", "This edit brings together more than 140 eaux")],
- "perfume-for-men": [("This edit gathers 59 eaux", "This edit gathers more than 90 eaux"),
+ "perfume-for-women": [("This edit brings together 67 eaux", "This edit brings together more than 180 eaux")],
+ "perfume-for-men": [("This edit gathers 59 eaux", "This edit gathers more than 110 eaux"),
                      ("Armaf Hunter (£22.99)", "Armaf Hunter (£19.99)")],
- "unisex-perfume": [("more than 230 shareable fragrances", "more than 290 shareable fragrances"),
+ "unisex-perfume": [("more than 230 shareable fragrances", "more than 240 shareable fragrances"),
                     ("Montale Aoud Safran (£54.99)", "Montale Aoud Safran (£62.99)"),
                     ("Amber Oud Tobacco Edition (£34.99)", "Amber Oud Tobacco Edition (£32.99)")],
  "niche-perfume": [("This edit brings together 73 fragrances", "This edit brings together more than 70 fragrances"),
@@ -171,7 +172,7 @@ DESC = {
  "price-25-50": "Our £25 to £50 edit is where you will find gifts under £50 that feel special, with more than 300 products from full-size perfumes to routines.",
  "range-oud": "Our oud range gathers 26 fragrances, from £29.99, and a good share of it is oud perfume for men, alongside many unisex bottles.",
  "scent-oud": "Our oud perfume edit gathers more than 40 fragrances built on smoky, resinous agarwood, from £17.99. 100% authentic, free UK delivery over £40.",
- "unisex-perfume": "A unisex perfume is made for anyone who loves it: more than 290 scents beyond the for him and for her labels. Free UK delivery over £40.",
+ "unisex-perfume": "A unisex perfume is made for anyone who loves it: more than 240 scents beyond the for him and for her labels. Free UK delivery over £40.",
  "scent-floral": "Floral is the biggest family on our shelf, and this floral perfume edit gathers more than 230 fragrances built around rose, jasmine and white flowers.",
 }
 

@@ -1,0 +1,593 @@
+{
+ "note": "Before-state 8 Nov 2026, site-wide gender label fix (custom.sw, custom.pdp). Undo: metafieldsSet these values; reverse the collection moves listed in docs/seo/gender_fix_2026-11-08.json.",
+ "products": [
+  {
+   "id": "gid://shopify/Product/15415430119811",
+   "handle": "game-of-spades-bid-eau-de-parfum-100ml-men",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":446,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance with citrus, spice and amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"game-of-spades-royale-eau-de-parfum-100ml-long-lasting-luxury-perfume-for-men-women\",\"game-of-spades-high-roller-eau-de-parfum-100ml-luxury-unisex-fragrance-citrus-spice-patchouli-powerhouse\",\"game-of-spades-wildcard-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-woody-amber-vanilla-fragrance-for-men-women\",\"game-of-spades-emerald-edp-100ml-long-lasting-luxury-unisex-perfume-for-men-women\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415431496067",
+   "handle": "game-of-spades-boston-eau-de-parfum-100ml-men",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":447,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance with citrus, spice and amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"game-of-spades-royale-eau-de-parfum-100ml-long-lasting-luxury-perfume-for-men-women\",\"game-of-spades-high-roller-eau-de-parfum-100ml-luxury-unisex-fragrance-citrus-spice-patchouli-powerhouse\",\"game-of-spades-wildcard-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-woody-amber-vanilla-fragrance-for-men-women\",\"game-of-spades-ruby-eau-de-parfum-100ml-luxury-long-lasting-perfume-for-men-women-designer-unisex-fragrance\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415433593219",
+   "handle": "maison-de-milan-milano-girl-red-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":813,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Floral, fruity and amber notes.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415433658755",
+   "handle": "maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":807,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Bright citrus and rose over creamy sandalwood and soft musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415434412419",
+   "handle": "maison-de-milan-milano-girl-white-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":814,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: White florals and musk with warm undertones.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415434674563",
+   "handle": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":801,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A chypre fragrance for men.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415434969475",
+   "handle": "maison-de-milan-amalfi-bleu-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":803,\"f\":\"fresh\",\"w\":\"Men\",\"n\":null,\"a\":[\"A fresh fragrance: Mint and melon top notes, a heart of ginger, and a base of cedar and sandalwood.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\",\"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415435100547",
+   "handle": "maison-de-milan-bliss-rouge-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":804,\"f\":\"amber\",\"w\":\"Women\",\"n\":null,\"a\":[\"A warm amber fragrance: Top notes of blood orange with saffron and almond, a heart of cedar and ambergris, and a musk base.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Amber family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\",\"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415435133315",
+   "handle": "maison-de-milan-gossip-pour-femme-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":808,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Citrus and pear, then violet and jasmine, ending on amber and musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415435166083",
+   "handle": "maison-de-milan-delight-pour-femme-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":806,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Citrus and peach with peony and freesia, finishing on sandalwood and musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415436444035",
+   "handle": "maison-de-milan-milano-girl-black-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":812,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Floral and woody notes.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415436837251",
+   "handle": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":800,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Top notes of citrus, bergamot, petitgrain, melon, apple, ginger and galbanum.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415437328771",
+   "handle": "maison-de-milan-lhomme-suave-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":810,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot with lavender and pepper over a base of cedarwood, patchouli and labdanum.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/15415437918595",
+   "handle": "maison-de-milan-invincible-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":809,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A blend of floral and woody notes.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-de-milan-amalfi-bleu-eau-de-parfum-100ml\",\"maison-de-milan-bliss-rouge-eau-de-parfum-100ml\",\"maison-de-milan-brave-lad-eau-de-parfum-100ml\",\"maison-de-milan-delight-pour-femme-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16375778115971",
+   "handle": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":515,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Grapefruit, Hemp\",\"heart\":\"Black Pepper, Geranium\",\"base\":\"Leather, Vetiver\"},\"a\":[\"It opens with Grapefruit, Hemp, settles into Black Pepper, Geranium, and dries down to Leather, Vetiver.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml is a bold and modern men’s fragrance with aromatic, leathery and woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16375834935683",
+   "handle": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":512,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Champagne Rosé, Pink Pepper\",\"heart\":\"Peach Blossom, Rose\",\"base\":\"White Musk, Woody Notes, Amber\"},\"a\":[\"It opens with Champagne Rosé, Pink Pepper, settles into Peach Blossom, Rose, and dries down to White Musk, Woody Notes, Amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml is a chic and feminine fragrance with sparkling fruity, floral and musky accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16375852433795",
+   "handle": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":511,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Grapefruit, Hemp\",\"heart\":\"Black Pepper, Geranium\",\"base\":\"Leather, Vetiver\"},\"a\":[\"It opens with Grapefruit, Hemp, settles into Black Pepper, Geranium, and dries down to Leather, Vetiver.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml is a bold and modern men’s fragrance with aromatic, leathery and woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16375992648067",
+   "handle": "elie-saab-girl-of-now-lovely-eau-de-parfum-gift-set-50ml-body-lotion-75ml-new-pack-women-s-fragrance-set",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":508,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Mandarin Orange, Pear, Red Berries, Rosemary\",\"heart\":\"Rose, Frangipani, Orange Blossom\",\"base\":\"Almond, Tonka Bean, Vanilla, Patchouli\"},\"a\":[\"It opens with Mandarin Orange, Pear, Red Berries, Rosemary, settles into Rose, Frangipani, Orange Blossom, and dries down to Almond, Tonka Bean, Vanilla, Patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Girl of Now Lovely Eau de Parfum is a bright, feminine and playful fragrance with fruity, floral and gourmand accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376063230339",
+   "handle": "elie-saab-le-parfum-eau-de-parfum-50ml-women-s-floral-amber-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":505,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Orange Blossom\",\"heart\":\"Jasmine, Grandiflorum Jasmine\",\"base\":\"Cedarwood, Patchouli, Honey, Rose\"},\"a\":[\"It opens with Orange Blossom, settles into Jasmine, Grandiflorum Jasmine, and dries down to Cedarwood, Patchouli, Honey, Rose.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Le Parfum Eau de Parfum 50ml is an elegant and radiant women’s fragrance with white florals, honeyed sweetness and warm woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376077746563",
+   "handle": "elie-saab-le-parfum-eau-de-parfum-intense-90ml-women-s-floral-amber-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":504,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Orange Blossom\",\"heart\":\"Ylang-Ylang, Rose\",\"base\":\"Honey, Amber, Patchouli\"},\"a\":[\"It opens with Orange Blossom, settles into Ylang-Ylang, Rose, and dries down to Honey, Amber, Patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Le Parfum Eau de Parfum Intense 90ml is a rich and sophisticated women’s fragrance with luminous florals, warm amber and deep woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376098652547",
+   "handle": "elie-saab-le-parfum-eau-de-parfum-gift-set-90ml-body-lotion-75ml-shower-gel-75ml-women-s-fragrance-set",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":503,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Orange Blossom\",\"heart\":\"Jasmine, Grandiflorum Jasmine\",\"base\":\"Cedarwood, Patchouli, Honey, Rose\"},\"a\":[\"It opens with Orange Blossom, settles into Jasmine, Grandiflorum Jasmine, and dries down to Cedarwood, Patchouli, Honey, Rose.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Le Parfum Gift Set combines the iconic women’s Eau de Parfum with matching body lotion and shower gel for a complete fragrance ritual.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376103567747",
+   "handle": "elie-saab-le-parfum-bridal-eau-de-parfum-90ml-women-s-floral-amber-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":502,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Orange Blossom, Neroli, Mandarin Orange\",\"heart\":\"Ylang-Ylang, Gardenia, Vanilla\",\"base\":\"Musk, Amber, Benzoin\"},\"a\":[\"It opens with Orange Blossom, Neroli, Mandarin Orange, settles into Ylang-Ylang, Gardenia, Vanilla, and dries down to Musk, Amber, Benzoin.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Le Parfum Bridal Eau de Parfum 90ml is an elegant and radiant women’s fragrance inspired by the sophistication of Elie Saab bridal couture.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376523489667",
+   "handle": "elie-saab-le-parfum-lumiere-eau-de-parfum-gift-set-90ml-10ml-body-lotion-75ml-women-s-fragrance-set",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":501,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Mandarin Orange, Orange Blossom, Ylang-Ylang\",\"heart\":\"Jasmine, Tuberose\",\"base\":\"Patchouli, Amber, Musk\"},\"a\":[\"It opens with Mandarin Orange, Orange Blossom, Ylang-Ylang, settles into Jasmine, Tuberose, and dries down to Patchouli, Amber, Musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Le Parfum Lumière Eau de Parfum is a radiant and elegant women’s fragrance with luminous citrus, white florals and warm woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Parfum\"],\"how\":[\"1 x 10ml Eau de Parfum Travel Spray\"],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376540627331",
+   "handle": "elie-saab-nuit-noor-eau-de-parfum-90ml-women-s-amber-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":500,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Black Pepper, Spices\",\"heart\":\"Rose, Jasmine, Incense\",\"base\":\"Patchouli, Amber, Musk, Woods\"},\"a\":[\"It opens with Black Pepper, Spices, settles into Rose, Jasmine, Incense, and dries down to Patchouli, Amber, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elie Saab Nuit Noor Eau de Parfum 90ml is a deep, elegant and sensual women’s fragrance with rich floral, amber and woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16376560025987",
+   "handle": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":499,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Green Notes, Rice Flower, Iris, Bergamot\",\"heart\":\"Lotus, Ginger, Lily, Orchid, Rhubarb\",\"base\":\"Musk, Sandalwood, Amber\"},\"a\":[\"It opens with Green Notes, Rice Flower, Iris, Bergamot, settles into Lotus, Ginger, Lily, Orchid, Rhubarb, and dries down to Musk, Sandalwood, Amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Elizabeth Arden Beauty Eau de Parfum 100ml is an elegant and feminine fragrance with fresh green, floral and softly woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378533052803",
+   "handle": "marc-jacobs-daisy-love-eau-de-toilette-10ml-miniature-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":498,\"f\":\"oud\",\"w\":\"For him\",\"n\":{\"top\":\"Cloudberry\",\"heart\":\"Daisy\",\"base\":\"Cashmere Musk, Driftwood\"},\"a\":[\"It opens with Cloudberry, settles into Daisy, and dries down to Cashmere Musk, Driftwood.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Marc Jacobs Daisy Love Eau de Toilette 10ml Miniature is a bright, youthful and feminine fragrance with sweet fruity and floral accords.\",\"more\":false,\"chips\":[\"Oud family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\",\"montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\",\"montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance\",\"guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378589118851",
+   "handle": "marc-jacobs-daisy-love-glow-limited-edition-eau-de-toilette-50ml-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":497,\"f\":\"oud\",\"w\":\"For him\",\"n\":{\"top\":\"Lemon Essential Oil, Cloudberry, Bergamot\",\"heart\":\"Clove Essential Oil, Jasmine, Lemon Blossom\",\"base\":\"Cashmere Musk, Patchouli Oil\"},\"a\":[\"It opens with Lemon Essential Oil, Cloudberry, Bergamot, settles into Clove Essential Oil, Jasmine, Lemon Blossom, and dries down to Cashmere Musk, Patchouli Oil.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Marc Jacobs Daisy Love Glow Limited Edition Eau de Toilette 50ml is a bright, fresh and feminine floral fragrance with sparkling citrus, soft florals and warm musky woods.\",\"more\":false,\"chips\":[\"Oud family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\",\"montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\",\"montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance\",\"guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378614546819",
+   "handle": "marc-jacobs-perfect-eau-de-parfum-50ml-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":495,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Rhubarb, Narcissus\",\"heart\":\"Almond Milk\",\"base\":\"Cedarwood, Cashmeran\"},\"a\":[\"It opens with Rhubarb, Narcissus, settles into Almond Milk, and dries down to Cedarwood, Cashmeran.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Marc Jacobs Perfect Eau de Parfum 50ml is a bright, modern and feminine fragrance with fresh fruity, floral and creamy woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378624573827",
+   "handle": "marc-jacobs-perfect-eau-de-toilette-10ml-miniature-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":494,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Rhubarb, Pink Pepper\",\"heart\":\"Narcissus\",\"base\":\"Cedarwood\"},\"a\":[\"It opens with Rhubarb, Pink Pepper, settles into Narcissus, and dries down to Cedarwood.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Marc Jacobs Perfect Eau de Toilette 10ml Miniature is a fresh, bright and feminine fragrance with fruity, floral and soft woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378635977091",
+   "handle": "marc-jacobs-perfect-elixir-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":493,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Plum, Rhubarb\",\"heart\":\"Floral Accords\",\"base\":\"Vanilla, Amber, Woods\"},\"a\":[\"It opens with Plum, Rhubarb, settles into Floral Accords, and dries down to Vanilla, Amber, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Marc Jacobs Perfect Elixir Eau de Parfum 10ml Miniature is a warm, sensual and feminine fragrance with fruity, floral and gourmand accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378685063555",
+   "handle": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":491,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Fennel, Gentian\",\"heart\":\"Jasmine\",\"base\":\"Bourbon Vanilla\"},\"a\":[\"It opens with Fennel, Gentian, settles into Jasmine, and dries down to Bourbon Vanilla.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature is a rich and feminine fragrance with aromatic, floral and warm vanilla accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16378710065539",
+   "handle": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":488,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Grapefruit, Bergamot, Orange, Pineapple, Rose\",\"heart\":\"Freesia, Lotus, Hyacinth, Gardenia, Lily of the Valley, Violet\",\"base\":\"Patchouli, Cedarwood, Amber, Musk, Incense\"},\"a\":[\"It opens with Grapefruit, Bergamot, Orange, Pineapple, Rose, settles into Freesia, Lotus, Hyacinth, Gardenia, Lily of the Valley, Violet, and dries down to Patchouli, Cedarwood, Amber, Musk, Incense.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Shiseido Zen Eau de Parfum 100ml is a luminous and sophisticated women’s fragrance with fresh citrus, elegant florals and warm woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381122412931",
+   "handle": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":486,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Fruity Accords, Citrus\",\"heart\":\"Floral Notes, Rose, Jasmine\",\"base\":\"Musk, Amber, Woods\"},\"a\":[\"It opens with Fruity Accords, Citrus, settles into Floral Notes, Rose, Jasmine, and dries down to Musk, Amber, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381144203651",
+   "handle": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":484,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Aromatic Herbs\",\"heart\":\"Spices, Woody Accords\",\"base\":\"Amber, Musk, Woods\"},\"a\":[\"It opens with Citrus, Aromatic Herbs, settles into Spices, Woody Accords, and dries down to Amber, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Etienne Aigner First Class Explorer Eau de Toilette 100ml is a fresh and masculine fragrance with aromatic, spicy and woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381152952707",
+   "handle": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":483,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Aromatic Spices\",\"heart\":\"Herbal Accords, Warm Spices\",\"base\":\"Amber, Musk, Woods\"},\"a\":[\"It opens with Citrus, Aromatic Spices, settles into Herbal Accords, Warm Spices, and dries down to Amber, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381160685955",
+   "handle": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":482,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Black Pepper, Bergamot, Grapefruit\",\"heart\":\"Cypress, Saffron, Rose\",\"base\":\"Vetiver, Olibanum, Amber\"},\"a\":[\"It opens with Black Pepper, Bergamot, Grapefruit, settles into Cypress, Saffron, Rose, and dries down to Vetiver, Olibanum, Amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Desire Black Eau de Toilette 100ml is a bold and sophisticated men’s fragrance with fresh citrus, warm spices and deep woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381167239555",
+   "handle": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":481,\"f\":\"fresh\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Citrus Notes\",\"heart\":\"Lotus, Marine Notes, Aromatic Accords\",\"base\":\"Amber, Musk, Woods\"},\"a\":[\"It opens with Bergamot, Citrus Notes, settles into Lotus, Marine Notes, Aromatic Accords, and dries down to Amber, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Desire Blue Eau de Toilette 100ml is a fresh and masculine fragrance with aquatic, citrus and aromatic accords.\",\"more\":false,\"chips\":[\"Fresh family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\",\"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\",\"energy-eau-de-parfum-travel-10ml\",\"energy-eau-de-parfum-enhance-endurance-sharpen-clarity-100ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381181591939",
+   "handle": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":480,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Spices\",\"heart\":\"Aromatic Accords, Woods\",\"base\":\"Amber, Musk, Woody Notes\"},\"a\":[\"It opens with Citrus, Spices, settles into Aromatic Accords, Woods, and dries down to Amber, Musk, Woody Notes.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Desire Gold Eau de Toilette 100ml is a warm and sophisticated men’s fragrance with spicy, aromatic and woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381206823299",
+   "handle": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":479,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Fresh Aromatic Notes\",\"heart\":\"Spices, Herbal Accords\",\"base\":\"Musk, Amber, Woods\"},\"a\":[\"It opens with Citrus, Fresh Aromatic Notes, settles into Spices, Herbal Accords, and dries down to Musk, Amber, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Desire Silver Eau de Toilette 100ml is a clean and modern men’s fragrance with fresh citrus, aromatic and woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381244604803",
+   "handle": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":478,\"f\":\"fresh\",\"w\":\"For him\",\"n\":{\"top\":\"Lemon, Bergamot, Mandarin Orange\",\"heart\":\"Rosemary, Green Notes, Aromatic Accords\",\"base\":\"Vetiver, Cedarwood, Musk\"},\"a\":[\"It opens with Lemon, Bergamot, Mandarin Orange, settles into Rosemary, Green Notes, Aromatic Accords, and dries down to Vetiver, Cedarwood, Musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml is a bright and refined men’s fragrance with fresh citrus, aromatic herbs and smooth woody accords.\",\"more\":false,\"chips\":[\"Fresh family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\",\"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\",\"energy-eau-de-parfum-travel-10ml\",\"energy-eau-de-parfum-enhance-endurance-sharpen-clarity-100ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381252370819",
+   "handle": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":477,\"f\":\"oud\",\"w\":\"For him\",\"n\":{\"top\":\"Saffron, Pink Pepper, Bergamot\",\"heart\":\"Rose, Oud, Spices\",\"base\":\"Amber, Incense, Leather, Woods\"},\"a\":[\"It opens with Saffron, Pink Pepper, Bergamot, settles into Rose, Oud, Spices, and dries down to Amber, Incense, Leather, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml is a rich and sophisticated men’s fragrance with warm amber, spicy and woody accords.\",\"more\":false,\"chips\":[\"Oud family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance\",\"montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance\",\"montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance\",\"guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381256499587",
+   "handle": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":476,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Pink Pepper, Ginger, Bergamot\",\"heart\":\"Agarwood (Oud), Saffron, Black Iris\",\"base\":\"Tobacco, Suede\"},\"a\":[\"It opens with Pink Pepper, Ginger, Bergamot, settles into Agarwood (Oud), Saffron, Black Iris, and dries down to Tobacco, Suede.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Agar Wood Eau de Parfum 100ml is a rich and sophisticated men’s fragrance with spicy, woody and smoky accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381263610243",
+   "handle": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":475,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Citrus, Aromatic Herbs\",\"heart\":\"Leather, Spices\",\"base\":\"Vetiver, Patchouli, Amber, Woods\"},\"a\":[\"It opens with Bergamot, Citrus, Aromatic Herbs, settles into Leather, Spices, and dries down to Vetiver, Patchouli, Amber, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection British Leather Eau de Parfum 100ml is a refined and masculine fragrance with rich leather, aromatic spices and smooth woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381270655363",
+   "handle": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":474,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Spices, Incense\",\"heart\":\"Smoky Accords, Amber, Resins\",\"base\":\"Woods, Leather, Tobacco\"},\"a\":[\"It opens with Spices, Incense, settles into Smoky Accords, Amber, Resins, and dries down to Woods, Leather, Tobacco.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml is a deep and sophisticated men’s fragrance with smoky, spicy and resinous accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381273276803",
+   "handle": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":473,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Spices, Aromatic Notes\",\"heart\":\"Sandalwood, Woody Accords\",\"base\":\"Amber, Musk, Resins\"},\"a\":[\"It opens with Bergamot, Spices, Aromatic Notes, settles into Sandalwood, Woody Accords, and dries down to Amber, Musk, Resins.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml is a smooth and sophisticated men’s fragrance centered on creamy sandalwood and warm spicy accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381278683523",
+   "handle": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":472,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Aromatic Spices, Fresh Accords\",\"heart\":\"Cashmere Wood, Cedarwood, Warm Spices\",\"base\":\"Amber, Musk, Resins\"},\"a\":[\"It opens with Aromatic Spices, Fresh Accords, settles into Cashmere Wood, Cedarwood, Warm Spices, and dries down to Amber, Musk, Resins.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml is a smooth and sophisticated men’s fragrance with warm woody, amber and soft musky accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381284614531",
+   "handle": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":471,\"f\":\"amber\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Spices\",\"heart\":\"Amber, Resinous Accords\",\"base\":\"Woods, Musk, Warm Spices\"},\"a\":[\"It opens with Citrus, Spices, settles into Amber, Resinous Accords, and dries down to Woods, Musk, Warm Spices.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml is a warm and sophisticated men’s fragrance with rich amber, spicy and woody accords.\",\"more\":false,\"chips\":[\"Amber family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"balance-eau-de-parfum-travel-10ml\",\"parfum-travel-discovery-set-6-wellbeing-parfums\",\"order-eau-de-parfum-clarify-the-mind-expand-thought-100ml\",\"order-eau-de-parfum-travel-10ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Diwali gifts\",\"/collections/diwali-gifts\"],[\"Ramadan & Eid gifts\",\"/collections/ramadan-eid-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381286187395",
+   "handle": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":470,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Fresh Aromatic Notes, Citrus\",\"heart\":\"Lavender, Herbs, Spices\",\"base\":\"Woods, Musk, Amber\"},\"a\":[\"It opens with Fresh Aromatic Notes, Citrus, settles into Lavender, Herbs, Spices, and dries down to Woods, Musk, Amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml is a fresh and refined men’s fragrance with aromatic herbs, crisp spices and smooth woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16381291626883",
+   "handle": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":469,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Lavender, Fresh Aromatic Notes\",\"heart\":\"Herbal Accords, Spices\",\"base\":\"Amber, Woods, Musk\"},\"a\":[\"It opens with Lavender, Fresh Aromatic Notes, settles into Herbal Accords, Spices, and dries down to Amber, Woods, Musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml is a refined and aromatic men’s fragrance centered on fresh lavender, herbal accords and smooth woods.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383645254019",
+   "handle": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":467,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Tarragon, Cinnamon\",\"heart\":\"Patchouli, Vetiver, Cedarwood\",\"base\":\"Leather, Oakmoss, Musk\"},\"a\":[\"It opens with Bergamot, Tarragon, Cinnamon, settles into Patchouli, Vetiver, Cedarwood, and dries down to Leather, Oakmoss, Musk.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Givenchy Gentleman Originale Eau de Toilette 100ml is a classic and refined men’s fragrance with fresh citrus, aromatic herbs and warm woody accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383666651523",
+   "handle": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":465,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Blackcurrant, Pear, Mandarin Orange\",\"heart\":\"Peony, Magnolia, Jasmine\",\"base\":\"Vanilla, Musk, Sandalwood\"},\"a\":[\"It opens with Blackcurrant, Pear, Mandarin Orange, settles into Peony, Magnolia, Jasmine, and dries down to Vanilla, Musk, Sandalwood.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Escada Magnetic Dream Eau de Parfum 75ml is a soft and feminine fragrance with fruity, floral and creamy accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383696142723",
+   "handle": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":463,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Cherry, Pear, Fruity Accords\",\"heart\":\"Floral Notes\",\"base\":\"Vanilla, Musk, Creamy Woods\"},\"a\":[\"It opens with Cherry, Pear, Fruity Accords, settles into Floral Notes, and dries down to Vanilla, Musk, Creamy Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Escada Party Love Eau de Parfum 100ml is a playful and feminine fragrance with sweet fruity, floral and gourmand accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383818432899",
+   "handle": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":461,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Rose, Bitter Almond\",\"heart\":\"Cherry, Jasmine, Vetiver\",\"base\":\"Vanilla, Tonka Bean, Amber, Oakmoss\"},\"a\":[\"It opens with Rose, Bitter Almond, settles into Cherry, Jasmine, Vetiver, and dries down to Vanilla, Tonka Bean, Amber, Oakmoss.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature is a rich and feminine fragrance with fruity, floral and gourmand accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383847432579",
+   "handle": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":460,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Mandarin Orange, Pear, Jasmine\",\"heart\":\"Rose, Peony\",\"base\":\"Musk, Amber, Woods\"},\"a\":[\"It opens with Mandarin Orange, Pear, Jasmine, settles into Rose, Peony, and dries down to Musk, Amber, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Juicy Couture Viva La Juicy Rosé Eau de Parfum is a sparkling and feminine fragrance with fruity, floral and soft musky accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16383899664771",
+   "handle": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":459,\"f\":\"fresh\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Fresh Aromatic Notes\",\"heart\":\"Herbs, Spices, Floral Accords\",\"base\":\"Woods, Musk, Amber\"},\"a\":[\"It opens with Citrus, Fresh Aromatic Notes, settles into Herbs, Spices, Floral Accords, and dries down to Woods, Musk, Amber.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Kenneth Cole Moonlight Blue Eau de Toilette 100ml is a fresh and modern men’s fragrance with citrus, aromatic and woody accords.\",\"more\":false,\"chips\":[\"Fresh family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\",\"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\",\"energy-eau-de-parfum-travel-10ml\",\"energy-eau-de-parfum-enhance-endurance-sharpen-clarity-100ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385141571971",
+   "handle": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":457,\"f\":\"floral\",\"w\":\"For her\",\"n\":{\"top\":\"Rose\",\"heart\":\"Orchid\",\"base\":\"Vanilla\"},\"a\":[\"It opens with Rose, settles into Orchid, and dries down to Vanilla.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Lancôme Idôle Now Eau de Parfum Florale 50ml is a radiant and modern women’s fragrance with fresh floral, fruity and warm vanilla accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For her\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385174012291",
+   "handle": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":456,\"f\":\"woody\",\"w\":\"For him\",\"n\":{\"top\":\"Lemon, Sea Notes\",\"heart\":\"Plum, Violet Leaf\",\"base\":\"Leather, Patchouli, Vetiver\"},\"a\":[\"It opens with Lemon, Sea Notes, settles into Plum, Violet Leaf, and dries down to Leather, Patchouli, Vetiver.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Trussardi Black Extreme Eau de Toilette 7ml Miniature is a bold and masculine fragrance with fresh citrus, aromatic woods and dark leather accords.\",\"more\":false,\"chips\":[\"Woody family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385192788355",
+   "handle": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":455,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Kumquat, Yuzu, Bamboo\",\"heart\":\"Rose, Lotus, Jasmine, Apple\",\"base\":\"Musk, Cedarwood, Sandalwood\"},\"a\":[\"It opens with Kumquat, Yuzu, Bamboo, settles into Rose, Lotus, Jasmine, Apple, and dries down to Musk, Cedarwood, Sandalwood.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Trussardi Delicate Rose Eau de Toilette is a fresh and feminine fragrance with bright citrus, fruity and delicate floral accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Diwali gifts\",\"/collections/diwali-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385224999299",
+   "handle": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":454,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Pistachio, Neroli\",\"heart\":\"Jasmine, Champaca, Mugane\",\"base\":\"Vanilla, Sandalwood, Patchouli\"},\"a\":[\"It opens with Bergamot, Pistachio, Neroli, settles into Jasmine, Champaca, Mugane, and dries down to Vanilla, Sandalwood, Patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Trussardi Pure Jasmine Eau de Parfum 90ml is an elegant and feminine fragrance with radiant white florals, soft sweetness and warm woody undertones.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385236631939",
+   "handle": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":452,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Bergamot, Pistachio, Neroli\",\"heart\":\"Jasmine, Champaca, Mugane\",\"base\":\"Vanilla, Sandalwood, Patchouli\"},\"a\":[\"It opens with Bergamot, Pistachio, Neroli, settles into Jasmine, Champaca, Mugane, and dries down to Vanilla, Sandalwood, Patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Trussardi Pure Jasmine Eau de Parfum 7ml Miniature is an elegant and feminine fragrance with bright citrus, creamy floral and warm woody accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385248035203",
+   "handle": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":451,\"f\":\"amber\",\"w\":\"For him\",\"n\":{\"top\":\"Fruity Accords, Citrus\",\"heart\":\"Rose, Jasmine, Floral Notes\",\"base\":\"Amber, Vanilla, Musk, Woods\"},\"a\":[\"It opens with Fruity Accords, Citrus, settles into Rose, Jasmine, Floral Notes, and dries down to Amber, Vanilla, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Trussardi Ruby Red Gift Set combines the rich and feminine Ruby Red Eau de Parfum with a matching Stardust Body Emulsion for a complete scented body ritual.\",\"more\":false,\"chips\":[\"Amber family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"balance-eau-de-parfum-travel-10ml\",\"parfum-travel-discovery-set-6-wellbeing-parfums\",\"order-eau-de-parfum-clarify-the-mind-expand-thought-100ml\",\"order-eau-de-parfum-travel-10ml\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385361117571",
+   "handle": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":448,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Citrus, Apple, Fruity Accords\",\"heart\":\"Floral Accords, Jasmine\",\"base\":\"Vanilla, Musk, Woods\"},\"a\":[\"It opens with Citrus, Apple, Fruity Accords, settles into Floral Accords, Jasmine, and dries down to Vanilla, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Nina Ricci Nina Illusion Eau de Parfum 50ml is a playful and feminine fragrance with juicy fruity notes, delicate florals and a soft gourmand finish.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16385367835011",
+   "handle": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance",
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":447,\"f\":\"floral\",\"w\":\"For him\",\"n\":{\"top\":\"Fruity Accords, Citrus\",\"heart\":\"Floral Accords, Jasmine\",\"base\":\"Vanilla, Amber, Musk, Woods\"},\"a\":[\"It opens with Fruity Accords, Citrus, settles into Floral Accords, Jasmine, and dries down to Vanilla, Amber, Musk, Woods.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Nina Ricci Nina Precious Gold Eau de Parfum 50ml is a rich and feminine fragrance with fruity, floral and warm gourmand accords.\",\"more\":false,\"chips\":[\"Floral family\",\"For him\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421444551043",
+   "handle": "franck-olivier-sun-java-blue-men-eau-de-toilette-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":653,\"f\":\"fresh\",\"w\":\"Men\",\"n\":null,\"a\":[\"A fresh fragrance: Bergamot, Lemon, Orange, Mint.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421444583811",
+   "handle": "franck-olivier-sun-java-intense-men-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":654,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Mandarin, Bergamot, Mint.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421447369091",
+   "handle": "franck-olivier-sun-java-white-men-eau-de-toilette-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":656,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Lemon, Mandarin.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421447434627",
+   "handle": "franck-olivier-sunrise-men-deodorant-spray-250ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":658,\"f\":\"fresh\",\"w\":\"Men\",\"n\":null,\"a\":[\"A fresh fragrance: Lavender, Bergamot, Myrtle.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For men\",\"Deodorant\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421449957763",
+   "handle": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":615,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Moroccan Orange, Citrus Notes.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"attar-collection-areej-eau-de-parfum-100ml\",\"attar-collection-azalea-eau-de-parfum-100ml\",\"attar-collection-crystal-love-eau-de-parfum-for-women-100ml\",\"attar-collection-floral-musk-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421449990531",
+   "handle": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":616,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Fruits, Rose.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"attar-collection-areej-eau-de-parfum-100ml\",\"attar-collection-azalea-eau-de-parfum-100ml\",\"attar-collection-crystal-love-eau-de-parfum-for-men-100ml\",\"attar-collection-floral-musk-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421451137411",
+   "handle": "guess-man-eau-de-toilette-150ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":673,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Apple, Lavender, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml\",\"guess-1981-body-mist-250ml\",\"guess-1981-indigo-body-mist-250ml\",\"guess-1981-los-angeles-body-mist-250ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421451334019",
+   "handle": "franck-olivier-bamboo-america-men-eau-de-toilette-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":623,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Violet Leaf, Green Apple.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-women-deodorant-spray-250ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421451399555",
+   "handle": "franck-olivier-bamboo-women-deodorant-spray-250ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":624,\"f\":\"fresh\",\"w\":\"Women\",\"n\":null,\"a\":[\"A fresh fragrance: Blackcurrant, Violet Leaf, Ivy.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For women\",\"Deodorant\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421452153219",
+   "handle": "franck-olivier-bella-in-paris-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":626,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Peach, Pear, Orange.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421452185987",
+   "handle": "franck-olivier-bella-women-eau-de-parfum-deodorant-gift-set-75ml-250ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":627,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Lemon, Lychee, Raspberry.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421452251523",
+   "handle": "franck-olivier-bella-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":628,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Lemon, Lychee, Raspberry.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421453693315",
+   "handle": "franck-olivier-black-touch-men-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":632,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Cardamom, Spices, Bergamot, Grapefruit.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421453726083",
+   "handle": "franck-olivier-blue-touch-men-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":633,\"f\":\"fresh\",\"w\":\"Men\",\"n\":null,\"a\":[\"A fresh fragrance: Lemon, Bergamot, Green Notes, Tangerine, Pink Pepper.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421453791619",
+   "handle": "franck-olivier-eau-de-passion-intense-men-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":634,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Lemon, Mandarin, Mint.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421454840195",
+   "handle": "guess-seductive-homme-noir-gift-set-100ml-170g",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":687,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Grapefruit, Nutmeg, Black Pepper.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml\",\"guess-1981-body-mist-250ml\",\"guess-1981-indigo-body-mist-250ml\",\"guess-1981-los-angeles-body-mist-250ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421454905731",
+   "handle": "guess-seductive-homme-red-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":688,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Cinnamon, Lemon Zest, Fig.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml\",\"guess-1981-body-mist-250ml\",\"guess-1981-indigo-body-mist-250ml\",\"guess-1981-los-angeles-body-mist-250ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421455102339",
+   "handle": "franck-olivier-eau-de-passion-men-eau-de-toilette-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":635,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Peppermint, Bergamot, Amalfi Lemon, Pineapple, Mandarin Orange.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421455266179",
+   "handle": "franck-olivier-giorgia-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":638,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Pomegranate, Yuzu, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421456216451",
+   "handle": "franck-olivier-in-black-men-eau-de-toilette-75ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":640,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Mandarin Orange, Lemon, Bergamot, Sage.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421456249219",
+   "handle": "franck-olivier-in-pink-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":641,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Italian Lemon, Black Currant.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421456314755",
+   "handle": "franck-olivier-miss-women-deodorant-spray-250ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":643,\"f\":\"fresh\",\"w\":\"Women\",\"n\":null,\"a\":[\"A fresh fragrance: Italian Lemon, Blackcurrant, Pear, Pineapple.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For women\",\"Deodorant\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421456347523",
+   "handle": "franck-olivier-nature-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":644,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Litchi, Peach, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421457232259",
+   "handle": "franck-olivier-one-kiss-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":646,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Mandarin, Pear.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421457297795",
+   "handle": "franck-olivier-passion-extreme-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":648,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Blackcurrant, Peach, Peach Blossom, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421457330563",
+   "handle": "franck-olivier-passion-women-eau-de-parfum-75ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":649,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Blackcurrant, Peach, Plum, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"franck-olivier-eau-de-parfum\",\"franck-olivier-ambre-gold-collection-privee-le-parfum-100ml\",\"franck-olivier-bamboo-america-deodorant-spray-250ml\",\"franck-olivier-bamboo-america-men-eau-de-toilette-75ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421462376835",
+   "handle": "armaf-club-de-nuit-mens-parfum-gift-set-intense-man-sillage-milestone-3-x-30ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":762,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Intense Man – Lemon, Pineapple, Bergamot, Blackcurrant, Apple; Sillage – Bergamot, Blackcurrant, Lemon, Lime, Violet Leaf, Ginger; Milestone – Sea Notes, Red Fruits, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"armaf-miss-armaf-attitude-eau-de-parfum-100ml\",\"armaf-miss-armaf-catwalk-eau-de-parfum-100ml\",\"armaf-miss-armaf-chic-eau-de-parfum-100ml\",\"armaf-miss-armaf-dazzling-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421463458179",
+   "handle": "armaf-club-de-nuit-womens-parfum-gift-set-woman-intense-woman-milestone-3-x-30ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":763,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Club de Nuit Woman – Orange, Bergamot, Grapefruit, Peach; Intense Woman – Rose, Saffron, Geranium; Milestone – Sea Notes, Red Fruits, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"armaf-miss-armaf-attitude-eau-de-parfum-100ml\",\"armaf-miss-armaf-catwalk-eau-de-parfum-100ml\",\"armaf-miss-armaf-chic-eau-de-parfum-100ml\",\"armaf-miss-armaf-dazzling-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421464408451",
+   "handle": "armaf-club-de-nuit-woman-eau-de-parfum-travel-set-2-x-12ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":771,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Bergamot, Grapefruit, Peach, Orange.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Fragrance Gift Set\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"armaf-miss-armaf-attitude-eau-de-parfum-100ml\",\"armaf-miss-armaf-catwalk-eau-de-parfum-100ml\",\"armaf-miss-armaf-chic-eau-de-parfum-100ml\",\"armaf-miss-armaf-dazzling-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421466571139",
+   "handle": "fun-basics-be-fun-man-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":778,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Myrtle.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"fun-basics-be-fun-women-eau-de-toilette-100ml\",\"fun-basics-funtastic-man-eau-de-parfum-100ml\",\"fun-basics-funtastic-woman-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421466603907",
+   "handle": "fun-basics-be-fun-women-eau-de-toilette-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":779,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Amalfi Lemon, Peach, Red Apple.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"fun-basics-be-fun-man-eau-de-toilette-100ml\",\"fun-basics-funtastic-man-eau-de-parfum-100ml\",\"fun-basics-funtastic-woman-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421466636675",
+   "handle": "fun-basics-funtastic-man-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":780,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Orange, Grapefruit, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"fun-basics-be-fun-man-eau-de-toilette-100ml\",\"fun-basics-be-fun-women-eau-de-toilette-100ml\",\"fun-basics-funtastic-woman-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421466669443",
+   "handle": "fun-basics-funtastic-woman-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":781,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Lemon, Grapefruit, Pink Pepper, Bergamot, Mint.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"fun-basics-be-fun-man-eau-de-toilette-100ml\",\"fun-basics-be-fun-women-eau-de-toilette-100ml\",\"fun-basics-funtastic-man-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421468766595",
+   "handle": "maison-alhambra-rose-seduction-vip-pour-femme-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":740,\"f\":\"floral\",\"w\":\"Women\",\"n\":null,\"a\":[\"A floral fragrance: Champagne Rosé, Pink Pepper, Fruity Accord.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"maison-alhambra-athena-eau-de-parfum-100ml\",\"maison-alhambra-baroque-la-rouge-eau-de-parfum-100ml\",\"maison-alhambra-baroque-la-rouge-extreme-eau-de-parfum-100ml\",\"maison-alhambra-como-moiselle-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}"
+  },
+  {
+   "id": "gid://shopify/Product/16421470929283",
+   "handle": "mercedes-benz-man-private-eau-de-parfum-100ml",
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":747,\"f\":\"woody\",\"w\":\"Men\",\"n\":null,\"a\":[\"A woody fragrance: Cardamom, Cypress, Artemisia.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mercedes-benz-club-black-eau-de-parfum-100ml\",\"mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml\",\"mercedes-benz-intense-eau-de-toilette-120ml\",\"mercedes-benz-le-parfum-120ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}"
+  }
+ ]
+}
