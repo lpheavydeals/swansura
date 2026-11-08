@@ -13,6 +13,9 @@ Usage:
              <scratch>/sf2/{perfume-for-men,perfume-for-women,unisex-perfume,scent-*}.json  (fresh storefront dumps)
       writes docs/data/product_desc_facts_<wave>.json  (same shape as product_desc_facts_2026-11-08.json)
 
+  Add --skin to select/build for Vilvah + Deyga skincare (no perfume filter; facts from custom.inci/sw/pdp;
+  Admin query must also return inci: metafield(namespace:"custom", key:"inci")).
+
 Rules (same as wave 1, 8 Nov 2026): in stock, has photos, current description under 80 words, a perfume,
 one listing per scent, ranked by UK volume of the product keyword (then secondary volume).
 """
@@ -84,7 +87,10 @@ def match_kw(title, kws):
     return best if bs >= 0.85 else None
 
 
-def select(S, wave, n):
+SKINCARE = {"vilvah", "deyga"}
+
+
+def select(S, wave, n, skin=False):
     done = set()
     for f in (ROOT / "docs/seo").glob("product_descriptions_*.json"):
         done |= {r["handle"] for r in json.load(open(f))}
@@ -95,7 +101,10 @@ def select(S, wave, n):
             continue
         if words(p["body_html"]) >= 80 or DUP_SKIP.search(p["title"]):
             continue
-        if p["vendor"].lower() in NOT_SKIN_BRANDS or not PERFUME.search(p["title"]) or SKIN.search(p["title"].split(" – ")[0]):
+        if skin:
+            if p["vendor"].lower() not in SKINCARE:
+                continue
+        elif p["vendor"].lower() in NOT_SKIN_BRANDS or not PERFUME.search(p["title"]) or SKIN.search(p["title"].split(" – ")[0]):
             continue
         k = match_kw(p["title"], kws)
         cand.append((-(k["Primary vol."] or 0) if k else 0, -(k["Secondary vol."] or 0) if k else 0, p["title"], p, k))
@@ -113,6 +122,43 @@ def select(S, wave, n):
             break
     json.dump(pick, open(S / f"desc_{wave}_pick.json", "w"), ensure_ascii=False, default=str, indent=1)
     print(len(cand), "candidates;", len(pick), "picked;", sum(1 for x in pick if x["kw"] and x["kw"]["Primary vol."]), "with volume")
+
+
+def build_skin(S, wave):
+    """Vilvah/Deyga: facts from custom.inci / custom.sw / custom.pdp; 'similar' = the product's own pdp pair/sim lists, in stock."""
+    pick = {p["id"]: p for p in json.load(open(S / f"desc_{wave}_pick.json"))}
+    admin = json.load(open(S / f"desc_{wave}_admin.json"))
+    live = {p["handle"]: p for p in json.load(open(S / "sfall_live.json"))}
+    instock = {h: p for h, p in live.items() if any(v["available"] for v in p["variants"]) and p["images"]}
+    out = []
+    for a in admin:
+        p, lp = pick[a["id"]], live[a["handle"]]
+        sw = json.loads((a.get("sw") or {}).get("value") or "{}")
+        pdp = json.loads((a.get("pdp") or {}).get("value") or "{}")
+        k = p["kw"] or {}
+        rel = []
+        for h in (pdp.get("pair") or []) + (pdp.get("sim") or []):
+            h = h if isinstance(h, str) else (h.get("h") or h.get("handle") or "")
+            if h in instock and h != a["handle"] and h not in rel:
+                rel.append(h)
+        out.append({
+            "id": a["id"], "handle": a["handle"], "title": lp["title"], "vendor": lp["vendor"],
+            "h1": (a.get("h1") or {}).get("value") or lp["title"],
+            "primary_keyword": k.get("Primary keyword") or (a.get("h1") or {}).get("value") or lp["title"],
+            "volume": k.get("Primary vol.") or 0,
+            "secondary_keyword": k.get("Secondary keyword") or "", "secondary_volume": k.get("Secondary vol.") or 0,
+            "variants": [[v["title"], v["price"], v["available"]] for v in lp["variants"]],
+            "current_description_html": a["descriptionHtml"],
+            "current_text": " ".join(re.sub(r"<[^>]+>", " ", html.unescape(a["descriptionHtml"] or "")).split()),
+            "inci": (a.get("inci") or {}).get("value") or "",
+            "facets": {k2: sw.get(k2) for k2 in ("t", "s", "c", "g", "k")},
+            "faq_answers": sw.get("a") or [], "pdp": {k2: pdp.get(k2) for k2 in ("cat", "ben", "chips", "how")},
+            "similar_in_stock": [{"title": instock[h]["title"], "url": f"/products/{h}",
+                                  "price": min(v["price"] for v in instock[h]["variants"])} for h in rel[:4]],
+        })
+    dst = ROOT / f"docs/data/product_desc_facts_{wave}.json"
+    json.dump(out, open(dst, "w"), ensure_ascii=False, indent=1)
+    print(len(out), "->", dst)
 
 
 def build(S, wave):
@@ -156,5 +202,7 @@ def build(S, wave):
 
 if __name__ == "__main__":
     S = pathlib.Path(sys.argv[2])
-    {"fetch": lambda: fetch(S), "select": lambda: select(S, sys.argv[3], int(sys.argv[4]) if len(sys.argv) > 4 else 50),
-     "build": lambda: build(S, sys.argv[3])}[sys.argv[1]]()
+    skin = "--skin" in sys.argv
+    args = [a for a in sys.argv if a != "--skin"]
+    {"fetch": lambda: fetch(S), "select": lambda: select(S, args[3], int(args[4]) if len(args) > 4 else 50, skin),
+     "build": lambda: (build_skin if skin else build)(S, args[3])}[args[1]]()
