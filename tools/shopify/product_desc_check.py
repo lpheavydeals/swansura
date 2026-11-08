@@ -17,7 +17,7 @@ def _load(f):
 
 
 SF = {p["handle"]: p for f in sorted(glob.glob(sys.argv[3] + "/sfall_*.json")) for p in _load(f)}  # later files win; sfall_live sorts last
-BANNED = r"captivat|mesmeri|intoxicat|allur|unleash|elevat|indulg|exquisite|symphony|journey|embark|best.?sell|iconic|cult\b|award|no\.? ?1\b|limited edition|new formula|dupe|smells like|alternative to|hypoallergenic|sensitive skin|aphrodisiac|pheromone|mood|lasts all day|\bhours\b|free delivery|in stock|official (uk )?partner|launched|perfumer|\bnose\b"
+BANNED = r"captivat|mesmeri|intoxicat|allur|unleash|elevat|indulg|exquisite|symphony|journey|embark|best.?sell|iconic|cult\b|award|no\.? ?1\b|limited edition|new formula|dupe|smells like|alternative to|hypoallergenic|sensitive skin|aphrodisiac|pheromone|mood|lasts all day|\bhours\b|free delivery|in stock|official (?:uk )?partner|launched|perfumer|\bnose\b"
 ALLOWED = {"p", "h3", "ul", "li", "a"}
 norm = lambda s: re.sub(r"[^a-z0-9]+", " ", unicodedata.normalize("NFKD", html.unescape(s).replace("’", "'")).encode("ascii", "ignore").decode().lower()).strip()
 bad = 0
