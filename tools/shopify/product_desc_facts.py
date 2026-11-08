@@ -30,7 +30,7 @@ UA = {"User-Agent": "swansura-seo-check"}
 PERFUME = re.compile(r"parfum|toilette|cologne|extrait|perfume|fragrance|body mist|attar|\boud\b|edp|edt", re.I)
 SKIN = re.compile(r"\b(serum|cream|lotion|shampoo|conditioner|soap|balm|scrub|face|hair|toner|gel|mask|butter|oil|wash|kit|comb|loofah)\b", re.I)
 NOT_SKIN_BRANDS = {"vilvah", "deyga", "highborn london"}
-DUP_SKIP = re.compile(r"full house|caput mundi|cyth[eè]re", re.I)  # duplicate listings waiting for the client
+DUP_SKIP = re.compile(r"full house|caput mundi|cyth[eè]re|rougue|game of spade rouge|wildcard for unisex", re.I)  # duplicate listings waiting for the client
 
 
 def words(h):
