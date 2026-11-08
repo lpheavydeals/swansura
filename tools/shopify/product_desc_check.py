@@ -11,7 +11,12 @@ import glob, html, json, re, sys, unicodedata
 
 drafts = json.load(open(sys.argv[1]))
 facts = {f["handle"]: f for f in json.load(open(sys.argv[2]))}
-SF = {p["handle"]: p for f in glob.glob(sys.argv[3] + "/sfall_*.json") for p in json.load(open(f))["products"]}
+def _load(f):
+    d = json.load(open(f))
+    return d["products"] if isinstance(d, dict) else d  # sfall_N.json = {"products": [...]}, sfall_live.json = [...]
+
+
+SF = {p["handle"]: p for f in sorted(glob.glob(sys.argv[3] + "/sfall_*.json")) for p in _load(f)}  # later files win; sfall_live sorts last
 BANNED = r"captivat|mesmeri|intoxicat|allur|unleash|elevat|indulg|exquisite|symphony|journey|embark|best.?sell|iconic|cult\b|award|no\.? ?1\b|limited edition|new formula|dupe|smells like|alternative to|hypoallergenic|sensitive skin|aphrodisiac|pheromone|mood|lasts all day|\bhours\b|free delivery|in stock|official (uk )?partner|launched|perfumer|\bnose\b"
 ALLOWED = {"p", "h3", "ul", "li", "a"}
 norm = lambda s: re.sub(r"[^a-z0-9]+", " ", unicodedata.normalize("NFKD", html.unescape(s).replace("’", "'")).encode("ascii", "ignore").decode().lower()).strip()
