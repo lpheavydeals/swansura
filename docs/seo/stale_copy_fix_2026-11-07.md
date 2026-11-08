@@ -12,7 +12,7 @@
 - from £23, with most at £23.95 or £37.95.
   → from £23.95 to £40.99.
 - FAQ *Which Fumeri products do you stock?* 18 products, from £23.00 to £37.95: unisex (12), for him (3), for her (3).
-  → 18 products, from £23.95 to £40.99: unisex (12), for him (3), for her (3).
+  → 18 products, from £23.95 to £40.99: unisex (10), for her (5), for him (3).
 
 ## /collections/sap (5 products)
 - each at £37.95,
@@ -48,7 +48,7 @@
 - Le Femme Gold 100ml EDP Spray (£42.99)
   → Le Femme Gold 100ml EDP Spray (£35.99)
 - FAQ *Which Signature D'orient products do you stock?* 16 products, from £38.99 to £75.99: unisex (14), for her (1), for him (1).
-  → 16 products, from £35.99 to £66.99: unisex (14), for him (1), for her (1).
+  → 16 products, from £35.99 to £66.99: unisex (12), for her (3), for him (1).
 
 ## /collections/al-haramain (16 products)
 - Amber Oud Gold Edition (£29.99)
@@ -174,13 +174,13 @@
 - Deyga's Charcoal Detox Face Mask (£15.99)
   → Deyga's Charcoal Detox Face Mask (£13.99)
 
-## /collections/perfume-for-women (187 products)
+## /collections/perfume-for-women (197 products)
 - This edit brings together 67 eaux
-  → This edit brings together more than 180 eaux
+  → This edit brings together more than 190 eaux
 - FAQ *How much do these products cost?* Prices run from £16.95 to £84.99.
   → Prices run from £14.99 to £99.99.
 
-## /collections/perfume-for-men (120 products)
+## /collections/perfume-for-men (121 products)
 - This edit gathers 59 eaux
   → This edit gathers more than 110 eaux
 - Armaf Hunter (£22.99)
@@ -188,11 +188,11 @@
 - FAQ *How much do these products cost?* Prices run from £16.99 to £144.99.
   → Prices run from £11.94 to £144.99.
 
-## /collections/unisex-perfume (249 products)
+## /collections/unisex-perfume (238 products)
 - **Description:** A unisex perfume is made for anyone who loves it, and many of the most interesting scents in our range sit outside the 'for him' or 'for her' labels.
-  → A unisex perfume is made for anyone who loves it: more than 240 scents beyond the for him and for her labels. Free UK delivery over £40.
+  → A unisex perfume is made for anyone who loves it: more than 230 scents beyond the for him and for her labels. Free UK delivery over £40.
 - more than 230 shareable fragrances
-  → more than 240 shareable fragrances
+  → more than 230 shareable fragrances
 - Montale Aoud Safran (£54.99)
   → Montale Aoud Safran (£62.99)
 - Amber Oud Tobacco Edition (£34.99)
@@ -266,31 +266,31 @@
 - FAQ *How much do oud products cost?* From £19.99 to £124.99.
   → From £29.99 to £164.99.
 
-## /collections/scent-oud (41 products)
+## /collections/scent-oud (39 products)
 - **Description:** Our oud perfume edit gathers 37 fragrances built on smoky, resinous agarwood, from £19.99 to £299.99. 100% authentic, free UK delivery over £40.
   → Our oud perfume edit gathers more than 40 fragrances built on smoky, resinous agarwood, from £17.99. 100% authentic, free UK delivery over £40.
 - Gold Edition at £29.99,
   → Gold Edition from £32.99,
 - FAQ *Are there oud perfumes for men and women?* Yes: 27 unisex, 8 for him, 2 for her.
-  → Yes: 31 unisex, 6 for him, 4 for her.
+  → Yes: 30 unisex, 6 for him, 3 for her.
 - FAQ *Do you have oud miniatures or gift sets?* Yes, 1: Daisy Love Eau de Toilette 10ml Miniature.
   → Yes: Acqua di Parma Oud & Spice EDP 20ml for Men.
 - FAQ *How much do oud perfumes cost?* From £19.99 to £299.99.
   → From £17.99 to £299.99.
 
-## /collections/scent-amber (105 products)
+## /collections/scent-amber (110 products)
 - There are over 30 fragrances,
   → There are more than 90 fragrances,
 - Swansura Selection Roll It 1 is a unisex Eau de Parfum at £99.99.
   → Game of Spades Roll It 1 is a unisex Eau de Parfum at £99.99.
 - FAQ *Are there amber perfumes for men and women?* Yes: 25 unisex, 7 for him, 2 for her.
-  → Yes: 81 unisex, 15 for him, 9 for her.
+  → Yes: 82 unisex, 18 for him, 10 for her.
 - FAQ *Do you have amber miniatures or gift sets?* Yes, 8: Balance Eau de Parfum, Parfum Travel and Order Eau de Parfum and more.
   → Yes, 14: Balance Eau de Parfum, Parfum Travel and Order Eau de Parfum and more.
 - FAQ *How much do amber perfumes cost?* From £19.99 to £144.00.
   → From £9.99 to £153.99.
 
-## /collections/scent-floral (237 products)
+## /collections/scent-floral (232 products)
 - **Description:** Floral is the biggest family on our shelf, and this floral perfume edit gathers 166 fragrances built around rose, jasmine and white flowers.
   → Floral is the biggest family on our shelf, and this floral perfume edit gathers more than 230 fragrances built around rose, jasmine and white flowers.
 - this floral perfume edit gathers 166 fragrances
@@ -298,23 +298,23 @@
 - FAQ *What does a floral perfume smell like?* Floral fragrances are rose, jasmine, white flowers. Examples here include Kaff Extrait de Parfum 100ml, Rosado Eau De Parfum Unisex 100ML and Cool Water Reborn Intense Eau de Parfum 50ml.
   → Floral fragrances are rose, jasmine, white flowers. Examples here include Kaff Extrait de Parfum 100ml, Cool Water Reborn Intense Eau de Parfum 50ml and Eternity Eau de Parfum.
 - FAQ *Are there floral perfumes for men and women?* Yes: 76 for her, 66 unisex, 24 for him.
-  → Yes: 170 for her, 67 unisex.
+  → Yes: 180 for her, 50 unisex.
 - FAQ *Do you have floral miniatures or gift sets?* Yes, 48: My Euphoria Eau de Parfum 10ml Miniature, Eternity Aromatic Essence Parfum Intense 10ml Miniature and Women’s Miniature Fragrance Set 4x15ml and more.
   → Yes, 58: My Euphoria Eau de Parfum 10ml Miniature, Eternity Aromatic Essence Parfum Intense 10ml Miniature and Women’s Miniature Fragrance Set 4x15ml and more.
 - FAQ *How much do floral perfumes cost?* From £14.99 to £184.99.
-  → From £14.99 to £164.99.
+  → From £9.99 to £164.99.
 
-## /collections/scent-woody (142 products)
+## /collections/scent-woody (140 products)
 - This edit gathers 95 woody fragrances
   → This edit gathers more than 140 woody fragrances
 - FAQ *Are there woody perfumes for men and women?* Yes: 58 for him, 37 unisex.
-  → Yes: 85 for him, 57 unisex.
+  → Yes: 82 for him, 58 unisex.
 - FAQ *Do you have woody miniatures or gift sets?* Yes, 12: Eternity Aromatic Essence Parfum Intense 10ml Miniature, Eternity Parfum 10ml Miniature and Defy Parfum 10ml Miniature and more.
   → Yes, 20: Signature Santal Eau De Parfum 100ml+15ml (UNISEX), Eternity Aromatic Essence Parfum Intense 10ml Miniature and Defy Parfum 10ml Miniature and more.
 - FAQ *How much do woody perfumes cost?* From £14.99 to £125.00.
   → From £11.94 to £184.99.
 
-## /collections/scent-fresh (43 products)
+## /collections/scent-fresh (46 products)
 - gathers 25 bright, clean and easy-to-wear fragrances from £16.99,
   → gathers more than 40 bright, clean and easy-to-wear fragrances from £9.99,
 - Fumeri Blue For Men offers a fresh men's option at £23.95.
@@ -322,7 +322,7 @@
 - Antonio Banderas Power of Seduction, at £16.99, is the lowest-priced bottle here.
   → Antonio Banderas Power of Seduction, at £16.99, is one of the lowest-priced bottles here.
 - FAQ *Are there fresh perfumes for men and women?* Yes: 13 unisex, 10 for him, 2 for her.
-  → Yes: 16 unisex, 14 for him, 4 for her.
+  → Yes: 20 unisex, 15 for him, 4 for her.
 - FAQ *Do you have fresh miniatures or gift sets?* Yes, 5: Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml, Energy Eau de Parfum and Men’s Miniature Fragrance Set and more.
   → Yes, 11: Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml, Energy Eau de Parfum and Men’s Miniature Fragrance Set and more.
 - FAQ *How much do fresh perfumes cost?* From £16.99 to £125.00.
