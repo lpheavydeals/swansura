@@ -72,7 +72,7 @@ A = {
 </ul>
 <p>Our <a href="/blogs/journal/how-to-use-lip-scrub">lip scrub guide</a> explains how to use them, and every balm and scrub is in <a href="/collections/lip-balm">lip balm and lip care</a>.</p>
 <h2>Goat milk soaps and bath bars</h2>
-<p>A handmade soap looks generous wrapped in tissue and costs very little. The Vilvah bars are made with farm-fresh goat milk: [[rose|Classic Rose Goat Milk Soap]] ({{rose}}) with rose petals and pink clay, [[classic|Classic Goat Milk Soap]] ({{classic}}) with lavender essential oil, and [[mint|Cucumber, Curd &amp; Mint Soap]] ({{mint}}) for a fresh morning shower. See all four in <a href="/collections/goat-milk-soap">goat milk soap</a>. From Deyga, the [[saffron|Shea Saffron Bath Bar]] ({{saffron}}) and [[pinkclay|Rose Pink Clay Bath Bar]] ({{pinkclay}}) are made with raw shea butter and coconut and olive oils.</p>
+<p>A handmade soap looks generous wrapped in tissue and costs very little. Vilvah’s goat milk bars are made with farm-fresh goat milk: [[rose|Classic Rose Goat Milk Soap]] ({{rose}}) with rose petals and pink clay, and [[classic|Classic Goat Milk Soap]] ({{classic}}) with lavender essential oil; see them all in <a href="/collections/goat-milk-soap">goat milk soap</a>. For a fresh morning shower, [[mint|Cucumber, Curd &amp; Mint Soap]] ({{mint}}) is made with curd and mint. From Deyga, the [[saffron|Shea Saffron Bath Bar]] ({{saffron}}) and [[pinkclay|Rose Pink Clay Bath Bar]] ({{pinkclay}}) are made with raw shea butter and coconut and olive oils.</p>
 <h2>Small pamper gifts</h2>
 <ul>
 <li>[[wildrose|Vilvah Wild Rose Face Mask]] ({{wildrose}}): three ingredients, aloe vera, French pink clay and rose hydrosol, for a 15-minute Sunday mask.</li>
@@ -92,7 +92,7 @@ A = {
         ["What are good stocking fillers for her under £25?",
          "Designer perfume minis such as Gucci Bloom or Calvin Klein My Euphoria, lip balms and lip scrubs from Vilvah and Deyga, handmade goat milk soaps and small pamper gifts such as a clay face mask."],
         ["What are good stocking fillers under £10?",
-         "Vilvah lip balms and the Vilvah lip scrub, the Deyga Natural Lip Balm and the Vilvah goat milk soaps are all under £10."],
+         "Vilvah lip balms and the Vilvah lip scrub, the Deyga Natural Lip Balm and the Vilvah soap bars are all under £10."],
         ["Are perfume miniatures real perfume?",
          "Yes. The minis are the brand’s own perfume in a smaller bottle, 100% authentic and shipped from the UK."],
         ["How do I get free delivery on stocking fillers?",

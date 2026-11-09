@@ -57,8 +57,8 @@ SKV = {'vilvah', 'deyga', 'highborn london', 'anatomē', 'swansura - the body st
 KIT = re.compile(r'\b(kit|set|combo|gift|bundle|duo|trio|collection)\b', re.I)
 SKIN = order([h for h, p in L.items() if p['vendor'].lower() in SKV and KIT.search(name(h))
               and not re.search(r'parfum|perfume|pillow|sleep|fragrance|comb', p['title'], re.I)])
-SOAP = order([h for h, p in L.items() if re.search(r'goat ?milk', p['title'], re.I) and re.search(r'soap', p['title'], re.I)]
-             + [h for h, p in L.items() if re.search(r'curd & mint soap', p['title'], re.I)])
+# Cucumber, Curd & Mint Soap was in here until 9 Nov 2026: its INCI has no goat milk (curd), so it is not in the collection.
+SOAP = order([h for h, p in L.items() if re.search(r'goat ?milk', p['title'], re.I) and re.search(r'soap', p['title'], re.I)])
 BF = [h for h in order(GS) + SKIN if ins(h)]
 BF = list(dict.fromkeys(BF))
 
@@ -193,14 +193,14 @@ page('skincare-gift-sets', 'Skincare gift sets', 'Skincare Gift Sets', 'Gifts',
 # 5 goat milk soap
 page('goat-milk-soap', 'Goat milk soap', 'Goat Milk Soap', 'Bath & Body',
      'Goat Milk Soap UK | Handmade Vilvah Soap Bars | Swansura',
-     'Goat milk soap bars from Vilvah: Classic, Classic Rose, Charcoal and Cucumber, Curd & Mint. Shipped from the UK, free delivery over £40.',
+     'Goat milk soap bars from Vilvah: Classic, Classic Rose and Charcoal, made with goat milk and plant oils. Shipped from the UK, free delivery over £40.',
      'Goat milk soap',
      f'<p>Goat milk soap gives a creamy lather that leaves skin feeling soft rather than tight. Vilvah makes these bars with goat milk and '
      f'plant oils such as olive, coconut and castor oil, and Swansura is the brand’s official UK partner.</p>'
      f'<h3>The bars</h3><p>{a(H("classic-goatmilk-soap-bar-115g"), "Classic Goat Milk Soap")} is lightly scented with lavender '
      f'essential oil, {a(H("classic-rose-goat-milk-soap-bar-125g"), "Classic Rose Goat Milk Soap")} adds rose petals and French pink clay, '
      f'and {a(H("charcoal-goatmilk-soap-bar-115g"), "Charcoal Goat Milk Soap")} pairs activated charcoal with goat milk. '
-     f'{a(H("cucumber-curd-mint-soap-bar-115g"), "Cucumber, Curd & Mint Soap")} has a fresh, minty scent.</p>'
+     f'Prefer a fresher scent? Vilvah’s {a(H("cucumber-curd-mint-soap-bar-115g"), "Cucumber, Curd & Mint Soap")} is made with curd and mint rather than goat milk.</p>'
      f'<h3>How to use</h3><p>Lather between wet hands, massage over damp skin and rinse well. Keep the bar on a draining soap dish so it '
      f'lasts, and follow with a body lotion if your skin tends to feel dry. Patch test before first use.</p>'
      f'<p>See the whole {c("range-goat-milk", "goat milk range")} or {c("skincare-gift-sets", "skincare gift sets")}. UK delivery is free '
