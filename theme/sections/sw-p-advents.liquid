@@ -16,7 +16,7 @@
       <div class="advent-price"><span class="now">Coming soon</span></div>
       <div class="advent-ctas"><a class="btn p-light" href="{{ block.settings.inside_url }}">See what's inside</a><button class="btn p-light" data-notify="{{ block.settings.kind }}">Notify me at launch</button></div>
     {%- endif -%}</div>
-    <div class="advent-strip">{%- for p in block.settings.strip limit: 6 -%}{{ p.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', widths: '150,300', sizes: '120px', loading: 'lazy', alt: p.featured_media.alt }}{%- endfor -%}</div></article>
+    <div class="advent-strip">{%- for p in block.settings.strip limit: 6 -%}{%- assign swalt = p.featured_media.alt | default: p.title -%}{{ p.featured_media.preview_image | image_url: width: 300 | image_tag: class: 'pic', widths: '150,300', sizes: '120px', loading: 'lazy', alt: swalt }}{%- endfor -%}</div></article>
       {%- endfor -%}
     </div>
   {%- if page_mode -%}

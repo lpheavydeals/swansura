@@ -4,7 +4,7 @@
       <p>{{ section.settings.text | escape }}</p>
       <div class="xmas-links">{%- assign lines = section.settings.links | newline_to_br | split: '<br />' -%}{%- for line in lines -%}{%- assign parts = line | strip | split: '|' -%}{%- if parts.size == 2 -%}<a href="{{ parts[1] | strip }}">{{ parts[0] | strip | escape }}</a>{%- endif -%}{%- endfor -%}</div>
       <a class="btn gold" href="{{ section.settings.btn_url }}">{{ section.settings.btn | escape }}</a></div>
-    <div class="xmas-pics">{%- for p in section.settings.products limit: 3 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}<a class="xp xp{{ forloop.index0 }}" href="{{ p.url }}" aria-label="{{ pn | escape }}">{{ p.featured_media.preview_image | image_url: width: 600 | image_tag: class: 'pic', widths: '300,450,600', sizes: '(min-width: 900px) 240px, 33vw', loading: 'lazy', alt: p.featured_media.alt }}<span>{{ p.vendor | escape }}</span></a>{%- endfor -%}</div>
+    <div class="xmas-pics">{%- for p in section.settings.products limit: 3 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}<a class="xp xp{{ forloop.index0 }}" href="{{ p.url }}" aria-label="{{ pn | escape }}">{%- assign swalt = p.featured_media.alt | default: p.title -%}{{ p.featured_media.preview_image | image_url: width: 600 | image_tag: class: 'pic', widths: '300,450,600', sizes: '(min-width: 900px) 240px, 33vw', loading: 'lazy', alt: swalt }}<span>{{ p.vendor | escape }}</span></a>{%- endfor -%}</div>
   </div></section></div>
 {% schema %}
 {

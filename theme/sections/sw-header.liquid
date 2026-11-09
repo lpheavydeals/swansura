@@ -66,7 +66,7 @@
         <div class="item"><a href="{{ link.url }}"{% if on %} class="on"{% endif %}{{ astyle }}>{{ link.title | escape }}</a>
           {%- if link.links.size > 0 -%}<div class="mega"{% if mstyle != '' %} style="{{ mstyle }}"{% endif %}>
             {%- for col in link.links -%}<div><h4>{{ col.title | escape }}</h4>{%- for l in col.links -%}<a href="{{ l.url }}">{{ l.title | escape }}{% if l.title contains 'A–Z' %} →{% endif %}</a>{%- endfor -%}</div>{%- endfor -%}
-            {%- if feat != blank -%}{%- capture fname -%}{% render 'sw-p-name', product: feat %}{%- endcapture -%}<a class="feat" href="{{ feat.url }}">{{ feat.featured_media.preview_image | image_url: width: 400 | image_tag: class: 'pic', loading: 'lazy', alt: feat.featured_media.alt | default: feat.title }}<b style="font-weight:600">{{ fname | escape }}</b></a>{%- endif -%}
+            {%- if feat != blank -%}{%- capture fname -%}{% render 'sw-p-name', product: feat %}{%- endcapture -%}<a class="feat" href="{{ feat.url }}">{%- assign swalt = feat.featured_media.alt | default: feat.title -%}{{ feat.featured_media.preview_image | image_url: width: 400 | image_tag: class: 'pic', loading: 'lazy', alt: swalt }}<b style="font-weight:600">{{ fname | escape }}</b></a>{%- endif -%}
           </div>{%- endif -%}</div>
       {%- endfor -%}
     </nav>

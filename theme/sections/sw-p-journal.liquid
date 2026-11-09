@@ -2,7 +2,7 @@
 {%- assign blog = blogs[section.settings.blog] -%}
 <div class="swp app"><section><div class="wrap">
     <div class="sec-head"><div><h2>{{ section.settings.heading | escape }}</h2></div><a class="p-link" href="{{ blog.url }}">{{ section.settings.link_label | escape }}</a></div>
-    <div class="journal rail">{%- for a in blog.articles limit: section.settings.limit -%}<a class="post" href="{{ a.url }}">{%- if a.image -%}{{ a.image | image_url: width: 900 | image_tag: class: 'pic', widths: '400,600,900', sizes: '(min-width: 900px) 400px, 70vw', loading: 'lazy', alt: a.image.alt | default: a.title }}{%- else -%}<div class="pic"></div>{%- endif -%}<span class="eyebrow">{{ a.tags.first | escape }}</span><h3>{{ a.title | escape }}</h3><p style="color:var(--ink-2);font-size:15px">{{ a.excerpt_or_content | strip_html | truncate: 140 | escape }}</p></a>{%- endfor -%}</div>
+    <div class="journal rail">{%- for a in blog.articles limit: section.settings.limit -%}<a class="post" href="{{ a.url }}">{%- if a.image -%}{%- assign swalt = a.image.alt | default: a.title -%}{{ a.image | image_url: width: 900 | image_tag: class: 'pic', widths: '400,600,900', sizes: '(min-width: 900px) 400px, 70vw', loading: 'lazy', alt: swalt }}{%- else -%}<div class="pic"></div>{%- endif -%}<span class="eyebrow">{{ a.tags.first | escape }}</span><h3>{{ a.title | escape }}</h3><p style="color:var(--ink-2);font-size:15px">{{ a.excerpt_or_content | strip_html | truncate: 140 | escape }}</p></a>{%- endfor -%}</div>
   </div></section></div>
 {% schema %}
 {
