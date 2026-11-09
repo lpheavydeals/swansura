@@ -234,3 +234,27 @@ After you click **Generate token**:
 2. In this Claude Code session, open the cloud environment menu in the title bar → **Edit** → **Network secrets** (or environment variables, if that is what is offered) and add `META_ACCESS_TOKEN` = the token. Also make sure the environment's network access allows `graph.facebook.com`.
 3. Start a new session: Claude reads ad account 1614052623400872 and pixel 1593636862064099 read-only (spend, results, Purchase events with "Browser • Server").
 4. To withdraw access later: Business Settings → System users → Claude Reporting → Revoke tokens (or remove the user).
+
+## Prompt 10 — Meta: give the "Claude MCP" system user what it needs to build campaigns (added 9 Nov 2026)
+
+API check, 9 Nov: the token already has ads_management, ads_read, business_management, pages_show_list and pages_read_engagement. The system user already has full control (Manage) of ad account 1614052623400872 and of the Facebook Page "SwansuraThebodystudio" (788176181050418). Still missing: the pixel is not assigned to the system user, no Instagram account is in the portfolio, the ad account time zone is America/Los_Angeles, no payment method was found, and the Catalog API is not enabled on the app. **The token does not need to be regenerated** unless step 6 is done.
+
+```text
+I'm in Meta Business Settings (business.facebook.com/settings) for the business portfolio "Swansura - The Body Studio" (ID 1523489705546215). Prepare it so the system user "Claude MCP" can build ad campaigns. Rules: do NOT create, publish or turn on any campaign, ad set or ad; do NOT spend money; do NOT remove any person, app or asset; do NOT generate or copy any token; do NOT accept new terms yourself; do NOT enter card details. If any of these come up, stop and tell me.
+
+1. Pixel → system user. Data sources → Datasets (or Pixels) → "Swansura Thebodyshop" (1593636862064099) → Assign people / Add people → "Claude MCP" → full control ("Manage dataset" / "Manage pixel"). Save. Also confirm the dataset is connected to ad account 1614052623400872 (Connected assets).
+
+2. Instagram. Accounts → Instagram accounts. If @swansura_thebodystudio is NOT listed, click Add → "Claim an Instagram account" (or "Connect your Instagram account") and stop when Meta asks for the Instagram login, so that I can type it. Once it is listed: Assign people → "Claude MCP" → full control; Connected assets → add ad account 1614052623400872. Also check that the Facebook Page "SwansuraThebodystudio" (788176181050418) shows the Instagram account as connected. Report what you see.
+
+3. Page. Accounts → Pages → "SwansuraThebodystudio" (788176181050418): confirm "Claude MCP" has full control, or at least "Advertise"/"Create ads" + "Content". Report only; change nothing else.
+
+4. Ad account settings. Accounts → Ad accounts → "SwansuraTheBodyStudio's ad account" (1614052623400872) → open in Ads Manager → Ad account settings:
+   a. Time zone is America/Los_Angeles. Change it to "(GMT+00:00) Europe/London" and keep the currency as GBP. If Meta says that changing it will close this ad account and create a new one, STOP and tell me the exact message (don't confirm).
+   b. Account spending limit: set it to £700 (this is a safety cap, not a budget). If a different screen is needed, tell me where.
+   c. Report the business name, address and country shown for advertiser info. Don't change them.
+
+5. Payment. Ads Manager → Billing & payments (or Payment settings) for 1614052623400872: report only whether a payment method exists and what type. Do NOT add or remove a card. I'll add the card myself.
+
+6. Optional, for catalog ads later: open developers.facebook.com → app "Swansura Reporting" (2390616515090214) → Use cases → Add use case. If there is one about the Catalog API (e.g. "Manage products with Catalog API" or "Create & manage ads with Marketing API"), tell me the names offered and the permissions each lists. Do NOT add anything yet.
+
+At the end give me a short list: what you changed (field → value), what failed, and anything waiting on me (Instagram login, card, time zone message).
