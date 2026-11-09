@@ -185,6 +185,28 @@ Send me back: the Project ID, the masking setting, the consent options shown, an
 
 After this, send us the Project ID. We add Clarity to a new draft theme so it only starts after a visitor accepts analytics cookies in the Shopify cookie banner, then you publish the draft.
 
+## Prompt 9a — Meta for Developers: create the app (run BEFORE Prompt 9; added 9 Nov 2026)
+
+Run logged in at developers.facebook.com with the 'Swansura - The Body Studio' portfolio selected. The app stays in Development mode (enough for a token on the portfolio's own ad account); no App Review, no publishing.
+
+```text
+I'm logged in at developers.facebook.com (Meta for Developers). Create ONE app for reading Swansura's ad results. Rules: do NOT accept any terms, policies or developer registration yourself, do NOT enter or change any password or 2-factor code, do NOT add payment details: if any of these appear, stop and tell me so I can do it. Do NOT switch the app to Live / publish it, do NOT submit anything for App Review, do NOT generate or copy any access token or App Secret.
+
+1. Go to My Apps (developers.facebook.com/apps). If an app named "Swansura Reporting" already exists, stop and give me its App ID and the business portfolio it belongs to.
+2. Click "Create app".
+   - App name: Swansura Reporting
+   - App contact email: info@swansura.com
+3. Use case: choose the Marketing API use case for ads, e.g. "Measure ad performance data with Marketing API" if offered, otherwise "Create & manage ads with Marketing API". Do not add any other use case (no Facebook Login, WhatsApp, Instagram, Messenger, Threads, games).
+4. Business portfolio: select "Swansura - The Body Studio" (ID 1523489705546215). If it isn't listed, stop and tell me which portfolios are listed.
+5. Review the requirements screen and tell me what it lists (e.g. business verification). Don't start verification. If nothing blocks it, go to the overview and click "Create app"/"Go to dashboard". If Meta asks for my password, stop and tell me to type it.
+6. On the app dashboard, report only (change nothing): App ID, app mode (should be "Development"), the use case added, and whether "Marketing API" appears under Products/Use cases. If the Marketing API use case has a "Customize" page listing permissions, tell me whether ads_read and read_insights are available (do not request Advanced Access).
+7. App settings → Basic: tell me the App ID, app domain field (leave empty), Privacy Policy URL field (leave empty unless required; if required to proceed, use https://www.swansura.com/policies/privacy-policy), category (choose "Business and pages" only if it is required). Save only if a required field blocked progress.
+
+At the end give me: app name, App ID, mode, use case, business portfolio, and anything you could not do.
+```
+
+Then run Prompt 9 in Business Settings: step 1 there will find "Swansura Reporting" under Accounts → Apps (if not listed, Accounts → Apps → Add → "Connect an app ID" and enter this App ID).
+
 ## Prompt 9 — Meta: read-only system user token for Claude (added 9 Nov 2026)
 
 Run logged in to Meta Business Settings as an admin of the 'Swansura - The Body Studio' portfolio. The browser agent prepares everything; **you click 'Generate token' and copy it yourself**, so the token never appears in a chat.
