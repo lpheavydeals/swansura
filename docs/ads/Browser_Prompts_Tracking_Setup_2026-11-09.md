@@ -184,3 +184,31 @@ Send me back: the Project ID, the masking setting, the consent options shown, an
 ```
 
 After this, send us the Project ID. We add Clarity to a new draft theme so it only starts after a visitor accepts analytics cookies in the Shopify cookie banner, then you publish the draft.
+
+## Prompt 9 — Meta: read-only system user token for Claude (added 9 Nov 2026)
+
+Run logged in to Meta Business Settings as an admin of the 'Swansura - The Body Studio' portfolio. The browser agent prepares everything; **you click 'Generate token' and copy it yourself**, so the token never appears in a chat.
+
+```text
+I'm in Meta Business Settings (business.facebook.com/settings) for the business portfolio "Swansura - The Body Studio" (ID 1523489705546215). Set up a READ-ONLY system user so an assistant can read ad results. Rules: do NOT create, edit, pause or delete any campaign, ad set, ad or audience; do NOT add payment methods or change spending limits; do NOT remove any person, app or asset; do NOT accept any terms or policies yourself — if Meta asks me to accept Platform/Developer terms or to verify my identity, stop and tell me. Do NOT click "Generate token" and do NOT read out, copy or type any token: stop at that point and hand over to me.
+
+1. App for the token. Accounts → Apps. If an app owned by this portfolio already exists (for example one called "Swansura" or created by Shopify), tell me its name and App ID and use it. If there is none: click Add → "Create a new app ID", type "Other" / use case "Other", app type "Business", app name "Swansura Reporting", contact email info@swansura.com, business portfolio "Swansura - The Body Studio". Stop if this needs me to accept terms or verify my developer account. Report the App ID.
+
+2. System user. Users → System users → Add. Name: "Claude Reporting". Role: Employee (NOT Admin). Create it. If Meta says the portfolio has reached its system user limit, stop and tell me which system users exist.
+
+3. Assign assets to "Claude Reporting" (button "Assign assets"):
+   - Ad accounts → "SwansuraTheBodyStudio's ad account" (1614052623400872): turn on ONLY the view/performance permission (called "View performance" or "Manage campaigns: off, View performance: on"). Leave "Manage campaigns", "Manage ad account" and "Manage payments" OFF.
+   - Datasets / Pixels → pixel 1593636862064099: view-only permission ("View dataset"/"Use dataset" only, not "Manage").
+   - Apps → the app from step 1: "Develop app" is fine (needed to generate a token); nothing else.
+   Save, and tell me exactly which permission boxes are ticked for each asset.
+
+4. Open the "Generate token" dialog for "Claude Reporting" but do NOT finish it. Select the app from step 1, set Token expiration to "60 days" if offered (else note what is offered), and tick ONLY these permissions: ads_read, read_insights. Leave ads_management, business_management and everything else unticked. Then STOP and tell me: "Ready — click Generate token yourself."
+
+At the end give me a short summary: app name + App ID, system user name + ID, assets and permissions assigned, and anything you could not do.
+```
+
+After you click **Generate token**:
+1. Copy the token (Meta shows it once). Do not paste it into Claude's chat.
+2. In this Claude Code session, open the cloud environment menu in the title bar → **Edit** → **Network secrets** (or environment variables, if that is what is offered) and add `META_ACCESS_TOKEN` = the token. Also make sure the environment's network access allows `graph.facebook.com`.
+3. Start a new session: Claude reads ad account 1614052623400872 and pixel 1593636862064099 read-only (spend, results, Purchase events with "Browser • Server").
+4. To withdraw access later: Business Settings → System users → Claude Reporting → Revoke tokens (or remove the user).
