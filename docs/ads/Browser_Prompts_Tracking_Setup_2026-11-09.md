@@ -214,7 +214,7 @@ Run logged in to Meta Business Settings as an admin of the 'Swansura - The Body 
 ```text
 I'm in Meta Business Settings (business.facebook.com/settings) for the business portfolio "Swansura - The Body Studio" (ID 1523489705546215). Set up a READ-ONLY system user so an assistant can read ad results. Rules: do NOT create, edit, pause or delete any campaign, ad set, ad or audience; do NOT add payment methods or change spending limits; do NOT remove any person, app or asset; do NOT accept any terms or policies yourself — if Meta asks me to accept Platform/Developer terms or to verify my identity, stop and tell me. Do NOT click "Generate token" and do NOT read out, copy or type any token: stop at that point and hand over to me.
 
-1. App for the token. Accounts → Apps. If an app owned by this portfolio already exists (for example one called "Swansura" or created by Shopify), tell me its name and App ID and use it. If there is none: click Add → "Create a new app ID", type "Other" / use case "Other", app type "Business", app name "Swansura Reporting", contact email info@swansura.com, business portfolio "Swansura - The Body Studio". Stop if this needs me to accept terms or verify my developer account. Report the App ID.
+1. App for the token: "Swansura Reporting", App ID 2390616515090214 (already created in Meta for Developers, owned by this portfolio). Check it is listed under Accounts → Apps. If it is not, click Add → "Connect an app ID" and enter 2390616515090214. Do not create another app.
 
 2. System user. Users → System users → Add. Name: "Claude Reporting". Role: Employee (NOT Admin). Create it. If Meta says the portfolio has reached its system user limit, stop and tell me which system users exist.
 
@@ -224,7 +224,7 @@ I'm in Meta Business Settings (business.facebook.com/settings) for the business 
    - Apps → the app from step 1: "Develop app" is fine (needed to generate a token); nothing else.
    Save, and tell me exactly which permission boxes are ticked for each asset.
 
-4. Open the "Generate token" dialog for "Claude Reporting" but do NOT finish it. Select the app from step 1, set Token expiration to "60 days" if offered (else note what is offered), and tick ONLY these permissions: ads_read, read_insights. Leave ads_management, business_management and everything else unticked. Then STOP and tell me: "Ready — click Generate token yourself."
+4. Open the "Generate token" dialog for "Claude Reporting" but do NOT finish it. Select the app from step 1, set Token expiration to "60 days" if offered (else note what is offered), and tick ONLY these permissions: ads_read, plus read_insights if it is listed. Leave ads_management, business_management and everything else unticked. Then STOP and tell me: "Ready — click Generate token yourself."
 
 At the end give me a short summary: app name + App ID, system user name + ID, assets and permissions assigned, and anything you could not do.
 ```
