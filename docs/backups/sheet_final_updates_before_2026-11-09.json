@@ -1,0 +1,175 @@
+[
+ {
+  "id": "gid://shopify/Product/16431133229443",
+  "handle": "clinique-aromatics-elixir-parfum-spray-100ml",
+  "before": {
+   "title": "Clinique Aromatics Elixir Parfum Spray 100ml",
+   "handle": "clinique-aromatics-elixir-parfum-spray-100ml",
+   "descriptionHtml": "<p>Clinique Aromatics Elixir Parfum Spray is a floral parfum for women from Clinique, in 100ml.</p><h3>Scent notes</h3><ul><li>Top Notes: Bulgarian Rose, Orange Blossom</li><li>Heart Notes: Jasmine, Ylang-Ylang</li><li>Base Notes: Patchouli, Oakmoss</li></ul><h3>Details</h3><ul><li>Size: 100ml</li><li>Made for women</li><li>Brand: Clinique</li><li>100% authentic, dispatched from the UK</li></ul>",
+   "seo": {
+    "title": "Clinique Aromatics Elixir Parfum Spray 100ml | Swansura UK",
+    "description": "Buy Clinique Aromatics Elixir Parfum Spray 100ml for £47.99 at Swansura UK. A floral women’s parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Clinique Aromatics Elixir Parfum Spray"
+    },
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 900, \"f\": \"floral\", \"w\": \"For her\", \"n\": null, \"a\": [\"A floral fragrance: Bulgarian Rose, Orange Blossom.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+    }
+   ]
+  },
+  "colls": [
+   "fragrance",
+   "clinique",
+   "price-25-50",
+   "perfume-for-women",
+   "scent-floral"
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/16431526674819",
+  "handle": "paco-rabanne-miniature-eau-de-parfum-set-8-x-2ml",
+  "before": {
+   "title": "Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml",
+   "handle": "paco-rabanne-miniature-eau-de-parfum-set-8-x-2ml",
+   "descriptionHtml": "<p>Paco Rabanne Miniature Eau de Parfum Set is a fragrance gift set for everyone (unisex) from Paco Rabanne.</p><h3>In the set</h3><ul><li>Mesh Metal eau de parfum 2ml</li><li>Silver Skin eau de parfum 2ml</li><li>Midnight Sex eau de parfum 2ml</li><li>Rose 1969 eau de parfum 2ml</li><li>Night Soul eau de parfum 2ml</li><li>Armure Mara eau de parfum 2ml</li><li>After Club eau de parfum 2ml</li><li>Oud Montaigne eau de parfum 2ml</li></ul><h3>Details</h3><ul><li>Set size: 8 x 2ml</li><li>Unisex: for men and women</li><li>Brand: Paco Rabanne</li><li>100% authentic, dispatched from the UK</li></ul>",
+   "seo": {
+    "title": "Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml | Swansura",
+    "description": "Buy Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml for £46.99 at Swansura UK. A unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Paco Rabanne Miniature Eau de Parfum Set"
+    },
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 958, \"f\": null, \"w\": \"Unisex\", \"n\": null, \"a\": [\"A signature fragrance.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Unisex\", \"Gift set\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"paco-rabanne-miniature-eau-de-parfum-gift-set-4-x-10ml\", \"paco-rabanne-womens-miniature-set-lady-million-olympea-fame-5ml-6ml-4ml-4ml\", \"paco-rabanne-1-million-eau-de-toilette-200ml\", \"paco-rabanne-fame-eau-de-parfum-refillable-80ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"]]}"
+    }
+   ]
+  },
+  "colls": [
+   "fragrance",
+   "paco-rabanne",
+   "price-25-50",
+   "unisex-perfume",
+   "perfume-gift-sets",
+   "sets-combos",
+   "christmas-gifts",
+   "gifts-for-her",
+   "gifts-for-him",
+   "gifts-25-to-50",
+   "travel-size-minis"
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/16431529034115",
+  "handle": "paco-rabanne-phantom-parfum-15ml",
+  "before": {
+   "title": "Paco Rabanne Phantom Parfum 15ml",
+   "handle": "paco-rabanne-phantom-parfum-15ml",
+   "descriptionHtml": "<p>Paco Rabanne Phantom Parfum is an amber parfum for men from Paco Rabanne, in 15ml.</p><h3>Scent notes</h3><ul><li>Top Notes: Cardamom, Bergamot, Lemon, Rhubarb</li><li>Heart Notes: Lavender, Geranium, Patchouli, Cedar</li><li>Base Notes: Vanilla, Tolu Balsam, Vetiver</li></ul><h3>Details</h3><ul><li>Size: 15ml</li><li>Made for men</li><li>Brand: Paco Rabanne</li><li>100% authentic, dispatched from the UK</li></ul>",
+   "seo": {
+    "title": "Paco Rabanne Phantom Parfum 15ml | Swansura UK",
+    "description": "Buy Paco Rabanne Phantom Parfum 15ml for £20.99 at Swansura UK. An amber men’s parfum. 100% authentic, fast UK delivery, free over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Paco Rabanne Phantom Parfum"
+    },
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 970, \"f\": \"amber\", \"w\": \"For him\", \"n\": null, \"a\": [\"An amber fragrance: Cardamom, Bergamot, Lemon, Rhubarb.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Amber family\", \"For men\", \"Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"paco-rabanne-1-million-eau-de-toilette-200ml\", \"paco-rabanne-invictus-eau-de-toilette-200ml\", \"paco-rabanne-invictus-eau-de-toilette-gift-set-200ml-10ml\", \"paco-rabanne-invictus-eau-de-toilette-deodorant-gift-set-100ml-150ml-10ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+    }
+   ]
+  },
+  "colls": [
+   "fragrance",
+   "paco-rabanne",
+   "price-15-25",
+   "perfume-for-men",
+   "scent-amber",
+   "travel-size-minis"
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/16431529165187",
+  "handle": "paco-rabanne-miniature-eau-de-parfum-gift-set-4-x-10ml",
+  "before": {
+   "title": "Paco Rabanne Miniature Eau de Parfum Gift Set 4 x 10ml",
+   "handle": "paco-rabanne-miniature-eau-de-parfum-gift-set-4-x-10ml",
+   "descriptionHtml": "<p>Paco Rabanne Miniature Eau de Parfum Gift Set is a fragrance gift set for everyone (unisex) from Paco Rabanne.</p><h3>In the set</h3><ul><li>Four 10ml eaux de parfum (message us for the scents in this set)</li></ul><h3>Details</h3><ul><li>Set size: 4 x 10ml</li><li>Unisex: for men and women</li><li>Brand: Paco Rabanne</li><li>100% authentic, dispatched from the UK</li></ul>",
+   "seo": {
+    "title": "Paco Rabanne Miniature EDP Gift Set 4 x 10ml | Swansura",
+    "description": "Buy Paco Rabanne Miniature Eau de Parfum Gift Set 4 x 10ml for £45.99 at Swansura UK. A unisex fragrance gift set. 100% authentic, free UK delivery over £40."
+   },
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "h1",
+     "type": "single_line_text_field",
+     "value": "Paco Rabanne Miniature Eau de Parfum Gift Set"
+    },
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"Unisex\", \"s\": [], \"c\": [], \"k\": false, \"r\": 973, \"f\": null, \"w\": \"Unisex\", \"n\": null, \"a\": [\"A signature fragrance.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Unisex\", \"Gift set\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"paco-rabanne-miniature-eau-de-parfum-set-8-x-2ml\", \"paco-rabanne-womens-miniature-set-lady-million-olympea-fame-5ml-6ml-4ml-4ml\", \"paco-rabanne-1-million-eau-de-toilette-200ml\", \"paco-rabanne-fame-eau-de-parfum-refillable-80ml\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"]]}"
+    }
+   ]
+  },
+  "colls": [
+   "fragrance",
+   "paco-rabanne",
+   "price-25-50",
+   "unisex-perfume",
+   "perfume-gift-sets",
+   "sets-combos",
+   "christmas-gifts",
+   "gifts-for-her",
+   "gifts-for-him",
+   "gifts-25-to-50",
+   "travel-size-minis"
+  ]
+ }
+]

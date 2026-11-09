@@ -25,13 +25,17 @@ def rows(p):
     return [(i + 2, r) for i, r in enumerate(wb['Fragrance Catalogue'].iter_rows(min_row=2, values_only=True)) if any(r)]
 key = lambda r: (str(r[6]).strip().lower(), str(r[9]).strip().lower())
 OLD = {key(r) for _, r in rows(ROOT / 'docs/data/Swansura_Fragrance_Data_2026-11-02.xlsx')}
-NEW = {x: dict(brand=r[1], cat=r[2], gender=r[3], family=r[4], type=r[5], name=r[6], desc=r[7], notes=r[8], size=r[9],
-               price=float(r[11])) for x, r in rows(ROOT / 'docs/data/Swansura_Fragrance_Data_2026-11-08.xlsm') if key(r) not in OLD}
+# FINAL sheet (client, 9 Nov 2026; adds an 'Alt Text' column, so size/price sit one column later). Same rows in the
+# same order as the 8 Nov sheet; it changed only: Clinique 'Parfum Spray' -> 'Eau de Parfum', Phantom 'Parfum' ->
+# 'Parfum Spray', Issey Eau & Magnolia + Wood & Wood prices (100ml/50ml swapped), Paco 4x10ml set contents.
+NEW = {x: dict(brand=r[1], cat=r[2], gender=r[3], family=r[4], type=r[5], name=r[6], desc=r[7], notes=r[8], size=r[10],
+               price=float(r[12])) for x, r in rows(ROOT / 'docs/data/Swansura_Fragrance_Data_2026-11-09_final.xlsx')
+       if (str(r[6]).strip().lower(), str(r[10]).strip().lower()) not in OLD}
 assert len(NEW) == 147, len(NEW)
 
 # sheet row -> (H1, variant/size label). Rows with the same H1 become one product with a Size option.
 T = {
- 676: ('Clinique Aromatics Elixir Parfum Spray', '100ml'),
+ 676: ('Clinique Aromatics Elixir Eau de Parfum', '100ml'),
  677: ('Grès Cabotine Turquoise Eau de Parfum', '100ml'),
  678: ('Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set', '100ml + 200ml'),
  679: ("Issey Miyake A Drop d'Issey Eau de Parfum Fraîche", '90ml'),
@@ -114,10 +118,10 @@ T = {
  756: ('Paco Rabanne Phantom Parfum & Deodorant Gift Set', '100ml + 150ml + 10ml'),
  757: ('Paco Rabanne Phantom Eau de Toilette & Deodorant Gift Set', '100ml + 150ml + 10ml'),
  758: None,   # exact repeat of 757
- 759: ('Paco Rabanne Phantom Parfum', '15ml'),
+ 759: ('Paco Rabanne Phantom Parfum Spray', '15ml'),
  760: ('Paco Rabanne Ultraviolet Eau de Parfum', '80ml'),
  761: ('Paco Rabanne XS Black Eau de Toilette', '100ml'),
- 762: ('Paco Rabanne Miniature Eau de Parfum Gift Set', '4 x 10ml'),
+ 762: ("Paco Rabanne Women's Miniature Eau de Parfum Gift Set (Lady Million, Olympéa)", '4 x 10ml'),
  763: ('Ralph Lauren Polo Cologne Intense', '59ml'),
  764: ('Ralph Lauren Polo Blue Eau de Toilette Refillable', '75ml'),
  765: ('Ralph Lauren Polo Red Eau de Toilette Refillable', '125ml'),
@@ -194,7 +198,7 @@ SETS = {
  754: ['1 Million eau de toilette 4ml', 'Invictus eau de toilette 4ml', 'Phantom eau de toilette 4ml'],
  756: ['Phantom 100ml spray', 'Deodorant spray 150ml', 'Phantom 10ml spray'],
  757: ['Phantom eau de toilette 100ml', 'Deodorant spray 150ml', 'Phantom eau de toilette 10ml'],
- 762: ['Four 10ml eaux de parfum (message us for the scents in this set)'],
+ 762: ['Lady Million eau de parfum 10ml', 'Lady Million Fabulous eau de parfum 10ml', 'Olympéa eau de parfum 10ml', 'Olympéa Blossom eau de parfum 10ml'],
  780: ['Bright Leather eau de toilette 100ml', 'Bright Leather eau de toilette 10ml', 'Shower gel 100ml'],
  781: ['Intense Leather eau de parfum 100ml', 'Intense Leather eau de parfum 10ml', 'Shampoo & shower gel 100ml'],
  806: ["Après l'Amour parfum 30ml", "Après l'Amour hair mist 30ml"],
@@ -261,6 +265,8 @@ for h1, xs in groups.items():
     r0 = next(r for r in rs if r['xl'] == xs[0])
     brand = BRAND.get(r0['brand'], r0['brand'])
     g = {'Men': 'Men', 'Women': 'Women'}.get(r0['gender'], 'Unisex')
+    if xs[0] == 762:   # sheet says Unisex, but all four scents in the final sheet's contents are women's
+        g = 'Women'
     fam = FAM_FIX.get(xs[0]) or FAM.get(str(r0['family'] or '').lower())
     gift = xs[0] in SETS
     deo = 'Deodorant Stick' in h1
