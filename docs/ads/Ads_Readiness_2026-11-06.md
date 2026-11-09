@@ -38,3 +38,22 @@ Collections 71–75 (LCP 3.0–3.3 s); product pages 54–62 (LCP 3.8–5.7 s; t
 - From outside: no `facebook-domain-verification` TXT record on swansura.com (Google Cloud DNS, checked via Google + Cloudflare resolvers), no meta tag, no HTML file. So the verification is not by DNS/meta tag; most likely the Shopify Facebook & Instagram channel verified it through the partner integration (shows "Verified" in Meta without a public record). Client to confirm in Business settings → Domains that the row is **swansura.com** (not the myshopify domain) and says Verified.
 - Data sharing level / Conversions API can't be seen from the site; confirm in Events Manager (connection method "Browser • Server").
 - Live journey: Meta Pixel PageView, ViewContent, AddToCart, InitiateCheckout fire. Purchase still needs the test order.
+
+## Re-check 9 Nov 2026 (evening): Meta Graph API, read-only calls
+
+The token is a network secret on the cloud environment and is sent only to graph.facebook.com. Only GET requests were made.
+
+- **Token:** system user "Claude MCP" (122101685637541962). Granted: ads_read, **ads_management, business_management**, pages_show_list, pages_read_engagement. That is more than read-only. Recommended: regenerate it with ads_read only.
+- **Ad account** act_1614052623400872 "SwansuraTheBodyStudio's ad account":
+  - Status active (1); currency GBP; amount spent £0; no spend cap.
+  - No campaigns; no payment method returned.
+  - **Time zone America/Los_Angeles**: reporting days run on US Pacific time. Fix before any spend.
+  - Owned by portfolio 1523489705546215.
+- **Pixel** 1593636862064099 "Swansura Thebodyshop":
+  - Owned by the portfolio and linked to the ad account; last fired 8 Nov 22:57 UTC.
+  - Not assigned to the system user, so direct pixel reads fail (#200). Stats work through the ad account.
+  - Events, last 7 days (2–9 Nov): PageView 1,940, ViewContent 521, Search 66, AddToCart 44, InitiateCheckout 22, AddPaymentInfo 4, Purchase 4.
+  - Purchase came in two hourly buckets of 2: 5 Nov 23:00 UTC and 7 Nov 03:00 UTC. These match orders #SWAN1016 and #SWAN1017/1018.
+  - Event source split over 7 days: SERVER 1,015 / BROWSER 1,170, so the Conversions API is sending.
+  - 1,015 events carried customer data (had_pii).
+  - No Purchase on 9 Nov: the test order did not complete.
