@@ -158,3 +158,29 @@ You are helping me connect Google Ads to my Shopify store www.swansura.com throu
 
 Send me back: Ads customer ID, billing status, conversions list with status/primary, and linked accounts.
 ```
+
+---
+
+## Prompt 8 — Microsoft Clarity: create the project (added 9 Nov 2026)
+
+We add the Clarity code to the theme ourselves (it must wait for cookie consent for UK visitors), so this prompt only creates the project and links GA4.
+
+```
+You are helping me create a Microsoft Clarity project for my Shopify store www.swansura.com. Do not install any code on the website, do not install any Shopify app, and do not accept any terms without showing them to me first.
+
+1. Open https://clarity.microsoft.com and sign in with Google using info@swansura.com. If I am signed in with another account, stop and tell me.
+2. If a project for swansura.com already exists, stop and tell me its name and Project ID instead of creating another.
+3. Otherwise click "New project":
+   - Name: Swansura
+   - Website URL: https://www.swansura.com
+   - Site category: "E-commerce" (or "Shopping")
+   Show me the terms, wait for me to accept, then create the project.
+4. When Clarity shows "How would you like to install Clarity?", do NOT choose any install option. Go to Settings → Overview (or Setup) and copy the Project ID (about 10 letters and numbers).
+5. Settings → Setup → Advanced settings (or Settings → Consent): tell me what the cookie / consent options say (e.g. "Cookies", "Consent mode", "Masking"). Do not change them. Set masking to "Balanced" if it is not already.
+6. Settings → Setup → "Google Analytics integration": click Get started / Connect, sign in with info@swansura.com, choose the GA4 property "swansura.com" (Measurement ID G-548F2L8DJE) and save. Show me any permissions screen before allowing.
+7. Settings → Team: tell me who has access.
+
+Send me back: the Project ID, the masking setting, the consent options shown, and whether the GA4 integration is connected.
+```
+
+After this, send us the Project ID. We add Clarity to a new draft theme so it only starts after a visitor accepts analytics cookies in the Shopify cookie banner, then you publish the draft.
