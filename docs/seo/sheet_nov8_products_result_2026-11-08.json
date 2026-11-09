@@ -1,0 +1,1163 @@
+[
+{
+"batch": "00",
+"key": "p0",
+"handle": "clinique-aromatics-elixir-parfum-spray-100ml",
+"id": "gid://shopify/Product/16431133229443",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p1",
+"handle": "gres-cabotine-turquoise-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431133262211",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p2",
+"handle": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml",
+"id": "gid://shopify/Product/16431133327747",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p3",
+"handle": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml",
+"id": "gid://shopify/Product/16431133360515",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p4",
+"handle": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml",
+"id": "gid://shopify/Product/16431133426051",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p5",
+"handle": "issey-miyake-leau-dissey-eau-de-toilette-50ml",
+"id": "gid://shopify/Product/16431133491587",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p6",
+"handle": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense",
+"id": "gid://shopify/Product/16431133557123",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p7",
+"handle": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette",
+"id": "gid://shopify/Product/16431133622659",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p8",
+"handle": "issey-miyake-leau-dissey-pour-homme-wood-wood-eau-de-parfum-intense",
+"id": "gid://shopify/Product/16431133655427",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "00",
+"key": "p9",
+"handle": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml",
+"id": "gid://shopify/Product/16431133720963",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p0",
+"handle": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml",
+"id": "gid://shopify/Product/16431138931075",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p1",
+"handle": "lacoste-lhomme-lacoste-deodorant-stick-70g",
+"id": "gid://shopify/Product/16431138963843",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p2",
+"handle": "lalique-amethyst-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431139094915",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p3",
+"handle": "lalique-amethyst-eclat-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431139193219",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p4",
+"handle": "lalique-de-lalique-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431139258755",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p5",
+"handle": "lalique-hommage-a-lhomme-eau-de-toilette-shower-gel-gift-set-100ml-150ml",
+"id": "gid://shopify/Product/16431139291523",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p6",
+"handle": "lalique-lamour-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431139389827",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p7",
+"handle": "lalique-le-parfum-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431139455363",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p8",
+"handle": "lalique-linsoumis-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431139488131",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "01",
+"key": "p9",
+"handle": "lalique-lion-eau-de-parfum-125ml",
+"id": "gid://shopify/Product/16431139586435",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p0",
+"handle": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431141618051",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p1",
+"handle": "lalique-perles-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431141650819",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p2",
+"handle": "lalique-satine-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431141683587",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p3",
+"handle": "lalique-white-eau-de-toilette-125ml",
+"id": "gid://shopify/Product/16431141716355",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p4",
+"handle": "lanvin-mon-eclat-eau-de-parfum-mini-with-pouch-7-5ml",
+"id": "gid://shopify/Product/16431141749123",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p5",
+"handle": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml",
+"id": "gid://shopify/Product/16431141781891",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p6",
+"handle": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml",
+"id": "gid://shopify/Product/16431141814659",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p7",
+"handle": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml",
+"id": "gid://shopify/Product/16431141847427",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p8",
+"handle": "moschino-toy-boy-eau-de-parfum",
+"id": "gid://shopify/Product/16431141880195",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "02",
+"key": "p9",
+"handle": "mugler-alien-eau-de-parfum-refillable",
+"id": "gid://shopify/Product/16431141912963",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p0",
+"handle": "mugler-alien-goddess-supra-florale-eau-de-parfum",
+"id": "gid://shopify/Product/16431142142339",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p1",
+"handle": "mugler-alien-goddess-eau-de-parfum-gift-set-30ml-10ml",
+"id": "gid://shopify/Product/16431142175107",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p2",
+"handle": "mugler-alien-man-eau-de-toilette-body-shampoo-travel-set-100ml-50ml",
+"id": "gid://shopify/Product/16431142240643",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p3",
+"handle": "mugler-angel-eau-de-parfum-25ml",
+"id": "gid://shopify/Product/16431142273411",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p4",
+"handle": "mugler-angel-elixir-eau-de-parfum-refillable-star",
+"id": "gid://shopify/Product/16431142306179",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p5",
+"handle": "mugler-angel-nova-eau-de-toilette-50ml",
+"id": "gid://shopify/Product/16431142338947",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p6",
+"handle": "mugler-cologne-blow-it-up-eau-de-toilette-10ml",
+"id": "gid://shopify/Product/16431142371715",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p7",
+"handle": "mugler-cologne-fly-away-eau-de-toilette-10ml",
+"id": "gid://shopify/Product/16431142404483",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p8",
+"handle": "mugler-cologne-heal-your-mind-eau-de-toilette-10ml",
+"id": "gid://shopify/Product/16431142437251",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "03",
+"key": "p9",
+"handle": "mugler-cologne-love-you-all-eau-de-toilette-10ml",
+"id": "gid://shopify/Product/16431142470019",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p0",
+"handle": "mugler-les-exceptions-mystic-aromatic-eau-de-parfum-80ml",
+"id": "gid://shopify/Product/16431144108419",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p1",
+"handle": "mugler-les-exceptions-wonder-bouquet-eau-de-parfum-80ml",
+"id": "gid://shopify/Product/16431144173955",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p2",
+"handle": "narciso-rodriguez-for-her-eau-de-toilette",
+"id": "gid://shopify/Product/16431144206723",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p3",
+"handle": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml",
+"id": "gid://shopify/Product/16431144239491",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p4",
+"handle": "narciso-rodriguez-for-her-eau-de-parfum",
+"id": "gid://shopify/Product/16431144272259",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p5",
+"handle": "narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml",
+"id": "gid://shopify/Product/16431144337795",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p6",
+"handle": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum",
+"id": "gid://shopify/Product/16431144370563",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p7",
+"handle": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml",
+"id": "gid://shopify/Product/16431144403331",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p8",
+"handle": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml",
+"id": "gid://shopify/Product/16431144436099",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "04",
+"key": "p9",
+"handle": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml",
+"id": "gid://shopify/Product/16431144468867",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p0",
+"handle": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml",
+"id": "gid://shopify/Product/16431526150531",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p1",
+"handle": "paco-rabanne-womens-miniature-set-lady-million-olympea-fame-5ml-6ml-4ml-4ml",
+"id": "gid://shopify/Product/16431526216067",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p2",
+"handle": "paco-rabanne-1-million-eau-de-toilette-200ml",
+"id": "gid://shopify/Product/16431526281603",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p3",
+"handle": "paco-rabanne-fame-eau-de-parfum-refillable-80ml",
+"id": "gid://shopify/Product/16431526347139",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p4",
+"handle": "paco-rabanne-fame-eau-de-parfum-intense-30ml",
+"id": "gid://shopify/Product/16431526412675",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p5",
+"handle": "paco-rabanne-fame-eau-de-parfum-gift-set-50ml-10ml",
+"id": "gid://shopify/Product/16431526478211",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p6",
+"handle": "paco-rabanne-fame-eau-de-parfum-parfum-mini-set-4ml-4ml",
+"id": "gid://shopify/Product/16431526543747",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p7",
+"handle": "paco-rabanne-fame-parfum-10ml",
+"id": "gid://shopify/Product/16431526609283",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p8",
+"handle": "paco-rabanne-miniature-eau-de-parfum-set-8-x-2ml",
+"id": "gid://shopify/Product/16431526674819",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "05",
+"key": "p9",
+"handle": "paco-rabanne-invictus-eau-de-toilette-200ml",
+"id": "gid://shopify/Product/16431526740355",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p0",
+"handle": "paco-rabanne-invictus-eau-de-toilette-gift-set-200ml-10ml",
+"id": "gid://shopify/Product/16431528051075",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p1",
+"handle": "paco-rabanne-invictus-eau-de-toilette-deodorant-gift-set-100ml-150ml-10ml",
+"id": "gid://shopify/Product/16431528116611",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p2",
+"handle": "paco-rabanne-invictus-victory-eau-de-parfum-extreme-100ml",
+"id": "gid://shopify/Product/16431528149379",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p3",
+"handle": "paco-rabanne-lady-million-eau-de-parfum-15ml",
+"id": "gid://shopify/Product/16431528214915",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p4",
+"handle": "paco-rabanne-lady-million-royal-eau-de-parfum-30ml",
+"id": "gid://shopify/Product/16431528247683",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p5",
+"handle": "paco-rabanne-mens-miniature-set-phantom-invictus-1-million-elixir-1-million-4-x-5ml",
+"id": "gid://shopify/Product/16431528280451",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p6",
+"handle": "paco-rabanne-mens-miniature-eau-de-toilette-set-1-million-invictus-phantom-3-x-4ml",
+"id": "gid://shopify/Product/16431528313219",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p7",
+"handle": "paco-rabanne-olympea-flora-eau-de-parfum-intense-80ml",
+"id": "gid://shopify/Product/16431528345987",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p8",
+"handle": "paco-rabanne-phantom-parfum-deodorant-gift-set-100ml-150ml-10ml",
+"id": "gid://shopify/Product/16431528378755",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "06",
+"key": "p9",
+"handle": "paco-rabanne-phantom-eau-de-toilette-deodorant-gift-set-100ml-150ml-10ml",
+"id": "gid://shopify/Product/16431528411523",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p0",
+"handle": "paco-rabanne-phantom-parfum-15ml",
+"id": "gid://shopify/Product/16431529034115",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p1",
+"handle": "paco-rabanne-ultraviolet-eau-de-parfum-80ml",
+"id": "gid://shopify/Product/16431529066883",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p2",
+"handle": "paco-rabanne-xs-black-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431529099651",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p3",
+"handle": "paco-rabanne-miniature-eau-de-parfum-gift-set-4-x-10ml",
+"id": "gid://shopify/Product/16431529165187",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p4",
+"handle": "ralph-lauren-polo-cologne-intense-59ml",
+"id": "gid://shopify/Product/16431529197955",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p5",
+"handle": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml",
+"id": "gid://shopify/Product/16431529263491",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p6",
+"handle": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml",
+"id": "gid://shopify/Product/16431529296259",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p7",
+"handle": "ralph-lauren-polo-red-parfum-75ml",
+"id": "gid://shopify/Product/16431529329027",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p8",
+"handle": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431529361795",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "07",
+"key": "p9",
+"handle": "superdry-real-fragrance-02-feminin-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431529394563",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p0",
+"handle": "superdry-real-fragrance-02-masculin-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431529755011",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p1",
+"handle": "roberto-cavalli-florence-eau-de-parfum",
+"id": "gid://shopify/Product/16431529787779",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p2",
+"handle": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431529820547",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p3",
+"handle": "roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml",
+"id": "gid://shopify/Product/16431529886083",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p4",
+"handle": "roberto-cavalli-paradiso-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431529918851",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p5",
+"handle": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431529951619",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p6",
+"handle": "roberto-cavalli-uomo-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431529984387",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p7",
+"handle": "roberto-cavalli-uomo-parfum-100ml",
+"id": "gid://shopify/Product/16431530017155",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p8",
+"handle": "rochas-girl-life-eau-de-parfum-40ml",
+"id": "gid://shopify/Product/16431530049923",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "08",
+"key": "p9",
+"handle": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml",
+"id": "gid://shopify/Product/16431530082691",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p0",
+"handle": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml",
+"id": "gid://shopify/Product/16431676260739",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p1",
+"handle": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml",
+"id": "gid://shopify/Product/16431676359043",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p2",
+"handle": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431676424579",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p3",
+"handle": "salvatore-ferragamo-signorina-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431676457347",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p4",
+"handle": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431676522883",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p5",
+"handle": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431676588419",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p6",
+"handle": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum",
+"id": "gid://shopify/Product/16431676621187",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p7",
+"handle": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431676686723",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p8",
+"handle": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431676752259",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "09",
+"key": "p9",
+"handle": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431676785027",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p0",
+"handle": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680684419",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p1",
+"handle": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680749955",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p2",
+"handle": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680782723",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p3",
+"handle": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680848259",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p4",
+"handle": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680881027",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p5",
+"handle": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431680946563",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p6",
+"handle": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431681012099",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p7",
+"handle": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431681077635",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p8",
+"handle": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431681110403",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "10",
+"key": "p9",
+"handle": "salvatore-ferragamo-uomo-eau-de-toilette-100ml",
+"id": "gid://shopify/Product/16431681175939",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p0",
+"handle": "thomas-kosmala-exsupero-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431683830147",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p1",
+"handle": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431683895683",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p2",
+"handle": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431683961219",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p3",
+"handle": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml",
+"id": "gid://shopify/Product/16431684026755",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p4",
+"handle": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684092291",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p5",
+"handle": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684125059",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p6",
+"handle": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684190595",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p7",
+"handle": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684256131",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p8",
+"handle": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684288899",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "11",
+"key": "p9",
+"handle": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431684387203",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p0",
+"handle": "thomas-kosmala-star-chaser-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431695659395",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p1",
+"handle": "thomas-kosmala-wild-stride-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431695692163",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p2",
+"handle": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml",
+"id": "gid://shopify/Product/16431695790467",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p3",
+"handle": "versace-eros-eau-de-toilette-200ml",
+"id": "gid://shopify/Product/16431695823235",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p4",
+"handle": "versace-eros-parfum",
+"id": "gid://shopify/Product/16431695888771",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p5",
+"handle": "versace-eros-pour-femme-eau-de-parfum-100ml",
+"id": "gid://shopify/Product/16431695921539",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p6",
+"handle": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml",
+"id": "gid://shopify/Product/16431695987075",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p7",
+"handle": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml",
+"id": "gid://shopify/Product/16431696019843",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+},
+{
+"batch": "12",
+"key": "p8",
+"handle": "versace-yellow-diamond-eau-de-toilette-90ml",
+"id": "gid://shopify/Product/16431696085379",
+"status": "ACTIVE",
+"inv": 0,
+"userErrors": []
+}
+]
