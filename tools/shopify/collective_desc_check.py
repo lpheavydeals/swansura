@@ -5,7 +5,7 @@ argv[1] = facts json, argv[2..] = writer output files. Prints problems; exit 1 i
 import json, re, sys, html
 F = {f['id']: f for f in json.load(open(sys.argv[1]))}
 O = [o for p in sys.argv[2:] for o in json.load(open(p))]
-BAN = re.compile(r"wrinkle|fine line|ageing|aging|age-defying|youthful|ageless|collagen|firm(?:ing|er)\b|lift(?:ing|s)?\b|tighten|plump|repair|rebuild|restor|renew|rejuven|\bheal|sooth|\bcalm|inflamm|microbial|bacteri|acne|blemish|\bspots?\b|\bpores?\b|sebum|oil control|brighten|pigment|dark circle|puff|radian|\bglow(?:ing)?\b|boost|clinical|proven|guarantee|eczema|"
+BAN = re.compile(r"wrinkle|fine line|\bageing|\baging|anti-age|age-defying|youthful|ageless|collagen|firm(?:ing|er)\b|lift(?:ing|s)?\b|tighten|plump|repair|rebuild|restor|renew|rejuven|\bheal|sooth|\bcalm|inflamm|microbial|bacteri|acne|blemish|\bspots?\b|\bpores?\b|sebum|oil control|brighten|pigment|dark circle|puff|radian|\bglow(?:ing)?\b|boost|clinical|proven|guarantee|eczema|"
                  r"helps? you sleep|deeper sleep|restful|better sleep|quiet(?:s|en)? (?:the|your) mind|anxi|stress|overstimulat|\bmood|wellbeing|well-being|endurance|clarity|confidence|aromachology|science of scent|"
                  r"best-selling|bestselling|\bbest\b|most luxurious|ultimate|subscribe|customer|review|£", re.I)
 TAGS = {'p', 'h3', 'ul', 'li', 'a', 'strong', 'em', 'br'}
@@ -31,7 +31,7 @@ for o in O:
     for l in links:
         if l not in ok: errs.append(f'link not allowed {l}')
     if f.get('keyword'):
-        first = re.split(r'(?<=[.!?])\s', text.strip(), 1)[0].lower()
+        first = re.split(r'(?<=[.!?])\s', text.strip(), maxsplit=1)[0].lower()
         if f['keyword'] not in first: errs.append(f'keyword "{f["keyword"]}" not in first sentence')
     if errs:
         bad += 1; print('##', f['title'][:70]); [print('  -', e) for e in errs]
