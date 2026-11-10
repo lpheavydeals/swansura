@@ -35,6 +35,14 @@ for r in rows[1:]:
         price=g(r, 'Price (£)'), kw=kw, vol=g(r, 'Primary vol.') or 0, kd=g(r, 'Primary KD'), ease=g(r, 'Ease'),
         kw2=g(r, 'Secondary keyword'), vol2=g(r, 'Secondary vol.') or 0, ktype=ktype, checked=True))
 
+# 8 Nov fragrances: Semrush checked 10 Nov 2026 (screenshots)
+NOVKW = {p['handle']: p for p in json.load(open('docs/seo/semrush_nov8_batches_2026-11-10.json'))['products']}
+import csv as _csv
+NOVRES = {r['keyword']: dict(v=int(r['volume_uk'] or 0), kd=int(r['kd']) if r['kd'] else None)
+          for r in _csv.DictReader(open('docs/seo/semrush_nov8_results_2026-11-10.csv'))}
+def ease(v, kd):
+    if not v: return 'No volume'
+    return 'Easier' if (kd or 0) <= 29 else ('Medium' if kd <= 49 else 'Hard')
 # live products never checked in Semrush
 live = [p for f in sorted(glob.glob(sys.argv[1] + '/p*.json')) for p in json.load(open(f))['data']['products']['nodes']]
 OTHER_V = {'Highborn London', 'Shiseido', 'Swansura - The Body Studio', 'anatomē', 'Coach', 'Acqua di Parma'}
@@ -45,6 +53,13 @@ for p in live:
     row = dict(brand=v, product=t, size='', price=price, kw='', vol=None, kd=None, ease='', kw2='', vol2=None,
                ktype='', checked=False)
     if v in NOV8:
+        m = NOVKW.get(p['handle'])
+        if m:
+            k1, k2 = m['primary'], m['secondary']
+            r1, r2 = NOVRES.get(k1, {}), NOVRES.get(k2, {}) if k2 else {}
+            bw = re.sub(r'[^a-z]', '', v.lower())[:5]
+            row.update(kw=k1, vol=r1.get('v', 0), kd=r1.get('kd'), kw2=k2 or '', vol2=r2.get('v', 0) if k2 else None,
+                       ease=ease(r1.get('v', 0), r1.get('kd')), checked=True, ktype='Product / brand name (checked 10 Nov 2026)')
         tabs['Fragrances'].append(row)
     elif v in OTHER_V and NONFRAG.search(t) and not re.search(r'eau de|parfum|edp|edt', t, re.I):
         tabs['Others'].append(row)
@@ -77,8 +92,8 @@ lines = ['Swansura products ranked by Semrush UK search volume (10 Nov 2026)', '
          'Volumes: Semrush UK monthly searches, from the keyword research done for the website (18 Oct 2026) and the new perfumes (2 Nov 2026).',
          'Deyga and Vilvah: most products have no searches for their own name, so their main keyword is the general search the product page',
          'targets (e.g. "hair growth oil", "toner for dry skin"). The "Keyword type" column says which. Their second keyword is usually the brand name.',
-         'Grey rows at the bottom were never checked in Semrush: the 8 Nov 2026 fragrances and the "Others" products (Highborn London, anatomē', 
-         'wellbeing, Shiseido skincare, Swansura Selection skincare, body care). Prices are from the product sheet; La Maison is left out (removed from the store).', '']
+         'The 129 fragrances added 8 Nov 2026 were checked in Semrush on 10 Nov 2026 (current live price shown). Grey rows were never checked: the "Others" tab', 
+         '(Highborn London, anatomē wellbeing, Shiseido skincare, Swansura Selection skincare, body care). Prices are from the product sheet; La Maison is left out (removed from the store).', '']
 for l in lines: s.append([l])
 s.append(['Tab', 'Products', 'Checked in Semrush', 'With search volume', 'Not checked'])
 for row in summary: s.append(list(row))
