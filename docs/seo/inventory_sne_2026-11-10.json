@@ -3,14 +3,6 @@
  "location": "gid://shopify/Location/111879553411",
  "held": [
   [
-   "Guess Dare Eau de Toilette 100ml",
-   [
-    "guess dare (m) edt 100ml",
-    "guess dare (w) edt 100ml"
-   ],
-   "Wholesaler lists more than one version (men/women or several set rows); which one is yours?"
-  ],
-  [
    "Maison Alhambra Your Touch Eau de Parfum 100ml",
    [
     "maison alhambra your touch (m) edp 100ml",
@@ -4998,6 +4990,16 @@
    "after": 8,
    "matched_by": "reviewed",
    "supplier_rows": "yves saint laurent yvresse (w) edt 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200320848259",
+   "inventory_item": "gid://shopify/InventoryItem/65235001409923",
+   "title": "Guess Dare Eau de Toilette 100ml",
+   "option": "Default Title",
+   "before": 0,
+   "after": 10,
+   "matched_by": "held→women (listing photos/text)",
+   "supplier_rows": "guess dare (w) edt 100ml"
   }
  ]
 }
