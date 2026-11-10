@@ -1,0 +1,95 @@
+{
+ "note": "Gres cut-out gallery 10 Nov 2026: 6 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; boxes, flowers, fruit and splash kept). 6 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in gres_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431133262211": [
+   "gid://shopify/MediaImage/74755238822275",
+   "gid://shopify/MediaImage/74755238855043",
+   "gid://shopify/MediaImage/74755238887811"
+  ],
+  "gid://shopify/Product/16431133327747": [
+   "gid://shopify/MediaImage/74755239117187",
+   "gid://shopify/MediaImage/74755239149955",
+   "gid://shopify/MediaImage/74755239182723"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431133262211,
+   "handle": "gres-cabotine-turquoise-eau-de-parfum-100ml",
+   "vendor": "Gres",
+   "images": [
+    {
+     "file": "gres-cabotine-turquoise-eau-de-parfum-100ml-01.webp",
+     "in": "gres-cabotine-turquoise-eau-de-parfum-100ml-01.webp",
+     "alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with white Eau de Parfum 100ml box",
+     "pos": 1,
+     "media": 74755238822275,
+     "new_alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with white Eau de Parfum 100ml box",
+     "cut": "gres-cabotine-turquoise-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "gres-cabotine-turquoise-eau-de-parfum-100ml-02.webp",
+     "in": "gres-cabotine-turquoise-eau-de-parfum-100ml-02.webp",
+     "alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with turquoise flower cap on a white background",
+     "pos": 2,
+     "media": 74755238855043,
+     "new_alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with turquoise flower cap",
+     "cut": "gres-cabotine-turquoise-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "gres-cabotine-turquoise-eau-de-parfum-100ml-03.webp",
+     "in": "gres-cabotine-turquoise-eau-de-parfum-100ml-03.webp",
+     "alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with citrus, white flowers and water splash",
+     "pos": 3,
+     "media": 74755238887811,
+     "new_alt": "Grès Cabotine Turquoise Eau de Parfum 100ml – bottle with citrus, white flowers and water splash",
+     "cut": "gres-cabotine-turquoise-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431133327747,
+   "handle": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml",
+   "vendor": "Gres",
+   "images": [
+    {
+     "file": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-01.webp",
+     "in": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-01.webp",
+     "alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – gift box with eau de toilette 100ml and body lotion 200ml",
+     "pos": 1,
+     "media": 74755239117187,
+     "new_alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – gift box with eau de toilette 100ml and body lotion 200ml",
+     "cut": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-02.webp",
+     "in": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-02.webp",
+     "alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – eau de toilette bottle and body lotion tube",
+     "pos": 2,
+     "media": 74755239149955,
+     "new_alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – eau de toilette bottle and body lotion tube",
+     "cut": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-03.webp",
+     "in": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-03.webp",
+     "alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – bottle and body lotion with blossom, pear and peony",
+     "pos": 3,
+     "media": 74755239182723,
+     "new_alt": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml – bottle and body lotion with blossom, pear and peony",
+     "cut": "gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
