@@ -192,6 +192,12 @@ def final(root, slug):
     pick = {int(k): v for k, v in pk.get('pick', {}).items()}
     alts = {int(k): v for k, v in pk.get('alt', {}).items()}
     skip = set(pk.get('skip_products', []))
+    if (d / 'classify.json').exists():          # skincare: photos not classified 'cut' stay as they are ('keep')
+        cl = json.load(open(d / 'classify.json'))
+        cutset = {int(x) for x in cl['cut']}
+        for g0, im0 in photos(root, slug):
+            if im0['n'] not in cutset:
+                pick.setdefault(im0['n'], 'keep')
     if (d / 'final').exists():
         shutil.rmtree(d / 'final')
     (d / 'final').mkdir()
