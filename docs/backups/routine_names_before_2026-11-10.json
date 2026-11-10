@@ -1,0 +1,22 @@
+{
+ "note": "Routine renames 10 Nov 2026. Theme: draft 200625521027 page.rituals.json + index.json, names The Age-Defying Routine -> The Mature Skin Routine, The Hair Fall Rescue -> The Hair Care Routine. Menu sw-main items 834008220035 / 834008285571.",
+ "collection": {
+  "id": "gid://shopify/Collection/714068820355",
+  "handle": "concern-hairfall",
+  "metafield": "custom.seo_copy",
+  "before": "<p>A weekly massage with a hair oil is a traditional Indian ritual, and this edit gathers hair oils and kits from Deyga and Vilvah, from £9.99 to £36.99. Swansura is an official UK partner of both brands and ships every order from the UK. These are cosmetic products to nourish your scalp and hair; if you are worried about sudden hair loss, speak to your GP.</p><h3>Oils for the scalp</h3><p>Deyga Hair Growth Oil 100 ml blends coconut, amla, hibiscus, castor and fenugreek, so it covers anyone searching for an amla hair oil or a hibiscus hair oil in one bottle, at £14.99. Vilvah Hair Growth Oil is alcohol-free, with pumpkin seed, kalonji, castor and grapeseed oils, from £9.99. People often look for a hair oil for hair loss; these oils are made to nourish the scalp and lengths.</p><h3>Kits</h3><p>Deyga Hair Care Kit pairs a rice water shampoo with soy milk conditioner, and Deyga Hair Nourishment Kit, Vilvah Hair Strengthening Kit and Vilvah Bestseller Hair Kit put oil, wash and care steps together. If you are searching for a shampoo for hair loss, our <a href=\"/collections/shampoo-for-hair-loss\">shampoo for hair loss page</a> compares gentle cleansing options.</p><p>Our <a href=\"/collections/sets-combos\">Hair Fall Rescue routine</a> brings oil, wash and condition together, and you can see the rest in <a href=\"/collections/haircare\">Haircare</a>. Free UK delivery starts at £40.</p>",
+  "after": "<p>A weekly massage with a hair oil is a traditional Indian ritual, and this edit gathers hair oils and kits from Deyga and Vilvah, from £9.99 to £36.99. Swansura is an official UK partner of both brands and ships every order from the UK. These are cosmetic products to nourish your scalp and hair; if you are worried about sudden hair loss, speak to your GP.</p><h3>Oils for the scalp</h3><p>Deyga Hair Growth Oil 100 ml blends coconut, amla, hibiscus, castor and fenugreek, so it covers anyone searching for an amla hair oil or a hibiscus hair oil in one bottle, at £14.99. Vilvah Hair Growth Oil is alcohol-free, with pumpkin seed, kalonji, castor and grapeseed oils, from £9.99. People often look for a hair oil for hair loss; these oils are made to nourish the scalp and lengths.</p><h3>Kits</h3><p>Deyga Hair Care Kit pairs a rice water shampoo with soy milk conditioner, and Deyga Hair Nourishment Kit, Vilvah Hair Strengthening Kit and Vilvah Bestseller Hair Kit put oil, wash and care steps together. If you are searching for a shampoo for hair loss, our <a href=\"/collections/shampoo-for-hair-loss\">shampoo for hair loss page</a> compares gentle cleansing options.</p><p>Our <a href=\"/collections/sets-combos\">Hair Care Routine</a> brings oil, wash and condition together, and you can see the rest in <a href=\"/collections/haircare\">Haircare</a>. Free UK delivery starts at £40.</p>"
+ },
+ "menu": [
+  {
+   "id": "gid://shopify/MenuItem/834008220035",
+   "before": "Age-Defying Routine",
+   "after": "Mature Skin Routine"
+  },
+  {
+   "id": "gid://shopify/MenuItem/834008285571",
+   "before": "Hair Fall Rescue",
+   "after": "Hair Care Routine"
+  }
+ ]
+}
