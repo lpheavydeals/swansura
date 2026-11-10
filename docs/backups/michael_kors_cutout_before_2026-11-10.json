@@ -1,0 +1,95 @@
+{
+ "note": "Michael Kors cut-out gallery 10 Nov 2026: 6 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; fruit/flower props and the water splash kept). 6 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in michael_kors_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431141781891": [
+   "gid://shopify/MediaImage/74755238396291",
+   "gid://shopify/MediaImage/74755238429059",
+   "gid://shopify/MediaImage/74755238461827"
+  ],
+  "gid://shopify/Product/16431141814659": [
+   "gid://shopify/MediaImage/74755238920579",
+   "gid://shopify/MediaImage/74755238953347",
+   "gid://shopify/MediaImage/74755238986115"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431141781891,
+   "handle": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml",
+   "vendor": "Michael Kors",
+   "images": [
+    {
+     "file": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-01.webp",
+     "in": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-01.webp",
+     "alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature bottle on a white background",
+     "pos": 1,
+     "media": 74755238396291,
+     "new_alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature bottle",
+     "cut": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-02.webp",
+     "in": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-02.webp",
+     "alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature with its 5ml box",
+     "pos": 2,
+     "media": 74755238429059,
+     "new_alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature with its 5ml box",
+     "cut": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-03.webp",
+     "in": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-03.webp",
+     "alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature with mandarin, blackcurrant, rose and jasmine",
+     "pos": 3,
+     "media": 74755238461827,
+     "new_alt": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml – miniature with mandarin, blackcurrant, rose and jasmine",
+     "cut": "michael-kors-pour-femme-eau-de-parfum-miniature-5ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431141814659,
+   "handle": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml",
+   "vendor": "Michael Kors",
+   "images": [
+    {
+     "file": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-01.webp",
+     "in": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-01.webp",
+     "alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature bottle on a white background",
+     "pos": 1,
+     "media": 74755238920579,
+     "new_alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature bottle",
+     "cut": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-02.webp",
+     "in": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-02.webp",
+     "alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature with its black 5ml box",
+     "pos": 2,
+     "media": 74755238953347,
+     "new_alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature with its black 5ml box",
+     "cut": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-03.webp",
+     "in": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-03.webp",
+     "alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature with bergamot, lime, lavender and a water splash",
+     "pos": 3,
+     "media": 74755238986115,
+     "new_alt": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml – miniature with bergamot, lime, lavender and a water splash",
+     "cut": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
