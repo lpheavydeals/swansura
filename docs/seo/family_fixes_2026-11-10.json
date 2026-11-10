@@ -1,0 +1,192 @@
+[
+ {
+  "id": "gid://shopify/Product/16431526281603",
+  "handle": "paco-rabanne-1-million-eau-de-toilette-200ml",
+  "title": "Paco Rabanne 1 Million Eau de Toilette 200ml",
+  "family": [
+   "woody",
+   "amber"
+  ],
+  "why": "cinnamon, amber and leather read spicy amber",
+  "before": {
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":952,\"f\":\"woody\",\"w\":\"For him\",\"n\":null,\"a\":[\"A woody fragrance: Blood Mandarin, Grapefruit, Mint.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Toilette\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"paco-rabanne-invictus-eau-de-toilette-200ml\",\"paco-rabanne-invictus-eau-de-toilette-gift-set-200ml-10ml\",\"paco-rabanne-invictus-eau-de-toilette-deodorant-gift-set-100ml-150ml-10ml\",\"paco-rabanne-invictus-victory-eau-de-parfum-extreme-100ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}",
+   "scent": "scent-woody"
+  },
+  "input": {
+   "id": "gid://shopify/Product/16431526281603",
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 952, \"f\": \"amber\", \"w\": \"For him\", \"n\": null, \"a\": [\"An amber fragrance: Blood Mandarin, Grapefruit, Mint.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Amber family\", \"For men\", \"Eau de Toilette\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"paco-rabanne-invictus-eau-de-toilette-200ml\", \"paco-rabanne-invictus-eau-de-toilette-gift-set-200ml-10ml\", \"paco-rabanne-invictus-eau-de-toilette-deodorant-gift-set-100ml-150ml-10ml\", \"paco-rabanne-invictus-victory-eau-de-parfum-extreme-100ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+    }
+   ],
+   "collectionsToJoin": [
+    "gid://shopify/Collection/714071671171"
+   ],
+   "collectionsToLeave": [
+    "gid://shopify/Collection/714071736707"
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/16431529918851",
+  "handle": "roberto-cavalli-paradiso-eau-de-parfum-100ml",
+  "title": "Roberto Cavalli Paradiso Eau de Parfum 100ml",
+  "family": [
+   "floral",
+   "fresh"
+  ],
+  "why": "citrus over cypress, pine and laurel; jasmine is the only flower",
+  "before": {
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":984,\"f\":\"floral\",\"w\":\"For her\",\"n\":null,\"a\":[\"A floral fragrance: Citrus Notes, Mandarin Orange, Bergamot.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"roberto-cavalli-florence-eau-de-parfum\",\"roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml\",\"roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml\",\"roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}",
+   "scent": "scent-floral"
+  },
+  "input": {
+   "id": "gid://shopify/Product/16431529918851",
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 984, \"f\": \"fresh\", \"w\": \"For her\", \"n\": null, \"a\": [\"A fresh fragrance: Citrus Notes, Mandarin Orange, Bergamot.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Fresh family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"roberto-cavalli-florence-eau-de-parfum\", \"roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml\", \"roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml\", \"roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+    }
+   ],
+   "collectionsToJoin": [
+    "gid://shopify/Collection/714071769475"
+   ],
+   "collectionsToLeave": [
+    "gid://shopify/Collection/714071703939"
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/16431141814659",
+  "handle": "michael-kors-pour-homme-eau-de-parfum-miniature-5ml",
+  "title": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml",
+  "family": [
+   "woody",
+   "fresh"
+  ],
+  "why": "bergamot, lavender, sea water and sage: aromatic aquatic",
+  "before": {
+   "sw": "{\"t\":\"For him\",\"s\":[],\"c\":[],\"k\":false,\"r\":926,\"f\":\"woody\",\"w\":\"For him\",\"n\":null,\"a\":[\"A woody fragrance: Bergamot, Lavender, Pink Pepper.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Woody family\",\"For men\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"michael-kors-pour-femme-eau-de-parfum-miniature-5ml\"],\"kw\":[[\"Perfume for men\",\"/collections/perfume-for-men\"]]}",
+   "scent": "scent-woody"
+  },
+  "input": {
+   "id": "gid://shopify/Product/16431141814659",
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For him\", \"s\": [], \"c\": [], \"k\": false, \"r\": 926, \"f\": \"fresh\", \"w\": \"For him\", \"n\": null, \"a\": [\"A fresh fragrance: Bergamot, Lavender, Pink Pepper.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Fresh family\", \"For men\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"michael-kors-pour-femme-eau-de-parfum-miniature-5ml\"], \"kw\": [[\"Perfume for men\", \"/collections/perfume-for-men\"]]}"
+    }
+   ],
+   "collectionsToJoin": [
+    "gid://shopify/Collection/714071769475"
+   ],
+   "collectionsToLeave": [
+    "gid://shopify/Collection/714071736707"
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/16431142306179",
+  "handle": "mugler-angel-elixir-eau-de-parfum-refillable-star",
+  "title": "Mugler Angel Elixir Eau de Parfum Refillable Star",
+  "family": [
+   "floral",
+   "amber"
+  ],
+  "why": "Bourbon vanilla + amber base: amber floral",
+  "before": {
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":934,\"f\":\"floral\",\"w\":\"For her\",\"n\":null,\"a\":[\"A floral fragrance: Pink Pepper.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Floral family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"mugler-alien-eau-de-parfum-refillable\",\"mugler-alien-goddess-supra-florale-eau-de-parfum\",\"mugler-alien-goddess-eau-de-parfum-gift-set-30ml-10ml\",\"mugler-angel-eau-de-parfum-25ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}",
+   "scent": "scent-floral"
+  },
+  "input": {
+   "id": "gid://shopify/Product/16431142306179",
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 934, \"f\": \"amber\", \"w\": \"For her\", \"n\": null, \"a\": [\"An amber fragrance: Pink Pepper.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Amber family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"mugler-alien-eau-de-parfum-refillable\", \"mugler-alien-goddess-supra-florale-eau-de-parfum\", \"mugler-alien-goddess-eau-de-parfum-gift-set-30ml-10ml\", \"mugler-angel-eau-de-parfum-25ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+    }
+   ],
+   "collectionsToJoin": [
+    "gid://shopify/Collection/714071671171"
+   ],
+   "collectionsToLeave": [
+    "gid://shopify/Collection/714071703939"
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/16431695921539",
+  "handle": "versace-eros-pour-femme-eau-de-parfum-100ml",
+  "title": "Versace Eros Pour Femme Eau de Parfum 100ml",
+  "family": [
+   "fresh",
+   "floral"
+  ],
+  "why": "jasmine sambac, peony, lemon flower; the 5ml miniature is already floral",
+  "before": {
+   "sw": "{\"t\":\"For her\",\"s\":[],\"c\":[],\"k\":false,\"r\":1025,\"f\":\"fresh\",\"w\":\"For her\",\"n\":null,\"a\":[\"A fresh fragrance: Sicilian Lemon, Calabrian Bergamot, Pomegranate.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"\",\"more\":false,\"chips\":[\"Fresh family\",\"For women\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"versace-eros-pour-femme-eau-de-toilette-miniature-5ml\",\"versace-yellow-diamond-eau-de-toilette-90ml\",\"versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml\",\"versace-eros-eau-de-toilette-200ml\"],\"kw\":[[\"Perfume for women\",\"/collections/perfume-for-women\"]]}",
+   "scent": "scent-fresh"
+  },
+  "input": {
+   "id": "gid://shopify/Product/16431695921539",
+   "metafields": [
+    {
+     "namespace": "custom",
+     "key": "sw",
+     "type": "json",
+     "value": "{\"t\": \"For her\", \"s\": [], \"c\": [], \"k\": false, \"r\": 1025, \"f\": \"floral\", \"w\": \"For her\", \"n\": null, \"a\": [\"A floral fragrance: Sicilian Lemon, Calabrian Bergamot, Pomegranate.\"]}"
+    },
+    {
+     "namespace": "custom",
+     "key": "pdp",
+     "type": "json",
+     "value": "{\"cat\": \"fragrance\", \"ben\": \"\", \"more\": false, \"chips\": [\"Floral family\", \"For women\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"versace-eros-pour-femme-eau-de-toilette-miniature-5ml\", \"versace-yellow-diamond-eau-de-toilette-90ml\", \"versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml\", \"versace-eros-eau-de-toilette-200ml\"], \"kw\": [[\"Perfume for women\", \"/collections/perfume-for-women\"]]}"
+    }
+   ],
+   "collectionsToJoin": [
+    "gid://shopify/Collection/714071703939"
+   ],
+   "collectionsToLeave": [
+    "gid://shopify/Collection/714071769475"
+   ]
+  }
+ }
+]

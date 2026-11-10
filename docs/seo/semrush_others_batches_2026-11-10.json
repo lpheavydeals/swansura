@@ -1,0 +1,340 @@
+{
+ "batches": [
+  [
+   "highborn london",
+   "highborn london skincare",
+   "anatome",
+   "anatome sleep",
+   "shiseido",
+   "shiseido skincare",
+   "coach perfume",
+   "acqua di parma",
+   "24k gold face mask",
+   "24k gold hydrating face mask",
+   "gold face mask",
+   "acqua di parma colonia essenza deodorant",
+   "acqua di parma deodorant stick",
+   "highborn bakuchiol youth elixir",
+   "bakuchiol serum",
+   "anatome bath and shower oil",
+   "frankincense bath oil",
+   "anatome chamomile bath oil",
+   "lavender bath oil",
+   "anatome botanical balm",
+   "botanical balm",
+   "caviar serum 24k gold",
+   "caviar serum",
+   "highborn cleanse and tone",
+   "cleanser and toner set",
+   "coach green shower gel",
+   "coach green",
+   "highborn crystal cleanser",
+   "luxury face cleanser",
+   "highborn diamond toner",
+   "diamond toner",
+   "highborn four phase day and night",
+   "day and night skincare set",
+   "highborn glowguard spf30",
+   "moisturiser with spf 30",
+   "anatome face oil",
+   "rosehip face oil",
+   "highborn imperial eye gel",
+   "eye gel",
+   "highborn imperial moisturiser",
+   "luxury moisturiser",
+   "highborn moistureburst serum",
+   "ceramide serum",
+   "highborn luminosity body butter",
+   "luxury body butter",
+   "highborn luminosity scrub",
+   "natural body scrub",
+   "highborn night elixir",
+   "night elixir",
+   "highborn age defying facial oil",
+   "organic facial oil",
+   "highborn organic hydration gel",
+   "hydrating gel moisturiser",
+   "highborn pre eminent beauty serum",
+   "beauty serum",
+   "anatome bath salts",
+   "chamomile bath salts",
+   "highborn revive and defy",
+   "skincare starter set",
+   "highborn scrub and glow set",
+   "body scrub gift set",
+   "highborn seven phase collection",
+   "luxury skincare set",
+   "shiseido complete cleansing microfoam",
+   "shiseido cleanser",
+   "shiseido ultimune",
+   "shiseido ultimune power infusing concentrate",
+   "anatome sleep oil",
+   "sleep oil",
+   "anatome sleep oil chamomile",
+   "lavender sleep oil",
+   "anatome pillow spray",
+   "pillow spray",
+   "anatome frankincense pillow spray",
+   "sleep pillow spray",
+   "highborn superior lip butter",
+   "lip butter",
+   "highborn lip butter",
+   "anatome gift of good sleep",
+   "sleep gift set",
+   "anatome little gift of good sleep",
+   "sleep gift",
+   "highborn ultimate day and night moisture set",
+   "moisturiser gift set",
+   "highborn youthboost serum",
+   "peptide serum"
+  ]
+ ],
+ "brand_terms": [
+  "highborn london",
+  "highborn london skincare",
+  "anatome",
+  "anatome sleep",
+  "shiseido",
+  "shiseido skincare",
+  "coach perfume",
+  "acqua di parma",
+  "24k gold face mask"
+ ],
+ "products": [
+  {
+   "title": "24K Gold Hydrating Face Mask",
+   "brand": "Swansura Selection",
+   "primary": "24k gold hydrating face mask",
+   "secondary": "gold face mask"
+  },
+  {
+   "title": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml",
+   "brand": "Acqua di Parma",
+   "primary": "acqua di parma colonia essenza deodorant",
+   "secondary": "acqua di parma deodorant stick"
+  },
+  {
+   "title": "Bakuchiol Youth Elixir",
+   "brand": "Highborn London",
+   "primary": "highborn bakuchiol youth elixir",
+   "secondary": "bakuchiol serum"
+  },
+  {
+   "title": "Bath & Shower Oil Somali Frankincense",
+   "brand": "anatomē",
+   "primary": "anatome bath and shower oil",
+   "secondary": "frankincense bath oil"
+  },
+  {
+   "title": "Bath & Shower Oil with Roman Chamomile & Cornish Lavender",
+   "brand": "anatomē",
+   "primary": "anatome chamomile bath oil",
+   "secondary": "lavender bath oil"
+  },
+  {
+   "title": "Botanical Balm",
+   "brand": "anatomē",
+   "primary": "anatome botanical balm",
+   "secondary": "botanical balm"
+  },
+  {
+   "title": "Caviar Serum with 24K Gold",
+   "brand": "Swansura Selection",
+   "primary": "caviar serum 24k gold",
+   "secondary": "caviar serum"
+  },
+  {
+   "title": "Cleanse and Tone Pack",
+   "brand": "Highborn London",
+   "primary": "highborn cleanse and tone",
+   "secondary": "cleanser and toner set"
+  },
+  {
+   "title": "Coach Green Shower Gel 100ml",
+   "brand": "Coach",
+   "primary": "coach green shower gel",
+   "secondary": "coach green"
+  },
+  {
+   "title": "Crystal Cleanser (100ml)",
+   "brand": "Highborn London",
+   "primary": "highborn crystal cleanser",
+   "secondary": "luxury face cleanser"
+  },
+  {
+   "title": "Diamond Toner (100ml)",
+   "brand": "Highborn London",
+   "primary": "highborn diamond toner",
+   "secondary": "diamond toner"
+  },
+  {
+   "title": "Four Phase Day and Night",
+   "brand": "Highborn London",
+   "primary": "highborn four phase day and night",
+   "secondary": "day and night skincare set"
+  },
+  {
+   "title": "GLOWGUARD SPF30 Anti-Ageing Moisturiser",
+   "brand": "Highborn London",
+   "primary": "highborn glowguard spf30",
+   "secondary": "moisturiser with spf 30"
+  },
+  {
+   "title": "Illuminating Rose-hip, Grape Seed & Avocado Face Oil",
+   "brand": "anatomē",
+   "primary": "anatome face oil",
+   "secondary": "rosehip face oil"
+  },
+  {
+   "title": "Imperial Eye Gel",
+   "brand": "Highborn London",
+   "primary": "highborn imperial eye gel",
+   "secondary": "eye gel"
+  },
+  {
+   "title": "Imperial Moisturiser",
+   "brand": "Highborn London",
+   "primary": "highborn imperial moisturiser",
+   "secondary": "luxury moisturiser"
+  },
+  {
+   "title": "MOISTUREBURST Hydrating Glow Ceramide Serum",
+   "brand": "Highborn London",
+   "primary": "highborn moistureburst serum",
+   "secondary": "ceramide serum"
+  },
+  {
+   "title": "Natural Luminosity Body Butter",
+   "brand": "Highborn London",
+   "primary": "highborn luminosity body butter",
+   "secondary": "luxury body butter"
+  },
+  {
+   "title": "Natural Luminosity Scrub",
+   "brand": "Highborn London",
+   "primary": "highborn luminosity scrub",
+   "secondary": "natural body scrub"
+  },
+  {
+   "title": "Night Elixir",
+   "brand": "Highborn London",
+   "primary": "highborn night elixir",
+   "secondary": "night elixir"
+  },
+  {
+   "title": "Organic Age-Defying Facial Oil",
+   "brand": "Highborn London",
+   "primary": "highborn age defying facial oil",
+   "secondary": "organic facial oil"
+  },
+  {
+   "title": "Organic Hydration Gel",
+   "brand": "Highborn London",
+   "primary": "highborn organic hydration gel",
+   "secondary": "hydrating gel moisturiser"
+  },
+  {
+   "title": "Pre-Eminent Beauty Serum",
+   "brand": "Highborn London",
+   "primary": "highborn pre eminent beauty serum",
+   "secondary": "beauty serum"
+  },
+  {
+   "title": "Relax + Sleep Chamomile Bath Salts",
+   "brand": "anatomē",
+   "primary": "anatome bath salts",
+   "secondary": "chamomile bath salts"
+  },
+  {
+   "title": "Revive and Defy Starter Set",
+   "brand": "Highborn London",
+   "primary": "highborn revive and defy",
+   "secondary": "skincare starter set"
+  },
+  {
+   "title": "Scrub and Glow Luminosity Set",
+   "brand": "Highborn London",
+   "primary": "highborn scrub and glow set",
+   "secondary": "body scrub gift set"
+  },
+  {
+   "title": "Seven Phase Collection",
+   "brand": "Highborn London",
+   "primary": "highborn seven phase collection",
+   "secondary": "luxury skincare set"
+  },
+  {
+   "title": "Shiseido Complete Cleansing Microfoam 180ml",
+   "brand": "Shiseido",
+   "primary": "shiseido complete cleansing microfoam",
+   "secondary": "shiseido cleanser"
+  },
+  {
+   "title": "Shiseido Ultimune Power Infusing Concentrate 30ml",
+   "brand": "Shiseido",
+   "primary": "shiseido ultimune",
+   "secondary": "shiseido ultimune power infusing concentrate"
+  },
+  {
+   "title": "Sleep Oil for an Overactive Mind | Somali Frankincense",
+   "brand": "anatomē",
+   "primary": "anatome sleep oil",
+   "secondary": "sleep oil"
+  },
+  {
+   "title": "Sleep Oil for Restless Sleep | Roman Chamomile & Cornish Lavender",
+   "brand": "anatomē",
+   "primary": "anatome sleep oil chamomile",
+   "secondary": "lavender sleep oil"
+  },
+  {
+   "title": "Sleep Pillow Spray | Roman Chamomile",
+   "brand": "anatomē",
+   "primary": "anatome pillow spray",
+   "secondary": "pillow spray"
+  },
+  {
+   "title": "Somali Frankincense Sleep Pillow Spray | Overactive Mind",
+   "brand": "anatomē",
+   "primary": "anatome frankincense pillow spray",
+   "secondary": "sleep pillow spray"
+  },
+  {
+   "title": "Superior Lip Butter (15ml)",
+   "brand": "Highborn London",
+   "primary": "highborn superior lip butter",
+   "secondary": "lip butter"
+  },
+  {
+   "title": "Superior Lip Butter (Large 50ml)",
+   "brand": "Highborn London",
+   "primary": "highborn lip butter",
+   "secondary": "lip butter"
+  },
+  {
+   "title": "The Gift of Good Sleep | Somali Frankincense",
+   "brand": "anatomē",
+   "primary": "anatome gift of good sleep",
+   "secondary": "sleep gift set"
+  },
+  {
+   "title": "The Little Gift of Good Sleep - Frankincense | Overactive Mind",
+   "brand": "anatomē",
+   "primary": "anatome little gift of good sleep",
+   "secondary": "sleep gift"
+  },
+  {
+   "title": "Ultimate Day & Night Moisture Set",
+   "brand": "Highborn London",
+   "primary": "highborn ultimate day and night moisture set",
+   "secondary": "moisturiser gift set"
+  },
+  {
+   "title": "YOUTHBOOST Anti-Ageing Peptide Serum",
+   "brand": "Highborn London",
+   "primary": "highborn youthboost serum",
+   "secondary": "peptide serum"
+  }
+ ],
+ "already_checked": []
+}
