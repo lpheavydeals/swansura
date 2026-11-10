@@ -1,0 +1,128 @@
+{
+ "note": "Moschino cut-out gallery 10 Nov 2026: 9 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; props and the black splash kept). 9 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in moschino_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431141847427": [
+   "gid://shopify/MediaImage/74755239018883",
+   "gid://shopify/MediaImage/74755239051651",
+   "gid://shopify/MediaImage/74755239084419"
+  ],
+  "gid://shopify/Product/16431141880195": [
+   "gid://shopify/MediaImage/74755239870851",
+   "gid://shopify/MediaImage/74755239903619",
+   "gid://shopify/MediaImage/74755239936387",
+   "gid://shopify/MediaImage/74755239969155",
+   "gid://shopify/MediaImage/74755240001923",
+   "gid://shopify/MediaImage/74755240034691"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431141847427,
+   "handle": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml",
+   "vendor": "Moschino",
+   "images": [
+    {
+     "file": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-01.webp",
+     "in": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-01.webp",
+     "alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature bottle on a white background",
+     "pos": 1,
+     "media": 74755239018883,
+     "new_alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature bottle",
+     "cut": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-02.webp",
+     "in": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-02.webp",
+     "alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature with its 4.9ml box",
+     "pos": 2,
+     "media": 74755239051651,
+     "new_alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature with its 4.9ml box",
+     "cut": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-03.webp",
+     "in": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-03.webp",
+     "alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature with grapefruit, orange, lemon, redcurrants and sugar cane",
+     "pos": 3,
+     "media": 74755239084419,
+     "new_alt": "Moschino I Love Love Eau de Toilette Miniature 4.9ml – miniature with grapefruit, orange, lemon, redcurrants and sugar cane",
+     "cut": "moschino-i-love-love-eau-de-toilette-miniature-4-9ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431141880195,
+   "handle": "moschino-toy-boy-eau-de-parfum",
+   "vendor": "Moschino",
+   "images": [
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-01.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-01.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – teddy bear bottle on a white background",
+     "pos": 1,
+     "media": 74755239870851,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – teddy bear bottle",
+     "cut": "moschino-toy-boy-eau-de-parfum-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-02.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-02.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – 100ml bottle with its black box",
+     "pos": 2,
+     "media": 74755239903619,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – 100ml bottle with its black box",
+     "cut": "moschino-toy-boy-eau-de-parfum-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-03.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-03.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – 5ml miniature with its black box",
+     "pos": 3,
+     "media": 74755239936387,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – 5ml miniature with its black box",
+     "cut": "moschino-toy-boy-eau-de-parfum-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-04.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-04.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – bottle with pear, bergamot, pink pepper and nutmeg",
+     "pos": 4,
+     "media": 74755239969155,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – bottle with pear, bergamot, pink pepper and nutmeg",
+     "cut": "moschino-toy-boy-eau-de-parfum-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-05.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-05.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – bottle in a black liquid splash",
+     "pos": 5,
+     "media": 74755240001923,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – bottle in a black liquid splash",
+     "cut": "moschino-toy-boy-eau-de-parfum-05-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "moschino-toy-boy-eau-de-parfum-06.webp",
+     "in": "moschino-toy-boy-eau-de-parfum-06.webp",
+     "alt": "Moschino Toy Boy Eau de Parfum – bottle with pear, bergamot, nutmeg and pink pepper, side view",
+     "pos": 6,
+     "media": 74755240034691,
+     "new_alt": "Moschino Toy Boy Eau de Parfum – bottle with pear, bergamot, nutmeg and pink pepper, side view",
+     "cut": "moschino-toy-boy-eau-de-parfum-06-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
