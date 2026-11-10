@@ -1,0 +1,302 @@
+{
+ "note": "Lalique cut-out gallery 10 Nov 2026: 28 cut-outs (<handle>-NN-cutout.webp, birefnet-general-lite) added; originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/lalique_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "detached": {
+  "gid://shopify/Product/16431139094915": [
+   "gid://shopify/MediaImage/74755235250563",
+   "gid://shopify/MediaImage/74755235283331",
+   "gid://shopify/MediaImage/74755235316099"
+  ],
+  "gid://shopify/Product/16431139193219": [
+   "gid://shopify/MediaImage/74755235479939",
+   "gid://shopify/MediaImage/74755235512707",
+   "gid://shopify/MediaImage/74755235545475"
+  ],
+  "gid://shopify/Product/16431139258755": [
+   "gid://shopify/MediaImage/74755235742083",
+   "gid://shopify/MediaImage/74755235774851",
+   "gid://shopify/MediaImage/74755235807619"
+  ],
+  "gid://shopify/Product/16431139389827": [
+   "gid://shopify/MediaImage/74755235840387",
+   "gid://shopify/MediaImage/74755235873155",
+   "gid://shopify/MediaImage/74755235905923"
+  ],
+  "gid://shopify/Product/16431139455363": [
+   "gid://shopify/MediaImage/74755236233603",
+   "gid://shopify/MediaImage/74755236266371",
+   "gid://shopify/MediaImage/74755236299139"
+  ],
+  "gid://shopify/Product/16431141618051": [
+   "gid://shopify/MediaImage/74755236823427",
+   "gid://shopify/MediaImage/74755236856195",
+   "gid://shopify/MediaImage/74755236888963"
+  ],
+  "gid://shopify/Product/16431141650819": [
+   "gid://shopify/MediaImage/74755237085571",
+   "gid://shopify/MediaImage/74755237118339",
+   "gid://shopify/MediaImage/74755237151107"
+  ],
+  "gid://shopify/Product/16431141683587": [
+   "gid://shopify/MediaImage/74755237511555",
+   "gid://shopify/MediaImage/74755237544323",
+   "gid://shopify/MediaImage/74755237577091"
+  ],
+  "gid://shopify/Product/16431141716355": [
+   "gid://shopify/MediaImage/74755237839235",
+   "gid://shopify/MediaImage/74755237872003",
+   "gid://shopify/MediaImage/74755237904771",
+   "gid://shopify/MediaImage/74755237937539"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431139094915,
+   "handle": "lalique-amethyst-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-amethyst-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-amethyst-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Amethyst Eau de Parfum 100ml – bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-amethyst-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-amethyst-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Amethyst Eau de Parfum 100ml – bottle with its purple 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-amethyst-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-amethyst-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Amethyst Eau de Parfum 100ml – bottle with blackberries, blueberries and blackcurrants",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431139193219,
+   "handle": "lalique-amethyst-eclat-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-amethyst-eclat-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-amethyst-eclat-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Amethyst Éclat Eau de Parfum 100ml – bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-amethyst-eclat-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-amethyst-eclat-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Amethyst Éclat Eau de Parfum 100ml – bottle with its white 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-amethyst-eclat-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-amethyst-eclat-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Amethyst Éclat Eau de Parfum 100ml – bottle with roses, peony, pear and red berries",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431139258755,
+   "handle": "lalique-de-lalique-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-de-lalique-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-de-lalique-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique de Lalique Eau de Parfum 100ml – bottle with leaf-pattern stopper on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-de-lalique-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-de-lalique-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique de Lalique Eau de Parfum 100ml – bottle with its white 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-de-lalique-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-de-lalique-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique de Lalique Eau de Parfum 100ml – bottle with white flowers, rose and cloves",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431139291523,
+   "handle": "lalique-hommage-a-lhomme-eau-de-toilette-shower-gel-gift-set-100ml-150ml",
+   "vendor": "Lalique",
+   "images": []
+  },
+  {
+   "id": 16431139389827,
+   "handle": "lalique-lamour-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-lamour-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-lamour-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique L'Amour Eau de Parfum 100ml – bottle with black tassel on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-lamour-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-lamour-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique L'Amour Eau de Parfum 100ml – bottle tilted, close-up of the cap and tassel",
+     "pos": 2
+    },
+    {
+     "file": "lalique-lamour-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-lamour-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique L'Amour Eau de Parfum 100ml – bottle with roses, white flowers and lime",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431139455363,
+   "handle": "lalique-le-parfum-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-le-parfum-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-le-parfum-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Le Parfum Eau de Parfum 100ml – bottle with red tassel on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-le-parfum-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-le-parfum-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Le Parfum Eau de Parfum 100ml – bottle with its red 100ml box and cap",
+     "pos": 2
+    },
+    {
+     "file": "lalique-le-parfum-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-le-parfum-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Le Parfum Eau de Parfum 100ml – bottle with lavender, almonds, pink pepper and bergamot",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431139488131,
+   "handle": "lalique-linsoumis-eau-de-toilette-100ml",
+   "vendor": "Lalique",
+   "images": []
+  },
+  {
+   "id": 16431139586435,
+   "handle": "lalique-lion-eau-de-parfum-125ml",
+   "vendor": "Lalique",
+   "images": []
+  },
+  {
+   "id": 16431141618051,
+   "handle": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Noir Premier Or Intemporel 1888 Eau de Parfum 100ml – gold bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Noir Premier Or Intemporel 1888 Eau de Parfum 100ml – bottle with its gold and black 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Noir Premier Or Intemporel 1888 Eau de Parfum 100ml – bottle with tobacco leaves, nutmeg, cardamom and bergamot",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431141650819,
+   "handle": "lalique-perles-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-perles-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-perles-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Perles Eau de Parfum 100ml – bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-perles-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-perles-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Perles Eau de Parfum 100ml – bottle with its white 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-perles-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-perles-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Perles Eau de Parfum 100ml – bottle with iris flowers, pink pepper and powder",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431141683587,
+   "handle": "lalique-satine-eau-de-parfum-100ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-satine-eau-de-parfum-100ml-01.webp",
+     "in": "lalique-satine-eau-de-parfum-100ml-01.webp",
+     "alt": "Lalique Satine Eau de Parfum 100ml – round pink bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-satine-eau-de-parfum-100ml-02.webp",
+     "in": "lalique-satine-eau-de-parfum-100ml-02.webp",
+     "alt": "Lalique Satine Eau de Parfum 100ml – bottle with its pink and white 100ml box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-satine-eau-de-parfum-100ml-03.webp",
+     "in": "lalique-satine-eau-de-parfum-100ml-03.webp",
+     "alt": "Lalique Satine Eau de Parfum 100ml – bottle with white flowers and lavender",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431141716355,
+   "handle": "lalique-white-eau-de-toilette-125ml",
+   "vendor": "Lalique",
+   "images": [
+    {
+     "file": "lalique-white-eau-de-toilette-125ml-01.webp",
+     "in": "lalique-white-eau-de-toilette-125ml-01.webp",
+     "alt": "Lalique White Eau de Toilette 125ml – bottle front view on a white background",
+     "pos": 1
+    },
+    {
+     "file": "lalique-white-eau-de-toilette-125ml-02.webp",
+     "in": "lalique-white-eau-de-toilette-125ml-02.webp",
+     "alt": "Lalique White Eau de Toilette 125ml – bottle with its white box",
+     "pos": 2
+    },
+    {
+     "file": "lalique-white-eau-de-toilette-125ml-03.webp",
+     "in": "lalique-white-eau-de-toilette-125ml-03.webp",
+     "alt": "Lalique White Eau de Toilette 125ml – bottle at an angle",
+     "pos": 3
+    },
+    {
+     "file": "lalique-white-eau-de-toilette-125ml-04.webp",
+     "in": "lalique-white-eau-de-toilette-125ml-04.webp",
+     "alt": "Lalique White Eau de Toilette 125ml – bottle with lemon, bergamot, tonka beans and resin",
+     "pos": 4
+    }
+   ]
+  }
+ ]
+}
