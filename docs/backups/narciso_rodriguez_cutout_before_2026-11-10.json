@@ -1,0 +1,349 @@
+{
+ "note": "Narciso Rodriguez cut-out gallery 10 Nov 2026: 29 cut-outs (<handle>-NN-cutout.webp) added; birefnet-general-lite except picks (isnet). Originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/narciso_rodriguez_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "picks": {
+  "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-01.webp": "isnet"
+ },
+ "detached": {
+  "gid://shopify/Product/16431144239491": [
+   "gid://shopify/MediaImage/74755258548611",
+   "gid://shopify/MediaImage/74755258581379",
+   "gid://shopify/MediaImage/74755258614147"
+  ],
+  "gid://shopify/Product/16431144272259": [
+   "gid://shopify/MediaImage/74755258319235",
+   "gid://shopify/MediaImage/74755258352003",
+   "gid://shopify/MediaImage/74755258384771",
+   "gid://shopify/MediaImage/74755258417539",
+   "gid://shopify/MediaImage/74755258450307",
+   "gid://shopify/MediaImage/74755258483075"
+  ],
+  "gid://shopify/Product/16431144337795": [
+   "gid://shopify/MediaImage/74755259203971"
+  ],
+  "gid://shopify/Product/16431144370563": [
+   "gid://shopify/MediaImage/74755259236739",
+   "gid://shopify/MediaImage/74755259269507",
+   "gid://shopify/MediaImage/74755259302275",
+   "gid://shopify/MediaImage/74755259335043",
+   "gid://shopify/MediaImage/74755259367811",
+   "gid://shopify/MediaImage/74755259400579"
+  ],
+  "gid://shopify/Product/16431144403331": [
+   "gid://shopify/MediaImage/74755259597187",
+   "gid://shopify/MediaImage/74755259629955",
+   "gid://shopify/MediaImage/74755259662723"
+  ],
+  "gid://shopify/Product/16431144436099": [
+   "gid://shopify/MediaImage/74755348365699",
+   "gid://shopify/MediaImage/74755348398467",
+   "gid://shopify/MediaImage/74755348431235"
+  ],
+  "gid://shopify/Product/16431144468867": [
+   "gid://shopify/MediaImage/74755348955523",
+   "gid://shopify/MediaImage/74755348988291",
+   "gid://shopify/MediaImage/74755349021059"
+  ],
+  "gid://shopify/Product/16431526150531": [
+   "gid://shopify/MediaImage/74755349315971",
+   "gid://shopify/MediaImage/74755349348739",
+   "gid://shopify/MediaImage/74755349381507",
+   "gid://shopify/MediaImage/74755349414275"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431144206723,
+   "handle": "narciso-rodriguez-for-her-eau-de-toilette",
+   "vendor": "Narciso Rodriguez",
+   "images": []
+  },
+  {
+   "id": 16431144239491,
+   "handle": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-01.webp",
+     "in": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-01.webp",
+     "alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle beside its 90ml box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle beside its 90ml box",
+     "cut": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-02.webp",
+     "in": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-02.webp",
+     "alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle",
+     "cut": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-03.webp",
+     "in": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-03.webp",
+     "alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle with magnolia, rose and geranium",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez All of Me Eau de Parfum 90ml – bottle with magnolia, rose and geranium",
+     "cut": "narciso-rodriguez-all-of-me-eau-de-parfum-90ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144272259,
+   "handle": "narciso-rodriguez-for-her-eau-de-parfum",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-01.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-01.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml bottle beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml bottle beside its box",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-02.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-02.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml pink bottle on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml pink bottle",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-03.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-03.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray beside its box",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray beside its box",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-03-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-04.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-04.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray on a white background",
+     "pos": 4,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-04-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-05.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-05.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray with rose and peach",
+     "pos": 5,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 10ml purse spray with rose and peach",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-05-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-for-her-eau-de-parfum-06.webp",
+     "in": "narciso-rodriguez-for-her-eau-de-parfum-06.webp",
+     "alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml bottle with rose, peach and orange blossom",
+     "pos": 6,
+     "new_alt": "Narciso Rodriguez For Her Eau de Parfum – 50ml bottle with rose, peach and orange blossom",
+     "cut": "narciso-rodriguez-for-her-eau-de-parfum-06-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144337795,
+   "handle": "narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml-01.webp",
+     "in": "narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml-01.webp",
+     "alt": "Narciso Rodriguez For Him Bleu Noir Eau de Toilette 50ml – 50ml bottle beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez For Him Bleu Noir Eau de Toilette 50ml – 50ml bottle beside its box",
+     "cut": "narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml-01-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144370563,
+   "handle": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-01.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-01.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle beside its box",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-02.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-02.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-03.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-03.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray beside its box",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray beside its box",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-03-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-04.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-04.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray on a white background",
+     "pos": 4,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-04-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-05.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-05.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle with plum, white flowers and suede",
+     "pos": 5,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 50ml bottle with plum, white flowers and suede",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-05-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-06.webp",
+     "in": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-06.webp",
+     "alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray with plum, lilac and suede",
+     "pos": 6,
+     "new_alt": "Narciso Rodriguez Musc Noir For Her Eau de Parfum – 10ml purse spray with plum, lilac and suede",
+     "cut": "narciso-rodriguez-musc-noir-for-her-eau-de-parfum-06-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144403331,
+   "handle": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-01.webp",
+     "in": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-01.webp",
+     "alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "cut": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-02.webp",
+     "in": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-02.webp",
+     "alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – purse spray on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – purse spray",
+     "cut": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-03.webp",
+     "in": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-03.webp",
+     "alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – purse spray with plum, rose, vanilla and bergamot",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml – purse spray with plum, rose, vanilla and bergamot",
+     "cut": "narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144436099,
+   "handle": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-01.webp",
+     "in": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-01.webp",
+     "alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "cut": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-02.webp",
+     "in": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-02.webp",
+     "alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – purse spray on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – purse spray",
+     "cut": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-03.webp",
+     "in": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-03.webp",
+     "alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – purse spray with white flowers, vanilla, amber and wood",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml – purse spray with white flowers, vanilla, amber and wood",
+     "cut": "narciso-rodriguez-narciso-ambree-eau-de-parfum-10ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431144468867,
+   "handle": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-01.webp",
+     "in": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-01.webp",
+     "alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – 10ml purse spray beside its box",
+     "cut": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-02.webp",
+     "in": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-02.webp",
+     "alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – purse spray on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – purse spray",
+     "cut": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-03.webp",
+     "in": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-03.webp",
+     "alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – purse spray with roses, white flowers and cotton",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml – purse spray with roses and white flowers",
+     "cut": "narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431526150531,
+   "handle": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml",
+   "vendor": "Narciso Rodriguez",
+   "images": [
+    {
+     "file": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-01.webp",
+     "in": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-01.webp",
+     "alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – 10ml purse spray beside its upright box",
+     "pos": 1,
+     "new_alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – 10ml purse spray beside its upright box",
+     "cut": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-01-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-02.webp",
+     "in": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-02.webp",
+     "alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray on a white background",
+     "pos": 2,
+     "new_alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray",
+     "cut": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-02-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-03.webp",
+     "in": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-03.webp",
+     "alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray behind its box lying flat",
+     "pos": 3,
+     "new_alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray behind its box lying flat",
+     "cut": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-03-cutout.webp"
+    },
+    {
+     "file": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-04.webp",
+     "in": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-04.webp",
+     "alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray with white flowers and driftwood",
+     "pos": 4,
+     "new_alt": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml – purse spray with white flowers and driftwood",
+     "cut": "narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml-04-cutout.webp"
+    }
+   ]
+  }
+ ]
+}
