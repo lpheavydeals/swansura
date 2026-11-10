@@ -1,0 +1,320 @@
+{
+ "note": "Issey Miyake cut-out gallery 10 Nov 2026: 24 cut-outs (<handle>-NN-cutout.webp) added; birefnet-general-lite except picks below (isnet / flood). Originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/issey_miyake_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "picks": {
+  "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-01.webp": "isnet",
+  "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-03.webp": "flood",
+  "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-01.webp": "isnet",
+  "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-04.webp": "isnet",
+  "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-01.webp": "isnet"
+ },
+ "detached": {
+  "gid://shopify/Product/16431133360515": [
+   "gid://shopify/MediaImage/74755256254851",
+   "gid://shopify/MediaImage/74755256287619",
+   "gid://shopify/MediaImage/74755256320387",
+   "gid://shopify/MediaImage/74755256353155"
+  ],
+  "gid://shopify/Product/16431133426051": [
+   "gid://shopify/MediaImage/74755257139587",
+   "gid://shopify/MediaImage/74755257172355",
+   "gid://shopify/MediaImage/74755257205123"
+  ],
+  "gid://shopify/Product/16431133557123": [
+   "gid://shopify/MediaImage/74755257368963",
+   "gid://shopify/MediaImage/74755257401731",
+   "gid://shopify/MediaImage/74755257434499",
+   "gid://shopify/MediaImage/74755257467267"
+  ],
+  "gid://shopify/Product/16431133622659": [
+   "gid://shopify/MediaImage/74755257532803",
+   "gid://shopify/MediaImage/74755257565571",
+   "gid://shopify/MediaImage/74755257598339",
+   "gid://shopify/MediaImage/74755257631107",
+   "gid://shopify/MediaImage/74755257663875"
+  ],
+  "gid://shopify/Product/16431133720963": [
+   "gid://shopify/MediaImage/74755257729411",
+   "gid://shopify/MediaImage/74755257762179",
+   "gid://shopify/MediaImage/74755257794947",
+   "gid://shopify/MediaImage/74755257827715",
+   "gid://shopify/MediaImage/74755257860483"
+  ],
+  "gid://shopify/Product/16431138931075": [
+   "gid://shopify/MediaImage/74755258155395",
+   "gid://shopify/MediaImage/74755258188163",
+   "gid://shopify/MediaImage/74755258220931"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431133360515,
+   "handle": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-01.webp",
+     "in": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-01.webp",
+     "alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – round bottle on a white background",
+     "pos": 1,
+     "media_id": 87658272686467,
+     "new_alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – round bottle",
+     "cut": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-02.webp",
+     "in": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-02.webp",
+     "alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle beside its box",
+     "pos": 2,
+     "media_id": 87658272719235,
+     "new_alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle beside its box",
+     "cut": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-03.webp",
+     "in": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-03.webp",
+     "alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle on a clear acrylic stand",
+     "pos": 3,
+     "media_id": 87658272752003,
+     "new_alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle on a clear acrylic stand",
+     "cut": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-03-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-04.webp",
+     "in": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-04.webp",
+     "alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle with rose, lilac, wood and a water splash",
+     "pos": 4,
+     "media_id": 87658272784771,
+     "new_alt": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml – bottle with rose, lilac and wood",
+     "cut": "issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml-04-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431133426051,
+   "handle": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-01.webp",
+     "in": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-01.webp",
+     "alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – 10ml travel spray on a white background",
+     "pos": 1,
+     "media_id": 87658273538435,
+     "new_alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – 10ml travel spray",
+     "cut": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-02.webp",
+     "in": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-02.webp",
+     "alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – travel spray beside its eau de toilette box",
+     "pos": 2,
+     "media_id": 87658273571203,
+     "new_alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – travel spray beside its eau de toilette box",
+     "cut": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-03.webp",
+     "in": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-03.webp",
+     "alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – travel spray with ginger, seaweed, wood and sea salt",
+     "pos": 3,
+     "media_id": 87658273603971,
+     "new_alt": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml – travel spray with ginger, seaweed, wood and sea salt",
+     "cut": "issey-miyake-le-sel-dissey-eau-de-toilette-10ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431133491587,
+   "handle": "issey-miyake-leau-dissey-eau-de-toilette-50ml",
+   "vendor": "Issey Miyake",
+   "images": []
+  },
+  {
+   "id": 16431133557123,
+   "handle": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-01.webp",
+     "in": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-01.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle beside its 100ml box",
+     "pos": 1,
+     "media_id": 87658273636739,
+     "new_alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle beside its 100ml box",
+     "cut": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-02.webp",
+     "in": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-02.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle with wooden cap on a white background",
+     "pos": 2,
+     "media_id": 87658273669507,
+     "new_alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle with wooden cap",
+     "cut": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-03.webp",
+     "in": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-03.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle beside its 50ml box",
+     "pos": 3,
+     "media_id": 87658273702275,
+     "new_alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle beside its 50ml box",
+     "cut": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-03-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-04.webp",
+     "in": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-04.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle with magnolia flower, bergamot and wood",
+     "pos": 4,
+     "media_id": 87658273735043,
+     "new_alt": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense – bottle with magnolia flower, bergamot and wood",
+     "cut": "issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense-04-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431133622659,
+   "handle": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-01.webp",
+     "in": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-01.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle beside its 125ml box",
+     "pos": 1,
+     "media_id": 87658273800579,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle beside its 125ml box",
+     "cut": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-02.webp",
+     "in": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-02.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle on a white background",
+     "pos": 2,
+     "media_id": 87658273833347,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle",
+     "cut": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-03.webp",
+     "in": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-03.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle with a water splash",
+     "pos": 3,
+     "media_id": 87658273866115,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle with a water splash",
+     "cut": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-03-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-04.webp",
+     "in": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-04.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle on driftwood with a nutmeg",
+     "pos": 4,
+     "media_id": 87658273898883,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle on driftwood with a nutmeg",
+     "cut": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-04-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-05.webp",
+     "in": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-05.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle with lemon, yuzu, bergamot, mandarin and cypress",
+     "pos": 5,
+     "media_id": 87658273931651,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette – bottle with lemon, yuzu, bergamot, mandarin and cypress",
+     "cut": "issey-miyake-leau-dissey-pour-homme-eau-de-toilette-05-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431133655427,
+   "handle": "issey-miyake-leau-dissey-pour-homme-wood-wood-eau-de-parfum-intense",
+   "vendor": "Issey Miyake",
+   "images": []
+  },
+  {
+   "id": 16431133720963,
+   "handle": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-01.webp",
+     "in": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-01.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle beside its 90ml box",
+     "pos": 1,
+     "media_id": 87658274128259,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle beside its 90ml box",
+     "cut": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-02.webp",
+     "in": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-02.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle on a white background",
+     "pos": 2,
+     "media_id": 87658274161027,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle",
+     "cut": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-03.webp",
+     "in": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-03.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with pear, rose and flowers",
+     "pos": 3,
+     "media_id": 87658274193795,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with pear, rose and flowers",
+     "cut": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-03-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-04.webp",
+     "in": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-04.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with pear, honeycomb, rose and wood",
+     "pos": 4,
+     "media_id": 87658274226563,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with pear, honeycomb, rose and wood",
+     "cut": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-04-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-05.webp",
+     "in": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-05.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with a white flower",
+     "pos": 5,
+     "media_id": 87658274259331,
+     "new_alt": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml – bottle with a white flower",
+     "cut": "issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml-05-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431138931075,
+   "handle": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml",
+   "vendor": "Issey Miyake",
+   "images": [
+    {
+     "file": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-01.webp",
+     "in": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-01.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle beside its 90ml box",
+     "pos": 1,
+     "media_id": 87658274292099,
+     "new_alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle beside its 90ml box",
+     "cut": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-01-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-02.webp",
+     "in": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-02.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle on a white background",
+     "pos": 2,
+     "media_id": 87658274324867,
+     "new_alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle",
+     "cut": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-02-cutout.webp"
+    },
+    {
+     "file": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-03.webp",
+     "in": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-03.webp",
+     "alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle with rose, pear and raspberries",
+     "pos": 3,
+     "media_id": 87658274357635,
+     "new_alt": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml – bottle with rose, pear and raspberries",
+     "cut": "issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml-03-cutout.webp"
+    }
+   ]
+  }
+ ]
+}
