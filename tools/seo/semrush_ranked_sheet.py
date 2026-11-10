@@ -13,7 +13,7 @@ from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
 SRC = 'seo/Swansura_Product_SEO_Merged_2026-11-02.xlsx'
-OUT = 'docs/seo/Swansura_Products_by_Search_Volume_2026-11-10.xlsx'
+OUT = 'docs/seo/Swansura_Products_by_Search_Volume_FINAL_2026-11-10.xlsx'
 REMOVED = {'La Maison'}  # brand deleted from the store 6 Nov 2026
 NOV8 = set(json.load(open('docs/seo/sheet_nov8_products_2026-11-08.json')) and
            [p['brand'] for p in json.load(open('docs/seo/sheet_nov8_products_2026-11-08.json'))])
@@ -33,7 +33,7 @@ for r in rows[1:]:
     ktype = 'Product / brand name' if bw and bw in re.sub(r'[^a-z]', '', kw.lower()) else 'General search term (shared with a collection page)'
     tabs[tab].append(dict(brand=brand, product=g(r, 'FINAL H1') or g(r, 'Product name (sheet)'), size=g(r, 'Size'),
         price=g(r, 'Price (£)'), kw=kw, vol=g(r, 'Primary vol.') or 0, kd=g(r, 'Primary KD'), ease=g(r, 'Ease'),
-        kw2=g(r, 'Secondary keyword'), vol2=g(r, 'Secondary vol.') or 0, ktype=ktype, checked=True))
+        kw2=g(r, 'Secondary keyword'), vol2=g(r, 'Secondary vol.') or 0, ktype=ktype, checked=True, added='Before 8 Nov'))
 
 # 8 Nov fragrances: Semrush checked 10 Nov 2026 (screenshots)
 NOVKW = {p['handle']: p for p in json.load(open('docs/seo/semrush_nov8_batches_2026-11-10.json'))['products']}
@@ -51,7 +51,7 @@ for p in live:
     v = p['vendor']; t = p['title']
     price = min(float(x['price']) for x in p['variants']['nodes'])
     row = dict(brand=v, product=t, size='', price=price, kw='', vol=None, kd=None, ease='', kw2='', vol2=None,
-               ktype='', checked=False)
+               ktype='', checked=False, added='8 Nov 2026' if v in NOV8 else 'Before 8 Nov', handle=p['handle'])
     if v in NOV8:
         m = NOVKW.get(p['handle'])
         if m:
@@ -66,9 +66,11 @@ for p in live:
 
 wb = openpyxl.Workbook(); wb.remove(wb.active)
 cols = ['Rank', 'Brand', 'Product', 'Size', 'Price £', 'Main keyword', 'UK searches / month', 'Keyword difficulty (KD)',
-        'Ease', 'Second keyword', 'Second keyword searches / month', 'Keyword type']
-hdr = PatternFill('solid', fgColor='1B4D3E'); grey = PatternFill('solid', fgColor='EEEEEE')
+        'Ease', 'Second keyword', 'Second keyword searches / month', 'Keyword type', 'Added to store']
+hdr = PatternFill('solid', fgColor='1B4D3E'); grey = PatternFill('solid', fgColor='EEEEEE'); newfill = PatternFill('solid', fgColor='E4EEE9')
+tabs['New 8 Nov (129)'] = None
 summary = []
+tabs['New 8 Nov (129)'] = [dict(x) for x in tabs['Fragrances'] if x['added'] == '8 Nov 2026']
 for name, items in tabs.items():
     items.sort(key=lambda x: (not x['checked'], -(x['vol'] or 0), -(x['vol2'] or 0), str(x['product']).lower()))
     sh = wb.create_sheet(name); sh.append(cols)
@@ -77,18 +79,20 @@ for name, items in tabs.items():
     for n, x in enumerate(items, 1):
         if x['checked']:
             sh.append([n, x['brand'], x['product'], x['size'], x['price'], x['kw'], x['vol'], x['kd'], x['ease'],
-                       x['kw2'], x['vol2'], x['ktype']])
+                       x['kw2'], x['vol2'], x['ktype'], x['added']])
+            if x['added'] == '8 Nov 2026':
+                for c in sh[sh.max_row]: c.fill = newfill
         else:
-            sh.append([n, x['brand'], x['product'], x['size'], x['price'], '', 'Not checked in Semrush', '', '', '', '', ''])
+            sh.append([n, x['brand'], x['product'], x['size'], x['price'], '', 'Not checked in Semrush', '', '', '', '', '', x['added']])
             for c in sh[sh.max_row]: c.fill = grey
-    for i, w in enumerate([6, 18, 60, 10, 9, 38, 14, 12, 9, 30, 14, 34], 1):
+    for i, w in enumerate([6, 18, 60, 10, 9, 38, 14, 12, 9, 30, 14, 34, 14], 1):
         sh.column_dimensions[get_column_letter(i)].width = w
     sh.freeze_panes = 'D2'; sh.auto_filter.ref = sh.dimensions
     chk = [x for x in items if x['checked']]
     summary.append((name, len(items), len(chk), sum(1 for x in chk if x['vol']), len(items) - len(chk)))
 s = wb.create_sheet('Read me', 0)
 lines = ['Swansura products ranked by Semrush UK search volume (10 Nov 2026)', '',
-         'Tabs: 1 Deyga, 2 Vilvah, 3 Fragrances, 4 Others. Rank 1 = most searched main keyword; ties ranked by the second keyword.',
+         'Tabs: 1 Deyga, 2 Vilvah, 3 Fragrances (the 129 added 8 Nov 2026 are in light green), 4 Others, 5 New 8 Nov (129) = those 129 ranked on their own. Rank 1 = most searched main keyword; ties ranked by the second keyword.',
          'Volumes: Semrush UK monthly searches, from the keyword research done for the website (18 Oct 2026) and the new perfumes (2 Nov 2026).',
          'Deyga and Vilvah: most products have no searches for their own name, so their main keyword is the general search the product page',
          'targets (e.g. "hair growth oil", "toner for dry skin"). The "Keyword type" column says which. Their second keyword is usually the brand name.',
