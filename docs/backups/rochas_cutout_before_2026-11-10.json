@@ -1,0 +1,53 @@
+{
+ "note": "Rochas cut-out gallery 10 Nov 2026: 3 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; box and flower/fruit props kept). 3 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in rochas_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431530049923": [
+   "gid://shopify/MediaImage/74755411247491",
+   "gid://shopify/MediaImage/74755411280259",
+   "gid://shopify/MediaImage/74755411313027"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431530049923,
+   "handle": "rochas-girl-life-eau-de-parfum-40ml",
+   "vendor": "Rochas",
+   "images": [
+    {
+     "file": "rochas-girl-life-eau-de-parfum-40ml-01.webp",
+     "in": "rochas-girl-life-eau-de-parfum-40ml-01.webp",
+     "alt": "Rochas Girl Life Eau de Parfum 40ml – bottle with lilac Eau de Parfum 40ml box",
+     "pos": 1,
+     "media": 74755411247491,
+     "new_alt": "Rochas Girl Life Eau de Parfum 40ml – bottle with lilac Eau de Parfum 40ml box",
+     "cut": "rochas-girl-life-eau-de-parfum-40ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "rochas-girl-life-eau-de-parfum-40ml-02.webp",
+     "in": "rochas-girl-life-eau-de-parfum-40ml-02.webp",
+     "alt": "Rochas Girl Life Eau de Parfum 40ml – lilac bottle on a white background",
+     "pos": 2,
+     "media": 74755411280259,
+     "new_alt": "Rochas Girl Life Eau de Parfum 40ml – lilac bottle",
+     "cut": "rochas-girl-life-eau-de-parfum-40ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "rochas-girl-life-eau-de-parfum-40ml-03.webp",
+     "in": "rochas-girl-life-eau-de-parfum-40ml-03.webp",
+     "alt": "Rochas Girl Life Eau de Parfum 40ml – bottle with orange, blackcurrant, rose and white flowers",
+     "pos": 3,
+     "media": 74755411313027,
+     "new_alt": "Rochas Girl Life Eau de Parfum 40ml – bottle with orange, blackcurrant, rose and white flowers",
+     "cut": "rochas-girl-life-eau-de-parfum-40ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
