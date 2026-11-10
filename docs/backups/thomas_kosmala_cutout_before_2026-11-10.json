@@ -1,0 +1,584 @@
+{
+ "note": "Thomas Kosmala cut-out gallery 10 Nov 2026: 45 cut-outs (<handle>-NN-cutout.webp) added; birefnet-general-lite except picks (flood fill: Bukhoor 04 smoke; isnet: Star Chaser 04 white fabric). Exsupero photo 04 (printed scarf) has no cut-out: birefnet dropped the scarf (copy of photo 2) and flood fill left hard straight edges, so it was left out (original in the backup folder). Originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/thomas_kosmala_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "picks": {
+  "picks": {
+   "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-04.webp": "flood",
+   "thomas-kosmala-star-chaser-eau-de-parfum-100ml-04.webp": "isnet"
+  },
+  "dropped": [
+   "thomas-kosmala-exsupero-eau-de-parfum-100ml-04.webp"
+  ]
+ },
+ "detached": {
+  "gid://shopify/Product/16431683830147": [
+   "gid://shopify/MediaImage/74755437494659",
+   "gid://shopify/MediaImage/74755437527427",
+   "gid://shopify/MediaImage/74755437560195",
+   "gid://shopify/MediaImage/74755437592963"
+  ],
+  "gid://shopify/Product/16431683895683": [
+   "gid://shopify/MediaImage/74755437920643",
+   "gid://shopify/MediaImage/74755437953411",
+   "gid://shopify/MediaImage/74755437986179",
+   "gid://shopify/MediaImage/74755438018947"
+  ],
+  "gid://shopify/Product/16431683961219": [
+   "gid://shopify/MediaImage/74755438313859",
+   "gid://shopify/MediaImage/74755438346627",
+   "gid://shopify/MediaImage/74755438379395",
+   "gid://shopify/MediaImage/74755438412163"
+  ],
+  "gid://shopify/Product/16431684026755": [
+   "gid://shopify/MediaImage/74755438739843",
+   "gid://shopify/MediaImage/74755438772611",
+   "gid://shopify/MediaImage/74755438805379",
+   "gid://shopify/MediaImage/74755438838147"
+  ],
+  "gid://shopify/Product/16431684092291": [
+   "gid://shopify/MediaImage/74755439001987",
+   "gid://shopify/MediaImage/74755439034755",
+   "gid://shopify/MediaImage/74755439067523",
+   "gid://shopify/MediaImage/74755439100291"
+  ],
+  "gid://shopify/Product/16431684125059": [
+   "gid://shopify/MediaImage/74755439657347",
+   "gid://shopify/MediaImage/74755439690115",
+   "gid://shopify/MediaImage/74755439722883",
+   "gid://shopify/MediaImage/74755439755651",
+   "gid://shopify/MediaImage/74755439788419"
+  ],
+  "gid://shopify/Product/16431684190595": [
+   "gid://shopify/MediaImage/74755439821187",
+   "gid://shopify/MediaImage/74755439853955",
+   "gid://shopify/MediaImage/74755439886723"
+  ],
+  "gid://shopify/Product/16431684256131": [
+   "gid://shopify/MediaImage/74755440148867",
+   "gid://shopify/MediaImage/74755440181635",
+   "gid://shopify/MediaImage/74755440214403",
+   "gid://shopify/MediaImage/74755440247171"
+  ],
+  "gid://shopify/Product/16431684288899": [
+   "gid://shopify/MediaImage/74755440607619",
+   "gid://shopify/MediaImage/74755440640387",
+   "gid://shopify/MediaImage/74755440673155",
+   "gid://shopify/MediaImage/74755440705923"
+  ],
+  "gid://shopify/Product/16431684387203": [
+   "gid://shopify/MediaImage/74755440869763",
+   "gid://shopify/MediaImage/74755440902531",
+   "gid://shopify/MediaImage/74755440935299"
+  ],
+  "gid://shopify/Product/16431695659395": [
+   "gid://shopify/MediaImage/74755441099139",
+   "gid://shopify/MediaImage/74755441131907",
+   "gid://shopify/MediaImage/74755441164675",
+   "gid://shopify/MediaImage/74755441197443"
+  ],
+  "gid://shopify/Product/16431695692163": [
+   "gid://shopify/MediaImage/74755441492355",
+   "gid://shopify/MediaImage/74755441525123",
+   "gid://shopify/MediaImage/74755441557891"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431683830147,
+   "handle": "thomas-kosmala-exsupero-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-exsupero-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-exsupero-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle beside its patterned Exsupero box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle beside its patterned Exsupero box",
+     "cut": "thomas-kosmala-exsupero-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-exsupero-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-exsupero-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-exsupero-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-exsupero-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-exsupero-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle with orange, pink peppercorns and roots",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle with orange, pink peppercorns and roots",
+     "cut": "thomas-kosmala-exsupero-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-exsupero-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-exsupero-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle on a printed Exsupero scarf",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala Exsupero Eau de Parfum 100ml – bottle on a printed Exsupero scarf",
+     "cut": "thomas-kosmala-exsupero-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": true
+    }
+   ]
+  },
+  {
+   "id": 16431683895683,
+   "handle": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle beside its white box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle beside its white box",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle with a 13 cm height guide",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle with a 13 cm height guide",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle with blackcurrants, vanilla, peach, coconut and rose",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml – bottle with blackcurrants, vanilla, peach, coconut and rose",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431683961219,
+   "handle": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle beside its white Elixir de Parfum box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle beside its white Elixir de Parfum box",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle in its open box with tissue paper",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle in its open box with tissue paper",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle with amber, cinnamon, pepper and leaves",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml – bottle with amber, cinnamon, pepper and leaves",
+     "cut": "thomas-kosmala-no-10-desire-du-coeur-elixir-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684026755,
+   "handle": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-01.webp",
+     "in": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-01.webp",
+     "alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – 30ml eau de parfum and 30ml hair mist beside the travel kit box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – 30ml eau de parfum and 30ml hair mist beside the travel kit box",
+     "cut": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-02.webp",
+     "in": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-02.webp",
+     "alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – eau de parfum and hair mist bottles on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – eau de parfum and hair mist bottles",
+     "cut": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-03.webp",
+     "in": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-03.webp",
+     "alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – both bottles in front of the travel kit box",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – both bottles in front of the travel kit box",
+     "cut": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-04.webp",
+     "in": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-04.webp",
+     "alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – both bottles with orange, lemon and spices",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml – both bottles with orange, lemon and spices",
+     "cut": "thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684092291,
+   "handle": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle beside its Candy box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle beside its Candy box",
+     "cut": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with pink cap on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with pink cap",
+     "cut": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with berries and white flowers",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with berries and white flowers",
+     "cut": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with marshmallows and sweets",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml – bottle with marshmallows and sweets",
+     "cut": "thomas-kosmala-no-4-candy-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684125059,
+   "handle": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle beside its black Neon box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle beside its black Neon box",
+     "cut": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle with yellow cap on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle with yellow cap",
+     "cut": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle leaning on its box",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle leaning on its box",
+     "cut": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle with citrus, melon and mango",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle with citrus, melon and mango",
+     "cut": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-05.webp",
+     "in": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-05.webp",
+     "alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle on iridescent film",
+     "pos": 5,
+     "new_alt": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml – bottle on iridescent film",
+     "cut": "thomas-kosmala-no-4-neon-eau-de-parfum-100ml-05-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684190595,
+   "handle": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – green bottle beside its green and orange box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – green bottle beside its green and orange box",
+     "cut": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – green bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – green bottle",
+     "cut": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – bottle with grapefruit, pineapple and agave leaves",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml – bottle with grapefruit, pineapple and agave leaves",
+     "cut": "thomas-kosmala-no-4-sport-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684256131,
+   "handle": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle beside its black box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle beside its black box",
+     "cut": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle beside its open black box with the cap off",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle beside its open black box with the cap off",
+     "cut": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle with wood, resin and smoke",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml – bottle with wood, resin and smoke",
+     "cut": "thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684288899,
+   "handle": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle beside its black box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle beside its black box",
+     "cut": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle with gold cap on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle with gold cap",
+     "cut": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle lying beside its gold cap",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle lying beside its gold cap",
+     "cut": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle with white roses, lime and white flowers",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml – bottle with white roses, lime and white flowers",
+     "cut": "thomas-kosmala-no-1-a-never-ending-love-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431684387203,
+   "handle": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle beside its white No. 12 box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle beside its white No. 12 box",
+     "cut": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle with rose, saffron flower, wood and resin",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml – bottle with rose, saffron flower, wood and resin",
+     "cut": "thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431695659395,
+   "handle": "thomas-kosmala-star-chaser-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle beside its patterned Star Chaser box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle beside its patterned Star Chaser box",
+     "cut": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle with green apple, white flowers and wood",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle with green apple, white flowers and wood",
+     "cut": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-04.webp",
+     "in": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-04.webp",
+     "alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle lying on white fabric with white flowers",
+     "pos": 4,
+     "new_alt": "Thomas Kosmala Star Chaser Eau de Parfum 100ml – bottle lying on white fabric with white flowers",
+     "cut": "thomas-kosmala-star-chaser-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431695692163,
+   "handle": "thomas-kosmala-wild-stride-eau-de-parfum-100ml",
+   "vendor": "Thomas Kosmala",
+   "images": [
+    {
+     "file": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-01.webp",
+     "in": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-01.webp",
+     "alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle beside its patterned Wild Stride box",
+     "pos": 1,
+     "new_alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle beside its patterned Wild Stride box",
+     "cut": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-02.webp",
+     "in": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-02.webp",
+     "alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle",
+     "cut": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-03.webp",
+     "in": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-03.webp",
+     "alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle with bergamot, lime, pineapple and wood",
+     "pos": 3,
+     "new_alt": "Thomas Kosmala Wild Stride Eau de Parfum 100ml – bottle with bergamot, lime, pineapple and wood",
+     "cut": "thomas-kosmala-wild-stride-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
