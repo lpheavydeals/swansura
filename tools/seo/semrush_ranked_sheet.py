@@ -40,6 +40,9 @@ NOVKW = {p['handle']: p for p in json.load(open('docs/seo/semrush_nov8_batches_2
 import csv as _csv
 NOVRES = {r['keyword']: dict(v=int(r['volume_uk'] or 0), kd=int(r['kd']) if r['kd'] else None)
           for r in _csv.DictReader(open('docs/seo/semrush_nov8_results_2026-11-10.csv'))}
+OTH = json.load(open('docs/seo/semrush_others_batches_2026-11-10.json'))['products']
+OTHRES = {r['keyword']: dict(v=int(r['volume_uk'] or 0), kd=int(r['kd']) if r['kd'] else None)
+          for r in _csv.DictReader(open('docs/seo/semrush_others_results_2026-11-10.csv'))}
 def ease(v, kd):
     if not v: return 'No volume'
     return 'Easier' if (kd or 0) <= 29 else ('Medium' if kd <= 49 else 'Hard')
@@ -62,6 +65,14 @@ for p in live:
                        ease=ease(r1.get('v', 0), r1.get('kd')), checked=True, ktype='Product / brand name (checked 10 Nov 2026)')
         tabs['Fragrances'].append(row)
     elif v in OTHER_V and NONFRAG.search(t) and not re.search(r'eau de|parfum|edp|edt', t, re.I):
+        # Others: Semrush checked 10 Nov 2026 (tools/keywords/others_prompts.py); main keyword = the busier of the two
+        tok = lambda x: set(re.findall(r'[a-z0-9]+', x.lower()))
+        m = next((o for o in OTH if tok(o['title']) <= tok(t)), None)
+        if m:
+            a, b = (m['primary'], OTHRES[m['primary']]), (m['secondary'], OTHRES[m['secondary']])
+            if b[1]['v'] > a[1]['v']: a, b = b, a
+            row.update(kw=a[0], vol=a[1]['v'], kd=a[1]['kd'], kw2=b[0], vol2=b[1]['v'], ease=ease(a[1]['v'], a[1]['kd']), checked=True,
+                       ktype=('Product / brand name' if re.search(r'highborn|anatome|shiseido|coach|acqua|caviar serum 24k', a[0]) else 'General search term') + ' (checked 10 Nov 2026)')
         tabs['Others'].append(row)
 
 wb = openpyxl.Workbook(); wb.remove(wb.active)
@@ -96,8 +107,8 @@ lines = ['Swansura products ranked by Semrush UK search volume (10 Nov 2026)', '
          'Volumes: Semrush UK monthly searches, from the keyword research done for the website (18 Oct 2026) and the new perfumes (2 Nov 2026).',
          'Deyga and Vilvah: most products have no searches for their own name, so their main keyword is the general search the product page',
          'targets (e.g. "hair growth oil", "toner for dry skin"). The "Keyword type" column says which. Their second keyword is usually the brand name.',
-         'The 129 fragrances added 8 Nov 2026 were checked in Semrush on 10 Nov 2026 (current live price shown). Grey rows were never checked: the "Others" tab', 
-         '(Highborn London, anatomē wellbeing, Shiseido skincare, Swansura Selection skincare, body care). Prices are from the product sheet; La Maison is left out (removed from the store).', '']
+         'The 129 fragrances added 8 Nov 2026 and the 39 "Others" (Highborn London, anatomē wellbeing, Shiseido skincare, Swansura Selection skincare, body care)', 
+         'were checked in Semrush on 10 Nov 2026 (current live price shown). Others: main keyword = the busier of the brand + product term and a general product-type term. Prices are from the product sheet; La Maison is left out (removed from the store).', '']
 for l in lines: s.append([l])
 s.append(['Tab', 'Products', 'Checked in Semrush', 'With search volume', 'Not checked'])
 for row in summary: s.append(list(row))
