@@ -1,0 +1,966 @@
+{
+ "note": "Salvatore Ferragamo cut-out gallery 10 Nov 2026: 75 cut-outs (<handle>-NN-cutout.webp) added; birefnet-general-lite except picks (flood fill: E Pur Si Muove 03, Rinascimento 04, Viola Essenziale 03). Arte Orafa photo 04 (golden splash) has no cut-out: the models dropped the splash and flood fill left a white box, so it was left out (original kept in the backup). Originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/salvatore_ferragamo_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "picks": {
+  "picks": {
+   "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-03.webp": "flood",
+   "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-04.webp": "flood",
+   "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-03.webp": "flood"
+  },
+  "dropped": [
+   "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-04.webp"
+  ]
+ },
+ "detached": {
+  "gid://shopify/Product/16431530082691": [
+   "gid://shopify/MediaImage/74755248030083",
+   "gid://shopify/MediaImage/74755248062851",
+   "gid://shopify/MediaImage/74755248095619"
+  ],
+  "gid://shopify/Product/16431676260739": [
+   "gid://shopify/MediaImage/74755249078659",
+   "gid://shopify/MediaImage/74755249111427",
+   "gid://shopify/MediaImage/74755249144195"
+  ],
+  "gid://shopify/Product/16431676359043": [
+   "gid://shopify/MediaImage/74755249897859",
+   "gid://shopify/MediaImage/74755249930627",
+   "gid://shopify/MediaImage/74755249963395"
+  ],
+  "gid://shopify/Product/16431676424579": [
+   "gid://shopify/MediaImage/74755250192771",
+   "gid://shopify/MediaImage/74755250225539",
+   "gid://shopify/MediaImage/74755250258307"
+  ],
+  "gid://shopify/Product/16431676457347": [
+   "gid://shopify/MediaImage/74755250487683",
+   "gid://shopify/MediaImage/74755250520451",
+   "gid://shopify/MediaImage/74755250553219"
+  ],
+  "gid://shopify/Product/16431676522883": [
+   "gid://shopify/MediaImage/74755287613827",
+   "gid://shopify/MediaImage/74755287646595",
+   "gid://shopify/MediaImage/74755287679363"
+  ],
+  "gid://shopify/Product/16431676588419": [
+   "gid://shopify/MediaImage/74755288465795",
+   "gid://shopify/MediaImage/74755288498563",
+   "gid://shopify/MediaImage/74755288531331",
+   "gid://shopify/MediaImage/74755288564099",
+   "gid://shopify/MediaImage/74755288596867",
+   "gid://shopify/MediaImage/74755288629635"
+  ],
+  "gid://shopify/Product/16431676621187": [
+   "gid://shopify/MediaImage/74755289317763",
+   "gid://shopify/MediaImage/74755289350531",
+   "gid://shopify/MediaImage/74755289383299",
+   "gid://shopify/MediaImage/74755289416067",
+   "gid://shopify/MediaImage/74755289448835",
+   "gid://shopify/MediaImage/74755289481603",
+   "gid://shopify/MediaImage/74755289514371",
+   "gid://shopify/MediaImage/74755289547139"
+  ],
+  "gid://shopify/Product/16431676686723": [
+   "gid://shopify/MediaImage/74755289842051",
+   "gid://shopify/MediaImage/74755289874819",
+   "gid://shopify/MediaImage/74755289907587",
+   "gid://shopify/MediaImage/74755289940355"
+  ],
+  "gid://shopify/Product/16431676752259": [
+   "gid://shopify/MediaImage/74755334930819",
+   "gid://shopify/MediaImage/74755334963587",
+   "gid://shopify/MediaImage/74755334996355",
+   "gid://shopify/MediaImage/74755335029123"
+  ],
+  "gid://shopify/Product/16431676785027": [
+   "gid://shopify/MediaImage/74755335356803",
+   "gid://shopify/MediaImage/74755335389571",
+   "gid://shopify/MediaImage/74755335422339"
+  ],
+  "gid://shopify/Product/16431680684419": [
+   "gid://shopify/MediaImage/74755335913859",
+   "gid://shopify/MediaImage/74755335946627",
+   "gid://shopify/MediaImage/74755335979395"
+  ],
+  "gid://shopify/Product/16431680749955": [
+   "gid://shopify/MediaImage/74755336044931",
+   "gid://shopify/MediaImage/74755336077699",
+   "gid://shopify/MediaImage/74755336110467"
+  ],
+  "gid://shopify/Product/16431680782723": [
+   "gid://shopify/MediaImage/74755336372611",
+   "gid://shopify/MediaImage/74755336405379",
+   "gid://shopify/MediaImage/74755336438147",
+   "gid://shopify/MediaImage/74755336470915"
+  ],
+  "gid://shopify/Product/16431680848259": [
+   "gid://shopify/MediaImage/74755336765827",
+   "gid://shopify/MediaImage/74755336798595",
+   "gid://shopify/MediaImage/74755336831363"
+  ],
+  "gid://shopify/Product/16431680881027": [
+   "gid://shopify/MediaImage/74755371401603",
+   "gid://shopify/MediaImage/74755371434371",
+   "gid://shopify/MediaImage/74755371467139"
+  ],
+  "gid://shopify/Product/16431680946563": [
+   "gid://shopify/MediaImage/74755371499907",
+   "gid://shopify/MediaImage/74755371532675",
+   "gid://shopify/MediaImage/74755371565443",
+   "gid://shopify/MediaImage/74755371598211"
+  ],
+  "gid://shopify/Product/16431681012099": [
+   "gid://shopify/MediaImage/74755372155267",
+   "gid://shopify/MediaImage/74755372188035",
+   "gid://shopify/MediaImage/74755372220803"
+  ],
+  "gid://shopify/Product/16431681077635": [
+   "gid://shopify/MediaImage/74755372810627",
+   "gid://shopify/MediaImage/74755372843395",
+   "gid://shopify/MediaImage/74755372876163"
+  ],
+  "gid://shopify/Product/16431681110403": [
+   "gid://shopify/MediaImage/74755373171075",
+   "gid://shopify/MediaImage/74755373203843",
+   "gid://shopify/MediaImage/74755373236611",
+   "gid://shopify/MediaImage/74755373269379"
+  ],
+  "gid://shopify/Product/16431681175939": [
+   "gid://shopify/MediaImage/74755374154115",
+   "gid://shopify/MediaImage/74755374186883",
+   "gid://shopify/MediaImage/74755374219651"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431530082691,
+   "handle": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-01.webp",
+     "in": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – shower gel tube, bottle and travel spray on a white background",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – shower gel tube, bottle and travel spray",
+     "cut": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-02.webp",
+     "in": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – red Christmas gift box with the bottle, shower gel and travel spray",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – red Christmas gift box with the bottle, shower gel and travel spray",
+     "cut": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-03.webp",
+     "in": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – set with citrus fruit and rosemary",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml – set with citrus fruit and rosemary",
+     "cut": "salvatore-ferragamo-bright-leather-eau-de-toilette-gift-set-100ml-10ml-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676260739,
+   "handle": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-01.webp",
+     "in": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – bottle, shower gel tube and travel spray on a white background",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – bottle, shower gel tube and travel spray",
+     "cut": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-02.webp",
+     "in": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – red Christmas gift box with the bottle, shower gel and travel spray",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – red Christmas gift box with the bottle, shower gel and travel spray",
+     "cut": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-03.webp",
+     "in": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – set with orange, apple, lavender and flowers",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml – set with orange, apple, lavender and flowers",
+     "cut": "salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676359043,
+   "handle": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-01.webp",
+     "in": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-01.webp",
+     "alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – 50ml bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – 50ml bottle and box",
+     "cut": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-02.webp",
+     "in": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-02.webp",
+     "alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – bottle",
+     "cut": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-03.webp",
+     "in": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-03.webp",
+     "alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – bottle with pineapple, peach, lime and peonies",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml – bottle with pineapple, peach, lime and peonies",
+     "cut": "salvatore-ferragamo-incanto-shine-eau-de-toilette-50ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676424579,
+   "handle": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – 100ml bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – 100ml bottle and box",
+     "cut": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – bottle with grapefruit, lime, blackcurrant, apricot and flowers",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml – bottle with grapefruit, lime, blackcurrant, apricot and flowers",
+     "cut": "salvatore-ferragamo-pour-femme-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676457347,
+   "handle": "salvatore-ferragamo-signorina-eau-de-toilette-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-01.webp",
+     "in": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle and box",
+     "cut": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-02.webp",
+     "in": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle with bow cap on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle with bow cap",
+     "cut": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-03.webp",
+     "in": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle with grapefruit, lychee, peony and roses",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Signorina Eau de Toilette 100ml – bottle with grapefruit, lychee, peony and roses",
+     "cut": "salvatore-ferragamo-signorina-eau-de-toilette-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676522883,
+   "handle": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle and box",
+     "cut": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle with bow cap on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle with bow cap",
+     "cut": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle with grapefruit, lychee, peonies and roses",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml – bottle with grapefruit, lychee, peonies and roses",
+     "cut": "salvatore-ferragamo-signorina-eleganza-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676588419,
+   "handle": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-01.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle and box",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-02.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pink bow on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pink bow",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-03.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – close view of the bottle and bow",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – close view of the bottle and bow",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-04.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pomegranate, pear and blossom",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pomegranate, pear and blossom",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-05.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-05.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with falling pink petals",
+     "pos": 5,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with falling pink petals",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-05-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-06.webp",
+     "in": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-06.webp",
+     "alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pomegranate, pear and flowers",
+     "pos": 6,
+     "new_alt": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml – bottle with pomegranate, pear and flowers",
+     "cut": "salvatore-ferragamo-signorina-in-fiore-eau-de-toilette-100ml-06-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676621187,
+   "handle": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-01.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-01.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle and box",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-02.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-02.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-03.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-03.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle with pear, orange and flowers",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 100ml bottle with pear, orange and flowers",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-04.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-04.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 10ml pure spray and its box",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 10ml pure spray and its box",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-05.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-05.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 10ml pure spray with pear, orange and flowers",
+     "pos": 5,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – 10ml pure spray with pear, orange and flowers",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-05-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-06.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-06.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle and its box",
+     "pos": 6,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle and its box",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-06-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-07.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-07.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle on a white background",
+     "pos": 7,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-07-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-08.webp",
+     "in": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-08.webp",
+     "alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle with pear, orange and coconut",
+     "pos": 8,
+     "new_alt": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum – mini bottle with pear, orange and coconut",
+     "cut": "salvatore-ferragamo-signorina-ribelle-eau-de-parfum-08-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676686723,
+   "handle": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle with citrus, raspberries, cardamom and flowers",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle with citrus, raspberries, cardamom and flowers",
+     "cut": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-04.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle with a golden liquid splash",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml – bottle with a golden liquid splash",
+     "cut": "salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": true
+    }
+   ]
+  },
+  {
+   "id": 16431676752259,
+   "handle": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle with lemon, amber, white flowers and marble",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – bottle with lemon, amber, white flowers and marble",
+     "cut": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-04.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – close view of the bottle label and leather-look cap",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml – close view of the bottle label and leather-look cap",
+     "cut": "salvatore-ferragamo-tuscan-creations-bianco-di-carrara-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431676785027,
+   "handle": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle with ice, pink pepper, rose, sage and wood",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml – bottle with ice, pink pepper, rose, sage and wood",
+     "cut": "salvatore-ferragamo-tuscan-creations-e-pur-si-muove-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680684419,
+   "handle": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle with mandarin, plum, flowers, pepper and resin",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml – bottle with mandarin, plum, flowers, pepper and resin",
+     "cut": "salvatore-ferragamo-tuscan-creations-gentil-suono-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680749955,
+   "handle": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle with orange, blossom, pepper, wood and resin",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml – bottle with orange, blossom, pepper, wood and resin",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680782723,
+   "handle": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle shown at an angle",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle shown at an angle",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-04.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle with white lilies and almonds",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml – bottle with white lilies and almonds",
+     "cut": "salvatore-ferragamo-tuscan-creations-la-corte-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680848259,
+   "handle": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle with dates, saffron, nutmeg, wood and resin",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml – bottle with dates, saffron, nutmeg, wood and resin",
+     "cut": "salvatore-ferragamo-tuscan-creations-orto-delle-spezie-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680881027,
+   "handle": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle with bergamot, lemon, orange blossom and olive leaves",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml – bottle with bergamot, lemon, orange blossom and olive leaves",
+     "cut": "salvatore-ferragamo-tuscan-creations-punta-ala-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431680946563,
+   "handle": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle with mandarin, basil, lily, iris and pepper",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle with mandarin, basil, lily, iris and pepper",
+     "cut": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-04.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle lying among dried flowers",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml – bottle lying among dried flowers",
+     "cut": "salvatore-ferragamo-tuscan-creations-rinascimento-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431681012099,
+   "handle": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle with rose, orange, wood, resin and mint",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml – bottle with rose, orange, wood, resin and mint",
+     "cut": "salvatore-ferragamo-tuscan-creations-terra-rossa-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431681077635,
+   "handle": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle with peach, fig, mandarin and blossom",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml – bottle with peach, fig, mandarin and blossom",
+     "cut": "salvatore-ferragamo-tuscan-creations-vendemmia-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431681110403,
+   "handle": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-01.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle and gold box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle and gold box",
+     "cut": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-02.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle",
+     "cut": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-03.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle with iris, mimosa, peach and lychee",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle with iris, mimosa, peach and lychee",
+     "cut": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-04.webp",
+     "in": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-04.webp",
+     "alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle with a purple and gold splash",
+     "pos": 4,
+     "new_alt": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml – bottle with a purple and gold splash",
+     "cut": "salvatore-ferragamo-tuscan-creations-viola-essenziale-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16431681175939,
+   "handle": "salvatore-ferragamo-uomo-eau-de-toilette-100ml",
+   "vendor": "Salvatore Ferragamo",
+   "images": [
+    {
+     "file": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-01.webp",
+     "in": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-01.webp",
+     "alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – 100ml bottle and box",
+     "pos": 1,
+     "new_alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – 100ml bottle and box",
+     "cut": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-02.webp",
+     "in": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-02.webp",
+     "alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – bottle on a white background",
+     "pos": 2,
+     "new_alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – bottle",
+     "cut": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-03.webp",
+     "in": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-03.webp",
+     "alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – bottle with bergamot, cardamom, pepper, tiramisu and flowers",
+     "pos": 3,
+     "new_alt": "Salvatore Ferragamo Uomo Eau de Toilette 100ml – bottle with bergamot, cardamom, pepper, tiramisu and flowers",
+     "cut": "salvatore-ferragamo-uomo-eau-de-toilette-100ml-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
