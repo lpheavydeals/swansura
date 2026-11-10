@@ -1,0 +1,194 @@
+{
+ "note": "Dior cut-out gallery 10 Nov 2026: 13 cut-outs (<handle>-NN-cutout.webp) added to Sauvage EDP gift set, Miss Dior roller-pearl and Iconics mini set, all birefnet-general-lite (all three methods compared). Alt changed on Sauvage 03 (marble plinth dropped by the cut-out) and Miss Dior 03 ('in soft light' dropped). Originals were named <handle>-N.webp (no zero pad); local copies saved as <handle>-NN.webp. 13 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in dior_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16274977325443": [
+   "gid://shopify/MediaImage/74292125106563",
+   "gid://shopify/MediaImage/74292125139331",
+   "gid://shopify/MediaImage/74292125172099",
+   "gid://shopify/MediaImage/74292125204867"
+  ],
+  "gid://shopify/Product/16274978406787": [
+   "gid://shopify/MediaImage/74292125237635",
+   "gid://shopify/MediaImage/74292125270403",
+   "gid://shopify/MediaImage/74292125303171",
+   "gid://shopify/MediaImage/74292125335939"
+  ],
+  "gid://shopify/Product/16274980045187": [
+   "gid://shopify/MediaImage/74292124942723",
+   "gid://shopify/MediaImage/74292124975491",
+   "gid://shopify/MediaImage/74292125008259",
+   "gid://shopify/MediaImage/74292125041027",
+   "gid://shopify/MediaImage/74292125073795"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16274977325443,
+   "handle": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set",
+   "vendor": "Dior",
+   "images": [
+    {
+     "file": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-01.webp",
+     "src": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-1.webp",
+     "in": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-01.webp",
+     "alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – 100 ml bottle and 10 ml travel spray, front view",
+     "pos": 1,
+     "media": 74292125106563,
+     "new_alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – 100 ml bottle and 10 ml travel spray, front view",
+     "cut": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-02.webp",
+     "src": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-2.webp",
+     "in": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-02.webp",
+     "alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – bottle and travel spray beside the black gift box",
+     "pos": 2,
+     "media": 74292125139331,
+     "new_alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – bottle and travel spray beside the black gift box",
+     "cut": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-03.webp",
+     "src": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-3.webp",
+     "in": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-03.webp",
+     "alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – gift set on a marble plinth",
+     "pos": 3,
+     "media": 74292125172099,
+     "new_alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – black gift box with the 100 ml bottle and 10 ml travel spray",
+     "cut": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-04.webp",
+     "src": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-4.webp",
+     "in": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-04.webp",
+     "alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – bottle and travel spray with bergamot, pepper, nutmeg and star anise",
+     "pos": 4,
+     "media": 74292125204867,
+     "new_alt": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set – bottle and travel spray with bergamot, pepper, nutmeg and star anise",
+     "cut": "dior-sauvage-eau-de-parfum-100ml-10ml-men-s-gift-set-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16274978406787,
+   "handle": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women",
+   "vendor": "Dior",
+   "images": [
+    {
+     "file": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-01.webp",
+     "src": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-1.webp",
+     "in": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-01.webp",
+     "alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – 20 ml roller-pearl, front view",
+     "pos": 1,
+     "media": 74292125237635,
+     "new_alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – 20 ml roller-pearl, front view",
+     "cut": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-02.webp",
+     "src": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-2.webp",
+     "in": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-02.webp",
+     "alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – white Eau de Parfum roller-pearl box",
+     "pos": 2,
+     "media": 74292125270403,
+     "new_alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – white Eau de Parfum roller-pearl box",
+     "cut": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-03.webp",
+     "src": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-3.webp",
+     "in": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-03.webp",
+     "alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – roller-pearl lying at an angle in soft light",
+     "pos": 3,
+     "media": 74292125303171,
+     "new_alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – roller-pearl at an angle",
+     "cut": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-04.webp",
+     "src": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-4.webp",
+     "in": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-04.webp",
+     "alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – roller-pearl with roses, orange and jasmine",
+     "pos": 4,
+     "media": 74292125335939,
+     "new_alt": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women – roller-pearl with roses, orange and jasmine",
+     "cut": "miss-dior-eau-de-parfum-roller-pearl-20ml-for-women-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  },
+  {
+   "id": 16274980045187,
+   "handle": "dior-iconics-mini-perfume-discovery-set-5-x-5ml",
+   "vendor": "Dior",
+   "images": [
+    {
+     "file": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-01.webp",
+     "src": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-1.webp",
+     "in": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-01.webp",
+     "alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – five 5 ml miniatures in a row",
+     "pos": 1,
+     "media": 74292124942723,
+     "new_alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – five 5 ml miniatures in a row",
+     "cut": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-02.webp",
+     "src": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-2.webp",
+     "in": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-02.webp",
+     "alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – five miniatures in front of the white Dior box",
+     "pos": 2,
+     "media": 74292124975491,
+     "new_alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – five miniatures in front of the white Dior box",
+     "cut": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-03.webp",
+     "src": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-3.webp",
+     "in": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-03.webp",
+     "alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures with pear, orange, apple and orange blossom",
+     "pos": 3,
+     "media": 74292125008259,
+     "new_alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures with pear, orange, apple and orange blossom",
+     "cut": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-04.webp",
+     "src": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-4.webp",
+     "in": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-04.webp",
+     "alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures in front of a Dior house-shaped box",
+     "pos": 4,
+     "media": 74292125041027,
+     "new_alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures in front of a Dior house-shaped box",
+     "cut": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-05.webp",
+     "src": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-5.webp",
+     "in": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-05.webp",
+     "alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures beside an illustrated Dior house box",
+     "pos": 5,
+     "media": 74292125073795,
+     "new_alt": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml – miniatures beside an illustrated Dior house box",
+     "cut": "dior-iconics-mini-perfume-discovery-set-5-x-5ml-05-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
