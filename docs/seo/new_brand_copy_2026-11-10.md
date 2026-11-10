@@ -1,0 +1,251 @@
+# Brand page copy: the 18 brands added 8 Nov (drafts, 10 Nov 2026)
+
+Ranked by Semrush UK searches of the brand keyword. Not in the store yet. Checks: all links go to live collections or in-stock products, every "sits in our …" claim checked against the live collection, no banned/hype/longevity/stock words, SEO descriptions ≤145 characters.
+
+## Versace  ·  versace perfume 27,100/mo
+https://www.swansura.com/collections/versace · 230 words
+
+**Heading (H2):** Versace perfume: Eros, Eros Pour Femme and Yellow Diamond
+
+**SEO description (now):** Shop Versace perfume at Swansura: 7 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Versace perfume at Swansura UK: Eros Eau de Toilette and Parfum, Yellow Diamond and Eros Pour Femme. 100% authentic, free UK delivery over £40.
+
+> Check: Eros Pour Femme EDP is tagged fresh but its 5ml EDT miniature is tagged floral; copy avoids naming a family for the EDP.
+
+<p>Versace perfume at Swansura covers scents for men and women, from full bottles to 5ml miniatures. The Eros family leads for men, and Yellow Diamond and Eros Pour Femme are the picks for women.</p><h3>Versace Eros for men</h3><p><a href="/products/versace-eros-eau-de-toilette-200ml">Versace Eros Eau de Toilette 200ml</a> opens with Italian lemon, mint and candied apple over geranium and clary sage, then settles on cedarwood, vetiver and vanilla. <a href="/products/versace-eros-parfum">Versace Eros Parfum</a>, in 100ml and 200ml from £68.99, is the deeper version, with black pepper, lavender, benzoin, patchouli and vanilla. For something lighter, <a href="/products/versace-man-eau-fraiche-eau-de-toilette-miniature-5ml">Versace Man Eau Fraîche Eau de Toilette 5ml</a> pairs white lemon and star fruit with tarragon and cedar leaves.</p><h3>Versace perfume for women</h3><p><a href="/products/versace-yellow-diamond-eau-de-toilette-90ml">Versace Yellow Diamond Eau de Toilette 90ml</a> is a bright floral of citron, pear sorbet and neroli with water lily, freesia and mimosa. <a href="/products/versace-eros-pour-femme-eau-de-parfum-100ml">Versace Eros Pour Femme Eau de Parfum 100ml</a> mixes Sicilian lemon and pomegranate with jasmine and peony on sandalwood and amber, and there is also an Eros Pour Femme eau de toilette miniature.</p><h3>Minis and gifts</h3><p>The 5ml miniatures, including Dylan Blue Pour Homme, are a simple way to try a Versace scent before a full bottle, and they fit easily into a stocking. See more in <a href="/collections/travel-size-minis">travel size minis</a>, <a href="/collections/perfume-for-men">perfume for men</a> and <a href="/collections/perfume-for-women">perfume for women</a>. Every Versace perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Moschino  ·  moschino perfume 12,100/mo
+https://www.swansura.com/collections/moschino · 147 words
+
+**Heading (H2):** Moschino perfume: Toy Boy and I Love Love
+
+**SEO description (now):** Shop Moschino perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Moschino perfume at Swansura UK: Toy Boy Eau de Parfum for men and I Love Love for women. 100% authentic, free UK delivery over £40.
+
+<p>Moschino perfume at Swansura starts with <a href="/products/moschino-toy-boy-eau-de-parfum">Moschino Toy Boy Eau de Parfum</a>, a woody scent for men in a 5ml miniature or a 100ml bottle, from £12.99.</p><h3>Moschino Toy Boy</h3><p>Pink pepper, pear and nutmeg open Toy Boy, with rose, clove and magnolia in the heart and a base of vetiver, sandalwood and amber. The 5ml size lets you try it first, and the 100ml suits everyday wear.</p><h3>Moschino I Love Love</h3><p><a href="/products/moschino-i-love-love-eau-de-toilette-miniature-4-9ml">Moschino I Love Love Eau de Toilette Miniature 4.9ml</a> is a fresh, citrus scent for women: grapefruit, orange, lemon and red currant over lily of the valley and tea rose, then musk and cedar. It makes an easy small gift or stocking filler.</p><h3>More like this</h3><p>Browse more <a href="/collections/travel-size-minis">travel size minis</a> or the wider <a href="/collections/perfume-for-men">perfume for men</a> range. Every Moschino perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Issey Miyake  ·  issey miyake perfume 9,900/mo
+https://www.swansura.com/collections/issey-miyake · 207 words
+
+**Heading (H2):** Issey Miyake perfume: L'Eau d'Issey, Le Sel d'Issey and A Drop
+
+**SEO description (now):** Shop Issey Miyake perfume at Swansura: 8 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Issey Miyake perfume at Swansura UK: A Drop, Le Sel and the L'Eau d'Issey florals for women. 100% authentic, free UK delivery over £40.
+
+> Check: seo_description has 2 apostrophes (135 raw, about 143 after escaping, under 158). L'Eau d'Issey EDT 50ml (8,100 searches) and Pour Homme are not linked (not in stock); the classic and Pour Homme are named in the text. Final sheet listed Eau & Magnolia 50ml £43.99 / 100ml £48.99.
+
+<p>Issey Miyake perfume at Swansura centres on the L'Eau d'Issey family, with watery florals for women and fresh scents for men. Alongside the classic L'Eau d'Issey, you will find newer floral editions and Le Sel d'Issey.</p><h3>Issey Miyake for women</h3><p><a href="/products/issey-miyake-a-drop-dissey-eau-de-parfum-fraiche-90ml">Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml</a> pairs a rain accord with lilac and damask rose on sandalwood and musk. <a href="/products/issey-miyake-leau-dissey-pure-petale-de-nectar-eau-de-toilette-90ml">L'Eau d'Issey Pure Pétale de Nectar 90ml</a> is softer and sweeter, with pear, honey, rose and peony. For a rose lover, <a href="/products/issey-miyake-leau-dissey-rose-rose-eau-de-parfum-intense-90ml">L'Eau d'Issey Rose &amp; Rose Eau de Parfum Intense 90ml</a> adds raspberry and pink pepper to Bulgarian rose, and <a href="/products/issey-miyake-leau-dissey-eau-magnolia-eau-de-toilette-intense">L'Eau d'Issey Eau &amp; Magnolia</a>, in 50ml and 100ml from £43.99, keeps it simple with bergamot, magnolia and rose.</p><h3>Issey Miyake for men</h3><p><a href="/products/issey-miyake-le-sel-dissey-eau-de-toilette-10ml">Issey Miyake Le Sel d'Issey Eau de Toilette 10ml</a> is a fresh scent of sea salt and ginger over vetiver, cedarwood and oakmoss. The 10ml size is easy to carry and a good way to try it. The line also includes L'Eau d'Issey Pour Homme.</p><h3>Find your scent</h3><p>Compare these with our <a href="/collections/scent-floral">floral fragrances</a>, <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/perfume-for-men">perfume for men</a>. Every Issey Miyake perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Michael Kors  ·  michael kors perfume 6,600/mo
+https://www.swansura.com/collections/michael-kors · 156 words
+
+**Heading (H2):** Michael Kors perfume: Pour Homme and Pour Femme miniatures
+
+**SEO description (now):** Shop Michael Kors perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Michael Kors perfume at Swansura UK: Pour Homme and Pour Femme eau de parfum 5ml miniatures. 100% authentic, free UK delivery over £40.
+
+> Check: Pour Femme 5ml (higher search) is not in stock, so only Pour Homme is linked; Pour Femme is described without a link.
+
+<p>Michael Kors perfume at Swansura comes in 5ml eau de parfum miniatures, a handy size to try a scent or to give as a small present. <a href="/products/michael-kors-pour-homme-eau-de-parfum-miniature-5ml">Michael Kors Pour Homme Eau de Parfum Miniature 5ml</a> is from £13.99.</p><h3>Michael Kors Pour Homme</h3><p>Pour Homme is a woody scent for men. Bergamot, lavender and pink pepper open it, a sea water accord with geranium and sage sits in the heart, and ambergris, vetiver and patchouli form the base.</p><h3>Michael Kors Pour Femme</h3><p>The matching Pour Femme is a floral for women, with mandarin, black currant and pink pepper over jasmine sambac and Bulgarian rose, and a base of musk, patchouli and vanilla.</p><h3>More like this</h3><p>A 5ml miniature slips into a pocket or a stocking. Browse more <a href="/collections/travel-size-minis">travel size minis</a> and <a href="/collections/stocking-fillers">stocking fillers</a>, or our <a href="/collections/perfume-for-men">perfume for men</a>. Every Michael Kors perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Roberto Cavalli  ·  roberto cavalli perfume 5,400/mo
+https://www.swansura.com/collections/roberto-cavalli · 185 words
+
+**Heading (H2):** Roberto Cavalli perfume: Paradiso, Uomo and Florence
+
+**SEO description (now):** Shop Roberto Cavalli perfume at Swansura: 7 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Roberto Cavalli perfume at Swansura UK: Paradiso, Paradiso Assoluto, Florence and Uomo Parfum. 100% authentic, free UK delivery over £40.
+
+> Check: Bloodiris (£76.99) is linked but not in gifts-under-50; that link refers to the other scents generally. Uomo EDT 100ml not linked (not in stock).
+
+<p>Roberto Cavalli perfume at Swansura is mostly florals for women, plus Uomo for men and a unisex scent from the Gold Collection.</p><h3>Roberto Cavalli for women</h3><p><a href="/products/roberto-cavalli-paradiso-eau-de-parfum-100ml">Roberto Cavalli Paradiso Eau de Parfum 100ml</a> opens with mandarin and bergamot over jasmine, with cypress, pine and laurel in the base. <a href="/products/roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml">Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml</a> is richer, with wisteria, wild jasmine and red lily on vanilla and sandalwood. <a href="/products/roberto-cavalli-florence-eau-de-parfum">Roberto Cavalli Florence Eau de Parfum</a>, in 50ml and 75ml from £27.99, pairs black currant and tangerine with orange blossom, and <a href="/products/roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml">Just Cavalli for Her 30ml</a> is a small, easy pick of neroli and tiare flower.</p><h3>Roberto Cavalli for men and unisex</h3><p><a href="/products/roberto-cavalli-uomo-parfum-100ml">Roberto Cavalli Uomo Parfum 100ml</a> is a woody scent of bergamot, black pepper, saffron and violet on ambroxan and musk. <a href="/products/roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml">Gold Collection Bloodiris Eau de Parfum 100ml</a> suits anyone, with blood orange, Italian iris and turmeric over musk.</p><h3>More like this</h3><p>Compare them with our <a href="/collections/scent-floral">floral fragrances</a>, <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/gifts-under-50">gifts under £50</a>. Every Roberto Cavalli perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Mugler  ·  mugler perfume 4,400/mo
+https://www.swansura.com/collections/mugler · 204 words
+
+**Heading (H2):** Mugler perfume: Alien, Angel, Angel Nova and Les Exceptions
+
+**SEO description (now):** Shop Mugler perfume at Swansura: 13 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Mugler perfume at Swansura UK: Alien, Angel, Angel Nova, Angel Elixir and the Alien Man travel set. 100% authentic, free UK delivery over £40.
+
+> Check: Perfume gift sets for her link: the Alien Goddess gift set is not in stock; check that collection has other in-stock sets. Mugler Cologne Heal Your Mind (name) and Fly Away (cannabis note) not mentioned.
+
+<p>Mugler perfume at Swansura spans the Alien and Angel families for women, a travel set for men, unisex Les Exceptions and 10ml Mugler Colognes.</p><h3>Mugler Alien and Angel</h3><p><a href="/products/mugler-alien-eau-de-parfum-refillable">Mugler Alien Eau de Parfum Refillable</a>, in 30ml and 90ml from £50.99, is an amber scent of jasmine sambac, cashmeran wood and white amber. <a href="/products/mugler-angel-eau-de-parfum-25ml">Mugler Angel Eau de Parfum 25ml</a> is a sweet amber with cotton candy, red berries, honey, chocolate, caramel and patchouli. <a href="/products/mugler-angel-nova-eau-de-toilette-50ml">Mugler Angel Nova Eau de Toilette 50ml</a> is lighter, with lychee, rose and magnolia, and <a href="/products/mugler-angel-elixir-eau-de-parfum-refillable-star">Mugler Angel Elixir Eau de Parfum</a> pairs ylang-ylang and orange blossom with Bourbon vanilla. Alien Goddess Supra Florale comes in 10ml, 60ml and 90ml.</p><h3>For men and for everyone</h3><p>The <a href="/products/mugler-alien-man-eau-de-toilette-body-shampoo-travel-set-100ml-50ml">Mugler Alien Man Eau de Toilette and Body Shampoo Travel Set</a> pairs a refillable 100ml eau de toilette with a 50ml body shampoo. <a href="/products/mugler-les-exceptions-wonder-bouquet-eau-de-parfum-80ml">Les Exceptions Wonder Bouquet 80ml</a> is a unisex floral of brioche, jasmine and tuberose, and the 10ml Mugler Colognes, such as Love You All, are small fresh scents to try.</p><h3>More like this</h3><p>See <a href="/collections/perfume-for-women">perfume for women</a>, <a href="/collections/unisex-perfume">unisex perfume</a> and <a href="/collections/perfume-gift-sets-for-her">perfume gift sets for her</a>. Every Mugler perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Lacoste  ·  lacoste perfume 3,600/mo
+https://www.swansura.com/collections/lacoste · 156 words
+
+**Heading (H2):** Lacoste L'Homme deodorant stick for men
+
+**SEO description (now):** Shop Lacoste deodorant at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Lacoste deodorant stick for men at Swansura UK, a woody scent with mandarin, ginger and cedar. 100% authentic, free UK delivery over £40.
+
+> Check: Brand keyword is 'lacoste perfume' (3,600) but the only product is a deodorant stick; check that it sits in mens-grooming (membership not verified here).
+
+<p>For Lacoste perfume fans, our Lacoste page starts with the <a href="/products/lacoste-lhomme-lacoste-deodorant-stick-70g">Lacoste L'Homme Lacoste Deodorant Stick 70g</a>, a woody scented deodorant stick for men at £17.99.</p><h3>How it smells</h3><p>Mandarin orange, sweet orange, quince and rhubarb open the scent, so it starts bright and fruity. Black pepper, ginger, jasmine and almond sit in the heart, and vanilla, cedar, musk and amber give it a warm, woody finish.</p><h3>Why a deodorant stick</h3><p>A stick is easy to keep in a gym bag or a wash bag, and it is an easy way to wear a Lacoste scent in a simple, everyday form. It also makes a practical small present or stocking filler for him.</p><h3>More like this</h3><p>Pair it with a fragrance from our <a href="/collections/perfume-for-men">perfume for men</a> page, or browse the <a href="/collections/scent-woody">woody fragrances</a> family and our <a href="/collections/mens-grooming">men's grooming</a>. Every product is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Ralph Lauren  ·  ralph lauren perfume 3,600/mo
+https://www.swansura.com/collections/ralph-lauren · 213 words
+
+**Heading (H2):** Ralph Lauren perfume: Polo Blue, Polo Red and Polo Cologne Intense
+
+**SEO description (now):** Shop Ralph Lauren perfume at Swansura: 4 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Ralph Lauren perfume for men at Swansura UK: Polo Blue, Polo Red and Polo Cologne Intense. 100% authentic, free UK delivery over £40.
+
+> Check: Polo Red Parfum 75ml: the 9 Nov photo check said its photos say EDP; confirm the concentration. Polo Blue: bottle label EDP vs box EDT (9 Nov photo check).
+
+<p>Ralph Lauren perfume at Swansura is all about the Polo line for men, from the fresh <a href="/products/ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml">Ralph Lauren Polo Blue Eau de Toilette 75ml</a> to the warmer <a href="/products/ralph-lauren-polo-red-parfum-75ml">Ralph Lauren Polo Red Parfum 75ml</a>.</p><h3>Polo Blue</h3><p>Polo Blue opens with cucumber, melon and mandarin, moves to basil, sage and geranium, and settles on musk, woods and suede. It is a clean, fresh scent that suits work and warmer days, and the bottle is refillable.</p><h3>Polo Red</h3><p>The <a href="/products/ralph-lauren-polo-red-eau-de-toilette-refillable-125ml">Polo Red Eau de Toilette 125ml</a> mixes cranberry, grapefruit and Italian lemon with saffron, sage, amber and coffee, also in a refillable bottle. Polo Red Parfum is the deeper take: bergamot, blood orange and pink pepper over orris, absinthe and lavender, with musk, cedar and opoponax in the base.</p><h3>Polo Cologne Intense</h3><p><a href="/products/ralph-lauren-polo-cologne-intense-59ml">Polo Cologne Intense 59ml</a> is herbal and green: basil, mint and grapefruit, then clary sage, violet leaf and thyme over patchouli, ambroxan and vetiver.</p><h3>Which to choose</h3><p>Pick Polo Blue or Cologne Intense if you like <a href="/collections/scent-fresh">fresh fragrances</a>, and Polo Red for something fruitier and warmer. Prices start from £41.99. Compare them with the rest of our <a href="/collections/perfume-for-men">perfume for men</a>. Every Ralph Lauren perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Clinique  ·  clinique perfume 2,900/mo
+https://www.swansura.com/collections/clinique · 127 words
+
+**Heading (H2):** Clinique perfume: Aromatics Elixir Eau de Parfum
+
+**SEO description (now):** Shop Clinique perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Clinique perfume at Swansura UK: Aromatics Elixir, a floral with rose, jasmine and oakmoss. 100% authentic, free UK delivery over £40.
+
+> Check: Clinique has no product in stock, so the copy names Aromatics Elixir without a product link and links collections only (add the product link when it is back). Box photo says 'Parfum Spray' while the title says Eau de Parfum. Family is floral in our data; the rose/patchouli/oakmoss notes read more like a chypre.
+
+<p>Clinique perfume at Swansura means Clinique Aromatics Elixir Eau de Parfum, a rich floral fragrance for women in a 100ml bottle.</p><h3>How it smells</h3><p>Bulgarian rose and orange blossom open the scent. Jasmine and ylang-ylang form a full floral heart, and patchouli and oakmoss give it a deep, earthy base. It is a fragrance with presence, suited to evenings and cooler months, and one to try on skin before you decide.</p><h3>More like this</h3><p>If you like a rose and jasmine heart, browse our <a href="/collections/scent-floral">floral fragrances</a> and the rest of our <a href="/collections/perfume-for-women">perfume for women</a>, or look through <a href="/collections/perfume-gift-sets-for-her">perfume gift sets for her</a> for a present. Every Clinique perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Paco Rabanne  ·  paco rabanne perfume 2,900/mo
+https://www.swansura.com/collections/paco-rabanne · 216 words
+
+**Heading (H2):** Paco Rabanne perfume: 1 Million, Invictus, Phantom and Fame
+
+**SEO description (now):** Shop Paco Rabanne perfume at Swansura: 23 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Paco Rabanne perfume at Swansura UK: 1 Million, Invictus, Phantom and Fame, plus miniature gift sets. 100% authentic, free UK delivery over £40.
+
+> Check: Phantom (9,900 searches) is only named via the men's mini set: the Phantom Parfum Spray 15ml has no photo (and its Drive photos showed EDT boxes), so it is not linked; link it once a correct photo is up. Invictus EDT 200ml, Fame Parfum 10ml, Lady Million 15ml also have no photos (not linked). The women's mini set is mentioned without a link to keep the link count down; its handle is paco-rabanne-womens-miniature-set-lady-million-olympea-fame-5ml-6ml-4ml-4ml.
+
+<p>Paco Rabanne perfume at Swansura covers favourites for him and for her, from <a href="/products/paco-rabanne-1-million-eau-de-toilette-200ml">Paco Rabanne 1 Million Eau de Toilette 200ml</a> to <a href="/products/paco-rabanne-fame-eau-de-parfum-refillable-80ml">Paco Rabanne Fame Eau de Parfum 80ml</a>.</p><h3>For him</h3><p>1 Million is woody and spicy: blood mandarin, grapefruit and mint, then cinnamon and rose over amber, leather and patchouli. Invictus is the fresh one, with sea notes, grapefruit and bay leaf over guaiac wood and oakmoss; the <a href="/products/paco-rabanne-invictus-eau-de-toilette-gift-set-200ml-10ml">Invictus Eau de Toilette Gift Set 200ml + 10ml</a> adds a travel spray. For something warmer, <a href="/products/paco-rabanne-invictus-victory-eau-de-parfum-extreme-100ml">Invictus Victory Eau de Parfum Extrême 100ml</a> brings olibanum, lavender, vanilla and tonka bean.</p><h3>For her</h3><p>Fame opens with mango and bergamot over jasmine, olibanum, vanilla and sandalwood, and the 80ml bottle is refillable. <a href="/products/paco-rabanne-ultraviolet-eau-de-parfum-80ml">Paco Rabanne Ultraviolet Eau de Parfum 80ml</a> is an amber scent with apricot, violet, osmanthus and vanilla, and Olympéa Flora is a fruity rose and peony floral.</p><h3>Minis and gift sets</h3><p>To try several scents, the <a href="/products/paco-rabanne-mens-miniature-eau-de-toilette-set-1-million-invictus-phantom-3-x-4ml">Men's Miniature Set with 1 Million, Invictus and Phantom</a> starts from £27.99, and a women's set brings Lady Million, Olympéa and Fame together. See more in <a href="/collections/aftershave-gift-sets-for-him">aftershave gift sets for him</a> and <a href="/collections/perfume-gift-sets-for-her">perfume gift sets for her</a>. Every Paco Rabanne perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Narciso Rodriguez  ·  narciso rodriguez perfume 2,400/mo
+https://www.swansura.com/collections/narciso-rodriguez · 194 words
+
+**Heading (H2):** Narciso Rodriguez perfume: All of Me, Musc Noir and Bleu Noir
+
+**SEO description (now):** Shop Narciso Rodriguez perfume at Swansura: 9 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Narciso Rodriguez perfume at Swansura UK: All of Me, Musc Noir, Pure Musc and For Him Bleu Noir. 100% authentic, free UK delivery over £40.
+
+> Check: Narciso Rodriguez For Her (14,800 searches, EDP and EDT) is not in stock, so it is not linked or named; add it when back. Narciso Ambrée 10ml is tagged floral while its name and notes (musk, amber, vanilla) lean amber. Musc Noir For Her is the only one tagged amber. Check that the 10ml sprays sit in travel-size-minis (not verified here).
+
+<p>Narciso Rodriguez perfume at Swansura is built around soft musks, from <a href="/products/narciso-rodriguez-all-of-me-eau-de-parfum-90ml">Narciso Rodriguez All of Me Eau de Parfum 90ml</a> to a run of 10ml sprays that make it easy to try a scent.</p><h3>For her</h3><p>All of Me is a floral with magnolia, rose and geranium over musk and sandalwood. <a href="/products/narciso-rodriguez-pure-musc-for-her-eau-de-parfum-10ml">Pure Musc For Her Eau de Parfum 10ml</a> pairs jasmine and orange blossom with musk and cashmeran. <a href="/products/narciso-rodriguez-musc-noir-for-her-eau-de-parfum">Musc Noir For Her Eau de Parfum</a>, in 10ml and 50ml, is darker: plum, musk, heliotrope and suede. <a href="/products/narciso-rodriguez-musc-noir-rose-for-her-eau-de-parfum-10ml">Musc Noir Rose For Her 10ml</a> adds tuberose, vanilla and patchouli, and <a href="/products/narciso-rodriguez-narciso-cristal-eau-de-parfum-10ml">Narciso Cristal 10ml</a> is a bright mix of freesia, rose, jasmine and amber.</p><h3>For him</h3><p><a href="/products/narciso-rodriguez-for-him-bleu-noir-eau-de-toilette-50ml">Narciso Rodriguez For Him Bleu Noir Eau de Toilette 50ml</a> is woody: cardamom and nutmeg over musk, with vetiver, cedarwood, ebony wood and amber in the base.</p><h3>Which to choose</h3><p>The 10ml sprays start from £25.99 and suit a handbag, a first try or a small present. Browse more in <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/travel-size-minis">travel size minis</a>. Every Narciso Rodriguez perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Lalique  ·  lalique perfume 1,000/mo
+https://www.swansura.com/collections/lalique · 207 words
+
+**Heading (H2):** Lalique perfume: Amethyst, Satine, White and Noir Premier
+
+**SEO description (now):** Shop Lalique perfume at Swansura: 12 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Lalique perfume at Swansura UK: Amethyst, Satine, Perles and White in full-size bottles. 100% authentic, free UK delivery over £40.
+
+> Check: 'Most sit in our £25 to £50 range' is true for the in-stock ones (£28.99 to £32.99); Le Parfum (£78.99) is not in stock.
+
+<p>Lalique perfume at Swansura brings full 100ml and 125ml bottles at friendly prices, from <a href="/products/lalique-amethyst-eau-de-parfum-100ml">Lalique Amethyst Eau de Parfum 100ml</a> to <a href="/products/lalique-white-eau-de-toilette-125ml">Lalique White Eau de Toilette 125ml</a> for men.</p><h3>For her</h3><p>Amethyst is a berry floral: blackcurrant, blackberry, blueberry and strawberry over peony, rose and ylang-ylang, with musk and Bourbon vanilla. <a href="/products/lalique-lamour-eau-de-parfum-100ml">Lalique L'Amour Eau de Parfum 100ml</a> is white flowers, with gardenia, tuberose and jasmine over musk and sandalwood. <a href="/products/lalique-satine-eau-de-parfum-100ml">Lalique Satine Eau de Parfum 100ml</a> is warmer, with jasmine and heliotrope, then vanilla and tonka bean. Perles is rose and orris over cashmere wood and tonka bean, and Amethyst Éclat is a lighter berry floral with raspberry, pear and peony.</p><h3>For him and for everyone</h3><p>Lalique White is fresh: lemon tree leaves, bergamot and mandarin, then white pepper, nutmeg and cardamom over white cedar, moss and musk. <a href="/products/lalique-noir-premier-or-intemporel-1888-eau-de-parfum-100ml">Lalique Noir Premier Or Intemporel 1888</a> is a unisex amber with black pepper, coffee, tobacco and vanilla.</p><h3>Which to choose</h3><p>Prices start from £28.99, so most sit in our <a href="/collections/price-25-50">£25 to £50</a> range and make easy gifts. Compare them with our <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/perfume-for-men">perfume for men</a>. Every Lalique perfume we sell is 100% authentic and ships from the UK, with free UK delivery on orders over £40.</p>
+
+---
+
+## Salvatore Ferragamo  ·  ferragamo perfume 720/mo
+https://www.swansura.com/collections/salvatore-ferragamo · 229 words
+
+**Heading (H2):** Ferragamo perfume: Uomo, Signorina and Tuscan Creations
+
+**SEO description (now):** Shop Salvatore Ferragamo perfume at Swansura: 21 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Ferragamo perfume at Swansura UK: Uomo, Signorina Ribelle and the Tuscan Creations range. 100% authentic, free UK delivery over £40.
+
+> Check: Arte Orafa is tagged woody and Orto delle Spezie amber, but both list oud in the base; Tuscan Creations Vendemmia, Punta Ala and La Corte are tagged floral while unisex. Signorina Eleganza is tagged floral (notes include patchouli and leather).
+
+<p>Ferragamo perfume at Swansura covers three sides of the house: the Uomo scents for men, the Signorina family for women and the unisex Tuscan Creations collection.</p><h3>Uomo and the leather sets for men</h3><p><a href="/products/salvatore-ferragamo-uomo-eau-de-toilette-100ml">Salvatore Ferragamo Uomo Eau de Toilette 100ml</a> is a warm amber scent: bergamot, black pepper and cardamom up top, a tiramisu heart and a base of sandalwood, cashmere wood and tonka bean. For a present, the <a href="/products/salvatore-ferragamo-intense-leather-eau-de-parfum-gift-set-100ml-10ml-100ml">Ferragamo Intense Leather Eau de Parfum Gift Set</a> pairs a 100ml bottle with a 10ml spray and a shampoo and shower gel.</p><h3>Signorina for women</h3><p><a href="/products/salvatore-ferragamo-signorina-eau-de-toilette-100ml">Salvatore Ferragamo Signorina Eau de Toilette 100ml</a> opens with lychee and grapefruit over rose and a soft milk mousse base. <a href="/products/salvatore-ferragamo-signorina-ribelle-eau-de-parfum">Signorina Ribelle Eau de Parfum</a> is sweeter, with frangipani, coconut milk and vanilla, and comes in 10ml, 20ml and 100ml, from £15.99. Signorina In Fiore and Signorina Eleganza add a fruity floral and a leather-touched floral to the family.</p><h3>Tuscan Creations, for everyone</h3><p>The Tuscan Creations eaux de parfum are unisex 100ml bottles. <a href="/products/salvatore-ferragamo-tuscan-creations-la-commedia-eau-de-parfum-100ml">Tuscan Creations La Commedia</a> mixes bitter orange, chilli pepper and leather, while <a href="/products/salvatore-ferragamo-tuscan-creations-arte-orafa-eau-de-parfum-100ml">Tuscan Creations Arte Orafa</a> moves from citrus and raspberry to oud, opoponax and vetiver.</p><h3>More like this</h3><p>Compare every Ferragamo perfume with our <a href="/collections/niche-perfume">niche perfume</a>, <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/aftershave-gift-sets-for-him">aftershave gift sets for him</a>. All of it is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Lanvin  ·  lanvin perfume 720/mo
+https://www.swansura.com/collections/lanvin · 138 words
+
+**Heading (H2):** Lanvin perfume: Mon Éclat Eau de Parfum Mini
+
+**SEO description (now):** Shop Lanvin perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Lanvin perfume at Swansura UK: Mon Eclat eau de parfum mini with pouch, a soft floral for women. 100% authentic, free UK delivery over £40.
+
+> Check: Mon Éclat mini has no photo yet (shows the placeholder card). Description uses "Mon Eclat" without the accent to keep it plain.
+
+<p>Lanvin perfume at Swansura is the <a href="/products/lanvin-mon-eclat-eau-de-parfum-mini-with-pouch-7-5ml">Lanvin Mon Éclat Eau de Parfum Mini with Pouch 7.5ml</a>, a small floral for women at £15.99.</p><h3>How it smells</h3><p>Aloe vera and bergamot give Mon Éclat a fresh, green opening. The heart brings apricot, jasmine and rose, and white musk with sandalwood keeps the finish soft and close.</p><h3>Why the mini works</h3><p>The 7.5ml spray comes with its own pouch, so it slips into a handbag and makes an easy stocking filler. It is also a simple way to try a Lanvin perfume on your own skin. Find more small sizes in our <a href="/collections/travel-size-minis">travel size minis</a> and <a href="/collections/stocking-fillers">stocking fillers</a>.</p><h3>More like this</h3><p>If you like soft florals, browse our <a href="/collections/perfume-for-women">perfume for women</a>. Every Lanvin perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Rochas  ·  rochas perfume 320/mo
+https://www.swansura.com/collections/rochas · 130 words
+
+**Heading (H2):** Rochas perfume: Girl Life Eau de Parfum 40ml
+
+**SEO description (now):** Shop Rochas perfume at Swansura: 1 product, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Rochas perfume at Swansura UK: Girl Life eau de parfum 40ml, a jasmine and tuberose floral for women. 100% authentic, free UK delivery over £40.
+
+<p>Rochas perfume at Swansura is <a href="/products/rochas-girl-life-eau-de-parfum-40ml">Rochas Girl Life Eau de Parfum 40ml</a>, a floral for women at £16.99.</p><h3>How it smells</h3><p>Girl Life opens bright, with mandarin, pink pepper and blackcurrant bud. Jasmine absolute, tuberose absolute and rose essential oil make up a full white-flower heart, and vanilla bean with cedarwood rounds it off warmly.</p><h3>Why the 40ml size works</h3><p>The 40ml bottle is a handy size for everyday use and a good first Rochas perfume. At this price it also makes a thoughtful small present, and it sits in our <a href="/collections/price-15-25">£15 to £25</a> range.</p><h3>More like this</h3><p>Compare it with our <a href="/collections/scent-floral">floral fragrances</a> and the rest of our <a href="/collections/perfume-for-women">perfume for women</a>. Every Rochas perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Superdry  ·  superdry perfume 170/mo
+https://www.swansura.com/collections/superdry · 159 words
+
+**Heading (H2):** Superdry perfume: Real Fragrance 01 and 02 for men and women
+
+**SEO description (now):** Shop Superdry perfume at Swansura: 3 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Superdry perfume at Swansura UK: Real Fragrance 01 Feminin, 02 Feminin and 02 Masculin. 100% authentic, free UK delivery over £40.
+
+> Check: Superdry 02 Feminin and 02 Masculin have no photos yet (linked anyway: only 3 products). Earlier photo review said the Drive boxes for these read 01, so check which bottles are really stocked.
+
+<p>Superdry perfume at Swansura is the Real Fragrance range: easy eaux de toilette in 100ml bottles, from £27.99.</p><h3>For women</h3><p><a href="/products/superdry-real-fragrance-01-feminin-eau-de-toilette-100ml">Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml</a> starts with white peony, magnolia and pear, adds a salty accord in the heart and settles on cedarwood, sandalwood and white musk. <a href="/products/superdry-real-fragrance-02-feminin-eau-de-toilette-100ml">Superdry Real Fragrance 02 Feminin Eau de Toilette</a> is greener, with bergamot, green mandarin, orange blossom and violet leaf over driftwood.</p><h3>For men</h3><p><a href="/products/superdry-real-fragrance-02-masculin-eau-de-toilette-100ml">Superdry Real Fragrance 02 Masculin Eau de Toilette 100ml</a> is a woody scent with cardamom, coriander and pineapple, a fig milk and marine heart, and sandalwood with ambroxan in the base.</p><h3>More like this</h3><p>A Superdry perfume suits everyday wear, and the matching 02 Feminin and 02 Masculin make an easy pair to give together. Compare it with our <a href="/collections/price-25-50">£25 to £50</a> range, <a href="/collections/perfume-for-women">perfume for women</a> and <a href="/collections/perfume-for-men">perfume for men</a>. All of it is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Grès  ·  gres perfume 110/mo
+https://www.swansura.com/collections/gres · 144 words
+
+**Heading (H2):** Grès perfume: Cabotine Rose and Cabotine Turquoise
+
+**SEO description (now):** Shop Grès perfume at Swansura: 2 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Gres perfume at Swansura UK: the Cabotine Rose gift set and Cabotine Turquoise eau de parfum. 100% authentic, free UK delivery over £40.
+
+> Check: Description written "Gres" without the accent to match the search term. Check the gift set sits in perfume-gift-sets-for-her and both in price-15-25 (Turquoise £20.99).
+
+<p>Grès perfume at Swansura means Cabotine, a pair of florals for women at easy prices, from £19.99.</p><h3>Cabotine Rose gift set</h3><p>The <a href="/products/gres-cabotine-rose-eau-de-toilette-body-lotion-gift-set-100ml-200ml">Grès Cabotine Rose Eau de Toilette &amp; Body Lotion Gift Set 100ml + 200ml</a> pairs a 100ml eau de toilette with a 200ml perfumed body lotion. Cherry blossom, pear and green leaves lead into peony and mimosa, with plumeria, sandalwood and musk at the base.</p><h3>Cabotine Turquoise</h3><p><a href="/products/gres-cabotine-turquoise-eau-de-parfum-100ml">Grès Cabotine Turquoise Eau de Parfum 100ml</a> is fresher: bergamot, mandarin and lemon, an aquatic heart with oleander and cardamom, then ambroxan, patchouli and cedarwood.</p><h3>Which to choose</h3><p>Pick the Cabotine Rose set for a ready-made present, or Turquoise for a brighter everyday scent. For more ideas, browse our <a href="/collections/perfume-gift-sets-for-her">perfume gift sets for her</a> and <a href="/collections/price-15-25">£15 to £25</a> range. Every Grès perfume we sell is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
+
+## Thomas Kosmala  ·  thomas kosmala perfume 70/mo
+https://www.swansura.com/collections/thomas-kosmala · 189 words
+
+**Heading (H2):** Thomas Kosmala perfume: Star Chaser, No. 4 Neon and Oud Douze
+
+**SEO description (now):** Shop Thomas Kosmala perfume at Swansura: 12 products, 100% authentic and shipped from the UK. Free UK delivery over £40.
+**SEO description (new):** Thomas Kosmala perfume at Swansura UK: Star Chaser, No. 4 Neon and No. 12 Oud Douze, all unisex. 100% authentic, free UK delivery over £40.
+
+> Check: Star Chaser is tagged woody but opens with sea notes; Exsupero is tagged amber but its notes read green/woody; No. 9 Bukhoor is tagged amber with oud in the base. No. 10 Desire du Coeur Elixir title says "Elixir Eau de Parfum" (label may read Elixir de Parfum). Check Oud Douze sits in oud-perfume.
+
+<p>Thomas Kosmala perfume at Swansura is a set of unisex eaux de parfum in 100ml bottles, made to be shared by men and women, from £80.99.</p><h3>Fresh and bright</h3><p><a href="/products/thomas-kosmala-star-chaser-eau-de-parfum-100ml">Thomas Kosmala Star Chaser Eau de Parfum 100ml</a> opens with green apple, neroli and sea notes over dry wood and sandalwood. <a href="/products/thomas-kosmala-no-4-neon-eau-de-parfum-100ml">Thomas Kosmala No. 4 Neon</a> is juicy, with yuzu, melon and mango, and No. 4 Sport and Wild Stride keep the fresh, citrus mood.</p><h3>Warm, smoky and oud</h3><p><a href="/products/thomas-kosmala-no-12-oud-douze-eau-de-parfum-100ml">Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml</a> pairs saffron and rose with sandalwood, amber, oud and vanilla. <a href="/products/thomas-kosmala-no-9-bukhoor-elixir-de-parfum-100ml">No. 9 Bukhoor Elixir de Parfum</a> is darker, with smoke, agarwood and amber. For something sweeter, No. 4 Candy has cherry, cotton candy and caramel.</p><p>To try or to give, the <a href="/products/thomas-kosmala-no-4-apres-lamour-parfum-hair-mist-travel-kit-30ml-30ml">Thomas Kosmala No. 4 Après l'Amour Parfum &amp; Hair Mist Travel Kit</a> holds a 30ml parfum and a 30ml hair mist, with petitgrain, spices, amber and vanilla.</p><h3>More like this</h3><p>Compare every Thomas Kosmala perfume with our <a href="/collections/niche-perfume">niche perfume</a>, <a href="/collections/unisex-perfume">unisex perfume</a> and <a href="/collections/oud-perfume">oud perfume</a>. All of it is 100% authentic, with free UK delivery on orders over £40.</p>
+
+---
