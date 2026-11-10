@@ -1,0 +1,75 @@
+{
+ "note": "Superdry cut-out gallery 10 Nov 2026: 5 cut-outs (<handle>-NN-cutout.webp) added to Real Fragrance 01 Feminin EDT 100ml, all birefnet-general-lite (all three methods compared; box, flowers, pear and wood kept). 02 Feminin + 02 Masculin have no photos. 5 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in superdry_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431529361795": [
+   "gid://shopify/MediaImage/74755243442563",
+   "gid://shopify/MediaImage/74755243475331",
+   "gid://shopify/MediaImage/74755243508099",
+   "gid://shopify/MediaImage/74755243540867",
+   "gid://shopify/MediaImage/74755243573635"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431529361795,
+   "handle": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml",
+   "vendor": "Superdry",
+   "images": [
+    {
+     "file": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-01.webp",
+     "in": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-01.webp",
+     "alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle beside its Real Superdry 01 box",
+     "pos": 1,
+     "media": 74755243442563,
+     "new_alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle beside its Real Superdry 01 box",
+     "cut": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-02.webp",
+     "in": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-02.webp",
+     "alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – pink ombre bottle on a white background",
+     "pos": 2,
+     "media": 74755243475331,
+     "new_alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – pink ombre bottle",
+     "cut": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-03.webp",
+     "in": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-03.webp",
+     "alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle standing next to its box",
+     "pos": 3,
+     "media": 74755243508099,
+     "new_alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle standing next to its box",
+     "cut": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-04.webp",
+     "in": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-04.webp",
+     "alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – front of the Real Superdry 01 box",
+     "pos": 4,
+     "media": 74755243540867,
+     "new_alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – front of the Real Superdry 01 box",
+     "cut": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-04-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-05.webp",
+     "in": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-05.webp",
+     "alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle with white flowers, pear and wood",
+     "pos": 5,
+     "media": 74755243573635,
+     "new_alt": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml – bottle with white flowers, pear and wood",
+     "cut": "superdry-real-fragrance-01-feminin-eau-de-toilette-100ml-05-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
