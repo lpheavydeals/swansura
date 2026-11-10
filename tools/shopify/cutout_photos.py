@@ -45,6 +45,8 @@ def cutout(path):
 files = sorted(src.glob('*.webp'))
 tiles = []
 for f in files:
+    if (out / f'{f.stem}-cutout.webp').exists():   # resume: already cut
+        continue
     cut, orig = cutout(f)
     cut.save(out / f'{f.stem}-cutout.webp', 'WEBP', quality=90, method=6)
     pair = Image.new('RGB', (800, 500), 'white')
