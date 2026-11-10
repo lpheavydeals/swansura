@@ -1,0 +1,64 @@
+{
+ "note": "Clinique cut-out gallery 10 Nov 2026: 4 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; photo 03 birefnet keeps one chamomile flower of three and drops the parsley, flood fill kept them but left a ragged white reflection floor, so birefnet was used). 4 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in clinique_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431133229443": [
+   "gid://shopify/MediaImage/74755238166915",
+   "gid://shopify/MediaImage/74755238199683",
+   "gid://shopify/MediaImage/74755238232451",
+   "gid://shopify/MediaImage/74755238265219"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431133229443,
+   "handle": "clinique-aromatics-elixir-eau-de-parfum-100ml",
+   "vendor": "Clinique",
+   "images": [
+    {
+     "file": "clinique-aromatics-elixir-eau-de-parfum-100ml-01.webp",
+     "in": "clinique-aromatics-elixir-eau-de-parfum-100ml-01.webp",
+     "alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle with yellow Perfume Spray box (100ml)",
+     "pos": 1,
+     "media": 74755238166915,
+     "new_alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle with yellow Perfume Spray box (100ml)",
+     "cut": "clinique-aromatics-elixir-eau-de-parfum-100ml-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "clinique-aromatics-elixir-eau-de-parfum-100ml-02.webp",
+     "in": "clinique-aromatics-elixir-eau-de-parfum-100ml-02.webp",
+     "alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle on a white background",
+     "pos": 2,
+     "media": 74755238199683,
+     "new_alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle",
+     "cut": "clinique-aromatics-elixir-eau-de-parfum-100ml-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "clinique-aromatics-elixir-eau-de-parfum-100ml-03.webp",
+     "in": "clinique-aromatics-elixir-eau-de-parfum-100ml-03.webp",
+     "alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle with chamomile, lavender, bergamot and wood",
+     "pos": 3,
+     "media": 74755238232451,
+     "new_alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – bottle with chamomile, lavender, bergamot and wood",
+     "cut": "clinique-aromatics-elixir-eau-de-parfum-100ml-03-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "clinique-aromatics-elixir-eau-de-parfum-100ml-04.webp",
+     "in": "clinique-aromatics-elixir-eau-de-parfum-100ml-04.webp",
+     "alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – two bottles lying flat, one with the cap off",
+     "pos": 4,
+     "media": 74755238265219,
+     "new_alt": "Clinique Aromatics Elixir Eau de Parfum 100ml – two bottles lying flat, one with the cap off",
+     "cut": "clinique-aromatics-elixir-eau-de-parfum-100ml-04-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
