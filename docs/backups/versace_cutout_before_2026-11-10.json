@@ -1,0 +1,210 @@
+{
+ "note": "10 Nov 2026 (user: 'Do the same for Versace next'): all 20 photos of the 7 Versace products replaced by <handle>-NN-cutout.webp (birefnet-general-lite; Dylan Blue 5ml photo 3 isnet to keep the stone; Eros Parfum photo 3 flood fill to keep the white flowers). Originals DETACHED with fileUpdate referencesToRemove (kept in Content > Files; local copies docs/backups/versace_originals_2026-11-10/). Undo: referencesToAdd these ids, detach the *-cutout media.",
+ "detached": {
+  "16431695790467": [
+   "74755350135171",
+   "74755350167939",
+   "74755350200707",
+   "74755350233475"
+  ],
+  "16431695823235": [
+   "74755350462851"
+  ],
+  "16431695888771": [
+   "74755350593923",
+   "74755350626691",
+   "74755350659459"
+  ],
+  "16431695921539": [
+   "74755350954371",
+   "74755350987139",
+   "74755351019907",
+   "74755351052675"
+  ],
+  "16431695987075": [
+   "74755351150979",
+   "74755351183747"
+  ],
+  "16431696019843": [
+   "74755351314819",
+   "74755351347587",
+   "74755351380355"
+  ],
+  "16431696085379": [
+   "74755351576963",
+   "74755351609731",
+   "74755351642499"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431695790467,
+   "handle": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-01.webp",
+     "in": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-01.webp",
+     "alt": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml – 5ml miniature beside its box",
+     "pos": 1
+    },
+    {
+     "file": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-02.webp",
+     "in": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-02.webp",
+     "alt": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml – blue bottle on a white background",
+     "pos": 2
+    },
+    {
+     "file": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-03.webp",
+     "in": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-03.webp",
+     "alt": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml – blue bottle on a stone",
+     "pos": 3
+    },
+    {
+     "file": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-04.webp",
+     "in": "versace-dylan-blue-pour-homme-eau-de-toilette-miniature-5ml-04.webp",
+     "alt": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml – blue bottle with bergamot, grapefruit, fig and a water splash",
+     "pos": 4
+    }
+   ]
+  },
+  {
+   "id": 16431695823235,
+   "handle": "versace-eros-eau-de-toilette-200ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-eros-eau-de-toilette-200ml-01.webp",
+     "in": "versace-eros-eau-de-toilette-200ml-01.webp",
+     "alt": "Versace Eros Eau de Toilette 200ml – bottle beside its 200ml eau de toilette box",
+     "pos": 1
+    }
+   ]
+  },
+  {
+   "id": 16431695888771,
+   "handle": "versace-eros-parfum",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-eros-parfum-01.webp",
+     "in": "versace-eros-parfum-01.webp",
+     "alt": "Versace Eros Parfum – bottle beside its 100ml box",
+     "pos": 1
+    },
+    {
+     "file": "versace-eros-parfum-02.webp",
+     "in": "versace-eros-parfum-02.webp",
+     "alt": "Versace Eros Parfum – bottle on a white background",
+     "pos": 2
+    },
+    {
+     "file": "versace-eros-parfum-03.webp",
+     "in": "versace-eros-parfum-03.webp",
+     "alt": "Versace Eros Parfum – bottle with vanilla pods, lavender and white flowers",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431695921539,
+   "handle": "versace-eros-pour-femme-eau-de-parfum-100ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-eros-pour-femme-eau-de-parfum-100ml-01.webp",
+     "in": "versace-eros-pour-femme-eau-de-parfum-100ml-01.webp",
+     "alt": "Versace Eros Pour Femme Eau de Parfum 100ml – bottle beside its 100ml box",
+     "pos": 1
+    },
+    {
+     "file": "versace-eros-pour-femme-eau-de-parfum-100ml-02.webp",
+     "in": "versace-eros-pour-femme-eau-de-parfum-100ml-02.webp",
+     "alt": "Versace Eros Pour Femme Eau de Parfum 100ml – gold bottle on a white background",
+     "pos": 2
+    },
+    {
+     "file": "versace-eros-pour-femme-eau-de-parfum-100ml-03.webp",
+     "in": "versace-eros-pour-femme-eau-de-parfum-100ml-03.webp",
+     "alt": "Versace Eros Pour Femme Eau de Parfum 100ml – bottle with lemon, pomegranate and bergamot",
+     "pos": 3
+    },
+    {
+     "file": "versace-eros-pour-femme-eau-de-parfum-100ml-04.webp",
+     "in": "versace-eros-pour-femme-eau-de-parfum-100ml-04.webp",
+     "alt": "Versace Eros Pour Femme Eau de Parfum 100ml – bottle beside its open drawer box",
+     "pos": 4
+    }
+   ]
+  },
+  {
+   "id": 16431695987075,
+   "handle": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml-01.webp",
+     "in": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml-01.webp",
+     "alt": "Versace Eros Pour Femme Eau de Toilette Miniature 5ml – miniature bottle on a white background",
+     "pos": 1
+    },
+    {
+     "file": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml-02.webp",
+     "in": "versace-eros-pour-femme-eau-de-toilette-miniature-5ml-02.webp",
+     "alt": "Versace Eros Pour Femme Eau de Toilette Miniature 5ml – miniature bottle with lemon, pomegranate and bergamot",
+     "pos": 2
+    }
+   ]
+  },
+  {
+   "id": 16431696019843,
+   "handle": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-01.webp",
+     "in": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-01.webp",
+     "alt": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml – 5ml miniature beside its box",
+     "pos": 1
+    },
+    {
+     "file": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-02.webp",
+     "in": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-02.webp",
+     "alt": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml – blue bottle on a white background",
+     "pos": 2
+    },
+    {
+     "file": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-03.webp",
+     "in": "versace-man-eau-fraiche-eau-de-toilette-miniature-5ml-03.webp",
+     "alt": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml – bottle with lemon, star fruit and wood",
+     "pos": 3
+    }
+   ]
+  },
+  {
+   "id": 16431696085379,
+   "handle": "versace-yellow-diamond-eau-de-toilette-90ml",
+   "vendor": "Versace",
+   "images": [
+    {
+     "file": "versace-yellow-diamond-eau-de-toilette-90ml-01.webp",
+     "in": "versace-yellow-diamond-eau-de-toilette-90ml-01.webp",
+     "alt": "Versace Yellow Diamond Eau de Toilette 90ml – bottle beside its 90ml box",
+     "pos": 1
+    },
+    {
+     "file": "versace-yellow-diamond-eau-de-toilette-90ml-02.webp",
+     "in": "versace-yellow-diamond-eau-de-toilette-90ml-02.webp",
+     "alt": "Versace Yellow Diamond Eau de Toilette 90ml – bottle on a white background",
+     "pos": 2
+    },
+    {
+     "file": "versace-yellow-diamond-eau-de-toilette-90ml-03.webp",
+     "in": "versace-yellow-diamond-eau-de-toilette-90ml-03.webp",
+     "alt": "Versace Yellow Diamond Eau de Toilette 90ml – bottle with pear, lemon and orange blossom",
+     "pos": 3
+    }
+   ]
+  }
+ ]
+}
