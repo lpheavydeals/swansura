@@ -1,0 +1,202 @@
+{
+ "note": "10 Nov 2026, user: Go ahead with A. Delete 21 legacy orphan collections (all rule-based; products untouched) and 301 each to its real page. Full collection data in docs/backups/legacy_collections_before_2026-11-10.json. Undo: delete the new redirects, recreate collections from the backup (rules must be re-entered by hand: the API backup has only rule-source titles), restore old redirect targets.",
+ "collections": [
+  {
+   "id": "gid://shopify/Collection/689023713667",
+   "handle": "jo-milano-paris-1",
+   "title": "Jo Milano Paris",
+   "products": 3,
+   "redirect_to": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/Collection/689292083587",
+   "handle": "body-cream-exfoliants",
+   "title": "Body Wash & Care",
+   "products": 26,
+   "redirect_to": "/collections/bodycare"
+  },
+  {
+   "id": "gid://shopify/Collection/689293951363",
+   "handle": "bestsellers",
+   "title": "Deyga Bestsellers",
+   "products": 22,
+   "redirect_to": "/collections/deyga"
+  },
+  {
+   "id": "gid://shopify/Collection/689294344579",
+   "handle": "vilvah-bestsellers",
+   "title": "Vilvah Bestsellers",
+   "products": 31,
+   "redirect_to": "/collections/vilvah"
+  },
+  {
+   "id": "gid://shopify/Collection/689297293699",
+   "handle": "deyga-kits",
+   "title": "Deyga Sets&Kits",
+   "products": 21,
+   "redirect_to": "/collections/deyga"
+  },
+  {
+   "id": "gid://shopify/Collection/689298735491",
+   "handle": "luxury-collection",
+   "title": "Luxury Collection",
+   "products": 0,
+   "redirect_to": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/Collection/689324425603",
+   "handle": "lipcare-sets",
+   "title": "Lipcare Sets",
+   "products": 9,
+   "redirect_to": "/collections/lip-balm"
+  },
+  {
+   "id": "gid://shopify/Collection/689324753283",
+   "handle": "bodycare-kits",
+   "title": "Bodycare Kits",
+   "products": 5,
+   "redirect_to": "/collections/bodycare"
+  },
+  {
+   "id": "gid://shopify/Collection/689352507779",
+   "handle": "vilvah-solo-products",
+   "title": "Vilvah Solo Glow",
+   "products": 45,
+   "redirect_to": "/collections/vilvah"
+  },
+  {
+   "id": "gid://shopify/Collection/689355260291",
+   "handle": "deyga-solo-products",
+   "title": "Deyga Solo Glow",
+   "products": 53,
+   "redirect_to": "/collections/deyga"
+  },
+  {
+   "id": "gid://shopify/Collection/689522835843",
+   "handle": "vilvah-gift-bundle",
+   "title": "Vilvah Gift Bundle",
+   "products": 1,
+   "redirect_to": "/collections/skincare-gift-sets"
+  },
+  {
+   "id": "gid://shopify/Collection/689522868611",
+   "handle": "deyga-gift-bundle",
+   "title": "Deyga Gift Bundle",
+   "products": 0,
+   "redirect_to": "/collections/skincare-gift-sets"
+  },
+  {
+   "id": "gid://shopify/Collection/689549083011",
+   "handle": "diamond-collection",
+   "title": "Diamond Collection",
+   "products": 5,
+   "redirect_to": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/Collection/689549115779",
+   "handle": "prestige-collection",
+   "title": "Prestige Collection",
+   "products": 1,
+   "redirect_to": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/Collection/689549148547",
+   "handle": "gift-sets",
+   "title": "Gift Sets",
+   "products": 4,
+   "redirect_to": "/collections/acqua-di-parma"
+  },
+  {
+   "id": "gid://shopify/Collection/693969322371",
+   "handle": "blushing-beauty-solo-glow",
+   "title": "Blushing Beauty Solo Glow",
+   "products": 2,
+   "redirect_to": "/collections/swansura-selection"
+  },
+  {
+   "id": "gid://shopify/Collection/704187335043",
+   "handle": "luxury-collection-2",
+   "title": "Luxury-collection",
+   "products": 1,
+   "redirect_to": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/Collection/704510427523",
+   "handle": "makeup-product",
+   "title": "Makeup Product",
+   "products": 2,
+   "redirect_to": "/collections/deyga"
+  },
+  {
+   "id": "gid://shopify/Collection/711857176963",
+   "handle": "giorgia-armani",
+   "title": "Giorgia Armani",
+   "products": 0,
+   "redirect_to": "/collections/giorgio-armani"
+  },
+  {
+   "id": "gid://shopify/Collection/713071395203",
+   "handle": "best-sellers",
+   "title": "Best Sellers",
+   "products": 17,
+   "redirect_to": "/collections/natural-skincare"
+  },
+  {
+   "id": "gid://shopify/Collection/713450946947",
+   "handle": "davidoff-1",
+   "title": "Davidoff",
+   "products": 1,
+   "redirect_to": "/collections/davidoff"
+  }
+ ],
+ "retarget": [
+  {
+   "id": "gid://shopify/UrlRedirect/1764474552707",
+   "path": "/pages/deyga-gift-bundle",
+   "before": "/collections/deyga-kits",
+   "after": "/collections/deyga"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764474585475",
+   "path": "/pages/blushing-beauty",
+   "before": "/collections/blushing-beauty-solo-glow",
+   "after": "/collections/swansura-selection"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764474618243",
+   "path": "/pages/blushing_beauty",
+   "before": "/collections/blushing-beauty-solo-glow",
+   "after": "/collections/swansura-selection"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764522787203",
+   "path": "/pages/best-sellers",
+   "before": "/collections/best-sellers",
+   "after": "/collections/natural-skincare"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764523377027",
+   "path": "/pages/foot-cream",
+   "before": "/collections/body-cream-exfoliants",
+   "after": "/collections/bodycare"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764523475331",
+   "path": "/pages/bath-bar",
+   "before": "/collections/body-cream-exfoliants",
+   "after": "/collections/bodycare"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764523573635",
+   "path": "/pages/diamond-collection",
+   "before": "/collections/diamond-collection",
+   "after": "/collections/jo-milano"
+  },
+  {
+   "id": "gid://shopify/UrlRedirect/1764523606403",
+   "path": "/pages/make-up-products",
+   "before": "/collections/makeup-product",
+   "after": "/collections/deyga"
+  }
+ ]
+}
