@@ -332,6 +332,11 @@ html.as-open .swp .chatbtn{display:none}
 .swp #bagPage .bag .bag-head button{display:none}
 .swp #bagPage .bag .bag-body{overflow:visible}
 .swp #bagPage .bag .foot{box-shadow:none}
+/* Cut-out photos (10 Nov 2026, user: Option B, soft emerald tint): a photo whose file name has '-cutout' is a
+   transparent 4:5 cut-out (tools/shopify/cutout_photos.py); paint one flat background behind it instead of the
+   beige mount + 7% margin + multiply. Matches on src, so thumbnail swaps, bag lines and tiles follow automatically. */
+.swp img.pic[src*="-cutout"]{padding:0!important;mix-blend-mode:normal!important;background:var(--cutbg,#EEF3F0)!important;object-fit:cover!important;box-sizing:border-box}
+.swp .p-media:has(img.pic[src*="-cutout"]),.swp #mainImg:has(img.pic[src*="-cutout"]){background:var(--cutbg,#EEF3F0)!important}
 """
 
 

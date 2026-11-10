@@ -1,0 +1,57 @@
+{
+ "note": "Before the cut-out trial (10 Nov 2026): every Mugler product kept all its media; the cut-out is ADDED as media #1. Undo = delete the media whose file name ends -cutout.webp (productDeleteMedia).",
+ "products": {
+  "mugler-alien-eau-de-parfum-refillable": {
+   "id": "gid://shopify/Product/16431141912963",
+   "first_alt_before": "Mugler Alien Eau de Parfum Refillable – 30ml refillable bottle with box"
+  },
+  "mugler-alien-goddess-supra-florale-eau-de-parfum": {
+   "id": "gid://shopify/Product/16431142142339",
+   "first_alt_before": "Mugler Alien Goddess Supra Florale Eau de Parfum – 90ml bottle with peach Eau de Parfum Supra Florale box"
+  },
+  "mugler-alien-goddess-eau-de-parfum-gift-set-30ml-10ml": {
+   "id": "gid://shopify/Product/16431142175107",
+   "first_alt_before": "Mugler Alien Goddess Eau de Parfum Gift Set 30ml + 10ml – gift box with 30ml bottle and 10ml travel spray"
+  },
+  "mugler-alien-man-eau-de-toilette-body-shampoo-travel-set-100ml-50ml": {
+   "id": "gid://shopify/Product/16431142240643",
+   "first_alt_before": "Mugler Alien Man Eau de Toilette & Body Shampoo Travel Set 100ml + 50ml – The Essentials box with eau de toilette and hair and body shampoo"
+  },
+  "mugler-angel-eau-de-parfum-25ml": {
+   "id": "gid://shopify/Product/16431142273411",
+   "first_alt_before": "Mugler Angel Eau de Parfum 25ml – star bottle with Les Etoiles Non Ressourcables 25ml box"
+  },
+  "mugler-angel-elixir-eau-de-parfum-refillable-star": {
+   "id": "gid://shopify/Product/16431142306179",
+   "first_alt_before": "Mugler Angel Elixir Eau de Parfum Refillable Star – 100ml refillable star with box"
+  },
+  "mugler-angel-nova-eau-de-toilette-50ml": {
+   "id": "gid://shopify/Product/16431142338947",
+   "first_alt_before": "Mugler Angel Nova Eau de Toilette 50ml – pink star bottle with 50ml box"
+  },
+  "mugler-cologne-blow-it-up-eau-de-toilette-10ml": {
+   "id": "gid://shopify/Product/16431142371715",
+   "first_alt_before": "Mugler Cologne Blow It Up Eau de Toilette 10ml – 10ml travel spray with box"
+  },
+  "mugler-cologne-fly-away-eau-de-toilette-10ml": {
+   "id": "gid://shopify/Product/16431142404483",
+   "first_alt_before": "Mugler Cologne Fly Away Eau de Toilette 10ml – 10ml travel spray with box"
+  },
+  "mugler-cologne-heal-your-mind-eau-de-toilette-10ml": {
+   "id": "gid://shopify/Product/16431142437251",
+   "first_alt_before": "Mugler Cologne Heal Your Mind Eau de Toilette 10ml – 10ml travel spray with box"
+  },
+  "mugler-cologne-love-you-all-eau-de-toilette-10ml": {
+   "id": "gid://shopify/Product/16431142470019",
+   "first_alt_before": "Mugler Cologne Love You All Eau de Toilette 10ml – 10ml travel spray with box"
+  },
+  "mugler-les-exceptions-mystic-aromatic-eau-de-parfum-80ml": {
+   "id": "gid://shopify/Product/16431144108419",
+   "first_alt_before": "Mugler Les Exceptions Mystic Aromatic Eau de Parfum 80ml – bottle with black Les Exceptions box"
+  },
+  "mugler-les-exceptions-wonder-bouquet-eau-de-parfum-80ml": {
+   "id": "gid://shopify/Product/16431144173955",
+   "first_alt_before": "Mugler Les Exceptions Wonder Bouquet Eau de Parfum 80ml – bottle with black Les Exceptions box"
+  }
+ }
+}

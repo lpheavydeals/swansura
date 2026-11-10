@@ -76,6 +76,9 @@
   assign fv = product.selected_or_first_available_variant
   assign img0 = product.featured_media.preview_image
   assign img1 = product.media[1].preview_image
+  if img0.src contains '-cutout'
+    assign img1 = nil
+  endif
 -%}
 {%- capture t -%}{% render 'sw-p-name', product: product %}{%- endcapture -%}
 {%- capture vid -%}{% render 'sw-p-variant', product: product %}{%- endcapture -%}
