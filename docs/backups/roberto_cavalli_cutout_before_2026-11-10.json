@@ -1,0 +1,246 @@
+{
+ "note": "Roberto Cavalli cut-out gallery 10 Nov 2026: 28 cut-outs (<handle>-NN-cutout.webp) added; birefnet-general-lite except picks (isnet: Uomo EDT photos 01 and 03, birefnet tore the black box). Paradiso Assoluto photo 03 (hand silhouette + 15 cm height guide) has no cut-out: both models dropped the hand and the height labels, flood fill left a hard white edge, so it was left out (original in roberto_cavalli_originals_2026-11-10/). 29 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {
+   "roberto-cavalli-uomo-eau-de-toilette-100ml-01.webp": "isnet",
+   "roberto-cavalli-uomo-eau-de-toilette-100ml-03.webp": "isnet"
+  },
+  "dropped": [
+   "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml-03.webp"
+  ]
+ },
+ "detached": {
+  "gid://shopify/Product/16431529787779": [
+   "gid://shopify/MediaImage/74755244032387",
+   "gid://shopify/MediaImage/74755244065155",
+   "gid://shopify/MediaImage/74755244097923",
+   "gid://shopify/MediaImage/74755244130691",
+   "gid://shopify/MediaImage/74755244163459",
+   "gid://shopify/MediaImage/74755244196227",
+   "gid://shopify/MediaImage/74755244228995"
+  ],
+  "gid://shopify/Product/16431529820547": [
+   "gid://shopify/MediaImage/74755331031427",
+   "gid://shopify/MediaImage/74755331064195",
+   "gid://shopify/MediaImage/74755331096963",
+   "gid://shopify/MediaImage/74755331129731"
+  ],
+  "gid://shopify/Product/16431529886083": [
+   "gid://shopify/MediaImage/74755331883395",
+   "gid://shopify/MediaImage/74755331916163",
+   "gid://shopify/MediaImage/74755331948931"
+  ],
+  "gid://shopify/Product/16431529918851": [
+   "gid://shopify/MediaImage/74755332211075",
+   "gid://shopify/MediaImage/74755332243843",
+   "gid://shopify/MediaImage/74755332276611",
+   "gid://shopify/MediaImage/74755332309379"
+  ],
+  "gid://shopify/Product/16431529951619": [
+   "gid://shopify/MediaImage/74755332604291",
+   "gid://shopify/MediaImage/74755332637059",
+   "gid://shopify/MediaImage/74755332669827",
+   "gid://shopify/MediaImage/74755332702595"
+  ],
+  "gid://shopify/Product/16431529984387": [
+   "gid://shopify/MediaImage/74755333325187",
+   "gid://shopify/MediaImage/74755333357955",
+   "gid://shopify/MediaImage/74755333390723",
+   "gid://shopify/MediaImage/74755333423491"
+  ],
+  "gid://shopify/Product/16431530017155": [
+   "gid://shopify/MediaImage/74755333620099",
+   "gid://shopify/MediaImage/74755333652867",
+   "gid://shopify/MediaImage/74755333685635"
+  ]
+ },
+ "gallery_before": [
+  {
+   "product": "gid://shopify/Product/16431529787779",
+   "handle": "roberto-cavalli-florence-eau-de-parfum",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755244032387",
+     "file": "roberto-cavalli-florence-eau-de-parfum-01.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – bottle on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244065155",
+     "file": "roberto-cavalli-florence-eau-de-parfum-02.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – 75ml bottle beside its purple box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244097923",
+     "file": "roberto-cavalli-florence-eau-de-parfum-03.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – 50ml bottle beside its purple box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244130691",
+     "file": "roberto-cavalli-florence-eau-de-parfum-04.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – bottle with blackcurrants, citrus and pink flowers"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244163459",
+     "file": "roberto-cavalli-florence-eau-de-parfum-05.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – bottle with a gold cap on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244196227",
+     "file": "roberto-cavalli-florence-eau-de-parfum-06.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – front of the 75ml purple box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755244228995",
+     "file": "roberto-cavalli-florence-eau-de-parfum-07.webp",
+     "alt": "Roberto Cavalli Florence Eau de Parfum – bottle with gold cap, citrus, blackcurrants and hibiscus"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431529820547",
+   "handle": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755331031427",
+     "file": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml-01.webp",
+     "alt": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml – bottle beside its Bloodiris box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755331064195",
+     "file": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml-02.webp",
+     "alt": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml – blue bottle with gold emblem cap on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755331096963",
+     "file": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml-03.webp",
+     "alt": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml – front of the Bloodiris 100ml box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755331129731",
+     "file": "roberto-cavalli-gold-collection-bloodiris-eau-de-parfum-100ml-04.webp",
+     "alt": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml – bottle with blood orange, iris and spices"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431529886083",
+   "handle": "roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755331883395",
+     "file": "roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml-01.webp",
+     "alt": "Roberto Cavalli Just Cavalli Eau de Toilette for Her 30ml – bottle beside its gold and snakeskin 30ml box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755331916163",
+     "file": "roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml-02.webp",
+     "alt": "Roberto Cavalli Just Cavalli Eau de Toilette for Her 30ml – gold and pink bottle on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755331948931",
+     "file": "roberto-cavalli-just-cavalli-eau-de-toilette-for-her-30ml-03.webp",
+     "alt": "Roberto Cavalli Just Cavalli Eau de Toilette for Her 30ml – bottle with white flowers"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431529918851",
+   "handle": "roberto-cavalli-paradiso-eau-de-parfum-100ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755332211075",
+     "file": "roberto-cavalli-paradiso-eau-de-parfum-100ml-01.webp",
+     "alt": "Roberto Cavalli Paradiso Eau de Parfum 100ml – bottle beside its black leopard-print box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332243843",
+     "file": "roberto-cavalli-paradiso-eau-de-parfum-100ml-02.webp",
+     "alt": "Roberto Cavalli Paradiso Eau de Parfum 100ml – bottle with gold emblem cap on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332276611",
+     "file": "roberto-cavalli-paradiso-eau-de-parfum-100ml-03.webp",
+     "alt": "Roberto Cavalli Paradiso Eau de Parfum 100ml – front of the Paradiso 100ml box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332309379",
+     "file": "roberto-cavalli-paradiso-eau-de-parfum-100ml-04.webp",
+     "alt": "Roberto Cavalli Paradiso Eau de Parfum 100ml – bottle with lemon, white flowers and pine"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431529951619",
+   "handle": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755332604291",
+     "file": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml-01.webp",
+     "alt": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml – bottle beside its leopard-print box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332637059",
+     "file": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml-02.webp",
+     "alt": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml – amber bottle on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332669827",
+     "file": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml-03.webp",
+     "alt": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml – bottle held in a hand silhouette with a 15 cm height guide"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755332702595",
+     "file": "roberto-cavalli-paradiso-assoluto-eau-de-parfum-100ml-04.webp",
+     "alt": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml – bottle with citrus, lilies and passion fruit"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431529984387",
+   "handle": "roberto-cavalli-uomo-eau-de-toilette-100ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755333325187",
+     "file": "roberto-cavalli-uomo-eau-de-toilette-100ml-01.webp",
+     "alt": "Roberto Cavalli Uomo Eau de Toilette 100ml – bottle beside its black textured box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755333357955",
+     "file": "roberto-cavalli-uomo-eau-de-toilette-100ml-02.webp",
+     "alt": "Roberto Cavalli Uomo Eau de Toilette 100ml – black bottle on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755333390723",
+     "file": "roberto-cavalli-uomo-eau-de-toilette-100ml-03.webp",
+     "alt": "Roberto Cavalli Uomo Eau de Toilette 100ml – front of the Uomo 100ml box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755333423491",
+     "file": "roberto-cavalli-uomo-eau-de-toilette-100ml-04.webp",
+     "alt": "Roberto Cavalli Uomo Eau de Toilette 100ml – bottle with violet, honeycomb, lavender, saffron and wood"
+    }
+   ]
+  },
+  {
+   "product": "gid://shopify/Product/16431530017155",
+   "handle": "roberto-cavalli-uomo-parfum-100ml",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/74755333620099",
+     "file": "roberto-cavalli-uomo-parfum-100ml-01.webp",
+     "alt": "Roberto Cavalli Uomo Parfum 100ml – bottle beside its leopard-print box"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755333652867",
+     "file": "roberto-cavalli-uomo-parfum-100ml-02.webp",
+     "alt": "Roberto Cavalli Uomo Parfum 100ml – brown bottle with gold emblem cap on a white background"
+    },
+    {
+     "id": "gid://shopify/MediaImage/74755333685635",
+     "file": "roberto-cavalli-uomo-parfum-100ml-03.webp",
+     "alt": "Roberto Cavalli Uomo Parfum 100ml – bottle with lemon, bergamot, violets, saffron and pepper"
+    }
+   ]
+  }
+ ]
+}
