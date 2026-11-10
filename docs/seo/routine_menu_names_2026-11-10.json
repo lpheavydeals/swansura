@@ -1,0 +1,2396 @@
+{
+ "before": {
+  "id": "gid://shopify/Menu/333156680067",
+  "handle": "sw-main",
+  "title": "Swansura main menu",
+  "items": [
+   {
+    "id": "gid://shopify/MenuItem/834005434755",
+    "title": "Skincare",
+    "type": "HTTP",
+    "url": "/collections/skincare",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834005467523",
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005500291",
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/serum",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005533059",
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/moisturizers-gels",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005565827",
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/face-mask-pack",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005598595",
+        "title": "Toners",
+        "type": "HTTP",
+        "url": "/collections/toner",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005631363",
+        "title": "Cleansers",
+        "type": "HTTP",
+        "url": "/collections/cleanser",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005664131",
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/skincare-tools-kits",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005696899",
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/sunscreen",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005729667",
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/lip-balm",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834005762435",
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005795203",
+        "title": "Acne & oil control",
+        "type": "HTTP",
+        "url": "/collections/concern-acne",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005827971",
+        "title": "Glow & even tone",
+        "type": "HTTP",
+        "url": "/collections/concern-glow",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005860739",
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005893507",
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/concern-lips",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005926275",
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/concern-sun",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834005959043",
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005991811",
+        "title": "Moisturiser for dry skin",
+        "type": "HTTP",
+        "url": "/collections/moisturiser-for-dry-skin",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006024579",
+        "title": "Face wash for oily skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-oily-skin",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006057347",
+        "title": "Face wash for dry skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-dry-skin",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006090115",
+        "title": "Toner for dry skin",
+        "type": "HTTP",
+        "url": "/collections/toner-for-dry-skin",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006122883",
+        "title": "Lip balm for dry lips",
+        "type": "HTTP",
+        "url": "/collections/lip-balm-for-dry-lips",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006155651",
+        "title": "Natural sunscreen",
+        "type": "HTTP",
+        "url": "/collections/natural-sunscreen",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006188419",
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006221187",
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/deyga",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006253955",
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/vilvah",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006286723",
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006319491",
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006352259",
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006385027",
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834006417795",
+    "title": "Haircare",
+    "type": "HTTP",
+    "url": "/collections/haircare",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834006450563",
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006483331",
+        "title": "Hair oil",
+        "type": "HTTP",
+        "url": "/collections/hair-oil",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006516099",
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/haircare-tools-kits",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006548867",
+        "title": "Shampoo",
+        "type": "HTTP",
+        "url": "/collections/shampoo",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006581635",
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/hair-styling-products",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006614403",
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006647171",
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/hair-mask",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006679939",
+        "title": "Conditioner",
+        "type": "HTTP",
+        "url": "/collections/conditioner",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006712707",
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006745475",
+        "title": "Hair fall",
+        "type": "HTTP",
+        "url": "/collections/concern-hairfall",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006778243",
+        "title": "Dandruff",
+        "type": "HTTP",
+        "url": "/collections/concern-dandruff",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006811011",
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006843779",
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006876547",
+        "title": "Hair oil for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-oil-for-dry-hair",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006909315",
+        "title": "Hair mask for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-mask-for-dry-hair",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006942083",
+        "title": "Shampoo for dandruff",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-dandruff",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006974851",
+        "title": "Hair serum for frizzy hair",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007007619",
+        "title": "Hair growth oil",
+        "type": "HTTP",
+        "url": "/collections/hair-growth-oil",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007040387",
+        "title": "Shampoo for hair loss",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-hair-loss",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007073155",
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007105923",
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/deyga",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007138691",
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/vilvah",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007171459",
+    "title": "Bath & Body",
+    "type": "HTTP",
+    "url": "/collections/bodycare",
+    "tags": [],
+    "resourceId": null,
+    "items": []
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007204227",
+    "title": "Fragrance",
+    "type": "HTTP",
+    "url": "/collections/fragrance",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834007236995",
+      "title": "For",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007269763",
+        "title": "For her",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-women",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007302531",
+        "title": "For him",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-men",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007335299",
+        "title": "Unisex",
+        "type": "HTTP",
+        "url": "/collections/unisex-perfume",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007368067",
+        "title": "Minis & sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007400835",
+      "title": "Scent family",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007433603",
+        "title": "Oud",
+        "type": "HTTP",
+        "url": "/collections/scent-oud",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007466371",
+        "title": "Amber",
+        "type": "HTTP",
+        "url": "/collections/scent-amber",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007499139",
+        "title": "Floral",
+        "type": "HTTP",
+        "url": "/collections/scent-floral",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007531907",
+        "title": "Woody",
+        "type": "HTTP",
+        "url": "/collections/scent-woody",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007564675",
+        "title": "Fresh",
+        "type": "HTTP",
+        "url": "/collections/scent-fresh",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007597443",
+      "title": "Houses",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007630211",
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007662979",
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007695747",
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007728515",
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007761283",
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007794051",
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-dorient",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007826819",
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007859587",
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/jo-milano",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007892355",
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007925123",
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258777987",
+        "title": "Lattafa",
+        "type": "HTTP",
+        "url": "/collections/lattafa",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258810755",
+        "title": "Guess",
+        "type": "HTTP",
+        "url": "/collections/guess",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007957891",
+        "title": "All brands A–Z",
+        "type": "HTTP",
+        "url": "/collections",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007990659",
+    "title": "Routines",
+    "type": "HTTP",
+    "url": "/pages/rituals",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834008023427",
+      "title": "Skincare routines",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008056195",
+        "title": "Clear Skin Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008088963",
+        "title": "Vitamin C Glow Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008121731",
+        "title": "Deep Hydration Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008154499",
+        "title": "Milk Glow Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008187267",
+        "title": "Sensitive Skin Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008220035",
+        "title": "Age-Defying Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008252803",
+      "title": "Hair routines",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008285571",
+        "title": "Hair Fall Rescue",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008318339",
+        "title": "Smooth & Shine Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008351107",
+        "title": "Calm Scalp Duo",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008383875",
+      "title": "Body & bath",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008416643",
+        "title": "Body Polish Ritual",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008449411",
+        "title": "Foot Spa at Home",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008482179",
+        "title": "Sleep Ritual",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008514947",
+        "title": "Lip Wardrobe",
+        "type": "HTTP",
+        "url": "/pages/rituals",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834008547715",
+    "title": "Gifts & Sets",
+    "type": "HTTP",
+    "url": "/collections/sets-combos",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834008580483",
+      "title": "Christmas 2026",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008613251",
+        "title": "Advent calendars",
+        "type": "HTTP",
+        "url": "/pages/advent",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008646019",
+        "title": "Skin Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#skin",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008678787",
+        "title": "Scent Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#scent",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008711555",
+        "title": "Stocking fillers",
+        "type": "HTTP",
+        "url": "/collections/stocking-fillers",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559817603",
+        "title": "Christmas gifts",
+        "type": "HTTP",
+        "url": "/collections/christmas-gifts",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559850371",
+        "title": "Black Friday",
+        "type": "HTTP",
+        "url": "/collections/black-friday",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008744323",
+      "title": "By recipient",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008777091",
+        "title": "Gifts for her",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-her",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008809859",
+        "title": "Gifts for him",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-him",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559883139",
+        "title": "Perfume gift sets for her",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets-for-her",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559915907",
+        "title": "Aftershave gift sets for him",
+        "type": "HTTP",
+        "url": "/collections/aftershave-gift-sets-for-him",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559948675",
+        "title": "Skincare gift sets",
+        "type": "HTTP",
+        "url": "/collections/skincare-gift-sets",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008842627",
+        "title": "Perfume gift sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008875395",
+        "title": "All gift sets",
+        "type": "HTTP",
+        "url": "/collections/sets-combos",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008908163",
+      "title": "By price & occasion",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008940931",
+        "title": "Under £25",
+        "type": "HTTP",
+        "url": "/collections/gifts-under-25",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559981443",
+        "title": "Under £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-under-50",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008973699",
+        "title": "£25 to £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-25-to-50",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009006467",
+        "title": "Over £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-over-50",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009039235",
+        "title": "Diwali gifts",
+        "type": "HTTP",
+        "url": "/collections/diwali-gifts",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009072003",
+        "title": "Ramadan & Eid gifts",
+        "type": "HTTP",
+        "url": "/collections/ramadan-eid-gifts",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834009104771",
+    "title": "Advent",
+    "type": "HTTP",
+    "url": "/pages/advent",
+    "tags": [],
+    "resourceId": null,
+    "items": []
+   },
+   {
+    "id": "gid://shopify/MenuItem/834009137539",
+    "title": "Brands",
+    "type": "HTTP",
+    "url": "/collections",
+    "tags": [],
+    "resourceId": null,
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834009170307",
+      "title": "Skin Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009203075",
+        "title": "Deyga · Official partner",
+        "type": "HTTP",
+        "url": "/collections/deyga",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009235843",
+        "title": "Vilvah · Official partner",
+        "type": "HTTP",
+        "url": "/collections/vilvah",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009268611",
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009301379",
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009334147",
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009366915",
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834009399683",
+      "title": "Scent Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009432451",
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009465219",
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009497987",
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009530755",
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009563523",
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009596291",
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-dorient",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009629059",
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009661827",
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/jo-milano",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009694595",
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009727363",
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834009760131",
+      "title": "More houses",
+      "type": "HTTP",
+      "url": "/collections",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009792899",
+        "title": "Bentley",
+        "type": "HTTP",
+        "url": "/collections/bentley",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009825667",
+        "title": "The Woods Collection",
+        "type": "HTTP",
+        "url": "/collections/the-woods-collection",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009858435",
+        "title": "Calvin Klein",
+        "type": "HTTP",
+        "url": "/collections/calvin-klein",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009891203",
+        "title": "Elie Saab",
+        "type": "HTTP",
+        "url": "/collections/elie-saab",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009923971",
+        "title": "Acqua di Parma",
+        "type": "HTTP",
+        "url": "/collections/acqua-di-parma",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009956739",
+        "title": "Korloff",
+        "type": "HTTP",
+        "url": "/collections/korloff",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009989507",
+        "title": "Guerlain",
+        "type": "HTTP",
+        "url": "/collections/guerlain",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834010022275",
+        "title": "Bvlgari",
+        "type": "HTTP",
+        "url": "/collections/bvlgari",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258843523",
+        "title": "Guess",
+        "type": "HTTP",
+        "url": "/collections/guess",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258876291",
+        "title": "Franck Olivier",
+        "type": "HTTP",
+        "url": "/collections/franck-olivier",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/834010120579",
+        "title": "All brands A–Z",
+        "type": "HTTP",
+        "url": "/collections",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/835258909059",
+      "title": "Arabian houses",
+      "type": "HTTP",
+      "url": "/collections/arabian-perfume",
+      "tags": [],
+      "resourceId": null,
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/835258941827",
+        "title": "Lattafa",
+        "type": "HTTP",
+        "url": "/collections/lattafa",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258974595",
+        "title": "Armaf",
+        "type": "HTTP",
+        "url": "/collections/armaf",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259007363",
+        "title": "Afnan",
+        "type": "HTTP",
+        "url": "/collections/afnan",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259040131",
+        "title": "Maison Alhambra",
+        "type": "HTTP",
+        "url": "/collections/maison-alhambra",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259072899",
+        "title": "Swiss Arabian",
+        "type": "HTTP",
+        "url": "/collections/swiss-arabian",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259105667",
+        "title": "Rasasi",
+        "type": "HTTP",
+        "url": "/collections/rasasi",
+        "tags": [],
+        "resourceId": null
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259138435",
+        "title": "Arabiyat Prestige",
+        "type": "HTTP",
+        "url": "/collections/arabiyat-prestige",
+        "tags": [],
+        "resourceId": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834010153347",
+    "title": "Shop all",
+    "type": "HTTP",
+    "url": "/collections/all",
+    "tags": [],
+    "resourceId": null,
+    "items": []
+   },
+   {
+    "id": "gid://shopify/MenuItem/834010186115",
+    "title": "Journal",
+    "type": "HTTP",
+    "url": "/blogs/journal",
+    "tags": [],
+    "resourceId": null,
+    "items": []
+   }
+  ]
+ },
+ "variables": {
+  "id": "gid://shopify/Menu/333156680067",
+  "title": "Swansura main menu",
+  "handle": "sw-main",
+  "items": [
+   {
+    "id": "gid://shopify/MenuItem/834005434755",
+    "title": "Skincare",
+    "type": "HTTP",
+    "url": "/collections/skincare",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834005467523",
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005500291",
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/serum"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005533059",
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/moisturizers-gels"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005565827",
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/face-mask-pack"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005598595",
+        "title": "Toners",
+        "type": "HTTP",
+        "url": "/collections/toner"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005631363",
+        "title": "Cleansers",
+        "type": "HTTP",
+        "url": "/collections/cleanser"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005664131",
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/skincare-tools-kits"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005696899",
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/sunscreen"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005729667",
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/lip-balm"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834005762435",
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005795203",
+        "title": "Acne & oil control",
+        "type": "HTTP",
+        "url": "/collections/concern-acne"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005827971",
+        "title": "Glow & even tone",
+        "type": "HTTP",
+        "url": "/collections/concern-glow"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005860739",
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005893507",
+        "title": "Lip care",
+        "type": "HTTP",
+        "url": "/collections/concern-lips"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834005926275",
+        "title": "Sun care",
+        "type": "HTTP",
+        "url": "/collections/concern-sun"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834005959043",
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834005991811",
+        "title": "Moisturiser for dry skin",
+        "type": "HTTP",
+        "url": "/collections/moisturiser-for-dry-skin"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006024579",
+        "title": "Face wash for oily skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-oily-skin"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006057347",
+        "title": "Face wash for dry skin",
+        "type": "HTTP",
+        "url": "/collections/face-wash-for-dry-skin"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006090115",
+        "title": "Toner for dry skin",
+        "type": "HTTP",
+        "url": "/collections/toner-for-dry-skin"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006122883",
+        "title": "Lip balm for dry lips",
+        "type": "HTTP",
+        "url": "/collections/lip-balm-for-dry-lips"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006155651",
+        "title": "Natural sunscreen",
+        "type": "HTTP",
+        "url": "/collections/natural-sunscreen"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006188419",
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/skincare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006221187",
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/deyga"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006253955",
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/vilvah"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006286723",
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006319491",
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006352259",
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006385027",
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834006417795",
+    "title": "Haircare",
+    "type": "HTTP",
+    "url": "/collections/haircare",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834006450563",
+      "title": "By type",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006483331",
+        "title": "Hair oil",
+        "type": "HTTP",
+        "url": "/collections/hair-oil"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006516099",
+        "title": "Kits & routines",
+        "type": "HTTP",
+        "url": "/collections/haircare-tools-kits"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006548867",
+        "title": "Shampoo",
+        "type": "HTTP",
+        "url": "/collections/shampoo"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006581635",
+        "title": "Moisturisers",
+        "type": "HTTP",
+        "url": "/collections/hair-styling-products"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006614403",
+        "title": "Serums",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006647171",
+        "title": "Masks",
+        "type": "HTTP",
+        "url": "/collections/hair-mask"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006679939",
+        "title": "Conditioner",
+        "type": "HTTP",
+        "url": "/collections/conditioner"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006712707",
+      "title": "By concern",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006745475",
+        "title": "Hair fall",
+        "type": "HTTP",
+        "url": "/collections/concern-hairfall"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006778243",
+        "title": "Dandruff",
+        "type": "HTTP",
+        "url": "/collections/concern-dandruff"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006811011",
+        "title": "Deep hydration",
+        "type": "HTTP",
+        "url": "/collections/concern-hydration"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834006843779",
+      "title": "Most searched",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834006876547",
+        "title": "Hair oil for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-oil-for-dry-hair"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006909315",
+        "title": "Hair mask for dry hair",
+        "type": "HTTP",
+        "url": "/collections/hair-mask-for-dry-hair"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006942083",
+        "title": "Shampoo for dandruff",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-dandruff"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834006974851",
+        "title": "Hair serum for frizzy hair",
+        "type": "HTTP",
+        "url": "/collections/hair-serum-for-frizzy-hair"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007007619",
+        "title": "Hair growth oil",
+        "type": "HTTP",
+        "url": "/collections/hair-growth-oil"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007040387",
+        "title": "Shampoo for hair loss",
+        "type": "HTTP",
+        "url": "/collections/shampoo-for-hair-loss"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007073155",
+      "title": "Brands",
+      "type": "HTTP",
+      "url": "/collections/haircare",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007105923",
+        "title": "Deyga",
+        "type": "HTTP",
+        "url": "/collections/deyga"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007138691",
+        "title": "Vilvah",
+        "type": "HTTP",
+        "url": "/collections/vilvah"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007171459",
+    "title": "Bath & Body",
+    "type": "HTTP",
+    "url": "/collections/bodycare"
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007204227",
+    "title": "Fragrance",
+    "type": "HTTP",
+    "url": "/collections/fragrance",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834007236995",
+      "title": "For",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007269763",
+        "title": "For her",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-women"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007302531",
+        "title": "For him",
+        "type": "HTTP",
+        "url": "/collections/perfume-for-men"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007335299",
+        "title": "Unisex",
+        "type": "HTTP",
+        "url": "/collections/unisex-perfume"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007368067",
+        "title": "Minis & sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007400835",
+      "title": "Scent family",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007433603",
+        "title": "Oud",
+        "type": "HTTP",
+        "url": "/collections/scent-oud"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007466371",
+        "title": "Amber",
+        "type": "HTTP",
+        "url": "/collections/scent-amber"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007499139",
+        "title": "Floral",
+        "type": "HTTP",
+        "url": "/collections/scent-floral"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007531907",
+        "title": "Woody",
+        "type": "HTTP",
+        "url": "/collections/scent-woody"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007564675",
+        "title": "Fresh",
+        "type": "HTTP",
+        "url": "/collections/scent-fresh"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834007597443",
+      "title": "Houses",
+      "type": "HTTP",
+      "url": "/collections/fragrance",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834007630211",
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007662979",
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007695747",
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007728515",
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007761283",
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007794051",
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-dorient"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007826819",
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007859587",
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/jo-milano"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007892355",
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007925123",
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258777987",
+        "title": "Lattafa",
+        "type": "HTTP",
+        "url": "/collections/lattafa"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258810755",
+        "title": "Guess",
+        "type": "HTTP",
+        "url": "/collections/guess"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834007957891",
+        "title": "All brands A–Z",
+        "type": "HTTP",
+        "url": "/collections"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834007990659",
+    "title": "Routines",
+    "type": "HTTP",
+    "url": "/pages/rituals",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834008023427",
+      "title": "Skincare routines",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008056195",
+        "title": "Clear Skin Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008088963",
+        "title": "Vitamin C Glow Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008121731",
+        "title": "Deep Hydration Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008154499",
+        "title": "Milk Glow Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008187267",
+        "title": "Sensitive Skin Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008220035",
+        "title": "Mature Skin Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008252803",
+      "title": "Hair routines",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008285571",
+        "title": "Hair Care Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008318339",
+        "title": "Smooth & Shine Routine",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008351107",
+        "title": "Calm Scalp Duo",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008383875",
+      "title": "Body & bath",
+      "type": "HTTP",
+      "url": "/pages/rituals",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008416643",
+        "title": "Body Polish Ritual",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008449411",
+        "title": "Foot Spa at Home",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008482179",
+        "title": "Sleep Ritual",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008514947",
+        "title": "Lip Wardrobe",
+        "type": "HTTP",
+        "url": "/pages/rituals"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834008547715",
+    "title": "Gifts & Sets",
+    "type": "HTTP",
+    "url": "/collections/sets-combos",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834008580483",
+      "title": "Christmas 2026",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008613251",
+        "title": "Advent calendars",
+        "type": "HTTP",
+        "url": "/pages/advent"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008646019",
+        "title": "Skin Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#skin"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008678787",
+        "title": "Scent Studio Advent",
+        "type": "HTTP",
+        "url": "/pages/advent#scent"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008711555",
+        "title": "Stocking fillers",
+        "type": "HTTP",
+        "url": "/collections/stocking-fillers"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559817603",
+        "title": "Christmas gifts",
+        "type": "HTTP",
+        "url": "/collections/christmas-gifts"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559850371",
+        "title": "Black Friday",
+        "type": "HTTP",
+        "url": "/collections/black-friday"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008744323",
+      "title": "By recipient",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008777091",
+        "title": "Gifts for her",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-her"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008809859",
+        "title": "Gifts for him",
+        "type": "HTTP",
+        "url": "/collections/gifts-for-him"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559883139",
+        "title": "Perfume gift sets for her",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets-for-her"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559915907",
+        "title": "Aftershave gift sets for him",
+        "type": "HTTP",
+        "url": "/collections/aftershave-gift-sets-for-him"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559948675",
+        "title": "Skincare gift sets",
+        "type": "HTTP",
+        "url": "/collections/skincare-gift-sets"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008842627",
+        "title": "Perfume gift sets",
+        "type": "HTTP",
+        "url": "/collections/perfume-gift-sets"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008875395",
+        "title": "All gift sets",
+        "type": "HTTP",
+        "url": "/collections/sets-combos"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834008908163",
+      "title": "By price & occasion",
+      "type": "HTTP",
+      "url": "/collections/sets-combos",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834008940931",
+        "title": "Under £25",
+        "type": "HTTP",
+        "url": "/collections/gifts-under-25"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835559981443",
+        "title": "Under £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-under-50"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834008973699",
+        "title": "£25 to £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-25-to-50"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009006467",
+        "title": "Over £50",
+        "type": "HTTP",
+        "url": "/collections/gifts-over-50"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009039235",
+        "title": "Diwali gifts",
+        "type": "HTTP",
+        "url": "/collections/diwali-gifts"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009072003",
+        "title": "Ramadan & Eid gifts",
+        "type": "HTTP",
+        "url": "/collections/ramadan-eid-gifts"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834009104771",
+    "title": "Advent",
+    "type": "HTTP",
+    "url": "/pages/advent"
+   },
+   {
+    "id": "gid://shopify/MenuItem/834009137539",
+    "title": "Brands",
+    "type": "HTTP",
+    "url": "/collections",
+    "items": [
+     {
+      "id": "gid://shopify/MenuItem/834009170307",
+      "title": "Skin Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009203075",
+        "title": "Deyga · Official partner",
+        "type": "HTTP",
+        "url": "/collections/deyga"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009235843",
+        "title": "Vilvah · Official partner",
+        "type": "HTTP",
+        "url": "/collections/vilvah"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009268611",
+        "title": "Highborn London",
+        "type": "HTTP",
+        "url": "/collections/highborn-london"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009301379",
+        "title": "Swansura Selection",
+        "type": "HTTP",
+        "url": "/collections/swansura-selection"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009334147",
+        "title": "Shiseido",
+        "type": "HTTP",
+        "url": "/collections/shiseido"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009366915",
+        "title": "Coach",
+        "type": "HTTP",
+        "url": "/collections/coach"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834009399683",
+      "title": "Scent Studio",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009432451",
+        "title": "anatomē",
+        "type": "HTTP",
+        "url": "/collections/anatome"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009465219",
+        "title": "Tiziana Terenzi",
+        "type": "HTTP",
+        "url": "/collections/tiziana-terenzi"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009497987",
+        "title": "Hemel",
+        "type": "HTTP",
+        "url": "/collections/hemel"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009530755",
+        "title": "Fumeri",
+        "type": "HTTP",
+        "url": "/collections/fumeri"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009563523",
+        "title": "Al Haramain",
+        "type": "HTTP",
+        "url": "/collections/al-haramain"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009596291",
+        "title": "Signature D'orient",
+        "type": "HTTP",
+        "url": "/collections/signature-dorient"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009629059",
+        "title": "Gucci",
+        "type": "HTTP",
+        "url": "/collections/gucci"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009661827",
+        "title": "Jo Milano",
+        "type": "HTTP",
+        "url": "/collections/jo-milano"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009694595",
+        "title": "Dunhill",
+        "type": "HTTP",
+        "url": "/collections/dunhill"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009727363",
+        "title": "Dolce & Gabbana",
+        "type": "HTTP",
+        "url": "/collections/dolce-gabbana"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/834009760131",
+      "title": "More houses",
+      "type": "HTTP",
+      "url": "/collections",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/834009792899",
+        "title": "Bentley",
+        "type": "HTTP",
+        "url": "/collections/bentley"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009825667",
+        "title": "The Woods Collection",
+        "type": "HTTP",
+        "url": "/collections/the-woods-collection"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009858435",
+        "title": "Calvin Klein",
+        "type": "HTTP",
+        "url": "/collections/calvin-klein"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009891203",
+        "title": "Elie Saab",
+        "type": "HTTP",
+        "url": "/collections/elie-saab"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009923971",
+        "title": "Acqua di Parma",
+        "type": "HTTP",
+        "url": "/collections/acqua-di-parma"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009956739",
+        "title": "Korloff",
+        "type": "HTTP",
+        "url": "/collections/korloff"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834009989507",
+        "title": "Guerlain",
+        "type": "HTTP",
+        "url": "/collections/guerlain"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834010022275",
+        "title": "Bvlgari",
+        "type": "HTTP",
+        "url": "/collections/bvlgari"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258843523",
+        "title": "Guess",
+        "type": "HTTP",
+        "url": "/collections/guess"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258876291",
+        "title": "Franck Olivier",
+        "type": "HTTP",
+        "url": "/collections/franck-olivier"
+       },
+       {
+        "id": "gid://shopify/MenuItem/834010120579",
+        "title": "All brands A–Z",
+        "type": "HTTP",
+        "url": "/collections"
+       }
+      ]
+     },
+     {
+      "id": "gid://shopify/MenuItem/835258909059",
+      "title": "Arabian houses",
+      "type": "HTTP",
+      "url": "/collections/arabian-perfume",
+      "items": [
+       {
+        "id": "gid://shopify/MenuItem/835258941827",
+        "title": "Lattafa",
+        "type": "HTTP",
+        "url": "/collections/lattafa"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835258974595",
+        "title": "Armaf",
+        "type": "HTTP",
+        "url": "/collections/armaf"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259007363",
+        "title": "Afnan",
+        "type": "HTTP",
+        "url": "/collections/afnan"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259040131",
+        "title": "Maison Alhambra",
+        "type": "HTTP",
+        "url": "/collections/maison-alhambra"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259072899",
+        "title": "Swiss Arabian",
+        "type": "HTTP",
+        "url": "/collections/swiss-arabian"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259105667",
+        "title": "Rasasi",
+        "type": "HTTP",
+        "url": "/collections/rasasi"
+       },
+       {
+        "id": "gid://shopify/MenuItem/835259138435",
+        "title": "Arabiyat Prestige",
+        "type": "HTTP",
+        "url": "/collections/arabiyat-prestige"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gid://shopify/MenuItem/834010153347",
+    "title": "Shop all",
+    "type": "HTTP",
+    "url": "/collections/all"
+   },
+   {
+    "id": "gid://shopify/MenuItem/834010186115",
+    "title": "Journal",
+    "type": "HTTP",
+    "url": "/blogs/journal"
+   }
+  ]
+ }
+}

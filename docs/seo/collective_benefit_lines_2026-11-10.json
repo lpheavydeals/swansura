@@ -1,0 +1,418 @@
+[
+ {
+  "id": "gid://shopify/Product/16368950346115",
+  "handle": "expression-eau-de-parfum-open-the-breath-support-expression-10ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":203,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A mindful parfum to support breathing, self-care and communication..\",\"more\":false,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\",\"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\",\"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\",\"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"The anatomē Expression Eau de Parfum 10ml is a unisex scent inspired by waterfalls and coastal landscapes, made for quieter moments in a busy day.\", \"more\": false, \"chips\": [\"Amber family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\", \"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\", \"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\", \"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Travel size & mini perfumes\", \"/collections/travel-size-minis\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"]]}"
+  },
+  "line": "The anatomē Expression Eau de Parfum 10ml is a unisex scent inspired by waterfalls and coastal landscapes, made for quieter moments in a busy day."
+ },
+ {
+  "id": "gid://shopify/Product/16368950641027",
+  "handle": "support-eau-de-parfum-travel-10ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":201,\"f\":\"fresh\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A fresh fragrance: citrus, bergamot, air.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A protective herbal fragrance to ground and shield you as you move through the world..\",\"more\":false,\"chips\":[\"Fresh family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"game-of-spades-rouge-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women\",\"game-of-spades-emerald-edp-100ml-long-lasting-luxury-unisex-perfume-for-men-women\",\"korloff-cuir-mythique-eau-de-parfum-100ml\",\"signature-blue-100ml-edp\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Support Eau de Parfum Travel 10ml is a green, herbaceous eau de parfum in a handbag-sized spray.\", \"more\": false, \"chips\": [\"Fresh family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"game-of-spades-rouge-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women\", \"game-of-spades-emerald-edp-100ml-long-lasting-luxury-unisex-perfume-for-men-women\", \"korloff-cuir-mythique-eau-de-parfum-100ml\", \"signature-blue-100ml-edp\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"], [\"Travel size & mini perfumes\", \"/collections/travel-size-minis\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"]]}"
+  },
+  "line": "anatomē Support Eau de Parfum Travel 10ml is a green, herbaceous eau de parfum in a handbag-sized spray."
+ },
+ {
+  "id": "gid://shopify/Product/16368950706563",
+  "handle": "bath-shower-oil-with-roman-chamomile-cornish-lavender",
+  "before": {
+   "sw": "{\"t\":\"Bath & soap\",\"s\":[\"All\",\"Oily\",\"Sensitive\"],\"c\":[\"acne\",\"hydration\",\"calm\"],\"k\":false,\"r\":199,\"g\":[\"Jojoba oil\",\"Coconut oil\",\"Rose\"],\"a\":[\"A luxurious blend of Roman Chamomile, Clary Sage, and nourishing oils designed to soothe the mind, relax the body, and deeply hydrate the skin. Jojoba, Coconut, and Sunflower Oils provide intense moisture, while Rose Damascena adds a subtle, spa-like scent.\",\"Jojoba oil: light oil close to skin’s own. Coconut oil: nourishing everyday oil. Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It is made for all types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"A luxurious blend of Roman Chamomile, Clary Sage, and nourishing oils designed to soothe the mind, relax the body, and deeply hydrate the skin.\",\"more\":true,\"chips\":[\"Clearer-looking skin\",\"Hydration\",\"Wind-down ritual\"],\"how\":[],\"pair\":[\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[[\"Shower gel & body wash\",\"/collections/shower-gel-body-wash\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for oily & acne-prone skin\",\"/collections/oily-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Bath & soap\", \"s\": [\"All\", \"Oily\", \"Sensitive\"], \"c\": [\"acne\", \"hydration\", \"calm\"], \"k\": false, \"r\": 199, \"g\": [\"Jojoba oil\", \"Coconut oil\", \"Rose\"], \"a\": [\"anatomē Bath & Shower Oil with Roman Chamomile & Cornish Lavender is a lavender bath oil you can also use in the shower.\", \"Jojoba oil: light oil close to skin’s own. Coconut oil: nourishing everyday oil. Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It is made for all types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"anatomē Bath & Shower Oil with Roman Chamomile & Cornish Lavender is a lavender bath oil you can also use in the shower.\", \"more\": true, \"chips\": [\"Clearer-looking skin\", \"Hydration\", \"Wind-down ritual\"], \"how\": [], \"pair\": [\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"natural-luminosity-scrub\", \"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"kw\": [[\"Shower gel & body wash\", \"/collections/shower-gel-body-wash\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for oily & acne-prone skin\", \"/collections/oily-skin\"]]}"
+  },
+  "line": "anatomē Bath & Shower Oil with Roman Chamomile & Cornish Lavender is a lavender bath oil you can also use in the shower."
+ },
+ {
+  "id": "gid://shopify/Product/16368950739331",
+  "handle": "sleep-oil-for-an-overactive-mind-somali-frankincense-anatome",
+  "before": {
+   "sw": "{\"t\":\"Sleep\",\"s\":[\"Dry\"],\"c\":[\"glow\",\"calm\"],\"k\":false,\"r\":198,\"g\":[],\"a\":[\"Somali Frankincense has an ethereal, dry, diffusive aroma, with bright citrus notes over a peppery, resinous undertone. This rare 16-ingredient essential oil blend encourages deeper sleep by soothing and calming an overactive mind.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Somali Frankincense has an ethereal, dry, diffusive aroma, with bright citrus notes over a peppery, resinous undertone.\",\"more\":true,\"chips\":[\"Radiance\",\"Wind-down ritual\"],\"how\":[],\"pair\":[\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Sleep\", \"s\": [\"Dry\"], \"c\": [\"glow\", \"calm\"], \"k\": false, \"r\": 198, \"g\": [], \"a\": [\"anatomē Somali Frankincense Sleep Oil is a 16-ingredient essential oil blend built around Somali Frankincense, made for your bedtime ritual.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"anatomē Somali Frankincense Sleep Oil is a 16-ingredient essential oil blend built around Somali Frankincense, made for your bedtime ritual.\", \"more\": true, \"chips\": [\"Radiance\", \"Wind-down ritual\"], \"how\": [], \"pair\": [\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"natural-luminosity-scrub\", \"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"kw\": [[\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "anatomē Somali Frankincense Sleep Oil is a 16-ingredient essential oil blend built around Somali Frankincense, made for your bedtime ritual."
+ },
+ {
+  "id": "gid://shopify/Product/16368950804867",
+  "handle": "focus-eau-de-parfum-travel-10ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":197,\"f\":\"floral\",\"w\":\"Unisex\",\"n\":{\"top\":\"Cardamom, Elemi, Black Pepper, Green Pepper, Petitgrain\",\"heart\":\"Nagarmotha, Ylang Ylang, Nutmeg\",\"base\":\"Patchouli, Opoponax, Benzoin, Tonka\"},\"a\":[\"It opens with Cardamom, Elemi, Black Pepper, Green Pepper, Petitgrain, settles into Nagarmotha, Ylang Ylang, Nutmeg, and dries down to Patchouli, Opoponax, Benzoin, Tonka.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A stimulating parfum designed to sharpen focus and awaken the senses..\",\"more\":false,\"chips\":[\"Floral family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Focus Eau de Parfum is a spicy, warm unisex scent that opens with cardamom and black pepper.\", \"more\": false, \"chips\": [\"Floral family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\", \"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\", \"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\", \"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"], [\"Travel size & mini perfumes\", \"/collections/travel-size-minis\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"]]}"
+  },
+  "line": "anatomē Focus Eau de Parfum is a spicy, warm unisex scent that opens with cardamom and black pepper."
+ },
+ {
+  "id": "gid://shopify/Product/16368950837635",
+  "handle": "balance-eau-de-parfum-centre-the-mind-restore-calm-100ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":196,\"f\":\"floral\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A floral fragrance: rose, jasmine, white flowers.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A centering Eau de Parfum created to restore emotional harmony and bring a sense of calm within modern life..\",\"more\":false,\"chips\":[\"Floral family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\",\"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\",\"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Balance Eau de Parfum is a soft, warm eau de parfum made entirely from botanically derived ingredients.\", \"more\": false, \"chips\": [\"Floral family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance\", \"calvin-klein-eternity-eau-de-parfum-women-s-classic-floral-fragrance\", \"calvin-klein-my-euphoria-eau-de-parfum-10ml-miniature-women-s-floral-gourmand-fragrance\", \"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-women-s-aromatic-floral-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Balance Eau de Parfum is a soft, warm eau de parfum made entirely from botanically derived ingredients."
+ },
+ {
+  "id": "gid://shopify/Product/16368950870403",
+  "handle": "bath-shower-oil-somali-frankincense",
+  "before": {
+   "sw": "{\"t\":\"Bath & soap\",\"s\":[\"All\",\"Oily\",\"Sensitive\"],\"c\":[\"acne\",\"hydration\"],\"k\":false,\"r\":185,\"g\":[\"Jojoba oil\",\"Coconut oil\",\"Rose\"],\"a\":[\"Perfect for a soothing bedtime ritual or a mindful morning routine, this Bath + Shower Oil is formulated with specific natural aromatics to support your overall serenity, including Somali Frankincense to aid stress-reduction and Clary Sage for balance and clarity.\",\"Jojoba oil: light oil close to skin’s own. Coconut oil: nourishing everyday oil. Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It is made for all types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Perfect for a soothing bedtime ritual or a mindful morning routine, this Bath + Shower Oil is formulated with specific natural aromatics to support your overall…\",\"more\":true,\"chips\":[\"Clearer-looking skin\",\"Hydration\",\"Natural formula\"],\"how\":[],\"pair\":[\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[[\"Shower gel & body wash\",\"/collections/shower-gel-body-wash\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for oily & acne-prone skin\",\"/collections/oily-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Bath & soap\", \"s\": [\"All\", \"Oily\", \"Sensitive\"], \"c\": [\"acne\", \"hydration\"], \"k\": false, \"r\": 185, \"g\": [\"Jojoba oil\", \"Coconut oil\", \"Rose\"], \"a\": [\"anatomē Bath & Shower Oil Somali Frankincense is a bath and shower oil for your bedtime ritual or morning routine.\", \"Jojoba oil: light oil close to skin’s own. Coconut oil: nourishing everyday oil. Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It is made for all types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"anatomē Bath & Shower Oil Somali Frankincense is a bath and shower oil for your bedtime ritual or morning routine.\", \"more\": true, \"chips\": [\"Clearer-looking skin\", \"Hydration\", \"Natural formula\"], \"how\": [], \"pair\": [\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"the-little-gift-of-good-sleep-frankincense-overactive-mind\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"natural-luminosity-scrub\", \"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"kw\": [[\"Shower gel & body wash\", \"/collections/shower-gel-body-wash\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for oily & acne-prone skin\", \"/collections/oily-skin\"]]}"
+  },
+  "line": "anatomē Bath & Shower Oil Somali Frankincense is a bath and shower oil for your bedtime ritual or morning routine."
+ },
+ {
+  "id": "gid://shopify/Product/16368950903171",
+  "handle": "order-eau-de-parfum-travel-10ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":195,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A blank-canvas parfum supporting clarity, restoring tranquility and expansion of thoughts..\",\"more\":false,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\",\"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\",\"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\",\"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Order Eau de Parfum Travel 10ml is a clean, minimal eau de parfum in a pocket-sized spray.\", \"more\": false, \"chips\": [\"Amber family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\", \"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\", \"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\", \"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"], [\"Travel size & mini perfumes\", \"/collections/travel-size-minis\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"]]}"
+  },
+  "line": "anatomē Order Eau de Parfum Travel 10ml is a clean, minimal eau de parfum in a pocket-sized spray."
+ },
+ {
+  "id": "gid://shopify/Product/16368950935939",
+  "handle": "botanical-balm",
+  "before": {
+   "sw": "{\"t\":\"More\",\"s\":[],\"c\":[\"hydration\"],\"k\":false,\"r\":194,\"g\":[],\"a\":[\"A superbly nourishing and cleansing natural face cleanser balm that multitasks removing makeup and pollution; deeply nourishes and moisturises the skin; decreases inflammation and redness, promoting a healthy and balanced complexion.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"A superbly nourishing and cleansing natural face cleanser balm that multitasks removing makeup and pollution; deeply nourishes and moisturises the skin; decreases…\",\"more\":true,\"chips\":[\"Hydration\",\"Natural formula\"],\"how\":[],\"pair\":[\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"balance-eau-de-parfum-travel-10ml\"],\"sim\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\",\"cleanse-and-tone-pack\",\"diamond-toner-100ml\"],\"kw\":[[\"Skincare for dry skin\",\"/collections/dry-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"More\", \"s\": [], \"c\": [\"hydration\"], \"k\": false, \"r\": 194, \"g\": [], \"a\": [\"anatomē Botanical Balm is a natural cleansing balm for the face. It removes make-up and cleanses the skin, then leaves it feeling soft, nourished and moisturised, so it works as the first step of your evening routine.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"anatomē Botanical Balm is a natural cleansing balm for the face. It removes make-up and cleanses the skin, then leaves it feeling soft, nourished and moisturised, so it works as the first step of your evening routine.\", \"more\": true, \"chips\": [\"Hydration\", \"Natural formula\"], \"how\": [], \"pair\": [\"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"balance-eau-de-parfum-travel-10ml\"], \"sim\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\", \"cleanse-and-tone-pack\", \"diamond-toner-100ml\"], \"kw\": [[\"Skincare for dry skin\", \"/collections/dry-skin\"]]}"
+  },
+  "line": "anatomē Botanical Balm is a natural cleansing balm for the face. It removes make-up and cleanses the skin, then leaves it feeling soft, nourished and moisturised, so it works as the first step of your evening routine."
+ },
+ {
+  "id": "gid://shopify/Product/16368950968707",
+  "handle": "the-gift-of-good-sleep-somali-frankincense",
+  "before": {
+   "sw": "{\"t\":\"Sleep\",\"s\":[\"Dry\"],\"c\":[\"calm\"],\"k\":false,\"r\":193,\"g\":[],\"a\":[\"With a mist of our luxurious Somali Frankincense Pillow Spray across your linens, harness the calming properties of botanical aromatics and transform your bed into a dreamy cocoon.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"With a mist of our luxurious Somali Frankincense Pillow Spray across your linens, harness the calming properties of botanical aromatics and transform your bed into a dreamy cocoon.\",\"more\":true,\"chips\":[\"Wind-down ritual\",\"Natural formula\"],\"how\":[],\"pair\":[\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[[\"Gifts for her\",\"/collections/gifts-for-her\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Sleep\", \"s\": [\"Dry\"], \"c\": [\"calm\"], \"k\": false, \"r\": 193, \"g\": [], \"a\": [\"anatomē The Gift of Good Sleep | Somali Frankincense is a sleep gift set of two full-size bedtime products: a Somali Frankincense Pillow Spray to mist across your linen and a Somali Frankincense Sleep Oil for the body's sensory points.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"anatomē The Gift of Good Sleep | Somali Frankincense is a sleep gift set of two full-size bedtime products: a Somali Frankincense Pillow Spray to mist across your linen and a Somali Frankincense Sleep Oil for the body's sensory points.\", \"more\": true, \"chips\": [\"Wind-down ritual\", \"Natural formula\"], \"how\": [], \"pair\": [\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"natural-luminosity-scrub\", \"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"kw\": [[\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+  },
+  "line": "anatomē The Gift of Good Sleep | Somali Frankincense is a sleep gift set of two full-size bedtime products: a Somali Frankincense Pillow Spray to mist across your linen and a Somali Frankincense Sleep Oil for the body's sensory points."
+ },
+ {
+  "id": "gid://shopify/Product/16368951001475",
+  "handle": "support-eau-de-parfum-protective-herbaceous-restorative",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":192,\"f\":\"fresh\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A fresh fragrance: citrus, bergamot, air.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"Support is a deeply herbaceous Eau de Parfum inspired by the medicinal gardens once cultivated for protection, restoration, and calm..\",\"more\":false,\"chips\":[\"Fresh family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"game-of-spades-rouge-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women\",\"game-of-spades-emerald-edp-100ml-long-lasting-luxury-unisex-perfume-for-men-women\",\"korloff-cuir-mythique-eau-de-parfum-100ml\",\"signature-blue-100ml-edp\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Support Eau de Parfum is a green, herbaceous eau de parfum inspired by old herb gardens.\", \"more\": false, \"chips\": [\"Fresh family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"game-of-spades-rouge-eau-de-parfum-100ml-long-lasting-luxury-unisex-perfume-for-men-women\", \"game-of-spades-emerald-edp-100ml-long-lasting-luxury-unisex-perfume-for-men-women\", \"korloff-cuir-mythique-eau-de-parfum-100ml\", \"signature-blue-100ml-edp\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Support Eau de Parfum is a green, herbaceous eau de parfum inspired by old herb gardens."
+ },
+ {
+  "id": "gid://shopify/Product/16368951034243",
+  "handle": "order-eau-de-parfum-clarify-the-mind-expand-thought-100ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":191,\"f\":\"amber\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A amber fragrance: warm, sweet, golden.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A blank-canvas parfum supporting clarity, restoring tranquility and expansion of thoughts..\",\"more\":false,\"chips\":[\"Amber family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\",\"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\",\"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\",\"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Order Eau de Parfum is a clean, minimal eau de parfum that anatomē describes as a blank canvas.\", \"more\": false, \"chips\": [\"Amber family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance\", \"azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set\", \"boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance\", \"hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Order Eau de Parfum is a clean, minimal eau de parfum that anatomē describes as a blank canvas."
+ },
+ {
+  "id": "gid://shopify/Product/16368951099779",
+  "handle": "energy-eau-de-parfum-enhance-endurance-sharpen-clarity-100ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":184,\"f\":\"fresh\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A fresh fragrance: citrus, bergamot, air.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A vibrant Eau de Parfum created to restore momentum, vitality, and forward movement..\",\"more\":false,\"chips\":[\"Fresh family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\",\"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\",\"azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance\",\"azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Energy Eau de Parfum is a fresh, bright scent that opens on Calabrian lemon and peppermint.\", \"more\": false, \"chips\": [\"Fresh family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\", \"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\", \"azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance\", \"azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Energy Eau de Parfum is a fresh, bright scent that opens on Calabrian lemon and peppermint."
+ },
+ {
+  "id": "gid://shopify/Product/16368951165315",
+  "handle": "relax-sleep-chamomile-bath-salts",
+  "before": {
+   "sw": "{\"t\":\"Bath & soap\",\"s\":[],\"c\":[\"calm\"],\"k\":false,\"r\":188,\"g\":[],\"a\":[\"Luxurious, natural salts and organic botanicals to help calm the mind and relax the body in preparation for sleep.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Luxurious, natural salts and organic botanicals to help calm the mind and relax the body in preparation for sleep.\",\"more\":false,\"chips\":[\"Wind-down ritual\",\"Natural formula\"],\"how\":[],\"pair\":[\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Bath & soap\", \"s\": [], \"c\": [\"calm\"], \"k\": false, \"r\": 188, \"g\": [], \"a\": [\"anatomē Chamomile Bath Salts are a blend of natural salts and organic botanicals for a warm evening bath.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"anatomē Chamomile Bath Salts are a blend of natural salts and organic botanicals for a warm evening bath.\", \"more\": false, \"chips\": [\"Wind-down ritual\", \"Natural formula\"], \"how\": [], \"pair\": [\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"natural-luminosity-scrub\", \"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"kw\": []}"
+  },
+  "line": "anatomē Chamomile Bath Salts are a blend of natural salts and organic botanicals for a warm evening bath."
+ },
+ {
+  "id": "gid://shopify/Product/16368951198083",
+  "handle": "somali-frankincense-sleep-pillow-spray-overactive-mind-anatome",
+  "before": {
+   "sw": "{\"t\":\"Sleep\",\"s\":[],\"c\":[\"calm\"],\"k\":false,\"r\":183,\"g\":[\"Rose\"],\"a\":[\"Can't switch your mind off?.\",\"Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"\",\"more\":false,\"chips\":[\"Wind-down ritual\",\"Natural formula\"],\"how\":[],\"pair\":[\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"kw\":[]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Sleep\", \"s\": [], \"c\": [\"calm\"], \"k\": false, \"r\": 183, \"g\": [\"Rose\"], \"a\": [\"anatomē Somali Frankincense Sleep Pillow Spray is a sleep pillow spray to mist on pillows and linen at bedtime.\", \"Rose: gentle, fragrant toning. The full ingredient list is printed on the pack.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": null
+  },
+  "line": "anatomē Somali Frankincense Sleep Pillow Spray is a sleep pillow spray to mist on pillows and linen at bedtime."
+ },
+ {
+  "id": "gid://shopify/Product/16368951230851",
+  "handle": "expression-eau-de-parfum-open-the-breath-support-expression-100ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":187,\"f\":\"woody\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A woody fragrance: sandalwood, cedar, patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"An oceanic Eau de Parfum created to restore clarity, confidence, and calm presence..\",\"more\":false,\"chips\":[\"Woody family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Expression Eau de Parfum is a fresh, oceanic scent that opens with sea salt, sea moss and cedarwood, recalling sea air and open space.\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\", \"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\", \"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\", \"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Expression Eau de Parfum is a fresh, oceanic scent that opens with sea salt, sea moss and cedarwood, recalling sea air and open space."
+ },
+ {
+  "id": "gid://shopify/Product/16368951329155",
+  "handle": "focus-eau-de-parfum-sharpen-focus-awaken-the-senses-100ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":182,\"f\":\"woody\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A woody fragrance: sandalwood, cedar, patchouli.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A clarifying Eau de Parfum created to support concentration, creative flow, and mental clarity..\",\"more\":false,\"chips\":[\"Woody family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\",\"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\",\"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\",\"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Focus Eau de Parfum is a clean, spicy woody scent. It opens with the sharpness of cardamom and black pepper, then settles into sandalwood and elemi for a steady, grounded finish.\", \"more\": false, \"chips\": [\"Woody family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance\", \"calvin-klein-eternity-aromatic-essence-parfum-intense-10ml-miniature-men-s-aromatic-woody-fragrance\", \"calvin-klein-eternity-parfum-10ml-miniature-men-s-warm-aromatic-fragrance\", \"calvin-klein-defy-parfum-men-s-warm-woody-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"]]}"
+  },
+  "line": "anatomē Focus Eau de Parfum is a clean, spicy woody scent. It opens with the sharpness of cardamom and black pepper, then settles into sandalwood and elemi for a steady, grounded finish."
+ },
+ {
+  "id": "gid://shopify/Product/16368951361923",
+  "handle": "energy-eau-de-parfum-travel-10ml",
+  "before": {
+   "sw": "{\"t\":\"Unisex\",\"s\":[],\"c\":[],\"k\":false,\"r\":181,\"f\":\"fresh\",\"w\":\"Unisex\",\"n\":null,\"a\":[\"A fresh fragrance: citrus, bergamot, air.\"]}",
+   "pdp": "{\"cat\":\"fragrance\",\"ben\":\"A tonic parfum to invigorate mind and body, supporting physical endurance and exertion..\",\"more\":false,\"chips\":[\"Fresh family\",\"Unisex\",\"Eau de Parfum\"],\"how\":[],\"pair\":[\"deyga-chocolate-body-butter-100g\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"],\"sim\":[\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\",\"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\",\"azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance\",\"azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance\"],\"kw\":[[\"Unisex perfume\",\"/collections/unisex-perfume\"],[\"Niche perfume\",\"/collections/niche-perfume\"],[\"Perfume gift sets\",\"/collections/perfume-gift-sets\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts £25 to £50\",\"/collections/gifts-25-to-50\"]]}"
+  },
+  "after": {
+   "sw": null,
+   "pdp": "{\"cat\": \"fragrance\", \"ben\": \"anatomē Energy Eau de Parfum Travel 10ml is a bright, unisex citrus-and-blossom scent from the anatomē eau de parfum range, in a spray small enough for a gym bag or a pocket.\", \"more\": false, \"chips\": [\"Fresh family\", \"Unisex\", \"Eau de Parfum\"], \"how\": [], \"pair\": [\"deyga-chocolate-body-butter-100g\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\"], \"sim\": [\"calvin-klein-eternity-for-men-eau-de-toilette-100ml-men-s-fresh-aromatic-fragrance\", \"dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo\", \"azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance\", \"azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance\"], \"kw\": [[\"Unisex perfume\", \"/collections/unisex-perfume\"], [\"Niche perfume\", \"/collections/niche-perfume\"], [\"Perfume gift sets\", \"/collections/perfume-gift-sets\"], [\"Travel size & mini perfumes\", \"/collections/travel-size-minis\"], [\"Gifts £25 to £50\", \"/collections/gifts-25-to-50\"]]}"
+  },
+  "line": "anatomē Energy Eau de Parfum Travel 10ml is a bright, unisex citrus-and-blossom scent from the anatomē eau de parfum range, in a spray small enough for a gym bag or a pocket."
+ },
+ {
+  "id": "gid://shopify/Product/16368957686147",
+  "handle": "scrub-and-glow-luminosity-set",
+  "before": {
+   "sw": "{\"t\":\"Kits & routines\",\"s\":[\"Combination\"],\"c\":[\"glow\"],\"k\":false,\"r\":179,\"g\":[],\"a\":[\"Indulge your senses and say goodbye to dull, lifeless skin with the NEW Scrub and Glow Set. Two natural HIGHBORNs designed to work together to instantly transform your face and body into a healthy glow.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Indulge your senses and say goodbye to dull, lifeless skin with the NEW Scrub and Glow Set.\",\"more\":true,\"chips\":[\"Radiance\",\"Natural formula\"],\"how\":[],\"pair\":[\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"kw\":[[\"Body scrub\",\"/collections/body-scrub\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"],[\"Gifts for her\",\"/collections/gifts-for-her\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Kits & routines\", \"s\": [\"Combination\"], \"c\": [\"glow\"], \"k\": false, \"r\": 179, \"g\": [], \"a\": [\"The Highborn London Scrub and Glow Luminosity Set brings two Highborn products together in one set, chosen to be used one after the other on both the face and the body.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"The Highborn London Scrub and Glow Luminosity Set brings two Highborn products together in one set, chosen to be used one after the other on both the face and the body.\", \"more\": true, \"chips\": [\"Radiance\", \"Natural formula\"], \"how\": [], \"pair\": [\"natural-luminosity-scrub\", \"natural-luminosity-body-butter\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\", \"the-little-gift-of-good-sleep-frankincense-overactive-mind\"], \"kw\": [[\"Body scrub\", \"/collections/body-scrub\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"], [\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+  },
+  "line": "The Highborn London Scrub and Glow Luminosity Set brings two Highborn products together in one set, chosen to be used one after the other on both the face and the body."
+ },
+ {
+  "id": "gid://shopify/Product/16368957718915",
+  "handle": "organic-age-defying-facial-oil",
+  "before": {
+   "sw": "{\"t\":\"More\",\"s\":[],\"c\":[\"hydration\"],\"k\":false,\"r\":178,\"g\":[],\"a\":[\"EXPERIENCE OUR MOST LUXURIOUS SKIN CARE YET AND BOOST YOUR SKIN'S YOUTHFUL APPEARANCE WITH THIS POWERFUL BLEND OF ORGANIC BOTANICAL OILS. AT 30ML, THIS LUXURIOUS FACIAL OIL IS MADE TO LAST.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"EXPERIENCE OUR MOST LUXURIOUS SKIN CARE YET AND BOOST YOUR SKIN'S YOUTHFUL APPEARANCE WITH THIS POWERFUL BLEND OF ORGANIC BOTANICAL OILS.\",\"more\":true,\"chips\":[\"Hydration\",\"Natural formula\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Skincare for dry skin\",\"/collections/dry-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"More\", \"s\": [], \"c\": [\"hydration\"], \"k\": false, \"r\": 178, \"g\": [], \"a\": [\"The Highborn London Organic Facial Oil is a blend of organic botanical oils for the face.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"The Highborn London Organic Facial Oil is a blend of organic botanical oils for the face.\", \"more\": true, \"chips\": [\"Hydration\", \"Natural formula\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Skincare for dry skin\", \"/collections/dry-skin\"]]}"
+  },
+  "line": "The Highborn London Organic Facial Oil is a blend of organic botanical oils for the face."
+ },
+ {
+  "id": "gid://shopify/Product/16368957751683",
+  "handle": "superior-lip-butter-15ml",
+  "before": {
+   "sw": "{\"t\":\"Lip care\",\"s\":[],\"c\":[\"lips\"],\"k\":false,\"r\":177,\"g\":[],\"a\":[\"After your eyes, your lips are the first place people look when talking to you. Trouble is, as you get older the skin on your lips becomes thinner, they lose some of their plumpness and lines can form too.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"After your eyes, your lips are the first place people look when talking to you.\",\"more\":true,\"chips\":[\"Soft, tinted lips\",\"Natural formula\"],\"how\":[],\"pair\":[\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"kw\":[[\"Body butter\",\"/collections/body-butter\"],[\"Lip balm & lip care\",\"/collections/lip-balm\"],[\"Lip balm for dry lips\",\"/collections/lip-balm-for-dry-lips\"],[\"Travel size & mini perfumes\",\"/collections/travel-size-minis\"],[\"Gifts under £25\",\"/collections/gifts-under-25\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Lip care\", \"s\": [], \"c\": [\"lips\"], \"k\": false, \"r\": 177, \"g\": [], \"a\": [\"Highborn London Superior Lip Butter (15ml) is a natural lip butter in a small jar, made to be part of your daily routine.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": null
+  },
+  "line": "Highborn London Superior Lip Butter (15ml) is a natural lip butter in a small jar, made to be part of your daily routine."
+ },
+ {
+  "id": "gid://shopify/Product/16368957784451",
+  "handle": "bakuchiol-youth-elixir",
+  "before": {
+   "sw": "{\"t\":\"Serums\",\"s\":[\"Sensitive\"],\"c\":[],\"k\":false,\"r\":176,\"g\":[],\"a\":[\"A bakuchiol serum for mature and sensitive skin — the gentle, plant-based alternative to retinol — helping smooth the look of fine lines and improve skin texture without irritation, redness or peeling.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits sensitive types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"A bakuchiol serum for mature and sensitive skin — the gentle, plant-based alternative to retinol — helping smooth the look of fine lines and improve skin texture without irritation, redness or peeling.\",\"more\":true,\"chips\":[\"Natural formula\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Face serum\",\"/collections/serum\"],[\"Moisturiser for dry skin\",\"/collections/moisturiser-for-dry-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Serums\", \"s\": [\"Sensitive\"], \"c\": [], \"k\": false, \"r\": 176, \"g\": [], \"a\": [\"The Highborn London Bakuchiol Youth Elixir is a bakuchiol serum for mature and sensitive skin.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits sensitive types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"The Highborn London Bakuchiol Youth Elixir is a bakuchiol serum for mature and sensitive skin.\", \"more\": true, \"chips\": [\"Natural formula\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Face serum\", \"/collections/serum\"], [\"Moisturiser for dry skin\", \"/collections/moisturiser-for-dry-skin\"]]}"
+  },
+  "line": "The Highborn London Bakuchiol Youth Elixir is a bakuchiol serum for mature and sensitive skin."
+ },
+ {
+  "id": "gid://shopify/Product/16368957817219",
+  "handle": "revive-and-defy-starter-set",
+  "before": {
+   "sw": "{\"t\":\"Kits & routines\",\"s\":[\"Combination\"],\"c\":[],\"k\":false,\"r\":175,\"g\":[],\"a\":[\"Rejuvenate and reveal your youthful radiance. HIGHBORN's two original, best-selling products come together in this easy age-defying starter set.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits combination types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"Rejuvenate and reveal your youthful radiance. HIGHBORN's two original, best-selling products come together in this easy age-defying starter set.\",\"more\":false,\"chips\":[],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Gifts for her\",\"/collections/gifts-for-her\"],[\"Luxury gifts over £50\",\"/collections/gifts-over-50\"],[\"Christmas gifts\",\"/collections/christmas-gifts\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Kits & routines\", \"s\": [\"Combination\"], \"c\": [], \"k\": false, \"r\": 175, \"g\": [], \"a\": [\"The Highborn London Revive and Defy Starter Set brings two Highborn products together: a 30ml bottle of Pre-Eminent Beauty Serum and a 15ml glass jar of Imperial Eye Gel.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits combination types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"The Highborn London Revive and Defy Starter Set brings two Highborn products together: a 30ml bottle of Pre-Eminent Beauty Serum and a 15ml glass jar of Imperial Eye Gel.\", \"more\": false, \"chips\": [], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Gifts for her\", \"/collections/gifts-for-her\"], [\"Luxury gifts over £50\", \"/collections/gifts-over-50\"], [\"Christmas gifts\", \"/collections/christmas-gifts\"]]}"
+  },
+  "line": "The Highborn London Revive and Defy Starter Set brings two Highborn products together: a 30ml bottle of Pre-Eminent Beauty Serum and a 15ml glass jar of Imperial Eye Gel."
+ },
+ {
+  "id": "gid://shopify/Product/16368957849987",
+  "handle": "moistureburst-hydrating-glow-ceramide-serum",
+  "before": {
+   "sw": "{\"t\":\"Serums\",\"s\":[\"Dry\"],\"c\":[\"glow\",\"hydration\"],\"k\":false,\"r\":174,\"g\":[],\"a\":[\"A ceramide hydrating serum for dry, dehydrated and mature skin, helping restore the moisture barrier for a dewy, glowing complexion.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"A ceramide hydrating serum for dry, dehydrated and mature skin, helping restore the moisture barrier for a dewy, glowing complexion.\",\"more\":true,\"chips\":[\"Radiance\",\"Hydration\",\"Cruelty-free\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Face serum\",\"/collections/serum\"],[\"Face moisturiser\",\"/collections/moisturizers-gels\"],[\"Moisturiser for dry skin\",\"/collections/moisturiser-for-dry-skin\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Serums\", \"s\": [\"Dry\"], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 174, \"g\": [], \"a\": [\"The Highborn London MOISTUREBURST Hydrating Glow Ceramide Serum is a ceramide serum for dry, dehydrated and mature skin.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"The Highborn London MOISTUREBURST Hydrating Glow Ceramide Serum is a ceramide serum for dry, dehydrated and mature skin.\", \"more\": true, \"chips\": [\"Radiance\", \"Hydration\", \"Cruelty-free\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Face serum\", \"/collections/serum\"], [\"Face moisturiser\", \"/collections/moisturizers-gels\"], [\"Moisturiser for dry skin\", \"/collections/moisturiser-for-dry-skin\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "The Highborn London MOISTUREBURST Hydrating Glow Ceramide Serum is a ceramide serum for dry, dehydrated and mature skin."
+ },
+ {
+  "id": "gid://shopify/Product/16368958177667",
+  "handle": "imperial-eye-gel",
+  "before": {
+   "sw": "{\"t\":\"Moisturisers\",\"s\":[],\"c\":[\"hydration\"],\"k\":false,\"r\":167,\"g\":[\"Hyaluronic acid\",\"Argan oil\",\"Avocado oil\"],\"a\":[\"Soften the look of fine lines with moisture.\",\"Hyaluronic acid: draws in and holds moisture. Argan oil: shine and softness. Avocado oil: rich, nourishing oil. The full ingredient list is printed on the pack.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"Soften the look of fine lines with moisture.\",\"more\":false,\"chips\":[\"Hydration\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Under eye cream\",\"/collections/eye-cream\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Moisturisers\", \"s\": [], \"c\": [\"hydration\"], \"k\": false, \"r\": 167, \"g\": [\"Hyaluronic acid\", \"Argan oil\", \"Avocado oil\"], \"a\": [\"Highborn London Imperial Eye Gel is a lightweight eye gel for the delicate skin around the eyes, giving moisture with a cooling feel.\", \"Hyaluronic acid: draws in and holds moisture. Argan oil: shine and softness. Avocado oil: rich, nourishing oil. The full ingredient list is printed on the pack.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"Highborn London Imperial Eye Gel is a lightweight eye gel for the delicate skin around the eyes, giving moisture with a cooling feel.\", \"more\": false, \"chips\": [\"Hydration\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Under eye cream\", \"/collections/eye-cream\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"]]}"
+  },
+  "line": "Highborn London Imperial Eye Gel is a lightweight eye gel for the delicate skin around the eyes, giving moisture with a cooling feel."
+ },
+ {
+  "id": "gid://shopify/Product/16368958243203",
+  "handle": "youthboost-anti-ageing-peptide-serum",
+  "before": {
+   "sw": "{\"t\":\"Serums\",\"s\":[],\"c\":[\"glow\",\"hydration\"],\"k\":false,\"r\":170,\"g\":[],\"a\":[\"A peptide anti-ageing serum for mature skin, combining Matrixyl 3000, Argireline, Tripeptide-5 and copper peptides to help smooth the look of wrinkles and support firmer, bouncier-looking skin.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"A peptide anti-ageing serum for mature skin, combining Matrixyl 3000, Argireline, Tripeptide-5 and copper peptides to help smooth the look of wrinkles and support firmer, bouncier-looking skin.\",\"more\":true,\"chips\":[\"Radiance\",\"Hydration\",\"Cruelty-free\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Face serum\",\"/collections/serum\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Serums\", \"s\": [], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 170, \"g\": [], \"a\": [\"Highborn London YOUTHBOOST Peptide Serum is a peptide serum with a lightweight, hydrating texture that layers easily into a morning or evening routine.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"Highborn London YOUTHBOOST Peptide Serum is a peptide serum with a lightweight, hydrating texture that layers easily into a morning or evening routine.\", \"more\": true, \"chips\": [\"Radiance\", \"Hydration\", \"Cruelty-free\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Face serum\", \"/collections/serum\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "Highborn London YOUTHBOOST Peptide Serum is a peptide serum with a lightweight, hydrating texture that layers easily into a morning or evening routine."
+ },
+ {
+  "id": "gid://shopify/Product/16368958275971",
+  "handle": "superior-lip-butter-large-50ml",
+  "before": {
+   "sw": "{\"t\":\"Lip care\",\"s\":[],\"c\":[\"lips\"],\"k\":false,\"r\":169,\"g\":[],\"a\":[\"After your eyes, your lips are the first place people look when talking to you. Trouble is, as you get older the skin on your lips becomes thinner, they lose some of their plumpness and lines can form too.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"After your eyes, your lips are the first place people look when talking to you.\",\"more\":true,\"chips\":[\"Soft, tinted lips\",\"Natural formula\"],\"how\":[],\"pair\":[\"natural-luminosity-scrub\",\"natural-luminosity-body-butter\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"kw\":[[\"Body butter\",\"/collections/body-butter\"],[\"Lip balm & lip care\",\"/collections/lip-balm\"],[\"Lip balm for dry lips\",\"/collections/lip-balm-for-dry-lips\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Lip care\", \"s\": [], \"c\": [\"lips\"], \"k\": false, \"r\": 169, \"g\": [], \"a\": [\"Highborn London Superior Lip Butter (Large 50ml) is a rich lip butter in a large jar, made to use as part of your daily skincare routine.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": null
+  },
+  "line": "Highborn London Superior Lip Butter (Large 50ml) is a rich lip butter in a large jar, made to use as part of your daily skincare routine."
+ },
+ {
+  "id": "gid://shopify/Product/16368958407043",
+  "handle": "natural-luminosity-body-butter",
+  "before": {
+   "sw": "{\"t\":\"Body butters\",\"s\":[\"Dry\"],\"c\":[\"glow\",\"hydration\"],\"k\":false,\"r\":165,\"g\":[],\"a\":[\"Instantly Transform Rough and Dehydrated Skin into a Healthy Glow with Our Unique Whole Body Age- Defying Moisturiser.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Instantly Transform Rough and Dehydrated Skin into a Healthy Glow with Our Unique Whole Body Age- Defying Moisturiser.\",\"more\":false,\"chips\":[\"Radiance\",\"Hydration\",\"Paraben-free\"],\"how\":[],\"pair\":[\"natural-luminosity-scrub\",\"superior-lip-butter-large-50ml\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"kw\":[[\"Body butter\",\"/collections/body-butter\"],[\"Body lotion for dry skin\",\"/collections/body-lotion-for-dry-skin\"],[\"Body butter for dry skin\",\"/collections/body-butter-for-dry-skin\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Body butters\", \"s\": [\"Dry\"], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 165, \"g\": [], \"a\": [\"Highborn London Natural Luminosity Body Butter is a rich, butter-soft moisturiser for the face and body.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"It suits dry types. If your skin is sensitive, patch test before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"Highborn London Natural Luminosity Body Butter is a rich, butter-soft moisturiser for the face and body.\", \"more\": false, \"chips\": [\"Radiance\", \"Hydration\", \"Paraben-free\"], \"how\": [], \"pair\": [\"natural-luminosity-scrub\", \"superior-lip-butter-large-50ml\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\", \"the-little-gift-of-good-sleep-frankincense-overactive-mind\"], \"kw\": [[\"Body butter\", \"/collections/body-butter\"], [\"Body lotion for dry skin\", \"/collections/body-lotion-for-dry-skin\"], [\"Body butter for dry skin\", \"/collections/body-butter-for-dry-skin\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "Highborn London Natural Luminosity Body Butter is a rich, butter-soft moisturiser for the face and body."
+ },
+ {
+  "id": "gid://shopify/Product/16368958472579",
+  "handle": "natural-luminosity-scrub",
+  "before": {
+   "sw": "{\"t\":\"Scrubs\",\"s\":[],\"c\":[],\"k\":false,\"r\":164,\"g\":[],\"a\":[\"Beautifully exfoliated skin. Tighter, less visible pores. Reveal your most radiant skin in as little as 3 minutes with our luxury, natural, deep cleaning exfoliant.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"bath-body\",\"ben\":\"Beautifully exfoliated skin. Tighter, less visible pores. Reveal your most radiant skin in as little as 3 minutes with our luxury, natural, deep cleaning exfoliant.\",\"more\":false,\"chips\":[\"Paraben-free\",\"Natural formula\"],\"how\":[],\"pair\":[\"natural-luminosity-body-butter\",\"superior-lip-butter-large-50ml\"],\"sim\":[\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\",\"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\",\"bath-shower-oil-somali-frankincense\",\"the-little-gift-of-good-sleep-frankincense-overactive-mind\"],\"kw\":[[\"Body scrub\",\"/collections/body-scrub\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Scrubs\", \"s\": [], \"c\": [], \"k\": false, \"r\": 164, \"g\": [], \"a\": [\"Highborn London Natural Luminosity Scrub is a natural body scrub that exfoliates and cleanses, leaving skin feeling smooth and soft.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"bath-body\", \"ben\": \"Highborn London Natural Luminosity Scrub is a natural body scrub that exfoliates and cleanses, leaving skin feeling smooth and soft.\", \"more\": false, \"chips\": [\"Paraben-free\", \"Natural formula\"], \"how\": [], \"pair\": [\"natural-luminosity-body-butter\", \"superior-lip-butter-large-50ml\"], \"sim\": [\"coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash\", \"somali-frankincense-sleep-pillow-spray-overactive-mind-anatome\", \"bath-shower-oil-somali-frankincense\", \"the-little-gift-of-good-sleep-frankincense-overactive-mind\"], \"kw\": [[\"Body scrub\", \"/collections/body-scrub\"]]}"
+  },
+  "line": "Highborn London Natural Luminosity Scrub is a natural body scrub that exfoliates and cleanses, leaving skin feeling smooth and soft."
+ },
+ {
+  "id": "gid://shopify/Product/16368958505347",
+  "handle": "crystal-cleanser-100ml",
+  "before": {
+   "sw": "{\"t\":\"Cleansers\",\"s\":[],\"c\":[\"glow\",\"hydration\"],\"k\":false,\"r\":163,\"g\":[],\"a\":[\"Brighten, energise and rejuvenate your skin to release crystal clear, healthy radiance.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"Brighten, energise and rejuvenate your skin to release crystal clear, healthy radiance.\",\"more\":true,\"chips\":[\"Radiance\",\"Hydration\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Face wash & cleanser\",\"/collections/cleanser\"],[\"Face wash for dry skin\",\"/collections/face-wash-for-dry-skin\"],[\"Face wash for oily skin\",\"/collections/face-wash-for-oily-skin\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Cleansers\", \"s\": [], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 163, \"g\": [], \"a\": [\"Highborn London Crystal Cleanser (100ml) is a gentle face cleanser for morning and night that cleanses while leaving skin feeling moisturised.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"Highborn London Crystal Cleanser (100ml) is a gentle face cleanser for morning and night that cleanses while leaving skin feeling moisturised.\", \"more\": true, \"chips\": [\"Radiance\", \"Hydration\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Face wash & cleanser\", \"/collections/cleanser\"], [\"Face wash for dry skin\", \"/collections/face-wash-for-dry-skin\"], [\"Face wash for oily skin\", \"/collections/face-wash-for-oily-skin\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "Highborn London Crystal Cleanser (100ml) is a gentle face cleanser for morning and night that cleanses while leaving skin feeling moisturised."
+ },
+ {
+  "id": "gid://shopify/Product/16368958538115",
+  "handle": "diamond-toner-100ml",
+  "before": {
+   "sw": "{\"t\":\"Toners\",\"s\":[],\"c\":[\"glow\",\"hydration\"],\"k\":false,\"r\":162,\"g\":[],\"a\":[\"Refresh, sooth and brighten the appearance of your skin with this heavenly moisturising toner.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"Refresh, sooth and brighten the appearance of your skin with this heavenly moisturising toner.\",\"more\":false,\"chips\":[\"Radiance\",\"Hydration\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Toner & face mist\",\"/collections/toner\"],[\"Toner for dry skin\",\"/collections/toner-for-dry-skin\"],[\"Skincare for dry skin\",\"/collections/dry-skin\"],[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Toners\", \"s\": [], \"c\": [\"glow\", \"hydration\"], \"k\": false, \"r\": 162, \"g\": [], \"a\": [\"Highborn London Diamond Toner (100ml) is a moisturising face toner that completes the cleansing step and hydrates the skin.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"Highborn London Diamond Toner (100ml) is a moisturising face toner that completes the cleansing step and hydrates the skin.\", \"more\": false, \"chips\": [\"Radiance\", \"Hydration\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Toner & face mist\", \"/collections/toner\"], [\"Toner for dry skin\", \"/collections/toner-for-dry-skin\"], [\"Skincare for dry skin\", \"/collections/dry-skin\"], [\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "Highborn London Diamond Toner (100ml) is a moisturising face toner that completes the cleansing step and hydrates the skin."
+ },
+ {
+  "id": "gid://shopify/Product/16368958570883",
+  "handle": "cleanse-and-tone-pack",
+  "before": {
+   "sw": "{\"t\":\"Masks\",\"s\":[],\"c\":[\"glow\"],\"k\":false,\"r\":161,\"g\":[],\"a\":[\"Brighten, energise and rejuvenate to release crystal clear, healthy radiance with the ultimate cleanse and tone collection.\",\"The full ingredient list is printed on the pack and in the product details above.\",\"Use as directed on the pack. Patch test 24 hours before first use.\",\"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\":\"skincare\",\"ben\":\"Brighten, energise and rejuvenate to release crystal clear, healthy radiance with the ultimate cleanse and tone collection.\",\"more\":false,\"chips\":[\"Radiance\"],\"how\":[],\"pair\":[\"pre-eminent-beauty-serum\",\"imperial-moisturiser\"],\"sim\":[\"botanical-balm\",\"illuminating-rose-hip-grape-seed-avocado-face-oil\",\"deyga-soft-lip-combo\",\"deyga-vitamin-c-daily-glow-combo\"],\"kw\":[[\"Skincare for dull skin\",\"/collections/dull-skin\"]]}"
+  },
+  "after": {
+   "sw": "{\"t\": \"Masks\", \"s\": [], \"c\": [\"glow\"], \"k\": false, \"r\": 161, \"g\": [], \"a\": [\"The Highborn London Cleanse and Tone Pack brings together a face cleanser and a toner, the first two steps of a daily skincare routine.\", \"The full ingredient list is printed on the pack and in the product details above.\", \"Use as directed on the pack. Patch test 24 hours before first use.\", \"Most types. If your skin is sensitive, patch test 24 hours before first use.\"]}",
+   "pdp": "{\"cat\": \"skincare\", \"ben\": \"The Highborn London Cleanse and Tone Pack brings together a face cleanser and a toner, the first two steps of a daily skincare routine.\", \"more\": false, \"chips\": [\"Radiance\"], \"how\": [], \"pair\": [\"pre-eminent-beauty-serum\", \"imperial-moisturiser\"], \"sim\": [\"botanical-balm\", \"illuminating-rose-hip-grape-seed-avocado-face-oil\", \"deyga-soft-lip-combo\", \"deyga-vitamin-c-daily-glow-combo\"], \"kw\": [[\"Skincare for dull skin\", \"/collections/dull-skin\"]]}"
+  },
+  "line": "The Highborn London Cleanse and Tone Pack brings together a face cleanser and a toner, the first two steps of a daily skincare routine."
+ }
+]
