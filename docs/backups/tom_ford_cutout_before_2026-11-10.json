@@ -1,0 +1,504 @@
+{
+ "note": "Tom Ford cut-outs, 10 Nov 2026. Undo: re-attach the 'detached' originals (fileUpdate referencesToAdd), detach media whose file ends -cutout.webp, and re-link the Oud Wood variants (30 ml -> 74292262076803, 50ml -> 74292262175107). Product tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1 not touched: its 4 photos show Tom Ford Velvet Orchid.",
+ "picks": "birefnet-general-lite for all 21",
+ "alt_changes": {
+  "tom-ford-noir-extreme-parfum-100ml-for-men-04": [
+   "bottle with orange, saffron, cardamom, vanilla and amber",
+   "bottle with orange blossom, orange, saffron, cardamom and amber"
+  ],
+  "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-04": [
+   "bottle with rose, wood, resin and pink pepper",
+   "bottle with a piece of amber resin"
+  ]
+ },
+ "variant_media_before": {
+  "gid://shopify/ProductVariant/62541067288963": "gid://shopify/MediaImage/74292262076803",
+  "gid://shopify/ProductVariant/62541067321731": "gid://shopify/MediaImage/74292262175107"
+ },
+ "variant_media_after": {
+  "gid://shopify/ProductVariant/62541067288963": "gid://shopify/MediaImage/74800826450307",
+  "gid://shopify/ProductVariant/62541067321731": "gid://shopify/MediaImage/74800826548611"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262076803",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-1.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml dark bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262109571",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-2.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml bottle and dark box"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262142339",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-3.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, pink pepper and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262175107",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-4.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 50 ml dark bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262207875",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-5.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and black box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262240643",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-6.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and box, side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16294265553283",
+   "media": "gid://shopify/MediaImage/74292262273411",
+   "src": "tom-ford-oud-wood-eau-de-parfum-unisex-7.webp",
+   "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, vanilla and tonka"
+  },
+  {
+   "product": "gid://shopify/Product/16294258147715",
+   "media": "gid://shopify/MediaImage/74292261880195",
+   "src": "tom-ford-noir-extreme-parfum-100ml-for-men-1.webp",
+   "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – ribbed gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294258147715",
+   "media": "gid://shopify/MediaImage/74292261912963",
+   "src": "tom-ford-noir-extreme-parfum-100ml-for-men-2.webp",
+   "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – 100 ml bottle and striped gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16294258147715",
+   "media": "gid://shopify/MediaImage/74292261945731",
+   "src": "tom-ford-noir-extreme-parfum-100ml-for-men-3.webp",
+   "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle and box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294258147715",
+   "media": "gid://shopify/MediaImage/74292261978499",
+   "src": "tom-ford-noir-extreme-parfum-100ml-for-men-4.webp",
+   "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle with orange, saffron, cardamom, vanilla and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16294254182787",
+   "media": "gid://shopify/MediaImage/74292261749123",
+   "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-1.webp",
+   "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – 50 ml teal bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294254182787",
+   "media": "gid://shopify/MediaImage/74292261781891",
+   "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-2.webp",
+   "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle and turquoise box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16294254182787",
+   "media": "gid://shopify/MediaImage/74292261814659",
+   "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-3.webp",
+   "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle with lemon, bergamot, orange blossom and lavender"
+  },
+  {
+   "product": "gid://shopify/Product/16294251495811",
+   "media": "gid://shopify/MediaImage/74292261618051",
+   "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-1.webp",
+   "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – 50 ml amber bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294251495811",
+   "media": "gid://shopify/MediaImage/74292261650819",
+   "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-2.webp",
+   "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and dark brown box"
+  },
+  {
+   "product": "gid://shopify/Product/16294251495811",
+   "media": "gid://shopify/MediaImage/74292261683587",
+   "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-3.webp",
+   "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and box, side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16294251495811",
+   "media": "gid://shopify/MediaImage/74292261716355",
+   "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-4.webp",
+   "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle with rose, wood, resin and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16294245794179",
+   "media": "gid://shopify/MediaImage/74292261519747",
+   "src": "tom-ford-black-orchid-parfum-100ml-unisex-1.webp",
+   "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – ribbed gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16294245794179",
+   "media": "gid://shopify/MediaImage/74292261552515",
+   "src": "tom-ford-black-orchid-parfum-100ml-unisex-2.webp",
+   "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – 100 ml bottle, cap and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16294245794179",
+   "media": "gid://shopify/MediaImage/74292261585283",
+   "src": "tom-ford-black-orchid-parfum-100ml-unisex-3.webp",
+   "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – bottle with lemon, orange blossom and green leaves"
+  }
+ ],
+ "gallery_before": [
+  {
+   "handle": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1",
+   "id": 16294286852483,
+   "title": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex",
+   "images": [
+    {
+     "pos": 1,
+     "src": "gptimage265.png",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-01.png",
+     "alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex",
+     "variant_ids": [],
+     "image_id": 86203962294659,
+     "media": 73389331612035,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-01.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-01-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex"
+    },
+    {
+     "pos": 2,
+     "src": "gptimage268.png",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-02.png",
+     "alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 2",
+     "variant_ids": [],
+     "image_id": 86203962392963,
+     "media": 73389331710339,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-02.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-02-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 2"
+    },
+    {
+     "pos": 3,
+     "src": "gptimage266.png",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-03.png",
+     "alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 3",
+     "variant_ids": [],
+     "image_id": 86203962327427,
+     "media": 73389331644803,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-03.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-03-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 3"
+    },
+    {
+     "pos": 4,
+     "src": "gptimage267.png",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-04.png",
+     "alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 4",
+     "variant_ids": [],
+     "image_id": 86203962360195,
+     "media": 73389331677571,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-04.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-1-04-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum 50ml Unisex – view 4"
+    }
+   ],
+   "skip_product": true
+  },
+  {
+   "handle": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex",
+   "id": 16294265553283,
+   "title": "Tom Ford Oud Wood Eau de Parfum Unisex",
+   "images": [
+    {
+     "pos": 1,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-1.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-01.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml dark bottle, front view",
+     "variant_ids": [
+      62541067288963
+     ],
+     "image_id": 87180999721347,
+     "media": 74292262076803,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-01.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-01-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml dark bottle, front view"
+    },
+    {
+     "pos": 2,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-2.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-02.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml bottle and dark box",
+     "variant_ids": [],
+     "image_id": 87180999754115,
+     "media": 74292262109571,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-02.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-02-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 30 ml bottle and dark box"
+    },
+    {
+     "pos": 3,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-3.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-03.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, pink pepper and vanilla",
+     "variant_ids": [],
+     "image_id": 87180999786883,
+     "media": 74292262142339,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-03.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-03-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, pink pepper and vanilla"
+    },
+    {
+     "pos": 4,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-4.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-04.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 50 ml dark bottle, front view",
+     "variant_ids": [
+      62541067321731
+     ],
+     "image_id": 87180999819651,
+     "media": 74292262175107,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-04.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-04-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – 50 ml dark bottle, front view"
+    },
+    {
+     "pos": 5,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-5.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-05.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and black box on a white background",
+     "variant_ids": [],
+     "image_id": 87180999852419,
+     "media": 74292262207875,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-05.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-05-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and black box"
+    },
+    {
+     "pos": 6,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-6.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-06.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and box, side by side",
+     "variant_ids": [],
+     "image_id": 87180999885187,
+     "media": 74292262240643,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-06.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-06-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle and box, side by side"
+    },
+    {
+     "pos": 7,
+     "src": "tom-ford-oud-wood-eau-de-parfum-unisex-7.webp",
+     "file": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-07.webp",
+     "alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, vanilla and tonka",
+     "variant_ids": [],
+     "image_id": 87180999917955,
+     "media": 74292262273411,
+     "in": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-07.webp",
+     "cut": "tom-ford-oud-wood-eau-de-parfum-50ml-unisex-07-cutout.webp",
+     "new_alt": "Tom Ford Oud Wood Eau de Parfum Unisex – bottle with oud wood, cardamom, vanilla and tonka"
+    }
+   ],
+   "skip_product": false
+  },
+  {
+   "handle": "tom-ford-noir-extreme-parfum-100ml-for-men",
+   "id": 16294258147715,
+   "title": "Tom Ford Noir Extreme Parfum 100ml for Men",
+   "images": [
+    {
+     "pos": 1,
+     "src": "tom-ford-noir-extreme-parfum-100ml-for-men-1.webp",
+     "file": "tom-ford-noir-extreme-parfum-100ml-for-men-01.webp",
+     "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – ribbed gold bottle, front view",
+     "variant_ids": [],
+     "image_id": 87180999524739,
+     "media": 74292261880195,
+     "in": "tom-ford-noir-extreme-parfum-100ml-for-men-01.webp",
+     "cut": "tom-ford-noir-extreme-parfum-100ml-for-men-01-cutout.webp",
+     "new_alt": "Tom Ford Noir Extreme Parfum 100ml for Men – ribbed gold bottle, front view"
+    },
+    {
+     "pos": 2,
+     "src": "tom-ford-noir-extreme-parfum-100ml-for-men-2.webp",
+     "file": "tom-ford-noir-extreme-parfum-100ml-for-men-02.webp",
+     "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – 100 ml bottle and striped gold box",
+     "variant_ids": [],
+     "image_id": 87180999557507,
+     "media": 74292261912963,
+     "in": "tom-ford-noir-extreme-parfum-100ml-for-men-02.webp",
+     "cut": "tom-ford-noir-extreme-parfum-100ml-for-men-02-cutout.webp",
+     "new_alt": "Tom Ford Noir Extreme Parfum 100ml for Men – 100 ml bottle and striped gold box"
+    },
+    {
+     "pos": 3,
+     "src": "tom-ford-noir-extreme-parfum-100ml-for-men-3.webp",
+     "file": "tom-ford-noir-extreme-parfum-100ml-for-men-03.webp",
+     "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle and box, front view",
+     "variant_ids": [],
+     "image_id": 87180999590275,
+     "media": 74292261945731,
+     "in": "tom-ford-noir-extreme-parfum-100ml-for-men-03.webp",
+     "cut": "tom-ford-noir-extreme-parfum-100ml-for-men-03-cutout.webp",
+     "new_alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle and box, front view"
+    },
+    {
+     "pos": 4,
+     "src": "tom-ford-noir-extreme-parfum-100ml-for-men-4.webp",
+     "file": "tom-ford-noir-extreme-parfum-100ml-for-men-04.webp",
+     "alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle with orange, saffron, cardamom, vanilla and amber",
+     "variant_ids": [],
+     "image_id": 87180999623043,
+     "media": 74292261978499,
+     "in": "tom-ford-noir-extreme-parfum-100ml-for-men-04.webp",
+     "cut": "tom-ford-noir-extreme-parfum-100ml-for-men-04-cutout.webp",
+     "new_alt": "Tom Ford Noir Extreme Parfum 100ml for Men – bottle with orange blossom, orange, saffron, cardamom and amber"
+    }
+   ],
+   "skip_product": false
+  },
+  {
+   "handle": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex",
+   "id": 16294254182787,
+   "title": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex",
+   "images": [
+    {
+     "pos": 1,
+     "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-1.webp",
+     "file": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-01.webp",
+     "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – 50 ml teal bottle, front view",
+     "variant_ids": [],
+     "image_id": 87180999393667,
+     "media": 74292261749123,
+     "in": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-01.webp",
+     "cut": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-01-cutout.webp",
+     "new_alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – 50 ml teal bottle, front view"
+    },
+    {
+     "pos": 2,
+     "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-2.webp",
+     "file": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-02.webp",
+     "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle and turquoise box on a white background",
+     "variant_ids": [],
+     "image_id": 87180999426435,
+     "media": 74292261781891,
+     "in": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-02.webp",
+     "cut": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-02-cutout.webp",
+     "new_alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle and turquoise box"
+    },
+    {
+     "pos": 3,
+     "src": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-3.webp",
+     "file": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-03.webp",
+     "alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle with lemon, bergamot, orange blossom and lavender",
+     "variant_ids": [],
+     "image_id": 87180999459203,
+     "media": 74292261814659,
+     "in": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-03.webp",
+     "cut": "tom-ford-neroli-portofino-eau-de-parfum-50ml-unisex-03-cutout.webp",
+     "new_alt": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex – bottle with lemon, bergamot, orange blossom and lavender"
+    }
+   ],
+   "skip_product": false
+  },
+  {
+   "handle": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex",
+   "id": 16294251495811,
+   "title": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex",
+   "images": [
+    {
+     "pos": 1,
+     "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-1.webp",
+     "file": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-01.webp",
+     "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – 50 ml amber bottle with black cap, front view",
+     "variant_ids": [],
+     "image_id": 87180999262595,
+     "media": 74292261618051,
+     "in": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-01.webp",
+     "cut": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-01-cutout.webp",
+     "new_alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – 50 ml amber bottle with black cap, front view"
+    },
+    {
+     "pos": 2,
+     "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-2.webp",
+     "file": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-02.webp",
+     "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and dark brown box",
+     "variant_ids": [],
+     "image_id": 87180999295363,
+     "media": 74292261650819,
+     "in": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-02.webp",
+     "cut": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-02-cutout.webp",
+     "new_alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and dark brown box"
+    },
+    {
+     "pos": 3,
+     "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-3.webp",
+     "file": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-03.webp",
+     "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and box, side by side",
+     "variant_ids": [],
+     "image_id": 87180999328131,
+     "media": 74292261683587,
+     "in": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-03.webp",
+     "cut": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-03-cutout.webp",
+     "new_alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle and box, side by side"
+    },
+    {
+     "pos": 4,
+     "src": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-4.webp",
+     "file": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-04.webp",
+     "alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle with rose, wood, resin and pink pepper",
+     "variant_ids": [],
+     "image_id": 87180999360899,
+     "media": 74292261716355,
+     "in": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-04.webp",
+     "cut": "tom-ford-ebene-fume-eau-de-parfum-50ml-unisex-04-cutout.webp",
+     "new_alt": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex – bottle with a piece of amber resin"
+    }
+   ],
+   "skip_product": false
+  },
+  {
+   "handle": "tom-ford-black-orchid-parfum-100ml-unisex",
+   "id": 16294245794179,
+   "title": "Tom Ford Black Orchid Parfum 100ml Unisex",
+   "images": [
+    {
+     "pos": 1,
+     "src": "tom-ford-black-orchid-parfum-100ml-unisex-1.webp",
+     "file": "tom-ford-black-orchid-parfum-100ml-unisex-01.webp",
+     "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – ribbed gold bottle, front view",
+     "variant_ids": [],
+     "image_id": 87180999164291,
+     "media": 74292261519747,
+     "in": "tom-ford-black-orchid-parfum-100ml-unisex-01.webp",
+     "cut": "tom-ford-black-orchid-parfum-100ml-unisex-01-cutout.webp",
+     "new_alt": "Tom Ford Black Orchid Parfum 100ml Unisex – ribbed gold bottle, front view"
+    },
+    {
+     "pos": 2,
+     "src": "tom-ford-black-orchid-parfum-100ml-unisex-2.webp",
+     "file": "tom-ford-black-orchid-parfum-100ml-unisex-02.webp",
+     "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – 100 ml bottle, cap and gold box",
+     "variant_ids": [],
+     "image_id": 87180999197059,
+     "media": 74292261552515,
+     "in": "tom-ford-black-orchid-parfum-100ml-unisex-02.webp",
+     "cut": "tom-ford-black-orchid-parfum-100ml-unisex-02-cutout.webp",
+     "new_alt": "Tom Ford Black Orchid Parfum 100ml Unisex – 100 ml bottle, cap and gold box"
+    },
+    {
+     "pos": 3,
+     "src": "tom-ford-black-orchid-parfum-100ml-unisex-3.webp",
+     "file": "tom-ford-black-orchid-parfum-100ml-unisex-03.webp",
+     "alt": "Tom Ford Black Orchid Parfum 100ml Unisex – bottle with lemon, orange blossom and green leaves",
+     "variant_ids": [],
+     "image_id": 87180999229827,
+     "media": 74292261585283,
+     "in": "tom-ford-black-orchid-parfum-100ml-unisex-03.webp",
+     "cut": "tom-ford-black-orchid-parfum-100ml-unisex-03-cutout.webp",
+     "new_alt": "Tom Ford Black Orchid Parfum 100ml Unisex – bottle with lemon, orange blossom and green leaves"
+    }
+   ],
+   "skip_product": false
+  }
+ ]
+}
