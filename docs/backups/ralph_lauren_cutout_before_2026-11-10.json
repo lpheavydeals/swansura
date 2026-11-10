@@ -1,0 +1,160 @@
+{
+ "note": "Ralph Lauren cut-out gallery 10 Nov 2026: 13 cut-outs (<handle>-NN-cutout.webp, all birefnet-general-lite) added; originals DETACHED with fileUpdate referencesToRemove (files stay in Content > Files; local copies docs/backups/ralph_lauren_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the ids below, then detach the -cutout media.",
+ "detached": {
+  "gid://shopify/Product/16431529197955": [
+   "gid://shopify/MediaImage/74755241738627",
+   "gid://shopify/MediaImage/74755241771395",
+   "gid://shopify/MediaImage/74755241804163"
+  ],
+  "gid://shopify/Product/16431529263491": [
+   "gid://shopify/MediaImage/74755241869699",
+   "gid://shopify/MediaImage/74755241902467",
+   "gid://shopify/MediaImage/74755241935235"
+  ],
+  "gid://shopify/Product/16431529296259": [
+   "gid://shopify/MediaImage/74755242262915",
+   "gid://shopify/MediaImage/74755242295683",
+   "gid://shopify/MediaImage/74755242328451"
+  ],
+  "gid://shopify/Product/16431529329027": [
+   "gid://shopify/MediaImage/74755242754435",
+   "gid://shopify/MediaImage/74755242787203",
+   "gid://shopify/MediaImage/74755242819971",
+   "gid://shopify/MediaImage/74755242852739"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431529197955,
+   "handle": "ralph-lauren-polo-cologne-intense-59ml",
+   "vendor": "Ralph Lauren",
+   "images": [
+    {
+     "file": "ralph-lauren-polo-cologne-intense-59ml-01.webp",
+     "in": "ralph-lauren-polo-cologne-intense-59ml-01.webp",
+     "alt": "Ralph Lauren Polo Cologne Intense 59ml – bottle beside its green Cologne Intense 59ml box",
+     "pos": 1,
+     "new_alt": "Ralph Lauren Polo Cologne Intense 59ml – bottle beside its green Cologne Intense 59ml box",
+     "cut": "ralph-lauren-polo-cologne-intense-59ml-01-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-cologne-intense-59ml-02.webp",
+     "in": "ralph-lauren-polo-cologne-intense-59ml-02.webp",
+     "alt": "Ralph Lauren Polo Cologne Intense 59ml – green bottle on a white background",
+     "pos": 2,
+     "new_alt": "Ralph Lauren Polo Cologne Intense 59ml – green bottle",
+     "cut": "ralph-lauren-polo-cologne-intense-59ml-02-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-cologne-intense-59ml-03.webp",
+     "in": "ralph-lauren-polo-cologne-intense-59ml-03.webp",
+     "alt": "Ralph Lauren Polo Cologne Intense 59ml – bottle with grapefruit, mint, basil and lavender",
+     "pos": 3,
+     "new_alt": "Ralph Lauren Polo Cologne Intense 59ml – bottle with grapefruit, mint, basil and lavender",
+     "cut": "ralph-lauren-polo-cologne-intense-59ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431529263491,
+   "handle": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml",
+   "vendor": "Ralph Lauren",
+   "images": [
+    {
+     "file": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-01.webp",
+     "in": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-01.webp",
+     "alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – bottle beside its navy blue box",
+     "pos": 1,
+     "new_alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – bottle beside its navy blue box",
+     "cut": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-01-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-02.webp",
+     "in": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-02.webp",
+     "alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – blue bottle on a white background",
+     "pos": 2,
+     "new_alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – blue bottle",
+     "cut": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-02-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-03.webp",
+     "in": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-03.webp",
+     "alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – bottle with melon, cucumber and pink flowers",
+     "pos": 3,
+     "new_alt": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml – bottle with melon, cucumber and pink flowers",
+     "cut": "ralph-lauren-polo-blue-eau-de-toilette-refillable-75ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431529296259,
+   "handle": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml",
+   "vendor": "Ralph Lauren",
+   "images": [
+    {
+     "file": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-01.webp",
+     "in": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-01.webp",
+     "alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – bottle beside its red Polo Red 125ml box",
+     "pos": 1,
+     "new_alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – bottle beside its red Polo Red 125ml box",
+     "cut": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-01-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-02.webp",
+     "in": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-02.webp",
+     "alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – red bottle on a white background",
+     "pos": 2,
+     "new_alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – red bottle",
+     "cut": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-02-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-03.webp",
+     "in": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-03.webp",
+     "alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – bottle with grapefruit, lemon, lavender and saffron",
+     "pos": 3,
+     "new_alt": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml – bottle with grapefruit, lemon, lavender and saffron",
+     "cut": "ralph-lauren-polo-red-eau-de-toilette-refillable-125ml-03-cutout.webp"
+    }
+   ]
+  },
+  {
+   "id": 16431529329027,
+   "handle": "ralph-lauren-polo-red-parfum-75ml",
+   "vendor": "Ralph Lauren",
+   "images": [
+    {
+     "file": "ralph-lauren-polo-red-parfum-75ml-01.webp",
+     "in": "ralph-lauren-polo-red-parfum-75ml-01.webp",
+     "alt": "Ralph Lauren Polo Red Parfum 75ml – bottle beside its red Polo Red box",
+     "pos": 1,
+     "new_alt": "Ralph Lauren Polo Red Parfum 75ml – bottle beside its red Polo Red box",
+     "cut": "ralph-lauren-polo-red-parfum-75ml-01-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-red-parfum-75ml-02.webp",
+     "in": "ralph-lauren-polo-red-parfum-75ml-02.webp",
+     "alt": "Ralph Lauren Polo Red Parfum 75ml – red bottle with silver cap on a white background",
+     "pos": 2,
+     "new_alt": "Ralph Lauren Polo Red Parfum 75ml – red bottle with silver cap",
+     "cut": "ralph-lauren-polo-red-parfum-75ml-02-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-red-parfum-75ml-03.webp",
+     "in": "ralph-lauren-polo-red-parfum-75ml-03.webp",
+     "alt": "Ralph Lauren Polo Red Parfum 75ml – bottle at an angle showing the RL cap",
+     "pos": 3,
+     "new_alt": "Ralph Lauren Polo Red Parfum 75ml – bottle at an angle showing the RL cap",
+     "cut": "ralph-lauren-polo-red-parfum-75ml-03-cutout.webp"
+    },
+    {
+     "file": "ralph-lauren-polo-red-parfum-75ml-04.webp",
+     "in": "ralph-lauren-polo-red-parfum-75ml-04.webp",
+     "alt": "Ralph Lauren Polo Red Parfum 75ml – bottle with bergamot, lime, blood orange, lavender and iris",
+     "pos": 4,
+     "new_alt": "Ralph Lauren Polo Red Parfum 75ml – bottle with bergamot, lime, blood orange, lavender and iris",
+     "cut": "ralph-lauren-polo-red-parfum-75ml-04-cutout.webp"
+    }
+   ]
+  }
+ ]
+}
