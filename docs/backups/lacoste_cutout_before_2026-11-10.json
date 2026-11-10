@@ -1,0 +1,53 @@
+{
+ "note": "Lacoste cut-out gallery 10 Nov 2026: 3 cut-outs (<handle>-NN-cutout.webp) added, all birefnet-general-lite (all three methods compared; box and fruit props kept). 3 original MediaImages detached with fileUpdate referencesToRemove (files stay in Content > Files; local copies in lacoste_originals_2026-11-10/). Undo: fileUpdate referencesToAdd the detached ids to their product, then remove the media whose file ends -cutout.webp.",
+ "picks": {
+  "picks": {},
+  "dropped": []
+ },
+ "detached": {
+  "gid://shopify/Product/16431138963843": [
+   "gid://shopify/MediaImage/74755235119491",
+   "gid://shopify/MediaImage/74755235152259",
+   "gid://shopify/MediaImage/74755235185027"
+  ]
+ },
+ "gallery_before": [
+  {
+   "id": 16431138963843,
+   "handle": "lacoste-lhomme-lacoste-deodorant-stick-70g",
+   "vendor": "Lacoste",
+   "images": [
+    {
+     "file": "lacoste-lhomme-lacoste-deodorant-stick-70g-01.webp",
+     "in": "lacoste-lhomme-lacoste-deodorant-stick-70g-01.webp",
+     "alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick on a white background",
+     "pos": 1,
+     "media": 74755235119491,
+     "new_alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick",
+     "cut": "lacoste-lhomme-lacoste-deodorant-stick-70g-01-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "lacoste-lhomme-lacoste-deodorant-stick-70g-02.webp",
+     "in": "lacoste-lhomme-lacoste-deodorant-stick-70g-02.webp",
+     "alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick with its navy box",
+     "pos": 2,
+     "media": 74755235152259,
+     "new_alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick with its navy box",
+     "cut": "lacoste-lhomme-lacoste-deodorant-stick-70g-02-cutout.webp",
+     "skip": false
+    },
+    {
+     "file": "lacoste-lhomme-lacoste-deodorant-stick-70g-03.webp",
+     "in": "lacoste-lhomme-lacoste-deodorant-stick-70g-03.webp",
+     "alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick with oranges, mandarin and quince",
+     "pos": 3,
+     "media": 74755235185027,
+     "new_alt": "Lacoste L'Homme Lacoste Deodorant Stick 70g – deodorant stick with oranges, mandarin and quince",
+     "cut": "lacoste-lhomme-lacoste-deodorant-stick-70g-03-cutout.webp",
+     "skip": false
+    }
+   ]
+  }
+ ]
+}
