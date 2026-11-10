@@ -10163,5 +10163,280 @@
     "supplier_qty": 60
    }
   ]
+ },
+ "rule3": {
+  "rule": "user, 10 Nov 2026 (later): supplier qty >=5 -> exact qty, <5 -> 0 (only 5-9 changed vs rule2)",
+  "changes": [
+   {
+    "variant_id": "gid://shopify/ProductVariant/62407510262147",
+    "inventory_item": "gid://shopify/InventoryItem/64419423977859",
+    "title": "Acqua di Parma Rosa Nobile EDP 20ml for Women",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62407850787203",
+    "inventory_item": "gid://shopify/InventoryItem/64419765125507",
+    "title": "Acqua di Parma Zafferano EDP 20ml Unisex",
+    "option": "Default Title",
+    "before": 0,
+    "after": 7,
+    "supplier_qty": 7
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62749950345603",
+    "inventory_item": "gid://shopify/InventoryItem/64775575568771",
+    "title": "Bentley Momentum Unlimited Eau de Toilette 100ml – Men’s Fresh Woody Aromatic Fragrance",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58104540529027",
+    "inventory_item": "gid://shopify/InventoryItem/56695917543811",
+    "title": "The Woods Collection Eden Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200324583811",
+    "inventory_item": "gid://shopify/InventoryItem/65235005342083",
+    "title": "Franck Olivier Bella Women Eau de Parfum & Deodorant Gift Set 75ml + 250ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200329073027",
+    "inventory_item": "gid://shopify/InventoryItem/65235009831299",
+    "title": "Franck Olivier Black Touch Deodorant Spray 250ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200333070723",
+    "inventory_item": "gid://shopify/InventoryItem/65235013927299",
+    "title": "Franck Olivier Excellence Deodorant Spray 250ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200312459651",
+    "inventory_item": "gid://shopify/InventoryItem/65234993021315",
+    "title": "Franck Olivier Sun Java Blue Men Eau de Toilette 75ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63254876225923",
+    "inventory_item": "gid://shopify/InventoryItem/65292174524803",
+    "title": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 7,
+    "supplier_qty": 7
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200347128195",
+    "inventory_item": "gid://shopify/InventoryItem/65235028115843",
+    "title": "Jaguar Ultimate Power Eau de Toilette 100ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58072960270723",
+    "inventory_item": "gid://shopify/InventoryItem/56664115904899",
+    "title": "Korloff Lady Intense Eau De Parfum 88ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63254889857411",
+    "inventory_item": "gid://shopify/InventoryItem/65292189237635",
+    "title": "Lalique Noir Premier Or Intemporel 1888 Eau de Parfum 100ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63254889955715",
+    "inventory_item": "gid://shopify/InventoryItem/65292189335939",
+    "title": "Lalique White Eau de Toilette 125ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200350536067",
+    "inventory_item": "gid://shopify/InventoryItem/65235031753091",
+    "title": "Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58104459231619",
+    "inventory_item": "gid://shopify/InventoryItem/56695834935683",
+    "title": "The Woods Collection Mirage Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63257658753411",
+    "inventory_item": "gid://shopify/InventoryItem/65295106146691",
+    "title": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 7,
+    "supplier_qty": 7
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58104509792643",
+    "inventory_item": "gid://shopify/InventoryItem/56695886512515",
+    "title": "The Woods Collection Pure Shine Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58100459667843",
+    "inventory_item": "gid://shopify/InventoryItem/56691812237699",
+    "title": "Signature Le Femme Gold 100ml EDP Spray",
+    "option": "Default Title",
+    "before": 0,
+    "after": 9,
+    "supplier_qty": 9
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58104452415875",
+    "inventory_item": "gid://shopify/InventoryItem/56695828119939",
+    "title": "The Woods Collection Sunrise Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62541067288963",
+    "inventory_item": "gid://shopify/InventoryItem/64556382781827",
+    "title": "Tom Ford Oud Wood Eau de Parfum Unisex",
+    "option": "30 ml",
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58104468930947",
+    "inventory_item": "gid://shopify/InventoryItem/56695845552515",
+    "title": "The Woods Collection Twilight Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63259038744963",
+    "inventory_item": "gid://shopify/InventoryItem/65296493216131",
+    "title": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62817567310211",
+    "inventory_item": "gid://shopify/InventoryItem/64845090193795",
+    "title": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance",
+    "option": "Default Title",
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200332710275",
+    "inventory_item": "gid://shopify/InventoryItem/65235013566851",
+    "title": "Guess Seductive Homme Noir Gift Set 100ml + 170g",
+    "option": "Default Title",
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62482946523523",
+    "inventory_item": "gid://shopify/InventoryItem/64497476534659",
+    "title": "Kaff Extrait de Parfum 100ml – Luxury Unisex Niche Perfume",
+    "option": "Default Title",
+    "before": 0,
+    "after": 7,
+    "supplier_qty": 7
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58072105550211",
+    "inventory_item": "gid://shopify/InventoryItem/56663257252227",
+    "title": "Korloff In Love Eau De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/62477791199619",
+    "inventory_item": "gid://shopify/InventoryItem/64492136956291",
+    "title": "Sea Stars Collection Deriva Extrait De Parfum 100ML",
+    "option": "Default Title",
+    "before": 0,
+    "after": 6,
+    "supplier_qty": 6
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63258977075587",
+    "inventory_item": "gid://shopify/InventoryItem/65296431153539",
+    "title": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/63200359973251",
+    "inventory_item": "gid://shopify/InventoryItem/65235041288579",
+    "title": "Tous Touch The Luminous Gold Eau de Toilette 50ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 7,
+    "supplier_qty": 7
+   },
+   {
+    "variant_id": "gid://shopify/ProductVariant/58180223140227",
+    "inventory_item": "gid://shopify/InventoryItem/56772150919555",
+    "title": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml",
+    "option": "Default Title",
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8
+   }
+  ]
  }
 }
