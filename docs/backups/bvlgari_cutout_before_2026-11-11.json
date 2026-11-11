@@ -1,0 +1,656 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "5": "isnet",
+   "7": "isnet"
+  },
+  "alt": {
+   "13": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle with iris and peony",
+   "27": "Bvlgari Man in Black Eau de Parfum 100ml – black bottle with copper cap",
+   "30": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles, front view"
+  },
+  "skip_products": [],
+  "notes": "isnet 5 + 7 (birefnet kept the floor reflection)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16281877152131",
+   "media": "gid://shopify/MediaImage/74292108034435",
+   "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-1.webp",
+   "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – deep blue bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281877152131",
+   "media": "gid://shopify/MediaImage/74292108067203",
+   "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-2.webp",
+   "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle beside its black 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16281877152131",
+   "media": "gid://shopify/MediaImage/74292108099971",
+   "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-3.webp",
+   "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – black 100 ml Eau de Parfum box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281877152131",
+   "media": "gid://shopify/MediaImage/74292108132739",
+   "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-4.webp",
+   "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle with tuberose, black pearls, vanilla and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16281810305411",
+   "media": "gid://shopify/MediaImage/74292107870595",
+   "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-1.webp",
+   "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml and 15 ml bottles beside the pink gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16281810305411",
+   "media": "gid://shopify/MediaImage/74292107903363",
+   "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-2.webp",
+   "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281810305411",
+   "media": "gid://shopify/MediaImage/74292107936131",
+   "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-3.webp",
+   "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 15 ml travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281810305411",
+   "media": "gid://shopify/MediaImage/74292107968899",
+   "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-4.webp",
+   "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – pink festive gift box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281810305411",
+   "media": "gid://shopify/MediaImage/74292108001667",
+   "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-5.webp",
+   "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – bottle with rose, bergamot, white lily and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16280588812675",
+   "media": "gid://shopify/MediaImage/74292107641219",
+   "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-1.webp",
+   "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – lilac jewel bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16280588812675",
+   "media": "gid://shopify/MediaImage/74292107673987",
+   "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-2.webp",
+   "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle beside its purple 25 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16280588812675",
+   "media": "gid://shopify/MediaImage/74292107706755",
+   "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-3.webp",
+   "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – purple 25 ml box with the bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16280588812675",
+   "media": "gid://shopify/MediaImage/74292107739523",
+   "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-4.webp",
+   "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle with iris, peony and soft floral backdrop"
+  },
+  {
+   "product": "gid://shopify/Product/16280562139523",
+   "media": "gid://shopify/MediaImage/74292108296579",
+   "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+   "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – green bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16280562139523",
+   "media": "gid://shopify/MediaImage/74292108329347",
+   "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+   "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16280562139523",
+   "media": "gid://shopify/MediaImage/74292108362115",
+   "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+   "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – patterned gift box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16280562139523",
+   "media": "gid://shopify/MediaImage/74292108394883",
+   "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-4.webp",
+   "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – bottle with lime, leaves and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16280530944387",
+   "media": "gid://shopify/MediaImage/74292108165507",
+   "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+   "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16280530944387",
+   "media": "gid://shopify/MediaImage/74292108198275",
+   "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+   "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles beside the teal gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16280530944387",
+   "media": "gid://shopify/MediaImage/74292108231043",
+   "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+   "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles on a grey background"
+  },
+  {
+   "product": "gid://shopify/Product/16280530944387",
+   "media": "gid://shopify/MediaImage/74292108263811",
+   "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-4.webp",
+   "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with lemon, lime, iris and stones"
+  },
+  {
+   "product": "gid://shopify/Product/16280515281283",
+   "media": "gid://shopify/MediaImage/74292107772291",
+   "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+   "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the teal gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16280515281283",
+   "media": "gid://shopify/MediaImage/74292107805059",
+   "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+   "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16280515281283",
+   "media": "gid://shopify/MediaImage/74292107837827",
+   "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+   "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with water lilies, orange peel and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16280183570819",
+   "media": "gid://shopify/MediaImage/74292107116931",
+   "src": "bvlgari-man-in-black-eau-de-parfum-100ml-1.webp",
+   "alt": "Bvlgari Man in Black Eau de Parfum 100ml – black bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16280183570819",
+   "media": "gid://shopify/MediaImage/74292107149699",
+   "src": "bvlgari-man-in-black-eau-de-parfum-100ml-2.webp",
+   "alt": "Bvlgari Man in Black Eau de Parfum 100ml – 100 ml bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16280183570819",
+   "media": "gid://shopify/MediaImage/74292107182467",
+   "src": "bvlgari-man-in-black-eau-de-parfum-100ml-3.webp",
+   "alt": "Bvlgari Man in Black Eau de Parfum 100ml – bottle with tobacco leaf, leather, iris and a whisky glass"
+  },
+  {
+   "product": "gid://shopify/Product/16280160010627",
+   "media": "gid://shopify/MediaImage/74292107542915",
+   "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-1.webp",
+   "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16280160010627",
+   "media": "gid://shopify/MediaImage/74292107575683",
+   "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-2.webp",
+   "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles beside the white gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16280160010627",
+   "media": "gid://shopify/MediaImage/74292107608451",
+   "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-3.webp",
+   "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles with driftwood, ginger and flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance",
+   "id": 16281877152131,
+   "title": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – Luxury Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-1.webp",
+     "in": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-01.webp",
+     "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – deep blue bottle, front view",
+     "new_alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – deep blue bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108034435",
+     "new_media": "gid://shopify/MediaImage/74814832574851"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-2.webp",
+     "in": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-02.webp",
+     "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle beside its black 100 ml box",
+     "new_alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle beside its black 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108067203",
+     "new_media": "gid://shopify/MediaImage/74814832607619"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-3.webp",
+     "in": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-03.webp",
+     "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – black 100 ml Eau de Parfum box, front view",
+     "new_alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – black 100 ml Eau de Parfum box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108099971",
+     "new_media": "gid://shopify/MediaImage/74814832640387"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-4.webp",
+     "in": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-04.webp",
+     "alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle with tuberose, black pearls, vanilla and amber",
+     "new_alt": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – bottle with tuberose, black pearls, vanilla and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-splendida-tubereuse-mystique-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108132739",
+     "new_media": "gid://shopify/MediaImage/74814832673155"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set",
+   "id": 16281810305411,
+   "title": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – New Pack Women’s Fragrance Set",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-1.webp",
+     "in": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-01.webp",
+     "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml and 15 ml bottles beside the pink gift box",
+     "new_alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml and 15 ml bottles beside the pink gift box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107870595",
+     "new_media": "gid://shopify/MediaImage/74814832836995"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-2.webp",
+     "in": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-02.webp",
+     "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml bottle, front view",
+     "new_alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 75 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107903363",
+     "new_media": "gid://shopify/MediaImage/74814832869763"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-3.webp",
+     "in": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-03.webp",
+     "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 15 ml travel spray, front view",
+     "new_alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – 15 ml travel spray, front view",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107936131",
+     "new_media": "gid://shopify/MediaImage/74814832902531"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-4.webp",
+     "in": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-04.webp",
+     "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – pink festive gift box, front view",
+     "new_alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – pink festive gift box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107968899",
+     "new_media": "gid://shopify/MediaImage/74814832935299"
+    },
+    {
+     "n": 9,
+     "pos": 5,
+     "src": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-5.webp",
+     "in": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-05.webp",
+     "alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – bottle with rose, bergamot, white lily and wood",
+     "new_alt": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – bottle with rose, bergamot, white lily and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-rose-goldea-blossom-delight-eau-de-parfum-gift-set-75ml-15ml-new-pack-women-s-fragrance-set-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108001667",
+     "new_media": "gid://shopify/MediaImage/74814832968067"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance",
+   "id": 16280588812675,
+   "title": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-1.webp",
+     "in": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-01.webp",
+     "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – lilac jewel bottle, front view",
+     "new_alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – lilac jewel bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107641219",
+     "new_media": "gid://shopify/MediaImage/74814833426819"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-2.webp",
+     "in": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-02.webp",
+     "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle beside its purple 25 ml box",
+     "new_alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle beside its purple 25 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107673987",
+     "new_media": "gid://shopify/MediaImage/74814833459587"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-3.webp",
+     "in": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-03.webp",
+     "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – purple 25 ml box with the bottle",
+     "new_alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – purple 25 ml box with the bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107706755",
+     "new_media": "gid://shopify/MediaImage/74814833492355"
+    },
+    {
+     "n": 13,
+     "pos": 4,
+     "src": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-4.webp",
+     "in": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-04.webp",
+     "alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle with iris, peony and soft floral backdrop",
+     "new_alt": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – bottle with iris and peony",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-omnia-amethyste-eau-de-toilette-25ml-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107739523",
+     "new_media": "gid://shopify/MediaImage/74814833525123"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set",
+   "id": 16280562139523,
+   "title": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – Soft Box Men’s Fragrance Set",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+     "in": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-01.webp",
+     "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – green bottle, front view on a white background",
+     "new_alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – green bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108296579",
+     "new_media": "gid://shopify/MediaImage/74814833754499"
+    },
+    {
+     "n": 15,
+     "pos": 2,
+     "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+     "in": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-02.webp",
+     "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the gift box",
+     "new_alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108329347",
+     "new_media": "gid://shopify/MediaImage/74814833787267"
+    },
+    {
+     "n": 16,
+     "pos": 3,
+     "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+     "in": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-03.webp",
+     "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – patterned gift box, front view",
+     "new_alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – patterned gift box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108362115",
+     "new_media": "gid://shopify/MediaImage/74814833820035"
+    },
+    {
+     "n": 17,
+     "pos": 4,
+     "src": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-4.webp",
+     "in": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-04.webp",
+     "alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – bottle with lime, leaves and wood",
+     "new_alt": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – bottle with lime, leaves and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-wood-essence-eau-de-parfum-gift-set-100ml-15ml-soft-box-men-s-fragrance-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108394883",
+     "new_media": "gid://shopify/MediaImage/74814833852803"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set",
+   "id": 16280530944387,
+   "title": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – New Pack Men’s Fragrance Set",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+     "in": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-01.webp",
+     "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "new_alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108165507",
+     "new_media": "gid://shopify/MediaImage/74814834114947"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+     "in": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-02.webp",
+     "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles beside the teal gift box",
+     "new_alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles beside the teal gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108198275",
+     "new_media": "gid://shopify/MediaImage/74814834147715"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+     "in": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-03.webp",
+     "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles on a grey background",
+     "new_alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles on a grey background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108231043",
+     "new_media": "gid://shopify/MediaImage/74814834180483"
+    },
+    {
+     "n": 21,
+     "pos": 4,
+     "src": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-4.webp",
+     "in": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-04.webp",
+     "alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with lemon, lime, iris and stones",
+     "new_alt": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with lemon, lime, iris and stones",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-terrae-essence-eau-de-parfum-gift-set-100ml-15ml-new-pack-men-s-fragrance-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108263811",
+     "new_media": "gid://shopify/MediaImage/74814834213251"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set",
+   "id": 16280515281283,
+   "title": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – Luxury Men’s Fragrance Set",
+   "images": [
+    {
+     "n": 22,
+     "pos": 1,
+     "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-1.webp",
+     "in": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-01.webp",
+     "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the teal gift box",
+     "new_alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles beside the teal gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107772291",
+     "new_media": "gid://shopify/MediaImage/74814834246019"
+    },
+    {
+     "n": 23,
+     "pos": 2,
+     "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-2.webp",
+     "in": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-02.webp",
+     "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "new_alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107805059",
+     "new_media": "gid://shopify/MediaImage/74814834278787"
+    },
+    {
+     "n": 24,
+     "pos": 3,
+     "src": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-3.webp",
+     "in": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-03.webp",
+     "alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with water lilies, orange peel and wood",
+     "new_alt": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – both bottles with water lilies, orange peel and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-rain-essence-eau-de-parfum-gift-set-100ml-15ml-luxury-men-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107837827",
+     "new_media": "gid://shopify/MediaImage/74814834311555"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance",
+   "id": 16280183570819,
+   "title": "Bvlgari Man in Black Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "bvlgari-man-in-black-eau-de-parfum-100ml-1.webp",
+     "in": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-01.webp",
+     "alt": "Bvlgari Man in Black Eau de Parfum 100ml – black bottle, front view on a white background",
+     "new_alt": "Bvlgari Man in Black Eau de Parfum 100ml – black bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107116931",
+     "new_media": "gid://shopify/MediaImage/74814834508163"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "bvlgari-man-in-black-eau-de-parfum-100ml-2.webp",
+     "in": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-02.webp",
+     "alt": "Bvlgari Man in Black Eau de Parfum 100ml – 100 ml bottle beside its black box",
+     "new_alt": "Bvlgari Man in Black Eau de Parfum 100ml – 100 ml bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107149699",
+     "new_media": "gid://shopify/MediaImage/74814834540931"
+    },
+    {
+     "n": 27,
+     "pos": 3,
+     "src": "bvlgari-man-in-black-eau-de-parfum-100ml-3.webp",
+     "in": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-03.webp",
+     "alt": "Bvlgari Man in Black Eau de Parfum 100ml – bottle with tobacco leaf, leather, iris and a whisky glass",
+     "new_alt": "Bvlgari Man in Black Eau de Parfum 100ml – black bottle with copper cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-in-black-eau-de-parfum-100ml-luxury-men-s-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107182467",
+     "new_media": "gid://shopify/MediaImage/74814834573699"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set",
+   "id": 16280160010627,
+   "title": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – Men’s Fragrance Set",
+   "images": [
+    {
+     "n": 28,
+     "pos": 1,
+     "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-1.webp",
+     "in": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-01.webp",
+     "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "new_alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – 100 ml and 15 ml bottles, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107542915",
+     "new_media": "gid://shopify/MediaImage/74814834868611"
+    },
+    {
+     "n": 29,
+     "pos": 2,
+     "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-2.webp",
+     "in": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-02.webp",
+     "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles beside the white gift box",
+     "new_alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles beside the white gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107575683",
+     "new_media": "gid://shopify/MediaImage/74814834901379"
+    },
+    {
+     "n": 30,
+     "pos": 3,
+     "src": "bvlgari-man-glacial-essence-edp-gift-set-100ml-15ml-3.webp",
+     "in": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-03.webp",
+     "alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles with driftwood, ginger and flowers",
+     "new_alt": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – both bottles, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bvlgari-man-glacial-essence-eau-de-parfum-gift-set-100ml-15ml-men-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107608451",
+     "new_media": "gid://shopify/MediaImage/74814834934147"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

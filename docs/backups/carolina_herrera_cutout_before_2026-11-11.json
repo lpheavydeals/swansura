@@ -1,0 +1,652 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "15": "isnet"
+  },
+  "alt": {
+   "6": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – bottle with grapefruit, geranium and leaves",
+   "13": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with lime and ice"
+  },
+  "skip_products": [],
+  "notes": "isnet 15 (birefnet tore the box)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16375883923843",
+   "media": "gid://shopify/MediaImage/74292323647875",
+   "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-1.webp",
+   "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375883923843",
+   "media": "gid://shopify/MediaImage/74292323680643",
+   "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-2.webp",
+   "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16375883923843",
+   "media": "gid://shopify/MediaImage/74292323713411",
+   "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-3.webp",
+   "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle with rose, cherries, almonds and lily"
+  },
+  {
+   "product": "gid://shopify/Product/16375852433795",
+   "media": "gid://shopify/MediaImage/74292323418499",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-1.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – 150 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375852433795",
+   "media": "gid://shopify/MediaImage/74292323451267",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-2.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – black box, side view"
+  },
+  {
+   "product": "gid://shopify/Product/16375852433795",
+   "media": "gid://shopify/MediaImage/74292323484035",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-3.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – bottle with grapefruit, geranium and pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16375834935683",
+   "media": "gid://shopify/MediaImage/74292322566531",
+   "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-1.webp",
+   "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – 125 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375834935683",
+   "media": "gid://shopify/MediaImage/74292322599299",
+   "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-2.webp",
+   "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16375834935683",
+   "media": "gid://shopify/MediaImage/74292322632067",
+   "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-3.webp",
+   "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle with peach, blossom and champagne"
+  },
+  {
+   "product": "gid://shopify/Product/16375819469187",
+   "media": "gid://shopify/MediaImage/74292322238851",
+   "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-1.webp",
+   "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375819469187",
+   "media": "gid://shopify/MediaImage/74292322271619",
+   "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-2.webp",
+   "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16375819469187",
+   "media": "gid://shopify/MediaImage/74292322304387",
+   "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-3.webp",
+   "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with cap removed"
+  },
+  {
+   "product": "gid://shopify/Product/16375819469187",
+   "media": "gid://shopify/MediaImage/74292322337155",
+   "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-4.webp",
+   "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with lime, ice and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16375798202755",
+   "media": "gid://shopify/MediaImage/74292321976707",
+   "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-1.webp",
+   "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375798202755",
+   "media": "gid://shopify/MediaImage/74292322009475",
+   "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-2.webp",
+   "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle beside its burgundy box"
+  },
+  {
+   "product": "gid://shopify/Product/16375798202755",
+   "media": "gid://shopify/MediaImage/74292322042243",
+   "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-3.webp",
+   "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle lying in front of its box"
+  },
+  {
+   "product": "gid://shopify/Product/16375798202755",
+   "media": "gid://shopify/MediaImage/74292322075011",
+   "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-4.webp",
+   "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle with cardamom, pepper and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16375778115971",
+   "media": "gid://shopify/MediaImage/74292323254659",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-1.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – 10 ml travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16375778115971",
+   "media": "gid://shopify/MediaImage/74292323287427",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-2.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16375778115971",
+   "media": "gid://shopify/MediaImage/74292323320195",
+   "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-3.webp",
+   "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray with grapefruit, geranium and pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292322861443",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-1.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292322894211",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-2.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292322926979",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-3.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292322959747",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-4.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 10 ml travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292322992515",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-5.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292323025283",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-6.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray with ginger, vetiver and cocoa"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292323058051",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-7.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 50 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292323090819",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-8.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "media": "gid://shopify/MediaImage/74292323123587",
+   "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-9.webp",
+   "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "variant": "gid://shopify/ProductVariant/62790932889987",
+   "old": "gid://shopify/MediaImage/74292322959747",
+   "new": "gid://shopify/MediaImage/74814862393731"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "variant": "gid://shopify/ProductVariant/62790932922755",
+   "old": "gid://shopify/MediaImage/74292323058051",
+   "new": "gid://shopify/MediaImage/74814862492035"
+  },
+  {
+   "product": "gid://shopify/Product/16375749542275",
+   "variant": "gid://shopify/ProductVariant/62790932955523",
+   "old": "gid://shopify/MediaImage/74292322861443",
+   "new": "gid://shopify/MediaImage/74814862295427"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance",
+   "id": 16375883923843,
+   "title": "Carolina Herrera Very Good Girl Glam Parfum 50ml – Women’s Floral Fruity Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-1.webp",
+     "in": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-01.webp",
+     "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle, front view on a white background",
+     "new_alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323647875",
+     "new_media": "gid://shopify/MediaImage/74814861050243"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-2.webp",
+     "in": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-02.webp",
+     "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle beside its black box",
+     "new_alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323680643",
+     "new_media": "gid://shopify/MediaImage/74814861083011"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "carolina-herrera-very-good-girl-glam-parfum-50ml-3.webp",
+     "in": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-03.webp",
+     "alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle with rose, cherries, almonds and lily",
+     "new_alt": "Carolina Herrera Very Good Girl Glam Parfum 50ml – bottle with rose, cherries, almonds and lily",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-very-good-girl-glam-parfum-50ml-women-s-floral-fruity-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323713411",
+     "new_media": "gid://shopify/MediaImage/74814861115779"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance",
+   "id": 16375852433795,
+   "title": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-1.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – 150 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – 150 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323418499",
+     "new_media": "gid://shopify/MediaImage/74814861148547"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-2.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – black box, side view",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – black box, side view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323451267",
+     "new_media": "gid://shopify/MediaImage/74814861181315"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-3.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – bottle with grapefruit, geranium and pepper",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – bottle with grapefruit, geranium and leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-150ml-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323484035",
+     "new_media": "gid://shopify/MediaImage/74814861214083"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance",
+   "id": 16375834935683,
+   "title": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – Women’s Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-1.webp",
+     "in": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-01.webp",
+     "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – 125 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – 125 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322566531",
+     "new_media": "gid://shopify/MediaImage/74814861410691"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-2.webp",
+     "in": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-02.webp",
+     "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle beside its pink box",
+     "new_alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322599299",
+     "new_media": "gid://shopify/MediaImage/74814861443459"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-3.webp",
+     "in": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-03.webp",
+     "alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle with peach, blossom and champagne",
+     "new_alt": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – bottle with peach, blossom and champagne",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-rose-eau-de-parfum-125ml-women-s-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322632067",
+     "new_media": "gid://shopify/MediaImage/74814861476227"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance",
+   "id": 16375819469187,
+   "title": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – Men’s Aromatic Woody Fragrance",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-1.webp",
+     "in": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-01.webp",
+     "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322238851",
+     "new_media": "gid://shopify/MediaImage/74814861738371"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-2.webp",
+     "in": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-02.webp",
+     "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle beside its silver box",
+     "new_alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322271619",
+     "new_media": "gid://shopify/MediaImage/74814861771139"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-3.webp",
+     "in": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-03.webp",
+     "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with cap removed",
+     "new_alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with cap removed",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322304387",
+     "new_media": "gid://shopify/MediaImage/74814861803907"
+    },
+    {
+     "n": 13,
+     "pos": 4,
+     "src": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-4.webp",
+     "in": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-04.webp",
+     "alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with lime, ice and wood",
+     "new_alt": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – bottle with lime and ice",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-vip-men-eau-de-toilette-100ml-men-s-aromatic-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322337155",
+     "new_media": "gid://shopify/MediaImage/74814861836675"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance",
+   "id": 16375798202755,
+   "title": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – Men’s Warm Spicy Fragrance",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-1.webp",
+     "in": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-01.webp",
+     "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292321976707",
+     "new_media": "gid://shopify/MediaImage/74814862033283"
+    },
+    {
+     "n": 15,
+     "pos": 2,
+     "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-2.webp",
+     "in": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-02.webp",
+     "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle beside its burgundy box",
+     "new_alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle beside its burgundy box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322009475",
+     "new_media": "gid://shopify/MediaImage/74814862066051"
+    },
+    {
+     "n": 16,
+     "pos": 3,
+     "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-3.webp",
+     "in": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-03.webp",
+     "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle lying in front of its box",
+     "new_alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle lying in front of its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322042243",
+     "new_media": "gid://shopify/MediaImage/74814862098819"
+    },
+    {
+     "n": 17,
+     "pos": 4,
+     "src": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-4.webp",
+     "in": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-04.webp",
+     "alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle with cardamom, pepper and white flowers",
+     "new_alt": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – bottle with cardamom, pepper and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-212-sexy-men-eau-de-toilette-100ml-men-s-warm-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322075011",
+     "new_media": "gid://shopify/MediaImage/74814862131587"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance",
+   "id": 16375778115971,
+   "title": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-1.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – 10 ml travel spray, front view",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – 10 ml travel spray, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323254659",
+     "new_media": "gid://shopify/MediaImage/74814862164355"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-2.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray beside its gold box",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323287427",
+     "new_media": "gid://shopify/MediaImage/74814862197123"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-3.webp",
+     "in": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray with grapefruit, geranium and pepper",
+     "new_alt": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 10ml – travel spray with grapefruit, geranium and pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-le-parfum-eau-de-parfum-10ml-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323320195",
+     "new_media": "gid://shopify/MediaImage/74814862229891"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance",
+   "id": 16375749542275,
+   "title": "Carolina Herrera Bad Boy Extreme Eau de Parfum – Men’s Warm Spicy Amber Fragrance",
+   "images": [
+    {
+     "n": 21,
+     "pos": 1,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-1.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-01.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 100 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 100 ml bottle, front view",
+     "variant_ids": [
+      62790932955523
+     ],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322861443",
+     "new_media": "gid://shopify/MediaImage/74814862295427"
+    },
+    {
+     "n": 22,
+     "pos": 2,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-2.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-02.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322894211",
+     "new_media": "gid://shopify/MediaImage/74814862328195"
+    },
+    {
+     "n": 23,
+     "pos": 3,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-3.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-03.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322926979",
+     "new_media": "gid://shopify/MediaImage/74814862360963"
+    },
+    {
+     "n": 24,
+     "pos": 4,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-4.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-04.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 10 ml travel spray, front view",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 10 ml travel spray, front view",
+     "variant_ids": [
+      62790932889987
+     ],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322959747",
+     "new_media": "gid://shopify/MediaImage/74814862393731"
+    },
+    {
+     "n": 25,
+     "pos": 5,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-5.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-05.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray beside its gold box",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292322992515",
+     "new_media": "gid://shopify/MediaImage/74814862426499"
+    },
+    {
+     "n": 26,
+     "pos": 6,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-6.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-06.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray with ginger, vetiver and cocoa",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – travel spray with ginger, vetiver and cocoa",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323025283",
+     "new_media": "gid://shopify/MediaImage/74814862459267"
+    },
+    {
+     "n": 27,
+     "pos": 7,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-7.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-07.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 50 ml bottle, front view on a white background",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – 50 ml bottle, front view",
+     "variant_ids": [
+      62790932922755
+     ],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323058051",
+     "new_media": "gid://shopify/MediaImage/74814862492035"
+    },
+    {
+     "n": 28,
+     "pos": 8,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-8.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-08.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle beside its black and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323090819",
+     "new_media": "gid://shopify/MediaImage/74814862524803"
+    },
+    {
+     "n": 29,
+     "pos": 9,
+     "src": "carolina-herrera-bad-boy-extreme-eau-de-parfum-9.webp",
+     "in": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-09.webp",
+     "alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa",
+     "new_alt": "Carolina Herrera Bad Boy Extreme Eau de Parfum – bottle with bergamot, ginger, vetiver and cocoa",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "carolina-herrera-bad-boy-extreme-eau-de-parfum-men-s-warm-spicy-amber-fragrance-09-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323123587",
+     "new_media": "gid://shopify/MediaImage/74814862557571"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
