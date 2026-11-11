@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16362292183427",
+   "media": "gid://shopify/MediaImage/74292106985859",
+   "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-1.webp",
+   "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – heart-shaped bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16362292183427",
+   "media": "gid://shopify/MediaImage/74292107018627",
+   "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-2.webp",
+   "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16362292183427",
+   "media": "gid://shopify/MediaImage/74292107051395",
+   "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-3.webp",
+   "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – inner bottle with heart-shaped outer case opened"
+  },
+  {
+   "product": "gid://shopify/Product/16362292183427",
+   "media": "gid://shopify/MediaImage/74292107084163",
+   "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-4.webp",
+   "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle with pear, coconut, raspberries and roses"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance",
+   "id": 16362292183427,
+   "title": "Ariana Grande Thank U, Next Eau de Parfum 100ml – Women’s Fruity Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-1.webp",
+     "in": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-01.webp",
+     "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – heart-shaped bottle, front view on a white background",
+     "new_alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – heart-shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106985859",
+     "new_media": "gid://shopify/MediaImage/74824431862147"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-2.webp",
+     "in": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-02.webp",
+     "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle beside its pink box",
+     "new_alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107018627",
+     "new_media": "gid://shopify/MediaImage/74824431894915"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-3.webp",
+     "in": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-03.webp",
+     "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – inner bottle with heart-shaped outer case opened",
+     "new_alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – inner bottle with heart-shaped outer case opened",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107051395",
+     "new_media": "gid://shopify/MediaImage/74824431927683"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "ariana-grande-thank-u-next-eau-de-parfum-100ml-4.webp",
+     "in": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-04.webp",
+     "alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle with pear, coconut, raspberries and roses",
+     "new_alt": "Ariana Grande Thank U, Next Eau de Parfum 100ml – bottle with pear, coconut, raspberries and roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ariana-grande-thank-u-next-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292107084163",
+     "new_media": "gid://shopify/MediaImage/74824431960451"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

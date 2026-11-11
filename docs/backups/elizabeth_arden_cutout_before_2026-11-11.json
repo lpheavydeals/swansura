@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16376560025987",
+   "media": "gid://shopify/MediaImage/74292411171203",
+   "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-1.webp",
+   "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with red cap, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16376560025987",
+   "media": "gid://shopify/MediaImage/74292411203971",
+   "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-2.webp",
+   "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle beside its red box"
+  },
+  {
+   "product": "gid://shopify/Product/16376560025987",
+   "media": "gid://shopify/MediaImage/74292411236739",
+   "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-3.webp",
+   "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with lily, lime, lotus, rhubarb, ginger and orchid"
+  },
+  {
+   "product": "gid://shopify/Product/16376560025987",
+   "media": "gid://shopify/MediaImage/74292411269507",
+   "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-4.webp",
+   "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle without cap showing the spray"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance",
+   "id": 16376560025987,
+   "title": "Elizabeth Arden Beauty Eau de Parfum 100ml – Women’s Floral Green Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-1.webp",
+     "in": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-01.webp",
+     "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with red cap, front view on a light background",
+     "new_alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with red cap, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411171203",
+     "new_media": "gid://shopify/MediaImage/74824432091523"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-2.webp",
+     "in": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-02.webp",
+     "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle beside its red box",
+     "new_alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411203971",
+     "new_media": "gid://shopify/MediaImage/74824432124291"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-3.webp",
+     "in": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-03.webp",
+     "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with lily, lime, lotus, rhubarb, ginger and orchid",
+     "new_alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle with lily, lime, lotus, rhubarb, ginger and orchid",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411236739",
+     "new_media": "gid://shopify/MediaImage/74824432157059"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "elizabeth-arden-beauty-eau-de-parfum-100ml-4.webp",
+     "in": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-04.webp",
+     "alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle without cap showing the spray",
+     "new_alt": "Elizabeth Arden Beauty Eau de Parfum 100ml – bottle without cap showing the spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "elizabeth-arden-beauty-eau-de-parfum-100ml-women-s-floral-green-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411269507",
+     "new_media": "gid://shopify/MediaImage/74824432189827"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

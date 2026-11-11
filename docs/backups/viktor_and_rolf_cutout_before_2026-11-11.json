@@ -1,0 +1,80 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16378685063555",
+   "media": "gid://shopify/MediaImage/74292469236099",
+   "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-1.webp",
+   "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – 10 ml lilac travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16378685063555",
+   "media": "gid://shopify/MediaImage/74292469268867",
+   "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-2.webp",
+   "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray beside its purple box"
+  },
+  {
+   "product": "gid://shopify/Product/16378685063555",
+   "media": "gid://shopify/MediaImage/74292469301635",
+   "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-3.webp",
+   "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray with fennel flowers, gentian, jasmine and vanilla"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance",
+   "id": 16378685063555,
+   "title": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-1.webp",
+     "in": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-01.webp",
+     "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – 10 ml lilac travel spray, front view",
+     "new_alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – 10 ml lilac travel spray, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469236099",
+     "new_media": "gid://shopify/MediaImage/74824433009027"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-2.webp",
+     "in": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-02.webp",
+     "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray beside its purple box",
+     "new_alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray beside its purple box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469268867",
+     "new_media": "gid://shopify/MediaImage/74824433041795"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "viktor-and-rolf-good-fortune-eau-de-parfum-10ml-miniature-3.webp",
+     "in": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-03.webp",
+     "alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray with fennel flowers, gentian, jasmine and vanilla",
+     "new_alt": "Viktor & Rolf Good Fortune Eau de Parfum 10ml Miniature – travel spray with fennel flowers, gentian, jasmine and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "viktor-rolf-good-fortune-eau-de-parfum-10ml-miniature-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469301635",
+     "new_media": "gid://shopify/MediaImage/74824433074563"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

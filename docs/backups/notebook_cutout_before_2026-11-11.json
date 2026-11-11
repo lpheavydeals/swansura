@@ -1,0 +1,80 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421469847939",
+   "media": "gid://shopify/MediaImage/74600661287299",
+   "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-01.webp",
+   "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – mint green bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421469847939",
+   "media": "gid://shopify/MediaImage/74600661320067",
+   "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-02.webp",
+   "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16421469847939",
+   "media": "gid://shopify/MediaImage/74600661352835",
+   "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-03.webp",
+   "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with white and pink roses"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "notebook-cassis-pink-pepper-eau-de-toilette-100ml",
+   "id": 16421469847939,
+   "title": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-01.webp",
+     "in": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-01.webp",
+     "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – mint green bottle",
+     "new_alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – mint green bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661287299",
+     "new_media": "gid://shopify/MediaImage/74824432648579"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-02.webp",
+     "in": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-02.webp",
+     "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with patterned box",
+     "new_alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with patterned box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661320067",
+     "new_media": "gid://shopify/MediaImage/74824432681347"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-03.webp",
+     "in": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-03.webp",
+     "alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with white and pink roses",
+     "new_alt": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml – bottle with white and pink roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "notebook-cassis-pink-pepper-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661352835",
+     "new_media": "gid://shopify/MediaImage/74824432714115"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

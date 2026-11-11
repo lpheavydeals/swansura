@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16326984532355",
+   "media": "gid://shopify/MediaImage/74292163281283",
+   "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-1.webp",
+   "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – 125 ml black bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16326984532355",
+   "media": "gid://shopify/MediaImage/74292163314051",
+   "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-2.webp",
+   "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16326984532355",
+   "media": "gid://shopify/MediaImage/74292163346819",
+   "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-3.webp",
+   "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle with lavender, lemon, tonka beans and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16326984532355",
+   "media": "gid://shopify/MediaImage/74292163379587",
+   "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-4.webp",
+   "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – refill bottle being poured into the refillable spray"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance",
+   "id": 16326984532355,
+   "title": "Giorgio Armani Code Eau de Toilette 125ml Refillable – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-1.webp",
+     "in": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – 125 ml black bottle, front view",
+     "new_alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – 125 ml black bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163281283",
+     "new_media": "gid://shopify/MediaImage/74824432419203"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-2.webp",
+     "in": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle beside its black box",
+     "new_alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163314051",
+     "new_media": "gid://shopify/MediaImage/74824432451971"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-3.webp",
+     "in": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle with lavender, lemon, tonka beans and wood",
+     "new_alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – bottle with lavender, lemon, tonka beans and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163346819",
+     "new_media": "gid://shopify/MediaImage/74824432484739"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "giorgio-armani-code-eau-de-toilette-125ml-refillable-4.webp",
+     "in": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-04.webp",
+     "alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – refill bottle being poured into the refillable spray",
+     "new_alt": "Giorgio Armani Code Eau de Toilette 125ml Refillable – refill bottle being poured into the refillable spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "giorgio-armani-code-eau-de-toilette-125ml-refillable-men-s-woody-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163379587",
+     "new_media": "gid://shopify/MediaImage/74824432517507"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

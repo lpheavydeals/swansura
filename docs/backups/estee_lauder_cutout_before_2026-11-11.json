@@ -1,0 +1,100 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "3": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with eucalyptus leaves"
+  },
+  "skip_products": []
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16339025396099",
+   "media": "gid://shopify/MediaImage/74292127302019",
+   "src": "estee-lauder-spellbound-eau-de-parfum-50ml-1.webp",
+   "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – clear bottle of golden fragrance, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16339025396099",
+   "media": "gid://shopify/MediaImage/74292127334787",
+   "src": "estee-lauder-spellbound-eau-de-parfum-50ml-2.webp",
+   "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle beside its gold box marked 50 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16339025396099",
+   "media": "gid://shopify/MediaImage/74292127367555",
+   "src": "estee-lauder-spellbound-eau-de-parfum-50ml-3.webp",
+   "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with daisies and eucalyptus leaves"
+  },
+  {
+   "product": "gid://shopify/Product/16339025396099",
+   "media": "gid://shopify/MediaImage/74292127400323",
+   "src": "estee-lauder-spellbound-eau-de-parfum-50ml-4.webp",
+   "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with rose, apricot, amber, vanilla and lily of the valley"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+   "id": 16339025396099,
+   "title": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "estee-lauder-spellbound-eau-de-parfum-50ml-1.webp",
+     "in": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-01.webp",
+     "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – clear bottle of golden fragrance, front view",
+     "new_alt": "Estée Lauder SpellBound Eau de Parfum 50ml – clear bottle of golden fragrance, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127302019",
+     "new_media": "gid://shopify/MediaImage/74824432222595"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "estee-lauder-spellbound-eau-de-parfum-50ml-2.webp",
+     "in": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-02.webp",
+     "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle beside its gold box marked 50 ml",
+     "new_alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle beside its gold box marked 50 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127334787",
+     "new_media": "gid://shopify/MediaImage/74824432255363"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "estee-lauder-spellbound-eau-de-parfum-50ml-3.webp",
+     "in": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-03.webp",
+     "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with daisies and eucalyptus leaves",
+     "new_alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with eucalyptus leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127367555",
+     "new_media": "gid://shopify/MediaImage/74824432288131"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "estee-lauder-spellbound-eau-de-parfum-50ml-4.webp",
+     "in": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-04.webp",
+     "alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with rose, apricot, amber, vanilla and lily of the valley",
+     "new_alt": "Estée Lauder SpellBound Eau de Parfum 50ml – bottle with rose, apricot, amber, vanilla and lily of the valley",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "estee-lauder-spellbound-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127400323",
+     "new_media": "gid://shopify/MediaImage/74824432320899"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "2": "isnet"
+  },
+  "alt": {
+   "3": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle and box with a freesia"
+  },
+  "skip_products": []
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16006936428931",
+   "media": "gid://shopify/MediaImage/74292262306179",
+   "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-1.webp",
+   "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – square bottle with cream cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16006936428931",
+   "media": "gid://shopify/MediaImage/74292262338947",
+   "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-2.webp",
+   "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle beside its cream box marked 80 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16006936428931",
+   "media": "gid://shopify/MediaImage/74292262371715",
+   "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-3.webp",
+   "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle and box on a stone block with freesia"
+  },
+  {
+   "product": "gid://shopify/Product/16006936428931",
+   "media": "gid://shopify/MediaImage/74292262404483",
+   "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-4.webp",
+   "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle with rose, peach, lychee and violets"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml",
+   "id": 16006936428931,
+   "title": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-1.webp",
+     "in": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-01.webp",
+     "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – square bottle with cream cap, front view",
+     "new_alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – square bottle with cream cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262306179",
+     "new_media": "gid://shopify/MediaImage/74824433140099"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-2.webp",
+     "in": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-02.webp",
+     "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle beside its cream box marked 80 ml",
+     "new_alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle beside its cream box marked 80 ml",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262338947",
+     "new_media": "gid://shopify/MediaImage/74824433172867"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-3.webp",
+     "in": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-03.webp",
+     "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle and box on a stone block with freesia",
+     "new_alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle and box with a freesia",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262371715",
+     "new_media": "gid://shopify/MediaImage/74824433205635"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-4.webp",
+     "in": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-04.webp",
+     "alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle with rose, peach, lychee and violets",
+     "new_alt": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml – bottle with rose, peach, lychee and violets",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "yves-saint-laurent-yvresse-eau-de-toilette-w-80ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262404483",
+     "new_media": "gid://shopify/MediaImage/74824433238403"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

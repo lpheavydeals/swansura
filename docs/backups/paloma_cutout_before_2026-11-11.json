@@ -1,0 +1,100 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "3": "Paloma Picasso Eau de Toilette 100ml – bottle in draped red silk"
+  },
+  "skip_products": []
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16385267958147",
+   "media": "gid://shopify/MediaImage/74292426834307",
+   "src": "paloma-picasso-eau-de-toilette-100ml-1.webp",
+   "alt": "Paloma Picasso Eau de Toilette 100ml – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16385267958147",
+   "media": "gid://shopify/MediaImage/74292426867075",
+   "src": "paloma-picasso-eau-de-toilette-100ml-2.webp",
+   "alt": "Paloma Picasso Eau de Toilette 100ml – 100 ml bottle beside its red box with a rose"
+  },
+  {
+   "product": "gid://shopify/Product/16385267958147",
+   "media": "gid://shopify/MediaImage/74292426899843",
+   "src": "paloma-picasso-eau-de-toilette-100ml-3.webp",
+   "alt": "Paloma Picasso Eau de Toilette 100ml – bottle resting on draped red silk"
+  },
+  {
+   "product": "gid://shopify/Product/16385267958147",
+   "media": "gid://shopify/MediaImage/74292426932611",
+   "src": "paloma-picasso-eau-de-toilette-100ml-4.webp",
+   "alt": "Paloma Picasso Eau de Toilette 100ml – bottle with orange blossom, lemon, mimosa and rose"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance",
+   "id": 16385267958147,
+   "title": "Paloma Picasso Eau de Toilette 100ml – Women’s Chypre Floral Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "paloma-picasso-eau-de-toilette-100ml-1.webp",
+     "in": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-01.webp",
+     "alt": "Paloma Picasso Eau de Toilette 100ml – bottle, front view on a white background",
+     "new_alt": "Paloma Picasso Eau de Toilette 100ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426834307",
+     "new_media": "gid://shopify/MediaImage/74824432746883"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "paloma-picasso-eau-de-toilette-100ml-2.webp",
+     "in": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-02.webp",
+     "alt": "Paloma Picasso Eau de Toilette 100ml – 100 ml bottle beside its red box with a rose",
+     "new_alt": "Paloma Picasso Eau de Toilette 100ml – 100 ml bottle beside its red box with a rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426867075",
+     "new_media": "gid://shopify/MediaImage/74824432779651"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "paloma-picasso-eau-de-toilette-100ml-3.webp",
+     "in": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-03.webp",
+     "alt": "Paloma Picasso Eau de Toilette 100ml – bottle resting on draped red silk",
+     "new_alt": "Paloma Picasso Eau de Toilette 100ml – bottle in draped red silk",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426899843",
+     "new_media": "gid://shopify/MediaImage/74824432812419"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "paloma-picasso-eau-de-toilette-100ml-4.webp",
+     "in": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-04.webp",
+     "alt": "Paloma Picasso Eau de Toilette 100ml – bottle with orange blossom, lemon, mimosa and rose",
+     "new_alt": "Paloma Picasso Eau de Toilette 100ml – bottle with orange blossom, lemon, mimosa and rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "paloma-picasso-eau-de-toilette-100ml-women-s-chypre-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426932611",
+     "new_media": "gid://shopify/MediaImage/74824432845187"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

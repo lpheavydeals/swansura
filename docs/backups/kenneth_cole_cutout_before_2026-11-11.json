@@ -1,0 +1,80 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383899664771",
+   "media": "gid://shopify/MediaImage/74292426539395",
+   "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-1.webp",
+   "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – blue bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383899664771",
+   "media": "gid://shopify/MediaImage/74292426572163",
+   "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-2.webp",
+   "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – 100 ml bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16383899664771",
+   "media": "gid://shopify/MediaImage/74292426604931",
+   "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-3.webp",
+   "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – bottle with lavender, grapefruit, lime and nutmeg"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance",
+   "id": 16383899664771,
+   "title": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – Men’s Fresh Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-1.webp",
+     "in": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-01.webp",
+     "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – blue bottle with black cap, front view",
+     "new_alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – blue bottle with black cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426539395",
+     "new_media": "gid://shopify/MediaImage/74824432550275"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-2.webp",
+     "in": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-02.webp",
+     "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – 100 ml bottle beside its blue box",
+     "new_alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – 100 ml bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426572163",
+     "new_media": "gid://shopify/MediaImage/74824432583043"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-3.webp",
+     "in": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-03.webp",
+     "alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – bottle with lavender, grapefruit, lime and nutmeg",
+     "new_alt": "Kenneth Cole Moonlight Blue Eau de Toilette 100ml – bottle with lavender, grapefruit, lime and nutmeg",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "kenneth-cole-moonlight-blue-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426604931",
+     "new_media": "gid://shopify/MediaImage/74824432615811"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

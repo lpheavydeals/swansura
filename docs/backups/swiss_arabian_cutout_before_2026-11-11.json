@@ -1,0 +1,80 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421471027587",
+   "media": "gid://shopify/MediaImage/74600655487363",
+   "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-01.webp",
+   "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – green bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421471027587",
+   "media": "gid://shopify/MediaImage/74600655520131",
+   "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-02.webp",
+   "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle beside its green limited edition box"
+  },
+  {
+   "product": "gid://shopify/Product/16421471027587",
+   "media": "gid://shopify/MediaImage/74600655552899",
+   "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-03.webp",
+   "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle with oud wood, star anise and herbs"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml",
+   "id": 16421471027587,
+   "title": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-01.webp",
+     "in": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-01.webp",
+     "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – green bottle with gold cap",
+     "new_alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – green bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655487363",
+     "new_media": "gid://shopify/MediaImage/74824432910723"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-02.webp",
+     "in": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-02.webp",
+     "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle beside its green limited edition box",
+     "new_alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle beside its green limited edition box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655520131",
+     "new_media": "gid://shopify/MediaImage/74824432943491"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-03.webp",
+     "in": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-03.webp",
+     "alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle with oud wood, star anise and herbs",
+     "new_alt": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml – bottle with oud wood, star anise and herbs",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "swiss-arabian-shaghaf-oud-royale-eau-de-parfum-75ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655552899",
+     "new_media": "gid://shopify/MediaImage/74824432976259"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

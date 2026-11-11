@@ -1,0 +1,80 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16372946895235",
+   "media": "gid://shopify/MediaImage/74292382925187",
+   "src": "coach-green-shower-gel-100ml-1.webp",
+   "alt": "Coach Green Shower Gel 100ml – green 100 ml tube, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16372946895235",
+   "media": "gid://shopify/MediaImage/74292382957955",
+   "src": "coach-green-shower-gel-100ml-2.webp",
+   "alt": "Coach Green Shower Gel 100ml – tube beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16372946895235",
+   "media": "gid://shopify/MediaImage/74292382990723",
+   "src": "coach-green-shower-gel-100ml-3.webp",
+   "alt": "Coach Green Shower Gel 100ml – tube with bergamot, lime, kiwi, geranium and wood"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash",
+   "id": 16372946895235,
+   "title": "Coach Green Shower Gel 100ml – Men’s Fresh Aromatic Body Wash",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "coach-green-shower-gel-100ml-1.webp",
+     "in": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-01.webp",
+     "alt": "Coach Green Shower Gel 100ml – green 100 ml tube, front view",
+     "new_alt": "Coach Green Shower Gel 100ml – green 100 ml tube, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382925187",
+     "new_media": "gid://shopify/MediaImage/74824431993219"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "coach-green-shower-gel-100ml-2.webp",
+     "in": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-02.webp",
+     "alt": "Coach Green Shower Gel 100ml – tube beside its white box",
+     "new_alt": "Coach Green Shower Gel 100ml – tube beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382957955",
+     "new_media": "gid://shopify/MediaImage/74824432025987"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "coach-green-shower-gel-100ml-3.webp",
+     "in": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-03.webp",
+     "alt": "Coach Green Shower Gel 100ml – tube with bergamot, lime, kiwi, geranium and wood",
+     "new_alt": "Coach Green Shower Gel 100ml – tube with bergamot, lime, kiwi, geranium and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "coach-green-shower-gel-100ml-men-s-fresh-aromatic-body-wash-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382990723",
+     "new_media": "gid://shopify/MediaImage/74824432058755"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

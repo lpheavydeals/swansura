@@ -1,0 +1,51 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15415436345731",
+   "media": "gid://shopify/MediaImage/67893422391683",
+   "src": "17b1a747.jpg",
+   "alt": "Rihanah Ajwaa Oud Unisex Eau de Parfum 100ml – bottle"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/15415436345731",
+   "variant": "gid://shopify/ProductVariant/56613308662147",
+   "old": "gid://shopify/MediaImage/67893422391683",
+   "new": "gid://shopify/MediaImage/74824432877955"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "rihanah-ajwaa-oud-eau-de-parfum-100ml",
+   "id": 15415436345731,
+   "title": "Rihanah Ajwaa Oud Unisex Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "17b1a747.jpg",
+     "in": "rihanah-ajwaa-oud-eau-de-parfum-100ml-01.webp",
+     "alt": "Rihanah Ajwaa Oud Unisex Eau de Parfum 100ml – bottle",
+     "new_alt": "Rihanah Ajwaa Oud Unisex Eau de Parfum 100ml – bottle",
+     "variant_ids": [
+      56613308662147
+     ],
+     "method": "bire",
+     "out": "rihanah-ajwaa-oud-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893422391683",
+     "new_media": "gid://shopify/MediaImage/74824432877955"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
