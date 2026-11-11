@@ -1,0 +1,24 @@
+{
+ "product": "gid://shopify/Product/16431526740355",
+ "handle": "paco-rabanne-invictus-eau-de-toilette-200ml",
+ "before": {
+  "media": [],
+  "tags": [
+   "Fragrance",
+   "New 2026-11",
+   "Photo pending"
+  ]
+ },
+ "after": {
+  "media": "gid://shopify/MediaImage/74837817131395",
+  "file": "paco-rabanne-invictus-eau-de-toilette-200ml-01-cutout.webp",
+  "alt": "Paco Rabanne Invictus Eau de Toilette 200ml – trophy-shaped bottle",
+  "variant_linked": "gid://shopify/ProductVariant/63257662488963",
+  "tags": [
+   "Fragrance",
+   "New 2026-11"
+  ]
+ },
+ "source": "Drive /Paco Rabanne/invictus 200 + 10ml/gpt image 487.png (1nfrkTSsEWQZe6JubtxUY1wtZrSLdx9o2)",
+ "undo": "fileUpdate referencesToRemove the media from the product; add tag 'Photo pending' back"
+}
