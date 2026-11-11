@@ -1,0 +1,1019 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "4": "keep"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "4 kept as the original photo (close-up of vials on black velvet; the cut-out left cropped vials)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15981366215043",
+   "media": "gid://shopify/MediaImage/74292445053315",
+   "src": "signature-le-femme-gold-100ml-edp-spray-1.webp",
+   "alt": "Signature Le Femme Gold 100ml EDP Spray – frosted white bottle with gold collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981366215043",
+   "media": "gid://shopify/MediaImage/74292445086083",
+   "src": "signature-le-femme-gold-100ml-edp-spray-2.webp",
+   "alt": "Signature Le Femme Gold 100ml EDP Spray – bottle beside its gold gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981366215043",
+   "media": "gid://shopify/MediaImage/74292445118851",
+   "src": "signature-le-femme-gold-100ml-edp-spray-3.webp",
+   "alt": "Signature Le Femme Gold 100ml EDP Spray – bottle with white roses, jasmine, vanilla pods and amber"
+  },
+  {
+   "product": "gid://shopify/Product/15981355434371",
+   "media": "gid://shopify/MediaImage/71490984313219",
+   "src": "Screenshot_2026-05-22_at_10.04.23.png",
+   "alt": "Signature Discovery Set 10x10ml"
+  },
+  {
+   "product": "gid://shopify/Product/15981355434371",
+   "media": "gid://shopify/MediaImage/71483085554051",
+   "src": "5115074.webp",
+   "alt": "Signature Discovery Set 10x10ml – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15981349208451",
+   "media": "gid://shopify/MediaImage/74292445151619",
+   "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+   "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981349208451",
+   "media": "gid://shopify/MediaImage/74292445184387",
+   "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+   "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its pale green gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981349208451",
+   "media": "gid://shopify/MediaImage/74292445217155",
+   "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+   "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with white flowers, agarwood and amber pieces"
+  },
+  {
+   "product": "gid://shopify/Product/15981348356483",
+   "media": "gid://shopify/MediaImage/74292444856707",
+   "src": "signature-black-pour-homme-100ml-edp-1.webp",
+   "alt": "Signature Black Pour Homme 100ml EDP – dark glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981348356483",
+   "media": "gid://shopify/MediaImage/74292444889475",
+   "src": "signature-black-pour-homme-100ml-edp-2.webp",
+   "alt": "Signature Black Pour Homme 100ml EDP – bottle with its black gift box and presentation case"
+  },
+  {
+   "product": "gid://shopify/Product/15981348356483",
+   "media": "gid://shopify/MediaImage/74292444922243",
+   "src": "signature-black-pour-homme-100ml-edp-3.webp",
+   "alt": "Signature Black Pour Homme 100ml EDP – bottle with bergamot, lime, grapefruit and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15981347176835",
+   "media": "gid://shopify/MediaImage/74292444758403",
+   "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-1.webp",
+   "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – amber glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981347176835",
+   "media": "gid://shopify/MediaImage/74292444791171",
+   "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-2.webp",
+   "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981347176835",
+   "media": "gid://shopify/MediaImage/74292444823939",
+   "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-3.webp",
+   "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle with agarwood pieces and a smoking incense burner"
+  },
+  {
+   "product": "gid://shopify/Product/15981345440131",
+   "media": "gid://shopify/MediaImage/74292444529027",
+   "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-1.webp",
+   "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green 100 ml bottle and 15 ml travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981345440131",
+   "media": "gid://shopify/MediaImage/74292444561795",
+   "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-2.webp",
+   "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green bottle and travel spray, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15981345440131",
+   "media": "gid://shopify/MediaImage/74292444594563",
+   "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-3.webp",
+   "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981345440131",
+   "media": "gid://shopify/MediaImage/74292444627331",
+   "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-4.webp",
+   "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottles with rhubarb, grapefruit, ginger and leaves"
+  },
+  {
+   "product": "gid://shopify/Product/15981340557699",
+   "media": "gid://shopify/MediaImage/74292444955011",
+   "src": "signature-jade-100ml-edp-15ml-travel-spray-1.webp",
+   "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – amber glass bottle with green collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981340557699",
+   "media": "gid://shopify/MediaImage/74292444987779",
+   "src": "signature-jade-100ml-edp-15ml-travel-spray-2.webp",
+   "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle beside its dark green gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981340557699",
+   "media": "gid://shopify/MediaImage/74292445020547",
+   "src": "signature-jade-100ml-edp-15ml-travel-spray-3.webp",
+   "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle with lemon, lime, orange, peach and blackcurrants"
+  },
+  {
+   "product": "gid://shopify/Product/15981339509123",
+   "media": "gid://shopify/MediaImage/74292445348227",
+   "src": "signature-opal-100ml-15ml-eau-de-parfum-1.webp",
+   "alt": "Signature Opal 100ml + 15ml Eau De Parfum – amber glass bottle with tan collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981339509123",
+   "media": "gid://shopify/MediaImage/74292445380995",
+   "src": "signature-opal-100ml-15ml-eau-de-parfum-2.webp",
+   "alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981339509123",
+   "media": "gid://shopify/MediaImage/74292445413763",
+   "src": "signature-opal-100ml-15ml-eau-de-parfum-3.webp",
+   "alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle with rose, jasmine and ylang-ylang flowers"
+  },
+  {
+   "product": "gid://shopify/Product/15981339246979",
+   "media": "gid://shopify/MediaImage/74292445446531",
+   "src": "signature-rose-100ml-edp-15ml-travel-spray-1.webp",
+   "alt": "Signature Rose 100ml Edp +15ml Travel Spray – amber glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981339246979",
+   "media": "gid://shopify/MediaImage/74292445479299",
+   "src": "signature-rose-100ml-edp-15ml-travel-spray-2.webp",
+   "alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle beside its cream gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981339246979",
+   "media": "gid://shopify/MediaImage/74292445512067",
+   "src": "signature-rose-100ml-edp-15ml-travel-spray-3.webp",
+   "alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle with raspberries, peach and blueberries"
+  },
+  {
+   "product": "gid://shopify/Product/15981338886531",
+   "media": "gid://shopify/MediaImage/71491592061315",
+   "src": "Gemini_Generated_Image_urb71urb71urb71u.jpg",
+   "alt": "Signature Blue 100ml Edp"
+  },
+  {
+   "product": "gid://shopify/Product/15981338886531",
+   "media": "gid://shopify/MediaImage/71482910540163",
+   "src": "SignatureBlue6300020182484.webp",
+   "alt": "Signature Blue 100ml Edp – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15981337280899",
+   "media": "gid://shopify/MediaImage/74292445249923",
+   "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+   "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with black collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981337280899",
+   "media": "gid://shopify/MediaImage/74292445282691",
+   "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+   "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981337280899",
+   "media": "gid://shopify/MediaImage/74292445315459",
+   "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+   "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with pineapple, orange, blackcurrants and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/15981333283203",
+   "media": "gid://shopify/MediaImage/74292445643139",
+   "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+   "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with navy collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981333283203",
+   "media": "gid://shopify/MediaImage/74292445675907",
+   "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+   "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981333283203",
+   "media": "gid://shopify/MediaImage/74292445708675",
+   "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+   "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with juniper berries, lavender, sage and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/15981332758915",
+   "media": "gid://shopify/MediaImage/71482615529859",
+   "src": "Screenshot_2026-05-21_at_23.11.43.png",
+   "alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray"
+  },
+  {
+   "product": "gid://shopify/Product/15981332758915",
+   "media": "gid://shopify/MediaImage/71482613662083",
+   "src": "658679554_18364155499207063_9118937870829952433_n.jpg",
+   "alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15981331546499",
+   "media": "gid://shopify/MediaImage/74292444660099",
+   "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-1.webp",
+   "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – 100 ml bottle and 15 ml travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981331546499",
+   "media": "gid://shopify/MediaImage/74292444692867",
+   "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-2.webp",
+   "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981331546499",
+   "media": "gid://shopify/MediaImage/74292444725635",
+   "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-3.webp",
+   "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottles with oranges, lemons and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15981327810947",
+   "media": "gid://shopify/MediaImage/74292445544835",
+   "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-1.webp",
+   "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – matt black bottle with gold label, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981327810947",
+   "media": "gid://shopify/MediaImage/74292445577603",
+   "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-2.webp",
+   "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981327810947",
+   "media": "gid://shopify/MediaImage/74292445610371",
+   "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-3.webp",
+   "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle with cinnamon sticks, cardamom pods and leaves"
+  },
+  {
+   "product": "gid://shopify/Product/15981326696835",
+   "media": "gid://shopify/MediaImage/74292444430723",
+   "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+   "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with burgundy collar, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15981326696835",
+   "media": "gid://shopify/MediaImage/74292444463491",
+   "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+   "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/15981326696835",
+   "media": "gid://shopify/MediaImage/74292444496259",
+   "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+   "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with amber stone, cut wood and cypress"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "signature-le-femme-gold-100ml-edp-spray",
+   "id": 15981366215043,
+   "title": "Signature Le Femme Gold 100ml EDP Spray",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "signature-le-femme-gold-100ml-edp-spray-1.webp",
+     "in": "signature-le-femme-gold-100ml-edp-spray-01.webp",
+     "alt": "Signature Le Femme Gold 100ml EDP Spray – frosted white bottle with gold collar, front view",
+     "new_alt": "Signature Le Femme Gold 100ml EDP Spray – frosted white bottle with gold collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-le-femme-gold-100ml-edp-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445053315",
+     "new_media": "gid://shopify/MediaImage/74813683630467"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "signature-le-femme-gold-100ml-edp-spray-2.webp",
+     "in": "signature-le-femme-gold-100ml-edp-spray-02.webp",
+     "alt": "Signature Le Femme Gold 100ml EDP Spray – bottle beside its gold gift box",
+     "new_alt": "Signature Le Femme Gold 100ml EDP Spray – bottle beside its gold gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-le-femme-gold-100ml-edp-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445086083",
+     "new_media": "gid://shopify/MediaImage/74813683663235"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "signature-le-femme-gold-100ml-edp-spray-3.webp",
+     "in": "signature-le-femme-gold-100ml-edp-spray-03.webp",
+     "alt": "Signature Le Femme Gold 100ml EDP Spray – bottle with white roses, jasmine, vanilla pods and amber",
+     "new_alt": "Signature Le Femme Gold 100ml EDP Spray – bottle with white roses, jasmine, vanilla pods and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-le-femme-gold-100ml-edp-spray-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445118851",
+     "new_media": "gid://shopify/MediaImage/74813683696003"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-discovery-set-10x10ml",
+   "id": 15981355434371,
+   "title": "Signature Discovery Set 10x10ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "Screenshot_2026-05-22_at_10.04.23.png",
+     "in": "signature-discovery-set-10x10ml-01.webp",
+     "alt": "Signature Discovery Set 10x10ml",
+     "new_alt": "Signature Discovery Set 10x10ml",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "signature-discovery-set-10x10ml-01-photo.webp",
+     "media": "gid://shopify/MediaImage/71490984313219",
+     "new_media": "gid://shopify/MediaImage/74813683728771"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "5115074.webp",
+     "in": "signature-discovery-set-10x10ml-02.webp",
+     "alt": "Signature Discovery Set 10x10ml – view 2",
+     "new_alt": "Signature Discovery Set 10x10ml – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-discovery-set-10x10ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71483085554051",
+     "new_media": "gid://shopify/MediaImage/74813683761539"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex",
+   "id": 15981349208451,
+   "title": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+     "in": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-01.webp",
+     "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with gold cap, front view",
+     "new_alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445151619",
+     "new_media": "gid://shopify/MediaImage/74813683794307"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+     "in": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-02.webp",
+     "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its pale green gift box",
+     "new_alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its pale green gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445184387",
+     "new_media": "gid://shopify/MediaImage/74813683827075"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+     "in": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-03.webp",
+     "alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with white flowers, agarwood and amber pieces",
+     "new_alt": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with white flowers, agarwood and amber pieces",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-musk-eau-de-parfum-100ml-15ml-funnel-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445217155",
+     "new_media": "gid://shopify/MediaImage/74813683859843"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-black-pour-homme-100ml-edp",
+   "id": 15981348356483,
+   "title": "Signature Black Pour Homme 100ml EDP",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "signature-black-pour-homme-100ml-edp-1.webp",
+     "in": "signature-black-pour-homme-100ml-edp-01.webp",
+     "alt": "Signature Black Pour Homme 100ml EDP – dark glass bottle with gold cap, front view",
+     "new_alt": "Signature Black Pour Homme 100ml EDP – dark glass bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-black-pour-homme-100ml-edp-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444856707",
+     "new_media": "gid://shopify/MediaImage/74813683892611"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "signature-black-pour-homme-100ml-edp-2.webp",
+     "in": "signature-black-pour-homme-100ml-edp-02.webp",
+     "alt": "Signature Black Pour Homme 100ml EDP – bottle with its black gift box and presentation case",
+     "new_alt": "Signature Black Pour Homme 100ml EDP – bottle with its black gift box and presentation case",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-black-pour-homme-100ml-edp-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444889475",
+     "new_media": "gid://shopify/MediaImage/74813683925379"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "signature-black-pour-homme-100ml-edp-3.webp",
+     "in": "signature-black-pour-homme-100ml-edp-03.webp",
+     "alt": "Signature Black Pour Homme 100ml EDP – bottle with bergamot, lime, grapefruit and orange blossom",
+     "new_alt": "Signature Black Pour Homme 100ml EDP – bottle with bergamot, lime, grapefruit and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-black-pour-homme-100ml-edp-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444922243",
+     "new_media": "gid://shopify/MediaImage/74813683958147"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-diamond-100ml-15ml-eau-de-parfum-set",
+   "id": 15981347176835,
+   "title": "Signature Diamond 100ml +15ml Eau De Parfum Set",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-1.webp",
+     "in": "signature-diamond-100ml-15ml-eau-de-parfum-set-01.webp",
+     "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – amber glass bottle with gold cap, front view",
+     "new_alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – amber glass bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-diamond-100ml-15ml-eau-de-parfum-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444758403",
+     "new_media": "gid://shopify/MediaImage/74813684253059"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-2.webp",
+     "in": "signature-diamond-100ml-15ml-eau-de-parfum-set-02.webp",
+     "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle beside its black gift box",
+     "new_alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-diamond-100ml-15ml-eau-de-parfum-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444791171",
+     "new_media": "gid://shopify/MediaImage/74813684285827"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "signature-diamond-100ml-15ml-eau-de-parfum-set-3.webp",
+     "in": "signature-diamond-100ml-15ml-eau-de-parfum-set-03.webp",
+     "alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle with agarwood pieces and a smoking incense burner",
+     "new_alt": "Signature Diamond 100ml +15ml Eau De Parfum Set – bottle with agarwood pieces and a smoking incense burner",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-diamond-100ml-15ml-eau-de-parfum-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444823939",
+     "new_media": "gid://shopify/MediaImage/74813684318595"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-aura-edp-100ml-15ml-refillable-travel-spray",
+   "id": 15981345440131,
+   "title": "Signature Aura EDP 100ML+15ML Refillable Travel Spray",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-1.webp",
+     "in": "signature-aura-edp-100ml-15ml-refillable-travel-spray-01.webp",
+     "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green 100 ml bottle and 15 ml travel spray, front view",
+     "new_alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green 100 ml bottle and 15 ml travel spray, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-aura-edp-100ml-15ml-refillable-travel-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444529027",
+     "new_media": "gid://shopify/MediaImage/74813684351363"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-2.webp",
+     "in": "signature-aura-edp-100ml-15ml-refillable-travel-spray-02.webp",
+     "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green bottle and travel spray, close view",
+     "new_alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – green bottle and travel spray, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-aura-edp-100ml-15ml-refillable-travel-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444561795",
+     "new_media": "gid://shopify/MediaImage/74813684384131"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-3.webp",
+     "in": "signature-aura-edp-100ml-15ml-refillable-travel-spray-03.webp",
+     "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box",
+     "new_alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-aura-edp-100ml-15ml-refillable-travel-spray-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444594563",
+     "new_media": "gid://shopify/MediaImage/74813684416899"
+    },
+    {
+     "n": 18,
+     "pos": 4,
+     "src": "signature-aura-edp-100ml-15ml-refillable-travel-spray-4.webp",
+     "in": "signature-aura-edp-100ml-15ml-refillable-travel-spray-04.webp",
+     "alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottles with rhubarb, grapefruit, ginger and leaves",
+     "new_alt": "Signature Aura EDP 100ML+15ML Refillable Travel Spray – bottles with rhubarb, grapefruit, ginger and leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-aura-edp-100ml-15ml-refillable-travel-spray-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444627331",
+     "new_media": "gid://shopify/MediaImage/74813684449667"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-jade-100ml-edp-15ml-travel-spray",
+   "id": 15981340557699,
+   "title": "Signature Jade 100ml Edp + 15ml Travel Spray",
+   "images": [
+    {
+     "n": 19,
+     "pos": 1,
+     "src": "signature-jade-100ml-edp-15ml-travel-spray-1.webp",
+     "in": "signature-jade-100ml-edp-15ml-travel-spray-01.webp",
+     "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – amber glass bottle with green collar, front view",
+     "new_alt": "Signature Jade 100ml Edp + 15ml Travel Spray – amber glass bottle with green collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-jade-100ml-edp-15ml-travel-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444955011",
+     "new_media": "gid://shopify/MediaImage/74813684482435"
+    },
+    {
+     "n": 20,
+     "pos": 2,
+     "src": "signature-jade-100ml-edp-15ml-travel-spray-2.webp",
+     "in": "signature-jade-100ml-edp-15ml-travel-spray-02.webp",
+     "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle beside its dark green gift box",
+     "new_alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle beside its dark green gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-jade-100ml-edp-15ml-travel-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444987779",
+     "new_media": "gid://shopify/MediaImage/74813684515203"
+    },
+    {
+     "n": 21,
+     "pos": 3,
+     "src": "signature-jade-100ml-edp-15ml-travel-spray-3.webp",
+     "in": "signature-jade-100ml-edp-15ml-travel-spray-03.webp",
+     "alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle with lemon, lime, orange, peach and blackcurrants",
+     "new_alt": "Signature Jade 100ml Edp + 15ml Travel Spray – bottle with lemon, lime, orange, peach and blackcurrants",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-jade-100ml-edp-15ml-travel-spray-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445020547",
+     "new_media": "gid://shopify/MediaImage/74813684547971"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-opal-100ml-15ml-eau-de-parfum",
+   "id": 15981339509123,
+   "title": "Signature Opal 100ml + 15ml Eau De Parfum",
+   "images": [
+    {
+     "n": 22,
+     "pos": 1,
+     "src": "signature-opal-100ml-15ml-eau-de-parfum-1.webp",
+     "in": "signature-opal-100ml-15ml-eau-de-parfum-01.webp",
+     "alt": "Signature Opal 100ml + 15ml Eau De Parfum – amber glass bottle with tan collar, front view",
+     "new_alt": "Signature Opal 100ml + 15ml Eau De Parfum – amber glass bottle with tan collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-opal-100ml-15ml-eau-de-parfum-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445348227",
+     "new_media": "gid://shopify/MediaImage/74813684580739"
+    },
+    {
+     "n": 23,
+     "pos": 2,
+     "src": "signature-opal-100ml-15ml-eau-de-parfum-2.webp",
+     "in": "signature-opal-100ml-15ml-eau-de-parfum-02.webp",
+     "alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle beside its black gift box",
+     "new_alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-opal-100ml-15ml-eau-de-parfum-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445380995",
+     "new_media": "gid://shopify/MediaImage/74813684613507"
+    },
+    {
+     "n": 24,
+     "pos": 3,
+     "src": "signature-opal-100ml-15ml-eau-de-parfum-3.webp",
+     "in": "signature-opal-100ml-15ml-eau-de-parfum-03.webp",
+     "alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle with rose, jasmine and ylang-ylang flowers",
+     "new_alt": "Signature Opal 100ml + 15ml Eau De Parfum – bottle with rose, jasmine and ylang-ylang flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-opal-100ml-15ml-eau-de-parfum-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445413763",
+     "new_media": "gid://shopify/MediaImage/74813684646275"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-rose-100ml-edp-15ml-travel-spray",
+   "id": 15981339246979,
+   "title": "Signature Rose 100ml Edp +15ml Travel Spray",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "signature-rose-100ml-edp-15ml-travel-spray-1.webp",
+     "in": "signature-rose-100ml-edp-15ml-travel-spray-01.webp",
+     "alt": "Signature Rose 100ml Edp +15ml Travel Spray – amber glass bottle with gold cap, front view",
+     "new_alt": "Signature Rose 100ml Edp +15ml Travel Spray – amber glass bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-rose-100ml-edp-15ml-travel-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445446531",
+     "new_media": "gid://shopify/MediaImage/74813684679043"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "signature-rose-100ml-edp-15ml-travel-spray-2.webp",
+     "in": "signature-rose-100ml-edp-15ml-travel-spray-02.webp",
+     "alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle beside its cream gift box",
+     "new_alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle beside its cream gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-rose-100ml-edp-15ml-travel-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445479299",
+     "new_media": "gid://shopify/MediaImage/74813684711811"
+    },
+    {
+     "n": 27,
+     "pos": 3,
+     "src": "signature-rose-100ml-edp-15ml-travel-spray-3.webp",
+     "in": "signature-rose-100ml-edp-15ml-travel-spray-03.webp",
+     "alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle with raspberries, peach and blueberries",
+     "new_alt": "Signature Rose 100ml Edp +15ml Travel Spray – bottle with raspberries, peach and blueberries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-rose-100ml-edp-15ml-travel-spray-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445512067",
+     "new_media": "gid://shopify/MediaImage/74813684744579"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-blue-100ml-edp",
+   "id": 15981338886531,
+   "title": "Signature Blue 100ml Edp",
+   "images": [
+    {
+     "n": 28,
+     "pos": 1,
+     "src": "Gemini_Generated_Image_urb71urb71urb71u.jpg",
+     "in": "signature-blue-100ml-edp-01.webp",
+     "alt": "Signature Blue 100ml Edp",
+     "new_alt": "Signature Blue 100ml Edp",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-blue-100ml-edp-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71491592061315",
+     "new_media": "gid://shopify/MediaImage/74813684777347"
+    },
+    {
+     "n": 29,
+     "pos": 2,
+     "src": "SignatureBlue6300020182484.webp",
+     "in": "signature-blue-100ml-edp-02.webp",
+     "alt": "Signature Blue 100ml Edp – view 2",
+     "new_alt": "Signature Blue 100ml Edp – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-blue-100ml-edp-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71482910540163",
+     "new_media": "gid://shopify/MediaImage/74813684810115"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex",
+   "id": 15981337280899,
+   "title": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "images": [
+    {
+     "n": 30,
+     "pos": 1,
+     "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+     "in": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-01.webp",
+     "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with black collar, front view",
+     "new_alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with black collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445249923",
+     "new_media": "gid://shopify/MediaImage/74813684842883"
+    },
+    {
+     "n": 31,
+     "pos": 2,
+     "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+     "in": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-02.webp",
+     "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "new_alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445282691",
+     "new_media": "gid://shopify/MediaImage/74813684875651"
+    },
+    {
+     "n": 32,
+     "pos": 3,
+     "src": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+     "in": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-03.webp",
+     "alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with pineapple, orange, blackcurrants and white flowers",
+     "new_alt": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with pineapple, orange, blackcurrants and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-onyx-eau-de-parfum-100ml-15ml-funnel-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445315459",
+     "new_media": "gid://shopify/MediaImage/74813684908419"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex",
+   "id": 15981333283203,
+   "title": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "images": [
+    {
+     "n": 33,
+     "pos": 1,
+     "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+     "in": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-01.webp",
+     "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with navy collar, front view",
+     "new_alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with navy collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445643139",
+     "new_media": "gid://shopify/MediaImage/74813684941187"
+    },
+    {
+     "n": 34,
+     "pos": 2,
+     "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+     "in": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-02.webp",
+     "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "new_alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445675907",
+     "new_media": "gid://shopify/MediaImage/74813684973955"
+    },
+    {
+     "n": 35,
+     "pos": 3,
+     "src": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+     "in": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-03.webp",
+     "alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with juniper berries, lavender, sage and pink pepper",
+     "new_alt": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with juniper berries, lavender, sage and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-sapphire-eau-de-parfum-100ml-15ml-funnel-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445708675",
+     "new_media": "gid://shopify/MediaImage/74813685006723"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-paradiso-edp-100ml-15ml-refillable-travel-spray",
+   "id": 15981332758915,
+   "title": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray",
+   "images": [
+    {
+     "n": 36,
+     "pos": 1,
+     "src": "Screenshot_2026-05-21_at_23.11.43.png",
+     "in": "signature-paradiso-edp-100ml-15ml-refillable-travel-spray-01.webp",
+     "alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray",
+     "new_alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-paradiso-edp-100ml-15ml-refillable-travel-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71482615529859",
+     "new_media": "gid://shopify/MediaImage/74813685039491"
+    },
+    {
+     "n": 37,
+     "pos": 2,
+     "src": "658679554_18364155499207063_9118937870829952433_n.jpg",
+     "in": "signature-paradiso-edp-100ml-15ml-refillable-travel-spray-02.webp",
+     "alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray – view 2",
+     "new_alt": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-paradiso-edp-100ml-15ml-refillable-travel-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71482613662083",
+     "new_media": "gid://shopify/MediaImage/74813685072259"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-charm-edp-100ml-15ml-refillable-travel-spray",
+   "id": 15981331546499,
+   "title": "Signature Charm EDP 100ML+15ML Refillable Travel Spray",
+   "images": [
+    {
+     "n": 38,
+     "pos": 1,
+     "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-1.webp",
+     "in": "signature-charm-edp-100ml-15ml-refillable-travel-spray-01.webp",
+     "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – 100 ml bottle and 15 ml travel spray, front view",
+     "new_alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – 100 ml bottle and 15 ml travel spray, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-charm-edp-100ml-15ml-refillable-travel-spray-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444660099",
+     "new_media": "gid://shopify/MediaImage/74813685105027"
+    },
+    {
+     "n": 39,
+     "pos": 2,
+     "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-2.webp",
+     "in": "signature-charm-edp-100ml-15ml-refillable-travel-spray-02.webp",
+     "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box",
+     "new_alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottle and travel spray beside the white gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-charm-edp-100ml-15ml-refillable-travel-spray-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444692867",
+     "new_media": "gid://shopify/MediaImage/74813685137795"
+    },
+    {
+     "n": 40,
+     "pos": 3,
+     "src": "signature-charm-edp-100ml-15ml-refillable-travel-spray-3.webp",
+     "in": "signature-charm-edp-100ml-15ml-refillable-travel-spray-03.webp",
+     "alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottles with oranges, lemons and orange blossom",
+     "new_alt": "Signature Charm EDP 100ML+15ML Refillable Travel Spray – bottles with oranges, lemons and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-charm-edp-100ml-15ml-refillable-travel-spray-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444725635",
+     "new_media": "gid://shopify/MediaImage/74813685170563"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-santal-eau-de-parfum-100ml-15ml-unisex",
+   "id": 15981327810947,
+   "title": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX)",
+   "images": [
+    {
+     "n": 41,
+     "pos": 1,
+     "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-1.webp",
+     "in": "signature-santal-eau-de-parfum-100ml-15ml-unisex-01.webp",
+     "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – matt black bottle with gold label, front view",
+     "new_alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – matt black bottle with gold label, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-santal-eau-de-parfum-100ml-15ml-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445544835",
+     "new_media": "gid://shopify/MediaImage/74813691101571"
+    },
+    {
+     "n": 42,
+     "pos": 2,
+     "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-2.webp",
+     "in": "signature-santal-eau-de-parfum-100ml-15ml-unisex-02.webp",
+     "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle beside its black gift box",
+     "new_alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-santal-eau-de-parfum-100ml-15ml-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445577603",
+     "new_media": "gid://shopify/MediaImage/74813691134339"
+    },
+    {
+     "n": 43,
+     "pos": 3,
+     "src": "signature-santal-eau-de-parfum-100ml-15ml-unisex-3.webp",
+     "in": "signature-santal-eau-de-parfum-100ml-15ml-unisex-03.webp",
+     "alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle with cinnamon sticks, cardamom pods and leaves",
+     "new_alt": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX) – bottle with cinnamon sticks, cardamom pods and leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-santal-eau-de-parfum-100ml-15ml-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445610371",
+     "new_media": "gid://shopify/MediaImage/74813691167107"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex",
+   "id": 15981326696835,
+   "title": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "images": [
+    {
+     "n": 44,
+     "pos": 1,
+     "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-1.webp",
+     "in": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-01.webp",
+     "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with burgundy collar, front view",
+     "new_alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – amber glass bottle with burgundy collar, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444430723",
+     "new_media": "gid://shopify/MediaImage/74813691199875"
+    },
+    {
+     "n": 45,
+     "pos": 2,
+     "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-2.webp",
+     "in": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-02.webp",
+     "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "new_alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444463491",
+     "new_media": "gid://shopify/MediaImage/74813691232643"
+    },
+    {
+     "n": 46,
+     "pos": 3,
+     "src": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-3.webp",
+     "in": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-03.webp",
+     "alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with amber stone, cut wood and cypress",
+     "new_alt": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX) – bottle with amber stone, cut wood and cypress",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "signature-ambre-eau-de-parfum-100ml-15ml-funnel-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292444496259",
+     "new_media": "gid://shopify/MediaImage/74813691265411"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
