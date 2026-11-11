@@ -1,0 +1,3151 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "17": "flood",
+   "20": "isnet",
+   "49": "flood",
+   "139": "isnet",
+   "143": "isnet",
+   "144": "isnet"
+  },
+  "alt": {
+   "69": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – set with crystal, wood and moss",
+   "72": "Guess Pink Body Mist – 125ml bottle with watermelon",
+   "79": "Guess Miami Vibes Shimmer Body Mist 250ml – 250ml shimmer mist bottle with seashell print",
+   "80": "Guess Miami Vibes Shimmer Body Mist 250ml – bottle with strawberries, blackberries and a glass of iced drink",
+   "81": "Guess Miami Vibes Shimmer Body Mist 250ml – bottle beside its seashell-print box",
+   "90": "Guess Love Romantic Blush Body Mist 250ml – bottle with quince, blossom and salt",
+   "100": "Guess Man Eau de Toilette 150ml – silver and green bottle",
+   "101": "Guess Man Eau de Toilette 150ml – bottle beside its green box",
+   "102": "Guess Man Eau de Toilette 150ml – bottle with wood and amber",
+   "141": "Guess 1981 Body Mist 250ml – peach bottle with a rose-gold pump"
+  },
+  "skip_products": [],
+  "notes": "17/49 flood (birefnet notched the box / lost the wash bag); 20/139/143/144 isnet (birefnet tore the silver box, left reflection drips, dropped the pale gift box; flood left ragged reflections). Alts: Miami Ribes->Vibes and Green->Man to match the current titles; 80/81 alts were swapped; props lost on 69, 72, 90, 102, 141."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421460935043",
+   "media": "gid://shopify/MediaImage/74600690975107",
+   "src": "guess-uomo-gift-set-100ml-170g-01.webp",
+   "alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, pouch, body spray, shower gel and box"
+  },
+  {
+   "product": "gid://shopify/Product/16421460935043",
+   "media": "gid://shopify/MediaImage/74600691007875",
+   "src": "guess-uomo-gift-set-100ml-170g-02.webp",
+   "alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, body spray and shower gel"
+  },
+  {
+   "product": "gid://shopify/Product/16421460935043",
+   "media": "gid://shopify/MediaImage/74600691040643",
+   "src": "guess-uomo-gift-set-100ml-170g-03.webp",
+   "alt": "Guess Uomo Gift Set 100ml + 170g – set items with wood and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16421457658243",
+   "media": "gid://shopify/MediaImage/74600677998979",
+   "src": "guess-sexy-skin-wild-flower-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – magenta croc-texture fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421457658243",
+   "media": "gid://shopify/MediaImage/74600678031747",
+   "src": "guess-sexy-skin-wild-flower-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle beside its magenta box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457658243",
+   "media": "gid://shopify/MediaImage/74600678064515",
+   "src": "guess-sexy-skin-wild-flower-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle with white flowers, milk and almonds"
+  },
+  {
+   "product": "gid://shopify/Product/16421457559939",
+   "media": "gid://shopify/MediaImage/74600686813571",
+   "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421457559939",
+   "media": "gid://shopify/MediaImage/74600686846339",
+   "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457559939",
+   "media": "gid://shopify/MediaImage/74600686879107",
+   "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with pineapple and blackberries"
+  },
+  {
+   "product": "gid://shopify/Product/16421457527171",
+   "media": "gid://shopify/MediaImage/74600683798915",
+   "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – pink fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421457527171",
+   "media": "gid://shopify/MediaImage/74600683831683",
+   "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457527171",
+   "media": "gid://shopify/MediaImage/74600683864451",
+   "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with lime, white blossom and pink berries"
+  },
+  {
+   "product": "gid://shopify/Product/16421457494403",
+   "media": "gid://shopify/MediaImage/74600692187523",
+   "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – orange crocodile-print 250ml mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421457494403",
+   "media": "gid://shopify/MediaImage/74600692220291",
+   "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle beside its orange box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457494403",
+   "media": "gid://shopify/MediaImage/74600692253059",
+   "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle with vanilla flower, wood and tonka"
+  },
+  {
+   "product": "gid://shopify/Product/16421457428867",
+   "media": "gid://shopify/MediaImage/74600690876803",
+   "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – pink metallic fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421457428867",
+   "media": "gid://shopify/MediaImage/74600690909571",
+   "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457428867",
+   "media": "gid://shopify/MediaImage/74600690942339",
+   "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle with moss, wood and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16421457396099",
+   "media": "gid://shopify/MediaImage/74600694284675",
+   "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – silver fragrance mist bottle 250ml"
+  },
+  {
+   "product": "gid://shopify/Product/16421457396099",
+   "media": "gid://shopify/MediaImage/74600694317443",
+   "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16421457396099",
+   "media": "gid://shopify/MediaImage/74600694350211",
+   "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle with wood, flowers and coffee beans"
+  },
+  {
+   "product": "gid://shopify/Product/16421456183683",
+   "media": "gid://shopify/MediaImage/74600677835139",
+   "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – turquoise croc-texture fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421456183683",
+   "media": "gid://shopify/MediaImage/74600677867907",
+   "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle beside its turquoise box"
+  },
+  {
+   "product": "gid://shopify/Product/16421456183683",
+   "media": "gid://shopify/MediaImage/74600677900675",
+   "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle with cotton, mandarin and passion fruit"
+  },
+  {
+   "product": "gid://shopify/Product/16421456150915",
+   "media": "gid://shopify/MediaImage/74600694382979",
+   "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-01.webp",
+   "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – gold fragrance mist bottle 250ml"
+  },
+  {
+   "product": "gid://shopify/Product/16421456150915",
+   "media": "gid://shopify/MediaImage/74600694415747",
+   "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-02.webp",
+   "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421456150915",
+   "media": "gid://shopify/MediaImage/74600694448515",
+   "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-03.webp",
+   "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle with blood orange, lime and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/16421456085379",
+   "media": "gid://shopify/MediaImage/74600692089219",
+   "src": "guess-seductive-red-eau-de-toilette-75ml-01.webp",
+   "alt": "Guess Seductive Red Eau de Toilette 75ml – red bottle with gold label"
+  },
+  {
+   "product": "gid://shopify/Product/16421456085379",
+   "media": "gid://shopify/MediaImage/74600692121987",
+   "src": "guess-seductive-red-eau-de-toilette-75ml-02.webp",
+   "alt": "Guess Seductive Red Eau de Toilette 75ml – bottle beside its red 75ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16421456085379",
+   "media": "gid://shopify/MediaImage/74600692154755",
+   "src": "guess-seductive-red-eau-de-toilette-75ml-03.webp",
+   "alt": "Guess Seductive Red Eau de Toilette 75ml – bottle with blossom, violets and a white flower"
+  },
+  {
+   "product": "gid://shopify/Product/16421456052611",
+   "media": "gid://shopify/MediaImage/74600690778499",
+   "src": "guess-seductive-red-body-mist-01.webp",
+   "alt": "Guess Seductive Red Body Mist – red fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421456052611",
+   "media": "gid://shopify/MediaImage/74600690811267",
+   "src": "guess-seductive-red-body-mist-02.webp",
+   "alt": "Guess Seductive Red Body Mist – bottle beside its red box"
+  },
+  {
+   "product": "gid://shopify/Product/16421456052611",
+   "media": "gid://shopify/MediaImage/74600690844035",
+   "src": "guess-seductive-red-body-mist-03.webp",
+   "alt": "Guess Seductive Red Body Mist – bottle with vanilla, cinnamon and tonka"
+  },
+  {
+   "product": "gid://shopify/Product/16421456019843",
+   "media": "gid://shopify/MediaImage/74600694186371",
+   "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-01.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – eau de toilette, travel spray and body lotion"
+  },
+  {
+   "product": "gid://shopify/Product/16421456019843",
+   "media": "gid://shopify/MediaImage/74600694219139",
+   "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-02.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set with its gift box and black pouch"
+  },
+  {
+   "product": "gid://shopify/Product/16421456019843",
+   "media": "gid://shopify/MediaImage/74600694251907",
+   "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-03.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set items with iris and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421455036803",
+   "media": "gid://shopify/MediaImage/74600677736835",
+   "src": "guess-seductive-noir-eau-de-toilette-75ml-01.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette 75ml – black bottle with gold triangle label"
+  },
+  {
+   "product": "gid://shopify/Product/16421455036803",
+   "media": "gid://shopify/MediaImage/74600677769603",
+   "src": "guess-seductive-noir-eau-de-toilette-75ml-02.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle beside its black Noir box"
+  },
+  {
+   "product": "gid://shopify/Product/16421455036803",
+   "media": "gid://shopify/MediaImage/74600677802371",
+   "src": "guess-seductive-noir-eau-de-toilette-75ml-03.webp",
+   "alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle with peony, lily of the valley, bergamot and sage"
+  },
+  {
+   "product": "gid://shopify/Product/16421454971267",
+   "media": "gid://shopify/MediaImage/74600686584195",
+   "src": "guess-seductive-noir-body-mist-250ml-01.webp",
+   "alt": "Guess Seductive Noir Body Mist 250ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421454971267",
+   "media": "gid://shopify/MediaImage/74600686616963",
+   "src": "guess-seductive-noir-body-mist-250ml-02.webp",
+   "alt": "Guess Seductive Noir Body Mist 250ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421454971267",
+   "media": "gid://shopify/MediaImage/74600686649731",
+   "src": "guess-seductive-noir-body-mist-250ml-03.webp",
+   "alt": "Guess Seductive Noir Body Mist 250ml – bottle with peony, iris, lime and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421454905731",
+   "media": "gid://shopify/MediaImage/74600683700611",
+   "src": "guess-seductive-homme-red-eau-de-toilette-100ml-01.webp",
+   "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – red bottle with gold band"
+  },
+  {
+   "product": "gid://shopify/Product/16421454905731",
+   "media": "gid://shopify/MediaImage/74600683733379",
+   "src": "guess-seductive-homme-red-eau-de-toilette-100ml-02.webp",
+   "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with red box"
+  },
+  {
+   "product": "gid://shopify/Product/16421454905731",
+   "media": "gid://shopify/MediaImage/74600683766147",
+   "src": "guess-seductive-homme-red-eau-de-toilette-100ml-03.webp",
+   "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with orange, white blossom and geranium"
+  },
+  {
+   "product": "gid://shopify/Product/16421454840195",
+   "media": "gid://shopify/MediaImage/74600669282691",
+   "src": "guess-seductive-homme-noir-gift-set-100ml-170g-01.webp",
+   "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – body spray, eau de toilette and shower gel"
+  },
+  {
+   "product": "gid://shopify/Product/16421454840195",
+   "media": "gid://shopify/MediaImage/74600669315459",
+   "src": "guess-seductive-homme-noir-gift-set-100ml-170g-02.webp",
+   "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with black wash bag"
+  },
+  {
+   "product": "gid://shopify/Product/16421454840195",
+   "media": "gid://shopify/MediaImage/74600669348227",
+   "src": "guess-seductive-homme-noir-gift-set-100ml-170g-03.webp",
+   "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with gift box and wash bag"
+  },
+  {
+   "product": "gid://shopify/Product/16421454840195",
+   "media": "gid://shopify/MediaImage/74600669380995",
+   "src": "guess-seductive-homme-noir-gift-set-100ml-170g-04.webp",
+   "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set items on the wash bag"
+  },
+  {
+   "product": "gid://shopify/Product/16421454840195",
+   "media": "gid://shopify/MediaImage/74600669413763",
+   "src": "guess-seductive-homme-noir-gift-set-100ml-170g-05.webp",
+   "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with peppercorns, grapefruit and nutmeg"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677048707",
+   "src": "guess-seductive-blue-fragrance-mist-01.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 125ml mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677081475",
+   "src": "guess-seductive-blue-fragrance-mist-02.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677114243",
+   "src": "guess-seductive-blue-fragrance-mist-03.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle with roses and peonies"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677147011",
+   "src": "guess-seductive-blue-fragrance-mist-04.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 250ml mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677179779",
+   "src": "guess-seductive-blue-fragrance-mist-05.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16421454774659",
+   "media": "gid://shopify/MediaImage/74600677212547",
+   "src": "guess-seductive-blue-fragrance-mist-06.webp",
+   "alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle with roses and peonies"
+  },
+  {
+   "product": "gid://shopify/Product/16421453169027",
+   "media": "gid://shopify/MediaImage/74600675213699",
+   "src": "guess-seductive-eau-de-toilette-75ml-01.webp",
+   "alt": "Guess Seductive Eau de Toilette 75ml – bottle with black triangle label"
+  },
+  {
+   "product": "gid://shopify/Product/16421453169027",
+   "media": "gid://shopify/MediaImage/74600675246467",
+   "src": "guess-seductive-eau-de-toilette-75ml-02.webp",
+   "alt": "Guess Seductive Eau de Toilette 75ml – bottle beside its black and cream box"
+  },
+  {
+   "product": "gid://shopify/Product/16421453169027",
+   "media": "gid://shopify/MediaImage/74600675279235",
+   "src": "guess-seductive-eau-de-toilette-75ml-03.webp",
+   "alt": "Guess Seductive Eau de Toilette 75ml – bottle with bergamot, lime, blackcurrant and pear"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679702915",
+   "src": "guess-seductive-body-mist-01.webp",
+   "alt": "Guess Seductive Body Mist – 125ml fragrance mist beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679735683",
+   "src": "guess-seductive-body-mist-02.webp",
+   "alt": "Guess Seductive Body Mist – 125ml fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679768451",
+   "src": "guess-seductive-body-mist-03.webp",
+   "alt": "Guess Seductive Body Mist – 125ml bottle with bergamot, pear and blackcurrant"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679801219",
+   "src": "guess-seductive-body-mist-04.webp",
+   "alt": "Guess Seductive Body Mist – 250ml fragrance mist beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679833987",
+   "src": "guess-seductive-body-mist-05.webp",
+   "alt": "Guess Seductive Body Mist – 250ml fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421453103491",
+   "media": "gid://shopify/MediaImage/74600679866755",
+   "src": "guess-seductive-body-mist-06.webp",
+   "alt": "Guess Seductive Body Mist – 250ml bottle with white flowers and iris"
+  },
+  {
+   "product": "gid://shopify/Product/16421453005187",
+   "media": "gid://shopify/MediaImage/74600677605763",
+   "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-01.webp",
+   "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – gift box with pink pouch, perfume bottle, travel spray and body lotion"
+  },
+  {
+   "product": "gid://shopify/Product/16421453005187",
+   "media": "gid://shopify/MediaImage/74600677638531",
+   "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-02.webp",
+   "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and body lotion with the pink pouch"
+  },
+  {
+   "product": "gid://shopify/Product/16421453005187",
+   "media": "gid://shopify/MediaImage/74600677671299",
+   "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-03.webp",
+   "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and 100ml body lotion"
+  },
+  {
+   "product": "gid://shopify/Product/16421453005187",
+   "media": "gid://shopify/MediaImage/74600677704067",
+   "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-04.webp",
+   "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – set with crystal, wood, moss and cotton"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686387587",
+   "src": "guess-pink-body-mist-01.webp",
+   "alt": "Guess Pink Body Mist – 125ml bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686420355",
+   "src": "guess-pink-body-mist-02.webp",
+   "alt": "Guess Pink Body Mist – 125ml bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686453123",
+   "src": "guess-pink-body-mist-03.webp",
+   "alt": "Guess Pink Body Mist – 125ml bottle with watermelon and water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686485891",
+   "src": "guess-pink-body-mist-04.webp",
+   "alt": "Guess Pink Body Mist – 250ml bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686518659",
+   "src": "guess-pink-body-mist-05.webp",
+   "alt": "Guess Pink Body Mist – 250ml bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421452972419",
+   "media": "gid://shopify/MediaImage/74600686551427",
+   "src": "guess-pink-body-mist-06.webp",
+   "alt": "Guess Pink Body Mist – 250ml bottle with amber, moss and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16421452939651",
+   "media": "gid://shopify/MediaImage/74600669184387",
+   "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-01.webp",
+   "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – blue shimmer fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421452939651",
+   "media": "gid://shopify/MediaImage/74600669217155",
+   "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-02.webp",
+   "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with blue patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16421452939651",
+   "media": "gid://shopify/MediaImage/74600669249923",
+   "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-03.webp",
+   "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with watermelon and pear"
+  },
+  {
+   "product": "gid://shopify/Product/16421452022147",
+   "media": "gid://shopify/MediaImage/74600676950403",
+   "src": "guess-miami-ribes-shimmer-body-mist-250ml-01.webp",
+   "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – 250ml shimmer mist bottle with seashell print"
+  },
+  {
+   "product": "gid://shopify/Product/16421452022147",
+   "media": "gid://shopify/MediaImage/74600676983171",
+   "src": "guess-miami-ribes-shimmer-body-mist-250ml-02.webp",
+   "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – bottle beside its seashell-print box"
+  },
+  {
+   "product": "gid://shopify/Product/16421452022147",
+   "media": "gid://shopify/MediaImage/74600677015939",
+   "src": "guess-miami-ribes-shimmer-body-mist-250ml-03.webp",
+   "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – bottle with strawberries, blackberries and a glass of iced drink"
+  },
+  {
+   "product": "gid://shopify/Product/16421451989379",
+   "media": "gid://shopify/MediaImage/74600675115395",
+   "src": "guess-love-sunkissed-flirtation-body-mist-250ml-01.webp",
+   "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – orange floral fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451989379",
+   "media": "gid://shopify/MediaImage/74600675148163",
+   "src": "guess-love-sunkissed-flirtation-body-mist-250ml-02.webp",
+   "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle beside its orange box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451989379",
+   "media": "gid://shopify/MediaImage/74600675180931",
+   "src": "guess-love-sunkissed-flirtation-body-mist-250ml-03.webp",
+   "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle with apricots, cherries and blossom"
+  },
+  {
+   "product": "gid://shopify/Product/16421451923843",
+   "media": "gid://shopify/MediaImage/74600679604611",
+   "src": "guess-love-sheer-attraction-body-mist-250ml-01.webp",
+   "alt": "Guess Love Sheer Attraction Body Mist 250ml – floral fragrance mist bottle with gold cap beside it"
+  },
+  {
+   "product": "gid://shopify/Product/16421451923843",
+   "media": "gid://shopify/MediaImage/74600679637379",
+   "src": "guess-love-sheer-attraction-body-mist-250ml-02.webp",
+   "alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle beside its floral box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451923843",
+   "media": "gid://shopify/MediaImage/74600679670147",
+   "src": "guess-love-sheer-attraction-body-mist-250ml-03.webp",
+   "alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle with peach and blossoms"
+  },
+  {
+   "product": "gid://shopify/Product/16421451891075",
+   "media": "gid://shopify/MediaImage/74600677507459",
+   "src": "guess-love-romantic-blush-body-mist-250ml-01.webp",
+   "alt": "Guess Love Romantic Blush Body Mist 250ml – pink floral fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451891075",
+   "media": "gid://shopify/MediaImage/74600677540227",
+   "src": "guess-love-romantic-blush-body-mist-250ml-02.webp",
+   "alt": "Guess Love Romantic Blush Body Mist 250ml – bottle beside its pink floral box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451891075",
+   "media": "gid://shopify/MediaImage/74600677572995",
+   "src": "guess-love-romantic-blush-body-mist-250ml-03.webp",
+   "alt": "Guess Love Romantic Blush Body Mist 250ml – bottle with quince, blossom, salt and a water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16421451858307",
+   "media": "gid://shopify/MediaImage/74600686289283",
+   "src": "guess-love-passion-kiss-body-mist-250ml-01.webp",
+   "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421451858307",
+   "media": "gid://shopify/MediaImage/74600686322051",
+   "src": "guess-love-passion-kiss-body-mist-250ml-02.webp",
+   "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451858307",
+   "media": "gid://shopify/MediaImage/74600686354819",
+   "src": "guess-love-passion-kiss-body-mist-250ml-03.webp",
+   "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with grapefruit, orange and raspberries"
+  },
+  {
+   "product": "gid://shopify/Product/16421451202947",
+   "media": "gid://shopify/MediaImage/74600669086083",
+   "src": "guess-love-nirvana-dream-body-mist-250ml-01.webp",
+   "alt": "Guess Love Nirvana Dream Body Mist 250ml – purple fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451202947",
+   "media": "gid://shopify/MediaImage/74600669118851",
+   "src": "guess-love-nirvana-dream-body-mist-250ml-02.webp",
+   "alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with floral box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451202947",
+   "media": "gid://shopify/MediaImage/74600669151619",
+   "src": "guess-love-nirvana-dream-body-mist-250ml-03.webp",
+   "alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with raspberries, plum and apple"
+  },
+  {
+   "product": "gid://shopify/Product/16421451170179",
+   "media": "gid://shopify/MediaImage/74600676852099",
+   "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-01.webp",
+   "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – orange 250ml shimmer mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451170179",
+   "media": "gid://shopify/MediaImage/74600676884867",
+   "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-02.webp",
+   "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle beside its tropical-print box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451170179",
+   "media": "gid://shopify/MediaImage/74600676917635",
+   "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-03.webp",
+   "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle with white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421451137411",
+   "media": "gid://shopify/MediaImage/74600674984323",
+   "src": "guess-green-eau-de-toilette-150ml-01.webp",
+   "alt": "Guess Green Eau de Toilette 150ml – silver and green bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451137411",
+   "media": "gid://shopify/MediaImage/74600675017091",
+   "src": "guess-green-eau-de-toilette-150ml-02.webp",
+   "alt": "Guess Green Eau de Toilette 150ml – bottle beside its green box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451137411",
+   "media": "gid://shopify/MediaImage/74600675049859",
+   "src": "guess-green-eau-de-toilette-150ml-03.webp",
+   "alt": "Guess Green Eau de Toilette 150ml – bottle with pine, wood and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16421451071875",
+   "media": "gid://shopify/MediaImage/74600679473539",
+   "src": "guess-girl-belle-eau-de-toilette-100ml-01.webp",
+   "alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451071875",
+   "media": "gid://shopify/MediaImage/74600679506307",
+   "src": "guess-girl-belle-eau-de-toilette-100ml-02.webp",
+   "alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle with ruffled cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421451071875",
+   "media": "gid://shopify/MediaImage/74600679539075",
+   "src": "guess-girl-belle-eau-de-toilette-100ml-03.webp",
+   "alt": "Guess Girl Belle Eau de Toilette 100ml – bottle at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451071875",
+   "media": "gid://shopify/MediaImage/74600679571843",
+   "src": "guess-girl-belle-eau-de-toilette-100ml-04.webp",
+   "alt": "Guess Girl Belle Eau de Toilette 100ml – bottle with berries and a glass of sparkling wine"
+  },
+  {
+   "product": "gid://shopify/Product/16421451039107",
+   "media": "gid://shopify/MediaImage/74600677245315",
+   "src": "guess-girl-belle-body-mist-250ml-01.webp",
+   "alt": "Guess Girl Belle Body Mist 250ml – purple and gold fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421451039107",
+   "media": "gid://shopify/MediaImage/74600677278083",
+   "src": "guess-girl-belle-body-mist-250ml-02.webp",
+   "alt": "Guess Girl Belle Body Mist 250ml – bottle beside its purple box"
+  },
+  {
+   "product": "gid://shopify/Product/16421451039107",
+   "media": "gid://shopify/MediaImage/74600677310851",
+   "src": "guess-girl-belle-body-mist-250ml-03.webp",
+   "alt": "Guess Girl Belle Body Mist 250ml – bottle with berries and a glass of sparkling wine"
+  },
+  {
+   "product": "gid://shopify/Product/16421449826691",
+   "media": "gid://shopify/MediaImage/74600686190979",
+   "src": "guess-girl-body-mist-250ml-01.webp",
+   "alt": "Guess Girl Body Mist 250ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421449826691",
+   "media": "gid://shopify/MediaImage/74600686223747",
+   "src": "guess-girl-body-mist-250ml-02.webp",
+   "alt": "Guess Girl Body Mist 250ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449826691",
+   "media": "gid://shopify/MediaImage/74600686256515",
+   "src": "guess-girl-body-mist-250ml-03.webp",
+   "alt": "Guess Girl Body Mist 250ml – bottle with melon, raspberries and lime"
+  },
+  {
+   "product": "gid://shopify/Product/16421449793923",
+   "media": "gid://shopify/MediaImage/74600668955011",
+   "src": "guess-dare-eau-de-toilette-100ml-01.webp",
+   "alt": "Guess Dare Eau de Toilette 100ml – faceted pink bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421449793923",
+   "media": "gid://shopify/MediaImage/74600668987779",
+   "src": "guess-dare-eau-de-toilette-100ml-02.webp",
+   "alt": "Guess Dare Eau de Toilette 100ml – bottle with denim-look box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449793923",
+   "media": "gid://shopify/MediaImage/74600669020547",
+   "src": "guess-dare-eau-de-toilette-100ml-03.webp",
+   "alt": "Guess Dare Eau de Toilette 100ml – bottle with grapefruit, apple and lychee"
+  },
+  {
+   "product": "gid://shopify/Product/16421449761155",
+   "media": "gid://shopify/MediaImage/74600676688259",
+   "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-01.webp",
+   "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – pink 250ml shimmer mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421449761155",
+   "media": "gid://shopify/MediaImage/74600676721027",
+   "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-02.webp",
+   "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449761155",
+   "media": "gid://shopify/MediaImage/74600676753795",
+   "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-03.webp",
+   "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle with grapefruit, raspberries and lime"
+  },
+  {
+   "product": "gid://shopify/Product/16421449761155",
+   "media": "gid://shopify/MediaImage/74600676786563",
+   "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-04.webp",
+   "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421449728387",
+   "media": "gid://shopify/MediaImage/74600679375235",
+   "src": "guess-bella-vita-rosa-body-mist-250ml-01.webp",
+   "alt": "Guess Bella Vita Rosa Body Mist 250ml – pink fragrance mist bottle 250ml"
+  },
+  {
+   "product": "gid://shopify/Product/16421449728387",
+   "media": "gid://shopify/MediaImage/74600679408003",
+   "src": "guess-bella-vita-rosa-body-mist-250ml-02.webp",
+   "alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449728387",
+   "media": "gid://shopify/MediaImage/74600679440771",
+   "src": "guess-bella-vita-rosa-body-mist-250ml-03.webp",
+   "alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle with grapefruit, raspberries and lime"
+  },
+  {
+   "product": "gid://shopify/Product/16421449695619",
+   "media": "gid://shopify/MediaImage/74600666956163",
+   "src": "guess-bella-vita-body-mist-250ml-01.webp",
+   "alt": "Guess Bella Vita Body Mist 250ml – gold fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421449695619",
+   "media": "gid://shopify/MediaImage/74600666988931",
+   "src": "guess-bella-vita-body-mist-250ml-02.webp",
+   "alt": "Guess Bella Vita Body Mist 250ml – bottle beside its gold Bella Vita box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449695619",
+   "media": "gid://shopify/MediaImage/74600667021699",
+   "src": "guess-bella-vita-body-mist-250ml-03.webp",
+   "alt": "Guess Bella Vita Body Mist 250ml – bottle with cherries, blackcurrants and lemon"
+  },
+  {
+   "product": "gid://shopify/Product/16421448384899",
+   "media": "gid://shopify/MediaImage/74600674886019",
+   "src": "guess-bella-vita-shimmer-body-mist-250ml-01.webp",
+   "alt": "Guess Bella Vita Shimmer Body Mist 250ml – gold shimmer fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421448384899",
+   "media": "gid://shopify/MediaImage/74600674918787",
+   "src": "guess-bella-vita-shimmer-body-mist-250ml-02.webp",
+   "alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448384899",
+   "media": "gid://shopify/MediaImage/74600674951555",
+   "src": "guess-bella-vita-shimmer-body-mist-250ml-03.webp",
+   "alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle with cherries, blackcurrants and lemon"
+  },
+  {
+   "product": "gid://shopify/Product/16421448319363",
+   "media": "gid://shopify/MediaImage/74600672133507",
+   "src": "guess-amore-venezia-eau-de-toilette-100ml-01.webp",
+   "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421448319363",
+   "media": "gid://shopify/MediaImage/74600672166275",
+   "src": "guess-amore-venezia-eau-de-toilette-100ml-02.webp",
+   "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448319363",
+   "media": "gid://shopify/MediaImage/74600672199043",
+   "src": "guess-amore-venezia-eau-de-toilette-100ml-03.webp",
+   "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with pink peppercorns, lime and berries"
+  },
+  {
+   "product": "gid://shopify/Product/16421448253827",
+   "media": "gid://shopify/MediaImage/74600668791171",
+   "src": "guess-1981-los-angeles-body-mist-250ml-01.webp",
+   "alt": "Guess 1981 Los Angeles Body Mist 250ml – 250ml fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421448253827",
+   "media": "gid://shopify/MediaImage/74600668823939",
+   "src": "guess-1981-los-angeles-body-mist-250ml-02.webp",
+   "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with sunset box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448253827",
+   "media": "gid://shopify/MediaImage/74600668856707",
+   "src": "guess-1981-los-angeles-body-mist-250ml-03.webp",
+   "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with violets and pink flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421448253827",
+   "media": "gid://shopify/MediaImage/74600668889475",
+   "src": "guess-1981-los-angeles-body-mist-250ml-04.webp",
+   "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421448221059",
+   "media": "gid://shopify/MediaImage/74600676589955",
+   "src": "guess-1981-indigo-body-mist-250ml-01.webp",
+   "alt": "Guess 1981 Indigo Body Mist 250ml – blue 250ml mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421448221059",
+   "media": "gid://shopify/MediaImage/74600676622723",
+   "src": "guess-1981-indigo-body-mist-250ml-02.webp",
+   "alt": "Guess 1981 Indigo Body Mist 250ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448221059",
+   "media": "gid://shopify/MediaImage/74600676655491",
+   "src": "guess-1981-indigo-body-mist-250ml-03.webp",
+   "alt": "Guess 1981 Indigo Body Mist 250ml – bottle with figs, lilac and water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16421448188291",
+   "media": "gid://shopify/MediaImage/74600674722179",
+   "src": "guess-1981-body-mist-250ml-01.webp",
+   "alt": "Guess 1981 Body Mist 250ml – peach fragrance mist bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421448188291",
+   "media": "gid://shopify/MediaImage/74600674754947",
+   "src": "guess-1981-body-mist-250ml-02.webp",
+   "alt": "Guess 1981 Body Mist 250ml – bottle beside its peach box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448188291",
+   "media": "gid://shopify/MediaImage/74600674787715",
+   "src": "guess-1981-body-mist-250ml-03.webp",
+   "alt": "Guess 1981 Body Mist 250ml – bottle with rocks"
+  },
+  {
+   "product": "gid://shopify/Product/16421448188291",
+   "media": "gid://shopify/MediaImage/74600674820483",
+   "src": "guess-1981-body-mist-250ml-04.webp",
+   "alt": "Guess 1981 Body Mist 250ml – bottle with violets, pear and nuts"
+  },
+  {
+   "product": "gid://shopify/Product/16421447532931",
+   "media": "gid://shopify/MediaImage/74600686682499",
+   "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-01.webp",
+   "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift set box on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421447532931",
+   "media": "gid://shopify/MediaImage/74600686715267",
+   "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-02.webp",
+   "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift box beside the four mini sprays"
+  },
+  {
+   "product": "gid://shopify/Product/16421447532931",
+   "media": "gid://shopify/MediaImage/74600686748035",
+   "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-03.webp",
+   "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays: Seductive, Noir, Red and Blue"
+  },
+  {
+   "product": "gid://shopify/Product/16421447532931",
+   "media": "gid://shopify/MediaImage/74600686780803",
+   "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-04.webp",
+   "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays with flowers and vanilla"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "guess-uomo-gift-set-100ml-170g",
+   "id": 16421460935043,
+   "title": "Guess Uomo Gift Set 100ml + 170g",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "guess-uomo-gift-set-100ml-170g-01.webp",
+     "in": "guess-uomo-gift-set-100ml-170g-01.webp",
+     "alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, pouch, body spray, shower gel and box",
+     "new_alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, pouch, body spray, shower gel and box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-uomo-gift-set-100ml-170g-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690975107",
+     "new_media": "gid://shopify/MediaImage/74812686139779"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "guess-uomo-gift-set-100ml-170g-02.webp",
+     "in": "guess-uomo-gift-set-100ml-170g-02.webp",
+     "alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, body spray and shower gel",
+     "new_alt": "Guess Uomo Gift Set 100ml + 170g – eau de toilette, body spray and shower gel",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-uomo-gift-set-100ml-170g-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600691007875",
+     "new_media": "gid://shopify/MediaImage/74812686172547"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "guess-uomo-gift-set-100ml-170g-03.webp",
+     "in": "guess-uomo-gift-set-100ml-170g-03.webp",
+     "alt": "Guess Uomo Gift Set 100ml + 170g – set items with wood and amber",
+     "new_alt": "Guess Uomo Gift Set 100ml + 170g – set items with wood and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-uomo-gift-set-100ml-170g-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600691040643",
+     "new_media": "gid://shopify/MediaImage/74812686205315"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-wild-flower-body-mist-250ml",
+   "id": 16421457658243,
+   "title": "Guess Sexy Skin Wild Flower Body Mist 250ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "guess-sexy-skin-wild-flower-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-wild-flower-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – magenta croc-texture fragrance mist bottle",
+     "new_alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – magenta croc-texture fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-wild-flower-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677998979",
+     "new_media": "gid://shopify/MediaImage/74812686238083"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "guess-sexy-skin-wild-flower-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-wild-flower-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle beside its magenta box",
+     "new_alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle beside its magenta box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-wild-flower-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678031747",
+     "new_media": "gid://shopify/MediaImage/74812686270851"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "guess-sexy-skin-wild-flower-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-wild-flower-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle with white flowers, milk and almonds",
+     "new_alt": "Guess Sexy Skin Wild Flower Body Mist 250ml – bottle with white flowers, milk and almonds",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-wild-flower-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678064515",
+     "new_media": "gid://shopify/MediaImage/74812686303619"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-tropical-breeze-body-mist-250ml",
+   "id": 16421457559939,
+   "title": "Guess Sexy Skin Tropical Breeze Body Mist 250ml",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-tropical-breeze-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle on a plain background",
+     "new_alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-tropical-breeze-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686813571",
+     "new_media": "gid://shopify/MediaImage/74812686336387"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-tropical-breeze-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with its box",
+     "new_alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-tropical-breeze-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686846339",
+     "new_media": "gid://shopify/MediaImage/74812686369155"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "guess-sexy-skin-tropical-breeze-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-tropical-breeze-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with pineapple and blackberries",
+     "new_alt": "Guess Sexy Skin Tropical Breeze Body Mist 250ml – bottle with pineapple and blackberries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-tropical-breeze-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686879107",
+     "new_media": "gid://shopify/MediaImage/74812686401923"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-sweet-sugar-body-mist-250ml",
+   "id": 16421457527171,
+   "title": "Guess Sexy Skin Sweet Sugar Body Mist 250ml",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-sweet-sugar-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – pink fragrance mist bottle",
+     "new_alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – pink fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-sweet-sugar-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683798915",
+     "new_media": "gid://shopify/MediaImage/74812686664067"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-sweet-sugar-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with pink box",
+     "new_alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-sweet-sugar-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683831683",
+     "new_media": "gid://shopify/MediaImage/74812686696835"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "guess-sexy-skin-sweet-sugar-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-sweet-sugar-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with lime, white blossom and pink berries",
+     "new_alt": "Guess Sexy Skin Sweet Sugar Body Mist 250ml – bottle with lime, white blossom and pink berries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-sweet-sugar-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683864451",
+     "new_media": "gid://shopify/MediaImage/74812686729603"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-solar-warmth-body-mist-250ml",
+   "id": 16421457494403,
+   "title": "Guess Sexy Skin Solar Warmth Body Mist 250ml",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-solar-warmth-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – orange crocodile-print 250ml mist bottle",
+     "new_alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – orange crocodile-print 250ml mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-solar-warmth-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692187523",
+     "new_media": "gid://shopify/MediaImage/74812686762371"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-solar-warmth-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle beside its orange box",
+     "new_alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle beside its orange box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-solar-warmth-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692220291",
+     "new_media": "gid://shopify/MediaImage/74812686795139"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "guess-sexy-skin-solar-warmth-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-solar-warmth-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle with vanilla flower, wood and tonka",
+     "new_alt": "Guess Sexy Skin Solar Warmth Body Mist 250ml – bottle with vanilla flower, wood and tonka",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-solar-warmth-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692253059",
+     "new_media": "gid://shopify/MediaImage/74812686827907"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-metallique-rose-body-mist-250ml",
+   "id": 16421457428867,
+   "title": "Guess Sexy Skin Metallique Rose Body Mist 250ml",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-metallique-rose-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – pink metallic fragrance mist bottle",
+     "new_alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – pink metallic fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-rose-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690876803",
+     "new_media": "gid://shopify/MediaImage/74812686860675"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-metallique-rose-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle beside its pink box",
+     "new_alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "guess-sexy-skin-metallique-rose-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690909571",
+     "new_media": "gid://shopify/MediaImage/74812686893443"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "guess-sexy-skin-metallique-rose-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-metallique-rose-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle with moss, wood and amber",
+     "new_alt": "Guess Sexy Skin Metallique Rose Body Mist 250ml – bottle with moss, wood and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-rose-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690942339",
+     "new_media": "gid://shopify/MediaImage/74812686926211"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-metallique-mojito-body-mist-250ml",
+   "id": 16421457396099,
+   "title": "Guess Sexy Skin Metallique Mojito Body Mist 250ml",
+   "images": [
+    {
+     "n": 19,
+     "pos": 1,
+     "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-metallique-mojito-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – silver fragrance mist bottle 250ml",
+     "new_alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – silver fragrance mist bottle 250ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-mojito-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694284675",
+     "new_media": "gid://shopify/MediaImage/74812686958979"
+    },
+    {
+     "n": 20,
+     "pos": 2,
+     "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-metallique-mojito-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle beside its silver box",
+     "new_alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "guess-sexy-skin-metallique-mojito-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694317443",
+     "new_media": "gid://shopify/MediaImage/74812686991747"
+    },
+    {
+     "n": 21,
+     "pos": 3,
+     "src": "guess-sexy-skin-metallique-mojito-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-metallique-mojito-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle with wood, flowers and coffee beans",
+     "new_alt": "Guess Sexy Skin Metallique Mojito Body Mist 250ml – bottle with wood, flowers and coffee beans",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-mojito-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694350211",
+     "new_media": "gid://shopify/MediaImage/74812687024515"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-metallique-martini-body-mist-250ml",
+   "id": 16421456183683,
+   "title": "Guess Sexy Skin Metallique Martini Body Mist 250ml",
+   "images": [
+    {
+     "n": 22,
+     "pos": 1,
+     "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-metallique-martini-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – turquoise croc-texture fragrance mist bottle",
+     "new_alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – turquoise croc-texture fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-martini-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677835139",
+     "new_media": "gid://shopify/MediaImage/74812687122819"
+    },
+    {
+     "n": 23,
+     "pos": 2,
+     "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-metallique-martini-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle beside its turquoise box",
+     "new_alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle beside its turquoise box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-martini-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677867907",
+     "new_media": "gid://shopify/MediaImage/74812687155587"
+    },
+    {
+     "n": 24,
+     "pos": 3,
+     "src": "guess-sexy-skin-metallique-martini-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-metallique-martini-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle with cotton, mandarin and passion fruit",
+     "new_alt": "Guess Sexy Skin Metallique Martini Body Mist 250ml – bottle with cotton, mandarin and passion fruit",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-martini-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677900675",
+     "new_media": "gid://shopify/MediaImage/74812687188355"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-sexy-skin-metallique-champagne-body-mist-250ml",
+   "id": 16421456150915,
+   "title": "Guess Sexy Skin Metallique Champagne Body Mist 250ml",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-01.webp",
+     "in": "guess-sexy-skin-metallique-champagne-body-mist-250ml-01.webp",
+     "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – gold fragrance mist bottle 250ml",
+     "new_alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – gold fragrance mist bottle 250ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-champagne-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694382979",
+     "new_media": "gid://shopify/MediaImage/74812687221123"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-02.webp",
+     "in": "guess-sexy-skin-metallique-champagne-body-mist-250ml-02.webp",
+     "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle beside its gold box",
+     "new_alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-champagne-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694415747",
+     "new_media": "gid://shopify/MediaImage/74812687253891"
+    },
+    {
+     "n": 27,
+     "pos": 3,
+     "src": "guess-sexy-skin-metallique-champagne-body-mist-250ml-03.webp",
+     "in": "guess-sexy-skin-metallique-champagne-body-mist-250ml-03.webp",
+     "alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle with blood orange, lime and bergamot",
+     "new_alt": "Guess Sexy Skin Metallique Champagne Body Mist 250ml – bottle with blood orange, lime and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-sexy-skin-metallique-champagne-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694448515",
+     "new_media": "gid://shopify/MediaImage/74812687286659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-red-eau-de-toilette-75ml",
+   "id": 16421456085379,
+   "title": "Guess Seductive Red Eau de Toilette 75ml",
+   "images": [
+    {
+     "n": 28,
+     "pos": 1,
+     "src": "guess-seductive-red-eau-de-toilette-75ml-01.webp",
+     "in": "guess-seductive-red-eau-de-toilette-75ml-01.webp",
+     "alt": "Guess Seductive Red Eau de Toilette 75ml – red bottle with gold label",
+     "new_alt": "Guess Seductive Red Eau de Toilette 75ml – red bottle with gold label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-eau-de-toilette-75ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692089219",
+     "new_media": "gid://shopify/MediaImage/74812687745411"
+    },
+    {
+     "n": 29,
+     "pos": 2,
+     "src": "guess-seductive-red-eau-de-toilette-75ml-02.webp",
+     "in": "guess-seductive-red-eau-de-toilette-75ml-02.webp",
+     "alt": "Guess Seductive Red Eau de Toilette 75ml – bottle beside its red 75ml box",
+     "new_alt": "Guess Seductive Red Eau de Toilette 75ml – bottle beside its red 75ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-eau-de-toilette-75ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692121987",
+     "new_media": "gid://shopify/MediaImage/74812687778179"
+    },
+    {
+     "n": 30,
+     "pos": 3,
+     "src": "guess-seductive-red-eau-de-toilette-75ml-03.webp",
+     "in": "guess-seductive-red-eau-de-toilette-75ml-03.webp",
+     "alt": "Guess Seductive Red Eau de Toilette 75ml – bottle with blossom, violets and a white flower",
+     "new_alt": "Guess Seductive Red Eau de Toilette 75ml – bottle with blossom, violets and a white flower",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-eau-de-toilette-75ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600692154755",
+     "new_media": "gid://shopify/MediaImage/74812687810947"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-red-body-mist",
+   "id": 16421456052611,
+   "title": "Guess Seductive Red Body Mist",
+   "images": [
+    {
+     "n": 31,
+     "pos": 1,
+     "src": "guess-seductive-red-body-mist-01.webp",
+     "in": "guess-seductive-red-body-mist-01.webp",
+     "alt": "Guess Seductive Red Body Mist – red fragrance mist bottle",
+     "new_alt": "Guess Seductive Red Body Mist – red fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-body-mist-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690778499",
+     "new_media": "gid://shopify/MediaImage/74812687843715"
+    },
+    {
+     "n": 32,
+     "pos": 2,
+     "src": "guess-seductive-red-body-mist-02.webp",
+     "in": "guess-seductive-red-body-mist-02.webp",
+     "alt": "Guess Seductive Red Body Mist – bottle beside its red box",
+     "new_alt": "Guess Seductive Red Body Mist – bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-body-mist-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690811267",
+     "new_media": "gid://shopify/MediaImage/74812687876483"
+    },
+    {
+     "n": 33,
+     "pos": 3,
+     "src": "guess-seductive-red-body-mist-03.webp",
+     "in": "guess-seductive-red-body-mist-03.webp",
+     "alt": "Guess Seductive Red Body Mist – bottle with vanilla, cinnamon and tonka",
+     "new_alt": "Guess Seductive Red Body Mist – bottle with vanilla, cinnamon and tonka",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-red-body-mist-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600690844035",
+     "new_media": "gid://shopify/MediaImage/74812687909251"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml",
+   "id": 16421456019843,
+   "title": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml",
+   "images": [
+    {
+     "n": 34,
+     "pos": 1,
+     "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-01.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-01.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – eau de toilette, travel spray and body lotion",
+     "new_alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – eau de toilette, travel spray and body lotion",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694186371",
+     "new_media": "gid://shopify/MediaImage/74812687942019"
+    },
+    {
+     "n": 35,
+     "pos": 2,
+     "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-02.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-02.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set with its gift box and black pouch",
+     "new_alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set with its gift box and black pouch",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694219139",
+     "new_media": "gid://shopify/MediaImage/74812687974787"
+    },
+    {
+     "n": 36,
+     "pos": 3,
+     "src": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-03.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-03.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set items with iris and white flowers",
+     "new_alt": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml – set items with iris and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-gift-set-75ml-100ml-15ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600694251907",
+     "new_media": "gid://shopify/MediaImage/74812688007555"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-noir-eau-de-toilette-75ml",
+   "id": 16421455036803,
+   "title": "Guess Seductive Noir Eau de Toilette 75ml",
+   "images": [
+    {
+     "n": 37,
+     "pos": 1,
+     "src": "guess-seductive-noir-eau-de-toilette-75ml-01.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-75ml-01.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette 75ml – black bottle with gold triangle label",
+     "new_alt": "Guess Seductive Noir Eau de Toilette 75ml – black bottle with gold triangle label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-75ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677736835",
+     "new_media": "gid://shopify/MediaImage/74812688138627"
+    },
+    {
+     "n": 38,
+     "pos": 2,
+     "src": "guess-seductive-noir-eau-de-toilette-75ml-02.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-75ml-02.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle beside its black Noir box",
+     "new_alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle beside its black Noir box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-75ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677769603",
+     "new_media": "gid://shopify/MediaImage/74812688171395"
+    },
+    {
+     "n": 39,
+     "pos": 3,
+     "src": "guess-seductive-noir-eau-de-toilette-75ml-03.webp",
+     "in": "guess-seductive-noir-eau-de-toilette-75ml-03.webp",
+     "alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle with peony, lily of the valley, bergamot and sage",
+     "new_alt": "Guess Seductive Noir Eau de Toilette 75ml – bottle with peony, lily of the valley, bergamot and sage",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-eau-de-toilette-75ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677802371",
+     "new_media": "gid://shopify/MediaImage/74812688204163"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-noir-body-mist-250ml",
+   "id": 16421454971267,
+   "title": "Guess Seductive Noir Body Mist 250ml",
+   "images": [
+    {
+     "n": 40,
+     "pos": 1,
+     "src": "guess-seductive-noir-body-mist-250ml-01.webp",
+     "in": "guess-seductive-noir-body-mist-250ml-01.webp",
+     "alt": "Guess Seductive Noir Body Mist 250ml – bottle on a plain background",
+     "new_alt": "Guess Seductive Noir Body Mist 250ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686584195",
+     "new_media": "gid://shopify/MediaImage/74812688236931"
+    },
+    {
+     "n": 41,
+     "pos": 2,
+     "src": "guess-seductive-noir-body-mist-250ml-02.webp",
+     "in": "guess-seductive-noir-body-mist-250ml-02.webp",
+     "alt": "Guess Seductive Noir Body Mist 250ml – bottle with its box",
+     "new_alt": "Guess Seductive Noir Body Mist 250ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686616963",
+     "new_media": "gid://shopify/MediaImage/74812688269699"
+    },
+    {
+     "n": 42,
+     "pos": 3,
+     "src": "guess-seductive-noir-body-mist-250ml-03.webp",
+     "in": "guess-seductive-noir-body-mist-250ml-03.webp",
+     "alt": "Guess Seductive Noir Body Mist 250ml – bottle with peony, iris, lime and white flowers",
+     "new_alt": "Guess Seductive Noir Body Mist 250ml – bottle with peony, iris, lime and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-noir-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686649731",
+     "new_media": "gid://shopify/MediaImage/74812688302467"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-homme-red-eau-de-toilette-100ml",
+   "id": 16421454905731,
+   "title": "Guess Seductive Homme Red Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 43,
+     "pos": 1,
+     "src": "guess-seductive-homme-red-eau-de-toilette-100ml-01.webp",
+     "in": "guess-seductive-homme-red-eau-de-toilette-100ml-01.webp",
+     "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – red bottle with gold band",
+     "new_alt": "Guess Seductive Homme Red Eau de Toilette 100ml – red bottle with gold band",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-red-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683700611",
+     "new_media": "gid://shopify/MediaImage/74812702687619"
+    },
+    {
+     "n": 44,
+     "pos": 2,
+     "src": "guess-seductive-homme-red-eau-de-toilette-100ml-02.webp",
+     "in": "guess-seductive-homme-red-eau-de-toilette-100ml-02.webp",
+     "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with red box",
+     "new_alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-red-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683733379",
+     "new_media": "gid://shopify/MediaImage/74812702720387"
+    },
+    {
+     "n": 45,
+     "pos": 3,
+     "src": "guess-seductive-homme-red-eau-de-toilette-100ml-03.webp",
+     "in": "guess-seductive-homme-red-eau-de-toilette-100ml-03.webp",
+     "alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with orange, white blossom and geranium",
+     "new_alt": "Guess Seductive Homme Red Eau de Toilette 100ml – bottle with orange, white blossom and geranium",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-red-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600683766147",
+     "new_media": "gid://shopify/MediaImage/74812702753155"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-homme-noir-gift-set-100ml-170g",
+   "id": 16421454840195,
+   "title": "Guess Seductive Homme Noir Gift Set 100ml + 170g",
+   "images": [
+    {
+     "n": 46,
+     "pos": 1,
+     "src": "guess-seductive-homme-noir-gift-set-100ml-170g-01.webp",
+     "in": "guess-seductive-homme-noir-gift-set-100ml-170g-01.webp",
+     "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – body spray, eau de toilette and shower gel",
+     "new_alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – body spray, eau de toilette and shower gel",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-noir-gift-set-100ml-170g-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669282691",
+     "new_media": "gid://shopify/MediaImage/74812702785923"
+    },
+    {
+     "n": 47,
+     "pos": 2,
+     "src": "guess-seductive-homme-noir-gift-set-100ml-170g-02.webp",
+     "in": "guess-seductive-homme-noir-gift-set-100ml-170g-02.webp",
+     "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with black wash bag",
+     "new_alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with black wash bag",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-noir-gift-set-100ml-170g-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669315459",
+     "new_media": "gid://shopify/MediaImage/74812702818691"
+    },
+    {
+     "n": 48,
+     "pos": 3,
+     "src": "guess-seductive-homme-noir-gift-set-100ml-170g-03.webp",
+     "in": "guess-seductive-homme-noir-gift-set-100ml-170g-03.webp",
+     "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with gift box and wash bag",
+     "new_alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with gift box and wash bag",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-noir-gift-set-100ml-170g-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669348227",
+     "new_media": "gid://shopify/MediaImage/74812702851459"
+    },
+    {
+     "n": 49,
+     "pos": 4,
+     "src": "guess-seductive-homme-noir-gift-set-100ml-170g-04.webp",
+     "in": "guess-seductive-homme-noir-gift-set-100ml-170g-04.webp",
+     "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set items on the wash bag",
+     "new_alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set items on the wash bag",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "guess-seductive-homme-noir-gift-set-100ml-170g-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669380995",
+     "new_media": "gid://shopify/MediaImage/74812702884227"
+    },
+    {
+     "n": 50,
+     "pos": 5,
+     "src": "guess-seductive-homme-noir-gift-set-100ml-170g-05.webp",
+     "in": "guess-seductive-homme-noir-gift-set-100ml-170g-05.webp",
+     "alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with peppercorns, grapefruit and nutmeg",
+     "new_alt": "Guess Seductive Homme Noir Gift Set 100ml + 170g – set with peppercorns, grapefruit and nutmeg",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-homme-noir-gift-set-100ml-170g-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669413763",
+     "new_media": "gid://shopify/MediaImage/74812702916995"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-blue-fragrance-mist",
+   "id": 16421454774659,
+   "title": "Guess Seductive Blue Fragrance Mist",
+   "images": [
+    {
+     "n": 51,
+     "pos": 1,
+     "src": "guess-seductive-blue-fragrance-mist-01.webp",
+     "in": "guess-seductive-blue-fragrance-mist-01.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 125ml mist bottle",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 125ml mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677048707",
+     "new_media": "gid://shopify/MediaImage/74812703211907"
+    },
+    {
+     "n": 52,
+     "pos": 2,
+     "src": "guess-seductive-blue-fragrance-mist-02.webp",
+     "in": "guess-seductive-blue-fragrance-mist-02.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle beside its blue box",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677081475",
+     "new_media": "gid://shopify/MediaImage/74812703244675"
+    },
+    {
+     "n": 53,
+     "pos": 3,
+     "src": "guess-seductive-blue-fragrance-mist-03.webp",
+     "in": "guess-seductive-blue-fragrance-mist-03.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle with roses and peonies",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 125ml bottle with roses and peonies",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677114243",
+     "new_media": "gid://shopify/MediaImage/74812703277443"
+    },
+    {
+     "n": 54,
+     "pos": 4,
+     "src": "guess-seductive-blue-fragrance-mist-04.webp",
+     "in": "guess-seductive-blue-fragrance-mist-04.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 250ml mist bottle",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 250ml mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677147011",
+     "new_media": "gid://shopify/MediaImage/74812703310211"
+    },
+    {
+     "n": 55,
+     "pos": 5,
+     "src": "guess-seductive-blue-fragrance-mist-05.webp",
+     "in": "guess-seductive-blue-fragrance-mist-05.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle beside its blue box",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677179779",
+     "new_media": "gid://shopify/MediaImage/74812703342979"
+    },
+    {
+     "n": 56,
+     "pos": 6,
+     "src": "guess-seductive-blue-fragrance-mist-06.webp",
+     "in": "guess-seductive-blue-fragrance-mist-06.webp",
+     "alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle with roses and peonies",
+     "new_alt": "Guess Seductive Blue Fragrance Mist – 250ml bottle with roses and peonies",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-blue-fragrance-mist-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677212547",
+     "new_media": "gid://shopify/MediaImage/74812703375747"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-eau-de-toilette-75ml",
+   "id": 16421453169027,
+   "title": "Guess Seductive Eau de Toilette 75ml",
+   "images": [
+    {
+     "n": 57,
+     "pos": 1,
+     "src": "guess-seductive-eau-de-toilette-75ml-01.webp",
+     "in": "guess-seductive-eau-de-toilette-75ml-01.webp",
+     "alt": "Guess Seductive Eau de Toilette 75ml – bottle with black triangle label",
+     "new_alt": "Guess Seductive Eau de Toilette 75ml – bottle with black triangle label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-eau-de-toilette-75ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675213699",
+     "new_media": "gid://shopify/MediaImage/74812703408515"
+    },
+    {
+     "n": 58,
+     "pos": 2,
+     "src": "guess-seductive-eau-de-toilette-75ml-02.webp",
+     "in": "guess-seductive-eau-de-toilette-75ml-02.webp",
+     "alt": "Guess Seductive Eau de Toilette 75ml – bottle beside its black and cream box",
+     "new_alt": "Guess Seductive Eau de Toilette 75ml – bottle beside its black and cream box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-eau-de-toilette-75ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675246467",
+     "new_media": "gid://shopify/MediaImage/74812703441283"
+    },
+    {
+     "n": 59,
+     "pos": 3,
+     "src": "guess-seductive-eau-de-toilette-75ml-03.webp",
+     "in": "guess-seductive-eau-de-toilette-75ml-03.webp",
+     "alt": "Guess Seductive Eau de Toilette 75ml – bottle with bergamot, lime, blackcurrant and pear",
+     "new_alt": "Guess Seductive Eau de Toilette 75ml – bottle with bergamot, lime, blackcurrant and pear",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-eau-de-toilette-75ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675279235",
+     "new_media": "gid://shopify/MediaImage/74812703474051"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-body-mist",
+   "id": 16421453103491,
+   "title": "Guess Seductive Body Mist",
+   "images": [
+    {
+     "n": 60,
+     "pos": 1,
+     "src": "guess-seductive-body-mist-01.webp",
+     "in": "guess-seductive-body-mist-01.webp",
+     "alt": "Guess Seductive Body Mist – 125ml fragrance mist beside its box",
+     "new_alt": "Guess Seductive Body Mist – 125ml fragrance mist beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679702915",
+     "new_media": "gid://shopify/MediaImage/74812703506819"
+    },
+    {
+     "n": 61,
+     "pos": 2,
+     "src": "guess-seductive-body-mist-02.webp",
+     "in": "guess-seductive-body-mist-02.webp",
+     "alt": "Guess Seductive Body Mist – 125ml fragrance mist bottle",
+     "new_alt": "Guess Seductive Body Mist – 125ml fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679735683",
+     "new_media": "gid://shopify/MediaImage/74812703539587"
+    },
+    {
+     "n": 62,
+     "pos": 3,
+     "src": "guess-seductive-body-mist-03.webp",
+     "in": "guess-seductive-body-mist-03.webp",
+     "alt": "Guess Seductive Body Mist – 125ml bottle with bergamot, pear and blackcurrant",
+     "new_alt": "Guess Seductive Body Mist – 125ml bottle with bergamot, pear and blackcurrant",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679768451",
+     "new_media": "gid://shopify/MediaImage/74812703572355"
+    },
+    {
+     "n": 63,
+     "pos": 4,
+     "src": "guess-seductive-body-mist-04.webp",
+     "in": "guess-seductive-body-mist-04.webp",
+     "alt": "Guess Seductive Body Mist – 250ml fragrance mist beside its box",
+     "new_alt": "Guess Seductive Body Mist – 250ml fragrance mist beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679801219",
+     "new_media": "gid://shopify/MediaImage/74812703605123"
+    },
+    {
+     "n": 64,
+     "pos": 5,
+     "src": "guess-seductive-body-mist-05.webp",
+     "in": "guess-seductive-body-mist-05.webp",
+     "alt": "Guess Seductive Body Mist – 250ml fragrance mist bottle",
+     "new_alt": "Guess Seductive Body Mist – 250ml fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679833987",
+     "new_media": "gid://shopify/MediaImage/74812703637891"
+    },
+    {
+     "n": 65,
+     "pos": 6,
+     "src": "guess-seductive-body-mist-06.webp",
+     "in": "guess-seductive-body-mist-06.webp",
+     "alt": "Guess Seductive Body Mist – 250ml bottle with white flowers and iris",
+     "new_alt": "Guess Seductive Body Mist – 250ml bottle with white flowers and iris",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-body-mist-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679866755",
+     "new_media": "gid://shopify/MediaImage/74812703670659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml",
+   "id": 16421453005187,
+   "title": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml",
+   "images": [
+    {
+     "n": 66,
+     "pos": 1,
+     "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-01.webp",
+     "in": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-01.webp",
+     "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – gift box with pink pouch, perfume bottle, travel spray and body lotion",
+     "new_alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – gift box with pink pouch, perfume bottle, travel spray and body lotion",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677605763",
+     "new_media": "gid://shopify/MediaImage/74812703703427"
+    },
+    {
+     "n": 67,
+     "pos": 2,
+     "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-02.webp",
+     "in": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-02.webp",
+     "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and body lotion with the pink pouch",
+     "new_alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and body lotion with the pink pouch",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677638531",
+     "new_media": "gid://shopify/MediaImage/74812703736195"
+    },
+    {
+     "n": 68,
+     "pos": 3,
+     "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-03.webp",
+     "in": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-03.webp",
+     "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and 100ml body lotion",
+     "new_alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – perfume bottle, travel spray and 100ml body lotion",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677671299",
+     "new_media": "gid://shopify/MediaImage/74812703768963"
+    },
+    {
+     "n": 69,
+     "pos": 4,
+     "src": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-04.webp",
+     "in": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-04.webp",
+     "alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – set with crystal, wood, moss and cotton",
+     "new_alt": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml – set with crystal, wood and moss",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-eau-de-parfum-gift-set-75ml-15ml-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677704067",
+     "new_media": "gid://shopify/MediaImage/74812703801731"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-pink-body-mist",
+   "id": 16421452972419,
+   "title": "Guess Pink Body Mist",
+   "images": [
+    {
+     "n": 70,
+     "pos": 1,
+     "src": "guess-pink-body-mist-01.webp",
+     "in": "guess-pink-body-mist-01.webp",
+     "alt": "Guess Pink Body Mist – 125ml bottle on a plain background",
+     "new_alt": "Guess Pink Body Mist – 125ml bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686387587",
+     "new_media": "gid://shopify/MediaImage/74812703834499"
+    },
+    {
+     "n": 71,
+     "pos": 2,
+     "src": "guess-pink-body-mist-02.webp",
+     "in": "guess-pink-body-mist-02.webp",
+     "alt": "Guess Pink Body Mist – 125ml bottle with its box",
+     "new_alt": "Guess Pink Body Mist – 125ml bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686420355",
+     "new_media": "gid://shopify/MediaImage/74812703867267"
+    },
+    {
+     "n": 72,
+     "pos": 3,
+     "src": "guess-pink-body-mist-03.webp",
+     "in": "guess-pink-body-mist-03.webp",
+     "alt": "Guess Pink Body Mist – 125ml bottle with watermelon and water splash",
+     "new_alt": "Guess Pink Body Mist – 125ml bottle with watermelon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686453123",
+     "new_media": "gid://shopify/MediaImage/74812703900035"
+    },
+    {
+     "n": 73,
+     "pos": 4,
+     "src": "guess-pink-body-mist-04.webp",
+     "in": "guess-pink-body-mist-04.webp",
+     "alt": "Guess Pink Body Mist – 250ml bottle on a plain background",
+     "new_alt": "Guess Pink Body Mist – 250ml bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686485891",
+     "new_media": "gid://shopify/MediaImage/74812703932803"
+    },
+    {
+     "n": 74,
+     "pos": 5,
+     "src": "guess-pink-body-mist-05.webp",
+     "in": "guess-pink-body-mist-05.webp",
+     "alt": "Guess Pink Body Mist – 250ml bottle with its box",
+     "new_alt": "Guess Pink Body Mist – 250ml bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686518659",
+     "new_media": "gid://shopify/MediaImage/74812703965571"
+    },
+    {
+     "n": 75,
+     "pos": 6,
+     "src": "guess-pink-body-mist-06.webp",
+     "in": "guess-pink-body-mist-06.webp",
+     "alt": "Guess Pink Body Mist – 250ml bottle with amber, moss and wood",
+     "new_alt": "Guess Pink Body Mist – 250ml bottle with amber, moss and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-pink-body-mist-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686551427",
+     "new_media": "gid://shopify/MediaImage/74812703998339"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-mykonos-breeze-shimmer-body-mist-250ml",
+   "id": 16421452939651,
+   "title": "Guess Mykonos Breeze Shimmer Body Mist 250ml",
+   "images": [
+    {
+     "n": 76,
+     "pos": 1,
+     "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-01.webp",
+     "in": "guess-mykonos-breeze-shimmer-body-mist-250ml-01.webp",
+     "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – blue shimmer fragrance mist bottle",
+     "new_alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – blue shimmer fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-mykonos-breeze-shimmer-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669184387",
+     "new_media": "gid://shopify/MediaImage/74812704031107"
+    },
+    {
+     "n": 77,
+     "pos": 2,
+     "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-02.webp",
+     "in": "guess-mykonos-breeze-shimmer-body-mist-250ml-02.webp",
+     "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with blue patterned box",
+     "new_alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with blue patterned box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-mykonos-breeze-shimmer-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669217155",
+     "new_media": "gid://shopify/MediaImage/74812704063875"
+    },
+    {
+     "n": 78,
+     "pos": 3,
+     "src": "guess-mykonos-breeze-shimmer-body-mist-250ml-03.webp",
+     "in": "guess-mykonos-breeze-shimmer-body-mist-250ml-03.webp",
+     "alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with watermelon and pear",
+     "new_alt": "Guess Mykonos Breeze Shimmer Body Mist 250ml – bottle with watermelon and pear",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-mykonos-breeze-shimmer-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669249923",
+     "new_media": "gid://shopify/MediaImage/74812704096643"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-miami-vibes-shimmer-body-mist-250ml",
+   "id": 16421452022147,
+   "title": "Guess Miami Vibes Shimmer Body Mist 250ml",
+   "images": [
+    {
+     "n": 79,
+     "pos": 1,
+     "src": "guess-miami-ribes-shimmer-body-mist-250ml-01.webp",
+     "in": "guess-miami-vibes-shimmer-body-mist-250ml-01.webp",
+     "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – 250ml shimmer mist bottle with seashell print",
+     "new_alt": "Guess Miami Vibes Shimmer Body Mist 250ml – 250ml shimmer mist bottle with seashell print",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-miami-vibes-shimmer-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676950403",
+     "new_media": "gid://shopify/MediaImage/74812704129411"
+    },
+    {
+     "n": 80,
+     "pos": 2,
+     "src": "guess-miami-ribes-shimmer-body-mist-250ml-02.webp",
+     "in": "guess-miami-vibes-shimmer-body-mist-250ml-02.webp",
+     "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – bottle beside its seashell-print box",
+     "new_alt": "Guess Miami Vibes Shimmer Body Mist 250ml – bottle with strawberries, blackberries and a glass of iced drink",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-miami-vibes-shimmer-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676983171",
+     "new_media": "gid://shopify/MediaImage/74812704162179"
+    },
+    {
+     "n": 81,
+     "pos": 3,
+     "src": "guess-miami-ribes-shimmer-body-mist-250ml-03.webp",
+     "in": "guess-miami-vibes-shimmer-body-mist-250ml-03.webp",
+     "alt": "Guess Miami Ribes Shimmer Body Mist 250ml – bottle with strawberries, blackberries and a glass of iced drink",
+     "new_alt": "Guess Miami Vibes Shimmer Body Mist 250ml – bottle beside its seashell-print box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-miami-vibes-shimmer-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677015939",
+     "new_media": "gid://shopify/MediaImage/74812704194947"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-love-sunkissed-flirtation-body-mist-250ml",
+   "id": 16421451989379,
+   "title": "Guess Love Sunkissed Flirtation Body Mist 250ml",
+   "images": [
+    {
+     "n": 82,
+     "pos": 1,
+     "src": "guess-love-sunkissed-flirtation-body-mist-250ml-01.webp",
+     "in": "guess-love-sunkissed-flirtation-body-mist-250ml-01.webp",
+     "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – orange floral fragrance mist bottle",
+     "new_alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – orange floral fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sunkissed-flirtation-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675115395",
+     "new_media": "gid://shopify/MediaImage/74812704358787"
+    },
+    {
+     "n": 83,
+     "pos": 2,
+     "src": "guess-love-sunkissed-flirtation-body-mist-250ml-02.webp",
+     "in": "guess-love-sunkissed-flirtation-body-mist-250ml-02.webp",
+     "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle beside its orange box",
+     "new_alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle beside its orange box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sunkissed-flirtation-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675148163",
+     "new_media": "gid://shopify/MediaImage/74812704391555"
+    },
+    {
+     "n": 84,
+     "pos": 3,
+     "src": "guess-love-sunkissed-flirtation-body-mist-250ml-03.webp",
+     "in": "guess-love-sunkissed-flirtation-body-mist-250ml-03.webp",
+     "alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle with apricots, cherries and blossom",
+     "new_alt": "Guess Love Sunkissed Flirtation Body Mist 250ml – bottle with apricots, cherries and blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sunkissed-flirtation-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675180931",
+     "new_media": "gid://shopify/MediaImage/74812704424323"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-love-sheer-attraction-body-mist-250ml",
+   "id": 16421451923843,
+   "title": "Guess Love Sheer Attraction Body Mist 250ml",
+   "images": [
+    {
+     "n": 85,
+     "pos": 1,
+     "src": "guess-love-sheer-attraction-body-mist-250ml-01.webp",
+     "in": "guess-love-sheer-attraction-body-mist-250ml-01.webp",
+     "alt": "Guess Love Sheer Attraction Body Mist 250ml – floral fragrance mist bottle with gold cap beside it",
+     "new_alt": "Guess Love Sheer Attraction Body Mist 250ml – floral fragrance mist bottle with gold cap beside it",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sheer-attraction-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679604611",
+     "new_media": "gid://shopify/MediaImage/74812704457091"
+    },
+    {
+     "n": 86,
+     "pos": 2,
+     "src": "guess-love-sheer-attraction-body-mist-250ml-02.webp",
+     "in": "guess-love-sheer-attraction-body-mist-250ml-02.webp",
+     "alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle beside its floral box",
+     "new_alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle beside its floral box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sheer-attraction-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679637379",
+     "new_media": "gid://shopify/MediaImage/74812704489859"
+    },
+    {
+     "n": 87,
+     "pos": 3,
+     "src": "guess-love-sheer-attraction-body-mist-250ml-03.webp",
+     "in": "guess-love-sheer-attraction-body-mist-250ml-03.webp",
+     "alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle with peach and blossoms",
+     "new_alt": "Guess Love Sheer Attraction Body Mist 250ml – bottle with peach and blossoms",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-sheer-attraction-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679670147",
+     "new_media": "gid://shopify/MediaImage/74812704522627"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-love-romantic-blush-body-mist-250ml",
+   "id": 16421451891075,
+   "title": "Guess Love Romantic Blush Body Mist 250ml",
+   "images": [
+    {
+     "n": 88,
+     "pos": 1,
+     "src": "guess-love-romantic-blush-body-mist-250ml-01.webp",
+     "in": "guess-love-romantic-blush-body-mist-250ml-01.webp",
+     "alt": "Guess Love Romantic Blush Body Mist 250ml – pink floral fragrance mist bottle",
+     "new_alt": "Guess Love Romantic Blush Body Mist 250ml – pink floral fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-romantic-blush-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677507459",
+     "new_media": "gid://shopify/MediaImage/74812719104387"
+    },
+    {
+     "n": 89,
+     "pos": 2,
+     "src": "guess-love-romantic-blush-body-mist-250ml-02.webp",
+     "in": "guess-love-romantic-blush-body-mist-250ml-02.webp",
+     "alt": "Guess Love Romantic Blush Body Mist 250ml – bottle beside its pink floral box",
+     "new_alt": "Guess Love Romantic Blush Body Mist 250ml – bottle beside its pink floral box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-romantic-blush-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677540227",
+     "new_media": "gid://shopify/MediaImage/74812719137155"
+    },
+    {
+     "n": 90,
+     "pos": 3,
+     "src": "guess-love-romantic-blush-body-mist-250ml-03.webp",
+     "in": "guess-love-romantic-blush-body-mist-250ml-03.webp",
+     "alt": "Guess Love Romantic Blush Body Mist 250ml – bottle with quince, blossom, salt and a water splash",
+     "new_alt": "Guess Love Romantic Blush Body Mist 250ml – bottle with quince, blossom and salt",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-romantic-blush-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677572995",
+     "new_media": "gid://shopify/MediaImage/74812719169923"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-love-passion-kiss-body-mist-250ml",
+   "id": 16421451858307,
+   "title": "Guess Love Passion Kiss Body Mist 250ml",
+   "images": [
+    {
+     "n": 91,
+     "pos": 1,
+     "src": "guess-love-passion-kiss-body-mist-250ml-01.webp",
+     "in": "guess-love-passion-kiss-body-mist-250ml-01.webp",
+     "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle on a plain background",
+     "new_alt": "Guess Love Passion Kiss Body Mist 250ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-passion-kiss-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686289283",
+     "new_media": "gid://shopify/MediaImage/74812719202691"
+    },
+    {
+     "n": 92,
+     "pos": 2,
+     "src": "guess-love-passion-kiss-body-mist-250ml-02.webp",
+     "in": "guess-love-passion-kiss-body-mist-250ml-02.webp",
+     "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with its box",
+     "new_alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-passion-kiss-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686322051",
+     "new_media": "gid://shopify/MediaImage/74812719235459"
+    },
+    {
+     "n": 93,
+     "pos": 3,
+     "src": "guess-love-passion-kiss-body-mist-250ml-03.webp",
+     "in": "guess-love-passion-kiss-body-mist-250ml-03.webp",
+     "alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with grapefruit, orange and raspberries",
+     "new_alt": "Guess Love Passion Kiss Body Mist 250ml – bottle with grapefruit, orange and raspberries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-passion-kiss-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686354819",
+     "new_media": "gid://shopify/MediaImage/74812719268227"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-love-nirvana-dream-body-mist-250ml",
+   "id": 16421451202947,
+   "title": "Guess Love Nirvana Dream Body Mist 250ml",
+   "images": [
+    {
+     "n": 94,
+     "pos": 1,
+     "src": "guess-love-nirvana-dream-body-mist-250ml-01.webp",
+     "in": "guess-love-nirvana-dream-body-mist-250ml-01.webp",
+     "alt": "Guess Love Nirvana Dream Body Mist 250ml – purple fragrance mist bottle",
+     "new_alt": "Guess Love Nirvana Dream Body Mist 250ml – purple fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-nirvana-dream-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669086083",
+     "new_media": "gid://shopify/MediaImage/74812719300995"
+    },
+    {
+     "n": 95,
+     "pos": 2,
+     "src": "guess-love-nirvana-dream-body-mist-250ml-02.webp",
+     "in": "guess-love-nirvana-dream-body-mist-250ml-02.webp",
+     "alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with floral box",
+     "new_alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with floral box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-nirvana-dream-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669118851",
+     "new_media": "gid://shopify/MediaImage/74812719333763"
+    },
+    {
+     "n": 96,
+     "pos": 3,
+     "src": "guess-love-nirvana-dream-body-mist-250ml-03.webp",
+     "in": "guess-love-nirvana-dream-body-mist-250ml-03.webp",
+     "alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with raspberries, plum and apple",
+     "new_alt": "Guess Love Nirvana Dream Body Mist 250ml – bottle with raspberries, plum and apple",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-love-nirvana-dream-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669151619",
+     "new_media": "gid://shopify/MediaImage/74812719366531"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-ibiza-radiant-shimmer-body-mist-250ml",
+   "id": 16421451170179,
+   "title": "Guess Ibiza Radiant Shimmer Body Mist 250ml",
+   "images": [
+    {
+     "n": 97,
+     "pos": 1,
+     "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-01.webp",
+     "in": "guess-ibiza-radiant-shimmer-body-mist-250ml-01.webp",
+     "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – orange 250ml shimmer mist bottle",
+     "new_alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – orange 250ml shimmer mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-ibiza-radiant-shimmer-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676852099",
+     "new_media": "gid://shopify/MediaImage/74812719759747"
+    },
+    {
+     "n": 98,
+     "pos": 2,
+     "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-02.webp",
+     "in": "guess-ibiza-radiant-shimmer-body-mist-250ml-02.webp",
+     "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle beside its tropical-print box",
+     "new_alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle beside its tropical-print box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-ibiza-radiant-shimmer-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676884867",
+     "new_media": "gid://shopify/MediaImage/74812719792515"
+    },
+    {
+     "n": 99,
+     "pos": 3,
+     "src": "guess-ibiza-radiant-shimmer-body-mist-250ml-03.webp",
+     "in": "guess-ibiza-radiant-shimmer-body-mist-250ml-03.webp",
+     "alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle with white flowers",
+     "new_alt": "Guess Ibiza Radiant Shimmer Body Mist 250ml – bottle with white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-ibiza-radiant-shimmer-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676917635",
+     "new_media": "gid://shopify/MediaImage/74812719825283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-man-eau-de-toilette-150ml",
+   "id": 16421451137411,
+   "title": "Guess Man Eau de Toilette 150ml",
+   "images": [
+    {
+     "n": 100,
+     "pos": 1,
+     "src": "guess-green-eau-de-toilette-150ml-01.webp",
+     "in": "guess-man-eau-de-toilette-150ml-01.webp",
+     "alt": "Guess Green Eau de Toilette 150ml – silver and green bottle",
+     "new_alt": "Guess Man Eau de Toilette 150ml – silver and green bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-man-eau-de-toilette-150ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674984323",
+     "new_media": "gid://shopify/MediaImage/74812719858051"
+    },
+    {
+     "n": 101,
+     "pos": 2,
+     "src": "guess-green-eau-de-toilette-150ml-02.webp",
+     "in": "guess-man-eau-de-toilette-150ml-02.webp",
+     "alt": "Guess Green Eau de Toilette 150ml – bottle beside its green box",
+     "new_alt": "Guess Man Eau de Toilette 150ml – bottle beside its green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-man-eau-de-toilette-150ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675017091",
+     "new_media": "gid://shopify/MediaImage/74812719890819"
+    },
+    {
+     "n": 102,
+     "pos": 3,
+     "src": "guess-green-eau-de-toilette-150ml-03.webp",
+     "in": "guess-man-eau-de-toilette-150ml-03.webp",
+     "alt": "Guess Green Eau de Toilette 150ml – bottle with pine, wood and amber",
+     "new_alt": "Guess Man Eau de Toilette 150ml – bottle with wood and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-man-eau-de-toilette-150ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600675049859",
+     "new_media": "gid://shopify/MediaImage/74812719923587"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-girl-belle-eau-de-toilette-100ml",
+   "id": 16421451071875,
+   "title": "Guess Girl Belle Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 103,
+     "pos": 1,
+     "src": "guess-girl-belle-eau-de-toilette-100ml-01.webp",
+     "in": "guess-girl-belle-eau-de-toilette-100ml-01.webp",
+     "alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle beside its box",
+     "new_alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679473539",
+     "new_media": "gid://shopify/MediaImage/74812719956355"
+    },
+    {
+     "n": 104,
+     "pos": 2,
+     "src": "guess-girl-belle-eau-de-toilette-100ml-02.webp",
+     "in": "guess-girl-belle-eau-de-toilette-100ml-02.webp",
+     "alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle with ruffled cap",
+     "new_alt": "Guess Girl Belle Eau de Toilette 100ml – purple bottle with ruffled cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679506307",
+     "new_media": "gid://shopify/MediaImage/74812719989123"
+    },
+    {
+     "n": 105,
+     "pos": 3,
+     "src": "guess-girl-belle-eau-de-toilette-100ml-03.webp",
+     "in": "guess-girl-belle-eau-de-toilette-100ml-03.webp",
+     "alt": "Guess Girl Belle Eau de Toilette 100ml – bottle at an angle",
+     "new_alt": "Guess Girl Belle Eau de Toilette 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679539075",
+     "new_media": "gid://shopify/MediaImage/74812720021891"
+    },
+    {
+     "n": 106,
+     "pos": 4,
+     "src": "guess-girl-belle-eau-de-toilette-100ml-04.webp",
+     "in": "guess-girl-belle-eau-de-toilette-100ml-04.webp",
+     "alt": "Guess Girl Belle Eau de Toilette 100ml – bottle with berries and a glass of sparkling wine",
+     "new_alt": "Guess Girl Belle Eau de Toilette 100ml – bottle with berries and a glass of sparkling wine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-eau-de-toilette-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679571843",
+     "new_media": "gid://shopify/MediaImage/74812720054659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-girl-belle-body-mist-250ml",
+   "id": 16421451039107,
+   "title": "Guess Girl Belle Body Mist 250ml",
+   "images": [
+    {
+     "n": 107,
+     "pos": 1,
+     "src": "guess-girl-belle-body-mist-250ml-01.webp",
+     "in": "guess-girl-belle-body-mist-250ml-01.webp",
+     "alt": "Guess Girl Belle Body Mist 250ml – purple and gold fragrance mist bottle",
+     "new_alt": "Guess Girl Belle Body Mist 250ml – purple and gold fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677245315",
+     "new_media": "gid://shopify/MediaImage/74812720087427"
+    },
+    {
+     "n": 108,
+     "pos": 2,
+     "src": "guess-girl-belle-body-mist-250ml-02.webp",
+     "in": "guess-girl-belle-body-mist-250ml-02.webp",
+     "alt": "Guess Girl Belle Body Mist 250ml – bottle beside its purple box",
+     "new_alt": "Guess Girl Belle Body Mist 250ml – bottle beside its purple box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677278083",
+     "new_media": "gid://shopify/MediaImage/74812720120195"
+    },
+    {
+     "n": 109,
+     "pos": 3,
+     "src": "guess-girl-belle-body-mist-250ml-03.webp",
+     "in": "guess-girl-belle-body-mist-250ml-03.webp",
+     "alt": "Guess Girl Belle Body Mist 250ml – bottle with berries and a glass of sparkling wine",
+     "new_alt": "Guess Girl Belle Body Mist 250ml – bottle with berries and a glass of sparkling wine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-belle-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600677310851",
+     "new_media": "gid://shopify/MediaImage/74812720152963"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-girl-body-mist-250ml",
+   "id": 16421449826691,
+   "title": "Guess Girl Body Mist 250ml",
+   "images": [
+    {
+     "n": 110,
+     "pos": 1,
+     "src": "guess-girl-body-mist-250ml-01.webp",
+     "in": "guess-girl-body-mist-250ml-01.webp",
+     "alt": "Guess Girl Body Mist 250ml – bottle on a plain background",
+     "new_alt": "Guess Girl Body Mist 250ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686190979",
+     "new_media": "gid://shopify/MediaImage/74812720185731"
+    },
+    {
+     "n": 111,
+     "pos": 2,
+     "src": "guess-girl-body-mist-250ml-02.webp",
+     "in": "guess-girl-body-mist-250ml-02.webp",
+     "alt": "Guess Girl Body Mist 250ml – bottle with its box",
+     "new_alt": "Guess Girl Body Mist 250ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686223747",
+     "new_media": "gid://shopify/MediaImage/74812720218499"
+    },
+    {
+     "n": 112,
+     "pos": 3,
+     "src": "guess-girl-body-mist-250ml-03.webp",
+     "in": "guess-girl-body-mist-250ml-03.webp",
+     "alt": "Guess Girl Body Mist 250ml – bottle with melon, raspberries and lime",
+     "new_alt": "Guess Girl Body Mist 250ml – bottle with melon, raspberries and lime",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-girl-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686256515",
+     "new_media": "gid://shopify/MediaImage/74812720251267"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-dare-eau-de-toilette-100ml",
+   "id": 16421449793923,
+   "title": "Guess Dare Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 113,
+     "pos": 1,
+     "src": "guess-dare-eau-de-toilette-100ml-01.webp",
+     "in": "guess-dare-eau-de-toilette-100ml-01.webp",
+     "alt": "Guess Dare Eau de Toilette 100ml – faceted pink bottle",
+     "new_alt": "Guess Dare Eau de Toilette 100ml – faceted pink bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-dare-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668955011",
+     "new_media": "gid://shopify/MediaImage/74812720316803"
+    },
+    {
+     "n": 114,
+     "pos": 2,
+     "src": "guess-dare-eau-de-toilette-100ml-02.webp",
+     "in": "guess-dare-eau-de-toilette-100ml-02.webp",
+     "alt": "Guess Dare Eau de Toilette 100ml – bottle with denim-look box",
+     "new_alt": "Guess Dare Eau de Toilette 100ml – bottle with denim-look box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-dare-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668987779",
+     "new_media": "gid://shopify/MediaImage/74812720349571"
+    },
+    {
+     "n": 115,
+     "pos": 3,
+     "src": "guess-dare-eau-de-toilette-100ml-03.webp",
+     "in": "guess-dare-eau-de-toilette-100ml-03.webp",
+     "alt": "Guess Dare Eau de Toilette 100ml – bottle with grapefruit, apple and lychee",
+     "new_alt": "Guess Dare Eau de Toilette 100ml – bottle with grapefruit, apple and lychee",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-dare-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600669020547",
+     "new_media": "gid://shopify/MediaImage/74812720382339"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-bella-vita-rosa-shimmer-body-mist-250ml",
+   "id": 16421449761155,
+   "title": "Guess Bella Vita Rosa Shimmer Body Mist 250ml",
+   "images": [
+    {
+     "n": 116,
+     "pos": 1,
+     "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-01.webp",
+     "in": "guess-bella-vita-rosa-shimmer-body-mist-250ml-01.webp",
+     "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – pink 250ml shimmer mist bottle",
+     "new_alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – pink 250ml shimmer mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-shimmer-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676688259",
+     "new_media": "gid://shopify/MediaImage/74812720415107"
+    },
+    {
+     "n": 117,
+     "pos": 2,
+     "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-02.webp",
+     "in": "guess-bella-vita-rosa-shimmer-body-mist-250ml-02.webp",
+     "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle beside its pink box",
+     "new_alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-shimmer-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676721027",
+     "new_media": "gid://shopify/MediaImage/74812720447875"
+    },
+    {
+     "n": 118,
+     "pos": 3,
+     "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-03.webp",
+     "in": "guess-bella-vita-rosa-shimmer-body-mist-250ml-03.webp",
+     "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle with grapefruit, raspberries and lime",
+     "new_alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle with grapefruit, raspberries and lime",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-shimmer-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676753795",
+     "new_media": "gid://shopify/MediaImage/74812720480643"
+    },
+    {
+     "n": 119,
+     "pos": 4,
+     "src": "guess-bella-vita-rosa-shimmer-body-mist-250ml-04.webp",
+     "in": "guess-bella-vita-rosa-shimmer-body-mist-250ml-04.webp",
+     "alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle tilted at an angle",
+     "new_alt": "Guess Bella Vita Rosa Shimmer Body Mist 250ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-shimmer-body-mist-250ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676786563",
+     "new_media": "gid://shopify/MediaImage/74812720513411"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-bella-vita-rosa-body-mist-250ml",
+   "id": 16421449728387,
+   "title": "Guess Bella Vita Rosa Body Mist 250ml",
+   "images": [
+    {
+     "n": 120,
+     "pos": 1,
+     "src": "guess-bella-vita-rosa-body-mist-250ml-01.webp",
+     "in": "guess-bella-vita-rosa-body-mist-250ml-01.webp",
+     "alt": "Guess Bella Vita Rosa Body Mist 250ml – pink fragrance mist bottle 250ml",
+     "new_alt": "Guess Bella Vita Rosa Body Mist 250ml – pink fragrance mist bottle 250ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679375235",
+     "new_media": "gid://shopify/MediaImage/74812721136003"
+    },
+    {
+     "n": 121,
+     "pos": 2,
+     "src": "guess-bella-vita-rosa-body-mist-250ml-02.webp",
+     "in": "guess-bella-vita-rosa-body-mist-250ml-02.webp",
+     "alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle beside its pink box",
+     "new_alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679408003",
+     "new_media": "gid://shopify/MediaImage/74812721168771"
+    },
+    {
+     "n": 122,
+     "pos": 3,
+     "src": "guess-bella-vita-rosa-body-mist-250ml-03.webp",
+     "in": "guess-bella-vita-rosa-body-mist-250ml-03.webp",
+     "alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle with grapefruit, raspberries and lime",
+     "new_alt": "Guess Bella Vita Rosa Body Mist 250ml – bottle with grapefruit, raspberries and lime",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-rosa-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600679440771",
+     "new_media": "gid://shopify/MediaImage/74812721201539"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-bella-vita-body-mist-250ml",
+   "id": 16421449695619,
+   "title": "Guess Bella Vita Body Mist 250ml",
+   "images": [
+    {
+     "n": 123,
+     "pos": 1,
+     "src": "guess-bella-vita-body-mist-250ml-01.webp",
+     "in": "guess-bella-vita-body-mist-250ml-01.webp",
+     "alt": "Guess Bella Vita Body Mist 250ml – gold fragrance mist bottle",
+     "new_alt": "Guess Bella Vita Body Mist 250ml – gold fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666956163",
+     "new_media": "gid://shopify/MediaImage/74812721627523"
+    },
+    {
+     "n": 124,
+     "pos": 2,
+     "src": "guess-bella-vita-body-mist-250ml-02.webp",
+     "in": "guess-bella-vita-body-mist-250ml-02.webp",
+     "alt": "Guess Bella Vita Body Mist 250ml – bottle beside its gold Bella Vita box",
+     "new_alt": "Guess Bella Vita Body Mist 250ml – bottle beside its gold Bella Vita box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666988931",
+     "new_media": "gid://shopify/MediaImage/74812721660291"
+    },
+    {
+     "n": 125,
+     "pos": 3,
+     "src": "guess-bella-vita-body-mist-250ml-03.webp",
+     "in": "guess-bella-vita-body-mist-250ml-03.webp",
+     "alt": "Guess Bella Vita Body Mist 250ml – bottle with cherries, blackcurrants and lemon",
+     "new_alt": "Guess Bella Vita Body Mist 250ml – bottle with cherries, blackcurrants and lemon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600667021699",
+     "new_media": "gid://shopify/MediaImage/74812721693059"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-bella-vita-shimmer-body-mist-250ml",
+   "id": 16421448384899,
+   "title": "Guess Bella Vita Shimmer Body Mist 250ml",
+   "images": [
+    {
+     "n": 126,
+     "pos": 1,
+     "src": "guess-bella-vita-shimmer-body-mist-250ml-01.webp",
+     "in": "guess-bella-vita-shimmer-body-mist-250ml-01.webp",
+     "alt": "Guess Bella Vita Shimmer Body Mist 250ml – gold shimmer fragrance mist bottle",
+     "new_alt": "Guess Bella Vita Shimmer Body Mist 250ml – gold shimmer fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-shimmer-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674886019",
+     "new_media": "gid://shopify/MediaImage/74812721758595"
+    },
+    {
+     "n": 127,
+     "pos": 2,
+     "src": "guess-bella-vita-shimmer-body-mist-250ml-02.webp",
+     "in": "guess-bella-vita-shimmer-body-mist-250ml-02.webp",
+     "alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle beside its gold box",
+     "new_alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-shimmer-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674918787",
+     "new_media": "gid://shopify/MediaImage/74812721791363"
+    },
+    {
+     "n": 128,
+     "pos": 3,
+     "src": "guess-bella-vita-shimmer-body-mist-250ml-03.webp",
+     "in": "guess-bella-vita-shimmer-body-mist-250ml-03.webp",
+     "alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle with cherries, blackcurrants and lemon",
+     "new_alt": "Guess Bella Vita Shimmer Body Mist 250ml – bottle with cherries, blackcurrants and lemon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-bella-vita-shimmer-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674951555",
+     "new_media": "gid://shopify/MediaImage/74812721824131"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-amore-venezia-eau-de-toilette-100ml",
+   "id": 16421448319363,
+   "title": "Guess Amore Venezia Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 129,
+     "pos": 1,
+     "src": "guess-amore-venezia-eau-de-toilette-100ml-01.webp",
+     "in": "guess-amore-venezia-eau-de-toilette-100ml-01.webp",
+     "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle on a plain background",
+     "new_alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-amore-venezia-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600672133507",
+     "new_media": "gid://shopify/MediaImage/74812721856899"
+    },
+    {
+     "n": 130,
+     "pos": 2,
+     "src": "guess-amore-venezia-eau-de-toilette-100ml-02.webp",
+     "in": "guess-amore-venezia-eau-de-toilette-100ml-02.webp",
+     "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with its box",
+     "new_alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-amore-venezia-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600672166275",
+     "new_media": "gid://shopify/MediaImage/74812721889667"
+    },
+    {
+     "n": 131,
+     "pos": 3,
+     "src": "guess-amore-venezia-eau-de-toilette-100ml-03.webp",
+     "in": "guess-amore-venezia-eau-de-toilette-100ml-03.webp",
+     "alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with pink peppercorns, lime and berries",
+     "new_alt": "Guess Amore Venezia Eau de Toilette 100ml – bottle with pink peppercorns, lime and berries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-amore-venezia-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600672199043",
+     "new_media": "gid://shopify/MediaImage/74812721922435"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-1981-los-angeles-body-mist-250ml",
+   "id": 16421448253827,
+   "title": "Guess 1981 Los Angeles Body Mist 250ml",
+   "images": [
+    {
+     "n": 132,
+     "pos": 1,
+     "src": "guess-1981-los-angeles-body-mist-250ml-01.webp",
+     "in": "guess-1981-los-angeles-body-mist-250ml-01.webp",
+     "alt": "Guess 1981 Los Angeles Body Mist 250ml – 250ml fragrance mist bottle",
+     "new_alt": "Guess 1981 Los Angeles Body Mist 250ml – 250ml fragrance mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-los-angeles-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668791171",
+     "new_media": "gid://shopify/MediaImage/74812733784451"
+    },
+    {
+     "n": 133,
+     "pos": 2,
+     "src": "guess-1981-los-angeles-body-mist-250ml-02.webp",
+     "in": "guess-1981-los-angeles-body-mist-250ml-02.webp",
+     "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with sunset box",
+     "new_alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with sunset box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-los-angeles-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668823939",
+     "new_media": "gid://shopify/MediaImage/74812733817219"
+    },
+    {
+     "n": 134,
+     "pos": 3,
+     "src": "guess-1981-los-angeles-body-mist-250ml-03.webp",
+     "in": "guess-1981-los-angeles-body-mist-250ml-03.webp",
+     "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with violets and pink flowers",
+     "new_alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle with violets and pink flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-los-angeles-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668856707",
+     "new_media": "gid://shopify/MediaImage/74812733849987"
+    },
+    {
+     "n": 135,
+     "pos": 4,
+     "src": "guess-1981-los-angeles-body-mist-250ml-04.webp",
+     "in": "guess-1981-los-angeles-body-mist-250ml-04.webp",
+     "alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle tilted at an angle",
+     "new_alt": "Guess 1981 Los Angeles Body Mist 250ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-los-angeles-body-mist-250ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668889475",
+     "new_media": "gid://shopify/MediaImage/74812733882755"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-1981-indigo-body-mist-250ml",
+   "id": 16421448221059,
+   "title": "Guess 1981 Indigo Body Mist 250ml",
+   "images": [
+    {
+     "n": 136,
+     "pos": 1,
+     "src": "guess-1981-indigo-body-mist-250ml-01.webp",
+     "in": "guess-1981-indigo-body-mist-250ml-01.webp",
+     "alt": "Guess 1981 Indigo Body Mist 250ml – blue 250ml mist bottle",
+     "new_alt": "Guess 1981 Indigo Body Mist 250ml – blue 250ml mist bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-indigo-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676589955",
+     "new_media": "gid://shopify/MediaImage/74812734177667"
+    },
+    {
+     "n": 137,
+     "pos": 2,
+     "src": "guess-1981-indigo-body-mist-250ml-02.webp",
+     "in": "guess-1981-indigo-body-mist-250ml-02.webp",
+     "alt": "Guess 1981 Indigo Body Mist 250ml – bottle beside its blue box",
+     "new_alt": "Guess 1981 Indigo Body Mist 250ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-indigo-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676622723",
+     "new_media": "gid://shopify/MediaImage/74812734210435"
+    },
+    {
+     "n": 138,
+     "pos": 3,
+     "src": "guess-1981-indigo-body-mist-250ml-03.webp",
+     "in": "guess-1981-indigo-body-mist-250ml-03.webp",
+     "alt": "Guess 1981 Indigo Body Mist 250ml – bottle with figs, lilac and water splash",
+     "new_alt": "Guess 1981 Indigo Body Mist 250ml – bottle with figs, lilac and water splash",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-indigo-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676655491",
+     "new_media": "gid://shopify/MediaImage/74812734243203"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-1981-body-mist-250ml",
+   "id": 16421448188291,
+   "title": "Guess 1981 Body Mist 250ml",
+   "images": [
+    {
+     "n": 139,
+     "pos": 1,
+     "src": "guess-1981-body-mist-250ml-01.webp",
+     "in": "guess-1981-body-mist-250ml-01.webp",
+     "alt": "Guess 1981 Body Mist 250ml – peach fragrance mist bottle",
+     "new_alt": "Guess 1981 Body Mist 250ml – peach fragrance mist bottle",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "guess-1981-body-mist-250ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674722179",
+     "new_media": "gid://shopify/MediaImage/74812734275971"
+    },
+    {
+     "n": 140,
+     "pos": 2,
+     "src": "guess-1981-body-mist-250ml-02.webp",
+     "in": "guess-1981-body-mist-250ml-02.webp",
+     "alt": "Guess 1981 Body Mist 250ml – bottle beside its peach box",
+     "new_alt": "Guess 1981 Body Mist 250ml – bottle beside its peach box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-body-mist-250ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674754947",
+     "new_media": "gid://shopify/MediaImage/74812734308739"
+    },
+    {
+     "n": 141,
+     "pos": 3,
+     "src": "guess-1981-body-mist-250ml-03.webp",
+     "in": "guess-1981-body-mist-250ml-03.webp",
+     "alt": "Guess 1981 Body Mist 250ml – bottle with rocks",
+     "new_alt": "Guess 1981 Body Mist 250ml – peach bottle with a rose-gold pump",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-body-mist-250ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674787715",
+     "new_media": "gid://shopify/MediaImage/74812734341507"
+    },
+    {
+     "n": 142,
+     "pos": 4,
+     "src": "guess-1981-body-mist-250ml-04.webp",
+     "in": "guess-1981-body-mist-250ml-04.webp",
+     "alt": "Guess 1981 Body Mist 250ml – bottle with violets, pear and nuts",
+     "new_alt": "Guess 1981 Body Mist 250ml – bottle with violets, pear and nuts",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-1981-body-mist-250ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600674820483",
+     "new_media": "gid://shopify/MediaImage/74812734374275"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml",
+   "id": 16421447532931,
+   "title": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml",
+   "images": [
+    {
+     "n": 143,
+     "pos": 1,
+     "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-01.webp",
+     "in": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-01.webp",
+     "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift set box on a plain background",
+     "new_alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift set box on a plain background",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686682499",
+     "new_media": "gid://shopify/MediaImage/74812734407043"
+    },
+    {
+     "n": 144,
+     "pos": 2,
+     "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-02.webp",
+     "in": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-02.webp",
+     "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift box beside the four mini sprays",
+     "new_alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – gift box beside the four mini sprays",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686715267",
+     "new_media": "gid://shopify/MediaImage/74812734439811"
+    },
+    {
+     "n": 145,
+     "pos": 3,
+     "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-03.webp",
+     "in": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-03.webp",
+     "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays: Seductive, Noir, Red and Blue",
+     "new_alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays: Seductive, Noir, Red and Blue",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686748035",
+     "new_media": "gid://shopify/MediaImage/74812734472579"
+    },
+    {
+     "n": 146,
+     "pos": 4,
+     "src": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-04.webp",
+     "in": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-04.webp",
+     "alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays with flowers and vanilla",
+     "new_alt": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml – four mini sprays with flowers and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guess-seductive-eau-de-toilette-gift-set-seductive-noir-red-blue-4-x-15ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600686780803",
+     "new_media": "gid://shopify/MediaImage/74812734505347"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
