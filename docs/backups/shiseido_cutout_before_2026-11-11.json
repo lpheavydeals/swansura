@@ -1,0 +1,251 @@
+{
+ "note": "Skincare cut-out roll-out 2026-11-11: only the photos classified 'cut' were replaced; graphics untouched. Undo: fileUpdate referencesToAdd the 'detached' originals back, detach media whose file ends -cutout.webp, restore 'variant_links' (old) and the original order (gallery pos).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Shiseido Zen Eau de Parfum 100ml – bottle with wood, cypress and white musk",
+   "11": "Shiseido Complete Cleansing Microfoam 180ml – bottle with rice stalks and rice grains"
+  },
+  "skip_products": [],
+  "notes": "4, 11 lost part of the props"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16378710065539",
+   "media": "gid://shopify/MediaImage/74292427227523",
+   "src": "shiseido-zen-eau-de-parfum-100ml-1.webp",
+   "alt": "Shiseido Zen Eau de Parfum 100ml – square gold glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16378710065539",
+   "media": "gid://shopify/MediaImage/74292427260291",
+   "src": "shiseido-zen-eau-de-parfum-100ml-2.webp",
+   "alt": "Shiseido Zen Eau de Parfum 100ml – gold bottle with the spray uncapped, angled view"
+  },
+  {
+   "product": "gid://shopify/Product/16378710065539",
+   "media": "gid://shopify/MediaImage/74292427293059",
+   "src": "shiseido-zen-eau-de-parfum-100ml-3.webp",
+   "alt": "Shiseido Zen Eau de Parfum 100ml – bottle beside its gold and silver box marked 100 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16378710065539",
+   "media": "gid://shopify/MediaImage/74292427325827",
+   "src": "shiseido-zen-eau-de-parfum-100ml-4.webp",
+   "alt": "Shiseido Zen Eau de Parfum 100ml – bottle with wood, cypress, amber, white musk and water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16378704298371",
+   "media": "gid://shopify/MediaImage/74292427129219",
+   "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-1.webp",
+   "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – red glass dropper bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16378704298371",
+   "media": "gid://shopify/MediaImage/74292427161987",
+   "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-2.webp",
+   "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle beside its red box marked 30 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16378704298371",
+   "media": "gid://shopify/MediaImage/74292427194755",
+   "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-3.webp",
+   "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle with reishi mushroom, iris, leaves and roots"
+  },
+  {
+   "product": "gid://shopify/Product/16378696630659",
+   "media": "gid://shopify/MediaImage/74292426998147",
+   "src": "shiseido-complete-cleansing-microfoam-180ml-1.webp",
+   "alt": "Shiseido Complete Cleansing Microfoam 180ml – white bottle with red cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16378696630659",
+   "media": "gid://shopify/MediaImage/74292427030915",
+   "src": "shiseido-complete-cleansing-microfoam-180ml-2.webp",
+   "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle beside its white and red box marked 180 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16378696630659",
+   "media": "gid://shopify/MediaImage/74292427063683",
+   "src": "shiseido-complete-cleansing-microfoam-180ml-3.webp",
+   "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with cap removed, showing the pump"
+  },
+  {
+   "product": "gid://shopify/Product/16378696630659",
+   "media": "gid://shopify/MediaImage/74292427096451",
+   "src": "shiseido-complete-cleansing-microfoam-180ml-4.webp",
+   "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with rice stalks, rice grains, stone and water"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance",
+   "id": 16378710065539,
+   "title": "Shiseido Zen Eau de Parfum 100ml – Women’s Floral Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "shiseido-zen-eau-de-parfum-100ml-1.webp",
+     "in": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-01.webp",
+     "alt": "Shiseido Zen Eau de Parfum 100ml – square gold glass bottle, front view",
+     "new_alt": "Shiseido Zen Eau de Parfum 100ml – square gold glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427227523",
+     "new_media": "gid://shopify/MediaImage/74824792179075"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "shiseido-zen-eau-de-parfum-100ml-2.webp",
+     "in": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-02.webp",
+     "alt": "Shiseido Zen Eau de Parfum 100ml – gold bottle with the spray uncapped, angled view",
+     "new_alt": "Shiseido Zen Eau de Parfum 100ml – gold bottle with the spray uncapped, angled view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427260291",
+     "new_media": "gid://shopify/MediaImage/74824792211843"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "shiseido-zen-eau-de-parfum-100ml-3.webp",
+     "in": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-03.webp",
+     "alt": "Shiseido Zen Eau de Parfum 100ml – bottle beside its gold and silver box marked 100 ml",
+     "new_alt": "Shiseido Zen Eau de Parfum 100ml – bottle beside its gold and silver box marked 100 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427293059",
+     "new_media": "gid://shopify/MediaImage/74824792244611"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "shiseido-zen-eau-de-parfum-100ml-4.webp",
+     "in": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-04.webp",
+     "alt": "Shiseido Zen Eau de Parfum 100ml – bottle with wood, cypress, amber, white musk and water splash",
+     "new_alt": "Shiseido Zen Eau de Parfum 100ml – bottle with wood, cypress and white musk",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-zen-eau-de-parfum-100ml-women-s-floral-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427325827",
+     "new_media": "gid://shopify/MediaImage/74824792277379"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum",
+   "id": 16378704298371,
+   "title": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – Anti-Aging Hydrating Serum",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-1.webp",
+     "in": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-01.webp",
+     "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – red glass dropper bottle, front view",
+     "new_alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – red glass dropper bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427129219",
+     "new_media": "gid://shopify/MediaImage/74824792310147"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-2.webp",
+     "in": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-02.webp",
+     "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle beside its red box marked 30 ml",
+     "new_alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle beside its red box marked 30 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427161987",
+     "new_media": "gid://shopify/MediaImage/74824792342915"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-3.webp",
+     "in": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-03.webp",
+     "alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle with reishi mushroom, iris, leaves and roots",
+     "new_alt": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – bottle with reishi mushroom, iris, leaves and roots",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-ultimune-power-infusing-concentrate-face-serum-30ml-anti-aging-hydrating-serum-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427194755",
+     "new_media": "gid://shopify/MediaImage/74824792375683"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser",
+   "id": 16378696630659,
+   "title": "Shiseido Complete Cleansing Microfoam 180ml – Gentle Foaming Face Cleanser",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "shiseido-complete-cleansing-microfoam-180ml-1.webp",
+     "in": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-01.webp",
+     "alt": "Shiseido Complete Cleansing Microfoam 180ml – white bottle with red cap, front view",
+     "new_alt": "Shiseido Complete Cleansing Microfoam 180ml – white bottle with red cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426998147",
+     "new_media": "gid://shopify/MediaImage/74824792408451"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "shiseido-complete-cleansing-microfoam-180ml-2.webp",
+     "in": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-02.webp",
+     "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle beside its white and red box marked 180 ml",
+     "new_alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle beside its white and red box marked 180 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427030915",
+     "new_media": "gid://shopify/MediaImage/74824792441219"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "shiseido-complete-cleansing-microfoam-180ml-3.webp",
+     "in": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-03.webp",
+     "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with cap removed, showing the pump",
+     "new_alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with cap removed, showing the pump",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427063683",
+     "new_media": "gid://shopify/MediaImage/74824792473987"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "shiseido-complete-cleansing-microfoam-180ml-4.webp",
+     "in": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-04.webp",
+     "alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with rice stalks, rice grains, stone and water",
+     "new_alt": "Shiseido Complete Cleansing Microfoam 180ml – bottle with rice stalks and rice grains",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "shiseido-complete-cleansing-microfoam-180ml-gentle-foaming-face-cleanser-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292427096451",
+     "new_media": "gid://shopify/MediaImage/74824792506755"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

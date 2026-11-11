@@ -1,0 +1,118 @@
+{
+ "note": "Skincare cut-out roll-out 2026-11-11: only the photos classified 'cut' were replaced; graphics untouched. Undo: fileUpdate referencesToAdd the 'detached' originals back, detach media whose file ends -cutout.webp, restore 'variant_links' (old) and the original order (gallery pos).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "3": "Caviar Serum with 24K Gold – dropper bottle beside its kraft box"
+  },
+  "skip_products": [],
+  "notes": "only photo 3 is a plain product shot"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15556107305347",
+   "media": "gid://shopify/MediaImage/68833239794051",
+   "src": "f6db7ed3-defe-49d9-b483-072540cba6ee.jpg",
+   "alt": "Caviar Serum with 24K Gold – view 3"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "caviar-serum-with-24k-gold",
+   "id": 15556107305347,
+   "title": "Caviar Serum with 24K Gold",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "IMG_1997.jpg",
+     "in": "caviar-serum-with-24k-gold-01.webp",
+     "alt": "Caviar Serum with 24K Gold",
+     "new_alt": "Caviar Serum with 24K Gold",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "caviar-serum-with-24k-gold-01-photo.webp"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "IMG_1996_4d81de13-a47a-4ef4-8a75-967bb0b581e1.jpg",
+     "in": "caviar-serum-with-24k-gold-02.webp",
+     "alt": "Caviar Serum with 24K Gold – view 2",
+     "new_alt": "Caviar Serum with 24K Gold – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "caviar-serum-with-24k-gold-02-photo.webp"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "f6db7ed3-defe-49d9-b483-072540cba6ee.jpg",
+     "in": "caviar-serum-with-24k-gold-03.webp",
+     "alt": "Caviar Serum with 24K Gold – view 3",
+     "new_alt": "Caviar Serum with 24K Gold – dropper bottle beside its kraft box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "caviar-serum-with-24k-gold-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/68833239794051",
+     "new_media": "gid://shopify/MediaImage/74824792539523"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "24k-gold-hydrating-face-mask",
+   "id": 15556098916739,
+   "title": "24K Gold Hydrating Face Mask",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "IMG_1996.jpg",
+     "in": "24k-gold-hydrating-face-mask-01.webp",
+     "alt": "24K Gold Hydrating Face Mask",
+     "new_alt": "24K Gold Hydrating Face Mask",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "24k-gold-hydrating-face-mask-01-photo.webp"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "0632e170-e105-4567-a938-abefa8105d18.jpg",
+     "in": "24k-gold-hydrating-face-mask-02.webp",
+     "alt": "24K Gold Hydrating Face Mask – view 2",
+     "new_alt": "24K Gold Hydrating Face Mask – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "24k-gold-hydrating-face-mask-02-photo.webp"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "2cd8e3a9-490d-4d54-aacd-0ec8474fdead.jpg",
+     "in": "24k-gold-hydrating-face-mask-03.webp",
+     "alt": "24K Gold Hydrating Face Mask – view 3",
+     "new_alt": "24K Gold Hydrating Face Mask – view 3",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "24k-gold-hydrating-face-mask-03-photo.webp"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "6e959fd1-d1ba-4e2b-b91a-3e178dcd21a5.jpg",
+     "in": "24k-gold-hydrating-face-mask-04.webp",
+     "alt": "24K Gold Hydrating Face Mask – view 4",
+     "new_alt": "24K Gold Hydrating Face Mask – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "24k-gold-hydrating-face-mask-04-photo.webp"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

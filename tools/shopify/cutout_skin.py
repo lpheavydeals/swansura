@@ -95,6 +95,7 @@ def plan(root, slug, path):
             olds.append(old)
         # new cut-outs: media added today, in upload order (Shopify truncates very long file names, so match by order)
         known = {im['src'] for im in g['images']}
+        altof = {m['id']: m.get('alt') for m in a['media']['nodes']}
         newm = [(mid, st) for mid, nm, st, c in media if c.startswith(DATE) and nm not in known]
         if len(newm) != len(ims):
             problems.append(f"{g['handle']}: {len(newm)} new media vs {len(ims)} cut-outs")
@@ -104,6 +105,9 @@ def plan(root, slug, path):
                 continue
             if st != 'READY':
                 problems.append(f"{g['handle']} photo {im['n']}: new media {st}")
+                continue
+            if altof.get(nid) != im['new_alt']:
+                problems.append(f"{g['handle']} photo {im['n']}: new media alt does not match (pairing off)")
                 continue
             repl[old] = nid
             im['media'], im['new_media'] = old, nid
