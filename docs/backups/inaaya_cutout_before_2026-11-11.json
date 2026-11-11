@@ -1,0 +1,715 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "7": "isnet",
+   "21": "isnet",
+   "23": "isnet",
+   "29": "isnet",
+   "33": "isnet"
+  },
+  "alt": {
+   "3": "Inaaya Shajah Eau de Parfum 100ml – bottle and box on a carved wooden stand",
+   "4": "Inaaya Shajah Eau de Parfum 100ml – bottle beside its grey-green tube box",
+   "5": "Inaaya Shajah Eau de Parfum 100ml – bottle with gold crown cap",
+   "7": "Inaaya Sameer Eau de Parfum 100ml – bottle beside its gold patterned box",
+   "8": "Inaaya Sameer Eau de Parfum 100ml – bottle with amber resin pieces",
+   "9": "Inaaya Sameer Eau de Parfum 100ml – bottle with a dark orchid",
+   "12": "Inaaya Nawaal Eau de Parfum 100ml – lilac bottle with rose-gold cap",
+   "16": "Inaaya Jasim Eau de Parfum 100ml – black bottle with silver fan cap, front view",
+   "17": "Inaaya Jasim Eau de Parfum 100ml – bottle on a dark stand with lavender",
+   "18": "Inaaya Jasim Eau de Parfum 100ml – bottle on ice crystals",
+   "22": "Inaaya Ghali Eau de Parfum 100ml – bottle with pink blossom petals",
+   "23": "Inaaya Ghali Eau de Parfum 100ml – bottle with its box and pink flowers",
+   "24": "Inaaya Ghali Eau de Parfum 100ml – bottle with water droplets",
+   "25": "Inaaya Ghali Eau de Parfum 100ml – bottle with pink flowers",
+   "30": "Inaaya Amal Eau de Parfum 100ml – bottle beside its white box",
+   "31": "Inaaya Amal Eau de Parfum 100ml – bottle and box with pink blocks",
+   "32": "Inaaya Amal Eau de Parfum 100ml – bottle with peach roses",
+   "33": "Inaaya Amal Eau de Parfum 100ml – bottle with macarons and meringues"
+  },
+  "skip_products": [],
+  "notes": "isnet 7/21/23 (boxes torn or dropped), 29/33 (cleaner edges); scene alts rewritten for the cut-outs."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421462049155",
+   "media": "gid://shopify/MediaImage/74600658796931",
+   "src": "inaaya-shajah-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle with crown cap beside its white tube box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462049155",
+   "media": "gid://shopify/MediaImage/74600658829699",
+   "src": "inaaya-shajah-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle on a marble block with violets, vanilla and cinnamon"
+  },
+  {
+   "product": "gid://shopify/Product/16421462049155",
+   "media": "gid://shopify/MediaImage/74600658862467",
+   "src": "inaaya-shajah-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle and box in a candlelit study"
+  },
+  {
+   "product": "gid://shopify/Product/16421462049155",
+   "media": "gid://shopify/MediaImage/74600658895235",
+   "src": "inaaya-shajah-eau-de-parfum-100ml-04.webp",
+   "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle and box in a moonlit forest scene"
+  },
+  {
+   "product": "gid://shopify/Product/16421462049155",
+   "media": "gid://shopify/MediaImage/74600658928003",
+   "src": "inaaya-shajah-eau-de-parfum-100ml-05.webp",
+   "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle on a dark stone among orange blossom and lemons"
+  },
+  {
+   "product": "gid://shopify/Product/16421462016387",
+   "media": "gid://shopify/MediaImage/74600670888323",
+   "src": "inaaya-sameer-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle with its box on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16421462016387",
+   "media": "gid://shopify/MediaImage/74600670921091",
+   "src": "inaaya-sameer-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle and box in an arched interior"
+  },
+  {
+   "product": "gid://shopify/Product/16421462016387",
+   "media": "gid://shopify/MediaImage/74600670953859",
+   "src": "inaaya-sameer-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle on a carved stand with books"
+  },
+  {
+   "product": "gid://shopify/Product/16421462016387",
+   "media": "gid://shopify/MediaImage/74600670986627",
+   "src": "inaaya-sameer-eau-de-parfum-100ml-04.webp",
+   "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle in a dark purple floral scene"
+  },
+  {
+   "product": "gid://shopify/Product/16421461164419",
+   "media": "gid://shopify/MediaImage/74600661188995",
+   "src": "inaaya-nawaal-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Nawaal Eau de Parfum 100ml – lilac bottle with purple patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461164419",
+   "media": "gid://shopify/MediaImage/74600661221763",
+   "src": "inaaya-nawaal-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Nawaal Eau de Parfum 100ml – bottle on marble with pineapple, cardamom and pink peppercorns"
+  },
+  {
+   "product": "gid://shopify/Product/16421461164419",
+   "media": "gid://shopify/MediaImage/74600661254531",
+   "src": "inaaya-nawaal-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Nawaal Eau de Parfum 100ml – bottle on a wooden stand with lavender"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657060227",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle and silver box on a marble block"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657092995",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – black bottle with silver fan cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657125763",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle with hazelnut, vanilla pods and pink peppercorns"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657158531",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-04.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle in a glowing dark wooden setting"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657191299",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-05.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on stone steps with mountains at dusk"
+  },
+  {
+   "product": "gid://shopify/Product/16421461066115",
+   "media": "gid://shopify/MediaImage/74600657224067",
+   "src": "inaaya-jasim-eau-de-parfum-100ml-06.webp",
+   "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on ice crystals in a snowy cave scene"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655094147",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – mint green bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655126915",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with petals and berries"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655159683",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle beside a presentation box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655192451",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-04.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle on a stone among pink blossom"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655225219",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-05.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with its box among pink flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655257987",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-06.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle on a mossy branch in warm light"
+  },
+  {
+   "product": "gid://shopify/Product/16421461033347",
+   "media": "gid://shopify/MediaImage/74600655290755",
+   "src": "inaaya-ghali-eau-de-parfum-100ml-07.webp",
+   "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle by a water pool under a stone arch"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659714435",
+   "src": "inaaya-amal-eau-de-parfum-100ml-01.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – frosted pink bottle with rose-gold cap and crystal top"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659747203",
+   "src": "inaaya-amal-eau-de-parfum-100ml-02.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659779971",
+   "src": "inaaya-amal-eau-de-parfum-100ml-03.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle with strawberries, coconut, vanilla and flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659812739",
+   "src": "inaaya-amal-eau-de-parfum-100ml-04.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – close-up of the crystal-topped cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659845507",
+   "src": "inaaya-amal-eau-de-parfum-100ml-05.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle and box in a night scene with flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659878275",
+   "src": "inaaya-amal-eau-de-parfum-100ml-06.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle and box on a pink set with blocks"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659911043",
+   "src": "inaaya-amal-eau-de-parfum-100ml-07.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle on a stone with peach roses"
+  },
+  {
+   "product": "gid://shopify/Product/16421460967811",
+   "media": "gid://shopify/MediaImage/74600659943811",
+   "src": "inaaya-amal-eau-de-parfum-100ml-08.webp",
+   "alt": "Inaaya Amal Eau de Parfum 100ml – bottle on a bed of macarons and meringues"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "inaaya-shajah-eau-de-parfum-100ml",
+   "id": 16421462049155,
+   "title": "Inaaya Shajah Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "inaaya-shajah-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-shajah-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle with crown cap beside its white tube box",
+     "new_alt": "Inaaya Shajah Eau de Parfum 100ml – bottle with crown cap beside its white tube box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-shajah-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658796931",
+     "new_media": "gid://shopify/MediaImage/74814603231619"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "inaaya-shajah-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-shajah-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle on a marble block with violets, vanilla and cinnamon",
+     "new_alt": "Inaaya Shajah Eau de Parfum 100ml – bottle on a marble block with violets, vanilla and cinnamon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-shajah-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658829699",
+     "new_media": "gid://shopify/MediaImage/74814603264387"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "inaaya-shajah-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-shajah-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle and box in a candlelit study",
+     "new_alt": "Inaaya Shajah Eau de Parfum 100ml – bottle and box on a carved wooden stand",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-shajah-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658862467",
+     "new_media": "gid://shopify/MediaImage/74814603297155"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "inaaya-shajah-eau-de-parfum-100ml-04.webp",
+     "in": "inaaya-shajah-eau-de-parfum-100ml-04.webp",
+     "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle and box in a moonlit forest scene",
+     "new_alt": "Inaaya Shajah Eau de Parfum 100ml – bottle beside its grey-green tube box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-shajah-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658895235",
+     "new_media": "gid://shopify/MediaImage/74814603329923"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "inaaya-shajah-eau-de-parfum-100ml-05.webp",
+     "in": "inaaya-shajah-eau-de-parfum-100ml-05.webp",
+     "alt": "Inaaya Shajah Eau de Parfum 100ml – bottle on a dark stone among orange blossom and lemons",
+     "new_alt": "Inaaya Shajah Eau de Parfum 100ml – bottle with gold crown cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-shajah-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658928003",
+     "new_media": "gid://shopify/MediaImage/74814603362691"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "inaaya-sameer-eau-de-parfum-100ml",
+   "id": 16421462016387,
+   "title": "Inaaya Sameer Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "inaaya-sameer-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-sameer-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle with its box on a light background",
+     "new_alt": "Inaaya Sameer Eau de Parfum 100ml – bottle with its box on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-sameer-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670888323",
+     "new_media": "gid://shopify/MediaImage/74814603428227"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "inaaya-sameer-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-sameer-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle and box in an arched interior",
+     "new_alt": "Inaaya Sameer Eau de Parfum 100ml – bottle beside its gold patterned box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "inaaya-sameer-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670921091",
+     "new_media": "gid://shopify/MediaImage/74814603460995"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "inaaya-sameer-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-sameer-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle on a carved stand with books",
+     "new_alt": "Inaaya Sameer Eau de Parfum 100ml – bottle with amber resin pieces",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-sameer-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670953859",
+     "new_media": "gid://shopify/MediaImage/74814603493763"
+    },
+    {
+     "n": 9,
+     "pos": 4,
+     "src": "inaaya-sameer-eau-de-parfum-100ml-04.webp",
+     "in": "inaaya-sameer-eau-de-parfum-100ml-04.webp",
+     "alt": "Inaaya Sameer Eau de Parfum 100ml – bottle in a dark purple floral scene",
+     "new_alt": "Inaaya Sameer Eau de Parfum 100ml – bottle with a dark orchid",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-sameer-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670986627",
+     "new_media": "gid://shopify/MediaImage/74814603526531"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "inaaya-nawaal-eau-de-parfum-100ml",
+   "id": 16421461164419,
+   "title": "Inaaya Nawaal Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "inaaya-nawaal-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-nawaal-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Nawaal Eau de Parfum 100ml – lilac bottle with purple patterned box",
+     "new_alt": "Inaaya Nawaal Eau de Parfum 100ml – lilac bottle with purple patterned box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-nawaal-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661188995",
+     "new_media": "gid://shopify/MediaImage/74814603559299"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "inaaya-nawaal-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-nawaal-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Nawaal Eau de Parfum 100ml – bottle on marble with pineapple, cardamom and pink peppercorns",
+     "new_alt": "Inaaya Nawaal Eau de Parfum 100ml – bottle on marble with pineapple, cardamom and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-nawaal-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661221763",
+     "new_media": "gid://shopify/MediaImage/74814603592067"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "inaaya-nawaal-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-nawaal-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Nawaal Eau de Parfum 100ml – bottle on a wooden stand with lavender",
+     "new_alt": "Inaaya Nawaal Eau de Parfum 100ml – lilac bottle with rose-gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-nawaal-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661254531",
+     "new_media": "gid://shopify/MediaImage/74814603624835"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "inaaya-jasim-eau-de-parfum-100ml",
+   "id": 16421461066115,
+   "title": "Inaaya Jasim Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle and silver box on a marble block",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – bottle and silver box on a marble block",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657060227",
+     "new_media": "gid://shopify/MediaImage/74814603690371"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – black bottle with silver fan cap",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – black bottle with silver fan cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657092995",
+     "new_media": "gid://shopify/MediaImage/74814603723139"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle with hazelnut, vanilla pods and pink peppercorns",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – bottle with hazelnut, vanilla pods and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657125763",
+     "new_media": "gid://shopify/MediaImage/74814603755907"
+    },
+    {
+     "n": 16,
+     "pos": 4,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-04.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-04.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle in a glowing dark wooden setting",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – black bottle with silver fan cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657158531",
+     "new_media": "gid://shopify/MediaImage/74814603788675"
+    },
+    {
+     "n": 17,
+     "pos": 5,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-05.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-05.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on stone steps with mountains at dusk",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on a dark stand with lavender",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657191299",
+     "new_media": "gid://shopify/MediaImage/74814603821443"
+    },
+    {
+     "n": 18,
+     "pos": 6,
+     "src": "inaaya-jasim-eau-de-parfum-100ml-06.webp",
+     "in": "inaaya-jasim-eau-de-parfum-100ml-06.webp",
+     "alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on ice crystals in a snowy cave scene",
+     "new_alt": "Inaaya Jasim Eau de Parfum 100ml – bottle on ice crystals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-jasim-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657224067",
+     "new_media": "gid://shopify/MediaImage/74814603854211"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "inaaya-ghali-eau-de-parfum-100ml",
+   "id": 16421461033347,
+   "title": "Inaaya Ghali Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 19,
+     "pos": 1,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – mint green bottle with gold cap",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – mint green bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655094147",
+     "new_media": "gid://shopify/MediaImage/74814603886979"
+    },
+    {
+     "n": 20,
+     "pos": 2,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with petals and berries",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with petals and berries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655126915",
+     "new_media": "gid://shopify/MediaImage/74814603919747"
+    },
+    {
+     "n": 21,
+     "pos": 3,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle beside a presentation box",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle beside a presentation box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655159683",
+     "new_media": "gid://shopify/MediaImage/74814603952515"
+    },
+    {
+     "n": 22,
+     "pos": 4,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-04.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-04.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle on a stone among pink blossom",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with pink blossom petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655192451",
+     "new_media": "gid://shopify/MediaImage/74814603985283"
+    },
+    {
+     "n": 23,
+     "pos": 5,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-05.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-05.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with its box among pink flowers",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with its box and pink flowers",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655225219",
+     "new_media": "gid://shopify/MediaImage/74814604018051"
+    },
+    {
+     "n": 24,
+     "pos": 6,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-06.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-06.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle on a mossy branch in warm light",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with water droplets",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655257987",
+     "new_media": "gid://shopify/MediaImage/74814604050819"
+    },
+    {
+     "n": 25,
+     "pos": 7,
+     "src": "inaaya-ghali-eau-de-parfum-100ml-07.webp",
+     "in": "inaaya-ghali-eau-de-parfum-100ml-07.webp",
+     "alt": "Inaaya Ghali Eau de Parfum 100ml – bottle by a water pool under a stone arch",
+     "new_alt": "Inaaya Ghali Eau de Parfum 100ml – bottle with pink flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-ghali-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655290755",
+     "new_media": "gid://shopify/MediaImage/74814604083587"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "inaaya-amal-eau-de-parfum-100ml",
+   "id": 16421460967811,
+   "title": "Inaaya Amal Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 26,
+     "pos": 1,
+     "src": "inaaya-amal-eau-de-parfum-100ml-01.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-01.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – frosted pink bottle with rose-gold cap and crystal top",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – frosted pink bottle with rose-gold cap and crystal top",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659714435",
+     "new_media": "gid://shopify/MediaImage/74814604116355"
+    },
+    {
+     "n": 27,
+     "pos": 2,
+     "src": "inaaya-amal-eau-de-parfum-100ml-02.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-02.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle beside its white box",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659747203",
+     "new_media": "gid://shopify/MediaImage/74814604149123"
+    },
+    {
+     "n": 28,
+     "pos": 3,
+     "src": "inaaya-amal-eau-de-parfum-100ml-03.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-03.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle with strawberries, coconut, vanilla and flowers",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle with strawberries, coconut, vanilla and flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659779971",
+     "new_media": "gid://shopify/MediaImage/74814604181891"
+    },
+    {
+     "n": 29,
+     "pos": 4,
+     "src": "inaaya-amal-eau-de-parfum-100ml-04.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-04.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – close-up of the crystal-topped cap",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – close-up of the crystal-topped cap",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "inaaya-amal-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659812739",
+     "new_media": "gid://shopify/MediaImage/74814604214659"
+    },
+    {
+     "n": 30,
+     "pos": 5,
+     "src": "inaaya-amal-eau-de-parfum-100ml-05.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-05.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle and box in a night scene with flowers",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659845507",
+     "new_media": "gid://shopify/MediaImage/74814604247427"
+    },
+    {
+     "n": 31,
+     "pos": 6,
+     "src": "inaaya-amal-eau-de-parfum-100ml-06.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-06.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle and box on a pink set with blocks",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle and box with pink blocks",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659878275",
+     "new_media": "gid://shopify/MediaImage/74814604280195"
+    },
+    {
+     "n": 32,
+     "pos": 7,
+     "src": "inaaya-amal-eau-de-parfum-100ml-07.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-07.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle on a stone with peach roses",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle with peach roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "inaaya-amal-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659911043",
+     "new_media": "gid://shopify/MediaImage/74814604312963"
+    },
+    {
+     "n": 33,
+     "pos": 8,
+     "src": "inaaya-amal-eau-de-parfum-100ml-08.webp",
+     "in": "inaaya-amal-eau-de-parfum-100ml-08.webp",
+     "alt": "Inaaya Amal Eau de Parfum 100ml – bottle on a bed of macarons and meringues",
+     "new_alt": "Inaaya Amal Eau de Parfum 100ml – bottle with macarons and meringues",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "inaaya-amal-eau-de-parfum-100ml-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659943811",
+     "new_media": "gid://shopify/MediaImage/74814604345731"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

@@ -1,0 +1,687 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "15": "isnet"
+  },
+  "alt": {
+   "11": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with jasmine flowers",
+   "14": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with jasmine, apricot and herbs",
+   "15": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its Nomade box",
+   "16": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – full-size and travel bottles",
+   "18": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – bottles beside the Nomade gift box",
+   "26": "Chloé Women’s Miniature Eau de Parfum Gift Set – gift box and bottles",
+   "29": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures"
+  },
+  "skip_products": [],
+  "notes": "isnet 15 (birefnet dropped the box)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16371596984707",
+   "media": "gid://shopify/MediaImage/74292382564739",
+   "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-1.webp",
+   "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – ribbed bottle with green bow, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371596984707",
+   "media": "gid://shopify/MediaImage/74292382597507",
+   "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-2.webp",
+   "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle beside its green box"
+  },
+  {
+   "product": "gid://shopify/Product/16371596984707",
+   "media": "gid://shopify/MediaImage/74292382630275",
+   "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-3.webp",
+   "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle with rose, lime and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16371586990467",
+   "media": "gid://shopify/MediaImage/74292382171523",
+   "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-1.webp",
+   "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with navy cord, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371586990467",
+   "media": "gid://shopify/MediaImage/74292382204291",
+   "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-2.webp",
+   "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle beside its blue-trimmed box"
+  },
+  {
+   "product": "gid://shopify/Product/16371586990467",
+   "media": "gid://shopify/MediaImage/74292382237059",
+   "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-3.webp",
+   "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with cinnamon, ginger, mimosa and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16371586990467",
+   "media": "gid://shopify/MediaImage/74292382269827",
+   "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-4.webp",
+   "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with vanilla pods, orange blossom and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292323844483",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-1.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 50 ml bottle with leather cord, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292323877251",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-2.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292323910019",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-3.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with mirabelle plums and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292323942787",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-4.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle lying among jasmine flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292323975555",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-5.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 75 ml bottle with leather cord, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292324008323",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-6.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292324041091",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-7.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle on stone with jasmine and apricot"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "media": "gid://shopify/MediaImage/74292324073859",
+   "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-8.webp",
+   "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle and box on stone blocks"
+  },
+  {
+   "product": "gid://shopify/Product/16371463192963",
+   "media": "gid://shopify/MediaImage/74292382663043",
+   "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-1.webp",
+   "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – full-size and travel bottles on a white plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16371463192963",
+   "media": "gid://shopify/MediaImage/74292382695811",
+   "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-2.webp",
+   "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles beside the Nomade gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16371463192963",
+   "media": "gid://shopify/MediaImage/74292382728579",
+   "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-3.webp",
+   "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – bottles and box on a stone plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16371463192963",
+   "media": "gid://shopify/MediaImage/74292382761347",
+   "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-4.webp",
+   "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles with freesia and plum"
+  },
+  {
+   "product": "gid://shopify/Product/16371438289283",
+   "media": "gid://shopify/MediaImage/74292381843843",
+   "src": "chloe-nomade-eau-de-parfum-50ml-1.webp",
+   "alt": "Chloé Nomade Eau de Parfum 50ml – 50 ml bottle with leather cord, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371438289283",
+   "media": "gid://shopify/MediaImage/74292381876611",
+   "src": "chloe-nomade-eau-de-parfum-50ml-2.webp",
+   "alt": "Chloé Nomade Eau de Parfum 50ml – bottle beside its blush pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16371438289283",
+   "media": "gid://shopify/MediaImage/74292381909379",
+   "src": "chloe-nomade-eau-de-parfum-50ml-3.webp",
+   "alt": "Chloé Nomade Eau de Parfum 50ml – bottle with peach, plums, rose and freesia"
+  },
+  {
+   "product": "gid://shopify/Product/16371438289283",
+   "media": "gid://shopify/MediaImage/74292381942147",
+   "src": "chloe-nomade-eau-de-parfum-50ml-4.webp",
+   "alt": "Chloé Nomade Eau de Parfum 50ml – bottle with cap removed showing spray"
+  },
+  {
+   "product": "gid://shopify/Product/16371417153923",
+   "media": "gid://shopify/MediaImage/74292324663683",
+   "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-1.webp",
+   "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé 20 ml and Nomade 20 ml bottles side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16371417153923",
+   "media": "gid://shopify/MediaImage/74292324696451",
+   "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-2.webp",
+   "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two 20 ml bottles beside the patterned gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16371417153923",
+   "media": "gid://shopify/MediaImage/74292324729219",
+   "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-3.webp",
+   "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – gift box and bottles with flowing ribbon backdrop"
+  },
+  {
+   "product": "gid://shopify/Product/16371417153923",
+   "media": "gid://shopify/MediaImage/74292324761987",
+   "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-4.webp",
+   "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two bottles with peony, citrus and lychee"
+  },
+  {
+   "product": "gid://shopify/Product/16371391463811",
+   "media": "gid://shopify/MediaImage/74292324336003",
+   "src": "chloe-women-s-miniature-perfume-set-4x5ml-1.webp",
+   "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniature bottles in a row"
+  },
+  {
+   "product": "gid://shopify/Product/16371391463811",
+   "media": "gid://shopify/MediaImage/74292324368771",
+   "src": "chloe-women-s-miniature-perfume-set-4x5ml-2.webp",
+   "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures on a speckled stone plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16371391463811",
+   "media": "gid://shopify/MediaImage/74292324401539",
+   "src": "chloe-women-s-miniature-perfume-set-4x5ml-3.webp",
+   "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – set box with four 5 ml cartons"
+  },
+  {
+   "product": "gid://shopify/Product/16371391463811",
+   "media": "gid://shopify/MediaImage/74292324434307",
+   "src": "chloe-women-s-miniature-perfume-set-4x5ml-4.webp",
+   "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures with citrus, plums and blackcurrants"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "variant": "gid://shopify/ProductVariant/62760707293571",
+   "old": "gid://shopify/MediaImage/74292323844483",
+   "new": "gid://shopify/MediaImage/74814609457539"
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "variant": "gid://shopify/ProductVariant/62760707326339",
+   "old": "gid://shopify/MediaImage/74292323975555",
+   "new": "gid://shopify/MediaImage/74814609588611"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance",
+   "id": 16371596984707,
+   "title": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – Women’s Floral Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-1.webp",
+     "in": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01.webp",
+     "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – ribbed bottle with green bow, front view",
+     "new_alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – ribbed bottle with green bow, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382564739",
+     "new_media": "gid://shopify/MediaImage/74814609162627"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-2.webp",
+     "in": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02.webp",
+     "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle beside its green box",
+     "new_alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle beside its green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382597507",
+     "new_media": "gid://shopify/MediaImage/74814609195395"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-3.webp",
+     "in": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03.webp",
+     "alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle with rose, lime and wood",
+     "new_alt": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – bottle with rose, lime and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-rose-naturelle-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382630275",
+     "new_media": "gid://shopify/MediaImage/74814609228163"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance",
+   "id": 16371586990467,
+   "title": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-1.webp",
+     "in": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-01.webp",
+     "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with navy cord, front view",
+     "new_alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with navy cord, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382171523",
+     "new_media": "gid://shopify/MediaImage/74814609293699"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-2.webp",
+     "in": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-02.webp",
+     "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle beside its blue-trimmed box",
+     "new_alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle beside its blue-trimmed box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382204291",
+     "new_media": "gid://shopify/MediaImage/74814609326467"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-3.webp",
+     "in": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-03.webp",
+     "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with cinnamon, ginger, mimosa and vanilla",
+     "new_alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with cinnamon, ginger, mimosa and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382237059",
+     "new_media": "gid://shopify/MediaImage/74814609359235"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-4.webp",
+     "in": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-04.webp",
+     "alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with vanilla pods, orange blossom and pink pepper",
+     "new_alt": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – bottle with vanilla pods, orange blossom and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-nuit-d-egypte-eau-de-parfum-50ml-women-s-warm-spicy-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382269827",
+     "new_media": "gid://shopify/MediaImage/74814609392003"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance",
+   "id": 16371515490691,
+   "title": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – Women’s Floral Woody Fragrance",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-1.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 50 ml bottle with leather cord, front view",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 50 ml bottle with leather cord, front view",
+     "variant_ids": [
+      62760707293571
+     ],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323844483",
+     "new_media": "gid://shopify/MediaImage/74814609457539"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-2.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323877251",
+     "new_media": "gid://shopify/MediaImage/74814609490307"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-3.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with mirabelle plums and jasmine",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with mirabelle plums and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323910019",
+     "new_media": "gid://shopify/MediaImage/74814609523075"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-4.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-04.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle lying among jasmine flowers",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with jasmine flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323942787",
+     "new_media": "gid://shopify/MediaImage/74814609555843"
+    },
+    {
+     "n": 12,
+     "pos": 5,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-5.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-05.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 75 ml bottle with leather cord, front view",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – 75 ml bottle with leather cord, front view",
+     "variant_ids": [
+      62760707326339
+     ],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292323975555",
+     "new_media": "gid://shopify/MediaImage/74814609588611"
+    },
+    {
+     "n": 13,
+     "pos": 6,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-6.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-06.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its tan box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324008323",
+     "new_media": "gid://shopify/MediaImage/74814609621379"
+    },
+    {
+     "n": 14,
+     "pos": 7,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-7.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-07.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle on stone with jasmine and apricot",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle with jasmine, apricot and herbs",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324041091",
+     "new_media": "gid://shopify/MediaImage/74814609654147"
+    },
+    {
+     "n": 15,
+     "pos": 8,
+     "src": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-8.webp",
+     "in": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-08.webp",
+     "alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle and box on stone blocks",
+     "new_alt": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – bottle beside its Nomade box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "chloe-nomade-jasmin-naturel-intense-eau-de-parfum-50ml-women-s-floral-woody-fragrance-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324073859",
+     "new_media": "gid://shopify/MediaImage/74814609686915"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set",
+   "id": 16371463192963,
+   "title": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – Women’s Floral Chypre Fragrance Set",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-1.webp",
+     "in": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-01.webp",
+     "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – full-size and travel bottles on a white plinth",
+     "new_alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – full-size and travel bottles",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382663043",
+     "new_media": "gid://shopify/MediaImage/74814609719683"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-2.webp",
+     "in": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-02.webp",
+     "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles beside the Nomade gift box",
+     "new_alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles beside the Nomade gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382695811",
+     "new_media": "gid://shopify/MediaImage/74814609752451"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-3.webp",
+     "in": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-03.webp",
+     "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – bottles and box on a stone plinth",
+     "new_alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – bottles beside the Nomade gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382728579",
+     "new_media": "gid://shopify/MediaImage/74814609785219"
+    },
+    {
+     "n": 19,
+     "pos": 4,
+     "src": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-4.webp",
+     "in": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-04.webp",
+     "alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles with freesia and plum",
+     "new_alt": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – two bottles with freesia and plum",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-gift-set-75ml-20ml-travel-spray-women-s-floral-chypre-fragrance-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292382761347",
+     "new_media": "gid://shopify/MediaImage/74814609817987"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance",
+   "id": 16371438289283,
+   "title": "Chloé Nomade Eau de Parfum 50ml – Women’s Floral Chypre Fragrance",
+   "images": [
+    {
+     "n": 20,
+     "pos": 1,
+     "src": "chloe-nomade-eau-de-parfum-50ml-1.webp",
+     "in": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-01.webp",
+     "alt": "Chloé Nomade Eau de Parfum 50ml – 50 ml bottle with leather cord, front view",
+     "new_alt": "Chloé Nomade Eau de Parfum 50ml – 50 ml bottle with leather cord, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292381843843",
+     "new_media": "gid://shopify/MediaImage/74814609883523"
+    },
+    {
+     "n": 21,
+     "pos": 2,
+     "src": "chloe-nomade-eau-de-parfum-50ml-2.webp",
+     "in": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-02.webp",
+     "alt": "Chloé Nomade Eau de Parfum 50ml – bottle beside its blush pink box",
+     "new_alt": "Chloé Nomade Eau de Parfum 50ml – bottle beside its blush pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292381876611",
+     "new_media": "gid://shopify/MediaImage/74814609916291"
+    },
+    {
+     "n": 22,
+     "pos": 3,
+     "src": "chloe-nomade-eau-de-parfum-50ml-3.webp",
+     "in": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-03.webp",
+     "alt": "Chloé Nomade Eau de Parfum 50ml – bottle with peach, plums, rose and freesia",
+     "new_alt": "Chloé Nomade Eau de Parfum 50ml – bottle with peach, plums, rose and freesia",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292381909379",
+     "new_media": "gid://shopify/MediaImage/74814609949059"
+    },
+    {
+     "n": 23,
+     "pos": 4,
+     "src": "chloe-nomade-eau-de-parfum-50ml-4.webp",
+     "in": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-04.webp",
+     "alt": "Chloé Nomade Eau de Parfum 50ml – bottle with cap removed showing spray",
+     "new_alt": "Chloé Nomade Eau de Parfum 50ml – bottle with cap removed showing spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-nomade-eau-de-parfum-50ml-women-s-floral-chypre-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292381942147",
+     "new_media": "gid://shopify/MediaImage/74814609981827"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml",
+   "id": 16371417153923,
+   "title": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé EDP 20ml + Nomade EDP 20ml",
+   "images": [
+    {
+     "n": 24,
+     "pos": 1,
+     "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-1.webp",
+     "in": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-01.webp",
+     "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé 20 ml and Nomade 20 ml bottles side by side",
+     "new_alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé 20 ml and Nomade 20 ml bottles side by side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324663683",
+     "new_media": "gid://shopify/MediaImage/74814610014595"
+    },
+    {
+     "n": 25,
+     "pos": 2,
+     "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-2.webp",
+     "in": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-02.webp",
+     "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two 20 ml bottles beside the patterned gift box",
+     "new_alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two 20 ml bottles beside the patterned gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324696451",
+     "new_media": "gid://shopify/MediaImage/74814610047363"
+    },
+    {
+     "n": 26,
+     "pos": 3,
+     "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-3.webp",
+     "in": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-03.webp",
+     "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – gift box and bottles with flowing ribbon backdrop",
+     "new_alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – gift box and bottles",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324729219",
+     "new_media": "gid://shopify/MediaImage/74814610080131"
+    },
+    {
+     "n": 27,
+     "pos": 4,
+     "src": "chloe-women-s-miniature-eau-de-parfum-gift-set-4.webp",
+     "in": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-04.webp",
+     "alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two bottles with peony, citrus and lychee",
+     "new_alt": "Chloé Women’s Miniature Eau de Parfum Gift Set – two bottles with peony, citrus and lychee",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-eau-de-parfum-gift-set-chloe-edp-20ml-nomade-edp-20ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324761987",
+     "new_media": "gid://shopify/MediaImage/74814610112899"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp",
+   "id": 16371391463811,
+   "title": "Chloé Women’s Miniature Perfume Set 4x5ml – Nomade EDT, Rose Tangerine EDT, Chloé EDP & Nomade EDP",
+   "images": [
+    {
+     "n": 28,
+     "pos": 1,
+     "src": "chloe-women-s-miniature-perfume-set-4x5ml-1.webp",
+     "in": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-01.webp",
+     "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniature bottles in a row",
+     "new_alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniature bottles in a row",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324336003",
+     "new_media": "gid://shopify/MediaImage/74814610178435"
+    },
+    {
+     "n": 29,
+     "pos": 2,
+     "src": "chloe-women-s-miniature-perfume-set-4x5ml-2.webp",
+     "in": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-02.webp",
+     "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures on a speckled stone plinth",
+     "new_alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324368771",
+     "new_media": "gid://shopify/MediaImage/74814610211203"
+    },
+    {
+     "n": 30,
+     "pos": 3,
+     "src": "chloe-women-s-miniature-perfume-set-4x5ml-3.webp",
+     "in": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-03.webp",
+     "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – set box with four 5 ml cartons",
+     "new_alt": "Chloé Women’s Miniature Perfume Set 4x5ml – set box with four 5 ml cartons",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324401539",
+     "new_media": "gid://shopify/MediaImage/74814610243971"
+    },
+    {
+     "n": 31,
+     "pos": 4,
+     "src": "chloe-women-s-miniature-perfume-set-4x5ml-4.webp",
+     "in": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-04.webp",
+     "alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures with citrus, plums and blackcurrants",
+     "new_alt": "Chloé Women’s Miniature Perfume Set 4x5ml – four miniatures with citrus, plums and blackcurrants",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chloe-women-s-miniature-perfume-set-4x5ml-nomade-edt-rose-tangerine-edt-chloe-edp-nomade-edp-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292324434307",
+     "new_media": "gid://shopify/MediaImage/74814610276739"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
