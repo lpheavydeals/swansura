@@ -1,0 +1,102 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "2": "flood",
+   "3": "isnet"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "2 flood, 3 isnet: bire tore the black boxes"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421465522563",
+   "media": "gid://shopify/MediaImage/74600655323523",
+   "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-01.webp",
+   "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in a row"
+  },
+  {
+   "product": "gid://shopify/Product/16421465522563",
+   "media": "gid://shopify/MediaImage/74600655356291",
+   "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-02.webp",
+   "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in front of the black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465522563",
+   "media": "gid://shopify/MediaImage/74600655389059",
+   "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-03.webp",
+   "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in the open black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465522563",
+   "media": "gid://shopify/MediaImage/74600655421827",
+   "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-04.webp",
+   "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles with citrus, saffron and spices"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml",
+   "id": 16421465522563,
+   "title": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-01.webp",
+     "in": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-01.webp",
+     "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in a row",
+     "new_alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in a row",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655323523",
+     "new_media": "gid://shopify/MediaImage/74824346632579"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-02.webp",
+     "in": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-02.webp",
+     "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in front of the black box",
+     "new_alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in front of the black box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655356291",
+     "new_media": "gid://shopify/MediaImage/74824346665347"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-03.webp",
+     "in": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-03.webp",
+     "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in the open black gift box",
+     "new_alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles in the open black gift box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655389059",
+     "new_media": "gid://shopify/MediaImage/74824346698115"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-04.webp",
+     "in": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-04.webp",
+     "alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles with citrus, saffron and spices",
+     "new_alt": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml – five bottles with citrus, saffron and spices",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bois-1920-oro-eau-de-parfum-gift-set-5-scents-5-x-18ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655421827",
+     "new_media": "gid://shopify/MediaImage/74824346730883"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

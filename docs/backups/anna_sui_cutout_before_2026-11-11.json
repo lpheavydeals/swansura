@@ -1,0 +1,121 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "2": "Anna Sui Sky Eau de Toilette 30ml – bottle, front view",
+   "5": "Anna Sui Sky Eau de Toilette 30ml – bottle with pear and bergamot"
+  },
+  "skip_products": [],
+  "notes": "2 lost feathers, 5 lost flowers"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16364136268163",
+   "media": "gid://shopify/MediaImage/74292262928771",
+   "src": "anna-sui-sky-eau-de-toilette-30ml-1.webp",
+   "alt": "Anna Sui Sky Eau de Toilette 30ml – hot-air-balloon shaped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364136268163",
+   "media": "gid://shopify/MediaImage/74292262961539",
+   "src": "anna-sui-sky-eau-de-toilette-30ml-2.webp",
+   "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle with feathers on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16364136268163",
+   "media": "gid://shopify/MediaImage/74292262994307",
+   "src": "anna-sui-sky-eau-de-toilette-30ml-3.webp",
+   "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle beside its pink and blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16364136268163",
+   "media": "gid://shopify/MediaImage/74292263027075",
+   "src": "anna-sui-sky-eau-de-toilette-30ml-4.webp",
+   "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle and box with candy props"
+  },
+  {
+   "product": "gid://shopify/Product/16364136268163",
+   "media": "gid://shopify/MediaImage/74292263059843",
+   "src": "anna-sui-sky-eau-de-toilette-30ml-5.webp",
+   "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle with pear, bergamot, lily of the valley and rose"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance",
+   "id": 16364136268163,
+   "title": "Anna Sui Sky Eau de Toilette 30ml – Women’s Fruity Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "anna-sui-sky-eau-de-toilette-30ml-1.webp",
+     "in": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-01.webp",
+     "alt": "Anna Sui Sky Eau de Toilette 30ml – hot-air-balloon shaped bottle, front view",
+     "new_alt": "Anna Sui Sky Eau de Toilette 30ml – hot-air-balloon shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262928771",
+     "new_media": "gid://shopify/MediaImage/74824346337667"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "anna-sui-sky-eau-de-toilette-30ml-2.webp",
+     "in": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-02.webp",
+     "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle with feathers on a white background",
+     "new_alt": "Anna Sui Sky Eau de Toilette 30ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262961539",
+     "new_media": "gid://shopify/MediaImage/74824346370435"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "anna-sui-sky-eau-de-toilette-30ml-3.webp",
+     "in": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-03.webp",
+     "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle beside its pink and blue box",
+     "new_alt": "Anna Sui Sky Eau de Toilette 30ml – bottle beside its pink and blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262994307",
+     "new_media": "gid://shopify/MediaImage/74824346403203"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "anna-sui-sky-eau-de-toilette-30ml-4.webp",
+     "in": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-04.webp",
+     "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle and box with candy props",
+     "new_alt": "Anna Sui Sky Eau de Toilette 30ml – bottle and box with candy props",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292263027075",
+     "new_media": "gid://shopify/MediaImage/74824346435971"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "anna-sui-sky-eau-de-toilette-30ml-5.webp",
+     "in": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-05.webp",
+     "alt": "Anna Sui Sky Eau de Toilette 30ml – bottle with pear, bergamot, lily of the valley and rose",
+     "new_alt": "Anna Sui Sky Eau de Toilette 30ml – bottle with pear and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "anna-sui-sky-eau-de-toilette-30ml-women-s-fruity-floral-gourmand-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292263059843",
+     "new_media": "gid://shopify/MediaImage/74824346468739"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

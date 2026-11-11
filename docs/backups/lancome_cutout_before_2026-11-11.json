@@ -1,0 +1,147 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "1": "isnet"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "1 isnet: bire left a white blob under the base"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16385141571971",
+   "media": "gid://shopify/MediaImage/74292426736003",
+   "src": "lancome-idole-now-eau-de-parfum-florale-50ml-1.webp",
+   "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – pink bottle with rose gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385141571971",
+   "media": "gid://shopify/MediaImage/74292426768771",
+   "src": "lancome-idole-now-eau-de-parfum-florale-50ml-2.webp",
+   "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – 50 ml bottle beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16385141571971",
+   "media": "gid://shopify/MediaImage/74292426801539",
+   "src": "lancome-idole-now-eau-de-parfum-florale-50ml-3.webp",
+   "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – bottle with roses, orchids and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16385123156355",
+   "media": "gid://shopify/MediaImage/74292426637699",
+   "src": "lancome-idole-nectar-eau-de-parfum-25ml-1.webp",
+   "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – square pink bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385123156355",
+   "media": "gid://shopify/MediaImage/74292426670467",
+   "src": "lancome-idole-nectar-eau-de-parfum-25ml-2.webp",
+   "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – 25 ml bottle beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16385123156355",
+   "media": "gid://shopify/MediaImage/74292426703235",
+   "src": "lancome-idole-nectar-eau-de-parfum-25ml-3.webp",
+   "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – bottle with roses, caramel, popcorn and vanilla"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance",
+   "id": 16385141571971,
+   "title": "Lancôme Idôle Now Eau de Parfum Florale 50ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "lancome-idole-now-eau-de-parfum-florale-50ml-1.webp",
+     "in": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-01.webp",
+     "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – pink bottle with rose gold cap, front view",
+     "new_alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – pink bottle with rose gold cap, front view",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426736003",
+     "new_media": "gid://shopify/MediaImage/74824285946243"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "lancome-idole-now-eau-de-parfum-florale-50ml-2.webp",
+     "in": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-02.webp",
+     "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – 50 ml bottle beside its box",
+     "new_alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – 50 ml bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426768771",
+     "new_media": "gid://shopify/MediaImage/74824285979011"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "lancome-idole-now-eau-de-parfum-florale-50ml-3.webp",
+     "in": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-03.webp",
+     "alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – bottle with roses, orchids and vanilla",
+     "new_alt": "Lancôme Idôle Now Eau de Parfum Florale 50ml – bottle with roses, orchids and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lancome-idole-now-eau-de-parfum-florale-50ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426801539",
+     "new_media": "gid://shopify/MediaImage/74824286011779"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance",
+   "id": 16385123156355,
+   "title": "Lancôme Idôle Nectar Eau de Parfum 25ml – Women’s Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "lancome-idole-nectar-eau-de-parfum-25ml-1.webp",
+     "in": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-01.webp",
+     "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – square pink bottle, front view",
+     "new_alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – square pink bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426637699",
+     "new_media": "gid://shopify/MediaImage/74824286044547"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "lancome-idole-nectar-eau-de-parfum-25ml-2.webp",
+     "in": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-02.webp",
+     "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – 25 ml bottle beside its box",
+     "new_alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – 25 ml bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426670467",
+     "new_media": "gid://shopify/MediaImage/74824286077315"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "lancome-idole-nectar-eau-de-parfum-25ml-3.webp",
+     "in": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-03.webp",
+     "alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – bottle with roses, caramel, popcorn and vanilla",
+     "new_alt": "Lancôme Idôle Nectar Eau de Parfum 25ml – bottle with roses, caramel, popcorn and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lancome-idole-nectar-eau-de-parfum-25ml-women-s-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426703235",
+     "new_media": "gid://shopify/MediaImage/74824286110083"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

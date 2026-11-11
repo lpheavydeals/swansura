@@ -1,0 +1,118 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383655215491",
+   "media": "gid://shopify/MediaImage/74292425261443",
+   "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-1.webp",
+   "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – 100 ml turquoise bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383655215491",
+   "media": "gid://shopify/MediaImage/74292425294211",
+   "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-2.webp",
+   "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle beside its blue Festival Vibes box"
+  },
+  {
+   "product": "gid://shopify/Product/16383655215491",
+   "media": "gid://shopify/MediaImage/74292425326979",
+   "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-3.webp",
+   "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – blue Festival Vibes for Him box"
+  },
+  {
+   "product": "gid://shopify/Product/16383655215491",
+   "media": "gid://shopify/MediaImage/74292425359747",
+   "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-4.webp",
+   "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16383655215491",
+   "media": "gid://shopify/MediaImage/74292425392515",
+   "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-5.webp",
+   "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle with pineapple, ginger, vanilla and woods"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance",
+   "id": 16383655215491,
+   "title": "Hollister Festival Vibes for Him Eau de Toilette 100ml – Men’s Aromatic Fougere Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-1.webp",
+     "in": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-01.webp",
+     "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – 100 ml turquoise bottle, front view",
+     "new_alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – 100 ml turquoise bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425261443",
+     "new_media": "gid://shopify/MediaImage/74824347124099"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-2.webp",
+     "in": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-02.webp",
+     "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle beside its blue Festival Vibes box",
+     "new_alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle beside its blue Festival Vibes box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425294211",
+     "new_media": "gid://shopify/MediaImage/74824347156867"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-3.webp",
+     "in": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-03.webp",
+     "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – blue Festival Vibes for Him box",
+     "new_alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – blue Festival Vibes for Him box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425326979",
+     "new_media": "gid://shopify/MediaImage/74824347189635"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-4.webp",
+     "in": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-04.webp",
+     "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle tilted at an angle",
+     "new_alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425359747",
+     "new_media": "gid://shopify/MediaImage/74824347222403"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-5.webp",
+     "in": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-05.webp",
+     "alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle with pineapple, ginger, vanilla and woods",
+     "new_alt": "Hollister Festival Vibes for Him Eau de Toilette 100ml – bottle with pineapple, ginger, vanilla and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hollister-festival-vibes-for-him-eau-de-toilette-100ml-men-s-aromatic-fougere-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425392515",
+     "new_media": "gid://shopify/MediaImage/74824347255171"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

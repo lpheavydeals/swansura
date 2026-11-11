@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421471060355",
+   "media": "gid://shopify/MediaImage/74600658960771",
+   "src": "tous-the-luminous-gold-eau-de-toilette-50ml-01.webp",
+   "alt": "Tous The Luminous Gold Eau de Toilette 50ml – round glass bottle with silver cap and teddy bear charm"
+  },
+  {
+   "product": "gid://shopify/Product/16421471060355",
+   "media": "gid://shopify/MediaImage/74600658993539",
+   "src": "tous-the-luminous-gold-eau-de-toilette-50ml-02.webp",
+   "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle beside its grey The Luminous Gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421471060355",
+   "media": "gid://shopify/MediaImage/74600659026307",
+   "src": "tous-the-luminous-gold-eau-de-toilette-50ml-03.webp",
+   "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with wood pieces, amber and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421471060355",
+   "media": "gid://shopify/MediaImage/74600659059075",
+   "src": "tous-the-luminous-gold-eau-de-toilette-50ml-04.webp",
+   "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with cream freesia flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "tous-touch-the-luminous-gold-eau-de-toilette-50ml",
+   "id": 16421471060355,
+   "title": "Tous Touch The Luminous Gold Eau de Toilette 50ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "tous-the-luminous-gold-eau-de-toilette-50ml-01.webp",
+     "in": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-01.webp",
+     "alt": "Tous The Luminous Gold Eau de Toilette 50ml – round glass bottle with silver cap and teddy bear charm",
+     "new_alt": "Tous The Luminous Gold Eau de Toilette 50ml – round glass bottle with silver cap and teddy bear charm",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658960771",
+     "new_media": "gid://shopify/MediaImage/74824347648387"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "tous-the-luminous-gold-eau-de-toilette-50ml-02.webp",
+     "in": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-02.webp",
+     "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle beside its grey The Luminous Gold box",
+     "new_alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle beside its grey The Luminous Gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658993539",
+     "new_media": "gid://shopify/MediaImage/74824347681155"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "tous-the-luminous-gold-eau-de-toilette-50ml-03.webp",
+     "in": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-03.webp",
+     "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with wood pieces, amber and white flowers",
+     "new_alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with wood pieces, amber and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659026307",
+     "new_media": "gid://shopify/MediaImage/74824347713923"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "tous-the-luminous-gold-eau-de-toilette-50ml-04.webp",
+     "in": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-04.webp",
+     "alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with cream freesia flowers",
+     "new_alt": "Tous The Luminous Gold Eau de Toilette 50ml – bottle with cream freesia flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "tous-touch-the-luminous-gold-eau-de-toilette-50ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659059075",
+     "new_media": "gid://shopify/MediaImage/74824347746691"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

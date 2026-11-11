@@ -1,0 +1,188 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "3": "drop"
+  },
+  "alt": {
+   "4": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with a rose, jasmine and sandalwood",
+   "6": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle, front view",
+   "7": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle tilted beside its silver box"
+  },
+  "skip_products": [],
+  "notes": "3 dropped: glass panels torn by every method"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16338883903875",
+   "media": "gid://shopify/MediaImage/74292211777923",
+   "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-1.webp",
+   "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with gold legs cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16338883903875",
+   "media": "gid://shopify/MediaImage/74292211810691",
+   "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-2.webp",
+   "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – 80 ml bottle and black box"
+  },
+  {
+   "product": "gid://shopify/Product/16338883903875",
+   "media": "gid://shopify/MediaImage/74292211843459",
+   "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-3.webp",
+   "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle and box among glass panels"
+  },
+  {
+   "product": "gid://shopify/Product/16338883903875",
+   "media": "gid://shopify/MediaImage/74292211876227",
+   "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-4.webp",
+   "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with rose, honeycomb, saffron and sandalwood"
+  },
+  {
+   "product": "gid://shopify/Product/16338878824835",
+   "media": "gid://shopify/MediaImage/74292211351939",
+   "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-1.webp",
+   "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle and silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16338878824835",
+   "media": "gid://shopify/MediaImage/74292211384707",
+   "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-2.webp",
+   "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle on a white plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16338878824835",
+   "media": "gid://shopify/MediaImage/74292211417475",
+   "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-3.webp",
+   "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle tilted beside its box on a glass block"
+  },
+  {
+   "product": "gid://shopify/Product/16338878824835",
+   "media": "gid://shopify/MediaImage/74292211450243",
+   "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-4.webp",
+   "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle with rose, orange blossom, pear and vanilla"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance",
+   "id": 16338883903875,
+   "title": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – Luxury Women’s Chypre Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-1.webp",
+     "in": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-01.webp",
+     "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with gold legs cap, front view",
+     "new_alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with gold legs cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211777923",
+     "new_media": "gid://shopify/MediaImage/74824285684099"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-2.webp",
+     "in": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-02.webp",
+     "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – 80 ml bottle and black box",
+     "new_alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – 80 ml bottle and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211810691",
+     "new_media": "gid://shopify/MediaImage/74824285716867"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-3.webp",
+     "in": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-03.webp",
+     "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle and box among glass panels",
+     "new_alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle and box among glass panels",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/74292211843459"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-4.webp",
+     "in": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-04.webp",
+     "alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with rose, honeycomb, saffron and sandalwood",
+     "new_alt": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – bottle with a rose, jasmine and sandalwood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-scandal-gold-eau-de-parfum-80ml-luxury-women-s-chypre-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211876227",
+     "new_media": "gid://shopify/MediaImage/74824285749635"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash",
+   "id": 16338878824835,
+   "title": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – Women’s Body Wash",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-1.webp",
+     "in": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-01.webp",
+     "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle and silver box",
+     "new_alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle and silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211351939",
+     "new_media": "gid://shopify/MediaImage/74824285815171"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-2.webp",
+     "in": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-02.webp",
+     "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle on a white plinth",
+     "new_alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – shower gel bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211384707",
+     "new_media": "gid://shopify/MediaImage/74824285847939"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-3.webp",
+     "in": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-03.webp",
+     "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle tilted beside its box on a glass block",
+     "new_alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle tilted beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211417475",
+     "new_media": "gid://shopify/MediaImage/74824285880707"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-4.webp",
+     "in": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-04.webp",
+     "alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle with rose, orange blossom, pear and vanilla",
+     "new_alt": "Jean Paul Gaultier Classique Perfumed Shower Gel 200ml – bottle with rose, orange blossom, pear and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jean-paul-gaultier-classique-perfumed-shower-gel-200ml-women-s-body-wash-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292211450243",
+     "new_media": "gid://shopify/MediaImage/74824285913475"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

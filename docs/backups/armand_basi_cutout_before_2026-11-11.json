@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421464473987",
+   "media": "gid://shopify/MediaImage/74600660009347",
+   "src": "armand-basi-in-red-eau-de-parfum-100ml-01.webp",
+   "alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421464473987",
+   "media": "gid://shopify/MediaImage/74600660042115",
+   "src": "armand-basi-in-red-eau-de-parfum-100ml-02.webp",
+   "alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle beside its red box"
+  },
+  {
+   "product": "gid://shopify/Product/16421464473987",
+   "media": "gid://shopify/MediaImage/74600660074883",
+   "src": "armand-basi-in-red-eau-de-parfum-100ml-03.webp",
+   "alt": "Armand Basi In Red Eau de Parfum 100ml – bottle with orange, lime, ginger and cinnamon"
+  },
+  {
+   "product": "gid://shopify/Product/16421464473987",
+   "media": "gid://shopify/MediaImage/74600660107651",
+   "src": "armand-basi-in-red-eau-de-parfum-100ml-04.webp",
+   "alt": "Armand Basi In Red Eau de Parfum 100ml – bottle lying at an angle"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "armand-basi-in-red-eau-de-parfum-100ml",
+   "id": 16421464473987,
+   "title": "Armand Basi In Red Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "armand-basi-in-red-eau-de-parfum-100ml-01.webp",
+     "in": "armand-basi-in-red-eau-de-parfum-100ml-01.webp",
+     "alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle front view",
+     "new_alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "armand-basi-in-red-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660009347",
+     "new_media": "gid://shopify/MediaImage/74824346501507"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "armand-basi-in-red-eau-de-parfum-100ml-02.webp",
+     "in": "armand-basi-in-red-eau-de-parfum-100ml-02.webp",
+     "alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle beside its red box",
+     "new_alt": "Armand Basi In Red Eau de Parfum 100ml – red bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "armand-basi-in-red-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660042115",
+     "new_media": "gid://shopify/MediaImage/74824346534275"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "armand-basi-in-red-eau-de-parfum-100ml-03.webp",
+     "in": "armand-basi-in-red-eau-de-parfum-100ml-03.webp",
+     "alt": "Armand Basi In Red Eau de Parfum 100ml – bottle with orange, lime, ginger and cinnamon",
+     "new_alt": "Armand Basi In Red Eau de Parfum 100ml – bottle with orange, lime, ginger and cinnamon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "armand-basi-in-red-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660074883",
+     "new_media": "gid://shopify/MediaImage/74824346567043"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "armand-basi-in-red-eau-de-parfum-100ml-04.webp",
+     "in": "armand-basi-in-red-eau-de-parfum-100ml-04.webp",
+     "alt": "Armand Basi In Red Eau de Parfum 100ml – bottle lying at an angle",
+     "new_alt": "Armand Basi In Red Eau de Parfum 100ml – bottle lying at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "armand-basi-in-red-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660107651",
+     "new_media": "gid://shopify/MediaImage/74824346599811"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

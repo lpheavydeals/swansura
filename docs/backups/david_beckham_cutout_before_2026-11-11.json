@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421450088835",
+   "media": "gid://shopify/MediaImage/74600657387907",
+   "src": "david-beckham-beyond-eau-de-toilette-60ml-01.webp",
+   "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle on a plain white background"
+  },
+  {
+   "product": "gid://shopify/Product/16421450088835",
+   "media": "gid://shopify/MediaImage/74600657420675",
+   "src": "david-beckham-beyond-eau-de-toilette-60ml-02.webp",
+   "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle beside its grey 60ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16421450088835",
+   "media": "gid://shopify/MediaImage/74600657453443",
+   "src": "david-beckham-beyond-eau-de-toilette-60ml-03.webp",
+   "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421450088835",
+   "media": "gid://shopify/MediaImage/74600657486211",
+   "src": "david-beckham-beyond-eau-de-toilette-60ml-04.webp",
+   "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle with grapefruit, lime, mint and cardamom"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "david-beckham-beyond-eau-de-toilette-60ml",
+   "id": 16421450088835,
+   "title": "David Beckham Beyond Eau de Toilette 60ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "david-beckham-beyond-eau-de-toilette-60ml-01.webp",
+     "in": "david-beckham-beyond-eau-de-toilette-60ml-01.webp",
+     "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle on a plain white background",
+     "new_alt": "David Beckham Beyond Eau de Toilette 60ml – bottle on a plain white background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "david-beckham-beyond-eau-de-toilette-60ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657387907",
+     "new_media": "gid://shopify/MediaImage/74824346993027"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "david-beckham-beyond-eau-de-toilette-60ml-02.webp",
+     "in": "david-beckham-beyond-eau-de-toilette-60ml-02.webp",
+     "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle beside its grey 60ml box",
+     "new_alt": "David Beckham Beyond Eau de Toilette 60ml – bottle beside its grey 60ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "david-beckham-beyond-eau-de-toilette-60ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657420675",
+     "new_media": "gid://shopify/MediaImage/74824347025795"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "david-beckham-beyond-eau-de-toilette-60ml-03.webp",
+     "in": "david-beckham-beyond-eau-de-toilette-60ml-03.webp",
+     "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle tilted at an angle",
+     "new_alt": "David Beckham Beyond Eau de Toilette 60ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "david-beckham-beyond-eau-de-toilette-60ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657453443",
+     "new_media": "gid://shopify/MediaImage/74824347058563"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "david-beckham-beyond-eau-de-toilette-60ml-04.webp",
+     "in": "david-beckham-beyond-eau-de-toilette-60ml-04.webp",
+     "alt": "David Beckham Beyond Eau de Toilette 60ml – bottle with grapefruit, lime, mint and cardamom",
+     "new_alt": "David Beckham Beyond Eau de Toilette 60ml – bottle with grapefruit, lime, mint and cardamom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "david-beckham-beyond-eau-de-toilette-60ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657486211",
+     "new_media": "gid://shopify/MediaImage/74824347091331"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

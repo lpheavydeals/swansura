@@ -1,0 +1,140 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "5": "drop"
+  },
+  "alt": {
+   "4": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – red bottle, front view"
+  },
+  "skip_products": [],
+  "notes": "5 dropped: stray vanilla pod / pebble in every method"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243038595",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-1.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – red bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243071363",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-2.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle beside its black box with cap removed"
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243104131",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-3.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle at an angle with red rose petals"
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243136899",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-4.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle with a red rose and thorny branches"
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243169667",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-5.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle on white satin with vanilla pods"
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "media": "gid://shopify/MediaImage/74292243202435",
+   "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-6.webp",
+   "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle with rose, geranium, honeycomb and moss"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance",
+   "id": 16337075536259,
+   "title": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – Luxury Unisex Rose Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-1.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-01.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – red bottle with black cap, front view",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – red bottle with black cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292243038595",
+     "new_media": "gid://shopify/MediaImage/74824286142851"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-2.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-02.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle beside its black box with cap removed",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle beside its black box with cap removed",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292243071363",
+     "new_media": "gid://shopify/MediaImage/74824286175619"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-3.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-03.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle at an angle with red rose petals",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle at an angle with red rose petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292243104131",
+     "new_media": "gid://shopify/MediaImage/74824286208387"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-4.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-04.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle with a red rose and thorny branches",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – red bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292243136899",
+     "new_media": "gid://shopify/MediaImage/74824286241155"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-5.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-05.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle on white satin with vanilla pods",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle on white satin with vanilla pods",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/74292243169667"
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "src": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-6.webp",
+     "in": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-06.webp",
+     "alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle with rose, geranium, honeycomb and moss",
+     "new_alt": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – bottle with rose, geranium, honeycomb and moss",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "serge-lutens-la-fille-de-berlin-eau-de-parfum-50ml-luxury-unisex-rose-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292243202435",
+     "new_media": "gid://shopify/MediaImage/74824286273923"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

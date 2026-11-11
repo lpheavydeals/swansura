@@ -1,0 +1,123 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "1": "isnet"
+  },
+  "alt": {
+   "3": "John Varvatos Artisan Eau de Toilette 75ml – woven bottle, close front view",
+   "4": "John Varvatos Artisan Eau de Toilette 75ml – bottle beside its linen-textured box"
+  },
+  "skip_products": [],
+  "notes": "3,4 lost wood/cloth/stone"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16362307158403",
+   "media": "gid://shopify/MediaImage/74292212105603",
+   "src": "john-varvatos-artisan-eau-de-toilette-75ml-1.webp",
+   "alt": "John Varvatos Artisan Eau de Toilette 75ml – woven wicker-wrapped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362307158403",
+   "media": "gid://shopify/MediaImage/74292212138371",
+   "src": "john-varvatos-artisan-eau-de-toilette-75ml-2.webp",
+   "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle beside its linen-textured box"
+  },
+  {
+   "product": "gid://shopify/Product/16362307158403",
+   "media": "gid://shopify/MediaImage/74292212171139",
+   "src": "john-varvatos-artisan-eau-de-toilette-75ml-3.webp",
+   "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle on a wooden block with linen cloth"
+  },
+  {
+   "product": "gid://shopify/Product/16362307158403",
+   "media": "gid://shopify/MediaImage/74292212203907",
+   "src": "john-varvatos-artisan-eau-de-toilette-75ml-4.webp",
+   "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle and box on a stone slab"
+  },
+  {
+   "product": "gid://shopify/Product/16362307158403",
+   "media": "gid://shopify/MediaImage/74292212236675",
+   "src": "john-varvatos-artisan-eau-de-toilette-75ml-5.webp",
+   "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle with orange, orange blossom and woods"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance",
+   "id": 16362307158403,
+   "title": "John Varvatos Artisan Eau de Toilette 75ml – Men’s Citrus Woody Long lasting Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "john-varvatos-artisan-eau-de-toilette-75ml-1.webp",
+     "in": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-01.webp",
+     "alt": "John Varvatos Artisan Eau de Toilette 75ml – woven wicker-wrapped bottle, front view",
+     "new_alt": "John Varvatos Artisan Eau de Toilette 75ml – woven wicker-wrapped bottle, front view",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212105603",
+     "new_media": "gid://shopify/MediaImage/74824347287939"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "john-varvatos-artisan-eau-de-toilette-75ml-2.webp",
+     "in": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-02.webp",
+     "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle beside its linen-textured box",
+     "new_alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle beside its linen-textured box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212138371",
+     "new_media": "gid://shopify/MediaImage/74824347320707"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "john-varvatos-artisan-eau-de-toilette-75ml-3.webp",
+     "in": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-03.webp",
+     "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle on a wooden block with linen cloth",
+     "new_alt": "John Varvatos Artisan Eau de Toilette 75ml – woven bottle, close front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212171139",
+     "new_media": "gid://shopify/MediaImage/74824347353475"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "john-varvatos-artisan-eau-de-toilette-75ml-4.webp",
+     "in": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-04.webp",
+     "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle and box on a stone slab",
+     "new_alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle beside its linen-textured box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212203907",
+     "new_media": "gid://shopify/MediaImage/74824347386243"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "john-varvatos-artisan-eau-de-toilette-75ml-5.webp",
+     "in": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-05.webp",
+     "alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle with orange, orange blossom and woods",
+     "new_alt": "John Varvatos Artisan Eau de Toilette 75ml – bottle with orange, orange blossom and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "john-varvatos-artisan-eau-de-toilette-75ml-men-s-citrus-woody-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212236675",
+     "new_media": "gid://shopify/MediaImage/74824347419011"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

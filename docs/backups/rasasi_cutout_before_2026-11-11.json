@@ -1,0 +1,101 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "2": "isnet"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "2 isnet: bire tore the box top"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421470994819",
+   "media": "gid://shopify/MediaImage/74600671019395",
+   "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-01.webp",
+   "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421470994819",
+   "media": "gid://shopify/MediaImage/74600671052163",
+   "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-02.webp",
+   "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421470994819",
+   "media": "gid://shopify/MediaImage/74600671084931",
+   "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-03.webp",
+   "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421470994819",
+   "media": "gid://shopify/MediaImage/74600671117699",
+   "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-04.webp",
+   "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with lavender, mint, vanilla and amber"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "rasasi-hawas-elixir-eau-de-parfum-100ml",
+   "id": 16421470994819,
+   "title": "Rasasi Hawas Elixir Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-01.webp",
+     "in": "rasasi-hawas-elixir-eau-de-parfum-100ml-01.webp",
+     "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle on a plain background",
+     "new_alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "rasasi-hawas-elixir-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671019395",
+     "new_media": "gid://shopify/MediaImage/74824347484547"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-02.webp",
+     "in": "rasasi-hawas-elixir-eau-de-parfum-100ml-02.webp",
+     "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with its box",
+     "new_alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "rasasi-hawas-elixir-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671052163",
+     "new_media": "gid://shopify/MediaImage/74824347517315"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-03.webp",
+     "in": "rasasi-hawas-elixir-eau-de-parfum-100ml-03.webp",
+     "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle at an angle",
+     "new_alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "rasasi-hawas-elixir-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671084931",
+     "new_media": "gid://shopify/MediaImage/74824347550083"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "rasasi-hawas-elixir-eau-de-parfum-100ml-04.webp",
+     "in": "rasasi-hawas-elixir-eau-de-parfum-100ml-04.webp",
+     "alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with lavender, mint, vanilla and amber",
+     "new_alt": "Rasasi Hawas Elixir Eau de Parfum 100ml – bottle with lavender, mint, vanilla and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "rasasi-hawas-elixir-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671117699",
+     "new_media": "gid://shopify/MediaImage/74824347582851"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

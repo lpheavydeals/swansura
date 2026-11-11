@@ -1,0 +1,99 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421461295491",
+   "media": "gid://shopify/MediaImage/74600660140419",
+   "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-01.webp",
+   "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle beside its green 30ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461295491",
+   "media": "gid://shopify/MediaImage/74600660173187",
+   "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-02.webp",
+   "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – square bottle with silver cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421461295491",
+   "media": "gid://shopify/MediaImage/74600660205955",
+   "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-03.webp",
+   "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle without cap showing the spray"
+  },
+  {
+   "product": "gid://shopify/Product/16421461295491",
+   "media": "gid://shopify/MediaImage/74600660238723",
+   "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-04.webp",
+   "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle with white blossom, lime and green tea leaves"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml",
+   "id": 16421461295491,
+   "title": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-01.webp",
+     "in": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-01.webp",
+     "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle beside its green 30ml box",
+     "new_alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle beside its green 30ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660140419",
+     "new_media": "gid://shopify/MediaImage/74824347812227"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-02.webp",
+     "in": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-02.webp",
+     "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – square bottle with silver cap",
+     "new_alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – square bottle with silver cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660173187",
+     "new_media": "gid://shopify/MediaImage/74824347844995"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-03.webp",
+     "in": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-03.webp",
+     "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle without cap showing the spray",
+     "new_alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle without cap showing the spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660205955",
+     "new_media": "gid://shopify/MediaImage/74824347877763"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-04.webp",
+     "in": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-04.webp",
+     "alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle with white blossom, lime and green tea leaves",
+     "new_alt": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml – bottle with white blossom, lime and green tea leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "vera-wang-embrace-green-tea-and-pear-blossom-eau-de-toilette-30ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660238723",
+     "new_media": "gid://shopify/MediaImage/74824347910531"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
