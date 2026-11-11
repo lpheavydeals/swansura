@@ -1,0 +1,341 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16385367835011",
+   "media": "gid://shopify/MediaImage/74292229833091",
+   "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-1.webp",
+   "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – gold bottle with black velvet bow, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385367835011",
+   "media": "gid://shopify/MediaImage/74292229865859",
+   "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-2.webp",
+   "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle beside its white and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16385367835011",
+   "media": "gid://shopify/MediaImage/74292229898627",
+   "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-3.webp",
+   "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle with citrus, almonds and pistachios"
+  },
+  {
+   "product": "gid://shopify/Product/16385367835011",
+   "media": "gid://shopify/MediaImage/74292229931395",
+   "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-4.webp",
+   "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle hanging from a velvet ribbon"
+  },
+  {
+   "product": "gid://shopify/Product/16385361117571",
+   "media": "gid://shopify/MediaImage/74292229702019",
+   "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-1.webp",
+   "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – pink apple-shaped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385361117571",
+   "media": "gid://shopify/MediaImage/74292229734787",
+   "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-2.webp",
+   "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16385361117571",
+   "media": "gid://shopify/MediaImage/74292229767555",
+   "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-3.webp",
+   "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with glass blossom decorations"
+  },
+  {
+   "product": "gid://shopify/Product/16385361117571",
+   "media": "gid://shopify/MediaImage/74292229800323",
+   "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-4.webp",
+   "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with lemon, raspberries and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229472643",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-1.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – dove-stopper glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229505411",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-2.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle at a slight angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229538179",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-3.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 100 ml bottle beside its yellow box"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229570947",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-4.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle with rose, peach, bergamot and gardenia"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229603715",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-5.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml white travel spray, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229636483",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-6.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml spray beside its yellow box"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "media": "gid://shopify/MediaImage/74292229669251",
+   "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-7.webp",
+   "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – spray with peach, bergamot and gardenia"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "variant": "gid://shopify/ProductVariant/62822853378435",
+   "old": "gid://shopify/MediaImage/74292229472643",
+   "new": "gid://shopify/MediaImage/74822604784003"
+  },
+  {
+   "product": "gid://shopify/Product/16385316848003",
+   "variant": "gid://shopify/ProductVariant/62822853411203",
+   "old": "gid://shopify/MediaImage/74292229603715",
+   "new": "gid://shopify/MediaImage/74822604915075"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance",
+   "id": 16385367835011,
+   "title": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – Women’s Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-1.webp",
+     "in": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-01.webp",
+     "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – gold bottle with black velvet bow, front view",
+     "new_alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – gold bottle with black velvet bow, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229833091",
+     "new_media": "gid://shopify/MediaImage/74822604456323"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-2.webp",
+     "in": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-02.webp",
+     "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle beside its white and gold box",
+     "new_alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle beside its white and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229865859",
+     "new_media": "gid://shopify/MediaImage/74822604489091"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-3.webp",
+     "in": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-03.webp",
+     "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle with citrus, almonds and pistachios",
+     "new_alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle with citrus, almonds and pistachios",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229898627",
+     "new_media": "gid://shopify/MediaImage/74822604521859"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-4.webp",
+     "in": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-04.webp",
+     "alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle hanging from a velvet ribbon",
+     "new_alt": "Nina Ricci Nina Precious Gold Eau de Parfum 50ml – bottle hanging from a velvet ribbon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-precious-gold-eau-de-parfum-50ml-women-s-floral-gourmand-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229931395",
+     "new_media": "gid://shopify/MediaImage/74822604554627"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance",
+   "id": 16385361117571,
+   "title": "Nina Ricci Nina Illusion Eau de Parfum 50ml – Women’s Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-1.webp",
+     "in": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-01.webp",
+     "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – pink apple-shaped bottle, front view",
+     "new_alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – pink apple-shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229702019",
+     "new_media": "gid://shopify/MediaImage/74822604587395"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-2.webp",
+     "in": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-02.webp",
+     "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle beside its white box",
+     "new_alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229734787",
+     "new_media": "gid://shopify/MediaImage/74822604620163"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-3.webp",
+     "in": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-03.webp",
+     "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with glass blossom decorations",
+     "new_alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with glass blossom decorations",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229767555",
+     "new_media": "gid://shopify/MediaImage/74822604652931"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "nina-ricci-nina-illusion-eau-de-parfum-50ml-4.webp",
+     "in": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-04.webp",
+     "alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with lemon, raspberries and pink pepper",
+     "new_alt": "Nina Ricci Nina Illusion Eau de Parfum 50ml – bottle with lemon, raspberries and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-nina-illusion-eau-de-parfum-50ml-women-s-floral-fruity-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229800323",
+     "new_media": "gid://shopify/MediaImage/74822604685699"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance",
+   "id": 16385316848003,
+   "title": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-1.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-01.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – dove-stopper glass bottle, front view",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – dove-stopper glass bottle, front view",
+     "variant_ids": [
+      62822853378435
+     ],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229472643",
+     "new_media": "gid://shopify/MediaImage/74822604784003"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-2.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-02.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle at a slight angle on a white background",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle at a slight angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229505411",
+     "new_media": "gid://shopify/MediaImage/74822604816771"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-3.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-03.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 100 ml bottle beside its yellow box",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 100 ml bottle beside its yellow box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229538179",
+     "new_media": "gid://shopify/MediaImage/74822604849539"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-4.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-04.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle with rose, peach, bergamot and gardenia",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – bottle with rose, peach, bergamot and gardenia",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229570947",
+     "new_media": "gid://shopify/MediaImage/74822604882307"
+    },
+    {
+     "n": 13,
+     "pos": 5,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-5.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-05.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml white travel spray, front view",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml white travel spray, front view",
+     "variant_ids": [
+      62822853411203
+     ],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229603715",
+     "new_media": "gid://shopify/MediaImage/74822604915075"
+    },
+    {
+     "n": 14,
+     "pos": 6,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-6.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-06.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml spray beside its yellow box",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – 30 ml spray beside its yellow box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229636483",
+     "new_media": "gid://shopify/MediaImage/74822604947843"
+    },
+    {
+     "n": 15,
+     "pos": 7,
+     "src": "nina-ricci-l-air-du-temps-eau-de-toilette-women-s-floral-fragrance-7.webp",
+     "in": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-07.webp",
+     "alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – spray with peach, bergamot and gardenia",
+     "new_alt": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance – spray with peach, bergamot and gardenia",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "nina-ricci-lair-du-temps-eau-de-toilette-women-s-floral-fragrance-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229669251",
+     "new_media": "gid://shopify/MediaImage/74822604980611"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

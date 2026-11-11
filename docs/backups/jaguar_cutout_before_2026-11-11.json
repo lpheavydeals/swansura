@@ -1,0 +1,335 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Jaguar Classic Red Eau de Toilette 100ml – red bottle with silver frame, front view",
+   "7": "Jaguar Classic Red Eau de Toilette 100ml – bottle at an angle"
+  },
+  "skip_products": [],
+  "notes": "7 lost the wood log"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421463163267",
+   "media": "gid://shopify/MediaImage/74600659091843",
+   "src": "jaguar-ultimate-power-eau-de-toilette-100ml-01.webp",
+   "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – blue bottle with silver cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421463163267",
+   "media": "gid://shopify/MediaImage/74600659124611",
+   "src": "jaguar-ultimate-power-eau-de-toilette-100ml-02.webp",
+   "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16421463163267",
+   "media": "gid://shopify/MediaImage/74600659157379",
+   "src": "jaguar-ultimate-power-eau-de-toilette-100ml-03.webp",
+   "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle with bergamot, lemon and mint"
+  },
+  {
+   "product": "gid://shopify/Product/16421463130499",
+   "media": "gid://shopify/MediaImage/74600671150467",
+   "src": "jaguar-classic-red-eau-de-toilette-100ml-01.webp",
+   "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421463130499",
+   "media": "gid://shopify/MediaImage/74600671183235",
+   "src": "jaguar-classic-red-eau-de-toilette-100ml-02.webp",
+   "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421463130499",
+   "media": "gid://shopify/MediaImage/74600671216003",
+   "src": "jaguar-classic-red-eau-de-toilette-100ml-03.webp",
+   "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with lime, raspberries and blueberries"
+  },
+  {
+   "product": "gid://shopify/Product/16421463130499",
+   "media": "gid://shopify/MediaImage/74600671248771",
+   "src": "jaguar-classic-red-eau-de-toilette-100ml-04.webp",
+   "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle on a piece of wood"
+  },
+  {
+   "product": "gid://shopify/Product/16421463130499",
+   "media": "gid://shopify/MediaImage/74600671281539",
+   "src": "jaguar-classic-red-eau-de-toilette-100ml-05.webp",
+   "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with chilli, vanilla pods and raspberries"
+  },
+  {
+   "product": "gid://shopify/Product/16421462147459",
+   "media": "gid://shopify/MediaImage/74600661385603",
+   "src": "jaguar-classic-motion-eau-de-toilette-100ml-01.webp",
+   "alt": "Jaguar Classic Motion Eau de Toilette 100ml – silver and yellow flask bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421462147459",
+   "media": "gid://shopify/MediaImage/74600661418371",
+   "src": "jaguar-classic-motion-eau-de-toilette-100ml-02.webp",
+   "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with grey box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462147459",
+   "media": "gid://shopify/MediaImage/74600661451139",
+   "src": "jaguar-classic-motion-eau-de-toilette-100ml-03.webp",
+   "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with lime, lemon, mint and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/16421462147459",
+   "media": "gid://shopify/MediaImage/74600661483907",
+   "src": "jaguar-classic-motion-eau-de-toilette-100ml-04.webp",
+   "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421462081923",
+   "media": "gid://shopify/MediaImage/74600657518979",
+   "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-01.webp",
+   "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – eau de toilette bottle and blue shower gel tube"
+  },
+  {
+   "product": "gid://shopify/Product/16421462081923",
+   "media": "gid://shopify/MediaImage/74600657551747",
+   "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-02.webp",
+   "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel beside the black Classic Bath Set box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462081923",
+   "media": "gid://shopify/MediaImage/74600657584515",
+   "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-03.webp",
+   "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel with orange, ginger and white flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "jaguar-ultimate-power-eau-de-toilette-100ml",
+   "id": 16421463163267,
+   "title": "Jaguar Ultimate Power Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "jaguar-ultimate-power-eau-de-toilette-100ml-01.webp",
+     "in": "jaguar-ultimate-power-eau-de-toilette-100ml-01.webp",
+     "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – blue bottle with silver cap",
+     "new_alt": "Jaguar Ultimate Power Eau de Toilette 100ml – blue bottle with silver cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-ultimate-power-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659091843",
+     "new_media": "gid://shopify/MediaImage/74822603473283"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "jaguar-ultimate-power-eau-de-toilette-100ml-02.webp",
+     "in": "jaguar-ultimate-power-eau-de-toilette-100ml-02.webp",
+     "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle beside its blue box",
+     "new_alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-ultimate-power-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659124611",
+     "new_media": "gid://shopify/MediaImage/74822603506051"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "jaguar-ultimate-power-eau-de-toilette-100ml-03.webp",
+     "in": "jaguar-ultimate-power-eau-de-toilette-100ml-03.webp",
+     "alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle with bergamot, lemon and mint",
+     "new_alt": "Jaguar Ultimate Power Eau de Toilette 100ml – bottle with bergamot, lemon and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-ultimate-power-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659157379",
+     "new_media": "gid://shopify/MediaImage/74822603538819"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "jaguar-classic-red-eau-de-toilette-100ml",
+   "id": 16421463130499,
+   "title": "Jaguar Classic Red Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "jaguar-classic-red-eau-de-toilette-100ml-01.webp",
+     "in": "jaguar-classic-red-eau-de-toilette-100ml-01.webp",
+     "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle on a plain background",
+     "new_alt": "Jaguar Classic Red Eau de Toilette 100ml – red bottle with silver frame, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-red-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671150467",
+     "new_media": "gid://shopify/MediaImage/74822603604355"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "jaguar-classic-red-eau-de-toilette-100ml-02.webp",
+     "in": "jaguar-classic-red-eau-de-toilette-100ml-02.webp",
+     "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with its box",
+     "new_alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-red-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671183235",
+     "new_media": "gid://shopify/MediaImage/74822603637123"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "jaguar-classic-red-eau-de-toilette-100ml-03.webp",
+     "in": "jaguar-classic-red-eau-de-toilette-100ml-03.webp",
+     "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with lime, raspberries and blueberries",
+     "new_alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with lime, raspberries and blueberries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-red-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671216003",
+     "new_media": "gid://shopify/MediaImage/74822603669891"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "jaguar-classic-red-eau-de-toilette-100ml-04.webp",
+     "in": "jaguar-classic-red-eau-de-toilette-100ml-04.webp",
+     "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle on a piece of wood",
+     "new_alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-red-eau-de-toilette-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671248771",
+     "new_media": "gid://shopify/MediaImage/74822603702659"
+    },
+    {
+     "n": 8,
+     "pos": 5,
+     "src": "jaguar-classic-red-eau-de-toilette-100ml-05.webp",
+     "in": "jaguar-classic-red-eau-de-toilette-100ml-05.webp",
+     "alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with chilli, vanilla pods and raspberries",
+     "new_alt": "Jaguar Classic Red Eau de Toilette 100ml – bottle with chilli, vanilla pods and raspberries",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-red-eau-de-toilette-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671281539",
+     "new_media": "gid://shopify/MediaImage/74822603735427"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "jaguar-classic-motion-eau-de-toilette-100ml",
+   "id": 16421462147459,
+   "title": "Jaguar Classic Motion Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "jaguar-classic-motion-eau-de-toilette-100ml-01.webp",
+     "in": "jaguar-classic-motion-eau-de-toilette-100ml-01.webp",
+     "alt": "Jaguar Classic Motion Eau de Toilette 100ml – silver and yellow flask bottle",
+     "new_alt": "Jaguar Classic Motion Eau de Toilette 100ml – silver and yellow flask bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-motion-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661385603",
+     "new_media": "gid://shopify/MediaImage/74822603768195"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "jaguar-classic-motion-eau-de-toilette-100ml-02.webp",
+     "in": "jaguar-classic-motion-eau-de-toilette-100ml-02.webp",
+     "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with grey box",
+     "new_alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with grey box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-motion-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661418371",
+     "new_media": "gid://shopify/MediaImage/74822603800963"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "jaguar-classic-motion-eau-de-toilette-100ml-03.webp",
+     "in": "jaguar-classic-motion-eau-de-toilette-100ml-03.webp",
+     "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with lime, lemon, mint and bergamot",
+     "new_alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle with lime, lemon, mint and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-motion-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661451139",
+     "new_media": "gid://shopify/MediaImage/74822603833731"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "jaguar-classic-motion-eau-de-toilette-100ml-04.webp",
+     "in": "jaguar-classic-motion-eau-de-toilette-100ml-04.webp",
+     "alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle tilted at an angle",
+     "new_alt": "Jaguar Classic Motion Eau de Toilette 100ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-motion-eau-de-toilette-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661483907",
+     "new_media": "gid://shopify/MediaImage/74822603866499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml",
+   "id": 16421462081923,
+   "title": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-01.webp",
+     "in": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-01.webp",
+     "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – eau de toilette bottle and blue shower gel tube",
+     "new_alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – eau de toilette bottle and blue shower gel tube",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657518979",
+     "new_media": "gid://shopify/MediaImage/74822603964803"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-02.webp",
+     "in": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-02.webp",
+     "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel beside the black Classic Bath Set box",
+     "new_alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel beside the black Classic Bath Set box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657551747",
+     "new_media": "gid://shopify/MediaImage/74822603997571"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-03.webp",
+     "in": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-03.webp",
+     "alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel with orange, ginger and white flowers",
+     "new_alt": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml – bottle and shower gel with orange, ginger and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jaguar-classic-eau-de-toilette-shower-gel-gift-set-100ml-200ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657584515",
+     "new_media": "gid://shopify/MediaImage/74822604030339"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

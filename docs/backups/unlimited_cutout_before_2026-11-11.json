@@ -1,0 +1,315 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "8": "Unlimited Desire Eau de Parfum 100ml – green bottle with gold cap"
+  },
+  "skip_products": [],
+  "notes": "all bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421471125891",
+   "media": "gid://shopify/MediaImage/74600656503171",
+   "src": "unlimited-attitude-eau-de-parfum-100ml-01.webp",
+   "alt": "Unlimited Attitude Eau de Parfum 100ml – amber bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421471125891",
+   "media": "gid://shopify/MediaImage/74600656535939",
+   "src": "unlimited-attitude-eau-de-parfum-100ml-02.webp",
+   "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle beside its brown and white box"
+  },
+  {
+   "product": "gid://shopify/Product/16421471125891",
+   "media": "gid://shopify/MediaImage/74600656568707",
+   "src": "unlimited-attitude-eau-de-parfum-100ml-03.webp",
+   "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle standing in its open gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16421471125891",
+   "media": "gid://shopify/MediaImage/74600656601475",
+   "src": "unlimited-attitude-eau-de-parfum-100ml-04.webp",
+   "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle with lemons and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/16421461262723",
+   "media": "gid://shopify/MediaImage/74600658698627",
+   "src": "unlimited-passion-eau-de-parfum-100ml-01.webp",
+   "alt": "Unlimited Passion Eau de Parfum 100ml – red bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421461262723",
+   "media": "gid://shopify/MediaImage/74600658731395",
+   "src": "unlimited-passion-eau-de-parfum-100ml-02.webp",
+   "alt": "Unlimited Passion Eau de Parfum 100ml – bottle beside its red and white box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461262723",
+   "media": "gid://shopify/MediaImage/74600658764163",
+   "src": "unlimited-passion-eau-de-parfum-100ml-03.webp",
+   "alt": "Unlimited Passion Eau de Parfum 100ml – bottle with white flowers, ylang-ylang and vanilla pods"
+  },
+  {
+   "product": "gid://shopify/Product/16421461197187",
+   "media": "gid://shopify/MediaImage/74600670626179",
+   "src": "unlimited-desire-eau-de-parfum-100ml-01.webp",
+   "alt": "Unlimited Desire Eau de Parfum 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421461197187",
+   "media": "gid://shopify/MediaImage/74600670658947",
+   "src": "unlimited-desire-eau-de-parfum-100ml-02.webp",
+   "alt": "Unlimited Desire Eau de Parfum 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461197187",
+   "media": "gid://shopify/MediaImage/74600670691715",
+   "src": "unlimited-desire-eau-de-parfum-100ml-03.webp",
+   "alt": "Unlimited Desire Eau de Parfum 100ml – bottle with lemon, white blossom and green apple"
+  },
+  {
+   "product": "gid://shopify/Product/16421461098883",
+   "media": "gid://shopify/MediaImage/74600661057923",
+   "src": "unlimited-courage-eau-de-parfum-100ml-01.webp",
+   "alt": "Unlimited Courage Eau de Parfum 100ml – dark bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421461098883",
+   "media": "gid://shopify/MediaImage/74600661090691",
+   "src": "unlimited-courage-eau-de-parfum-100ml-02.webp",
+   "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with black and white box"
+  },
+  {
+   "product": "gid://shopify/Product/16421461098883",
+   "media": "gid://shopify/MediaImage/74600661123459",
+   "src": "unlimited-courage-eau-de-parfum-100ml-03.webp",
+   "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with white flowers and green leaves"
+  },
+  {
+   "product": "gid://shopify/Product/16421461098883",
+   "media": "gid://shopify/MediaImage/74600661156227",
+   "src": "unlimited-courage-eau-de-parfum-100ml-04.webp",
+   "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with pieces of wood and bark"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "unlimited-attitude-eau-de-parfum-100ml",
+   "id": 16421471125891,
+   "title": "Unlimited Attitude Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "unlimited-attitude-eau-de-parfum-100ml-01.webp",
+     "in": "unlimited-attitude-eau-de-parfum-100ml-01.webp",
+     "alt": "Unlimited Attitude Eau de Parfum 100ml – amber bottle with gold cap",
+     "new_alt": "Unlimited Attitude Eau de Parfum 100ml – amber bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-attitude-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656503171",
+     "new_media": "gid://shopify/MediaImage/74822605046147"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "unlimited-attitude-eau-de-parfum-100ml-02.webp",
+     "in": "unlimited-attitude-eau-de-parfum-100ml-02.webp",
+     "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle beside its brown and white box",
+     "new_alt": "Unlimited Attitude Eau de Parfum 100ml – bottle beside its brown and white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-attitude-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656535939",
+     "new_media": "gid://shopify/MediaImage/74822605078915"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "unlimited-attitude-eau-de-parfum-100ml-03.webp",
+     "in": "unlimited-attitude-eau-de-parfum-100ml-03.webp",
+     "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle standing in its open gift box",
+     "new_alt": "Unlimited Attitude Eau de Parfum 100ml – bottle standing in its open gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-attitude-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656568707",
+     "new_media": "gid://shopify/MediaImage/74822605111683"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "unlimited-attitude-eau-de-parfum-100ml-04.webp",
+     "in": "unlimited-attitude-eau-de-parfum-100ml-04.webp",
+     "alt": "Unlimited Attitude Eau de Parfum 100ml – bottle with lemons and bergamot",
+     "new_alt": "Unlimited Attitude Eau de Parfum 100ml – bottle with lemons and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-attitude-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656601475",
+     "new_media": "gid://shopify/MediaImage/74822605144451"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "unlimited-passion-eau-de-parfum-100ml",
+   "id": 16421461262723,
+   "title": "Unlimited Passion Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "unlimited-passion-eau-de-parfum-100ml-01.webp",
+     "in": "unlimited-passion-eau-de-parfum-100ml-01.webp",
+     "alt": "Unlimited Passion Eau de Parfum 100ml – red bottle with gold cap",
+     "new_alt": "Unlimited Passion Eau de Parfum 100ml – red bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-passion-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658698627",
+     "new_media": "gid://shopify/MediaImage/74822605406595"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "unlimited-passion-eau-de-parfum-100ml-02.webp",
+     "in": "unlimited-passion-eau-de-parfum-100ml-02.webp",
+     "alt": "Unlimited Passion Eau de Parfum 100ml – bottle beside its red and white box",
+     "new_alt": "Unlimited Passion Eau de Parfum 100ml – bottle beside its red and white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-passion-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658731395",
+     "new_media": "gid://shopify/MediaImage/74822605439363"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "unlimited-passion-eau-de-parfum-100ml-03.webp",
+     "in": "unlimited-passion-eau-de-parfum-100ml-03.webp",
+     "alt": "Unlimited Passion Eau de Parfum 100ml – bottle with white flowers, ylang-ylang and vanilla pods",
+     "new_alt": "Unlimited Passion Eau de Parfum 100ml – bottle with white flowers, ylang-ylang and vanilla pods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-passion-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658764163",
+     "new_media": "gid://shopify/MediaImage/74822605472131"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "unlimited-desire-eau-de-parfum-100ml",
+   "id": 16421461197187,
+   "title": "Unlimited Desire Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "unlimited-desire-eau-de-parfum-100ml-01.webp",
+     "in": "unlimited-desire-eau-de-parfum-100ml-01.webp",
+     "alt": "Unlimited Desire Eau de Parfum 100ml – bottle on a plain background",
+     "new_alt": "Unlimited Desire Eau de Parfum 100ml – green bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-desire-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670626179",
+     "new_media": "gid://shopify/MediaImage/74822606258563"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "unlimited-desire-eau-de-parfum-100ml-02.webp",
+     "in": "unlimited-desire-eau-de-parfum-100ml-02.webp",
+     "alt": "Unlimited Desire Eau de Parfum 100ml – bottle with its box",
+     "new_alt": "Unlimited Desire Eau de Parfum 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-desire-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670658947",
+     "new_media": "gid://shopify/MediaImage/74822606291331"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "unlimited-desire-eau-de-parfum-100ml-03.webp",
+     "in": "unlimited-desire-eau-de-parfum-100ml-03.webp",
+     "alt": "Unlimited Desire Eau de Parfum 100ml – bottle with lemon, white blossom and green apple",
+     "new_alt": "Unlimited Desire Eau de Parfum 100ml – bottle with lemon, white blossom and green apple",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-desire-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670691715",
+     "new_media": "gid://shopify/MediaImage/74822606324099"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "unlimited-courage-eau-de-parfum-100ml",
+   "id": 16421461098883,
+   "title": "Unlimited Courage Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "unlimited-courage-eau-de-parfum-100ml-01.webp",
+     "in": "unlimited-courage-eau-de-parfum-100ml-01.webp",
+     "alt": "Unlimited Courage Eau de Parfum 100ml – dark bottle with gold cap",
+     "new_alt": "Unlimited Courage Eau de Parfum 100ml – dark bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-courage-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661057923",
+     "new_media": "gid://shopify/MediaImage/74822606422403"
+    },
+    {
+     "n": 12,
+     "pos": 2,
+     "src": "unlimited-courage-eau-de-parfum-100ml-02.webp",
+     "in": "unlimited-courage-eau-de-parfum-100ml-02.webp",
+     "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with black and white box",
+     "new_alt": "Unlimited Courage Eau de Parfum 100ml – bottle with black and white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-courage-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661090691",
+     "new_media": "gid://shopify/MediaImage/74822606455171"
+    },
+    {
+     "n": 13,
+     "pos": 3,
+     "src": "unlimited-courage-eau-de-parfum-100ml-03.webp",
+     "in": "unlimited-courage-eau-de-parfum-100ml-03.webp",
+     "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with white flowers and green leaves",
+     "new_alt": "Unlimited Courage Eau de Parfum 100ml – bottle with white flowers and green leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-courage-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661123459",
+     "new_media": "gid://shopify/MediaImage/74822606487939"
+    },
+    {
+     "n": 14,
+     "pos": 4,
+     "src": "unlimited-courage-eau-de-parfum-100ml-04.webp",
+     "in": "unlimited-courage-eau-de-parfum-100ml-04.webp",
+     "alt": "Unlimited Courage Eau de Parfum 100ml – bottle with pieces of wood and bark",
+     "new_alt": "Unlimited Courage Eau de Parfum 100ml – bottle with pieces of wood and bark",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "unlimited-courage-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661156227",
+     "new_media": "gid://shopify/MediaImage/74822606520707"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
