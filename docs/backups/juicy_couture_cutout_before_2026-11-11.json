@@ -1,0 +1,192 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426277251",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-1.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 100 ml glitter bottle with pink bow, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426310019",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-2.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426342787",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-3.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426375555",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-4.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, jasmine, peony and rose"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426408323",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-5.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 50 ml glitter bottle with pink bow, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426441091",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-6.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 50 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426473859",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-7.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle and box with roses and petals"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "media": "gid://shopify/MediaImage/74292426506627",
+   "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-8.webp",
+   "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, orange blossom and roses"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "variant": "gid://shopify/ProductVariant/62823075643779",
+   "old": "gid://shopify/MediaImage/74292426277251",
+   "new": "gid://shopify/MediaImage/74824250163587"
+  },
+  {
+   "product": "gid://shopify/Product/16383847432579",
+   "variant": "gid://shopify/ProductVariant/62823075676547",
+   "old": "gid://shopify/MediaImage/74292426408323",
+   "new": "gid://shopify/MediaImage/74824250294659"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+   "id": 16383847432579,
+   "title": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – Women’s Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-1.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-01.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 100 ml glitter bottle with pink bow, front view",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 100 ml glitter bottle with pink bow, front view",
+     "variant_ids": [
+      62823075643779
+     ],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426277251",
+     "new_media": "gid://shopify/MediaImage/74824250163587"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-2.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-02.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 100 ml box",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426310019",
+     "new_media": "gid://shopify/MediaImage/74824250196355"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-3.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-03.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle tilted at an angle",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426342787",
+     "new_media": "gid://shopify/MediaImage/74824250229123"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-4.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-04.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, jasmine, peony and rose",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, jasmine, peony and rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426375555",
+     "new_media": "gid://shopify/MediaImage/74824250261891"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-5.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-05.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 50 ml glitter bottle with pink bow, front view",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – 50 ml glitter bottle with pink bow, front view",
+     "variant_ids": [
+      62823075676547
+     ],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426408323",
+     "new_media": "gid://shopify/MediaImage/74824250294659"
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-6.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-06.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 50 ml box",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle beside its pink 50 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426441091",
+     "new_media": "gid://shopify/MediaImage/74824250327427"
+    },
+    {
+     "n": 7,
+     "pos": 7,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-7.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-07.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle and box with roses and petals",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle and box with roses and petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426473859",
+     "new_media": "gid://shopify/MediaImage/74824250360195"
+    },
+    {
+     "n": 8,
+     "pos": 8,
+     "src": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-8.webp",
+     "in": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-08.webp",
+     "alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, orange blossom and roses",
+     "new_alt": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – bottle with pear, mandarin, orange blossom and roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426506627",
+     "new_media": "gid://shopify/MediaImage/74824250392963"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

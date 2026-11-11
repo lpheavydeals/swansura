@@ -1,0 +1,186 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "6": "flood",
+   "7": "flood"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "6,7 flood: bire tore the blue box"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16381152952707",
+   "media": "gid://shopify/MediaImage/74292424835459",
+   "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-1.webp",
+   "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16381152952707",
+   "media": "gid://shopify/MediaImage/74292424868227",
+   "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-2.webp",
+   "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16381152952707",
+   "media": "gid://shopify/MediaImage/74292424900995",
+   "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-3.webp",
+   "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381152952707",
+   "media": "gid://shopify/MediaImage/74292424933763",
+   "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-4.webp",
+   "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle with lemon, cinnamon and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16381144203651",
+   "media": "gid://shopify/MediaImage/74292424671619",
+   "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-1.webp",
+   "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16381144203651",
+   "media": "gid://shopify/MediaImage/74292424704387",
+   "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-2.webp",
+   "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16381144203651",
+   "media": "gid://shopify/MediaImage/74292424737155",
+   "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-3.webp",
+   "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – blue box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381144203651",
+   "media": "gid://shopify/MediaImage/74292424769923",
+   "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-4.webp",
+   "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle with mandarin, grapefruit and nutmeg"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance",
+   "id": 16381152952707,
+   "title": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – Men’s Woody Spicy Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-1.webp",
+     "in": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-01.webp",
+     "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black bottle, front view on a white background",
+     "new_alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424835459",
+     "new_media": "gid://shopify/MediaImage/74824250687875"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-2.webp",
+     "in": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-02.webp",
+     "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle beside its black box",
+     "new_alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424868227",
+     "new_media": "gid://shopify/MediaImage/74824250720643"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-3.webp",
+     "in": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-03.webp",
+     "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black box, front view",
+     "new_alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – black box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424900995",
+     "new_media": "gid://shopify/MediaImage/74824250753411"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-4.webp",
+     "in": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-04.webp",
+     "alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle with lemon, cinnamon and amber",
+     "new_alt": "Etienne Aigner No. 1 Intense Eau de Toilette 100ml – bottle with lemon, cinnamon and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-no-1-intense-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424933763",
+     "new_media": "gid://shopify/MediaImage/74824250786179"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "id": 16381144203651,
+   "title": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-1.webp",
+     "in": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424671619",
+     "new_media": "gid://shopify/MediaImage/74824250818947"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-2.webp",
+     "in": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle beside its blue box",
+     "new_alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424704387",
+     "new_media": "gid://shopify/MediaImage/74824250851715"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-3.webp",
+     "in": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – blue box, front view",
+     "new_alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – blue box, front view",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424737155",
+     "new_media": "gid://shopify/MediaImage/74824250884483"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-4.webp",
+     "in": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-04.webp",
+     "alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle with mandarin, grapefruit and nutmeg",
+     "new_alt": "Etienne Aigner First Class Explorer Eau de Toilette 100ml – bottle with mandarin, grapefruit and nutmeg",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "etienne-aigner-first-class-explorer-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424769923",
+     "new_media": "gid://shopify/MediaImage/74824250917251"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

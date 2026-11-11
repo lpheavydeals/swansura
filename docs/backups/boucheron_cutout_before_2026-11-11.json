@@ -1,0 +1,206 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "7": "isnet"
+  },
+  "alt": {
+   "7": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle, front view"
+  },
+  "skip_products": [],
+  "notes": "7 isnet: bire left stone fragments"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16364242928003",
+   "media": "gid://shopify/MediaImage/74292282524035",
+   "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-1.webp",
+   "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16364242928003",
+   "media": "gid://shopify/MediaImage/74292282556803",
+   "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-2.webp",
+   "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16364242928003",
+   "media": "gid://shopify/MediaImage/74292282589571",
+   "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-3.webp",
+   "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with a pink rose"
+  },
+  {
+   "product": "gid://shopify/Product/16364242928003",
+   "media": "gid://shopify/MediaImage/74292282622339",
+   "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-4.webp",
+   "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with ginger, cinnamon, wood and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16364237652355",
+   "media": "gid://shopify/MediaImage/74292282360195",
+   "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-1.webp",
+   "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16364237652355",
+   "media": "gid://shopify/MediaImage/74292282392963",
+   "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-2.webp",
+   "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16364237652355",
+   "media": "gid://shopify/MediaImage/74292282425731",
+   "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-3.webp",
+   "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle standing on grey and black stones"
+  },
+  {
+   "product": "gid://shopify/Product/16364237652355",
+   "media": "gid://shopify/MediaImage/74292282458499",
+   "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-4.webp",
+   "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with green patchouli leaves around it"
+  },
+  {
+   "product": "gid://shopify/Product/16364237652355",
+   "media": "gid://shopify/MediaImage/74292282491267",
+   "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-5.webp",
+   "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with jasmine, pear, pepper and wood"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance",
+   "id": 16364242928003,
+   "title": "Boucheron Rose d’Isparta Eau de Parfum 125ml – Luxury Unisex Rose Amber Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-1.webp",
+     "in": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-01.webp",
+     "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle, front view on a white background",
+     "new_alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282524035",
+     "new_media": "gid://shopify/MediaImage/74824249868675"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-2.webp",
+     "in": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-02.webp",
+     "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle beside its white box",
+     "new_alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282556803",
+     "new_media": "gid://shopify/MediaImage/74824249901443"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-3.webp",
+     "in": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-03.webp",
+     "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with a pink rose",
+     "new_alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with a pink rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282589571",
+     "new_media": "gid://shopify/MediaImage/74824249934211"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "boucheron-rose-d-isparta-eau-de-parfum-125ml-4.webp",
+     "in": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-04.webp",
+     "alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with ginger, cinnamon, wood and amber",
+     "new_alt": "Boucheron Rose d’Isparta Eau de Parfum 125ml – bottle with ginger, cinnamon, wood and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-rose-d-isparta-eau-de-parfum-125ml-luxury-unisex-rose-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282622339",
+     "new_media": "gid://shopify/MediaImage/74824249966979"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance",
+   "id": 16364237652355,
+   "title": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – Luxury Unisex Woody Amber Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-1.webp",
+     "in": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-01.webp",
+     "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle, front view on a white background",
+     "new_alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282360195",
+     "new_media": "gid://shopify/MediaImage/74824249999747"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-2.webp",
+     "in": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-02.webp",
+     "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle beside its white box",
+     "new_alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282392963",
+     "new_media": "gid://shopify/MediaImage/74824250032515"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-3.webp",
+     "in": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-03.webp",
+     "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle standing on grey and black stones",
+     "new_alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle, front view",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282425731",
+     "new_media": "gid://shopify/MediaImage/74824250065283"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-4.webp",
+     "in": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-04.webp",
+     "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with green patchouli leaves around it",
+     "new_alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with green patchouli leaves around it",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282458499",
+     "new_media": "gid://shopify/MediaImage/74824250098051"
+    },
+    {
+     "n": 9,
+     "pos": 5,
+     "src": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-5.webp",
+     "in": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-05.webp",
+     "alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with jasmine, pear, pepper and wood",
+     "new_alt": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – bottle with jasmine, pear, pepper and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "boucheron-patchouli-d-angkor-eau-de-parfum-125ml-luxury-unisex-woody-amber-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282491267",
+     "new_media": "gid://shopify/MediaImage/74824250130819"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

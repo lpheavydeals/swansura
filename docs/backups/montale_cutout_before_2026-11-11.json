@@ -1,0 +1,166 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Montale Aoud Safran Eau de Parfum 100ml – bottle with a pink rose"
+  },
+  "skip_products": [],
+  "notes": "4 lost oud wood and saffron"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16345750045059",
+   "media": "gid://shopify/MediaImage/74292229308803",
+   "src": "montale-aoud-safran-eau-de-parfum-100ml-1.webp",
+   "alt": "Montale Aoud Safran Eau de Parfum 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16345750045059",
+   "media": "gid://shopify/MediaImage/74292229341571",
+   "src": "montale-aoud-safran-eau-de-parfum-100ml-2.webp",
+   "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16345750045059",
+   "media": "gid://shopify/MediaImage/74292229374339",
+   "src": "montale-aoud-safran-eau-de-parfum-100ml-3.webp",
+   "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with brown pouch and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16345750045059",
+   "media": "gid://shopify/MediaImage/74292229407107",
+   "src": "montale-aoud-safran-eau-de-parfum-100ml-4.webp",
+   "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with roses, oud wood and saffron"
+  },
+  {
+   "product": "gid://shopify/Product/16345744998787",
+   "media": "gid://shopify/MediaImage/74292229210499",
+   "src": "montale-aoud-damascus-eau-de-parfum-100ml-1.webp",
+   "alt": "Montale Aoud Damascus Eau de Parfum 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16345744998787",
+   "media": "gid://shopify/MediaImage/74292229243267",
+   "src": "montale-aoud-damascus-eau-de-parfum-100ml-2.webp",
+   "alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16345744998787",
+   "media": "gid://shopify/MediaImage/74292229276035",
+   "src": "montale-aoud-damascus-eau-de-parfum-100ml-3.webp",
+   "alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle with rose, oud wood, amber and smoke"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance",
+   "id": 16345750045059,
+   "title": "Montale Aoud Safran Eau de Parfum 100ml – Luxury Unisex Saffron Oud Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "montale-aoud-safran-eau-de-parfum-100ml-1.webp",
+     "in": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-01.webp",
+     "alt": "Montale Aoud Safran Eau de Parfum 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Montale Aoud Safran Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229308803",
+     "new_media": "gid://shopify/MediaImage/74824254587267"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "montale-aoud-safran-eau-de-parfum-100ml-2.webp",
+     "in": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-02.webp",
+     "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle beside its gold box",
+     "new_alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229341571",
+     "new_media": "gid://shopify/MediaImage/74824254620035"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "montale-aoud-safran-eau-de-parfum-100ml-3.webp",
+     "in": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-03.webp",
+     "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with brown pouch and gold box",
+     "new_alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with brown pouch and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229374339",
+     "new_media": "gid://shopify/MediaImage/74824254652803"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "montale-aoud-safran-eau-de-parfum-100ml-4.webp",
+     "in": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-04.webp",
+     "alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with roses, oud wood and saffron",
+     "new_alt": "Montale Aoud Safran Eau de Parfum 100ml – bottle with a pink rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-safran-eau-de-parfum-100ml-luxury-unisex-saffron-oud-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229407107",
+     "new_media": "gid://shopify/MediaImage/74824254685571"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance",
+   "id": 16345744998787,
+   "title": "Montale Aoud Damascus Eau de Parfum 100ml – Women’s Rose Oud Longlasting Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "montale-aoud-damascus-eau-de-parfum-100ml-1.webp",
+     "in": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-01.webp",
+     "alt": "Montale Aoud Damascus Eau de Parfum 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Montale Aoud Damascus Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229210499",
+     "new_media": "gid://shopify/MediaImage/74824254718339"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "montale-aoud-damascus-eau-de-parfum-100ml-2.webp",
+     "in": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-02.webp",
+     "alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle beside its black box",
+     "new_alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229243267",
+     "new_media": "gid://shopify/MediaImage/74824254751107"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "montale-aoud-damascus-eau-de-parfum-100ml-3.webp",
+     "in": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-03.webp",
+     "alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle with rose, oud wood, amber and smoke",
+     "new_alt": "Montale Aoud Damascus Eau de Parfum 100ml – bottle with rose, oud wood, amber and smoke",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "montale-aoud-damascus-eau-de-parfum-100ml-women-s-rose-oud-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229276035",
+     "new_media": "gid://shopify/MediaImage/74824254783875"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

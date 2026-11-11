@@ -1,0 +1,183 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383818432899",
+   "media": "gid://shopify/MediaImage/74292425982339",
+   "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-1.webp",
+   "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – 4.5 ml miniature bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383818432899",
+   "media": "gid://shopify/MediaImage/74292426015107",
+   "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-2.webp",
+   "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature beside its black box marked 4.5 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16383818432899",
+   "media": "gid://shopify/MediaImage/74292426047875",
+   "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-3.webp",
+   "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature in front of its black glitter box"
+  },
+  {
+   "product": "gid://shopify/Product/16383818432899",
+   "media": "gid://shopify/MediaImage/74292426080643",
+   "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-4.webp",
+   "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature with red rose, cherries and moss"
+  },
+  {
+   "product": "gid://shopify/Product/16383783108995",
+   "media": "gid://shopify/MediaImage/74292426113411",
+   "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-1.webp",
+   "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniature bottles in a row, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383783108995",
+   "media": "gid://shopify/MediaImage/74292426146179",
+   "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-2.webp",
+   "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures on a white background, spaced out"
+  },
+  {
+   "product": "gid://shopify/Product/16383783108995",
+   "media": "gid://shopify/MediaImage/74292426178947",
+   "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-3.webp",
+   "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – gift box holding five miniatures in their cartons"
+  },
+  {
+   "product": "gid://shopify/Product/16383783108995",
+   "media": "gid://shopify/MediaImage/74292426211715",
+   "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-4.webp",
+   "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures with lilies, peach, orange and white flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance",
+   "id": 16383818432899,
+   "title": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – Women’s Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-1.webp",
+     "in": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-01.webp",
+     "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – 4.5 ml miniature bottle with gold cap, front view",
+     "new_alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – 4.5 ml miniature bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425982339",
+     "new_media": "gid://shopify/MediaImage/74824254325123"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-2.webp",
+     "in": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-02.webp",
+     "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature beside its black box marked 4.5 ml",
+     "new_alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature beside its black box marked 4.5 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426015107",
+     "new_media": "gid://shopify/MediaImage/74824254357891"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-3.webp",
+     "in": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-03.webp",
+     "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature in front of its black glitter box",
+     "new_alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature in front of its black glitter box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426047875",
+     "new_media": "gid://shopify/MediaImage/74824254390659"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-4.webp",
+     "in": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-04.webp",
+     "alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature with red rose, cherries and moss",
+     "new_alt": "Jimmy Choo I Want Choo Forever Eau de Parfum 4.5ml Miniature – miniature with red rose, cherries and moss",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-i-want-choo-forever-eau-de-parfum-4-5ml-miniature-women-s-floral-gourmand-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426080643",
+     "new_media": "gid://shopify/MediaImage/74824254423427"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection",
+   "id": 16383783108995,
+   "title": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – 5 Piece Perfume Collection",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-1.webp",
+     "in": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-01.webp",
+     "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniature bottles in a row, front view",
+     "new_alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniature bottles in a row, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426113411",
+     "new_media": "gid://shopify/MediaImage/74824254456195"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-2.webp",
+     "in": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-02.webp",
+     "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures on a white background, spaced out",
+     "new_alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures, spaced out",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426146179",
+     "new_media": "gid://shopify/MediaImage/74824254488963"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-3.webp",
+     "in": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-03.webp",
+     "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – gift box holding five miniatures in their cartons",
+     "new_alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – gift box holding five miniatures in their cartons",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426178947",
+     "new_media": "gid://shopify/MediaImage/74824254521731"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-4.webp",
+     "in": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-04.webp",
+     "alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures with lilies, peach, orange and white flowers",
+     "new_alt": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – five miniatures with lilies, peach, orange and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "jimmy-choo-women-s-miniature-fragrance-gift-set-5x4-5ml-5-piece-perfume-collection-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292426211715",
+     "new_media": "gid://shopify/MediaImage/74824254554499"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

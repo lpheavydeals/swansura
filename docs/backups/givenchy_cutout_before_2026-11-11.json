@@ -1,0 +1,164 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383645254019",
+   "media": "gid://shopify/MediaImage/74292425097603",
+   "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-1.webp",
+   "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383645254019",
+   "media": "gid://shopify/MediaImage/74292425130371",
+   "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-2.webp",
+   "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle beside its black Eau de Toilette Originale box"
+  },
+  {
+   "product": "gid://shopify/Product/16383645254019",
+   "media": "gid://shopify/MediaImage/74292425163139",
+   "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-3.webp",
+   "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – close-up of the bottle and silver label"
+  },
+  {
+   "product": "gid://shopify/Product/16383645254019",
+   "media": "gid://shopify/MediaImage/74292425195907",
+   "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-4.webp",
+   "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle with honey, lemon, rose and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/16383629885827",
+   "media": "gid://shopify/MediaImage/74292424966531",
+   "src": "givenchy-amarige-eau-de-toilette-100ml-1.webp",
+   "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with swirled cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383629885827",
+   "media": "gid://shopify/MediaImage/74292424999299",
+   "src": "givenchy-amarige-eau-de-toilette-100ml-2.webp",
+   "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle beside its red Amarige box"
+  },
+  {
+   "product": "gid://shopify/Product/16383629885827",
+   "media": "gid://shopify/MediaImage/74292425032067",
+   "src": "givenchy-amarige-eau-de-toilette-100ml-3.webp",
+   "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with plum, peach, violet, ylang-ylang and orange blossom"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "id": 16383645254019,
+   "title": "Givenchy Gentleman Originale Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-1.webp",
+     "in": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – 100 ml bottle, front view",
+     "new_alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425097603",
+     "new_media": "gid://shopify/MediaImage/74824250950019"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-2.webp",
+     "in": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle beside its black Eau de Toilette Originale box",
+     "new_alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle beside its black Eau de Toilette Originale box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425130371",
+     "new_media": "gid://shopify/MediaImage/74824250982787"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-3.webp",
+     "in": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – close-up of the bottle and silver label",
+     "new_alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – close-up of the bottle and silver label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425163139",
+     "new_media": "gid://shopify/MediaImage/74824251015555"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "givenchy-gentleman-originale-eau-de-toilette-100ml-4.webp",
+     "in": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-04.webp",
+     "alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle with honey, lemon, rose and bergamot",
+     "new_alt": "Givenchy Gentleman Originale Eau de Toilette 100ml – bottle with honey, lemon, rose and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-gentleman-originale-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425195907",
+     "new_media": "gid://shopify/MediaImage/74824251048323"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance",
+   "id": 16383629885827,
+   "title": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "givenchy-amarige-eau-de-toilette-100ml-1.webp",
+     "in": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-01.webp",
+     "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with swirled cap, front view",
+     "new_alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with swirled cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424966531",
+     "new_media": "gid://shopify/MediaImage/74824251081091"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "givenchy-amarige-eau-de-toilette-100ml-2.webp",
+     "in": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-02.webp",
+     "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle beside its red Amarige box",
+     "new_alt": "Givenchy Amarige Eau de Toilette 100ml – bottle beside its red Amarige box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424999299",
+     "new_media": "gid://shopify/MediaImage/74824251113859"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "givenchy-amarige-eau-de-toilette-100ml-3.webp",
+     "in": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-03.webp",
+     "alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with plum, peach, violet, ylang-ylang and orange blossom",
+     "new_alt": "Givenchy Amarige Eau de Toilette 100ml – bottle with plum, peach, violet, ylang-ylang and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "givenchy-amarige-eau-de-toilette-100ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425032067",
+     "new_media": "gid://shopify/MediaImage/74824251146627"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

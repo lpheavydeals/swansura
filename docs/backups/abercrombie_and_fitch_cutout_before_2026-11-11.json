@@ -1,0 +1,183 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16362530832771",
+   "media": "gid://shopify/MediaImage/74292262470019",
+   "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-1.webp",
+   "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – square glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362530832771",
+   "media": "gid://shopify/MediaImage/74292262502787",
+   "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-2.webp",
+   "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16362530832771",
+   "media": "gid://shopify/MediaImage/74292262535555",
+   "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-3.webp",
+   "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with cap off beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16362530832771",
+   "media": "gid://shopify/MediaImage/74292262568323",
+   "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-4.webp",
+   "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with coconut, sunflower, frangipani and agave"
+  },
+  {
+   "product": "gid://shopify/Product/16362505699715",
+   "media": "gid://shopify/MediaImage/74292262601091",
+   "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-1.webp",
+   "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – coral gradient bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362505699715",
+   "media": "gid://shopify/MediaImage/74292262633859",
+   "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-2.webp",
+   "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – 100 ml bottle beside its coral box"
+  },
+  {
+   "product": "gid://shopify/Product/16362505699715",
+   "media": "gid://shopify/MediaImage/74292262666627",
+   "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-3.webp",
+   "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – bottle with pear, lily and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16362505699715",
+   "media": "gid://shopify/MediaImage/74292262699395",
+   "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-4.webp",
+   "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – tilted bottle with peach and petals"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance",
+   "id": 16362530832771,
+   "title": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – Women’s Floral Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-1.webp",
+     "in": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01.webp",
+     "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – square glass bottle, front view",
+     "new_alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – square glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262470019",
+     "new_media": "gid://shopify/MediaImage/74824250425731"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-2.webp",
+     "in": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02.webp",
+     "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle beside its pink box",
+     "new_alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262502787",
+     "new_media": "gid://shopify/MediaImage/74824250458499"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-3.webp",
+     "in": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03.webp",
+     "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with cap off beside its pink box",
+     "new_alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with cap off beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262535555",
+     "new_media": "gid://shopify/MediaImage/74824250491267"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "abercrombie-and-fitch-naturally-fierce-eau-de-parfum-50ml-4.webp",
+     "in": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-04.webp",
+     "alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with coconut, sunflower, frangipani and agave",
+     "new_alt": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – bottle with coconut, sunflower, frangipani and agave",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262568323",
+     "new_media": "gid://shopify/MediaImage/74824250524035"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance",
+   "id": 16362505699715,
+   "title": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – Women’s Fruity Floral Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-1.webp",
+     "in": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-01.webp",
+     "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – coral gradient bottle, front view",
+     "new_alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – coral gradient bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262601091",
+     "new_media": "gid://shopify/MediaImage/74824250556803"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-2.webp",
+     "in": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-02.webp",
+     "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – 100 ml bottle beside its coral box",
+     "new_alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – 100 ml bottle beside its coral box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262633859",
+     "new_media": "gid://shopify/MediaImage/74824250589571"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-3.webp",
+     "in": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-03.webp",
+     "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – bottle with pear, lily and white flowers",
+     "new_alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – bottle with pear, lily and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262666627",
+     "new_media": "gid://shopify/MediaImage/74824250622339"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "abercrombie-and-fitch-first-instinct-together-eau-de-parfum-100ml-4.webp",
+     "in": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-04.webp",
+     "alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – tilted bottle with peach and petals",
+     "new_alt": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – tilted bottle with peach and petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "abercrombie-fitch-first-instinct-together-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292262699395",
+     "new_media": "gid://shopify/MediaImage/74824250655107"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
