@@ -1,0 +1,1123 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "10": "isnet",
+   "12": "isnet",
+   "15": "isnet"
+  },
+  "alt": {
+   "39": "Dunhill Desire Silver Eau de Toilette 100ml – bottle lying at an angle",
+   "40": "Dunhill Desire Silver Eau de Toilette 100ml – bottle with orange, lime and violet",
+   "52": "Dunhill Desire Black Eau de Toilette 100ml – Desire Black box with a black bead"
+  },
+  "skip_products": [],
+  "notes": "isnet 10/12/15: birefnet left stray bits (10, 12) and tore the box (15). Props lost on 39, 40, 52: alts rewritten."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16381291626883",
+   "media": "gid://shopify/MediaImage/74292409434499",
+   "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381291626883",
+   "media": "gid://shopify/MediaImage/74292409467267",
+   "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle beside its grey Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381291626883",
+   "media": "gid://shopify/MediaImage/74292409500035",
+   "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle with lavender, lemon, saffron, nutmeg, sage and cardamom"
+  },
+  {
+   "product": "gid://shopify/Product/16381286187395",
+   "media": "gid://shopify/MediaImage/74292409336195",
+   "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381286187395",
+   "media": "gid://shopify/MediaImage/74292409368963",
+   "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle beside its black Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381286187395",
+   "media": "gid://shopify/MediaImage/74292409401731",
+   "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle with basil, black pepper, cardamom, orange and geranium"
+  },
+  {
+   "product": "gid://shopify/Product/16381284614531",
+   "media": "gid://shopify/MediaImage/74292409205123",
+   "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381284614531",
+   "media": "gid://shopify/MediaImage/74292409237891",
+   "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle beside its black Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381284614531",
+   "media": "gid://shopify/MediaImage/74292409270659",
+   "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle with ginger, cardamom, black pepper, hazelnuts and saffron"
+  },
+  {
+   "product": "gid://shopify/Product/16381284614531",
+   "media": "gid://shopify/MediaImage/74292409303427",
+   "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-4.webp",
+   "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – top-down view of the cap on a white stone coaster"
+  },
+  {
+   "product": "gid://shopify/Product/16381278683523",
+   "media": "gid://shopify/MediaImage/74292409106819",
+   "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381278683523",
+   "media": "gid://shopify/MediaImage/74292409139587",
+   "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle beside its black Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381278683523",
+   "media": "gid://shopify/MediaImage/74292409172355",
+   "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle with iris, mandarin, pink pepper, rose and geranium"
+  },
+  {
+   "product": "gid://shopify/Product/16381273276803",
+   "media": "gid://shopify/MediaImage/74292408975747",
+   "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381273276803",
+   "media": "gid://shopify/MediaImage/74292409008515",
+   "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle beside its black Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381273276803",
+   "media": "gid://shopify/MediaImage/74292409041283",
+   "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle with bergamot, lime, carrot, mint and oakmoss"
+  },
+  {
+   "product": "gid://shopify/Product/16381270655363",
+   "media": "gid://shopify/MediaImage/74292408877443",
+   "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381270655363",
+   "media": "gid://shopify/MediaImage/74292408910211",
+   "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle beside its black Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381270655363",
+   "media": "gid://shopify/MediaImage/74292408942979",
+   "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle with black tea, pink pepper and ginger"
+  },
+  {
+   "product": "gid://shopify/Product/16381263610243",
+   "media": "gid://shopify/MediaImage/74292385350019",
+   "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381263610243",
+   "media": "gid://shopify/MediaImage/74292385382787",
+   "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle beside its grey Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381263610243",
+   "media": "gid://shopify/MediaImage/74292385415555",
+   "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with bergamot, lime, violet and leather"
+  },
+  {
+   "product": "gid://shopify/Product/16381263610243",
+   "media": "gid://shopify/MediaImage/74292385448323",
+   "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-4.webp",
+   "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with golden splashes, cardamom, hazelnuts and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16381256499587",
+   "media": "gid://shopify/MediaImage/74292384924035",
+   "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381256499587",
+   "media": "gid://shopify/MediaImage/74292384956803",
+   "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle beside its grey Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381256499587",
+   "media": "gid://shopify/MediaImage/74292384989571",
+   "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – open bottle with the textured cap set aside"
+  },
+  {
+   "product": "gid://shopify/Product/16381256499587",
+   "media": "gid://shopify/MediaImage/74292385022339",
+   "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-4.webp",
+   "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle with saffron, pink pepper, lime, ginger, iris and violet"
+  },
+  {
+   "product": "gid://shopify/Product/16381256499587",
+   "media": "gid://shopify/MediaImage/74292385055107",
+   "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-5.webp",
+   "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle framed by a ring of fire and smoke"
+  },
+  {
+   "product": "gid://shopify/Product/16381252370819",
+   "media": "gid://shopify/MediaImage/74292385218947",
+   "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381252370819",
+   "media": "gid://shopify/MediaImage/74292385251715",
+   "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle beside its grey Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381252370819",
+   "media": "gid://shopify/MediaImage/74292385284483",
+   "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – open bottle with the textured cap set aside"
+  },
+  {
+   "product": "gid://shopify/Product/16381252370819",
+   "media": "gid://shopify/MediaImage/74292385317251",
+   "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-4.webp",
+   "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle with rose, lime, pink pepper, saffron and oud wood"
+  },
+  {
+   "product": "gid://shopify/Product/16381244604803",
+   "media": "gid://shopify/MediaImage/74292385087875",
+   "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-1.webp",
+   "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – 100 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381244604803",
+   "media": "gid://shopify/MediaImage/74292385120643",
+   "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-2.webp",
+   "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle beside its grey Signature Collection box"
+  },
+  {
+   "product": "gid://shopify/Product/16381244604803",
+   "media": "gid://shopify/MediaImage/74292385153411",
+   "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-3.webp",
+   "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – open bottle with the textured cap set aside"
+  },
+  {
+   "product": "gid://shopify/Product/16381244604803",
+   "media": "gid://shopify/MediaImage/74292385186179",
+   "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-4.webp",
+   "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle with lemons, bergamot, mandarins and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/16381206823299",
+   "media": "gid://shopify/MediaImage/74292408680835",
+   "src": "dunhill-desire-silver-eau-de-toilette-100ml-1.webp",
+   "alt": "Dunhill Desire Silver Eau de Toilette 100ml – 100 ml silver bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381206823299",
+   "media": "gid://shopify/MediaImage/74292408713603",
+   "src": "dunhill-desire-silver-eau-de-toilette-100ml-2.webp",
+   "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle beside its silver Desire Silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16381206823299",
+   "media": "gid://shopify/MediaImage/74292408746371",
+   "src": "dunhill-desire-silver-eau-de-toilette-100ml-3.webp",
+   "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle lying against its box"
+  },
+  {
+   "product": "gid://shopify/Product/16381206823299",
+   "media": "gid://shopify/MediaImage/74292408779139",
+   "src": "dunhill-desire-silver-eau-de-toilette-100ml-4.webp",
+   "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle with orange, lime, violet, cardamom and water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16381206823299",
+   "media": "gid://shopify/MediaImage/74292408811907",
+   "src": "dunhill-desire-silver-eau-de-toilette-100ml-5.webp",
+   "alt": "Dunhill Desire Silver Eau de Toilette 100ml – close-up of the knurled silver cap"
+  },
+  {
+   "product": "gid://shopify/Product/16381181591939",
+   "media": "gid://shopify/MediaImage/74292385874307",
+   "src": "dunhill-desire-gold-eau-de-toilette-100ml-1.webp",
+   "alt": "Dunhill Desire Gold Eau de Toilette 100ml – 100 ml gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381181591939",
+   "media": "gid://shopify/MediaImage/74292385907075",
+   "src": "dunhill-desire-gold-eau-de-toilette-100ml-2.webp",
+   "alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle beside its gold Desire box"
+  },
+  {
+   "product": "gid://shopify/Product/16381181591939",
+   "media": "gid://shopify/MediaImage/74292385939843",
+   "src": "dunhill-desire-gold-eau-de-toilette-100ml-3.webp",
+   "alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle with apple, citrus, blackcurrant, rose and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/16381167239555",
+   "media": "gid://shopify/MediaImage/74292385677699",
+   "src": "dunhill-desire-blue-eau-de-toilette-100ml-1.webp",
+   "alt": "Dunhill Desire Blue Eau de Toilette 100ml – 100 ml blue bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381167239555",
+   "media": "gid://shopify/MediaImage/74292385710467",
+   "src": "dunhill-desire-blue-eau-de-toilette-100ml-2.webp",
+   "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle in front of its blue Desire Blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16381167239555",
+   "media": "gid://shopify/MediaImage/74292385743235",
+   "src": "dunhill-desire-blue-eau-de-toilette-100ml-3.webp",
+   "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16381167239555",
+   "media": "gid://shopify/MediaImage/74292385776003",
+   "src": "dunhill-desire-blue-eau-de-toilette-100ml-4.webp",
+   "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle with lotus flower, lychee, mandarin and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/16381160685955",
+   "media": "gid://shopify/MediaImage/74292385513859",
+   "src": "dunhill-desire-black-eau-de-toilette-100ml-1.webp",
+   "alt": "Dunhill Desire Black Eau de Toilette 100ml – 100 ml black bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381160685955",
+   "media": "gid://shopify/MediaImage/74292385546627",
+   "src": "dunhill-desire-black-eau-de-toilette-100ml-2.webp",
+   "alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle beside its black Desire Black box"
+  },
+  {
+   "product": "gid://shopify/Product/16381160685955",
+   "media": "gid://shopify/MediaImage/74292385579395",
+   "src": "dunhill-desire-black-eau-de-toilette-100ml-3.webp",
+   "alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle with saffron, rose and cypress sprigs"
+  },
+  {
+   "product": "gid://shopify/Product/16381160685955",
+   "media": "gid://shopify/MediaImage/74292385612163",
+   "src": "dunhill-desire-black-eau-de-toilette-100ml-4.webp",
+   "alt": "Dunhill Desire Black Eau de Toilette 100ml – Desire Black box on a dark stone plinth"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance",
+   "id": 16381291626883,
+   "title": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – Men’s Aromatic Fougere Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409434499",
+     "new_media": "gid://shopify/MediaImage/74813246439811"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409467267",
+     "new_media": "gid://shopify/MediaImage/74813246472579"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle with lavender, lemon, saffron, nutmeg, sage and cardamom",
+     "new_alt": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – bottle with lavender, lemon, saffron, nutmeg, sage and cardamom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-valensole-lavender-eau-de-parfum-100ml-men-s-aromatic-fougere-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409500035",
+     "new_media": "gid://shopify/MediaImage/74813246505347"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance",
+   "id": 16381286187395,
+   "title": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – Men’s Aromatic Woody Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409336195",
+     "new_media": "gid://shopify/MediaImage/74813246538115"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409368963",
+     "new_media": "gid://shopify/MediaImage/74813246570883"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle with basil, black pepper, cardamom, orange and geranium",
+     "new_alt": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – bottle with basil, black pepper, cardamom, orange and geranium",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-nordic-fougere-eau-de-parfum-100ml-men-s-aromatic-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409401731",
+     "new_media": "gid://shopify/MediaImage/74813246603651"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance",
+   "id": 16381284614531,
+   "title": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – Men’s Amber Spicy Fragrance",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409205123",
+     "new_media": "gid://shopify/MediaImage/74813246636419"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409237891",
+     "new_media": "gid://shopify/MediaImage/74813246669187"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle with ginger, cardamom, black pepper, hazelnuts and saffron",
+     "new_alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – bottle with ginger, cardamom, black pepper, hazelnuts and saffron",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409270659",
+     "new_media": "gid://shopify/MediaImage/74813246701955"
+    },
+    {
+     "n": 10,
+     "pos": 4,
+     "src": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-4.webp",
+     "in": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-04.webp",
+     "alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – top-down view of the cap on a white stone coaster",
+     "new_alt": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – top-down view of the cap on a white stone coaster",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "dunhill-signature-collection-moroccan-amber-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409303427",
+     "new_media": "gid://shopify/MediaImage/74813246734723"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance",
+   "id": 16381278683523,
+   "title": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – Men’s Woody Amber Fragrance",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409106819",
+     "new_media": "gid://shopify/MediaImage/74813246767491"
+    },
+    {
+     "n": 12,
+     "pos": 2,
+     "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409139587",
+     "new_media": "gid://shopify/MediaImage/74813246800259"
+    },
+    {
+     "n": 13,
+     "pos": 3,
+     "src": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle with iris, mandarin, pink pepper, rose and geranium",
+     "new_alt": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – bottle with iris, mandarin, pink pepper, rose and geranium",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-mongolian-cashmere-eau-de-parfum-100ml-men-s-woody-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409172355",
+     "new_media": "gid://shopify/MediaImage/74813246833027"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance",
+   "id": 16381273276803,
+   "title": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408975747",
+     "new_media": "gid://shopify/MediaImage/74813246865795"
+    },
+    {
+     "n": 15,
+     "pos": 2,
+     "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409008515",
+     "new_media": "gid://shopify/MediaImage/74813246898563"
+    },
+    {
+     "n": 16,
+     "pos": 3,
+     "src": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle with bergamot, lime, carrot, mint and oakmoss",
+     "new_alt": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – bottle with bergamot, lime, carrot, mint and oakmoss",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-indian-sandalwood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292409041283",
+     "new_media": "gid://shopify/MediaImage/74813246931331"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance",
+   "id": 16381270655363,
+   "title": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – Men’s Amber Spicy Fragrance",
+   "images": [
+    {
+     "n": 17,
+     "pos": 1,
+     "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408877443",
+     "new_media": "gid://shopify/MediaImage/74813246964099"
+    },
+    {
+     "n": 18,
+     "pos": 2,
+     "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle beside its black Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408910211",
+     "new_media": "gid://shopify/MediaImage/74813246996867"
+    },
+    {
+     "n": 19,
+     "pos": 3,
+     "src": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle with black tea, pink pepper and ginger",
+     "new_alt": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – bottle with black tea, pink pepper and ginger",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-egyptian-smoke-eau-de-parfum-100ml-men-s-amber-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408942979",
+     "new_media": "gid://shopify/MediaImage/74813247029635"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance",
+   "id": 16381263610243,
+   "title": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – Men’s Leather Woody Fragrance",
+   "images": [
+    {
+     "n": 20,
+     "pos": 1,
+     "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385350019",
+     "new_media": "gid://shopify/MediaImage/74813247062403"
+    },
+    {
+     "n": 21,
+     "pos": 2,
+     "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "new_alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385382787",
+     "new_media": "gid://shopify/MediaImage/74813247095171"
+    },
+    {
+     "n": 22,
+     "pos": 3,
+     "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with bergamot, lime, violet and leather",
+     "new_alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with bergamot, lime, violet and leather",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385415555",
+     "new_media": "gid://shopify/MediaImage/74813247127939"
+    },
+    {
+     "n": 23,
+     "pos": 4,
+     "src": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-4.webp",
+     "in": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-04.webp",
+     "alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with golden splashes, cardamom, hazelnuts and woods",
+     "new_alt": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – bottle with golden splashes, cardamom, hazelnuts and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-british-leather-eau-de-parfum-100ml-men-s-leather-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385448323",
+     "new_media": "gid://shopify/MediaImage/74813247160707"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance",
+   "id": 16381256499587,
+   "title": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance",
+   "images": [
+    {
+     "n": 24,
+     "pos": 1,
+     "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384924035",
+     "new_media": "gid://shopify/MediaImage/74813247193475"
+    },
+    {
+     "n": 25,
+     "pos": 2,
+     "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384956803",
+     "new_media": "gid://shopify/MediaImage/74813247226243"
+    },
+    {
+     "n": 26,
+     "pos": 3,
+     "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "new_alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384989571",
+     "new_media": "gid://shopify/MediaImage/74813247259011"
+    },
+    {
+     "n": 27,
+     "pos": 4,
+     "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-4.webp",
+     "in": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-04.webp",
+     "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle with saffron, pink pepper, lime, ginger, iris and violet",
+     "new_alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle with saffron, pink pepper, lime, ginger, iris and violet",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385022339",
+     "new_media": "gid://shopify/MediaImage/74813247291779"
+    },
+    {
+     "n": 28,
+     "pos": 5,
+     "src": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-5.webp",
+     "in": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-05.webp",
+     "alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle framed by a ring of fire and smoke",
+     "new_alt": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – bottle framed by a ring of fire and smoke",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-agar-wood-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385055107",
+     "new_media": "gid://shopify/MediaImage/74813247324547"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance",
+   "id": 16381252370819,
+   "title": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – Men’s Amber Woody Fragrance",
+   "images": [
+    {
+     "n": 29,
+     "pos": 1,
+     "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385218947",
+     "new_media": "gid://shopify/MediaImage/74813247357315"
+    },
+    {
+     "n": 30,
+     "pos": 2,
+     "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385251715",
+     "new_media": "gid://shopify/MediaImage/74813247390083"
+    },
+    {
+     "n": 31,
+     "pos": 3,
+     "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "new_alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385284483",
+     "new_media": "gid://shopify/MediaImage/74813247422851"
+    },
+    {
+     "n": 32,
+     "pos": 4,
+     "src": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-4.webp",
+     "in": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-04.webp",
+     "alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle with rose, lime, pink pepper, saffron and oud wood",
+     "new_alt": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – bottle with rose, lime, pink pepper, saffron and oud wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-arabian-desert-eau-de-parfum-100ml-men-s-amber-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385317251",
+     "new_media": "gid://shopify/MediaImage/74813247455619"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance",
+   "id": 16381244604803,
+   "title": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – Men’s Citrus Aromatic Fragrance",
+   "images": [
+    {
+     "n": 33,
+     "pos": 1,
+     "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-1.webp",
+     "in": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-01.webp",
+     "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – 100 ml bottle, front view",
+     "new_alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385087875",
+     "new_media": "gid://shopify/MediaImage/74813247488387"
+    },
+    {
+     "n": 34,
+     "pos": 2,
+     "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-2.webp",
+     "in": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-02.webp",
+     "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "new_alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle beside its grey Signature Collection box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385120643",
+     "new_media": "gid://shopify/MediaImage/74813247521155"
+    },
+    {
+     "n": 35,
+     "pos": 3,
+     "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-3.webp",
+     "in": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-03.webp",
+     "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "new_alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – open bottle with the textured cap set aside",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385153411",
+     "new_media": "gid://shopify/MediaImage/74813247553923"
+    },
+    {
+     "n": 36,
+     "pos": 4,
+     "src": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-4.webp",
+     "in": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-04.webp",
+     "alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle with lemons, bergamot, mandarins and orange blossom",
+     "new_alt": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – bottle with lemons, bergamot, mandarins and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-signature-collection-amalfi-citrus-eau-de-parfum-100ml-men-s-citrus-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385186179",
+     "new_media": "gid://shopify/MediaImage/74813247586691"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance",
+   "id": 16381206823299,
+   "title": "Dunhill Desire Silver Eau de Toilette 100ml – Men’s Fresh Woody Fragrance",
+   "images": [
+    {
+     "n": 37,
+     "pos": 1,
+     "src": "dunhill-desire-silver-eau-de-toilette-100ml-1.webp",
+     "in": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-01.webp",
+     "alt": "Dunhill Desire Silver Eau de Toilette 100ml – 100 ml silver bottle, front view",
+     "new_alt": "Dunhill Desire Silver Eau de Toilette 100ml – 100 ml silver bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408680835",
+     "new_media": "gid://shopify/MediaImage/74813251912067"
+    },
+    {
+     "n": 38,
+     "pos": 2,
+     "src": "dunhill-desire-silver-eau-de-toilette-100ml-2.webp",
+     "in": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-02.webp",
+     "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle beside its silver Desire Silver box",
+     "new_alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle beside its silver Desire Silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408713603",
+     "new_media": "gid://shopify/MediaImage/74813251944835"
+    },
+    {
+     "n": 39,
+     "pos": 3,
+     "src": "dunhill-desire-silver-eau-de-toilette-100ml-3.webp",
+     "in": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-03.webp",
+     "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle lying against its box",
+     "new_alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle lying at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408746371",
+     "new_media": "gid://shopify/MediaImage/74813251977603"
+    },
+    {
+     "n": 40,
+     "pos": 4,
+     "src": "dunhill-desire-silver-eau-de-toilette-100ml-4.webp",
+     "in": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-04.webp",
+     "alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle with orange, lime, violet, cardamom and water splash",
+     "new_alt": "Dunhill Desire Silver Eau de Toilette 100ml – bottle with orange, lime and violet",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408779139",
+     "new_media": "gid://shopify/MediaImage/74813252010371"
+    },
+    {
+     "n": 41,
+     "pos": 5,
+     "src": "dunhill-desire-silver-eau-de-toilette-100ml-5.webp",
+     "in": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-05.webp",
+     "alt": "Dunhill Desire Silver Eau de Toilette 100ml – close-up of the knurled silver cap",
+     "new_alt": "Dunhill Desire Silver Eau de Toilette 100ml – close-up of the knurled silver cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-silver-eau-de-toilette-100ml-men-s-fresh-woody-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292408811907",
+     "new_media": "gid://shopify/MediaImage/74813252043139"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance",
+   "id": 16381181591939,
+   "title": "Dunhill Desire Gold Eau de Toilette 100ml – Men’s Woody Spicy Fragrance",
+   "images": [
+    {
+     "n": 42,
+     "pos": 1,
+     "src": "dunhill-desire-gold-eau-de-toilette-100ml-1.webp",
+     "in": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-01.webp",
+     "alt": "Dunhill Desire Gold Eau de Toilette 100ml – 100 ml gold bottle, front view",
+     "new_alt": "Dunhill Desire Gold Eau de Toilette 100ml – 100 ml gold bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385874307",
+     "new_media": "gid://shopify/MediaImage/74813252075907"
+    },
+    {
+     "n": 43,
+     "pos": 2,
+     "src": "dunhill-desire-gold-eau-de-toilette-100ml-2.webp",
+     "in": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-02.webp",
+     "alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle beside its gold Desire box",
+     "new_alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle beside its gold Desire box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385907075",
+     "new_media": "gid://shopify/MediaImage/74813252108675"
+    },
+    {
+     "n": 44,
+     "pos": 3,
+     "src": "dunhill-desire-gold-eau-de-toilette-100ml-3.webp",
+     "in": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-03.webp",
+     "alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle with apple, citrus, blackcurrant, rose and jasmine",
+     "new_alt": "Dunhill Desire Gold Eau de Toilette 100ml – bottle with apple, citrus, blackcurrant, rose and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-gold-eau-de-toilette-100ml-men-s-woody-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385939843",
+     "new_media": "gid://shopify/MediaImage/74813252141443"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance",
+   "id": 16381167239555,
+   "title": "Dunhill Desire Blue Eau de Toilette 100ml – Men’s Fresh Aquatic Fragrance",
+   "images": [
+    {
+     "n": 45,
+     "pos": 1,
+     "src": "dunhill-desire-blue-eau-de-toilette-100ml-1.webp",
+     "in": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-01.webp",
+     "alt": "Dunhill Desire Blue Eau de Toilette 100ml – 100 ml blue bottle, front view",
+     "new_alt": "Dunhill Desire Blue Eau de Toilette 100ml – 100 ml blue bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385677699",
+     "new_media": "gid://shopify/MediaImage/74813252174211"
+    },
+    {
+     "n": 46,
+     "pos": 2,
+     "src": "dunhill-desire-blue-eau-de-toilette-100ml-2.webp",
+     "in": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-02.webp",
+     "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle in front of its blue Desire Blue box",
+     "new_alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle in front of its blue Desire Blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385710467",
+     "new_media": "gid://shopify/MediaImage/74813252206979"
+    },
+    {
+     "n": 47,
+     "pos": 3,
+     "src": "dunhill-desire-blue-eau-de-toilette-100ml-3.webp",
+     "in": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-03.webp",
+     "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle beside its blue box",
+     "new_alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385743235",
+     "new_media": "gid://shopify/MediaImage/74813252239747"
+    },
+    {
+     "n": 48,
+     "pos": 4,
+     "src": "dunhill-desire-blue-eau-de-toilette-100ml-4.webp",
+     "in": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-04.webp",
+     "alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle with lotus flower, lychee, mandarin and bergamot",
+     "new_alt": "Dunhill Desire Blue Eau de Toilette 100ml – bottle with lotus flower, lychee, mandarin and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-blue-eau-de-toilette-100ml-men-s-fresh-aquatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385776003",
+     "new_media": "gid://shopify/MediaImage/74813252272515"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance",
+   "id": 16381160685955,
+   "title": "Dunhill Desire Black Eau de Toilette 100ml – Men’s Spicy Woody Fragrance",
+   "images": [
+    {
+     "n": 49,
+     "pos": 1,
+     "src": "dunhill-desire-black-eau-de-toilette-100ml-1.webp",
+     "in": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-01.webp",
+     "alt": "Dunhill Desire Black Eau de Toilette 100ml – 100 ml black bottle, front view",
+     "new_alt": "Dunhill Desire Black Eau de Toilette 100ml – 100 ml black bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385513859",
+     "new_media": "gid://shopify/MediaImage/74813252305283"
+    },
+    {
+     "n": 50,
+     "pos": 2,
+     "src": "dunhill-desire-black-eau-de-toilette-100ml-2.webp",
+     "in": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-02.webp",
+     "alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle beside its black Desire Black box",
+     "new_alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle beside its black Desire Black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385546627",
+     "new_media": "gid://shopify/MediaImage/74813252338051"
+    },
+    {
+     "n": 51,
+     "pos": 3,
+     "src": "dunhill-desire-black-eau-de-toilette-100ml-3.webp",
+     "in": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-03.webp",
+     "alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle with saffron, rose and cypress sprigs",
+     "new_alt": "Dunhill Desire Black Eau de Toilette 100ml – bottle with saffron, rose and cypress sprigs",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385579395",
+     "new_media": "gid://shopify/MediaImage/74813252370819"
+    },
+    {
+     "n": 52,
+     "pos": 4,
+     "src": "dunhill-desire-black-eau-de-toilette-100ml-4.webp",
+     "in": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-04.webp",
+     "alt": "Dunhill Desire Black Eau de Toilette 100ml – Desire Black box on a dark stone plinth",
+     "new_alt": "Dunhill Desire Black Eau de Toilette 100ml – Desire Black box with a black bead",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dunhill-desire-black-eau-de-toilette-100ml-men-s-spicy-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292385612163",
+     "new_media": "gid://shopify/MediaImage/74813252403587"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
