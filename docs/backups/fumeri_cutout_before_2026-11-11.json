@@ -1,0 +1,2473 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "42": "isnet",
+   "75": "isnet",
+   "102": "drop"
+  },
+  "alt": {
+   "3": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with a dark red flower",
+   "36": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle with peaches, orange and white flowers",
+   "47": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle with saffron threads at its base",
+   "56": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle with orchids, wood pieces, bergamot, orange and smoke",
+   "74": "Fumeri Blue For Men EDP 100ML – blue glass bottle, front view",
+   "88": "Fumeri Adore Unisex EDP 100ML – white bottle with lilac and gold detailing, angled view",
+   "89": "Fumeri Adore Unisex EDP 100ML – bottle with white flowers and a vanilla pod",
+   "95": "Fumeri Angel For Women EDP 100ML – navy bottle with gold detailing, angled view",
+   "107": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, front view",
+   "110": "Fumeri Gabriella Eau de Parfum 100ML – red bottle beside its red box",
+   "120": "Fumeri Flirt Eau de Parfum 100ML – bottle with pink orchids"
+  },
+  "skip_products": [],
+  "notes": "42 + 75 isnet (birefnet tore the Oud & Saffron box corner / dropped the wooden board leaving a stray fragment); 102 (540 bottle beside white box) dropped: all three methods tore the pale box top; 110 bire kept (isnet/flood left dark stage bands)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162658691",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162691459",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162724227",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle on marble with dark flowers"
+  },
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162756995",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162789763",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle beside its black and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/15970918957443",
+   "media": "gid://shopify/MediaImage/74292162822531",
+   "src": "fumeri-wild-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, lavender and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162134403",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162167171",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162199939",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with cardamom, pepper, woods and amber"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162232707",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – aqua glass bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162265475",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162298243",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with bergamot, ginger and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/15970914369923",
+   "media": "gid://shopify/MediaImage/74292162331011",
+   "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle at an angle, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292161937795",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292161970563",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292162003331",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with iris, mint, orange and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292162036099",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292162068867",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle beside its turquoise box"
+  },
+  {
+   "product": "gid://shopify/Product/15970914009475",
+   "media": "gid://shopify/MediaImage/74292162101635",
+   "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with lemon, mandarin and mint"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161708419",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161741187",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161773955",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with roots, bergamot, cardamom and amber resin"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161806723",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – amber-brown glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161839491",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle beside its brown box"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161872259",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with bergamot, lime and cardamom"
+  },
+  {
+   "product": "gid://shopify/Product/15970913550723",
+   "media": "gid://shopify/MediaImage/74292161905027",
+   "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle at an angle, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161479043",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161511811",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161544579",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with vetiver roots, rose and petals"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161577347",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161610115",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161642883",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with grapefruit, lime and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15970913190275",
+   "media": "gid://shopify/MediaImage/74292161675651",
+   "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle at an angle, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161249667",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with rose gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161282435",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161315203",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle on black marble with peaches, oud wood and orange"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161347971",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161380739",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161413507",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle with peaches and pink blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15970909520259",
+   "media": "gid://shopify/MediaImage/74292161446275",
+   "src": "fumeri-peach-unisex-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle on a pink plinth with gold leaves"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163051907",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – copper-brown glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163084675",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle beside its brown box"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163117443",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle with saffron, bergamot, rose and geranium"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163150211",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle at an angle, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163182979",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163215747",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970878587267",
+   "media": "gid://shopify/MediaImage/74292163248515",
+   "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle on black marble with oud wood and saffron"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292162855299",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292162888067",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292162920835",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle on a gold tray with spices, fruit and flowers"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292162953603",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – brown bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292162986371",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle beside its brown box"
+  },
+  {
+   "product": "gid://shopify/Product/15970873770371",
+   "media": "gid://shopify/MediaImage/74292163019139",
+   "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, juniper and rosemary"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161053059",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161085827",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161118595",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle on wood with orchids, bergamot, orange and smoke"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161151363",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161184131",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/15970860630403",
+   "media": "gid://shopify/MediaImage/74292161216899",
+   "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle with orchids, bergamot, blackcurrants and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159676803",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159709571",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159742339",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, roses and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159775107",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159807875",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle beside its purple box"
+  },
+  {
+   "product": "gid://shopify/Product/15970860138883",
+   "media": "gid://shopify/MediaImage/74292159840643",
+   "src": "fumeri-gris-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, lavender and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160135555",
+   "src": "fumeri-elixir-unisex-edp-100ml-1.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle with copper detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160168323",
+   "src": "fumeri-elixir-unisex-edp-100ml-2.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160201091",
+   "src": "fumeri-elixir-unisex-edp-100ml-3.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – bottle on a wooden stand surrounded by roses"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160233859",
+   "src": "fumeri-elixir-unisex-edp-100ml-4.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – white bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160266627",
+   "src": "fumeri-elixir-unisex-edp-100ml-5.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – bottle beside its white and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/15970478260611",
+   "media": "gid://shopify/MediaImage/74292160299395",
+   "src": "fumeri-elixir-unisex-edp-100ml-6.webp",
+   "alt": "Fumeri Elixir Unisex EDP 100ML – bottle with bergamot, black pepper and cardamom"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292159906179",
+   "src": "fumeri-blue-for-men-edp-100ml-1.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle with purple cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292159938947",
+   "src": "fumeri-blue-for-men-edp-100ml-2.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292159971715",
+   "src": "fumeri-blue-for-men-edp-100ml-3.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – bottle on grey stone with blue crystals"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292160004483",
+   "src": "fumeri-blue-for-men-edp-100ml-4.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – bottle on wood with lemon, bergamot, lavender and amber"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292160037251",
+   "src": "fumeri-blue-for-men-edp-100ml-5.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – cobalt blue glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292160070019",
+   "src": "fumeri-blue-for-men-edp-100ml-6.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/15970473902467",
+   "media": "gid://shopify/MediaImage/74292160102787",
+   "src": "fumeri-blue-for-men-edp-100ml-7.webp",
+   "alt": "Fumeri Blue For Men EDP 100ML – bottle with lemon, bergamot and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292127924611",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-1.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292127957379",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-2.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292127990147",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-3.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with saffron, cinnamon, rose petals, amber and mint"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292128022915",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-4.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – bright blue glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292128055683",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-5.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292128088451",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-6.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with pink peppercorns and leaves"
+  },
+  {
+   "product": "gid://shopify/Product/15970473017731",
+   "media": "gid://shopify/MediaImage/74292128121219",
+   "src": "fumeri-ambre-night-unisex-edp-100ml-7.webp",
+   "alt": "Fumeri Ambre Night Unisex EDP 100ML – close-up of the bottle and gold spray neck"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127695235",
+   "src": "fumeri-adore-unisex-edp-100ml-1.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127728003",
+   "src": "fumeri-adore-unisex-edp-100ml-2.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127760771",
+   "src": "fumeri-adore-unisex-edp-100ml-3.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – bottle with a soft golden glow"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127793539",
+   "src": "fumeri-adore-unisex-edp-100ml-4.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – bottle on a table with pear, lime, rose and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127826307",
+   "src": "fumeri-adore-unisex-edp-100ml-5.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – ivory bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127859075",
+   "src": "fumeri-adore-unisex-edp-100ml-6.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – bottle beside its ivory and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/15970472362371",
+   "media": "gid://shopify/MediaImage/74292127891843",
+   "src": "fumeri-adore-unisex-edp-100ml-7.webp",
+   "alt": "Fumeri Adore Unisex EDP 100ML – bottle with pear, bergamot, lime, rose and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128153987",
+   "src": "fumeri-angel-for-women-edp-100ml-1.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – purple bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128186755",
+   "src": "fumeri-angel-for-women-edp-100ml-2.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – purple bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128219523",
+   "src": "fumeri-angel-for-women-edp-100ml-3.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – bottle on a blue marble surface with gold drapes"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128252291",
+   "src": "fumeri-angel-for-women-edp-100ml-4.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, strawberries, rose, jasmine and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128285059",
+   "src": "fumeri-angel-for-women-edp-100ml-5.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – navy bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128317827",
+   "src": "fumeri-angel-for-women-edp-100ml-6.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – bottle beside its navy and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128350595",
+   "src": "fumeri-angel-for-women-edp-100ml-7.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – bottle lying at an angle, close view"
+  },
+  {
+   "product": "gid://shopify/Product/15970471575939",
+   "media": "gid://shopify/MediaImage/74292128383363",
+   "src": "fumeri-angel-for-women-edp-100ml-8.webp",
+   "alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, redcurrants, peony and bergamot"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127465859",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle on a stone plinth, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127498627",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – 100 ml bottle beside its white and red box"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127531395",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle with saffron, jasmine, amber and woods"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127564163",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127596931",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, angled view"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127629699",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – white and red box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970470691203",
+   "media": "gid://shopify/MediaImage/74292127662467",
+   "src": "fumeri-540-unisex-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle on a stone ledge with dried flowers"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292160856451",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292160889219",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292160921987",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle and box on a dark red stage"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292160954755",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292160987523",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle beside its red box"
+  },
+  {
+   "product": "gid://shopify/Product/15970465186179",
+   "media": "gid://shopify/MediaImage/74292161020291",
+   "src": "fumeri-gabriella-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle with orange, redcurrants and orange blossom"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160332163",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-1.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160364931",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-2.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160397699",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-3.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with peach, grapefruit, peonies and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160430467",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-4.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – orange bottle with gold detailing, front view"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160463235",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-5.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle beside its orange box"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160496003",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-6.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with grapefruit, peach, raspberries and peonies"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160528771",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-7.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle on driftwood with pink orchids"
+  },
+  {
+   "product": "gid://shopify/Product/15970448671107",
+   "media": "gid://shopify/MediaImage/74292160561539",
+   "src": "fumeri-flirt-eau-de-parfum-100ml-8.webp",
+   "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle lying at an angle, close view"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "fumeri-wild-unisex-eau-de-parfum-100ml",
+   "id": 15970918957443,
+   "title": "Fumeri Wild Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162658691",
+     "new_media": "gid://shopify/MediaImage/74812408365443"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle, angled view showing the side",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162691459",
+     "new_media": "gid://shopify/MediaImage/74812408398211"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle on marble with dark flowers",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with a dark red flower",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162724227",
+     "new_media": "gid://shopify/MediaImage/74812408430979"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – black bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162756995",
+     "new_media": "gid://shopify/MediaImage/74812408463747"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle beside its black and gold box",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle beside its black and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162789763",
+     "new_media": "gid://shopify/MediaImage/74812408496515"
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "src": "fumeri-wild-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-wild-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, lavender and pink pepper",
+     "new_alt": "Fumeri Wild Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, lavender and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-wild-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162822531",
+     "new_media": "gid://shopify/MediaImage/74812408529283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-victorious-for-men-eau-de-parfum-100ml",
+   "id": 15970914369923,
+   "title": "Fumeri Victorious For Men Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle with black cap, front view",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle with black cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162134403",
+     "new_media": "gid://shopify/MediaImage/74812408562051"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – green glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162167171",
+     "new_media": "gid://shopify/MediaImage/74812408594819"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with cardamom, pepper, woods and amber",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with cardamom, pepper, woods and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162199939",
+     "new_media": "gid://shopify/MediaImage/74812408627587"
+    },
+    {
+     "n": 10,
+     "pos": 4,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – aqua glass bottle with black cap, front view",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – aqua glass bottle with black cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162232707",
+     "new_media": "gid://shopify/MediaImage/74812408660355"
+    },
+    {
+     "n": 11,
+     "pos": 5,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle beside its silver box",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162265475",
+     "new_media": "gid://shopify/MediaImage/74812408693123"
+    },
+    {
+     "n": 12,
+     "pos": 6,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with bergamot, ginger and pink pepper",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle with bergamot, ginger and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162298243",
+     "new_media": "gid://shopify/MediaImage/74812408725891"
+    },
+    {
+     "n": 13,
+     "pos": 7,
+     "src": "fumeri-victorious-for-men-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-victorious-for-men-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle at an angle, close view",
+     "new_alt": "Fumeri Victorious For Men Eau De Parfum 100ML – bottle at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-victorious-for-men-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162331011",
+     "new_media": "gid://shopify/MediaImage/74812408758659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-style-33-unisex-eau-de-parfum-100ml",
+   "id": 15970914009475,
+   "title": "Fumeri Style 33 Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with detailing, front view",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161937795",
+     "new_media": "gid://shopify/MediaImage/74812408856963"
+    },
+    {
+     "n": 15,
+     "pos": 2,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle, angled view showing the side",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161970563",
+     "new_media": "gid://shopify/MediaImage/74812408889731"
+    },
+    {
+     "n": 16,
+     "pos": 3,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with iris, mint, orange and jasmine",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with iris, mint, orange and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162003331",
+     "new_media": "gid://shopify/MediaImage/74812408922499"
+    },
+    {
+     "n": 17,
+     "pos": 4,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with gold detailing, front view",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – turquoise bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162036099",
+     "new_media": "gid://shopify/MediaImage/74812408955267"
+    },
+    {
+     "n": 18,
+     "pos": 5,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle beside its turquoise box",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle beside its turquoise box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162068867",
+     "new_media": "gid://shopify/MediaImage/74812408988035"
+    },
+    {
+     "n": 19,
+     "pos": 6,
+     "src": "fumeri-style-33-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-style-33-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with lemon, mandarin and mint",
+     "new_alt": "Fumeri Style 33 Unisex Eau De Parfum 100ML – bottle with lemon, mandarin and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-style-33-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162101635",
+     "new_media": "gid://shopify/MediaImage/74812409020803"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml",
+   "id": 15970913550723,
+   "title": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 20,
+     "pos": 1,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, front view",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161708419",
+     "new_media": "gid://shopify/MediaImage/74812409053571"
+    },
+    {
+     "n": 21,
+     "pos": 2,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – dark amber glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161741187",
+     "new_media": "gid://shopify/MediaImage/74812409086339"
+    },
+    {
+     "n": 22,
+     "pos": 3,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with roots, bergamot, cardamom and amber resin",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with roots, bergamot, cardamom and amber resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161773955",
+     "new_media": "gid://shopify/MediaImage/74812409119107"
+    },
+    {
+     "n": 23,
+     "pos": 4,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – amber-brown glass bottle, front view",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – amber-brown glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161806723",
+     "new_media": "gid://shopify/MediaImage/74812409151875"
+    },
+    {
+     "n": 24,
+     "pos": 5,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle beside its brown box",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle beside its brown box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161839491",
+     "new_media": "gid://shopify/MediaImage/74812409184643"
+    },
+    {
+     "n": 25,
+     "pos": 6,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with bergamot, lime and cardamom",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle with bergamot, lime and cardamom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161872259",
+     "new_media": "gid://shopify/MediaImage/74812409217411"
+    },
+    {
+     "n": 26,
+     "pos": 7,
+     "src": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle at an angle, close view",
+     "new_alt": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML – bottle at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-smokey-leather-unisex-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161905027",
+     "new_media": "gid://shopify/MediaImage/74812409250179"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml",
+   "id": 15970913190275,
+   "title": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 27,
+     "pos": 1,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161479043",
+     "new_media": "gid://shopify/MediaImage/74812409282947"
+    },
+    {
+     "n": 28,
+     "pos": 2,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161511811",
+     "new_media": "gid://shopify/MediaImage/74812409315715"
+    },
+    {
+     "n": 29,
+     "pos": 3,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with vetiver roots, rose and petals",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with vetiver roots, rose and petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161544579",
+     "new_media": "gid://shopify/MediaImage/74812409348483"
+    },
+    {
+     "n": 30,
+     "pos": 4,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – pink glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161577347",
+     "new_media": "gid://shopify/MediaImage/74812409381251"
+    },
+    {
+     "n": 31,
+     "pos": 5,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle beside its pink box",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161610115",
+     "new_media": "gid://shopify/MediaImage/74812409414019"
+    },
+    {
+     "n": 32,
+     "pos": 6,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with grapefruit, lime and orange blossom",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle with grapefruit, lime and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161642883",
+     "new_media": "gid://shopify/MediaImage/74812409446787"
+    },
+    {
+     "n": 33,
+     "pos": 7,
+     "src": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle at an angle, close view",
+     "new_alt": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML – bottle at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-rose-vetiver-for-women-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161675651",
+     "new_media": "gid://shopify/MediaImage/74812409479555"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-peach-unisex-eau-de-parfum-100ml",
+   "id": 15970909520259,
+   "title": "Fumeri Peach Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 34,
+     "pos": 1,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with rose gold detailing, front view",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with rose gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161249667",
+     "new_media": "gid://shopify/MediaImage/74812409610627"
+    },
+    {
+     "n": 35,
+     "pos": 2,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle, angled view showing the side",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161282435",
+     "new_media": "gid://shopify/MediaImage/74812409643395"
+    },
+    {
+     "n": 36,
+     "pos": 3,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle on black marble with peaches, oud wood and orange",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle with peaches, orange and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161315203",
+     "new_media": "gid://shopify/MediaImage/74812409676163"
+    },
+    {
+     "n": 37,
+     "pos": 4,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with gold detailing, front view",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – pink bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161347971",
+     "new_media": "gid://shopify/MediaImage/74812409708931"
+    },
+    {
+     "n": 38,
+     "pos": 5,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle beside its pink box",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161380739",
+     "new_media": "gid://shopify/MediaImage/74812409741699"
+    },
+    {
+     "n": 39,
+     "pos": 6,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle with peaches and pink blossom",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle with peaches and pink blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161413507",
+     "new_media": "gid://shopify/MediaImage/74812409774467"
+    },
+    {
+     "n": 40,
+     "pos": 7,
+     "src": "fumeri-peach-unisex-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-peach-unisex-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle on a pink plinth with gold leaves",
+     "new_alt": "Fumeri Peach Unisex Eau De Parfum 100ML – bottle on a pink plinth with gold leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-peach-unisex-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161446275",
+     "new_media": "gid://shopify/MediaImage/74812409807235"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml",
+   "id": 15970878587267,
+   "title": "Fumeri Oud Saffron For Men Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 41,
+     "pos": 1,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – copper-brown glass bottle, front view",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – copper-brown glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163051907",
+     "new_media": "gid://shopify/MediaImage/74812421013891"
+    },
+    {
+     "n": 42,
+     "pos": 2,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle beside its brown box",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle beside its brown box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163084675",
+     "new_media": "gid://shopify/MediaImage/74812421046659"
+    },
+    {
+     "n": 43,
+     "pos": 3,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle with saffron, bergamot, rose and geranium",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle with saffron, bergamot, rose and geranium",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163117443",
+     "new_media": "gid://shopify/MediaImage/74812421079427"
+    },
+    {
+     "n": 44,
+     "pos": 4,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle at an angle, close view",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163150211",
+     "new_media": "gid://shopify/MediaImage/74812421112195"
+    },
+    {
+     "n": 45,
+     "pos": 5,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, front view",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163182979",
+     "new_media": "gid://shopify/MediaImage/74812421144963"
+    },
+    {
+     "n": 46,
+     "pos": 6,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163215747",
+     "new_media": "gid://shopify/MediaImage/74812421177731"
+    },
+    {
+     "n": 47,
+     "pos": 7,
+     "src": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – bottle on black marble with oud wood and saffron",
+     "new_alt": "Fumeri Oud Saffron For Men Eau De Parfum 100ML – red glass bottle with saffron threads at its base",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-oud-saffron-for-men-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163248515",
+     "new_media": "gid://shopify/MediaImage/74812421210499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-orpheon-unisex-eau-de-parfum-100ml",
+   "id": 15970873770371,
+   "title": "Fumeri Orpheon Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 48,
+     "pos": 1,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle with gold detailing, front view",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162855299",
+     "new_media": "gid://shopify/MediaImage/74812421243267"
+    },
+    {
+     "n": 49,
+     "pos": 2,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle, angled view showing the side",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – red-brown bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162888067",
+     "new_media": "gid://shopify/MediaImage/74812421276035"
+    },
+    {
+     "n": 50,
+     "pos": 3,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle on a gold tray with spices, fruit and flowers",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle on a gold tray with spices, fruit and flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162920835",
+     "new_media": "gid://shopify/MediaImage/74812421308803"
+    },
+    {
+     "n": 51,
+     "pos": 4,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – brown bottle with gold detailing, front view",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – brown bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162953603",
+     "new_media": "gid://shopify/MediaImage/74812421341571"
+    },
+    {
+     "n": 52,
+     "pos": 5,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle beside its brown box",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle beside its brown box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292162986371",
+     "new_media": "gid://shopify/MediaImage/74812421374339"
+    },
+    {
+     "n": 53,
+     "pos": 6,
+     "src": "fumeri-orpheon-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-orpheon-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, juniper and rosemary",
+     "new_alt": "Fumeri Orpheon Unisex Eau De Parfum 100ML – bottle with lemon, bergamot, juniper and rosemary",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orpheon-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292163019139",
+     "new_media": "gid://shopify/MediaImage/74812421407107"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml",
+   "id": 15970860630403,
+   "title": "Fumeri Orchid Noir For Women Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 54,
+     "pos": 1,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161053059",
+     "new_media": "gid://shopify/MediaImage/74812421538179"
+    },
+    {
+     "n": 55,
+     "pos": 2,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161085827",
+     "new_media": "gid://shopify/MediaImage/74812421570947"
+    },
+    {
+     "n": 56,
+     "pos": 3,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle on wood with orchids, bergamot, orange and smoke",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle with orchids, wood pieces, bergamot, orange and smoke",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161118595",
+     "new_media": "gid://shopify/MediaImage/74812421603715"
+    },
+    {
+     "n": 57,
+     "pos": 4,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – black glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161151363",
+     "new_media": "gid://shopify/MediaImage/74812421636483"
+    },
+    {
+     "n": 58,
+     "pos": 5,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle beside its gold box",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161184131",
+     "new_media": "gid://shopify/MediaImage/74812421669251"
+    },
+    {
+     "n": 59,
+     "pos": 6,
+     "src": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle with orchids, bergamot, blackcurrants and pink pepper",
+     "new_alt": "Fumeri Orchid Noir For Women Eau De Parfum 100ML – bottle with orchids, bergamot, blackcurrants and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-orchid-noir-for-women-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161216899",
+     "new_media": "gid://shopify/MediaImage/74812421702019"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-gris-unisex-eau-de-parfum-100ml",
+   "id": 15970860138883,
+   "title": "Fumeri Gris Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 60,
+     "pos": 1,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159676803",
+     "new_media": "gid://shopify/MediaImage/74812421734787"
+    },
+    {
+     "n": 61,
+     "pos": 2,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle, angled view showing the side",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159709571",
+     "new_media": "gid://shopify/MediaImage/74812421767555"
+    },
+    {
+     "n": 62,
+     "pos": 3,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, roses and jasmine",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, roses and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159742339",
+     "new_media": "gid://shopify/MediaImage/74812421800323"
+    },
+    {
+     "n": 63,
+     "pos": 4,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – purple bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159775107",
+     "new_media": "gid://shopify/MediaImage/74812421833091"
+    },
+    {
+     "n": 64,
+     "pos": 5,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle beside its purple box",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle beside its purple box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159807875",
+     "new_media": "gid://shopify/MediaImage/74812421865859"
+    },
+    {
+     "n": 65,
+     "pos": 6,
+     "src": "fumeri-gris-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-gris-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, lavender and pink pepper",
+     "new_alt": "Fumeri Gris Unisex Eau De Parfum 100ML – bottle with grapefruit, bergamot, lavender and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gris-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159840643",
+     "new_media": "gid://shopify/MediaImage/74812421898627"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-elixir-unisex-eau-de-parfum-100ml",
+   "id": 15970478260611,
+   "title": "Fumeri Elixir Unisex EDP 100ML",
+   "images": [
+    {
+     "n": 66,
+     "pos": 1,
+     "src": "fumeri-elixir-unisex-edp-100ml-1.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle with copper detailing, front view",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle with copper detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160135555",
+     "new_media": "gid://shopify/MediaImage/74812421931395"
+    },
+    {
+     "n": 67,
+     "pos": 2,
+     "src": "fumeri-elixir-unisex-edp-100ml-2.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle, angled view showing the side",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – mauve bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160168323",
+     "new_media": "gid://shopify/MediaImage/74812421964163"
+    },
+    {
+     "n": 68,
+     "pos": 3,
+     "src": "fumeri-elixir-unisex-edp-100ml-3.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – bottle on a wooden stand surrounded by roses",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – bottle on a wooden stand surrounded by roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160201091",
+     "new_media": "gid://shopify/MediaImage/74812421996931"
+    },
+    {
+     "n": 69,
+     "pos": 4,
+     "src": "fumeri-elixir-unisex-edp-100ml-4.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – white bottle with gold detailing, front view",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – white bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160233859",
+     "new_media": "gid://shopify/MediaImage/74812422029699"
+    },
+    {
+     "n": 70,
+     "pos": 5,
+     "src": "fumeri-elixir-unisex-edp-100ml-5.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – bottle beside its white and gold box",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – bottle beside its white and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160266627",
+     "new_media": "gid://shopify/MediaImage/74812422062467"
+    },
+    {
+     "n": 71,
+     "pos": 6,
+     "src": "fumeri-elixir-unisex-edp-100ml-6.webp",
+     "in": "fumeri-elixir-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Elixir Unisex EDP 100ML – bottle with bergamot, black pepper and cardamom",
+     "new_alt": "Fumeri Elixir Unisex EDP 100ML – bottle with bergamot, black pepper and cardamom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-elixir-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160299395",
+     "new_media": "gid://shopify/MediaImage/74812422095235"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-blue-for-men-eau-de-parfum-100ml",
+   "id": 15970473902467,
+   "title": "Fumeri Blue For Men EDP 100ML",
+   "images": [
+    {
+     "n": 72,
+     "pos": 1,
+     "src": "fumeri-blue-for-men-edp-100ml-1.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle with purple cap, front view",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle with purple cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159906179",
+     "new_media": "gid://shopify/MediaImage/74812422128003"
+    },
+    {
+     "n": 73,
+     "pos": 2,
+     "src": "fumeri-blue-for-men-edp-100ml-2.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159938947",
+     "new_media": "gid://shopify/MediaImage/74812422160771"
+    },
+    {
+     "n": 74,
+     "pos": 3,
+     "src": "fumeri-blue-for-men-edp-100ml-3.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – bottle on grey stone with blue crystals",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – blue glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292159971715",
+     "new_media": "gid://shopify/MediaImage/74812422193539"
+    },
+    {
+     "n": 75,
+     "pos": 4,
+     "src": "fumeri-blue-for-men-edp-100ml-4.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – bottle on wood with lemon, bergamot, lavender and amber",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – bottle on wood with lemon, bergamot, lavender and amber",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160004483",
+     "new_media": "gid://shopify/MediaImage/74812422226307"
+    },
+    {
+     "n": 76,
+     "pos": 5,
+     "src": "fumeri-blue-for-men-edp-100ml-5.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – cobalt blue glass bottle, front view",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – cobalt blue glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160037251",
+     "new_media": "gid://shopify/MediaImage/74812422259075"
+    },
+    {
+     "n": 77,
+     "pos": 6,
+     "src": "fumeri-blue-for-men-edp-100ml-6.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – bottle beside its blue box",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160070019",
+     "new_media": "gid://shopify/MediaImage/74812422291843"
+    },
+    {
+     "n": 78,
+     "pos": 7,
+     "src": "fumeri-blue-for-men-edp-100ml-7.webp",
+     "in": "fumeri-blue-for-men-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Blue For Men EDP 100ML – bottle with lemon, bergamot and orange blossom",
+     "new_alt": "Fumeri Blue For Men EDP 100ML – bottle with lemon, bergamot and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-blue-for-men-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160102787",
+     "new_media": "gid://shopify/MediaImage/74812422324611"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-amber-night-unisex-eau-de-parfum-100ml",
+   "id": 15970473017731,
+   "title": "Fumeri Ambre Night Unisex EDP 100ML",
+   "images": [
+    {
+     "n": 79,
+     "pos": 1,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-1.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, front view",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127924611",
+     "new_media": "gid://shopify/MediaImage/74812422357379"
+    },
+    {
+     "n": 80,
+     "pos": 2,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-2.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, angled view showing the side",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – teal glass bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127957379",
+     "new_media": "gid://shopify/MediaImage/74812422390147"
+    },
+    {
+     "n": 81,
+     "pos": 3,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-3.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with saffron, cinnamon, rose petals, amber and mint",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with saffron, cinnamon, rose petals, amber and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127990147",
+     "new_media": "gid://shopify/MediaImage/74812422422915"
+    },
+    {
+     "n": 82,
+     "pos": 4,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-4.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – bright blue glass bottle, front view",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – bright blue glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128022915",
+     "new_media": "gid://shopify/MediaImage/74812422455683"
+    },
+    {
+     "n": 83,
+     "pos": 5,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-5.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle beside its blue box",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128055683",
+     "new_media": "gid://shopify/MediaImage/74812422488451"
+    },
+    {
+     "n": 84,
+     "pos": 6,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-6.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with pink peppercorns and leaves",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – bottle with pink peppercorns and leaves",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128088451",
+     "new_media": "gid://shopify/MediaImage/74812422521219"
+    },
+    {
+     "n": 85,
+     "pos": 7,
+     "src": "fumeri-ambre-night-unisex-edp-100ml-7.webp",
+     "in": "fumeri-amber-night-unisex-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Ambre Night Unisex EDP 100ML – close-up of the bottle and gold spray neck",
+     "new_alt": "Fumeri Ambre Night Unisex EDP 100ML – close-up of the bottle and gold spray neck",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-amber-night-unisex-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128121219",
+     "new_media": "gid://shopify/MediaImage/74812422553987"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-adore-unisex-eau-de-parfum-100ml",
+   "id": 15970472362371,
+   "title": "Fumeri Adore Unisex EDP 100ML",
+   "images": [
+    {
+     "n": 86,
+     "pos": 1,
+     "src": "fumeri-adore-unisex-edp-100ml-1.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, front view",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127695235",
+     "new_media": "gid://shopify/MediaImage/74812432843139"
+    },
+    {
+     "n": 87,
+     "pos": 2,
+     "src": "fumeri-adore-unisex-edp-100ml-2.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, angled view showing the side",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – lilac and white bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127728003",
+     "new_media": "gid://shopify/MediaImage/74812432875907"
+    },
+    {
+     "n": 88,
+     "pos": 3,
+     "src": "fumeri-adore-unisex-edp-100ml-3.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – bottle with a soft golden glow",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – white bottle with lilac and gold detailing, angled view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127760771",
+     "new_media": "gid://shopify/MediaImage/74812432908675"
+    },
+    {
+     "n": 89,
+     "pos": 4,
+     "src": "fumeri-adore-unisex-edp-100ml-4.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – bottle on a table with pear, lime, rose and vanilla",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – bottle with white flowers and a vanilla pod",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127793539",
+     "new_media": "gid://shopify/MediaImage/74812432941443"
+    },
+    {
+     "n": 90,
+     "pos": 5,
+     "src": "fumeri-adore-unisex-edp-100ml-5.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – ivory bottle with gold detailing, front view",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – ivory bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127826307",
+     "new_media": "gid://shopify/MediaImage/74812432974211"
+    },
+    {
+     "n": 91,
+     "pos": 6,
+     "src": "fumeri-adore-unisex-edp-100ml-6.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – bottle beside its ivory and gold box",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – bottle beside its ivory and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127859075",
+     "new_media": "gid://shopify/MediaImage/74812433006979"
+    },
+    {
+     "n": 92,
+     "pos": 7,
+     "src": "fumeri-adore-unisex-edp-100ml-7.webp",
+     "in": "fumeri-adore-unisex-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Adore Unisex EDP 100ML – bottle with pear, bergamot, lime, rose and jasmine",
+     "new_alt": "Fumeri Adore Unisex EDP 100ML – bottle with pear, bergamot, lime, rose and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-adore-unisex-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127891843",
+     "new_media": "gid://shopify/MediaImage/74812433039747"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-angel-for-women-eau-de-parfum-100ml",
+   "id": 15970471575939,
+   "title": "Fumeri Angel For Women EDP 100ML",
+   "images": [
+    {
+     "n": 93,
+     "pos": 1,
+     "src": "fumeri-angel-for-women-edp-100ml-1.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – purple bottle with gold detailing, front view",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – purple bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128153987",
+     "new_media": "gid://shopify/MediaImage/74812433072515"
+    },
+    {
+     "n": 94,
+     "pos": 2,
+     "src": "fumeri-angel-for-women-edp-100ml-2.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – purple bottle, angled view showing the side",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – purple bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128186755",
+     "new_media": "gid://shopify/MediaImage/74812433105283"
+    },
+    {
+     "n": 95,
+     "pos": 3,
+     "src": "fumeri-angel-for-women-edp-100ml-3.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – bottle on a blue marble surface with gold drapes",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – navy bottle with gold detailing, angled view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128219523",
+     "new_media": "gid://shopify/MediaImage/74812433138051"
+    },
+    {
+     "n": 96,
+     "pos": 4,
+     "src": "fumeri-angel-for-women-edp-100ml-4.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, strawberries, rose, jasmine and vanilla",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, strawberries, rose, jasmine and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128252291",
+     "new_media": "gid://shopify/MediaImage/74812433170819"
+    },
+    {
+     "n": 97,
+     "pos": 5,
+     "src": "fumeri-angel-for-women-edp-100ml-5.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – navy bottle with gold detailing, front view",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – navy bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128285059",
+     "new_media": "gid://shopify/MediaImage/74812433203587"
+    },
+    {
+     "n": 98,
+     "pos": 6,
+     "src": "fumeri-angel-for-women-edp-100ml-6.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – bottle beside its navy and gold box",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – bottle beside its navy and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128317827",
+     "new_media": "gid://shopify/MediaImage/74812433236355"
+    },
+    {
+     "n": 99,
+     "pos": 7,
+     "src": "fumeri-angel-for-women-edp-100ml-7.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – bottle lying at an angle, close view",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – bottle lying at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128350595",
+     "new_media": "gid://shopify/MediaImage/74812433269123"
+    },
+    {
+     "n": 100,
+     "pos": 8,
+     "src": "fumeri-angel-for-women-edp-100ml-8.webp",
+     "in": "fumeri-angel-for-women-eau-de-parfum-100ml-08.webp",
+     "alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, redcurrants, peony and bergamot",
+     "new_alt": "Fumeri Angel For Women EDP 100ML – bottle with pear, redcurrants, peony and bergamot",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-angel-for-women-eau-de-parfum-100ml-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292128383363",
+     "new_media": "gid://shopify/MediaImage/74812433301891"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-540-unisex-eau-de-parfum-100ml",
+   "id": 15970470691203,
+   "title": "Fumeri 540 Unisex Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 101,
+     "pos": 1,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle on a stone plinth, front view",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle on a stone plinth, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127465859",
+     "new_media": "gid://shopify/MediaImage/74812433334659"
+    },
+    {
+     "n": 102,
+     "pos": 2,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – 100 ml bottle beside its white and red box",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – 100 ml bottle beside its white and red box",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/74292127498627"
+    },
+    {
+     "n": 103,
+     "pos": 3,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle with saffron, jasmine, amber and woods",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle with saffron, jasmine, amber and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127531395",
+     "new_media": "gid://shopify/MediaImage/74812433367427"
+    },
+    {
+     "n": 104,
+     "pos": 4,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, front view",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127564163",
+     "new_media": "gid://shopify/MediaImage/74812433400195"
+    },
+    {
+     "n": 105,
+     "pos": 5,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, angled view",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, angled view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127596931",
+     "new_media": "gid://shopify/MediaImage/74812433432963"
+    },
+    {
+     "n": 106,
+     "pos": 6,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – white and red box, front view",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – white and red box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127629699",
+     "new_media": "gid://shopify/MediaImage/74812433465731"
+    },
+    {
+     "n": 107,
+     "pos": 7,
+     "src": "fumeri-540-unisex-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-540-unisex-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri 540 Unisex Eau De Parfum 100ML – bottle on a stone ledge with dried flowers",
+     "new_alt": "Fumeri 540 Unisex Eau De Parfum 100ML – clear bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-540-unisex-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292127662467",
+     "new_media": "gid://shopify/MediaImage/74812433498499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-gabriella-eau-de-parfum-100ml",
+   "id": 15970465186179,
+   "title": "Fumeri Gabriella Eau de Parfum 100ML",
+   "images": [
+    {
+     "n": 108,
+     "pos": 1,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle with gold detailing, front view",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160856451",
+     "new_media": "gid://shopify/MediaImage/74812433531267"
+    },
+    {
+     "n": 109,
+     "pos": 2,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle, angled view showing the side",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – pink bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160889219",
+     "new_media": "gid://shopify/MediaImage/74812433564035"
+    },
+    {
+     "n": 110,
+     "pos": 3,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle and box on a dark red stage",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160921987",
+     "new_media": "gid://shopify/MediaImage/74812433596803"
+    },
+    {
+     "n": 111,
+     "pos": 4,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle with gold detailing, front view",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – red bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160954755",
+     "new_media": "gid://shopify/MediaImage/74812433629571"
+    },
+    {
+     "n": 112,
+     "pos": 5,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle beside its red box",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160987523",
+     "new_media": "gid://shopify/MediaImage/74812433662339"
+    },
+    {
+     "n": 113,
+     "pos": 6,
+     "src": "fumeri-gabriella-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-gabriella-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle with orange, redcurrants and orange blossom",
+     "new_alt": "Fumeri Gabriella Eau de Parfum 100ML – bottle with orange, redcurrants and orange blossom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-gabriella-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292161020291",
+     "new_media": "gid://shopify/MediaImage/74812433695107"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fumeri-flirt-eau-de-parfum-100ml",
+   "id": 15970448671107,
+   "title": "Fumeri Flirt Eau de Parfum 100ML",
+   "images": [
+    {
+     "n": 114,
+     "pos": 1,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-1.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-01.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle with gold detailing, front view",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160332163",
+     "new_media": "gid://shopify/MediaImage/74812433858947"
+    },
+    {
+     "n": 115,
+     "pos": 2,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-2.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-02.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle, angled view showing the side",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – coral red bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160364931",
+     "new_media": "gid://shopify/MediaImage/74812433891715"
+    },
+    {
+     "n": 116,
+     "pos": 3,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-3.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-03.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with peach, grapefruit, peonies and vanilla",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with peach, grapefruit, peonies and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160397699",
+     "new_media": "gid://shopify/MediaImage/74812433924483"
+    },
+    {
+     "n": 117,
+     "pos": 4,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-4.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-04.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – orange bottle with gold detailing, front view",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – orange bottle with gold detailing, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160430467",
+     "new_media": "gid://shopify/MediaImage/74812433957251"
+    },
+    {
+     "n": 118,
+     "pos": 5,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-5.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-05.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle beside its orange box",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – bottle beside its orange box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160463235",
+     "new_media": "gid://shopify/MediaImage/74812433990019"
+    },
+    {
+     "n": 119,
+     "pos": 6,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-6.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-06.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with grapefruit, peach, raspberries and peonies",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with grapefruit, peach, raspberries and peonies",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160496003",
+     "new_media": "gid://shopify/MediaImage/74812434022787"
+    },
+    {
+     "n": 120,
+     "pos": 7,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-7.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-07.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle on driftwood with pink orchids",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – bottle with pink orchids",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160528771",
+     "new_media": "gid://shopify/MediaImage/74812434055555"
+    },
+    {
+     "n": 121,
+     "pos": 8,
+     "src": "fumeri-flirt-eau-de-parfum-100ml-8.webp",
+     "in": "fumeri-flirt-eau-de-parfum-100ml-08.webp",
+     "alt": "Fumeri Flirt Eau de Parfum 100ML – bottle lying at an angle, close view",
+     "new_alt": "Fumeri Flirt Eau de Parfum 100ML – bottle lying at an angle, close view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fumeri-flirt-eau-de-parfum-100ml-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292160561539",
+     "new_media": "gid://shopify/MediaImage/74812434088323"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
