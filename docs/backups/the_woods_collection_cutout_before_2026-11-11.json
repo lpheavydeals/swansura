@@ -1,0 +1,679 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "3": "drop",
+   "10": "drop",
+   "15": "drop",
+   "16": "drop",
+   "24": "drop",
+   "29": "drop"
+  },
+  "alt": {
+   "1": "The Woods Collection Eden Eau De Parfum 100ML – bottle at an angle",
+   "2": "The Woods Collection Eden Eau De Parfum 100ML – bottle beside its boxes",
+   "4": "The Woods Collection Elysian Eau De Parfum 100ML – bottle, front view",
+   "5": "The Woods Collection Elysian Eau De Parfum 100ML – bottle beside its box",
+   "6": "The Woods Collection Pure Shine Eau De Parfum 100ML – bottle, front view",
+   "7": "The Woods Collection Pure Shine Eau De Parfum 100ML – bottle at an angle",
+   "8": "The Woods Collection Twilight Eau De Parfum 100ML – bottle, front view",
+   "9": "The Woods Collection Twilight Eau De Parfum 100ML – bottle on an orange cushion",
+   "11": "The Woods Collection Mirage Eau De Parfum 100ML – bottle, front view",
+   "12": "The Woods Collection Mirage Eau De Parfum 100ML – bottle at an angle",
+   "13": "The Woods Collection Sunrise Eau De Parfum 100ML – bottle, front view",
+   "14": "The Woods Collection Sunrise Eau De Parfum 100ML – bottle at an angle",
+   "17": "The Woods Collection Green Walk Eau De Parfum 100ML – bottle, front view",
+   "18": "The Woods Collection Green Walk Eau De Parfum 100ML – close-up of the bottle at an angle",
+   "19": "The Woods Collection Secret Source Eau De Parfum 100ML – bottle with dried protea petals",
+   "20": "The Woods Collection Secret Source Eau De Parfum 100ML – close-up of the bottle",
+   "21": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle, front view",
+   "22": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle with a rose-coloured label",
+   "23": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle with pink cream poured over the top",
+   "25": "The Woods Collection Timeless Sands Eau De Parfum 100ML – bottle, front view",
+   "26": "The Woods Collection Timeless Sands Eau De Parfum 100ML – bottle lying at an angle",
+   "27": "The Woods Collection Azure Eau De Parfum 100ML – bottle, front view",
+   "28": "The Woods Collection Azure Eau De Parfum 100ML – bottle with white and pink flowers"
+  },
+  "skip_products": [],
+  "notes": "dropped lifestyle shots where leaves/props cover the bottle (torn cut-outs)"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15982757478787",
+   "media": "gid://shopify/MediaImage/71497323774339",
+   "src": "Screenshot2026-05-22at14.35.18.png",
+   "alt": "The Woods Collection Eden Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982757478787",
+   "media": "gid://shopify/MediaImage/71497323741571",
+   "src": "Screenshot2026-05-22at14.34.46.png",
+   "alt": "The Woods Collection Eden Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982757478787",
+   "media": "gid://shopify/MediaImage/71497323708803",
+   "src": "Screenshot2026-05-22at14.31.40.png",
+   "alt": "The Woods Collection Eden Eau De Parfum 100ML – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/15982752563587",
+   "media": "gid://shopify/MediaImage/71497308176771",
+   "src": "o.130307.jpg",
+   "alt": "The Woods Collection Elysian Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982752563587",
+   "media": "gid://shopify/MediaImage/71497308144003",
+   "src": "edp-elysian-901148566_01.webp",
+   "alt": "The Woods Collection Elysian Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982750695811",
+   "media": "gid://shopify/MediaImage/71497277243779",
+   "src": "Screenshot2026-05-22at14.21.29.png",
+   "alt": "The Woods Collection Pure Shine Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982750695811",
+   "media": "gid://shopify/MediaImage/71497277211011",
+   "src": "Screenshot2026-05-22at14.19.16.png",
+   "alt": "The Woods Collection Pure Shine Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982748467587",
+   "media": "gid://shopify/MediaImage/71497268593027",
+   "src": "Screenshot2026-05-22at14.42.15.png",
+   "alt": "The Woods Collection Twilight Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982748467587",
+   "media": "gid://shopify/MediaImage/71497268625795",
+   "src": "Screenshot2026-05-22at14.44.36.png",
+   "alt": "The Woods Collection Twilight Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982748467587",
+   "media": "gid://shopify/MediaImage/71497268560259",
+   "src": "Screenshot2026-05-22at14.39.23.png",
+   "alt": "The Woods Collection Twilight Eau De Parfum 100ML – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/15982747025795",
+   "media": "gid://shopify/MediaImage/71497253945731",
+   "src": "1_1080x_643c4d46-b26b-413e-b6e2-dc01359fd86f.webp",
+   "alt": "The Woods Collection Mirage Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982747025795",
+   "media": "gid://shopify/MediaImage/71497253978499",
+   "src": "Screenshot2026-05-22at14.47.48.png",
+   "alt": "The Woods Collection Mirage Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982744469891",
+   "media": "gid://shopify/MediaImage/71497230778755",
+   "src": "Screenshot2026-05-22at14.29.59.png",
+   "alt": "The Woods Collection Sunrise Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982744469891",
+   "media": "gid://shopify/MediaImage/71497230811523",
+   "src": "Screenshot2026-05-22at14.31.07.png",
+   "alt": "The Woods Collection Sunrise Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982744469891",
+   "media": "gid://shopify/MediaImage/71497230745987",
+   "src": "Screenshot2026-05-22at12.05.01.png",
+   "alt": "The Woods Collection Sunrise Eau De Parfum 100ML – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/15982736540035",
+   "media": "gid://shopify/MediaImage/71497201549699",
+   "src": "Screenshot2026-05-22at12.00.11.png",
+   "alt": "The Woods Collection Green Walk Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982736540035",
+   "media": "gid://shopify/MediaImage/71497201582467",
+   "src": "Screenshot2026-05-22at12.00.56.png",
+   "alt": "The Woods Collection Green Walk Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982736540035",
+   "media": "gid://shopify/MediaImage/71497201615235",
+   "src": "Screenshot2026-05-22at14.15.32.png",
+   "alt": "The Woods Collection Green Walk Eau De Parfum 100ML – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/15982725333379",
+   "media": "gid://shopify/MediaImage/71497116647811",
+   "src": "Screenshot2026-05-22at14.23.25.png",
+   "alt": "The Woods Collection Secret Source Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982725333379",
+   "media": "gid://shopify/MediaImage/71497116680579",
+   "src": "Screenshot2026-05-22at14.24.10.png",
+   "alt": "The Woods Collection Secret Source Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982711472515",
+   "media": "gid://shopify/MediaImage/71497036333443",
+   "src": "Screenshot2026-05-22at14.37.40.png",
+   "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982711472515",
+   "media": "gid://shopify/MediaImage/71497036431747",
+   "src": "Screenshot2026-05-22at14.39.59.png",
+   "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982711472515",
+   "media": "gid://shopify/MediaImage/71497036366211",
+   "src": "Screenshot2026-05-22at14.38.18.png",
+   "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/15982711472515",
+   "media": "gid://shopify/MediaImage/71497036398979",
+   "src": "Screenshot2026-05-22at14.38.43.png",
+   "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/15982704853379",
+   "media": "gid://shopify/MediaImage/71496974401923",
+   "src": "Screenshot2026-05-22at14.27.36.png",
+   "alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982704853379",
+   "media": "gid://shopify/MediaImage/71496974369155",
+   "src": "Screenshot2026-05-22at14.25.24.png",
+   "alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982691484035",
+   "media": "gid://shopify/MediaImage/71496833696131",
+   "src": "s-l400.jpg",
+   "alt": "The Woods Collection Azure Eau De Parfum 100ML"
+  },
+  {
+   "product": "gid://shopify/Product/15982691484035",
+   "media": "gid://shopify/MediaImage/71496762786179",
+   "src": "Screenshot2026-05-22at14.26.06.png",
+   "alt": "The Woods Collection Azure Eau De Parfum 100ML – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/15982691484035",
+   "media": "gid://shopify/MediaImage/71496762753411",
+   "src": "Screenshot2026-05-22at14.18.26.png",
+   "alt": "The Woods Collection Azure Eau De Parfum 100ML – view 3"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "the-woods-collection-eden-eau-de-parfum-100ml",
+   "id": 15982757478787,
+   "title": "The Woods Collection Eden Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.35.18.png",
+     "in": "the-woods-collection-eden-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Eden Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Eden Eau De Parfum 100ML – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-eden-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497323774339",
+     "new_media": "gid://shopify/MediaImage/74817718944131"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.34.46.png",
+     "in": "the-woods-collection-eden-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Eden Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Eden Eau De Parfum 100ML – bottle beside its boxes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-eden-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497323741571",
+     "new_media": "gid://shopify/MediaImage/74817718976899"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at14.31.40.png",
+     "in": "the-woods-collection-eden-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Eden Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Eden Eau De Parfum 100ML – view 3",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71497323708803"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-elysian-eau-de-parfum-100ml",
+   "id": 15982752563587,
+   "title": "The Woods Collection Elysian Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "o.130307.jpg",
+     "in": "the-woods-collection-elysian-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Elysian Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Elysian Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-elysian-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497308176771",
+     "new_media": "gid://shopify/MediaImage/74817719042435"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "edp-elysian-901148566_01.webp",
+     "in": "the-woods-collection-elysian-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Elysian Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Elysian Eau De Parfum 100ML – bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-elysian-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497308144003",
+     "new_media": "gid://shopify/MediaImage/74817719075203"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-pure-shine-eau-de-parfum-100ml",
+   "id": 15982750695811,
+   "title": "The Woods Collection Pure Shine Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.21.29.png",
+     "in": "the-woods-collection-pure-shine-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Pure Shine Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Pure Shine Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-pure-shine-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497277243779",
+     "new_media": "gid://shopify/MediaImage/74817719107971"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.19.16.png",
+     "in": "the-woods-collection-pure-shine-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Pure Shine Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Pure Shine Eau De Parfum 100ML – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-pure-shine-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497277211011",
+     "new_media": "gid://shopify/MediaImage/74817719140739"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-twilight-eau-de-parfum-100ml",
+   "id": 15982748467587,
+   "title": "The Woods Collection Twilight Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.42.15.png",
+     "in": "the-woods-collection-twilight-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Twilight Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Twilight Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-twilight-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497268593027",
+     "new_media": "gid://shopify/MediaImage/74817719173507"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.44.36.png",
+     "in": "the-woods-collection-twilight-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Twilight Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Twilight Eau De Parfum 100ML – bottle on an orange cushion",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-twilight-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497268625795",
+     "new_media": "gid://shopify/MediaImage/74817719206275"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at14.39.23.png",
+     "in": "the-woods-collection-twilight-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Twilight Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Twilight Eau De Parfum 100ML – view 3",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71497268560259"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-mirage-eau-de-parfum-100ml",
+   "id": 15982747025795,
+   "title": "The Woods Collection Mirage Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "1_1080x_643c4d46-b26b-413e-b6e2-dc01359fd86f.webp",
+     "in": "the-woods-collection-mirage-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Mirage Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Mirage Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-mirage-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497253945731",
+     "new_media": "gid://shopify/MediaImage/74817719337347"
+    },
+    {
+     "n": 12,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.47.48.png",
+     "in": "the-woods-collection-mirage-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Mirage Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Mirage Eau De Parfum 100ML – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-mirage-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497253978499",
+     "new_media": "gid://shopify/MediaImage/74817719370115"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-sunrise-eau-de-parfum-100ml",
+   "id": 15982744469891,
+   "title": "The Woods Collection Sunrise Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.29.59.png",
+     "in": "the-woods-collection-sunrise-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Sunrise Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Sunrise Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-sunrise-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497230778755",
+     "new_media": "gid://shopify/MediaImage/74817719402883"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.31.07.png",
+     "in": "the-woods-collection-sunrise-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Sunrise Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Sunrise Eau De Parfum 100ML – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-sunrise-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497230811523",
+     "new_media": "gid://shopify/MediaImage/74817719435651"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at12.05.01.png",
+     "in": "the-woods-collection-sunrise-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Sunrise Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Sunrise Eau De Parfum 100ML – view 3",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71497230745987"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-green-walk-eau-de-parfum-100ml",
+   "id": 15982736540035,
+   "title": "The Woods Collection Green Walk Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at12.00.11.png",
+     "in": "the-woods-collection-green-walk-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Green Walk Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Green Walk Eau De Parfum 100ML",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71497201549699"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at12.00.56.png",
+     "in": "the-woods-collection-green-walk-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Green Walk Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Green Walk Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-green-walk-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497201582467",
+     "new_media": "gid://shopify/MediaImage/74817719501187"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at14.15.32.png",
+     "in": "the-woods-collection-green-walk-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Green Walk Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Green Walk Eau De Parfum 100ML – close-up of the bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-green-walk-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497201615235",
+     "new_media": "gid://shopify/MediaImage/74817719533955"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-secret-source-eau-de-parfum-100ml",
+   "id": 15982725333379,
+   "title": "The Woods Collection Secret Source Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 19,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.23.25.png",
+     "in": "the-woods-collection-secret-source-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Secret Source Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Secret Source Eau De Parfum 100ML – bottle with dried protea petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-secret-source-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497116647811",
+     "new_media": "gid://shopify/MediaImage/74817719632259"
+    },
+    {
+     "n": 20,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.24.10.png",
+     "in": "the-woods-collection-secret-source-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Secret Source Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Secret Source Eau De Parfum 100ML – close-up of the bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-secret-source-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497116680579",
+     "new_media": "gid://shopify/MediaImage/74817719665027"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-wild-roses-eau-de-parfum-100ml",
+   "id": 15982711472515,
+   "title": "The Woods Collection Wild Roses Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 21,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.37.40.png",
+     "in": "the-woods-collection-wild-roses-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-wild-roses-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497036333443",
+     "new_media": "gid://shopify/MediaImage/74817719730563"
+    },
+    {
+     "n": 22,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.39.59.png",
+     "in": "the-woods-collection-wild-roses-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle with a rose-coloured label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-wild-roses-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497036431747",
+     "new_media": "gid://shopify/MediaImage/74817719763331"
+    },
+    {
+     "n": 23,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at14.38.18.png",
+     "in": "the-woods-collection-wild-roses-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – bottle with pink cream poured over the top",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-wild-roses-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/71497036366211",
+     "new_media": "gid://shopify/MediaImage/74817719796099"
+    },
+    {
+     "n": 24,
+     "pos": 4,
+     "src": "Screenshot2026-05-22at14.38.43.png",
+     "in": "the-woods-collection-wild-roses-eau-de-parfum-100ml-04.webp",
+     "alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 4",
+     "new_alt": "The Woods Collection Wild Roses Eau De Parfum 100ML – view 4",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71497036398979"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-timeless-sands-eau-de-parfum-100ml",
+   "id": 15982704853379,
+   "title": "The Woods Collection Timeless Sands Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "Screenshot2026-05-22at14.27.36.png",
+     "in": "the-woods-collection-timeless-sands-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-timeless-sands-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71496974401923",
+     "new_media": "gid://shopify/MediaImage/74817719828867"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.25.24.png",
+     "in": "the-woods-collection-timeless-sands-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Timeless Sands Eau De Parfum 100ML – bottle lying at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-timeless-sands-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71496974369155",
+     "new_media": "gid://shopify/MediaImage/74817719861635"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "the-woods-collection-azure-eau-de-parfum-100ml",
+   "id": 15982691484035,
+   "title": "The Woods Collection Azure Eau De Parfum 100ML",
+   "images": [
+    {
+     "n": 27,
+     "pos": 1,
+     "src": "s-l400.jpg",
+     "in": "the-woods-collection-azure-eau-de-parfum-100ml-01.webp",
+     "alt": "The Woods Collection Azure Eau De Parfum 100ML",
+     "new_alt": "The Woods Collection Azure Eau De Parfum 100ML – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-azure-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71496833696131",
+     "new_media": "gid://shopify/MediaImage/74817719992707"
+    },
+    {
+     "n": 28,
+     "pos": 2,
+     "src": "Screenshot2026-05-22at14.26.06.png",
+     "in": "the-woods-collection-azure-eau-de-parfum-100ml-02.webp",
+     "alt": "The Woods Collection Azure Eau De Parfum 100ML – view 2",
+     "new_alt": "The Woods Collection Azure Eau De Parfum 100ML – bottle with white and pink flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "the-woods-collection-azure-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71496762786179",
+     "new_media": "gid://shopify/MediaImage/74817720025475"
+    },
+    {
+     "n": 29,
+     "pos": 3,
+     "src": "Screenshot2026-05-22at14.18.26.png",
+     "in": "the-woods-collection-azure-eau-de-parfum-100ml-03.webp",
+     "alt": "The Woods Collection Azure Eau De Parfum 100ML – view 3",
+     "new_alt": "The Woods Collection Azure Eau De Parfum 100ML – view 3",
+     "variant_ids": [],
+     "method": "drop",
+     "out": null,
+     "media": "gid://shopify/MediaImage/71496762753411"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

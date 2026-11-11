@@ -1,0 +1,565 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "6": "flood",
+   "7": "flood",
+   "20": "flood"
+  },
+  "alt": {
+   "8": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle on a wood slice",
+   "12": "Mercedes-Benz le Eau de Parfum 120ml – bottle on a stone",
+   "16": "Mercedes-Benz Intense Eau de Toilette 120ml – black and silver bottle, front view"
+  },
+  "skip_products": [],
+  "notes": "flood for gift box/tin shots"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421470962051",
+   "media": "gid://shopify/MediaImage/74600661614979",
+   "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-01.webp",
+   "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the open tan leather case"
+  },
+  {
+   "product": "gid://shopify/Product/16421470962051",
+   "media": "gid://shopify/MediaImage/74600661647747",
+   "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-02.webp",
+   "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the leather case, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421470962051",
+   "media": "gid://shopify/MediaImage/74600661680515",
+   "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-03.webp",
+   "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – leather case rolled and tied"
+  },
+  {
+   "product": "gid://shopify/Product/16421470962051",
+   "media": "gid://shopify/MediaImage/74600661713283",
+   "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-04.webp",
+   "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – rolled leather case with citrus, wood and herbs"
+  },
+  {
+   "product": "gid://shopify/Product/16421470929283",
+   "media": "gid://shopify/MediaImage/74600657748355",
+   "src": "mercedes-benz-man-private-eau-de-parfum-100ml-01.webp",
+   "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – brown bottle with gold star emblem"
+  },
+  {
+   "product": "gid://shopify/Product/16421470929283",
+   "media": "gid://shopify/MediaImage/74600657781123",
+   "src": "mercedes-benz-man-private-eau-de-parfum-100ml-02.webp",
+   "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421470929283",
+   "media": "gid://shopify/MediaImage/74600657813891",
+   "src": "mercedes-benz-man-private-eau-de-parfum-100ml-03.webp",
+   "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle with cardamom, wood and green sprigs"
+  },
+  {
+   "product": "gid://shopify/Product/16421470929283",
+   "media": "gid://shopify/MediaImage/74600657846659",
+   "src": "mercedes-benz-man-private-eau-de-parfum-100ml-04.webp",
+   "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle on wood slices with fir sprigs, seen from above"
+  },
+  {
+   "product": "gid://shopify/Product/16421469749635",
+   "media": "gid://shopify/MediaImage/74600655880579",
+   "src": "mercedes-benz-le-eau-de-parfum-120ml-01.webp",
+   "alt": "Mercedes-Benz le Eau de Parfum 120ml – amber gradient bottle with black cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421469749635",
+   "media": "gid://shopify/MediaImage/74600655913347",
+   "src": "mercedes-benz-le-eau-de-parfum-120ml-02.webp",
+   "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle beside its black cylinder case"
+  },
+  {
+   "product": "gid://shopify/Product/16421469749635",
+   "media": "gid://shopify/MediaImage/74600655946115",
+   "src": "mercedes-benz-le-eau-de-parfum-120ml-03.webp",
+   "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle with wood and pink peppercorns"
+  },
+  {
+   "product": "gid://shopify/Product/16421469749635",
+   "media": "gid://shopify/MediaImage/74600655978883",
+   "src": "mercedes-benz-le-eau-de-parfum-120ml-04.webp",
+   "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle on a stone with red berries"
+  },
+  {
+   "product": "gid://shopify/Product/16421469716867",
+   "media": "gid://shopify/MediaImage/74600660369795",
+   "src": "mercedes-benz-intense-eau-de-toilette-120ml-01.webp",
+   "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – black and silver bottle front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421469716867",
+   "media": "gid://shopify/MediaImage/74600660402563",
+   "src": "mercedes-benz-intense-eau-de-toilette-120ml-02.webp",
+   "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle beside its black 120ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16421469716867",
+   "media": "gid://shopify/MediaImage/74600660435331",
+   "src": "mercedes-benz-intense-eau-de-toilette-120ml-03.webp",
+   "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with violets, nutmeg and pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16421469716867",
+   "media": "gid://shopify/MediaImage/74600660468099",
+   "src": "mercedes-benz-intense-eau-de-toilette-120ml-04.webp",
+   "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle among scattered dried ingredients"
+  },
+  {
+   "product": "gid://shopify/Product/16421469716867",
+   "media": "gid://shopify/MediaImage/74600660500867",
+   "src": "mercedes-benz-intense-eau-de-toilette-120ml-05.webp",
+   "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with ice cubes and water splash"
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "media": "gid://shopify/MediaImage/74600665874819",
+   "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-01.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and shower gel beside the round gift tin"
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "media": "gid://shopify/MediaImage/74600665907587",
+   "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-02.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – open gift tin holding the bottle and shower gel, with its lid"
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "media": "gid://shopify/MediaImage/74600665940355",
+   "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-03.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel inside the open tin"
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "media": "gid://shopify/MediaImage/74600665973123",
+   "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-04.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and 100ml shower gel tube"
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "media": "gid://shopify/MediaImage/74600666005891",
+   "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-05.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel with bergamot, lime, wood and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421469651331",
+   "media": "gid://shopify/MediaImage/74600671314307",
+   "src": "mercedes-benz-club-black-eau-de-parfum-100ml-01.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421469651331",
+   "media": "gid://shopify/MediaImage/74600671347075",
+   "src": "mercedes-benz-club-black-eau-de-parfum-100ml-02.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421469651331",
+   "media": "gid://shopify/MediaImage/74600671379843",
+   "src": "mercedes-benz-club-black-eau-de-parfum-100ml-03.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with lime, bergamot and resin"
+  },
+  {
+   "product": "gid://shopify/Product/16421469651331",
+   "media": "gid://shopify/MediaImage/74600671412611",
+   "src": "mercedes-benz-club-black-eau-de-parfum-100ml-04.webp",
+   "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle among wood pieces and amber"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml",
+   "id": 16421470962051,
+   "title": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-01.webp",
+     "in": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-01.webp",
+     "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the open tan leather case",
+     "new_alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the open tan leather case",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661614979",
+     "new_media": "gid://shopify/MediaImage/74817831174531"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-02.webp",
+     "in": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-02.webp",
+     "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the leather case, front view",
+     "new_alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – three bottles in the leather case, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661647747",
+     "new_media": "gid://shopify/MediaImage/74817831207299"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-03.webp",
+     "in": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-03.webp",
+     "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – leather case rolled and tied",
+     "new_alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – leather case rolled and tied",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661680515",
+     "new_media": "gid://shopify/MediaImage/74817831240067"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-04.webp",
+     "in": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-04.webp",
+     "alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – rolled leather case with citrus, wood and herbs",
+     "new_alt": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml – rolled leather case with citrus, wood and herbs",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-trio-nomade-eau-de-parfum-set-land-sea-air-3-x-30ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661713283",
+     "new_media": "gid://shopify/MediaImage/74817831272835"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mercedes-benz-man-private-eau-de-parfum-100ml",
+   "id": 16421470929283,
+   "title": "Mercedes-Benz Man Private Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "mercedes-benz-man-private-eau-de-parfum-100ml-01.webp",
+     "in": "mercedes-benz-man-private-eau-de-parfum-100ml-01.webp",
+     "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – brown bottle with gold star emblem",
+     "new_alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – brown bottle with gold star emblem",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-man-private-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657748355",
+     "new_media": "gid://shopify/MediaImage/74817831567747"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "mercedes-benz-man-private-eau-de-parfum-100ml-02.webp",
+     "in": "mercedes-benz-man-private-eau-de-parfum-100ml-02.webp",
+     "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle beside its gold box",
+     "new_alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "mercedes-benz-man-private-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657781123",
+     "new_media": "gid://shopify/MediaImage/74817831600515"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "mercedes-benz-man-private-eau-de-parfum-100ml-03.webp",
+     "in": "mercedes-benz-man-private-eau-de-parfum-100ml-03.webp",
+     "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle with cardamom, wood and green sprigs",
+     "new_alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle with cardamom, wood and green sprigs",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "mercedes-benz-man-private-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657813891",
+     "new_media": "gid://shopify/MediaImage/74817831633283"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "mercedes-benz-man-private-eau-de-parfum-100ml-04.webp",
+     "in": "mercedes-benz-man-private-eau-de-parfum-100ml-04.webp",
+     "alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle on wood slices with fir sprigs, seen from above",
+     "new_alt": "Mercedes-Benz Man Private Eau de Parfum 100ml – bottle on a wood slice",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-man-private-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657846659",
+     "new_media": "gid://shopify/MediaImage/74817831666051"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mercedes-benz-le-parfum-120ml",
+   "id": 16421469749635,
+   "title": "Mercedes-Benz Le Parfum 120ml",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "mercedes-benz-le-eau-de-parfum-120ml-01.webp",
+     "in": "mercedes-benz-le-parfum-120ml-01.webp",
+     "alt": "Mercedes-Benz le Eau de Parfum 120ml – amber gradient bottle with black cap",
+     "new_alt": "Mercedes-Benz le Eau de Parfum 120ml – amber gradient bottle with black cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-le-parfum-120ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655880579",
+     "new_media": "gid://shopify/MediaImage/74817832288643"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "mercedes-benz-le-eau-de-parfum-120ml-02.webp",
+     "in": "mercedes-benz-le-parfum-120ml-02.webp",
+     "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle beside its black cylinder case",
+     "new_alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle beside its black cylinder case",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-le-parfum-120ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655913347",
+     "new_media": "gid://shopify/MediaImage/74817832321411"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "mercedes-benz-le-eau-de-parfum-120ml-03.webp",
+     "in": "mercedes-benz-le-parfum-120ml-03.webp",
+     "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle with wood and pink peppercorns",
+     "new_alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle with wood and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-le-parfum-120ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655946115",
+     "new_media": "gid://shopify/MediaImage/74817832354179"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "mercedes-benz-le-eau-de-parfum-120ml-04.webp",
+     "in": "mercedes-benz-le-parfum-120ml-04.webp",
+     "alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle on a stone with red berries",
+     "new_alt": "Mercedes-Benz le Eau de Parfum 120ml – bottle on a stone",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-le-parfum-120ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655978883",
+     "new_media": "gid://shopify/MediaImage/74817832386947"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mercedes-benz-intense-eau-de-toilette-120ml",
+   "id": 16421469716867,
+   "title": "Mercedes-Benz Intense Eau de Toilette 120ml",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "mercedes-benz-intense-eau-de-toilette-120ml-01.webp",
+     "in": "mercedes-benz-intense-eau-de-toilette-120ml-01.webp",
+     "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – black and silver bottle front view",
+     "new_alt": "Mercedes-Benz Intense Eau de Toilette 120ml – black and silver bottle front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-intense-eau-de-toilette-120ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660369795",
+     "new_media": "gid://shopify/MediaImage/74817832452483"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "mercedes-benz-intense-eau-de-toilette-120ml-02.webp",
+     "in": "mercedes-benz-intense-eau-de-toilette-120ml-02.webp",
+     "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle beside its black 120ml box",
+     "new_alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle beside its black 120ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-intense-eau-de-toilette-120ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660402563",
+     "new_media": "gid://shopify/MediaImage/74817832485251"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "mercedes-benz-intense-eau-de-toilette-120ml-03.webp",
+     "in": "mercedes-benz-intense-eau-de-toilette-120ml-03.webp",
+     "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with violets, nutmeg and pepper",
+     "new_alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with violets, nutmeg and pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-intense-eau-de-toilette-120ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660435331",
+     "new_media": "gid://shopify/MediaImage/74817832518019"
+    },
+    {
+     "n": 16,
+     "pos": 4,
+     "src": "mercedes-benz-intense-eau-de-toilette-120ml-04.webp",
+     "in": "mercedes-benz-intense-eau-de-toilette-120ml-04.webp",
+     "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle among scattered dried ingredients",
+     "new_alt": "Mercedes-Benz Intense Eau de Toilette 120ml – black and silver bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-intense-eau-de-toilette-120ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660468099",
+     "new_media": "gid://shopify/MediaImage/74817832550787"
+    },
+    {
+     "n": 17,
+     "pos": 5,
+     "src": "mercedes-benz-intense-eau-de-toilette-120ml-05.webp",
+     "in": "mercedes-benz-intense-eau-de-toilette-120ml-05.webp",
+     "alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with ice cubes and water splash",
+     "new_alt": "Mercedes-Benz Intense Eau de Toilette 120ml – bottle with ice cubes and water splash",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-intense-eau-de-toilette-120ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660500867",
+     "new_media": "gid://shopify/MediaImage/74817832583555"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml",
+   "id": 16421469684099,
+   "title": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-01.webp",
+     "in": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-01.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and shower gel beside the round gift tin",
+     "new_alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and shower gel beside the round gift tin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600665874819",
+     "new_media": "gid://shopify/MediaImage/74817832911235"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-02.webp",
+     "in": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-02.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – open gift tin holding the bottle and shower gel, with its lid",
+     "new_alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – open gift tin holding the bottle and shower gel, with its lid",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600665907587",
+     "new_media": "gid://shopify/MediaImage/74817832944003"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-03.webp",
+     "in": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-03.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel inside the open tin",
+     "new_alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel inside the open tin",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600665940355",
+     "new_media": "gid://shopify/MediaImage/74817832976771"
+    },
+    {
+     "n": 21,
+     "pos": 4,
+     "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-04.webp",
+     "in": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-04.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and 100ml shower gel tube",
+     "new_alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – black bottle and 100ml shower gel tube",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600665973123",
+     "new_media": "gid://shopify/MediaImage/74817833009539"
+    },
+    {
+     "n": 22,
+     "pos": 5,
+     "src": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-05.webp",
+     "in": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-05.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel with bergamot, lime, wood and white flowers",
+     "new_alt": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml – bottle and shower gel with bergamot, lime, wood and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-toilette-shower-gel-gift-set-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666005891",
+     "new_media": "gid://shopify/MediaImage/74817833042307"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mercedes-benz-club-black-eau-de-parfum-100ml",
+   "id": 16421469651331,
+   "title": "Mercedes-Benz Club Black Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 23,
+     "pos": 1,
+     "src": "mercedes-benz-club-black-eau-de-parfum-100ml-01.webp",
+     "in": "mercedes-benz-club-black-eau-de-parfum-100ml-01.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle on a plain background",
+     "new_alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671314307",
+     "new_media": "gid://shopify/MediaImage/74817833173379"
+    },
+    {
+     "n": 24,
+     "pos": 2,
+     "src": "mercedes-benz-club-black-eau-de-parfum-100ml-02.webp",
+     "in": "mercedes-benz-club-black-eau-de-parfum-100ml-02.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with its box",
+     "new_alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671347075",
+     "new_media": "gid://shopify/MediaImage/74817833206147"
+    },
+    {
+     "n": 25,
+     "pos": 3,
+     "src": "mercedes-benz-club-black-eau-de-parfum-100ml-03.webp",
+     "in": "mercedes-benz-club-black-eau-de-parfum-100ml-03.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with lime, bergamot and resin",
+     "new_alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle with lime, bergamot and resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671379843",
+     "new_media": "gid://shopify/MediaImage/74817833238915"
+    },
+    {
+     "n": 26,
+     "pos": 4,
+     "src": "mercedes-benz-club-black-eau-de-parfum-100ml-04.webp",
+     "in": "mercedes-benz-club-black-eau-de-parfum-100ml-04.webp",
+     "alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle among wood pieces and amber",
+     "new_alt": "Mercedes-Benz Club Black Eau de Parfum 100ml – bottle among wood pieces and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mercedes-benz-club-black-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671412611",
+     "new_media": "gid://shopify/MediaImage/74817833271683"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
