@@ -1,0 +1,296 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "1": "Adi Guru Soul Eau de Parfum 100ml – square bottle with black wooden cap, front view"
+  },
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421462344067",
+   "media": "gid://shopify/MediaImage/74600656011651",
+   "src": "adi-guru-soul-eau-de-parfum-100ml-01.webp",
+   "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle on a plain white background"
+  },
+  {
+   "product": "gid://shopify/Product/16421462344067",
+   "media": "gid://shopify/MediaImage/74600656044419",
+   "src": "adi-guru-soul-eau-de-parfum-100ml-02.webp",
+   "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle beside its black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462344067",
+   "media": "gid://shopify/MediaImage/74600656077187",
+   "src": "adi-guru-soul-eau-de-parfum-100ml-03.webp",
+   "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle with juniper berries and violet flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421462245763",
+   "media": "gid://shopify/MediaImage/74600654307715",
+   "src": "adi-guru-sensation-eau-de-parfum-100ml-01.webp",
+   "alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle beside its open black box and gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421462245763",
+   "media": "gid://shopify/MediaImage/74600654340483",
+   "src": "adi-guru-sensation-eau-de-parfum-100ml-02.webp",
+   "alt": "Adi Guru Sensation Eau de Parfum 100ml – capped bottle with gold engraved top"
+  },
+  {
+   "product": "gid://shopify/Product/16421462245763",
+   "media": "gid://shopify/MediaImage/74600654373251",
+   "src": "adi-guru-sensation-eau-de-parfum-100ml-03.webp",
+   "alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle with dried tobacco leaves, wood and spices"
+  },
+  {
+   "product": "gid://shopify/Product/16421462212995",
+   "media": "gid://shopify/MediaImage/74600659255683",
+   "src": "adi-guru-harmony-eau-de-parfum-100ml-01.webp",
+   "alt": "Adi Guru Harmony Eau de Parfum 100ml – black bottle with gold cap beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462212995",
+   "media": "gid://shopify/MediaImage/74600659288451",
+   "src": "adi-guru-harmony-eau-de-parfum-100ml-02.webp",
+   "alt": "Adi Guru Harmony Eau de Parfum 100ml – black square bottle with gold-patterned cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421462212995",
+   "media": "gid://shopify/MediaImage/74600659321219",
+   "src": "adi-guru-harmony-eau-de-parfum-100ml-03.webp",
+   "alt": "Adi Guru Harmony Eau de Parfum 100ml – bottle and cap with lemon, orange and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421462180227",
+   "media": "gid://shopify/MediaImage/74600622883203",
+   "src": "adi-guru-elegance-eau-de-parfum-100ml-01.webp",
+   "alt": "Adi Guru Elegance Eau de Parfum 100ml – black bottle with a gold engraved cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421462180227",
+   "media": "gid://shopify/MediaImage/74600622915971",
+   "src": "adi-guru-elegance-eau-de-parfum-100ml-02.webp",
+   "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with bergamot, lime, orange blossom and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16421462180227",
+   "media": "gid://shopify/MediaImage/74600622948739",
+   "src": "adi-guru-elegance-eau-de-parfum-100ml-03.webp",
+   "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with its cap off in front of the black gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16421462180227",
+   "media": "gid://shopify/MediaImage/74600622981507",
+   "src": "adi-guru-elegance-eau-de-parfum-100ml-04.webp",
+   "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle beside its black box with gold panel"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "adi-guru-soul-eau-de-parfum-100ml",
+   "id": 16421462344067,
+   "title": "Adi Guru Soul Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "adi-guru-soul-eau-de-parfum-100ml-01.webp",
+     "in": "adi-guru-soul-eau-de-parfum-100ml-01.webp",
+     "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle on a plain white background",
+     "new_alt": "Adi Guru Soul Eau de Parfum 100ml – square bottle with black wooden cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-soul-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656011651",
+     "new_media": "gid://shopify/MediaImage/74823614857603"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "adi-guru-soul-eau-de-parfum-100ml-02.webp",
+     "in": "adi-guru-soul-eau-de-parfum-100ml-02.webp",
+     "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle beside its black gift box",
+     "new_alt": "Adi Guru Soul Eau de Parfum 100ml – bottle beside its black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-soul-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656044419",
+     "new_media": "gid://shopify/MediaImage/74823614890371"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "adi-guru-soul-eau-de-parfum-100ml-03.webp",
+     "in": "adi-guru-soul-eau-de-parfum-100ml-03.webp",
+     "alt": "Adi Guru Soul Eau de Parfum 100ml – bottle with juniper berries and violet flowers",
+     "new_alt": "Adi Guru Soul Eau de Parfum 100ml – bottle with juniper berries and violet flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-soul-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656077187",
+     "new_media": "gid://shopify/MediaImage/74823614923139"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "adi-guru-sensation-eau-de-parfum-100ml",
+   "id": 16421462245763,
+   "title": "Adi Guru Sensation Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "adi-guru-sensation-eau-de-parfum-100ml-01.webp",
+     "in": "adi-guru-sensation-eau-de-parfum-100ml-01.webp",
+     "alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle beside its open black box and gold cap",
+     "new_alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle beside its open black box and gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-sensation-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654307715",
+     "new_media": "gid://shopify/MediaImage/74823614955907"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "adi-guru-sensation-eau-de-parfum-100ml-02.webp",
+     "in": "adi-guru-sensation-eau-de-parfum-100ml-02.webp",
+     "alt": "Adi Guru Sensation Eau de Parfum 100ml – capped bottle with gold engraved top",
+     "new_alt": "Adi Guru Sensation Eau de Parfum 100ml – capped bottle with gold engraved top",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-sensation-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654340483",
+     "new_media": "gid://shopify/MediaImage/74823614988675"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "adi-guru-sensation-eau-de-parfum-100ml-03.webp",
+     "in": "adi-guru-sensation-eau-de-parfum-100ml-03.webp",
+     "alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle with dried tobacco leaves, wood and spices",
+     "new_alt": "Adi Guru Sensation Eau de Parfum 100ml – bottle with dried tobacco leaves, wood and spices",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-sensation-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654373251",
+     "new_media": "gid://shopify/MediaImage/74823615021443"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "adi-guru-harmony-eau-de-parfum-100ml",
+   "id": 16421462212995,
+   "title": "Adi Guru Harmony Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "adi-guru-harmony-eau-de-parfum-100ml-01.webp",
+     "in": "adi-guru-harmony-eau-de-parfum-100ml-01.webp",
+     "alt": "Adi Guru Harmony Eau de Parfum 100ml – black bottle with gold cap beside its black box",
+     "new_alt": "Adi Guru Harmony Eau de Parfum 100ml – black bottle with gold cap beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-harmony-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659255683",
+     "new_media": "gid://shopify/MediaImage/74823615054211"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "adi-guru-harmony-eau-de-parfum-100ml-02.webp",
+     "in": "adi-guru-harmony-eau-de-parfum-100ml-02.webp",
+     "alt": "Adi Guru Harmony Eau de Parfum 100ml – black square bottle with gold-patterned cap",
+     "new_alt": "Adi Guru Harmony Eau de Parfum 100ml – black square bottle with gold-patterned cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-harmony-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659288451",
+     "new_media": "gid://shopify/MediaImage/74823615086979"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "adi-guru-harmony-eau-de-parfum-100ml-03.webp",
+     "in": "adi-guru-harmony-eau-de-parfum-100ml-03.webp",
+     "alt": "Adi Guru Harmony Eau de Parfum 100ml – bottle and cap with lemon, orange and white flowers",
+     "new_alt": "Adi Guru Harmony Eau de Parfum 100ml – bottle and cap with lemon, orange and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-harmony-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659321219",
+     "new_media": "gid://shopify/MediaImage/74823615119747"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "adi-guru-elegance-eau-de-parfum-100ml",
+   "id": 16421462180227,
+   "title": "Adi Guru Elegance Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "adi-guru-elegance-eau-de-parfum-100ml-01.webp",
+     "in": "adi-guru-elegance-eau-de-parfum-100ml-01.webp",
+     "alt": "Adi Guru Elegance Eau de Parfum 100ml – black bottle with a gold engraved cap",
+     "new_alt": "Adi Guru Elegance Eau de Parfum 100ml – black bottle with a gold engraved cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-elegance-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600622883203",
+     "new_media": "gid://shopify/MediaImage/74823615152515"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "adi-guru-elegance-eau-de-parfum-100ml-02.webp",
+     "in": "adi-guru-elegance-eau-de-parfum-100ml-02.webp",
+     "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with bergamot, lime, orange blossom and pink pepper",
+     "new_alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with bergamot, lime, orange blossom and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-elegance-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600622915971",
+     "new_media": "gid://shopify/MediaImage/74823615185283"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "adi-guru-elegance-eau-de-parfum-100ml-03.webp",
+     "in": "adi-guru-elegance-eau-de-parfum-100ml-03.webp",
+     "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with its cap off in front of the black gift box",
+     "new_alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle with its cap off in front of the black gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-elegance-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600622948739",
+     "new_media": "gid://shopify/MediaImage/74823615218051"
+    },
+    {
+     "n": 13,
+     "pos": 4,
+     "src": "adi-guru-elegance-eau-de-parfum-100ml-04.webp",
+     "in": "adi-guru-elegance-eau-de-parfum-100ml-04.webp",
+     "alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle beside its black box with gold panel",
+     "new_alt": "Adi Guru Elegance Eau de Parfum 100ml – bottle beside its black box with gold panel",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "adi-guru-elegance-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600622981507",
+     "new_media": "gid://shopify/MediaImage/74823615250819"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

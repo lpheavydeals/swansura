@@ -1,0 +1,275 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421465653635",
+   "media": "gid://shopify/MediaImage/74600660959619",
+   "src": "fomo-garys-den-le-parfum-100ml-01.webp",
+   "alt": "Fomo Gary's Den le Parfum 100ml – amber glass bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421465653635",
+   "media": "gid://shopify/MediaImage/74600660992387",
+   "src": "fomo-garys-den-le-parfum-100ml-02.webp",
+   "alt": "Fomo Gary's Den le Parfum 100ml – bottle with black and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465653635",
+   "media": "gid://shopify/MediaImage/74600661025155",
+   "src": "fomo-garys-den-le-parfum-100ml-03.webp",
+   "alt": "Fomo Gary's Den le Parfum 100ml – bottle with lavender, lime and white blossoms"
+  },
+  {
+   "product": "gid://shopify/Product/16421465620867",
+   "media": "gid://shopify/MediaImage/74600656273795",
+   "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-01.webp",
+   "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – black bottle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16421465620867",
+   "media": "gid://shopify/MediaImage/74600656306563",
+   "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-02.webp",
+   "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle beside its black and silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465620867",
+   "media": "gid://shopify/MediaImage/74600656339331",
+   "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-03.webp",
+   "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle with tea leaves, lime, white flowers and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16421465588099",
+   "media": "gid://shopify/MediaImage/74600654832003",
+   "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-01.webp",
+   "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – purple bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421465588099",
+   "media": "gid://shopify/MediaImage/74600654864771",
+   "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-02.webp",
+   "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with its white and purple box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465588099",
+   "media": "gid://shopify/MediaImage/74600654897539",
+   "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-03.webp",
+   "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with white flowers, leaves and star anise"
+  },
+  {
+   "product": "gid://shopify/Product/16421465555331",
+   "media": "gid://shopify/MediaImage/74600659485059",
+   "src": "fomo-envy-le-parfum-100ml-01.webp",
+   "alt": "Fomo Envy le Parfum 100ml – green bottle with gold cap beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421465555331",
+   "media": "gid://shopify/MediaImage/74600659517827",
+   "src": "fomo-envy-le-parfum-100ml-02.webp",
+   "alt": "Fomo Envy le Parfum 100ml – green ridged bottle with gold cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421465555331",
+   "media": "gid://shopify/MediaImage/74600659550595",
+   "src": "fomo-envy-le-parfum-100ml-03.webp",
+   "alt": "Fomo Envy le Parfum 100ml – bottle with grapefruit, orange, ginger and spices"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "fomo-garys-den-le-parfum-100ml",
+   "id": 16421465653635,
+   "title": "Fomo Gary's Den le Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "fomo-garys-den-le-parfum-100ml-01.webp",
+     "in": "fomo-garys-den-le-parfum-100ml-01.webp",
+     "alt": "Fomo Gary's Den le Parfum 100ml – amber glass bottle",
+     "new_alt": "Fomo Gary's Den le Parfum 100ml – amber glass bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-garys-den-le-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660959619",
+     "new_media": "gid://shopify/MediaImage/74823624786307"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "fomo-garys-den-le-parfum-100ml-02.webp",
+     "in": "fomo-garys-den-le-parfum-100ml-02.webp",
+     "alt": "Fomo Gary's Den le Parfum 100ml – bottle with black and gold box",
+     "new_alt": "Fomo Gary's Den le Parfum 100ml – bottle with black and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-garys-den-le-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660992387",
+     "new_media": "gid://shopify/MediaImage/74823624819075"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "fomo-garys-den-le-parfum-100ml-03.webp",
+     "in": "fomo-garys-den-le-parfum-100ml-03.webp",
+     "alt": "Fomo Gary's Den le Parfum 100ml – bottle with lavender, lime and white blossoms",
+     "new_alt": "Fomo Gary's Den le Parfum 100ml – bottle with lavender, lime and white blossoms",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-garys-den-le-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661025155",
+     "new_media": "gid://shopify/MediaImage/74823624851843"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fomo-fraglovers-tea-extrait-de-parfum-100ml",
+   "id": 16421465620867,
+   "title": "Fomo Fraglover's Tea Extrait de Parfum 100ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-01.webp",
+     "in": "fomo-fraglovers-tea-extrait-de-parfum-100ml-01.webp",
+     "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – black bottle on a white background",
+     "new_alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – black bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-fraglovers-tea-extrait-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656273795",
+     "new_media": "gid://shopify/MediaImage/74823624884611"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-02.webp",
+     "in": "fomo-fraglovers-tea-extrait-de-parfum-100ml-02.webp",
+     "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle beside its black and silver box",
+     "new_alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle beside its black and silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-fraglovers-tea-extrait-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656306563",
+     "new_media": "gid://shopify/MediaImage/74823624917379"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "fomo-fraglovers-tea-extrait-de-parfum-100ml-03.webp",
+     "in": "fomo-fraglovers-tea-extrait-de-parfum-100ml-03.webp",
+     "alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle with tea leaves, lime, white flowers and wood",
+     "new_alt": "Fomo Fraglover's Tea Extrait de Parfum 100ml – bottle with tea leaves, lime, white flowers and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-fraglovers-tea-extrait-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656339331",
+     "new_media": "gid://shopify/MediaImage/74823624950147"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml",
+   "id": 16421465588099,
+   "title": "Fomo Essence of The Other World Extrait de Parfum 100ml",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-01.webp",
+     "in": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-01.webp",
+     "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – purple bottle with gold cap",
+     "new_alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – purple bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654832003",
+     "new_media": "gid://shopify/MediaImage/74823625015683"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-02.webp",
+     "in": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-02.webp",
+     "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with its white and purple box",
+     "new_alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with its white and purple box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654864771",
+     "new_media": "gid://shopify/MediaImage/74823625048451"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-03.webp",
+     "in": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-03.webp",
+     "alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with white flowers, leaves and star anise",
+     "new_alt": "Fomo Essence of The Other World Extrait de Parfum 100ml – bottle with white flowers, leaves and star anise",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-essence-of-the-other-world-extrait-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654897539",
+     "new_media": "gid://shopify/MediaImage/74823625081219"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fomo-envy-le-parfum-100ml",
+   "id": 16421465555331,
+   "title": "Fomo Envy le Parfum 100ml",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "fomo-envy-le-parfum-100ml-01.webp",
+     "in": "fomo-envy-le-parfum-100ml-01.webp",
+     "alt": "Fomo Envy le Parfum 100ml – green bottle with gold cap beside its black box",
+     "new_alt": "Fomo Envy le Parfum 100ml – green bottle with gold cap beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-envy-le-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659485059",
+     "new_media": "gid://shopify/MediaImage/74823625113987"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "fomo-envy-le-parfum-100ml-02.webp",
+     "in": "fomo-envy-le-parfum-100ml-02.webp",
+     "alt": "Fomo Envy le Parfum 100ml – green ridged bottle with gold cap",
+     "new_alt": "Fomo Envy le Parfum 100ml – green ridged bottle with gold cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-envy-le-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659517827",
+     "new_media": "gid://shopify/MediaImage/74823625146755"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "fomo-envy-le-parfum-100ml-03.webp",
+     "in": "fomo-envy-le-parfum-100ml-03.webp",
+     "alt": "Fomo Envy le Parfum 100ml – bottle with grapefruit, orange, ginger and spices",
+     "new_alt": "Fomo Envy le Parfum 100ml – bottle with grapefruit, orange, ginger and spices",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fomo-envy-le-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659550595",
+     "new_media": "gid://shopify/MediaImage/74823625179523"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

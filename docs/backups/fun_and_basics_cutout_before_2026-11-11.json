@@ -1,0 +1,337 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Fun & Basics Funtastic Women Eau de Parfum 100ml – white bottle at an angle",
+   "5": "Fun & Basics Funtastic Women Eau de Parfum 100ml – small bottle above a sculpture of stones",
+   "8": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle without cap, at an angle",
+   "13": "Fun & Basics Be Fun Men Eau de Toilette 100ml – blue bottle, front view"
+  },
+  "skip_products": [],
+  "notes": "stones lost on 4/8"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421466669443",
+   "media": "gid://shopify/MediaImage/74600654930307",
+   "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-01.webp",
+   "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – white bottle with orange ampersand logo"
+  },
+  {
+   "product": "gid://shopify/Product/16421466669443",
+   "media": "gid://shopify/MediaImage/74600654963075",
+   "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-02.webp",
+   "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421466669443",
+   "media": "gid://shopify/MediaImage/74600654995843",
+   "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-03.webp",
+   "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle with lemon, grapefruit, bergamot and pink peppercorns"
+  },
+  {
+   "product": "gid://shopify/Product/16421466669443",
+   "media": "gid://shopify/MediaImage/74600655028611",
+   "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-04.webp",
+   "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle leaning on stone blocks"
+  },
+  {
+   "product": "gid://shopify/Product/16421466669443",
+   "media": "gid://shopify/MediaImage/74600655061379",
+   "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-05.webp",
+   "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle above a sculpture of stones"
+  },
+  {
+   "product": "gid://shopify/Product/16421466636675",
+   "media": "gid://shopify/MediaImage/74600659583363",
+   "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-01.webp",
+   "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle with orange ampersand beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421466636675",
+   "media": "gid://shopify/MediaImage/74600659616131",
+   "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-02.webp",
+   "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421466636675",
+   "media": "gid://shopify/MediaImage/74600659648899",
+   "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-03.webp",
+   "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle without cap leaning on a stone block"
+  },
+  {
+   "product": "gid://shopify/Product/16421466636675",
+   "media": "gid://shopify/MediaImage/74600659681667",
+   "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-04.webp",
+   "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle with orange, grapefruit and lime"
+  },
+  {
+   "product": "gid://shopify/Product/16421466603907",
+   "media": "gid://shopify/MediaImage/74600658600323",
+   "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-01.webp",
+   "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – yellow bottle with orange ampersand"
+  },
+  {
+   "product": "gid://shopify/Product/16421466603907",
+   "media": "gid://shopify/MediaImage/74600658633091",
+   "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-02.webp",
+   "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle beside its yellow box"
+  },
+  {
+   "product": "gid://shopify/Product/16421466603907",
+   "media": "gid://shopify/MediaImage/74600658665859",
+   "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-03.webp",
+   "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle with lemon, apple and peach"
+  },
+  {
+   "product": "gid://shopify/Product/16421466571139",
+   "media": "gid://shopify/MediaImage/74600670396803",
+   "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-01.webp",
+   "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421466571139",
+   "media": "gid://shopify/MediaImage/74600670429571",
+   "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-02.webp",
+   "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle tilted beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421466571139",
+   "media": "gid://shopify/MediaImage/74600670462339",
+   "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-03.webp",
+   "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle with white flowers, a red rose and wood"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "fun-basics-funtastic-woman-eau-de-parfum-100ml",
+   "id": 16421466669443,
+   "title": "Fun & Basics Funtastic Woman Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-01.webp",
+     "in": "fun-basics-funtastic-woman-eau-de-parfum-100ml-01.webp",
+     "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – white bottle with orange ampersand logo",
+     "new_alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – white bottle with orange ampersand logo",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-woman-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654930307",
+     "new_media": "gid://shopify/MediaImage/74823625212291"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-02.webp",
+     "in": "fun-basics-funtastic-woman-eau-de-parfum-100ml-02.webp",
+     "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle beside its box",
+     "new_alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-woman-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654963075",
+     "new_media": "gid://shopify/MediaImage/74823625245059"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-03.webp",
+     "in": "fun-basics-funtastic-woman-eau-de-parfum-100ml-03.webp",
+     "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle with lemon, grapefruit, bergamot and pink peppercorns",
+     "new_alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle with lemon, grapefruit, bergamot and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-woman-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654995843",
+     "new_media": "gid://shopify/MediaImage/74823625277827"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-04.webp",
+     "in": "fun-basics-funtastic-woman-eau-de-parfum-100ml-04.webp",
+     "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle leaning on stone blocks",
+     "new_alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – white bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-woman-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655028611",
+     "new_media": "gid://shopify/MediaImage/74823625310595"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "fun-basics-funtastic-women-eau-de-parfum-100ml-05.webp",
+     "in": "fun-basics-funtastic-woman-eau-de-parfum-100ml-05.webp",
+     "alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – bottle above a sculpture of stones",
+     "new_alt": "Fun & Basics Funtastic Women Eau de Parfum 100ml – small bottle above a sculpture of stones",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-woman-eau-de-parfum-100ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655061379",
+     "new_media": "gid://shopify/MediaImage/74823625343363"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fun-basics-funtastic-man-eau-de-parfum-100ml",
+   "id": 16421466636675,
+   "title": "Fun & Basics Funtastic Man Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-01.webp",
+     "in": "fun-basics-funtastic-man-eau-de-parfum-100ml-01.webp",
+     "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle with orange ampersand beside its box",
+     "new_alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle with orange ampersand beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-man-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659583363",
+     "new_media": "gid://shopify/MediaImage/74823625376131"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-02.webp",
+     "in": "fun-basics-funtastic-man-eau-de-parfum-100ml-02.webp",
+     "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle front view",
+     "new_alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – black bottle front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-man-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659616131",
+     "new_media": "gid://shopify/MediaImage/74823625408899"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-03.webp",
+     "in": "fun-basics-funtastic-man-eau-de-parfum-100ml-03.webp",
+     "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle without cap leaning on a stone block",
+     "new_alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle without cap, at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-man-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659648899",
+     "new_media": "gid://shopify/MediaImage/74823625441667"
+    },
+    {
+     "n": 9,
+     "pos": 4,
+     "src": "fun-basics-funtastic-men-eau-de-parfum-100ml-04.webp",
+     "in": "fun-basics-funtastic-man-eau-de-parfum-100ml-04.webp",
+     "alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle with orange, grapefruit and lime",
+     "new_alt": "Fun & Basics Funtastic Men Eau de Parfum 100ml – bottle with orange, grapefruit and lime",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-funtastic-man-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659681667",
+     "new_media": "gid://shopify/MediaImage/74823625474435"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fun-basics-be-fun-women-eau-de-toilette-100ml",
+   "id": 16421466603907,
+   "title": "Fun & Basics Be Fun Women Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-01.webp",
+     "in": "fun-basics-be-fun-women-eau-de-toilette-100ml-01.webp",
+     "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – yellow bottle with orange ampersand",
+     "new_alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – yellow bottle with orange ampersand",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-women-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658600323",
+     "new_media": "gid://shopify/MediaImage/74823625507203"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-02.webp",
+     "in": "fun-basics-be-fun-women-eau-de-toilette-100ml-02.webp",
+     "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle beside its yellow box",
+     "new_alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle beside its yellow box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-women-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658633091",
+     "new_media": "gid://shopify/MediaImage/74823625539971"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "fun-basics-be-fun-women-eau-de-toilette-100ml-03.webp",
+     "in": "fun-basics-be-fun-women-eau-de-toilette-100ml-03.webp",
+     "alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle with lemon, apple and peach",
+     "new_alt": "Fun & Basics Be Fun Women Eau de Toilette 100ml – bottle with lemon, apple and peach",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-women-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658665859",
+     "new_media": "gid://shopify/MediaImage/74823625572739"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "fun-basics-be-fun-man-eau-de-toilette-100ml",
+   "id": 16421466571139,
+   "title": "Fun & Basics Be Fun Man Eau de Toilette 100ml",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-01.webp",
+     "in": "fun-basics-be-fun-man-eau-de-toilette-100ml-01.webp",
+     "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle on a plain background",
+     "new_alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – blue bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-man-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670396803",
+     "new_media": "gid://shopify/MediaImage/74823625605507"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-02.webp",
+     "in": "fun-basics-be-fun-man-eau-de-toilette-100ml-02.webp",
+     "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle tilted beside its box",
+     "new_alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle tilted beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-man-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670429571",
+     "new_media": "gid://shopify/MediaImage/74823625638275"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "fun-basics-be-fun-men-eau-de-toilette-100ml-03.webp",
+     "in": "fun-basics-be-fun-man-eau-de-toilette-100ml-03.webp",
+     "alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle with white flowers, a red rose and wood",
+     "new_alt": "Fun & Basics Be Fun Men Eau de Toilette 100ml – bottle with white flowers, a red rose and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "fun-basics-be-fun-man-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670462339",
+     "new_media": "gid://shopify/MediaImage/74823625671043"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "8": "flood"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "8 pale box: flood"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16373706948995",
+   "media": "gid://shopify/MediaImage/74292384137603",
+   "src": "davidoff-the-game-eau-de-toilette-100ml-1.webp",
+   "alt": "Davidoff The Game Eau de Toilette 100ml – 100 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16373706948995",
+   "media": "gid://shopify/MediaImage/74292384170371",
+   "src": "davidoff-the-game-eau-de-toilette-100ml-2.webp",
+   "alt": "Davidoff The Game Eau de Toilette 100ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16373706948995",
+   "media": "gid://shopify/MediaImage/74292384203139",
+   "src": "davidoff-the-game-eau-de-toilette-100ml-3.webp",
+   "alt": "Davidoff The Game Eau de Toilette 100ml – bottle with lime, juniper, iris and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16373690958211",
+   "media": "gid://shopify/MediaImage/74292383449475",
+   "src": "davidoff-indigo-eau-de-toilette-110ml-1.webp",
+   "alt": "Davidoff Indigo Eau de Toilette 110ml – 110 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16373690958211",
+   "media": "gid://shopify/MediaImage/74292383482243",
+   "src": "davidoff-indigo-eau-de-toilette-110ml-2.webp",
+   "alt": "Davidoff Indigo Eau de Toilette 110ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16373690958211",
+   "media": "gid://shopify/MediaImage/74292383515011",
+   "src": "davidoff-indigo-eau-de-toilette-110ml-3.webp",
+   "alt": "Davidoff Indigo Eau de Toilette 110ml – bottle with mint and lavender"
+  },
+  {
+   "product": "gid://shopify/Product/16373250654595",
+   "media": "gid://shopify/MediaImage/74292383908227",
+   "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-1.webp",
+   "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16373250654595",
+   "media": "gid://shopify/MediaImage/74292383940995",
+   "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-2.webp",
+   "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle beside its light blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16373250654595",
+   "media": "gid://shopify/MediaImage/74292383973763",
+   "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-3.webp",
+   "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle with rose, white flowers and roots"
+  },
+  {
+   "product": "gid://shopify/Product/16373218148739",
+   "media": "gid://shopify/MediaImage/74292384006531",
+   "src": "davidoff-champion-eau-de-toilette-90ml-1.webp",
+   "alt": "Davidoff Champion Eau de Toilette 90ml – 90 ml bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16373218148739",
+   "media": "gid://shopify/MediaImage/74292384039299",
+   "src": "davidoff-champion-eau-de-toilette-90ml-2.webp",
+   "alt": "Davidoff Champion Eau de Toilette 90ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16373218148739",
+   "media": "gid://shopify/MediaImage/74292384072067",
+   "src": "davidoff-champion-eau-de-toilette-90ml-3.webp",
+   "alt": "Davidoff Champion Eau de Toilette 90ml – black box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16373218148739",
+   "media": "gid://shopify/MediaImage/74292384104835",
+   "src": "davidoff-champion-eau-de-toilette-90ml-4.webp",
+   "alt": "Davidoff Champion Eau de Toilette 90ml – bottle with bergamot, lemon, sage and resin"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance",
+   "id": 16373706948995,
+   "title": "Davidoff The Game Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "davidoff-the-game-eau-de-toilette-100ml-1.webp",
+     "in": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01.webp",
+     "alt": "Davidoff The Game Eau de Toilette 100ml – 100 ml bottle, front view on a white background",
+     "new_alt": "Davidoff The Game Eau de Toilette 100ml – 100 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384137603",
+     "new_media": "gid://shopify/MediaImage/74823613481347"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "davidoff-the-game-eau-de-toilette-100ml-2.webp",
+     "in": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02.webp",
+     "alt": "Davidoff The Game Eau de Toilette 100ml – bottle beside its black box",
+     "new_alt": "Davidoff The Game Eau de Toilette 100ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384170371",
+     "new_media": "gid://shopify/MediaImage/74823613514115"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "davidoff-the-game-eau-de-toilette-100ml-3.webp",
+     "in": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03.webp",
+     "alt": "Davidoff The Game Eau de Toilette 100ml – bottle with lime, juniper, iris and wood",
+     "new_alt": "Davidoff The Game Eau de Toilette 100ml – bottle with lime, juniper, iris and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-the-game-eau-de-toilette-100ml-men-s-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384203139",
+     "new_media": "gid://shopify/MediaImage/74823613546883"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance",
+   "id": 16373690958211,
+   "title": "Davidoff Indigo Eau de Toilette 110ml – Men’s Aromatic Fougere Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "davidoff-indigo-eau-de-toilette-110ml-1.webp",
+     "in": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-01.webp",
+     "alt": "Davidoff Indigo Eau de Toilette 110ml – 110 ml bottle, front view on a white background",
+     "new_alt": "Davidoff Indigo Eau de Toilette 110ml – 110 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383449475",
+     "new_media": "gid://shopify/MediaImage/74823613579651"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "davidoff-indigo-eau-de-toilette-110ml-2.webp",
+     "in": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-02.webp",
+     "alt": "Davidoff Indigo Eau de Toilette 110ml – bottle beside its blue box",
+     "new_alt": "Davidoff Indigo Eau de Toilette 110ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383482243",
+     "new_media": "gid://shopify/MediaImage/74823613612419"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "davidoff-indigo-eau-de-toilette-110ml-3.webp",
+     "in": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-03.webp",
+     "alt": "Davidoff Indigo Eau de Toilette 110ml – bottle with mint and lavender",
+     "new_alt": "Davidoff Indigo Eau de Toilette 110ml – bottle with mint and lavender",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-indigo-eau-de-toilette-110ml-men-s-aromatic-fougere-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383515011",
+     "new_media": "gid://shopify/MediaImage/74823613645187"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance",
+   "id": 16373250654595,
+   "title": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – Women’s Fresh Floral Fragrance",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-1.webp",
+     "in": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-01.webp",
+     "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle, front view on a white background",
+     "new_alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383908227",
+     "new_media": "gid://shopify/MediaImage/74823613677955"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-2.webp",
+     "in": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-02.webp",
+     "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle beside its light blue box",
+     "new_alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle beside its light blue box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383940995",
+     "new_media": "gid://shopify/MediaImage/74823613710723"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-3.webp",
+     "in": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-03.webp",
+     "alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle with rose, white flowers and roots",
+     "new_alt": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – bottle with rose, white flowers and roots",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-cool-water-reborn-intense-eau-de-parfum-50ml-women-s-fresh-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292383973763",
+     "new_media": "gid://shopify/MediaImage/74823613743491"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance",
+   "id": 16373218148739,
+   "title": "Davidoff Champion Eau de Toilette 90ml – Men’s Fresh Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "davidoff-champion-eau-de-toilette-90ml-1.webp",
+     "in": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-01.webp",
+     "alt": "Davidoff Champion Eau de Toilette 90ml – 90 ml bottle, front view on a white background",
+     "new_alt": "Davidoff Champion Eau de Toilette 90ml – 90 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384006531",
+     "new_media": "gid://shopify/MediaImage/74823613776259"
+    },
+    {
+     "n": 11,
+     "pos": 2,
+     "src": "davidoff-champion-eau-de-toilette-90ml-2.webp",
+     "in": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-02.webp",
+     "alt": "Davidoff Champion Eau de Toilette 90ml – bottle beside its black box",
+     "new_alt": "Davidoff Champion Eau de Toilette 90ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384039299",
+     "new_media": "gid://shopify/MediaImage/74823613809027"
+    },
+    {
+     "n": 12,
+     "pos": 3,
+     "src": "davidoff-champion-eau-de-toilette-90ml-3.webp",
+     "in": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-03.webp",
+     "alt": "Davidoff Champion Eau de Toilette 90ml – black box, front view",
+     "new_alt": "Davidoff Champion Eau de Toilette 90ml – black box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384072067",
+     "new_media": "gid://shopify/MediaImage/74823613841795"
+    },
+    {
+     "n": 13,
+     "pos": 4,
+     "src": "davidoff-champion-eau-de-toilette-90ml-4.webp",
+     "in": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-04.webp",
+     "alt": "Davidoff Champion Eau de Toilette 90ml – bottle with bergamot, lemon, sage and resin",
+     "new_alt": "Davidoff Champion Eau de Toilette 90ml – bottle with bergamot, lemon, sage and resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "davidoff-champion-eau-de-toilette-90ml-men-s-fresh-woody-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384104835",
+     "new_media": "gid://shopify/MediaImage/74823613874563"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

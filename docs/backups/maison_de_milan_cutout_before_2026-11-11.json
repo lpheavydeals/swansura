@@ -1,0 +1,506 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15415434183043",
+   "media": "gid://shopify/MediaImage/67893408989571",
+   "src": "4f1510ec.jpg",
+   "alt": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum 100ml – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415433691523",
+   "media": "gid://shopify/MediaImage/67893406531971",
+   "src": "6abc5e8d.jpg",
+   "alt": "Maison de Milan Opulent Gold Unisex Eau de Parfum 100ml – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415434412419",
+   "media": "gid://shopify/MediaImage/67893410234755",
+   "src": "c2a35c34.jpg",
+   "alt": "Maison de Milan Milano Girl White Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415433593219",
+   "media": "gid://shopify/MediaImage/67893406204291",
+   "src": "98809a4d.jpg",
+   "alt": "Maison de Milan Milano Girl Red Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415436444035",
+   "media": "gid://shopify/MediaImage/67893422784899",
+   "src": "ca84a0ea.jpg",
+   "alt": "Maison de Milan Milano Girl Black Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415433757059",
+   "media": "gid://shopify/MediaImage/67893406761347",
+   "src": "69174ba8.jpg",
+   "alt": "Maison de Milan M Unisex Eau de Parfum 100ml – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415437328771",
+   "media": "gid://shopify/MediaImage/67893427962243",
+   "src": "378ee7ca.jpg",
+   "alt": "Maison de Milan L'Homme Suave Eau de Parfum 100ml for Men – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415437918595",
+   "media": "gid://shopify/MediaImage/67893432975747",
+   "src": "73c7f239.jpg",
+   "alt": "Maison de Milan Invincible Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415435133315",
+   "media": "gid://shopify/MediaImage/67893413904771",
+   "src": "ceee39f8.jpg",
+   "alt": "Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415435166083",
+   "media": "gid://shopify/MediaImage/67893414101379",
+   "src": "3570f0e9.jpg",
+   "alt": "Maison de Milan Delight Pour Femme Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415433658755",
+   "media": "gid://shopify/MediaImage/67893406499203",
+   "src": "a2f78a7f.jpg",
+   "alt": "Maison de Milan Elegance Pour Femme Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415437197699",
+   "media": "gid://shopify/MediaImage/67893427536259",
+   "src": "36c47a9e.jpg",
+   "alt": "Maison de Milan Brave Lad Unisex Eau de Parfum 100ml – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415435100547",
+   "media": "gid://shopify/MediaImage/67893413872003",
+   "src": "122ffd60.jpg",
+   "alt": "Maison de Milan Bliss Rouge Eau de Parfum 100ml for Women – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415434969475",
+   "media": "gid://shopify/MediaImage/67893413249411",
+   "src": "4fa808c3.jpg",
+   "alt": "Maison de Milan Amalfi Bleu Eau de Parfum 100ml for Men – bottle"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/15415434183043",
+   "variant": "gid://shopify/ProductVariant/56613306466691",
+   "old": "gid://shopify/MediaImage/67893408989571",
+   "new": "gid://shopify/MediaImage/74823613907331"
+  },
+  {
+   "product": "gid://shopify/Product/15415433691523",
+   "variant": "gid://shopify/ProductVariant/56613304566147",
+   "old": "gid://shopify/MediaImage/67893406531971",
+   "new": "gid://shopify/MediaImage/74823613940099"
+  },
+  {
+   "product": "gid://shopify/Product/15415434412419",
+   "variant": "gid://shopify/ProductVariant/56613306663299",
+   "old": "gid://shopify/MediaImage/67893410234755",
+   "new": "gid://shopify/MediaImage/74823613972867"
+  },
+  {
+   "product": "gid://shopify/Product/15415433593219",
+   "variant": "gid://shopify/ProductVariant/56613304435075",
+   "old": "gid://shopify/MediaImage/67893406204291",
+   "new": "gid://shopify/MediaImage/74823614005635"
+  },
+  {
+   "product": "gid://shopify/Product/15415436444035",
+   "variant": "gid://shopify/ProductVariant/56613308760451",
+   "old": "gid://shopify/MediaImage/67893422784899",
+   "new": "gid://shopify/MediaImage/74823614038403"
+  },
+  {
+   "product": "gid://shopify/Product/15415433757059",
+   "variant": "gid://shopify/ProductVariant/56613304631683",
+   "old": "gid://shopify/MediaImage/67893406761347",
+   "new": "gid://shopify/MediaImage/74823614071171"
+  },
+  {
+   "product": "gid://shopify/Product/15415437328771",
+   "variant": "gid://shopify/ProductVariant/56613309743491",
+   "old": "gid://shopify/MediaImage/67893427962243",
+   "new": "gid://shopify/MediaImage/74823614103939"
+  },
+  {
+   "product": "gid://shopify/Product/15415437918595",
+   "variant": "gid://shopify/ProductVariant/56613310267779",
+   "old": "gid://shopify/MediaImage/67893432975747",
+   "new": "gid://shopify/MediaImage/74823614136707"
+  },
+  {
+   "product": "gid://shopify/Product/15415435133315",
+   "variant": "gid://shopify/ProductVariant/56613307416963",
+   "old": "gid://shopify/MediaImage/67893413904771",
+   "new": "gid://shopify/MediaImage/74823614202243"
+  },
+  {
+   "product": "gid://shopify/Product/15415435166083",
+   "variant": "gid://shopify/ProductVariant/56613307449731",
+   "old": "gid://shopify/MediaImage/67893414101379",
+   "new": "gid://shopify/MediaImage/74823614398851"
+  },
+  {
+   "product": "gid://shopify/Product/15415433658755",
+   "variant": "gid://shopify/ProductVariant/56613304533379",
+   "old": "gid://shopify/MediaImage/67893406499203",
+   "new": "gid://shopify/MediaImage/74823614660995"
+  },
+  {
+   "product": "gid://shopify/Product/15415437197699",
+   "variant": "gid://shopify/ProductVariant/56613309514115",
+   "old": "gid://shopify/MediaImage/67893427536259",
+   "new": "gid://shopify/MediaImage/74823614726531"
+  },
+  {
+   "product": "gid://shopify/Product/15415435100547",
+   "variant": "gid://shopify/ProductVariant/56613307384195",
+   "old": "gid://shopify/MediaImage/67893413872003",
+   "new": "gid://shopify/MediaImage/74823614759299"
+  },
+  {
+   "product": "gid://shopify/Product/15415434969475",
+   "variant": "gid://shopify/ProductVariant/56613307253123",
+   "old": "gid://shopify/MediaImage/67893413249411",
+   "new": "gid://shopify/MediaImage/74823614792067"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "maison-de-milan-valiant-pour-homme-eau-de-parfum-100ml",
+   "id": 15415434183043,
+   "title": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "4f1510ec.jpg",
+     "in": "maison-de-milan-valiant-pour-homme-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum 100ml – bottle",
+     "new_alt": "Maison de Milan Valiant Pour Homme Unisex Eau de Parfum 100ml – bottle",
+     "variant_ids": [
+      56613306466691
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-valiant-pour-homme-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893408989571",
+     "new_media": "gid://shopify/MediaImage/74823613907331"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-opulent-gold-eau-de-parfum-100ml",
+   "id": 15415433691523,
+   "title": "Maison de Milan Opulent Gold Unisex Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 2,
+     "pos": 1,
+     "src": "6abc5e8d.jpg",
+     "in": "maison-de-milan-opulent-gold-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Opulent Gold Unisex Eau de Parfum 100ml – bottle",
+     "new_alt": "Maison de Milan Opulent Gold Unisex Eau de Parfum 100ml – bottle",
+     "variant_ids": [
+      56613304566147
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-opulent-gold-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893406531971",
+     "new_media": "gid://shopify/MediaImage/74823613940099"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-milano-girl-white-eau-de-parfum-100ml",
+   "id": 15415434412419,
+   "title": "Maison de Milan Milano Girl White Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 3,
+     "pos": 1,
+     "src": "c2a35c34.jpg",
+     "in": "maison-de-milan-milano-girl-white-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Milano Girl White Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Milano Girl White Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613306663299
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-milano-girl-white-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893410234755",
+     "new_media": "gid://shopify/MediaImage/74823613972867"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-milano-girl-red-eau-de-parfum-100ml",
+   "id": 15415433593219,
+   "title": "Maison de Milan Milano Girl Red Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "98809a4d.jpg",
+     "in": "maison-de-milan-milano-girl-red-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Milano Girl Red Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Milano Girl Red Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613304435075
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-milano-girl-red-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893406204291",
+     "new_media": "gid://shopify/MediaImage/74823614005635"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-milano-girl-black-eau-de-parfum-100ml",
+   "id": 15415436444035,
+   "title": "Maison de Milan Milano Girl Black Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "ca84a0ea.jpg",
+     "in": "maison-de-milan-milano-girl-black-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Milano Girl Black Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Milano Girl Black Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613308760451
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-milano-girl-black-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893422784899",
+     "new_media": "gid://shopify/MediaImage/74823614038403"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-m-eau-de-parfum-100ml",
+   "id": 15415433757059,
+   "title": "Maison de Milan M Unisex Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "69174ba8.jpg",
+     "in": "maison-de-milan-m-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan M Unisex Eau de Parfum 100ml – bottle",
+     "new_alt": "Maison de Milan M Unisex Eau de Parfum 100ml – bottle",
+     "variant_ids": [
+      56613304631683
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-m-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893406761347",
+     "new_media": "gid://shopify/MediaImage/74823614071171"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-lhomme-suave-eau-de-parfum-100ml",
+   "id": 15415437328771,
+   "title": "Maison de Milan L'Homme Suave Eau de Parfum 100ml for Men",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "378ee7ca.jpg",
+     "in": "maison-de-milan-lhomme-suave-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan L'Homme Suave Eau de Parfum 100ml for Men – bottle",
+     "new_alt": "Maison de Milan L'Homme Suave Eau de Parfum 100ml for Men – bottle",
+     "variant_ids": [
+      56613309743491
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-lhomme-suave-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893427962243",
+     "new_media": "gid://shopify/MediaImage/74823614103939"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-invincible-eau-de-parfum-100ml",
+   "id": 15415437918595,
+   "title": "Maison de Milan Invincible Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "73c7f239.jpg",
+     "in": "maison-de-milan-invincible-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Invincible Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Invincible Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613310267779
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-invincible-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893432975747",
+     "new_media": "gid://shopify/MediaImage/74823614136707"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-gossip-pour-femme-eau-de-parfum-100ml",
+   "id": 15415435133315,
+   "title": "Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "ceee39f8.jpg",
+     "in": "maison-de-milan-gossip-pour-femme-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Gossip Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613307416963
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-gossip-pour-femme-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893413904771",
+     "new_media": "gid://shopify/MediaImage/74823614202243"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-delight-pour-femme-eau-de-parfum-100ml",
+   "id": 15415435166083,
+   "title": "Maison de Milan Delight Pour Femme Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 10,
+     "pos": 1,
+     "src": "3570f0e9.jpg",
+     "in": "maison-de-milan-delight-pour-femme-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Delight Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Delight Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613307449731
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-delight-pour-femme-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893414101379",
+     "new_media": "gid://shopify/MediaImage/74823614398851"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml",
+   "id": 15415433658755,
+   "title": "Maison de Milan Elegance Pour Femme Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "a2f78a7f.jpg",
+     "in": "maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Elegance Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Elegance Pour Femme Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613304533379
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-elegance-pour-femme-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893406499203",
+     "new_media": "gid://shopify/MediaImage/74823614660995"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-brave-lad-eau-de-parfum-100ml",
+   "id": 15415437197699,
+   "title": "Maison de Milan Brave Lad Unisex Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "36c47a9e.jpg",
+     "in": "maison-de-milan-brave-lad-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Brave Lad Unisex Eau de Parfum 100ml – bottle",
+     "new_alt": "Maison de Milan Brave Lad Unisex Eau de Parfum 100ml – bottle",
+     "variant_ids": [
+      56613309514115
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-brave-lad-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893427536259",
+     "new_media": "gid://shopify/MediaImage/74823614726531"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-bliss-rouge-eau-de-parfum-100ml",
+   "id": 15415435100547,
+   "title": "Maison de Milan Bliss Rouge Eau de Parfum 100ml for Women",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "122ffd60.jpg",
+     "in": "maison-de-milan-bliss-rouge-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Bliss Rouge Eau de Parfum 100ml for Women – bottle",
+     "new_alt": "Maison de Milan Bliss Rouge Eau de Parfum 100ml for Women – bottle",
+     "variant_ids": [
+      56613307384195
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-bliss-rouge-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893413872003",
+     "new_media": "gid://shopify/MediaImage/74823614759299"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "maison-de-milan-amalfi-bleu-eau-de-parfum-100ml",
+   "id": 15415434969475,
+   "title": "Maison de Milan Amalfi Bleu Eau de Parfum 100ml for Men",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "4fa808c3.jpg",
+     "in": "maison-de-milan-amalfi-bleu-eau-de-parfum-100ml-01.webp",
+     "alt": "Maison de Milan Amalfi Bleu Eau de Parfum 100ml for Men – bottle",
+     "new_alt": "Maison de Milan Amalfi Bleu Eau de Parfum 100ml for Men – bottle",
+     "variant_ids": [
+      56613307253123
+     ],
+     "method": "bire",
+     "out": "maison-de-milan-amalfi-bleu-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893413249411",
+     "new_media": "gid://shopify/MediaImage/74823614792067"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
