@@ -251,7 +251,7 @@ def mut(root, slug):
         f.unlink()
     k, cur = 0, []
     for p in parts:
-        if cur and sum(len(x) for x in cur) + len(p) > 9000:
+        if cur and sum(len(x) for x in cur) + len(p) > 15000:
             (d / f'mut{k}.graphql').write_text('mutation{\n' + '\n'.join(cur) + '\n}')
             k, cur = k + 1, []
         cur.append(p)
@@ -350,7 +350,7 @@ for(const [w,vp] of [[1366,{width:1366,height:900}],[390,{width:390,height:844}]
  for(const h of hs){ await p.goto('https://www.swansura.com/products/'+h+'?cb='+Date.now(),{waitUntil:'domcontentloaded',timeout:45000}).catch(()=>{});
   await p.waitForTimeout(1800);
   const r=await p.evaluate(([h,olds])=>{const g=[...document.querySelectorAll('img')].filter(i=>(i.currentSrc||i.src).includes('/files/'+h+'-'));
-    const main=document.querySelector('#mainImg');
+    const main=document.querySelector('#mainImg img')||document.querySelector('img#mainImg');
     const old=[...document.querySelectorAll('img')].filter(i=>olds.some(o=>(i.currentSrc||i.src).includes('/files/'+o))).length;
     return {imgs:g.length,old:old,mainOk:!main||/-(cutout|photo)/.test(main.src),
       empty:[...document.querySelectorAll('img')].filter(i=>i.getAttribute('alt')==='').length,sw:document.documentElement.scrollWidth,vw:innerWidth,t:document.title}},[h,olds[h]]);
