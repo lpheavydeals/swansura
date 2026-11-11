@@ -1,0 +1,540 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "3": "flood"
+  },
+  "alt": {
+   "24": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – bottle with lemon, iris and plum"
+  },
+  "skip_products": [],
+  "notes": "flood for the red gift box tray"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16385248035203",
+   "media": "gid://shopify/MediaImage/74292469072259",
+   "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--1.webp",
+   "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – perfume bottle and body emulsion side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16385248035203",
+   "media": "gid://shopify/MediaImage/74292469105027",
+   "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--2.webp",
+   "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and body emulsion beside the red gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16385248035203",
+   "media": "gid://shopify/MediaImage/74292469137795",
+   "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--3.webp",
+   "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – set contents in the open red gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16385248035203",
+   "media": "gid://shopify/MediaImage/74292469170563",
+   "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--4.webp",
+   "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – body emulsion beside its striped box"
+  },
+  {
+   "product": "gid://shopify/Product/16385248035203",
+   "media": "gid://shopify/MediaImage/74292469203331",
+   "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--5.webp",
+   "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and emulsion with ginger, berries and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16385236631939",
+   "media": "gid://shopify/MediaImage/74292468973955",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-1.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385236631939",
+   "media": "gid://shopify/MediaImage/74292469006723",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-2.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature beside its box"
+  },
+  {
+   "product": "gid://shopify/Product/16385236631939",
+   "media": "gid://shopify/MediaImage/74292469039491",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-3.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – miniature with jasmine, lime and pistachios"
+  },
+  {
+   "product": "gid://shopify/Product/16385228079491",
+   "media": "gid://shopify/MediaImage/74292446790019",
+   "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-1.webp",
+   "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – 60 ml, 10 ml and 7 ml bottles side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16385228079491",
+   "media": "gid://shopify/MediaImage/74292446822787",
+   "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-2.webp",
+   "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles beside the white gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16385228079491",
+   "media": "gid://shopify/MediaImage/74292446855555",
+   "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-3.webp",
+   "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles with jasmine, bergamot and pistachios"
+  },
+  {
+   "product": "gid://shopify/Product/16385224999299",
+   "media": "gid://shopify/MediaImage/74292446888323",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-1.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385224999299",
+   "media": "gid://shopify/MediaImage/74292446921091",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-2.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle beside its tube box"
+  },
+  {
+   "product": "gid://shopify/Product/16385224999299",
+   "media": "gid://shopify/MediaImage/74292446953859",
+   "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-3.webp",
+   "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – bottle with jasmine, bergamot and pistachios"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446560643",
+   "src": "trussardi-delicate-rose-eau-de-toilette-1.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – pink glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446593411",
+   "src": "trussardi-delicate-rose-eau-de-toilette-2.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – 100 ml bottle beside its blush box"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446626179",
+   "src": "trussardi-delicate-rose-eau-de-toilette-3.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, citrus, apple and bamboo"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446658947",
+   "src": "trussardi-delicate-rose-eau-de-toilette-4.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml pink glass bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446691715",
+   "src": "trussardi-delicate-rose-eau-de-toilette-5.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml bottle beside its blush box"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "media": "gid://shopify/MediaImage/74292446724483",
+   "src": "trussardi-delicate-rose-eau-de-toilette-6.webp",
+   "alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, lemon and bamboo"
+  },
+  {
+   "product": "gid://shopify/Product/16385174012291",
+   "media": "gid://shopify/MediaImage/74292446429571",
+   "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-1.webp",
+   "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle with gold crest, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16385174012291",
+   "media": "gid://shopify/MediaImage/74292446462339",
+   "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-2.webp",
+   "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle, angled view showing the side"
+  },
+  {
+   "product": "gid://shopify/Product/16385174012291",
+   "media": "gid://shopify/MediaImage/74292446495107",
+   "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-3.webp",
+   "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – 7 ml bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16385174012291",
+   "media": "gid://shopify/MediaImage/74292446527875",
+   "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-4.webp",
+   "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – bottle with lemon, iris, plum and water splash"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "variant": "gid://shopify/ProductVariant/62822222332291",
+   "old": "gid://shopify/MediaImage/74292446560643",
+   "new": "gid://shopify/MediaImage/74818414510467"
+  },
+  {
+   "product": "gid://shopify/Product/16385192788355",
+   "variant": "gid://shopify/ProductVariant/62822222365059",
+   "old": "gid://shopify/MediaImage/74292446658947",
+   "new": "gid://shopify/MediaImage/74818414608771"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set",
+   "id": 16385248035203,
+   "title": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – Women’s Fragrance Set",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--1.webp",
+     "in": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-01.webp",
+     "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – perfume bottle and body emulsion side by side",
+     "new_alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – perfume bottle and body emulsion side by side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469072259",
+     "new_media": "gid://shopify/MediaImage/74818412609923"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--2.webp",
+     "in": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-02.webp",
+     "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and body emulsion beside the red gift box",
+     "new_alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and body emulsion beside the red gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469105027",
+     "new_media": "gid://shopify/MediaImage/74818412642691"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--3.webp",
+     "in": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-03.webp",
+     "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – set contents in the open red gift box",
+     "new_alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – set contents in the open red gift box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469137795",
+     "new_media": "gid://shopify/MediaImage/74818412675459"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--4.webp",
+     "in": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-04.webp",
+     "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – body emulsion beside its striped box",
+     "new_alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – body emulsion beside its striped box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469170563",
+     "new_media": "gid://shopify/MediaImage/74818412708227"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion--5.webp",
+     "in": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-05.webp",
+     "alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and emulsion with ginger, berries and vanilla",
+     "new_alt": "Trussardi Ruby Red Eau de Parfum Gift Set 60ml + Stardust Body Emulsion 125ml – bottle and emulsion with ginger, berries and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-ruby-red-eau-de-parfum-gift-set-60ml-stardust-body-emulsion-125ml-women-s-fragrance-set-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469203331",
+     "new_media": "gid://shopify/MediaImage/74818412740995"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance",
+   "id": 16385236631939,
+   "title": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-1.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-01.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature bottle, front view",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292468973955",
+     "new_media": "gid://shopify/MediaImage/74818413265283"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-2.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-02.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature beside its box",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – 7 ml miniature beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469006723",
+     "new_media": "gid://shopify/MediaImage/74818413298051"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-3.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-03.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – miniature with jasmine, lime and pistachios",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 7ml Miniature – miniature with jasmine, lime and pistachios",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-7ml-miniature-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292469039491",
+     "new_media": "gid://shopify/MediaImage/74818413330819"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml",
+   "id": 16385228079491,
+   "title": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – Eau de Parfum 60ml + 10ml + 7ml",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-1.webp",
+     "in": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-01.webp",
+     "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – 60 ml, 10 ml and 7 ml bottles side by side",
+     "new_alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – 60 ml, 10 ml and 7 ml bottles side by side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446790019",
+     "new_media": "gid://shopify/MediaImage/74818413625731"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-2.webp",
+     "in": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-02.webp",
+     "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles beside the white gift box",
+     "new_alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles beside the white gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446822787",
+     "new_media": "gid://shopify/MediaImage/74818413658499"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "trussardi-pure-jasmine-lifestyle-mini-gift-set-3.webp",
+     "in": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-03.webp",
+     "alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles with jasmine, bergamot and pistachios",
+     "new_alt": "Trussardi Pure Jasmine Lifestyle Mini Gift Set – three bottles with jasmine, bergamot and pistachios",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-lifestyle-mini-gift-set-eau-de-parfum-60ml-10ml-7ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446855555",
+     "new_media": "gid://shopify/MediaImage/74818413691267"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance",
+   "id": 16385224999299,
+   "title": "Trussardi Pure Jasmine Eau de Parfum 90ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-1.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-01.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle, front view",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446888323",
+     "new_media": "gid://shopify/MediaImage/74818414018947"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-2.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-02.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle beside its tube box",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – 90 ml bottle beside its tube box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446921091",
+     "new_media": "gid://shopify/MediaImage/74818414051715"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "trussardi-pure-jasmine-eau-de-parfum-90ml-3.webp",
+     "in": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-03.webp",
+     "alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – bottle with jasmine, bergamot and pistachios",
+     "new_alt": "Trussardi Pure Jasmine Eau de Parfum 90ml – bottle with jasmine, bergamot and pistachios",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-pure-jasmine-eau-de-parfum-90ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446953859",
+     "new_media": "gid://shopify/MediaImage/74818414084483"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance",
+   "id": 16385192788355,
+   "title": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "trussardi-delicate-rose-eau-de-toilette-1.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-01.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – pink glass bottle with gold cap, front view",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – pink glass bottle with gold cap, front view",
+     "variant_ids": [
+      62822222332291
+     ],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446560643",
+     "new_media": "gid://shopify/MediaImage/74818414510467"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "trussardi-delicate-rose-eau-de-toilette-2.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-02.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – 100 ml bottle beside its blush box",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – 100 ml bottle beside its blush box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446593411",
+     "new_media": "gid://shopify/MediaImage/74818414543235"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "trussardi-delicate-rose-eau-de-toilette-3.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-03.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, citrus, apple and bamboo",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, citrus, apple and bamboo",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446626179",
+     "new_media": "gid://shopify/MediaImage/74818414576003"
+    },
+    {
+     "n": 18,
+     "pos": 4,
+     "src": "trussardi-delicate-rose-eau-de-toilette-4.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-04.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml pink glass bottle, angled view showing the side",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml pink glass bottle, angled view showing the side",
+     "variant_ids": [
+      62822222365059
+     ],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446658947",
+     "new_media": "gid://shopify/MediaImage/74818414608771"
+    },
+    {
+     "n": 19,
+     "pos": 5,
+     "src": "trussardi-delicate-rose-eau-de-toilette-5.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-05.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml bottle beside its blush box",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – 50 ml bottle beside its blush box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446691715",
+     "new_media": "gid://shopify/MediaImage/74818414641539"
+    },
+    {
+     "n": 20,
+     "pos": 6,
+     "src": "trussardi-delicate-rose-eau-de-toilette-6.webp",
+     "in": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-06.webp",
+     "alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, lemon and bamboo",
+     "new_alt": "Trussardi Delicate Rose Eau de Toilette – bottle with rose, lotus, lemon and bamboo",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-delicate-rose-eau-de-toilette-100ml-women-s-floral-fruity-fragrance-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446724483",
+     "new_media": "gid://shopify/MediaImage/74818414674307"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance",
+   "id": 16385174012291,
+   "title": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – Men’s Woody Leather Fragrance",
+   "images": [
+    {
+     "n": 21,
+     "pos": 1,
+     "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-1.webp",
+     "in": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-01.webp",
+     "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle with gold crest, front view",
+     "new_alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle with gold crest, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446429571",
+     "new_media": "gid://shopify/MediaImage/74818414969219"
+    },
+    {
+     "n": 22,
+     "pos": 2,
+     "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-2.webp",
+     "in": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-02.webp",
+     "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle, angled view showing the side",
+     "new_alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – black bottle, angled view showing the side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446462339",
+     "new_media": "gid://shopify/MediaImage/74818415001987"
+    },
+    {
+     "n": 23,
+     "pos": 3,
+     "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-3.webp",
+     "in": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-03.webp",
+     "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – 7 ml bottle beside its black box",
+     "new_alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – 7 ml bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446495107",
+     "new_media": "gid://shopify/MediaImage/74818415034755"
+    },
+    {
+     "n": 24,
+     "pos": 4,
+     "src": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-4.webp",
+     "in": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-04.webp",
+     "alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – bottle with lemon, iris, plum and water splash",
+     "new_alt": "Trussardi Black Extreme Eau de Toilette 7ml Miniature – bottle with lemon, iris and plum",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "trussardi-black-extreme-eau-de-toilette-7ml-miniature-men-s-woody-leather-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446527875",
+     "new_media": "gid://shopify/MediaImage/74818415067523"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
