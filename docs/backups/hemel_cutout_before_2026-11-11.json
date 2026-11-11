@@ -1,0 +1,781 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "11": "keep",
+   "15": "isnet",
+   "30": "flood"
+  },
+  "alt": {
+   "16": "Hemel Patchouli For All Eau de Parfum 100ml – bottle with blue crystal cap",
+   "24": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle with almonds, vanilla pods and coins",
+   "28": "Hemel Favourite Black Eau de Parfum 100ml – bottle with lemon, berries and amber",
+   "32": "Hemel Dorado Eau de Parfum 100ml – bottle with flowers and pearls",
+   "36": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle with fruit and flowers"
+  },
+  "skip_products": [],
+  "notes": "11 (white Plateado box) kept as the original: all three methods tore it; isnet 15, flood 30 (box tops)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16359968964995",
+   "media": "gid://shopify/MediaImage/74292210598275",
+   "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – 100 ml bottle with gold jewel cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359968964995",
+   "media": "gid://shopify/MediaImage/74292210631043",
+   "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle at an angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359968964995",
+   "media": "gid://shopify/MediaImage/74292210663811",
+   "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – gold Valley of Diamonds box"
+  },
+  {
+   "product": "gid://shopify/Product/16359968964995",
+   "media": "gid://shopify/MediaImage/74292210696579",
+   "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle with orange, violets, saffron and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16359961788803",
+   "media": "gid://shopify/MediaImage/74292210270595",
+   "src": "hemel-rosado-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Rosado Eau de Parfum 100ml – 100 ml rose gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359961788803",
+   "media": "gid://shopify/MediaImage/74292210303363",
+   "src": "hemel-rosado-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Rosado Eau de Parfum 100ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16359961788803",
+   "media": "gid://shopify/MediaImage/74292210336131",
+   "src": "hemel-rosado-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Rosado Eau de Parfum 100ml – pink box with drip design"
+  },
+  {
+   "product": "gid://shopify/Product/16359961788803",
+   "media": "gid://shopify/MediaImage/74292210368899",
+   "src": "hemel-rosado-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Rosado Eau de Parfum 100ml – bottle with roses, lime, saffron and jasmine"
+  },
+  {
+   "product": "gid://shopify/Product/16359925612931",
+   "media": "gid://shopify/MediaImage/74292210139523",
+   "src": "hemel-plateado-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Plateado Eau de Parfum 100ml – 100 ml silver bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359925612931",
+   "media": "gid://shopify/MediaImage/74292210172291",
+   "src": "hemel-plateado-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Plateado Eau de Parfum 100ml – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16359925612931",
+   "media": "gid://shopify/MediaImage/74292210205059",
+   "src": "hemel-plateado-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Plateado Eau de Parfum 100ml – silver box with drip design"
+  },
+  {
+   "product": "gid://shopify/Product/16359925612931",
+   "media": "gid://shopify/MediaImage/74292210237827",
+   "src": "hemel-plateado-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Plateado Eau de Parfum 100ml – bottle with lavender, mandarin, cinnamon and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16359894745475",
+   "media": "gid://shopify/MediaImage/74292192543107",
+   "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Patchouli For All Eau de Parfum 100ml – 100 ml bottle with blue jewel cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359894745475",
+   "media": "gid://shopify/MediaImage/74292192575875",
+   "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle at an angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359894745475",
+   "media": "gid://shopify/MediaImage/74292192608643",
+   "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Patchouli For All Eau de Parfum 100ml – blue Patchouli For All box"
+  },
+  {
+   "product": "gid://shopify/Product/16359894745475",
+   "media": "gid://shopify/MediaImage/74292192641411",
+   "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle on moss in a sunlit forest"
+  },
+  {
+   "product": "gid://shopify/Product/16359877050755",
+   "media": "gid://shopify/MediaImage/74292192412035",
+   "src": "hemel-gris-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Gris Eau de Parfum 100ml – 100 ml purple bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359877050755",
+   "media": "gid://shopify/MediaImage/74292192444803",
+   "src": "hemel-gris-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Gris Eau de Parfum 100ml – bottle beside its lilac box"
+  },
+  {
+   "product": "gid://shopify/Product/16359877050755",
+   "media": "gid://shopify/MediaImage/74292192477571",
+   "src": "hemel-gris-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Gris Eau de Parfum 100ml – lilac box with drip design"
+  },
+  {
+   "product": "gid://shopify/Product/16359877050755",
+   "media": "gid://shopify/MediaImage/74292192510339",
+   "src": "hemel-gris-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Gris Eau de Parfum 100ml – bottle with lemon, rose, jasmine and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16359854506371",
+   "media": "gid://shopify/MediaImage/74292192280963",
+   "src": "hemel-fragrance-affair-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – 100 ml bottle with red jewel cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359854506371",
+   "media": "gid://shopify/MediaImage/74292192313731",
+   "src": "hemel-fragrance-affair-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle at an angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359854506371",
+   "media": "gid://shopify/MediaImage/74292192346499",
+   "src": "hemel-fragrance-affair-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – red Fragrance Affair box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359854506371",
+   "media": "gid://shopify/MediaImage/74292192379267",
+   "src": "hemel-fragrance-affair-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle with almonds, vanilla pods and coins on a pale backdrop"
+  },
+  {
+   "product": "gid://shopify/Product/16359817445763",
+   "media": "gid://shopify/MediaImage/74292192149891",
+   "src": "hemel-favourite-black-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Favourite Black Eau de Parfum 100ml – 100 ml bottle with black jewel cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359817445763",
+   "media": "gid://shopify/MediaImage/74292192182659",
+   "src": "hemel-favourite-black-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle at an angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359817445763",
+   "media": "gid://shopify/MediaImage/74292192215427",
+   "src": "hemel-favourite-black-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Favourite Black Eau de Parfum 100ml – black and gold Favourite Black box"
+  },
+  {
+   "product": "gid://shopify/Product/16359817445763",
+   "media": "gid://shopify/MediaImage/74292192248195",
+   "src": "hemel-favourite-black-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle with lemon, berries and amber on a dark backdrop"
+  },
+  {
+   "product": "gid://shopify/Product/16359709933955",
+   "media": "gid://shopify/MediaImage/74292192018819",
+   "src": "hemel-dorado-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Dorado Eau de Parfum 100ml – 100 ml gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359709933955",
+   "media": "gid://shopify/MediaImage/74292192051587",
+   "src": "hemel-dorado-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Dorado Eau de Parfum 100ml – bottle beside its cream and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16359709933955",
+   "media": "gid://shopify/MediaImage/74292192084355",
+   "src": "hemel-dorado-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Dorado Eau de Parfum 100ml – cream box with gold drip design"
+  },
+  {
+   "product": "gid://shopify/Product/16359709933955",
+   "media": "gid://shopify/MediaImage/74292192117123",
+   "src": "hemel-dorado-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Dorado Eau de Parfum 100ml – bottle with flowers and pearls on a dark gold backdrop"
+  },
+  {
+   "product": "gid://shopify/Product/16359690797443",
+   "media": "gid://shopify/MediaImage/74292191887747",
+   "src": "hemel-amethyst-dream-eau-de-parfum-100ml-1.webp",
+   "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – 100 ml bottle with purple jewel cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16359690797443",
+   "media": "gid://shopify/MediaImage/74292191920515",
+   "src": "hemel-amethyst-dream-eau-de-parfum-100ml-2.webp",
+   "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle at an angle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16359690797443",
+   "media": "gid://shopify/MediaImage/74292191953283",
+   "src": "hemel-amethyst-dream-eau-de-parfum-100ml-3.webp",
+   "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – purple starry Amethyst Dream box"
+  },
+  {
+   "product": "gid://shopify/Product/16359690797443",
+   "media": "gid://shopify/MediaImage/74292191986051",
+   "src": "hemel-amethyst-dream-eau-de-parfum-100ml-4.webp",
+   "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle on a purple backdrop with fruit and flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran",
+   "id": 16359968964995,
+   "title": "Hemel Valley of Diamond Eau de Parfum 100ml – Luxury Unisex Floral Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-01.webp",
+     "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – 100 ml bottle with gold jewel cap, front view",
+     "new_alt": "Hemel Valley of Diamond Eau de Parfum 100ml – 100 ml bottle with gold jewel cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210598275",
+     "new_media": "gid://shopify/MediaImage/74813845700995"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-02.webp",
+     "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle at an angle on a white background",
+     "new_alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210631043",
+     "new_media": "gid://shopify/MediaImage/74813845733763"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-03.webp",
+     "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – gold Valley of Diamonds box",
+     "new_alt": "Hemel Valley of Diamond Eau de Parfum 100ml – gold Valley of Diamonds box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210663811",
+     "new_media": "gid://shopify/MediaImage/74813845766531"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "hemel-valley-of-diamond-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-04.webp",
+     "alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle with orange, violets, saffron and vanilla",
+     "new_alt": "Hemel Valley of Diamond Eau de Parfum 100ml – bottle with orange, violets, saffron and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-valley-of-diamond-eau-de-parfum-100ml-luxury-unisex-floral-woody-fragran-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210696579",
+     "new_media": "gid://shopify/MediaImage/74813845799299"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance",
+   "id": 16359961788803,
+   "title": "Hemel Rosado Eau de Parfum 100ml – Luxury Unisex Floral Amber Long lasting Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "hemel-rosado-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-01.webp",
+     "alt": "Hemel Rosado Eau de Parfum 100ml – 100 ml rose gold bottle, front view",
+     "new_alt": "Hemel Rosado Eau de Parfum 100ml – 100 ml rose gold bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210270595",
+     "new_media": "gid://shopify/MediaImage/74813845832067"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "hemel-rosado-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-02.webp",
+     "alt": "Hemel Rosado Eau de Parfum 100ml – bottle beside its pink box",
+     "new_alt": "Hemel Rosado Eau de Parfum 100ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210303363",
+     "new_media": "gid://shopify/MediaImage/74813845864835"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "hemel-rosado-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-03.webp",
+     "alt": "Hemel Rosado Eau de Parfum 100ml – pink box with drip design",
+     "new_alt": "Hemel Rosado Eau de Parfum 100ml – pink box with drip design",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210336131",
+     "new_media": "gid://shopify/MediaImage/74813845897603"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "hemel-rosado-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-04.webp",
+     "alt": "Hemel Rosado Eau de Parfum 100ml – bottle with roses, lime, saffron and jasmine",
+     "new_alt": "Hemel Rosado Eau de Parfum 100ml – bottle with roses, lime, saffron and jasmine",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-rosado-eau-de-parfum-100ml-luxury-unisex-floral-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210368899",
+     "new_media": "gid://shopify/MediaImage/74813845930371"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance",
+   "id": 16359925612931,
+   "title": "Hemel Plateado Eau de Parfum 100ml – Luxury Unisex Spicy Woody Fragrance",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "hemel-plateado-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-01.webp",
+     "alt": "Hemel Plateado Eau de Parfum 100ml – 100 ml silver bottle, front view",
+     "new_alt": "Hemel Plateado Eau de Parfum 100ml – 100 ml silver bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210139523",
+     "new_media": "gid://shopify/MediaImage/74813845963139"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "hemel-plateado-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-02.webp",
+     "alt": "Hemel Plateado Eau de Parfum 100ml – bottle beside its silver box",
+     "new_alt": "Hemel Plateado Eau de Parfum 100ml – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210172291",
+     "new_media": "gid://shopify/MediaImage/74813845995907"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "hemel-plateado-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-03.webp",
+     "alt": "Hemel Plateado Eau de Parfum 100ml – silver box with drip design",
+     "new_alt": "Hemel Plateado Eau de Parfum 100ml – silver box with drip design",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-03-photo.webp",
+     "media": "gid://shopify/MediaImage/74292210205059",
+     "new_media": "gid://shopify/MediaImage/74813846028675"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "hemel-plateado-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-04.webp",
+     "alt": "Hemel Plateado Eau de Parfum 100ml – bottle with lavender, mandarin, cinnamon and vanilla",
+     "new_alt": "Hemel Plateado Eau de Parfum 100ml – bottle with lavender, mandarin, cinnamon and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-plateado-eau-de-parfum-100ml-luxury-unisex-spicy-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292210237827",
+     "new_media": "gid://shopify/MediaImage/74813846061443"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance",
+   "id": 16359894745475,
+   "title": "Hemel Patchouli For All Eau de Parfum 100ml – Luxury Unisex Woody Patchouli Fragrance",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-01.webp",
+     "alt": "Hemel Patchouli For All Eau de Parfum 100ml – 100 ml bottle with blue jewel cap, front view",
+     "new_alt": "Hemel Patchouli For All Eau de Parfum 100ml – 100 ml bottle with blue jewel cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192543107",
+     "new_media": "gid://shopify/MediaImage/74813846126979"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-02.webp",
+     "alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle at an angle on a white background",
+     "new_alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192575875",
+     "new_media": "gid://shopify/MediaImage/74813846159747"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-03.webp",
+     "alt": "Hemel Patchouli For All Eau de Parfum 100ml – blue Patchouli For All box",
+     "new_alt": "Hemel Patchouli For All Eau de Parfum 100ml – blue Patchouli For All box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192608643",
+     "new_media": "gid://shopify/MediaImage/74813846192515"
+    },
+    {
+     "n": 16,
+     "pos": 4,
+     "src": "hemel-patchouli-for-all-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-04.webp",
+     "alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle on moss in a sunlit forest",
+     "new_alt": "Hemel Patchouli For All Eau de Parfum 100ml – bottle with blue crystal cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-patchouli-for-all-eau-de-parfum-100ml-luxury-unisex-woody-patchouli-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192641411",
+     "new_media": "gid://shopify/MediaImage/74813846225283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance",
+   "id": 16359877050755,
+   "title": "Hemel Gris Eau de Parfum 100ml – Luxury Unisex Citrus Woody Fragrance",
+   "images": [
+    {
+     "n": 17,
+     "pos": 1,
+     "src": "hemel-gris-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-01.webp",
+     "alt": "Hemel Gris Eau de Parfum 100ml – 100 ml purple bottle, front view",
+     "new_alt": "Hemel Gris Eau de Parfum 100ml – 100 ml purple bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192412035",
+     "new_media": "gid://shopify/MediaImage/74813846258051"
+    },
+    {
+     "n": 18,
+     "pos": 2,
+     "src": "hemel-gris-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-02.webp",
+     "alt": "Hemel Gris Eau de Parfum 100ml – bottle beside its lilac box",
+     "new_alt": "Hemel Gris Eau de Parfum 100ml – bottle beside its lilac box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192444803",
+     "new_media": "gid://shopify/MediaImage/74813846290819"
+    },
+    {
+     "n": 19,
+     "pos": 3,
+     "src": "hemel-gris-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-03.webp",
+     "alt": "Hemel Gris Eau de Parfum 100ml – lilac box with drip design",
+     "new_alt": "Hemel Gris Eau de Parfum 100ml – lilac box with drip design",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192477571",
+     "new_media": "gid://shopify/MediaImage/74813846323587"
+    },
+    {
+     "n": 20,
+     "pos": 4,
+     "src": "hemel-gris-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-04.webp",
+     "alt": "Hemel Gris Eau de Parfum 100ml – bottle with lemon, rose, jasmine and vanilla",
+     "new_alt": "Hemel Gris Eau de Parfum 100ml – bottle with lemon, rose, jasmine and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-gris-eau-de-parfum-100ml-luxury-unisex-citrus-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192510339",
+     "new_media": "gid://shopify/MediaImage/74813846356355"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance",
+   "id": 16359854506371,
+   "title": "Hemel Fragrance Affair Eau de Parfum 100ml – Luxury Unisex Floral Spicy Fragrance",
+   "images": [
+    {
+     "n": 21,
+     "pos": 1,
+     "src": "hemel-fragrance-affair-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-01.webp",
+     "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – 100 ml bottle with red jewel cap, front view",
+     "new_alt": "Hemel Fragrance Affair Eau de Parfum 100ml – 100 ml bottle with red jewel cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192280963",
+     "new_media": "gid://shopify/MediaImage/74813846389123"
+    },
+    {
+     "n": 22,
+     "pos": 2,
+     "src": "hemel-fragrance-affair-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-02.webp",
+     "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle at an angle on a white background",
+     "new_alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192313731",
+     "new_media": "gid://shopify/MediaImage/74813846421891"
+    },
+    {
+     "n": 23,
+     "pos": 3,
+     "src": "hemel-fragrance-affair-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-03.webp",
+     "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – red Fragrance Affair box on a white background",
+     "new_alt": "Hemel Fragrance Affair Eau de Parfum 100ml – red Fragrance Affair box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192346499",
+     "new_media": "gid://shopify/MediaImage/74813846454659"
+    },
+    {
+     "n": 24,
+     "pos": 4,
+     "src": "hemel-fragrance-affair-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-04.webp",
+     "alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle with almonds, vanilla pods and coins on a pale backdrop",
+     "new_alt": "Hemel Fragrance Affair Eau de Parfum 100ml – bottle with almonds, vanilla pods and coins",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-fragrance-affair-eau-de-parfum-100ml-luxury-unisex-floral-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192379267",
+     "new_media": "gid://shopify/MediaImage/74813846487427"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance",
+   "id": 16359817445763,
+   "title": "Hemel Favourite Black Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "hemel-favourite-black-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-01.webp",
+     "alt": "Hemel Favourite Black Eau de Parfum 100ml – 100 ml bottle with black jewel cap, front view",
+     "new_alt": "Hemel Favourite Black Eau de Parfum 100ml – 100 ml bottle with black jewel cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192149891",
+     "new_media": "gid://shopify/MediaImage/74813846520195"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "hemel-favourite-black-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-02.webp",
+     "alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle at an angle on a white background",
+     "new_alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192182659",
+     "new_media": "gid://shopify/MediaImage/74813846552963"
+    },
+    {
+     "n": 27,
+     "pos": 3,
+     "src": "hemel-favourite-black-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-03.webp",
+     "alt": "Hemel Favourite Black Eau de Parfum 100ml – black and gold Favourite Black box",
+     "new_alt": "Hemel Favourite Black Eau de Parfum 100ml – black and gold Favourite Black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192215427",
+     "new_media": "gid://shopify/MediaImage/74813846585731"
+    },
+    {
+     "n": 28,
+     "pos": 4,
+     "src": "hemel-favourite-black-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-04.webp",
+     "alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle with lemon, berries and amber on a dark backdrop",
+     "new_alt": "Hemel Favourite Black Eau de Parfum 100ml – bottle with lemon, berries and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-favourite-black-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192248195",
+     "new_media": "gid://shopify/MediaImage/74813846618499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance",
+   "id": 16359709933955,
+   "title": "Hemel Dorado Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance",
+   "images": [
+    {
+     "n": 29,
+     "pos": 1,
+     "src": "hemel-dorado-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-01.webp",
+     "alt": "Hemel Dorado Eau de Parfum 100ml – 100 ml gold bottle, front view",
+     "new_alt": "Hemel Dorado Eau de Parfum 100ml – 100 ml gold bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192018819",
+     "new_media": "gid://shopify/MediaImage/74813846651267"
+    },
+    {
+     "n": 30,
+     "pos": 2,
+     "src": "hemel-dorado-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-02.webp",
+     "alt": "Hemel Dorado Eau de Parfum 100ml – bottle beside its cream and gold box",
+     "new_alt": "Hemel Dorado Eau de Parfum 100ml – bottle beside its cream and gold box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192051587",
+     "new_media": "gid://shopify/MediaImage/74813846684035"
+    },
+    {
+     "n": 31,
+     "pos": 3,
+     "src": "hemel-dorado-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-03.webp",
+     "alt": "Hemel Dorado Eau de Parfum 100ml – cream box with gold drip design",
+     "new_alt": "Hemel Dorado Eau de Parfum 100ml – cream box with gold drip design",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192084355",
+     "new_media": "gid://shopify/MediaImage/74813846716803"
+    },
+    {
+     "n": 32,
+     "pos": 4,
+     "src": "hemel-dorado-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-04.webp",
+     "alt": "Hemel Dorado Eau de Parfum 100ml – bottle with flowers and pearls on a dark gold backdrop",
+     "new_alt": "Hemel Dorado Eau de Parfum 100ml – bottle with flowers and pearls",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-dorado-eau-de-parfum-100ml-luxury-unisex-leather-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292192117123",
+     "new_media": "gid://shopify/MediaImage/74813846749571"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance",
+   "id": 16359690797443,
+   "title": "Hemel Amethyst Dream Eau de Parfum 100ml – Luxury Unisex Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 33,
+     "pos": 1,
+     "src": "hemel-amethyst-dream-eau-de-parfum-100ml-1.webp",
+     "in": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-01.webp",
+     "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – 100 ml bottle with purple jewel cap, front view",
+     "new_alt": "Hemel Amethyst Dream Eau de Parfum 100ml – 100 ml bottle with purple jewel cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191887747",
+     "new_media": "gid://shopify/MediaImage/74813846782339"
+    },
+    {
+     "n": 34,
+     "pos": 2,
+     "src": "hemel-amethyst-dream-eau-de-parfum-100ml-2.webp",
+     "in": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-02.webp",
+     "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle at an angle on a white background",
+     "new_alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191920515",
+     "new_media": "gid://shopify/MediaImage/74813846815107"
+    },
+    {
+     "n": 35,
+     "pos": 3,
+     "src": "hemel-amethyst-dream-eau-de-parfum-100ml-3.webp",
+     "in": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-03.webp",
+     "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – purple starry Amethyst Dream box",
+     "new_alt": "Hemel Amethyst Dream Eau de Parfum 100ml – purple starry Amethyst Dream box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191953283",
+     "new_media": "gid://shopify/MediaImage/74813846847875"
+    },
+    {
+     "n": 36,
+     "pos": 4,
+     "src": "hemel-amethyst-dream-eau-de-parfum-100ml-4.webp",
+     "in": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-04.webp",
+     "alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle on a purple backdrop with fruit and flowers",
+     "new_alt": "Hemel Amethyst Dream Eau de Parfum 100ml – bottle with fruit and flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hemel-amethyst-dream-eau-de-parfum-100ml-luxury-unisex-floral-fruity-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191986051",
+     "new_media": "gid://shopify/MediaImage/74813846880643"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

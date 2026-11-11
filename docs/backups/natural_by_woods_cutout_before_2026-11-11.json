@@ -1,0 +1,803 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "14": "keep",
+   "22": "flood",
+   "34": "flood",
+   "28": "isnet",
+   "30": "isnet",
+   "37": "isnet"
+  },
+  "alt": {
+   "13": "Natural By Woods Flame 100 Fragrance 15ml – bottle tilted at an angle",
+   "24": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, atomiser and box with a rose petal",
+   "28": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser",
+   "29": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its box",
+   "36": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with fruit, flowers and vanilla"
+  },
+  "skip_products": [],
+  "notes": "14 notes chart kept as the original; flood 22 (birefnet bit the bottle) + 34 (box); isnet 28, 30 (white box), 37 (torn box)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421469815171",
+   "media": "gid://shopify/MediaImage/74600678719875",
+   "src": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+   "alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its yellow box"
+  },
+  {
+   "product": "gid://shopify/Product/16421469815171",
+   "media": "gid://shopify/MediaImage/74600678752643",
+   "src": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+   "alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – amber bottle with black cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421469782403",
+   "media": "gid://shopify/MediaImage/74600666300803",
+   "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-01.webp",
+   "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – black and amber gradient bottle with gold label"
+  },
+  {
+   "product": "gid://shopify/Product/16421469782403",
+   "media": "gid://shopify/MediaImage/74600666333571",
+   "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-02.webp",
+   "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle and black travel atomiser beside the black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421469782403",
+   "media": "gid://shopify/MediaImage/74600666366339",
+   "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-03.webp",
+   "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle with blue-to-gold gradient glass"
+  },
+  {
+   "product": "gid://shopify/Product/16421469094275",
+   "media": "gid://shopify/MediaImage/74600671707523",
+   "src": "natural-by-woods-north-star-100-eau-de-parfum-5ml-01.webp",
+   "alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle with box and black travel atomiser"
+  },
+  {
+   "product": "gid://shopify/Product/16421469094275",
+   "media": "gid://shopify/MediaImage/74600671740291",
+   "src": "natural-by-woods-north-star-100-eau-de-parfum-5ml-02.webp",
+   "alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668103043",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-01.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle with box and black travel spray"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668135811",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-02.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668168579",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-03.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle and travel spray in the open box"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668201347",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-04.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, travel spray and small vial in the open box"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668234115",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-05.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, small vial and travel spray beside the box"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668266883",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-06.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle on red satin"
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "media": "gid://shopify/MediaImage/74600668299651",
+   "src": "natural-by-woods-flame-100-fragrance-15ml-07.webp",
+   "alt": "Natural By Woods Flame 100 Fragrance 15ml – scent notes chart"
+  },
+  {
+   "product": "gid://shopify/Product/16421468897667",
+   "media": "gid://shopify/MediaImage/74600676065667",
+   "src": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+   "alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421468897667",
+   "media": "gid://shopify/MediaImage/74600676098435",
+   "src": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+   "alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421467619715",
+   "media": "gid://shopify/MediaImage/74600673706371",
+   "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+   "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, green box and travel atomiser"
+  },
+  {
+   "product": "gid://shopify/Product/16421467619715",
+   "media": "gid://shopify/MediaImage/74600673739139",
+   "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+   "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its green box"
+  },
+  {
+   "product": "gid://shopify/Product/16421467619715",
+   "media": "gid://shopify/MediaImage/74600673771907",
+   "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+   "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – green gradient bottle on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16421467586947",
+   "media": "gid://shopify/MediaImage/74600678654339",
+   "src": "natural-by-woods-dusk-100-eau-de-parfum-5ml-01.webp",
+   "alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421467586947",
+   "media": "gid://shopify/MediaImage/74600678687107",
+   "src": "natural-by-woods-dusk-100-eau-de-parfum-5ml-02.webp",
+   "alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle and box front view"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666038659",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle with gold travel atomiser"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666071427",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser beside the white box"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666104195",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, atomiser and box on marble with rose petals and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666136963",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-04.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle alone"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666169731",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-05.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with a rose, bergamot, rhubarb and nutmeg"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666202499",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-06.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with rose, citrus, lychee and peony"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666235267",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-07.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser on a wooden board"
+  },
+  {
+   "product": "gid://shopify/Product/16421467488643",
+   "media": "gid://shopify/MediaImage/74600666268035",
+   "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-08.webp",
+   "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its box with amber and wood pieces"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671445379",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-01.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671478147",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-02.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671510915",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-03.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with box and gold travel atomiser"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671543683",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-04.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with gold travel atomiser"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671576451",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-05.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and box with petals and lychees"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671609219",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-06.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle, atomiser and box with flowers and spices"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671641987",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-07.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle on a stand with fruit and flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421466702211",
+   "media": "gid://shopify/MediaImage/74600671674755",
+   "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-08.webp",
+   "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and atomiser in the open gift box"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421469815171,
+   "title": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "in": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its yellow box",
+     "new_alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its yellow box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678719875",
+     "new_media": "gid://shopify/MediaImage/74813837672835"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "in": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – amber bottle with black cap",
+     "new_alt": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml – amber bottle with black cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-sun-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678752643",
+     "new_media": "gid://shopify/MediaImage/74813837705603"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421469782403,
+   "title": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 3,
+     "pos": 1,
+     "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-01.webp",
+     "in": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – black and amber gradient bottle with gold label",
+     "new_alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – black and amber gradient bottle with gold label",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666300803",
+     "new_media": "gid://shopify/MediaImage/74813837738371"
+    },
+    {
+     "n": 4,
+     "pos": 2,
+     "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-02.webp",
+     "in": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle and black travel atomiser beside the black box",
+     "new_alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle and black travel atomiser beside the black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666333571",
+     "new_media": "gid://shopify/MediaImage/74813837771139"
+    },
+    {
+     "n": 5,
+     "pos": 3,
+     "src": "natural-by-woods-royal-night-100-eau-de-parfum-5ml-03.webp",
+     "in": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle with blue-to-gold gradient glass",
+     "new_alt": "Natural By Woods Royal Night 100 Eau de Parfum 5ml – bottle with blue-to-gold gradient glass",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-royal-night-eau-de-parfum-with-travel-atomiser-100ml-5ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666366339",
+     "new_media": "gid://shopify/MediaImage/74813837803907"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421469094275,
+   "title": "Natural By Woods North Star Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "natural-by-woods-north-star-100-eau-de-parfum-5ml-01.webp",
+     "in": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle with box and black travel atomiser",
+     "new_alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle with box and black travel atomiser",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671707523",
+     "new_media": "gid://shopify/MediaImage/74813837836675"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "natural-by-woods-north-star-100-eau-de-parfum-5ml-02.webp",
+     "in": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle on a plain background",
+     "new_alt": "Natural By Woods North Star 100 Eau de Parfum 5ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-north-star-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671740291",
+     "new_media": "gid://shopify/MediaImage/74813837869443"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml",
+   "id": 16421468930435,
+   "title": "Natural By Woods Flame Eau de Parfum with Travel Atomiser 100ml + 15ml",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-01.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-01.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle with box and black travel spray",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle with box and black travel spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668103043",
+     "new_media": "gid://shopify/MediaImage/74813837902211"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-02.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-02.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – copper bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668135811",
+     "new_media": "gid://shopify/MediaImage/74813837934979"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-03.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-03.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle and travel spray in the open box",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle and travel spray in the open box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668168579",
+     "new_media": "gid://shopify/MediaImage/74813837967747"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-04.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-04.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, travel spray and small vial in the open box",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, travel spray and small vial in the open box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668201347",
+     "new_media": "gid://shopify/MediaImage/74813838000515"
+    },
+    {
+     "n": 12,
+     "pos": 5,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-05.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-05.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, small vial and travel spray beside the box",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle, small vial and travel spray beside the box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668234115",
+     "new_media": "gid://shopify/MediaImage/74813838033283"
+    },
+    {
+     "n": 13,
+     "pos": 6,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-06.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-06.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle on red satin",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600668266883",
+     "new_media": "gid://shopify/MediaImage/74813838066051"
+    },
+    {
+     "n": 14,
+     "pos": 7,
+     "src": "natural-by-woods-flame-100-fragrance-15ml-07.webp",
+     "in": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-07.webp",
+     "alt": "Natural By Woods Flame 100 Fragrance 15ml – scent notes chart",
+     "new_alt": "Natural By Woods Flame 100 Fragrance 15ml – scent notes chart",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "natural-by-woods-flame-eau-de-parfum-with-travel-atomiser-100ml-15ml-07-photo.webp",
+     "media": "gid://shopify/MediaImage/74600668299651",
+     "new_media": "gid://shopify/MediaImage/74813838098819"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421468897667,
+   "title": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "in": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its gold box",
+     "new_alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676065667",
+     "new_media": "gid://shopify/MediaImage/74813838131587"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "in": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and box, front view",
+     "new_alt": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-essence-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600676098435",
+     "new_media": "gid://shopify/MediaImage/74813838164355"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421467619715,
+   "title": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 17,
+     "pos": 1,
+     "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "in": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, green box and travel atomiser",
+     "new_alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, green box and travel atomiser",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600673706371",
+     "new_media": "gid://shopify/MediaImage/74813838197123"
+    },
+    {
+     "n": 18,
+     "pos": 2,
+     "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "in": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its green box",
+     "new_alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600673739139",
+     "new_media": "gid://shopify/MediaImage/74813838229891"
+    },
+    {
+     "n": 19,
+     "pos": 3,
+     "src": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "in": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – green gradient bottle on a white background",
+     "new_alt": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml – green gradient bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-earth-eau-de-parfum-with-travel-atomiser-100ml-5ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600673771907",
+     "new_media": "gid://shopify/MediaImage/74813838262659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421467586947,
+   "title": "Natural By Woods Dusk Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 20,
+     "pos": 1,
+     "src": "natural-by-woods-dusk-100-eau-de-parfum-5ml-01.webp",
+     "in": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle beside its black box",
+     "new_alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678654339",
+     "new_media": "gid://shopify/MediaImage/74813838295427"
+    },
+    {
+     "n": 21,
+     "pos": 2,
+     "src": "natural-by-woods-dusk-100-eau-de-parfum-5ml-02.webp",
+     "in": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle and box front view",
+     "new_alt": "Natural By Woods Dusk 100 Eau de Parfum 5ml – bottle and box front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dusk-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600678687107",
+     "new_media": "gid://shopify/MediaImage/74813838328195"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421467488643,
+   "title": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 22,
+     "pos": 1,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle with gold travel atomiser",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle with gold travel atomiser",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666038659",
+     "new_media": "gid://shopify/MediaImage/74813838360963"
+    },
+    {
+     "n": 23,
+     "pos": 2,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser beside the white box",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser beside the white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666071427",
+     "new_media": "gid://shopify/MediaImage/74813838393731"
+    },
+    {
+     "n": 24,
+     "pos": 3,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, atomiser and box on marble with rose petals and amber",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle, atomiser and box with a rose petal",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666104195",
+     "new_media": "gid://shopify/MediaImage/74813838426499"
+    },
+    {
+     "n": 25,
+     "pos": 4,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-04.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-04.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle alone",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – white and gold bottle alone",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666136963",
+     "new_media": "gid://shopify/MediaImage/74813838459267"
+    },
+    {
+     "n": 26,
+     "pos": 5,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-05.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-05.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with a rose, bergamot, rhubarb and nutmeg",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with a rose, bergamot, rhubarb and nutmeg",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666169731",
+     "new_media": "gid://shopify/MediaImage/74813838492035"
+    },
+    {
+     "n": 27,
+     "pos": 6,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-06.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-06.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with rose, citrus, lychee and peony",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle with rose, citrus, lychee and peony",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666202499",
+     "new_media": "gid://shopify/MediaImage/74813838524803"
+    },
+    {
+     "n": 28,
+     "pos": 7,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-07.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-07.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser on a wooden board",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle and gold atomiser",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666235267",
+     "new_media": "gid://shopify/MediaImage/74813838557571"
+    },
+    {
+     "n": 29,
+     "pos": 8,
+     "src": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-08.webp",
+     "in": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-08.webp",
+     "alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its box with amber and wood pieces",
+     "new_alt": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml – bottle beside its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-dawn-eau-de-parfum-with-travel-atomiser-100ml-5ml-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600666268035",
+     "new_media": "gid://shopify/MediaImage/74813838590339"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml",
+   "id": 16421466702211,
+   "title": "Natural By Woods Bloom Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "images": [
+    {
+     "n": 30,
+     "pos": 1,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-01.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-01.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with its box",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with its box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671445379",
+     "new_media": "gid://shopify/MediaImage/74813838688643"
+    },
+    {
+     "n": 31,
+     "pos": 2,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-02.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-02.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle on a plain background",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671478147",
+     "new_media": "gid://shopify/MediaImage/74813838721411"
+    },
+    {
+     "n": 32,
+     "pos": 3,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-03.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-03.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with box and gold travel atomiser",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with box and gold travel atomiser",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671510915",
+     "new_media": "gid://shopify/MediaImage/74813838754179"
+    },
+    {
+     "n": 33,
+     "pos": 4,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-04.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-04.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with gold travel atomiser",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with gold travel atomiser",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671543683",
+     "new_media": "gid://shopify/MediaImage/74813838786947"
+    },
+    {
+     "n": 34,
+     "pos": 5,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-05.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-05.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and box with petals and lychees",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and box with petals and lychees",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671576451",
+     "new_media": "gid://shopify/MediaImage/74813838819715"
+    },
+    {
+     "n": 35,
+     "pos": 6,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-06.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-06.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle, atomiser and box with flowers and spices",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle, atomiser and box with flowers and spices",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671609219",
+     "new_media": "gid://shopify/MediaImage/74813838852483"
+    },
+    {
+     "n": 36,
+     "pos": 7,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-07.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-07.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle on a stand with fruit and flowers",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle with fruit, flowers and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671641987",
+     "new_media": "gid://shopify/MediaImage/74813838885251"
+    },
+    {
+     "n": 37,
+     "pos": 8,
+     "src": "natural-by-woods-bloom-100-eau-de-parfum-5ml-08.webp",
+     "in": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-08.webp",
+     "alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and atomiser in the open gift box",
+     "new_alt": "Natural By Woods Bloom 100 Eau de Parfum 5ml – bottle and atomiser in the open gift box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "natural-by-woods-bloom-eau-de-parfum-with-travel-atomiser-100ml-5ml-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600671674755",
+     "new_media": "gid://shopify/MediaImage/74813838918019"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
