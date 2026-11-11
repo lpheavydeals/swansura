@@ -1,0 +1,638 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "12": "keep",
+   "13": "keep",
+   "14": "keep"
+  },
+  "alt": {
+   "4": "Guerlain Samsara Eau de Parfum 75ml – bottle and box with rose and red flowers",
+   "21": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle with a silver funnel",
+   "29": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle with cinnamon sticks"
+  },
+  "skip_products": [],
+  "notes": "12-14 Mon Guerlain graphics kept as originals: every method broke the lettering."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16322980217219",
+   "media": "gid://shopify/MediaImage/74292191723907",
+   "src": "guerlain-samsara-eau-de-parfum-75ml-1.webp",
+   "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle with red label, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16322980217219",
+   "media": "gid://shopify/MediaImage/74292191756675",
+   "src": "guerlain-samsara-eau-de-parfum-75ml-2.webp",
+   "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16322980217219",
+   "media": "gid://shopify/MediaImage/74292191789443",
+   "src": "guerlain-samsara-eau-de-parfum-75ml-3.webp",
+   "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box, alternative arrangement"
+  },
+  {
+   "product": "gid://shopify/Product/16322980217219",
+   "media": "gid://shopify/MediaImage/74292191822211",
+   "src": "guerlain-samsara-eau-de-parfum-75ml-4.webp",
+   "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box with rose, sandalwood, pink pepper and saffron"
+  },
+  {
+   "product": "gid://shopify/Product/16322576187779",
+   "media": "gid://shopify/MediaImage/74292191625603",
+   "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-1.webp",
+   "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – green bottle with tasselled cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16322576187779",
+   "media": "gid://shopify/MediaImage/74292191658371",
+   "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-2.webp",
+   "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle beside its green box"
+  },
+  {
+   "product": "gid://shopify/Product/16322576187779",
+   "media": "gid://shopify/MediaImage/74292191691139",
+   "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-3.webp",
+   "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle with oud wood, saffron, cardamom, rose and resin"
+  },
+  {
+   "product": "gid://shopify/Product/16322184544643",
+   "media": "gid://shopify/MediaImage/74292191068547",
+   "src": "guerlain-musc-noble-eau-de-parfum-125ml-1.webp",
+   "alt": "Guerlain Musc Noble Eau de Parfum 125ml – red bottle with tasselled cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16322184544643",
+   "media": "gid://shopify/MediaImage/74292191101315",
+   "src": "guerlain-musc-noble-eau-de-parfum-125ml-2.webp",
+   "alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle beside its red and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16322184544643",
+   "media": "gid://shopify/MediaImage/74292191134083",
+   "src": "guerlain-musc-noble-eau-de-parfum-125ml-3.webp",
+   "alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle with rose, saffron, pink pepper, white flowers and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16321894941059",
+   "media": "gid://shopify/MediaImage/74292190708099",
+   "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-1.webp",
+   "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – gift box with four miniature bottles in front"
+  },
+  {
+   "product": "gid://shopify/Product/16321894941059",
+   "media": "gid://shopify/MediaImage/74292190740867",
+   "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-2.webp",
+   "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles in a row"
+  },
+  {
+   "product": "gid://shopify/Product/16321894941059",
+   "media": "gid://shopify/MediaImage/74292190773635",
+   "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-3.webp",
+   "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles with lemon, mandarin and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16321894941059",
+   "media": "gid://shopify/MediaImage/74292190806403",
+   "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-4.webp",
+   "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – guide to the four versions: EDT, EDP, EDP Florale, Bloom of Rose"
+  },
+  {
+   "product": "gid://shopify/Product/16319503794563",
+   "media": "gid://shopify/MediaImage/74292190970243",
+   "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-1.webp",
+   "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with orange label, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16319503794563",
+   "media": "gid://shopify/MediaImage/74292191003011",
+   "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-2.webp",
+   "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle beside its white box"
+  },
+  {
+   "product": "gid://shopify/Product/16319503794563",
+   "media": "gid://shopify/MediaImage/74292191035779",
+   "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-3.webp",
+   "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with citrus, magnolia, honeycomb, ylang-ylang and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16318439391619",
+   "media": "gid://shopify/MediaImage/74292191494531",
+   "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-1.webp",
+   "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink-tinted bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16318439391619",
+   "media": "gid://shopify/MediaImage/74292191527299",
+   "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-2.webp",
+   "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle beside its pink and white dress box"
+  },
+  {
+   "product": "gid://shopify/Product/16318439391619",
+   "media": "gid://shopify/MediaImage/74292191560067",
+   "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-3.webp",
+   "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink and white box with black dress illustration"
+  },
+  {
+   "product": "gid://shopify/Product/16318439391619",
+   "media": "gid://shopify/MediaImage/74292191592835",
+   "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-4.webp",
+   "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle with roses, white flowers, cherries and a silver funnel"
+  },
+  {
+   "product": "gid://shopify/Product/16318152475011",
+   "media": "gid://shopify/MediaImage/74292190839171",
+   "src": "guerlain-habit-rouge-eau-de-parfum-100ml-1.webp",
+   "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle with red cap, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16318152475011",
+   "media": "gid://shopify/MediaImage/74292190871939",
+   "src": "guerlain-habit-rouge-eau-de-parfum-100ml-2.webp",
+   "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle beside its red box"
+  },
+  {
+   "product": "gid://shopify/Product/16318152475011",
+   "media": "gid://shopify/MediaImage/74292190904707",
+   "src": "guerlain-habit-rouge-eau-de-parfum-100ml-3.webp",
+   "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – two bottles in different sizes"
+  },
+  {
+   "product": "gid://shopify/Product/16318152475011",
+   "media": "gid://shopify/MediaImage/74292190937475",
+   "src": "guerlain-habit-rouge-eau-de-parfum-100ml-4.webp",
+   "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – red textured box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16318106370435",
+   "media": "gid://shopify/MediaImage/74292190577027",
+   "src": "guerlain-epices-exquises-eau-de-parfum-125ml-1.webp",
+   "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – 125 ml bottle with tasselled cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16318106370435",
+   "media": "gid://shopify/MediaImage/74292190609795",
+   "src": "guerlain-epices-exquises-eau-de-parfum-125ml-2.webp",
+   "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its brown and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16318106370435",
+   "media": "gid://shopify/MediaImage/74292190642563",
+   "src": "guerlain-epices-exquises-eau-de-parfum-125ml-3.webp",
+   "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its box, side by side"
+  },
+  {
+   "product": "gid://shopify/Product/16318106370435",
+   "media": "gid://shopify/MediaImage/74292190675331",
+   "src": "guerlain-epices-exquises-eau-de-parfum-125ml-4.webp",
+   "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle with cinnamon, pink pepper, cardamom and coffee beans"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance",
+   "id": 16322980217219,
+   "title": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "guerlain-samsara-eau-de-parfum-75ml-1.webp",
+     "in": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-01.webp",
+     "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle with red label, front view on a light background",
+     "new_alt": "Guerlain Samsara Eau de Parfum 75ml – bottle with red label, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191723907",
+     "new_media": "gid://shopify/MediaImage/74815635816835"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "guerlain-samsara-eau-de-parfum-75ml-2.webp",
+     "in": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-02.webp",
+     "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle beside its white box",
+     "new_alt": "Guerlain Samsara Eau de Parfum 75ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191756675",
+     "new_media": "gid://shopify/MediaImage/74815635849603"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "guerlain-samsara-eau-de-parfum-75ml-3.webp",
+     "in": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-03.webp",
+     "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box, alternative arrangement",
+     "new_alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box, alternative arrangement",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191789443",
+     "new_media": "gid://shopify/MediaImage/74815635882371"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "guerlain-samsara-eau-de-parfum-75ml-4.webp",
+     "in": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-04.webp",
+     "alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box with rose, sandalwood, pink pepper and saffron",
+     "new_alt": "Guerlain Samsara Eau de Parfum 75ml – bottle and box with rose and red flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-samsara-eau-de-parfum-75ml-luxury-women-s-floral-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191822211",
+     "new_media": "gid://shopify/MediaImage/74815635915139"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance",
+   "id": 16322576187779,
+   "title": "Guerlain Oud Essentiel Eau de Parfum 125ml – Luxury Unisex Oud Woody Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-1.webp",
+     "in": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-01.webp",
+     "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – green bottle with tasselled cap, front view",
+     "new_alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – green bottle with tasselled cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191625603",
+     "new_media": "gid://shopify/MediaImage/74815635980675"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-2.webp",
+     "in": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-02.webp",
+     "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle beside its green box",
+     "new_alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle beside its green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191658371",
+     "new_media": "gid://shopify/MediaImage/74815636013443"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "guerlain-oud-essentiel-eau-de-parfum-125ml-3.webp",
+     "in": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-03.webp",
+     "alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle with oud wood, saffron, cardamom, rose and resin",
+     "new_alt": "Guerlain Oud Essentiel Eau de Parfum 125ml – bottle with oud wood, saffron, cardamom, rose and resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-oud-essentiel-eau-de-parfum-125ml-luxury-unisex-oud-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191691139",
+     "new_media": "gid://shopify/MediaImage/74815636046211"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance",
+   "id": 16322184544643,
+   "title": "Guerlain Musc Noble Eau de Parfum 125ml – Luxury Unisex Musky Woody Fragrance",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "guerlain-musc-noble-eau-de-parfum-125ml-1.webp",
+     "in": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-01.webp",
+     "alt": "Guerlain Musc Noble Eau de Parfum 125ml – red bottle with tasselled cap, front view",
+     "new_alt": "Guerlain Musc Noble Eau de Parfum 125ml – red bottle with tasselled cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191068547",
+     "new_media": "gid://shopify/MediaImage/74815636111747"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "guerlain-musc-noble-eau-de-parfum-125ml-2.webp",
+     "in": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-02.webp",
+     "alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle beside its red and gold box",
+     "new_alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle beside its red and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191101315",
+     "new_media": "gid://shopify/MediaImage/74815636144515"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "guerlain-musc-noble-eau-de-parfum-125ml-3.webp",
+     "in": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-03.webp",
+     "alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle with rose, saffron, pink pepper, white flowers and woods",
+     "new_alt": "Guerlain Musc Noble Eau de Parfum 125ml – bottle with rose, saffron, pink pepper, white flowers and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-musc-noble-eau-de-parfum-125ml-luxury-unisex-musky-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191134083",
+     "new_media": "gid://shopify/MediaImage/74815636177283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection",
+   "id": 16321894941059,
+   "title": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – Women’s Fragrance Collection",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-1.webp",
+     "in": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-01.webp",
+     "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – gift box with four miniature bottles in front",
+     "new_alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – gift box with four miniature bottles in front",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190708099",
+     "new_media": "gid://shopify/MediaImage/74815636210051"
+    },
+    {
+     "n": 12,
+     "pos": 2,
+     "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-2.webp",
+     "in": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-02.webp",
+     "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles in a row",
+     "new_alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles in a row",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-02-photo.webp",
+     "media": "gid://shopify/MediaImage/74292190740867",
+     "new_media": "gid://shopify/MediaImage/74815636242819"
+    },
+    {
+     "n": 13,
+     "pos": 3,
+     "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-3.webp",
+     "in": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-03.webp",
+     "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles with lemon, mandarin and white flowers",
+     "new_alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – four miniature bottles with lemon, mandarin and white flowers",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-03-photo.webp",
+     "media": "gid://shopify/MediaImage/74292190773635",
+     "new_media": "gid://shopify/MediaImage/74815636275587"
+    },
+    {
+     "n": 14,
+     "pos": 4,
+     "src": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-4.webp",
+     "in": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-04.webp",
+     "alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – guide to the four versions: EDT, EDP, EDP Florale, Bloom of Rose",
+     "new_alt": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – guide to the four versions: EDT, EDP, EDP Florale, Bloom of Rose",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "guerlain-mon-guerlain-miniature-perfume-gift-set-4x5ml-women-s-fragrance-collection-04-photo.webp",
+     "media": "gid://shopify/MediaImage/74292190806403",
+     "new_media": "gid://shopify/MediaImage/74815636308355"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance",
+   "id": 16319503794563,
+   "title": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – Luxury Women’s Floral Amber Fragrance",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-1.webp",
+     "in": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-01.webp",
+     "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with orange label, front view on a light background",
+     "new_alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with orange label, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190970243",
+     "new_media": "gid://shopify/MediaImage/74815636341123"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-2.webp",
+     "in": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-02.webp",
+     "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle beside its white box",
+     "new_alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle beside its white box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191003011",
+     "new_media": "gid://shopify/MediaImage/74815636373891"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-3.webp",
+     "in": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-03.webp",
+     "alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with citrus, magnolia, honeycomb, ylang-ylang and woods",
+     "new_alt": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – bottle with citrus, magnolia, honeycomb, ylang-ylang and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-l-instant-de-guerlain-eau-de-parfum-75ml-luxury-women-s-floral-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191035779",
+     "new_media": "gid://shopify/MediaImage/74815636406659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance",
+   "id": 16318439391619,
+   "title": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-1.webp",
+     "in": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-01.webp",
+     "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink-tinted bottle, front view on a light background",
+     "new_alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink-tinted bottle, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191494531",
+     "new_media": "gid://shopify/MediaImage/74815636603267"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-2.webp",
+     "in": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-02.webp",
+     "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle beside its pink and white dress box",
+     "new_alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle beside its pink and white dress box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191527299",
+     "new_media": "gid://shopify/MediaImage/74815636636035"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-3.webp",
+     "in": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-03.webp",
+     "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink and white box with black dress illustration",
+     "new_alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – pink and white box with black dress illustration",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191560067",
+     "new_media": "gid://shopify/MediaImage/74815636668803"
+    },
+    {
+     "n": 21,
+     "pos": 4,
+     "src": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-4.webp",
+     "in": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-04.webp",
+     "alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle with roses, white flowers, cherries and a silver funnel",
+     "new_alt": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – bottle with a silver funnel",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-la-petite-robe-noire-ma-robe-cocktail-eau-de-toilette-100ml-women-s-fruity-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292191592835",
+     "new_media": "gid://shopify/MediaImage/74815636701571"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance",
+   "id": 16318152475011,
+   "title": "Guerlain Habit Rouge Eau de Parfum 100ml – Luxury Men’s Amber Woody Fragrance",
+   "images": [
+    {
+     "n": 22,
+     "pos": 1,
+     "src": "guerlain-habit-rouge-eau-de-parfum-100ml-1.webp",
+     "in": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-01.webp",
+     "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle with red cap, front view on a light background",
+     "new_alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle with red cap, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190839171",
+     "new_media": "gid://shopify/MediaImage/74815636930947"
+    },
+    {
+     "n": 23,
+     "pos": 2,
+     "src": "guerlain-habit-rouge-eau-de-parfum-100ml-2.webp",
+     "in": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-02.webp",
+     "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle beside its red box",
+     "new_alt": "Guerlain Habit Rouge Eau de Parfum 100ml – bottle beside its red box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190871939",
+     "new_media": "gid://shopify/MediaImage/74815636963715"
+    },
+    {
+     "n": 24,
+     "pos": 3,
+     "src": "guerlain-habit-rouge-eau-de-parfum-100ml-3.webp",
+     "in": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-03.webp",
+     "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – two bottles in different sizes",
+     "new_alt": "Guerlain Habit Rouge Eau de Parfum 100ml – two bottles in different sizes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190904707",
+     "new_media": "gid://shopify/MediaImage/74815636996483"
+    },
+    {
+     "n": 25,
+     "pos": 4,
+     "src": "guerlain-habit-rouge-eau-de-parfum-100ml-4.webp",
+     "in": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-04.webp",
+     "alt": "Guerlain Habit Rouge Eau de Parfum 100ml – red textured box, front view",
+     "new_alt": "Guerlain Habit Rouge Eau de Parfum 100ml – red textured box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-habit-rouge-eau-de-parfum-100ml-luxury-men-s-amber-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190937475",
+     "new_media": "gid://shopify/MediaImage/74815637029251"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance",
+   "id": 16318106370435,
+   "title": "Guerlain Épices Exquises Eau de Parfum 125ml – Luxury Unisex Spicy Woody Fragrance",
+   "images": [
+    {
+     "n": 26,
+     "pos": 1,
+     "src": "guerlain-epices-exquises-eau-de-parfum-125ml-1.webp",
+     "in": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-01.webp",
+     "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – 125 ml bottle with tasselled cap, front view",
+     "new_alt": "Guerlain Épices Exquises Eau de Parfum 125ml – 125 ml bottle with tasselled cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190577027",
+     "new_media": "gid://shopify/MediaImage/74815637062019"
+    },
+    {
+     "n": 27,
+     "pos": 2,
+     "src": "guerlain-epices-exquises-eau-de-parfum-125ml-2.webp",
+     "in": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-02.webp",
+     "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its brown and gold box",
+     "new_alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its brown and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190609795",
+     "new_media": "gid://shopify/MediaImage/74815637094787"
+    },
+    {
+     "n": 28,
+     "pos": 3,
+     "src": "guerlain-epices-exquises-eau-de-parfum-125ml-3.webp",
+     "in": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-03.webp",
+     "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its box, side by side",
+     "new_alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle beside its box, side by side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190642563",
+     "new_media": "gid://shopify/MediaImage/74815637127555"
+    },
+    {
+     "n": 29,
+     "pos": 4,
+     "src": "guerlain-epices-exquises-eau-de-parfum-125ml-4.webp",
+     "in": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-04.webp",
+     "alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle with cinnamon, pink pepper, cardamom and coffee beans",
+     "new_alt": "Guerlain Épices Exquises Eau de Parfum 125ml – bottle with cinnamon sticks",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "guerlain-epices-exquises-eau-de-parfum-125ml-luxury-unisex-spicy-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292190675331",
+     "new_media": "gid://shopify/MediaImage/74815637160323"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

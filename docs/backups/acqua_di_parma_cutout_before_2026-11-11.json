@@ -1,0 +1,645 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "12": "isnet",
+   "27": "isnet",
+   "28": "isnet"
+  },
+  "alt": {
+   "12": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle, front view",
+   "19": "Acqua di Parma Oud & Spice EDP 20ml for Men – bottle and tube box with lime and mint"
+  },
+  "skip_products": [],
+  "notes": "isnet 12 (stray petal), 27/28 (torn boxes)."
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16253951443331",
+   "media": "gid://shopify/MediaImage/74292106854787",
+   "src": "acqua-di-parma-zafferano-edp-20ml-unisex-1.webp",
+   "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – black bottle with red terrazzo label, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253951443331",
+   "media": "gid://shopify/MediaImage/74292106887555",
+   "src": "acqua-di-parma-zafferano-edp-20ml-unisex-2.webp",
+   "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle beside its terrazzo cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253951443331",
+   "media": "gid://shopify/MediaImage/74292106920323",
+   "src": "acqua-di-parma-zafferano-edp-20ml-unisex-3.webp",
+   "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – miniature bottle with its cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253951443331",
+   "media": "gid://shopify/MediaImage/74292106953091",
+   "src": "acqua-di-parma-zafferano-edp-20ml-unisex-4.webp",
+   "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle with rose, citrus, saffron and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16253885579651",
+   "media": "gid://shopify/MediaImage/74292106723715",
+   "src": "acqua-di-parma-sandalo-edp-20ml-unisex-1.webp",
+   "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – black bottle with gold label, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253885579651",
+   "media": "gid://shopify/MediaImage/74292106756483",
+   "src": "acqua-di-parma-sandalo-edp-20ml-unisex-2.webp",
+   "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle beside its black cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253885579651",
+   "media": "gid://shopify/MediaImage/74292106789251",
+   "src": "acqua-di-parma-sandalo-edp-20ml-unisex-3.webp",
+   "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – miniature bottle with its cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253885579651",
+   "media": "gid://shopify/MediaImage/74292106822019",
+   "src": "acqua-di-parma-sandalo-edp-20ml-unisex-4.webp",
+   "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle with citrus, lavender, cardamom and sandalwood"
+  },
+  {
+   "product": "gid://shopify/Product/16253626974595",
+   "media": "gid://shopify/MediaImage/74292106592643",
+   "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-1.webp",
+   "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle with black cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253626974595",
+   "media": "gid://shopify/MediaImage/74292106625411",
+   "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-2.webp",
+   "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle beside its black cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253626974595",
+   "media": "gid://shopify/MediaImage/74292106658179",
+   "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-3.webp",
+   "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – black cylinder box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253626974595",
+   "media": "gid://shopify/MediaImage/74292106690947",
+   "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-4.webp",
+   "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle with cherry blossom, citrus and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16253622780291",
+   "media": "gid://shopify/MediaImage/74292106494339",
+   "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-1.webp",
+   "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – pink bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253622780291",
+   "media": "gid://shopify/MediaImage/74292106527107",
+   "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-2.webp",
+   "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle beside its yellow cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253622780291",
+   "media": "gid://shopify/MediaImage/74292106559875",
+   "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-3.webp",
+   "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle with roses, peonies, citrus and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16253621240195",
+   "media": "gid://shopify/MediaImage/74292106297731",
+   "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-1.webp",
+   "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black bottle with gold label, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253621240195",
+   "media": "gid://shopify/MediaImage/74292106330499",
+   "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-2.webp",
+   "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – miniature bottle beside its black cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253621240195",
+   "media": "gid://shopify/MediaImage/74292106363267",
+   "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-3.webp",
+   "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black cylinder box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253621240195",
+   "media": "gid://shopify/MediaImage/74292106396035",
+   "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-4.webp",
+   "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – bottle with rose, oud wood, raspberry and spices"
+  },
+  {
+   "product": "gid://shopify/Product/16253614358915",
+   "media": "gid://shopify/MediaImage/74292075233667",
+   "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-1.webp",
+   "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays beside the marbled gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16253614358915",
+   "media": "gid://shopify/MediaImage/74292075266435",
+   "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-2.webp",
+   "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays: Lily of the Valley, Osmanthus, Yuzu"
+  },
+  {
+   "product": "gid://shopify/Product/16253614358915",
+   "media": "gid://shopify/MediaImage/74292075299203",
+   "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-3.webp",
+   "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – Holiday Discovery Set box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253614358915",
+   "media": "gid://shopify/MediaImage/74292075331971",
+   "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-4.webp",
+   "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – travel sprays with lily of the valley and citrus"
+  },
+  {
+   "product": "gid://shopify/Product/16253611016579",
+   "media": "gid://shopify/MediaImage/74292075430275",
+   "src": "acqua-di-parma-colonia-pura-eau-de-cologne-20ml-unisex-1.webp",
+   "alt": "Acqua di Parma Colonia Pura Eau de Cologne 20ml Unisex – bottle beside its yellow cylinder box"
+  },
+  {
+   "product": "gid://shopify/Product/16253603545475",
+   "media": "gid://shopify/MediaImage/74292075364739",
+   "src": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-1.webp",
+   "alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – 75 ml deodorant stick, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16253603545475",
+   "media": "gid://shopify/MediaImage/74292075397507",
+   "src": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-2.webp",
+   "alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – deodorant stick with bergamot, lavender, rosemary and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16253600661891",
+   "media": "gid://shopify/MediaImage/74292106199427",
+   "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-1.webp",
+   "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16253600661891",
+   "media": "gid://shopify/MediaImage/74292106232195",
+   "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-2.webp",
+   "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the Forte Forte box"
+  },
+  {
+   "product": "gid://shopify/Product/16253600661891",
+   "media": "gid://shopify/MediaImage/74292106264963",
+   "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-3.webp",
+   "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays: Fico di Amalfi, Arancia di Capri, Mirto di Panarea"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "acqua-di-parma-zafferano-edp-20ml-unisex",
+   "id": 16253951443331,
+   "title": "Acqua di Parma Zafferano EDP 20ml Unisex",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "acqua-di-parma-zafferano-edp-20ml-unisex-1.webp",
+     "in": "acqua-di-parma-zafferano-edp-20ml-unisex-01.webp",
+     "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – black bottle with red terrazzo label, front view",
+     "new_alt": "Acqua di Parma Zafferano EDP 20ml Unisex – black bottle with red terrazzo label, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-zafferano-edp-20ml-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106854787",
+     "new_media": "gid://shopify/MediaImage/74815680250243"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "acqua-di-parma-zafferano-edp-20ml-unisex-2.webp",
+     "in": "acqua-di-parma-zafferano-edp-20ml-unisex-02.webp",
+     "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle beside its terrazzo cylinder box",
+     "new_alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle beside its terrazzo cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-zafferano-edp-20ml-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106887555",
+     "new_media": "gid://shopify/MediaImage/74815680283011"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "acqua-di-parma-zafferano-edp-20ml-unisex-3.webp",
+     "in": "acqua-di-parma-zafferano-edp-20ml-unisex-03.webp",
+     "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – miniature bottle with its cylinder box",
+     "new_alt": "Acqua di Parma Zafferano EDP 20ml Unisex – miniature bottle with its cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-zafferano-edp-20ml-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106920323",
+     "new_media": "gid://shopify/MediaImage/74815680315779"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "acqua-di-parma-zafferano-edp-20ml-unisex-4.webp",
+     "in": "acqua-di-parma-zafferano-edp-20ml-unisex-04.webp",
+     "alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle with rose, citrus, saffron and vanilla",
+     "new_alt": "Acqua di Parma Zafferano EDP 20ml Unisex – bottle with rose, citrus, saffron and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-zafferano-edp-20ml-unisex-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106953091",
+     "new_media": "gid://shopify/MediaImage/74815680348547"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-sandalo-edp-20ml-unisex",
+   "id": 16253885579651,
+   "title": "Acqua di Parma Sandalo EDP 20ml Unisex",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "acqua-di-parma-sandalo-edp-20ml-unisex-1.webp",
+     "in": "acqua-di-parma-sandalo-edp-20ml-unisex-01.webp",
+     "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – black bottle with gold label, front view",
+     "new_alt": "Acqua di Parma Sandalo EDP 20ml Unisex – black bottle with gold label, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sandalo-edp-20ml-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106723715",
+     "new_media": "gid://shopify/MediaImage/74815680381315"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "acqua-di-parma-sandalo-edp-20ml-unisex-2.webp",
+     "in": "acqua-di-parma-sandalo-edp-20ml-unisex-02.webp",
+     "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle beside its black cylinder box",
+     "new_alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle beside its black cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sandalo-edp-20ml-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106756483",
+     "new_media": "gid://shopify/MediaImage/74815680414083"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "acqua-di-parma-sandalo-edp-20ml-unisex-3.webp",
+     "in": "acqua-di-parma-sandalo-edp-20ml-unisex-03.webp",
+     "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – miniature bottle with its cylinder box",
+     "new_alt": "Acqua di Parma Sandalo EDP 20ml Unisex – miniature bottle with its cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sandalo-edp-20ml-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106789251",
+     "new_media": "gid://shopify/MediaImage/74815680446851"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "acqua-di-parma-sandalo-edp-20ml-unisex-4.webp",
+     "in": "acqua-di-parma-sandalo-edp-20ml-unisex-04.webp",
+     "alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle with citrus, lavender, cardamom and sandalwood",
+     "new_alt": "Acqua di Parma Sandalo EDP 20ml Unisex – bottle with citrus, lavender, cardamom and sandalwood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sandalo-edp-20ml-unisex-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106822019",
+     "new_media": "gid://shopify/MediaImage/74815680479619"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-sakura-edp-20ml-unisex",
+   "id": 16253626974595,
+   "title": "Acqua di Parma Sakura EDP 20ml Unisex Perfume",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-1.webp",
+     "in": "acqua-di-parma-sakura-edp-20ml-unisex-01.webp",
+     "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle with black cap, front view",
+     "new_alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle with black cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sakura-edp-20ml-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106592643",
+     "new_media": "gid://shopify/MediaImage/74815680512387"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-2.webp",
+     "in": "acqua-di-parma-sakura-edp-20ml-unisex-02.webp",
+     "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle beside its black cylinder box",
+     "new_alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle beside its black cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sakura-edp-20ml-unisex-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106625411",
+     "new_media": "gid://shopify/MediaImage/74815680545155"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-3.webp",
+     "in": "acqua-di-parma-sakura-edp-20ml-unisex-03.webp",
+     "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – black cylinder box, front view",
+     "new_alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – black cylinder box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-sakura-edp-20ml-unisex-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106658179",
+     "new_media": "gid://shopify/MediaImage/74815680577923"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "acqua-di-parma-sakura-edp-20ml-unisex-perfume-4.webp",
+     "in": "acqua-di-parma-sakura-edp-20ml-unisex-04.webp",
+     "alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle with cherry blossom, citrus and pink pepper",
+     "new_alt": "Acqua di Parma Sakura EDP 20ml Unisex Perfume – bottle, front view",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "acqua-di-parma-sakura-edp-20ml-unisex-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106690947",
+     "new_media": "gid://shopify/MediaImage/74815680610691"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-rosa-nobile-edp-20ml-for-women",
+   "id": 16253622780291,
+   "title": "Acqua di Parma Rosa Nobile EDP 20ml for Women",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-1.webp",
+     "in": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-01.webp",
+     "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – pink bottle with gold cap, front view",
+     "new_alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – pink bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106494339",
+     "new_media": "gid://shopify/MediaImage/74815680872835"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-2.webp",
+     "in": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-02.webp",
+     "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle beside its yellow cylinder box",
+     "new_alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle beside its yellow cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106527107",
+     "new_media": "gid://shopify/MediaImage/74815680905603"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-3.webp",
+     "in": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-03.webp",
+     "alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle with roses, peonies, citrus and pink pepper",
+     "new_alt": "Acqua di Parma Rosa Nobile EDP 20ml for Women – bottle with roses, peonies, citrus and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-rosa-nobile-edp-20ml-for-women-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106559875",
+     "new_media": "gid://shopify/MediaImage/74815680938371"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-oud-spice-edp-20ml-for-men",
+   "id": 16253621240195,
+   "title": "Acqua di Parma Oud & Spice EDP 20ml for Men",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-1.webp",
+     "in": "acqua-di-parma-oud-spice-edp-20ml-for-men-01.webp",
+     "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black bottle with gold label, front view",
+     "new_alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black bottle with gold label, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-oud-spice-edp-20ml-for-men-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106297731",
+     "new_media": "gid://shopify/MediaImage/74815681003907"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-2.webp",
+     "in": "acqua-di-parma-oud-spice-edp-20ml-for-men-02.webp",
+     "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – miniature bottle beside its black cylinder box",
+     "new_alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – miniature bottle beside its black cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-oud-spice-edp-20ml-for-men-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106330499",
+     "new_media": "gid://shopify/MediaImage/74815681036675"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-3.webp",
+     "in": "acqua-di-parma-oud-spice-edp-20ml-for-men-03.webp",
+     "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black cylinder box, front view",
+     "new_alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – black cylinder box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-oud-spice-edp-20ml-for-men-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106363267",
+     "new_media": "gid://shopify/MediaImage/74815681069443"
+    },
+    {
+     "n": 19,
+     "pos": 4,
+     "src": "acqua-di-parma-oud-and-spice-edp-20ml-for-men-4.webp",
+     "in": "acqua-di-parma-oud-spice-edp-20ml-for-men-04.webp",
+     "alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – bottle with rose, oud wood, raspberry and spices",
+     "new_alt": "Acqua di Parma Oud & Spice EDP 20ml for Men – bottle and tube box with lime and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-oud-spice-edp-20ml-for-men-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106396035",
+     "new_media": "gid://shopify/MediaImage/74815681102211"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-holiday-discovery-set-edp-3x12ml",
+   "id": 16253614358915,
+   "title": "Acqua di Parma Holiday Discovery Set EDP 3x12ml",
+   "images": [
+    {
+     "n": 20,
+     "pos": 1,
+     "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-1.webp",
+     "in": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-01.webp",
+     "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays beside the marbled gift box",
+     "new_alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays beside the marbled gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075233667",
+     "new_media": "gid://shopify/MediaImage/74815681134979"
+    },
+    {
+     "n": 21,
+     "pos": 2,
+     "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-2.webp",
+     "in": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-02.webp",
+     "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays: Lily of the Valley, Osmanthus, Yuzu",
+     "new_alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – three travel sprays: Lily of the Valley, Osmanthus, Yuzu",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075266435",
+     "new_media": "gid://shopify/MediaImage/74815681167747"
+    },
+    {
+     "n": 22,
+     "pos": 3,
+     "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-3.webp",
+     "in": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-03.webp",
+     "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – Holiday Discovery Set box, front view",
+     "new_alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – Holiday Discovery Set box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075299203",
+     "new_media": "gid://shopify/MediaImage/74815681200515"
+    },
+    {
+     "n": 23,
+     "pos": 4,
+     "src": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-4.webp",
+     "in": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-04.webp",
+     "alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – travel sprays with lily of the valley and citrus",
+     "new_alt": "Acqua di Parma Holiday Discovery Set EDP 3x12ml – travel sprays with lily of the valley and citrus",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-holiday-discovery-set-edp-3x12ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075331971",
+     "new_media": "gid://shopify/MediaImage/74815681233283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-colonia-pura-eau-de-cologne-20ml-unisex",
+   "id": 16253611016579,
+   "title": "Acqua di Parma Colonia Pura Eau de Cologne 20ml Unisex",
+   "images": [
+    {
+     "n": 24,
+     "pos": 1,
+     "src": "acqua-di-parma-colonia-pura-eau-de-cologne-20ml-unisex-1.webp",
+     "in": "acqua-di-parma-colonia-pura-eau-de-cologne-20ml-unisex-01.webp",
+     "alt": "Acqua di Parma Colonia Pura Eau de Cologne 20ml Unisex – bottle beside its yellow cylinder box",
+     "new_alt": "Acqua di Parma Colonia Pura Eau de Cologne 20ml Unisex – bottle beside its yellow cylinder box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-colonia-pura-eau-de-cologne-20ml-unisex-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075430275",
+     "new_media": "gid://shopify/MediaImage/74815681266051"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml",
+   "id": 16253603545475,
+   "title": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml",
+   "images": [
+    {
+     "n": 25,
+     "pos": 1,
+     "src": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-1.webp",
+     "in": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-01.webp",
+     "alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – 75 ml deodorant stick, front view",
+     "new_alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – 75 ml deodorant stick, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075364739",
+     "new_media": "gid://shopify/MediaImage/74815681298819"
+    },
+    {
+     "n": 26,
+     "pos": 2,
+     "src": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-2.webp",
+     "in": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-02.webp",
+     "alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – deodorant stick with bergamot, lavender, rosemary and wood",
+     "new_alt": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml – deodorant stick with bergamot, lavender, rosemary and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-colonia-essenza-deodorant-stick-75ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292075397507",
+     "new_media": "gid://shopify/MediaImage/74815681331587"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml",
+   "id": 16253600661891,
+   "title": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml",
+   "images": [
+    {
+     "n": 27,
+     "pos": 1,
+     "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-1.webp",
+     "in": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-01.webp",
+     "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the patterned box",
+     "new_alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the patterned box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106199427",
+     "new_media": "gid://shopify/MediaImage/74815681364355"
+    },
+    {
+     "n": 28,
+     "pos": 2,
+     "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-2.webp",
+     "in": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-02.webp",
+     "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the Forte Forte box",
+     "new_alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays beside the Forte Forte box",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106232195",
+     "new_media": "gid://shopify/MediaImage/74815681397123"
+    },
+    {
+     "n": 29,
+     "pos": 3,
+     "src": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-3.webp",
+     "in": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-03.webp",
+     "alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays: Fico di Amalfi, Arancia di Capri, Mirto di Panarea",
+     "new_alt": "Acqua di Parma Blu Mediterraneo Discovery Set 3x12ml – three travel sprays: Fico di Amalfi, Arancia di Capri, Mirto di Panarea",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "acqua-di-parma-blu-mediterraneo-discovery-set-3x12ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292106264963",
+     "new_media": "gid://shopify/MediaImage/74815681429891"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
