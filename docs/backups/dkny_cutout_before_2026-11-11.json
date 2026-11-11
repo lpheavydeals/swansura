@@ -1,0 +1,353 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "6": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – pink apple-print bottle, side view"
+  },
+  "skip_products": [],
+  "notes": "6 lost box+plinth: alt rewritten"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16372923531651",
+   "media": "gid://shopify/MediaImage/74292384825731",
+   "src": "dkny-be-tempted-eau-de-parfum-100ml-1.webp",
+   "alt": "DKNY Be Tempted Eau de Parfum 100ml – red apple-shaped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16372923531651",
+   "media": "gid://shopify/MediaImage/74292384858499",
+   "src": "dkny-be-tempted-eau-de-parfum-100ml-2.webp",
+   "alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle beside its red 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16372923531651",
+   "media": "gid://shopify/MediaImage/74292384891267",
+   "src": "dkny-be-tempted-eau-de-parfum-100ml-3.webp",
+   "alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle with red apple, rose, violet, vanilla and lemon"
+  },
+  {
+   "product": "gid://shopify/Product/16372905083267",
+   "media": "gid://shopify/MediaImage/74292384498051",
+   "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-1.webp",
+   "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – pink apple-print bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16372905083267",
+   "media": "gid://shopify/MediaImage/74292384530819",
+   "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-2.webp",
+   "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle beside its kraft 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16372905083267",
+   "media": "gid://shopify/MediaImage/74292384563587",
+   "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-3.webp",
+   "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle and box on a white plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16372905083267",
+   "media": "gid://shopify/MediaImage/74292384596355",
+   "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-4.webp",
+   "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle with red apple, raspberries, grapefruit and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16371657736579",
+   "media": "gid://shopify/MediaImage/74292384629123",
+   "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-1.webp",
+   "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – set contents: four 7 ml apple-shaped miniatures"
+  },
+  {
+   "product": "gid://shopify/Product/16371657736579",
+   "media": "gid://shopify/MediaImage/74292384661891",
+   "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-2.webp",
+   "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures on top of their kraft boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16371657736579",
+   "media": "gid://shopify/MediaImage/74292384694659",
+   "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-3.webp",
+   "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures in front of the boxed set"
+  },
+  {
+   "product": "gid://shopify/Product/16371657736579",
+   "media": "gid://shopify/MediaImage/74292384727427",
+   "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-4.webp",
+   "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures with green apple, cucumber, grapefruit and magnolia"
+  },
+  {
+   "product": "gid://shopify/Product/16371645186435",
+   "media": "gid://shopify/MediaImage/74292384268675",
+   "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-1.webp",
+   "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – two 30 ml bottles, green and pink, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16371645186435",
+   "media": "gid://shopify/MediaImage/74292384301443",
+   "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-2.webp",
+   "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles on top of their boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16371645186435",
+   "media": "gid://shopify/MediaImage/74292384334211",
+   "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-3.webp",
+   "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles in front of their boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16371645186435",
+   "media": "gid://shopify/MediaImage/74292384366979",
+   "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-4.webp",
+   "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles either side of their boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16371645186435",
+   "media": "gid://shopify/MediaImage/74292384399747",
+   "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-5.webp",
+   "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles with green apple, grapefruit and white flowers"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance",
+   "id": 16372923531651,
+   "title": "DKNY Be Tempted Eau de Parfum 100ml – Women’s Fruity Floral Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "dkny-be-tempted-eau-de-parfum-100ml-1.webp",
+     "in": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-01.webp",
+     "alt": "DKNY Be Tempted Eau de Parfum 100ml – red apple-shaped bottle, front view",
+     "new_alt": "DKNY Be Tempted Eau de Parfum 100ml – red apple-shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384825731",
+     "new_media": "gid://shopify/MediaImage/74822468698499"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "dkny-be-tempted-eau-de-parfum-100ml-2.webp",
+     "in": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-02.webp",
+     "alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle beside its red 100 ml box",
+     "new_alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle beside its red 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384858499",
+     "new_media": "gid://shopify/MediaImage/74822468731267"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "dkny-be-tempted-eau-de-parfum-100ml-3.webp",
+     "in": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-03.webp",
+     "alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle with red apple, rose, violet, vanilla and lemon",
+     "new_alt": "DKNY Be Tempted Eau de Parfum 100ml – bottle with red apple, rose, violet, vanilla and lemon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-tempted-eau-de-parfum-100ml-women-s-fruity-floral-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384891267",
+     "new_media": "gid://shopify/MediaImage/74822468764035"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance",
+   "id": 16372905083267,
+   "title": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – Women’s Fruity Floral Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-1.webp",
+     "in": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-01.webp",
+     "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – pink apple-print bottle, front view",
+     "new_alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – pink apple-print bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384498051",
+     "new_media": "gid://shopify/MediaImage/74822468862339"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-2.webp",
+     "in": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-02.webp",
+     "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle beside its kraft 100 ml box",
+     "new_alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle beside its kraft 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384530819",
+     "new_media": "gid://shopify/MediaImage/74822468895107"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-3.webp",
+     "in": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-03.webp",
+     "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle and box on a white plinth",
+     "new_alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – pink apple-print bottle, side view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384563587",
+     "new_media": "gid://shopify/MediaImage/74822468927875"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-4.webp",
+     "in": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-04.webp",
+     "alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle with red apple, raspberries, grapefruit and wood",
+     "new_alt": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – bottle with red apple, raspberries, grapefruit and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-orchard-street-eau-de-parfum-100ml-women-s-fruity-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384596355",
+     "new_media": "gid://shopify/MediaImage/74822468960643"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious",
+   "id": 16371657736579,
+   "title": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – Be Delicious, Golden Delicious, Be Extra Delicious 100%",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-1.webp",
+     "in": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-01.webp",
+     "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – set contents: four 7 ml apple-shaped miniatures",
+     "new_alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – set contents: four 7 ml apple-shaped miniatures",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384629123",
+     "new_media": "gid://shopify/MediaImage/74822468993411"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-2.webp",
+     "in": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-02.webp",
+     "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures on top of their kraft boxes",
+     "new_alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures on top of their kraft boxes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384661891",
+     "new_media": "gid://shopify/MediaImage/74822469026179"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-3.webp",
+     "in": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-03.webp",
+     "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures in front of the boxed set",
+     "new_alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures in front of the boxed set",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384694659",
+     "new_media": "gid://shopify/MediaImage/74822469058947"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "dkny-women-s-miniature-eau-de-parfum-set-4x7ml-4.webp",
+     "in": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-04.webp",
+     "alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures with green apple, cucumber, grapefruit and magnolia",
+     "new_alt": "DKNY Women’s Miniature Eau de Parfum Set 4x7ml – miniatures with green apple, cucumber, grapefruit and magnolia",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "product-title-dkny-women-s-miniature-eau-de-parfum-set-4x7ml-be-delicious-golden-delicious-be-extra-delicious-be-100-delicious-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384727427",
+     "new_media": "gid://shopify/MediaImage/74822469091715"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo",
+   "id": 16371645186435,
+   "title": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – Women’s Fragrance Duo",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-1.webp",
+     "in": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-01.webp",
+     "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – two 30 ml bottles, green and pink, front view",
+     "new_alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – two 30 ml bottles, green and pink, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384268675",
+     "new_media": "gid://shopify/MediaImage/74822469157251"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-2.webp",
+     "in": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-02.webp",
+     "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles on top of their boxes",
+     "new_alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles on top of their boxes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384301443",
+     "new_media": "gid://shopify/MediaImage/74822469190019"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-3.webp",
+     "in": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-03.webp",
+     "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles in front of their boxes",
+     "new_alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – both bottles in front of their boxes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384334211",
+     "new_media": "gid://shopify/MediaImage/74822469222787"
+    },
+    {
+     "n": 15,
+     "pos": 4,
+     "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-4.webp",
+     "in": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-04.webp",
+     "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles either side of their boxes",
+     "new_alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles either side of their boxes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384366979",
+     "new_media": "gid://shopify/MediaImage/74822469255555"
+    },
+    {
+     "n": 16,
+     "pos": 5,
+     "src": "dkny-be-delicious-and-be-delicious-fresh-blossom-eau-de-parfum-gift-se-5.webp",
+     "in": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-05.webp",
+     "alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles with green apple, grapefruit and white flowers",
+     "new_alt": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – bottles with green apple, grapefruit and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "dkny-be-delicious-be-delicious-fresh-blossom-eau-de-parfum-gift-set-2x30ml-women-s-fragrance-duo-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292384399747",
+     "new_media": "gid://shopify/MediaImage/74822469288323"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

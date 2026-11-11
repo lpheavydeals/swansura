@@ -1,0 +1,405 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "all bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16367155839363",
+   "media": "gid://shopify/MediaImage/74292282163587",
+   "src": "bentley-momentum-unlimited-eau-de-toilette-100ml-1.webp",
+   "alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – textured bottle with blue edges, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16367155839363",
+   "media": "gid://shopify/MediaImage/74292282196355",
+   "src": "bentley-momentum-unlimited-eau-de-toilette-100ml-2.webp",
+   "alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16367151972739",
+   "media": "gid://shopify/MediaImage/74292282065283",
+   "src": "bentley-infinite-eau-de-toilette-100ml-1.webp",
+   "alt": "Bentley Infinite Eau de Toilette 100ml – clear bottle with silver cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16367151972739",
+   "media": "gid://shopify/MediaImage/74292282098051",
+   "src": "bentley-infinite-eau-de-toilette-100ml-2.webp",
+   "alt": "Bentley Infinite Eau de Toilette 100ml – bottle beside its silver box"
+  },
+  {
+   "product": "gid://shopify/Product/16367151972739",
+   "media": "gid://shopify/MediaImage/74292282130819",
+   "src": "bentley-infinite-eau-de-toilette-100ml-3.webp",
+   "alt": "Bentley Infinite Eau de Toilette 100ml – bottle with lavender, mint, violet, geranium, woods and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16367144501635",
+   "media": "gid://shopify/MediaImage/74292282229123",
+   "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-1.webp",
+   "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – silver-blue bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367144501635",
+   "media": "gid://shopify/MediaImage/74292282261891",
+   "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-2.webp",
+   "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle beside its light blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16367144501635",
+   "media": "gid://shopify/MediaImage/74292282294659",
+   "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-3.webp",
+   "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle with lemon, mint, lavender and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16367119729027",
+   "media": "gid://shopify/MediaImage/74292281901443",
+   "src": "bentley-for-men-azure-eau-de-toilette-100ml-1.webp",
+   "alt": "Bentley For Men Azure Eau de Toilette 100ml – blue gradient bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367119729027",
+   "media": "gid://shopify/MediaImage/74292281934211",
+   "src": "bentley-for-men-azure-eau-de-toilette-100ml-2.webp",
+   "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16367119729027",
+   "media": "gid://shopify/MediaImage/74292281966979",
+   "src": "bentley-for-men-azure-eau-de-toilette-100ml-3.webp",
+   "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with a splash of water"
+  },
+  {
+   "product": "gid://shopify/Product/16367119729027",
+   "media": "gid://shopify/MediaImage/74292281999747",
+   "src": "bentley-for-men-azure-eau-de-toilette-100ml-4.webp",
+   "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with pineapple, orange, violet, lavender, woods and tonka"
+  },
+  {
+   "product": "gid://shopify/Product/16367090762115",
+   "media": "gid://shopify/MediaImage/74292281803139",
+   "src": "bentley-become-eau-de-parfum-100ml-1.webp",
+   "alt": "Bentley Become Eau de Parfum 100ml – green gradient bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367090762115",
+   "media": "gid://shopify/MediaImage/74292281835907",
+   "src": "bentley-become-eau-de-parfum-100ml-2.webp",
+   "alt": "Bentley Become Eau de Parfum 100ml – bottle beside its dark green box"
+  },
+  {
+   "product": "gid://shopify/Product/16367090762115",
+   "media": "gid://shopify/MediaImage/74292281868675",
+   "src": "bentley-become-eau-de-parfum-100ml-3.webp",
+   "alt": "Bentley Become Eau de Parfum 100ml – bottle with lemon, ginger, lavender and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16367082897795",
+   "media": "gid://shopify/MediaImage/74292281704835",
+   "src": "bentley-for-men-absolute-eau-de-parfum-100ml-1.webp",
+   "alt": "Bentley For Men Absolute Eau de Parfum 100ml – black bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367082897795",
+   "media": "gid://shopify/MediaImage/74292281737603",
+   "src": "bentley-for-men-absolute-eau-de-parfum-100ml-2.webp",
+   "alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle beside its black and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16367082897795",
+   "media": "gid://shopify/MediaImage/74292281770371",
+   "src": "bentley-for-men-absolute-eau-de-parfum-100ml-3.webp",
+   "alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle with ginger, pink pepper, papyrus and amber resin"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance",
+   "id": 16367155839363,
+   "title": "Bentley Momentum Unlimited Eau de Toilette 100ml – Men’s Fresh Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "bentley-momentum-unlimited-eau-de-toilette-100ml-1.webp",
+     "in": "bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-01.webp",
+     "alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – textured bottle with blue edges, front view",
+     "new_alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – textured bottle with blue edges, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282163587",
+     "new_media": "gid://shopify/MediaImage/74822369771907"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "bentley-momentum-unlimited-eau-de-toilette-100ml-2.webp",
+     "in": "bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-02.webp",
+     "alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – bottle beside its silver box",
+     "new_alt": "Bentley Momentum Unlimited Eau de Toilette 100ml – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-momentum-unlimited-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282196355",
+     "new_media": "gid://shopify/MediaImage/74822369804675"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance",
+   "id": 16367151972739,
+   "title": "Bentley Infinite Eau de Toilette 100ml – Men’s Fresh Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 3,
+     "pos": 1,
+     "src": "bentley-infinite-eau-de-toilette-100ml-1.webp",
+     "in": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-01.webp",
+     "alt": "Bentley Infinite Eau de Toilette 100ml – clear bottle with silver cap, front view",
+     "new_alt": "Bentley Infinite Eau de Toilette 100ml – clear bottle with silver cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282065283",
+     "new_media": "gid://shopify/MediaImage/74822369837443"
+    },
+    {
+     "n": 4,
+     "pos": 2,
+     "src": "bentley-infinite-eau-de-toilette-100ml-2.webp",
+     "in": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-02.webp",
+     "alt": "Bentley Infinite Eau de Toilette 100ml – bottle beside its silver box",
+     "new_alt": "Bentley Infinite Eau de Toilette 100ml – bottle beside its silver box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282098051",
+     "new_media": "gid://shopify/MediaImage/74822369870211"
+    },
+    {
+     "n": 5,
+     "pos": 3,
+     "src": "bentley-infinite-eau-de-toilette-100ml-3.webp",
+     "in": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-03.webp",
+     "alt": "Bentley Infinite Eau de Toilette 100ml – bottle with lavender, mint, violet, geranium, woods and amber",
+     "new_alt": "Bentley Infinite Eau de Toilette 100ml – bottle with lavender, mint, violet, geranium, woods and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-infinite-eau-de-toilette-100ml-men-s-fresh-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282130819",
+     "new_media": "gid://shopify/MediaImage/74822369902979"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance",
+   "id": 16367144501635,
+   "title": "Bentley For Men Silverlake Eau de Parfum 100ml – Men’s Fresh Aromatic Woody Fragrance",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-1.webp",
+     "in": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-01.webp",
+     "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – silver-blue bottle, front view on a light background",
+     "new_alt": "Bentley For Men Silverlake Eau de Parfum 100ml – silver-blue bottle, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282229123",
+     "new_media": "gid://shopify/MediaImage/74822369935747"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-2.webp",
+     "in": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-02.webp",
+     "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle beside its light blue box",
+     "new_alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle beside its light blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282261891",
+     "new_media": "gid://shopify/MediaImage/74822369968515"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "bentley-for-men-silverlake-eau-de-parfum-100ml-3.webp",
+     "in": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-03.webp",
+     "alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle with lemon, mint, lavender and pink pepper",
+     "new_alt": "Bentley For Men Silverlake Eau de Parfum 100ml – bottle with lemon, mint, lavender and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-silverlake-eau-de-parfum-100ml-men-s-fresh-aromatic-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282294659",
+     "new_media": "gid://shopify/MediaImage/74822370001283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance",
+   "id": 16367119729027,
+   "title": "Bentley For Men Azure Eau de Toilette 100ml – Men’s Fresh Aquatic Woody Fragrance",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "bentley-for-men-azure-eau-de-toilette-100ml-1.webp",
+     "in": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-01.webp",
+     "alt": "Bentley For Men Azure Eau de Toilette 100ml – blue gradient bottle, front view on a light background",
+     "new_alt": "Bentley For Men Azure Eau de Toilette 100ml – blue gradient bottle, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281901443",
+     "new_media": "gid://shopify/MediaImage/74822370197891"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "bentley-for-men-azure-eau-de-toilette-100ml-2.webp",
+     "in": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-02.webp",
+     "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle beside its blue box",
+     "new_alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281934211",
+     "new_media": "gid://shopify/MediaImage/74822370230659"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "bentley-for-men-azure-eau-de-toilette-100ml-3.webp",
+     "in": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-03.webp",
+     "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with a splash of water",
+     "new_alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with a splash of water",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281966979",
+     "new_media": "gid://shopify/MediaImage/74822370263427"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "bentley-for-men-azure-eau-de-toilette-100ml-4.webp",
+     "in": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-04.webp",
+     "alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with pineapple, orange, violet, lavender, woods and tonka",
+     "new_alt": "Bentley For Men Azure Eau de Toilette 100ml – bottle with pineapple, orange, violet, lavender, woods and tonka",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-azure-eau-de-toilette-100ml-men-s-fresh-aquatic-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281999747",
+     "new_media": "gid://shopify/MediaImage/74822370296195"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance",
+   "id": 16367090762115,
+   "title": "Bentley Become Eau de Parfum 100ml – Men’s Fresh Woody Aromatic Fragrance",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "bentley-become-eau-de-parfum-100ml-1.webp",
+     "in": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-01.webp",
+     "alt": "Bentley Become Eau de Parfum 100ml – green gradient bottle, front view on a light background",
+     "new_alt": "Bentley Become Eau de Parfum 100ml – green gradient bottle, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281803139",
+     "new_media": "gid://shopify/MediaImage/74822370328963"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "bentley-become-eau-de-parfum-100ml-2.webp",
+     "in": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-02.webp",
+     "alt": "Bentley Become Eau de Parfum 100ml – bottle beside its dark green box",
+     "new_alt": "Bentley Become Eau de Parfum 100ml – bottle beside its dark green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281835907",
+     "new_media": "gid://shopify/MediaImage/74822370361731"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "bentley-become-eau-de-parfum-100ml-3.webp",
+     "in": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-03.webp",
+     "alt": "Bentley Become Eau de Parfum 100ml – bottle with lemon, ginger, lavender and woods",
+     "new_alt": "Bentley Become Eau de Parfum 100ml – bottle with lemon, ginger, lavender and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-become-eau-de-parfum-100ml-men-s-fresh-woody-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281868675",
+     "new_media": "gid://shopify/MediaImage/74822370394499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance",
+   "id": 16367082897795,
+   "title": "Bentley For Men Absolute Eau de Parfum 100ml – Men’s Woody Spicy Fragrance",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "bentley-for-men-absolute-eau-de-parfum-100ml-1.webp",
+     "in": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01.webp",
+     "alt": "Bentley For Men Absolute Eau de Parfum 100ml – black bottle, front view on a light background",
+     "new_alt": "Bentley For Men Absolute Eau de Parfum 100ml – black bottle, front view on a light background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281704835",
+     "new_media": "gid://shopify/MediaImage/74822370558339"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "bentley-for-men-absolute-eau-de-parfum-100ml-2.webp",
+     "in": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02.webp",
+     "alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle beside its black and gold box",
+     "new_alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle beside its black and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281737603",
+     "new_media": "gid://shopify/MediaImage/74822370591107"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "bentley-for-men-absolute-eau-de-parfum-100ml-3.webp",
+     "in": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03.webp",
+     "alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle with ginger, pink pepper, papyrus and amber resin",
+     "new_alt": "Bentley For Men Absolute Eau de Parfum 100ml – bottle with ginger, pink pepper, papyrus and amber resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bentley-for-men-absolute-eau-de-parfum-100ml-men-s-woody-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281770371",
+     "new_media": "gid://shopify/MediaImage/74822370623875"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
