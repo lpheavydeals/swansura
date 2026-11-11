@@ -1,0 +1,445 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle with a gold brushstroke"
+  },
+  "skip_products": [],
+  "notes": "bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421450056067",
+   "media": "gid://shopify/MediaImage/74600658305411",
+   "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-01.webp",
+   "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle with dome cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421450056067",
+   "media": "gid://shopify/MediaImage/74600658338179",
+   "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-02.webp",
+   "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle beside its gold and black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421450056067",
+   "media": "gid://shopify/MediaImage/74600658370947",
+   "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-03.webp",
+   "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle with vanilla pods, flower, mint leaves and powder"
+  },
+  {
+   "product": "gid://shopify/Product/16421450056067",
+   "media": "gid://shopify/MediaImage/74600658403715",
+   "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-04.webp",
+   "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle on a gold brushstroke background"
+  },
+  {
+   "product": "gid://shopify/Product/16421450023299",
+   "media": "gid://shopify/MediaImage/74600670298499",
+   "src": "attar-collection-floral-musk-eau-de-parfum-100ml-01.webp",
+   "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421450023299",
+   "media": "gid://shopify/MediaImage/74600670331267",
+   "src": "attar-collection-floral-musk-eau-de-parfum-100ml-02.webp",
+   "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421450023299",
+   "media": "gid://shopify/MediaImage/74600670364035",
+   "src": "attar-collection-floral-musk-eau-de-parfum-100ml-03.webp",
+   "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with pink roses and petals"
+  },
+  {
+   "product": "gid://shopify/Product/16421449990531",
+   "media": "gid://shopify/MediaImage/74600660664707",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-01.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – white and gold bottle"
+  },
+  {
+   "product": "gid://shopify/Product/16421449990531",
+   "media": "gid://shopify/MediaImage/74600660697475",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-02.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449990531",
+   "media": "gid://shopify/MediaImage/74600660730243",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-03.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with milk splash, chocolate pieces and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16421449990531",
+   "media": "gid://shopify/MediaImage/74600660763011",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-04.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold cap off and iridescent swirl"
+  },
+  {
+   "product": "gid://shopify/Product/16421449957763",
+   "media": "gid://shopify/MediaImage/74600656109955",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-01.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – black bottle with silver cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421449957763",
+   "media": "gid://shopify/MediaImage/74600656142723",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-02.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle beside its patterned box"
+  },
+  {
+   "product": "gid://shopify/Product/16421449957763",
+   "media": "gid://shopify/MediaImage/74600656175491",
+   "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-03.webp",
+   "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle with clear crystals and wood pieces"
+  },
+  {
+   "product": "gid://shopify/Product/16421448614275",
+   "media": "gid://shopify/MediaImage/74600654733699",
+   "src": "attar-collection-azalea-eau-de-parfum-100ml-01.webp",
+   "alt": "Attar Collection Azalea Eau de Parfum 100ml – purple bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421448614275",
+   "media": "gid://shopify/MediaImage/74600654766467",
+   "src": "attar-collection-azalea-eau-de-parfum-100ml-02.webp",
+   "alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with its purple floral box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448614275",
+   "media": "gid://shopify/MediaImage/74600654799235",
+   "src": "attar-collection-azalea-eau-de-parfum-100ml-03.webp",
+   "alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with rose, lilac, vanilla and almonds"
+  },
+  {
+   "product": "gid://shopify/Product/16421448581507",
+   "media": "gid://shopify/MediaImage/74600659386755",
+   "src": "attar-collection-areej-eau-de-parfum-100ml-01.webp",
+   "alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle with gold jewelled cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421448581507",
+   "media": "gid://shopify/MediaImage/74600659419523",
+   "src": "attar-collection-areej-eau-de-parfum-100ml-02.webp",
+   "alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle beside its pink and gold box"
+  },
+  {
+   "product": "gid://shopify/Product/16421448581507",
+   "media": "gid://shopify/MediaImage/74600659452291",
+   "src": "attar-collection-areej-eau-de-parfum-100ml-03.webp",
+   "alt": "Attar Collection Areej Eau de Parfum 100ml – bottle with vanilla pods, white flower and violets"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "attar-collection-the-persian-gold-eau-de-parfum-100ml",
+   "id": 16421450056067,
+   "title": "Attar Collection The Persian Gold Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-01.webp",
+     "in": "attar-collection-the-persian-gold-eau-de-parfum-100ml-01.webp",
+     "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle with dome cap",
+     "new_alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle with dome cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-the-persian-gold-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658305411",
+     "new_media": "gid://shopify/MediaImage/74820764434819"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-02.webp",
+     "in": "attar-collection-the-persian-gold-eau-de-parfum-100ml-02.webp",
+     "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle beside its gold and black box",
+     "new_alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – gold bottle beside its gold and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-the-persian-gold-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658338179",
+     "new_media": "gid://shopify/MediaImage/74820764467587"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-03.webp",
+     "in": "attar-collection-the-persian-gold-eau-de-parfum-100ml-03.webp",
+     "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle with vanilla pods, flower, mint leaves and powder",
+     "new_alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle with vanilla pods, flower, mint leaves and powder",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-the-persian-gold-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658370947",
+     "new_media": "gid://shopify/MediaImage/74820764500355"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "attar-collection-the-persian-gold-eau-de-parfum-100ml-04.webp",
+     "in": "attar-collection-the-persian-gold-eau-de-parfum-100ml-04.webp",
+     "alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle on a gold brushstroke background",
+     "new_alt": "Attar Collection The Persian Gold Eau de Parfum 100ml – bottle with a gold brushstroke",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-the-persian-gold-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658403715",
+     "new_media": "gid://shopify/MediaImage/74820764533123"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "attar-collection-floral-musk-eau-de-parfum-100ml",
+   "id": 16421450023299,
+   "title": "Attar Collection Floral Musk Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "attar-collection-floral-musk-eau-de-parfum-100ml-01.webp",
+     "in": "attar-collection-floral-musk-eau-de-parfum-100ml-01.webp",
+     "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle on a plain background",
+     "new_alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-floral-musk-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670298499",
+     "new_media": "gid://shopify/MediaImage/74820764565891"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "attar-collection-floral-musk-eau-de-parfum-100ml-02.webp",
+     "in": "attar-collection-floral-musk-eau-de-parfum-100ml-02.webp",
+     "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with its box",
+     "new_alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-floral-musk-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670331267",
+     "new_media": "gid://shopify/MediaImage/74820764598659"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "attar-collection-floral-musk-eau-de-parfum-100ml-03.webp",
+     "in": "attar-collection-floral-musk-eau-de-parfum-100ml-03.webp",
+     "alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with pink roses and petals",
+     "new_alt": "Attar Collection Floral Musk Eau de Parfum 100ml – bottle with pink roses and petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-floral-musk-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670364035",
+     "new_media": "gid://shopify/MediaImage/74820764631427"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml",
+   "id": 16421449990531,
+   "title": "Attar Collection Crystal Love Eau de Parfum for Women 100ml",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-01.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-01.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – white and gold bottle",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – white and gold bottle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660664707",
+     "new_media": "gid://shopify/MediaImage/74820765057411"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-02.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-02.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold patterned box",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold patterned box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660697475",
+     "new_media": "gid://shopify/MediaImage/74820765090179"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-03.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-03.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with milk splash, chocolate pieces and white flowers",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with milk splash, chocolate pieces and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660730243",
+     "new_media": "gid://shopify/MediaImage/74820765122947"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-04.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-04.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold cap off and iridescent swirl",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Women 100ml – bottle with gold cap off and iridescent swirl",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-women-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660763011",
+     "new_media": "gid://shopify/MediaImage/74820765155715"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml",
+   "id": 16421449957763,
+   "title": "Attar Collection Crystal Love Eau de Parfum for Men 100ml",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-01.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-01.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – black bottle with silver cap",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – black bottle with silver cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656109955",
+     "new_media": "gid://shopify/MediaImage/74820765188483"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-02.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-02.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle beside its patterned box",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle beside its patterned box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656142723",
+     "new_media": "gid://shopify/MediaImage/74820765221251"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-03.webp",
+     "in": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-03.webp",
+     "alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle with clear crystals and wood pieces",
+     "new_alt": "Attar Collection Crystal Love Eau de Parfum for Men 100ml – bottle with clear crystals and wood pieces",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-crystal-love-eau-de-parfum-for-men-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600656175491",
+     "new_media": "gid://shopify/MediaImage/74820765254019"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "attar-collection-azalea-eau-de-parfum-100ml",
+   "id": 16421448614275,
+   "title": "Attar Collection Azalea Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "attar-collection-azalea-eau-de-parfum-100ml-01.webp",
+     "in": "attar-collection-azalea-eau-de-parfum-100ml-01.webp",
+     "alt": "Attar Collection Azalea Eau de Parfum 100ml – purple bottle on a plain background",
+     "new_alt": "Attar Collection Azalea Eau de Parfum 100ml – purple bottle on a plain background",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-azalea-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654733699",
+     "new_media": "gid://shopify/MediaImage/74820765516163"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "attar-collection-azalea-eau-de-parfum-100ml-02.webp",
+     "in": "attar-collection-azalea-eau-de-parfum-100ml-02.webp",
+     "alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with its purple floral box",
+     "new_alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with its purple floral box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-azalea-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654766467",
+     "new_media": "gid://shopify/MediaImage/74820765548931"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "attar-collection-azalea-eau-de-parfum-100ml-03.webp",
+     "in": "attar-collection-azalea-eau-de-parfum-100ml-03.webp",
+     "alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with rose, lilac, vanilla and almonds",
+     "new_alt": "Attar Collection Azalea Eau de Parfum 100ml – bottle with rose, lilac, vanilla and almonds",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-azalea-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600654799235",
+     "new_media": "gid://shopify/MediaImage/74820765581699"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "attar-collection-areej-eau-de-parfum-100ml",
+   "id": 16421448581507,
+   "title": "Attar Collection Areej Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "attar-collection-areej-eau-de-parfum-100ml-01.webp",
+     "in": "attar-collection-areej-eau-de-parfum-100ml-01.webp",
+     "alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle with gold jewelled cap",
+     "new_alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle with gold jewelled cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-areej-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659386755",
+     "new_media": "gid://shopify/MediaImage/74820765614467"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "attar-collection-areej-eau-de-parfum-100ml-02.webp",
+     "in": "attar-collection-areej-eau-de-parfum-100ml-02.webp",
+     "alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle beside its pink and gold box",
+     "new_alt": "Attar Collection Areej Eau de Parfum 100ml – pink bottle beside its pink and gold box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-areej-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659419523",
+     "new_media": "gid://shopify/MediaImage/74820765647235"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "attar-collection-areej-eau-de-parfum-100ml-03.webp",
+     "in": "attar-collection-areej-eau-de-parfum-100ml-03.webp",
+     "alt": "Attar Collection Areej Eau de Parfum 100ml – bottle with vanilla pods, white flower and violets",
+     "new_alt": "Attar Collection Areej Eau de Parfum 100ml – bottle with vanilla pods, white flower and violets",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "attar-collection-areej-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600659452291",
+     "new_media": "gid://shopify/MediaImage/74820765680003"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

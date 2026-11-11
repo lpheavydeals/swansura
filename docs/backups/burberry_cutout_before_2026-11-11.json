@@ -1,0 +1,441 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "18": "flood",
+   "19": "flood"
+  },
+  "alt": {
+   "1": "Burberry My Burberry Black Parfum 90ml – bottle with black bow, front view",
+   "15": "Burberry My Burberry Eau de Parfum 50ml – bottle with a beige bow"
+  },
+  "skip_products": [],
+  "notes": "flood for white gift boxes"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16364401525123",
+   "media": "gid://shopify/MediaImage/74292283146627",
+   "src": "burberry-my-burberry-black-parfum-90ml-1.webp",
+   "alt": "Burberry My Burberry Black Parfum 90ml – bottle with black bow on a white plinth"
+  },
+  {
+   "product": "gid://shopify/Product/16364401525123",
+   "media": "gid://shopify/MediaImage/74292283179395",
+   "src": "burberry-my-burberry-black-parfum-90ml-2.webp",
+   "alt": "Burberry My Burberry Black Parfum 90ml – bottle beside its black 90 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16364401525123",
+   "media": "gid://shopify/MediaImage/74292283212163",
+   "src": "burberry-my-burberry-black-parfum-90ml-3.webp",
+   "alt": "Burberry My Burberry Black Parfum 90ml – bottle with rose, peach, jasmine and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "media": "gid://shopify/MediaImage/74292283310467",
+   "src": "burberry-my-burberry-black-parfum-50ml-1.webp",
+   "alt": "Burberry My Burberry Black Parfum 50ml – 50 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "media": "gid://shopify/MediaImage/74292283343235",
+   "src": "burberry-my-burberry-black-parfum-50ml-2.webp",
+   "alt": "Burberry My Burberry Black Parfum 50ml – bottle beside its black 50 ml Parfum box"
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "media": "gid://shopify/MediaImage/74292283376003",
+   "src": "burberry-my-burberry-black-parfum-50ml-3.webp",
+   "alt": "Burberry My Burberry Black Parfum 50ml – black 50 ml Parfum box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "media": "gid://shopify/MediaImage/74292283408771",
+   "src": "burberry-my-burberry-black-parfum-50ml-4.webp",
+   "alt": "Burberry My Burberry Black Parfum 50ml – bottle with the cap removed"
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "media": "gid://shopify/MediaImage/74292283441539",
+   "src": "burberry-my-burberry-black-parfum-50ml-5.webp",
+   "alt": "Burberry My Burberry Black Parfum 50ml – bottle with rose, peach, jasmine and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16364365775235",
+   "media": "gid://shopify/MediaImage/74292282982787",
+   "src": "burberry-my-burberry-eau-de-parfum-90ml-1.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 90ml – 90 ml bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364365775235",
+   "media": "gid://shopify/MediaImage/74292283015555",
+   "src": "burberry-my-burberry-eau-de-parfum-90ml-2.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle beside its 90 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16364365775235",
+   "media": "gid://shopify/MediaImage/74292283048323",
+   "src": "burberry-my-burberry-eau-de-parfum-90ml-3.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with rose, peach, jasmine and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16364365775235",
+   "media": "gid://shopify/MediaImage/74292283081091",
+   "src": "burberry-my-burberry-eau-de-parfum-90ml-4.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with freesia, sweet pea, quince and rose"
+  },
+  {
+   "product": "gid://shopify/Product/16364328452483",
+   "media": "gid://shopify/MediaImage/74292282818947",
+   "src": "burberry-my-burberry-eau-de-parfum-50ml-1.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with trench-knot bow, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364328452483",
+   "media": "gid://shopify/MediaImage/74292282851715",
+   "src": "burberry-my-burberry-eau-de-parfum-50ml-2.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle beside its 50 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16364328452483",
+   "media": "gid://shopify/MediaImage/74292282884483",
+   "src": "burberry-my-burberry-eau-de-parfum-50ml-3.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with rose petals on a soft background"
+  },
+  {
+   "product": "gid://shopify/Product/16364328452483",
+   "media": "gid://shopify/MediaImage/74292282917251",
+   "src": "burberry-my-burberry-eau-de-parfum-50ml-4.webp",
+   "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with sweet pea, quince, lime and roses"
+  },
+  {
+   "product": "gid://shopify/Product/16364319768963",
+   "media": "gid://shopify/MediaImage/74292282687875",
+   "src": "burberry-women-s-miniature-perfume-set-4x5ml-1.webp",
+   "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – set contents: four Her miniatures, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16364319768963",
+   "media": "gid://shopify/MediaImage/74292282720643",
+   "src": "burberry-women-s-miniature-perfume-set-4x5ml-2.webp",
+   "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – four miniatures with their white boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16364319768963",
+   "media": "gid://shopify/MediaImage/74292282753411",
+   "src": "burberry-women-s-miniature-perfume-set-4x5ml-3.webp",
+   "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures in front of their boxes"
+  },
+  {
+   "product": "gid://shopify/Product/16364319768963",
+   "media": "gid://shopify/MediaImage/74292282786179",
+   "src": "burberry-women-s-miniature-perfume-set-4x5ml-4.webp",
+   "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures with strawberries, raspberries, lemon and pear"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance",
+   "id": 16364401525123,
+   "title": "Burberry My Burberry Black Parfum 90ml – Women’s Rich Floral Amber Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "burberry-my-burberry-black-parfum-90ml-1.webp",
+     "in": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-01.webp",
+     "alt": "Burberry My Burberry Black Parfum 90ml – bottle with black bow on a white plinth",
+     "new_alt": "Burberry My Burberry Black Parfum 90ml – bottle with black bow, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283146627",
+     "new_media": "gid://shopify/MediaImage/74820775575939"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "burberry-my-burberry-black-parfum-90ml-2.webp",
+     "in": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-02.webp",
+     "alt": "Burberry My Burberry Black Parfum 90ml – bottle beside its black 90 ml box",
+     "new_alt": "Burberry My Burberry Black Parfum 90ml – bottle beside its black 90 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283179395",
+     "new_media": "gid://shopify/MediaImage/74820775608707"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "burberry-my-burberry-black-parfum-90ml-3.webp",
+     "in": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-03.webp",
+     "alt": "Burberry My Burberry Black Parfum 90ml – bottle with rose, peach, jasmine and amber",
+     "new_alt": "Burberry My Burberry Black Parfum 90ml – bottle with rose, peach, jasmine and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-90ml-women-s-rich-floral-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283212163",
+     "new_media": "gid://shopify/MediaImage/74820775641475"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance",
+   "id": 16364386648451,
+   "title": "Burberry My Burberry Black Parfum 50ml – Women’s Rich Floral Amber Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "burberry-my-burberry-black-parfum-50ml-1.webp",
+     "in": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-01.webp",
+     "alt": "Burberry My Burberry Black Parfum 50ml – 50 ml bottle, front view",
+     "new_alt": "Burberry My Burberry Black Parfum 50ml – 50 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283310467",
+     "new_media": "gid://shopify/MediaImage/74820775903619"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "burberry-my-burberry-black-parfum-50ml-2.webp",
+     "in": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-02.webp",
+     "alt": "Burberry My Burberry Black Parfum 50ml – bottle beside its black 50 ml Parfum box",
+     "new_alt": "Burberry My Burberry Black Parfum 50ml – bottle beside its black 50 ml Parfum box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283343235",
+     "new_media": "gid://shopify/MediaImage/74820775936387"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "burberry-my-burberry-black-parfum-50ml-3.webp",
+     "in": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-03.webp",
+     "alt": "Burberry My Burberry Black Parfum 50ml – black 50 ml Parfum box, front view",
+     "new_alt": "Burberry My Burberry Black Parfum 50ml – black 50 ml Parfum box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283376003",
+     "new_media": "gid://shopify/MediaImage/74820775969155"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "burberry-my-burberry-black-parfum-50ml-4.webp",
+     "in": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-04.webp",
+     "alt": "Burberry My Burberry Black Parfum 50ml – bottle with the cap removed",
+     "new_alt": "Burberry My Burberry Black Parfum 50ml – bottle with the cap removed",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283408771",
+     "new_media": "gid://shopify/MediaImage/74820776001923"
+    },
+    {
+     "n": 8,
+     "pos": 5,
+     "src": "burberry-my-burberry-black-parfum-50ml-5.webp",
+     "in": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-05.webp",
+     "alt": "Burberry My Burberry Black Parfum 50ml – bottle with rose, peach, jasmine and amber",
+     "new_alt": "Burberry My Burberry Black Parfum 50ml – bottle with rose, peach, jasmine and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-black-parfum-50ml-women-s-rich-floral-amber-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283441539",
+     "new_media": "gid://shopify/MediaImage/74820776034691"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance",
+   "id": 16364365775235,
+   "title": "Burberry My Burberry Eau de Parfum 90ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "burberry-my-burberry-eau-de-parfum-90ml-1.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-01.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 90ml – 90 ml bottle, front view",
+     "new_alt": "Burberry My Burberry Eau de Parfum 90ml – 90 ml bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282982787",
+     "new_media": "gid://shopify/MediaImage/74820776067459"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "burberry-my-burberry-eau-de-parfum-90ml-2.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-02.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle beside its 90 ml box",
+     "new_alt": "Burberry My Burberry Eau de Parfum 90ml – bottle beside its 90 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283015555",
+     "new_media": "gid://shopify/MediaImage/74820776100227"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "burberry-my-burberry-eau-de-parfum-90ml-3.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-03.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with rose, peach, jasmine and amber",
+     "new_alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with rose, peach, jasmine and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283048323",
+     "new_media": "gid://shopify/MediaImage/74820776132995"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "burberry-my-burberry-eau-de-parfum-90ml-4.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-04.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with freesia, sweet pea, quince and rose",
+     "new_alt": "Burberry My Burberry Eau de Parfum 90ml – bottle with freesia, sweet pea, quince and rose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-90ml-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292283081091",
+     "new_media": "gid://shopify/MediaImage/74820776165763"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance",
+   "id": 16364328452483,
+   "title": "Burberry My Burberry Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 13,
+     "pos": 1,
+     "src": "burberry-my-burberry-eau-de-parfum-50ml-1.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-01.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with trench-knot bow, front view",
+     "new_alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with trench-knot bow, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282818947",
+     "new_media": "gid://shopify/MediaImage/74820776427907"
+    },
+    {
+     "n": 14,
+     "pos": 2,
+     "src": "burberry-my-burberry-eau-de-parfum-50ml-2.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-02.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle beside its 50 ml box",
+     "new_alt": "Burberry My Burberry Eau de Parfum 50ml – bottle beside its 50 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282851715",
+     "new_media": "gid://shopify/MediaImage/74820776460675"
+    },
+    {
+     "n": 15,
+     "pos": 3,
+     "src": "burberry-my-burberry-eau-de-parfum-50ml-3.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-03.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with rose petals on a soft background",
+     "new_alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with a beige bow",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282884483",
+     "new_media": "gid://shopify/MediaImage/74820776493443"
+    },
+    {
+     "n": 16,
+     "pos": 4,
+     "src": "burberry-my-burberry-eau-de-parfum-50ml-4.webp",
+     "in": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-04.webp",
+     "alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with sweet pea, quince, lime and roses",
+     "new_alt": "Burberry My Burberry Eau de Parfum 50ml – bottle with sweet pea, quince, lime and roses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-my-burberry-eau-de-parfum-50ml-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282917251",
+     "new_media": "gid://shopify/MediaImage/74820776526211"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp",
+   "id": 16364319768963,
+   "title": "Burberry Women’s Miniature Perfume Set 4x5ml – Her London Dream, Her EDT & Her EDP",
+   "images": [
+    {
+     "n": 17,
+     "pos": 1,
+     "src": "burberry-women-s-miniature-perfume-set-4x5ml-1.webp",
+     "in": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-01.webp",
+     "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – set contents: four Her miniatures, front view",
+     "new_alt": "Burberry Women’s Miniature Perfume Set 4x5ml – set contents: four Her miniatures, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282687875",
+     "new_media": "gid://shopify/MediaImage/74820776558979"
+    },
+    {
+     "n": 18,
+     "pos": 2,
+     "src": "burberry-women-s-miniature-perfume-set-4x5ml-2.webp",
+     "in": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-02.webp",
+     "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – four miniatures with their white boxes",
+     "new_alt": "Burberry Women’s Miniature Perfume Set 4x5ml – four miniatures with their white boxes",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282720643",
+     "new_media": "gid://shopify/MediaImage/74820776591747"
+    },
+    {
+     "n": 19,
+     "pos": 3,
+     "src": "burberry-women-s-miniature-perfume-set-4x5ml-3.webp",
+     "in": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-03.webp",
+     "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures in front of their boxes",
+     "new_alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures in front of their boxes",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282753411",
+     "new_media": "gid://shopify/MediaImage/74820776624515"
+    },
+    {
+     "n": 20,
+     "pos": 4,
+     "src": "burberry-women-s-miniature-perfume-set-4x5ml-4.webp",
+     "in": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-04.webp",
+     "alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures with strawberries, raspberries, lemon and pear",
+     "new_alt": "Burberry Women’s Miniature Perfume Set 4x5ml – miniatures with strawberries, raspberries, lemon and pear",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "burberry-women-s-miniature-perfume-set-4x5ml-her-london-dream-her-edt-her-edp-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292282786179",
+     "new_media": "gid://shopify/MediaImage/74820776657283"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

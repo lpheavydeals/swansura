@@ -1,0 +1,454 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16296009793923",
+   "media": "gid://shopify/MediaImage/74292109083011",
+   "src": "chopard-oud-malaki-eau-de-parfum-80ml-1.webp",
+   "alt": "Chopard Oud Malaki Eau de Parfum 80ml – amber glass bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16296009793923",
+   "media": "gid://shopify/MediaImage/74292109115779",
+   "src": "chopard-oud-malaki-eau-de-parfum-80ml-2.webp",
+   "alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle beside its gold gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16296009793923",
+   "media": "gid://shopify/MediaImage/74292109148547",
+   "src": "chopard-oud-malaki-eau-de-parfum-80ml-3.webp",
+   "alt": "Chopard Oud Malaki Eau de Parfum 80ml – 80 ml bottle beside its gold gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16296009793923",
+   "media": "gid://shopify/MediaImage/74292109181315",
+   "src": "chopard-oud-malaki-eau-de-parfum-80ml-4.webp",
+   "alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle with tobacco leaves, cinnamon, cloves and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16282354745731",
+   "media": "gid://shopify/MediaImage/74292108951939",
+   "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-1.webp",
+   "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – faceted purple bottle with round cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16282354745731",
+   "media": "gid://shopify/MediaImage/74292108984707",
+   "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-2.webp",
+   "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – 100 ml bottle beside its gold gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16282354745731",
+   "media": "gid://shopify/MediaImage/74292109017475",
+   "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-3.webp",
+   "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with cap removed, showing the spray"
+  },
+  {
+   "product": "gid://shopify/Product/16282354745731",
+   "media": "gid://shopify/MediaImage/74292109050243",
+   "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-4.webp",
+   "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with iris, ylang-ylang, berries and pink pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "media": "gid://shopify/MediaImage/74292108722563",
+   "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-1.webp",
+   "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four green 10 ml sprays: Jasmin Moghol, Miel d'Arabie, Orange Mauresque, Rose Seljuke"
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "media": "gid://shopify/MediaImage/74292108755331",
+   "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-2.webp",
+   "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open gift box with four 10 ml sprays"
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "media": "gid://shopify/MediaImage/74292108788099",
+   "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-3.webp",
+   "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – green gift box with the four sprays alongside"
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "media": "gid://shopify/MediaImage/74292108820867",
+   "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-4.webp",
+   "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open green gift box holding four sprays"
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "media": "gid://shopify/MediaImage/74292108853635",
+   "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-5.webp",
+   "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four sprays with jasmine, roses, honeycomb and white flowers"
+  },
+  {
+   "product": "gid://shopify/Product/16282276069763",
+   "media": "gid://shopify/MediaImage/74292108591491",
+   "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-1.webp",
+   "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – black bottle with gold cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16282276069763",
+   "media": "gid://shopify/MediaImage/74292108624259",
+   "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-2.webp",
+   "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box marked 80 ml"
+  },
+  {
+   "product": "gid://shopify/Product/16282276069763",
+   "media": "gid://shopify/MediaImage/74292108657027",
+   "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-3.webp",
+   "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16282276069763",
+   "media": "gid://shopify/MediaImage/74292108689795",
+   "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-4.webp",
+   "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle with lavender, agarwood, cinnamon, cardamom and mint"
+  },
+  {
+   "product": "gid://shopify/Product/16281929843075",
+   "media": "gid://shopify/MediaImage/74292108460419",
+   "src": "chopard-amber-malaki-eau-de-parfum-80ml-1.webp",
+   "alt": "Chopard Amber Malaki Eau de Parfum 80ml – amber glass bottle with copper cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16281929843075",
+   "media": "gid://shopify/MediaImage/74292108493187",
+   "src": "chopard-amber-malaki-eau-de-parfum-80ml-2.webp",
+   "alt": "Chopard Amber Malaki Eau de Parfum 80ml – 80 ml bottle beside its bronze gift box"
+  },
+  {
+   "product": "gid://shopify/Product/16281929843075",
+   "media": "gid://shopify/MediaImage/74292108525955",
+   "src": "chopard-amber-malaki-eau-de-parfum-80ml-3.webp",
+   "alt": "Chopard Amber Malaki Eau de Parfum 80ml – bronze gift box marked 80 ml Eau de Parfum"
+  },
+  {
+   "product": "gid://shopify/Product/16281929843075",
+   "media": "gid://shopify/MediaImage/74292108558723",
+   "src": "chopard-amber-malaki-eau-de-parfum-80ml-4.webp",
+   "alt": "Chopard Amber Malaki Eau de Parfum 80ml – bottle with amber resin, vanilla pods, white flowers and papyrus"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance",
+   "id": 16296009793923,
+   "title": "Chopard Oud Malaki Eau de Parfum 80ml – Luxury Men’s Oud Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "chopard-oud-malaki-eau-de-parfum-80ml-1.webp",
+     "in": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-01.webp",
+     "alt": "Chopard Oud Malaki Eau de Parfum 80ml – amber glass bottle with gold cap, front view",
+     "new_alt": "Chopard Oud Malaki Eau de Parfum 80ml – amber glass bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109083011",
+     "new_media": "gid://shopify/MediaImage/74820747886979"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "chopard-oud-malaki-eau-de-parfum-80ml-2.webp",
+     "in": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-02.webp",
+     "alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle beside its gold gift box",
+     "new_alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle beside its gold gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109115779",
+     "new_media": "gid://shopify/MediaImage/74820747919747"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "chopard-oud-malaki-eau-de-parfum-80ml-3.webp",
+     "in": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-03.webp",
+     "alt": "Chopard Oud Malaki Eau de Parfum 80ml – 80 ml bottle beside its gold gift box",
+     "new_alt": "Chopard Oud Malaki Eau de Parfum 80ml – 80 ml bottle beside its gold gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109148547",
+     "new_media": "gid://shopify/MediaImage/74820747952515"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "chopard-oud-malaki-eau-de-parfum-80ml-4.webp",
+     "in": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-04.webp",
+     "alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle with tobacco leaves, cinnamon, cloves and amber",
+     "new_alt": "Chopard Oud Malaki Eau de Parfum 80ml – bottle with tobacco leaves, cinnamon, cloves and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-oud-malaki-eau-de-parfum-80ml-luxury-men-s-oud-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109181315",
+     "new_media": "gid://shopify/MediaImage/74820747985283"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance",
+   "id": 16282354745731,
+   "title": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – Luxury Women’s Floral Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-1.webp",
+     "in": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-01.webp",
+     "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – faceted purple bottle with round cap, front view",
+     "new_alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – faceted purple bottle with round cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108951939",
+     "new_media": "gid://shopify/MediaImage/74820748018051"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-2.webp",
+     "in": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-02.webp",
+     "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – 100 ml bottle beside its gold gift box",
+     "new_alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – 100 ml bottle beside its gold gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108984707",
+     "new_media": "gid://shopify/MediaImage/74820748050819"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-3.webp",
+     "in": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-03.webp",
+     "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with cap removed, showing the spray",
+     "new_alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with cap removed, showing the spray",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109017475",
+     "new_media": "gid://shopify/MediaImage/74820748083587"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-4.webp",
+     "in": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-04.webp",
+     "alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with iris, ylang-ylang, berries and pink pepper",
+     "new_alt": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – bottle with iris, ylang-ylang, berries and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-imperiale-iris-malika-eau-de-parfum-100ml-luxury-women-s-floral-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292109050243",
+     "new_media": "gid://shopify/MediaImage/74820748116355"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set",
+   "id": 16282293141891,
+   "title": "Chopard Gardens of Paradise Discovery Set 4x10ml – Luxury Unisex Eau de Parfum Gift Set",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-1.webp",
+     "in": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-01.webp",
+     "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four green 10 ml sprays: Jasmin Moghol, Miel d'Arabie, Orange Mauresque, Rose Seljuke",
+     "new_alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four green 10 ml sprays: Jasmin Moghol, Miel d'Arabie, Orange Mauresque, Rose Seljuke",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108722563",
+     "new_media": "gid://shopify/MediaImage/74820748149123"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-2.webp",
+     "in": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-02.webp",
+     "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open gift box with four 10 ml sprays",
+     "new_alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open gift box with four 10 ml sprays",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108755331",
+     "new_media": "gid://shopify/MediaImage/74820748181891"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-3.webp",
+     "in": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-03.webp",
+     "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – green gift box with the four sprays alongside",
+     "new_alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – green gift box with the four sprays alongside",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108788099",
+     "new_media": "gid://shopify/MediaImage/74820748214659"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-4.webp",
+     "in": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-04.webp",
+     "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open green gift box holding four sprays",
+     "new_alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – open green gift box holding four sprays",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108820867",
+     "new_media": "gid://shopify/MediaImage/74820748247427"
+    },
+    {
+     "n": 13,
+     "pos": 5,
+     "src": "chopard-gardens-of-paradise-discovery-set-4x10ml-5.webp",
+     "in": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-05.webp",
+     "alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four sprays with jasmine, roses, honeycomb and white flowers",
+     "new_alt": "Chopard Gardens of Paradise Discovery Set 4x10ml – four sprays with jasmine, roses, honeycomb and white flowers",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-gardens-of-paradise-discovery-set-4x10ml-luxury-unisex-eau-de-parfum-gift-set-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108853635",
+     "new_media": "gid://shopify/MediaImage/74820748280195"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance",
+   "id": 16282276069763,
+   "title": "Chopard Black Incense Malaki Eau de Parfum 80ml – Luxury Unisex Incense Fragrance",
+   "images": [
+    {
+     "n": 14,
+     "pos": 1,
+     "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-1.webp",
+     "in": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-01.webp",
+     "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – black bottle with gold cap, front view",
+     "new_alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – black bottle with gold cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108591491",
+     "new_media": "gid://shopify/MediaImage/74820748312963"
+    },
+    {
+     "n": 15,
+     "pos": 2,
+     "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-2.webp",
+     "in": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-02.webp",
+     "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box marked 80 ml",
+     "new_alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box marked 80 ml",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108624259",
+     "new_media": "gid://shopify/MediaImage/74820748345731"
+    },
+    {
+     "n": 16,
+     "pos": 3,
+     "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-3.webp",
+     "in": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-03.webp",
+     "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box, front view",
+     "new_alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle beside its black gift box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108657027",
+     "new_media": "gid://shopify/MediaImage/74820748378499"
+    },
+    {
+     "n": 17,
+     "pos": 4,
+     "src": "chopard-black-incense-malaki-eau-de-parfum-80ml-4.webp",
+     "in": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-04.webp",
+     "alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle with lavender, agarwood, cinnamon, cardamom and mint",
+     "new_alt": "Chopard Black Incense Malaki Eau de Parfum 80ml – bottle with lavender, agarwood, cinnamon, cardamom and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-black-incense-malaki-eau-de-parfum-80ml-luxury-unisex-incense-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108689795",
+     "new_media": "gid://shopify/MediaImage/74820748411267"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance",
+   "id": 16281929843075,
+   "title": "Chopard Amber Malaki Eau de Parfum 80ml – Luxury Unisex Amber Fragrance",
+   "images": [
+    {
+     "n": 18,
+     "pos": 1,
+     "src": "chopard-amber-malaki-eau-de-parfum-80ml-1.webp",
+     "in": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-01.webp",
+     "alt": "Chopard Amber Malaki Eau de Parfum 80ml – amber glass bottle with copper cap, front view",
+     "new_alt": "Chopard Amber Malaki Eau de Parfum 80ml – amber glass bottle with copper cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108460419",
+     "new_media": "gid://shopify/MediaImage/74820748476803"
+    },
+    {
+     "n": 19,
+     "pos": 2,
+     "src": "chopard-amber-malaki-eau-de-parfum-80ml-2.webp",
+     "in": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-02.webp",
+     "alt": "Chopard Amber Malaki Eau de Parfum 80ml – 80 ml bottle beside its bronze gift box",
+     "new_alt": "Chopard Amber Malaki Eau de Parfum 80ml – 80 ml bottle beside its bronze gift box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108493187",
+     "new_media": "gid://shopify/MediaImage/74820748509571"
+    },
+    {
+     "n": 20,
+     "pos": 3,
+     "src": "chopard-amber-malaki-eau-de-parfum-80ml-3.webp",
+     "in": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-03.webp",
+     "alt": "Chopard Amber Malaki Eau de Parfum 80ml – bronze gift box marked 80 ml Eau de Parfum",
+     "new_alt": "Chopard Amber Malaki Eau de Parfum 80ml – bronze gift box marked 80 ml Eau de Parfum",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108525955",
+     "new_media": "gid://shopify/MediaImage/74820748542339"
+    },
+    {
+     "n": 21,
+     "pos": 4,
+     "src": "chopard-amber-malaki-eau-de-parfum-80ml-4.webp",
+     "in": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-04.webp",
+     "alt": "Chopard Amber Malaki Eau de Parfum 80ml – bottle with amber resin, vanilla pods, white flowers and papyrus",
+     "new_alt": "Chopard Amber Malaki Eau de Parfum 80ml – bottle with amber resin, vanilla pods, white flowers and papyrus",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chopard-amber-malaki-eau-de-parfum-80ml-luxury-unisex-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292108558723",
+     "new_media": "gid://shopify/MediaImage/74820748575107"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
