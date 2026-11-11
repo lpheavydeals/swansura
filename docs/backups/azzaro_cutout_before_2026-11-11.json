@@ -1,0 +1,402 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "10": "Azzaro Pour Homme Deodorant Spray 150ml – deodorant can with a piece of amber",
+   "12": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml blue bottle, front view",
+   "15": "Azzaro Chrome Legend Eau de Toilette 125ml – blue bottle, front view",
+   "17": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle and box with orange and pear"
+  },
+  "skip_products": [],
+  "notes": "bire clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16367216984451",
+   "media": "gid://shopify/MediaImage/74292281442691",
+   "src": "azzaro-the-most-wanted-parfum-100ml-1.webp",
+   "alt": "Azzaro The Most Wanted Parfum 100ml – black bottle with amber liquid, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16367216984451",
+   "media": "gid://shopify/MediaImage/74292281475459",
+   "src": "azzaro-the-most-wanted-parfum-100ml-2.webp",
+   "alt": "Azzaro The Most Wanted Parfum 100ml – bottle beside its black and copper box"
+  },
+  {
+   "product": "gid://shopify/Product/16367216984451",
+   "media": "gid://shopify/MediaImage/74292281508227",
+   "src": "azzaro-the-most-wanted-parfum-100ml-3.webp",
+   "alt": "Azzaro The Most Wanted Parfum 100ml – top view of the revolver-style cap"
+  },
+  {
+   "product": "gid://shopify/Product/16367216984451",
+   "media": "gid://shopify/MediaImage/74292281540995",
+   "src": "azzaro-the-most-wanted-parfum-100ml-4.webp",
+   "alt": "Azzaro The Most Wanted Parfum 100ml – bottle with ginger, vanilla pods and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16367210561923",
+   "media": "gid://shopify/MediaImage/74292281180547",
+   "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-1.webp",
+   "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set contents: 100 ml bottle and two 10 ml travel sprays"
+  },
+  {
+   "product": "gid://shopify/Product/16367210561923",
+   "media": "gid://shopify/MediaImage/74292281213315",
+   "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-2.webp",
+   "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – gift box with bottle and two travel sprays"
+  },
+  {
+   "product": "gid://shopify/Product/16367210561923",
+   "media": "gid://shopify/MediaImage/74292281246083",
+   "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-3.webp",
+   "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set with bergamot, lavender, woods and a toffee accord"
+  },
+  {
+   "product": "gid://shopify/Product/16367198437763",
+   "media": "gid://shopify/MediaImage/74292281573763",
+   "src": "azzaro-pour-homme-deodorant-spray-150ml-1.webp",
+   "alt": "Azzaro Pour Homme Deodorant Spray 150ml – 150 ml black deodorant can, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16367198437763",
+   "media": "gid://shopify/MediaImage/74292281606531",
+   "src": "azzaro-pour-homme-deodorant-spray-150ml-2.webp",
+   "alt": "Azzaro Pour Homme Deodorant Spray 150ml – deodorant can beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16367198437763",
+   "media": "gid://shopify/MediaImage/74292281639299",
+   "src": "azzaro-pour-homme-deodorant-spray-150ml-3.webp",
+   "alt": "Azzaro Pour Homme Deodorant Spray 150ml – can with lavender, star anise, lemon, moss and woods"
+  },
+  {
+   "product": "gid://shopify/Product/16367198437763",
+   "media": "gid://shopify/MediaImage/74292281672067",
+   "src": "azzaro-pour-homme-deodorant-spray-150ml-4.webp",
+   "alt": "Azzaro Pour Homme Deodorant Spray 150ml – can with a green leafy branch"
+  },
+  {
+   "product": "gid://shopify/Product/16367171961219",
+   "media": "gid://shopify/MediaImage/74292280590723",
+   "src": "azzaro-chrome-legend-eau-de-toilette-75ml-1.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml blue bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367171961219",
+   "media": "gid://shopify/MediaImage/74292280623491",
+   "src": "azzaro-chrome-legend-eau-de-toilette-75ml-2.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16367171961219",
+   "media": "gid://shopify/MediaImage/74292280656259",
+   "src": "azzaro-chrome-legend-eau-de-toilette-75ml-3.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – bottle with green apple, orange, woods, moss and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16367165276547",
+   "media": "gid://shopify/MediaImage/74292280328579",
+   "src": "azzaro-chrome-legend-eau-de-toilette-125ml-1.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – blue bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16367165276547",
+   "media": "gid://shopify/MediaImage/74292280361347",
+   "src": "azzaro-chrome-legend-eau-de-toilette-125ml-2.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle beside its blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16367165276547",
+   "media": "gid://shopify/MediaImage/74292280394115",
+   "src": "azzaro-chrome-legend-eau-de-toilette-125ml-3.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle and box on a plinth with orange and pear"
+  },
+  {
+   "product": "gid://shopify/Product/16367165276547",
+   "media": "gid://shopify/MediaImage/74292280426883",
+   "src": "azzaro-chrome-legend-eau-de-toilette-125ml-4.webp",
+   "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle with green apple, orange, tea leaves, star anise and moss"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance",
+   "id": 16367216984451,
+   "title": "Azzaro The Most Wanted Parfum 100ml – Men’s Warm Spicy Amber Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "azzaro-the-most-wanted-parfum-100ml-1.webp",
+     "in": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-01.webp",
+     "alt": "Azzaro The Most Wanted Parfum 100ml – black bottle with amber liquid, front view",
+     "new_alt": "Azzaro The Most Wanted Parfum 100ml – black bottle with amber liquid, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281442691",
+     "new_media": "gid://shopify/MediaImage/74820951572867"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "azzaro-the-most-wanted-parfum-100ml-2.webp",
+     "in": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-02.webp",
+     "alt": "Azzaro The Most Wanted Parfum 100ml – bottle beside its black and copper box",
+     "new_alt": "Azzaro The Most Wanted Parfum 100ml – bottle beside its black and copper box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281475459",
+     "new_media": "gid://shopify/MediaImage/74820951605635"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "azzaro-the-most-wanted-parfum-100ml-3.webp",
+     "in": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-03.webp",
+     "alt": "Azzaro The Most Wanted Parfum 100ml – top view of the revolver-style cap",
+     "new_alt": "Azzaro The Most Wanted Parfum 100ml – top view of the revolver-style cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281508227",
+     "new_media": "gid://shopify/MediaImage/74820951638403"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "azzaro-the-most-wanted-parfum-100ml-4.webp",
+     "in": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-04.webp",
+     "alt": "Azzaro The Most Wanted Parfum 100ml – bottle with ginger, vanilla pods and woods",
+     "new_alt": "Azzaro The Most Wanted Parfum 100ml – bottle with ginger, vanilla pods and woods",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-parfum-100ml-men-s-warm-spicy-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281540995",
+     "new_media": "gid://shopify/MediaImage/74820951671171"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set",
+   "id": 16367210561923,
+   "title": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – Men’s Fragrance Set",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-1.webp",
+     "in": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-01.webp",
+     "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set contents: 100 ml bottle and two 10 ml travel sprays",
+     "new_alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set contents: 100 ml bottle and two 10 ml travel sprays",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281180547",
+     "new_media": "gid://shopify/MediaImage/74820951703939"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-2.webp",
+     "in": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-02.webp",
+     "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – gift box with bottle and two travel sprays",
+     "new_alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – gift box with bottle and two travel sprays",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281213315",
+     "new_media": "gid://shopify/MediaImage/74820951736707"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-3.webp",
+     "in": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-03.webp",
+     "alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set with bergamot, lavender, woods and a toffee accord",
+     "new_alt": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – set with bergamot, lavender, woods and a toffee accord",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-the-most-wanted-eau-de-toilette-intense-gift-set-100ml-2x10ml-men-s-fragrance-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281246083",
+     "new_media": "gid://shopify/MediaImage/74820951769475"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant",
+   "id": 16367198437763,
+   "title": "Azzaro Pour Homme Deodorant Spray 150ml – Men’s Aromatic Fragranced Deodorant",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "azzaro-pour-homme-deodorant-spray-150ml-1.webp",
+     "in": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-01.webp",
+     "alt": "Azzaro Pour Homme Deodorant Spray 150ml – 150 ml black deodorant can, front view",
+     "new_alt": "Azzaro Pour Homme Deodorant Spray 150ml – 150 ml black deodorant can, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281573763",
+     "new_media": "gid://shopify/MediaImage/74820951802243"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "azzaro-pour-homme-deodorant-spray-150ml-2.webp",
+     "in": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-02.webp",
+     "alt": "Azzaro Pour Homme Deodorant Spray 150ml – deodorant can beside its black box",
+     "new_alt": "Azzaro Pour Homme Deodorant Spray 150ml – deodorant can beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281606531",
+     "new_media": "gid://shopify/MediaImage/74820951835011"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "azzaro-pour-homme-deodorant-spray-150ml-3.webp",
+     "in": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-03.webp",
+     "alt": "Azzaro Pour Homme Deodorant Spray 150ml – can with lavender, star anise, lemon, moss and woods",
+     "new_alt": "Azzaro Pour Homme Deodorant Spray 150ml – deodorant can with a piece of amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281639299",
+     "new_media": "gid://shopify/MediaImage/74820951867779"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "azzaro-pour-homme-deodorant-spray-150ml-4.webp",
+     "in": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-04.webp",
+     "alt": "Azzaro Pour Homme Deodorant Spray 150ml – can with a green leafy branch",
+     "new_alt": "Azzaro Pour Homme Deodorant Spray 150ml – can with a green leafy branch",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-pour-homme-deodorant-spray-150ml-men-s-aromatic-fragranced-deodorant-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292281672067",
+     "new_media": "gid://shopify/MediaImage/74820951900547"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance",
+   "id": 16367171961219,
+   "title": "Azzaro Chrome Legend Eau de Toilette 75ml – Men’s Fresh Aromatic Fragrance",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "azzaro-chrome-legend-eau-de-toilette-75ml-1.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-01.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml blue bottle, front view on a light background",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml blue bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280590723",
+     "new_media": "gid://shopify/MediaImage/74820951933315"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "azzaro-chrome-legend-eau-de-toilette-75ml-2.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-02.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml bottle beside its blue box",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 75ml – 75 ml bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280623491",
+     "new_media": "gid://shopify/MediaImage/74820951966083"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "azzaro-chrome-legend-eau-de-toilette-75ml-3.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-03.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 75ml – bottle with green apple, orange, woods, moss and amber",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 75ml – bottle with green apple, orange, woods, moss and amber",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-75ml-men-s-fresh-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280656259",
+     "new_media": "gid://shopify/MediaImage/74820951998851"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance",
+   "id": 16367165276547,
+   "title": "Azzaro Chrome Legend Eau de Toilette 125ml – Men’s Fresh Aromatic Fragrance",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "azzaro-chrome-legend-eau-de-toilette-125ml-1.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-01.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – blue bottle, front view on a light background",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 125ml – blue bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280328579",
+     "new_media": "gid://shopify/MediaImage/74820952031619"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "azzaro-chrome-legend-eau-de-toilette-125ml-2.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-02.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle beside its blue box",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle beside its blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280361347",
+     "new_media": "gid://shopify/MediaImage/74820952064387"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "azzaro-chrome-legend-eau-de-toilette-125ml-3.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-03.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle and box on a plinth with orange and pear",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle and box with orange and pear",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280394115",
+     "new_media": "gid://shopify/MediaImage/74820952097155"
+    },
+    {
+     "n": 18,
+     "pos": 4,
+     "src": "azzaro-chrome-legend-eau-de-toilette-125ml-4.webp",
+     "in": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-04.webp",
+     "alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle with green apple, orange, tea leaves, star anise and moss",
+     "new_alt": "Azzaro Chrome Legend Eau de Toilette 125ml – bottle with green apple, orange, tea leaves, star anise and moss",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "azzaro-chrome-legend-eau-de-toilette-125ml-men-s-fresh-aromatic-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292280426883",
+     "new_media": "gid://shopify/MediaImage/74820952129923"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

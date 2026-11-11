@@ -1,0 +1,425 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "17": "flood",
+   "19": "flood"
+  },
+  "alt": {
+   "15": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle with sunglasses",
+   "16": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – perfume bottle and body lotion side by side",
+   "17": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – 80 ml bottle, front view",
+   "18": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – 75 ml body lotion tube",
+   "19": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – set contents in front of the gift box"
+  },
+  "skip_products": [],
+  "notes": "flood for Alive gift box"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16366786609539",
+   "media": "gid://shopify/MediaImage/74292425425283",
+   "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-1.webp",
+   "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – amber bottle with grey cap, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16366786609539",
+   "media": "gid://shopify/MediaImage/74292425458051",
+   "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-2.webp",
+   "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle and black box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16366786609539",
+   "media": "gid://shopify/MediaImage/74292425490819",
+   "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-3.webp",
+   "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle with mandarin, ginger and lucuma"
+  },
+  {
+   "product": "gid://shopify/Product/16008257175939",
+   "media": "gid://shopify/MediaImage/74292425818499",
+   "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-1.webp",
+   "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – pale blue flask bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16008257175939",
+   "media": "gid://shopify/MediaImage/74292425851267",
+   "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-2.webp",
+   "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – 125 ml bottle and green box"
+  },
+  {
+   "product": "gid://shopify/Product/16008257175939",
+   "media": "gid://shopify/MediaImage/74292425884035",
+   "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-3.webp",
+   "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle with green apple, grapefruit, lavender and mint"
+  },
+  {
+   "product": "gid://shopify/Product/16008257175939",
+   "media": "gid://shopify/MediaImage/74292425916803",
+   "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-4.webp",
+   "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle in front of large red HUGO letters"
+  },
+  {
+   "product": "gid://shopify/Product/16008256422275",
+   "media": "gid://shopify/MediaImage/74292425654659",
+   "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-1.webp",
+   "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – dark amber bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16008256422275",
+   "media": "gid://shopify/MediaImage/74292425687427",
+   "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-2.webp",
+   "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – 100 ml bottle and black tube box"
+  },
+  {
+   "product": "gid://shopify/Product/16008256422275",
+   "media": "gid://shopify/MediaImage/74292425720195",
+   "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-3.webp",
+   "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle tilted at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16008256422275",
+   "media": "gid://shopify/MediaImage/74292425752963",
+   "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-4.webp",
+   "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle with bergamot, lime and oud wood"
+  },
+  {
+   "product": "gid://shopify/Product/16008254030211",
+   "media": "gid://shopify/MediaImage/74292425523587",
+   "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-1.webp",
+   "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle, front view on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16008254030211",
+   "media": "gid://shopify/MediaImage/74292425556355",
+   "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-2.webp",
+   "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – 200 ml bottle and cream box"
+  },
+  {
+   "product": "gid://shopify/Product/16008254030211",
+   "media": "gid://shopify/MediaImage/74292425589123",
+   "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-3.webp",
+   "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle with apple, cardamom, bergamot and wood"
+  },
+  {
+   "product": "gid://shopify/Product/16008254030211",
+   "media": "gid://shopify/MediaImage/74292425621891",
+   "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-4.webp",
+   "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle on a white block with sunglasses"
+  },
+  {
+   "product": "gid://shopify/Product/16008251474307",
+   "media": "gid://shopify/MediaImage/71773259497859",
+   "src": "hugo-boss-boss-alive-edp-body-lotion-set-for-women-gift-set-572914-50748976.jpg",
+   "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women"
+  },
+  {
+   "product": "gid://shopify/Product/16008251474307",
+   "media": "gid://shopify/MediaImage/71773259530627",
+   "src": "hugo-boss-boss-alive-edt-perfume-cologne-449381-3391264448.png",
+   "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16008251474307",
+   "media": "gid://shopify/MediaImage/71773259465091",
+   "src": "hugo-boss-alive-body-lotion-gwp-1148-452-0000_1-387709025.jpg",
+   "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16008251474307",
+   "media": "gid://shopify/MediaImage/71773259563395",
+   "src": "hugo-boss-boss-alive-kinkekomplekt-naistele___230124-3953826339.jpg",
+   "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 4"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance",
+   "id": 16366786609539,
+   "title": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – Men’s Warm Spicy Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-1.webp",
+     "in": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-01.webp",
+     "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – amber bottle with grey cap, front view",
+     "new_alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – amber bottle with grey cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425425283",
+     "new_media": "gid://shopify/MediaImage/74820939219331"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-2.webp",
+     "in": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-02.webp",
+     "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle and black box on a white background",
+     "new_alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425458051",
+     "new_media": "gid://shopify/MediaImage/74820939252099"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-3.webp",
+     "in": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-03.webp",
+     "alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle with mandarin, ginger and lucuma",
+     "new_alt": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – bottle with mandarin, ginger and lucuma",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-boss-the-scent-eau-de-toilette-100ml-tester-men-s-warm-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425490819",
+     "new_media": "gid://shopify/MediaImage/74820939284867"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men",
+   "id": 16008257175939,
+   "title": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-1.webp",
+     "in": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-01.webp",
+     "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – pale blue flask bottle, front view",
+     "new_alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – pale blue flask bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425818499",
+     "new_media": "gid://shopify/MediaImage/74820939317635"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-2.webp",
+     "in": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-02.webp",
+     "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – 125 ml bottle and green box",
+     "new_alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – 125 ml bottle and green box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425851267",
+     "new_media": "gid://shopify/MediaImage/74820939350403"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-3.webp",
+     "in": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-03.webp",
+     "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle with green apple, grapefruit, lavender and mint",
+     "new_alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle with green apple, grapefruit, lavender and mint",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425884035",
+     "new_media": "gid://shopify/MediaImage/74820939383171"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-4.webp",
+     "in": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-04.webp",
+     "alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle in front of large red HUGO letters",
+     "new_alt": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men – bottle in front of large red HUGO letters",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-hugo-man-eau-de-toilette-125ml-for-men-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425916803",
+     "new_media": "gid://shopify/MediaImage/74820939415939"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men",
+   "id": 16008256422275,
+   "title": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-1.webp",
+     "in": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-01.webp",
+     "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – dark amber bottle, front view",
+     "new_alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – dark amber bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425654659",
+     "new_media": "gid://shopify/MediaImage/74820939743619"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-2.webp",
+     "in": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-02.webp",
+     "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – 100 ml bottle and black tube box",
+     "new_alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – 100 ml bottle and black tube box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425687427",
+     "new_media": "gid://shopify/MediaImage/74820939776387"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-3.webp",
+     "in": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-03.webp",
+     "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle tilted at an angle",
+     "new_alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle tilted at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425720195",
+     "new_media": "gid://shopify/MediaImage/74820939809155"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-4.webp",
+     "in": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-04.webp",
+     "alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle with bergamot, lime and oud wood",
+     "new_alt": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men – bottle with bergamot, lime and oud wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-the-collection-confident-oud-eau-de-parfum-intense-100ml-for-men-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425752963",
+     "new_media": "gid://shopify/MediaImage/74820939841923"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hugo-boss-bottled-eau-de-parfum-200ml-for-men",
+   "id": 16008254030211,
+   "title": "Hugo Boss Bottled Eau de Parfum 200ml for Men",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-1.webp",
+     "in": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-01.webp",
+     "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle, front view on a white background",
+     "new_alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425523587",
+     "new_media": "gid://shopify/MediaImage/74820939874691"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-2.webp",
+     "in": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-02.webp",
+     "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – 200 ml bottle and cream box",
+     "new_alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – 200 ml bottle and cream box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425556355",
+     "new_media": "gid://shopify/MediaImage/74820939907459"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-3.webp",
+     "in": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-03.webp",
+     "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle with apple, cardamom, bergamot and wood",
+     "new_alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle with apple, cardamom, bergamot and wood",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425589123",
+     "new_media": "gid://shopify/MediaImage/74820939940227"
+    },
+    {
+     "n": 15,
+     "pos": 4,
+     "src": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-4.webp",
+     "in": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-04.webp",
+     "alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle on a white block with sunglasses",
+     "new_alt": "Hugo Boss Bottled Eau de Parfum 200ml for Men – bottle with sunglasses",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-bottled-eau-de-parfum-200ml-for-men-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292425621891",
+     "new_media": "gid://shopify/MediaImage/74820939972995"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women",
+   "id": 16008251474307,
+   "title": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women",
+   "images": [
+    {
+     "n": 16,
+     "pos": 1,
+     "src": "hugo-boss-boss-alive-edp-body-lotion-set-for-women-gift-set-572914-50748976.jpg",
+     "in": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-01.webp",
+     "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women",
+     "new_alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – perfume bottle and body lotion side by side",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/71773259497859",
+     "new_media": "gid://shopify/MediaImage/74820940005763"
+    },
+    {
+     "n": 17,
+     "pos": 2,
+     "src": "hugo-boss-boss-alive-edt-perfume-cologne-449381-3391264448.png",
+     "in": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-02.webp",
+     "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 2",
+     "new_alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – 80 ml bottle, front view",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/71773259530627",
+     "new_media": "gid://shopify/MediaImage/74820940038531"
+    },
+    {
+     "n": 18,
+     "pos": 3,
+     "src": "hugo-boss-alive-body-lotion-gwp-1148-452-0000_1-387709025.jpg",
+     "in": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-03.webp",
+     "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 3",
+     "new_alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – 75 ml body lotion tube",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/71773259465091",
+     "new_media": "gid://shopify/MediaImage/74820940071299"
+    },
+    {
+     "n": 19,
+     "pos": 4,
+     "src": "hugo-boss-boss-alive-kinkekomplekt-naistele___230124-3953826339.jpg",
+     "in": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-04.webp",
+     "alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – view 4",
+     "new_alt": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women – set contents in front of the gift box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "hugo-boss-alive-eau-de-parfum-80ml-body-lotion-75ml-gift-set-for-women-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/71773259563395",
+     "new_media": "gid://shopify/MediaImage/74820940104067"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
