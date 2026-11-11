@@ -337,6 +337,10 @@ html.as-open .swp .chatbtn{display:none}
    beige mount + 7% margin + multiply. Matches on src, so thumbnail swaps, bag lines and tiles follow automatically. */
 .swp img.pic[src*="-cutout"]{padding:0!important;mix-blend-mode:normal!important;background:var(--cutbg,#EEF3F0)!important;object-fit:cover!important;box-sizing:border-box}
 .swp .p-media:has(img.pic[src*="-cutout"]),.swp #mainImg:has(img.pic[src*="-cutout"]){background:var(--cutbg,#EEF3F0)!important}
+/* Graphic fill (11 Nov 2026, user: graphics must not sit as a separate box inside the mount): files ending
+   '-fill' are already 4:5, extended with their own edge colours (tools/shopify/graphic_fill.py), so show them
+   edge to edge: no padding, no multiply, no mount colour around them. */
+.swp img.pic[src*="-fill"]{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
 """
 
 
