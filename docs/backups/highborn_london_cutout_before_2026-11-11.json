@@ -1,0 +1,2800 @@
+{
+ "note": "Skincare cut-out roll-out 2026-11-11: only the photos classified 'cut' were replaced; graphics untouched. Undo: fileUpdate referencesToAdd the 'detached' originals back, detach media whose file ends -cutout.webp, restore 'variant_links' (old) and the original order (gallery pos).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "36": "keep",
+   "38": "keep",
+   "67": "keep",
+   "74": "keep",
+   "75": "keep"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "gift-box shots with torn boxes kept as originals"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "media": "gid://shopify/MediaImage/74033646895491",
+   "src": "hb-serum-50-scale-v4.png",
+   "alt": "Pre-Eminent Beauty Serum"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "media": "gid://shopify/MediaImage/74033646928259",
+   "src": "hb-serum-50ml-stone-v1.png",
+   "alt": "Pre-Eminent Beauty Serum – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "media": "gid://shopify/MediaImage/74033646993795",
+   "src": "hb-pdp-serum-jar_fbf00a5a-7822-457d-8f7c-7104998ba2e6.png",
+   "alt": "Pre-Eminent Beauty Serum – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "media": "gid://shopify/MediaImage/74033647026563",
+   "src": "hb-revive-defy-stone-serum-v4_89cfae29-8d01-4123-9499-09e42ed88dcd.png",
+   "alt": "Pre-Eminent Beauty Serum – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "media": "gid://shopify/MediaImage/74033647092099",
+   "src": "hb-serum-30-scale-v3.png",
+   "alt": "Pre-Eminent Beauty Serum – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368958603651",
+   "media": "gid://shopify/MediaImage/74033647911299",
+   "src": "hb-pdp-moisturiser_512bd6d0-3efa-4582-9e8a-05fe57c61c4a.png",
+   "alt": "Imperial Moisturiser"
+  },
+  {
+   "product": "gid://shopify/Product/16368958603651",
+   "media": "gid://shopify/MediaImage/74033647944067",
+   "src": "hb-moisturiser-lid-off-v1.png",
+   "alt": "Imperial Moisturiser – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958570883",
+   "media": "gid://shopify/MediaImage/74033647812995",
+   "src": "hb-cleanse-tone-hero-v1.png",
+   "alt": "Cleanse and Tone Pack"
+  },
+  {
+   "product": "gid://shopify/Product/16368958570883",
+   "media": "gid://shopify/MediaImage/74033647845763",
+   "src": "CleanseandTonePackGlassblack-01.jpg",
+   "alt": "Cleanse and Tone Pack – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958570883",
+   "media": "gid://shopify/MediaImage/74033647878531",
+   "src": "CleanseandTonePackGlassWhite-Portraitcopy.jpg",
+   "alt": "Cleanse and Tone Pack – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958538115",
+   "media": "gid://shopify/MediaImage/74033647550851",
+   "src": "hb-cleanse-tone-toner.png",
+   "alt": "Diamond Toner (100ml)"
+  },
+  {
+   "product": "gid://shopify/Product/16368958538115",
+   "media": "gid://shopify/MediaImage/74033647583619",
+   "src": "DiamondTonerGlassblack-01copy.jpg",
+   "alt": "Diamond Toner (100ml) – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958538115",
+   "media": "gid://shopify/MediaImage/74033647616387",
+   "src": "DiamondTonerGlasswhite-Portrait2copy.jpg",
+   "alt": "Diamond Toner (100ml) – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958538115",
+   "media": "gid://shopify/MediaImage/74033647649155",
+   "src": "Diamond_Toner_HDRI_White_R1_View010002.jpg",
+   "alt": "Diamond Toner (100ml) – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958505347",
+   "media": "gid://shopify/MediaImage/74033647681923",
+   "src": "hb-cleanse-tone-cleanser.png",
+   "alt": "Crystal Cleanser (100ml)"
+  },
+  {
+   "product": "gid://shopify/Product/16368958505347",
+   "media": "gid://shopify/MediaImage/74033647714691",
+   "src": "CrystalCleanserGlassblacknostamp-01_1.jpg",
+   "alt": "Crystal Cleanser (100ml) – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958505347",
+   "media": "gid://shopify/MediaImage/74033647747459",
+   "src": "CrystalCleanserGlasswhitenostamp-Poprtraitv2copy.jpg",
+   "alt": "Crystal Cleanser (100ml) – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958505347",
+   "media": "gid://shopify/MediaImage/74033647780227",
+   "src": "Crystal_Cleanser_HDRI_White_R1_View010008.jpg",
+   "alt": "Crystal Cleanser (100ml) – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "media": "gid://shopify/MediaImage/74033647387011",
+   "src": "hb-luminosity-scrub-hero-v2.png",
+   "alt": "Natural Luminosity Scrub"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "media": "gid://shopify/MediaImage/74033647419779",
+   "src": "2024_Natural_Luminosity_Scrub_for_Store_1.jpg",
+   "alt": "Natural Luminosity Scrub – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "media": "gid://shopify/MediaImage/74033647452547",
+   "src": "Scrub1080x1080-Portraitcopy2.jpg",
+   "alt": "Natural Luminosity Scrub – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "media": "gid://shopify/MediaImage/74033647485315",
+   "src": "Luminosity_Jar_HDRI_White_R2_View030001_PP.jpg",
+   "alt": "Natural Luminosity Scrub – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "media": "gid://shopify/MediaImage/74033647518083",
+   "src": "Luminosity_Jar_HDRI_White_R2_View030005_PP.jpg",
+   "alt": "Natural Luminosity Scrub – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647124867",
+   "src": "hb-body-butter-hero-v2.png",
+   "alt": "Natural Luminosity Body Butter"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647157635",
+   "src": "2024_Natural_Luminosity_Body_Butter_1.jpg",
+   "alt": "Natural Luminosity Body Butter – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647190403",
+   "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010001_PP_2.jpg",
+   "alt": "Natural Luminosity Body Butter – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647223171",
+   "src": "Luminosity_Butter_Jar_HDRI_Black_R1_View010003_PP_1.jpg",
+   "alt": "Natural Luminosity Body Butter – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647255939",
+   "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010003_PP_1_1.jpg",
+   "alt": "Natural Luminosity Body Butter – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647288707",
+   "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010002_PP_1.jpg",
+   "alt": "Natural Luminosity Body Butter – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "media": "gid://shopify/MediaImage/74033647321475",
+   "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010005_PP_1.jpg",
+   "alt": "Natural Luminosity Body Butter – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368958308739",
+   "media": "gid://shopify/MediaImage/74033646567811",
+   "src": "ultimate-day-night-hero-v1.png",
+   "alt": "Ultimate Day & Night Moisture Set"
+  },
+  {
+   "product": "gid://shopify/Product/16368958308739",
+   "media": "gid://shopify/MediaImage/74033646633347",
+   "src": "2024_Ultimate_Day_and_Night_Dark_Flat_for_Store_1.jpg",
+   "alt": "Ultimate Day & Night Moisture Set – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958308739",
+   "media": "gid://shopify/MediaImage/74033646698883",
+   "src": "DayandNoightGlass1-01copy.jpg",
+   "alt": "Ultimate Day & Night Moisture Set – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033645814147",
+   "src": "hb-eye-gel-30-scale-v3.png",
+   "alt": "Imperial Eye Gel"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033645846915",
+   "src": "hb-eye-gel-30ml-stone-v2.png",
+   "alt": "Imperial Eye Gel – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033645879683",
+   "src": "2024_Dark_Imperial_Eye_Gel_1000_x_1000_for_store_copy_1.jpg",
+   "alt": "Imperial Eye Gel – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033646010755",
+   "src": "hb-pdp-eye-gel_5261d836-d678-490d-91ca-d5432c2de1bb.png",
+   "alt": "Imperial Eye Gel – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033646043523",
+   "src": "ImperialEyeGel10ml-01.jpg",
+   "alt": "Imperial Eye Gel – view 8"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "media": "gid://shopify/MediaImage/74033646076291",
+   "src": "hb-eye-gel-15-scale-v4.png",
+   "alt": "Imperial Eye Gel – view 9"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "media": "gid://shopify/MediaImage/74033646731651",
+   "src": "hb-hydration-gel-warm-v1.png",
+   "alt": "Organic Hydration Gel"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "media": "gid://shopify/MediaImage/74033646764419",
+   "src": "HydrationGel_HDRI_Black_View010001_PP_1.jpg",
+   "alt": "Organic Hydration Gel – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "media": "gid://shopify/MediaImage/74033646797187",
+   "src": "OH_single-01.jpg",
+   "alt": "Organic Hydration Gel – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "media": "gid://shopify/MediaImage/74033646829955",
+   "src": "HydrationGel_HDRI_White_View010003_PP_1.jpg",
+   "alt": "Organic Hydration Gel – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "media": "gid://shopify/MediaImage/74033646862723",
+   "src": "HydrationGel_HDRI_White_View010002_PP_1.jpg",
+   "alt": "Organic Hydration Gel – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "media": "gid://shopify/MediaImage/74033646371203",
+   "src": "hb-superior-lip-butter-hero.png",
+   "alt": "Superior Lip Butter (Large 50ml)"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "media": "gid://shopify/MediaImage/74033646403971",
+   "src": "2024_Superior_Lip_Butter_1.jpg",
+   "alt": "Superior Lip Butter (Large 50ml) – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "media": "gid://shopify/MediaImage/74033646436739",
+   "src": "LipButter1800x1800frame-01.jpg",
+   "alt": "Superior Lip Butter (Large 50ml) – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "media": "gid://shopify/MediaImage/74033646502275",
+   "src": "Lip_Butterr_Jar_HDRI_White_R1_View010002_PP.jpg",
+   "alt": "Superior Lip Butter (Large 50ml) – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "media": "gid://shopify/MediaImage/74033646535043",
+   "src": "Lip_Butterr_Jar_HDRI_White_R1_View020002_PP.jpg",
+   "alt": "Superior Lip Butter (Large 50ml) – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646109059",
+   "src": "hb-youthboost-hero-v1.png",
+   "alt": "YOUTHBOOST Peptide Serum"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646141827",
+   "src": "YOUTHBOOSTHeroBlueFotor1000x1000Reduced.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646174595",
+   "src": "YOUTHBOOST_Dark_Lid_Off_Fotor_1000_x_1000.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646207363",
+   "src": "YOUTHBOOST_Blue_Lid_Off_Fotor_1000_x_1000.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646240131",
+   "src": "YOUTHBOOST_Dropper_Blue_FOTOR_1000_x_1000.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646272899",
+   "src": "Youthboost_HDRI_All_R2_Droplets.VRayDenoiser.0001_PP-fotor-20240424125252.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "media": "gid://shopify/MediaImage/74033646305667",
+   "src": "Youthboost_HDRI_All_R2_Droplets.VRayDenoiser.0002_PP-fotor-2024042291332.jpg",
+   "alt": "YOUTHBOOST Peptide Serum – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368958210435",
+   "media": "gid://shopify/MediaImage/74033645650307",
+   "src": "hb-night-elixir-50ml-hero.png",
+   "alt": "Night Elixir"
+  },
+  {
+   "product": "gid://shopify/Product/16368958210435",
+   "media": "gid://shopify/MediaImage/74033645715843",
+   "src": "hb-night-elixir-open-jar.jpg",
+   "alt": "Night Elixir – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958210435",
+   "media": "gid://shopify/MediaImage/74033645781379",
+   "src": "hb-night-elixir-10ml-hero.png",
+   "alt": "Night Elixir – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958144899",
+   "media": "gid://shopify/MediaImage/74033645453699",
+   "src": "seven-phase-hero-v2.png",
+   "alt": "Seven Phase Collection"
+  },
+  {
+   "product": "gid://shopify/Product/16368958144899",
+   "media": "gid://shopify/MediaImage/74033645552003",
+   "src": "HL_Top_Performers_Creative_04_SET_A_Seven_Phase_Set_1060_1x1_HR2022.jpg",
+   "alt": "Seven Phase Collection – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958144899",
+   "media": "gid://shopify/MediaImage/74033645584771",
+   "src": "Bundele_DT_CC_IM_LB_NE_EG_BSH_HDRI_All_R1_View010001_PP_3.jpg",
+   "alt": "Seven Phase Collection – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368958144899",
+   "media": "gid://shopify/MediaImage/74033645617539",
+   "src": "HL_Top_Performers_Creative_14_SET_C_Seven_Phase_Set_1103_1x1_HR2022.jpg",
+   "alt": "Seven Phase Collection – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645224323",
+   "src": "hb-glowguard-hero.png",
+   "alt": "GLOWGUARD SPF30 Moisturiser"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645257091",
+   "src": "GLOWGUARD_BRIGHT_YELLOW.png",
+   "alt": "GLOWGUARD SPF30 Moisturiser – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645289859",
+   "src": "GLOW_GUARD_HERO_SHOT_YELLOW_v1.jpg",
+   "alt": "GLOWGUARD SPF30 Moisturiser – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645322627",
+   "src": "GLOWGUARD_with_box_v1.png",
+   "alt": "GLOWGUARD SPF30 Moisturiser – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645388163",
+   "src": "GLOWGUARD_SWATCH_YELLOW_v1.jpg",
+   "alt": "GLOWGUARD SPF30 Moisturiser – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "media": "gid://shopify/MediaImage/74033645420931",
+   "src": "hb-glowguard-30ml.jpg",
+   "alt": "GLOWGUARD SPF30 Moisturiser – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644044675",
+   "src": "hb-moistureburst-hero-v1.png",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644077443",
+   "src": "MOISTUREBURST_HERO_-_ORANGE_1080x1080_ed26e6f1-1dc7-42b1-bd92-b22bf1866307.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644110211",
+   "src": "MOISTUREBURST_HERO_-_WHITE_1080x1080_8e0dba6d-592a-4609-b30f-090e9c7e5fe2.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644142979",
+   "src": "MOISTUREBURST_BOX_-_WHITE_1080x1080_69cc6cd4-fd58-4f63-9151-e0b6d6ee1351.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644175747",
+   "src": "MOISTUREBURST_DROPLETS_-_BLACK_1080x1080_9f0b2841-082b-4691-a640-a036d3cddc77.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644208515",
+   "src": "MOISTUREBURST_HERO_-_BLACK_1080x1080_50161177-3dd9-4474-9391-e893d7a49af0.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644241283",
+   "src": "MOISTUREBURSTHERO-ORANGE1080x1080copy.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644274051",
+   "src": "MOISTUREBURST_BOX_-_ORANGE_1080x1080_6d8506f9-d863-42af-b3ea-c8fb27221135.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 8"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644306819",
+   "src": "MOISTUREBURST_IMAGE_-_GREY_DOTS_COLOUR_CORRECTED.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 9"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "media": "gid://shopify/MediaImage/74033644339587",
+   "src": "MOISTUREBURST_HERO_-_GREY_1080x1080_aa698926-68e2-4fa0-a0eb-426f2cbcaaa7.jpg",
+   "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 10"
+  },
+  {
+   "product": "gid://shopify/Product/16368957817219",
+   "media": "gid://shopify/MediaImage/74033643880835",
+   "src": "hb-revive-defy-stone-duo-v4.png",
+   "alt": "Revive and Defy Starter Set"
+  },
+  {
+   "product": "gid://shopify/Product/16368957817219",
+   "media": "gid://shopify/MediaImage/74033643913603",
+   "src": "hb-revive-defy-stone-serum-v4.png",
+   "alt": "Revive and Defy Starter Set – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368957817219",
+   "media": "gid://shopify/MediaImage/74033643946371",
+   "src": "hb-pdp-eye-gel_24ac22fa-2607-4e2d-aa5e-7e49882ce3a6.png",
+   "alt": "Revive and Defy Starter Set – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643684227",
+   "src": "hb-bakuchiol-hero-v1.png",
+   "alt": "Bakuchiol Youth Elixir"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643716995",
+   "src": "Bakuchiol_High_Jar_HDRI_All_R1.VRayDenoiser.0005_PP1080.jpg",
+   "alt": "Bakuchiol Youth Elixir – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643749763",
+   "src": "Scene_BKOH_HDRI_All_R1_Box_In.VRayDenoiser.0002_PP1080x1080.jpg",
+   "alt": "Bakuchiol Youth Elixir – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643782531",
+   "src": "Bakuchiol_High_Jar_HDRI_All_R1_Droplets.VRayDenoiser.0002_PP1080x1080.jpg",
+   "alt": "Bakuchiol Youth Elixir – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643815299",
+   "src": "Bakuchiol_High_Jar_HDRI_All_R1.VRayDenoiser.0001_PP1080x1080.jpg",
+   "alt": "Bakuchiol Youth Elixir – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "media": "gid://shopify/MediaImage/74033643848067",
+   "src": "Bakuchiol_High_Jar_HDRI_All_R1_Box_Out.VRayDenoiser.0003_PP21080x1080.jpg",
+   "alt": "Bakuchiol Youth Elixir – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368957751683",
+   "media": "gid://shopify/MediaImage/74033643487619",
+   "src": "LipButter1800x1800frame-01_9fa8fe3b-f571-4c85-9b8d-9f73ef8377f6.jpg",
+   "alt": "Superior Lip Butter (15ml)"
+  },
+  {
+   "product": "gid://shopify/Product/16368957751683",
+   "media": "gid://shopify/MediaImage/74033643553155",
+   "src": "Lip_Butterr_Jar_HDRI_White_R1_View010002_PP_993ced21-6039-434f-af94-3b8bceeb71d2.jpg",
+   "alt": "Superior Lip Butter (15ml) – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957751683",
+   "media": "gid://shopify/MediaImage/74033643585923",
+   "src": "Lip_Butterr_Jar_HDRI_White_R1_View020002_PP_4c3cf17b-4cc7-493b-9f04-38b5f03dfdfd.jpg",
+   "alt": "Superior Lip Butter (15ml) – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643291011",
+   "src": "hb-facial-oil-hero-v1.png",
+   "alt": "Organic Facial Oil"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643323779",
+   "src": "FACIAL_OIL_BLACK_CAM_1_nologo_1.jpg",
+   "alt": "Organic Facial Oil – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643356547",
+   "src": "FACIAL_OIL_WHITE_CAM_1_nologoforAZ-01.jpg",
+   "alt": "Organic Facial Oil – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643389315",
+   "src": "FACIALOIL_ORANGE_nologo_1.jpg",
+   "alt": "Organic Facial Oil – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643422083",
+   "src": "FACIAL_OIL_BLACK_CAM_2_nologo.jpg",
+   "alt": "Organic Facial Oil – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "media": "gid://shopify/MediaImage/74033643454851",
+   "src": "FACIAL_OIL_WHITE_CAM_2_nologo.jpg",
+   "alt": "Organic Facial Oil – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643094403",
+   "src": "hb-scrub-glow-hero-v2.png",
+   "alt": "Scrub and Glow Luminosity Set"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643127171",
+   "src": "2024_Scrub_and_Glow_Set_1.jpg",
+   "alt": "Scrub and Glow Luminosity Set – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643159939",
+   "src": "ScrubandglowSet1200x1200-01.jpg",
+   "alt": "Scrub and Glow Luminosity Set – view 3"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643192707",
+   "src": "ScrubandglowSet1200x1200Dark-01.jpg",
+   "alt": "Scrub and Glow Luminosity Set – view 4"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643225475",
+   "src": "Scene_Luminosity_Scrub_Butter_HDRI_White_View020004_PP.jpg",
+   "alt": "Scrub and Glow Luminosity Set – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "media": "gid://shopify/MediaImage/74033643258243",
+   "src": "Scene_Luminosity_Scrub_Butter_HDRI_Black_View010002_PP.jpg",
+   "alt": "Scrub and Glow Luminosity Set – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502224771",
+   "src": "hb-four-phase-warm-v2.png",
+   "alt": "Four Phase Day and Night"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502257539",
+   "src": "2024_Four_Phase_Day_and_Night_Wide_Jars_Only_1.jpg",
+   "alt": "Four Phase Day and Night – view 2"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502355843",
+   "src": "hb-pdp-four-phase-hero.png",
+   "alt": "Four Phase Day and Night – view 5"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502388611",
+   "src": "hb-pdp-serum-jar.png",
+   "alt": "Four Phase Day and Night – view 6"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502421379",
+   "src": "hb-pdp-eye-gel.png",
+   "alt": "Four Phase Day and Night – view 7"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502454147",
+   "src": "hb-pdp-moisturiser.png",
+   "alt": "Four Phase Day and Night – view 8"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502486915",
+   "src": "hb-pdp-night-elixir.png",
+   "alt": "Four Phase Day and Night – view 9"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502519683",
+   "src": "2024_Four_Phase_Day_and_Night_Row_Wide_1.jpg",
+   "alt": "Four Phase Day and Night – view 10"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "media": "gid://shopify/MediaImage/74033502552451",
+   "src": "hb-pdp-serum-bottle.png",
+   "alt": "Four Phase Day and Night – view 11"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "variant": "gid://shopify/ProductVariant/62753909244291",
+   "old": "gid://shopify/MediaImage/74033646895491",
+   "new": "gid://shopify/MediaImage/74824859058563"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "variant": "gid://shopify/ProductVariant/62753909277059",
+   "old": "gid://shopify/MediaImage/74033647092099",
+   "new": "gid://shopify/MediaImage/74824859189635"
+  },
+  {
+   "product": "gid://shopify/Product/16368958374275",
+   "variant": "gid://shopify/ProductVariant/62753909309827",
+   "old": "gid://shopify/MediaImage/74033647026563",
+   "new": "gid://shopify/MediaImage/74824859156867"
+  },
+  {
+   "product": "gid://shopify/Product/16368958603651",
+   "variant": "gid://shopify/ProductVariant/62753909506435",
+   "old": "gid://shopify/MediaImage/74033647911299",
+   "new": "gid://shopify/MediaImage/74824859222403"
+  },
+  {
+   "product": "gid://shopify/Product/16368958570883",
+   "variant": "gid://shopify/ProductVariant/62753909473667",
+   "old": "gid://shopify/MediaImage/74033647812995",
+   "new": "gid://shopify/MediaImage/74824859287939"
+  },
+  {
+   "product": "gid://shopify/Product/16368958538115",
+   "variant": "gid://shopify/ProductVariant/62753909375363",
+   "old": "gid://shopify/MediaImage/74033647550851",
+   "new": "gid://shopify/MediaImage/74824859386243"
+  },
+  {
+   "product": "gid://shopify/Product/16368958505347",
+   "variant": "gid://shopify/ProductVariant/62753909440899",
+   "old": "gid://shopify/MediaImage/74033647681923",
+   "new": "gid://shopify/MediaImage/74824859517315"
+  },
+  {
+   "product": "gid://shopify/Product/16368958472579",
+   "variant": "gid://shopify/ProductVariant/62753909408131",
+   "old": "gid://shopify/MediaImage/74033647387011",
+   "new": "gid://shopify/MediaImage/74824859648387"
+  },
+  {
+   "product": "gid://shopify/Product/16368958407043",
+   "variant": "gid://shopify/ProductVariant/62753909211523",
+   "old": "gid://shopify/MediaImage/74033647124867",
+   "new": "gid://shopify/MediaImage/74824859812227"
+  },
+  {
+   "product": "gid://shopify/Product/16368958308739",
+   "variant": "gid://shopify/ProductVariant/62753909145987",
+   "old": "gid://shopify/MediaImage/74033646567811",
+   "new": "gid://shopify/MediaImage/74824860074371"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "variant": "gid://shopify/ProductVariant/62753909047683",
+   "old": "gid://shopify/MediaImage/74033645814147",
+   "new": "gid://shopify/MediaImage/74824860434819"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "variant": "gid://shopify/ProductVariant/62753909080451",
+   "old": "gid://shopify/MediaImage/74033646076291",
+   "new": "gid://shopify/MediaImage/74824860598659"
+  },
+  {
+   "product": "gid://shopify/Product/16368958177667",
+   "variant": "gid://shopify/ProductVariant/62753909113219",
+   "old": "gid://shopify/MediaImage/74033646043523",
+   "new": "gid://shopify/MediaImage/74824860565891"
+  },
+  {
+   "product": "gid://shopify/Product/16368958439811",
+   "variant": "gid://shopify/ProductVariant/62753909178755",
+   "old": "gid://shopify/MediaImage/74033646731651",
+   "new": "gid://shopify/MediaImage/74824860631427"
+  },
+  {
+   "product": "gid://shopify/Product/16368958275971",
+   "variant": "gid://shopify/ProductVariant/62753909014915",
+   "old": "gid://shopify/MediaImage/74033646371203",
+   "new": "gid://shopify/MediaImage/74824860795267"
+  },
+  {
+   "product": "gid://shopify/Product/16368958243203",
+   "variant": "gid://shopify/ProductVariant/62753908982147",
+   "old": "gid://shopify/MediaImage/74033646109059",
+   "new": "gid://shopify/MediaImage/74824860959107"
+  },
+  {
+   "product": "gid://shopify/Product/16368958210435",
+   "variant": "gid://shopify/ProductVariant/62753908916611",
+   "old": "gid://shopify/MediaImage/74033645650307",
+   "new": "gid://shopify/MediaImage/74824870691203"
+  },
+  {
+   "product": "gid://shopify/Product/16368958210435",
+   "variant": "gid://shopify/ProductVariant/62753908949379",
+   "old": "gid://shopify/MediaImage/74033645781379",
+   "new": "gid://shopify/MediaImage/74824870756739"
+  },
+  {
+   "product": "gid://shopify/Product/16368958144899",
+   "variant": "gid://shopify/ProductVariant/62753908883843",
+   "old": "gid://shopify/MediaImage/74033645453699",
+   "new": "gid://shopify/MediaImage/74824870789507"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "variant": "gid://shopify/ProductVariant/62753908818307",
+   "old": "gid://shopify/MediaImage/74033645224323",
+   "new": "gid://shopify/MediaImage/74824870920579"
+  },
+  {
+   "product": "gid://shopify/Product/16368958112131",
+   "variant": "gid://shopify/ProductVariant/62753908851075",
+   "old": "gid://shopify/MediaImage/74033645420931",
+   "new": "gid://shopify/MediaImage/74824871084419"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "variant": "gid://shopify/ProductVariant/62753907900803",
+   "old": "gid://shopify/MediaImage/74033644044675",
+   "new": "gid://shopify/MediaImage/74824871117187"
+  },
+  {
+   "product": "gid://shopify/Product/16368957849987",
+   "variant": "gid://shopify/ProductVariant/62753907933571",
+   "old": "gid://shopify/MediaImage/74033644077443",
+   "new": "gid://shopify/MediaImage/74824871149955"
+  },
+  {
+   "product": "gid://shopify/Product/16368957817219",
+   "variant": "gid://shopify/ProductVariant/62753907868035",
+   "old": "gid://shopify/MediaImage/74033643880835",
+   "new": "gid://shopify/MediaImage/74824871477635"
+  },
+  {
+   "product": "gid://shopify/Product/16368957784451",
+   "variant": "gid://shopify/ProductVariant/62753907835267",
+   "old": "gid://shopify/MediaImage/74033643684227",
+   "new": "gid://shopify/MediaImage/74824871575939"
+  },
+  {
+   "product": "gid://shopify/Product/16368957718915",
+   "variant": "gid://shopify/ProductVariant/62753907769731",
+   "old": "gid://shopify/MediaImage/74033643291011",
+   "new": "gid://shopify/MediaImage/74824871870851"
+  },
+  {
+   "product": "gid://shopify/Product/16368957686147",
+   "variant": "gid://shopify/ProductVariant/62753907736963",
+   "old": "gid://shopify/MediaImage/74033643094403",
+   "new": "gid://shopify/MediaImage/74824872395139"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "variant": "gid://shopify/ProductVariant/62753801961859",
+   "old": "gid://shopify/MediaImage/74033502224771",
+   "new": "gid://shopify/MediaImage/74824872591747"
+  },
+  {
+   "product": "gid://shopify/Product/16368933699971",
+   "variant": "gid://shopify/ProductVariant/62753801994627",
+   "old": "gid://shopify/MediaImage/74033502519683",
+   "new": "gid://shopify/MediaImage/74824872821123"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "pre-eminent-beauty-serum",
+   "id": 16368958374275,
+   "title": "Pre-Eminent Beauty Serum",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "hb-serum-50-scale-v4.png",
+     "in": "pre-eminent-beauty-serum-01.webp",
+     "alt": "Pre-Eminent Beauty Serum",
+     "new_alt": "Pre-Eminent Beauty Serum",
+     "variant_ids": [
+      62753909244291
+     ],
+     "method": "bire",
+     "out": "pre-eminent-beauty-serum-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646895491",
+     "new_media": "gid://shopify/MediaImage/74824859058563"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "hb-serum-50ml-stone-v1.png",
+     "in": "pre-eminent-beauty-serum-02.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 2",
+     "new_alt": "Pre-Eminent Beauty Serum – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "pre-eminent-beauty-serum-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646928259",
+     "new_media": "gid://shopify/MediaImage/74824859091331"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "hb-serum-jar-scoop-v1.png",
+     "in": "pre-eminent-beauty-serum-03.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 3",
+     "new_alt": "Pre-Eminent Beauty Serum – view 3",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "pre-eminent-beauty-serum-03-photo.webp"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "hb-pdp-serum-jar_fbf00a5a-7822-457d-8f7c-7104998ba2e6.png",
+     "in": "pre-eminent-beauty-serum-04.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 4",
+     "new_alt": "Pre-Eminent Beauty Serum – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "pre-eminent-beauty-serum-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646993795",
+     "new_media": "gid://shopify/MediaImage/74824859124099"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "hb-revive-defy-stone-serum-v4_89cfae29-8d01-4123-9499-09e42ed88dcd.png",
+     "in": "pre-eminent-beauty-serum-05.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 5",
+     "new_alt": "Pre-Eminent Beauty Serum – view 5",
+     "variant_ids": [
+      62753909309827
+     ],
+     "method": "bire",
+     "out": "pre-eminent-beauty-serum-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647026563",
+     "new_media": "gid://shopify/MediaImage/74824859156867"
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "src": "hb-revive-defy-serum-dispensing-v4_f41ae62d-3a08-417f-bb90-8f4e858db672.png",
+     "in": "pre-eminent-beauty-serum-06.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 6",
+     "new_alt": "Pre-Eminent Beauty Serum – view 6",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "pre-eminent-beauty-serum-06-photo.webp"
+    },
+    {
+     "n": 7,
+     "pos": 7,
+     "src": "hb-serum-30-scale-v3.png",
+     "in": "pre-eminent-beauty-serum-07.webp",
+     "alt": "Pre-Eminent Beauty Serum – view 7",
+     "new_alt": "Pre-Eminent Beauty Serum – view 7",
+     "variant_ids": [
+      62753909277059
+     ],
+     "method": "bire",
+     "out": "pre-eminent-beauty-serum-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647092099",
+     "new_media": "gid://shopify/MediaImage/74824859189635"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "imperial-moisturiser",
+   "id": 16368958603651,
+   "title": "Imperial Moisturiser",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "hb-pdp-moisturiser_512bd6d0-3efa-4582-9e8a-05fe57c61c4a.png",
+     "in": "imperial-moisturiser-01.webp",
+     "alt": "Imperial Moisturiser",
+     "new_alt": "Imperial Moisturiser",
+     "variant_ids": [
+      62753909506435
+     ],
+     "method": "bire",
+     "out": "imperial-moisturiser-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647911299",
+     "new_media": "gid://shopify/MediaImage/74824859222403"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "hb-moisturiser-lid-off-v1.png",
+     "in": "imperial-moisturiser-02.webp",
+     "alt": "Imperial Moisturiser – view 2",
+     "new_alt": "Imperial Moisturiser – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "imperial-moisturiser-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647944067",
+     "new_media": "gid://shopify/MediaImage/74824859255171"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "hb-moisturiser-real-application.jpg",
+     "in": "imperial-moisturiser-03.webp",
+     "alt": "Imperial Moisturiser – view 3",
+     "new_alt": "Imperial Moisturiser – view 3",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "imperial-moisturiser-03-photo.webp"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "hb-moisturiser-held-daylight.jpg",
+     "in": "imperial-moisturiser-04.webp",
+     "alt": "Imperial Moisturiser – view 4",
+     "new_alt": "Imperial Moisturiser – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "imperial-moisturiser-04-photo.webp"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "cleanse-and-tone-pack",
+   "id": 16368958570883,
+   "title": "Cleanse and Tone Pack",
+   "images": [
+    {
+     "n": 12,
+     "pos": 1,
+     "src": "hb-cleanse-tone-hero-v1.png",
+     "in": "cleanse-and-tone-pack-01.webp",
+     "alt": "Cleanse and Tone Pack",
+     "new_alt": "Cleanse and Tone Pack",
+     "variant_ids": [
+      62753909473667
+     ],
+     "method": "bire",
+     "out": "cleanse-and-tone-pack-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647812995",
+     "new_media": "gid://shopify/MediaImage/74824859287939"
+    },
+    {
+     "n": 13,
+     "pos": 2,
+     "src": "CleanseandTonePackGlassblack-01.jpg",
+     "in": "cleanse-and-tone-pack-02.webp",
+     "alt": "Cleanse and Tone Pack – view 2",
+     "new_alt": "Cleanse and Tone Pack – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "cleanse-and-tone-pack-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647845763",
+     "new_media": "gid://shopify/MediaImage/74824859320707"
+    },
+    {
+     "n": 14,
+     "pos": 3,
+     "src": "CleanseandTonePackGlassWhite-Portraitcopy.jpg",
+     "in": "cleanse-and-tone-pack-03.webp",
+     "alt": "Cleanse and Tone Pack – view 3",
+     "new_alt": "Cleanse and Tone Pack – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "cleanse-and-tone-pack-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647878531",
+     "new_media": "gid://shopify/MediaImage/74824859353475"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "diamond-toner-100ml",
+   "id": 16368958538115,
+   "title": "Diamond Toner (100ml)",
+   "images": [
+    {
+     "n": 15,
+     "pos": 1,
+     "src": "hb-cleanse-tone-toner.png",
+     "in": "diamond-toner-100ml-01.webp",
+     "alt": "Diamond Toner (100ml)",
+     "new_alt": "Diamond Toner (100ml)",
+     "variant_ids": [
+      62753909375363
+     ],
+     "method": "bire",
+     "out": "diamond-toner-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647550851",
+     "new_media": "gid://shopify/MediaImage/74824859386243"
+    },
+    {
+     "n": 16,
+     "pos": 2,
+     "src": "DiamondTonerGlassblack-01copy.jpg",
+     "in": "diamond-toner-100ml-02.webp",
+     "alt": "Diamond Toner (100ml) – view 2",
+     "new_alt": "Diamond Toner (100ml) – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "diamond-toner-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647583619",
+     "new_media": "gid://shopify/MediaImage/74824859419011"
+    },
+    {
+     "n": 17,
+     "pos": 3,
+     "src": "DiamondTonerGlasswhite-Portrait2copy.jpg",
+     "in": "diamond-toner-100ml-03.webp",
+     "alt": "Diamond Toner (100ml) – view 3",
+     "new_alt": "Diamond Toner (100ml) – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "diamond-toner-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647616387",
+     "new_media": "gid://shopify/MediaImage/74824859451779"
+    },
+    {
+     "n": 18,
+     "pos": 4,
+     "src": "Diamond_Toner_HDRI_White_R1_View010002.jpg",
+     "in": "diamond-toner-100ml-04.webp",
+     "alt": "Diamond Toner (100ml) – view 4",
+     "new_alt": "Diamond Toner (100ml) – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "diamond-toner-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647649155",
+     "new_media": "gid://shopify/MediaImage/74824859484547"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "crystal-cleanser-100ml",
+   "id": 16368958505347,
+   "title": "Crystal Cleanser (100ml)",
+   "images": [
+    {
+     "n": 19,
+     "pos": 1,
+     "src": "hb-cleanse-tone-cleanser.png",
+     "in": "crystal-cleanser-100ml-01.webp",
+     "alt": "Crystal Cleanser (100ml)",
+     "new_alt": "Crystal Cleanser (100ml)",
+     "variant_ids": [
+      62753909440899
+     ],
+     "method": "bire",
+     "out": "crystal-cleanser-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647681923",
+     "new_media": "gid://shopify/MediaImage/74824859517315"
+    },
+    {
+     "n": 20,
+     "pos": 2,
+     "src": "CrystalCleanserGlassblacknostamp-01_1.jpg",
+     "in": "crystal-cleanser-100ml-02.webp",
+     "alt": "Crystal Cleanser (100ml) – view 2",
+     "new_alt": "Crystal Cleanser (100ml) – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "crystal-cleanser-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647714691",
+     "new_media": "gid://shopify/MediaImage/74824859550083"
+    },
+    {
+     "n": 21,
+     "pos": 3,
+     "src": "CrystalCleanserGlasswhitenostamp-Poprtraitv2copy.jpg",
+     "in": "crystal-cleanser-100ml-03.webp",
+     "alt": "Crystal Cleanser (100ml) – view 3",
+     "new_alt": "Crystal Cleanser (100ml) – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "crystal-cleanser-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647747459",
+     "new_media": "gid://shopify/MediaImage/74824859582851"
+    },
+    {
+     "n": 22,
+     "pos": 4,
+     "src": "Crystal_Cleanser_HDRI_White_R1_View010008.jpg",
+     "in": "crystal-cleanser-100ml-04.webp",
+     "alt": "Crystal Cleanser (100ml) – view 4",
+     "new_alt": "Crystal Cleanser (100ml) – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "crystal-cleanser-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647780227",
+     "new_media": "gid://shopify/MediaImage/74824859615619"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-luminosity-scrub",
+   "id": 16368958472579,
+   "title": "Natural Luminosity Scrub",
+   "images": [
+    {
+     "n": 23,
+     "pos": 1,
+     "src": "hb-luminosity-scrub-hero-v2.png",
+     "in": "natural-luminosity-scrub-01.webp",
+     "alt": "Natural Luminosity Scrub",
+     "new_alt": "Natural Luminosity Scrub",
+     "variant_ids": [
+      62753909408131
+     ],
+     "method": "bire",
+     "out": "natural-luminosity-scrub-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647387011",
+     "new_media": "gid://shopify/MediaImage/74824859648387"
+    },
+    {
+     "n": 24,
+     "pos": 2,
+     "src": "2024_Natural_Luminosity_Scrub_for_Store_1.jpg",
+     "in": "natural-luminosity-scrub-02.webp",
+     "alt": "Natural Luminosity Scrub – view 2",
+     "new_alt": "Natural Luminosity Scrub – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-scrub-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647419779",
+     "new_media": "gid://shopify/MediaImage/74824859681155"
+    },
+    {
+     "n": 25,
+     "pos": 3,
+     "src": "Scrub1080x1080-Portraitcopy2.jpg",
+     "in": "natural-luminosity-scrub-03.webp",
+     "alt": "Natural Luminosity Scrub – view 3",
+     "new_alt": "Natural Luminosity Scrub – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-scrub-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647452547",
+     "new_media": "gid://shopify/MediaImage/74824859713923"
+    },
+    {
+     "n": 26,
+     "pos": 4,
+     "src": "Luminosity_Jar_HDRI_White_R2_View030001_PP.jpg",
+     "in": "natural-luminosity-scrub-04.webp",
+     "alt": "Natural Luminosity Scrub – view 4",
+     "new_alt": "Natural Luminosity Scrub – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-scrub-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647485315",
+     "new_media": "gid://shopify/MediaImage/74824859746691"
+    },
+    {
+     "n": 27,
+     "pos": 5,
+     "src": "Luminosity_Jar_HDRI_White_R2_View030005_PP.jpg",
+     "in": "natural-luminosity-scrub-05.webp",
+     "alt": "Natural Luminosity Scrub – view 5",
+     "new_alt": "Natural Luminosity Scrub – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-scrub-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647518083",
+     "new_media": "gid://shopify/MediaImage/74824859779459"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "natural-luminosity-body-butter",
+   "id": 16368958407043,
+   "title": "Natural Luminosity Body Butter",
+   "images": [
+    {
+     "n": 28,
+     "pos": 1,
+     "src": "hb-body-butter-hero-v2.png",
+     "in": "natural-luminosity-body-butter-01.webp",
+     "alt": "Natural Luminosity Body Butter",
+     "new_alt": "Natural Luminosity Body Butter",
+     "variant_ids": [
+      62753909211523
+     ],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647124867",
+     "new_media": "gid://shopify/MediaImage/74824859812227"
+    },
+    {
+     "n": 29,
+     "pos": 2,
+     "src": "2024_Natural_Luminosity_Body_Butter_1.jpg",
+     "in": "natural-luminosity-body-butter-02.webp",
+     "alt": "Natural Luminosity Body Butter – view 2",
+     "new_alt": "Natural Luminosity Body Butter – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647157635",
+     "new_media": "gid://shopify/MediaImage/74824859844995"
+    },
+    {
+     "n": 30,
+     "pos": 3,
+     "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010001_PP_2.jpg",
+     "in": "natural-luminosity-body-butter-03.webp",
+     "alt": "Natural Luminosity Body Butter – view 3",
+     "new_alt": "Natural Luminosity Body Butter – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647190403",
+     "new_media": "gid://shopify/MediaImage/74824859877763"
+    },
+    {
+     "n": 31,
+     "pos": 4,
+     "src": "Luminosity_Butter_Jar_HDRI_Black_R1_View010003_PP_1.jpg",
+     "in": "natural-luminosity-body-butter-04.webp",
+     "alt": "Natural Luminosity Body Butter – view 4",
+     "new_alt": "Natural Luminosity Body Butter – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647223171",
+     "new_media": "gid://shopify/MediaImage/74824859910531"
+    },
+    {
+     "n": 32,
+     "pos": 5,
+     "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010003_PP_1_1.jpg",
+     "in": "natural-luminosity-body-butter-05.webp",
+     "alt": "Natural Luminosity Body Butter – view 5",
+     "new_alt": "Natural Luminosity Body Butter – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647255939",
+     "new_media": "gid://shopify/MediaImage/74824859943299"
+    },
+    {
+     "n": 33,
+     "pos": 6,
+     "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010002_PP_1.jpg",
+     "in": "natural-luminosity-body-butter-06.webp",
+     "alt": "Natural Luminosity Body Butter – view 6",
+     "new_alt": "Natural Luminosity Body Butter – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647288707",
+     "new_media": "gid://shopify/MediaImage/74824859976067"
+    },
+    {
+     "n": 34,
+     "pos": 7,
+     "src": "Luminosity_Butter_Jar_HDRI_White_R1_View010005_PP_1.jpg",
+     "in": "natural-luminosity-body-butter-07.webp",
+     "alt": "Natural Luminosity Body Butter – view 7",
+     "new_alt": "Natural Luminosity Body Butter – view 7",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "natural-luminosity-body-butter-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033647321475",
+     "new_media": "gid://shopify/MediaImage/74824860008835"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "ultimate-day-night-moisture-set",
+   "id": 16368958308739,
+   "title": "Ultimate Day & Night Moisture Set",
+   "images": [
+    {
+     "n": 35,
+     "pos": 1,
+     "src": "ultimate-day-night-hero-v1.png",
+     "in": "ultimate-day-night-moisture-set-01.webp",
+     "alt": "Ultimate Day & Night Moisture Set",
+     "new_alt": "Ultimate Day & Night Moisture Set",
+     "variant_ids": [
+      62753909145987
+     ],
+     "method": "bire",
+     "out": "ultimate-day-night-moisture-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646567811",
+     "new_media": "gid://shopify/MediaImage/74824860074371"
+    },
+    {
+     "n": 36,
+     "pos": 2,
+     "src": "2024_Ultimate_Day_and_Night_Set_for_Store_1.jpg",
+     "in": "ultimate-day-night-moisture-set-02.webp",
+     "alt": "Ultimate Day & Night Moisture Set – view 2",
+     "new_alt": "Ultimate Day & Night Moisture Set – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "ultimate-day-night-moisture-set-02-photo.webp"
+    },
+    {
+     "n": 37,
+     "pos": 3,
+     "src": "2024_Ultimate_Day_and_Night_Dark_Flat_for_Store_1.jpg",
+     "in": "ultimate-day-night-moisture-set-03.webp",
+     "alt": "Ultimate Day & Night Moisture Set – view 3",
+     "new_alt": "Ultimate Day & Night Moisture Set – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ultimate-day-night-moisture-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646633347",
+     "new_media": "gid://shopify/MediaImage/74824860107139"
+    },
+    {
+     "n": 38,
+     "pos": 4,
+     "src": "2024_Ultimate_Day_and_Night_Moisture_Set_White_Box_1.jpg",
+     "in": "ultimate-day-night-moisture-set-04.webp",
+     "alt": "Ultimate Day & Night Moisture Set – view 4",
+     "new_alt": "Ultimate Day & Night Moisture Set – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "ultimate-day-night-moisture-set-04-photo.webp"
+    },
+    {
+     "n": 39,
+     "pos": 5,
+     "src": "DayandNoightGlass1-01copy.jpg",
+     "in": "ultimate-day-night-moisture-set-05.webp",
+     "alt": "Ultimate Day & Night Moisture Set – view 5",
+     "new_alt": "Ultimate Day & Night Moisture Set – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "ultimate-day-night-moisture-set-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646698883",
+     "new_media": "gid://shopify/MediaImage/74824860139907"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "imperial-eye-gel",
+   "id": 16368958177667,
+   "title": "Imperial Eye Gel",
+   "images": [
+    {
+     "n": 40,
+     "pos": 1,
+     "src": "hb-eye-gel-30-scale-v3.png",
+     "in": "imperial-eye-gel-01.webp",
+     "alt": "Imperial Eye Gel",
+     "new_alt": "Imperial Eye Gel",
+     "variant_ids": [
+      62753909047683
+     ],
+     "method": "bire",
+     "out": "imperial-eye-gel-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645814147",
+     "new_media": "gid://shopify/MediaImage/74824860434819"
+    },
+    {
+     "n": 41,
+     "pos": 2,
+     "src": "hb-eye-gel-30ml-stone-v2.png",
+     "in": "imperial-eye-gel-02.webp",
+     "alt": "Imperial Eye Gel – view 2",
+     "new_alt": "Imperial Eye Gel – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "imperial-eye-gel-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645846915",
+     "new_media": "gid://shopify/MediaImage/74824860467587"
+    },
+    {
+     "n": 42,
+     "pos": 3,
+     "src": "2024_Dark_Imperial_Eye_Gel_1000_x_1000_for_store_copy_1.jpg",
+     "in": "imperial-eye-gel-03.webp",
+     "alt": "Imperial Eye Gel – view 3",
+     "new_alt": "Imperial Eye Gel – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "imperial-eye-gel-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645879683",
+     "new_media": "gid://shopify/MediaImage/74824860500355"
+    },
+    {
+     "n": 43,
+     "pos": 4,
+     "src": "hb-eye-gel-open-jar-in-hand_c1eb5bb3-1d68-463a-82df-54e2f39ddc82.jpg",
+     "in": "imperial-eye-gel-04.webp",
+     "alt": "Imperial Eye Gel – view 4",
+     "new_alt": "Imperial Eye Gel – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "imperial-eye-gel-04-photo.webp"
+    },
+    {
+     "n": 44,
+     "pos": 5,
+     "src": "hb-eye-gel-held-in-daylight.jpg",
+     "in": "imperial-eye-gel-05.webp",
+     "alt": "Imperial Eye Gel – view 5",
+     "new_alt": "Imperial Eye Gel – view 5",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "imperial-eye-gel-05-photo.webp"
+    },
+    {
+     "n": 45,
+     "pos": 6,
+     "src": "hb-eye-gel-application.jpg",
+     "in": "imperial-eye-gel-06.webp",
+     "alt": "Imperial Eye Gel – view 6",
+     "new_alt": "Imperial Eye Gel – view 6",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "imperial-eye-gel-06-photo.webp"
+    },
+    {
+     "n": 46,
+     "pos": 7,
+     "src": "hb-pdp-eye-gel_5261d836-d678-490d-91ca-d5432c2de1bb.png",
+     "in": "imperial-eye-gel-07.webp",
+     "alt": "Imperial Eye Gel – view 7",
+     "new_alt": "Imperial Eye Gel – view 7",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "imperial-eye-gel-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646010755",
+     "new_media": "gid://shopify/MediaImage/74824860533123"
+    },
+    {
+     "n": 47,
+     "pos": 8,
+     "src": "ImperialEyeGel10ml-01.jpg",
+     "in": "imperial-eye-gel-08.webp",
+     "alt": "Imperial Eye Gel – view 8",
+     "new_alt": "Imperial Eye Gel – view 8",
+     "variant_ids": [
+      62753909113219
+     ],
+     "method": "bire",
+     "out": "imperial-eye-gel-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646043523",
+     "new_media": "gid://shopify/MediaImage/74824860565891"
+    },
+    {
+     "n": 48,
+     "pos": 9,
+     "src": "hb-eye-gel-15-scale-v4.png",
+     "in": "imperial-eye-gel-09.webp",
+     "alt": "Imperial Eye Gel – view 9",
+     "new_alt": "Imperial Eye Gel – view 9",
+     "variant_ids": [
+      62753909080451
+     ],
+     "method": "bire",
+     "out": "imperial-eye-gel-09-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646076291",
+     "new_media": "gid://shopify/MediaImage/74824860598659"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "organic-hydration-gel",
+   "id": 16368958439811,
+   "title": "Organic Hydration Gel",
+   "images": [
+    {
+     "n": 49,
+     "pos": 1,
+     "src": "hb-hydration-gel-warm-v1.png",
+     "in": "organic-hydration-gel-01.webp",
+     "alt": "Organic Hydration Gel",
+     "new_alt": "Organic Hydration Gel",
+     "variant_ids": [
+      62753909178755
+     ],
+     "method": "bire",
+     "out": "organic-hydration-gel-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646731651",
+     "new_media": "gid://shopify/MediaImage/74824860631427"
+    },
+    {
+     "n": 50,
+     "pos": 2,
+     "src": "HydrationGel_HDRI_Black_View010001_PP_1.jpg",
+     "in": "organic-hydration-gel-02.webp",
+     "alt": "Organic Hydration Gel – view 2",
+     "new_alt": "Organic Hydration Gel – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-hydration-gel-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646764419",
+     "new_media": "gid://shopify/MediaImage/74824860664195"
+    },
+    {
+     "n": 51,
+     "pos": 3,
+     "src": "OH_single-01.jpg",
+     "in": "organic-hydration-gel-03.webp",
+     "alt": "Organic Hydration Gel – view 3",
+     "new_alt": "Organic Hydration Gel – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-hydration-gel-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646797187",
+     "new_media": "gid://shopify/MediaImage/74824860696963"
+    },
+    {
+     "n": 52,
+     "pos": 4,
+     "src": "HydrationGel_HDRI_White_View010003_PP_1.jpg",
+     "in": "organic-hydration-gel-04.webp",
+     "alt": "Organic Hydration Gel – view 4",
+     "new_alt": "Organic Hydration Gel – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-hydration-gel-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646829955",
+     "new_media": "gid://shopify/MediaImage/74824860729731"
+    },
+    {
+     "n": 53,
+     "pos": 5,
+     "src": "HydrationGel_HDRI_White_View010002_PP_1.jpg",
+     "in": "organic-hydration-gel-05.webp",
+     "alt": "Organic Hydration Gel – view 5",
+     "new_alt": "Organic Hydration Gel – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-hydration-gel-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646862723",
+     "new_media": "gid://shopify/MediaImage/74824860762499"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "superior-lip-butter-large-50ml",
+   "id": 16368958275971,
+   "title": "Superior Lip Butter (Large 50ml)",
+   "images": [
+    {
+     "n": 54,
+     "pos": 1,
+     "src": "hb-superior-lip-butter-hero.png",
+     "in": "superior-lip-butter-large-50ml-01.webp",
+     "alt": "Superior Lip Butter (Large 50ml)",
+     "new_alt": "Superior Lip Butter (Large 50ml)",
+     "variant_ids": [
+      62753909014915
+     ],
+     "method": "bire",
+     "out": "superior-lip-butter-large-50ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646371203",
+     "new_media": "gid://shopify/MediaImage/74824860795267"
+    },
+    {
+     "n": 55,
+     "pos": 2,
+     "src": "2024_Superior_Lip_Butter_1.jpg",
+     "in": "superior-lip-butter-large-50ml-02.webp",
+     "alt": "Superior Lip Butter (Large 50ml) – view 2",
+     "new_alt": "Superior Lip Butter (Large 50ml) – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-large-50ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646403971",
+     "new_media": "gid://shopify/MediaImage/74824860828035"
+    },
+    {
+     "n": 56,
+     "pos": 3,
+     "src": "LipButter1800x1800frame-01.jpg",
+     "in": "superior-lip-butter-large-50ml-03.webp",
+     "alt": "Superior Lip Butter (Large 50ml) – view 3",
+     "new_alt": "Superior Lip Butter (Large 50ml) – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-large-50ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646436739",
+     "new_media": "gid://shopify/MediaImage/74824860860803"
+    },
+    {
+     "n": 57,
+     "pos": 4,
+     "src": "HL_Top_Performers_Creative_09_SET_B_Seven_Superier_Lip_Butter_6190_1x1_HR.jpg",
+     "in": "superior-lip-butter-large-50ml-04.webp",
+     "alt": "Superior Lip Butter (Large 50ml) – view 4",
+     "new_alt": "Superior Lip Butter (Large 50ml) – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "superior-lip-butter-large-50ml-04-photo.webp"
+    },
+    {
+     "n": 58,
+     "pos": 5,
+     "src": "Lip_Butterr_Jar_HDRI_White_R1_View010002_PP.jpg",
+     "in": "superior-lip-butter-large-50ml-05.webp",
+     "alt": "Superior Lip Butter (Large 50ml) – view 5",
+     "new_alt": "Superior Lip Butter (Large 50ml) – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-large-50ml-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646502275",
+     "new_media": "gid://shopify/MediaImage/74824860893571"
+    },
+    {
+     "n": 59,
+     "pos": 6,
+     "src": "Lip_Butterr_Jar_HDRI_White_R1_View020002_PP.jpg",
+     "in": "superior-lip-butter-large-50ml-06.webp",
+     "alt": "Superior Lip Butter (Large 50ml) – view 6",
+     "new_alt": "Superior Lip Butter (Large 50ml) – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-large-50ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646535043",
+     "new_media": "gid://shopify/MediaImage/74824860926339"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "youthboost-anti-ageing-peptide-serum",
+   "id": 16368958243203,
+   "title": "YOUTHBOOST Peptide Serum",
+   "images": [
+    {
+     "n": 60,
+     "pos": 1,
+     "src": "hb-youthboost-hero-v1.png",
+     "in": "youthboost-anti-ageing-peptide-serum-01.webp",
+     "alt": "YOUTHBOOST Peptide Serum",
+     "new_alt": "YOUTHBOOST Peptide Serum",
+     "variant_ids": [
+      62753908982147
+     ],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646109059",
+     "new_media": "gid://shopify/MediaImage/74824860959107"
+    },
+    {
+     "n": 61,
+     "pos": 2,
+     "src": "YOUTHBOOSTHeroBlueFotor1000x1000Reduced.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-02.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 2",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646141827",
+     "new_media": "gid://shopify/MediaImage/74824860991875"
+    },
+    {
+     "n": 62,
+     "pos": 3,
+     "src": "YOUTHBOOST_Dark_Lid_Off_Fotor_1000_x_1000.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-03.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 3",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646174595",
+     "new_media": "gid://shopify/MediaImage/74824861024643"
+    },
+    {
+     "n": 63,
+     "pos": 4,
+     "src": "YOUTHBOOST_Blue_Lid_Off_Fotor_1000_x_1000.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-04.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 4",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646207363",
+     "new_media": "gid://shopify/MediaImage/74824861057411"
+    },
+    {
+     "n": 64,
+     "pos": 5,
+     "src": "YOUTHBOOST_Dropper_Blue_FOTOR_1000_x_1000.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-05.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 5",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646240131",
+     "new_media": "gid://shopify/MediaImage/74824861090179"
+    },
+    {
+     "n": 65,
+     "pos": 6,
+     "src": "Youthboost_HDRI_All_R2_Droplets.VRayDenoiser.0001_PP-fotor-20240424125252.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-06.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 6",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646272899",
+     "new_media": "gid://shopify/MediaImage/74824861122947"
+    },
+    {
+     "n": 66,
+     "pos": 7,
+     "src": "Youthboost_HDRI_All_R2_Droplets.VRayDenoiser.0002_PP-fotor-2024042291332.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-07.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 7",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 7",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "youthboost-anti-ageing-peptide-serum-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033646305667",
+     "new_media": "gid://shopify/MediaImage/74824861155715"
+    },
+    {
+     "n": 67,
+     "pos": 8,
+     "src": "YOUTHBOOST_in_Box_Blue_Fotor.jpg",
+     "in": "youthboost-anti-ageing-peptide-serum-08.webp",
+     "alt": "YOUTHBOOST Peptide Serum – view 8",
+     "new_alt": "YOUTHBOOST Peptide Serum – view 8",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "youthboost-anti-ageing-peptide-serum-08-photo.webp"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "night-elixir",
+   "id": 16368958210435,
+   "title": "Night Elixir",
+   "images": [
+    {
+     "n": 68,
+     "pos": 1,
+     "src": "hb-night-elixir-50ml-hero.png",
+     "in": "night-elixir-01.webp",
+     "alt": "Night Elixir",
+     "new_alt": "Night Elixir",
+     "variant_ids": [
+      62753908916611
+     ],
+     "method": "bire",
+     "out": "night-elixir-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645650307",
+     "new_media": "gid://shopify/MediaImage/74824870691203"
+    },
+    {
+     "n": 69,
+     "pos": 2,
+     "src": "hb-night-elixir-application.jpg",
+     "in": "night-elixir-02.webp",
+     "alt": "Night Elixir – view 2",
+     "new_alt": "Night Elixir – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "night-elixir-02-photo.webp"
+    },
+    {
+     "n": 70,
+     "pos": 3,
+     "src": "hb-night-elixir-open-jar.jpg",
+     "in": "night-elixir-03.webp",
+     "alt": "Night Elixir – view 3",
+     "new_alt": "Night Elixir – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "night-elixir-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645715843",
+     "new_media": "gid://shopify/MediaImage/74824870723971"
+    },
+    {
+     "n": 71,
+     "pos": 4,
+     "src": "hb-night-elixir-held.jpg",
+     "in": "night-elixir-04.webp",
+     "alt": "Night Elixir – view 4",
+     "new_alt": "Night Elixir – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "night-elixir-04-photo.webp"
+    },
+    {
+     "n": 72,
+     "pos": 5,
+     "src": "hb-night-elixir-10ml-hero.png",
+     "in": "night-elixir-05.webp",
+     "alt": "Night Elixir – view 5",
+     "new_alt": "Night Elixir – view 5",
+     "variant_ids": [
+      62753908949379
+     ],
+     "method": "bire",
+     "out": "night-elixir-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645781379",
+     "new_media": "gid://shopify/MediaImage/74824870756739"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "seven-phase-collection",
+   "id": 16368958144899,
+   "title": "Seven Phase Collection",
+   "images": [
+    {
+     "n": 73,
+     "pos": 1,
+     "src": "seven-phase-hero-v2.png",
+     "in": "seven-phase-collection-01.webp",
+     "alt": "Seven Phase Collection",
+     "new_alt": "Seven Phase Collection",
+     "variant_ids": [
+      62753908883843
+     ],
+     "method": "bire",
+     "out": "seven-phase-collection-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645453699",
+     "new_media": "gid://shopify/MediaImage/74824870789507"
+    },
+    {
+     "n": 74,
+     "pos": 2,
+     "src": "HIGHBORN_7_Phase_Collection_for_Store.jpg",
+     "in": "seven-phase-collection-02.webp",
+     "alt": "Seven Phase Collection – view 2",
+     "new_alt": "Seven Phase Collection – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "seven-phase-collection-02-photo.webp"
+    },
+    {
+     "n": 75,
+     "pos": 3,
+     "src": "Bundele_DT_CC_IM_LB_NE_EG_BSH_HDRI_All_R2_Box.VRayDenoiser.0001_PP-fotor-2024011264420.jpg",
+     "in": "seven-phase-collection-03.webp",
+     "alt": "Seven Phase Collection – view 3",
+     "new_alt": "Seven Phase Collection – view 3",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "seven-phase-collection-03-photo.webp"
+    },
+    {
+     "n": 76,
+     "pos": 4,
+     "src": "HL_Top_Performers_Creative_04_SET_A_Seven_Phase_Set_1060_1x1_HR2022.jpg",
+     "in": "seven-phase-collection-04.webp",
+     "alt": "Seven Phase Collection – view 4",
+     "new_alt": "Seven Phase Collection – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "seven-phase-collection-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645552003",
+     "new_media": "gid://shopify/MediaImage/74824870822275"
+    },
+    {
+     "n": 77,
+     "pos": 5,
+     "src": "Bundele_DT_CC_IM_LB_NE_EG_BSH_HDRI_All_R1_View010001_PP_3.jpg",
+     "in": "seven-phase-collection-05.webp",
+     "alt": "Seven Phase Collection – view 5",
+     "new_alt": "Seven Phase Collection – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "seven-phase-collection-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645584771",
+     "new_media": "gid://shopify/MediaImage/74824870855043"
+    },
+    {
+     "n": 78,
+     "pos": 6,
+     "src": "HL_Top_Performers_Creative_14_SET_C_Seven_Phase_Set_1103_1x1_HR2022.jpg",
+     "in": "seven-phase-collection-06.webp",
+     "alt": "Seven Phase Collection – view 6",
+     "new_alt": "Seven Phase Collection – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "seven-phase-collection-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645617539",
+     "new_media": "gid://shopify/MediaImage/74824870887811"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "glowguard-spf30-anti-ageing-moisturiser",
+   "id": 16368958112131,
+   "title": "GLOWGUARD SPF30 Moisturiser",
+   "images": [
+    {
+     "n": 79,
+     "pos": 1,
+     "src": "hb-glowguard-hero.png",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-01.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser",
+     "variant_ids": [
+      62753908818307
+     ],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645224323",
+     "new_media": "gid://shopify/MediaImage/74824870920579"
+    },
+    {
+     "n": 80,
+     "pos": 2,
+     "src": "GLOWGUARD_BRIGHT_YELLOW.png",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-02.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 2",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645257091",
+     "new_media": "gid://shopify/MediaImage/74824870953347"
+    },
+    {
+     "n": 81,
+     "pos": 3,
+     "src": "GLOW_GUARD_HERO_SHOT_YELLOW_v1.jpg",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-03.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 3",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645289859",
+     "new_media": "gid://shopify/MediaImage/74824870986115"
+    },
+    {
+     "n": 82,
+     "pos": 4,
+     "src": "GLOWGUARD_with_box_v1.png",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-04.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 4",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645322627",
+     "new_media": "gid://shopify/MediaImage/74824871018883"
+    },
+    {
+     "n": 83,
+     "pos": 5,
+     "src": "GLOWGUARD_IN_HAND_v1.jpg",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-05.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 5",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 5",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-05-photo.webp"
+    },
+    {
+     "n": 84,
+     "pos": 6,
+     "src": "GLOWGUARD_SWATCH_YELLOW_v1.jpg",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-06.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 6",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645388163",
+     "new_media": "gid://shopify/MediaImage/74824871051651"
+    },
+    {
+     "n": 85,
+     "pos": 7,
+     "src": "hb-glowguard-30ml.jpg",
+     "in": "glowguard-spf30-anti-ageing-moisturiser-07.webp",
+     "alt": "GLOWGUARD SPF30 Moisturiser – view 7",
+     "new_alt": "GLOWGUARD SPF30 Moisturiser – view 7",
+     "variant_ids": [
+      62753908851075
+     ],
+     "method": "bire",
+     "out": "glowguard-spf30-anti-ageing-moisturiser-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033645420931",
+     "new_media": "gid://shopify/MediaImage/74824871084419"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "moistureburst-hydrating-glow-ceramide-serum",
+   "id": 16368957849987,
+   "title": "MOISTUREBURST Hydrating Glow Ceramide Serum",
+   "images": [
+    {
+     "n": 86,
+     "pos": 1,
+     "src": "hb-moistureburst-hero-v1.png",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-01.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum",
+     "variant_ids": [
+      62753907900803
+     ],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644044675",
+     "new_media": "gid://shopify/MediaImage/74824871117187"
+    },
+    {
+     "n": 87,
+     "pos": 2,
+     "src": "MOISTUREBURST_HERO_-_ORANGE_1080x1080_ed26e6f1-1dc7-42b1-bd92-b22bf1866307.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-02.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 2",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 2",
+     "variant_ids": [
+      62753907933571
+     ],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644077443",
+     "new_media": "gid://shopify/MediaImage/74824871149955"
+    },
+    {
+     "n": 88,
+     "pos": 3,
+     "src": "MOISTUREBURST_HERO_-_WHITE_1080x1080_8e0dba6d-592a-4609-b30f-090e9c7e5fe2.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-03.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 3",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644110211",
+     "new_media": "gid://shopify/MediaImage/74824871182723"
+    },
+    {
+     "n": 89,
+     "pos": 4,
+     "src": "MOISTUREBURST_BOX_-_WHITE_1080x1080_69cc6cd4-fd58-4f63-9151-e0b6d6ee1351.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-04.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 4",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644142979",
+     "new_media": "gid://shopify/MediaImage/74824871215491"
+    },
+    {
+     "n": 90,
+     "pos": 5,
+     "src": "MOISTUREBURST_DROPLETS_-_BLACK_1080x1080_9f0b2841-082b-4691-a640-a036d3cddc77.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-05.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 5",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644175747",
+     "new_media": "gid://shopify/MediaImage/74824871248259"
+    },
+    {
+     "n": 91,
+     "pos": 6,
+     "src": "MOISTUREBURST_HERO_-_BLACK_1080x1080_50161177-3dd9-4474-9391-e893d7a49af0.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-06.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 6",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644208515",
+     "new_media": "gid://shopify/MediaImage/74824871281027"
+    },
+    {
+     "n": 92,
+     "pos": 7,
+     "src": "MOISTUREBURSTHERO-ORANGE1080x1080copy.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-07.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 7",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 7",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644241283",
+     "new_media": "gid://shopify/MediaImage/74824871313795"
+    },
+    {
+     "n": 93,
+     "pos": 8,
+     "src": "MOISTUREBURST_BOX_-_ORANGE_1080x1080_6d8506f9-d863-42af-b3ea-c8fb27221135.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-08.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 8",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 8",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644274051",
+     "new_media": "gid://shopify/MediaImage/74824871346563"
+    },
+    {
+     "n": 94,
+     "pos": 9,
+     "src": "MOISTUREBURST_IMAGE_-_GREY_DOTS_COLOUR_CORRECTED.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-09.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 9",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 9",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-09-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644306819",
+     "new_media": "gid://shopify/MediaImage/74824871379331"
+    },
+    {
+     "n": 95,
+     "pos": 10,
+     "src": "MOISTUREBURST_HERO_-_GREY_1080x1080_aa698926-68e2-4fa0-a0eb-426f2cbcaaa7.jpg",
+     "in": "moistureburst-hydrating-glow-ceramide-serum-10.webp",
+     "alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 10",
+     "new_alt": "MOISTUREBURST Hydrating Glow Ceramide Serum – view 10",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "moistureburst-hydrating-glow-ceramide-serum-10-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033644339587",
+     "new_media": "gid://shopify/MediaImage/74824871412099"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "revive-and-defy-starter-set",
+   "id": 16368957817219,
+   "title": "Revive and Defy Starter Set",
+   "images": [
+    {
+     "n": 96,
+     "pos": 1,
+     "src": "hb-revive-defy-stone-duo-v4.png",
+     "in": "revive-and-defy-starter-set-01.webp",
+     "alt": "Revive and Defy Starter Set",
+     "new_alt": "Revive and Defy Starter Set",
+     "variant_ids": [
+      62753907868035
+     ],
+     "method": "bire",
+     "out": "revive-and-defy-starter-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643880835",
+     "new_media": "gid://shopify/MediaImage/74824871477635"
+    },
+    {
+     "n": 97,
+     "pos": 2,
+     "src": "hb-revive-defy-stone-serum-v4.png",
+     "in": "revive-and-defy-starter-set-02.webp",
+     "alt": "Revive and Defy Starter Set – view 2",
+     "new_alt": "Revive and Defy Starter Set – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "revive-and-defy-starter-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643913603",
+     "new_media": "gid://shopify/MediaImage/74824871510403"
+    },
+    {
+     "n": 98,
+     "pos": 3,
+     "src": "hb-pdp-eye-gel_24ac22fa-2607-4e2d-aa5e-7e49882ce3a6.png",
+     "in": "revive-and-defy-starter-set-03.webp",
+     "alt": "Revive and Defy Starter Set – view 3",
+     "new_alt": "Revive and Defy Starter Set – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "revive-and-defy-starter-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643946371",
+     "new_media": "gid://shopify/MediaImage/74824871543171"
+    },
+    {
+     "n": 99,
+     "pos": 4,
+     "src": "hb-revive-defy-serum-dispensing-v4.png",
+     "in": "revive-and-defy-starter-set-04.webp",
+     "alt": "Revive and Defy Starter Set – view 4",
+     "new_alt": "Revive and Defy Starter Set – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "revive-and-defy-starter-set-04-photo.webp"
+    },
+    {
+     "n": 100,
+     "pos": 5,
+     "src": "hb-eye-gel-open-jar-in-hand.jpg",
+     "in": "revive-and-defy-starter-set-05.webp",
+     "alt": "Revive and Defy Starter Set – view 5",
+     "new_alt": "Revive and Defy Starter Set – view 5",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "revive-and-defy-starter-set-05-photo.webp"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "bakuchiol-youth-elixir",
+   "id": 16368957784451,
+   "title": "Bakuchiol Youth Elixir",
+   "images": [
+    {
+     "n": 101,
+     "pos": 1,
+     "src": "hb-bakuchiol-hero-v1.png",
+     "in": "bakuchiol-youth-elixir-01.webp",
+     "alt": "Bakuchiol Youth Elixir",
+     "new_alt": "Bakuchiol Youth Elixir",
+     "variant_ids": [
+      62753907835267
+     ],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643684227",
+     "new_media": "gid://shopify/MediaImage/74824871575939"
+    },
+    {
+     "n": 102,
+     "pos": 2,
+     "src": "Bakuchiol_High_Jar_HDRI_All_R1.VRayDenoiser.0005_PP1080.jpg",
+     "in": "bakuchiol-youth-elixir-02.webp",
+     "alt": "Bakuchiol Youth Elixir – view 2",
+     "new_alt": "Bakuchiol Youth Elixir – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643716995",
+     "new_media": "gid://shopify/MediaImage/74824871608707"
+    },
+    {
+     "n": 103,
+     "pos": 3,
+     "src": "Scene_BKOH_HDRI_All_R1_Box_In.VRayDenoiser.0002_PP1080x1080.jpg",
+     "in": "bakuchiol-youth-elixir-03.webp",
+     "alt": "Bakuchiol Youth Elixir – view 3",
+     "new_alt": "Bakuchiol Youth Elixir – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643749763",
+     "new_media": "gid://shopify/MediaImage/74824871641475"
+    },
+    {
+     "n": 104,
+     "pos": 4,
+     "src": "Bakuchiol_High_Jar_HDRI_All_R1_Droplets.VRayDenoiser.0002_PP1080x1080.jpg",
+     "in": "bakuchiol-youth-elixir-04.webp",
+     "alt": "Bakuchiol Youth Elixir – view 4",
+     "new_alt": "Bakuchiol Youth Elixir – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643782531",
+     "new_media": "gid://shopify/MediaImage/74824871674243"
+    },
+    {
+     "n": 105,
+     "pos": 5,
+     "src": "Bakuchiol_High_Jar_HDRI_All_R1.VRayDenoiser.0001_PP1080x1080.jpg",
+     "in": "bakuchiol-youth-elixir-05.webp",
+     "alt": "Bakuchiol Youth Elixir – view 5",
+     "new_alt": "Bakuchiol Youth Elixir – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643815299",
+     "new_media": "gid://shopify/MediaImage/74824871707011"
+    },
+    {
+     "n": 106,
+     "pos": 6,
+     "src": "Bakuchiol_High_Jar_HDRI_All_R1_Box_Out.VRayDenoiser.0003_PP21080x1080.jpg",
+     "in": "bakuchiol-youth-elixir-06.webp",
+     "alt": "Bakuchiol Youth Elixir – view 6",
+     "new_alt": "Bakuchiol Youth Elixir – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "bakuchiol-youth-elixir-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643848067",
+     "new_media": "gid://shopify/MediaImage/74824871739779"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "superior-lip-butter-15ml",
+   "id": 16368957751683,
+   "title": "Superior Lip Butter (15ml)",
+   "images": [
+    {
+     "n": 107,
+     "pos": 1,
+     "src": "LipButter1800x1800frame-01_9fa8fe3b-f571-4c85-9b8d-9f73ef8377f6.jpg",
+     "in": "superior-lip-butter-15ml-01.webp",
+     "alt": "Superior Lip Butter (15ml)",
+     "new_alt": "Superior Lip Butter (15ml)",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-15ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643487619",
+     "new_media": "gid://shopify/MediaImage/74824871772547"
+    },
+    {
+     "n": 108,
+     "pos": 2,
+     "src": "HL_Top_Performers_Creative_09_SET_B_Seven_Superier_Lip_Butter_6190_1x1_HR_43eed992-9846-4038-b850-413577989874.jpg",
+     "in": "superior-lip-butter-15ml-02.webp",
+     "alt": "Superior Lip Butter (15ml) – view 2",
+     "new_alt": "Superior Lip Butter (15ml) – view 2",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "superior-lip-butter-15ml-02-photo.webp"
+    },
+    {
+     "n": 109,
+     "pos": 3,
+     "src": "Lip_Butterr_Jar_HDRI_White_R1_View010002_PP_993ced21-6039-434f-af94-3b8bceeb71d2.jpg",
+     "in": "superior-lip-butter-15ml-03.webp",
+     "alt": "Superior Lip Butter (15ml) – view 3",
+     "new_alt": "Superior Lip Butter (15ml) – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-15ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643553155",
+     "new_media": "gid://shopify/MediaImage/74824871805315"
+    },
+    {
+     "n": 110,
+     "pos": 4,
+     "src": "Lip_Butterr_Jar_HDRI_White_R1_View020002_PP_4c3cf17b-4cc7-493b-9f04-38b5f03dfdfd.jpg",
+     "in": "superior-lip-butter-15ml-04.webp",
+     "alt": "Superior Lip Butter (15ml) – view 4",
+     "new_alt": "Superior Lip Butter (15ml) – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "superior-lip-butter-15ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643585923",
+     "new_media": "gid://shopify/MediaImage/74824871838083"
+    },
+    {
+     "n": 111,
+     "pos": 5,
+     "src": "SuperiorLipButterIngredientsWebTile_4dce4367-06fa-47fd-b220-71697aaaf924.jpg",
+     "in": "superior-lip-butter-15ml-05.webp",
+     "alt": "Superior Lip Butter (15ml) – view 5",
+     "new_alt": "Superior Lip Butter (15ml) – view 5",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "superior-lip-butter-15ml-05-photo.webp"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "organic-age-defying-facial-oil",
+   "id": 16368957718915,
+   "title": "Organic Facial Oil",
+   "images": [
+    {
+     "n": 112,
+     "pos": 1,
+     "src": "hb-facial-oil-hero-v1.png",
+     "in": "organic-age-defying-facial-oil-01.webp",
+     "alt": "Organic Facial Oil",
+     "new_alt": "Organic Facial Oil",
+     "variant_ids": [
+      62753907769731
+     ],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643291011",
+     "new_media": "gid://shopify/MediaImage/74824871870851"
+    },
+    {
+     "n": 113,
+     "pos": 2,
+     "src": "FACIAL_OIL_BLACK_CAM_1_nologo_1.jpg",
+     "in": "organic-age-defying-facial-oil-02.webp",
+     "alt": "Organic Facial Oil – view 2",
+     "new_alt": "Organic Facial Oil – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643323779",
+     "new_media": "gid://shopify/MediaImage/74824871903619"
+    },
+    {
+     "n": 114,
+     "pos": 3,
+     "src": "FACIAL_OIL_WHITE_CAM_1_nologoforAZ-01.jpg",
+     "in": "organic-age-defying-facial-oil-03.webp",
+     "alt": "Organic Facial Oil – view 3",
+     "new_alt": "Organic Facial Oil – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643356547",
+     "new_media": "gid://shopify/MediaImage/74824871936387"
+    },
+    {
+     "n": 115,
+     "pos": 4,
+     "src": "FACIALOIL_ORANGE_nologo_1.jpg",
+     "in": "organic-age-defying-facial-oil-04.webp",
+     "alt": "Organic Facial Oil – view 4",
+     "new_alt": "Organic Facial Oil – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643389315",
+     "new_media": "gid://shopify/MediaImage/74824871969155"
+    },
+    {
+     "n": 116,
+     "pos": 5,
+     "src": "FACIAL_OIL_BLACK_CAM_2_nologo.jpg",
+     "in": "organic-age-defying-facial-oil-05.webp",
+     "alt": "Organic Facial Oil – view 5",
+     "new_alt": "Organic Facial Oil – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643422083",
+     "new_media": "gid://shopify/MediaImage/74824872001923"
+    },
+    {
+     "n": 117,
+     "pos": 6,
+     "src": "FACIAL_OIL_WHITE_CAM_2_nologo.jpg",
+     "in": "organic-age-defying-facial-oil-06.webp",
+     "alt": "Organic Facial Oil – view 6",
+     "new_alt": "Organic Facial Oil – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "organic-age-defying-facial-oil-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643454851",
+     "new_media": "gid://shopify/MediaImage/74824872034691"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "scrub-and-glow-luminosity-set",
+   "id": 16368957686147,
+   "title": "Scrub and Glow Luminosity Set",
+   "images": [
+    {
+     "n": 118,
+     "pos": 1,
+     "src": "hb-scrub-glow-hero-v2.png",
+     "in": "scrub-and-glow-luminosity-set-01.webp",
+     "alt": "Scrub and Glow Luminosity Set",
+     "new_alt": "Scrub and Glow Luminosity Set",
+     "variant_ids": [
+      62753907736963
+     ],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643094403",
+     "new_media": "gid://shopify/MediaImage/74824872395139"
+    },
+    {
+     "n": 119,
+     "pos": 2,
+     "src": "2024_Scrub_and_Glow_Set_1.jpg",
+     "in": "scrub-and-glow-luminosity-set-02.webp",
+     "alt": "Scrub and Glow Luminosity Set – view 2",
+     "new_alt": "Scrub and Glow Luminosity Set – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643127171",
+     "new_media": "gid://shopify/MediaImage/74824872427907"
+    },
+    {
+     "n": 120,
+     "pos": 3,
+     "src": "ScrubandglowSet1200x1200-01.jpg",
+     "in": "scrub-and-glow-luminosity-set-03.webp",
+     "alt": "Scrub and Glow Luminosity Set – view 3",
+     "new_alt": "Scrub and Glow Luminosity Set – view 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643159939",
+     "new_media": "gid://shopify/MediaImage/74824872460675"
+    },
+    {
+     "n": 121,
+     "pos": 4,
+     "src": "ScrubandglowSet1200x1200Dark-01.jpg",
+     "in": "scrub-and-glow-luminosity-set-04.webp",
+     "alt": "Scrub and Glow Luminosity Set – view 4",
+     "new_alt": "Scrub and Glow Luminosity Set – view 4",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643192707",
+     "new_media": "gid://shopify/MediaImage/74824872493443"
+    },
+    {
+     "n": 122,
+     "pos": 5,
+     "src": "Scene_Luminosity_Scrub_Butter_HDRI_White_View020004_PP.jpg",
+     "in": "scrub-and-glow-luminosity-set-05.webp",
+     "alt": "Scrub and Glow Luminosity Set – view 5",
+     "new_alt": "Scrub and Glow Luminosity Set – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643225475",
+     "new_media": "gid://shopify/MediaImage/74824872526211"
+    },
+    {
+     "n": 123,
+     "pos": 6,
+     "src": "Scene_Luminosity_Scrub_Butter_HDRI_Black_View010002_PP.jpg",
+     "in": "scrub-and-glow-luminosity-set-06.webp",
+     "alt": "Scrub and Glow Luminosity Set – view 6",
+     "new_alt": "Scrub and Glow Luminosity Set – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "scrub-and-glow-luminosity-set-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033643258243",
+     "new_media": "gid://shopify/MediaImage/74824872558979"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "four-phase-day-and-night",
+   "id": 16368933699971,
+   "title": "Four Phase Day and Night",
+   "images": [
+    {
+     "n": 124,
+     "pos": 1,
+     "src": "hb-four-phase-warm-v2.png",
+     "in": "four-phase-day-and-night-01.webp",
+     "alt": "Four Phase Day and Night",
+     "new_alt": "Four Phase Day and Night",
+     "variant_ids": [
+      62753801961859
+     ],
+     "method": "bire",
+     "out": "four-phase-day-and-night-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502224771",
+     "new_media": "gid://shopify/MediaImage/74824872591747"
+    },
+    {
+     "n": 125,
+     "pos": 2,
+     "src": "2024_Four_Phase_Day_and_Night_Wide_Jars_Only_1.jpg",
+     "in": "four-phase-day-and-night-02.webp",
+     "alt": "Four Phase Day and Night – view 2",
+     "new_alt": "Four Phase Day and Night – view 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502257539",
+     "new_media": "gid://shopify/MediaImage/74824872624515"
+    },
+    {
+     "n": 126,
+     "pos": 3,
+     "src": "night-elixir-cream-detail.png",
+     "in": "four-phase-day-and-night-03.webp",
+     "alt": "Four Phase Day and Night – view 3",
+     "new_alt": "Four Phase Day and Night – view 3",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "four-phase-day-and-night-03-photo.webp"
+    },
+    {
+     "n": 127,
+     "pos": 4,
+     "src": "moisturiser-hand-swatch.png",
+     "in": "four-phase-day-and-night-04.webp",
+     "alt": "Four Phase Day and Night – view 4",
+     "new_alt": "Four Phase Day and Night – view 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "four-phase-day-and-night-04-photo.webp"
+    },
+    {
+     "n": 128,
+     "pos": 5,
+     "src": "hb-pdp-four-phase-hero.png",
+     "in": "four-phase-day-and-night-05.webp",
+     "alt": "Four Phase Day and Night – view 5",
+     "new_alt": "Four Phase Day and Night – view 5",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502355843",
+     "new_media": "gid://shopify/MediaImage/74824872657283"
+    },
+    {
+     "n": 129,
+     "pos": 6,
+     "src": "hb-pdp-serum-jar.png",
+     "in": "four-phase-day-and-night-06.webp",
+     "alt": "Four Phase Day and Night – view 6",
+     "new_alt": "Four Phase Day and Night – view 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502388611",
+     "new_media": "gid://shopify/MediaImage/74824872690051"
+    },
+    {
+     "n": 130,
+     "pos": 7,
+     "src": "hb-pdp-eye-gel.png",
+     "in": "four-phase-day-and-night-07.webp",
+     "alt": "Four Phase Day and Night – view 7",
+     "new_alt": "Four Phase Day and Night – view 7",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-07-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502421379",
+     "new_media": "gid://shopify/MediaImage/74824872722819"
+    },
+    {
+     "n": 131,
+     "pos": 8,
+     "src": "hb-pdp-moisturiser.png",
+     "in": "four-phase-day-and-night-08.webp",
+     "alt": "Four Phase Day and Night – view 8",
+     "new_alt": "Four Phase Day and Night – view 8",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-08-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502454147",
+     "new_media": "gid://shopify/MediaImage/74824872755587"
+    },
+    {
+     "n": 132,
+     "pos": 9,
+     "src": "hb-pdp-night-elixir.png",
+     "in": "four-phase-day-and-night-09.webp",
+     "alt": "Four Phase Day and Night – view 9",
+     "new_alt": "Four Phase Day and Night – view 9",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-09-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502486915",
+     "new_media": "gid://shopify/MediaImage/74824872788355"
+    },
+    {
+     "n": 133,
+     "pos": 10,
+     "src": "2024_Four_Phase_Day_and_Night_Row_Wide_1.jpg",
+     "in": "four-phase-day-and-night-10.webp",
+     "alt": "Four Phase Day and Night – view 10",
+     "new_alt": "Four Phase Day and Night – view 10",
+     "variant_ids": [
+      62753801994627
+     ],
+     "method": "bire",
+     "out": "four-phase-day-and-night-10-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502519683",
+     "new_media": "gid://shopify/MediaImage/74824872821123"
+    },
+    {
+     "n": 134,
+     "pos": 11,
+     "src": "hb-pdp-serum-bottle.png",
+     "in": "four-phase-day-and-night-11.webp",
+     "alt": "Four Phase Day and Night – view 11",
+     "new_alt": "Four Phase Day and Night – view 11",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "four-phase-day-and-night-11-cutout.webp",
+     "media": "gid://shopify/MediaImage/74033502552451",
+     "new_media": "gid://shopify/MediaImage/74824872853891"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
