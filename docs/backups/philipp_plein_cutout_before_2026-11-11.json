@@ -1,0 +1,273 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "8": "isnet"
+  },
+  "alt": {
+   "7": "Philipp Plein No Limits Deodorant Stick 75g – stick beside its black box",
+   "11": "Philipp Plein No Limits After Shave Balm 150ml – can beside its black box",
+   "8": "Philipp Plein No Limits Deodorant Stick 75g – stick with vanilla pods and amber resin"
+  },
+  "skip_products": [],
+  "notes": "8 isnet"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16362455400835",
+   "media": "gid://shopify/MediaImage/74292242088323",
+   "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-1.webp",
+   "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – 50 ml card-shaped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362455400835",
+   "media": "gid://shopify/MediaImage/74292242121091",
+   "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-2.webp",
+   "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside its black and blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16362455400835",
+   "media": "gid://shopify/MediaImage/74292242153859",
+   "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-3.webp",
+   "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside the narrow Super Fresh carton"
+  },
+  {
+   "product": "gid://shopify/Product/16362455400835",
+   "media": "gid://shopify/MediaImage/74292242186627",
+   "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-4.webp",
+   "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle with blackcurrant, fig, lavender and pepper"
+  },
+  {
+   "product": "gid://shopify/Product/16362419913091",
+   "media": "gid://shopify/MediaImage/74292241924483",
+   "src": "philipp-plein-no-limits-deodorant-stick-75g-1.webp",
+   "alt": "Philipp Plein No Limits Deodorant Stick 75g – black deodorant stick, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362419913091",
+   "media": "gid://shopify/MediaImage/74292241957251",
+   "src": "philipp-plein-no-limits-deodorant-stick-75g-2.webp",
+   "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16362419913091",
+   "media": "gid://shopify/MediaImage/74292241990019",
+   "src": "philipp-plein-no-limits-deodorant-stick-75g-3.webp",
+   "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick and box on white plinths"
+  },
+  {
+   "product": "gid://shopify/Product/16362419913091",
+   "media": "gid://shopify/MediaImage/74292242022787",
+   "src": "philipp-plein-no-limits-deodorant-stick-75g-4.webp",
+   "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick with vanilla pods, cinnamon, leather and amber"
+  },
+  {
+   "product": "gid://shopify/Product/16362367287683",
+   "media": "gid://shopify/MediaImage/74292229964163",
+   "src": "philipp-plein-no-limits-after-shave-balm-150ml-1.webp",
+   "alt": "Philipp Plein No Limits After Shave Balm 150ml – 150 ml black can, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16362367287683",
+   "media": "gid://shopify/MediaImage/74292229996931",
+   "src": "philipp-plein-no-limits-after-shave-balm-150ml-2.webp",
+   "alt": "Philipp Plein No Limits After Shave Balm 150ml – can beside its black textured box"
+  },
+  {
+   "product": "gid://shopify/Product/16362367287683",
+   "media": "gid://shopify/MediaImage/74292230029699",
+   "src": "philipp-plein-no-limits-after-shave-balm-150ml-3.webp",
+   "alt": "Philipp Plein No Limits After Shave Balm 150ml – can and box on white plinths"
+  },
+  {
+   "product": "gid://shopify/Product/16362367287683",
+   "media": "gid://shopify/MediaImage/74292230062467",
+   "src": "philipp-plein-no-limits-after-shave-balm-150ml-4.webp",
+   "alt": "Philipp Plein No Limits After Shave Balm 150ml – can with oud wood, cinnamon, leather and cardamom"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance",
+   "id": 16362455400835,
+   "title": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – Men’s Fresh Woody Leather Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-1.webp",
+     "in": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-01.webp",
+     "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – 50 ml card-shaped bottle, front view",
+     "new_alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – 50 ml card-shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292242088323",
+     "new_media": "gid://shopify/MediaImage/74824158216579"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-2.webp",
+     "in": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-02.webp",
+     "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside its black and blue box",
+     "new_alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside its black and blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292242121091",
+     "new_media": "gid://shopify/MediaImage/74824158249347"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-3.webp",
+     "in": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-03.webp",
+     "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside the narrow Super Fresh carton",
+     "new_alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle beside the narrow Super Fresh carton",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292242153859",
+     "new_media": "gid://shopify/MediaImage/74824158282115"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-4.webp",
+     "in": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-04.webp",
+     "alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle with blackcurrant, fig, lavender and pepper",
+     "new_alt": "Philipp Plein No Limits Super Fresh Eau de Toilette 50ml – bottle with blackcurrant, fig, lavender and pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-super-fresh-eau-de-toilette-50ml-men-s-fresh-woody-leather-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292242186627",
+     "new_media": "gid://shopify/MediaImage/74824158314883"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant",
+   "id": 16362419913091,
+   "title": "Philipp Plein No Limits Deodorant Stick 75g – Men’s Fragranced Deodorant",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "philipp-plein-no-limits-deodorant-stick-75g-1.webp",
+     "in": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-01.webp",
+     "alt": "Philipp Plein No Limits Deodorant Stick 75g – black deodorant stick, front view",
+     "new_alt": "Philipp Plein No Limits Deodorant Stick 75g – black deodorant stick, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292241924483",
+     "new_media": "gid://shopify/MediaImage/74824158347651"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "philipp-plein-no-limits-deodorant-stick-75g-2.webp",
+     "in": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-02.webp",
+     "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick beside its black box",
+     "new_alt": "Philipp Plein No Limits Deodorant Stick 75g – stick beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292241957251",
+     "new_media": "gid://shopify/MediaImage/74824158380419"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "philipp-plein-no-limits-deodorant-stick-75g-3.webp",
+     "in": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-03.webp",
+     "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick and box on white plinths",
+     "new_alt": "Philipp Plein No Limits Deodorant Stick 75g – stick beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292241990019",
+     "new_media": "gid://shopify/MediaImage/74824158413187"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "philipp-plein-no-limits-deodorant-stick-75g-4.webp",
+     "in": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-04.webp",
+     "alt": "Philipp Plein No Limits Deodorant Stick 75g – stick with vanilla pods, cinnamon, leather and amber",
+     "new_alt": "Philipp Plein No Limits Deodorant Stick 75g – stick with vanilla pods and amber resin",
+     "variant_ids": [],
+     "method": "isnet",
+     "out": "philipp-plein-no-limits-deodorant-stick-75g-men-s-fragranced-deodorant-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292242022787",
+     "new_media": "gid://shopify/MediaImage/74824158445955"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care",
+   "id": 16362367287683,
+   "title": "Philipp Plein No Limits After Shave Balm 150ml – Men’s Grooming & Fragrance Care",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "philipp-plein-no-limits-after-shave-balm-150ml-1.webp",
+     "in": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-01.webp",
+     "alt": "Philipp Plein No Limits After Shave Balm 150ml – 150 ml black can, front view",
+     "new_alt": "Philipp Plein No Limits After Shave Balm 150ml – 150 ml black can, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229964163",
+     "new_media": "gid://shopify/MediaImage/74824158478723"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "philipp-plein-no-limits-after-shave-balm-150ml-2.webp",
+     "in": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-02.webp",
+     "alt": "Philipp Plein No Limits After Shave Balm 150ml – can beside its black textured box",
+     "new_alt": "Philipp Plein No Limits After Shave Balm 150ml – can beside its black textured box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292229996931",
+     "new_media": "gid://shopify/MediaImage/74824158511491"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "philipp-plein-no-limits-after-shave-balm-150ml-3.webp",
+     "in": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-03.webp",
+     "alt": "Philipp Plein No Limits After Shave Balm 150ml – can and box on white plinths",
+     "new_alt": "Philipp Plein No Limits After Shave Balm 150ml – can beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292230029699",
+     "new_media": "gid://shopify/MediaImage/74824158544259"
+    },
+    {
+     "n": 12,
+     "pos": 4,
+     "src": "philipp-plein-no-limits-after-shave-balm-150ml-4.webp",
+     "in": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-04.webp",
+     "alt": "Philipp Plein No Limits After Shave Balm 150ml – can with oud wood, cinnamon, leather and cardamom",
+     "new_alt": "Philipp Plein No Limits After Shave Balm 150ml – can with oud wood, cinnamon, leather and cardamom",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "philipp-plein-no-limits-after-shave-balm-150ml-men-s-grooming-fragrance-care-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292230062467",
+     "new_media": "gid://shopify/MediaImage/74824158577027"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

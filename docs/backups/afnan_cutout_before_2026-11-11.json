@@ -1,0 +1,231 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "4": "Afnan Supremacy Gold Eau de Parfum 100ml – gold bottle with ring cap, front view"
+  },
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421444747651",
+   "media": "gid://shopify/MediaImage/74600658207107",
+   "src": "afnan-tribute-blue-eau-de-parfum-100ml-01.webp",
+   "alt": "Afnan Tribute Blue Eau de Parfum 100ml – navy ribbed bottle with silver Tribute emblem"
+  },
+  {
+   "product": "gid://shopify/Product/16421444747651",
+   "media": "gid://shopify/MediaImage/74600658239875",
+   "src": "afnan-tribute-blue-eau-de-parfum-100ml-02.webp",
+   "alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle beside its open navy box"
+  },
+  {
+   "product": "gid://shopify/Product/16421444747651",
+   "media": "gid://shopify/MediaImage/74600658272643",
+   "src": "afnan-tribute-blue-eau-de-parfum-100ml-03.webp",
+   "alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle with amber, white flower and sandalwood sticks"
+  },
+  {
+   "product": "gid://shopify/Product/16421444714883",
+   "media": "gid://shopify/MediaImage/74600670167427",
+   "src": "afnan-supremacy-gold-eau-de-parfum-100ml-01.webp",
+   "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle on a plain background"
+  },
+  {
+   "product": "gid://shopify/Product/16421444714883",
+   "media": "gid://shopify/MediaImage/74600670200195",
+   "src": "afnan-supremacy-gold-eau-de-parfum-100ml-02.webp",
+   "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with its box"
+  },
+  {
+   "product": "gid://shopify/Product/16421444714883",
+   "media": "gid://shopify/MediaImage/74600670232963",
+   "src": "afnan-supremacy-gold-eau-de-parfum-100ml-03.webp",
+   "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle at an angle"
+  },
+  {
+   "product": "gid://shopify/Product/16421444714883",
+   "media": "gid://shopify/MediaImage/74600670265731",
+   "src": "afnan-supremacy-gold-eau-de-parfum-100ml-04.webp",
+   "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with violet, blossom and nutmeg"
+  },
+  {
+   "product": "gid://shopify/Product/16421444682115",
+   "media": "gid://shopify/MediaImage/74600660533635",
+   "src": "afnan-9am-dive-eau-de-parfum-100ml-01.webp",
+   "alt": "Afnan 9am Dive Eau de Parfum 100ml – blue bottle with silver cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421444682115",
+   "media": "gid://shopify/MediaImage/74600660566403",
+   "src": "afnan-9am-dive-eau-de-parfum-100ml-02.webp",
+   "alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with light blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16421444682115",
+   "media": "gid://shopify/MediaImage/74600660599171",
+   "src": "afnan-9am-dive-eau-de-parfum-100ml-03.webp",
+   "alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with lemon, mint, blackcurrants and pink peppercorns"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "afnan-tribute-blue-eau-de-parfum-100ml",
+   "id": 16421444747651,
+   "title": "Afnan Tribute Blue Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "afnan-tribute-blue-eau-de-parfum-100ml-01.webp",
+     "in": "afnan-tribute-blue-eau-de-parfum-100ml-01.webp",
+     "alt": "Afnan Tribute Blue Eau de Parfum 100ml – navy ribbed bottle with silver Tribute emblem",
+     "new_alt": "Afnan Tribute Blue Eau de Parfum 100ml – navy ribbed bottle with silver Tribute emblem",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-tribute-blue-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658207107",
+     "new_media": "gid://shopify/MediaImage/74824165130627"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "afnan-tribute-blue-eau-de-parfum-100ml-02.webp",
+     "in": "afnan-tribute-blue-eau-de-parfum-100ml-02.webp",
+     "alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle beside its open navy box",
+     "new_alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle beside its open navy box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-tribute-blue-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658239875",
+     "new_media": "gid://shopify/MediaImage/74824165163395"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "afnan-tribute-blue-eau-de-parfum-100ml-03.webp",
+     "in": "afnan-tribute-blue-eau-de-parfum-100ml-03.webp",
+     "alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle with amber, white flower and sandalwood sticks",
+     "new_alt": "Afnan Tribute Blue Eau de Parfum 100ml – bottle with amber, white flower and sandalwood sticks",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-tribute-blue-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600658272643",
+     "new_media": "gid://shopify/MediaImage/74824165196163"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "afnan-supremacy-gold-eau-de-parfum-100ml",
+   "id": 16421444714883,
+   "title": "Afnan Supremacy Gold Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "afnan-supremacy-gold-eau-de-parfum-100ml-01.webp",
+     "in": "afnan-supremacy-gold-eau-de-parfum-100ml-01.webp",
+     "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle on a plain background",
+     "new_alt": "Afnan Supremacy Gold Eau de Parfum 100ml – gold bottle with ring cap, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-supremacy-gold-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670167427",
+     "new_media": "gid://shopify/MediaImage/74824165228931"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "afnan-supremacy-gold-eau-de-parfum-100ml-02.webp",
+     "in": "afnan-supremacy-gold-eau-de-parfum-100ml-02.webp",
+     "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with its box",
+     "new_alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with its box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-supremacy-gold-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670200195",
+     "new_media": "gid://shopify/MediaImage/74824165261699"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "afnan-supremacy-gold-eau-de-parfum-100ml-03.webp",
+     "in": "afnan-supremacy-gold-eau-de-parfum-100ml-03.webp",
+     "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle at an angle",
+     "new_alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle at an angle",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-supremacy-gold-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670232963",
+     "new_media": "gid://shopify/MediaImage/74824165294467"
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "src": "afnan-supremacy-gold-eau-de-parfum-100ml-04.webp",
+     "in": "afnan-supremacy-gold-eau-de-parfum-100ml-04.webp",
+     "alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with violet, blossom and nutmeg",
+     "new_alt": "Afnan Supremacy Gold Eau de Parfum 100ml – bottle with violet, blossom and nutmeg",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-supremacy-gold-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600670265731",
+     "new_media": "gid://shopify/MediaImage/74824165327235"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "afnan-9am-dive-eau-de-parfum-100ml",
+   "id": 16421444682115,
+   "title": "Afnan 9am Dive Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "afnan-9am-dive-eau-de-parfum-100ml-01.webp",
+     "in": "afnan-9am-dive-eau-de-parfum-100ml-01.webp",
+     "alt": "Afnan 9am Dive Eau de Parfum 100ml – blue bottle with silver cap",
+     "new_alt": "Afnan 9am Dive Eau de Parfum 100ml – blue bottle with silver cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-9am-dive-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660533635",
+     "new_media": "gid://shopify/MediaImage/74824165360003"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "afnan-9am-dive-eau-de-parfum-100ml-02.webp",
+     "in": "afnan-9am-dive-eau-de-parfum-100ml-02.webp",
+     "alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with light blue box",
+     "new_alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with light blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-9am-dive-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660566403",
+     "new_media": "gid://shopify/MediaImage/74824165392771"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "afnan-9am-dive-eau-de-parfum-100ml-03.webp",
+     "in": "afnan-9am-dive-eau-de-parfum-100ml-03.webp",
+     "alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with lemon, mint, blackcurrants and pink peppercorns",
+     "new_alt": "Afnan 9am Dive Eau de Parfum 100ml – bottle with lemon, mint, blackcurrants and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "afnan-9am-dive-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660599171",
+     "new_media": "gid://shopify/MediaImage/74824165425539"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

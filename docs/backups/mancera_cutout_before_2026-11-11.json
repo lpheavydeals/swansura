@@ -1,0 +1,204 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "5": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle with a tobacco pipe"
+  },
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "media": "gid://shopify/MediaImage/74292228227459",
+   "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-1.webp",
+   "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – red bottle with pear, saffron, tobacco and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "media": "gid://shopify/MediaImage/74292228260227",
+   "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-2.webp",
+   "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle and black box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "media": "gid://shopify/MediaImage/74292228292995",
+   "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-3.webp",
+   "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle, box and silver drawstring pouch"
+  },
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "media": "gid://shopify/MediaImage/74292228325763",
+   "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-4.webp",
+   "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle floating with tobacco flakes"
+  },
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "media": "gid://shopify/MediaImage/74292228358531",
+   "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-5.webp",
+   "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle with a pipe and loose tobacco"
+  },
+  {
+   "product": "gid://shopify/Product/16354306130307",
+   "media": "gid://shopify/MediaImage/74292228096387",
+   "src": "mancera-black-noir-eau-de-parfum-120ml-1.webp",
+   "alt": "Mancera Black Noir Eau de Parfum 120ml – black and gold bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16354306130307",
+   "media": "gid://shopify/MediaImage/74292228129155",
+   "src": "mancera-black-noir-eau-de-parfum-120ml-2.webp",
+   "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle and black box on a white background"
+  },
+  {
+   "product": "gid://shopify/Product/16354306130307",
+   "media": "gid://shopify/MediaImage/74292228161923",
+   "src": "mancera-black-noir-eau-de-parfum-120ml-3.webp",
+   "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle, box and gold drawstring pouch"
+  },
+  {
+   "product": "gid://shopify/Product/16354306130307",
+   "media": "gid://shopify/MediaImage/74292228194691",
+   "src": "mancera-black-noir-eau-de-parfum-120ml-4.webp",
+   "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle with leather, oud wood, vanilla and pink pepper"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance",
+   "id": 16356355572099,
+   "title": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – Luxury Unisex Spicy Tobacco Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-1.webp",
+     "in": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-01.webp",
+     "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – red bottle with pear, saffron, tobacco and vanilla",
+     "new_alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – red bottle with pear, saffron, tobacco and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228227459",
+     "new_media": "gid://shopify/MediaImage/74824172044675"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-2.webp",
+     "in": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-02.webp",
+     "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle and black box on a white background",
+     "new_alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228260227",
+     "new_media": "gid://shopify/MediaImage/74824172077443"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-3.webp",
+     "in": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-03.webp",
+     "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle, box and silver drawstring pouch",
+     "new_alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle, box and silver drawstring pouch",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228292995",
+     "new_media": "gid://shopify/MediaImage/74824172110211"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-4.webp",
+     "in": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-04.webp",
+     "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle floating with tobacco flakes",
+     "new_alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle floating with tobacco flakes",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228325763",
+     "new_media": "gid://shopify/MediaImage/74824172142979"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-5.webp",
+     "in": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-05.webp",
+     "alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle with a pipe and loose tobacco",
+     "new_alt": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – bottle with a tobacco pipe",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-intense-red-tobacco-extrait-de-parfum-120ml-luxury-unisex-spicy-tobacco-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228358531",
+     "new_media": "gid://shopify/MediaImage/74824172175747"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance",
+   "id": 16354306130307,
+   "title": "Mancera Black Noir Eau de Parfum 120ml – Luxury Unisex Oud Tobacco Longlasting Fragrance",
+   "images": [
+    {
+     "n": 6,
+     "pos": 1,
+     "src": "mancera-black-noir-eau-de-parfum-120ml-1.webp",
+     "in": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-01.webp",
+     "alt": "Mancera Black Noir Eau de Parfum 120ml – black and gold bottle, front view",
+     "new_alt": "Mancera Black Noir Eau de Parfum 120ml – black and gold bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228096387",
+     "new_media": "gid://shopify/MediaImage/74824172405123"
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "src": "mancera-black-noir-eau-de-parfum-120ml-2.webp",
+     "in": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-02.webp",
+     "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle and black box on a white background",
+     "new_alt": "Mancera Black Noir Eau de Parfum 120ml – bottle and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228129155",
+     "new_media": "gid://shopify/MediaImage/74824172437891"
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "src": "mancera-black-noir-eau-de-parfum-120ml-3.webp",
+     "in": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-03.webp",
+     "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle, box and gold drawstring pouch",
+     "new_alt": "Mancera Black Noir Eau de Parfum 120ml – bottle, box and gold drawstring pouch",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228161923",
+     "new_media": "gid://shopify/MediaImage/74824172470659"
+    },
+    {
+     "n": 9,
+     "pos": 4,
+     "src": "mancera-black-noir-eau-de-parfum-120ml-4.webp",
+     "in": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-04.webp",
+     "alt": "Mancera Black Noir Eau de Parfum 120ml – bottle with leather, oud wood, vanilla and pink pepper",
+     "new_alt": "Mancera Black Noir Eau de Parfum 120ml – bottle with leather, oud wood, vanilla and pink pepper",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "mancera-black-noir-eau-de-parfum-120ml-luxury-unisex-oud-tobacco-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292228194691",
+     "new_media": "gid://shopify/MediaImage/74824172503427"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

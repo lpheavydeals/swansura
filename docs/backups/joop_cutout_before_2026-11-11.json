@@ -1,0 +1,206 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {
+   "1": "Joop! Homme Eau de Toilette 200ml – pink bottle, front view",
+   "5": "Joop! Homme Le Parfum 75ml – dark red bottle, front view",
+   "8": "Joop! Homme Le Parfum 75ml – bottle tilted with its cap beside"
+  },
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16359643513219",
+   "media": "gid://shopify/MediaImage/74292212269443",
+   "src": "joop-homme-eau-de-toilette-200ml-1.webp",
+   "alt": "Joop! Homme Eau de Toilette 200ml – pink bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16359643513219",
+   "media": "gid://shopify/MediaImage/74292212302211",
+   "src": "joop-homme-eau-de-toilette-200ml-2.webp",
+   "alt": "Joop! Homme Eau de Toilette 200ml – bottle beside its pink and black box"
+  },
+  {
+   "product": "gid://shopify/Product/16359643513219",
+   "media": "gid://shopify/MediaImage/74292212334979",
+   "src": "joop-homme-eau-de-toilette-200ml-3.webp",
+   "alt": "Joop! Homme Eau de Toilette 200ml – bottle at an angle, close-up"
+  },
+  {
+   "product": "gid://shopify/Product/16359643513219",
+   "media": "gid://shopify/MediaImage/74292212367747",
+   "src": "joop-homme-eau-de-toilette-200ml-4.webp",
+   "alt": "Joop! Homme Eau de Toilette 200ml – bottle with orange, lemon, orange blossom, lavender and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16359228866947",
+   "media": "gid://shopify/MediaImage/74292212400515",
+   "src": "joop-homme-le-parfum-75ml-1.webp",
+   "alt": "Joop! Homme Le Parfum 75ml – dark red bottle, front view on a light background"
+  },
+  {
+   "product": "gid://shopify/Product/16359228866947",
+   "media": "gid://shopify/MediaImage/74292212433283",
+   "src": "joop-homme-le-parfum-75ml-2.webp",
+   "alt": "Joop! Homme Le Parfum 75ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16359228866947",
+   "media": "gid://shopify/MediaImage/74292212466051",
+   "src": "joop-homme-le-parfum-75ml-3.webp",
+   "alt": "Joop! Homme Le Parfum 75ml – bottle at an angle with violet iris petals"
+  },
+  {
+   "product": "gid://shopify/Product/16359228866947",
+   "media": "gid://shopify/MediaImage/74292212498819",
+   "src": "joop-homme-le-parfum-75ml-4.webp",
+   "alt": "Joop! Homme Le Parfum 75ml – bottle tilted on a silver plinth with cap beside"
+  },
+  {
+   "product": "gid://shopify/Product/16359228866947",
+   "media": "gid://shopify/MediaImage/74292212531587",
+   "src": "joop-homme-le-parfum-75ml-5.webp",
+   "alt": "Joop! Homme Le Parfum 75ml – bottle with lavender, iris, vanilla pods and cacao"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance",
+   "id": 16359643513219,
+   "title": "Joop! Homme Eau de Toilette 200ml – Men’s Warm Spicy Long lasting Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "joop-homme-eau-de-toilette-200ml-1.webp",
+     "in": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-01.webp",
+     "alt": "Joop! Homme Eau de Toilette 200ml – pink bottle, front view on a light background",
+     "new_alt": "Joop! Homme Eau de Toilette 200ml – pink bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212269443",
+     "new_media": "gid://shopify/MediaImage/74824165785987"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "joop-homme-eau-de-toilette-200ml-2.webp",
+     "in": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-02.webp",
+     "alt": "Joop! Homme Eau de Toilette 200ml – bottle beside its pink and black box",
+     "new_alt": "Joop! Homme Eau de Toilette 200ml – bottle beside its pink and black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212302211",
+     "new_media": "gid://shopify/MediaImage/74824165818755"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "joop-homme-eau-de-toilette-200ml-3.webp",
+     "in": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-03.webp",
+     "alt": "Joop! Homme Eau de Toilette 200ml – bottle at an angle, close-up",
+     "new_alt": "Joop! Homme Eau de Toilette 200ml – bottle at an angle, close-up",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212334979",
+     "new_media": "gid://shopify/MediaImage/74824165851523"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "joop-homme-eau-de-toilette-200ml-4.webp",
+     "in": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-04.webp",
+     "alt": "Joop! Homme Eau de Toilette 200ml – bottle with orange, lemon, orange blossom, lavender and vanilla",
+     "new_alt": "Joop! Homme Eau de Toilette 200ml – bottle with orange, lemon, orange blossom, lavender and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-eau-de-toilette-200ml-men-s-warm-spicy-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212367747",
+     "new_media": "gid://shopify/MediaImage/74824165884291"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance",
+   "id": 16359228866947,
+   "title": "Joop! Homme Le Parfum 75ml – Men’s Warm Spicy Amber Long lasting Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "joop-homme-le-parfum-75ml-1.webp",
+     "in": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-01.webp",
+     "alt": "Joop! Homme Le Parfum 75ml – dark red bottle, front view on a light background",
+     "new_alt": "Joop! Homme Le Parfum 75ml – dark red bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212400515",
+     "new_media": "gid://shopify/MediaImage/74824165917059"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "joop-homme-le-parfum-75ml-2.webp",
+     "in": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-02.webp",
+     "alt": "Joop! Homme Le Parfum 75ml – bottle beside its black box",
+     "new_alt": "Joop! Homme Le Parfum 75ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212433283",
+     "new_media": "gid://shopify/MediaImage/74824165949827"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "joop-homme-le-parfum-75ml-3.webp",
+     "in": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-03.webp",
+     "alt": "Joop! Homme Le Parfum 75ml – bottle at an angle with violet iris petals",
+     "new_alt": "Joop! Homme Le Parfum 75ml – bottle at an angle with violet iris petals",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212466051",
+     "new_media": "gid://shopify/MediaImage/74824165982595"
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "src": "joop-homme-le-parfum-75ml-4.webp",
+     "in": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-04.webp",
+     "alt": "Joop! Homme Le Parfum 75ml – bottle tilted on a silver plinth with cap beside",
+     "new_alt": "Joop! Homme Le Parfum 75ml – bottle tilted with its cap beside",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212498819",
+     "new_media": "gid://shopify/MediaImage/74824166015363"
+    },
+    {
+     "n": 9,
+     "pos": 5,
+     "src": "joop-homme-le-parfum-75ml-5.webp",
+     "in": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-05.webp",
+     "alt": "Joop! Homme Le Parfum 75ml – bottle with lavender, iris, vanilla pods and cacao",
+     "new_alt": "Joop! Homme Le Parfum 75ml – bottle with lavender, iris, vanilla pods and cacao",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "joop-homme-le-parfum-75ml-men-s-warm-spicy-amber-fragrance-05-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292212531587",
+     "new_media": "gid://shopify/MediaImage/74824166048131"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

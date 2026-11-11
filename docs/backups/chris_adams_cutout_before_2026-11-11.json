@@ -1,0 +1,262 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "4": "keep",
+   "5": "keep",
+   "7": "keep",
+   "8": "keep"
+  },
+  "alt": {},
+  "skip_products": [],
+  "notes": "ad graphics kept"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411643779",
+   "src": "a192d0a7.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411676547",
+   "src": "ded565e0.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 2"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411709315",
+   "src": "c14c29b4.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 3"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411742083",
+   "src": "0cda1d4d.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 4"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411774851",
+   "src": "2cd8b9ef.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 5"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411807619",
+   "src": "e1d2b0d9.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 6"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411840387",
+   "src": "6c825970.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 7"
+  },
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "media": "gid://shopify/MediaImage/67893411873155",
+   "src": "5f65c47c.jpg",
+   "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 8"
+  },
+  {
+   "product": "gid://shopify/Product/15415436837251",
+   "media": "gid://shopify/MediaImage/67893425406339",
+   "src": "3b340f30.jpg",
+   "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – bottle"
+  },
+  {
+   "product": "gid://shopify/Product/15415436837251",
+   "media": "gid://shopify/MediaImage/67893425439107",
+   "src": "d903e743.jpg",
+   "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 2"
+  },
+  {
+   "product": "gid://shopify/Product/15415436837251",
+   "media": "gid://shopify/MediaImage/67893425471875",
+   "src": "2a830741.jpg",
+   "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 3"
+  }
+ ],
+ "variant_links": [
+  {
+   "product": "gid://shopify/Product/15415434674563",
+   "variant": "gid://shopify/ProductVariant/56613306990979",
+   "old": "gid://shopify/MediaImage/67893411643779",
+   "new": "gid://shopify/MediaImage/74824158609795"
+  },
+  {
+   "product": "gid://shopify/Product/15415436837251",
+   "variant": "gid://shopify/ProductVariant/56613309153667",
+   "old": "gid://shopify/MediaImage/67893425406339",
+   "new": "gid://shopify/MediaImage/74824158871939"
+  }
+ ],
+ "gallery": [
+  {
+   "handle": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml",
+   "id": 15415434674563,
+   "title": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "a192d0a7.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-01.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – bottle",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – bottle",
+     "variant_ids": [
+      56613306990979
+     ],
+     "method": "bire",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893411643779",
+     "new_media": "gid://shopify/MediaImage/74824158609795"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "ded565e0.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-02.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 2",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893411676547",
+     "new_media": "gid://shopify/MediaImage/74824158642563"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "c14c29b4.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-03.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 3",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893411709315",
+     "new_media": "gid://shopify/MediaImage/74824158675331"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "0cda1d4d.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-04.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 4",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 4",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-04-photo.webp",
+     "media": "gid://shopify/MediaImage/67893411742083",
+     "new_media": "gid://shopify/MediaImage/74824158708099"
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "src": "2cd8b9ef.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-05.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 5",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 5",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-05-photo.webp",
+     "media": "gid://shopify/MediaImage/67893411774851",
+     "new_media": "gid://shopify/MediaImage/74824158740867"
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "src": "e1d2b0d9.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-06.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 6",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 6",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-06-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893411807619",
+     "new_media": "gid://shopify/MediaImage/74824158773635"
+    },
+    {
+     "n": 7,
+     "pos": 7,
+     "src": "6c825970.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-07.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 7",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 7",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-07-photo.webp",
+     "media": "gid://shopify/MediaImage/67893411840387",
+     "new_media": "gid://shopify/MediaImage/74824158806403"
+    },
+    {
+     "n": 8,
+     "pos": 8,
+     "src": "5f65c47c.jpg",
+     "in": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-08.webp",
+     "alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 8",
+     "new_alt": "Chris Adams Black Shadow Pour Homme Eau de Toilette 100ml for Men – image 8",
+     "variant_ids": [],
+     "method": "keep",
+     "out": "chris-adams-black-shadow-pour-homme-eau-de-toilette-100ml-08-photo.webp",
+     "media": "gid://shopify/MediaImage/67893411873155",
+     "new_media": "gid://shopify/MediaImage/74824158839171"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml",
+   "id": 15415436837251,
+   "title": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men",
+   "images": [
+    {
+     "n": 9,
+     "pos": 1,
+     "src": "3b340f30.jpg",
+     "in": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-01.webp",
+     "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – bottle",
+     "new_alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – bottle",
+     "variant_ids": [
+      56613309153667
+     ],
+     "method": "bire",
+     "out": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893425406339",
+     "new_media": "gid://shopify/MediaImage/74824158871939"
+    },
+    {
+     "n": 10,
+     "pos": 2,
+     "src": "d903e743.jpg",
+     "in": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-02.webp",
+     "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 2",
+     "new_alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 2",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893425439107",
+     "new_media": "gid://shopify/MediaImage/74824158904707"
+    },
+    {
+     "n": 11,
+     "pos": 3,
+     "src": "2a830741.jpg",
+     "in": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-03.webp",
+     "alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 3",
+     "new_alt": "Chris Adams CA DX 77 Pour Homme Eau de Parfum 100ml for Men – image 3",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "chris-adams-ca-dx-77-pour-homme-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/67893425471875",
+     "new_media": "gid://shopify/MediaImage/74824158937475"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

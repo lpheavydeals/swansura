@@ -1,0 +1,248 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16381132112259",
+   "media": "gid://shopify/MediaImage/74292446167427",
+   "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-1.webp",
+   "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – gold engraved bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381132112259",
+   "media": "gid://shopify/MediaImage/74292446200195",
+   "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-2.webp",
+   "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle beside its gold 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16381132112259",
+   "media": "gid://shopify/MediaImage/74292446232963",
+   "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-3.webp",
+   "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with amber, oud wood and leather"
+  },
+  {
+   "product": "gid://shopify/Product/16381132112259",
+   "media": "gid://shopify/MediaImage/74292446265731",
+   "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-4.webp",
+   "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with golden splash, amber and saffron flower"
+  },
+  {
+   "product": "gid://shopify/Product/16381122412931",
+   "media": "gid://shopify/MediaImage/74292445741443",
+   "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-1.webp",
+   "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – gold patterned bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381122412931",
+   "media": "gid://shopify/MediaImage/74292445774211",
+   "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-2.webp",
+   "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle beside its gold 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16381122412931",
+   "media": "gid://shopify/MediaImage/74292445806979",
+   "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-3.webp",
+   "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle with cherries, pink pepper, orange and tuberose"
+  },
+  {
+   "product": "gid://shopify/Product/16381088399747",
+   "media": "gid://shopify/MediaImage/74292446298499",
+   "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-1.webp",
+   "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold engraved bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381088399747",
+   "media": "gid://shopify/MediaImage/74292446331267",
+   "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-2.webp",
+   "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle beside its gold 100 ml box"
+  },
+  {
+   "product": "gid://shopify/Product/16381088399747",
+   "media": "gid://shopify/MediaImage/74292446364035",
+   "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-3.webp",
+   "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold 100 ml Eau de Parfum box, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16381088399747",
+   "media": "gid://shopify/MediaImage/74292446396803",
+   "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-4.webp",
+   "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle with tobacco leaf, cinnamon, ginger, rose and vanilla"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance",
+   "id": 16381132112259,
+   "title": "S.T. Dupont Royal Amber Eau de Parfum 100ml – Unisex Amber Woody Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-1.webp",
+     "in": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-01.webp",
+     "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – gold engraved bottle, front view",
+     "new_alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – gold engraved bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446167427",
+     "new_media": "gid://shopify/MediaImage/74824164770179"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-2.webp",
+     "in": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-02.webp",
+     "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "new_alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446200195",
+     "new_media": "gid://shopify/MediaImage/74824164802947"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-3.webp",
+     "in": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-03.webp",
+     "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with amber, oud wood and leather",
+     "new_alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with amber, oud wood and leather",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446232963",
+     "new_media": "gid://shopify/MediaImage/74824164835715"
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "src": "s-t-dupont-royal-amber-eau-de-parfum-100ml-4.webp",
+     "in": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-04.webp",
+     "alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with golden splash, amber and saffron flower",
+     "new_alt": "S.T. Dupont Royal Amber Eau de Parfum 100ml – bottle with golden splash, amber and saffron flower",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-royal-amber-eau-de-parfum-100ml-unisex-amber-woody-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446265731",
+     "new_media": "gid://shopify/MediaImage/74824164868483"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance",
+   "id": 16381122412931,
+   "title": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – Women’s Floral Fruity Fragrance",
+   "images": [
+    {
+     "n": 5,
+     "pos": 1,
+     "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-1.webp",
+     "in": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-01.webp",
+     "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – gold patterned bottle, front view",
+     "new_alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – gold patterned bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445741443",
+     "new_media": "gid://shopify/MediaImage/74824164901251"
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-2.webp",
+     "in": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-02.webp",
+     "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "new_alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445774211",
+     "new_media": "gid://shopify/MediaImage/74824164934019"
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "src": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-3.webp",
+     "in": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-03.webp",
+     "alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle with cherries, pink pepper, orange and tuberose",
+     "new_alt": "S.T. Dupont Pure Bloom Eau de Parfum 100ml – bottle with cherries, pink pepper, orange and tuberose",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-pure-bloom-eau-de-parfum-100ml-women-s-floral-fruity-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292445806979",
+     "new_media": "gid://shopify/MediaImage/74824164966787"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance",
+   "id": 16381088399747,
+   "title": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – Unisex Woody Spicy Tobacco Fragrance",
+   "images": [
+    {
+     "n": 8,
+     "pos": 1,
+     "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-1.webp",
+     "in": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-01.webp",
+     "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold engraved bottle, front view",
+     "new_alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold engraved bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446298499",
+     "new_media": "gid://shopify/MediaImage/74824164999555"
+    },
+    {
+     "n": 9,
+     "pos": 2,
+     "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-2.webp",
+     "in": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-02.webp",
+     "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "new_alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle beside its gold 100 ml box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446331267",
+     "new_media": "gid://shopify/MediaImage/74824165032323"
+    },
+    {
+     "n": 10,
+     "pos": 3,
+     "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-3.webp",
+     "in": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-03.webp",
+     "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold 100 ml Eau de Parfum box, front view",
+     "new_alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – gold 100 ml Eau de Parfum box, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446364035",
+     "new_media": "gid://shopify/MediaImage/74824165065091"
+    },
+    {
+     "n": 11,
+     "pos": 4,
+     "src": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-4.webp",
+     "in": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-04.webp",
+     "alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle with tobacco leaf, cinnamon, ginger, rose and vanilla",
+     "new_alt": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – bottle with tobacco leaf, cinnamon, ginger, rose and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "s-t-dupont-perfect-tobacco-eau-de-parfum-100ml-unisex-woody-spicy-tobacco-fragrance-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292446396803",
+     "new_media": "gid://shopify/MediaImage/74824165097859"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

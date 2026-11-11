@@ -1,0 +1,298 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {
+   "5": "flood"
+  },
+  "alt": {
+   "10": "Lattafa Maahir Black Edition Eau de Parfum 100ml – black horse-head bottle, side view"
+  },
+  "skip_products": [],
+  "notes": "5 pale box flood"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16421464146307",
+   "media": "gid://shopify/MediaImage/74600661516675",
+   "src": "lattafa-yara-candy-eau-de-parfum-100ml-01.webp",
+   "alt": "Lattafa Yara Candy Eau de Parfum 100ml – pink bottle with gold bands"
+  },
+  {
+   "product": "gid://shopify/Product/16421464146307",
+   "media": "gid://shopify/MediaImage/74600661549443",
+   "src": "lattafa-yara-candy-eau-de-parfum-100ml-02.webp",
+   "alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with pink and white Candy box"
+  },
+  {
+   "product": "gid://shopify/Product/16421464146307",
+   "media": "gid://shopify/MediaImage/74600661582211",
+   "src": "lattafa-yara-candy-eau-de-parfum-100ml-03.webp",
+   "alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with blackcurrants and mandarin"
+  },
+  {
+   "product": "gid://shopify/Product/16421463359875",
+   "media": "gid://shopify/MediaImage/74600657617283",
+   "src": "lattafa-teriaq-eau-de-parfum-100ml-01.webp",
+   "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with gold serpent cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421463359875",
+   "media": "gid://shopify/MediaImage/74600657650051",
+   "src": "lattafa-teriaq-eau-de-parfum-100ml-02.webp",
+   "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle beside its pink box"
+  },
+  {
+   "product": "gid://shopify/Product/16421463359875",
+   "media": "gid://shopify/MediaImage/74600657682819",
+   "src": "lattafa-teriaq-eau-de-parfum-100ml-03.webp",
+   "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with caramel, apricots, almonds and pink peppercorns"
+  },
+  {
+   "product": "gid://shopify/Product/16421463294339",
+   "media": "gid://shopify/MediaImage/74600655749507",
+   "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-01.webp",
+   "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – black bottle with horse-head cap"
+  },
+  {
+   "product": "gid://shopify/Product/16421463294339",
+   "media": "gid://shopify/MediaImage/74600655782275",
+   "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-02.webp",
+   "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle beside its black box"
+  },
+  {
+   "product": "gid://shopify/Product/16421463294339",
+   "media": "gid://shopify/MediaImage/74600655815043",
+   "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-03.webp",
+   "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle with its box and wood pieces"
+  },
+  {
+   "product": "gid://shopify/Product/16421463294339",
+   "media": "gid://shopify/MediaImage/74600655847811",
+   "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-04.webp",
+   "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle with wood and smoke"
+  },
+  {
+   "product": "gid://shopify/Product/16421463196035",
+   "media": "gid://shopify/MediaImage/74600660271491",
+   "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-01.webp",
+   "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – faceted glass bottle with amber juice"
+  },
+  {
+   "product": "gid://shopify/Product/16421463196035",
+   "media": "gid://shopify/MediaImage/74600660304259",
+   "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-02.webp",
+   "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle beside its brown box"
+  },
+  {
+   "product": "gid://shopify/Product/16421463196035",
+   "media": "gid://shopify/MediaImage/74600660337027",
+   "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-03.webp",
+   "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle with coffee beans, wood and amber resin"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "lattafa-yara-candy-eau-de-parfum-100ml",
+   "id": 16421464146307,
+   "title": "Lattafa Yara Candy Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "lattafa-yara-candy-eau-de-parfum-100ml-01.webp",
+     "in": "lattafa-yara-candy-eau-de-parfum-100ml-01.webp",
+     "alt": "Lattafa Yara Candy Eau de Parfum 100ml – pink bottle with gold bands",
+     "new_alt": "Lattafa Yara Candy Eau de Parfum 100ml – pink bottle with gold bands",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-yara-candy-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661516675",
+     "new_media": "gid://shopify/MediaImage/74824157757827"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "lattafa-yara-candy-eau-de-parfum-100ml-02.webp",
+     "in": "lattafa-yara-candy-eau-de-parfum-100ml-02.webp",
+     "alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with pink and white Candy box",
+     "new_alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with pink and white Candy box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-yara-candy-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661549443",
+     "new_media": "gid://shopify/MediaImage/74824157790595"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "lattafa-yara-candy-eau-de-parfum-100ml-03.webp",
+     "in": "lattafa-yara-candy-eau-de-parfum-100ml-03.webp",
+     "alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with blackcurrants and mandarin",
+     "new_alt": "Lattafa Yara Candy Eau de Parfum 100ml – bottle with blackcurrants and mandarin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-yara-candy-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600661582211",
+     "new_media": "gid://shopify/MediaImage/74824157823363"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "lattafa-teriaq-eau-de-parfum-100ml",
+   "id": 16421463359875,
+   "title": "Lattafa Teriaq Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "lattafa-teriaq-eau-de-parfum-100ml-01.webp",
+     "in": "lattafa-teriaq-eau-de-parfum-100ml-01.webp",
+     "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with gold serpent cap",
+     "new_alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with gold serpent cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-teriaq-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657617283",
+     "new_media": "gid://shopify/MediaImage/74824157856131"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "lattafa-teriaq-eau-de-parfum-100ml-02.webp",
+     "in": "lattafa-teriaq-eau-de-parfum-100ml-02.webp",
+     "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle beside its pink box",
+     "new_alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle beside its pink box",
+     "variant_ids": [],
+     "method": "flood",
+     "out": "lattafa-teriaq-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657650051",
+     "new_media": "gid://shopify/MediaImage/74824157888899"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "lattafa-teriaq-eau-de-parfum-100ml-03.webp",
+     "in": "lattafa-teriaq-eau-de-parfum-100ml-03.webp",
+     "alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with caramel, apricots, almonds and pink peppercorns",
+     "new_alt": "Lattafa Teriaq Eau de Parfum 100ml – bottle with caramel, apricots, almonds and pink peppercorns",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-teriaq-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600657682819",
+     "new_media": "gid://shopify/MediaImage/74824157921667"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "lattafa-maahir-black-edition-eau-de-parfum-100ml",
+   "id": 16421463294339,
+   "title": "Lattafa Maahir Black Edition Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-01.webp",
+     "in": "lattafa-maahir-black-edition-eau-de-parfum-100ml-01.webp",
+     "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – black bottle with horse-head cap",
+     "new_alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – black bottle with horse-head cap",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-maahir-black-edition-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655749507",
+     "new_media": "gid://shopify/MediaImage/74824157954435"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-02.webp",
+     "in": "lattafa-maahir-black-edition-eau-de-parfum-100ml-02.webp",
+     "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle beside its black box",
+     "new_alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle beside its black box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-maahir-black-edition-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655782275",
+     "new_media": "gid://shopify/MediaImage/74824157987203"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-03.webp",
+     "in": "lattafa-maahir-black-edition-eau-de-parfum-100ml-03.webp",
+     "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle with its box and wood pieces",
+     "new_alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle with its box and wood pieces",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-maahir-black-edition-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655815043",
+     "new_media": "gid://shopify/MediaImage/74824158019971"
+    },
+    {
+     "n": 10,
+     "pos": 4,
+     "src": "lattafa-maahir-black-edition-eau-de-parfum-100ml-04.webp",
+     "in": "lattafa-maahir-black-edition-eau-de-parfum-100ml-04.webp",
+     "alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – bottle with wood and smoke",
+     "new_alt": "Lattafa Maahir Black Edition Eau de Parfum 100ml – black horse-head bottle, side view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-maahir-black-edition-eau-de-parfum-100ml-04-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600655847811",
+     "new_media": "gid://shopify/MediaImage/74824158052739"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "lattafa-khamrah-qahwa-eau-de-parfum-100ml",
+   "id": 16421463196035,
+   "title": "Lattafa Khamrah Qahwa Eau de Parfum 100ml",
+   "images": [
+    {
+     "n": 11,
+     "pos": 1,
+     "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-01.webp",
+     "in": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-01.webp",
+     "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – faceted glass bottle with amber juice",
+     "new_alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – faceted glass bottle with amber juice",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660271491",
+     "new_media": "gid://shopify/MediaImage/74824158085507"
+    },
+    {
+     "n": 12,
+     "pos": 2,
+     "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-02.webp",
+     "in": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-02.webp",
+     "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle beside its brown box",
+     "new_alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle beside its brown box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660304259",
+     "new_media": "gid://shopify/MediaImage/74824158118275"
+    },
+    {
+     "n": 13,
+     "pos": 3,
+     "src": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-03.webp",
+     "in": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-03.webp",
+     "alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle with coffee beans, wood and amber resin",
+     "new_alt": "Lattafa Khamrah Qahwa Eau de Parfum 100ml – bottle with coffee beans, wood and amber resin",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "lattafa-khamrah-qahwa-eau-de-parfum-100ml-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74600660337027",
+     "new_media": "gid://shopify/MediaImage/74824158151043"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "note": "Cut-out roll-out 2026-11-11. Undo: fileUpdate referencesToAdd the 'detached' originals back to their product, detach media whose file ends -cutout.webp or -photo.webp, and restore 'variant_links' (old).",
+ "picks": {
+  "default": "bire",
+  "pick": {},
+  "alt": {},
+  "skip_products": [],
+  "notes": "clean"
+ },
+ "detached": [
+  {
+   "product": "gid://shopify/Product/16383696142723",
+   "media": "gid://shopify/MediaImage/74292424573315",
+   "src": "escada-party-love-eau-de-parfum-100ml-1.webp",
+   "alt": "Escada Party Love Eau de Parfum 100ml – purple heart-shaped bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383696142723",
+   "media": "gid://shopify/MediaImage/74292424606083",
+   "src": "escada-party-love-eau-de-parfum-100ml-2.webp",
+   "alt": "Escada Party Love Eau de Parfum 100ml – bottle beside its limited edition box"
+  },
+  {
+   "product": "gid://shopify/Product/16383696142723",
+   "media": "gid://shopify/MediaImage/74292424638851",
+   "src": "escada-party-love-eau-de-parfum-100ml-3.webp",
+   "alt": "Escada Party Love Eau de Parfum 100ml – bottle with cherries, cupcake and vanilla"
+  },
+  {
+   "product": "gid://shopify/Product/16383680119171",
+   "media": "gid://shopify/MediaImage/74292411400579",
+   "src": "escada-magnetism-eau-de-parfum-25ml-1.webp",
+   "alt": "Escada Magnetism Eau de Parfum 25ml – red glass bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383680119171",
+   "media": "gid://shopify/MediaImage/74292411433347",
+   "src": "escada-magnetism-eau-de-parfum-25ml-2.webp",
+   "alt": "Escada Magnetism Eau de Parfum 25ml – 25 ml bottle beside its purple box"
+  },
+  {
+   "product": "gid://shopify/Product/16383680119171",
+   "media": "gid://shopify/MediaImage/74292411466115",
+   "src": "escada-magnetism-eau-de-parfum-25ml-3.webp",
+   "alt": "Escada Magnetism Eau de Parfum 25ml – bottle with blackcurrants, plum, freesia and basil"
+  },
+  {
+   "product": "gid://shopify/Product/16383666651523",
+   "media": "gid://shopify/MediaImage/74292411302275",
+   "src": "escada-magnetic-dream-eau-de-parfum-75ml-1.webp",
+   "alt": "Escada Magnetic Dream Eau de Parfum 75ml – pink to blue gradient bottle, front view"
+  },
+  {
+   "product": "gid://shopify/Product/16383666651523",
+   "media": "gid://shopify/MediaImage/74292411335043",
+   "src": "escada-magnetic-dream-eau-de-parfum-75ml-2.webp",
+   "alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle beside its red and blue box"
+  },
+  {
+   "product": "gid://shopify/Product/16383666651523",
+   "media": "gid://shopify/MediaImage/74292411367811",
+   "src": "escada-magnetic-dream-eau-de-parfum-75ml-3.webp",
+   "alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle with pineapple, berries, lychee and cinnamon"
+  }
+ ],
+ "variant_links": [],
+ "gallery": [
+  {
+   "handle": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance",
+   "id": 16383696142723,
+   "title": "Escada Party Love Eau de Parfum 100ml – Women’s Fruity Gourmand Fragrance",
+   "images": [
+    {
+     "n": 1,
+     "pos": 1,
+     "src": "escada-party-love-eau-de-parfum-100ml-1.webp",
+     "in": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-01.webp",
+     "alt": "Escada Party Love Eau de Parfum 100ml – purple heart-shaped bottle, front view",
+     "new_alt": "Escada Party Love Eau de Parfum 100ml – purple heart-shaped bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424573315",
+     "new_media": "gid://shopify/MediaImage/74824165491075"
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "src": "escada-party-love-eau-de-parfum-100ml-2.webp",
+     "in": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-02.webp",
+     "alt": "Escada Party Love Eau de Parfum 100ml – bottle beside its limited edition box",
+     "new_alt": "Escada Party Love Eau de Parfum 100ml – bottle beside its limited edition box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424606083",
+     "new_media": "gid://shopify/MediaImage/74824165523843"
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "src": "escada-party-love-eau-de-parfum-100ml-3.webp",
+     "in": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-03.webp",
+     "alt": "Escada Party Love Eau de Parfum 100ml – bottle with cherries, cupcake and vanilla",
+     "new_alt": "Escada Party Love Eau de Parfum 100ml – bottle with cherries, cupcake and vanilla",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-party-love-eau-de-parfum-100ml-women-s-fruity-gourmand-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292424638851",
+     "new_media": "gid://shopify/MediaImage/74824165556611"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance",
+   "id": 16383680119171,
+   "title": "Escada Magnetism Eau de Parfum 25ml – Women’s Fruity Floral Fragrance",
+   "images": [
+    {
+     "n": 4,
+     "pos": 1,
+     "src": "escada-magnetism-eau-de-parfum-25ml-1.webp",
+     "in": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-01.webp",
+     "alt": "Escada Magnetism Eau de Parfum 25ml – red glass bottle, front view",
+     "new_alt": "Escada Magnetism Eau de Parfum 25ml – red glass bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411400579",
+     "new_media": "gid://shopify/MediaImage/74824165589379"
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "src": "escada-magnetism-eau-de-parfum-25ml-2.webp",
+     "in": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-02.webp",
+     "alt": "Escada Magnetism Eau de Parfum 25ml – 25 ml bottle beside its purple box",
+     "new_alt": "Escada Magnetism Eau de Parfum 25ml – 25 ml bottle beside its purple box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411433347",
+     "new_media": "gid://shopify/MediaImage/74824165622147"
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "src": "escada-magnetism-eau-de-parfum-25ml-3.webp",
+     "in": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-03.webp",
+     "alt": "Escada Magnetism Eau de Parfum 25ml – bottle with blackcurrants, plum, freesia and basil",
+     "new_alt": "Escada Magnetism Eau de Parfum 25ml – bottle with blackcurrants, plum, freesia and basil",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetism-eau-de-parfum-25ml-women-s-fruity-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411466115",
+     "new_media": "gid://shopify/MediaImage/74824165654915"
+    }
+   ],
+   "skip": false
+  },
+  {
+   "handle": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance",
+   "id": 16383666651523,
+   "title": "Escada Magnetic Dream Eau de Parfum 75ml – Women’s Fruity Floral Fragrance",
+   "images": [
+    {
+     "n": 7,
+     "pos": 1,
+     "src": "escada-magnetic-dream-eau-de-parfum-75ml-1.webp",
+     "in": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-01.webp",
+     "alt": "Escada Magnetic Dream Eau de Parfum 75ml – pink to blue gradient bottle, front view",
+     "new_alt": "Escada Magnetic Dream Eau de Parfum 75ml – pink to blue gradient bottle, front view",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-01-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411302275",
+     "new_media": "gid://shopify/MediaImage/74824165687683"
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "src": "escada-magnetic-dream-eau-de-parfum-75ml-2.webp",
+     "in": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-02.webp",
+     "alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle beside its red and blue box",
+     "new_alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle beside its red and blue box",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-02-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411335043",
+     "new_media": "gid://shopify/MediaImage/74824165720451"
+    },
+    {
+     "n": 9,
+     "pos": 3,
+     "src": "escada-magnetic-dream-eau-de-parfum-75ml-3.webp",
+     "in": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-03.webp",
+     "alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle with pineapple, berries, lychee and cinnamon",
+     "new_alt": "Escada Magnetic Dream Eau de Parfum 75ml – bottle with pineapple, berries, lychee and cinnamon",
+     "variant_ids": [],
+     "method": "bire",
+     "out": "escada-magnetic-dream-eau-de-parfum-75ml-women-s-fruity-floral-fragrance-03-cutout.webp",
+     "media": "gid://shopify/MediaImage/74292411367811",
+     "new_media": "gid://shopify/MediaImage/74824165753219"
+    }
+   ],
+   "skip": false
+  }
+ ]
+}
