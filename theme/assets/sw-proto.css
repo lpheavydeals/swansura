@@ -2552,3 +2552,4 @@ html.as-open .swp .chatbtn{display:none}
 .swp .hero .arch .pic,.swp .door,.swp .pic.ph{aspect-ratio:1/1!important}
 .swp img.pic[src*="-cutout"]{object-fit:contain!important}
 .swp .step .si .pic,.swp .bands.rail .band .pic{aspect-ratio:1/1!important}
+@media (min-width:901px){.swp .gallery:not(.single) .thumbs{height:0;min-height:100%;max-height:none}.swp #mainImg{aspect-ratio:1/1;align-self:start}}
