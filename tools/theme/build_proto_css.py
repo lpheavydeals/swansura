@@ -341,6 +341,9 @@ html.as-open .swp .chatbtn{display:none}
    '-fill' are already 4:5, extended with their own edge colours (tools/shopify/graphic_fill.py), so show them
    edge to edge: no padding, no multiply, no mount colour around them. */
 .swp img.pic[src*="-fill"]{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
+/* Square photo sample (12 Nov 2026): 1:1 photos (Liquid adds .sq) show in a 1:1 frame, edge to edge. */
+.swp img.pic.sq{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
+.swp img.pic.full{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
 """
 
 

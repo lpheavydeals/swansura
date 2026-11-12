@@ -79,13 +79,37 @@
   if img0.src contains '-cutout'
     assign img1 = nil
   endif
+  comment
+    Square photo sample (12 Nov 2026): a 1:1 photo shows in a 1:1 frame, edge to edge, instead of the 4:5 mount.
+  endcomment
+  assign c0 = 'pic'
+  assign sq0 = false
+  if img0 and img0.aspect_ratio >= 0.95 and img0.aspect_ratio <= 1.05
+    assign c0 = 'pic sq'
+    assign sq0 = true
+  elsif img0 and img0.aspect_ratio >= 0.74 and img0.aspect_ratio <= 0.84
+    unless img0.src contains '-cutout' or img0.src contains '-fill'
+      assign c0 = 'pic full'
+    endunless
+  endif
+  assign c1 = 'pic alt'
+  if img1
+    if img1.aspect_ratio >= 0.95 and img1.aspect_ratio <= 1.05
+      assign c1 = 'pic alt sq'
+      unless sq0
+        assign img1 = nil
+      endunless
+    elsif sq0
+      assign img1 = nil
+    endif
+  endif
 -%}
 {%- capture t -%}{% render 'sw-p-name', product: product %}{%- endcapture -%}
 {%- capture vid -%}{% render 'sw-p-variant', product: product %}{%- endcapture -%}
 {%- capture brand_url -%}{% render 'sw-brand-link', vendor: product.vendor %}{%- endcapture -%}
 <article class="p-card"{% if hidden %} hidden{% endif %}{% if facets %} data-t="{{ sw.t | escape }}" data-b="{{ product.vendor | escape }}" data-c="{{ sw.c | join: '|' }}" data-s="{{ sw.s | join: '|' }}" data-g="{{ sw.g | join: '|' | escape }}" data-f="{{ sw.f }}" data-w="{{ sw.w | escape }}" data-p="{{ fv.price | divided_by: 100.0 }}" data-in="{% if product.available %}1{% else %}0{% endif %}" data-n="{{ t | escape }}" data-r="{{ sw.r | default: 9999 }}"{% endif %}><div class="mwrap"><a href="{{ product.url }}" class="p-media" aria-label="{{ t | escape }}">
-  {%- if img0 -%}{%- assign swalt = img0.alt | default: product.title -%}{{ img0 | image_url: width: 900 | image_tag: class: 'pic', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: swalt }}{%- else -%}<div class="pic ph" role="img" aria-label="{{ product.title | escape }}: photo coming soon"><b>{{ product.vendor | escape }}</b><small>Photo coming soon</small></div>{%- endif -%}
-  {%- if img1 -%}{%- assign swalt = img1.alt | default: product.title -%}{{ img1 | image_url: width: 900 | image_tag: class: 'pic alt', widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: swalt }}{%- endif -%}
+  {%- if img0 -%}{%- assign swalt = img0.alt | default: product.title -%}{{ img0 | image_url: width: 900 | image_tag: class: c0, widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: swalt }}{%- else -%}<div class="pic ph" role="img" aria-label="{{ product.title | escape }}: photo coming soon"><b>{{ product.vendor | escape }}</b><small>Photo coming soon</small></div>{%- endif -%}
+  {%- if img1 -%}{%- assign swalt = img1.alt | default: product.title -%}{{ img1 | image_url: width: 900 | image_tag: class: c1, widths: '300,450,600,900', sizes: '(min-width: 1100px) 290px, (min-width: 720px) 30vw, 46vw', loading: 'lazy', alt: swalt }}{%- endif -%}
   {%- if product.available == false -%}<span class="p-badge out">Sold out</span>
   {%- elsif fv.compare_at_price > fv.price -%}{%- assign pct = fv.price | times: 100.0 | divided_by: fv.compare_at_price | round -%}<span class="p-badge" style="color:var(--sale)">Save {{ 100 | minus: pct }}%</span>
   {%- elsif sw.k -%}<span class="p-badge pick">Studio pick</span>
