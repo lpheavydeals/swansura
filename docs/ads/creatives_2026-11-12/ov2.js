@@ -6,6 +6,9 @@ const CSS=`@font-face{font-family:PJS;src:url(pjs.woff2) format('woff2');font-we
 @font-face{font-family:Fr;src:url(fraunces-italic.ttf);font-style:italic;font-weight:100 900}
 @font-face{font-family:FrR;src:url(fraunces.ttf);font-weight:100 900}
 @font-face{font-family:GV;src:url(greatvibes.ttf)}
+@font-face{font-family:SAT;src:url(Satisfy-Regular.ttf)}
+@font-face{font-family:DAN;src:url(dancing.ttf);font-weight:400 700}
+@font-face{font-family:KAU;src:url(kaushan.ttf)}
 *{margin:0;box-sizing:border-box}html,body{width:1080px;height:1920px;background:transparent;overflow:hidden}
 .abs{position:absolute;left:0;right:0;text-align:center;padding:0 70px}
 .ts{position:absolute;left:0;right:0;top:${P.ts}px;height:${P.tsh}px;background:linear-gradient(rgba(12,18,15,.5),rgba(12,18,15,.16) 70%,transparent)}
@@ -16,6 +19,7 @@ const CSS=`@font-face{font-family:PJS;src:url(pjs.woff2) format('woff2');font-we
 .s{font-family:GV;color:#F6D58E;font-size:1.45em;font-style:normal;font-weight:400;letter-spacing:0;line-height:.9;text-shadow:0 1px 3px rgba(40,25,10,.55),0 3px 20px rgba(0,0,0,.5)}
 .l{font-family:Fr;font-style:italic;font-weight:400;font-variation-settings:'SOFT' 100,'opsz' 72;color:#fff;font-size:50px;line-height:1.12;text-shadow:0 2px 18px rgba(0,0,0,.45)}
 .l b{font-family:PJS;font-style:normal;color:#EACB8E;font-weight:700;margin:0 14px}
+.ing{font-family:PJS;font-weight:600;font-size:32px;letter-spacing:.06em;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.55)}.ing b{color:#EACB8E;margin:0 14px}
 .small{font-family:PJS;font-weight:600;font-size:26px;letter-spacing:.06em;color:#F4EEE4;text-shadow:0 1px 10px rgba(0,0,0,.5);margin-top:16px}
 .card{position:absolute;inset:0;background:radial-gradient(120% 70% at 30% 20%,#2A6B57 0%,#1B4D3E 38%,#133A2F 75%,#0F2E25 100%)}
 .logo{position:absolute;left:0;right:0;text-align:center}.logo img{height:150px}
@@ -31,10 +35,12 @@ const top=(inner)=>`<div class="ts"></div><div class="abs" style="top:${P.top}px
 const bot=(inner)=>`<div class="bs"></div><div class="abs" style="bottom:${1920-P.bot}px">${inner}</div>`;
 const hook=(eb,h)=>top(`<div class="eb">${eb}</div><div class="h" style="margin-top:22px">${h}</div>`);
 const step=(n,t)=>top(`<div class="h"><span class="s" style="font-size:1.05em">Step ${n}</span></div><div class="h" style="font-size:62px;margin-top:6px">${t}</div>`);
-const line=(arr)=>bot(`<div class="l">${arr.join('<b>·</b>')}</div>`);
-const capb=(t,s)=>bot(`<div class="l" style="font-size:56px">${t}</div>${s?`<div class="small">${s}</div>`:''}`);
+const line=(arr)=>bot(`<div class="ing">${arr.join('<b>·</b>')}</div>`);
+const capb=(t,s)=>bot(`<div class="l cap2" style="font-size:56px">${t}</div>${s?`<div class="small">${s}</div>`:''}`);
 const arrow='<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0F2E25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const end=(im,name,price)=>{const o=MODE=='916'?0:-20;return `<div class="card"></div><div class="logo" style="top:${330+o}px"><img src="${logoUri}"></div><div class="tile" style="top:${520+o}px"><img src="${img(im)}"></div><div class="name" style="top:${1132+o}px">${name}</div><div class="price" style="top:${1222+o}px">${price}</div><div class="btn" style="top:${1300+o}px">Shop now ${arrow}</div><div class="fine" style="top:${1446+o}px">Free UK delivery over £40<br><span>swansura.com</span></div>`};
+const TH={d:{f:'SAT',w:400,h:84,c:66,n:68},v:{f:'DAN',w:600,h:86,c:66,n:68},h:{f:'KAU',w:400,h:76,c:58,n:60}};
+const thcss=k=>{const t=TH[k[0]];if(!t)return '';return `.h,.cap2,.name{font-family:${t.f}!important;font-style:normal!important;font-variation-settings:normal!important;font-weight:${t.w}!important;letter-spacing:0!important}.h{font-size:${t.h}px;line-height:1.1}.cap2{font-size:${t.c}px!important}.name{font-size:${t.n}px}.s{font-family:${t.f}!important;font-size:1em!important;font-weight:${t.w};line-height:1.1}`};
 const O={
  d1:hook('DEYGA · NOW SHIPPED FROM THE UK','The beetroot lip balm<br>you know <span class="s">from home</span>'),
  d2a:line(['beetroot extract']), d2b:line(['beetroot extract','almond &amp; avocado oil']), d2c:line(['beetroot','almond &amp; avocado oil','shea butter']),
@@ -54,7 +60,7 @@ const O={
  vend:end('vil0.jpg','Vilvah Milk Drops Serum','20 ml £21.99 · 40 ml £30.99'),
 };
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});const dir='ov'+MODE;fs.mkdirSync(dir,{recursive:true});
-for(const [k,v] of Object.entries(O)){fs.writeFileSync('t.html',`<html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${v}</body></html>`);
+for(const [k,v] of Object.entries(O)){fs.writeFileSync('t.html',`<html><head><meta charset="utf-8"><style>${CSS}${thcss(k)}</style></head><body>${v}</body></html>`);
 await p.goto('file://'+process.cwd()+'/t.html');await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(200);
 await p.screenshot({path:dir+'/'+k+'.png',omitBackground:!k.endsWith('end')});}
 await b.close()})();
