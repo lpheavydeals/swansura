@@ -2555,4 +2555,7 @@ html.as-open .swp .chatbtn{display:none}
 @media (min-width:901px){.swp .gallery:not(.single) .thumbs{height:0;min-height:100%;max-height:none}.swp #mainImg{aspect-ratio:1/1;align-self:start}}
 /* user, 12 Nov 2026: smaller card badge (Official partner etc.) in the 1:1 frame, top-left on phones too */
 .swp .p-card .p-badge{top:8px!important;left:8px!important;bottom:auto!important;font-size:9px!important;letter-spacing:.1em!important;padding:3px 6px!important;line-height:1.35}
-@media (max-width:800px){.swp .p-card .p-badge{top:6px!important;left:6px!important;font-size:8px!important;letter-spacing:.06em!important;padding:2px 5px!important;max-width:calc(100% - 52px)}}
+.swp .p-card .p-badge.partner{background:var(--card)!important;color:var(--brass-ink)!important;box-shadow:inset 0 0 0 1px rgba(181,132,58,.55)}
+@media (max-width:800px){.swp .p-card .p-badge{top:6px!important;left:6px!important;font-size:8.5px!important;letter-spacing:.05em!important;padding:3px 5px!important;max-width:none!important;overflow:visible!important;text-overflow:clip!important;white-space:nowrap}.swp .p-card .heart:not(.big){top:6px;right:6px;width:28px;height:28px}.swp .p-card .heart:not(.big) svg{width:15px;height:15px}}
+@media (max-width:370px){.swp .p-card .p-badge{font-size:8px!important;letter-spacing:.02em!important;padding:3px 4px!important}}
+@media (max-width:340px){.swp .p-card .p-badge{font-size:7.5px!important;letter-spacing:0!important;padding:3px!important}}
