@@ -45,6 +45,12 @@ const O={
  v2:line(['rice milk extract']), v3:line(['rice milk extract','hyaluronic acid']),
  vs1:step(1,'a few drops on clean skin'), vs2:step(2,'gently pat it in'), vs3:step(3,'follow with moisturiser &amp; SPF'),
  v5:capb('fragrance-free','Official UK partner of Vilvah · Dispatched from the UK'),
+ h1:hook('DEYGA · NOW SHIPPED FROM THE UK','Your Sunday <span class="s">champi</span>,<br>in three easy steps'),
+ hs1:step(1,'a pre-wash oil massage'), hb1:line(['coconut','almond','amla','hibiscus']),
+ hs2:step(2,'rice water shampoo'), hb2:capb('a mild, gentle lather'),
+ hs3:step(3,'soy milk conditioner'), hb3:line(['soy','argan oil','vitamin E']),
+ h5:top('<div class="h">soft, <span class="s">easy</span> wash days</div>'), h5b:capb('Official UK partner of Deyga','Dispatched from the UK · Free delivery over £40'),
+ hend:end('hk1.jpg','Deyga Hair Care Kit','50 ml £18.99 · 220 ml £36.99'),
  vend:end('vil0.jpg','Vilvah Milk Drops Serum','20 ml £21.99 · 40 ml £30.99'),
 };
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});const dir='ov'+MODE;fs.mkdirSync(dir,{recursive:true});
