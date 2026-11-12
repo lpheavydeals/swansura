@@ -344,6 +344,10 @@ html.as-open .swp .chatbtn{display:none}
 /* Square photo sample (12 Nov 2026): 1:1 photos (Liquid adds .sq) show in a 1:1 frame, edge to edge. */
 .swp img.pic.sq{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
 .swp img.pic.full{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
+/* user, 12 Nov 2026: every product card 1:1 (cut-outs contained on the tint, photos cover) */
+.swp .p-card img.pic,.swp .p-card .pic.ph{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;object-fit:cover!important;box-sizing:border-box}
+.swp .p-card img.pic[src*="-cutout"]{object-fit:contain!important}
+.swp .p-card .pic.ph{padding:8%!important}
 """
 
 

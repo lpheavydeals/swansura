@@ -2544,6 +2544,6 @@ html.as-open .swp .chatbtn{display:none}
 .swp img.pic[src*="-fill"]{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
 .swp img.pic.sq{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
 .swp img.pic.full{padding:0!important;mix-blend-mode:normal!important;background:transparent!important;object-fit:cover!important;box-sizing:border-box}
-html.sq1 .swp .p-card img.pic,html.sq1 .swp .p-card .pic.ph{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;object-fit:cover!important;box-sizing:border-box}
-html.sq1 .swp .p-card img.pic[src*="-cutout"]{object-fit:contain!important}
-html.sq1 .swp .p-card .pic.ph{padding:8%!important}
+.swp .p-card img.pic,.swp .p-card .pic.ph{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;object-fit:cover!important;box-sizing:border-box}
+.swp .p-card img.pic[src*="-cutout"]{object-fit:contain!important}
+.swp .p-card .pic.ph{padding:8%!important}
