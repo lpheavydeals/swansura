@@ -2559,3 +2559,6 @@ html.as-open .swp .chatbtn{display:none}
 @media (max-width:800px){.swp .p-card .p-badge{top:6px!important;left:6px!important;font-size:8.5px!important;letter-spacing:.05em!important;padding:3px 5px!important;max-width:none!important;overflow:visible!important;text-overflow:clip!important;white-space:nowrap}.swp .p-card .heart:not(.big){top:6px;right:6px;width:28px;height:28px}.swp .p-card .heart:not(.big) svg{width:15px;height:15px}}
 @media (max-width:370px){.swp .p-card .p-badge{font-size:8px!important;letter-spacing:.02em!important;padding:3px 4px!important}}
 @media (max-width:340px){.swp .p-card .p-badge{font-size:7.5px!important;letter-spacing:0!important;padding:3px!important}}
+/* user, 12 Nov 2026: card badge sits on the card border line, top-left, off the photo (badge markup moved out of .p-media into .mwrap) */
+.swp .p-card .mwrap>.p-badge{top:-11px!important;left:12px!important;bottom:auto!important;transform:translateY(-50%);z-index:3;max-width:none!important;overflow:visible!important;white-space:nowrap}
+@media (max-width:720px){.swp .p-card .mwrap>.p-badge{top:-9px!important;left:8px!important}}
