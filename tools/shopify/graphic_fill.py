@@ -9,7 +9,7 @@ Output name <handle>-NN-fill.webp; the theme shows '-fill' files edge to edge (n
 
 Edges that are mostly picture (risk >= 0.35, e.g. a garden scene) use fill_blur instead.
 
-  graphic_fill.py <in_dir> <out_dir>   (every *.webp/*.jpg/*.png in in_dir -> out_dir/<stem>-fill.webp)
+  graphic_fill.py [--square] <in_dir> <out_dir>   (--square: 1200x1200 instead of 4:5; every *.webp/*.jpg/*.png in in_dir -> out_dir/<stem>-fill.webp)
 """
 import sys
 from pathlib import Path
@@ -50,7 +50,7 @@ def fill_blur(im):
     from PIL import ImageFilter
     im = im.convert('RGB')
     w, h = im.size
-    if abs(w / h - 0.8) < 0.01:
+    if abs(w / h - OW / OH) < 0.01:
         return im.resize((OW, OH), Image.LANCZOS)
     sc = max(OW / w, OH / h)
     bg = im.resize((round(w * sc), round(h * sc)), Image.LANCZOS)
@@ -75,9 +75,9 @@ def edge_risk(im):
     """Share of the edge (the one next to the bands) that is picture rather than plain background."""
     a = np.asarray(im.convert('RGB'), np.float32)
     h, w, _ = a.shape
-    if abs(w / h - 0.8) < 0.01:
+    if abs(w / h - OW / OH) < 0.01:
         return 0.0
-    es = [a[:3].mean(0), a[-3:].mean(0)] if w / h > 0.8 else [a[:, :3].mean(1), a[:, -3:].mean(1)]
+    es = [a[:3].mean(0), a[-3:].mean(0)] if w / h > OW / OH else [a[:, :3].mean(1), a[:, -3:].mean(1)]
     return max(float((np.linalg.norm(e - np.median(e, 0), axis=1) > 45).mean()) for e in es)
 
 
@@ -88,9 +88,9 @@ def auto(im, limit=0.35):
 def fill(im):
     im = im.convert('RGB')
     w, h = im.size
-    if abs(w / h - 0.8) < 0.01:
+    if abs(w / h - OW / OH) < 0.01:
         return im.resize((OW, OH), Image.LANCZOS)
-    if w / h > 0.8:     # wider than 4:5: bands above and below
+    if w / h > OW / OH:     # wider than 4:5: bands above and below
         nw, nh = OW, round(h * OW / w)
     else:               # narrower: bands left and right
         nw, nh = round(w * OH / h), OH
@@ -118,7 +118,17 @@ def fill(im):
     return Image.fromarray(np.clip(canvas + np.random.uniform(-.5, .5, canvas.shape), 0, 255).astype(np.uint8))
 
 
+def set_square(size=1200):
+    """Square target (user, 12 Nov 2026: Vilvah/Deyga originals shown 1:1): widen tall photos sideways
+    (wide ones top/bottom) with their own edge colours instead of cropping."""
+    global OW, OH
+    OW = OH = size
+
+
 if __name__ == '__main__':
+    if '--square' in sys.argv:
+        sys.argv.remove('--square')
+        set_square()
     src, dst = Path(sys.argv[1]), Path(sys.argv[2])
     dst.mkdir(parents=True, exist_ok=True)
     for f in sorted(src.iterdir()):
