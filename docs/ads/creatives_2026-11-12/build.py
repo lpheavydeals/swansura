@@ -1,7 +1,7 @@
 import subprocess,sys
 V='scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p'
 def seg(src,ss,to,speed=1.0,extra=''):
-    f=f"trim={ss}:{to},setpts=(PTS-STARTPTS)/{speed},{V}"
+    f=f"trim={ss}:{to},setpts=(PTS-STARTPTS)/{speed},{extra+',' if extra else ''}{V}"
     return f
 def build(name,segs,ovs,endpng,endlen,audio,a_ss=0):
     inputs=[];fc=[];labels=[];n=[0]
@@ -16,9 +16,9 @@ def build(name,segs,ovs,endpng,endlen,audio,a_ss=0):
     cnt={s:0 for s in srcs}
     t=0;parts=[]
     for i,s in enumerate(segs):
-        src,ss,to,sp=s[:4];blur=len(s)>4 and s[4]
+        src,ss,to,sp=s[:4];blur=len(s)>4 and s[4];pre=s[5] if len(s)>5 else ''
         lab=f'u{sidx[src]}_{cnt[src]}';cnt[src]+=1
-        fc.append(f"[{lab}]{seg(src,ss,to,sp)}[s{i}]")
+        fc.append(f"[{lab}]{seg(src,ss,to,sp,pre)}[s{i}]")
         dur=(to-ss)/sp
         if blur:
             mi=add('-loop','1','-i','ov/mask.png')
@@ -55,7 +55,9 @@ if 'd' in sys.argv[1:]:
     build('Deyga_Beetroot_LipBalm_9x16.mp4',[(D,0,10.6,1),(D,11.6,14.6,1)],
       [('d1',0.15,2.3),('d2a',2.5,3.3,1,0),('d2b',3.3,4.1,0,0),('d2c',4.1,6.0,0,1),('d3a',6.3,8.3),('d3b',8.35,10.5),('d4',10.8,13.1)],
       'ov/dend.png',3.2,D)
+F='../vv/Face_Brightening_Combo__FBC_Vertical.mp4'
+A='../vv/AM_PM_Combo__AM_PM_Combo_1080X1920.mp4'
 if 'v' in sys.argv[1:]:
-    build('Vilvah_MilkDrops_9x16.mp4',[(M,7.0,8.4,0.75),(M,11.0,11.9,0.75),(M,15.0,15.9,0.8),(S,3.0,8.5,1,True),(M,19.0,19.9,0.55)],
-      [('v1',0.1,1.8),('v2',1.95,3.07,1,0),('v3',3.07,4.15,0,1),('vp1',4.19,5.19,0,0),('vp2',5.19,8.19,0,0),('vp3',8.19,9.69,0,0),('v5',9.8,10.9)],
+    build('Vilvah_MilkDrops_9x16.mp4',[(M,7.0,8.4,0.75),(M,11.0,11.9,0.75),(F,7.5,8.9,0.8,False,'crop=828:1472:126:448'),(A,8.0,9.4,0.8),(M,15.0,15.9,0.8),(M,19.0,19.9,0.55)],
+      [('v1',0.1,1.8),('v2',1.95,3.07,1,0),('v3',3.07,4.75,0,1),('vs1',4.85,6.5),('vs2',6.6,7.62),('vs3',7.72,9.2),('v5',7.72,9.2)],
       'ov/vend.png',3.2,M)
