@@ -354,6 +354,9 @@ html.as-open .swp .chatbtn{display:none}
 .swp img.pic[src*="-cutout"]{object-fit:contain!important}
 .swp .step .si .pic,.swp .bands.rail .band .pic{aspect-ratio:1/1!important}
 @media (min-width:901px){.swp .gallery:not(.single) .thumbs{height:0;min-height:100%;max-height:none}.swp #mainImg{aspect-ratio:1/1;align-self:start}}
+/* user, 12 Nov 2026: smaller card badge (Official partner etc.) in the 1:1 frame, top-left on phones too */
+.swp .p-card .p-badge{top:8px!important;left:8px!important;bottom:auto!important;font-size:9px!important;letter-spacing:.1em!important;padding:3px 6px!important;line-height:1.35}
+@media (max-width:800px){.swp .p-card .p-badge{top:6px!important;left:6px!important;font-size:8px!important;letter-spacing:.06em!important;padding:2px 5px!important;max-width:calc(100% - 52px)}}
 """
 
 
