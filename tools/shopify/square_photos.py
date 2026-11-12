@@ -73,6 +73,8 @@ def main(scratch):
                 order.append(m['id'])
                 continue
             fn = base(u['url'])
+            if m['id'] in cutmap or '-cutout' in fn:  # by id: Shopify cuts long names, 3 cut-outs were also renamed -fill
+                fn = 'x-cutout'
             if '-fill' in fn:
                 it = fills[m['id']]
                 im = Image.open(ROOT / FILL_ORIG / it['orig_file'])
@@ -104,7 +106,8 @@ def main(scratch):
                 tid, ext, stem = m['id'], Path(fn).suffix, Path(fn).stem
                 src = fetch(u['url'])
             name = f'{stem}-sq{ext.lower()}'
-            save(gf.auto(src), ROOT / OUT / name)
+            if not (ROOT / OUT / name).exists():  # keep files already pushed (the fill noise is random)
+                save(gf.auto(src), ROOT / OUT / name)
             plan['content'].append({'id': tid, 'originalSource': RAW + OUT + name, 'filename': name})
             plan['squared'].append({'product': p['handle'], 'id': tid, 'file': name, 'from': list(src.size)})
             print(p['vendor'], name, src.size, flush=True)
