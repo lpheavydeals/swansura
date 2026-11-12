@@ -15,7 +15,7 @@
         "m2": {
           "type": "message",
           "settings": {
-            "text": "Free UK delivery over <strong>£40</strong> · <strong>£5 off</strong> over £70",
+            "text": "Free UK delivery over <strong>£40</strong> · <strong>£5 off</strong> over £70 with code <strong>SAVE5</strong>",
             "link": "shopify://collections/all"
           }
         },
@@ -52,7 +52,8 @@
         "extras_collection": "price-0-15",
         "delivery_min": 40,
         "bonus_min": 70,
-        "bonus_off": 5
+        "bonus_off": 5,
+        "bonus_code": "SAVE5"
       }
     }
   },

@@ -97,7 +97,7 @@
 -%}
 {%- capture pays -%}{% render 'sw-p-pays' %}{%- endcapture -%}{%- assign pays = pays | split: '|' -%}
 <script type="application/json" id="sw-config">{
-  "offers": {"delivery": {{ section.settings.delivery_min }}, "bonus": {"min": {{ section.settings.bonus_min }}, "off": {{ section.settings.bonus_off }}}},
+  "offers": {"delivery": {{ section.settings.delivery_min }}, "bonus": {"min": {{ section.settings.bonus_min }}, "off": {{ section.settings.bonus_off }}, "code": {{ section.settings.bonus_code | default: "" | json }}}},
   "count": {{ collections.all.products_count | json }},
   "returnsUrl": {{ shop.refund_policy.url | default: '/pages/shipping' | json }},
   "pays": {{ pays | json }},
@@ -153,7 +153,8 @@
     { "type": "collection", "id": "extras_collection", "label": "Bag 'Little extras' from" },
     { "type": "number", "id": "delivery_min", "label": "Free UK delivery from (£)", "default": 40 },
     { "type": "number", "id": "bonus_min", "label": "£ off from (£)", "default": 70 },
-    { "type": "number", "id": "bonus_off", "label": "£ off", "default": 5 }
+    { "type": "number", "id": "bonus_off", "label": "£ off", "default": 5 },
+    { "type": "text", "id": "bonus_code", "label": "Code for the £ off (blank = applied automatically)", "default": "SAVE5" }
   ]
 }
 {% endschema %}

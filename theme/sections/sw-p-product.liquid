@@ -131,7 +131,7 @@
           assign w = 100
         endif
       -%}
-      <div class="delivery"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg> Dispatched from the UK. {% if goal == 0 %}<b>Free UK delivery + £{{ section.settings.bonus_off }} off</b> on this item.{% elsif p >= dmin %}<b>Free UK delivery.</b> Add <b>{{ left | money }}</b> more for £{{ section.settings.bonus_off }} off.{% else %}Add <b>{{ left | money }}</b> more for free UK delivery.{% endif %}</span><div class="bar"><i style="width:{{ w | at_most: 100 }}%"></i></div></div>
+      <div class="delivery"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg> Dispatched from the UK. {% if goal == 0 %}<b>Free UK delivery</b>, plus £{{ section.settings.bonus_off }} off with code <b>{{ section.settings.bonus_code }}</b>.{% elsif p >= dmin %}<b>Free UK delivery.</b> Add <b>{{ left | money }}</b> more for £{{ section.settings.bonus_off }} off with code {{ section.settings.bonus_code }}.{% else %}Add <b>{{ left | money }}</b> more for free UK delivery.{% endif %}</span><div class="bar"><i style="width:{{ w | at_most: 100 }}%"></i></div></div>
       <div class="trustmini"><div><span class="ic g"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg></span>{{ section.settings.returns_title }}<small>{{ section.settings.returns_sub }}</small></div><div><span class="ic o"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>Secure checkout<small>Encrypted payment</small></div></div>
       <div class="acc">
         <details open id="details"><summary>Details</summary><div class="in">{%- render 'sw-p-safe-html', html: product.description -%}</div></details>
@@ -152,7 +152,7 @@
             <details><summary>Ingredients</summary><div class="in">{%- if sw.g.size > 0 -%}<p><b>Key ingredients:</b> {{ sw.g | join: ', ' | escape }}.</p>{%- endif -%}<p class="muted">The full ingredients list (INCI) is printed on the pack. We are adding it here for every product.</p></div></details>
           {%- endif -%}
         {%- endif -%}
-        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Standard UK delivery is £1.99 (3–4 business days) and free on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }}. Two-day (£2.99) and next-day (£3.99) delivery are available at checkout. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Standard UK delivery is £1.99 (3–4 business days) and free on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }} with code {{ section.settings.bonus_code }} (enter it in your bag or at checkout). Two-day (£2.99) and next-day (£3.99) delivery are available at checkout. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
       </div>
       {%- if d.kw.size > 0 -%}
         <p style="font-size:14px;color:var(--ink-2)">Part of our {% for k in d.kw limit: 3 %}<a href="{{ k[1] }}" style="text-decoration:underline">{{ k[0] | downcase | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} edit{% if d.kw.size > 1 %}s{% endif %}.</p>
@@ -168,9 +168,9 @@
     </div></div><div style="display:flex;flex-direction:column;gap:12px">
       {%- if live -%}<div class="p-price" style="font-size:20px">{{ set_total | times: keep | round | money }} <s>{{ set_total | money }}</s></div><span style="color:var(--sale);font-size:12px;letter-spacing:.12em">SAVE {{ section.settings.bundle_save }}% WHEN BOUGHT TOGETHER</span>
       {%- else -%}<div class="p-price" style="font-size:20px">{{ set_total | money }}</div>
-        {%- comment -%} no bundle discount in Shopify yet: say only what checkout really applies (the £5-off-over-£70 automatic discount, free delivery over £40) {%- endcomment -%}
+        {%- comment -%} no bundle discount in Shopify yet: say only what checkout really applies (free delivery over £40; £5 off over £70 needs code SAVE5, 12 Nov 2026) {%- endcomment -%}
         {%- assign bmin = section.settings.bonus_min | times: 100 -%}{%- assign dmin = section.settings.delivery_min | times: 100 -%}
-        {%- if set_total >= bmin -%}<span style="color:#E8C98F;font-size:12px;letter-spacing:.12em;text-transform:uppercase">£{{ section.settings.bonus_off }} off + free UK delivery at checkout</span>
+        {%- if set_total >= bmin -%}<span style="color:#E8C98F;font-size:12px;letter-spacing:.12em;text-transform:uppercase">Free UK delivery + £{{ section.settings.bonus_off }} off with code {{ section.settings.bonus_code }}</span>
         {%- elsif set_total >= dmin -%}<span style="color:#E8C98F;font-size:12px;letter-spacing:.12em;text-transform:uppercase">Free UK delivery on this set</span>{%- endif -%}
       {%- endif -%}
       <button class="btn solid" data-addall="{{ ids }}">Add all {{ pcount | plus: 1 }} to bag</button></div></div>
@@ -218,6 +218,7 @@
     { "type": "number", "id": "delivery_min", "label": "Free UK delivery from (£)", "default": 40 },
     { "type": "number", "id": "bonus_min", "label": "£ off from (£)", "default": 70 },
     { "type": "number", "id": "bonus_off", "label": "£ off", "default": 5 },
+    { "type": "text", "id": "bonus_code", "label": "Code for the £ off", "default": "SAVE5" },
     { "type": "text", "id": "returns_title", "label": "Trust row: returns", "default": "Returns" },
     { "type": "text", "id": "returns_sub", "label": "Trust row: returns detail", "default": "14 days, unopened" },
     { "type": "text", "id": "returns_text", "label": "Delivery & returns text", "default": "Unopened, sealed items can be returned within 14 days of delivery." },

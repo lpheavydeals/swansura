@@ -1,0 +1,7 @@
+{
+  "note": "user, 12 Nov 2026: the automatic £5-off-over-£70 discount replaced by code SAVE5 entered in the bag or at checkout",
+  "automatic_before": {"id": "gid://shopify/DiscountAutomaticNode/2430963712387", "title": "£5 off orders over £70", "status": "ACTIVE", "startsAt": "2026-10-26T00:00:00Z", "endsAt": null, "minimum_subtotal": "70.0", "amount": "5.0", "combinesWith": {"orderDiscounts": false, "productDiscounts": false, "shippingDiscounts": true}},
+  "automatic_after": {"status": "EXPIRED", "endsAt": "2026-11-12T18:42:16Z", "action": "discountAutomaticDeactivate"},
+  "code_created": {"id": "gid://shopify/DiscountCodeNode/2440222409091", "code": "SAVE5", "title": "SAVE5 – £5 off orders over £70", "amount": "5.00", "minimum_subtotal": "70.00", "combinesWith": {"orderDiscounts": false, "productDiscounts": false, "shippingDiscounts": true}, "startsAt": "2026-11-12T00:00:00Z", "usageLimit": null},
+  "undo": "discountAutomaticActivate(id: gid://shopify/DiscountAutomaticNode/2430963712387) and discountCodeDeactivate(id: gid://shopify/DiscountCodeNode/2440222409091)"
+}

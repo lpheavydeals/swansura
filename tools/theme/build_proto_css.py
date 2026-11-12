@@ -363,6 +363,19 @@ html.as-open .swp .chatbtn{display:none}
 /* user, 12 Nov 2026: card badge sits on the card border line, top-left, off the photo (badge markup moved out of .p-media into .mwrap) */
 .swp .p-card .mwrap>.p-badge{top:-11px!important;left:12px!important;bottom:auto!important;transform:translateY(-50%);z-index:3;max-width:none!important;overflow:visible!important;white-space:nowrap}
 @media (max-width:720px){.swp .p-card .mwrap>.p-badge{top:-9px!important;left:8px!important}}
+/* bag discount code box (user, 12 Nov 2026: £5 off over £70 is code SAVE5, entered in the bag or at checkout) */
+.swp .bagcode,.bag .bagcode{margin:12px 0 4px;display:flex;flex-direction:column;gap:8px}
+.bag .bagcode .bc-row{display:flex;gap:8px}
+.bag .bagcode input{flex:1;min-width:0;height:40px;border:1px solid var(--line,#E3DACD);border-radius:6px;padding:0 12px;font:inherit;font-size:14px;text-transform:uppercase;background:#fff;color:var(--ink,#1F1A17)}
+.bag .bagcode input::placeholder{text-transform:none}
+.bag .bagcode button[type=submit]{height:40px;padding:0 16px;border-radius:6px;border:1px solid var(--emerald,#1B4D3E);background:#fff;color:var(--emerald,#1B4D3E);font:inherit;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.bag .bagcode .bc-quick{height:40px;border-radius:6px;border:1px dashed var(--brass,#B5843A);background:#FBF6EC;color:var(--brass-ink,#695541);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.bag .bagcode .bc-chips{display:flex;flex-wrap:wrap;gap:6px}
+.bag .bagcode .bc-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 4px 4px 10px;border-radius:999px;background:#E4EEE9;color:var(--emerald,#1B4D3E);font-size:12px;font-weight:600;letter-spacing:.04em}
+.bag .bagcode .bc-chip.off{background:#F3E6E0;color:#8A2F2A}
+.bag .bagcode .bc-chip small{font-weight:400}
+.bag .bagcode .bc-chip button{width:24px;height:24px;border:0;border-radius:50%;background:rgba(255,255,255,.7);color:inherit;cursor:pointer;font-size:14px;line-height:1}
+.bag .bagcode .bc-msg{margin:0;font-size:12.5px;color:var(--ink-2,#5C5048)}
 """
 
 
