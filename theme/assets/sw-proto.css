@@ -2547,3 +2547,8 @@ html.as-open .swp .chatbtn{display:none}
 .swp .p-card img.pic,.swp .p-card .pic.ph{aspect-ratio:1/1!important;padding:0!important;mix-blend-mode:normal!important;object-fit:cover!important;box-sizing:border-box}
 .swp .p-card img.pic[src*="-cutout"]{object-fit:contain!important}
 .swp .p-card .pic.ph{padding:8%!important}
+/* user, 12 Nov 2026: the whole site 1:1, no 4:5 frame anywhere (cards, PDP main + thumbs, Complete the ritual, FBT, bag, hero, advent) */
+.swp .pic{aspect-ratio:1/1}
+.swp .hero .arch .pic,.swp .door,.swp .pic.ph{aspect-ratio:1/1!important}
+.swp img.pic[src*="-cutout"]{object-fit:contain!important}
+.swp .step .si .pic,.swp .bands.rail .band .pic{aspect-ratio:1/1!important}
