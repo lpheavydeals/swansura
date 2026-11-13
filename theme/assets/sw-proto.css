@@ -2583,6 +2583,6 @@ html.as-open .swp .chatbtn{display:none}
 .swp .drawpop .bis-note a{color:inherit;text-decoration:underline}
 .swp .drawpop .dp-no{background:none;border:0;padding:6px;min-height:32px;font:inherit;font-size:13px;color:var(--ink-2);text-decoration:underline;cursor:pointer;align-self:center}
 .swp .drawpop a.btn{text-align:center}
-@media (max-width:600px){.swp .drawpop{max-height:88dvh;overflow:auto;gap:10px;padding-top:22px}.swp .drawpop h3{font-size:20px}}
+@media (max-width:600px){.swp .drawpop{max-height:80dvh;overflow:auto;gap:8px;padding:16px 16px calc(14px + env(safe-area-inset-bottom,0px))}.swp .drawpop .dp-gift{width:36px;height:36px;margin:0}.swp .drawpop .dp-gift svg{width:20px;height:20px}.swp .drawpop .eyebrow{font-size:10.5px}.swp .drawpop h3{font-size:18px}.swp .drawpop .bis-p{font-size:13.5px;line-height:1.45}.swp .drawpop input{height:42px;font-size:15px}.swp .drawpop .btn{min-height:44px}.swp .drawpop .bis-note{font-size:11.5px;line-height:1.4}.swp .drawpop .dp-no{min-height:28px;padding:2px}.swp .drawpop .bis-x{top:6px;right:6px}}
 .swp .news .news-small{margin:12px 0 0;font-size:12.5px;opacity:.85}
 .swp .news .news-small a{color:inherit;text-decoration:underline}
