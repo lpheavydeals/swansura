@@ -1,18 +1,41 @@
-{%- comment -%} Members sign-up band (user, 27 Oct 2026: back to the prototype's 'Swansura Members' wording), prototype markup (section.news#newsletter); Shopify customer form (tags: newsletter, member). {%- endcomment -%}
+{%- comment -%} Members sign-up band (user, 27 Oct 2026: back to the prototype's 'Swansura Members' wording), prototype markup (section.news#newsletter); Shopify customer form (tags: newsletter, member).
+  Christmas lucky draw (user, 13 Nov 2026): until draw_until the band shows the draw wording and tags entries with draw_tag; after that day it falls back to the normal members wording. {%- endcomment -%}
+{%- liquid
+  assign s = section.settings
+  assign today = 'now' | date: '%Y-%m-%d'
+  assign draw = false
+  if s.draw_on and s.draw_until != blank and today <= s.draw_until
+    assign draw = true
+  endif
+  if draw
+    assign eyebrow = s.draw_eyebrow
+    assign heading = s.draw_heading
+    assign text = s.draw_text
+    assign button = s.draw_button
+    assign tags = 'newsletter,member,' | append: s.draw_tag
+  else
+    assign eyebrow = s.eyebrow
+    assign heading = s.heading
+    assign text = s.text
+    assign button = s.button | default: 'Become a member'
+    assign tags = 'newsletter,member'
+  endif
+-%}
 <div class="swp app"><section class="news" id="newsletter" aria-label="Newsletter">
   <div class="wrap">
-    <div class="eyebrow" style="color:#E6D3A8">{{ section.settings.eyebrow | escape }}</div>
-    <h2>{{ section.settings.heading | escape }}</h2>
-    <p>{{ section.settings.text | escape }}</p>
+    <div class="eyebrow" style="color:#E6D3A8">{{ eyebrow | escape }}</div>
+    <h2>{{ heading | escape }}</h2>
+    <p>{{ text | escape }}</p>
     {%- form 'customer', id: 'newsForm', class: 'news-form' -%}
-      <input type="hidden" name="contact[tags]" value="newsletter,member">
+      <input type="hidden" name="contact[tags]" value="{{ tags | escape }}">
       {%- if form.posted_successfully? -%}
-        <p id="newsMsg">Welcome to Swansura Members. Look out for your first email from us.</p>
+        <p id="newsMsg">{% if draw %}Welcome to Swansura Members. You're entered into our Christmas lucky draw.{% else %}Welcome to Swansura Members. Look out for your first email from us.{% endif %}</p>
       {%- else -%}
-        <label for="newsEmail-{{ section.id }}" class="sr-only">Email address</label><input id="newsEmail-{{ section.id }}" type="email" name="contact[email]" required placeholder="Your email address" autocomplete="email"><button type="submit">{{ section.settings.button | default: 'Become a member' | escape }}</button>
+        <label for="newsEmail-{{ section.id }}" class="sr-only">Email address</label><input id="newsEmail-{{ section.id }}" type="email" name="contact[email]" required placeholder="Your email address" autocomplete="email"><button type="submit">{{ button | escape }}</button>
         {%- if form.errors -%}<p role="alert" style="flex-basis:100%;margin-top:8px">{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>{%- endif -%}
       {%- endif -%}
     {%- endform -%}
+    {%- if draw and s.draw_small != blank -%}<p class="news-small">{{ s.draw_small | escape }} <a href="{{ s.draw_terms | default: '/pages/christmas-draw-terms' }}">Draw terms</a></p>{%- endif -%}
   </div>
 </section></div>
 {% schema %}
@@ -22,7 +45,17 @@
     { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Swansura Members" },
     { "type": "text", "id": "heading", "label": "Heading", "default": "Members get surprise gifts" },
     { "type": "text", "id": "text", "label": "Text", "default": "Become a member for surprise gifts, early access to new arrivals. Unsubscribe any time." },
-    { "type": "text", "id": "button", "label": "Button", "default": "Become a member" }
+    { "type": "text", "id": "button", "label": "Button", "default": "Become a member" },
+    { "type": "header", "content": "Christmas lucky draw" },
+    { "type": "checkbox", "id": "draw_on", "label": "Show the lucky draw wording", "default": true },
+    { "type": "text", "id": "draw_until", "label": "Last day to enter (YYYY-MM-DD)", "default": "2026-12-14" },
+    { "type": "text", "id": "draw_eyebrow", "label": "Draw eyebrow", "default": "Swansura Members · Christmas lucky draw" },
+    { "type": "text", "id": "draw_heading", "label": "Draw heading", "default": "Win a Christmas surprise gift" },
+    { "type": "text", "id": "draw_text", "label": "Draw text", "default": "Become a member and you're entered into our Christmas lucky draw: 3 members win a surprise gift box, picked at random on 15 December. Members also get early access to new arrivals." },
+    { "type": "text", "id": "draw_small", "label": "Draw small print", "default": "Free to enter, no purchase needed. UK residents 18+. Closes 14 December 2026. Unsubscribe any time." },
+    { "type": "text", "id": "draw_button", "label": "Draw button", "default": "Enter the draw" },
+    { "type": "text", "id": "draw_terms", "label": "Draw terms page", "default": "/pages/christmas-draw-terms" },
+    { "type": "text", "id": "draw_tag", "label": "Customer tag for entries", "default": "xmas-draw-2026" }
   ],
   "presets": [{ "name": "Swansura Studio Letter" }]
 }

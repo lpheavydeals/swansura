@@ -624,5 +624,87 @@
     });
   })();
 
+  /* ---------- Christmas lucky draw / leaving pop-up (user, 13 Nov 2026) ----------
+     Desktop: mouse heads for the tab bar. Phones: after cfg.draw.delay seconds on the site, or a quick scroll up.
+     Bag not empty -> bag reminder instead. Once per visit; not again for 14 days after closing; never after entering.
+     Entry = Shopify customer form (tags newsletter, member, <draw tag>; WhatsApp number + consent as tags). */
+  (() => {
+    const d = cfg.draw; if (!d) return;
+    const today = new Date().toISOString().slice(0, 10);
+    if (d.until && today > d.until) return;
+    if (/^\/(cart|checkout|account|challenge|password)/.test(location.pathname) || location.pathname === d.terms) return;
+    const K = 'swDraw', st = store.get(K, {});
+    if (/customer_posted=true/.test(location.search)) { st.in = 1; store.set(K, st); }
+    if (st.in || (st.seen && Date.now() - st.seen < 14 * 864e5)) return;
+    let shown = false; try { shown = sessionStorage.getItem(K) === '1'; } catch (e) {}
+    if (shown) return;
+    let t0 = 0; try { t0 = +sessionStorage.getItem(K + 'T') || 0; if (!t0) { t0 = Date.now(); sessionStorage.setItem(K + 'T', t0); } } catch (e) { t0 = Date.now(); }
+    const fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+    const busy = () => layer()?.innerHTML || !($('#chatPanel')?.hidden ?? true) || $('#shopify-pc__banner:not([hidden])')?.offsetParent;
+    const pageT = Date.now();
+    async function show(why) {
+      if (shown) return; if (busy()) return;
+      shown = true; try { sessionStorage.setItem(K, '1'); } catch (e) {}
+      let c = null; try { c = await getCart(); } catch (e) {}
+      if (c && c.item_count) return bagNudge(c);
+      drawForm();
+    }
+    const seen = () => { st.seen = Date.now(); store.set(K, st); };
+    function bagNudge(c) {
+      const total = c.total_price / 100, ng = nextGoal(total, c.items_subtotal_price / 100);
+      openLayer(`<div class="scrim" data-close data-drawseen></div><div class="bis drawpop" role="dialog" aria-modal="true" aria-labelledby="dpT">
+        <button type="button" class="bis-x" data-close data-drawseen aria-label="Close">×</button>
+        <span class="eyebrow">Before you go</span><h3 id="dpT">You left ${c.item_count} ${c.item_count > 1 ? 'items' : 'item'} in your bag</h3>
+        <p class="bis-p">${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${esc(ng.what)}.` : `Your bag total is <b>${money(c.total_price)}</b>.`} We'll keep your bag saved on this device.</p>
+        <a class="btn solid" href="/checkout">Checkout securely</a><a class="btn" href="/cart">View bag</a></div>`);
+      seen();
+    }
+    function drawForm() {
+      openLayer(`<div class="scrim" data-close data-drawseen></div><form class="bis drawpop" role="dialog" aria-modal="true" aria-labelledby="dpT" novalidate>
+        <button type="button" class="bis-x" data-close data-drawseen aria-label="Close">×</button>
+        <div class="dp-gift" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg></div>
+        <span class="eyebrow">Christmas lucky draw</span><h3 id="dpT">${esc(d.title)}</h3><p class="bis-p">${esc(d.text)}</p>
+        <label class="sr-only" for="dpE">Email address</label><input id="dpE" type="email" placeholder="Your email address" autocomplete="email" required>
+        <label class="sr-only" for="dpW">WhatsApp number (optional)</label><input id="dpW" type="tel" placeholder="WhatsApp number (optional)" autocomplete="tel" inputmode="tel">
+        <label class="dp-ok" hidden><input type="checkbox" id="dpWok"> Send me offers and news on WhatsApp too</label>
+        <button class="btn solid" type="submit">Enter the draw</button>
+        <p class="bis-note">${esc(d.small)} You'll get Swansura Members emails; unsubscribe any time. <a href="${esc(d.terms)}" data-close>Draw terms</a></p>
+        <button type="button" class="dp-no" data-close data-drawseen>No thanks</button></form>`);
+      const f = $('.drawpop'), em = $('#dpE'), wa = $('#dpW'), ok = $('.dp-ok');
+      setTimeout(() => em.focus(), 50);
+      wa.addEventListener('input', () => { ok.hidden = !wa.value.trim(); });
+      f.addEventListener('submit', async ev => {
+        ev.preventDefault(); const email = em.value.trim(), phone = wa.value.replace(/[^\d+]/g, '');
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { em.setAttribute('aria-invalid', 'true'); em.focus(); return; }
+        if (phone && !/^\+?\d{10,14}$/.test(phone)) { wa.setAttribute('aria-invalid', 'true'); wa.focus(); toast('Please check the WhatsApp number, or leave it empty.'); return; }
+        const tags = ['newsletter', 'member', d.tag].filter(Boolean);
+        if (phone) { tags.push('wa-' + phone.replace('+', '')); if ($('#dpWok').checked) tags.push('whatsapp-optin'); }
+        const fd = new FormData(); fd.append('form_type', 'customer'); fd.append('utf8', '✓'); fd.append('contact[email]', email); fd.append('contact[tags]', tags.join(','));
+        const btn = f.querySelector('[type=submit]'); btn.disabled = true; btn.textContent = 'Sending…';
+        try {
+          const r = await fetch('/contact#contact_form', { method: 'POST', body: fd });
+          if (/challenge/.test(r.url)) { st.in = 1; store.set(K, st);
+            const real = document.createElement('form'); real.method = 'post'; real.action = '/contact#contact_form'; real.hidden = true;
+            for (const [k, v] of fd) { const i = document.createElement('input'); i.name = k; i.value = v; real.appendChild(i); }
+            document.body.appendChild(real); real.submit(); return; }
+          st.in = 1; store.set(K, st);
+          f.innerHTML = `<button type="button" class="bis-x" data-close aria-label="Close">×</button><span class="eyebrow">Christmas lucky draw</span><h3>You're in the draw</h3><p class="bis-p">Thank you. <b>${esc(email)}</b> is now a Swansura Member and entered into our Christmas lucky draw. Winners are emailed after the draw.</p><button type="button" class="btn solid" data-close>Continue shopping</button>`;
+        } catch (err) { btn.disabled = false; btn.textContent = 'Enter the draw'; toast('Sorry, that did not send. Please try again.'); }
+      });
+    }
+    document.addEventListener('click', e => { if (e.target.closest('[data-drawseen]')) seen(); }, true);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('.drawpop')) seen(); }, true);
+    if (fine) {
+      document.addEventListener('mouseout', e => { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - pageT > 4000) show('exit'); });
+    } else {
+      const left = Math.max(5e3, (d.delay || 60) * 1e3 - (Date.now() - t0));
+      const tm = setInterval(() => { if (Date.now() - t0 >= (d.delay || 60) * 1e3) { if (!busy()) { clearInterval(tm); show('time'); } } }, Math.min(left, 5e3));
+      let lastY = scrollY, lastT = Date.now(), maxY = 0;
+      addEventListener('scroll', () => { const y = scrollY, n = Date.now(); maxY = Math.max(maxY, y);
+        if (maxY > 800 && lastY - y > 250 && n - lastT < 400 && n - t0 > 20e3) show('scrollup');
+        if (n - lastT > 120) { lastY = y; lastT = n; } }, { passive: true });
+    }
+  })();
+
   syncHearts(); getCart().catch(() => {});
 })();

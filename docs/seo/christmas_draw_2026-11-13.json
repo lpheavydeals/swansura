@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-13",
+ "theme_draft": "gid://shopify/OnlineStoreTheme/200677360003",
+ "terms_page": {
+  "id": "gid://shopify/Page/713020834179",
+  "handle": "christmas-draw-terms",
+  "undo": "pageDelete"
+ },
+ "defaults": {
+  "until": "2026-12-14",
+  "draw_day": "2026-12-15",
+  "winners": 3,
+  "notify_by": "2026-12-16",
+  "eligibility": "UK 18+",
+  "tag": "xmas-draw-2026",
+  "whatsapp_tags": [
+   "wa-<digits>",
+   "whatsapp-optin"
+  ]
+ },
+ "files_md5": {
+  "sections/sw-header.liquid": "ffb810ac1ed9de66b21d5d3fd8abe931",
+  "sections/sw-p-news.liquid": "5f6f36d8bd853e193d39e31e4740f108",
+  "assets/sw-proto.js": "bff86ec0d29e271e856c4d96cf6f5732",
+  "assets/sw-proto.css": "f735c9ef00c269f87663446b087992e0"
+ }
+}

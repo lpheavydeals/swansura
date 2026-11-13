@@ -98,6 +98,7 @@
 {%- capture pays -%}{% render 'sw-p-pays' %}{%- endcapture -%}{%- assign pays = pays | split: '|' -%}
 <script type="application/json" id="sw-config">{
   "offers": {"delivery": {{ section.settings.delivery_min }}, "bonus": {"min": {{ section.settings.bonus_min }}, "off": {{ section.settings.bonus_off }}, "code": {{ section.settings.bonus_code | default: "" | json }}}},
+  "draw": {%- if section.settings.draw_on -%}{"until": {{ section.settings.draw_until | json }}, "title": {{ section.settings.draw_title | json }}, "text": {{ section.settings.draw_text | json }}, "small": {{ section.settings.draw_small | json }}, "terms": {{ section.settings.draw_terms | default: '/pages/christmas-draw-terms' | json }}, "tag": {{ section.settings.draw_tag | json }}, "delay": {{ section.settings.draw_delay | default: 60 }}}{%- else -%}null{%- endif -%},
   "count": {{ collections.all.products_count | json }},
   "returnsUrl": {{ shop.refund_policy.url | default: '/pages/shipping' | json }},
   "pays": {{ pays | json }},
@@ -154,7 +155,16 @@
     { "type": "number", "id": "delivery_min", "label": "Free UK delivery from (£)", "default": 40 },
     { "type": "number", "id": "bonus_min", "label": "£ off from (£)", "default": 70 },
     { "type": "number", "id": "bonus_off", "label": "£ off", "default": 5 },
-    { "type": "text", "id": "bonus_code", "label": "Code for the £ off (blank = applied automatically)", "default": "SAVE5" }
+    { "type": "text", "id": "bonus_code", "label": "Code for the £ off (blank = applied automatically)", "default": "SAVE5" },
+    { "type": "header", "content": "Christmas lucky draw pop-up" },
+    { "type": "checkbox", "id": "draw_on", "label": "Show the lucky draw pop-up", "default": true },
+    { "type": "text", "id": "draw_until", "label": "Last day to enter (YYYY-MM-DD; hidden after this day)", "default": "2026-12-14" },
+    { "type": "text", "id": "draw_title", "label": "Pop-up heading", "default": "Win a Christmas surprise gift" },
+    { "type": "textarea", "id": "draw_text", "label": "Pop-up text", "default": "Join Swansura Members and you're entered into our Christmas lucky draw. 3 members win a surprise gift box, picked at random on 15 December." },
+    { "type": "text", "id": "draw_small", "label": "Pop-up small print", "default": "Free to enter, no purchase needed. UK residents 18+. Closes 14 December 2026." },
+    { "type": "text", "id": "draw_terms", "label": "Draw terms page", "default": "/pages/christmas-draw-terms" },
+    { "type": "text", "id": "draw_tag", "label": "Customer tag for entries", "default": "xmas-draw-2026" },
+    { "type": "range", "id": "draw_delay", "label": "Phones: show after (seconds on the site)", "min": 30, "max": 180, "step": 10, "default": 60 }
   ]
 }
 {% endschema %}
