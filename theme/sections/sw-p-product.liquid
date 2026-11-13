@@ -189,17 +189,15 @@
   {%- endif -%}
   <section style="padding-top:0" id="seenSec" hidden><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div><div class="grid-p" id="seenGrid"></div></section>
 
-  <section class="reviews" id="reviews"><div class="rv-head"><div><h2>Reviews</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button><a class="btn" href="{{ section.settings.ask_url | default: '/pages/contact' }}">Ask a question</a></div></div>
+  {%- comment -%} Reviews (user, 13 Nov 2026): with real reviews the Judge.me widget shows; with none, only a small box with 'Write a review' (no empty summary, no example layout). 'Ask a question' removed: contact is in the footer. {%- endcomment -%}
+  {%- capture jdgm_block -%}{%- for block in section.blocks -%}{%- if block.type == '@app' -%}{% render block %}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+  <section class="reviews{% if rcount == 0 %} rv-zero{% endif %}" id="reviews">
     {%- if rcount > 0 -%}
-      <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">{{ product.metafields.judgeme.widget }}</div>
+      <div class="rv-head"><div><h2>Reviews</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button></div></div>
+      {%- if jdgm_block != blank -%}<div id="judgeme_product_reviews">{{ jdgm_block }}</div>{%- else -%}<div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">{{ product.metafields.judgeme.widget }}</div>{%- endif -%}
     {%- else -%}
-    <div class="rv-grid">
-      <div class="rv-sum"><div class="avg">—</div><span class="stars" aria-hidden="true">☆☆☆☆☆</span><small>No reviews yet</small><div class="bars">{%- for s in (1..5) reversed -%}<div><span>{{ s }}★</span><i><b style="width:0"></b></i><span>0</span></div>{%- endfor -%}</div></div>
-      <div class="rv-list"><div class="rv-empty"><b>Be the first to review {{ t | escape }}</b><p>Reviews come only from verified buyers, invited by email after delivery. Photos are welcome, and every rating is published, good or bad.</p></div>
-        <div class="rv-example" aria-label="Example of how a review will appear"><span class="tag">Example layout</span><div class="rv-top"><span class="stars" aria-hidden="true">★★★★★</span><b class="sk" style="width:46%"></b></div><div class="rv-meta"><span class="vb">{{ ic_check }} Verified buyer</span><b class="sk" style="width:22%"></b></div><b class="sk"></b><b class="sk" style="width:84%"></b><b class="sk" style="width:62%"></b><div class="rv-meta"><small>Skin type · Age range · Used for</small></div></div>
-      </div>
-    </div>
-    <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}" hidden>{{ product.metafields.judgeme.widget }}</div>
+      <div class="rv-none"><div><h2>Reviews</h2><p>Bought {{ t | escape }}? Share what you think.</p></div><button class="btn solid" data-review>Write a review</button></div>
+      {%- if jdgm_block != blank -%}<div id="judgeme_product_reviews" class="rv-form" hidden>{{ jdgm_block }}</div>{%- else -%}<div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}" hidden>{{ product.metafields.judgeme.widget }}</div>{%- endif -%}
     {%- endif -%}
   </section>
 </div>
@@ -223,7 +221,8 @@
     { "type": "text", "id": "returns_sub", "label": "Trust row: returns detail", "default": "14 days, unopened" },
     { "type": "text", "id": "returns_text", "label": "Delivery & returns text", "default": "Unopened, sealed items can be returned within 14 days of delivery." },
     { "type": "url", "id": "notify_url", "label": "'Notify me when back' link" },
-    { "type": "url", "id": "ask_url", "label": "'Ask a question' link" }
-  ]
+    { "type": "url", "id": "ask_url", "label": "'Ask a question' link (not shown)" }
+  ],
+  "blocks": [{ "type": "@app" }]
 }
 {% endschema %}

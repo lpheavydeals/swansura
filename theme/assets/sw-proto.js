@@ -580,7 +580,7 @@
       if (c) { const done = () => { c.querySelector('span').textContent = 'Copied'; setTimeout(() => c.querySelector('span').textContent = 'Copy list', 1800); };
         try { navigator.clipboard.writeText(c.dataset.incicopy).then(done, () => toast('Select the list to copy it')); } catch (err) { toast('Select the list to copy it'); } return; }
       const rv = e.target.closest('[data-review]');
-      if (rv) { const w = $('#judgeme_product_reviews'); if (w) { w.hidden = false; const l = w.querySelector('.jdgm-write-rev-link'); if (l) l.click(); else w.scrollIntoView({ behavior: 'smooth' }); } return; }
+      if (rv) { const w = $('#judgeme_product_reviews'); if (w) { const l = w.querySelector('.jm-action-buttons__button, .jdgm-write-rev-link, [class*="write-rev"]'); if (l) l.click(); else { w.hidden = false; w.scrollIntoView({ behavior: 'smooth' }); } } return; }
       const t = e.target.closest('[data-frame],[data-q],[data-jump],[data-addq],[data-buynow]'); if (!t) return;
       if (t.dataset.frame) { const img = $('#mainImg img'); if (img) { img.srcset = t.dataset.srcset; img.src = t.dataset.full; img.alt = t.dataset.alt; } $$('button', t.parentElement).forEach(b => b.setAttribute('aria-current', b === t)); return; }
       if (t.dataset.q) { const o = $('#qty'); o.value = o.textContent = Math.max(1, (+o.textContent) + (+t.dataset.q)); return; }

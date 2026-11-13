@@ -387,6 +387,8 @@ html.as-open .swp .chatbtn{display:none}
 .swp .news .news-small{margin:12px 0 0;font-size:12.5px;opacity:.85}
 .swp .news .news-small a{color:inherit;text-decoration:underline}
 @media (max-width:600px){.swp .drawpop{max-height:80dvh;overflow:auto;gap:8px;padding:16px 16px calc(14px + env(safe-area-inset-bottom,0px))}.swp .drawpop .dp-gift{width:36px;height:36px;margin:0}.swp .drawpop .dp-gift svg{width:20px;height:20px}.swp .drawpop .eyebrow{font-size:10.5px}.swp .drawpop h3{font-size:18px}.swp .drawpop .bis-p{font-size:13.5px;line-height:1.45}.swp .drawpop input{height:42px;font-size:15px}.swp .drawpop .btn{min-height:44px}.swp .drawpop .bis-note{font-size:11.5px;line-height:1.4}.swp .drawpop .dp-no{min-height:28px;padding:2px}.swp .drawpop .bis-x{top:6px;right:6px}}
+/* Reviews with none yet: one small box (user, 13 Nov 2026) */
+.swp .reviews.rv-zero{padding-block:32px 40px}.swp .rv-none{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;padding:20px 24px}.swp .rv-none h2{margin:0 0 4px}.swp .rv-none p{margin:0;color:var(--ink-2,#5b524b);font-size:14.5px}@media (max-width:600px){.swp .rv-none{padding:16px}.swp .rv-none .btn{width:100%}}
 """
 
 
