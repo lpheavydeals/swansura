@@ -307,3 +307,21 @@ You are logged in to Meta Business Suite / Ads Manager for the business portfoli
 ```
 
 After it reports the card as Active on the ad account: tell Claude, and the 6 engagement ads are created PAUSED with `docs/ads/meta_setup/mk.py` (it reuses the creatives in `creatives.json`).
+
+---
+
+## Prompt 13 – Verify a phone number on the ad account (13 Nov 2026)
+
+Why: all 6 engagement ads were paused by Meta with error 3858013 'Phone number required: You need to verify a phone number for this ad account before you can run ads.' Needs an SMS/WhatsApp code, so a person finishes it.
+
+```
+You are logged in to Meta Ads Manager / Business Suite for the business portfolio "Swansura - The Body Studio" (ID 1523489705546215). Goal: verify a phone number for the ad account "SwansuraTheBodyStudio's ad account" (ID 1614052623400872), so its ads can run. Do not create, edit, publish or turn on any campaign, ad set or ad. Do not change the payment method, spending limit, currency or time zone. Do not start Business Verification and do not upload any ID document.
+
+1. Open https://adsmanager.facebook.com/adsmanager/manage/ads?act=1614052623400872 . Look for a banner or a red error on the ads saying "Phone number required" / "Verify phone number". Click its "Verify" / "Add phone number" button.
+   If there is no banner: open https://business.facebook.com/settings/ad-accounts/1614052623400872 and look for "Verify phone number"; or Ads Manager → Account settings (https://adsmanager.facebook.com/adsmanager/manage/account_settings?act=1614052623400872) → Business information / Contact → phone number.
+2. Enter the phone number I give you (ask me for it; do not guess one, do not use a number already shown unless I confirm it). Country code United Kingdom (+44) unless I say otherwise.
+3. Choose to receive the code by SMS (or WhatsApp if that is the only option). STOP here and ask me for the code. Type exactly the code I give you and submit.
+4. Report back: whether Meta now shows the phone number as verified, and the exact text of any remaining banner or error on the Ads Manager page (copy it).
+```
+
+After it reports 'verified': tell Claude, and the 6 ads are switched back on (their status was set to PAUSED by Meta).
