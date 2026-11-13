@@ -104,7 +104,7 @@
   "extras": [{%- assign k = 0 -%}{%- for p in extras_c.products limit: 60 -%}{%- if p.available and p.selected_or_first_available_variant.price < 1200 and k < 12 -%}{%- assign k = k | plus: 1 -%}{%- capture pn -%}{% render 'sw-p-name', product: p %}{%- endcapture -%}{% unless k == 1 %},{% endunless %}{%- capture vid -%}{% render 'sw-p-variant', product: p %}{%- endcapture -%}{"id": {{ vid }}, "title": {{ pn | json }}, "price": {{ p.selected_or_first_available_variant.price }}, "img": {{ p.featured_media.preview_image | image_url: width: 200 | json }}}{%- endif -%}{%- endfor -%}]
 }</script>
 
-<template id="swPayIcons">{%- render 'sw-p-pay-icons' -%}</template>
+{%- comment -%} swPayIcons template moved to sw-footer (13 Nov 2026) so the PDP main photo comes earlier in the HTML {%- endcomment -%}
 <div class="swp swp-fixed">
   <div id="layer"></div>
   <button class="chatbtn" id="chatBtn" aria-expanded="false" aria-controls="chatPanel"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.57 12 20l-7.5-7.43A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.57"></path><path d="M12 6 8.7 9.3a1 1 0 0 0 0 1.4l.55.55c.69.69 1.8.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"></path><path d="m12.5 15.5 2 2M15 13l2 2"></path></svg><span>Choose What's Right for Your Skin</span></button>

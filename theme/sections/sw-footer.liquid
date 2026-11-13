@@ -20,6 +20,7 @@
     {%- if section.settings.sitemap_url != blank -%}<a href="{{ section.settings.sitemap_url }}">Sitemap</a>{%- endif -%}
     <a href="#" onclick="if(window.privacyBanner){privacyBanner.showPreferences();}return false;">Cookie settings</a></nav></div>
     <span class="pays" aria-label="Payment methods">{%- render 'sw-p-pay-icons' -%}</span></div></div><div class="wrap fmark-wrap" aria-hidden="true"><div class="fmark">SWANSURA</div></div></footer></div>
+<template id="swPayIcons">{%- render 'sw-p-pay-icons' -%}</template>
 <script>
   if (window.innerWidth <= 720) document.querySelectorAll('footer.site .fcol').forEach(d => d.removeAttribute('open'));
 </script>
