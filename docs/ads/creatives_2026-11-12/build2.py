@@ -57,3 +57,12 @@ if 'c' in W:
 if 'k' in W:
     build('Deyga_ClearSkinKit_9x16.mp4',[(CH,0.0,1.0,0.6,'','hblur'),(CH,4.0,5.9,1,'','fade'),(CH,7.5,9.9,1,'','hblur'),(CH,12.5,14.0,1,'','fadewhite'),(AL,2.0,3.4,1,'','fade'),(AL,8.5,10.6,1,'','hblur'),(AL,14.0,17.0,1)],
       [('k1',0,0),('k2',1,3),('k2b',1,3),('k3',4,5),('k3b',4,5),('k4',6,6)],f'{OVD}/kend.png',E,CH,'fadeblack')
+
+FB='../vv/Face_Brightening_Combo__FBC_Vertical.mp4';PW='../vv/Milk_Powder_Facewash__MPFW_Product_Video_1080x1920.mp4';MD='../vv/Milk_Drops_Serum__Milk_Drops_-_Product_1080x1920.mp4'
+if 'f' in W:
+    build('Vilvah_FaceBrighteningKitLarge_9x16.mp4',[(PW,2.5,3.9,0.8,'','dissolve'),(PW,7.0,8.7,0.85,'','slideup'),(FB,16.0,17.9,0.8,'crop=742:1320:169:600','dissolve'),(FB,18.0,19.4,0.8,'crop=686:1220:197:700','fadewhite'),(MD,7.0,8.4,0.75,'','dissolve'),(FB,20.5,21.9,0.8,'crop=675:1200:200:720','smoothup'),(FB,26.0,27.9,0.8,'crop=720:1280:60:640')],
+      [('f1',0,0),('f2',1,1),('f2b',1,1),('f3',2,3),('f4',4,5),('f4b',4,5),('f5',6,6)],f'{OVD}/fend.png',E,PW,'fade')
+LB='../dv/Deyga_Organics_V15_Beetroot_Lipbalm.mp4';LS='../dv/Deyga_Organics_V19_Strawberry_lip_scrub.mp4'
+if 'n' in W:
+    build('Deyga_NourishedLipsKit_9x16.mp4',[(LS,0.0,1.4,1,'','slideleft'),(LB,0.0,1.6,1,'','fade'),(LS,1.5,3.8,1,'','zoomin'),(LS,4.0,5.6,1,'','fade'),(LB,2.0,4.6,1,'','zoomin'),(LB,5.5,7.0,1,'','dissolve'),(LB,11.5,13.6,1,'','dissolve'),(LS,14.3,15.9,1)],
+      [('n1',0,1),('n2',2,2),('n2b',2,2),('n3',3,3),('n4',4,5),('n4b',4,5),('n5',6,6),('n6',7,7)],f'{OVD}/nend.png',E,LS,'fade')
