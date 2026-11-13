@@ -258,3 +258,28 @@ I'm in Meta Business Settings (business.facebook.com/settings) for the business 
 6. Optional, for catalog ads later: open developers.facebook.com → app "Swansura Reporting" (2390616515090214) → Use cases → Add use case. If there is one about the Catalog API (e.g. "Manage products with Catalog API" or "Create & manage ads with Marketing API"), tell me the names offered and the permissions each lists. Do NOT add anything yet.
 
 At the end give me a short list: what you changed (field → value), what failed, and anything waiting on me (Instagram login, card, time zone message).
+
+---
+
+## Prompt 11 – Switch the 'Swansura Reporting' app to Live (13 Nov 2026)
+
+Why: Meta refuses to create ads through an app in Development mode ("Ads creative post was created by an app that is in development mode"). The campaign + ad set already exist PAUSED; the 6 ads are built once the app is Live.
+
+```
+You are in Meta for Developers (developers.facebook.com), already logged in and inside the app "Swansura Reporting" (App ID 2390616515090214). Goal: switch this app from Development mode to Live mode. Do not submit anything for App Review, do not request new permissions, do not remove any use case, do not change the app type, and do not pay for or start Business Verification. If a step needs something not listed here, stop and report what it asks for.
+
+1. Open App settings → Basic in the left menu. Check these fields and fill only the empty ones:
+   - Privacy Policy URL: https://www.swansura.com/policies/privacy-policy
+   - User data deletion: choose "Data deletion instructions URL" and enter https://www.swansura.com/policies/privacy-policy
+   - Terms of Service URL (if asked): https://www.swansura.com/policies/terms-of-service
+   - Category: Business and pages (or Shopping, whichever is offered)
+   - Contact email: leave whatever is already there
+   - App icon: only if it is required to go Live, upload the Swansura logo (ask me for the file if you cannot find one; do not use any other brand's logo).
+   Click "Save changes" and confirm the page shows no red errors.
+2. Go to the "Publish" (or "Go live") item in the left menu, or use the App Mode switch at the top of the page (Development → Live).
+3. If a checklist appears, read each item. Complete only items that are about the fields in step 1. Ignore anything that says "App Review", "Advanced access" or "Business Verification" unless it blocks the switch; if it blocks, stop and tell me the exact wording.
+4. Click "Publish" / switch to "Live" and confirm.
+5. Report back: the App Mode shown at the top of the page (should read "Live"), and any warning or banner that appears afterwards (copy the exact text).
+```
+
+After it reports "Live": tell Claude, and the 6 engagement ads are created PAUSED with `docs/ads/meta_setup/mk.py`.
