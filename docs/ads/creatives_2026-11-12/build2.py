@@ -30,7 +30,7 @@ def build(name,segs,ovs,endpng,endlen,audio,endtr='fade'):
         png,i0,i1=ov[:3];fin,fout=(ov[3],ov[4]) if len(ov)>3 else (1,1)
         a=starts[i0]+(0.1 if i0==0 else XD*0.5);b=ends[i1]-(XD*0.5 if i1<len(segs)-1 else 0.35)
         oi=add('-loop','1','-t',str(total),'-i',f'{OVD}/{png}.png')
-        fl=['format=rgba']+([f"fade=in:st={a:.3f}:d=0.22:alpha=1"] if fin else [])+([f"fade=out:st={b-0.2:.3f}:d=0.2:alpha=1"] if fout else [])
+        fl=['format=rgba']+([f"fade=in:st={a:.3f}:d=0.3:alpha=1"] if fin else [])+([f"fade=out:st={b-0.2:.3f}:d=0.2:alpha=1"] if fout else [])
         fc.append(f"[{oi}:v]{','.join(fl)}[o{k}]")
         y=f"'if(lt(t,{a:.3f}),36,if(lt(t,{a+0.35:.3f}),36*(1-(t-{a:.3f})/0.35)^2,0))'" if fin else "0"
         fc.append(f"[{cur}][o{k}]overlay=x=0:y={y}:enable='between(t,{a:.3f},{b:.3f})':eval=frame[c{k}]");cur=f"c{k}"
@@ -44,15 +44,16 @@ G='../vv/Goatmilk_shampoo_250ml__GMS_Brand_video_Marketplace.mp4'
 AL='../dv/Deyga_Organics_V02_Aloe_Gel.mp4';ST='../dv/Deyga_Organics_V01_Beetroot_lip_balm_stick.mp4';CH='../dv/Deyga_Organics_V20_Charcoal_Bath_Bar.mp4'
 CU='crop=740:1316:170:604';CL='crop=650:1156:215:764'
 W=sys.argv[1:]
+E=4.0
 if 'a' in W:
-    build('Vilvah_AMPMSerumKit_9x16.mp4',[(A,4.0,4.6,0.5,CU,'dissolve'),(A,4.8,5.4,0.6,CL,'smoothup'),(A,8.0,9.4,0.8,'','fadeblack'),(A,9.6,11.2,1,'crop=843:1500:118:420','smoothup'),(A,11.6,13.6,1,CU,'dissolve'),(A,14.0,15.6,1,CU,'circleopen'),(A,16.0,16.9,0.7)],
-      [('a1',0,1),('a2',2,2),('a2b',2,2),('a3',3,4),('a3b',3,4),('a4',5,5),('a5',6,6)],f'{OVD}/aend.png',3.2,A,'fadewhite')
+    build('Vilvah_AMPMSerumKit_9x16.mp4',[(A,4.0,4.6,0.4,CU,'dissolve'),(A,4.8,6.0,0.6,CL,'smoothup'),(A,8.0,9.4,0.6,'','fadeblack'),(A,9.6,11.3,0.75,'crop=843:1500:118:420','smoothup'),(A,11.6,13.6,0.8,CU,'dissolve'),(A,14.0,15.9,0.8,CU,'circleopen'),(A,16.0,16.9,0.45)],
+      [('a1',0,1),('a2',2,2),('a2b',2,2),('a3',3,4),('a3b',3,4),('a4',5,5),('a5',6,6)],f'{OVD}/aend.png',E,A,'fadewhite')
 if 'b' in W:
-    build('Vilvah_BestsellerHairKit_9x16.mp4',[(G,0.0,0.35,0.6,'','fade'),(G,1.0,3.8,1,'crop=1116:1984:594:740','slideleft'),(G,11.2,13.4,0.9,'crop=1244:2212:530:1244','wipeleft'),(G,7.0,7.28,0.4,'crop=540:960:882:0','slideleft'),(G,16.3,18.9,1,'crop=1361:2419:943:1037')],
-      [('b1',0,1),('b2',2,2),('b2b',2,2),('b3',3,3),('b4',4,4),('b4b',4,4)],f'{OVD}/bend.png',3.2,G,'slideup')
+    build('Vilvah_BestsellerHairKit_9x16.mp4',[(G,0.0,0.35,0.5,'','fade'),(G,1.0,3.8,0.85,'crop=1116:1984:594:740','slideleft'),(G,11.2,15.9,1,'crop=1244:2212:530:1244','wipeleft'),(G,7.0,9.5,1,'crop=540:960:882:0','slideleft'),(G,16.3,18.9,0.8,'crop=1361:2419:943:1037')],
+      [('b1',0,1),('b2',2,2),('b2b',2,2),('b3',3,3),('b4',4,4),('b4b',4,4)],f'{OVD}/bend.png',E,G,'slideup')
 if 'c' in W:
-    build('Deyga_ABCKit_9x16.mp4',[(AL,0.0,1.6,1,'','circleopen'),(AL,3.0,4.2,1,'','zoomin'),(AL,4.6,6.0,1,'','slideleft'),(ST,5.4,6.8,1,'','zoomin'),(ST,8.6,9.9,1,'','slideleft'),(CH,2.4,3.9,1,'','zoomin'),(CH,6.0,7.4,1,'','circleopen'),(ST,12.5,13.9,1)],
-      [('c1',0,0),('c2',1,2),('c2b',1,2),('c3',3,4),('c3b',3,4),('c4',5,6),('c4b',5,6),('c5',7,7)],f'{OVD}/cend.png',3.2,AL,'circleclose')
+    build('Deyga_ABCKit_9x16.mp4',[(AL,0.0,2.6,1,'','circleopen'),(AL,3.0,4.4,1,'','zoomin'),(AL,4.5,6.4,1,'','slideleft'),(ST,5.2,6.9,1,'','zoomin'),(ST,8.5,10.2,1,'','slideleft'),(CH,2.4,4.0,1,'','zoomin'),(CH,5.0,7.4,1,'','circleopen'),(ST,12.4,14.4,1)],
+      [('c1',0,0),('c2',1,2),('c2b',1,2),('c3',3,4),('c3b',3,4),('c4',5,6),('c4b',5,6),('c5',7,7)],f'{OVD}/cend.png',E,AL,'circleclose')
 if 'k' in W:
-    build('Deyga_ClearSkinKit_9x16.mp4',[(CH,0.0,0.9,0.8,'','hblur'),(CH,4.0,5.4,1,'','fade'),(CH,7.5,9.2,1,'','hblur'),(CH,12.5,13.9,1,'','fadewhite'),(AL,2.0,3.0,1,'','fade'),(AL,8.5,10.4,1,'','hblur'),(AL,14.0,15.6,1)],
-      [('k1',0,0),('k2',1,3),('k2b',1,3),('k3',4,5),('k3b',4,5),('k4',6,6)],f'{OVD}/kend.png',3.2,CH,'fadeblack')
+    build('Deyga_ClearSkinKit_9x16.mp4',[(CH,0.0,1.0,0.6,'','hblur'),(CH,4.0,5.9,1,'','fade'),(CH,7.5,9.9,1,'','hblur'),(CH,12.5,14.0,1,'','fadewhite'),(AL,2.0,3.4,1,'','fade'),(AL,8.5,10.6,1,'','hblur'),(AL,14.0,17.0,1)],
+      [('k1',0,0),('k2',1,3),('k2b',1,3),('k3',4,5),('k3b',4,5),('k4',6,6)],f'{OVD}/kend.png',E,CH,'fadeblack')
