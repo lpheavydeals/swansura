@@ -1,0 +1,98 @@
+{
+ "Vilvah_AMPMSerumKit": {
+  "ad": "120249382770680240",
+  "videos": {
+   "4x5": "1881848086838689",
+   "9x16": "1957818001859419"
+  },
+  "thumbs": {
+   "4x5": "ef9a9a8dfc3799c0e9d258c2bd9b654f",
+   "9x16": "043044dc59e7f94ecc9d729db6cae0cf"
+  },
+  "creative": "2367835133980266",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ },
+ "Vilvah_FaceBrighteningKitLarge": {
+  "ad": "120249382771140240",
+  "videos": {
+   "4x5": "1941929010113801",
+   "9x16": "1593902095794416"
+  },
+  "thumbs": {
+   "4x5": "ff1cdaf573f7f5cc2117fb9e9e70ce24",
+   "9x16": "c7f2f27cacbdec8a1cc51c5496de0e89"
+  },
+  "creative": "1632705141672112",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ },
+ "Vilvah_MilkFaceKit": {
+  "ad": "120249388069680240",
+  "videos": {
+   "4x5": "1597880338307876",
+   "9x16": "1147087991551843"
+  },
+  "thumbs": {
+   "4x5": "f287375b2d6abad6dccb6dd53090bcf8",
+   "9x16": "3390edc476bd8cffab934e8ce5584164"
+  },
+  "creative": "983817771182545",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ },
+ "Deyga_LipBalmStick": {
+  "ad": "120249388070160240",
+  "videos": {
+   "4x5": "1676048194125379",
+   "9x16": "1896280797855494"
+  },
+  "thumbs": {
+   "4x5": "54b740aefc5f636fc596430135fe7795",
+   "9x16": "b1b5cee3b46faeba1a4869cdf3e1a7c2"
+  },
+  "creative": "1472938884939190",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ },
+ "Vilvah_FaceLiftKit": {
+  "ad": "120249388071100240",
+  "videos": {
+   "4x5": "41021691504084746",
+   "9x16": "1117346464418420"
+  },
+  "thumbs": {
+   "4x5": "a3f8f7f4a1d4684b33793eb7777d7eb1",
+   "9x16": "f0a2585eabee5a11aed6948226dec514"
+  },
+  "creative": "958972947295099",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ },
+ "Vilvah_MilkBodyKit": {
+  "ad": "120249388073600240",
+  "videos": {
+   "4x5": "2251400589132401",
+   "9x16": "3233228436886266"
+  },
+  "thumbs": {
+   "4x5": "ef9b9c342d792160521c8fdb436fb8b6",
+   "9x16": "71dbd4fd57037a27b5046ef8dc809ca2"
+  },
+  "creative": "2227327757997722",
+  "creative_err": null,
+  "swap": {
+   "success": true
+  }
+ }
+}

@@ -75,8 +75,8 @@ if 'm' in W:
     build('Vilvah_MilkFaceKit_9x16.mp4',[('st/face_wide.mp4',0,2.6,1,'','fade'),('st/face_mask.mp4',0,2.6,1,'','fade'),(MR,29.0,30.4,0.7,'crop=378:672:1144:0','smoothup'),(MD,2.6,3.7,0.6,'','fade'),(MD,7.0,8.9,0.85,'','fade'),(MD,15.0,15.95,0.6,'','dissolve'),(MD,19.0,19.9,0.6)],
       [('m1',0,0),('m2',1,2),('m2b',1,2),('m3',3,4),('m3b',3,4),('m4',5,5),('m5',6,6)],f'{OVD}/mend.png',E,MD,'fade')
 if 'y' in W:
-    build('Vilvah_MilkBodyKit_9x16.mp4',[('st/body_wide.mp4',0,2.6,1,'','fade'),('st/body_wash.mp4',0,2.6,1,'','smoothup'),(LO,12.0,13.6,0.8,'crop=450:800:315:0','fade'),(LO,16.0,17.6,0.8,'crop=484:860:298:0','dissolve'),(LO,17.8,19.6,0.85,'crop=484:860:298:0','fade'),(LO,27.0,28.9,0.85,SQ)],
-      [('y1',0,0),('y2',1,1),('y2b',1,1),('y3',2,3),('y3b',2,3),('y4',4,4),('y5',5,5)],f'{OVD}/yend.png',E,LO,'fade')
+    build('Vilvah_MilkBodyKit_9x16.mp4',[('st/body_wide.mp4',0,2.6,1,'','fade'),('st/body_wash.mp4',0,2.6,1,'','smoothup'),(LO,16.0,17.6,0.8,'crop=484:860:298:0','fade'),(LO,3.0,5.4,0.9,'crop=506:900:574:60','fade'),(LO,8.2,9.6,0.7,'crop=506:900:574:60','dissolve'),(LO,17.8,19.6,0.85,'crop=484:860:298:0','fade'),(LO,27.0,28.9,0.85,SQ)],
+      [('y1',0,0),('y2',1,1),('y2b',1,1),('y3',2,2),('y3b',2,2),('y3c',3,3),('y3d',4,4),('y4',5,5),('y5',6,6)],f'{OVD}/yend.png',E,LO,'fade')
 if 'l' in W:
     build('Vilvah_FaceLiftKit_9x16.mp4',[('st/lift_wide.mp4',0,2.6,1,'','fade'),(UE,4.0,5.0,0.6,SQ,'fade'),(UE,5.0,7.0,0.85,SQ,'dissolve'),(UE,8.0,9.8,0.85,SQ,'fade'),('st/lift_ultra.mp4',0,2.6,1,'','dissolve'),(UE,10.0,12.6,0.85,SQ)],
       [('l1',0,0),('l2',1,2),('l2b',1,2),('l3',3,3),('l4',4,4),('l4b',4,4),('l5',5,5)],f'{OVD}/lend.png',E,MD,'fade')
