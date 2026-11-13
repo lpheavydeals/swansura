@@ -31,11 +31,10 @@ for k,hd,nm,url in KITS:
     oss={"page_id":"788176181050418","instagram_user_id":"17841477741370196"}
     cmd=['curl','-s','-X','POST','https://graph.facebook.com/v23.0/act_1614052623400872/adcreatives','-F','name=SW Eng | '+nm,'-F','asset_feed_spec='+json.dumps(afs),'-F','object_story_spec='+json.dumps(oss),
          '-F','url_tags=utm_source=meta&utm_medium=paid_social&utm_campaign={{campaign.name}}&utm_content={{ad.name}}']
-    r=json.loads(subprocess.run(cmd,capture_output=True,text=True).stdout);print(k,'creative',r);
+    r={'id':DONE[k]} if k in DONE else json.loads(subprocess.run(cmd,capture_output=True,text=True).stdout);print(k,'creative',r);
     if 'id' not in r: break
     if ONLY_CR:
         DONE[k]=r['id'];json.dump(DONE,open(S+'/creatives.json','w'),indent=1);continue
-    if k in DONE: r={'id':DONE[k]}
     ad=['curl','-s','-X','POST','https://graph.facebook.com/v23.0/act_1614052623400872/ads','-F','name='+nm+' | Video 4x5+9x16 | From home','-F','adset_id=120249382199750240','-F','creative='+json.dumps({"creative_id":r['id']}),'-F','status=PAUSED']
     r2=json.loads(subprocess.run(ad,capture_output=True,text=True).stdout);print(k,'ad',r2);out[k]={'creative':r['id'],'ad':r2.get('id'),'err':r2.get('error')}
     if 'id' not in r2: break
