@@ -184,8 +184,101 @@
     {%- capture more -%}{%- assign k = 0 -%}{%- for x in bc.products limit: 60 -%}{%- if x.available and x.id != product.id and x.vendor == product.vendor and k < 4 -%}{%- assign k = k | plus: 1 -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}{%- endcapture -%}
     {%- if more != blank -%}<section style="padding-top:0"><div class="sec-head"><div><h2>More from {{ product.vendor | escape }}</h2></div><a class="p-link" href="{{ bc.url }}">Shop all {{ bc.products_count }} {{ product.vendor | escape }}</a></div><div class="grid-p">{{ more }}</div></section>{%- endif -%}
   {%- endif -%}
-  {%- if d.sim.size > 0 -%}
-    <section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="p-link" href="{{ cat_url }}">View all</a></div><div class="grid-p">{%- for h in d.sim -%}{%- assign x = all_products[h] -%}{%- if x != blank -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}</div></section>
+  {%- comment -%} You may also like (user, 13 Nov 2026): mixed brands, never this product's own brand (that is 'More from <brand>'),
+    one per brand first, at most two per brand, in stock only. Pool: same scent family (fragrance) or the product's first two
+    type collections from custom.pdp.kw, then its category. Gift / stocking / natural-skincare links are skipped as pools. {%- endcomment -%}
+  {%- liquid
+    assign srcs = ''
+    if cat == 'fragrance' and sw.f != blank
+      assign srcs = '/collections/scent-' | append: sw.f | append: ','
+    endif
+    assign kn = 0
+    for k in d.kw
+      assign u = k[1]
+      if kn < 2 and u contains '/collections/'
+        unless u contains 'gift' or u contains 'stocking' or u contains 'natural-skincare' or u contains 'christmas' or u contains 'black-friday'
+          assign srcs = srcs | append: u | append: ','
+          assign kn = kn | plus: 1
+        endunless
+      endif
+    endfor
+    assign srcs = srcs | append: cat_url | split: ','
+    assign ml_picked = ','
+    assign ml_b1 = '|'
+    assign ml_b2 = '|'
+    assign ml_n = 0
+    assign ml_html = ''
+    assign ml_off = product.id | modulo: 37
+    assign ml_own = 0
+    comment
+      passes: 1 one per other brand, starting at a per-product offset (so pages in one family differ);
+      2 one per other brand from the top; 3 a second per other brand; 4 this product's own brand
+      (only when too few other brands, e.g. haircare = Vilvah + Deyga); 5 anything left from other brands
+    endcomment
+    for pass in (1..5)
+      for u in srcs
+        if ml_n >= 4
+          break
+        endif
+        assign ch = u | remove: '/collections/'
+        assign cc = collections[ch]
+        if cc == blank
+          continue
+        endif
+        assign off = 0
+        if pass == 1
+          assign off = ml_off
+        endif
+        for x in cc.products limit: 50 offset: off
+          if ml_n >= 4
+            break
+          endif
+          unless x.available
+            continue
+          endunless
+          if x.id == product.id
+            continue
+          endif
+          if pass == 4
+            if x.vendor != product.vendor
+              continue
+            endif
+          elsif x.vendor == product.vendor
+            continue
+          endif
+          assign hk = ',' | append: x.handle | append: ','
+          if ml_picked contains hk
+            continue
+          endif
+          assign bk = '|' | append: x.vendor | append: '|'
+          if pass <= 2
+            if ml_b1 contains bk
+              continue
+            endif
+            assign ml_b1 = ml_b1 | append: x.vendor | append: '|'
+          elsif pass == 3
+            if ml_b2 contains bk
+              continue
+            endif
+            assign ml_b2 = ml_b2 | append: x.vendor | append: '|'
+          elsif pass == 4
+            if ml_own >= 2
+              continue
+            endif
+            assign ml_own = ml_own | plus: 1
+          endif
+          assign ml_picked = ml_picked | append: x.handle | append: ','
+          assign ml_n = ml_n | plus: 1
+          capture card
+            render 'sw-p-card', product: x
+          endcapture
+          assign ml_html = ml_html | append: card
+        endfor
+      endfor
+    endfor
+  -%}
+  {%- if ml_n > 0 -%}
+    <section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="p-link" href="{{ cat_url }}">View all</a></div><div class="grid-p">{{ ml_html }}</div></section>
   {%- endif -%}
   <section style="padding-top:0" id="seenSec" hidden><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div><div class="grid-p" id="seenGrid"></div></section>
 
