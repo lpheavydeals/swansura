@@ -36,14 +36,14 @@ body{background:radial-gradient(120% 80% at 50% 38%,${k.bgA1} 0%,${k.bgA2} 70%,$
 </body></html>`}
 // Style B: photo top + hook, white panel bullets, packshot
 function B(k,W,H){const sq=H==W,tl=H>1400;const th=tl?860:sq?470:620,bar=sq?84:96,sb=tl?340:0;const em='#1B4D3E',br='#B5843A';
-const lt=tl?262:sq?30:38,lw=sq?150:180;
+const lt=tl?262:sq?26:32,lw=sq?96:112;
 return `<html><head><meta charset=utf-8><style>${base(W,H)}
 body{background:linear-gradient(#fff calc(100% - ${sb}px),#133A2F 0)}
 .ph{position:absolute;left:0;top:0;width:${W}px;height:${th}px;object-fit:cover;object-position:${k.pos||'center'}}
 .shade{position:absolute;left:0;top:0;width:${W}px;height:${th}px;background:radial-gradient(90% 75% at 0% 30%,rgba(10,30,24,.62),rgba(10,30,24,.25) 55%,rgba(0,0,0,0) 80%)}
 .gl{position:absolute;left:0;right:0;top:${th-3}px;height:3px;background:linear-gradient(90deg,${br},#EACB8E,${br})}
-.logo{position:absolute;left:${sq?50:60}px;top:${lt}px;width:${lw}px;filter:drop-shadow(0 2px 10px rgba(0,0,0,.45))}
-.hook{position:absolute;left:${sq?54:64}px;top:${lt+lw*0.61+(sq?24:34)}px;color:#fff;font-weight:800;font-size:${sq?58:70}px;line-height:1.02;letter-spacing:-.02em;text-shadow:0 2px 18px rgba(0,0,0,.3)}
+.lb{position:absolute;right:${sq?26:32}px;top:${lt}px;padding:${sq?9:11}px ${sq?12:14}px ${sq?7:9}px;border-radius:10px;background:rgba(19,58,47,.92);box-shadow:0 0 0 1px rgba(234,203,142,.7) inset,0 6px 18px rgba(0,0,0,.18)}.lb img{display:block;width:${lw}px}
+.hook{position:absolute;left:${sq?54:64}px;top:${tl?th*0.62:th*0.5}px;transform:translateY(-50%);color:#fff;font-weight:800;font-size:${sq?58:70}px;line-height:1.02;letter-spacing:-.02em;text-shadow:0 2px 18px rgba(0,0,0,.3)}
 .hook em{font-style:normal;font-weight:300;display:block;font-size:.62em;margin:2px 0 4px}.hook em.ne{font-weight:800;font-size:1em;line-height:.9}
 .pan{position:absolute;left:${sq?54:64}px;top:${th+(sq?32:46)}px;width:${sq?500:530}px}
 .eb{font-weight:700;font-size:${sq?14:16}px;letter-spacing:.24em;text-transform:uppercase;color:#695541;margin-bottom:10px}
@@ -59,7 +59,7 @@ li b{font-weight:800}
 .cta{height:${sq?56:64}px;padding:0 ${sq?24:30}px;border-radius:999px;background:linear-gradient(135deg,#EACB8E,#C4924A);color:#0F2E25;display:flex;align-items:center;gap:10px;font-weight:800;font-size:${sq?22:25}px}
 </style></head><body>
 <img class=ph src="${b64(k.top)}"><div class=shade></div><div class=gl></div>
-<img class=logo src="data:image/svg+xml;base64,${fs.readFileSync('logo_w.svg').toString('base64')}">
+<div class=lb><img src="data:image/svg+xml;base64,${fs.readFileSync('logo_w.svg').toString('base64')}"></div>
 <div class=hook>${k.hook}</div>
 <div class=pan><div class=eb>${k.brand} · Official UK partner</div><div class=nm>${k.nm}</div><div class=sub>${k.sub}</div><ul>${k.b.map(x=>'<li>'+x+'</li>').join('')}</ul></div>
 <img class=pack src="${b64(k.cut)}">
