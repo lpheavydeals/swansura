@@ -1,1 +1,17 @@
-{}
+{
+ "Vilvah_AMPMSerumKit": {
+  "creative": "1103834862467213",
+  "ad": null,
+  "err": {
+   "message": "Invalid parameter",
+   "type": "OAuthException",
+   "code": 100,
+   "error_data": "{\"blame_field_specs\":[[\"account_id\"]]}",
+   "error_subcode": 1359188,
+   "is_transient": false,
+   "error_user_title": "No payment method",
+   "error_user_msg": "Update payment method: Visit the billing and payment centre to add a valid payment method.",
+   "fbtrace_id": "AUB1Nrrly4PD9VBlE90w04h"
+  }
+ }
+}
