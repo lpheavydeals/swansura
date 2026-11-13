@@ -149,3 +149,40 @@ Deyga's charcoal bath bar and aloe vera gel together for £14.99, dispatched fro
 **Description:** Bath bar + aloe gel
 
 Note: 'Clear Skin' is the product's name only. Never say the kit clears skin, controls acne or removes tan (the bath bar box reads 'Acne Control & De-Tan': client to accept that pack text in the video and photos).
+
+## 8. Vilvah Face Brightening Kit (Large)
+Landing page: https://www.swansura.com/products/vilvah-face-brightening-kit-large
+
+**Primary text (A, from home)**
+Vilvah's milk routine, now shipped from the UK. Two steps, no waiting on an India parcel.
+
+1. Milk Powder Face Wash: a powder that foams with water, with rice milk, papain and hyaluronic acid
+2. Milk Drops Serum 40 ml: rice milk extract, aloe vera and hyaluronic acid
+
+Official UK partner of Vilvah · Free UK delivery on this kit.
+
+**Primary text (B, routine / value)**
+Cleanse, then serum, morning and evening. The Large kit pairs the Milk Powder Face Wash with the full-size 40 ml Milk Drops for £42.99, with free UK delivery.
+
+**Headline:** Vilvah Face Brightening Kit (Large), £42.99
+**Description:** Face wash + Milk Drops 40 ml
+
+Note: 'Face Brightening' is the product name only. Never say the kit brightens skin or fades spots.
+
+## 9. Deyga Nourished Lip Care Kit
+Landing page: https://www.swansura.com/products/nourished-lip-care-kit-deygas-strawberry-lip-scrub-beetroot-lip-balm-set-for-soft-smooth-hydrated-lips
+(Stick version, if the client prefers it: https://www.swansura.com/products/deygas-beetroot-lip-balm-stick-strawberry-lip-scrub-combo-natural-tinted-lip-care-duo-for-soft-smooth-lips , £27.99; the video would swap in the stick footage.)
+
+**Primary text (A, from home)**
+Deyga's lip duo, now shipped from the UK. Scrub, then balm. 💋
+
+1. Strawberry Lip Scrub: sugar in avocado oil, almond oil and shea butter
+2. Beetroot Lip Balm: beetroot extract, almond and jojoba oil, with a sheer, rosy tint
+
+Official UK partner of Deyga · Free UK delivery over £40.
+
+**Primary text (B, gift)**
+A little lip kit that makes a lovely gift: Deyga Strawberry Lip Scrub and Beetroot Lip Balm together for £25.99, dispatched from the UK.
+
+**Headline:** Deyga Nourished Lip Care Kit, £25.99
+**Description:** Lip scrub + beetroot balm
