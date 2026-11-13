@@ -1,0 +1,56 @@
+{
+ "Vilvah_AMPMSerumKit": {
+  "hashes": {
+   "4x5": "efb06393ae467e5635417cd714805c71",
+   "1x1": "6a410a893ed51bdb2f8669d16bf334b7",
+   "9x16": "bfbf61d2208a9df416cf314617351353"
+  },
+  "creative": "956416080628968",
+  "ad": "120249390787780240"
+ },
+ "Vilvah_FaceBrighteningKitLarge": {
+  "hashes": {
+   "4x5": "2185921bac9751b30162c18206b95aa4",
+   "1x1": "6ef22ea3208ed11233147712c1ffb472",
+   "9x16": "5dff81d0824050e17f26168d8d53e4b2"
+  },
+  "creative": "1658508235661627",
+  "ad": "120249390788750240"
+ },
+ "Vilvah_MilkFaceKit": {
+  "hashes": {
+   "4x5": "3c88006c55c622e676447a5c6aef4262",
+   "1x1": "1cb1a762936e0a7815283b23fdf1541a",
+   "9x16": "30491b91768cdf54b08f50f6ac2eb84d"
+  },
+  "creative": "1869117331204935",
+  "ad": "120249390791340240"
+ },
+ "Deyga_LipBalmStick": {
+  "hashes": {
+   "4x5": "86f88faad8e91546d3e1a677fae702dc",
+   "1x1": "4075c5670ae56be0845284eaf0dd60ab",
+   "9x16": "353a40fd246278fb8440d64e18b84ce0"
+  },
+  "creative": "1480521437368485",
+  "ad": "120249390792650240"
+ },
+ "Vilvah_FaceLiftKit": {
+  "hashes": {
+   "4x5": "f4ae398f3669bf1f7afb394c6997e17b",
+   "1x1": "ab6b9b15c4fd712ae8a8548c7faa9d71",
+   "9x16": "2c82aafc60975acb67b1c2908f12e679"
+  },
+  "creative": "1492872522750867",
+  "ad": "120249390796570240"
+ },
+ "Vilvah_MilkBodyKit": {
+  "hashes": {
+   "4x5": "6199f8d789da1cdc6578780c90b332b6",
+   "1x1": "42fce15e41542f18795dce6b8bba9ab2",
+   "9x16": "246947550d89e954d1db4e7c9f419fe6"
+  },
+  "creative": "1124436630218373",
+  "ad": "120249390799600240"
+ }
+}
