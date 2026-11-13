@@ -283,3 +283,27 @@ You are in Meta for Developers (developers.facebook.com), already logged in and 
 ```
 
 After it reports "Live": tell Claude, and the 6 engagement ads are created PAUSED with `docs/ads/meta_setup/mk.py`.
+
+---
+
+## Prompt 12 – Put the card on the ad account (13 Nov 2026)
+
+Why: the card was added, but the Marketing API still shows no payment method on ad account 1614052623400872, so Meta refuses to create even paused ads.
+
+```
+You are logged in to Meta Business Suite / Ads Manager for the business portfolio "Swansura - The Body Studio" (ID 1523489705546215). Goal: make sure the card that was just added is the payment method of the ad account "SwansuraTheBodyStudio's ad account" (ID 1614052623400872). Do not create, publish or turn on any campaign, ad set or ad. Do not add a second card, do not remove any card, and do not make any payment or prepay funds. Never type or read out the full card number; refer to cards only by brand and last 4 digits. If a step asks for something not listed here (new card details, ID documents, a code sent by SMS or email), stop and tell me what it asks for.
+
+1. Open https://business.facebook.com/billing_hub/accounts/details?asset_id=1614052623400872 (Billing & payments for this ad account). If it does not open, go to Ads Manager → menu → Billing & payments, and pick "SwansuraTheBodyStudio's ad account" in the account switcher at the top.
+2. Look at the "Payment methods" section of THIS ad account.
+   - If a card is already listed there as the primary/default payment method: report its brand, last 4 digits and status (Active / Pending verification / Declined) and go to step 5.
+   - If no card is listed: click "Add payment method". If Meta offers to use a card already saved in the business portfolio ("Use an existing payment method" / a card with the same last 4 digits), choose that card. Do NOT type new card details; if Meta only offers a new-card form, stop and tell me.
+3. If asked, set that card as the primary payment method for this ad account and confirm. Accept any 3-D Secure / bank approval only if the screen says it is for adding the payment method (not for a charge); if anything mentions a payment amount other than a temporary £0–£1 verification hold, stop and tell me.
+4. Check the account's payment settings page: Country United Kingdom, Currency GBP, Time zone Europe/London should already be set; do not change them.
+5. Still in Billing & payments → Payment settings, look for "Account spending limit". If it can be set now, set it to £700 and save. If the option is not shown, just report that.
+6. Report back:
+   - the payment method shown for this ad account (brand, last 4 digits, status, whether it is primary),
+   - whether the account spending limit is set and to what amount,
+   - any red warning or banner on the Billing & payments page (copy the exact text).
+```
+
+After it reports the card as Active on the ad account: tell Claude, and the 6 engagement ads are created PAUSED with `docs/ads/meta_setup/mk.py` (it reuses the creatives in `creatives.json`).
