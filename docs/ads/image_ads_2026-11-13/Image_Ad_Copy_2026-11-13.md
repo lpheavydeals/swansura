@@ -4,7 +4,7 @@ Two styles per kit, each at 4:5 (feeds), 1:1 (other placements) and 9:16 (Storie
 - **A – Scene:** the kit on a stone plinth against a soft tinted backdrop, with a two-line headline and a price badge (after the Indian Route reference).
 - **B – Split:** a lifestyle photo with a short hook on top, then a white panel with the kit name, 3 facts and the packshot (after the Deconstruct reference).
 
-CHOSEN (user, 13 Nov 2026): Style B, in Swansura branding: small white Swansura logo on an emerald badge with a gold edge, top-right of the photo (user: the big top-left logo disturbed the image), emerald + brass colours, gold hairline, 'Shop now' gold pill, '<Brand> · Official UK partner' eyebrow, swansura.com in the 9:16 bottom band. Files `*_B_{4x5,1x1,9x16}.jpg`; Style A files kept for reference only.
+CHOSEN (user, 13 Nov 2026): Style B, in Swansura branding: small Swansura logo top-right of the photo, no background (user: badge not needed): white on dark photos, emerald #1B4D3E on light ones (picked by the brightness behind it, logomap.json; Milk Face Kit emerald because white was lost on the foam), emerald + brass colours, gold hairline, 'Shop now' gold pill, '<Brand> · Official UK partner' eyebrow, swansura.com in the 9:16 bottom band. Files `*_B_{4x5,1x1,9x16}.jpg`; Style A files kept for reference only.
 
 Rules: Plus Jakarta Sans only, no result claims (facts come from the ingredient lists, sizes and prices), prices as on swansura.com on 13 Nov 2026. Free UK delivery is mentioned only on kits over £40. Builder: `build.js` + `kits.json` (`node build.js [ids]`, run from a folder holding the `src/` files).
 
