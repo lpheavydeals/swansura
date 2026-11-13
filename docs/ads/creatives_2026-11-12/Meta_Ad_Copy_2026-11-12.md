@@ -97,9 +97,9 @@ Official UK partner of Vilvah · Free UK delivery on this kit.
 **Primary text (B, routine / value)**
 Your skincare, morning to night, in one kit: Vilvah Milk Drops for the day, Better Ageing Serum for the evening.
 
-Pat a few drops onto clean skin, then moisturiser (and SPF in the morning). £47.99 with free UK delivery.
+Pat a few drops onto clean skin, then moisturiser (and SPF in the morning). £46.99 with free UK delivery.
 
-**Headline:** Vilvah AM PM Serum Kit, £47.99
+**Headline:** Vilvah AM PM Serum Kit, £46.99
 **Description:** Free UK delivery on this kit
 
 ## 5. Vilvah Bestseller Hair Kit
@@ -159,12 +159,12 @@ Vilvah's milk routine, now shipped from the UK. Two steps, no waiting on an Indi
 1. Milk Powder Face Wash: a powder that foams with water, with rice milk, papain and hyaluronic acid
 2. Milk Drops Serum 40 ml: rice milk extract, aloe vera and hyaluronic acid
 
-Official UK partner of Vilvah · Free UK delivery on this kit.
+Official UK partner of Vilvah · Free UK delivery over £40.
 
 **Primary text (B, routine / value)**
-Cleanse, then serum, morning and evening. The Large kit pairs the Milk Powder Face Wash with the full-size 40 ml Milk Drops for £42.99, with free UK delivery.
+Cleanse, then serum, morning and evening. The Large kit pairs the Milk Powder Face Wash with the full-size 40 ml Milk Drops for £39.99, with free UK delivery.
 
-**Headline:** Vilvah Face Brightening Kit (Large), £42.99
+**Headline:** Vilvah Face Brightening Kit (Large), £39.99
 **Description:** Face wash + Milk Drops 40 ml
 
 Note: 'Face Brightening' is the product name only. Never say the kit brightens skin or fades spots.
