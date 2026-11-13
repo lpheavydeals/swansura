@@ -1,6 +1,6 @@
 # Swansura – Sales campaign image ads (13 Nov 2026)
 
-Two styles per kit, each at 4:5 (feeds) and 1:1 (other placements):
+Two styles per kit, each at 4:5 (feeds), 1:1 (other placements) and 9:16 (Stories/Reels; top 250 px and bottom 340 px kept clear of text):
 - **A – Scene:** the kit on a stone plinth against a soft tinted backdrop, with a two-line headline and a price badge (after the Indian Route reference).
 - **B – Split:** a lifestyle photo with a short hook on top, then a white panel with the kit name, 3 facts and the packshot (after the Deconstruct reference).
 
