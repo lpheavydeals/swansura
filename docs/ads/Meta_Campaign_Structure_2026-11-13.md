@@ -11,11 +11,11 @@ Prepared 13 Nov 2026. Budget: £700 on Meta for the first 30 days. Products: Dey
 
 | # | Campaign | Objective / optimisation | Budget | Starts |
 |---|---|---|---|---|
-| 1 | SW · Brand Reach · UK | Engagement → ThruPlay (video views) | £3/day | Day 1 |
-| 2 | SW · Sales · Prospecting | Sales → Purchase (website) | £15/day | Day 1 |
-| 3 | SW · Sales · Retargeting | Sales → Purchase (website) | £5/day | Day 4 (once audiences have people in them) |
+| 1 | SW · Brand Reach · UK | Engagement → ThruPlay (video views) | £2/day | Day 1 |
+| 2 | SW · Sales · Prospecting | Sales → Purchase (website) | £18/day | Day 1 |
+| 3 | SW · Sales · Retargeting | Sales → Purchase (website) | £4/day | Day 4 (once audiences have people in them) |
 
-Total about £23/day; 30 days ≈ £680, with £20–25 kept for Black Friday week.
+Total £24/day (user, 13 Nov 2026: £2 engagement, £18 sales); 30 days ≈ £708 (2×30 + 18×30 + 4×27), so the £700 account limit stops it about half a day early. No Black Friday reserve left: any boost that week comes from moving money, not adding it.
 
 ### 1. Brand Reach (cheap awareness + audience building)
 - Why: the brand is unknown in the UK (34 Instagram followers). Cheap video views reach UK Indian households and build "people who watched 50%" audiences for retargeting.
@@ -28,7 +28,12 @@ Total about £23/day; 30 days ≈ £680, with £20–25 kept for Black Friday we
 - One ad set only, so all purchases and add-to-carts train one ad set and it exits learning faster.
 - Audience: UK, Advantage+ audience, suggestions women 22–55 + the same interest suggestions as campaign 1. Exclude people who purchased in the last 30 days.
 - Placements: Advantage+.
-- Ads (6 to start): 3 videos + 3 image ads (4:5, 9:16 and 1:1 assets in each ad). Two primary texts per ad (A = "from home" hook, B = gift / routine / value) using Meta's text options.
+- Ads (user, 13 Nov 2026): 4 products, 2 Deyga + 2 Vilvah, ONE ad per product. Each ad carries both the video and the image (flexible format / placement asset customisation: video 9:16 + 4:5, image 4:5 + 1:1), so videos and images stay in the same ad set and Meta picks the asset per placement. Two primary texts per ad (A = 'from home' hook, B = gift / routine / value).
+  - Deyga Beetroot Lip Balm (£10.99)
+  - Deyga Hair Care Kit (£18.99 / £36.99)
+  - Vilvah Milk Drops (£21.99 / £30.99)
+  - Vilvah AM PM Serum Kit (£47.99; creatives still to make)
+- No separate video / image ad sets: splitting halves the conversions each ad set gets. A clean video-vs-image read comes later from a Meta A/B test (Experiments) after Day 7–10.
 - Optimisation: Purchase. Fallback: if there are fewer than about 8 purchases by Day 7, duplicate the ad set optimising for Add to Cart (44 a week today) and pause the Purchase one, then switch back once purchases pick up.
 - Attribution: 7-day click, 1-day view.
 
