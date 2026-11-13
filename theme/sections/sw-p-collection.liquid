@@ -75,7 +75,7 @@
   </div></div></section>
   <section id="allp"><div class="wrap"><div class="sec-head"><div><h2>{{ brand.name | escape }} at Swansura</h2></div><label>Sort <select id="sort"><option value="feat">Featured</option><option value="low">Price, low to high</option><option value="high">Price, high to low</option><option value="az">A to Z</option></select></label></div><span id="count" hidden></span><div id="filters" hidden></div><div id="active" class="p-active" hidden></div>
     <div id="results" data-listing data-brand data-pages="{{ collection.products_count | divided_by: 250.0 | ceil }}" data-url="{{ collection.url }}" data-section="{{ section.id }}"><div class="grid-p" id="sw-pool">
-      {%- comment -%} in-stock products first, sold-out after (user, 7 Nov 2026) {%- endcomment -%}{%- paginate collection.products by 250 -%}{%- assign n = 0 -%}{%- for pass in (1..2) -%}{%- for p in collection.products -%}{%- if pass == 1 and p.available == false -%}{%- continue -%}{%- endif -%}{%- if pass == 2 and p.available -%}{%- continue -%}{%- endif -%}{%- assign n = n | plus: 1 -%}{%- assign later = false -%}{%- if n > 24 -%}{%- assign later = true -%}{%- endif -%}{% render 'sw-p-card', product: p, facets: true, hidden: later %}{%- endfor -%}{%- endfor -%}{%- endpaginate -%}
+      {%- comment -%} in-stock products first, sold-out after (user, 7 Nov 2026) {%- endcomment -%}{%- paginate collection.products by 250 -%}{%- assign n = 0 -%}{%- for pass in (1..2) -%}{%- for p in collection.products -%}{%- if pass == 1 and p.available == false -%}{%- continue -%}{%- endif -%}{%- if pass == 2 and p.available -%}{%- continue -%}{%- endif -%}{%- assign n = n | plus: 1 -%}{%- assign later = false -%}{%- if n > 24 -%}{%- assign later = true -%}{%- endif -%}{%- assign ea = false -%}{%- if n == 1 -%}{%- assign ea = 'high' -%}{%- elsif n <= 4 -%}{%- assign ea = true -%}{%- endif -%}{% render 'sw-p-card', product: p, facets: true, hidden: later, eager: ea %}{%- endfor -%}{%- endfor -%}{%- endpaginate -%}
     </div>{%- if collection.products_count > 24 -%}<div class="more"><span>Showing 24 of {{ collection.products_count }}</span><button class="btn" id="loadMore">Load more</button></div>{%- endif -%}</div></div></section>
   {%- if brand.others.size > 0 -%}
   <section style="padding-top:0"><div class="wrap"><div class="eyebrow" style="margin-bottom:14px">You may also love</div><div class="brandgrid">
@@ -102,7 +102,7 @@
             {%- if pass == 1 and p.available == false -%}{%- continue -%}{%- endif -%}
             {%- if pass == 2 and p.available -%}{%- continue -%}{%- endif -%}
             {%- assign n = n | plus: 1 -%}{%- assign later = false -%}{%- if n > 24 -%}{%- assign later = true -%}{%- endif -%}
-            {% render 'sw-p-card', product: p, facets: true, hidden: later %}
+            {%- assign ea = false -%}{%- if n == 1 -%}{%- assign ea = 'high' -%}{%- elsif n <= 4 -%}{%- assign ea = true -%}{%- endif -%}{% render 'sw-p-card', product: p, facets: true, hidden: later, eager: ea %}
           {%- endfor -%}{%- endfor -%}
         {%- endpaginate -%}
       </div>{%- if collection.products_count > 24 -%}<div class="more"><span>Showing 24 of {{ collection.products_count }}</span><button class="btn" id="loadMore">Load more</button></div>{%- endif -%}</div>
