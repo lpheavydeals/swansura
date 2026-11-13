@@ -11,7 +11,12 @@ KITS=[('Vilvah_AMPMSerumKit','## 4. Vilvah AM PM Serum Kit','Vilvah AM PM Serum 
 ('Deyga_ABCKit','## 6. Deyga ABC Kit','Deyga ABC Kit','https://www.swansura.com/products/natural-skincare-set-deygas-aloe-vera-gel-beetroot-lip-balm-charcoal-bath-bar-for-hydrated-skin-soft-lips-clean-body'),
 ('Deyga_NourishedLipsKit','## 9. Deyga Nourished Lip Care Kit','Deyga Nourished Lip Care Kit','https://www.swansura.com/products/nourished-lip-care-kit-deygas-strawberry-lip-scrub-beetroot-lip-balm-set-for-soft-smooth-hydrated-lips'),
 ('Deyga_ClearSkinKit','## 7. Deyga Clear Skin Kit','Deyga Clear Skin Kit','https://www.swansura.com/products/deyga-clear-skin-kit')]
+KITS2=[('Vilvah_MilkFaceKit','## 10. Vilvah Milk Face Kit','Vilvah Milk Face Kit','https://www.swansura.com/products/vilvah-milk-face-kit-milk-mud-mask-milk-drops-brightening-serum-de-tans-brightens-clears-skin-oatmilk-saffron-rice-milk-extracts'),
+('Deyga_LipBalmStick','## 11. Deyga Beetroot Lip Balm Stick','Deyga Beetroot Lip Balm Stick','https://www.swansura.com/products/beetroot-lip-balm-stick-natural-tinted-balm-for-dry-lips-100-organic-ingredients-plant-based-cruelty-free-5-5-g'),
+('Vilvah_FaceLiftKit','## 12. Vilvah Face Lift Kit','Vilvah Face Lift Kit','https://www.swansura.com/products/vilvah-face-lift-kit'),
+('Vilvah_MilkBodyKit','## 13. Vilvah Milk Body Kit','Vilvah Milk Body Kit','https://www.swansura.com/products/vilvah-milk-body-kit-goat-milk-body-wash-milk-body-lotion-deep-hydration-skin-softening-nourishment-oat-milk-olive-squalane-coconut-oil-vanilla-scent')]
 import os
+if os.environ.get('KITSET')=='2': KITS=KITS2
 ONLY_CR=os.environ.get('ONLY_CREATIVES')
 DONE=json.load(open(S+'/creatives.json')) if os.path.exists(S+'/creatives.json') else {}
 out={}
@@ -38,4 +43,4 @@ for k,hd,nm,url in KITS:
     ad=['curl','-s','-X','POST','https://graph.facebook.com/v23.0/act_1614052623400872/ads','-F','name='+nm+' | Video 4x5+9x16 | From home','-F','adset_id=120249382199750240','-F','creative='+json.dumps({"creative_id":r['id']}),'-F','status=PAUSED']
     r2=json.loads(subprocess.run(ad,capture_output=True,text=True).stdout);print(k,'ad',r2);out[k]={'creative':r['id'],'ad':r2.get('id'),'err':r2.get('error')}
     if 'id' not in r2: break
-json.dump(out,open(S+'/ads.json','w'),indent=1)
+json.dump(out,open(S+('/ads2.json' if os.environ.get('KITSET')=='2' else '/ads.json'),'w'),indent=1)

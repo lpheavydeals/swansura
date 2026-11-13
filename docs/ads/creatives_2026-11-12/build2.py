@@ -66,3 +66,17 @@ LB='../dv/Deyga_Organics_V15_Beetroot_Lipbalm.mp4';LS='../dv/Deyga_Organics_V19_
 if 'n' in W:
     build('Deyga_NourishedLipsKit_9x16.mp4',[(LS,0.0,1.4,1,'','slideleft'),(LB,0.0,1.6,1,'','fade'),(LS,1.5,3.8,1,'','zoomin'),(LS,4.0,5.6,1,'','fade'),(LB,2.0,4.6,1,'','zoomin'),(LB,5.5,7.0,1,'','dissolve'),(LB,11.5,13.6,1,'','dissolve'),(LS,14.3,15.9,1)],
       [('n1',0,1),('n2',2,2),('n2b',2,2),('n3',3,3),('n4',4,5),('n4b',4,5),('n5',6,6),('n6',7,7)],f'{OVD}/nend.png',E,LS,'fade')
+ST='../dv/Deyga_Organics_V01_Beetroot_lip_balm_stick.mp4';MR='../vv/MILK_RANGE__Milk_Range.mp4'
+LO='../../nk/src/milkbodylotion.mp4';UE='../../nk/src/undereye.mp4';SQ='crop=608:1080:236:0'
+if 's' in W:
+    build('Deyga_LipBalmStick_9x16.mp4',[(ST,0.0,1.8,0.8,'','dissolve'),(ST,2.0,3.6,0.8,'','slideleft'),(ST,5.0,6.9,0.8,'','zoomin'),(ST,8.4,10.4,0.85,'','dissolve'),(ST,12.0,13.8,0.85,'','fade'),(ST,14.2,16.2,0.85)],
+      [('s1',0,1),('s2',2,2),('s2b',2,2),('s3',3,4),('s4',5,5)],f'{OVD}/send.png',E,ST,'fade')
+if 'm' in W:
+    build('Vilvah_MilkFaceKit_9x16.mp4',[('st/face_wide.mp4',0,2.6,1,'','fade'),('st/face_mask.mp4',0,2.6,1,'','fade'),(MR,29.0,30.4,0.7,'crop=378:672:1144:0','smoothup'),(MD,2.6,3.7,0.6,'','fade'),(MD,7.0,8.9,0.85,'','fade'),(MD,15.0,15.95,0.6,'','dissolve'),(MD,19.0,19.9,0.6)],
+      [('m1',0,0),('m2',1,2),('m2b',1,2),('m3',3,4),('m3b',3,4),('m4',5,5),('m5',6,6)],f'{OVD}/mend.png',E,MD,'fade')
+if 'y' in W:
+    build('Vilvah_MilkBodyKit_9x16.mp4',[('st/body_wide.mp4',0,2.6,1,'','fade'),('st/body_wash.mp4',0,2.6,1,'','smoothup'),(LO,12.0,13.6,0.8,'crop=450:800:315:0','fade'),(LO,16.0,17.6,0.8,'crop=484:860:298:0','dissolve'),(LO,17.8,19.6,0.85,'crop=484:860:298:0','fade'),(LO,27.0,28.9,0.85,SQ)],
+      [('y1',0,0),('y2',1,1),('y2b',1,1),('y3',2,3),('y3b',2,3),('y4',4,4),('y5',5,5)],f'{OVD}/yend.png',E,LO,'fade')
+if 'l' in W:
+    build('Vilvah_FaceLiftKit_9x16.mp4',[('st/lift_wide.mp4',0,2.6,1,'','fade'),(UE,4.0,5.0,0.6,SQ,'fade'),(UE,5.0,7.0,0.85,SQ,'dissolve'),(UE,8.0,9.8,0.85,SQ,'fade'),('st/lift_ultra.mp4',0,2.6,1,'','dissolve'),(UE,10.0,12.6,0.85,SQ)],
+      [('l1',0,0),('l2',1,2),('l2b',1,2),('l3',3,3),('l4',4,4),('l4b',4,4),('l5',5,5)],f'{OVD}/lend.png',E,MD,'fade')

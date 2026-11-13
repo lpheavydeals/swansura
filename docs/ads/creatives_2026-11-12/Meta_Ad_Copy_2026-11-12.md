@@ -186,3 +186,81 @@ A little lip kit that makes a lovely gift: Deyga Strawberry Lip Scrub and Beetro
 
 **Headline:** Deyga Nourished Lip Care Kit, £25.99
 **Description:** Lip scrub + beetroot balm
+
+---
+
+# Kit ads, round 2 (13 Nov 2026): client swapped 4 products
+
+Removed from the ads (archived): Vilvah Bestseller Hair Kit, Deyga ABC Kit, Deyga Nourished Lip Care Kit, Deyga Clear Skin Kit.
+Added: the 4 below. Kept: Vilvah AM PM Serum Kit, Vilvah Face Brightening Kit (Large).
+
+## 10. Vilvah Milk Face Kit
+Landing page: https://www.swansura.com/products/vilvah-milk-face-kit-milk-mud-mask-milk-drops-brightening-serum-de-tans-brightens-clears-skin-oatmilk-saffron-rice-milk-extracts
+
+**Primary text (A, from home)**
+Vilvah's milk face routine, now shipped from the UK. Mask, then serum, no waiting on an India parcel.
+
+1. Milk Mud Mask: kaolin clay with oat milk and saffron extracts, once or twice a week
+2. Milk Drops Serum: aloe vera juice, hyaluronic acid and rice milk extract, morning and evening
+
+Official UK partner of Vilvah · Free UK delivery on this kit.
+
+**Primary text (B, routine / value)**
+Two steps for dry skin: a creamy clay mask for the weekend, a light water-based serum for every day. The Milk Face Kit is £44.99 with free UK delivery.
+
+**Headline:** Vilvah Milk Face Kit, £44.99
+**Description:** Milk Mud Mask + Milk Drops
+
+## 11. Deyga Beetroot Lip Balm Stick
+Landing page: https://www.swansura.com/products/beetroot-lip-balm-stick-natural-tinted-balm-for-dry-lips-100-organic-ingredients-plant-based-cruelty-free-5-5-g
+
+**Primary text (A, from home)**
+Deyga's beetroot lip balm, now in a twist-up stick and shipped from the UK. 💋
+
+Beetroot extract for a sheer, rosy tint, with shea butter, jojoba, almond and avocado oils. Slips into any coat pocket.
+
+Official UK partner of Deyga · Free UK delivery over £40.
+
+**Primary text (B, gift / value)**
+A little stocking filler: Deyga Beetroot Lip Balm Stick, 5.5 g, £13.99, or two for £26.99. Dispatched from the UK.
+
+**Headline:** Deyga Beetroot Lip Balm Stick, £13.99
+**Description:** A sheer, rosy tint
+
+## 12. Vilvah Face Lift Kit
+Landing page: https://www.swansura.com/products/vilvah-face-lift-kit
+
+**Primary text (A, from home)**
+Vilvah's two-jar routine, now shipped from the UK. Eyes first, then face.
+
+1. Under Eye Cream: shea butter, bakuchiol and bamboo extract, dotted on and patted in
+2. Ultra Moisturising Cream: olive squalane, white lily oil and shea butter
+
+Official UK partner of Vilvah · Free UK delivery over £40.
+
+**Primary text (B, routine / value)**
+An under eye cream and a moisturiser that work as one routine, in one kit for £35.99, dispatched from the UK.
+
+**Headline:** Vilvah Face Lift Kit, £35.99
+**Description:** Under eye cream + moisturiser
+
+Note: 'Face Lift' is the product name only. Never say the kit lifts, firms, tightens or smooths lines.
+
+## 13. Vilvah Milk Body Kit
+Landing page: https://www.swansura.com/products/vilvah-milk-body-kit-goat-milk-body-wash-milk-body-lotion-deep-hydration-skin-softening-nourishment-oat-milk-olive-squalane-coconut-oil-vanilla-scent
+
+**Primary text (A, from home)**
+Vilvah's milk body routine, now shipped from the UK. Shower, then moisturise.
+
+1. Goat Milk Body Wash: goat milk and coconut oil, with a soft vanilla scent
+2. Milk Body Lotion: oat milk, ceramide NP and olive squalane, a light lotion that leaves skin feeling smooth
+
+Official UK partner of Vilvah · Free UK delivery on this kit.
+
+**Primary text (B, routine / value)**
+Body wash and lotion that go together, in one kit for £41.99 with free UK delivery. Good for dry and sensitive skin.
+
+**Headline:** Vilvah Milk Body Kit, £41.99
+**Description:** Body wash + body lotion
+
+Note: the lotion's brand video carries '48hr' and 'heals extreme dryness' captions; those parts are not used in our cut.

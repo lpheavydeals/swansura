@@ -39,7 +39,7 @@ const line=(arr)=>bot(`<div class="ing">${arr.join('<b>·</b>')}</div>`);
 const capb=(t,s)=>bot(`<div class="l cap2" style="font-size:56px">${t}</div>${s?`<div class="small">${s}</div>`:''}`);
 const arrow='<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0F2E25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const end=(im,name,price)=>{const o=MODE=='916'?0:-20;return `<div class="card"></div><div class="logo" style="top:${330+o}px"><img src="${logoUri}"></div><div class="tile" style="top:${520+o}px"><img src="${img(im)}"></div><div class="name" style="top:${1132+o}px">${name}</div><div class="price" style="top:${1222+o}px">${price}</div><div class="btn" style="top:${1300+o}px">Shop now ${arrow}</div><div class="fine" style="top:${1446+o}px">Free UK delivery over £40<br><span>swansura.com</span></div>`};
-const TH={f:{},n:{},a:{f:'PAR',w:400,h:100,c:80,n:76},b:{f:'YT',w:400,h:86,c:68,n:66},c:{f:'PAC',w:400,h:74,c:58,n:58},k:{f:'COU',w:400,h:72,c:58,n:58}};
+const TH={f:{},n:{},a:{f:'PAR',w:400,h:100,c:80,n:76},b:{f:'YT',w:400,h:86,c:68,n:66},c:{f:'PAC',w:400,h:74,c:58,n:58},k:{f:'COU',w:400,h:72,c:58,n:58},s:{},m:{},y:{},l:{}};
 const thcss=k=>{if(!TH[k[0]])return '';return `.h,.cap2,.l,.name{font-family:PJS!important;font-style:normal!important;font-variation-settings:normal!important;font-weight:500!important;letter-spacing:-.01em!important}.h{font-size:68px!important;line-height:1.12}.cap2{font-size:54px!important;line-height:1.15}.name{font-size:56px!important;font-weight:700!important}.s{font-family:PJS!important;font-size:1em!important;font-weight:800!important;color:inherit!important;line-height:1.12}`};
 const thx=k=>(k=='a1'?`.ts{display:none}.h{color:#163F33!important;text-shadow:0 1px 18px rgba(255,255,255,.6)!important}.eb{color:#163F33!important;text-shadow:none!important}`:'')+(k[0]=='a'&&k!='a1'?`.bs{height:620px!important;background:linear-gradient(transparent,rgba(10,20,30,.25) 35%,rgba(10,20,30,.7))!important}`:'')+(k[0]=='a'?``:'');
 const lab=(l,t)=>top(`<div class="eb">${l}</div><div class="h" style="margin-top:14px">${t}</div>`);
@@ -81,6 +81,29 @@ f1:hook('VILVAH · SHIPPED FROM THE UK','Your <span class="s">milk</span> routin
  n5:capb('a <span class="s">sheer, rosy</span> tint'),
  n6:capb('your <span class="s">two-step</span> lip routine',P2+' · Dispatched from the UK'),
  nend:end2('nend.jpg','Deyga Nourished Lip Care Kit','Lip scrub + beetroot balm · £25.99','Free UK delivery over £40'),
+ s1:hook('DEYGA · SHIPPED FROM THE UK','Beetroot balm,<br><span class="s">in a stick</span>'),
+ s2:lab('TWIST UP','Beetroot Lip Balm Stick'), s2b:line(['beetroot extract','shea butter','jojoba oil']),
+ s3:capb('a <span class="s">sheer, rosy</span> tint'),
+ s4:capb('slips into <span class="s">any pocket</span>',P2+' · Dispatched from the UK'),
+ send:end2('send.jpg','Deyga Beetroot Lip Balm Stick','5.5 g · £13.99','Free UK delivery over £40'),
+ m1:hook('VILVAH · SHIPPED FROM THE UK','Mask, then <span class="s">serum</span>'),
+ m2:lab('STEP 1 · ONCE OR TWICE A WEEK','Milk Mud Mask'), m2b:line(['kaolin clay','oat milk extract','saffron extract']),
+ m3:lab('STEP 2 · MORNING &amp; EVENING','Milk Drops Serum'), m3b:line(['aloe vera juice','hyaluronic acid','rice milk extract']),
+ m4:capb('a <span class="s">light, water-based</span> gel'),
+ m5:capb('your <span class="s">two-step</span> milk routine',P1+' · Free UK delivery on this kit'),
+ mend:end2('mend.jpg','Vilvah Milk Face Kit','Milk Mud Mask + Milk Drops · £44.99','Free UK delivery on this kit'),
+ y1:hook('VILVAH · SHIPPED FROM THE UK','Shower, then <span class="s">moisturise</span>'),
+ y2:lab('STEP 1','Goat Milk Body Wash'), y2b:line(['goat milk','coconut oil','vanilla scent']),
+ y3:lab('STEP 2','Milk Body Lotion'), y3b:line(['oat milk','ceramide NP','olive squalane']),
+ y4:capb('a <span class="s">light, smooth</span> finish'),
+ y5:capb('shower to moisturiser, <span class="s">every day</span>',P1+' · Free UK delivery on this kit'),
+ yend:end2('yend.jpg','Vilvah Milk Body Kit','Body wash + lotion · £41.99','Free UK delivery on this kit'),
+ l1:hook('VILVAH · SHIPPED FROM THE UK','Two jars,<br><span class="s">one routine</span>'),
+ l2:lab('STEP 1','Under Eye Cream'), l2b:line(['shea butter','bakuchiol','bamboo extract']),
+ l3:capb('<span class="s">dot, then pat</span> gently'),
+ l4:lab('STEP 2','Ultra Moisturising Cream'), l4b:line(['olive squalane','white lily oil','shea butter']),
+ l5:capb('<span class="s">eyes first</span>, then face',P1+' · Free UK delivery over £40'),
+ lend:end2('lend.jpg','Vilvah Face Lift Kit','Under eye cream + moisturiser · £35.99','Free UK delivery over £40'),
 };
 const ONLY=process.argv[3]?process.argv[3].split(','):null;
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1920}});const dir='ov'+MODE;fs.mkdirSync(dir,{recursive:true});
