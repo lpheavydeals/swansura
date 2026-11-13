@@ -74,3 +74,78 @@ The 220 ml kit is £36.99, dispatched from the UK. Add one more item for free UK
 
 ## Words to keep out of the ads
 growth, hair fall, brightening / brightens, dark spots, pigmentation, clear skin, repairs, results in X weeks, #1, best-selling, clinically proven.
+
+---
+
+# Kit ads (13 Nov 2026): the client's kits as landing pages
+
+Landing pages:
+- AM PM Serum Kit: https://www.swansura.com/products/vilvah-am-pm-serum-kit
+- Bestseller Hair Kit: https://www.swansura.com/products/vilvah-bestseller-hair-kit-goat-milk-shampoo-200ml-cream-conditioner-200ml-nourishing-frizz-control-sulfate-free-hair-care-set
+- ABC Kit: https://www.swansura.com/products/natural-skincare-set-deygas-aloe-vera-gel-beetroot-lip-balm-charcoal-bath-bar-for-hydrated-skin-soft-lips-clean-body
+- Clear Skin Kit: https://www.swansura.com/products/deyga-clear-skin-kit
+
+## 4. Vilvah AM PM Serum Kit
+**Primary text (A, from home)**
+Vilvah's AM PM Serum Kit, now shipped from the UK. Two serums, one simple routine, no waiting on an India parcel.
+
+Morning: Milk Drops, with rice milk extract and hyaluronic acid.
+Night: Better Ageing Serum, with bakuchiol, blue pea flower and peptides.
+
+Official UK partner of Vilvah · Free UK delivery on this kit.
+
+**Primary text (B, routine / value)**
+Your skincare, morning to night, in one kit: Vilvah Milk Drops for the day, Better Ageing Serum for the evening.
+
+Pat a few drops onto clean skin, then moisturiser (and SPF in the morning). £47.99 with free UK delivery.
+
+**Headline:** Vilvah AM PM Serum Kit, £47.99
+**Description:** Free UK delivery on this kit
+
+## 5. Vilvah Bestseller Hair Kit
+**Primary text (A, from home)**
+Vilvah's wash-day duo, now shipped from the UK. 🌿 Goat Milk Shampoo and Cream Conditioner in one kit.
+
+1. Shampoo: goat milk, jasmine flower water and pea protein
+2. Conditioner: tucuma butter, broccoli seed oil and aloe
+
+Light jasmine and citrus scent · Official UK partner of Vilvah.
+
+**Primary text (B, value)**
+Shampoo and conditioner that belong together: the Vilvah Bestseller Hair Kit, £27.99, dispatched from the UK.
+
+Add a hair mask or serum for free UK delivery over £40.
+
+**Headline:** Vilvah Bestseller Hair Kit, £27.99
+**Description:** Shampoo + conditioner
+
+## 6. Deyga ABC Kit
+**Primary text (A, ABC)**
+A for aloe, B for beetroot, C for charcoal. Deyga's everyday ABC Kit, now shipped from the UK.
+
+Aloe Vera Gel for face and body, Beetroot Lip Balm with a sheer tint, and a Charcoal Bath Bar with coconut oil and tea tree.
+
+Official UK partner of Deyga · Free UK delivery over £40.
+
+**Primary text (B, gift)**
+Three Deyga favourites in one kit for £22.99: aloe gel, beetroot lip balm and charcoal bath bar. A simple gift for anyone who grew up with Deyga, dispatched from the UK.
+
+**Headline:** Deyga ABC Kit, £22.99
+**Description:** Aloe · Beetroot · Charcoal
+
+## 7. Deyga Clear Skin Kit
+**Primary text (A, two steps)**
+Wash, then hydrate. Deyga's two-step kit, now shipped from the UK.
+
+1. Charcoal Bath Bar: activated charcoal, coconut oil and tea tree
+2. Aloe Vera Gel: aloe vera and glycerin, for face and body
+
+Official UK partner of Deyga · £14.99.
+
+**Primary text (B, value)**
+Deyga's charcoal bath bar and aloe vera gel together for £14.99, dispatched from the UK. Add the Beetroot Lip Balm for a little gift set.
+
+**Headline:** Deyga Clear Skin Kit, £14.99
+**Description:** Bath bar + aloe gel
+
+Note: 'Clear Skin' is the product's name only. Never say the kit clears skin, controls acne or removes tan (the bath bar box reads 'Acne Control & De-Tan': client to accept that pack text in the video and photos).

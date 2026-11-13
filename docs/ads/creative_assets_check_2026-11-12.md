@@ -23,3 +23,12 @@ Client Drives (view access): Vilvah https://drive.google.com/drive/folders/1fZ8n
 | Deyga Hair Removal Powder | V54 (20 s) | shows underarm hair gone = result demo; hold |
 
 Deyga videos are 9:16 only: crop to 4:5 / 1:1 for feed. Vilvah videos are brand-made with on-screen claims: edit those frames out or cover them before use.
+
+## Kit creatives made 13 Nov 2026 (client's 6 kits)
+Videos (9:16 + 4:5, ~11–12 s, own brand music, a different script font and transitions each) + images (4:5, 9:16, 1:1) in `creatives_2026-11-12/` and `creatives_2026-11-12/images/`: Vilvah AM PM Serum Kit (Parisienne), Vilvah Bestseller Hair Kit (Yellowtail), Deyga ABC Kit (Pacifico), Deyga Clear Skin Kit (Courgette). Builders: scratchpad `ed/build2.py` (xfade transitions) + `ed/ov3.js`; images `images/prod_kits.js`.
+Client to check before running:
+- Bestseller Hair Kit: the Vilvah video shows the NEW white 250 ml Goat Milk Shampoo bottle (no conditioner footage exists); our kit listing photos and title show the older aluminium 200 ml shampoo + conditioner. If the kit ships in aluminium bottles, run the image ad only.
+- ABC Kit: listing photos show the Beetroot Lip Balm STICK, the stored ingredient list says Classic (tin); the video uses the stick footage to match the photos.
+- Charcoal Bath Bar box reads 'Acne Control & De-Tan' and is readable in the ABC / Clear Skin image ads (and small in the end card): a claim on pack in an ad. Client to accept, or we soften that box text in the images.
+- AM PM: the Milk Drops bottle label in the kit photo reads 'Brightens skin & fades scars' (small); the brand video's claim cards ('Combo helps target: dark spots…', 'Brighten by Day, Repair by Night') are cut out.
+- Brand video footage cropped to remove on-screen text: AM PM 'Powered by' lists, GMS 'India's 1st ceramide-infused', 'Repairs damage', 'Same price. 50ML more', 'Upcycled wheat straw bottle'.
