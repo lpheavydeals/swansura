@@ -358,6 +358,8 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    {%- comment -%} Judge.me core only on product pages (app embed switched off; 14 Nov 2026) {%- endcomment -%}
+    {% render 'sw-jdgm-core' %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
