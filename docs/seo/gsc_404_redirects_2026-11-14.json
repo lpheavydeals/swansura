@@ -1,0 +1,9 @@
+{"note":"7 redirects for old product URLs that Search Console reported as 404 (14 Nov 2026). Undo = urlRedirectDelete on these ids. None existed before.",
+"redirects":[
+{"id":"gid://shopify/UrlRedirect/1774259274115","path":"/products/juicy-couture-viva-la-juicy-rose-eau-de-parfum-50ml-women-s-floral-fruity-fragrance","target":"/products/juicy-couture-viva-la-juicy-rose-eau-de-parfum-100ml-women-s-floral-fruity-fragrance"},
+{"id":"gid://shopify/UrlRedirect/1774259306883","path":"/products/abercrombie-fitch-naturally-fierce-edp-50ml-for-women","target":"/products/abercrombie-fitch-naturally-fierce-eau-de-parfum-50ml-women-s-floral-woody-fragrance"},
+{"id":"gid://shopify/UrlRedirect/1774259339651","path":"/products/antonio-banderas-diavolo-eau-de-toilette-200ml-men-s-warm-spicy-woody-fragrance","target":"/products/antonio-banderas-diavolo-eau-de-toilette-100ml-men-s-warm-spicy-woody-fragrance"},
+{"id":"gid://shopify/UrlRedirect/1774259372419","path":"/products/acqua-di-parma-holiday-discovery-set-edp-3x12ml-1","target":"/products/acqua-di-parma-holiday-discovery-set-edp-3x12ml"},
+{"id":"gid://shopify/UrlRedirect/1774259405187","path":"/products/vilvah-melt-in-milk-sunscreen-spf-50-pa-lightweight-non-greasy-no-white-cast-acne-safe-water-resistant-50ml","target":"/products/vilvah-skin-finish-sunscreen-spf-50-pa"},
+{"id":"gid://shopify/UrlRedirect/1774259437955","path":"/products/vilvah-beautifying-serum-moringa-argan-oil-30ml-anti-aging-hydrating-face-serum-for-even-skin-tone-radiant-glow","target":"/products/deygas-beautifying-serum-30-ml-natural-glow-even-tone-face-serum-with-organic-oils"},
+{"id":"gid://shopify/UrlRedirect/1774259470723","path":"/products/asset-pack-24869339138-example-product-4","target":"/collections/all"}]}
