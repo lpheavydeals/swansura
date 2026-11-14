@@ -30,6 +30,8 @@ A = {
     "titles": {"milk": "Vilvah Milk Body Lotion 250ml", "foot": "Deyga Foot Butter"},
     "shop": ["choc", "rose", "hb", "almond", "milk", "foot", "lip", "polish"],
     "body": """<p>When skin feels tight and dry, a <strong>body butter</strong> is the richest way to put comfort back. It is thicker than a lotion, melts on contact with warm skin and leaves a soft, cushioned finish. Here is how a body butter differs from a body lotion, which one suits your skin, and how to use it so a little goes a long way.</p>
+<h2>What is body butter?</h2>
+<p>A <strong>body butter</strong> is a thick, rich moisturiser for the body, made mainly from plant butters such as shea butter and cocoa butter. It feels firm in the jar, softens as it warms in your hands and leaves a soft, cushioned layer on the skin. A small amount covers a large area, so one jar lasts a good while.</p>
 <h2>Body butter vs body lotion: what is the difference?</h2>
 <p>The difference is mostly water. A <strong>body lotion</strong> is mainly water with some oils and butters, so it feels light, sinks in fast and suits everyday use. A <strong>body butter</strong> is made mostly or entirely of plant butters and oils, such as shea butter, cocoa butter and almond oil, so it is richer, takes a little longer to sink in and leaves skin feeling soft for longer. Body creams sit in between.</p>
 <ul>

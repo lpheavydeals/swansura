@@ -389,6 +389,13 @@ html.as-open .swp .chatbtn{display:none}
 @media (max-width:600px){.swp .drawpop{max-height:80dvh;overflow:auto;gap:8px;padding:16px 16px calc(14px + env(safe-area-inset-bottom,0px))}.swp .drawpop .dp-gift{width:36px;height:36px;margin:0}.swp .drawpop .dp-gift svg{width:20px;height:20px}.swp .drawpop .eyebrow{font-size:10.5px}.swp .drawpop h3{font-size:18px}.swp .drawpop .bis-p{font-size:13.5px;line-height:1.45}.swp .drawpop input{height:42px;font-size:15px}.swp .drawpop .btn{min-height:44px}.swp .drawpop .bis-note{font-size:11.5px;line-height:1.4}.swp .drawpop .dp-no{min-height:28px;padding:2px}.swp .drawpop .bis-x{top:6px;right:6px}}
 /* Reviews with none yet: one small box (user, 13 Nov 2026) */
 .swp .reviews.rv-zero{padding-block:32px 40px}.swp .rv-none{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;padding:20px 24px}.swp .rv-none h2{margin:0 0 4px}.swp .rv-none p{margin:0;color:var(--ink-2,#5b524b);font-size:14.5px}@media (max-width:600px){.swp .rv-none{padding:16px}.swp .rv-none .btn{width:100%}}
+/* Journal articles: 'Shop the story' product cards sit after the 2nd paragraph (user, 14 Nov 2026) */
+.swp .p-article .abody.a1{margin-bottom:8px}
+.swp .p-article .abody.a2{margin-top:8px}
+.swp .p-article .astory{max-width:980px;margin:8px auto 24px;padding:22px 0 8px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.swp .p-article .astory .sec-head{margin-bottom:16px}
+.swp .p-article .astory .sec-head h2{font-size:clamp(20px,2vw,24px)}
+@media (max-width:720px){.swp .p-article .astory .grid-p{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:44%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding:14px var(--gutter) 6px;scroll-padding-inline:var(--gutter);scrollbar-width:none}.swp .p-article .astory .grid-p::-webkit-scrollbar{display:none}.swp .p-article .astory .grid-p>*{scroll-snap-align:start}}
 """
 
 
