@@ -131,7 +131,7 @@ A **tinted lip balm** adds a sheer wash of colour as well as moisture, so it can
 
 - [Vilvah Grape Fruit Lip Balm](/products/vilvah-grape-fruit-lip-balm-10g) (£6.99) has just six ingredients, with a little red iron oxide for a sheer tint and grapefruit essential oil for a zesty scent.
 
-Can't choose? The [Vilvah Tinted Lip Balm Kit](/products/vilvah-tinted-lip-balm-kit) (£17.99) puts two tinted balms in one box.
+Can't choose? The [Vilvah Tinted Lip Balm Kit](/products/vilvah-tinted-lip-balm-kit) (£17) puts two tinted balms in one box.
 
 ## Natural lip balm with a short ingredient list
 
