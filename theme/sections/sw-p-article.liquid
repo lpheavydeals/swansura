@@ -14,8 +14,23 @@
   <header class="ahead"><div class="eyebrow">{{ article.tags.first | default: blog.title | escape }}</div><h1>{{ article.title | escape }}</h1>{%- if article.excerpt != blank -%}<p class="lede">{{ article.excerpt | strip_html }}</p>{%- endif -%}
     <div class="ameta"><span>{{ section.settings.author }}</span><span>{{ article.published_at | date: '%-d %B %Y' }}</span><span>{{ mins }} min read</span><div class="share ph"><button class="sharebtn" data-share="{{ article.url }}" data-share-title="{{ article.title | escape }} | Swansura" data-share-text="{{ article.excerpt | strip_html | escape }}" data-share-img="{{ article.image | image_url: width: 1000 }}" aria-expanded="false" aria-haspopup="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span>Share</span></button></div></div></header>
   {%- if article.image -%}<div class="ahero">{%- assign swalt = article.image.alt | default: article.title -%}{{ article.image | image_url: width: 1600 | image_tag: class: 'pic', widths: '800,1200,1600', sizes: '(min-width: 1000px) 900px, 92vw', fetchpriority: 'high', alt: swalt }}</div>{%- endif -%}
-  <article class="abody">{{ article.content }}</article>
-  {%- if shop_list.size > 0 -%}<section style="padding-top:8px"><div class="sec-head"><div><h2>Shop the story</h2></div></div><div class="grid-p">{%- for p in shop_list limit: 8 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div></section>{%- endif -%}
+  {%- comment -%} 'Shop the story' cards sit after the opening section, before the 2nd H2 (user, 14 Nov 2026: in the middle, not at the end); articles with fewer than 2 H2s keep them at the end {%- endcomment -%}
+  {%- liquid
+    assign parts = article.content | split: '<h2'
+    assign mid = false
+    if shop_list.size > 0 and parts.size > 2
+      assign mid = true
+    endif
+  -%}
+  {%- capture story -%}{%- if shop_list.size > 0 -%}<section class="astory"{% unless mid %} style="padding-top:8px;border:0"{% endunless %}><div class="sec-head"><div><h2>Shop the story</h2></div></div><div class="grid-p">{%- for p in shop_list limit: 8 -%}{% render 'sw-p-card', product: p %}{%- endfor -%}</div></section>{%- endif -%}{%- endcapture -%}
+  {%- if mid -%}
+    <article class="abody a1">{%- for part in parts limit: 2 -%}{%- unless forloop.first -%}<h2{%- endunless -%}{{ part }}{%- endfor -%}</article>
+    {{ story }}
+    <div class="abody a2">{%- for part in parts offset: 2 -%}<h2{{ part }}{%- endfor -%}</div>
+  {%- else -%}
+    <article class="abody">{{ article.content }}</article>
+    {{ story }}
+  {%- endif -%}
   {%- capture more -%}{%- assign k = 0 -%}{%- for a in blog.articles -%}{%- if a.id != article.id and k < 3 -%}{%- assign k = k | plus: 1 -%}<a class="post" href="{{ a.url }}">{%- if a.image -%}{%- assign swalt = a.image.alt | default: a.title -%}{{ a.image | image_url: width: 800 | image_tag: class: 'pic', widths: '400,600,800', sizes: '(min-width: 1000px) 400px, 90vw', loading: 'lazy', alt: swalt }}{%- else -%}<div class="pic"></div>{%- endif -%}<span class="eyebrow">{{ a.tags.first | default: blog.title | escape }}</span><h3>{{ a.title | escape }}</h3><p style="color:var(--ink-2)">{{ a.excerpt_or_content | strip_html | truncatewords: 30 }}</p></a>{%- endif -%}{%- endfor -%}{%- endcapture -%}
   {%- if more != blank -%}<section style="padding-top:0"><div class="sec-head"><div><h2>Keep reading</h2></div><a class="p-link" href="{{ blog.url }}">All stories</a></div><div class="journal">{{ more }}</div></section>{%- endif -%}
 </div></div>
