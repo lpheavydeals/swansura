@@ -396,6 +396,21 @@ html.as-open .swp .chatbtn{display:none}
 .swp .p-article .astory .sec-head{margin-bottom:16px}
 .swp .p-article .astory .sec-head h2{font-size:clamp(20px,2vw,24px)}
 @media (max-width:720px){.swp .p-article .astory .grid-p{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:44%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--gutter));padding:14px var(--gutter) 6px;scroll-padding-inline:var(--gutter);scrollbar-width:none}.swp .p-article .astory .grid-p::-webkit-scrollbar{display:none}.swp .p-article .astory .grid-p>*{scroll-snap-align:start}}
+
+/* UK delivery USP (user, 15 Nov 2026): gold card under the homepage hero + emerald strip under the PDP price */
+.swp .usp-a{position:relative;z-index:2;margin:-38px auto 0;width:min(960px,calc(100% - 32px));display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:24px 32px;border-radius:16px;background:linear-gradient(120deg,#C4924A 0%,#EACB8E 38%,#F3DCA8 50%,#E2BC78 64%,#B5843A 100%);border:1px solid #F6E3B8;box-shadow:0 18px 40px rgba(8,40,30,.35),inset 0 1px 0 rgba(255,255,255,.55);color:#0F2E25}
+.swp .usp-a .it{display:flex;align-items:center;gap:14px;justify-content:center}
+.swp .usp-a .ic{width:54px;height:54px;border-radius:50%;border:1px solid #0F2E25;display:grid;place-items:center;color:#0F2E25;background:rgba(255,255,255,.25);flex:none}.swp .usp-a .ic svg{width:26px;height:26px}
+.swp .usp-a b{display:block;font-size:24px;font-weight:600;letter-spacing:-.01em;color:#0F2E25;line-height:1.2}.swp .usp-a small{display:block;font-size:13.5px;letter-spacing:.14em;text-transform:uppercase;color:#3D2F1E;margin-top:4px}
+.swp .usp-a .star{color:#1B4D3E;font-size:22px;padding-inline:22px}
+.swp .ukstrip{display:flex;justify-content:center;align-items:center;gap:10px 28px;flex-wrap:nowrap;background:var(--silk);color:#F4EEE4;border:1px solid rgba(217,176,110,.55);border-radius:10px;box-shadow:0 6px 18px rgba(12,58,44,.18);padding:10px 14px;font-size:13.5px;font-weight:600;letter-spacing:.02em;margin:4px 0 2px}
+.swp .ukstrip span{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}.swp .ukstrip span:last-child{color:#E6D3A8}
+.swp .ukstrip svg{width:18px;height:18px;flex:none;color:#D9B06E}.swp .ukstrip i{width:1px;height:16px;background:rgba(217,176,110,.5)}
+@media (max-width:600px){
+ .swp .usp-a{grid-template-columns:1fr 1fr;padding:14px 12px;margin-top:-26px;gap:8px}.swp .usp-a .star{display:none}.swp .usp-a .it{flex-direction:column;text-align:center;gap:8px}.swp .usp-a .ic{width:40px;height:40px}.swp .usp-a .ic svg{width:22px;height:22px}.swp .usp-a b{font-size:14.5px}.swp .usp-a small{font-size:9.5px;letter-spacing:.05em;white-space:nowrap}
+ .swp .ukstrip{font-size:12px;gap:10px;padding:9px 8px;letter-spacing:0}.swp .ukstrip span{gap:5px}.swp .ukstrip svg{width:15px;height:15px}
+}
+@media (max-width:360px){.swp .ukstrip{font-size:11px;gap:7px}.swp .ukstrip svg{display:none}}
 """
 
 

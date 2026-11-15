@@ -1,5 +1,14 @@
 {
   "sections": {
+    "usp": {
+      "type": "sw-p-usp",
+      "settings": {
+        "t1": "Ships from the UK",
+        "s1": "No overseas wait",
+        "t2": "Next-day delivery",
+        "s2": "Available at checkout"
+      }
+    },
     "hero": {
       "type": "sw-p-hero",
       "settings": {
@@ -940,6 +949,7 @@
   },
   "order": [
     "hero",
+    "usp",
     "categories",
     "studios",
     "price",

@@ -91,6 +91,7 @@
       </div>{%- endif -%}
       <div><div class="p-price" id="pdpPrice">{{ v0.price | money }}{%- if v0.compare_at_price > v0.price -%}{%- assign pct = v0.price | times: 100.0 | divided_by: v0.compare_at_price | round -%} <s>{{ v0.compare_at_price | money }}</s> <span class="off">SAVE {{ 100 | minus: pct }}%</span>{%- endif -%}</div>
         <div class="paylater" id="payLater"{% unless product.available and v0.price >= 3000 and v0.price <= 200000 %} hidden{% endunless %}>or 3 interest-free payments of <b>{{ v0.price | divided_by: 3 | money }}</b> with <span class="pl p">PayPal Pay in 3</span></div></div>
+      <div class="ukstrip" role="note"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>Ships from the UK</span><i aria-hidden="true"></i><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="13" cy="13" r="7"/><path d="M13 9v4l3 2M2 9h4M1 13h4M2 17h4"/></svg>Next-day delivery available</span></div>
       {%- if d.ben != blank -%}<p class="benefit">{{ d.ben | escape }}{% if d.more %} <a href="#details" data-jump="details" class="readmore">Read more</a>{% endif %}</p>{%- endif -%}
       {%- if d.chips.size > 0 -%}<div class="bchips">{%- for c in d.chips -%}<span>{{ ic_check }}{{ c | escape }}</span>{%- endfor -%}</div>{%- endif -%}
       {%- unless product.has_only_default_variant -%}

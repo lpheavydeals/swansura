@@ -8,8 +8,8 @@
         "m1": {
           "type": "message",
           "settings": {
-            "text": "Routines: products chosen to <strong>work together</strong>",
-            "link": "shopify://pages/rituals"
+            "text": "Ships from the UK · <strong>Next-day delivery</strong>",
+            "link": "shopify://pages/shipping"
           }
         },
         "m2": {

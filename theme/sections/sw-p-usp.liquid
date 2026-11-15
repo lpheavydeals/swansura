@@ -1,0 +1,22 @@
+{%- comment -%}
+  UK delivery USP card under the homepage hero (user, 15 Nov 2026): gold card that overlaps the hero's bottom edge.
+  CSS .usp-a in sw-proto.css (+ build_proto_css.py EXTRA).
+{%- endcomment -%}
+<div class="swp"><div class="usp-a" role="note">
+  <div class="it"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg></span><div><b>{{ section.settings.t1 | escape }}</b><small>{{ section.settings.s1 | escape }}</small></div></div>
+  <span class="star" aria-hidden="true">✦</span>
+  <div class="it"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="13" cy="13" r="7"/><path d="M13 9v4l3 2M2 9h4M1 13h4M2 17h4"/></svg></span><div><b>{{ section.settings.t2 | escape }}</b><small>{{ section.settings.s2 | escape }}</small></div></div>
+</div></div>
+
+{% schema %}
+{
+  "name": "Swansura UK delivery",
+  "settings": [
+    { "type": "text", "id": "t1", "label": "Item 1", "default": "Ships from the UK" },
+    { "type": "text", "id": "s1", "label": "Item 1 line", "default": "No overseas wait" },
+    { "type": "text", "id": "t2", "label": "Item 2", "default": "Next-day delivery" },
+    { "type": "text", "id": "s2", "label": "Item 2 line", "default": "Available at checkout" }
+  ],
+  "presets": [{ "name": "Swansura UK delivery" }]
+}
+{% endschema %}
