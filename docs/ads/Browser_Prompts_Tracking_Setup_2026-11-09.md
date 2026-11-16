@@ -325,3 +325,33 @@ You are logged in to Meta Ads Manager / Business Suite for the business portfoli
 ```
 
 After it reports 'verified': tell Claude, and the 6 ads are switched back on (their status was set to PAUSED by Meta).
+
+## Prompt 14 – Google & YouTube app: set the target country to the United Kingdom (16 Nov 2026)
+
+Why: the live site still sends `target_country: "ZZ"` (not set) to Google. Free Google Shopping listings (4 of the last 15 orders) need the UK set.
+
+```
+You are helping me fix a setting in my Shopify store "Swansura - The Body Studio" (swansura.com). I am logged in to Shopify admin in this browser. Rules: do NOT delete anything, do NOT pay for or start any ad campaign, do NOT accept any new terms or create any new Google account; if a step asks for any of those, STOP and tell me.
+
+1. Open Shopify admin → Sales channels → Google & YouTube (it may be listed under Apps). Open its Settings / Overview page.
+2. Find the Google account, the Merchant Center account (name + ID) and the target market / country settings. Write them down.
+3. If the target country / market is not "United Kingdom", change it to United Kingdom (keep the language English and the currency GBP) and save. If it lets you pick several markets, United Kingdom must be ticked; do not add or remove any other market without asking me.
+4. On the same app, check the product sync status: how many products are approved, pending, limited and not approved. Copy the exact numbers.
+5. Report back: Google account email, Merchant Center ID, the target country BEFORE and AFTER, whether the save succeeded (copy any message), and the product sync numbers. Take a screenshot of the settings page after saving.
+```
+
+## Prompt 15 – Merchant Center: free listings check and product issues (16 Nov 2026)
+
+```
+You are helping me check Google Merchant Center for my shop swansura.com. Use the Google account connected in Shopify's Google & YouTube app (from Prompt 14). Rules: read only, except the single setting in step 3. Do NOT delete products, do NOT start or pay for ads, do NOT accept terms, do NOT request a review of the account without asking me.
+
+1. Open https://merchants.google.com and select the Merchant Center account linked to swansura.com (note its ID).
+2. Go to Products → Overview (or "Products" in the new Merchant Center). Copy: total products, approved, limited, not approved, and the countries the products are shown in.
+3. Go to Settings → Business info (or "Business details") and check the business country. If it is empty or wrong, set it to United Kingdom and save. Check Settings → "Shipping and returns": report what is there (do not change it).
+4. Open the "Needs attention" / "Product issues" list. For each issue type, copy: the issue name, how many products it affects, and whether it blocks the product or only limits it (for example "Missing GTIN", "Image too small", "Mismatched price", "Missing shipping"). Copy 3 example product names for each of the top 5 issues.
+5. Open "Free listings" / "Marketing → Free listings" (or "Performance"): report whether free listings are active and the clicks for the last 28 days.
+6. Check for account-level warnings or suspensions (red or yellow banners) and copy their exact text.
+7. Report back everything above as a list, plus a screenshot of the product overview page.
+```
+
+After both: send Claude the reports/screenshots; Claude fixes what can be fixed in Shopify (titles, prices, barcodes from the supplier report, shipping).
