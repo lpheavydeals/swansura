@@ -386,3 +386,24 @@ Save. Report what was there BEFORE and what is saved AFTER, and any message Goog
 PART C – Report
 Also open Products → Needs attention and report the 2 "Limited" products: product names and the exact issue text.
 ```
+
+## Prompt 17 – Google read access for Claude: service account for Search Console, GA4 and Merchant Center (16 Nov 2026)
+
+Why: Claude has no connector for GA4 or Merchant Center (the org's 'search console' connector exists but is not connected). A service account key lets Claude read these APIs. Google Ads is NOT included: its API needs a developer token from a manager account (approval takes days); link Google Ads to GA4 instead so ad clicks/cost show in GA4.
+
+```
+You are helping me give a read-only Google service account access to my shop's Google accounts. Log in as info@swansura.com. Rules: do NOT create billing accounts, do NOT enter card details, do NOT delete anything, do NOT change any Merchant Center, GA4 or Search Console settings other than adding the one user below. If Google asks for payment or a billing account, STOP and tell me.
+
+1. Open https://console.cloud.google.com . Create a new project named "Swansura Reporting" (no organisation needed). Select it.
+2. APIs & Services → Library: enable these four APIs (each is free): "Google Search Console API", "Google Analytics Data API", "Google Analytics Admin API", "Merchant API". If one asks for billing, skip it and tell me which.
+3. IAM & Admin → Service accounts → Create service account. Name: claude-reporting. Skip the optional role steps. Done.
+4. Copy the service account email (it ends with @swansura-reporting-….iam.gserviceaccount.com) and write it down.
+5. Open the service account → Keys → Add key → Create new key → JSON → Create. A .json file downloads. Do NOT open it in the chat or paste it anywhere; tell me only that it downloaded and its file name.
+6. Search Console (https://search.google.com/search-console), property swansura.com → Settings → Users and permissions → Add user → the service account email → permission: Restricted → Add.
+7. GA4 (https://analytics.google.com), property swansura.com → Admin → Property access management → + → Add users → the service account email → role: Viewer → untick "Notify new users by email" → Add.
+8. Merchant Center (https://merchants.google.com, account 5836700402) → Settings (cog) → People and access → Add person → the service account email → access: Standard → Add. (If it requires a verification email, tell me.)
+9. Google Ads (account 5277550191) → Tools → Data manager / Linked accounts → Google Analytics (GA4): check whether swansura.com GA4 is linked; if not, link it and import site metrics. Tell me the result. Do not create campaigns.
+10. Report back: project ID, service account email, which APIs were enabled, and for steps 6–9 whether each was added/linked (copy any messages).
+```
+
+Then (person, not the browser agent): open the cloud environment settings (session title bar → environment menu → Edit) → Environment variables → add `GOOGLE_SA_JSON` = the whole content of the downloaded .json file. Never paste the key into the chat. A new session picks it up. Hosts used: oauth2.googleapis.com, searchconsole.googleapis.com, analyticsdata.googleapis.com, analyticsadmin.googleapis.com, merchantapi.googleapis.com (all reachable from this environment on 16 Nov 2026).
