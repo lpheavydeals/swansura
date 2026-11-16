@@ -52,3 +52,21 @@ In Shopify admin → Apps → Judge.me → Settings → Review Requests:
 5. Save. Then open the requests log and tell me, for orders #SWAN1011 to #SWAN1025, which are now scheduled and on which date. Do not send anything manually, do not upgrade the plan, do not delete anything.
 6. If there is a "send for past orders" option, tell me how many orders it covers and STOP for my yes before sending.
 ```
+
+## Update 16 Nov 2026 (later): day 3 + day 5 + day 7, and send for older orders
+User: reminders on day 5 AND day 7 after fulfilment; send requests for the older orders now.
+
+```
+In Shopify admin → Apps → Judge.me (do not upgrade the plan, add coupons or delete anything):
+PART A – Timing
+1. Settings → Review Requests: trigger = order FULFILLED.
+2. First review request: 3 days after fulfillment, all products.
+3. Reminders: ON, 2 reminders: first reminder 2 days after the first email (day 5), second reminder 2 days after that (day 7). Only to customers who have not reviewed yet.
+4. If our plan allows only 1 reminder, set that one to day 5, stop and tell me which plan/price unlocks a second reminder.
+5. Keep: all customers, no coupon/incentive, photo reviews ON. Save and tell me exactly what is set.
+PART B – Older orders
+1. Use Judge.me's "send review requests for past orders" option for orders fulfilled from 1 October 2026 up to today.
+2. Leave out refunded or cancelled orders (#SWAN1010 is refunded) and orders that were never fulfilled.
+3. Before sending, list the orders and number of emails. Then send them (I have approved this), and confirm how many went out.
+4. Finally open the requests log and tell me, for #SWAN1011 to #SWAN1025, what is sent / scheduled and on which dates.
+```
