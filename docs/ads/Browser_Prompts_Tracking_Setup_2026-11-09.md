@@ -355,3 +355,34 @@ You are helping me check Google Merchant Center for my shop swansura.com. Use th
 ```
 
 After both: send Claude the reports/screenshots; Claude fixes what can be fixed in Shopify (titles, prices, barcodes from the supplier report, shipping).
+
+## Prompt 16 – Merchant Center: delivery times and return policy (16 Nov 2026)
+
+Why: Prompt 15 found all 3 delivery policies show 4–6 days (even next-day and two-day), and no return policy was readable. Google shows delivery speed and returns on free listings.
+
+```
+You are helping me fix two settings in Google Merchant Center for swansura.com (account ID 5836700402, login info@swansura.com). Rules: change ONLY the settings below. Do NOT delete products or policies, do NOT start or pay for ads, do NOT accept new terms, do NOT add other countries. If a setting is locked because it is managed by the Shopify "Google & YouTube" app, STOP and tell me the exact message.
+
+PART A – Delivery times (Settings → Shipping and returns → Delivery / Shipping services)
+For each of the 3 United Kingdom delivery policies, open it and set the delivery time as follows, then save:
+- Order cut-off time: 13:00 (UK time), Monday–Friday.
+- Handling time (dispatch): 0–1 business days.
+- Transit time:
+  - Standard / "Custom rate (price-based)" policy (£1.99, free over £40): 3–4 business days.
+  - Two-day delivery (£2.99): 2 business days.
+  - Next-day delivery (£3.99): 1 business day.
+Do not change any prices. Report each policy's delivery time BEFORE and AFTER.
+
+PART B – Return policy (Settings → Shipping and returns → Returns, or "Return policies")
+If there is no return policy for the United Kingdom, create one; if there is one, check it matches and only fix what differs:
+- Country: United Kingdom. Applies to: all products.
+- Returns accepted: Yes, within 14 days of delivery.
+- Condition: new / unopened items only.
+- Return method: by mail.
+- Return costs: customer pays return postage (no fixed fee entered). Restocking fee: none.
+- Return policy URL: https://www.swansura.com/policies/refund-policy
+Save. Report what was there BEFORE and what is saved AFTER, and any message Google shows.
+
+PART C – Report
+Also open Products → Needs attention and report the 2 "Limited" products: product names and the exact issue text.
+```
