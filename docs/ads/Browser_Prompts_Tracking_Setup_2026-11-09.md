@@ -407,3 +407,21 @@ You are helping me give a read-only Google service account access to my shop's G
 ```
 
 Then (person, not the browser agent): open the cloud environment settings (session title bar → environment menu → Edit) → Environment variables → add `GOOGLE_SA_JSON` = the whole content of the downloaded .json file. Never paste the key into the chat. A new session picks it up. Hosts used: oauth2.googleapis.com, searchconsole.googleapis.com, analyticsdata.googleapis.com, analyticsadmin.googleapis.com, merchantapi.googleapis.com (all reachable from this environment on 16 Nov 2026).
+
+## Prompt 18 – Allow a key for the claude-reporting service account (project only) + Merchant Center performance access (16 Nov 2026)
+
+```
+You are helping me finish a Google Cloud setup for my company. I am logged in as info@swansura.com, the Google Workspace admin of swansura.com. I authorise you to change ONE security policy, and ONLY for the project "swansura-reporting" (never for the whole organisation). Rules: do NOT create billing accounts or enter card details, do NOT delete anything, do NOT change any other policy, role, user or setting than those below. Never show, copy, open or paste the contents of the downloaded key file anywhere. If something asks for payment, or a step would apply to the whole organisation instead of the project, STOP and tell me.
+
+1. Open https://console.cloud.google.com . In the project picker at the top, select the ORGANISATION "swansura.com" (not a project).
+2. IAM & Admin → IAM → Grant access. New principal: info@swansura.com. Role: "Organization Policy Administrator". Save. (If info@swansura.com already has this role, skip and say so.)
+3. In the project picker, select the PROJECT "swansura-reporting" (project number 408269299885). Check the page header shows this project before continuing.
+4. IAM & Admin → Organisation Policies. Search "service account key creation". For each policy that matches ("Disable service account key creation", constraint iam.disableServiceAccountKeyCreation, and if present the managed one iam.managed.disableServiceAccountKeyCreation):
+   Manage policy → Policy source: "Override parent's policy" → Rules: Enforcement Off / Not enforced → Set policy. Confirm the page says it applies to project swansura-reporting.
+   If you get a permission error, wait 2 minutes (the new role takes time) and try once more; if it still fails, STOP and copy the message.
+5. IAM & Admin → Service accounts (project swansura-reporting) → claude-reporting@swansura-reporting.iam.gserviceaccount.com → Keys → Add key → Create new key → JSON → Create. A .json file downloads. Tell me ONLY that it downloaded and its file name. Do not open it.
+6. Merchant Center (https://merchants.google.com, account 5836700402) → Settings (cog) → People and access → claude-reporting@swansura-reporting.iam.gserviceaccount.com → tick "Performance and insights" (keep Standard) → Save.
+7. Report back: whether step 2 was needed, which policies were overridden (constraint names) and that they apply to the project only, the downloaded file name, and the Merchant Center access now shown for the service account. Copy any error messages exactly.
+```
+
+After it reports the download (person, not the browser agent): session title bar → environment menu → Edit → Environment variables → add `GOOGLE_SA_JSON` = the whole content of the .json file → save → start a new session. Then delete the .json file from Downloads.
