@@ -13,3 +13,8 @@ if 'g' in W:
 if 'p' in W:
     build('Deyga_BeetrootLipBalmClassic_9x16.mp4',[(LB,0.0,1.9,0.8,'','fade'),(LB,2.0,3.4,0.8,'','zoomin'),(LB,3.5,5.4,0.85,'','fade'),(LB,5.5,7.4,0.85,'','dissolve'),(LB,11.0,13.9,0.9,'','fade'),(LB,14.0,16.4,0.9)],
       [('p1',0,0),('p2',1,2),('p2b',1,2),('p3',3,3),('p4',4,4),('p5',5,5)],f'{OVD}/pend.png',E,LB,'fade')
+
+IG='../ig/clean.mp4'
+if 'q' in W:
+    build('Vilvah_AMPMSerumKit_v2_9x16.mp4',[('st/ampm_wide.mp4',0,2.6,1,'','fade'),(IG,5.8,8.5,0.8,'','dissolve'),(IG,14.45,14.9,0.4,'','fade'),(IG,17.0,18.9,0.9,'','dissolve'),(IG,19.0,20.9,0.95,'','fade'),(IG,21.0,22.9,0.95)],
+      [('q1',0,0),('q2',1,1),('q2b',1,1),('q3',2,3),('q3b',2,3),('q4',4,4),('q5',5,5)],f'{OVD}/qend.png',E,A,'fade')

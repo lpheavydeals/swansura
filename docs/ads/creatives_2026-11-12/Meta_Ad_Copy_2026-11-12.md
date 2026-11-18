@@ -290,3 +290,9 @@ Re-cut in the current style (Plus Jakarta Sans only, 15–18 s, T&Cs line on the
 **Primary text:** Deyga's lip duo, shipped from the UK. Scrub, then balm. 💋 / 1. Strawberry Lip Scrub: sugar in avocado oil, almond oil and shea butter 2. Beetroot Lip Balm: beetroot extract, almond and jojoba oil, with a sheer, rosy tint / Official UK partner of Deyga · Free UK delivery over £40.
 **Headline:** Deyga Nourished Lip Care Kit, £25.99
 **Description:** Lip scrub + beetroot balm
+
+## 18. Vilvah AM PM Serum Kit, hands version (kits ad set, 18 Nov 2026)
+Footage: Vilvah's Instagram reel 'One serum can't do every job' (user upload, 720p). Only the presenter-free close-ups are used (Milk Drops dropper drip, Better Ageing dropper, hand swatch and rub); the brand's burned-in captions ('dullness', 'pigmentation', 'help your skin recover', 'fine lines', 'skin firmness', 'repairs overnight', 'gentler alternative to retinol') are blurred and covered by our bands; the voiceover is not used (music from the AM PM brand video); frames with Vilvah's own ingredient labels left out. Pack labels ('Fades Pigmentation / Brightens Skin', 'Overnight skin renewal') are visible small, as in the other AM PM ad. Ask Vilvah to confirm we may use this footage in UK paid ads.
+**Primary text:** A day serum and a night serum from Vilvah, shipped from the UK. / Morning: Milk Drops, with rice milk extract, hyaluronic acid and aloe. Night: Better Ageing Serum, with bakuchiol, blue pea flower and peptides. / Light layers you pat in, morning and night. Official UK partner of Vilvah · Free UK delivery over £40.
+**Headline:** Vilvah AM PM Serum Kit, £46.99
+**Description:** Milk Drops + Better Ageing Serum
