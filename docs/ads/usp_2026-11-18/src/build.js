@@ -8,11 +8,11 @@ const C={
  1:{eb:'Official UK partner of',h1:'Vilvah &amp; Deyga',h2:'at UK prices',
     sub:'No customs charges. No import fees at your door.<br>VAT already included.',
     ticks:['<b>100% genuine</b>, straight from the brands','<b>Dispatched from the UK</b>','<b>Free UK delivery</b> over £40'],
-    prods:['fbk.png','lip.png'],fine:'swansura.com · T&amp;Cs apply'},
+    prods:[['p_milkdrops40.png',50,20,72],['p_facewash.png',33,14,54],['p_stick_box.png',67,14,55]],fine:'swansura.com · T&amp;Cs apply'},
  2:{eb:'Official UK partner of',h1:'Next-day',h2:'UK delivery',
     sub:'Genuine Vilvah &amp; Deyga, dispatched from<br>our UK stock. No waiting on overseas parcels.',
     ticks:['<b>Next-day</b> delivery £3.99','<b>Free UK delivery</b> over £40','<b>100% genuine</b>, from the brands'],
-    prods:['apm.png','lip_beet.png'],fine:'Next working day after dispatch · swansura.com · T&amp;Cs apply'}};
+    prods:[['p_betterageing.png',33,19,62],['p_milkdrops20.png',51,19,62],['lip_beet.png',70,13,46]],fine:'Next working day after dispatch · T&amp;Cs apply'}};
 const SZ={'4x5':[1080,1350],'1x1':[1080,1080],'9x16':[1080,1920]};
 function html(c,W,H){const sq=W==H,tl=H>1500,k=sq?.86:1;
 const padT=tl?250:sq?44:58, padB=tl?260:0;
@@ -33,12 +33,13 @@ body{width:${W}px;height:${H}px;overflow:hidden;font-family:PJS;color:#F4EEE4;
 .h1{font-size:${92*k}px;font-weight:800;letter-spacing:-.025em;line-height:1;color:#fff}
 .h2{font-size:${92*k}px;font-weight:800;letter-spacing:-.025em;line-height:1.05;color:#EACB8E}
 .sub{margin-top:${22*k}px;font-size:${30*k}px;font-weight:500;line-height:1.35;color:#E6EFEA}
-.stage{flex:1;position:relative;margin:${sq?14:30}px ${64*k}px 0;min-height:0}
-.disc{position:absolute;left:50%;top:2%;height:96%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
- background:radial-gradient(circle at 50% 45%,#F4F8F5 0%,#E4EEE9 62%,rgba(228,238,233,0) 63%)}
-.prods{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;gap:${10*k}px;padding-bottom:${sq?4:12}px}
-.prods img{max-height:92%;max-width:56%;object-fit:contain;filter:drop-shadow(0 22px 24px rgba(0,0,0,.35))}
-.prods img+img{max-height:74%;max-width:40%}
+.stage{flex:1;position:relative;margin:${sq?10:24}px ${64*k}px 0;min-height:0}
+.arch{position:absolute;left:50%;transform:translateX(-50%);top:0;bottom:16%;width:min(66%,calc((100% - 0px)*1));aspect-ratio:auto;border-radius:999px 999px 28px 28px;
+ background:linear-gradient(180deg,rgba(244,248,245,.16),rgba(244,248,245,.05));border:1.5px solid rgba(234,203,142,.45)}
+.plinth{position:absolute;left:50%;transform:translateX(-50%);bottom:3%;width:80%;height:22%}
+.plinth .face{position:absolute;left:0;right:0;bottom:0;height:46%;border-radius:0 0 18px 18px;background:linear-gradient(180deg,#D9C3A0,#B5843A);box-shadow:0 26px 40px -14px rgba(0,0,0,.55)}
+.plinth .top{position:absolute;left:0;right:0;top:0;height:76%;border-radius:50%;background:radial-gradient(120% 140% at 50% 30%,#FBF7F0 0%,#F1E7D6 55%,#E3D2B6 100%);box-shadow:inset 0 -6px 14px rgba(150,110,50,.25)}
+.item{position:absolute;transform:translateX(-50%);object-fit:contain;filter:drop-shadow(0 14px 14px rgba(40,25,10,.28)) drop-shadow(0 3px 3px rgba(40,25,10,.22))}
 .ticks{display:flex;justify-content:space-between;gap:${14*k}px;padding:${sq?18:30}px ${64*k}px ${sq?20:30}px}
 .ticks div{flex:1;display:flex;gap:${10*k}px;align-items:flex-start;font-size:${22*k}px;line-height:1.3;color:#F4EEE4}
 .ticks svg{flex:none;font-size:${28*k}px;margin-top:-1px}
@@ -52,7 +53,7 @@ ${tl?'.bar{position:absolute;left:0;right:0;bottom:-'+(padB-40)+'px}':''}
 <div class="partner"><span>${c.eb.replace('UK partner','UK<br>partner')}</span><div class="pill"><img src="${b64('vilvah.webp')}"></div><div class="pill"><img src="${b64('deyga.webp')}"></div></div></div>
 <div class="rule"></div>
 <div class="head"><div class="h1">${c.h1}</div><div class="h2">${c.h2}</div><div class="sub">${c.sub}</div></div>
-<div class="stage"><div class="disc"></div><div class="prods">${c.prods.map(p=>`<img src="${b64(p)}">`).join('')}</div></div>
+<div class="stage"><div class="arch"></div><div class="plinth"><div class="face"></div><div class="top"></div></div>${c.prods.map(([f,x,bo,h])=>`<img class="item" style="left:${x}%;bottom:${bo}%;height:${h}%" src="${b64(f)}">`).join('')}</div>
 <div class="ticks">${c.ticks.map(t=>`<div>${TICK}<span>${t}</span></div>`).join('')}</div>
 <div class="bar"><div class="fine">${c.fine}</div><div class="btn">Shop now ${ARR}</div></div>
 </div></body></html>`}
