@@ -6,12 +6,12 @@ const TICK='<svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke
 const ARR='<svg width="0.9em" height="0.9em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const C={
  1:{eb:'Official UK partner of',h1:'Vilvah &amp; Deyga',h2:'at UK prices',
-    sub:'No customs charges. No import fees at your door.<br>VAT already included.',
-    ticks:['<b>100% genuine</b>, straight from the brands','<b>Dispatched from the UK</b>','<b>Free UK delivery</b> over £40'],
+    sub:'The price you see is the price you pay.<br>Nothing extra to pay at your door.',
+    ticks:['<b>No customs</b> or import fees','<b>VAT included</b> in every price','<b>100% genuine</b>, straight from the brands'],
     prods:[['p_milkdrops40.png',50,20,72],['p_facewash.png',33,14,54],['p_stick_box.png',67,14,55]],fine:'swansura.com · T&amp;Cs apply'},
  2:{eb:'Official UK partner of',h1:'Next-day',h2:'UK delivery',
-    sub:'Genuine Vilvah &amp; Deyga, dispatched from<br>our UK stock. No waiting on overseas parcels.',
-    ticks:['<b>Next-day</b> delivery £3.99','<b>Free UK delivery</b> over £40','<b>100% genuine</b>, from the brands'],
+    sub:'Pick next-day delivery at checkout.<br>No waiting on overseas parcels.',
+    ticks:['<b>Next-day</b> delivery £3.99','<b>Dispatched</b> from our UK stock','<b>Free UK delivery</b> over £40'],
     prods:[['p_betterageing.png',33,19,62],['p_milkdrops20.png',51,19,62],['lip_beet.png',70,13,46]],fine:'Next working day after dispatch · T&amp;Cs apply'}};
 const SZ={'4x5':[1080,1350],'1x1':[1080,1080],'9x16':[1080,1920]};
 function html(c,W,H){const sq=W==H,tl=H>1500,k=sq?.86:1;
