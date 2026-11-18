@@ -8,7 +8,9 @@
   "optimisation": "PURCHASE",
   "budget_pence": 1500
  },
- "new_adsets": {
+ "settings": "copied from the old ad set (women 21-50, GB, same interests + placements, Advantage+ audience off); optimisation OFFSITE_CONVERSIONS on pixel PURCHASE; attribution 7d click / 1d view; all PAUSED",
+ "go_live": "set both new ad sets + their ads ACTIVE; old ad set stays paused",
+ "superseded_add_to_bag_adsets": {
   "kits": {
    "id": "120249455733450240",
    "name": "Kits W21-50 | Add to bag",
@@ -20,8 +22,7 @@
    "budget_pence": 500
   }
  },
- "settings": "copied from the old ad set (women 21-50, GB, same interests + placements, Advantage+ audience off); optimisation OFFSITE_CONVERSIONS on pixel ADD_TO_CART; attribution 7d click / 1d view; all PAUSED",
- "ads": [
+ "superseded_add_to_bag_ads": [
   {
    "adset": "kits",
    "name": "Vilvah Face Brightening Kit Large | Video 4x5+9x16 | From home",
@@ -78,5 +79,74 @@
    "ad_id": "120249455744700240"
   }
  ],
- "go_live": "set both new ad sets + their ads ACTIVE; old ad set stays paused"
+ "superseded_note": "User 18 Nov 2026: sales ad sets must always optimise for PURCHASE. Meta refuses to change the event on an existing ad set (error 3260011), so the Add-to-bag ad sets were left PAUSED (never spent) and rebuilt as Purchase.",
+ "purchase_adsets": {
+  "kits": {
+   "id": "120249456165350240",
+   "name": "Kits W21-50 | Purchase",
+   "budget_pence": 1000
+  },
+  "lip_balm": {
+   "id": "120249456165580240",
+   "name": "Lip balm W21-50 | Purchase",
+   "budget_pence": 500
+  }
+ },
+ "purchase_ads": [
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Brightening Kit Large | Video 4x5+9x16 | From home",
+   "ad_id": "120249456165940240"
+  },
+  {
+   "adset": "lip_balm",
+   "name": "Deyga Beetroot Lip Balm Stick | Video 4x5+9x16 | From home",
+   "ad_id": "120249456166010240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Body Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249456166650240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Face Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249456166800240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Face Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249456167600240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Lift Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249456168540240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah AM PM Serum Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249456168930240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Body Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249456169230240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah AM PM Serum Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249456169640240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Brightening Kit Large | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249456170030240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Lift Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249456170480240"
+  }
+ ]
 }
