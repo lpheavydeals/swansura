@@ -1,0 +1,28 @@
+{%- comment -%}
+  Cookie banner wording (user, 18 Nov 2026): Shopify's privacy banner says 'Decline'; we show
+  'Necessary cookies only'. Only the label changes: the button is Shopify's own and still declines
+  every non-essential cookie, exactly as before. Accept and Decline keep the same size and look
+  (UK PECR / ICO: rejecting must be as easy as accepting). If Shopify renames the button, the
+  label simply stays 'Decline'.
+{%- endcomment -%}
+<style>
+  #shopify-pc__banner #shopify-pc__banner__btn-decline,
+  #shopify-pc__banner #shopify-pc__banner__btn-accept{white-space:normal!important;line-height:1.25!important}
+</style>
+<script>
+  (function () {
+    var LABEL = 'Necessary cookies only';
+    function relabel() {
+      var b = document.getElementById('shopify-pc__banner__btn-decline');
+      if (b && /^\s*(decline|reject)(\s+all)?\s*$/i.test(b.textContent)) {
+        b.textContent = LABEL;
+        b.setAttribute('aria-label', LABEL);
+      }
+    }
+    relabel();
+    // the banner is drawn by Shopify's script after load (and redrawn when preferences close): watch for it
+    var mo = new MutationObserver(relabel);
+    mo.observe(document.documentElement, { childList: true, subtree: true });
+    setTimeout(function () { mo.disconnect(); }, 60000);
+  })();
+</script>

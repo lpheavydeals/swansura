@@ -1,0 +1,82 @@
+{
+ "date": "2026-11-18",
+ "campaign": "120249389743960240",
+ "old_adset": {
+  "id": "120249389744460240",
+  "name": "Adv+ W22-55 | Purchase",
+  "status": "PAUSED by Lokesh 17 Nov 11:31 UTC",
+  "optimisation": "PURCHASE",
+  "budget_pence": 1500
+ },
+ "new_adsets": {
+  "kits": {
+   "id": "120249455733450240",
+   "name": "Kits W21-50 | Add to bag",
+   "budget_pence": 1000
+  },
+  "lip_balm": {
+   "id": "120249455733990240",
+   "name": "Lip balm W21-50 | Add to bag",
+   "budget_pence": 500
+  }
+ },
+ "settings": "copied from the old ad set (women 21-50, GB, same interests + placements, Advantage+ audience off); optimisation OFFSITE_CONVERSIONS on pixel ADD_TO_CART; attribution 7d click / 1d view; all PAUSED",
+ "ads": [
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Brightening Kit Large | Video 4x5+9x16 | From home",
+   "ad_id": "120249455735610240"
+  },
+  {
+   "adset": "lip_balm",
+   "name": "Deyga Beetroot Lip Balm Stick | Video 4x5+9x16 | From home",
+   "ad_id": "120249455737330240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Body Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249455738470240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Face Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249455739550240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Face Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249455741510240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Lift Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249455742020240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah AM PM Serum Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249455742780240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Milk Body Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249455743150240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah AM PM Serum Kit | Video 4x5+9x16 | From home",
+   "ad_id": "120249455743550240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Brightening Kit Large | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249455744020240"
+  },
+  {
+   "adset": "kits",
+   "name": "Vilvah Face Lift Kit | Image 4x5+1x1+9x16 | Swansura",
+   "ad_id": "120249455744700240"
+  }
+ ],
+ "go_live": "set both new ad sets + their ads ACTIVE; old ad set stays paused"
+}

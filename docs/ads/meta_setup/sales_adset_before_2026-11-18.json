@@ -1,0 +1,103 @@
+{
+    "name": "Adv+ W22-55 | Purchase",
+    "campaign_id": "120249389743960240",
+    "daily_budget": "1500",
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+    "promoted_object": {
+        "pixel_id": "1593636862064099",
+        "custom_event_type": "PURCHASE",
+        "smart_pse_enabled": false
+    },
+    "destination_type": "UNDEFINED",
+    "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 7
+        },
+        {
+            "event_type": "VIEW_THROUGH",
+            "window_days": 1
+        },
+        {
+            "event_type": "ENGAGED_VIDEO_VIEW",
+            "window_days": 1
+        }
+    ],
+    "targeting": {
+        "age_max": 50,
+        "age_min": 21,
+        "flexible_spec": [
+            {
+                "interests": [
+                    {
+                        "id": "6003157824284",
+                        "name": "bollywood films (films)"
+                    },
+                    {
+                        "id": "6003423248519",
+                        "name": "Hair care (personal care)"
+                    },
+                    {
+                        "id": "6003494675627",
+                        "name": "Indian cuisine (food and drink)"
+                    },
+                    {
+                        "id": "6003875393160",
+                        "name": "Natural skin care (cosmetics)"
+                    },
+                    {
+                        "id": "6810084906985",
+                        "name": "Skin care brands (cosmetics)"
+                    }
+                ]
+            }
+        ],
+        "genders": [
+            2
+        ],
+        "geo_locations": {
+            "countries": [
+                "GB"
+            ],
+            "location_types": [
+                "frequently_in",
+                "home",
+                "recent"
+            ]
+        },
+        "targeting_relaxation_types": {
+            "lookalike": 0,
+            "custom_audience": 0
+        },
+        "targeting_automation": {
+            "advantage_audience": 0
+        },
+        "publisher_platforms": [
+            "facebook",
+            "instagram"
+        ],
+        "facebook_positions": [
+            "feed",
+            "marketplace",
+            "story",
+            "search",
+            "facebook_reels",
+            "profile_feed"
+        ],
+        "instagram_positions": [
+            "stream",
+            "story",
+            "reels",
+            "explore_home",
+            "profile_feed"
+        ],
+        "device_platforms": [
+            "mobile",
+            "desktop"
+        ]
+    },
+    "status": "PAUSED",
+    "id": "120249389744460240"
+}
