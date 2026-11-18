@@ -1527,5 +1527,335 @@
    "supplier_qty": 36,
    "supplier_rows": "versace yellow diamond (w) edt 90ml"
   }
- ]
+ ],
+ "not_in_10nov_report": {
+  "note": "109 options missing from the 10 Nov report re-checked 18 Nov 2026; 36 matched by hand, 35 changed (1 already right); 73 left unmatched. Same rule: supplier >=5 exact, <5 -> 0.",
+  "adjustment_group": "81109096202627",
+  "changes": [
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64766569972099",
+    "title": "Anna Sui Sky Eau de Toilette 30ml – Women’s Fruity Floral Gourmand Fragrance",
+    "option": null,
+    "before": 1,
+    "after": 8,
+    "supplier_qty": 8,
+    "supplier_rows": "anna sui sky (w) edt 30ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64781022691715",
+    "title": "Antonio Banderas Diavolo Eau de Toilette – Men’s Warm Spicy Woody Fragrance",
+    "option": "100ml",
+    "before": 1,
+    "after": 9,
+    "supplier_qty": 9,
+    "supplier_rows": "antonio banderas diavolo (m) edt 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64781022724483",
+    "title": "Antonio Banderas Diavolo Eau de Toilette – Men’s Warm Spicy Woody Fragrance",
+    "option": "200ml",
+    "before": 2,
+    "after": 33,
+    "supplier_qty": 33,
+    "supplier_rows": "antonio banderas diavolo (m) edt 200ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64779224351107",
+    "title": "Armaf Hunter Eau de Parfum 100ml – Men’s Fresh Woody Aromatic Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 54,
+    "supplier_qty": 54,
+    "supplier_rows": "armaf hunter (m) edp 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64775469629827",
+    "title": "Bentley For Men Azure Eau de Toilette 100ml – Men’s Fresh Aquatic Woody Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 14,
+    "supplier_qty": 14,
+    "supplier_rows": "bentley for men azure 100ml edt"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64790260253059",
+    "title": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance",
+    "option": "50ml",
+    "before": 2,
+    "after": 0,
+    "supplier_qty": 0,
+    "supplier_rows": "calvin klein defy (m) parfum 50ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64790260285827",
+    "title": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance",
+    "option": "200ml",
+    "before": 10,
+    "after": 241,
+    "supplier_qty": 241,
+    "supplier_rows": "calvin klein defy parfum 200ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64790607102339",
+    "title": "Calvin Klein Eternity Eau de Parfum – Women’s Classic Floral Fragrance",
+    "option": "30ml",
+    "before": 10,
+    "after": 259,
+    "supplier_qty": 259,
+    "supplier_rows": "calvin klein eternity (w) edp 30ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64790607135107",
+    "title": "Calvin Klein Eternity Eau de Parfum – Women’s Classic Floral Fragrance",
+    "option": "100ml",
+    "before": 10,
+    "after": 28,
+    "supplier_qty": 28,
+    "supplier_rows": "calvin klein eternity (w) edp 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64786907627907",
+    "title": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 56,
+    "supplier_qty": 56,
+    "supplier_rows": "chloe nomade nuit d'eegypte (w)edp 50ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65292124324227",
+    "title": "Clinique Aromatics Elixir Eau de Parfum 100ml",
+    "option": null,
+    "before": 0,
+    "after": 730,
+    "supplier_qty": 730,
+    "supplier_rows": "clinique aromatics elixir (w) parfum 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64790835003779",
+    "title": "Davidoff Champion Eau de Toilette 90ml – Men’s Fresh Woody Aromatic Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 249,
+    "supplier_qty": 249,
+    "supplier_rows": "davidoff champion (m)edt 90ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64796846883203",
+    "title": "Davidoff Indigo Eau de Toilette 110ml – Men’s Aromatic Fougere Fragrance",
+    "option": null,
+    "before": 3,
+    "after": 24,
+    "supplier_qty": 24,
+    "supplier_rows": "davidoff indigo(m) edt 110ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64796877128067",
+    "title": "Davidoff The Game Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 177,
+    "supplier_qty": 177,
+    "supplier_rows": "davidoff the game (m) edt 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64563754172803",
+    "title": "Dolce & Gabbana L’Imperatrice Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 0,
+    "supplier_qty": 0,
+    "supplier_rows": "dolce & gabbana l'imperatrice (w) edt 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64563802046851",
+    "title": "Dolce & Gabbana Q Eau de Parfum 100ml – Luxury Women’s Fruity Floral Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 88,
+    "supplier_qty": 88,
+    "supplier_rows": "dolce & gabbana q (w) edp 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64818647335299",
+    "title": "Elie Saab Elixir Eau de Parfum 50ml – Women’s Floral Amber Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 90,
+    "supplier_qty": 90,
+    "supplier_rows": "elie saab elixir (w) edp 50ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64820439777667",
+    "title": "Elizabeth Arden Beauty Eau de Parfum 100ml – Women’s Floral Green Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 0,
+    "supplier_qty": 0,
+    "supplier_rows": "elizabeth arden beauty (w) edp 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64845297942915",
+    "title": "Escada Magnetism Eau de Parfum 25ml – Women’s Fruity Floral Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 15,
+    "supplier_qty": 15,
+    "supplier_rows": "escada magnetism edp 25ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64677429182851",
+    "title": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+    "option": null,
+    "before": 2,
+    "after": 16,
+    "supplier_qty": 16,
+    "supplier_rows": "estee lauder spellbound (w) edp 50ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64647347405187",
+    "title": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – Luxury Women’s Floral Amber Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 31,
+    "supplier_qty": 31,
+    "supplier_rows": "guerlain l'instant de guerlain (w) edp 75ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64650935599491",
+    "title": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 56,
+    "supplier_qty": 56,
+    "supplier_rows": "guerlain samsara (w) edp 75ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235006783875",
+    "title": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml",
+    "option": null,
+    "before": 0,
+    "after": 11,
+    "supplier_qty": 11,
+    "supplier_rows": "guess pink (w) set edp 75ml + edp 15ml + bl 100ml + pouch (2023)"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64774268912003",
+    "title": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – Men’s Warm Spicy Fragrance",
+    "option": null,
+    "before": 0,
+    "after": 12,
+    "supplier_qty": 12,
+    "supplier_rows": "hugo boss boss the scent (m) edt 100ml tester"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/56776310391171",
+    "title": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men",
+    "option": null,
+    "before": 10,
+    "after": 12,
+    "supplier_qty": 12,
+    "supplier_rows": "hugo boss hugo man (m) edt 125ml (new packing)"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64762009092483",
+    "title": "John Varvatos Artisan Eau de Toilette 75ml – Men’s Citrus Woody Long lasting Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 51,
+    "supplier_qty": 51,
+    "supplier_rows": "john varvatos artisan (m) edt 75ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64755146916227",
+    "title": "Joop! Homme Eau de Toilette 200ml – Men’s Warm Spicy Long lasting Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 89,
+    "supplier_qty": 89,
+    "supplier_rows": "joop!homme (m) edt 200ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64825633735043",
+    "title": "Marc Jacobs Honey Eau de Parfum 100ml – Women’s Floral Fruity Fragrance",
+    "option": null,
+    "before": 10,
+    "after": 82,
+    "supplier_qty": 82,
+    "supplier_rows": "marc jacobs honey 100ml edp (new pack)"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235039224195",
+    "title": "Mercedes-Benz Le Parfum 120ml",
+    "option": null,
+    "before": 0,
+    "after": 8,
+    "supplier_qty": 8,
+    "supplier_rows": "mercedes benz le parfum (m) edp 120ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235035390339",
+    "title": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "option": null,
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5,
+    "supplier_rows": "natural by woods dawn 100 + 5 ml atomizer edp"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235035521411",
+    "title": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "option": null,
+    "before": 0,
+    "after": 60,
+    "supplier_qty": 60,
+    "supplier_rows": "natural by woods earth 100 + 5 ml atomizer edp"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235037749635",
+    "title": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "option": null,
+    "before": 0,
+    "after": 5,
+    "supplier_qty": 5,
+    "supplier_rows": "natural by woods essence 100 + 5 ml atomizer edp"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235037847939",
+    "title": "Natural By Woods Glow Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "option": null,
+    "before": 0,
+    "after": 0,
+    "supplier_qty": 4,
+    "supplier_rows": "natural by woods glow 100 + 5 ml atomizer edp"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/65235039289731",
+    "title": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml",
+    "option": null,
+    "before": 0,
+    "after": 54,
+    "supplier_qty": 54,
+    "supplier_rows": "natural by woods sun 100 + 5 ml atomizer edp"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64850432196995",
+    "title": "Paloma Picasso Eau de Toilette 100ml – Women’s Chypre Floral Fragrance",
+    "option": null,
+    "before": 5,
+    "after": 63,
+    "supplier_qty": 63,
+    "supplier_rows": "paloma picasso (w) edt 100ml"
+   },
+   {
+    "inventory_item": "gid://shopify/InventoryItem/64525506740611",
+    "title": "Saiph Extrait de Parfum 100ml – Luna Stars Gold Luxury Unisex Perfume",
+    "option": null,
+    "before": 5,
+    "after": 22,
+    "supplier_qty": 22,
+    "supplier_rows": "tiziana terenzi saiph moon star gold extrait 100ml ref#ttprof/sai"
+   }
+  ]
+ }
 }
