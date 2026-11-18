@@ -45,6 +45,7 @@ def text(t0):
     t=re.sub(r'\('+P+r', ([^)]+)\)',r'(\1)',t)
     t=re.sub(r'\(([^)£]+), '+P+r'\)',r'(\1)',t)
     t=re.sub(r',? (?:priced )?from '+P+' to '+P+r'(?=[ ,.;:)])','',t)
+    t=re.sub(r', (?:at|for|from|starting at|priced at) '+P+r',(?= (?:is|are|has|have|pairs|uses|gives|makes|adds|brings|combines|offers|sits|comes|was)\b)','',t)
     t=re.sub(r', (?:at|for|from|starting at|priced at) '+P+',',',',t)
     t=re.sub(r',? (?:at|for|from|starting at|priced at|costs?|is) '+P+r'(?=[.,;:)<]|\s*$)','',t)
     t=re.sub(r' (?:at|for) '+P+r'(?= (?:and|or|is|with|it|makes|gives|sits|in|this)\b)','',t)
@@ -130,9 +131,19 @@ MAN=[
 ('narciso-rodriguez','The 10ml sprays start from £25.99 and suit','The 10ml sprays suit'),
 
 ]
-X=r'£\d+(?:\.\d{2})?'
+X=r'£\d+(?:\.\d{2})?(?![.\d]\d)'
+MAN+=[
+('sap',', each at £43.99, so choosing comes down to mood rather than budget.',', so choosing comes down to mood.'),
+('hermes','Our pieces start at £24.99, so they are an affordable way into a famous house.','Our pieces are an easy way into a famous house.'),
+('hermes','You will find it at £24.99, or at £25.99 in a second listing.','You will find it in two listings.'),
+('calvin-klein','Prices start at £18.99, so it is an easy place','The miniatures make it an easy place'),
+('body-butter','Body Butter 40G, also £15.99, uses','Body Butter 40G uses'),
+('paco-rabanne','</a> starts from £27.99, and a women','</a> is one option, and a women'),
+]
 RMAN=[
 ('*',r',? with prices (?:from|starting at|start at) '+X+r'(?: to '+X+r')?',''),
+('chloe',r'Prices start (?:at|from) '+X+r', and every piece','Every piece'),
+('dkny',r'Prices start (?:at|from) '+X+r', with full 100ml bottles','There are full 100ml bottles'),
 ('*',r' ?Prices start (?:at|from) '+X+r'\.',''),
 ('deyga',r'(bath bars such as Shea Saffron and Rose Pink Clay) start at '+X+r'\.',r'\1 round it off.'),
 ('bvlgari',r'our edit of eight pieces runs from '+X+' to '+X+r'\.','our edit has eight pieces.'),
@@ -145,6 +156,45 @@ RMAN=[
 ('price-25-50',r'(anatomē Balance and Focus Eau de Parfum) start at '+X+r'\.',r'\1 sit here too.'),
 ('sensitive-skin',r'(Swansura Selection) starts at '+X+r'\.',r'\1 is a gentle place to start.'),
 ('anatome',r' ?Sleep oils start at '+X+r'\.',''),
+]
+# POST = hand fixes on the finished page copy, where removing prices left a broken sentence
+POST=[
+('tom-ford','Prices run, so these are bottles for a special purchase or a gift.','These are bottles for a special purchase or a gift.'),
+('giorgio-armani','The Giorgio Armani Code Refillable Eau de Toilette 125ml. Bright','Our pick is the Giorgio Armani Code Refillable Eau de Toilette 125ml. Bright'),
+('serge-lutens','Serge Lutens La Fille de Berlin Eau de Parfum 50ml. It is built','Our pick is Serge Lutens La Fille de Berlin Eau de Parfum 50ml. It is built'),
+('antonio-banderas',' Each.</p>','</p>'),
+('antonio-banderas','Our edit includes bottles from the range.','Our edit includes four bottles from the range.'),
+('price-25-50',"DKNY Be Tempted 100ml, and Chloé Rose Naturelle Intense and Nomade Jasmin Naturel Intense. Burberry My Burberry Eau de Parfum 50ml. Bentley's men's range, including Infinite, Momentum Unlimited and Become, sits.","So do DKNY Be Tempted 100ml, Chloé Rose Naturelle Intense, Nomade Jasmin Naturel Intense and Burberry My Burberry Eau de Parfum 50ml, along with Bentley's men's range, including Infinite, Momentum Unlimited and Become."),
+('price-25-50','For a skincare gift set, Deyga Vitamin C Daily Glow Combo.','For a skincare gift set, try Deyga Vitamin C Daily Glow Combo.'),
+('price-0-15','Vilvah Fragrance-Free Cream Face Wash, and Vilvah Honey Face Wash and Deyga Oat Milk Face Wash. Vilvah Milk Powder Face Wash is a milk face wash. Deyga Pure Rose Water Toner, while Vilvah Wild Rose and Charcoal face masks.','Vilvah Fragrance-Free Cream Face Wash, Vilvah Honey Face Wash and Deyga Oat Milk Face Wash all sit here, and Vilvah Milk Powder Face Wash is a milk face wash. So do Deyga Pure Rose Water Toner and the Vilvah Wild Rose and Charcoal face masks.'),
+('price-0-15','Vilvah Natural Lip Scrub, a lip scrub with lemon oil, and Natural Lemon Lip Balm. Deyga Natural Lip Balm is a natural lip balm, and Deyga Beetroot Lip Balm Classic.','Vilvah Natural Lip Scrub, a lip scrub with lemon oil, and Natural Lemon Lip Balm both sit here, as do Deyga Natural Lip Balm and Deyga Beetroot Lip Balm Classic.'),
+('price-15-25','Hermès Un Jardin 15ml miniatures, make','Hermès Un Jardin 15ml miniatures make'),
+('price-15-25','Deyga Chocolate Body Butter is a chocolate body butter, and Deyga Body Scrub, a fruit-based body scrub. Deyga Charcoal Detox Face Mask and Activated Charcoal Body Wash.','Deyga Chocolate Body Butter, Deyga Body Scrub (a fruit-based body scrub), Deyga Charcoal Detox Face Mask and Activated Charcoal Body Wash all sit here.'),
+('price-50-9999','YOUTHBOOST Peptide Serum and Organic Facial Oil, and Bakuchiol Youth Elixir.','So do YOUTHBOOST Peptide Serum, Organic Facial Oil and Bakuchiol Youth Elixir.'),
+('price-50-9999','Hemel Valley of Diamond, Fragrance Affair and Patchouli For All.','Hemel Valley of Diamond, Fragrance Affair and Patchouli For All sit here too.'),
+('yves-saint-laurent','Yves Saint Laurent Yvresse Eau de Toilette 80ml for Women. Inspired','Our pick is Yves Saint Laurent Yvresse Eau de Toilette 80ml for Women. Inspired'),
+('chloe','keeps the finish warm. It.</p>','keeps the finish warm.</p>'),
+('chloe','Nomade Eau de Parfum 50ml, blends','Nomade Eau de Parfum 50ml blends'),
+('etienne-aigner','masculine finish. It. Its warm','masculine finish. Its warm'),
+('etienne-aigner','round it off. It. It is the lighter','round it off. It is the lighter'),
+('body-butter-for-dry-skin','with a gentle floral note. Both. For','with a gentle floral note. For'),
+('anatome','Most come in a small and a large size. Parfum Travel, a perfume discovery set of six scents.','Most come in a small and a large size, and Parfum Travel is a perfume discovery set of six scents.'),
+('anatome','Face Oil, nourishes','Face Oil nourishes'),
+('bentley','Unlimited Eau de Toilette, mixes','Unlimited Eau de Toilette mixes'),
+('shower-gel-body-wash','free from sulphates and parabens for 115G or 125G.','free from sulphates and parabens, in 115G or 125G sizes.'),
+('concern-lips','and Vilvah Natural Lip Scrub with lemon essential oil.','and Vilvah Natural Lip Scrub uses lemon essential oil.'),
+('stocking-fillers',"Vilvah's Grape Fruit Lip Balm, and the Strawberry","Vilvah's Grape Fruit Lip Balm is another easy pick, and the Strawberry"),
+('range-beetroot','Beetroot Lip Balm Classic 10 g, blends','Beetroot Lip Balm Classic 10 g blends'),
+('range-vitamin-c','If you would like both steps together, the Vitamin C Daily Glow Combo.','If you would like both steps together, choose the Vitamin C Daily Glow Combo.'),
+('highborn-london','Natural Luminosity Body Butter, smooth','Natural Luminosity Body Butter smooth'),
+('hair-fall','from Vilvah and Deyga, focuses on','from Vilvah and Deyga focuses on'),
+('scent-floral','Prices start with miniatures under £20, and every bottle','The range runs from miniatures to full bottles, and every bottle'),
+('perfume-gift-sets','Gucci Flora Gorgeous Orchid (10 ml) both sit under £20.','Gucci Flora Gorgeous Orchid (10 ml) are two good examples.'),
+('anatome','Roman Chamomile Sleep Pillow Spray, made to mist','Roman Chamomile Sleep Pillow Spray are made to mist'),
+('fun-basics','At under £20 for a full 100ml, these sit','As full 100ml bottles at everyday prices, these sit'),
+('maison-de-milan','With most bottles under £20, these sit','As friendly-priced 100ml bottles, these sit'),
+('chris-adams','two 100ml bottles for men, both under £15, making them some of the best-value','two 100ml bottles for men, among the best-value'),
+('chris-adams','At these prices, both sit in our','Both sit in our'),
 ]
 def build(orig_nodes):
     import copy as _c
@@ -170,6 +220,10 @@ def build(orig_nodes):
             new=[[q,text(faq_answer(q,a)[0])] for q,a in json.loads(m['faq']['value'])]
             if json.loads(f0)!=new: rec['faq']=[f0,json.dumps(new,ensure_ascii=False)]
         if len(rec)>2: out.append(rec)
+    for r in out:
+        for h,o,nw in POST:
+            if r['handle']==h and 'copy' in r:
+                assert o in r['copy'][1],(h,o); r['copy'][1]=r['copy'][1].replace(o,nw)
     for r in out:  # hand fix: a 'what can I buy' answer needs content, not just the price note
         if r['handle']=='gifts-under-50' and 'faq' in r:
             a=json.loads(r['faq'][1]); a[0][1]='Perfume minis and gift sets, natural skincare kits and stocking fillers, all priced under £50. Each product page shows its current price.'
