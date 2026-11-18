@@ -1,0 +1,3897 @@
+{
+ "source": "client sheet 'Swansure_Fragrance_Data_v-1.xlsx', column 'Final RRP' (sheet kept out of the repo)",
+ "date": "2026-11-18",
+ "rule": "duplicate rows with different Final RRP: the row whose Product Name equals the store title (user, 18 Nov 2026)",
+ "prices": [
+  {
+   "product_id": 16421465522563,
+   "variant_id": 63200350765443,
+   "title": "Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml",
+   "variant": "Default Title",
+   "before": 99.99,
+   "after": 109.99,
+   "sheet_row": 636.0,
+   "sheet_name": "Bois 1920 Set (oro 1920+oro Nero+ Oro Rosso+ Oro Bianco+ Oro Rosa) Eau de Parfum (EDP) 5x18ml – Women's Fragrance Gift Set"
+  },
+  {
+   "product_id": 16272506651011,
+   "variant_id": 62471207911811,
+   "title": "Ecstasy Extrait de Parfum 100ml – Luxury Unisex Niche Perfume",
+   "variant": "Default Title",
+   "before": 95.99,
+   "after": 85.99,
+   "sheet_row": 361.0,
+   "sheet_name": "Ecstasy Extrait de Parfum 100ml – Luxury Unisex Niche Perfume"
+  },
+  {
+   "product_id": 16322576187779,
+   "variant_id": 62631872692611,
+   "title": "Guerlain Oud Essentiel Eau de Parfum 125ml – Luxury Unisex Oud Woody Fragrance",
+   "variant": "Default Title",
+   "before": 94.99,
+   "after": 107.99,
+   "sheet_row": 232.0,
+   "sheet_name": "Guerlain Oud Essentiel Eau de Parfum 125ml – Luxury Unisex Oud Woody Fragrance"
+  },
+  {
+   "product_id": 16006936428931,
+   "variant_id": 58180223140227,
+   "title": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml",
+   "variant": "Default Title",
+   "before": 94.99,
+   "after": 83.99,
+   "sheet_row": 387.0,
+   "sheet_name": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml"
+  },
+  {
+   "product_id": 16274980045187,
+   "variant_id": 62484710687107,
+   "title": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml",
+   "variant": "Default Title",
+   "before": 92.99,
+   "after": 94.99,
+   "sheet_row": 114.0,
+   "sheet_name": "Dior Iconics Mini Perfume Discovery Set 5 x 5ml"
+  },
+  {
+   "product_id": 16431683961219,
+   "variant_id": 63258975633795,
+   "title": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 89.99,
+   "after": 109.99,
+   "sheet_row": 811.0,
+   "sheet_name": "Thomas Kosmala N:10 Desire Du Coeur Elixir 100 ml EDP (Elixir Version)"
+  },
+  {
+   "product_id": 16318106370435,
+   "variant_id": 62626850177411,
+   "title": "Guerlain Épices Exquises Eau de Parfum 125ml – Luxury Unisex Spicy Woody Fragrance",
+   "variant": "Default Title",
+   "before": 86.99,
+   "after": 96.99,
+   "sheet_row": 234.0,
+   "sheet_name": "Guerlain Épices Exquises Eau de Parfum 125ml – Luxury Unisex Spicy Woody Fragrance"
+  },
+  {
+   "product_id": 16272514122115,
+   "variant_id": 62471224426883,
+   "title": "Akragas Extrait de Parfum 100ml – Classic Collection Unisex Niche Perfume",
+   "variant": "Default Title",
+   "before": 85.99,
+   "after": 87.99,
+   "sheet_row": 353.0,
+   "sheet_name": "Akragas Extrait de Parfum 100ml – Classic Collection Unisex Niche Perfume"
+  },
+  {
+   "product_id": 16431684387203,
+   "variant_id": 63258977796483,
+   "title": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 85.99,
+   "after": 105.99,
+   "sheet_row": 818.0,
+   "sheet_name": "Thomas Kosmala No:12 Oud Douze 100 ml EDP"
+  },
+  {
+   "product_id": 16303208038787,
+   "variant_id": 62572865945987,
+   "title": "Gucci Bloom Eau de Parfum Gift Set 100ml + 10ml + Body Lotion 100ml – Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 88.62,
+   "sheet_row": 223.0,
+   "sheet_name": "Gucci Bloom Eau de Parfum Gift Set 100ml + 10ml + Body Lotion 100ml – Women’s Fragrance Set"
+  },
+  {
+   "product_id": 16273541792131,
+   "variant_id": 62478724268419,
+   "title": "Gold Rose Oudh Extrait de Parfum 100ml – Luxury Unisex Oud Perfume",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 99.99,
+   "sheet_row": 362.0,
+   "sheet_name": "Gold Rose Oudh Extrait de Parfum 100ml – Luxury Unisex Oud Perfume"
+  },
+  {
+   "product_id": 16431139488131,
+   "variant_id": 63254878880131,
+   "title": "Lalique L'Insoumis Eau de Toilette 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 34.5,
+   "sheet_row": 703.0,
+   "sheet_name": "Lalique L'Insoumis EDT 100ml"
+  },
+  {
+   "product_id": 16431684092291,
+   "variant_id": 63258976190851,
+   "title": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 105.99,
+   "sheet_row": 813.0,
+   "sheet_name": "Thomas Kosmala No 4 Candy 100ml EDP"
+  },
+  {
+   "product_id": 16431684125059,
+   "variant_id": 63258976223619,
+   "title": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 95.99,
+   "sheet_row": 814.0,
+   "sheet_name": "Thomas Kosmala No 4 Neon 100ml EDP"
+  },
+  {
+   "product_id": 16431684190595,
+   "variant_id": 63258976616835,
+   "title": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 89.5,
+   "sheet_row": 815.0,
+   "sheet_name": "Thomas Kosmala No 4 Sport 100ml EDP"
+  },
+  {
+   "product_id": 16431684256131,
+   "variant_id": 63258977075587,
+   "title": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 86.99,
+   "sheet_row": 816.0,
+   "sheet_name": "Thomas Kosmala No 9 Bukhoor Elixir De Parfum 100ml"
+  },
+  {
+   "product_id": 16431684288899,
+   "variant_id": 63258977108355,
+   "title": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 84.99,
+   "after": 92.99,
+   "sheet_row": 817.0,
+   "sheet_name": "Thomas Kosmala No.1 A Never Ending Love EDP 100ml"
+  },
+  {
+   "product_id": 16431695888771,
+   "variant_id": 63259039203715,
+   "title": "Versace Eros Parfum",
+   "variant": "200ml",
+   "before": 83.99,
+   "after": 85.74,
+   "sheet_row": 824.0,
+   "sheet_name": "Versace Eros Men'S Parfum 200ml"
+  },
+  {
+   "product_id": 15974748127619,
+   "variant_id": 58072097816963,
+   "title": "Korloff Cuir Mythique Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 82.99,
+   "after": 69.99,
+   "sheet_row": 275.0,
+   "sheet_name": "Korloff Cuir Mythique Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 16274581029251,
+   "variant_id": 62483329679747,
+   "title": "Kirke Extrait de Parfum 100ml – Luxury Unisex Fruity Niche Perfume",
+   "variant": "Default Title",
+   "before": 82.99,
+   "after": 89.99,
+   "sheet_row": 365.0,
+   "sheet_name": "Kirke Extrait de Parfum 100ml – Luxury Unisex Fruity Niche Perfume"
+  },
+  {
+   "product_id": 16431683830147,
+   "variant_id": 63258975109507,
+   "title": "Thomas Kosmala Exsupero Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 80.99,
+   "after": 119.99,
+   "sheet_row": 809.0,
+   "sheet_name": "Thomas Kosmala Exsupero Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431695659395,
+   "variant_id": 63259038286211,
+   "title": "Thomas Kosmala Star Chaser Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 80.99,
+   "after": 99.99,
+   "sheet_row": 819.0,
+   "sheet_name": "Thomas Kosmala Star Chaser Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431695692163,
+   "variant_id": 63259038318979,
+   "title": "Thomas Kosmala Wild Stride Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 80.99,
+   "after": 81.99,
+   "sheet_row": 820.0,
+   "sheet_name": "Thomas Kosmala Wild Stride Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16356355572099,
+   "variant_id": 62719096291715,
+   "title": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – Luxury Unisex Spicy Tobacco Fragrance",
+   "variant": "Default Title",
+   "before": 79.99,
+   "after": 87.99,
+   "sheet_row": 290.0,
+   "sheet_name": "Mancera Intense Red Tobacco Extrait de Parfum 120ml – Luxury Unisex Spicy Tobacco Fragrance"
+  },
+  {
+   "product_id": 16431139455363,
+   "variant_id": 63254878454147,
+   "title": "Lalique Le Parfum Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 78.99,
+   "after": 34.99,
+   "sheet_row": 702.0,
+   "sheet_name": "Lalique Le Parfum 100ml EDP"
+  },
+  {
+   "product_id": 16431526281603,
+   "variant_id": 63257659670915,
+   "title": "Paco Rabanne 1 Million Eau de Toilette 200ml",
+   "variant": "Default Title",
+   "before": 78.99,
+   "after": 89.99,
+   "sheet_row": 746.0,
+   "sheet_name": "Paco Rabanne 1 Million EDT 200ml"
+  },
+  {
+   "product_id": 16431526347139,
+   "variant_id": 63257659736451,
+   "title": "Paco Rabanne Fame Eau de Parfum Refillable 80ml",
+   "variant": "Default Title",
+   "before": 78.99,
+   "after": 95.99,
+   "sheet_row": 747.0,
+   "sheet_name": "Paco Rabanne Fame Women'Sedp 80ml Refillable"
+  },
+  {
+   "product_id": 16431526740355,
+   "variant_id": 63257662488963,
+   "title": "Paco Rabanne Invictus Eau de Toilette 200ml",
+   "variant": "Default Title",
+   "before": 78.99,
+   "after": 81.99,
+   "sheet_row": 753.0,
+   "sheet_name": "Paco Rabanne Invictus Men'S EDT 200ml"
+  },
+  {
+   "product_id": 16431528051075,
+   "variant_id": 63257672253827,
+   "title": "Paco Rabanne Invictus Eau de Toilette Gift Set 200ml + 10ml",
+   "variant": "Default Title",
+   "before": 78.99,
+   "after": 87.99,
+   "sheet_row": 754.0,
+   "sheet_name": "Paco Rabanne Invictus Giftset EDT 200ml+EDT 10ml"
+  },
+  {
+   "product_id": 16375852433795,
+   "variant_id": 62791347339651,
+   "title": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – Men’s Woody Aromatic Fragrance",
+   "variant": "Default Title",
+   "before": 76.99,
+   "after": 87.99,
+   "sheet_row": 91.0,
+   "sheet_name": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – Men’s Woody Aromatic Fragrance"
+  },
+  {
+   "product_id": 16280091394435,
+   "variant_id": 62510684832131,
+   "title": "White Fire Extrait de Parfum 100ml – Luxury Unisex Niche Perfume",
+   "variant": "Default Title",
+   "before": 76.99,
+   "after": 85.99,
+   "sheet_row": 373.0,
+   "sheet_name": "White Fire Extrait de Parfum 100ml – Luxury Unisex Niche Perfume"
+  },
+  {
+   "product_id": 16431141912963,
+   "variant_id": 63254890217859,
+   "title": "Mugler Alien Eau de Parfum Refillable",
+   "variant": "90ml",
+   "before": 76.99,
+   "after": 73.99,
+   "sheet_row": 716.0,
+   "sheet_name": "Mugler Alien 90ml EDP Refillable"
+  },
+  {
+   "product_id": 16431529820547,
+   "variant_id": 63257679823235,
+   "title": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 76.99,
+   "after": 87.99,
+   "sheet_row": 779.0,
+   "sheet_name": "Roberto Cavalli Gold Collection Bloodiris Unisex EDP 100ml"
+  },
+  {
+   "product_id": 15981355434371,
+   "variant_id": 58100435747203,
+   "title": "Signature Discovery Set 10x10ml",
+   "variant": "Default Title",
+   "before": 65.99,
+   "after": 73.99,
+   "sheet_row": 331.0,
+   "sheet_name": "Signature Discovery Set 10x10ml"
+  },
+  {
+   "product_id": 16375834935683,
+   "variant_id": 62791284326787,
+   "title": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – Women’s Floral Fruity Fragrance",
+   "variant": "Default Title",
+   "before": 74.99,
+   "after": 89.99,
+   "sheet_row": 87.0,
+   "sheet_name": "Carolina Herrera 212 VIP Rosé Eau de Parfum 125ml – Women’s Floral Fruity Fragrance"
+  },
+  {
+   "product_id": 16322184544643,
+   "variant_id": 62631466369411,
+   "title": "Guerlain Musc Noble Eau de Parfum 125ml – Luxury Unisex Musky Woody Fragrance",
+   "variant": "Default Title",
+   "before": 74.99,
+   "after": 99.99,
+   "sheet_row": 231.0,
+   "sheet_name": "Guerlain Musc Noble Eau de Parfum 125ml – Luxury Unisex Musky Woody Fragrance"
+  },
+  {
+   "product_id": 15981345440131,
+   "variant_id": 58100399669635,
+   "title": "Signature Aura EDP 100ML+15ML Refillable Travel Spray",
+   "variant": "Default Title",
+   "before": 66.99,
+   "after": 72.99,
+   "sheet_row": 320.0,
+   "sheet_name": "Signature Aura EDP 100ML+15ML Refillable Travel Spray"
+  },
+  {
+   "product_id": 15981331546499,
+   "variant_id": 58100386857347,
+   "title": "Signature Charm EDP 100ML+15ML Refillable Travel Spray",
+   "variant": "Default Title",
+   "before": 65.99,
+   "after": 75.99,
+   "sheet_row": 322.0,
+   "sheet_name": "Signature Charm EDP 100ML+15ML Refillable Travel Spray"
+  },
+  {
+   "product_id": 15981332758915,
+   "variant_id": 58100389446019,
+   "title": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 73.99,
+   "sheet_row": 327.0,
+   "sheet_name": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray"
+  },
+  {
+   "product_id": 16303477227907,
+   "variant_id": 62575870148995,
+   "title": "Gucci Intense Oud Eau de Parfum Spray 90ml – Long Lasting Luxury Unisex Oud Fragrance",
+   "variant": "Default Title",
+   "before": 73.99,
+   "after": 88.99,
+   "sheet_row": 220.0,
+   "sheet_name": "Gucci Intense Oud Eau de Parfum Spray 90ml – Long Lasting Luxury Unisex Oud Fragrance"
+  },
+  {
+   "product_id": 16421470962051,
+   "variant_id": 63200359874947,
+   "title": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml",
+   "variant": "Default Title",
+   "before": 71.99,
+   "after": 78.99,
+   "sheet_row": 600.0,
+   "sheet_name": "Mercedes Benz Multiline Trio Nomade Set (land + Sea + Air) In Leather Case Eau de Parfum (EDP) 3x30ml – Men's Fragrance Gift Set"
+  },
+  {
+   "product_id": 16008256422275,
+   "variant_id": 58184341619075,
+   "title": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men",
+   "variant": "Default Title",
+   "before": 70.99,
+   "after": 76.99,
+   "sheet_row": 258.0,
+   "sheet_name": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men"
+  },
+  {
+   "product_id": 16280160010627,
+   "variant_id": 62510873543043,
+   "title": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 70.99,
+   "sheet_row": 71.0,
+   "sheet_name": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16280530944387,
+   "variant_id": 62513257775491,
+   "title": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – New Pack Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 74.99,
+   "sheet_row": 73.0,
+   "sheet_name": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – New Pack Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16299016618371,
+   "variant_id": 62556801204611,
+   "title": "Dolce & Gabbana The One for Men Eau de Parfum 150ml – Luxury Men’s Fragrance",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 80.99,
+   "sheet_row": 123.0,
+   "sheet_name": "Dolce & Gabbana The One for Men Eau de Parfum 150ml – Luxury Men’s Fragrance"
+  },
+  {
+   "product_id": 16322980217219,
+   "variant_id": 62632281899395,
+   "title": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 83.99,
+   "sheet_row": 233.0,
+   "sheet_name": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance"
+  },
+  {
+   "product_id": 16354306130307,
+   "variant_id": 62714334970243,
+   "title": "Mancera Black Noir Eau de Parfum 120ml – Luxury Unisex Oud Tobacco Longlasting Fragrance",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 88.99,
+   "sheet_row": 289.0,
+   "sheet_name": "Mancera Black Noir Eau de Parfum 120ml – Luxury Unisex Oud Tobacco Longlasting Fragrance"
+  },
+  {
+   "product_id": 16305271734659,
+   "variant_id": 62585591267715,
+   "title": "Al Haramain Amber Oud Bleu Edition Eau de Parfum – Luxury Unisex Fresh Woody Fragrance",
+   "variant": "200ml",
+   "before": 53.99,
+   "after": 66.99,
+   "sheet_row": 395.0,
+   "sheet_name": "Al Haramain Amber Oud Bleu Edition Eau de Parfum (EDP) 200ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16359690797443,
+   "variant_id": 62731182276995,
+   "title": "Hemel Amethyst Dream Eau de Parfum 100ml – Luxury Unisex Floral Fruity Fragrance",
+   "variant": "Default Title",
+   "before": 61.99,
+   "after": 72.99,
+   "sheet_row": 237.0,
+   "sheet_name": "Hemel Amethyst Dream Eau de Parfum 100ml – Luxury Unisex Floral Fruity Fragrance"
+  },
+  {
+   "product_id": 16359817445763,
+   "variant_id": 62731636015491,
+   "title": "Hemel Favourite Black Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance",
+   "variant": "Default Title",
+   "before": 61.99,
+   "after": 77.99,
+   "sheet_row": 240.0,
+   "sheet_name": "Hemel Favourite Black Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance"
+  },
+  {
+   "product_id": 16431142142339,
+   "variant_id": 63254892839299,
+   "title": "Mugler Alien Goddess Supra Florale Eau de Parfum",
+   "variant": "90ml",
+   "before": 69.99,
+   "after": 73.99,
+   "sheet_row": 717.0,
+   "sheet_name": "Mugler Alien Goddess Women'S EDP Supra Florale 90ml"
+  },
+  {
+   "product_id": 16431144239491,
+   "variant_id": 63254900703619,
+   "title": "Narciso Rodriguez All of Me Eau de Parfum 90ml",
+   "variant": "Default Title",
+   "before": 69.99,
+   "after": 73.99,
+   "sheet_row": 733.0,
+   "sheet_name": "Narciso Rodriguez All Of Me Women'S EDP 90ml"
+  },
+  {
+   "product_id": 16367210561923,
+   "variant_id": 62750430790019,
+   "title": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 68.99,
+   "after": 79.99,
+   "sheet_row": 61.0,
+   "sheet_name": "Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml + 2x10ml – Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16431695823235,
+   "variant_id": 63259038777731,
+   "title": "Versace Eros Eau de Toilette 200ml",
+   "variant": "Default Title",
+   "before": 68.99,
+   "after": 72.99,
+   "sheet_row": 822.0,
+   "sheet_name": "Versace Eros Men'S EDT 200ml"
+  },
+  {
+   "product_id": 16431695888771,
+   "variant_id": 63259039170947,
+   "title": "Versace Eros Parfum",
+   "variant": "100ml",
+   "before": 68.99,
+   "after": 71.99,
+   "sheet_row": 823.0,
+   "sheet_name": "Versace Eros Men'S Parfum 100ml"
+  },
+  {
+   "product_id": 16371463192963,
+   "variant_id": 62760471658883,
+   "title": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – Women’s Floral Chypre Fragrance Set",
+   "variant": "Default Title",
+   "before": 66.99,
+   "after": 83.99,
+   "sheet_row": 99.0,
+   "sheet_name": "Chloé Nomade Eau de Parfum Gift Set 75ml + 20ml Travel Spray – Women’s Floral Chypre Fragrance Set"
+  },
+  {
+   "product_id": 16326984532355,
+   "variant_id": 62636699287939,
+   "title": "Giorgio Armani Code Eau de Toilette 125ml Refillable – Men’s Woody Aromatic Fragrance",
+   "variant": "Default Title",
+   "before": 66.99,
+   "after": 76.99,
+   "sheet_row": 213.0,
+   "sheet_name": "Giorgio Armani Code Eau de Toilette 125ml Refillable – Men’s Woody Aromatic Fragrance"
+  },
+  {
+   "product_id": 15981340557699,
+   "variant_id": 58100395573635,
+   "title": "Signature Jade 100ml Edp + 15ml Travel Spray",
+   "variant": "Default Title",
+   "before": 66.99,
+   "after": 60.99,
+   "sheet_row": 333.0,
+   "sheet_name": "Signature Jade 100ml Edp + 15ml Travel Spray"
+  },
+  {
+   "product_id": 16253614358915,
+   "variant_id": 62407466647939,
+   "title": "Acqua di Parma Holiday Discovery Set EDP 3x12ml",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 65.99,
+   "sheet_row": 10.0,
+   "sheet_name": "Acqua di Parma Holiday Discovery Set EDP 3x12ml"
+  },
+  {
+   "product_id": 15981326696835,
+   "variant_id": 58100384399747,
+   "title": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 319.0,
+   "sheet_name": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX)"
+  },
+  {
+   "product_id": 15981327810947,
+   "variant_id": 58100385972611,
+   "title": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX)",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 328.0,
+   "sheet_name": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX)"
+  },
+  {
+   "product_id": 16431142306179,
+   "variant_id": 63254893035907,
+   "title": "Mugler Angel Elixir Eau de Parfum Refillable Star",
+   "variant": "100ml",
+   "before": 65.99,
+   "after": 72.99,
+   "sheet_row": 723.0,
+   "sheet_name": "Mugler Angel Elixir Refillable Star Women'S EDP 100ml"
+  },
+  {
+   "product_id": 16431528149379,
+   "variant_id": 63257672483203,
+   "title": "Paco Rabanne Invictus Victory Eau de Parfum Extrême 100ml",
+   "variant": "Default Title",
+   "before": 65.99,
+   "after": 67.99,
+   "sheet_row": 756.0,
+   "sheet_name": "Paco Rabanne Invictus Victory Parfum Extreme EDP 100ml"
+  },
+  {
+   "product_id": 16431528378755,
+   "variant_id": 63257672679811,
+   "title": "Paco Rabanne Phantom Parfum & Deodorant Gift Set 100ml + 150ml + 10ml",
+   "variant": "Default Title",
+   "before": 65.99,
+   "after": 67.99,
+   "sheet_row": 762.0,
+   "sheet_name": "Paco Rabanne Panthom Parfum Set (100ml EDP+ 150ml Deo+10ml)"
+  },
+  {
+   "product_id": 16280183570819,
+   "variant_id": 62510916927875,
+   "title": "Bvlgari Man in Black Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 68.0,
+   "sheet_name": "Bvlgari Man in Black Eau de Parfum 100ml – Luxury Men’s Fragrance"
+  },
+  {
+   "product_id": 16280562139523,
+   "variant_id": 62514042470787,
+   "title": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – Soft Box Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 69.99,
+   "sheet_row": 74.0,
+   "sheet_name": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – Soft Box Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16300878430595,
+   "variant_id": 62561860616579,
+   "title": "Dolce & Gabbana The One for Women Eau de Parfum Gift Set 50ml + 50ml – Luxury Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 69.99,
+   "sheet_row": 130.0,
+   "sheet_name": "Dolce & Gabbana The One for Women Eau de Parfum Gift Set 50ml + 50ml – Luxury Women’s Fragrance Set"
+  },
+  {
+   "product_id": 16318152475011,
+   "variant_id": 62627297591683,
+   "title": "Guerlain Habit Rouge Eau de Parfum 100ml – Luxury Men’s Amber Woody Fragrance",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 67.99,
+   "sheet_row": 229.0,
+   "sheet_name": "Guerlain Habit Rouge Eau de Parfum 100ml – Luxury Men’s Amber Woody Fragrance"
+  },
+  {
+   "product_id": 16319503794563,
+   "variant_id": 62628700782979,
+   "title": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – Luxury Women’s Floral Amber Fragrance",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 66.99,
+   "sheet_row": 230.0,
+   "sheet_name": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – Luxury Women’s Floral Amber Fragrance"
+  },
+  {
+   "product_id": 16008251474307,
+   "variant_id": 58184334442883,
+   "title": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 66.3,
+   "sheet_row": 261.0,
+   "sheet_name": "Hugo Boss Alive Eau de Parfum 80ml + Body Lotion 75ml Gift Set for Women"
+  },
+  {
+   "product_id": 15981349208451,
+   "variant_id": 58100427129219,
+   "title": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 324.0,
+   "sheet_name": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX)"
+  },
+  {
+   "product_id": 15981337280899,
+   "variant_id": 58100390822275,
+   "title": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 325.0,
+   "sheet_name": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX)"
+  },
+  {
+   "product_id": 15981339509123,
+   "variant_id": 58100394590595,
+   "title": "Signature Opal 100ml + 15ml Eau De Parfum",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 326.0,
+   "sheet_name": "Signature Opal 100ml + 15ml Eau De Parfum"
+  },
+  {
+   "product_id": 15981333283203,
+   "variant_id": 58100390101379,
+   "title": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 65.99,
+   "sheet_row": 329.0,
+   "sheet_name": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX)"
+  },
+  {
+   "product_id": 16008225423747,
+   "variant_id": 58184248721795,
+   "title": "Hermès Miniature EDT Gift Set 4 x 7.5ml Unisex Fragrances",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 51.99,
+   "sheet_row": 340.0,
+   "sheet_name": "Hermès Miniature EDT Gift Set 4 x 7.5ml Unisex Fragrances"
+  },
+  {
+   "product_id": 16421467521411,
+   "variant_id": 63200354206083,
+   "title": "Natural By Woods Discovery Set",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 647.0,
+   "sheet_name": "Natural By Woods Discovery Set – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431528116611,
+   "variant_id": 63257672319363,
+   "title": "Paco Rabanne Invictus Eau de Toilette & Deodorant Gift Set 100ml + 150ml + 10ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 70.99,
+   "sheet_row": 755.0,
+   "sheet_name": "Paco Rabanne Invictus Giftset EDT Spray 100ml+Deo Spray 150ml+EDT Spray 10ml"
+  },
+  {
+   "product_id": 16431528411523,
+   "variant_id": 63257672712579,
+   "title": "Paco Rabanne Phantom Eau de Toilette & Deodorant Gift Set 100ml + 150ml + 10ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 74.99,
+   "sheet_row": 763.0,
+   "sheet_name": "Paco Rabanne Phantom Men'S Set EDT 100ml + Deodorant 150ml + EDT 10ml"
+  },
+  {
+   "product_id": 16431676686723,
+   "variant_id": 63258918551939,
+   "title": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 796.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Arte Orafa Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431676752259,
+   "variant_id": 63258919010691,
+   "title": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 75.99,
+   "sheet_row": 797.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Bianco Di Carrara Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431676785027,
+   "variant_id": 63258919043459,
+   "title": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 67.99,
+   "sheet_row": 798.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680684419,
+   "variant_id": 63258947944835,
+   "title": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 67.99,
+   "sheet_row": 799.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Gentil Suono Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680749955,
+   "variant_id": 63258948501891,
+   "title": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 75.99,
+   "sheet_row": 800.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations La Commedia Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680782723,
+   "variant_id": 63258948534659,
+   "title": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 65.99,
+   "sheet_row": 801.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations La Corte Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680848259,
+   "variant_id": 63258949026179,
+   "title": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 802.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Orto Delle Spezie Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680881027,
+   "variant_id": 63258949058947,
+   "title": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 803.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Punta Ala Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431680946563,
+   "variant_id": 63258949583235,
+   "title": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 67.99,
+   "sheet_row": 804.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Rinascimento Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431681012099,
+   "variant_id": 63258949681539,
+   "title": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 69.99,
+   "sheet_row": 805.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Terra Rossa Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431681077635,
+   "variant_id": 63258950271363,
+   "title": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 72.99,
+   "sheet_row": 806.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Vendemmia Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16431681110403,
+   "variant_id": 63258950304131,
+   "title": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 64.99,
+   "after": 69.99,
+   "sheet_row": 807.0,
+   "sheet_name": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Unisex EDP 100ml"
+  },
+  {
+   "product_id": 16364237652355,
+   "variant_id": 62742100967811,
+   "title": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – Luxury Unisex Woody Amber Fragrance",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 70.99,
+   "sheet_row": 44.0,
+   "sheet_name": "Boucheron Patchouli d’Angkor Eau de Parfum 125ml – Luxury Unisex Woody Amber Fragrance"
+  },
+  {
+   "product_id": 16364242928003,
+   "variant_id": 62742118007171,
+   "title": "Boucheron Rose d’Isparta Eau de Parfum 125ml – Luxury Unisex Rose Amber Fragrance",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 70.99,
+   "sheet_row": 45.0,
+   "sheet_name": "Boucheron Rose d’Isparta Eau de Parfum 125ml – Luxury Unisex Rose Amber Fragrance"
+  },
+  {
+   "product_id": 16008254030211,
+   "variant_id": 58184337195395,
+   "title": "Hugo Boss Bottled Eau de Parfum 200ml for Men",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 81.06,
+   "sheet_row": 257.0,
+   "sheet_name": "Hugo Boss Bottled Eau de Parfum 200ml for Men"
+  },
+  {
+   "product_id": 16359854506371,
+   "variant_id": 62731806376323,
+   "title": "Hemel Fragrance Affair Eau de Parfum 100ml – Luxury Unisex Floral Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 61.99,
+   "after": 77.99,
+   "sheet_row": 546.0,
+   "sheet_name": "Hemel Fragrance Affair Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431528345987,
+   "variant_id": 63257672647043,
+   "title": "Paco Rabanne Olympéa Flora Eau de Parfum Intense 80ml",
+   "variant": "Default Title",
+   "before": 63.99,
+   "after": 64.99,
+   "sheet_row": 761.0,
+   "sheet_name": "Paco Rabanne Olympea Flora Women'S EDP Intense 80ml"
+  },
+  {
+   "product_id": 16375883923843,
+   "variant_id": 62791507575171,
+   "title": "Carolina Herrera Very Good Girl Glam Parfum 50ml – Women’s Floral Fruity Gourmand Fragrance",
+   "variant": "Default Title",
+   "before": 62.99,
+   "after": 72.99,
+   "sheet_row": 94.0,
+   "sheet_name": "Carolina Herrera Very Good Girl Glam Parfum 50ml – Women’s Floral Fruity Gourmand Fragrance"
+  },
+  {
+   "product_id": 16338883903875,
+   "variant_id": 62657549238659,
+   "title": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – Luxury Women’s Chypre Fragrance",
+   "variant": "Default Title",
+   "before": 62.99,
+   "after": 75.99,
+   "sheet_row": 262.0,
+   "sheet_name": "Jean Paul Gaultier Scandal Gold Eau de Parfum 80ml – Luxury Women’s Chypre Fragrance"
+  },
+  {
+   "product_id": 16359894745475,
+   "variant_id": 62731919688067,
+   "title": "Hemel Patchouli For All Eau de Parfum 100ml – Luxury Unisex Woody Patchouli Fragrance",
+   "variant": "Default Title",
+   "before": 61.99,
+   "after": 77.99,
+   "sheet_row": 248.0,
+   "sheet_name": "Hemel Patchouli For All Eau de Parfum 100ml – Luxury Unisex Woody Patchouli Fragrance"
+  },
+  {
+   "product_id": 16359968964995,
+   "variant_id": 62732112560515,
+   "title": "Hemel Valley of Diamond Eau de Parfum 100ml – Luxury Unisex Floral Woody Fragrance",
+   "variant": "Default Title",
+   "before": 61.99,
+   "after": 77.99,
+   "sheet_row": 253.0,
+   "sheet_name": "Hemel Valley of Diamond Eau de Parfum 100ml – Luxury Unisex Floral Woody Fragrance"
+  },
+  {
+   "product_id": 16367216984451,
+   "variant_id": 62750448746883,
+   "title": "Azzaro The Most Wanted Parfum 100ml – Men’s Warm Spicy Amber Fragrance",
+   "variant": "Default Title",
+   "before": 60.99,
+   "after": 66.99,
+   "sheet_row": 62.0,
+   "sheet_name": "Azzaro The Most Wanted Parfum 100ml – Men’s Warm Spicy Amber Fragrance"
+  },
+  {
+   "product_id": 16431144173955,
+   "variant_id": 63254900605315,
+   "title": "Mugler Les Exceptions Wonder Bouquet Eau de Parfum 80ml",
+   "variant": "Default Title",
+   "before": 60.99,
+   "after": 67.99,
+   "sheet_row": 731.0,
+   "sheet_name": "Mugler Les Exceptions Wonder Bouquet Unisex EDP 80ml"
+  },
+  {
+   "product_id": 16282293141891,
+   "variant_id": 62523817263491,
+   "title": "Chopard Gardens of Paradise Discovery Set 4x10ml – Luxury Unisex Eau de Parfum Gift Set",
+   "variant": "Default Title",
+   "before": 59.99,
+   "after": 66.99,
+   "sheet_row": 106.0,
+   "sheet_name": "Chopard Gardens of Paradise Discovery Set 4x10ml – Luxury Unisex Eau de Parfum Gift Set"
+  },
+  {
+   "product_id": 16303309291907,
+   "variant_id": 62573569638787,
+   "title": "Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 59.99,
+   "after": 74.99,
+   "sheet_row": 217.0,
+   "sheet_name": "Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16303465922947,
+   "variant_id": 62575618064771,
+   "title": "Gucci Guilty Pour Homme Eau de Toilette 90ml – Men’s Woody Aromatic Fragrance",
+   "variant": "Default Title",
+   "before": 59.99,
+   "after": 66.99,
+   "sheet_row": 222.0,
+   "sheet_name": "Gucci Guilty Pour Homme Eau de Toilette 90ml – Men’s Woody Aromatic Fragrance"
+  },
+  {
+   "product_id": 16364365775235,
+   "variant_id": 62742379200899,
+   "title": "Burberry My Burberry Eau de Parfum 90ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 58.99,
+   "after": 64.99,
+   "sheet_row": 64.0,
+   "sheet_name": "Burberry My Burberry Eau de Parfum 90ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16364401525123,
+   "variant_id": 62742452437379,
+   "title": "Burberry My Burberry Black Parfum 90ml – Women’s Rich Floral Amber Fragrance",
+   "variant": "Default Title",
+   "before": 58.99,
+   "after": 64.99,
+   "sheet_row": 67.0,
+   "sheet_name": "Burberry My Burberry Black Parfum 90ml – Women’s Rich Floral Amber Fragrance"
+  },
+  {
+   "product_id": 16366786609539,
+   "variant_id": 62748671508867,
+   "title": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – Men’s Warm Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 58.99,
+   "after": 45.99,
+   "sheet_row": 259.0,
+   "sheet_name": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – Men’s Warm Spicy Fragrance"
+  },
+  {
+   "product_id": 16305337237891,
+   "variant_id": 62585465602435,
+   "title": "Al Haramain Amber Oud Carbon Edition Eau de Parfum – Men’s Fresh Woody Fragrance",
+   "variant": "200ml",
+   "before": 54.99,
+   "after": 65.99,
+   "sheet_row": 398.0,
+   "sheet_name": "Al Haramain Amber Oud Carbon Edition Eau de Parfum (EDP) 200ml – Men's Fragrance"
+  },
+  {
+   "product_id": 16306908594563,
+   "variant_id": 62593303609731,
+   "title": "Al Haramain Amber Oud Ruby Edition Eau de Parfum – Luxury Unisex Amber Floral Fragrance",
+   "variant": "200ml",
+   "before": 57.99,
+   "after": 62.99,
+   "sheet_row": 407.0,
+   "sheet_name": "Al Haramain Amber Oud Ruby Edition Eau de Parfum (EDP) 200ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16305271734659,
+   "variant_id": 62585591234947,
+   "title": "Al Haramain Amber Oud Bleu Edition Eau de Parfum – Luxury Unisex Fresh Woody Fragrance",
+   "variant": "100ml",
+   "before": 44.99,
+   "after": 54.99,
+   "sheet_row": "Al Haramain Amber Oud Bleu Edition Eau de Parfum (EDP) 100ml – Unisex Fragrance",
+   "sheet_name": "Al Haramain Amber Oud Bleu Edition Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431142175107,
+   "variant_id": 63254892872067,
+   "title": "Mugler Alien Goddess Eau de Parfum Gift Set 30ml + 10ml",
+   "variant": "Default Title",
+   "before": 57.99,
+   "after": 58.99,
+   "sheet_row": 718.0,
+   "sheet_name": "Mugler Alien Goddess EDP 30ml+EDP 10ml"
+  },
+  {
+   "product_id": 16431142240643,
+   "variant_id": 63254892937603,
+   "title": "Mugler Alien Man Eau de Toilette & Body Shampoo Travel Set 100ml + 50ml",
+   "variant": "Default Title",
+   "before": 57.99,
+   "after": 69.99,
+   "sheet_row": 721.0,
+   "sheet_name": "Mugler Alien Man Men'S EDT 100ml Refillable + Body Shampoo 50ml Travel Set"
+  },
+  {
+   "product_id": 16431142306179,
+   "variant_id": 63254893003139,
+   "title": "Mugler Angel Elixir Eau de Parfum Refillable Star",
+   "variant": "50ml",
+   "before": 57.99,
+   "after": 56.99,
+   "sheet_row": 724.0,
+   "sheet_name": "Mugler Angel Elixir Refillable Star Women'S EDP 50ml"
+  },
+  {
+   "product_id": 16431142142339,
+   "variant_id": 63254892806531,
+   "title": "Mugler Alien Goddess Supra Florale Eau de Parfum",
+   "variant": "60ml",
+   "before": 56.99,
+   "after": 55.99,
+   "sheet_row": 720.0,
+   "sheet_name": "Mugler Alien Goddess Supra Florale EDP 60 ml"
+  },
+  {
+   "product_id": 16431144370563,
+   "variant_id": 63254900998531,
+   "title": "Narciso Rodriguez Musc Noir For Her Eau de Parfum",
+   "variant": "50ml",
+   "before": 56.99,
+   "after": 55.89,
+   "sheet_row": 740.0,
+   "sheet_name": "Narciso Rodriguez Musc Noir For Her Women'S EDP 50ml"
+  },
+  {
+   "product_id": 16375819469187,
+   "variant_id": 62791239696771,
+   "title": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – Men’s Aromatic Woody Fragrance",
+   "variant": "Default Title",
+   "before": 55.99,
+   "after": 61.99,
+   "sheet_row": 93.0,
+   "sheet_name": "Carolina Herrera 212 VIP Men Eau de Toilette 100ml – Men’s Aromatic Woody Fragrance"
+  },
+  {
+   "product_id": 16385141571971,
+   "variant_id": 62821962056067,
+   "title": "Lancôme Idôle Now Eau de Parfum Florale 50ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 55.99,
+   "after": 60.99,
+   "sheet_row": 288.0,
+   "sheet_name": "Lancôme Idôle Now Eau de Parfum Florale 50ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16281877152131,
+   "variant_id": 62522270646659,
+   "title": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – Luxury Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 64.14,
+   "sheet_row": 69.0,
+   "sheet_name": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – Luxury Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16280515281283,
+   "variant_id": 62512764813699,
+   "title": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – Luxury Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 66.54,
+   "sheet_row": 72.0,
+   "sheet_name": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – Luxury Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16375798202755,
+   "variant_id": 62791166755203,
+   "title": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – Men’s Warm Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 59.34,
+   "sheet_row": 92.0,
+   "sheet_name": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – Men’s Warm Spicy Fragrance"
+  },
+  {
+   "product_id": 16302689583491,
+   "variant_id": 62570560979331,
+   "title": "Dolce & Gabbana Devotion Eau de Parfum 100ml – Luxury Women’s Gourmand Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 62.94,
+   "sheet_row": 120.0,
+   "sheet_name": "Dolce & Gabbana Devotion Eau de Parfum 100ml – Luxury Women’s Gourmand Fragrance"
+  },
+  {
+   "product_id": 16299008360835,
+   "variant_id": 62556787310979,
+   "title": "Dolce & Gabbana The One for Men Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 66.54,
+   "sheet_row": 122.0,
+   "sheet_name": "Dolce & Gabbana The One for Men Eau de Parfum 100ml – Luxury Men’s Fragrance"
+  },
+  {
+   "product_id": 16299138548099,
+   "variant_id": 62557318644099,
+   "title": "Dolce & Gabbana The One for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 70.14,
+   "sheet_row": 124.0,
+   "sheet_name": "Dolce & Gabbana The One for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance"
+  },
+  {
+   "product_id": 16301242843523,
+   "variant_id": 62564299047299,
+   "title": "Dolce & Gabbana The One Gold for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 66.54,
+   "sheet_row": 125.0,
+   "sheet_name": "Dolce & Gabbana The One Gold for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance"
+  },
+  {
+   "product_id": 16302704853379,
+   "variant_id": 62570699915651,
+   "title": "Dolce & Gabbana Devotion Eau de Parfum Gift Set 50ml + 10ml – Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 58.99,
+   "sheet_row": 127.0,
+   "sheet_name": "Dolce & Gabbana Devotion Eau de Parfum Gift Set 50ml + 10ml – Women’s Fragrance Set"
+  },
+  {
+   "product_id": 16296315552131,
+   "variant_id": 62547721322883,
+   "title": "Dolce & Gabbana K Eau de Parfum Gift Set 50ml + 5ml – Men’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 56.94,
+   "sheet_row": 128.0,
+   "sheet_name": "Dolce & Gabbana K Eau de Parfum Gift Set 50ml + 5ml – Men’s Fragrance Set"
+  },
+  {
+   "product_id": 16345750045059,
+   "variant_id": 62688739656067,
+   "title": "Montale Aoud Safran Eau de Parfum 100ml – Luxury Unisex Saffron Oud Fragrance",
+   "variant": "Default Title",
+   "before": 62.99,
+   "after": 65.99,
+   "sheet_row": 299.0,
+   "sheet_name": "Montale Aoud Safran Eau de Parfum 100ml – Luxury Unisex Saffron Oud Fragrance"
+  },
+  {
+   "product_id": 16316357476739,
+   "variant_id": 62621097066883,
+   "title": "Al Haramain Amber Oud White Edition Eau de Parfum – Luxury Women’s Floral Oriental Fragrance",
+   "variant": "200ml",
+   "before": 59.99,
+   "after": 60.54,
+   "sheet_row": 410.0,
+   "sheet_name": "Al Haramain Amber Oud White Edition Eau de Parfum (EDP) 200ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16359709933955,
+   "variant_id": 62731226644867,
+   "title": "Hemel Dorado Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 59.99,
+   "sheet_row": 239.0,
+   "sheet_name": "Hemel Dorado Eau de Parfum 100ml – Luxury Unisex Leather Amber Fragrance"
+  },
+  {
+   "product_id": 16431684026755,
+   "variant_id": 63258975928707,
+   "title": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml",
+   "variant": "Default Title",
+   "before": 54.99,
+   "after": 54.95,
+   "sheet_row": 812.0,
+   "sheet_name": "Thomas Kosmala N:4 Apres L'Amour Travel Kit Parfum & Hair Mist (30ml+30ml)"
+  },
+  {
+   "product_id": 16296422932867,
+   "variant_id": 62548286210435,
+   "title": "Dolce & Gabbana Q Eau de Parfum 100ml – Luxury Women’s Fruity Floral Fragrance",
+   "variant": "Default Title",
+   "before": 53.99,
+   "after": 70.86,
+   "sheet_row": 121.0,
+   "sheet_name": "Dolce & Gabbana Q Eau de Parfum 100ml – Luxury Women’s Fruity Floral Fragrance"
+  },
+  {
+   "product_id": 16359877050755,
+   "variant_id": 62731872764291,
+   "title": "Hemel Gris Eau de Parfum 100ml – Luxury Unisex Citrus Woody Fragrance",
+   "variant": "Default Title",
+   "before": 53.99,
+   "after": 59.99,
+   "sheet_row": 244.0,
+   "sheet_name": "Hemel Gris Eau de Parfum 100ml – Luxury Unisex Citrus Woody Fragrance"
+  },
+  {
+   "product_id": 16359925612931,
+   "variant_id": 62731996430723,
+   "title": "Hemel Plateado Eau de Parfum 100ml – Luxury Unisex Spicy Woody Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 59.99,
+   "sheet_row": 249.0,
+   "sheet_name": "Hemel Plateado Eau de Parfum 100ml – Luxury Unisex Spicy Woody Fragrance"
+  },
+  {
+   "product_id": 16359961788803,
+   "variant_id": 62732089885059,
+   "title": "Hemel Rosado Eau de Parfum 100ml – Luxury Unisex Floral Amber Long lasting Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 59.99,
+   "sheet_row": 251.0,
+   "sheet_name": "Hemel Rosado Eau de Parfum 100ml – Luxury Unisex Floral Amber Long lasting Fragrance"
+  },
+  {
+   "product_id": 16431144206723,
+   "variant_id": 63254900670851,
+   "title": "Narciso Rodriguez For Her Eau de Toilette",
+   "variant": "100ml",
+   "before": 53.99,
+   "after": 55.99,
+   "sheet_row": 732.0,
+   "sheet_name": "Narcisco Rodriguez For Her EDT 100ml"
+  },
+  {
+   "product_id": 16376098652547,
+   "variant_id": 62792077083011,
+   "title": "Elie Saab Le Parfum Eau de Parfum Gift Set 90ml + Body Lotion 75ml + Shower Gel 75ml – Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 56.94,
+   "sheet_row": 154.0,
+   "sheet_name": "Elie Saab Le Parfum Eau de Parfum Gift Set 90ml + Body Lotion 75ml + Shower Gel 75ml – Women’s Fragrance Set"
+  },
+  {
+   "product_id": 16383629885827,
+   "variant_id": 62817567310211,
+   "title": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 57.42,
+   "sheet_row": 214.0,
+   "sheet_name": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16378614546819,
+   "variant_id": 62798615183747,
+   "title": "Marc Jacobs Perfect Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 56.94,
+   "sheet_row": 292.0,
+   "sheet_name": "Marc Jacobs Perfect Eau de Parfum 50ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16345744998787,
+   "variant_id": 62688735461763,
+   "title": "Montale Aoud Damascus Eau de Parfum 100ml – Women’s Rose Oud Longlasting Fragrance",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 63.78,
+   "sheet_row": 298.0,
+   "sheet_name": "Montale Aoud Damascus Eau de Parfum 100ml – Women’s Rose Oud Longlasting Fragrance"
+  },
+  {
+   "product_id": 16421449957763,
+   "variant_id": 63200321077635,
+   "title": "Attar Collection Crystal Love Eau de Parfum for Men 100ml",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 60.99,
+   "sheet_row": 430.0,
+   "sheet_name": "Attar Collection Crystal Love Eau de Parfum (EDP) 100ml – Men's Fragrance"
+  },
+  {
+   "product_id": 16421450056067,
+   "variant_id": 63200321175939,
+   "title": "Attar Collection The Persian Gold Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 66.99,
+   "sheet_row": 433.0,
+   "sheet_name": "Attar Collection The Persian Gold Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421462376835,
+   "variant_id": 63200345883011,
+   "title": "Armaf Club de Nuit Men's Parfum Gift Set (Intense Man, Sillage, Milestone) 3 x 30ml",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 53.34,
+   "sheet_row": 614.0,
+   "sheet_name": "Armaf Club De Nuit Set (intense Man + Sillage + Milestone) Parfum 3x30ml – Men's Fragrance Gift Set"
+  },
+  {
+   "product_id": 16431696085379,
+   "variant_id": 63259039793539,
+   "title": "Versace Yellow Diamond Eau de Toilette 90ml",
+   "variant": "Default Title",
+   "before": 52.99,
+   "after": 50.94,
+   "sheet_row": 828.0,
+   "sheet_name": "Versace Yellow Diamond Women'S EDT 90ml"
+  },
+  {
+   "product_id": 16371438289283,
+   "variant_id": 62760419852675,
+   "title": "Chloé Nomade Eau de Parfum 50ml – Women’s Floral Chypre Fragrance",
+   "variant": "Default Title",
+   "before": 51.99,
+   "after": 55.74,
+   "sheet_row": 95.0,
+   "sheet_name": "Chloé Nomade Eau de Parfum 50ml – Women’s Floral Chypre Fragrance"
+  },
+  {
+   "product_id": 16274978406787,
+   "variant_id": 62484680442243,
+   "title": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women",
+   "variant": "Default Title",
+   "before": 51.99,
+   "after": 52.99,
+   "sheet_row": 113.0,
+   "sheet_name": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women"
+  },
+  {
+   "product_id": 16376039932291,
+   "variant_id": 62791959642499,
+   "title": "Elie Saab La Collection des Essences No. 4 Oud Eau de Parfum 100ml – Luxury Unisex Oud Fragrance",
+   "variant": "Default Title",
+   "before": 51.99,
+   "after": 55.74,
+   "sheet_row": 148.0,
+   "sheet_name": "Elie Saab La Collection des Essences No. 4 Oud Eau de Parfum 100ml – Luxury Unisex Oud Fragrance"
+  },
+  {
+   "product_id": 16305569694083,
+   "variant_id": 62586891207043,
+   "title": "Al Haramain Amber Oud Extreme Gold Edition Extrait de Parfum – Luxury Unisex Fruity Amber Fragrance",
+   "variant": "100ml",
+   "before": 46.99,
+   "after": 50.94,
+   "sheet_row": 400.0,
+   "sheet_name": "Al Haramain Amber Oud Extreme Gold Edition Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431141912963,
+   "variant_id": 63254890185091,
+   "title": "Mugler Alien Eau de Parfum Refillable",
+   "variant": "30ml",
+   "before": 50.99,
+   "after": 46.38,
+   "sheet_row": 715.0,
+   "sheet_name": "Mugler Alien 30ml EDP Refillable"
+  },
+  {
+   "product_id": 16431142338947,
+   "variant_id": 63254893068675,
+   "title": "Mugler Angel Nova Eau de Toilette 50ml",
+   "variant": "Default Title",
+   "before": 50.99,
+   "after": 49.99,
+   "sheet_row": 725.0,
+   "sheet_name": "Mugler Angel Nova Women'S EDT 50ml"
+  },
+  {
+   "product_id": 16431144272259,
+   "variant_id": 63254900769155,
+   "title": "Narciso Rodriguez For Her Eau de Parfum",
+   "variant": "50ml",
+   "before": 50.99,
+   "after": 46.74,
+   "sheet_row": 736.0,
+   "sheet_name": "Narciso Rodriguez For Her Women'S EDP 50ml"
+  },
+  {
+   "product_id": 16431526216067,
+   "variant_id": 63257659212163,
+   "title": "Paco Rabanne Women's Miniature Set (Lady Million, Olympéa, Fame) 5ml + 6ml + 4ml + 4ml",
+   "variant": "Default Title",
+   "before": 50.99,
+   "after": 47.99,
+   "sheet_row": 745.0,
+   "sheet_name": "Paco Rabanne Women'S Mini Set (Lady Million EDP 5ml+Olympea EDP 6ml+Fame EDP 4ml+Fame Parfum 4ml)"
+  },
+  {
+   "product_id": 16431528280451,
+   "variant_id": 63257672581507,
+   "title": "Paco Rabanne Men's Miniature Set (Phantom, Invictus, 1 Million Elixir, 1 Million) 4 x 5ml",
+   "variant": "Default Title",
+   "before": 50.99,
+   "after": 46.99,
+   "sheet_row": 759.0,
+   "sheet_name": "Paco Rabanne Miniature Set 4X5ml (Phantom+Invictus+1Million Elixir+1 Million)"
+  },
+  {
+   "product_id": 16431676260739,
+   "variant_id": 63258916422019,
+   "title": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml",
+   "variant": "Default Title",
+   "before": 50.99,
+   "after": 46.99,
+   "sheet_row": 787.0,
+   "sheet_name": "Salvatore Ferragamo Ferragamo Intense Leather Men'S Set EDP 100ml + EDP 10ml + Shampoo & Sg 100ml"
+  },
+  {
+   "product_id": 16281929843075,
+   "variant_id": 62522384318851,
+   "title": "Chopard Amber Malaki Eau de Parfum 80ml – Luxury Unisex Amber Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 47.99,
+   "sheet_row": 102.0,
+   "sheet_name": "Chopard Amber Malaki Eau de Parfum 80ml – Luxury Unisex Amber Fragrance"
+  },
+  {
+   "product_id": 16376077746563,
+   "variant_id": 62792017510787,
+   "title": "Elie Saab Le Parfum Eau de Parfum Intense 90ml – Women’s Floral Amber Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 54.99,
+   "sheet_row": 151.0,
+   "sheet_name": "Elie Saab Le Parfum Eau de Parfum Intense 90ml – Women’s Floral Amber Fragrance"
+  },
+  {
+   "product_id": 16339025396099,
+   "variant_id": 62658312438147,
+   "title": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 54.99,
+   "sheet_row": 160.0,
+   "sheet_name": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance"
+  },
+  {
+   "product_id": 16383645254019,
+   "variant_id": 62817597227395,
+   "title": "Givenchy Gentleman Originale Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 53.99,
+   "sheet_row": 215.0,
+   "sheet_name": "Givenchy Gentleman Originale Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance"
+  },
+  {
+   "product_id": 16318439391619,
+   "variant_id": 62627623469443,
+   "title": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 61.99,
+   "sheet_row": 235.0,
+   "sheet_name": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – Women’s Fruity Floral Fragrance"
+  },
+  {
+   "product_id": 16421448581507,
+   "variant_id": 63200318488963,
+   "title": "Attar Collection Areej Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 59.99,
+   "sheet_row": 428.0,
+   "sheet_name": "Attar Collection Areej Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421449990531,
+   "variant_id": 63200321110403,
+   "title": "Attar Collection Crystal Love Eau de Parfum for Women 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 56.99,
+   "sheet_row": 431.0,
+   "sheet_name": "Attar Collection Crystal Love Eau de Parfum (EDP) 100ml – Women's Fragrance"
+  },
+  {
+   "product_id": 16421451268483,
+   "variant_id": 63200323240323,
+   "title": "Franck Olivier Ambre Gold Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 55.99,
+   "sheet_row": 437.0,
+   "sheet_name": "Franck Olivier Ambre Gold Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421452284291,
+   "variant_id": 63200324682115,
+   "title": "Franck Olivier Black Tiger Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 59.99,
+   "sheet_row": 445.0,
+   "sheet_name": "Franck Olivier Black Tiger Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421456281987,
+   "variant_id": 63200334774659,
+   "title": "Franck Olivier Magic Blossom Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 59.99,
+   "sheet_row": 458.0,
+   "sheet_name": "Franck Olivier Magic Blossom Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421457265027,
+   "variant_id": 63200336249219,
+   "title": "Franck Olivier Parisian Oud Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 72.99,
+   "sheet_row": 463.0,
+   "sheet_name": "Franck Olivier Parisian Oud Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421444452739,
+   "variant_id": 63200312361347,
+   "title": "Franck Olivier Red Addict Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 55.99,
+   "sheet_row": 467.0,
+   "sheet_name": "Franck Olivier Red Addict Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421444518275,
+   "variant_id": 63200312426883,
+   "title": "Franck Olivier Santal Velvet Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 62.99,
+   "sheet_row": 468.0,
+   "sheet_name": "Franck Olivier Santal Velvet Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421447467395,
+   "variant_id": 63200316981635,
+   "title": "Franck Olivier Tribal Collection Privee le Parfum 100ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 62.99,
+   "sheet_row": 475.0,
+   "sheet_name": "Franck Olivier Tribal Collection Privee le Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421463458179,
+   "variant_id": 63200347554179,
+   "title": "Armaf Club de Nuit Women's Parfum Gift Set (Woman, Intense Woman, Milestone) 3 x 30ml",
+   "variant": "Default Title",
+   "before": 49.99,
+   "after": 53.99,
+   "sheet_row": 615.0,
+   "sheet_name": "Armaf Club De Nuit Set (woman + Intense Woman + Milestone) Parfum 3x30ml – Women's Fragrance Gift Set"
+  },
+  {
+   "product_id": 16431141880195,
+   "variant_id": 63254890152323,
+   "title": "Moschino Toy Boy Eau de Parfum",
+   "variant": "100ml",
+   "before": 49.99,
+   "after": 45.99,
+   "sheet_row": 713.0,
+   "sheet_name": "Moschino Toy Boy Men'S EDP 100ml"
+  },
+  {
+   "product_id": 16364328452483,
+   "variant_id": 62742309863811,
+   "title": "Burberry My Burberry Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 53.99,
+   "sheet_row": 63.0,
+   "sheet_name": "Burberry My Burberry Eau de Parfum 50ml – Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16364386648451,
+   "variant_id": 62742421078403,
+   "title": "Burberry My Burberry Black Parfum 50ml – Women’s Rich Floral Amber Fragrance",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 53.99,
+   "sheet_row": 66.0,
+   "sheet_name": "Burberry My Burberry Black Parfum 50ml – Women’s Rich Floral Amber Fragrance"
+  },
+  {
+   "product_id": 16371417153923,
+   "variant_id": 62760387576195,
+   "title": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé EDP 20ml + Nomade EDP 20ml",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 52.99,
+   "sheet_row": 100.0,
+   "sheet_name": "Chloé Women’s Miniature Eau de Parfum Gift Set – Chloé EDP 20ml + Nomade EDP 20ml"
+  },
+  {
+   "product_id": 16376523489667,
+   "variant_id": 62793467756931,
+   "title": "Elie Saab Le Parfum Lumière Eau de Parfum Gift Set 90ml + 10ml + Body Lotion 75ml – Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 52.99,
+   "sheet_row": 155.0,
+   "sheet_name": "Elie Saab Le Parfum Lumière Eau de Parfum Gift Set 90ml + 10ml + Body Lotion 75ml – Women’s Fragrance Set"
+  },
+  {
+   "product_id": 16431133491587,
+   "variant_id": 63254827073923,
+   "title": "Issey Miyake L'Eau d'Issey Eau de Toilette 50ml",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 33.99,
+   "sheet_row": 685.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Women'S EDT 50ml"
+  },
+  {
+   "product_id": 16431133557123,
+   "variant_id": 63254827565443,
+   "title": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense",
+   "variant": "100ml",
+   "before": 48.99,
+   "after": 43.99,
+   "sheet_row": 686.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Eau & Magnolia Intense Women'S EDT 100ml"
+  },
+  {
+   "product_id": 16431138931075,
+   "variant_id": 63254876225923,
+   "title": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml",
+   "variant": "Default Title",
+   "before": 48.99,
+   "after": 43.99,
+   "sheet_row": 693.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Rose&Rose Women'S EDP Intense 90ml"
+  },
+  {
+   "product_id": 16303446131075,
+   "variant_id": 62575326527875,
+   "title": "Gucci Guilty Pour Femme Eau de Parfum Gift Set 50ml + Body Lotion 50ml – Women’s Fragrance Set",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 52.99,
+   "sheet_row": 225.0,
+   "sheet_name": "Gucci Guilty Pour Femme Eau de Parfum Gift Set 50ml + Body Lotion 50ml – Women’s Fragrance Set"
+  },
+  {
+   "product_id": 15975005716867,
+   "variant_id": 58072993923459,
+   "title": "Korloff Royal Rose Eau De Parfum 88ML",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 38.99,
+   "sheet_row": 278.0,
+   "sheet_name": "Korloff Royal Rose Eau De Parfum 88ML"
+  },
+  {
+   "product_id": 15975001915779,
+   "variant_id": 58072986648963,
+   "title": "Royal Oud Korloff Paris Eau De Parfum 88ML",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 31.99,
+   "sheet_row": 281.0,
+   "sheet_name": "Royal Oud Korloff Paris Eau De Parfum 88ML"
+  },
+  {
+   "product_id": 16378710065539,
+   "variant_id": 62798904820099,
+   "title": "Shiseido Zen Eau de Parfum 100ml – Women’s Floral Woody Fragrance",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 51.99,
+   "sheet_row": 318.0,
+   "sheet_name": "Shiseido Zen Eau de Parfum 100ml – Women’s Floral Woody Fragrance"
+  },
+  {
+   "product_id": 16431133229443,
+   "variant_id": 63254825107843,
+   "title": "Clinique Aromatics Elixir Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 45.99,
+   "sheet_row": 680.0,
+   "sheet_name": "Clinique Aromatics Elixir Eau de Parfum 100ml"
+  },
+  {
+   "product_id": 16305337237891,
+   "variant_id": 62585465569667,
+   "title": "Al Haramain Amber Oud Carbon Edition Eau de Parfum – Men’s Fresh Woody Fragrance",
+   "variant": "100ml",
+   "before": 47.99,
+   "after": 53.99,
+   "sheet_row": 397.0,
+   "sheet_name": "Al Haramain Amber Oud Carbon Edition Eau de Parfum (EDP) 100ml – Men's Fragrance"
+  },
+  {
+   "product_id": 16306908594563,
+   "variant_id": 62593303576963,
+   "title": "Al Haramain Amber Oud Ruby Edition Eau de Parfum – Luxury Unisex Amber Floral Fragrance",
+   "variant": "120ml",
+   "before": 46.99,
+   "after": 53.99,
+   "sheet_row": 406.0,
+   "sheet_name": "Al Haramain Amber Oud Ruby Edition Eau de Parfum (EDP) 120ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421448614275,
+   "variant_id": 63200318554499,
+   "title": "Attar Collection Azalea Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 53.99,
+   "sheet_row": 429.0,
+   "sheet_name": "Attar Collection Azalea Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421450023299,
+   "variant_id": 63200321143171,
+   "title": "Attar Collection Floral Musk Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 56.99,
+   "sheet_row": 432.0,
+   "sheet_name": "Attar Collection Floral Musk Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431144206723,
+   "variant_id": 63254900638083,
+   "title": "Narciso Rodriguez For Her Eau de Toilette",
+   "variant": "50ml",
+   "before": 46.99,
+   "after": 45.99,
+   "sheet_row": 737.0,
+   "sheet_name": "Narciso Rodriguez For Her Women'S EDT 50ml"
+  },
+  {
+   "product_id": 16431144337795,
+   "variant_id": 63254900932995,
+   "title": "Narciso Rodriguez For Him Bleu Noir Eau de Toilette 50ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 41.99,
+   "sheet_row": 738.0,
+   "sheet_name": "Narciso Rodriguez For Him Bleu Noir Men'S EDT 50ml"
+  },
+  {
+   "product_id": 16431526412675,
+   "variant_id": 63257660195203,
+   "title": "Paco Rabanne Fame Eau de Parfum Intense 30ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 45.99,
+   "sheet_row": 748.0,
+   "sheet_name": "Paco Rabanne Fame EDP Intense Spray 30ml"
+  },
+  {
+   "product_id": 16431526674819,
+   "variant_id": 63257661735299,
+   "title": "Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 41.99,
+   "sheet_row": 752.0,
+   "sheet_name": "Paco Rabanne Giftset Miniature Set EDP 8X2ml"
+  },
+  {
+   "product_id": 16431528247683,
+   "variant_id": 63257672548739,
+   "title": "Paco Rabanne Lady Million Royal Eau de Parfum 30ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 42.99,
+   "sheet_row": 758.0,
+   "sheet_name": "Paco Rabanne Lady Million Royal Women'S EDP Spray 30ml"
+  },
+  {
+   "product_id": 16431529296259,
+   "variant_id": 63257678512515,
+   "title": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 42.99,
+   "sheet_row": 771.0,
+   "sheet_name": "Ralph Lauren Polo Red Men'S EDT 125ml Refillable"
+  },
+  {
+   "product_id": 16431529329027,
+   "variant_id": 63257678545283,
+   "title": "Ralph Lauren Polo Red Parfum 75ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 41.99,
+   "sheet_row": 772.0,
+   "sheet_name": "Ralph Lauren Polo Red Parfum 75ml"
+  },
+  {
+   "product_id": 16431676522883,
+   "variant_id": 63258917896579,
+   "title": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 46.99,
+   "after": 47.99,
+   "sheet_row": 791.0,
+   "sheet_name": "Salvatore Ferragamo Signorina Eleganza Women'S EDP 100ml"
+  },
+  {
+   "product_id": 16431676621187,
+   "variant_id": 63258918257027,
+   "title": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum",
+   "variant": "100ml",
+   "before": 46.99,
+   "after": 41.99,
+   "sheet_row": 793.0,
+   "sheet_name": "Salvatore Ferragamo Signorina Ribelle Women'S EDP 100ml"
+  },
+  {
+   "product_id": 16364319768963,
+   "variant_id": 62742282174851,
+   "title": "Burberry Women’s Miniature Perfume Set 4x5ml – Her London Dream, Her EDT & Her EDP",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 65.0,
+   "sheet_name": "Burberry Women’s Miniature Perfume Set 4x5ml – Her London Dream, Her EDT & Her EDP"
+  },
+  {
+   "product_id": 16371391463811,
+   "variant_id": 62760331379075,
+   "title": "Chloé Women’s Miniature Perfume Set 4x5ml – Nomade EDT, Rose Tangerine EDT, Chloé EDP & Nomade EDP",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 47.99,
+   "sheet_row": 101.0,
+   "sheet_name": "Chloé Women’s Miniature Perfume Set 4x5ml – Nomade EDT, Rose Tangerine EDT, Chloé EDP & Nomade EDP"
+  },
+  {
+   "product_id": 16381256499587,
+   "variant_id": 62805653717379,
+   "title": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.14,
+   "sheet_row": 132.0,
+   "sheet_name": "Dunhill Signature Collection Agar Wood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance"
+  },
+  {
+   "product_id": 16381244604803,
+   "variant_id": 62805616296323,
+   "title": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – Men’s Citrus Aromatic Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 133.0,
+   "sheet_name": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – Men’s Citrus Aromatic Fragrance"
+  },
+  {
+   "product_id": 16381252370819,
+   "variant_id": 62805632844163,
+   "title": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – Men’s Amber Woody Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 134.0,
+   "sheet_name": "Dunhill Signature Collection Arabian Desert Eau de Parfum 100ml – Men’s Amber Woody Fragrance"
+  },
+  {
+   "product_id": 16381263610243,
+   "variant_id": 62805690679683,
+   "title": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – Men’s Leather Woody Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 49.99,
+   "sheet_row": 135.0,
+   "sheet_name": "Dunhill Signature Collection British Leather Eau de Parfum 100ml – Men’s Leather Woody Fragrance"
+  },
+  {
+   "product_id": 16381270655363,
+   "variant_id": 62805713518979,
+   "title": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – Men’s Amber Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 47.99,
+   "after": 49.99,
+   "sheet_row": 136.0,
+   "sheet_name": "Dunhill Signature Collection Egyptian Smoke Eau de Parfum 100ml – Men’s Amber Spicy Fragrance"
+  },
+  {
+   "product_id": 16381273276803,
+   "variant_id": 62805726069123,
+   "title": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 137.0,
+   "sheet_name": "Dunhill Signature Collection Indian Sandalwood Eau de Parfum 100ml – Men’s Woody Spicy Fragrance"
+  },
+  {
+   "product_id": 16381278683523,
+   "variant_id": 62805733998979,
+   "title": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – Men’s Woody Amber Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 50.99,
+   "sheet_row": 138.0,
+   "sheet_name": "Dunhill Signature Collection Mongolian Cashmere Eau de Parfum 100ml – Men’s Woody Amber Fragrance"
+  },
+  {
+   "product_id": 16381284614531,
+   "variant_id": 62805747696003,
+   "title": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – Men’s Amber Spicy Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 139.0,
+   "sheet_name": "Dunhill Signature Collection Moroccan Amber Eau de Parfum 100ml – Men’s Amber Spicy Fragrance"
+  },
+  {
+   "product_id": 16381286187395,
+   "variant_id": 62805772075395,
+   "title": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – Men’s Aromatic Woody Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 140.0,
+   "sheet_name": "Dunhill Signature Collection Nordic Fougère Eau de Parfum 100ml – Men’s Aromatic Woody Fragrance"
+  },
+  {
+   "product_id": 16381291626883,
+   "variant_id": 62805779906947,
+   "title": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – Men’s Aromatic Fougere Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 46.99,
+   "sheet_row": 141.0,
+   "sheet_name": "Dunhill Signature Collection Valensole Lavender Eau de Parfum 100ml – Men’s Aromatic Fougere Fragrance"
+  },
+  {
+   "product_id": 16376021188995,
+   "variant_id": 62791939391875,
+   "title": "Elie Saab La Collection des Essences No. 1 Rose Eau de Parfum 100ml – Luxury Unisex Rose Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 47.99,
+   "sheet_row": 147.0,
+   "sheet_name": "Elie Saab La Collection des Essences No. 1 Rose Eau de Parfum 100ml – Luxury Unisex Rose Fragrance"
+  },
+  {
+   "product_id": 16376063230339,
+   "variant_id": 62791986971011,
+   "title": "Elie Saab Le Parfum Eau de Parfum 50ml – Women’s Floral Amber Fragrance",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 48.99,
+   "sheet_row": 150.0,
+   "sheet_name": "Elie Saab Le Parfum Eau de Parfum 50ml – Women’s Floral Amber Fragrance"
+  },
+  {
+   "product_id": 16431139586435,
+   "variant_id": 63254879764867,
+   "title": "Lalique Lion Eau de Parfum 125ml",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 33.99,
+   "sheet_row": 704.0,
+   "sheet_name": "Lalique Lion EDP 125ml"
+  },
+  {
+   "product_id": 16431529066883,
+   "variant_id": 63257678086531,
+   "title": "Paco Rabanne Ultraviolet Eau de Parfum 80ml",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 40.99,
+   "sheet_row": 766.0,
+   "sheet_name": "Paco Rabanne Ultraviolet Women'S EDP 80ml"
+  },
+  {
+   "product_id": 16431529918851,
+   "variant_id": 63257680052611,
+   "title": "Roberto Cavalli Paradiso Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 40.99,
+   "sheet_row": 781.0,
+   "sheet_name": "Roberto Cavalli Paradiso Women'S EDP 100ml"
+  },
+  {
+   "product_id": 16431529951619,
+   "variant_id": 63257680085379,
+   "title": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 45.99,
+   "after": 40.99,
+   "sheet_row": 782.0,
+   "sheet_name": "Roberto Cavalli Paradiso Assoluto Women'S EDP 100ml"
+  },
+  {
+   "product_id": 16321894941059,
+   "variant_id": 62631167361411,
+   "title": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – Women’s Fragrance Collection",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 50.99,
+   "sheet_row": 236.0,
+   "sheet_name": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml – Women’s Fragrance Collection"
+  },
+  {
+   "product_id": 16337075536259,
+   "variant_id": 62652628107651,
+   "title": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – Luxury Unisex Rose Fragrance",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 53.99,
+   "sheet_row": 317.0,
+   "sheet_name": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – Luxury Unisex Rose Fragrance"
+  },
+  {
+   "product_id": 15982691484035,
+   "variant_id": 58104345133443,
+   "title": "The Woods Collection Azure Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 40.99,
+   "after": 44.99,
+   "sheet_row": 342.0,
+   "sheet_name": "The Woods Collection Azure Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982757478787,
+   "variant_id": 58104540529027,
+   "title": "The Woods Collection Eden Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 40.99,
+   "after": 44.99,
+   "sheet_row": 343.0,
+   "sheet_name": "The Woods Collection Eden Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982752563587,
+   "variant_id": 58104518672771,
+   "title": "The Woods Collection Elysian Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 40.99,
+   "after": 49.99,
+   "sheet_row": 344.0,
+   "sheet_name": "The Woods Collection Elysian Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982736540035,
+   "variant_id": 58104439865731,
+   "title": "The Woods Collection Green Walk Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 345.0,
+   "sheet_name": "The Woods Collection Green Walk Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982747025795,
+   "variant_id": 58104459231619,
+   "title": "The Woods Collection Mirage Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 346.0,
+   "sheet_name": "The Woods Collection Mirage Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982750695811,
+   "variant_id": 58104509792643,
+   "title": "The Woods Collection Pure Shine Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 347.0,
+   "sheet_name": "The Woods Collection Pure Shine Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982725333379,
+   "variant_id": 58104412963203,
+   "title": "The Woods Collection Secret Source Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 348.0,
+   "sheet_name": "The Woods Collection Secret Source Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982744469891,
+   "variant_id": 58104452415875,
+   "title": "The Woods Collection Sunrise Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 40.99,
+   "after": 44.99,
+   "sheet_row": 349.0,
+   "sheet_name": "The Woods Collection Sunrise Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982704853379,
+   "variant_id": 58104372986243,
+   "title": "The Woods Collection Timeless Sands Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 40.99,
+   "after": 44.99,
+   "sheet_row": 350.0,
+   "sheet_name": "The Woods Collection Timeless Sands Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982748467587,
+   "variant_id": 58104468930947,
+   "title": "The Woods Collection Twilight Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 351.0,
+   "sheet_name": "The Woods Collection Twilight Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 15982711472515,
+   "variant_id": 58104388747651,
+   "title": "The Woods Collection Wild Roses Eau De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 44.99,
+   "sheet_row": 352.0,
+   "sheet_name": "The Woods Collection Wild Roses Eau De Parfum 100ML"
+  },
+  {
+   "product_id": 16421469684099,
+   "variant_id": 63200357843331,
+   "title": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 53.99,
+   "sheet_row": 596.0,
+   "sheet_name": "Mercedes Benz Club Black Set + Shower Gel (tin Box) Eau de Toilette (EDT) 100ml – Men's Fragrance Gift Set"
+  },
+  {
+   "product_id": 16421467619715,
+   "variant_id": 63200354304387,
+   "title": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 49.99,
+   "sheet_row": 649.0,
+   "sheet_name": "Natural By Woods Earth 100 + Atomizer Eau de Parfum (EDP) 5ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431133360515,
+   "variant_id": 63254826516867,
+   "title": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 38.99,
+   "sheet_row": 683.0,
+   "sheet_name": "Issey Miyake A Drop D'Issey Women'S EDP Fraiche 90ml"
+  },
+  {
+   "product_id": 16431133622659,
+   "variant_id": 63254827893123,
+   "title": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette",
+   "variant": "125ml",
+   "before": 44.99,
+   "after": 36.99,
+   "sheet_row": 689.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Pour Homme EDT 125ml"
+  },
+  {
+   "product_id": 16431142273411,
+   "variant_id": 63254892970371,
+   "title": "Mugler Angel Eau de Parfum 25ml",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 38.99,
+   "sheet_row": 722.0,
+   "sheet_name": "Mugler Angel EDP Vapo 25 ml"
+  },
+  {
+   "product_id": 16431529099651,
+   "variant_id": 63257678119299,
+   "title": "Paco Rabanne XS Black Eau de Toilette 100ml",
+   "variant": "Default Title",
+   "before": 44.99,
+   "after": 38.99,
+   "sheet_row": 767.0,
+   "sheet_name": "Paco Rabanne Xs 2018 Men'S EDT 100ml (Black)"
+  },
+  {
+   "product_id": 16371515490691,
+   "variant_id": 62760707293571,
+   "title": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – Women’s Floral Woody Fragrance",
+   "variant": "50ml",
+   "before": 43.99,
+   "after": 57.99,
+   "sheet_row": 96.0,
+   "sheet_name": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – Women’s Floral Woody Fragrance"
+  },
+  {
+   "product_id": 16371596984707,
+   "variant_id": 62760862843267,
+   "title": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – Women’s Floral Woody Fragrance",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 52.99,
+   "sheet_row": 98.0,
+   "sheet_name": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – Women’s Floral Woody Fragrance"
+  },
+  {
+   "product_id": 16381088399747,
+   "variant_id": 62805086536067,
+   "title": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – Unisex Woody Spicy Tobacco Fragrance",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 45.99,
+   "sheet_row": 309.0,
+   "sheet_name": "S.T. Dupont Perfect Tobacco Eau de Parfum 100ml – Unisex Woody Spicy Tobacco Fragrance"
+  },
+  {
+   "product_id": 16381132112259,
+   "variant_id": 62805352808835,
+   "title": "S.T. Dupont Royal Amber Eau de Parfum 100ml – Unisex Amber Woody Fragrance",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 49.99,
+   "sheet_row": 311.0,
+   "sheet_name": "S.T. Dupont Royal Amber Eau de Parfum 100ml – Unisex Amber Woody Fragrance"
+  },
+  {
+   "product_id": 16421444747651,
+   "variant_id": 63200312721795,
+   "title": "Afnan Tribute Blue Eau de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 44.99,
+   "sheet_row": 390.0,
+   "sheet_name": "Afnan Tribute Blue Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421463622019,
+   "variant_id": 63200347718019,
+   "title": "Armaf Club de Nuit Private Key To My Dreams Extrait de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 44.99,
+   "sheet_row": 618.0,
+   "sheet_name": "Armaf Club De Nuit Private Key To My Dreams Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421464375683,
+   "variant_id": 63200348930435,
+   "title": "Armaf Club de Nuit Private Key To My Success Extrait de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 44.99,
+   "sheet_row": 622.0,
+   "sheet_name": "Armaf Club De Nuit Private Key To My Success Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421469061507,
+   "variant_id": 63200356761987,
+   "title": "Natural By Woods Karma Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 44.99,
+   "sheet_row": 654.0,
+   "sheet_name": "Natural By Woods Karma + Atomizer Eau de Parfum (EDP) 100ml + 5ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 15971408773507,
+   "variant_id": 58060321390979,
+   "title": "Sap Le Roi Extrait De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 45.99,
+   "sheet_row": 659.0,
+   "sheet_name": "Sap le Roi ( Fr ) Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 15971403137411,
+   "variant_id": 58060291309955,
+   "title": "Sap Oud Leopard FR Extrait De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 45.99,
+   "sheet_row": 660.0,
+   "sheet_name": "Sap Oud Leopard ( Fr ) Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 15971403334019,
+   "variant_id": 58060291703171,
+   "title": "Sap Patchouli Intense Extrait De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 45.99,
+   "sheet_row": 661.0,
+   "sheet_name": "Sap Patchouli Intense ( Fr ) Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 15971404841347,
+   "variant_id": 58060303139203,
+   "title": "Sap Saffron Oud Extrait De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 47.99,
+   "sheet_row": 662.0,
+   "sheet_name": "Sap Saffron Oud ( Fr ) Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 15970943402371,
+   "variant_id": 58058418749827,
+   "title": "Sap Vert Club Extrait De Parfum 100ML",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 47.99,
+   "sheet_row": 663.0,
+   "sheet_name": "Sap Vert Club ( Fr ) Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431133557123,
+   "variant_id": 63254827532675,
+   "title": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense",
+   "variant": "50ml",
+   "before": 43.99,
+   "after": 37.99,
+   "sheet_row": 687.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Eau & Magnolia Intense Women'S EDT 50ml"
+  },
+  {
+   "product_id": 16431133622659,
+   "variant_id": 63254827860355,
+   "title": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette",
+   "variant": "75ml",
+   "before": 43.99,
+   "after": 32.99,
+   "sheet_row": 688.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Pour Homme Men'S EDT 75ml"
+  },
+  {
+   "product_id": 16431133655427,
+   "variant_id": 63254828155267,
+   "title": "Issey Miyake L'Eau d'Issey Pour Homme Wood & Wood Eau de Parfum Intense",
+   "variant": "100ml",
+   "before": 43.99,
+   "after": 46.99,
+   "sheet_row": 690.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Pour Homme Wood&Wood Men'S EDP Intense 100ml"
+  },
+  {
+   "product_id": 16431133720963,
+   "variant_id": 63254829007235,
+   "title": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 37.99,
+   "sheet_row": 692.0,
+   "sheet_name": "Issey Miyake L'Eau D'Issey Pure Petale De Nectar Women'S EDT 90ml"
+  },
+  {
+   "product_id": 16431676457347,
+   "variant_id": 63258917601667,
+   "title": "Salvatore Ferragamo Signorina Eau de Toilette 100ml",
+   "variant": "Default Title",
+   "before": 43.99,
+   "after": 41.99,
+   "sheet_row": 790.0,
+   "sheet_name": "Salvatore Ferragamo Signorina Women'S EDT 100ml"
+  },
+  {
+   "product_id": 16282276069763,
+   "variant_id": 62523748123011,
+   "title": "Chopard Black Incense Malaki Eau de Parfum 80ml – Luxury Unisex Incense Fragrance",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 44.99,
+   "sheet_row": 103.0,
+   "sheet_name": "Chopard Black Incense Malaki Eau de Parfum 80ml – Luxury Unisex Incense Fragrance"
+  },
+  {
+   "product_id": 16282354745731,
+   "variant_id": 62524415508867,
+   "title": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – Luxury Women’s Floral Fragrance",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 43.99,
+   "sheet_row": 104.0,
+   "sheet_name": "Chopard Imperiale Iris Malika Eau de Parfum 100ml – Luxury Women’s Floral Fragrance"
+  },
+  {
+   "product_id": 16383783108995,
+   "variant_id": 62818058142083,
+   "title": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – 5 Piece Perfume Collection",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 44.99,
+   "sheet_row": 265.0,
+   "sheet_name": "Jimmy Choo Women’s Miniature Fragrance Gift Set 5x4.5ml – 5 Piece Perfume Collection"
+  },
+  {
+   "product_id": 15981366215043,
+   "variant_id": 58100459667843,
+   "title": "Signature Le Femme Gold 100ml EDP Spray",
+   "variant": "Default Title",
+   "before": 35.99,
+   "after": 42.99,
+   "sheet_row": 323.0,
+   "sheet_name": "Signature Le Femme Gold 100ml EDP Spray"
+  },
+  {
+   "product_id": 16385192788355,
+   "variant_id": 62822222365059,
+   "title": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance",
+   "variant": "50ml",
+   "before": 35.99,
+   "after": 42.99,
+   "sheet_row": 383.0,
+   "sheet_name": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance"
+  },
+  {
+   "product_id": 16306908594563,
+   "variant_id": 62593303544195,
+   "title": "Al Haramain Amber Oud Ruby Edition Eau de Parfum – Luxury Unisex Amber Floral Fragrance",
+   "variant": "100ml",
+   "before": 41.99,
+   "after": 50.99,
+   "sheet_row": 405.0,
+   "sheet_name": "Al Haramain Amber Oud Ruby Edition Eau de Parfum (EDP) 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421465588099,
+   "variant_id": 63200350830979,
+   "title": "Fomo Essence of The Other World Extrait de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 43.99,
+   "sheet_row": 638.0,
+   "sheet_name": "Fomo Essence of The Other World Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421465620867,
+   "variant_id": 63200350863747,
+   "title": "Fomo Fraglover's Tea Extrait de Parfum 100ml",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 43.99,
+   "sheet_row": 639.0,
+   "sheet_name": "Fomo Fraglover's Tea Extrait de Parfum 100ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421468930435,
+   "variant_id": 63200356598147,
+   "title": "Natural By Woods Flame Eau de Parfum with Travel Atomiser 100ml + 15ml",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 44.99,
+   "sheet_row": 652.0,
+   "sheet_name": "Natural By Woods Flame 100 15ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16421469782403,
+   "variant_id": 63200357941635,
+   "title": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 44.99,
+   "sheet_row": 656.0,
+   "sheet_name": "Natural By Woods Royal Night 100 Eau de Parfum (EDP) 5ml – Unisex Fragrance"
+  },
+  {
+   "product_id": 16431681175939,
+   "variant_id": 63258950664579,
+   "title": "Salvatore Ferragamo Uomo Eau de Toilette 100ml",
+   "variant": "Default Title",
+   "before": 42.99,
+   "after": 37.99,
+   "sheet_row": 808.0,
+   "sheet_name": "Salvatore Ferragamo Uomo Men'S EDT 100ml"
+  },
+  {
+   "product_id": 16305137451395,
+   "variant_id": 62584686444931,
+   "title": "Al Haramain Amber Oud Black Edition Eau de Parfum 100ml – Luxury Unisex Woody Amber Fragrance",
+   "variant": "Default Title",
+   "before": 39.99,
+   "after": 42.99,
+   "sheet_row": 12.0,
+   "sheet_name": "Al Haramain Amber Oud Black Edition Eau de Parfum 100ml – Luxury Unisex Woody Amber Fragrance"
+  },
+  {
+   "product_id": 16431141781891,
+   "variant_id": 63254890021251,
+   "title": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml",
+   "variant": "Default Title",
+   "before": 13.99,
+   "after": 12.99,
+   "sheet_row": 710.0,
+   "sheet_name": "Michael Kors Pour Femme EDP 5ml Miniature"
+  },
+  {
+   "product_id": 16431141814659,
+   "variant_id": 63254890054019,
+   "title": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml",
+   "variant": "Default Title",
+   "before": 13.99,
+   "after": 12.99,
+   "sheet_row": 711.0,
+   "sheet_name": "Michael Kors Pour Homme EDP 5ml Miniature"
+  },
+  {
+   "product_id": 16431695790467,
+   "variant_id": 63259038744963,
+   "title": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml",
+   "variant": "Default Title",
+   "before": 13.99,
+   "after": 12.99,
+   "sheet_row": 821.0,
+   "sheet_name": "Versace Dylan Blue Pour Homme EDT 5ml"
+  },
+  {
+   "product_id": 16431695987075,
+   "variant_id": 63259039498627,
+   "title": "Versace Eros Pour Femme Eau de Toilette Miniature 5ml",
+   "variant": "Default Title",
+   "before": 13.99,
+   "after": 12.99,
+   "sheet_row": 826.0,
+   "sheet_name": "Versace Eros Pour Femme EDT 5ml Miniature"
+  },
+  {
+   "product_id": 16431696019843,
+   "variant_id": 63259039531395,
+   "title": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml",
+   "variant": "Default Title",
+   "before": 13.99,
+   "after": 12.99,
+   "sheet_row": 827.0,
+   "sheet_name": "Versace Man Eau Fraiche Men'S EDT 5ml Miniature"
+  }
+ ],
+ "seo_descriptions": [
+  {
+   "product": "gid://shopify/Product/16421465522563",
+   "before": "Buy Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml for £99.99 at Swansura UK. A floral women's eau de parfum gift set. 100% authentic.",
+   "after": "Buy Bois 1920 Oro Eau de Parfum Gift Set (5 scents) 5 x 18ml for £109.99 at Swansura UK. A floral women's eau de parfum gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16272506651011",
+   "before": "Buy Tiziana Terenzi Ecstasy Extrait de Parfum 100ml for £95.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Tiziana Terenzi Ecstasy Extrait de Parfum 100ml for £85.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16322576187779",
+   "before": "Buy Guerlain Oud Essentiel Eau de Parfum 125ml for £94.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Guerlain Oud Essentiel Eau de Parfum 125ml for £107.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16274980045187",
+   "before": "Buy Dior Iconics Mini Perfume Discovery Set 5 X for £92.99 at Swansura UK. An amber unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dior Iconics Mini Perfume Discovery Set 5 X for £94.99 at Swansura UK. An amber unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431683961219",
+   "before": "Buy Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml for £89.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "after": "Buy Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml for £109.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16318106370435",
+   "before": "Buy Guerlain Épices Exquises Eau de Parfum 125ml for £86.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Guerlain Épices Exquises Eau de Parfum 125ml for £96.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16272514122115",
+   "before": "Buy Tiziana Terenzi Akragas Extrait de Parfum 100ml for £85.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Tiziana Terenzi Akragas Extrait de Parfum 100ml for £87.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684387203",
+   "before": "Buy Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml for £85.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml for £105.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16303208038787",
+   "before": "Buy Gucci Bloom Eau de Parfum Gift Set 100ml for £84.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Gucci Bloom Eau de Parfum Gift Set 100ml for £88.62 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16273541792131",
+   "before": "Tiziana Terenzi Gold Rose Oudh Extrait de Parfum for £84.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Tiziana Terenzi Gold Rose Oudh Extrait de Parfum for £99.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431139488131",
+   "before": "Buy Lalique L’Insoumis Eau de Toilette 100ml for £84.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Lalique L’Insoumis Eau de Toilette 100ml for £34.50 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684092291",
+   "before": "Buy Thomas Kosmala No. 4 Candy Eau de Parfum 100ml for £84.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala No. 4 Candy Eau de Parfum 100ml for £105.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684125059",
+   "before": "Buy Thomas Kosmala No. 4 Neon Eau de Parfum 100ml for £84.99 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala No. 4 Neon Eau de Parfum 100ml for £95.99 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684190595",
+   "before": "Buy Thomas Kosmala No. 4 Sport Eau de Parfum 100ml for £84.99 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala No. 4 Sport Eau de Parfum 100ml for £89.50 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684256131",
+   "before": "Buy Thomas Kosmala No. 9 Bukhoor Elixir de Parfum for £84.99 at Swansura UK. An amber unisex elixir de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Thomas Kosmala No. 9 Bukhoor Elixir de Parfum for £86.99 at Swansura UK. An amber unisex elixir de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684288899",
+   "before": "Buy Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml for £84.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "after": "Buy Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml for £92.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431695888771",
+   "before": "Buy Versace Eros Parfum (100ml, 200ml) from £68.99 at Swansura UK. An amber men’s parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Versace Eros Parfum (100ml, 200ml) from £71.99 at Swansura UK. An amber men’s parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15974748127619",
+   "before": "Buy Korloff Cuir Mythique Eau De Parfum 100ml for £82.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Korloff Cuir Mythique Eau De Parfum 100ml for £69.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16274581029251",
+   "before": "Buy Tiziana Terenzi Kirke Extrait de Parfum 100ml for £82.99 at Swansura UK. A fruity unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Tiziana Terenzi Kirke Extrait de Parfum 100ml for £89.99 at Swansura UK. A fruity unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431683830147",
+   "before": "Buy Thomas Kosmala Exsupero Eau de Parfum 100ml for £80.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala Exsupero Eau de Parfum 100ml for £119.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431695659395",
+   "before": "Buy Thomas Kosmala Star Chaser Eau de Parfum 100ml for £80.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala Star Chaser Eau de Parfum 100ml for £99.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431695692163",
+   "before": "Buy Thomas Kosmala Wild Stride Eau de Parfum 100ml for £80.99 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Thomas Kosmala Wild Stride Eau de Parfum 100ml for £81.99 at Swansura UK. A fresh unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16356355572099",
+   "before": "Buy Mancera Intense Red Tobacco Extrait de Parfum 120ml for £79.99 at Swansura UK. A spicy unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Mancera Intense Red Tobacco Extrait de Parfum 120ml for £87.99 at Swansura UK. A spicy unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431139455363",
+   "before": "Buy Lalique Le Parfum Eau de Parfum 100ml for £78.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Lalique Le Parfum Eau de Parfum 100ml for £34.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431526281603",
+   "before": "Buy Paco Rabanne 1 Million Eau de Toilette 200ml for £78.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne 1 Million Eau de Toilette 200ml for £89.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431526347139",
+   "before": "Buy Paco Rabanne Fame Eau de Parfum Refillable 80ml for £78.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Fame Eau de Parfum Refillable 80ml for £95.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431526740355",
+   "before": "Buy Paco Rabanne Invictus Eau de Toilette 200ml for £78.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne Invictus Eau de Toilette 200ml for £81.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528051075",
+   "before": "Buy Paco Rabanne Invictus Eau de Toilette Gift Set for £78.99 at Swansura UK. A fresh men’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Invictus Eau de Toilette Gift Set for £87.99 at Swansura UK. A fresh men’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280091394435",
+   "before": "Buy Tiziana Terenzi White Fire Extrait de Parfum 100ml for £76.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Tiziana Terenzi White Fire Extrait de Parfum 100ml for £85.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431141912963",
+   "before": "Buy Mugler Alien Eau de Parfum Refillable (30ml, 90ml) from £50.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Mugler Alien Eau de Parfum Refillable (30ml, 90ml) from £46.38 at Swansura UK. An amber women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431529820547",
+   "before": "Buy Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml for £76.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "after": "Buy Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml for £87.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981355434371",
+   "before": "Buy Signature Discovery Set 10x10ml for £65.99 at Swansura UK. An amber unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Discovery Set 10x10ml for £73.99 at Swansura UK. An amber unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16322184544643",
+   "before": "Buy Guerlain Musc Noble Eau de Parfum 125ml for £74.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Guerlain Musc Noble Eau de Parfum 125ml for £99.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981345440131",
+   "before": "Buy Signature Aura EDP 100ml for £66.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Aura EDP 100ml for £72.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981331546499",
+   "before": "Buy Signature Charm EDP 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Charm EDP 100ml for £75.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981332758915",
+   "before": "Buy Signature Paradiso EDP 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Paradiso EDP 100ml for £73.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16303477227907",
+   "before": "Buy Gucci Intense Oud Eau de Parfum Spray 90ml for £73.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Gucci Intense Oud Eau de Parfum Spray 90ml for £88.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421470962051",
+   "before": "Buy Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml for £71.99 at Swansura UK. A woody men's eau de parfum gift set. 100% authentic.",
+   "after": "Buy Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml for £78.99 at Swansura UK. A woody men's eau de parfum gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280160010627",
+   "before": "Buy Bvlgari Man Glacial Essence EDP Gift Set 100ml for £69.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Bvlgari Man Glacial Essence EDP Gift Set 100ml for £70.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280530944387",
+   "before": "Buy Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml for £69.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml for £74.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16299016618371",
+   "before": "Buy Dolce & Gabbana The One for Men Eau de Parfum 150ml for £69.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dolce & Gabbana The One for Men Eau de Parfum 150ml for £80.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16322980217219",
+   "before": "Buy Guerlain Samsara Eau de Parfum 75ml for £69.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Guerlain Samsara Eau de Parfum 75ml for £83.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16354306130307",
+   "before": "Buy Mancera Black Noir Eau de Parfum 120ml for £69.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Mancera Black Noir Eau de Parfum 120ml for £88.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359690797443",
+   "before": "Buy Hemel Amethyst Dream Eau de Parfum 100ml for £61.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Amethyst Dream Eau de Parfum 100ml for £72.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359817445763",
+   "before": "Buy Hemel Favourite Black Eau de Parfum 100ml for £61.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Favourite Black Eau de Parfum 100ml for £77.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431144239491",
+   "before": "Buy Narciso Rodriguez All of Me Eau de Parfum 90ml for £69.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Narciso Rodriguez All of Me Eau de Parfum 90ml for £73.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16367210561923",
+   "before": "Buy Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml for £68.99 at Swansura UK. A woody men's eau de toilette. Free UK delivery over £40.",
+   "after": "Buy Azzaro The Most Wanted Eau de Toilette Intense Gift Set 100ml for £79.99 at Swansura UK. A woody men's eau de toilette. Free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431695823235",
+   "before": "Buy Versace Eros Eau de Toilette 200ml for £68.99 at Swansura UK. An amber men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Versace Eros Eau de Toilette 200ml for £72.99 at Swansura UK. An amber men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16371463192963",
+   "before": "Buy Chloé Nomade Eau de Parfum Gift Set 75ml for £66.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chloé Nomade Eau de Parfum Gift Set 75ml for £83.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16326984532355",
+   "before": "Buy Giorgio Armani Code Eau de Toilette Refillable 125ml for £66.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Giorgio Armani Code Eau de Toilette Refillable 125ml for £76.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981340557699",
+   "before": "Buy Signature Jade Edp 100ml for £66.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Jade Edp 100ml for £60.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981326696835",
+   "before": "Buy Signature Ambre Eau De Parfum 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Ambre Eau De Parfum 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981327810947",
+   "before": "Buy Signature Santal Eau De Parfum 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Santal Eau De Parfum 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431142306179",
+   "before": "Buy Mugler Angel Elixir Eau de Parfum Refillable Star from £57.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Mugler Angel Elixir Eau de Parfum Refillable Star from £56.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528149379",
+   "before": "Buy Paco Rabanne Invictus Victory Eau de Parfum Extrême for £65.99 at Swansura UK. An amber men’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Invictus Victory Eau de Parfum Extrême for £67.99 at Swansura UK. An amber men’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528378755",
+   "before": "Buy Paco Rabanne Phantom Parfum & Deodorant Gift Set for £65.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Phantom Parfum & Deodorant Gift Set for £67.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280183570819",
+   "before": "Buy Bvlgari Man in Black Eau de Parfum 100ml for £64.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Bvlgari Man in Black Eau de Parfum 100ml for £72.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280562139523",
+   "before": "Buy Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml for £64.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml for £69.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16300878430595",
+   "before": "Dolce & Gabbana The One for Women Eau de Parfum Gift Set for £64.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Dolce & Gabbana The One for Women Eau de Parfum Gift Set for £69.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16318152475011",
+   "before": "Buy Guerlain Habit Rouge Eau de Parfum 100ml for £64.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Guerlain Habit Rouge Eau de Parfum 100ml for £67.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981349208451",
+   "before": "Buy Signature Musk Eau De Parfum 100ml for £63.99 at Swansura UK. A musk unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Musk Eau De Parfum 100ml for £65.99 at Swansura UK. A musk unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981337280899",
+   "before": "Buy Signature Onyx Eau De Parfum 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Onyx Eau De Parfum 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981339509123",
+   "before": "Buy Signature Opal 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Opal 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15981333283203",
+   "before": "Buy Signature Sapphire Eau De Parfum 100ml for £63.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Sapphire Eau De Parfum 100ml for £65.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421467521411",
+   "before": "Buy the Natural By Woods Discovery Set for £64.99 at Swansura UK. Woody unisex fragrances to try. 100% authentic, free UK delivery over £40.",
+   "after": "Buy the Natural By Woods Discovery Set for £72.99 at Swansura UK. Woody unisex fragrances to try. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528116611",
+   "before": "Buy Paco Rabanne Invictus Eau de Toilette & Deodorant Gift Set for £64.99 at Swansura UK. A fresh men’s fragrance gift set. 100% authentic.",
+   "after": "Buy Paco Rabanne Invictus Eau de Toilette & Deodorant Gift Set for £70.99 at Swansura UK. A fresh men’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528411523",
+   "before": "Buy Paco Rabanne Phantom Eau de Toilette & Deodorant Gift Set for £64.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic.",
+   "after": "Buy Paco Rabanne Phantom Eau de Toilette & Deodorant Gift Set for £74.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431676686723",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml for £72.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431676752259",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml for £75.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431676785027",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml for £67.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680684419",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml for £64.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml for £67.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680749955",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml for £75.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680782723",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml for £64.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml for £65.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680848259",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml for £64.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml for £72.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680881027",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml for £64.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml for £72.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431680946563",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml for £67.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431681012099",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml for £64.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml for £69.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431681077635",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml for £64.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml for £72.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431681110403",
+   "before": "Buy Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml for £64.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml for £69.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359854506371",
+   "before": "Buy Hemel Fragrance Affair Eau de Parfum 100ml for £61.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Fragrance Affair Eau de Parfum 100ml for £77.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528345987",
+   "before": "Buy Paco Rabanne Olympéa Flora Eau de Parfum Intense for £63.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Olympéa Flora Eau de Parfum Intense for £64.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359894745475",
+   "before": "Buy Hemel Patchouli For All Eau de Parfum 100ml for £61.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Patchouli For All Eau de Parfum 100ml for £77.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359968964995",
+   "before": "Buy Hemel Valley of Diamond Eau de Parfum 100ml for £61.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Valley of Diamond Eau de Parfum 100ml for £77.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16367216984451",
+   "before": "Buy Azzaro The Most Wanted Parfum 100ml for £60.99 at Swansura UK. An amber men's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Azzaro The Most Wanted Parfum 100ml for £66.99 at Swansura UK. An amber men's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431144173955",
+   "before": "Buy Mugler Les Exceptions Wonder Bouquet Eau de Parfum for £60.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Mugler Les Exceptions Wonder Bouquet Eau de Parfum for £67.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16282293141891",
+   "before": "Buy Chopard Gardens of Paradise Discovery Set 4x10ml for £59.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chopard Gardens of Paradise Discovery Set 4x10ml for £66.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16303309291907",
+   "before": "Buy Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml for £59.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml for £74.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16303465922947",
+   "before": "Buy Gucci Guilty Pour Homme Eau de Toilette 90ml for £59.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Gucci Guilty Pour Homme Eau de Toilette 90ml for £66.99 at Swansura UK. A woody men's eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16364365775235",
+   "before": "Buy Burberry My Burberry Eau de Parfum 90ml for £58.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Burberry My Burberry Eau de Parfum 90ml for £64.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16364401525123",
+   "before": "Buy Burberry My Burberry Black Parfum 90ml for £58.99 at Swansura UK. A floral women's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Burberry My Burberry Black Parfum 90ml for £64.99 at Swansura UK. A floral women's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431142175107",
+   "before": "Buy Mugler Alien Goddess Eau de Parfum Gift Set for £57.99 at Swansura UK. A floral women’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Mugler Alien Goddess Eau de Parfum Gift Set for £58.99 at Swansura UK. A floral women’s fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431142240643",
+   "before": "Buy Mugler Alien Man Eau de Toilette & Body Shampoo Travel Set 100ml + 50ml for £57.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic.",
+   "after": "Buy Mugler Alien Man Eau de Toilette & Body Shampoo Travel Set 100ml + 50ml for £69.99 at Swansura UK. An amber men’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16281877152131",
+   "before": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum for £54.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum for £64.14 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16280515281283",
+   "before": "Buy Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml for £54.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml for £66.54 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16302689583491",
+   "before": "Buy Dolce & Gabbana Devotion Eau de Parfum 100ml for £54.99 at Swansura UK. A gourmand women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dolce & Gabbana Devotion Eau de Parfum 100ml for £62.94 at Swansura UK. A gourmand women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16299008360835",
+   "before": "Buy Dolce & Gabbana The One for Men Eau de Parfum 100ml for £54.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dolce & Gabbana The One for Men Eau de Parfum 100ml for £66.54 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16299138548099",
+   "before": "Dolce & Gabbana The One for Men Eau de Parfum Intense for £54.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Dolce & Gabbana The One for Men Eau de Parfum Intense for £70.14 at Swansura UK. A woody men's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16301242843523",
+   "before": "Dolce & Gabbana The One Gold for Men Eau de Parfum Intense for £54.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Dolce & Gabbana The One Gold for Men Eau de Parfum Intense for £66.54 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16302704853379",
+   "before": "Buy Dolce & Gabbana Devotion Eau de Parfum Gift Set for £54.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dolce & Gabbana Devotion Eau de Parfum Gift Set for £58.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16345750045059",
+   "before": "Buy Montale Aoud Safran Eau de Parfum 100ml for £54.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Montale Aoud Safran Eau de Parfum 100ml for £65.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359709933955",
+   "before": "Buy Hemel Dorado Eau de Parfum 100ml for £54.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Dorado Eau de Parfum 100ml for £59.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431684026755",
+   "before": "Buy Thomas Kosmala No. 4 Après l’Amour Parfum & Hair Mist Travel Kit for £54.99 at Swansura UK. An amber unisex fragrance gift set. 100% authentic.",
+   "after": "Buy Thomas Kosmala No. 4 Après l’Amour Parfum & Hair Mist Travel Kit for £54.95 at Swansura UK. An amber unisex fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16296422932867",
+   "before": "Buy Dolce & Gabbana Q Eau de Parfum 100ml for £53.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Dolce & Gabbana Q Eau de Parfum 100ml for £70.86 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359877050755",
+   "before": "Buy Hemel Gris Eau de Parfum 100ml for £53.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Gris Eau de Parfum 100ml for £59.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359925612931",
+   "before": "Buy Hemel Plateado Eau de Parfum 100ml for £49.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Plateado Eau de Parfum 100ml for £59.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16359961788803",
+   "before": "Buy Hemel Rosado Eau de Parfum 100ml for £49.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Hemel Rosado Eau de Parfum 100ml for £59.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431144206723",
+   "before": "Buy Narciso Rodriguez For Her Eau de Toilette from £46.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Narciso Rodriguez For Her Eau de Toilette from £45.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16376098652547",
+   "before": "Buy Elie Saab Le Parfum Eau de Parfum Gift Set 90ml for £52.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Elie Saab Le Parfum Eau de Parfum Gift Set 90ml for £56.94 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16345744998787",
+   "before": "Buy Montale Aoud Damascus Eau de Parfum 100ml for £52.99 at Swansura UK. An oud women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Montale Aoud Damascus Eau de Parfum 100ml for £63.78 at Swansura UK. An oud women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421449957763",
+   "before": "Buy Attar Collection Crystal Love Eau de Parfum for Men 100ml for £52.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Attar Collection Crystal Love Eau de Parfum for Men 100ml for £60.99 at Swansura UK. A woody men's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421450056067",
+   "before": "Buy Attar Collection The Persian Gold Eau de Parfum 100ml for £52.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Attar Collection The Persian Gold Eau de Parfum 100ml for £66.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421462376835",
+   "before": "Buy Armaf Club de Nuit Men's Parfum Gift Set (Intense Man, Sillage, Milestone) 3 x 30ml for £52.99 at Swansura UK. A woody men's fragrance gift set.",
+   "after": "Buy Armaf Club de Nuit Men's Parfum Gift Set (Intense Man, Sillage, Milestone) 3 x 30ml for £53.34 at Swansura UK. A woody men's fragrance gift set.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431696085379",
+   "before": "Buy Versace Yellow Diamond Eau de Toilette 90ml for £52.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Versace Yellow Diamond Eau de Toilette 90ml for £50.94 at Swansura UK. A floral women’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16371438289283",
+   "before": "Buy Chloé Nomade Eau de Parfum 50ml for £51.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chloé Nomade Eau de Parfum 50ml for £55.74 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16274978406787",
+   "before": "Buy Miss Dior Eau de Parfum Roller-Pearl for Women for £51.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Miss Dior Eau de Parfum Roller-Pearl for Women for £52.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431142338947",
+   "before": "Buy Mugler Angel Nova Eau de Toilette 50ml for £50.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Mugler Angel Nova Eau de Toilette 50ml for £49.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431526216067",
+   "before": "Buy Paco Rabanne Women’s Miniature Set (Lady Million, Olympéa, Fame) for £50.99 at Swansura UK. A women’s fragrance gift set. 100% authentic.",
+   "after": "Buy Paco Rabanne Women’s Miniature Set (Lady Million, Olympéa, Fame) for £47.99 at Swansura UK. A women’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431528280451",
+   "before": "Buy Paco Rabanne Men’s Miniature Set (Phantom, Invictus, 1 Million Elixir, 1 Million) for £50.99 at Swansura UK. A men’s fragrance gift set. 100% authentic.",
+   "after": "Buy Paco Rabanne Men’s Miniature Set (Phantom, Invictus, 1 Million Elixir, 1 Million) for £46.99 at Swansura UK. A men’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431676260739",
+   "before": "Buy Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set for £50.99 at Swansura UK. A woody men’s fragrance gift set. 100% authentic.",
+   "after": "Buy Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set for £46.99 at Swansura UK. A woody men’s fragrance gift set. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16281929843075",
+   "before": "Buy Chopard Amber Malaki Eau de Parfum 80ml for £49.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chopard Amber Malaki Eau de Parfum 80ml for £47.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16339025396099",
+   "before": "Buy Estée Lauder SpellBound Eau de Parfum 50ml for £49.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Estée Lauder SpellBound Eau de Parfum 50ml for £54.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16318439391619",
+   "before": "Buy Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml for £49.99 at Swansura UK. A floral women's eau de toilette. Free UK delivery over £40.",
+   "after": "Buy Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml for £61.99 at Swansura UK. A floral women's eau de toilette. Free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421448581507",
+   "before": "Buy Attar Collection Areej Eau de Parfum 100ml for £49.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Attar Collection Areej Eau de Parfum 100ml for £59.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421449990531",
+   "before": "Buy Attar Collection Crystal Love Eau de Parfum for Women 100ml for £49.99 at Swansura UK. A floral women's eau de parfum. 100% authentic.",
+   "after": "Buy Attar Collection Crystal Love Eau de Parfum for Women 100ml for £56.99 at Swansura UK. A floral women's eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421451268483",
+   "before": "Buy Franck Olivier Ambre Gold Collection Privee le Parfum 100ml for £49.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Ambre Gold Collection Privee le Parfum 100ml for £55.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421452284291",
+   "before": "Buy Franck Olivier Black Tiger Collection Privee le Parfum 100ml for £49.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Black Tiger Collection Privee le Parfum 100ml for £59.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421456281987",
+   "before": "Buy Franck Olivier Magic Blossom Collection Privee le Parfum 100ml for £49.99 at Swansura UK. A floral unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Magic Blossom Collection Privee le Parfum 100ml for £59.99 at Swansura UK. A floral unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421457265027",
+   "before": "Buy Franck Olivier Parisian Oud Collection Privee le Parfum 100ml for £49.99 at Swansura UK. A woody unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Parisian Oud Collection Privee le Parfum 100ml for £72.99 at Swansura UK. A woody unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421444452739",
+   "before": "Buy Franck Olivier Red Addict Collection Privee le Parfum 100ml for £49.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Red Addict Collection Privee le Parfum 100ml for £55.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421444518275",
+   "before": "Buy Franck Olivier Santal Velvet Collection Privee le Parfum 100ml for £49.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Franck Olivier Santal Velvet Collection Privee le Parfum 100ml for £62.99 at Swansura UK. An amber unisex parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421447467395",
+   "before": "Buy Franck Olivier Tribal Collection Privee le Parfum 100ml for £49.99 at Swansura UK. An amber unisex parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Franck Olivier Tribal Collection Privee le Parfum 100ml for £62.99 at Swansura UK. An amber unisex parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16421463458179",
+   "before": "Buy Armaf Club de Nuit Women's Parfum Gift Set (Woman, Intense Woman, Milestone) 3 x 30ml for £49.99 at Swansura UK. A floral women's fragrance gift set.",
+   "after": "Buy Armaf Club de Nuit Women's Parfum Gift Set (Woman, Intense Woman, Milestone) 3 x 30ml for £53.99 at Swansura UK. A floral women's fragrance gift set.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16364328452483",
+   "before": "Buy Burberry My Burberry Eau de Parfum 50ml for £48.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Burberry My Burberry Eau de Parfum 50ml for £53.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16364386648451",
+   "before": "Buy Burberry My Burberry Black Parfum 50ml for £48.99 at Swansura UK. A floral women's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Burberry My Burberry Black Parfum 50ml for £53.99 at Swansura UK. A floral women's parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16371417153923",
+   "before": "Buy Chloé Women's Miniature Eau de Parfum Gift Set for £48.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chloé Women's Miniature Eau de Parfum Gift Set for £52.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16376523489667",
+   "before": "Buy Elie Saab Le Parfum Lumière Eau de Parfum Gift Set 90ml for £48.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Elie Saab Le Parfum Lumière Eau de Parfum Gift Set 90ml for £52.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431133491587",
+   "before": "Buy Issey Miyake L’Eau d’Issey Eau de Toilette 50ml for £48.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Issey Miyake L’Eau d’Issey Eau de Toilette 50ml for £33.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431133557123",
+   "before": "Buy Issey Miyake L’Eau d’Issey Eau & Magnolia Eau de Toilette Intense from £43.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic.",
+   "after": "Buy Issey Miyake L’Eau d’Issey Eau & Magnolia Eau de Toilette Intense from £37.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16431138931075",
+   "before": "Buy Issey Miyake L’Eau d’Issey Rose & Rose Eau de Parfum Intense 90ml for £48.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic.",
+   "after": "Buy Issey Miyake L’Eau d’Issey Rose & Rose Eau de Parfum Intense 90ml for £43.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/16303446131075",
+   "before": "Buy Gucci Guilty Pour Femme Eau de Parfum Gift Set for £47.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Gucci Guilty Pour Femme Eau de Parfum Gift Set for £52.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": true
+  },
+  {
+   "product": "gid://shopify/Product/15975005716867",
+   "before": "Buy Korloff Royal Rose Eau De Parfum 88ml for £47.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Korloff Royal Rose Eau De Parfum 88ml for £38.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15975001915779",
+   "before": "Buy Royal Oud Korloff Paris Eau De Parfum 88ML for £47.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Royal Oud Korloff Paris Eau De Parfum 88ML for £31.99 at Swansura UK. An oud unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431133229443",
+   "before": "Buy Clinique Aromatics Elixir Eau de Parfum 100ml for £47.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Clinique Aromatics Elixir Eau de Parfum 100ml for £45.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421448614275",
+   "before": "Buy Attar Collection Azalea Eau de Parfum 100ml for £46.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Attar Collection Azalea Eau de Parfum 100ml for £53.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421450023299",
+   "before": "Buy Attar Collection Floral Musk Eau de Parfum 100ml for £46.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Attar Collection Floral Musk Eau de Parfum 100ml for £56.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431144337795",
+   "before": "Buy Narciso Rodriguez For Him Bleu Noir Eau de Toilette for £46.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Narciso Rodriguez For Him Bleu Noir Eau de Toilette for £41.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431526412675",
+   "before": "Buy Paco Rabanne Fame Eau de Parfum Intense 30ml for £46.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne Fame Eau de Parfum Intense 30ml for £45.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431526674819",
+   "before": "Buy Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml for £46.99 at Swansura UK. A unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne Miniature Eau de Parfum Set 8 x 2ml for £41.99 at Swansura UK. A unisex fragrance gift set. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431528247683",
+   "before": "Buy Paco Rabanne Lady Million Royal Eau de Parfum 30ml for £46.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Paco Rabanne Lady Million Royal Eau de Parfum 30ml for £42.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529296259",
+   "before": "Buy Ralph Lauren Polo Red Eau de Toilette Refillable for £46.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Ralph Lauren Polo Red Eau de Toilette Refillable for £42.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529329027",
+   "before": "Buy Ralph Lauren Polo Red Parfum 75ml for £46.99 at Swansura UK. A woody men’s parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Ralph Lauren Polo Red Parfum 75ml for £41.99 at Swansura UK. A woody men’s parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431676522883",
+   "before": "Buy Salvatore Ferragamo Signorina Eleganza Eau de Parfum for £46.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Salvatore Ferragamo Signorina Eleganza Eau de Parfum for £47.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16364319768963",
+   "before": "Buy Burberry Women's Miniature Perfume Set 4x5ml for £45.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Burberry Women's Miniature Perfume Set 4x5ml for £46.99 at Swansura UK. A woody women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16371391463811",
+   "before": "Buy Chloé Women's Miniature Perfume Set 4x5ml for £45.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chloé Women's Miniature Perfume Set 4x5ml for £47.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431139586435",
+   "before": "Buy Lalique Lion Eau de Parfum 125ml for £45.99 at Swansura UK. A woody men’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Lalique Lion Eau de Parfum 125ml for £33.99 at Swansura UK. A woody men’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529066883",
+   "before": "Buy Paco Rabanne Ultraviolet Eau de Parfum 80ml for £45.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne Ultraviolet Eau de Parfum 80ml for £40.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529918851",
+   "before": "Buy Roberto Cavalli Paradiso Eau de Parfum 100ml for £45.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Roberto Cavalli Paradiso Eau de Parfum 100ml for £40.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529951619",
+   "before": "Buy Roberto Cavalli Paradiso Assoluto Eau de Parfum for £45.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Roberto Cavalli Paradiso Assoluto Eau de Parfum for £40.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16321894941059",
+   "before": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml for £44.99 at Swansura UK. A woody women's fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "after": "Guerlain Mon Guerlain Miniature Perfume Gift Set 4x5ml for £50.99 at Swansura UK. A woody women's fragrance gift set. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16337075536259",
+   "before": "Buy Serge Lutens La Fille de Berlin Eau de Parfum for £44.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Serge Lutens La Fille de Berlin Eau de Parfum for £53.99 at Swansura UK. A floral unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982691484035",
+   "before": "Buy The Woods Collection Azure Eau De Parfum 100ml for £40.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Azure Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982757478787",
+   "before": "Buy The Woods Collection Eden Eau De Parfum 100ml for £40.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Eden Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982752563587",
+   "before": "Buy The Woods Collection Elysian Eau De Parfum 100ml for £40.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Elysian Eau De Parfum 100ml for £49.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982736540035",
+   "before": "Buy The Woods Collection Green Walk Eau De Parfum 100ml for £39.99 at Swansura UK. A green unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy The Woods Collection Green Walk Eau De Parfum 100ml for £44.99 at Swansura UK. A green unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982747025795",
+   "before": "Buy The Woods Collection Mirage Eau De Parfum 100ml for £39.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Mirage Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982750695811",
+   "before": "Buy The Woods Collection Pure Shine Eau De Parfum 100ml for £39.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy The Woods Collection Pure Shine Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982725333379",
+   "before": "Buy The Woods Collection Secret Source Eau De Parfum 100ml for £39.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy The Woods Collection Secret Source Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982744469891",
+   "before": "Buy The Woods Collection Sunrise Eau De Parfum 100ml for £40.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Sunrise Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982704853379",
+   "before": "Buy The Woods Collection Timeless Sands Eau De Parfum 100ml for £40.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy The Woods Collection Timeless Sands Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982748467587",
+   "before": "Buy The Woods Collection Twilight Eau De Parfum 100ml for £39.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy The Woods Collection Twilight Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15982711472515",
+   "before": "Buy The Woods Collection Wild Roses Eau De Parfum 100ml for £39.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy The Woods Collection Wild Roses Eau De Parfum 100ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421469684099",
+   "before": "Buy Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml for £44.99 at Swansura UK. A woody men's eau de toilette gift set. 100% authentic.",
+   "after": "Buy Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml for £53.99 at Swansura UK. A woody men's eau de toilette gift set. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421467619715",
+   "before": "Buy Natural By Woods Earth Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Natural By Woods Earth Eau de Parfum 100ml with a 5ml travel atomiser for £49.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431133360515",
+   "before": "Buy Issey Miyake A Drop d’Issey Eau de Parfum Fraîche for £44.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Issey Miyake A Drop d’Issey Eau de Parfum Fraîche for £38.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431133622659",
+   "before": "Buy Issey Miyake L’Eau d’Issey Pour Homme Eau de Toilette (75ml, 125ml) from £43.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic.",
+   "after": "Buy Issey Miyake L’Eau d’Issey Pour Homme Eau de Toilette (75ml, 125ml) from £32.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431142273411",
+   "before": "Buy Mugler Angel Eau de Parfum 25ml for £44.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Mugler Angel Eau de Parfum 25ml for £38.99 at Swansura UK. An amber women’s eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431529099651",
+   "before": "Buy Paco Rabanne XS Black Eau de Toilette 100ml for £44.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Paco Rabanne XS Black Eau de Toilette 100ml for £38.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16371515490691",
+   "before": "Buy Chloé Nomade Jasmin Naturel Intense Eau de Parfum 50ml for £43.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Chloé Nomade Jasmin Naturel Intense Eau de Parfum 50ml for £57.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16371596984707",
+   "before": "Buy Chloé Rose Naturelle Intense Eau de Parfum 50ml for £43.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chloé Rose Naturelle Intense Eau de Parfum 50ml for £52.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421444747651",
+   "before": "Buy Afnan Tribute Blue Eau de Parfum 100ml for £43.99 at Swansura UK. An aquatic unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Afnan Tribute Blue Eau de Parfum 100ml for £44.99 at Swansura UK. An aquatic unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421463622019",
+   "before": "Buy Armaf Club de Nuit Private Key To My Dreams Extrait de Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "after": "Buy Armaf Club de Nuit Private Key To My Dreams Extrait de Parfum 100ml for £44.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421464375683",
+   "before": "Buy Armaf Club de Nuit Private Key To My Success Extrait de Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "after": "Buy Armaf Club de Nuit Private Key To My Success Extrait de Parfum 100ml for £44.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421469061507",
+   "before": "Buy Natural By Woods Karma Eau de Parfum 100ml with a 5ml travel atomiser for £43.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Natural By Woods Karma Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15971408773507",
+   "before": "Buy Sap Le Roi Extrait De Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Sap Le Roi Extrait De Parfum 100ml for £45.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15971403137411",
+   "before": "Buy Sap Oud Leopard FR Extrait De Parfum 100ml for £43.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Sap Oud Leopard FR Extrait De Parfum 100ml for £45.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15971403334019",
+   "before": "Buy Sap Patchouli Intense Extrait De Parfum 100ml for £43.99 at Swansura UK. A woody unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Sap Patchouli Intense Extrait De Parfum 100ml for £45.99 at Swansura UK. A woody unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15971404841347",
+   "before": "Buy Sap Saffron Oud Extrait De Parfum 100ml for £43.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Sap Saffron Oud Extrait De Parfum 100ml for £47.99 at Swansura UK. An oud unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15970943402371",
+   "before": "Buy Sap Vert Club Extrait De Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Sap Vert Club Extrait De Parfum 100ml for £47.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431133720963",
+   "before": "Buy Issey Miyake L’Eau d’Issey Pure Pétale de Nectar Eau de Toilette 90ml for £43.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic.",
+   "after": "Buy Issey Miyake L’Eau d’Issey Pure Pétale de Nectar Eau de Toilette 90ml for £37.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431676457347",
+   "before": "Buy Salvatore Ferragamo Signorina Eau de Toilette for £43.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Salvatore Ferragamo Signorina Eau de Toilette for £41.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16282276069763",
+   "before": "Buy Chopard Black Incense Malaki Eau de Parfum 80ml for £42.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Chopard Black Incense Malaki Eau de Parfum 80ml for £44.99 at Swansura UK. An amber unisex eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16282354745731",
+   "before": "Buy Chopard Imperiale Iris Malika Eau de Parfum 100ml for £42.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Chopard Imperiale Iris Malika Eau de Parfum 100ml for £43.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/15981366215043",
+   "before": "Buy Signature Le Femme Gold EDP Spray 100ml for £35.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Signature Le Femme Gold EDP Spray 100ml for £42.99 at Swansura UK. A floral women's eau de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421465588099",
+   "before": "Buy Fomo Essence of The Other World Extrait de Parfum 100ml for £42.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "after": "Buy Fomo Essence of The Other World Extrait de Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421465620867",
+   "before": "Buy Fomo Fraglover's Tea Extrait de Parfum 100ml for £42.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Fomo Fraglover's Tea Extrait de Parfum 100ml for £43.99 at Swansura UK. An amber unisex extrait de parfum. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421468930435",
+   "before": "Buy Natural By Woods Flame Eau de Parfum 100ml with a 15ml travel atomiser for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Natural By Woods Flame Eau de Parfum 100ml with a 15ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16421469782403",
+   "before": "Buy Natural By Woods Royal Night Eau de Parfum 100ml with a 5ml travel atomiser for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "after": "Buy Natural By Woods Royal Night Eau de Parfum 100ml with a 5ml travel atomiser for £44.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431681175939",
+   "before": "Buy Salvatore Ferragamo Uomo Eau de Toilette 100ml for £42.99 at Swansura UK. An amber men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "after": "Buy Salvatore Ferragamo Uomo Eau de Toilette 100ml for £37.99 at Swansura UK. An amber men’s eau de toilette. 100% authentic, fast UK delivery, free over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16305137451395",
+   "before": "Buy Al Haramain Amber Oud Black Edition Eau de Parfum 100ml for £39.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Al Haramain Amber Oud Black Edition Eau de Parfum 100ml for £42.99 at Swansura UK. A woody unisex eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431141781891",
+   "before": "Buy Michael Kors Pour Femme Eau de Parfum Miniature 5ml for £13.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Michael Kors Pour Femme Eau de Parfum Miniature 5ml for £12.99 at Swansura UK. A floral women’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431141814659",
+   "before": "Buy Michael Kors Pour Homme Eau de Parfum Miniature 5ml for £13.99 at Swansura UK. A woody men’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Michael Kors Pour Homme Eau de Parfum Miniature 5ml for £12.99 at Swansura UK. A woody men’s eau de parfum. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431695790467",
+   "before": "Buy Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml for £13.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic.",
+   "after": "Buy Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml for £12.99 at Swansura UK. A woody men’s eau de toilette. 100% authentic.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431695987075",
+   "before": "Buy Versace Eros Pour Femme Eau de Toilette Miniature for £13.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Versace Eros Pour Femme Eau de Toilette Miniature for £12.99 at Swansura UK. A floral women’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": false
+  },
+  {
+   "product": "gid://shopify/Product/16431696019843",
+   "before": "Buy Versace Man Eau Fraîche Eau de Toilette Miniature 5ml for £13.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "after": "Buy Versace Man Eau Fraîche Eau de Toilette Miniature 5ml for £12.99 at Swansura UK. A fresh men’s eau de toilette. 100% authentic, free UK delivery over £40.",
+   "written": false
+  }
+ ],
+ "not_applied_rows": [
+  "Hemel May-listing names (rows 238-254, products are drafts since 7 Nov)",
+  "La Maison coffret (brand deleted 6 Nov)"
+ ]
+}
