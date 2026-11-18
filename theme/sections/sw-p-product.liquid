@@ -50,6 +50,15 @@
   assign n = sw.n
   assign rating = product.metafields.reviews.rating.value
   assign rcount = product.metafields.reviews.rating_count.value | default: 0
+  assign rval = rating.rating | default: 0
+  comment
+    Judge.me does not write Shopify's reviews.* metafields on this store; it keeps its counts in judgeme.review_widget_data (18 Nov 2026).
+  endcomment
+  assign jdgm_data = product.metafields.judgeme.review_widget_data.value
+  if rcount == 0 and jdgm_data.number_of_reviews > 0
+    assign rcount = jdgm_data.number_of_reviews
+    assign rval = jdgm_data.average_rating | plus: 0
+  endif
 
   comment
     'Frequently bought together' / 'Complete the ritual' partners (available ones)
@@ -87,7 +96,7 @@
       <h1>{{ product.metafields.custom.h1.value | default: t | escape }}</h1>
       {%- comment -%} rating line under the title only when real reviews exist (user, 8 Nov 2026: an empty "No reviews yet" here puts buyers off; the Reviews section stays at the bottom) {%- endcomment -%}
       {%- if rcount > 0 -%}<div class="reviews-line">
-        {%- assign full = rating.rating | round -%}<span class="stars" aria-hidden="true">{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}</span><span>{{ rating.rating | round: 1 }} · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">{{ rcount }} review{% if rcount != 1 %}s{% endif %}</a></span>
+        {%- assign full = rval | round -%}<span class="stars" aria-hidden="true">{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}</span><span>{{ rval | round: 1 }} · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">{{ rcount }} review{% if rcount != 1 %}s{% endif %}</a></span>
       </div>{%- endif -%}
       <div><div class="p-price" id="pdpPrice">{{ v0.price | money }}{%- if v0.compare_at_price > v0.price -%}{%- assign pct = v0.price | times: 100.0 | divided_by: v0.compare_at_price | round -%} <s>{{ v0.compare_at_price | money }}</s> <span class="off">SAVE {{ 100 | minus: pct }}%</span>{%- endif -%}</div>
         <div class="paylater" id="payLater"{% unless product.available and v0.price >= 3000 and v0.price <= 200000 %} hidden{% endunless %}>or 3 interest-free payments of <b>{{ v0.price | divided_by: 3 | money }}</b> with <span class="pl p">PayPal Pay in 3</span></div></div>
