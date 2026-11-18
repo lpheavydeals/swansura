@@ -264,3 +264,29 @@ Body wash and lotion that go together, in one kit for £41.99 with free UK deliv
 **Description:** Body wash + body lotion
 
 Note: the lotion's brand video carries '48hr' and 'heals extreme dryness' captions; those parts are not used in our cut.
+
+---
+
+# Purchase ad sets, round 3 (18 Nov 2026): 4 more videos
+
+Re-cut in the current style (Plus Jakarta Sans only, 15–18 s, T&Cs line on the end card; builders `build3.py` keys r/g/p + `build2.py` key n, overlays `ov3.js`). Copy is NEUTRAL: no 'you know from home' / 'from home' lines, because the ad sets now target areas with large Indian communities and Meta's personal-attributes rule forbids implying where the viewer is from. Milk Drops footage: the brand's burned-in captions ('Acne marks? Dark spots? Pigmentation?', 'Best Selling Brightening Serum', 'Most Loved … in India', 'Brighter skin in 4 weeks') and the label close-up are cut out; the pack label is still visible small on 2 shots (same as the Milk Face Kit ad). Hair Care Kit: only the 220 ml kit (50 ml sold out); the oil bottle close-up (label 'Promotes hair growth') is cut.
+
+## 14. Vilvah Milk Drops Serum (kits ad set)
+**Primary text:** Vilvah Milk Drops serum, shipped from the UK. / Rice milk extract, aloe vera and hyaluronic acid in a light, fragrance-free serum. Pat a few drops onto clean skin, then follow with moisturiser and SPF in the morning. / 20 ml £21.99 or 40 ml £30.99 · Official UK partner of Vilvah · Free UK delivery over £40.
+**Headline:** Vilvah Milk Drops, from £21.99
+**Description:** Dispatched from the UK
+
+## 15. Deyga Hair Care Kit (kits ad set)
+**Primary text:** Oil, wash, condition: Deyga's three-step wash day, shipped from the UK. 🌿 / 1. A pre-wash oil massage: coconut, almond, amla and hibiscus 2. Rice Water Shampoo for a mild, gentle lather 3. Soy Milk Conditioner with soy, argan oil and vitamin E / 220 ml kit £36.99 · Official UK partner of Deyga · Free UK delivery over £40.
+**Headline:** Deyga Hair Care Kit, £36.99
+**Description:** Oil, shampoo and conditioner
+
+## 16. Deyga Beetroot Lip Balm Classic (lip balm ad set)
+**Primary text:** Deyga Beetroot Lip Balm, shipped from the UK. / Beetroot extract, almond and avocado oil and shea butter in a 10 g tin, with a sheer, rosy tint. Dab it on, or add a thicker layer at night. / Official UK partner of Deyga · Free UK delivery over £40.
+**Headline:** Deyga Beetroot Lip Balm, £10.99
+**Description:** Dispatched from the UK
+
+## 17. Deyga Nourished Lip Care Kit (lip balm ad set)
+**Primary text:** Deyga's lip duo, shipped from the UK. Scrub, then balm. 💋 / 1. Strawberry Lip Scrub: sugar in avocado oil, almond oil and shea butter 2. Beetroot Lip Balm: beetroot extract, almond and jojoba oil, with a sheer, rosy tint / Official UK partner of Deyga · Free UK delivery over £40.
+**Headline:** Deyga Nourished Lip Care Kit, £25.99
+**Description:** Lip scrub + beetroot balm
