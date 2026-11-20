@@ -50,6 +50,15 @@
   assign n = sw.n
   assign rating = product.metafields.reviews.rating.value
   assign rcount = product.metafields.reviews.rating_count.value | default: 0
+  assign rval = rating.rating | default: 0
+  comment
+    Judge.me does not write Shopify's reviews.* metafields on this store; it keeps its counts in judgeme.review_widget_data (18 Nov 2026).
+  endcomment
+  assign jdgm_data = product.metafields.judgeme.review_widget_data.value
+  if rcount == 0 and jdgm_data.number_of_reviews > 0
+    assign rcount = jdgm_data.number_of_reviews
+    assign rval = jdgm_data.average_rating | plus: 0
+  endif
 
   comment
     'Frequently bought together' / 'Complete the ritual' partners (available ones)
@@ -87,10 +96,11 @@
       <h1>{{ product.metafields.custom.h1.value | default: t | escape }}</h1>
       {%- comment -%} rating line under the title only when real reviews exist (user, 8 Nov 2026: an empty "No reviews yet" here puts buyers off; the Reviews section stays at the bottom) {%- endcomment -%}
       {%- if rcount > 0 -%}<div class="reviews-line">
-        {%- assign full = rating.rating | round -%}<span class="stars" aria-hidden="true">{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}</span><span>{{ rating.rating | round: 1 }} · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">{{ rcount }} review{% if rcount != 1 %}s{% endif %}</a></span>
+        {%- assign full = rval | round -%}<span class="stars" aria-hidden="true">{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}</span><span>{{ rval | round: 1 }} · <a href="#reviews" data-jump="reviews" style="text-decoration:underline">{{ rcount }} review{% if rcount != 1 %}s{% endif %}</a></span>
       </div>{%- endif -%}
       <div><div class="p-price" id="pdpPrice">{{ v0.price | money }}{%- if v0.compare_at_price > v0.price -%}{%- assign pct = v0.price | times: 100.0 | divided_by: v0.compare_at_price | round -%} <s>{{ v0.compare_at_price | money }}</s> <span class="off">SAVE {{ 100 | minus: pct }}%</span>{%- endif -%}</div>
         <div class="paylater" id="payLater"{% unless product.available and v0.price >= 3000 and v0.price <= 200000 %} hidden{% endunless %}>or 3 interest-free payments of <b>{{ v0.price | divided_by: 3 | money }}</b> with <span class="pl p">PayPal Pay in 3</span></div></div>
+      <div class="ukstrip" role="note"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>Ships from the UK</span><i aria-hidden="true"></i><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="13" cy="13" r="7"/><path d="M13 9v4l3 2M2 9h4M1 13h4M2 17h4"/></svg>Next-day delivery available</span></div>
       {%- if d.ben != blank -%}<p class="benefit">{{ d.ben | escape }}{% if d.more %} <a href="#details" data-jump="details" class="readmore">Read more</a>{% endif %}</p>{%- endif -%}
       {%- if d.chips.size > 0 -%}<div class="bchips">{%- for c in d.chips -%}<span>{{ ic_check }}{{ c | escape }}</span>{%- endfor -%}</div>{%- endif -%}
       {%- unless product.has_only_default_variant -%}
@@ -131,7 +141,7 @@
           assign w = 100
         endif
       -%}
-      <div class="delivery"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg> Dispatched from the UK. {% if goal == 0 %}<b>Free UK delivery</b>, plus £{{ section.settings.bonus_off }} off with code <b>{{ section.settings.bonus_code }}</b>.{% elsif p >= dmin %}<b>Free UK delivery.</b> Add <b>{{ left | money }}</b> more for £{{ section.settings.bonus_off }} off with code {{ section.settings.bonus_code }}.{% else %}Add <b>{{ left | money }}</b> more for free UK delivery.{% endif %}</span><div class="bar"><i style="width:{{ w | at_most: 100 }}%"></i></div></div>
+      <div class="delivery"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg> Dispatched from the UK. {%- assign swv = product.vendor | downcase -%}{% if swv == 'vilvah' or swv == 'deyga' %}<b>10% off with code VD10.</b> {% endif %}{% if goal == 0 %}<b>Free UK delivery</b>. Add one more item for £{{ section.settings.bonus_off }} off with code <b>{{ section.settings.bonus_code }}</b>.{% elsif p >= dmin %}<b>Free UK delivery.</b> Add <b>{{ left | money }}</b> more for £{{ section.settings.bonus_off }} off with code {{ section.settings.bonus_code }}.{% else %}Add <b>{{ left | money }}</b> more for free UK delivery.{% endif %}</span><div class="bar"><i style="width:{{ w | at_most: 100 }}%"></i></div></div>
       <div class="trustmini"><div><span class="ic g"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>100% authentic<small>Direct from the brand</small></div><div><span class="ic b"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 10h11a5 5 0 0 1 0 10H8"/><path d="m8 6-4 4 4 4"/></svg></span>{{ section.settings.returns_title }}<small>{{ section.settings.returns_sub }}</small></div><div><span class="ic o"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>Secure checkout<small>Encrypted payment</small></div></div>
       <div class="acc">
         <details open id="details"><summary>Details</summary><div class="in">{%- render 'sw-p-safe-html', html: product.description -%}</div></details>
@@ -152,7 +162,7 @@
             <details><summary>Ingredients</summary><div class="in">{%- if sw.g.size > 0 -%}<p><b>Key ingredients:</b> {{ sw.g | join: ', ' | escape }}.</p>{%- endif -%}<p class="muted">The full ingredients list (INCI) is printed on the pack. We are adding it here for every product.</p></div></details>
           {%- endif -%}
         {%- endif -%}
-        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Standard UK delivery is £1.99 (3–4 business days) and free on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }} with code {{ section.settings.bonus_code }} (enter it in your bag or at checkout). Two-day (£2.99) and next-day (£3.99) delivery are available at checkout. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
+        <details><summary>Delivery &amp; returns</summary><div class="in"><p>Standard UK delivery is £1.99 (3–4 business days) and free on orders over £{{ section.settings.delivery_min }}, plus £{{ section.settings.bonus_off }} off orders over £{{ section.settings.bonus_min }} with 2 or more items with code {{ section.settings.bonus_code }} (enter it in your bag or at checkout). Two-day (£2.99) and next-day (£3.99) delivery are available at checkout. {{ section.settings.returns_text }}{% if shop.refund_policy %} <a href="{{ shop.refund_policy.url }}" style="text-decoration:underline">Returns policy</a>.{% endif %}</p></div></details>
       </div>
       {%- if d.kw.size > 0 -%}
         <p style="font-size:14px;color:var(--ink-2)">Part of our {% for k in d.kw limit: 3 %}<a href="{{ k[1] }}" style="text-decoration:underline">{{ k[0] | downcase | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} edit{% if d.kw.size > 1 %}s{% endif %}.</p>
@@ -184,22 +194,113 @@
     {%- capture more -%}{%- assign k = 0 -%}{%- for x in bc.products limit: 60 -%}{%- if x.available and x.id != product.id and x.vendor == product.vendor and k < 4 -%}{%- assign k = k | plus: 1 -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}{%- endcapture -%}
     {%- if more != blank -%}<section style="padding-top:0"><div class="sec-head"><div><h2>More from {{ product.vendor | escape }}</h2></div><a class="p-link" href="{{ bc.url }}">Shop all {{ bc.products_count }} {{ product.vendor | escape }}</a></div><div class="grid-p">{{ more }}</div></section>{%- endif -%}
   {%- endif -%}
-  {%- if d.sim.size > 0 -%}
-    <section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="p-link" href="{{ cat_url }}">View all</a></div><div class="grid-p">{%- for h in d.sim -%}{%- assign x = all_products[h] -%}{%- if x != blank -%}{% render 'sw-p-card', product: x %}{%- endif -%}{%- endfor -%}</div></section>
+  {%- comment -%} You may also like (user, 13 Nov 2026): mixed brands, never this product's own brand (that is 'More from <brand>'),
+    one per brand first, at most two per brand, in stock only. Pool: same scent family (fragrance) or the product's first two
+    type collections from custom.pdp.kw, then its category. Gift / stocking / natural-skincare links are skipped as pools. {%- endcomment -%}
+  {%- liquid
+    assign srcs = ''
+    if cat == 'fragrance' and sw.f != blank
+      assign srcs = '/collections/scent-' | append: sw.f | append: ','
+    endif
+    assign kn = 0
+    for k in d.kw
+      assign u = k[1]
+      if kn < 2 and u contains '/collections/'
+        unless u contains 'gift' or u contains 'stocking' or u contains 'natural-skincare' or u contains 'christmas' or u contains 'black-friday'
+          assign srcs = srcs | append: u | append: ','
+          assign kn = kn | plus: 1
+        endunless
+      endif
+    endfor
+    assign srcs = srcs | append: cat_url | split: ','
+    assign ml_picked = ','
+    assign ml_b1 = '|'
+    assign ml_b2 = '|'
+    assign ml_n = 0
+    assign ml_html = ''
+    assign ml_off = product.id | modulo: 37
+    assign ml_own = 0
+    comment
+      passes: 1 one per other brand, starting at a per-product offset (so pages in one family differ);
+      2 one per other brand from the top; 3 a second per other brand; 4 this product's own brand
+      (only when too few other brands, e.g. haircare = Vilvah + Deyga); 5 anything left from other brands
+    endcomment
+    for pass in (1..5)
+      for u in srcs
+        if ml_n >= 4
+          break
+        endif
+        assign ch = u | remove: '/collections/'
+        assign cc = collections[ch]
+        if cc == blank
+          continue
+        endif
+        assign off = 0
+        if pass == 1
+          assign off = ml_off
+        endif
+        for x in cc.products limit: 50 offset: off
+          if ml_n >= 4
+            break
+          endif
+          unless x.available
+            continue
+          endunless
+          if x.id == product.id
+            continue
+          endif
+          if pass == 4
+            if x.vendor != product.vendor
+              continue
+            endif
+          elsif x.vendor == product.vendor
+            continue
+          endif
+          assign hk = ',' | append: x.handle | append: ','
+          if ml_picked contains hk
+            continue
+          endif
+          assign bk = '|' | append: x.vendor | append: '|'
+          if pass <= 2
+            if ml_b1 contains bk
+              continue
+            endif
+            assign ml_b1 = ml_b1 | append: x.vendor | append: '|'
+          elsif pass == 3
+            if ml_b2 contains bk
+              continue
+            endif
+            assign ml_b2 = ml_b2 | append: x.vendor | append: '|'
+          elsif pass == 4
+            if ml_own >= 2
+              continue
+            endif
+            assign ml_own = ml_own | plus: 1
+          endif
+          assign ml_picked = ml_picked | append: x.handle | append: ','
+          assign ml_n = ml_n | plus: 1
+          capture card
+            render 'sw-p-card', product: x
+          endcapture
+          assign ml_html = ml_html | append: card
+        endfor
+      endfor
+    endfor
+  -%}
+  {%- if ml_n > 0 -%}
+    <section style="padding-top:0"><div class="sec-head"><div><h2>You may also like</h2></div><a class="p-link" href="{{ cat_url }}">View all</a></div><div class="grid-p">{{ ml_html }}</div></section>
   {%- endif -%}
   <section style="padding-top:0" id="seenSec" hidden><div class="sec-head"><div><h2>Picking up where you left off</h2></div></div><div class="grid-p" id="seenGrid"></div></section>
 
-  <section class="reviews" id="reviews"><div class="rv-head"><div><h2>Reviews</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button><a class="btn" href="{{ section.settings.ask_url | default: '/pages/contact' }}">Ask a question</a></div></div>
+  {%- comment -%} Reviews (user, 13 Nov 2026): with real reviews the Judge.me widget shows; with none, only a small box with 'Write a review' (no empty summary, no example layout). 'Ask a question' removed: contact is in the footer. {%- endcomment -%}
+  {%- capture jdgm_block -%}{%- for block in section.blocks -%}{%- if block.type == '@app' -%}{% render block %}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+  <section class="reviews{% if rcount == 0 %} rv-zero{% endif %}" id="reviews">
     {%- if rcount > 0 -%}
-      <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">{{ product.metafields.judgeme.widget }}</div>
+      <div class="rv-head"><div><h2>Reviews</h2></div><div class="rv-actions"><button class="btn solid" data-review>Write a review</button></div></div>
+      {%- if jdgm_block != blank -%}<div id="judgeme_product_reviews">{{ jdgm_block }}</div>{%- else -%}<div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">{{ product.metafields.judgeme.widget }}</div>{%- endif -%}
     {%- else -%}
-    <div class="rv-grid">
-      <div class="rv-sum"><div class="avg">—</div><span class="stars" aria-hidden="true">☆☆☆☆☆</span><small>No reviews yet</small><div class="bars">{%- for s in (1..5) reversed -%}<div><span>{{ s }}★</span><i><b style="width:0"></b></i><span>0</span></div>{%- endfor -%}</div></div>
-      <div class="rv-list"><div class="rv-empty"><b>Be the first to review {{ t | escape }}</b><p>Reviews come only from verified buyers, invited by email after delivery. Photos are welcome, and every rating is published, good or bad.</p></div>
-        <div class="rv-example" aria-label="Example of how a review will appear"><span class="tag">Example layout</span><div class="rv-top"><span class="stars" aria-hidden="true">★★★★★</span><b class="sk" style="width:46%"></b></div><div class="rv-meta"><span class="vb">{{ ic_check }} Verified buyer</span><b class="sk" style="width:22%"></b></div><b class="sk"></b><b class="sk" style="width:84%"></b><b class="sk" style="width:62%"></b><div class="rv-meta"><small>Skin type · Age range · Used for</small></div></div>
-      </div>
-    </div>
-    <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}" hidden>{{ product.metafields.judgeme.widget }}</div>
+      <div class="rv-none"><div><h2>Reviews</h2><p>Bought {{ t | escape }}? Share what you think.</p></div><button class="btn solid" data-review>Write a review</button></div>
+      {%- if jdgm_block != blank -%}<div id="judgeme_product_reviews" class="rv-form" hidden>{{ jdgm_block }}</div>{%- else -%}<div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}" hidden>{{ product.metafields.judgeme.widget }}</div>{%- endif -%}
     {%- endif -%}
   </section>
 </div>
@@ -223,7 +324,8 @@
     { "type": "text", "id": "returns_sub", "label": "Trust row: returns detail", "default": "14 days, unopened" },
     { "type": "text", "id": "returns_text", "label": "Delivery & returns text", "default": "Unopened, sealed items can be returned within 14 days of delivery." },
     { "type": "url", "id": "notify_url", "label": "'Notify me when back' link" },
-    { "type": "url", "id": "ask_url", "label": "'Ask a question' link" }
-  ]
+    { "type": "url", "id": "ask_url", "label": "'Ask a question' link (not shown)" }
+  ],
+  "blocks": [{ "type": "@app" }]
 }
 {% endschema %}

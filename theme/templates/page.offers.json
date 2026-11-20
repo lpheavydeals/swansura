@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
  "sections": {
   "main": {
@@ -18,8 +27,8 @@
      "type": "offer",
      "settings": {
       "eyebrow": "Spend more, save more",
-      "title": "Spend £70: free delivery + £5 off with code SAVE5",
-      "text": "Orders over £70 get free UK delivery, and £5 off with code SAVE5. Enter the code in your bag or at checkout.",
+      "title": "Spend £70 on 2+ items: free delivery + £5 off with code SAVE5",
+      "text": "Orders over £70 get free UK delivery, and orders over £70 with 2 or more items get £5 off with code SAVE5. One code per order. Enter the code in your bag or at checkout.",
       "btn": "Shop fragrance",
       "url": "/collections/fragrance",
       "needs_discount": false
@@ -55,7 +64,7 @@
     "o3"
    ],
    "settings": {
-    "lede": "<p>Ways to save at Swansura today: free UK delivery over £40, and free delivery plus £5 off over £70 with code SAVE5.</p>"
+    "lede": "<p>Ways to save at Swansura today: free UK delivery over £40, and free delivery plus £5 off over £70 (2 or more items) with code SAVE5, and 10% off Vilvah and Deyga with code VD10.</p>"
    }
   },
   "newsletter": {
