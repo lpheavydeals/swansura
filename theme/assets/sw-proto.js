@@ -525,19 +525,41 @@
       else if (list.length > shown) res.insertAdjacentHTML('beforeend', `<div class="more"><span>Showing ${shown} of ${list.length}</span><button class="btn" id="loadMore">Load more</button></div>`);
       $('#count').textContent = list.length; syncHearts();
     }
-    root.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id === 'sort') apply(true); });
+    root.addEventListener('change', e => { if (e.target.closest('#filters') || e.target.id === 'sort') Promise.resolve(loadAll()).then(() => apply(true)); });
     document.addEventListener('click', e => {
-      const chip = e.target.closest('[data-chip]'); if (chip) { $$('#filters input[data-f="sub"]').forEach(i => { i.checked = chip.dataset.chip !== '' && i.value === chip.dataset.chip; }); apply(true); return; }
+      const chip = e.target.closest('[data-chip]'); if (chip) { Promise.resolve(loadAll()).then(() => { $$('#filters input[data-f="sub"]').forEach(i => { i.checked = chip.dataset.chip !== '' && i.value === chip.dataset.chip; }); apply(true); }); return; }
       const unf = e.target.closest('[data-unf]'); if (unf) { const [f, v] = unf.dataset.unf.split('|'); $$('#filters input:checked').forEach(i => { if (f === '*' || (i.dataset.f === f && i.value === v)) i.checked = false; }); apply(true); return; }
       const sa = e.target.closest('[data-showall]'); if (sa) { const o = sa.previousElementSibling; const open = o.classList.toggle('all'); if (open) sa.dataset.label = sa.dataset.label || sa.textContent; sa.textContent = open ? 'Show fewer' : sa.dataset.label; return; }
-      if (e.target.closest('#loadMore')) { shown += PAGE; apply(false); return; }
+      if (e.target.closest('#loadMore')) { e.target.closest('#loadMore').disabled = true; Promise.resolve(loadAll()).then(() => { shown += PAGE; apply(false); }); return; }
       if (e.target.closest('#ftoggle')) $('#filters').classList.toggle('open');
     });
-    collect(); build(); apply(true);
-    const pages = +root.dataset.pages || 1;
-    if (pages > 1) (async () => { for (let n = 2; n <= pages; n++) { const html = await (await fetch(`${root.dataset.url}?page=${n}&section_id=${root.dataset.section}`)).text();
-      const d = new DOMParser().parseFromString(html, 'text/html'); $$('#sw-pool article.p-card', d).forEach(a => { a.hidden = true; pool.appendChild(document.importNode(a, true)); }); }
-      collect(); build(); apply(false); })();
+    /* speed (20 Nov 2026): the page HTML holds only the first 24 cards; every card (with its filter values) comes from
+       ?view=cards after load, or at once when the shopper filters, sorts or asks for more. Cards already on the page are
+       kept (no image reload) and put in the full order. */
+    const total = +root.dataset.total || 0;
+    let full = null;
+    const loadAll = () => full || (total <= all.length ? Promise.resolve() : null) || (full = (async () => {
+      const pages = Math.max(1, Math.ceil(total / 250)), got = [];
+      for (let n = 1; n <= pages; n++) {
+        const html = await (await fetch(`${root.dataset.url}?view=cards&page=${n}`, { credentials: 'same-origin' })).text();
+        const d = new DOMParser().parseFromString(html, 'text/html'); got.push(...$$('#sw-all article.p-card', d));
+      }
+      if (!got.length) return;
+      const key = a => (a.querySelector('a.p-media') || {}).getAttribute ? a.querySelector('a.p-media').getAttribute('href') : '';
+      const have = new Map($$('article.p-card', pool).map(el => [key(el), el]));
+      const frag = document.createDocumentFragment();
+      got.forEach(a => { const k = key(a), el = have.get(k); if (el) { have.delete(k); frag.appendChild(el); } else { a.hidden = true; frag.appendChild(document.importNode(a, true)); } });
+      have.forEach(el => frag.appendChild(el));
+      pool.appendChild(frag); collect(); build(); apply(false);
+    })().catch(() => {}));
+    collect();
+    const need = total > all.length;
+    if (need) {
+      root.addEventListener('click', e => { if (!full && e.target.closest('#filters,#sort,#ftoggle,.typechips')) loadAll(); }, true);
+      const go = () => setTimeout(() => ('requestIdleCallback' in window ? requestIdleCallback(loadAll, { timeout: 2500 }) : loadAll()), 1200);
+      if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true });
+    } else build();
+    apply(true);
   })();
 
   /* ---------- product page (productPage() handlers) ---------- */

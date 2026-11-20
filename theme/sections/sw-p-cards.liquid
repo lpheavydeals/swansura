@@ -1,0 +1,10 @@
+{%- comment -%}
+  Every card of a collection with its filter values, for the listing script (sw-proto.js): /collections/<handle>?view=cards
+  (templates/collection.cards.json, no layout), 250 a page (&page=2 …), in-stock products first like sw-p-collection.
+  Not linked anywhere, only fetched by sw-proto.js after the first 24 cards (speed, 20 Nov 2026).
+{%- endcomment -%}
+{%- paginate collection.products by 250 -%}<div id="sw-all" data-pages="{{ paginate.pages }}">{%- for pass in (1..2) -%}{%- for p in collection.products -%}{%- if pass == 1 and p.available == false -%}{%- continue -%}{%- endif -%}{%- if pass == 2 and p.available -%}{%- continue -%}{%- endif -%}{% render 'sw-p-card', product: p, facets: true, hidden: true %}{%- endfor -%}{%- endfor -%}</div>{%- endpaginate -%}
+
+{% schema %}
+{ "name": "Listing cards", "settings": [] }
+{% endschema %}
