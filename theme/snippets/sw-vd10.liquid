@@ -13,8 +13,9 @@
 <style>
 .swp .vd10{position:relative;display:flex;align-items:center;gap:16px;border-radius:12px;background:linear-gradient(120deg,#133A2F 0%,#1B4D3E 60%,#24624F 100%);color:#F4EEE4;box-shadow:inset 0 0 0 1px rgba(232,201,143,.55);overflow:hidden}
 .swp .vd10::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 92% 10%,rgba(232,201,143,.22),transparent 45%);pointer-events:none}
-.swp .vd10 .vd-pct{flex:none;display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#EACB8E,#C4924A);color:#0F2E25;font-weight:800;line-height:1;text-align:center;font-size:22px}
-.swp .vd10 .vd-pct small{display:block;font-size:10px;letter-spacing:.14em;font-weight:700;margin-top:2px}
+.swp .vd10 .vd-pct{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:12px 14px;border-radius:10px;background:linear-gradient(135deg,#EACB8E,#C4924A);color:#0F2E25;line-height:1;text-align:center;box-shadow:0 0 0 3px rgba(232,201,143,.18);position:relative;z-index:1}
+.swp .vd10 .vd-pct b{display:block;font-size:24px;font-weight:800;letter-spacing:-.01em;white-space:nowrap}
+.swp .vd10 .vd-pct small{display:block;font-size:10px;font-weight:700;letter-spacing:.24em;padding-left:.24em}
 .swp .vd10 .vd-txt{flex:1;min-width:0;position:relative;z-index:1}
 .swp .vd10 .vd-txt b{display:block;font-size:16px;font-weight:700;color:#fff}
 .swp .vd10 .vd-txt span{display:block;font-size:13px;color:#E6D3A8;margin-top:3px}
@@ -25,19 +26,22 @@
 .swp .vd10 .vd-go:hover{filter:brightness(1.06)}
 .swp .vd10.pdp{margin:14px 0 4px;padding:14px 16px}
 .swp .vd10.brand{margin:0 0 22px;padding:18px clamp(16px,3vw,28px)}
-.swp .vd10.brand .vd-pct{width:76px;height:76px;font-size:26px}
+.swp .vd10.brand .vd-pct{padding:14px 18px}
+.swp .vd10.brand .vd-pct b{font-size:30px}
 .swp .vd10.brand .vd-txt b{font-size:clamp(17px,1.8vw,21px)}
 .swp .vd10 .vd-fine{display:block;font-size:11.5px;color:#C9D8D1;margin-top:4px}
 @media (max-width:600px){
   .swp .vd10{flex-wrap:wrap;gap:12px}
-  .swp .vd10 .vd-pct,.swp .vd10.brand .vd-pct{width:54px;height:54px;font-size:18px}
-  .swp .vd10 .vd-txt{flex:1 1 calc(100% - 70px)}
+  .swp .vd10 .vd-pct,.swp .vd10.brand .vd-pct{padding:9px 11px;gap:4px}
+  .swp .vd10 .vd-pct b,.swp .vd10.brand .vd-pct b{font-size:20px}
+  .swp .vd10 .vd-pct small{font-size:9px}
+  .swp .vd10 .vd-txt{flex:1 1 0}
   .swp .vd10 .vd-act{flex:1 1 100%}
   .swp .vd10 .vd-go{flex:1;justify-content:center}
 }
 </style>
 <div class="vd10 {{ mode }}" role="note" aria-label="10% off Vilvah and Deyga with code {{ code }}">
-  <div class="vd-pct" aria-hidden="true">10%<small>OFF</small></div>
+  <div class="vd-pct" aria-hidden="true"><b>10%</b><small>OFF</small></div>
   <div class="vd-txt">
     {%- if mode == 'pdp' -%}
       {%- assign after = price | times: 0.9 | round -%}
