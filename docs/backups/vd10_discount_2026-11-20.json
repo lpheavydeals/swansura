@@ -1,0 +1,8 @@
+{
+ "created": "2026-11-20",
+ "request": "user, 20 Nov 2026: VD10 for all customers, no end date; one code per order (VD10 and SAVE5 never together); SAVE5 needs 2+ items as well as £70+ (bag-enforced, Shopify can't require both); SAVE5 stays £5 off; same product twice counts as 2 items",
+ "VD10": {"id": "gid://shopify/DiscountCodeNode/2443873976707", "title": "VD10 – 10% off Vilvah & Deyga", "value": "10% off", "items": ["Collection 687767716227 vilvah", "Collection 687768011139 deyga"], "context": "all buyers", "combinesWith": {"orderDiscounts": false, "productDiscounts": false, "shippingDiscounts": true}, "starts": "2026-11-20T00:00:00Z", "ends": null, "undo": "delete DiscountCodeNode/2443873976707"},
+ "SAVE5": {"id": "gid://shopify/DiscountCodeNode/2440222409091", "unchanged": "£5 off, min subtotal £70, combines with shipping only (already did not combine with product discounts)", "test": "Shopify refused minimumRequirement quantity + subtotal together: 'Minimum subtotal cannot be defined when minimum quantity is.'"},
+ "deyga_collection_joins": ["gid://shopify/Product/16396770083203 Deyga Anti-Dandruff Hair Oil 100ml", "gid://shopify/Product/16396770115971 Deyga Baby Bath Bar 130g"],
+ "theme_draft": "200856371587 'Swansura – VD10 + SAVE5 rules (draft)' duplicated from live 200801911171"
+}
