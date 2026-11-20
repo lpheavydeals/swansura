@@ -1,0 +1,1007 @@
+{
+ "source": "Scent N Essence UK stock report 20-11-2026 (client upload, kept out of the repo)",
+ "rule": "supplier qty >=5 -> exact qty, <5 -> 0; mapping = the 618 options matched on 10 Nov + the 36 hand matches of 18 Nov (all 654 found in the 20 Nov report); live stock read first, changeFromQuantity = live qty",
+ "location": "gid://shopify/Location/111879553411",
+ "adjustment_group": "gid://shopify/InventoryAdjustmentGroup/81185173143939",
+ "changes": [
+  {
+   "variant_id": "gid://shopify/ProductVariant/62586891174275",
+   "inventory_item": "gid://shopify/InventoryItem/64603517780355",
+   "title": "Al Haramain Amber Oud Extreme Gold Edition Extrait de Parfum – Luxury Unisex Fruity Amber Fragrance - 60ml",
+   "before": 25,
+   "after": 24,
+   "supplier_qty": 24,
+   "supplier_rows": "al haramain amber oud extreme gold edition (u) extrait de parfum 60ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200312754563",
+   "inventory_item": "gid://shopify/InventoryItem/65234993316227",
+   "title": "Arabiyat Prestige Nyla Eau de Parfum 80ml - Default Title",
+   "before": 2019,
+   "after": 1983,
+   "supplier_qty": 1983,
+   "supplier_rows": "arabiyat prestige nyla (w) edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200312787331",
+   "inventory_item": "gid://shopify/InventoryItem/65234993348995",
+   "title": "Arabiyat Prestige Nyla Vani-elle Eau de Parfum 80ml - Default Title",
+   "before": 471,
+   "after": 435,
+   "supplier_qty": 435,
+   "supplier_rows": "arabiyat prestige nyla vani-elle (w) edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200348864899",
+   "inventory_item": "gid://shopify/InventoryItem/65235030081923",
+   "title": "Armaf Club de Nuit Private Key To My Love Extrait de Parfum 100ml - Default Title",
+   "before": 59,
+   "after": 57,
+   "supplier_qty": 57,
+   "supplier_rows": "armaf club de nuit private key to my love (u) extrait de parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200321110403",
+   "inventory_item": "gid://shopify/InventoryItem/65235001672067",
+   "title": "Attar Collection Crystal Love Eau de Parfum for Women 100ml - Default Title",
+   "before": 55,
+   "after": 54,
+   "supplier_qty": 54,
+   "supplier_rows": "attar collection crystal love (w) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62750448746883",
+   "inventory_item": "gid://shopify/InventoryItem/64776078754179",
+   "title": "Azzaro The Most Wanted Parfum 100ml – Men’s Warm Spicy Amber Fragrance - Default Title",
+   "before": 19,
+   "after": 13,
+   "supplier_qty": 13,
+   "supplier_rows": "azzaro the most wanted parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62510873543043",
+   "inventory_item": "gid://shopify/InventoryItem/64525841793411",
+   "title": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – Men’s Fragrance Set - Default Title",
+   "before": 8,
+   "after": 6,
+   "supplier_qty": 6,
+   "supplier_rows": "bvlgari man glacial essence (m) set edp 100ml+edp 15ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62513257775491",
+   "inventory_item": "gid://shopify/InventoryItem/64528237003139",
+   "title": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – New Pack Men’s Fragrance Set - Default Title",
+   "before": 93,
+   "after": 92,
+   "supplier_qty": 92,
+   "supplier_rows": "bvlgari man terrae essence (m) set edp100ml+edp 15ml (new pack)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62763484086659",
+   "inventory_item": "gid://shopify/InventoryItem/64790106177923",
+   "title": "Calvin Klein Defy Eau de Parfum 10ml Miniature – Men’s Fresh Woody Fragrance - Default Title",
+   "before": 50,
+   "after": 49,
+   "supplier_qty": 49,
+   "supplier_rows": "calvin klein defy (m) edp 10ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62764122472835",
+   "inventory_item": "gid://shopify/InventoryItem/64790765371779",
+   "title": "Calvin Klein My Euphoria Eau de Parfum 10ml Miniature – Women’s Floral Gourmand Fragrance - Default Title",
+   "before": 74,
+   "after": 72,
+   "supplier_qty": 72,
+   "supplier_rows": "calvin klein my euphoria (w) edp 10ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62790932889987",
+   "inventory_item": "gid://shopify/InventoryItem/64817737466243",
+   "title": "Carolina Herrera Bad Boy Extreme Eau de Parfum – Men’s Warm Spicy Amber Fragrance - 10ml",
+   "before": 135,
+   "after": 129,
+   "supplier_qty": 129,
+   "supplier_rows": "carolina herrera bad boy extreme edp 10ml | carolina bad boy extreme edp 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62791347339651",
+   "inventory_item": "gid://shopify/InventoryItem/64818157355395",
+   "title": "Carolina Herrera Bad Boy Le Parfum Eau de Parfum 150ml – Men’s Woody Aromatic Fragrance - Default Title",
+   "before": 335,
+   "after": 331,
+   "supplier_qty": 331,
+   "supplier_rows": "carolina herrera bad boy le parfum\n(m) edp 150ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62760862843267",
+   "inventory_item": "gid://shopify/InventoryItem/64786922930563",
+   "title": "Chloé Rose Naturelle Intense Eau de Parfum 50ml – Women’s Floral Woody Fragrance - Default Title",
+   "before": 101,
+   "after": 95,
+   "supplier_qty": 95,
+   "supplier_rows": "chloe rose naturelle intense (w) edp 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62522384318851",
+   "inventory_item": "gid://shopify/InventoryItem/64537553699203",
+   "title": "Chopard Amber Malaki Eau de Parfum 80ml – Luxury Unisex Amber Fragrance - Default Title",
+   "before": 413,
+   "after": 412,
+   "supplier_qty": 412,
+   "supplier_rows": "chopard amber malaki (u) edp 80ml | chopard amber malaki edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62546352537987",
+   "inventory_item": "gid://shopify/InventoryItem/64561810243971",
+   "title": "Chopard Oud Malaki Eau de Parfum 80ml – Luxury Men’s Oud Fragrance - Default Title",
+   "before": 459,
+   "after": 446,
+   "supplier_qty": 446,
+   "supplier_rows": "chopard oud malaki (m) edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62764235522435",
+   "inventory_item": "gid://shopify/InventoryItem/64790888546691",
+   "title": "Davidoff Cool Water Reborn Intense Eau de Parfum 50ml – Women’s Fresh Floral Fragrance - Default Title",
+   "before": 185,
+   "after": 178,
+   "supplier_qty": 178,
+   "supplier_rows": "davidoff cool water reborn intense (w) edp 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62763155161475",
+   "inventory_item": "gid://shopify/InventoryItem/64789767258499",
+   "title": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – Women’s Fruity Floral Fragrance - Default Title",
+   "before": 204,
+   "after": 201,
+   "supplier_qty": 201,
+   "supplier_rows": "dkny be delicious orchard street edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62570699915651",
+   "inventory_item": "gid://shopify/InventoryItem/64587043537283",
+   "title": "Dolce & Gabbana Devotion Eau de Parfum Gift Set 50ml + 10ml – Women’s Fragrance Set - Default Title",
+   "before": 9,
+   "after": 6,
+   "supplier_qty": 6,
+   "supplier_rows": "dolce&gabbana devotion (w) edp 50ml+edp 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62564607099267",
+   "inventory_item": "gid://shopify/InventoryItem/64580849074563",
+   "title": "Dolce & Gabbana Men’s Miniature Fragrance Set – Devotion, K EDT, K EDP, The One & Light Blue Pour Homme - Default Title",
+   "before": 2338,
+   "after": 2333,
+   "supplier_qty": 2333,
+   "supplier_rows": "dolce&gabbana (m) mini set 4x5ml(devotion edp+k edt + k edp + the one)+light blue pour homme edt 4.5ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62805437186435",
+   "inventory_item": "gid://shopify/InventoryItem/64832750879107",
+   "title": "Dunhill Desire Black Eau de Toilette 100ml – Men’s Spicy Woody Fragrance - Default Title",
+   "before": 228,
+   "after": 227,
+   "supplier_qty": 227,
+   "supplier_rows": "dunhill desire black (m) edt 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62805616296323",
+   "inventory_item": "gid://shopify/InventoryItem/64832932872579",
+   "title": "Dunhill Signature Collection Amalfi Citrus Eau de Parfum 100ml – Men’s Citrus Aromatic Fragrance - Default Title",
+   "before": 25,
+   "after": 24,
+   "supplier_qty": 24,
+   "supplier_rows": "dunhill signature collection amalfi citrus (m) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62791939391875",
+   "inventory_item": "gid://shopify/InventoryItem/64818758648195",
+   "title": "Elie Saab La Collection des Essences No. 1 Rose Eau de Parfum 100ml – Luxury Unisex Rose Fragrance - Default Title",
+   "before": 97,
+   "after": 96,
+   "supplier_qty": 96,
+   "supplier_rows": "elie saab la collection essence no.1 rose (u) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62792077083011",
+   "inventory_item": "gid://shopify/InventoryItem/64818902630787",
+   "title": "Elie Saab Le Parfum Eau de Parfum Gift Set 90ml + Body Lotion 75ml + Shower Gel 75ml – Women’s Fragrance Set - Default Title",
+   "before": 19,
+   "after": 10,
+   "supplier_qty": 10,
+   "supplier_rows": "elie saab le parfum (w) set edp 90ml + bl 75ml + sg 75ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62793467756931",
+   "inventory_item": "gid://shopify/InventoryItem/64820323451267",
+   "title": "Elie Saab Le Parfum Lumière Eau de Parfum Gift Set 90ml + 10ml + Body Lotion 75ml – Women’s Fragrance Set - Default Title",
+   "before": 987,
+   "after": 985,
+   "supplier_qty": 985,
+   "supplier_rows": "elie saab le parfum lumiere (w) set edp 90ml + edp 10ml + bl 75ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200350896515",
+   "inventory_item": "gid://shopify/InventoryItem/65235032113539",
+   "title": "Fomo Gary's Den le Parfum 100ml - Default Title",
+   "before": 172,
+   "after": 171,
+   "supplier_qty": 171,
+   "supplier_rows": "fomo gary's den le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200323240323",
+   "inventory_item": "gid://shopify/InventoryItem/65235003998595",
+   "title": "Franck Olivier Ambre Gold Collection Privee le Parfum 100ml - Default Title",
+   "before": 43,
+   "after": 47,
+   "supplier_qty": 47,
+   "supplier_rows": "franck olivier ambre gold collection privee le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200334774659",
+   "inventory_item": "gid://shopify/InventoryItem/65235015631235",
+   "title": "Franck Olivier Magic Blossom Collection Privee le Parfum 100ml - Default Title",
+   "before": 69,
+   "after": 75,
+   "supplier_qty": 75,
+   "supplier_rows": "franck olivier magic blossom collection privee le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200336249219",
+   "inventory_item": "gid://shopify/InventoryItem/65235017105795",
+   "title": "Franck Olivier Parisian Oud Collection Privee le Parfum 100ml - Default Title",
+   "before": 0,
+   "after": 7,
+   "supplier_qty": 7,
+   "supplier_rows": "franck olivier parisian oud collection privee le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200312361347",
+   "inventory_item": "gid://shopify/InventoryItem/65234992923011",
+   "title": "Franck Olivier Red Addict Collection Privee le Parfum 100ml - Default Title",
+   "before": 66,
+   "after": 72,
+   "supplier_qty": 72,
+   "supplier_rows": "franck olivier red addict collection privee le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200312459651",
+   "inventory_item": "gid://shopify/InventoryItem/65234993021315",
+   "title": "Franck Olivier Sun Java Blue Men Eau de Toilette 75ml - Default Title",
+   "before": 9,
+   "after": 7,
+   "supplier_qty": 7,
+   "supplier_rows": "franck olivier sun java blue men 75ml edt"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200316981635",
+   "inventory_item": "gid://shopify/InventoryItem/65234997543299",
+   "title": "Franck Olivier Tribal Collection Privee le Parfum 100ml - Default Title",
+   "before": 62,
+   "after": 64,
+   "supplier_qty": 64,
+   "supplier_rows": "franck olivier tribal collection privee le parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62573045973379",
+   "inventory_item": "gid://shopify/InventoryItem/64589438091651",
+   "title": "Gucci Bloom Profumo di Fiori Eau de Parfum 10ml Pen Spray – Women’s Floral Fragrance - Default Title",
+   "before": 1199,
+   "after": 1197,
+   "supplier_qty": 1197,
+   "supplier_rows": "gucci bloom profumo di fiori (w) edp pen spray 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62573364216195",
+   "inventory_item": "gid://shopify/InventoryItem/64589758202243",
+   "title": "Gucci Flora Gorgeous Miniature Perfume Set 3x5ml – Gardenia, Magnolia & Orchid - Default Title",
+   "before": 25,
+   "after": 16,
+   "supplier_qty": 16,
+   "supplier_rows": "gucci flora gorgeous (w) mini set edp 3x5ml (gardenia+magnolia+orchid)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62575320236419",
+   "inventory_item": "gid://shopify/InventoryItem/64591726805379",
+   "title": "Gucci Flora Gorgeous Orchid Eau de Parfum 10ml Miniature – Women’s Floral Gourmand Fragrance - Default Title",
+   "before": 3177,
+   "after": 3176,
+   "supplier_qty": 3176,
+   "supplier_rows": "gucci flora gorgeous orchid (w) edp 10ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62575870148995",
+   "inventory_item": "gid://shopify/InventoryItem/64592280322435",
+   "title": "Gucci Intense Oud Eau de Parfum Spray 90ml – Long Lasting Luxury Unisex Oud Fragrance - Default Title",
+   "before": 176,
+   "after": 170,
+   "supplier_qty": 170,
+   "supplier_rows": "gucci intense oud (u) edp 90ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62626850177411",
+   "inventory_item": "gid://shopify/InventoryItem/64645486969219",
+   "title": "Guerlain Épices Exquises Eau de Parfum 125ml – Luxury Unisex Spicy Woody Fragrance - Default Title",
+   "before": 50,
+   "after": 49,
+   "supplier_qty": 49,
+   "supplier_rows": "guerlain epices exquises (u) edp 125ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200318095747",
+   "inventory_item": "gid://shopify/InventoryItem/65234998657411",
+   "title": "Guess 1981 Body Mist 250ml - Default Title",
+   "before": 216,
+   "after": 213,
+   "supplier_qty": 213,
+   "supplier_rows": "guess 1981 (w) 250ml body mist"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200325960067",
+   "inventory_item": "gid://shopify/InventoryItem/65235006718339",
+   "title": "Guess Pink Body Mist - 125ml",
+   "before": 33,
+   "after": 32,
+   "supplier_qty": 32,
+   "supplier_rows": "guess pink (w) 125ml body mist"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200332710275",
+   "inventory_item": "gid://shopify/InventoryItem/65235013566851",
+   "title": "Guess Seductive Homme Noir Gift Set 100ml + 170g - Default Title",
+   "before": 5,
+   "after": 0,
+   "supplier_qty": 2,
+   "supplier_rows": "guess seductive homme noir (m) set edt 100ml + sg 100ml + body spray 170g + pouch"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200334414211",
+   "inventory_item": "gid://shopify/InventoryItem/65235015270787",
+   "title": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml - Default Title",
+   "before": 16,
+   "after": 14,
+   "supplier_qty": 14,
+   "supplier_rows": "guess seductive noir (w) set edt 75ml + bl 100ml + edt 15ml + pouch"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200343753091",
+   "inventory_item": "gid://shopify/InventoryItem/65235024740739",
+   "title": "Guess Uomo Gift Set 100ml + 170g - Default Title",
+   "before": 10,
+   "after": 7,
+   "supplier_qty": 7,
+   "supplier_rows": "guess uomo (m) set edt 100ml + sg 100ml + body spray 170g + pouch"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254829007235",
+   "inventory_item": "gid://shopify/InventoryItem/65292128223619",
+   "title": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml - Default Title",
+   "before": 896,
+   "after": 895,
+   "supplier_qty": 895,
+   "supplier_rows": "issey miyake l'eau d'issey pure petale de nectar (w) edt 90ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62729893872003",
+   "inventory_item": "gid://shopify/InventoryItem/64753954226563",
+   "title": "Joop! Homme Le Parfum 75ml – Men’s Warm Spicy Amber Long lasting Fragrance - Default Title",
+   "before": 1399,
+   "after": 1391,
+   "supplier_qty": 1391,
+   "supplier_rows": "joop homme (m) le parfum 75ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58072105550211",
+   "inventory_item": "gid://shopify/InventoryItem/56663257252227",
+   "title": "Korloff In Love Eau De Parfum 100ML - Default Title",
+   "before": 5,
+   "after": 0,
+   "supplier_qty": 4,
+   "supplier_rows": "korloff in love 100ml edp +black pouch"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58072986648963",
+   "inventory_item": "gid://shopify/InventoryItem/56664142643587",
+   "title": "Royal Oud Korloff Paris Eau De Parfum 88ML - Default Title",
+   "before": 437,
+   "after": 436,
+   "supplier_qty": 436,
+   "supplier_rows": "korloff paris royal oud 88ml edp"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254876291459",
+   "inventory_item": "gid://shopify/InventoryItem/65292175573379",
+   "title": "Lacoste L'Homme Lacoste Deodorant Stick 70g - Default Title",
+   "before": 81,
+   "after": 78,
+   "supplier_qty": 78,
+   "supplier_rows": "lacoste l'homme lacoste (m) 70g deodorant stick"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254876553603",
+   "inventory_item": "gid://shopify/InventoryItem/65292175835523",
+   "title": "Lalique Amethyst Eau de Parfum 100ml - Default Title",
+   "before": 237,
+   "after": 233,
+   "supplier_qty": 233,
+   "supplier_rows": "lalique amethyst (w) 100ml edp"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200347160963",
+   "inventory_item": "gid://shopify/InventoryItem/65235028148611",
+   "title": "Lattafa Khamrah Qahwa Eau de Parfum 100ml - Default Title",
+   "before": 115,
+   "after": 108,
+   "supplier_qty": 108,
+   "supplier_rows": "lattafa khamrah qahwa (u) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200348701059",
+   "inventory_item": "gid://shopify/InventoryItem/65235029918083",
+   "title": "Lattafa Yara Candy Eau de Parfum 100ml - Default Title",
+   "before": 145,
+   "after": 133,
+   "supplier_qty": 133,
+   "supplier_rows": "lattafa yara candy (w) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200348766595",
+   "inventory_item": "gid://shopify/InventoryItem/65235029983619",
+   "title": "Maison Alhambra Baroque la Rouge Eau de Parfum 100ml - Default Title",
+   "before": 48,
+   "after": 45,
+   "supplier_qty": 45,
+   "supplier_rows": "maison alhambra baroque la rouge (u) edp 100ml (new packing)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200348799363",
+   "inventory_item": "gid://shopify/InventoryItem/65235030016387",
+   "title": "Maison Alhambra Baroque la Rouge Extreme Eau de Parfum 100ml - Default Title",
+   "before": 82,
+   "after": 77,
+   "supplier_qty": 77,
+   "supplier_rows": "maison alhambra baroque la rouge extreme (u) edp 100ml (new packing)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200350503299",
+   "inventory_item": "gid://shopify/InventoryItem/65235031720323",
+   "title": "Maison Alhambra Infini Rose Eau de Parfum 100ml - Default Title",
+   "before": 41,
+   "after": 39,
+   "supplier_qty": 39,
+   "supplier_rows": "maison alhambra infini rose (u) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200353878403",
+   "inventory_item": "gid://shopify/InventoryItem/65235035095427",
+   "title": "Maison Alhambra Pacific Blue (Porto Neroli) Eau de Parfum 80ml - Default Title",
+   "before": 141,
+   "after": 140,
+   "supplier_qty": 140,
+   "supplier_rows": "maison alhambra pacific blue edp 80ml (porto neroli)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62714334970243",
+   "inventory_item": "gid://shopify/InventoryItem/64737886503299",
+   "title": "Mancera Black Noir Eau de Parfum 120ml – Luxury Unisex Oud Tobacco Longlasting Fragrance - Default Title",
+   "before": 38,
+   "after": 37,
+   "supplier_qty": 37,
+   "supplier_rows": "mancera black noir (u) edp 120ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62798563148163",
+   "inventory_item": "gid://shopify/InventoryItem/64825613418883",
+   "title": "Marc Jacobs Daisy Love Glow Limited Edition Eau de Toilette 50ml – Women’s Floral Fragrance - Default Title",
+   "before": 122,
+   "after": 98,
+   "supplier_qty": 98,
+   "supplier_rows": "marc jacobs daisy love glow limited edition (w) edt 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62798615183747",
+   "inventory_item": "gid://shopify/InventoryItem/64825666896259",
+   "title": "Marc Jacobs Perfect Eau de Parfum 50ml – Women’s Floral Fragrance - Default Title",
+   "before": 22,
+   "after": 20,
+   "supplier_qty": 20,
+   "supplier_rows": "marc jacobs perfect (w) edp 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62798766506371",
+   "inventory_item": "gid://shopify/InventoryItem/64825820545411",
+   "title": "Marc Jacobs Women’s Miniature Fragrance Gift Set 2025 – Daisy, Daisy Eau So Fresh, Perfect & Daisy Wild - Default Title",
+   "before": 1387,
+   "after": 1360,
+   "supplier_qty": 1360,
+   "supplier_rows": "marc jacobs(w) mini set edt 2x4ml( daisy eau so fresh + daisy)  +  perfect edp 5ml+daisy wild edp 4ml (2025 version)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200357810563",
+   "inventory_item": "gid://shopify/InventoryItem/65235039125891",
+   "title": "Mercedes-Benz Club Black Eau de Parfum 100ml - Default Title",
+   "before": 206,
+   "after": 194,
+   "supplier_qty": 194,
+   "supplier_rows": "mercedes benz club black (m) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254890054019",
+   "inventory_item": "gid://shopify/InventoryItem/65292189434243",
+   "title": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml - Default Title",
+   "before": 522,
+   "after": 494,
+   "supplier_qty": 494,
+   "supplier_rows": "michael kors pour homme edp 5ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254890152323",
+   "inventory_item": "gid://shopify/InventoryItem/65292189532547",
+   "title": "Moschino Toy Boy Eau de Parfum - 100ml",
+   "before": 25,
+   "after": 12,
+   "supplier_qty": 12,
+   "supplier_rows": "moschino toy boy (m) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254890119555",
+   "inventory_item": "gid://shopify/InventoryItem/65292189499779",
+   "title": "Moschino Toy Boy Eau de Parfum - 5ml",
+   "before": 415,
+   "after": 347,
+   "supplier_qty": 347,
+   "supplier_rows": "moschino toy boy (m) edp 5ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254892773763",
+   "inventory_item": "gid://shopify/InventoryItem/65292193137027",
+   "title": "Mugler Alien Goddess Supra Florale Eau de Parfum - 10ml",
+   "before": 757,
+   "after": 756,
+   "supplier_qty": 756,
+   "supplier_rows": "mugler alien goddess supra florale edp 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254892970371",
+   "inventory_item": "gid://shopify/InventoryItem/65292193333635",
+   "title": "Mugler Angel Eau de Parfum 25ml - Default Title",
+   "before": 68,
+   "after": 60,
+   "supplier_qty": 60,
+   "supplier_rows": "mugler angel edp vapo 25 ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254893068675",
+   "inventory_item": "gid://shopify/InventoryItem/65292193431939",
+   "title": "Mugler Angel Nova Eau de Toilette 50ml - Default Title",
+   "before": 65,
+   "after": 41,
+   "supplier_qty": 41,
+   "supplier_rows": "mugler angel nova (w) edt 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254900605315",
+   "inventory_item": "gid://shopify/InventoryItem/65292201230723",
+   "title": "Mugler Les Exceptions Wonder Bouquet Eau de Parfum 80ml - Default Title",
+   "before": 27,
+   "after": 26,
+   "supplier_qty": 26,
+   "supplier_rows": "mugler les exceptions wonder bouquet (u) edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254900965763",
+   "inventory_item": "gid://shopify/InventoryItem/65292201591171",
+   "title": "Narciso Rodriguez Musc Noir For Her Eau de Parfum - 10ml",
+   "before": 159,
+   "after": 157,
+   "supplier_qty": 157,
+   "supplier_rows": "narciso rodriguez musc noir for her (w) edp 10ml purse spray"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254901064067",
+   "inventory_item": "gid://shopify/InventoryItem/65292201689475",
+   "title": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml - Default Title",
+   "before": 41,
+   "after": 40,
+   "supplier_qty": 40,
+   "supplier_rows": "narciso rodriguez narciso ambree (w) edp 10ml purse spray"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200354271619",
+   "inventory_item": "gid://shopify/InventoryItem/65235035488643",
+   "title": "Natural By Woods Dusk Eau de Parfum with Travel Atomiser 100ml + 5ml - Default Title",
+   "before": 178,
+   "after": 177,
+   "supplier_qty": 177,
+   "supplier_rows": "natural by woods dusk 100 + 5 ml edp"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200357941635",
+   "inventory_item": "gid://shopify/InventoryItem/65235039256963",
+   "title": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser 100ml + 5ml - Default Title",
+   "before": 295,
+   "after": 293,
+   "supplier_qty": 293,
+   "supplier_rows": "natural by woods royal night 100 + 5 ml edp"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62822853378435",
+   "inventory_item": "gid://shopify/InventoryItem/64850687787395",
+   "title": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance - 100ml",
+   "before": 349,
+   "after": 347,
+   "supplier_qty": 347,
+   "supplier_rows": "nina ricci l'air du temps (w) edt 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257659670915",
+   "inventory_item": "gid://shopify/InventoryItem/65295107064195",
+   "title": "Paco Rabanne 1 Million Eau de Toilette 200ml - Default Title",
+   "before": 730,
+   "after": 713,
+   "supplier_qty": 713,
+   "supplier_rows": "paco rabanne 1 million edt 200ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257661112707",
+   "inventory_item": "gid://shopify/InventoryItem/65295108505987",
+   "title": "Paco Rabanne Fame Eau de Parfum & Parfum Mini Set 4ml + 4ml - Default Title",
+   "before": 18,
+   "after": 14,
+   "supplier_qty": 14,
+   "supplier_rows": "paco rabanne fame giftset edp splash 4ml+ parfum splash 4ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257660653955",
+   "inventory_item": "gid://shopify/InventoryItem/65295108047235",
+   "title": "Paco Rabanne Fame Eau de Parfum Gift Set 50ml + 10ml - Default Title",
+   "before": 20,
+   "after": 0,
+   "supplier_qty": 4,
+   "supplier_rows": "paco rabanne fame giftset edp 50ml+edp 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257660195203",
+   "inventory_item": "gid://shopify/InventoryItem/65295107588483",
+   "title": "Paco Rabanne Fame Eau de Parfum Intense 30ml - Default Title",
+   "before": 534,
+   "after": 393,
+   "supplier_qty": 393,
+   "supplier_rows": "paco rabanne fame edp intense spray 30ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257661571459",
+   "inventory_item": "gid://shopify/InventoryItem/65295108964739",
+   "title": "Paco Rabanne Fame Parfum 10ml - Default Title",
+   "before": 17,
+   "after": 13,
+   "supplier_qty": 13,
+   "supplier_rows": "paco rabanne fame parfum 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257672253827",
+   "inventory_item": "gid://shopify/InventoryItem/65295119810947",
+   "title": "Paco Rabanne Invictus Eau de Toilette Gift Set 200ml + 10ml - Default Title",
+   "before": 5,
+   "after": 0,
+   "supplier_qty": 3,
+   "supplier_rows": "paco rabanne invictus giftset edt 200ml+edt 10ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257672548739",
+   "inventory_item": "gid://shopify/InventoryItem/65295120105859",
+   "title": "Paco Rabanne Lady Million Royal Eau de Parfum 30ml - Default Title",
+   "before": 47,
+   "after": 34,
+   "supplier_qty": 34,
+   "supplier_rows": "paco rabanne lady million royal (w) edp spray 30ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257672581507",
+   "inventory_item": "gid://shopify/InventoryItem/65295120138627",
+   "title": "Paco Rabanne Men's Miniature Set (Phantom, Invictus, 1 Million Elixir, 1 Million) 4 x 5ml - Default Title",
+   "before": 1025,
+   "after": 1024,
+   "supplier_qty": 1024,
+   "supplier_rows": "paco rabanne miniature set 4x5ml (phantom+invictus+1million elixir+1 million)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257678053763",
+   "inventory_item": "gid://shopify/InventoryItem/65295125840259",
+   "title": "Paco Rabanne Phantom Parfum Spray 15ml - Default Title",
+   "before": 80,
+   "after": 74,
+   "supplier_qty": 74,
+   "supplier_rows": "paco rabanne phantom parfum 15ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257678086531",
+   "inventory_item": "gid://shopify/InventoryItem/65295125873027",
+   "title": "Paco Rabanne Ultraviolet Eau de Parfum 80ml - Default Title",
+   "before": 171,
+   "after": 123,
+   "supplier_qty": 123,
+   "supplier_rows": "paco rabanne ultraviolet (w) edp 80ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257659212163",
+   "inventory_item": "gid://shopify/InventoryItem/65295106605443",
+   "title": "Paco Rabanne Women's Miniature Set (Lady Million, Olympéa, Fame) 5ml + 6ml + 4ml + 4ml - Default Title",
+   "before": 81,
+   "after": 80,
+   "supplier_qty": 80,
+   "supplier_rows": "paco rabanne (w) mini set (lady million edp 5ml+olympea edp 6ml+fame edp 4ml+fame Parfum 4ml)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62737824940419",
+   "inventory_item": "gid://shopify/InventoryItem/64762295386499",
+   "title": "Philipp Plein No Limits Deodorant Stick 75g – Men’s Fragranced Deodorant - Default Title",
+   "before": 358,
+   "after": 357,
+   "supplier_qty": 357,
+   "supplier_rows": "phillip plein no limits deo stick 75g"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257678479747",
+   "inventory_item": "gid://shopify/InventoryItem/65295126266243",
+   "title": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml - Default Title",
+   "before": 24,
+   "after": 0,
+   "supplier_qty": 0,
+   "supplier_rows": "ralph lauren polo blue (m) edt 75ml refillable"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63257679757699",
+   "inventory_item": "gid://shopify/InventoryItem/65295127544195",
+   "title": "Roberto Cavalli Florence Eau de Parfum - 50ml",
+   "before": 713,
+   "after": 702,
+   "supplier_qty": 702,
+   "supplier_rows": "roberto cavalli florence (w) edp 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258917142915",
+   "inventory_item": "gid://shopify/InventoryItem/65296371646851",
+   "title": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml - Default Title",
+   "before": 45,
+   "after": 44,
+   "supplier_qty": 44,
+   "supplier_rows": "salvatore ferragamo incanto shine (w) edt 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258917568899",
+   "inventory_item": "gid://shopify/InventoryItem/65296372072835",
+   "title": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml - Default Title",
+   "before": 16,
+   "after": 15,
+   "supplier_qty": 15,
+   "supplier_rows": "salvatore ferragamo pour femme edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258917896579",
+   "inventory_item": "gid://shopify/InventoryItem/65296372400515",
+   "title": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml - Default Title",
+   "before": 171,
+   "after": 170,
+   "supplier_qty": 170,
+   "supplier_rows": "salvatore ferragamo signorina eleganza (w) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258950664579",
+   "inventory_item": "gid://shopify/InventoryItem/65296405168515",
+   "title": "Salvatore Ferragamo Uomo Eau de Toilette 100ml - Default Title",
+   "before": 165,
+   "after": 164,
+   "supplier_qty": 164,
+   "supplier_rows": "salvatore ferragamo uomo (m) edt 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58060291309955",
+   "inventory_item": "gid://shopify/InventoryItem/56651380851075",
+   "title": "Sap Oud Leopard FR Extrait De Parfum 100ML - Default Title",
+   "before": 137,
+   "after": 136,
+   "supplier_qty": 136,
+   "supplier_rows": "sap oud leopard (u) extrait de parfum 100ml ( fr )"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58060291703171",
+   "inventory_item": "gid://shopify/InventoryItem/56651381244291",
+   "title": "Sap Patchouli Intense Extrait De Parfum 100ML - Default Title",
+   "before": 39,
+   "after": 38,
+   "supplier_qty": 38,
+   "supplier_rows": "sap patchouli intense (u) extrait de parfum 100ml ( fr )"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58058418749827",
+   "inventory_item": "gid://shopify/InventoryItem/56649501245827",
+   "title": "Sap Vert Club Extrait De Parfum 100ML - Default Title",
+   "before": 69,
+   "after": 68,
+   "supplier_qty": 68,
+   "supplier_rows": "sap vert club (u) extrait de parfum 100ml ( fr )"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62798891942275",
+   "inventory_item": "gid://shopify/InventoryItem/64825950011779",
+   "title": "Shiseido Ultimune Power Infusing Concentrate Face Serum 30ml – Anti-Aging Hydrating Serum - Default Title",
+   "before": 14,
+   "after": 12,
+   "supplier_qty": 12,
+   "supplier_rows": "shiseido ultimune power infusing concentrate 30ml face serum"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/58100393869699",
+   "inventory_item": "gid://shopify/InventoryItem/56691746341251",
+   "title": "Signature Rose 100ml Edp +15ml Travel Spray - Default Title",
+   "before": 32,
+   "after": 31,
+   "supplier_qty": 31,
+   "supplier_rows": "signature rose 100 ml + 15 ml + funnel - signature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258975633795",
+   "inventory_item": "gid://shopify/InventoryItem/65296430137731",
+   "title": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml - Default Title",
+   "before": 93,
+   "after": 92,
+   "supplier_qty": 92,
+   "supplier_rows": "thomas kosmala n:10 desire du coeur elixir 100 ml edp (elixir version)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63258975928707",
+   "inventory_item": "gid://shopify/InventoryItem/65296430432643",
+   "title": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml - Default Title",
+   "before": 127,
+   "after": 124,
+   "supplier_qty": 124,
+   "supplier_rows": "thomas kosmala n:4 apres l'amour travel kit parfum & hair mist (30ml+30ml)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62483329679747",
+   "inventory_item": "gid://shopify/InventoryItem/64497865621891",
+   "title": "Kirke Extrait de Parfum 100ml – Luxury Unisex Fruity Niche Perfume - Default Title",
+   "before": 178,
+   "after": 177,
+   "supplier_qty": 177,
+   "supplier_rows": "tiziana terenzi kirke 100ml extrait de parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62540956402051",
+   "inventory_item": "gid://shopify/InventoryItem/64556270354819",
+   "title": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex - Default Title",
+   "before": 12,
+   "after": 11,
+   "supplier_qty": 11,
+   "supplier_rows": "tom ford neroli portofino edp 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62822222365059",
+   "inventory_item": "gid://shopify/InventoryItem/64850000544131",
+   "title": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance - 50ml",
+   "before": 11,
+   "after": 9,
+   "supplier_qty": 9,
+   "supplier_rows": "trussardi delicate rose (w) edt 50ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63259038777731",
+   "inventory_item": "gid://shopify/InventoryItem/65296493281667",
+   "title": "Versace Eros Eau de Toilette 200ml - Default Title",
+   "before": 34,
+   "after": 33,
+   "supplier_qty": 33,
+   "supplier_rows": "versace eros (m) edt 200ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63259039203715",
+   "inventory_item": "gid://shopify/InventoryItem/65296493707651",
+   "title": "Versace Eros Parfum - 200ml",
+   "before": 49,
+   "after": 47,
+   "supplier_qty": 47,
+   "supplier_rows": "versace eros (m) parfum 200ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63259039236483",
+   "inventory_item": "gid://shopify/InventoryItem/65296493740419",
+   "title": "Versace Eros Pour Femme Eau de Parfum 100ml - Default Title",
+   "before": 314,
+   "after": 312,
+   "supplier_qty": 312,
+   "supplier_rows": "versace eros pour femme edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63259039531395",
+   "inventory_item": "gid://shopify/InventoryItem/65296494035331",
+   "title": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml - Default Title",
+   "before": 352,
+   "after": 277,
+   "supplier_qty": 277,
+   "supplier_rows": "versace man eau fraiche (m) edt 5ml miniature"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63259039793539",
+   "inventory_item": "gid://shopify/InventoryItem/65296494297475",
+   "title": "Versace Yellow Diamond Eau de Toilette 90ml - Default Title",
+   "before": 36,
+   "after": 33,
+   "supplier_qty": 33,
+   "supplier_rows": "versace yellow diamond (w) edt 90ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62763631149443",
+   "inventory_item": "gid://shopify/InventoryItem/64790260285827",
+   "title": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance - 200ml",
+   "before": 241,
+   "after": 239,
+   "supplier_qty": 239,
+   "supplier_rows": "calvin klein defy parfum 200ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63254825107843",
+   "inventory_item": "gid://shopify/InventoryItem/65292124324227",
+   "title": "Clinique Aromatics Elixir Eau de Parfum 100ml - Default Title",
+   "before": 730,
+   "after": 605,
+   "supplier_qty": 605,
+   "supplier_rows": "clinique aromatics elixir (w) parfum 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62548286210435",
+   "inventory_item": "gid://shopify/InventoryItem/64563802046851",
+   "title": "Dolce & Gabbana Q Eau de Parfum 100ml – Luxury Women’s Fruity Floral Fragrance - Default Title",
+   "before": 88,
+   "after": 82,
+   "supplier_qty": 82,
+   "supplier_rows": "dolce & gabbana q (w) edp 100ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62632281899395",
+   "inventory_item": "gid://shopify/InventoryItem/64650935599491",
+   "title": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance - Default Title",
+   "before": 56,
+   "after": 53,
+   "supplier_qty": 53,
+   "supplier_rows": "guerlain samsara (w) edp 75ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200326025603",
+   "inventory_item": "gid://shopify/InventoryItem/65235006783875",
+   "title": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml - Default Title",
+   "before": 11,
+   "after": 0,
+   "supplier_qty": 1,
+   "supplier_rows": "guess pink (w) set edp 75ml + edp 15ml + bl 100ml + pouch (2023)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62731072110979",
+   "inventory_item": "gid://shopify/InventoryItem/64755146916227",
+   "title": "Joop! Homme Eau de Toilette 200ml – Men’s Warm Spicy Long lasting Fragrance - Default Title",
+   "before": 89,
+   "after": 88,
+   "supplier_qty": 88,
+   "supplier_rows": "joop!homme (m) edt 200ml"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/62798582907267",
+   "inventory_item": "gid://shopify/InventoryItem/64825633735043",
+   "title": "Marc Jacobs Honey Eau de Parfum 100ml – Women’s Floral Fruity Fragrance - Default Title",
+   "before": 82,
+   "after": 69,
+   "supplier_qty": 69,
+   "supplier_rows": "marc jacobs honey 100ml edp (new pack)"
+  },
+  {
+   "variant_id": "gid://shopify/ProductVariant/63200357908867",
+   "inventory_item": "gid://shopify/InventoryItem/65235039224195",
+   "title": "Mercedes-Benz Le Parfum 120ml - Default Title",
+   "before": 8,
+   "after": 0,
+   "supplier_qty": 0,
+   "supplier_rows": "mercedes benz le parfum (m) edp 120ml"
+  }
+ ]
+}
