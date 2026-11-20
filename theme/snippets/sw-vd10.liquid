@@ -1,0 +1,78 @@
+{%- comment -%}
+  VD10 offer (user, 20 Nov 2026): code VD10 = 10% off every product in the vilvah and deyga collections
+  (DiscountCodeNode/2443873976707; combines with shipping discounts only, so not with SAVE5).
+  mode 'pdp': box under the price on Vilvah / Deyga product pages, with the price after the code.
+  mode 'brand': banner at the top of the product list on /collections/vilvah and /collections/deyga.
+  'Apply code' uses Shopify's /discount/<code> link, which puts the code on the cart and checkout.
+  Params: mode, price (pdp, cents), url (where to return after applying).
+{%- endcomment -%}
+{%- liquid
+  assign code = 'VD10'
+  assign back = url | default: request.path
+-%}
+<style>
+.swp .vd10{position:relative;display:flex;align-items:center;gap:16px;border-radius:12px;background:linear-gradient(120deg,#133A2F 0%,#1B4D3E 60%,#24624F 100%);color:#F4EEE4;box-shadow:inset 0 0 0 1px rgba(232,201,143,.55);overflow:hidden}
+.swp .vd10::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 92% 10%,rgba(232,201,143,.22),transparent 45%);pointer-events:none}
+.swp .vd10 .vd-pct{flex:none;display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#EACB8E,#C4924A);color:#0F2E25;font-weight:800;line-height:1;text-align:center;font-size:22px}
+.swp .vd10 .vd-pct small{display:block;font-size:10px;letter-spacing:.14em;font-weight:700;margin-top:2px}
+.swp .vd10 .vd-txt{flex:1;min-width:0;position:relative;z-index:1}
+.swp .vd10 .vd-txt b{display:block;font-size:16px;font-weight:700;color:#fff}
+.swp .vd10 .vd-txt span{display:block;font-size:13px;color:#E6D3A8;margin-top:3px}
+.swp .vd10 .vd-txt span strong{color:#fff}
+.swp .vd10 .vd-act{flex:none;display:flex;align-items:center;gap:8px;position:relative;z-index:1}
+.swp .vd10 .vd-code{font-weight:800;letter-spacing:.16em;font-size:14px;padding:9px 12px;border:1.5px dashed #E8C98F;border-radius:6px;color:#fff;background:rgba(255,255,255,.06);cursor:pointer}
+.swp .vd10 .vd-go{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:6px;background:linear-gradient(135deg,#EACB8E,#C4924A);color:#0F2E25;font-weight:700;font-size:13px;letter-spacing:.06em;text-decoration:none;white-space:nowrap}
+.swp .vd10 .vd-go:hover{filter:brightness(1.06)}
+.swp .vd10.pdp{margin:14px 0 4px;padding:14px 16px}
+.swp .vd10.brand{margin:0 0 22px;padding:18px clamp(16px,3vw,28px)}
+.swp .vd10.brand .vd-pct{width:76px;height:76px;font-size:26px}
+.swp .vd10.brand .vd-txt b{font-size:clamp(17px,1.8vw,21px)}
+.swp .vd10 .vd-fine{display:block;font-size:11.5px;color:#C9D8D1;margin-top:4px}
+@media (max-width:600px){
+  .swp .vd10{flex-wrap:wrap;gap:12px}
+  .swp .vd10 .vd-pct,.swp .vd10.brand .vd-pct{width:54px;height:54px;font-size:18px}
+  .swp .vd10 .vd-txt{flex:1 1 calc(100% - 70px)}
+  .swp .vd10 .vd-act{flex:1 1 100%}
+  .swp .vd10 .vd-go{flex:1;justify-content:center}
+}
+</style>
+<div class="vd10 {{ mode }}" role="note" aria-label="10% off Vilvah and Deyga with code {{ code }}">
+  <div class="vd-pct" aria-hidden="true">10%<small>OFF</small></div>
+  <div class="vd-txt">
+    {%- if mode == 'pdp' -%}
+      {%- assign after = price | times: 0.9 | round -%}
+      <b>10% off with code {{ code }}</b>
+      <span>Your price with the code: <strong data-vd10-price>{{ after | money }}</strong></span>
+      <small class="vd-fine">On every Vilvah &amp; Deyga product. Free UK delivery over £40 still applies; cannot be used with SAVE5.</small>
+    {%- else -%}
+      <b>10% off every Vilvah &amp; Deyga product</b>
+      <span>Use code <strong>{{ code }}</strong> in your bag or at checkout.</span>
+      <small class="vd-fine">Free UK delivery over £40 still applies; cannot be used with SAVE5.</small>
+    {%- endif -%}
+  </div>
+  <div class="vd-act">
+    <button type="button" class="vd-code" data-vd10-copy="{{ code }}" aria-label="Copy code {{ code }}">{{ code }}</button>
+    <a class="vd-go" href="/discount/{{ code }}?redirect={{ back | url_encode }}">Apply code</a>
+  </div>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('[data-vd10-copy]').forEach(function(b){
+    if(b.dataset.vdBound)return;b.dataset.vdBound=1;
+    b.addEventListener('click',function(){
+      var c=b.getAttribute('data-vd10-copy');
+      var done=function(){var t=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=t},1400)};
+      if(navigator.clipboard){navigator.clipboard.writeText(c).then(done,done)}else{done()}
+    });
+  });
+  if(!document.querySelector('[data-vd10-price]'))return;
+  document.addEventListener('change',function(e){
+    if(!e.target||e.target.name!=='variant')return;
+    var out=document.querySelector('[data-vd10-price]'),j=document.getElementById('sw-variants');
+    if(!out||!j)return;
+    try{var vs=JSON.parse(j.textContent).variants,id=+e.target.value;
+      vs.forEach(function(v){if(v.id===id){out.textContent='£'+(Math.round(v.price*0.9)/100).toFixed(2)}});
+    }catch(_){}
+  });
+})();
+</script>

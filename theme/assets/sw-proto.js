@@ -21,8 +21,14 @@
   /* £5 off over £70 is a code (SAVE5) the shopper enters in the bag or at checkout since 12 Nov 2026 (user: no longer automatic) */
   const bcode = offers.bonus.code || '';
   const withCode = bcode ? ` with code ${bcode}` : '';
+  /* VD10 (20 Nov 2026, client via user): 10% off Vilvah + Deyga products, all customers, one code per order (VD10 and SAVE5
+     do not combine). SAVE5 now needs 2+ items as well as £70+: Shopify can't require both, so the bag enforces the item rule. */
+  const vd = offers.vd || { code: 'VD10', pct: 10, brands: ['vilvah', 'deyga'] };
+  const vcode = vd.code || '';
+  const vdSub = () => (cart && cart.items || []).filter(l => vd.brands.includes(String(l.vendor || '').toLowerCase())).reduce((a, l) => a + l.original_line_price, 0) / 100;
+  const bonusOk = s => !!cart && cart.item_count >= 2 && s >= offers.bonus.min;
   const nextGoal = (t, s = t) => t < offers.delivery ? { goal: offers.delivery, have: t, left: offers.delivery - t, what: 'free UK delivery' }
-    : s < offers.bonus.min ? { goal: offers.bonus.min, have: s, left: offers.bonus.min - s, what: `£${offers.bonus.off} off${withCode}` } : null;
+    : (vcode && codeOk(vcode)) ? null : s < offers.bonus.min ? { goal: offers.bonus.min, have: s, left: offers.bonus.min - s, what: `£${offers.bonus.off} off${withCode}` } : null;
   /* codes on the cart (Ajax API: /cart.js discount_codes, set with /cart/update.js { discount }) */
   const codesOn = () => (cart.discount_codes || []).map(c => c.code);
   const codeOk = c => (cart.discount_codes || []).some(d => d.code.toUpperCase() === c.toUpperCase() && d.applicable);
@@ -33,17 +39,29 @@
   }
   async function applyCode(code) {
     code = String(code || '').trim().toUpperCase(); if (!code) return;
-    const list = codesOn().filter(c => c.toUpperCase() !== code.toUpperCase()).concat(code);
-    try { await setCodes(list); } catch (e) { codeMsg = 'Something went wrong. Please try again, or enter the code at checkout.'; return openBag(); }
+    if (bcode && code === bcode.toUpperCase() && cart && cart.item_count < 2) { codeMsg = `${esc(bcode)} works on 2 or more items with a bag of £${offers.bonus.min} or more.`; return openBag(); }
+    const had = codesOn().filter(c => c.toUpperCase() !== code);
+    try { await setCodes([code]); } catch (e) { codeMsg = 'Something went wrong. Please try again, or enter the code at checkout.'; return openBag(); }
     const d = (cart.discount_codes || []).find(x => x.code.toUpperCase() === code.toUpperCase());
-    codeMsg = d && d.applicable ? `Code ${esc(d.code)} applied.` : bcode && code.toUpperCase() === bcode.toUpperCase() ? `${esc(bcode)} works on bags of £${offers.bonus.min} or more (before delivery). It will apply once your bag reaches £${offers.bonus.min}.` : `Code ${esc(code)} can't be used on this bag.`;
+    codeMsg = d && d.applicable ? `Code ${esc(d.code)} applied.${had.length ? ` One code per order, so ${esc(had.join(', '))} was removed.` : ''}` : vcode && code === vcode.toUpperCase() ? `${esc(vcode)} gives ${vd.pct}% off Vilvah and Deyga products. Add one to your bag to use it.` : bcode && code.toUpperCase() === bcode.toUpperCase() ? `${esc(bcode)} works on bags of £${offers.bonus.min} or more (before delivery). It will apply once your bag reaches £${offers.bonus.min} with 2 or more items.` : `Code ${esc(code)} can't be used on this bag.`;
     return openBag();
   }
   async function removeCode(code) { try { await setCodes(codesOn().filter(c => c !== code)); } catch (e) {} codeMsg = ''; return openBag(); }
+  const unlockMsg = rich => {
+    const B = t => rich ? `<b>${t}</b>` : t, s = cart.items_subtotal_price / 100;
+    if (bcode && codeOk(bcode)) return B(`Free UK delivery + £${offers.bonus.off} off unlocked`);
+    if (vcode && codeOk(vcode)) return B('Free UK delivery unlocked') + ` · ${esc(vcode)} ${vd.pct}% off applied`;
+    if (bcode && bonusOk(s)) return B('Free UK delivery unlocked.') + ` Use code ${B(esc(bcode))} for £${offers.bonus.off} off`;
+    return B('Free UK delivery unlocked.') + (vcode && vdSub() > 0 ? ` Use code ${B(esc(vcode))} for ${vd.pct}% off Vilvah &amp; Deyga` : (bcode && s >= offers.bonus.min ? ` Add one more item for £${offers.bonus.off} off with ${esc(bcode)}` : ''));
+  };
   const codeBox = s => {
     const msg = codeMsg; codeMsg = '';
     const chips = (cart.discount_codes || []).map(d => `<span class="bc-chip${d.applicable ? '' : ' off'}">${esc(d.code)}${d.applicable ? '' : ' <small>(not applied)</small>'}<button type="button" data-code-rm="${esc(d.code)}" aria-label="Remove code ${esc(d.code)}">×</button></span>`).join('');
-    const quick = bcode && s >= offers.bonus.min && !codeOk(bcode) ? `<button type="button" class="bc-quick" data-code-apply="${esc(bcode)}">Apply ${esc(bcode)} for £${offers.bonus.off} off</button>` : '';
+    const vs = vdSub() * vd.pct / 100;
+    const qv = vcode && vs > 0 && !codeOk(vcode) ? `<button type="button" class="bc-quick" data-code-apply="${esc(vcode)}">Apply ${esc(vcode)} for ${vd.pct}% off Vilvah &amp; Deyga (save £${vs.toFixed(2)})</button>` : '';
+    const qb = bcode && bonusOk(s) && !codeOk(bcode) ? `<button type="button" class="bc-quick" data-code-apply="${esc(bcode)}">Apply ${esc(bcode)} for £${offers.bonus.off} off</button>` : '';
+    const both = (vcode && vs > 0) && bcode && bonusOk(s) ? `<p class="bc-msg">One code per order: ${esc(vcode)} saves £${vs.toFixed(2)}, ${esc(bcode)} saves £${offers.bonus.off}.</p>` : '';
+    const quick = qv + qb + both;
     return `<form class="bagcode" novalidate>${quick}<div class="bc-row"><label class="sr-only" for="bagCode">Discount code</label><input id="bagCode" name="code" type="text" placeholder="Discount code" autocomplete="off" autocapitalize="characters"><button type="submit">Apply</button></div>${chips ? `<div class="bc-chips">${chips}</div>` : ''}${msg ? `<p class="bc-msg" role="status">${msg}</p>` : ''}</form>`;
   };
   const icon = {
@@ -82,6 +100,9 @@
   const pic = (src, alt) => src ? `<img class="pic" src="${esc(src)}${src.includes('?') ? '&' : '?'}width=200" alt="${esc(alt)}" width="200" height="250">` : '<div class="pic"></div>';
   async function openBag(justAdded) {
     await getCart();
+    if (bcode && cart.item_count < 2 && codesOn().some(c => c.toUpperCase() === bcode.toUpperCase())) {
+      try { await setCodes(codesOn().filter(c => c.toUpperCase() !== bcode.toUpperCase())); codeMsg = `${esc(bcode)} was removed: it needs 2 or more items.`; } catch (e) {}
+    }
     const total = cart.total_price / 100, ng = nextGoal(total, cart.items_subtotal_price / 100);
     const inBag = new Set(cart.items.map(i => i.variant_id));
     const extras = (cfg.extras || []).filter(x => !inBag.has(x.id)).sort((a, b) => a.price - b.price).slice(0, 6);
@@ -94,7 +115,7 @@
     <div class="bag-head"><h3>Your bag</h3><button data-close aria-label="Close bag">Close</button></div>
     <div class="bag-body">
     <div class="lines">${lines}</div>
-    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : (!bcode || codeOk(bcode) ? `<b>Free UK delivery + £${offers.bonus.off} off unlocked</b>` : `<b>Free UK delivery unlocked.</b> Use code <b>${esc(bcode)}</b> for £${offers.bonus.off} off`)}</span><div class="bar"><i style="width:${ng ? Math.min(100, ng.have / ng.goal * 100) : 100}%"></i></div></div>${shipOpts(total)}${codeBox(cart.items_subtotal_price / 100)}` : ''}
+    ${cart.items.length ? `<div class="delivery" style="border:0;padding:0;background:none"><span>${ng ? `You're <b>£${ng.left.toFixed(2)}</b> away from ${ng.what}${total >= offers.delivery ? ' (free UK delivery unlocked)' : ''}` : unlockMsg(true)}</span><div class="bar"><i style="width:${ng ? Math.min(100, ng.have / ng.goal * 100) : 100}%"></i></div></div>${shipOpts(total)}${codeBox(cart.items_subtotal_price / 100)}` : ''}
     ${extras.length && cart.items.length ? `<div class="bag-extras"><div class="eyebrow" style="margin-bottom:8px">Little extras</div><div class="extras">${extras.map(x => `<div class="extra">${pic(x.img, x.title)}<span>${esc(x.title)}</span><b>${money(x.price)}</b><button data-add="${x.id}">Add</button></div>`).join('')}</div></div>` : ''}
     <div class="bag-trust"><span>${icon.truck} Dispatched in 1–2 days</span><span>${icon.ret} <a href="${esc(cfg.returnsUrl || '/policies/refund-policy')}" data-close>Returns policy</a></span><span>${icon.lock} Secure checkout</span></div>
     <span class="pays" aria-label="Payment methods">${$('#swPayIcons')?.innerHTML || (cfg.pays || []).map(x => `<span class="pay">${esc(x)}</span>`).join('')}</span>
@@ -118,7 +139,7 @@
     const total = cart.total_price / 100, ng = nextGoal(total, cart.items_subtotal_price / 100);
     $('#addedBar')?.remove(); clearTimeout(addedTimer);
     const bar = document.createElement('div'); bar.id = 'addedBar'; bar.className = 'addedbar'; bar.setAttribute('role', 'status');
-    bar.innerHTML = `${l ? pic(l.image, l.product_title) : ''}<div class="ab-txt"><b>${esc(msg || 'Added to your bag')}</b>${l ? `<span>${esc(l.product_title)}</span>` : ''}<small>${ng ? `£${ng.left.toFixed(2)} away from ${ng.what}` : (!bcode || codeOk(bcode) ? `Free UK delivery + £${offers.bonus.off} off unlocked` : `Free UK delivery unlocked · code ${esc(bcode)} = £${offers.bonus.off} off`)}</small></div><a class="btn solid" href="/cart">View bag (${cart.item_count})</a><button class="ab-x" type="button" aria-label="Close">×</button>`;
+    bar.innerHTML = `${l ? pic(l.image, l.product_title) : ''}<div class="ab-txt"><b>${esc(msg || 'Added to your bag')}</b>${l ? `<span>${esc(l.product_title)}</span>` : ''}<small>${ng ? `£${ng.left.toFixed(2)} away from ${ng.what}` : unlockMsg(false)}</small></div><a class="btn solid" href="/cart">View bag (${cart.item_count})</a><button class="ab-x" type="button" aria-label="Close">×</button>`;
     (document.querySelector('.swp-fixed') || document.body).appendChild(bar);
     bar.querySelector('.ab-x').addEventListener('click', () => bar.remove());
     addedTimer = setTimeout(() => bar.remove(), 6000);
@@ -279,7 +300,7 @@
         { k: 'h', q: 'Which brand would you like to see? You can also type any brand below.', o: [...TOP_BRANDS.map(n => [BRANDS.find(x => x[0] === n)[1], n]), ['@/collections', 'All brands A–Z']] }] }
     };
     const HELP = {
-      delivery: ['Delivery', `UK delivery, dispatched from the UK within 1–2 working days:<ul><li><b>Standard</b> £${ship.std.toFixed(2)}, 3–4 business days, <b>free over £${offers.delivery}</b></li><li><b>Two-day</b> £${ship.two.toFixed(2)}</li><li><b>Next-day</b> £${ship.next.toFixed(2)}</li></ul>Spend £${offers.bonus.min} and you also get £${offers.bonus.off} off${withCode}${bcode ? ' (enter it in your bag or at checkout)' : ''}.`, [['/pages/shipping', 'Delivery details']]],
+      delivery: ['Delivery', `UK delivery, dispatched from the UK within 1–2 working days:<ul><li><b>Standard</b> £${ship.std.toFixed(2)}, 3–4 business days, <b>free over £${offers.delivery}</b></li><li><b>Two-day</b> £${ship.two.toFixed(2)}</li><li><b>Next-day</b> £${ship.next.toFixed(2)}</li></ul>Spend £${offers.bonus.min} on 2 or more items and you also get £${offers.bonus.off} off${withCode}${bcode ? ' (enter it in your bag or at checkout)' : ''}.`, [['/pages/shipping', 'Delivery details']]],
       returns: ['Returns', 'You can return unopened, sealed items within 14 days of delivery; return postage is paid by you. If something arrives faulty, damaged or wrong, we put it right at no cost.', [[cfg.returnsUrl || '/pages/shipping', 'Returns policy']]],
       track: ['Track my order', 'Your shipping confirmation email has a tracking link. You can also sign in to see your orders, or message us with your order number and we will check for you.', [['/account', 'My account']]],
       authentic: ['Is it authentic?', 'Yes. Everything we sell is 100% authentic, and we are the official UK partner of Deyga and Vilvah. Orders ship from the UK.', [['/pages/about', 'About Swansura']]],
@@ -708,3 +729,4 @@
 
   syncHearts(); getCart().catch(() => {});
 })();
+
