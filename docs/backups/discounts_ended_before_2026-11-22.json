@@ -250,5 +250,34 @@
         }
       }
     }
-  ]
+  ],
+  "deleted_later": {
+    "note": "Deleted 22 Nov 2026 (user: 'Delete the expired £5 off and FB-EMAIL too').",
+    "items": [
+      {
+        "id": "gid://shopify/DiscountAutomaticNode/2430963712387",
+        "title": "£5 off orders over £70",
+        "type": "automatic basic",
+        "startsAt": "2026-10-26T00:00:00Z",
+        "endsAt": "2026-11-12T18:42:16Z",
+        "value": "£5.00 off entire order",
+        "min_subtotal": 70.0,
+        "uses": 2,
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": true
+        }
+      },
+      {
+        "id": "gid://shopify/DiscountCodeNode/2441011691907",
+        "code": "FB-EMAIL-U1XGEAKO",
+        "type": "code basic",
+        "startsAt": "2026-11-14T07:55:19Z",
+        "endsAt": "2026-11-21T07:55:19Z",
+        "value": "15% off entire order, one customer (email not stored here), one use",
+        "uses": 0
+      }
+    ]
+  }
 }
