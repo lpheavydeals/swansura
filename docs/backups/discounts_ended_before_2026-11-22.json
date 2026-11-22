@@ -1,10 +1,54 @@
 {
   "note": "Discount codes ended 22 Nov 2026 (user: 'End SWANSURA_PROMO, SPRING10, Buy 1 get 1 and Valentine codes'). All were active with endsAt null before. Undo: discountCodeActivate(id) for each.",
   "codes": [
-    {"id": "gid://shopify/DiscountCodeNode/2297705628035", "code": "SWANSURA_PROMO", "summary": "100% off 3 collections", "startsAt": "2026-01-06T21:32:59Z", "endsAt": null, "uses": 0},
-    {"id": "gid://shopify/DiscountCodeNode/2356563083651", "code": "SPRING10", "summary": "10% off 4 collections", "startsAt": "2026-05-28T10:18:21Z", "endsAt": null, "uses": 1},
-    {"id": "gid://shopify/DiscountCodeNode/2356564427139", "code": "Buy 1 get 1", "summary": "Buy 1 item, get 1 item free", "startsAt": "2026-05-28T10:29:22Z", "endsAt": null, "uses": 0},
-    {"id": "gid://shopify/DiscountCodeNode/2316943393155", "code": "VALENTINEGLOW5", "summary": "5% off 20 collections", "startsAt": "2026-02-15T23:48:20Z", "endsAt": null, "uses": 0},
-    {"id": "gid://shopify/DiscountCodeNode/2316943655299", "code": "VALENTINEGLOW15", "summary": "15% off 20 collections, minimum £35", "startsAt": "2026-02-15T23:50:27Z", "endsAt": null, "uses": 0}
+    {
+      "id": "gid://shopify/DiscountCodeNode/2297705628035",
+      "code": "SWANSURA_PROMO",
+      "summary": "100% off 3 collections",
+      "startsAt": "2026-01-06T21:32:59Z",
+      "endsAt": null,
+      "uses": 0
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2356563083651",
+      "code": "SPRING10",
+      "summary": "10% off 4 collections",
+      "startsAt": "2026-05-28T10:18:21Z",
+      "endsAt": null,
+      "uses": 1
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2356564427139",
+      "code": "Buy 1 get 1",
+      "summary": "Buy 1 item, get 1 item free",
+      "startsAt": "2026-05-28T10:29:22Z",
+      "endsAt": null,
+      "uses": 0
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2316943393155",
+      "code": "VALENTINEGLOW5",
+      "summary": "5% off 20 collections",
+      "startsAt": "2026-02-15T23:48:20Z",
+      "endsAt": null,
+      "uses": 0
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2316943655299",
+      "code": "VALENTINEGLOW15",
+      "summary": "15% off 20 collections, minimum £35",
+      "startsAt": "2026-02-15T23:50:27Z",
+      "endsAt": null,
+      "uses": 0
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2294181822851",
+      "code": "BRISTOL_TAMIL_FAMILY",
+      "summary": "15% off Deyga",
+      "startsAt": "2025-12-30T11:35:42Z",
+      "endsAt": null,
+      "uses": 0,
+      "ended": "2026-11-22T09:42:36Z"
+    }
   ]
 }
