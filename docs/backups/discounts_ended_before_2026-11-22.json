@@ -49,6 +49,33 @@
       "endsAt": null,
       "uses": 0,
       "ended": "2026-11-22T09:42:36Z"
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2294263120259",
+      "code": "Louise5",
+      "summary": "5% off 3 collections",
+      "startsAt": "2025-12-30T14:50:10Z",
+      "endsAt": null,
+      "uses": 0,
+      "ended": "2026-11-22T09:42:36Z"
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2297705005443",
+      "code": "SAMSAF_BEAUTY",
+      "summary": "5% off 2 collections",
+      "startsAt": "2026-01-06T21:31:55Z",
+      "endsAt": null,
+      "uses": 0,
+      "ended": "2026-11-22T09:42:36Z"
+    },
+    {
+      "id": "gid://shopify/DiscountCodeNode/2286036713859",
+      "code": "BLUSHING_BEAUTY",
+      "summary": "5% off entire order",
+      "startsAt": "2025-12-07T18:23:00Z",
+      "endsAt": null,
+      "uses": 0,
+      "ended": "2026-11-22T09:42:36Z"
     }
   ]
 }
