@@ -43,5 +43,40 @@
    "982034247897142"
   ],
   "headline": "Next-day UK delivery. UK's Official Partner"
- }
+ },
+ "deleted_before": [
+  {
+   "id": "120249457163440240",
+   "name": "Deyga Nourished Lip Care Kit | Video 4x5+9x16 | Swansura",
+   "effective_status": "PAUSED",
+   "configured_status": "PAUSED",
+   "created_time": "2026-11-18T13:32:16+0000",
+   "creative": {
+    "id": "1539526561309141",
+    "name": "SW Sales | Deyga Nourished Lip Care Kit | 18 Nov 2026-11-18-c12b9c4bd727e036aba7998721eeebfd"
+   }
+  },
+  {
+   "id": "120249457161880240",
+   "name": "Deyga Beetroot Lip Balm Classic | Video 4x5+9x16 | Swansura",
+   "effective_status": "PAUSED",
+   "configured_status": "PAUSED",
+   "created_time": "2026-11-18T13:32:02+0000",
+   "creative": {
+    "id": "3492960300886527",
+    "name": "SW Sales | Deyga Beetroot Lip Balm Classic | 18 Nov 2026-11-18-206387fe1597a5ca244fd53ffe957234"
+   }
+  },
+  {
+   "id": "120249456166010240",
+   "name": "Deyga Beetroot Lip Balm Stick | Video 4x5+9x16 | From home",
+   "effective_status": "PAUSED",
+   "configured_status": "PAUSED",
+   "created_time": "2026-11-18T11:49:21+0000",
+   "creative": {
+    "id": "1136088299336082",
+    "name": "Deyga Beetroot Lip Balm Stick, \u00a313.99 2026-11-13-556ca3f80eb09f4ee2f77ad0dbfffe19"
+   }
+  }
+ ]
 }
