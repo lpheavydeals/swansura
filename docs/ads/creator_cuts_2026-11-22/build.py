@@ -9,6 +9,7 @@ V={
  'Deyga_RiceWaterDuo_Creator':dict(src='d08',seg=[(0,29.55)],blur=[],music=False),
  'Vilvah_FaceBrightening_Creator':dict(src='v10',seg=[(0,20.4)],blur=[],music=True,moff=0),
  'Deyga_Unboxing_Creator':dict(src='d01',seg=[(0,28.9)],blur=[],music=False),
+ 'Deyga_KajalAggarwal_LipBalm':dict(src='d02',seg=[(0,21.9)],blur=[],music=False),  # user 22 Nov: Kajal's permission held
  'Deyga_LipBalmMaking_Creator':dict(src='d09',seg=[(0,17.6)],blur=[(470,0,250,170,0,99)],music=True,moff=6),
 }
 END=4.0
