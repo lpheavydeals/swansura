@@ -419,6 +419,9 @@ html.as-open .swp .chatbtn{display:none}
 .swp .pager .pg.gap{border:0;min-width:20px;padding:0;color:var(--ink-2)}
 .swp .pager .pg-step{padding:0 16px;color:var(--emerald,#1B4D3E)}
 @media (max-width:480px){.swp .pager{gap:6px}.swp .pager .pg{min-width:36px;height:36px;padding:0 10px}.swp .pager .pg-step span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.swp .pager .pg-step{padding:0 10px}}
+/* search 'Pages and stories' pills wrap on phones (user, 22 Nov 2026: long Journal titles pushed /search 27 px sideways at 390 px) */
+.swp .kwchips.srch-links>div,.swp .kwchips.srch-links>div:has(>:nth-child(5)){display:flex;flex-wrap:wrap;overflow:visible;gap:8px}
+.swp .kwchips.srch-links>div>a{white-space:normal;max-width:100%;min-width:0;overflow-wrap:anywhere;line-height:1.35;height:auto}
 """
 
 
