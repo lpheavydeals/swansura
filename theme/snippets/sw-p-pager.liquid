@@ -1,0 +1,15 @@
+{%- comment -%}
+  Page numbers in one row (user, 22 Nov 2026: search + Journal page numbers were stacked).
+  Usage: {% render 'sw-p-pager', paginate: paginate %}
+{%- endcomment -%}
+{%- if paginate.pages > 1 -%}
+<nav class="pager" aria-label="Pages">
+  {%- if paginate.previous -%}<a class="pg pg-step" href="{{ paginate.previous.url }}" rel="prev" aria-label="Previous page"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg><span>Previous</span></a>{%- endif -%}
+  {%- for part in paginate.parts -%}
+    {%- if part.is_link -%}<a class="pg" href="{{ part.url }}" aria-label="Page {{ part.title }}">{{ part.title }}</a>
+    {%- elsif part.title == paginate.current_page -%}<span class="pg on" aria-current="page">{{ part.title }}</span>
+    {%- else -%}<span class="pg gap" aria-hidden="true">&hellip;</span>{%- endif -%}
+  {%- endfor -%}
+  {%- if paginate.next -%}<a class="pg pg-step" href="{{ paginate.next.url }}" rel="next" aria-label="Next page"><span>Next</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>{%- endif -%}
+</nav>
+{%- endif -%}

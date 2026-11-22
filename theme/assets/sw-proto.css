@@ -2609,3 +2609,12 @@ html.as-open .swp .chatbtn{display:none}
  .swp .ukstrip{font-size:12px;gap:10px;padding:9px 8px;letter-spacing:0}.swp .ukstrip span{gap:5px}.swp .ukstrip svg{width:15px;height:15px}
 }
 @media (max-width:360px){.swp .ukstrip{font-size:11px;gap:7px}.swp .ukstrip svg{display:none}}
+
+/* page numbers in one row (user, 22 Nov 2026) */
+.swp .pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:44px auto 8px;padding:0 16px;font-size:14px}
+.swp .pager .pg{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:40px;height:40px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);font-weight:600;text-decoration:none;transition:border-color .2s,background .2s,color .2s}
+.swp .pager a.pg:hover,.swp .pager a.pg:focus-visible{border-color:var(--brass,#B5843A);color:var(--emerald,#1B4D3E)}
+.swp .pager .pg.on{background:var(--emerald,#1B4D3E);border-color:var(--emerald,#1B4D3E);color:#fff}
+.swp .pager .pg.gap{border:0;min-width:20px;padding:0;color:var(--ink-2)}
+.swp .pager .pg-step{padding:0 16px;color:var(--emerald,#1B4D3E)}
+@media (max-width:480px){.swp .pager{gap:6px}.swp .pager .pg{min-width:36px;height:36px;padding:0 10px}.swp .pager .pg-step span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.swp .pager .pg-step{padding:0 10px}}
