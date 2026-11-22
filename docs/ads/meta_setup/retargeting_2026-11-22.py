@@ -37,8 +37,8 @@ if len(sys.argv)>1 and sys.argv[1]=='visitors':
           {"inclusions":{"operator":"or","rules":[{"event_sources":[{"id":PIX,"type":"pixel"}],"retention_seconds":2592000,
            "filter":{"operator":"and","filters":[{"field":"url","operator":"i_contains","value":"swansura.com"}]}}]}});save()
     if 'buyers' not in out:
-        out['buyers']=aud('SW | Purchasers 180d','Bought on swansura.com, last 180 days (pixel Purchase)',
-          {"inclusions":{"operator":"or","rules":[{"event_sources":[{"id":PIX,"type":"pixel"}],"retention_seconds":15552000,
+        out['buyers']=aud('SW | Purchasers 15d','Bought on swansura.com, last 15 days (pixel Purchase)',
+          {"inclusions":{"operator":"or","rules":[{"event_sources":[{"id":PIX,"type":"pixel"}],"retention_seconds":1296000,
            "filter":{"operator":"and","filters":[{"field":"event","operator":"eq","value":"Purchase"}]}}]}});save()
     post(out['adset'],targeting=json.dumps(targeting([TP,out['visitors']],[out['buyers']])))
     print('ad set now: ThruPlay + website visitors 30d, purchasers 180d excluded');raise SystemExit
