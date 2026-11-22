@@ -7,6 +7,7 @@ G='https://graph.facebook.com/v23.0';ACT='act_1614052623400872';ADSET='120249456
 L=lambda p:'https://www.swansura.com/discount/VD10?redirect='+urllib.parse.quote(p,safe='')
 P='Official UK partner of Deyga · Free UK delivery over £40.'
 U="Next-day UK delivery, no customs or import fees, VAT included. Extra 10% off Deyga with code VD10.\n\n"+P
+HL="Next-day UK delivery. UK's Official Partner"  # 22 Nov: swapped onto the 5 ads to match the Vilvah ad set
 def T(a): return a+"\n\n"+U
 ADS=[('1894983298355849','Deyga Beetroot Lip Balm Stick | Creator','/products/beetroot-lip-balm-stick-natural-tinted-balm-for-dry-lips-100-organic-ingredients-plant-based-cruelty-free-5-5-g',
       T("Deyga's Beetroot Lip Balm Stick, shipped from our UK stock 🌿 A tinted beetroot lip balm in an easy twist-up stick."),'Next-day UK delivery · £13.99'),
