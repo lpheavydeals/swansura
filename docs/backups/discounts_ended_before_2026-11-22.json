@@ -1,5 +1,5 @@
 {
-  "note": "Discount codes ended 22 Nov 2026 (user: 'End SWANSURA_PROMO, SPRING10, Buy 1 get 1 and Valentine codes'). All were active with endsAt null before. Undo: discountCodeActivate(id) for each.",
+  "note": "Discount codes ended 22 Nov 2026 (user: 'End SWANSURA_PROMO, SPRING10, Buy 1 get 1 and Valentine codes'). All were active with endsAt null before. Undo: discountCodeActivate(id) for each. DELETED 22 Nov 2026 (user: 'Delete the 9 expired codes'): cannot be reactivated; recreate from 'config' (all had no usage limit, any customer).",
   "codes": [
     {
       "id": "gid://shopify/DiscountCodeNode/2297705628035",
@@ -7,7 +7,22 @@
       "summary": "100% off 3 collections",
       "startsAt": "2026-01-06T21:32:59Z",
       "endsAt": null,
-      "uses": 0
+      "uses": 0,
+      "config": {
+        "type": "basic",
+        "percentage": 1.0,
+        "collections": [
+          "vilvah",
+          "deyga",
+          "giftsets"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2356563083651",
@@ -15,7 +30,23 @@
       "summary": "10% off 4 collections",
       "startsAt": "2026-05-28T10:18:21Z",
       "endsAt": null,
-      "uses": 1
+      "uses": 1,
+      "config": {
+        "type": "basic",
+        "percentage": 0.1,
+        "collections": [
+          "vilvah",
+          "deyga",
+          "giftsets",
+          "fragrance"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2356564427139",
@@ -23,7 +54,30 @@
       "summary": "Buy 1 item, get 1 item free",
       "startsAt": "2026-05-28T10:29:22Z",
       "endsAt": null,
-      "uses": 0
+      "uses": 0,
+      "config": {
+        "type": "bxgy",
+        "buys": {
+          "quantity": 1,
+          "collections": [
+            "vilvah",
+            "deyga",
+            "giftsets"
+          ]
+        },
+        "gets": {
+          "quantity": 1,
+          "percentage": 1.0,
+          "products": [
+            "gid://shopify/Product/15415430414723 (Vilvah Fragrance-Free Cream Face Wash 100ml)"
+          ]
+        },
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2316943393155",
@@ -31,7 +85,39 @@
       "summary": "5% off 20 collections",
       "startsAt": "2026-02-15T23:48:20Z",
       "endsAt": null,
-      "uses": 0
+      "uses": 0,
+      "config": {
+        "type": "basic",
+        "percentage": 0.05,
+        "collections": [
+          "vilvah",
+          "deyga",
+          "serum",
+          "lip-balm",
+          "lip-scrub",
+          "shampoo",
+          "hair-oil",
+          "hair-mask",
+          "hair-styling-products",
+          "face-mask-pack",
+          "moisturizers-gels",
+          "toner",
+          "deodrants",
+          "sunscreen",
+          "cleanser",
+          "giftsets",
+          "skincare-tools-kits",
+          "haircare-tools-kits",
+          "fragrance",
+          "jo-milano"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2316943655299",
@@ -39,7 +125,41 @@
       "summary": "15% off 20 collections, minimum £35",
       "startsAt": "2026-02-15T23:50:27Z",
       "endsAt": null,
-      "uses": 0
+      "uses": 0,
+      "config": {
+        "type": "basic",
+        "percentage": 0.15,
+        "collections": [
+          "vilvah",
+          "deyga",
+          "serum",
+          "lip-balm",
+          "lip-scrub",
+          "shampoo",
+          "hair-oil",
+          "hair-mask",
+          "hair-styling-products",
+          "face-mask-pack",
+          "moisturizers-gels",
+          "toner",
+          "deodrants",
+          "sunscreen",
+          "cleanser",
+          "giftsets",
+          "skincare-tools-kits",
+          "haircare-tools-kits",
+          "fragrance",
+          "jo-milano"
+        ],
+        "min": {
+          "subtotal": 35.0
+        },
+        "combinesWith": {
+          "order": false,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2294181822851",
@@ -48,7 +168,20 @@
       "startsAt": "2025-12-30T11:35:42Z",
       "endsAt": null,
       "uses": 0,
-      "ended": "2026-11-22T09:42:36Z"
+      "ended": "2026-11-22T09:42:36Z",
+      "config": {
+        "type": "basic",
+        "percentage": 0.15,
+        "collections": [
+          "deyga"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": true,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2294263120259",
@@ -57,7 +190,22 @@
       "startsAt": "2025-12-30T14:50:10Z",
       "endsAt": null,
       "uses": 0,
-      "ended": "2026-11-22T09:42:36Z"
+      "ended": "2026-11-22T09:42:36Z",
+      "config": {
+        "type": "basic",
+        "percentage": 0.05,
+        "collections": [
+          "vilvah",
+          "deyga",
+          "giftsets"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": true,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2297705005443",
@@ -66,7 +214,21 @@
       "startsAt": "2026-01-06T21:31:55Z",
       "endsAt": null,
       "uses": 0,
-      "ended": "2026-11-22T09:42:36Z"
+      "ended": "2026-11-22T09:42:36Z",
+      "config": {
+        "type": "basic",
+        "percentage": 0.05,
+        "collections": [
+          "vilvah",
+          "giftsets"
+        ],
+        "min": null,
+        "combinesWith": {
+          "order": true,
+          "product": false,
+          "shipping": false
+        }
+      }
     },
     {
       "id": "gid://shopify/DiscountCodeNode/2286036713859",
@@ -75,7 +237,18 @@
       "startsAt": "2025-12-07T18:23:00Z",
       "endsAt": null,
       "uses": 0,
-      "ended": "2026-11-22T09:42:36Z"
+      "ended": "2026-11-22T09:42:36Z",
+      "config": {
+        "type": "basic",
+        "percentage": 0.05,
+        "allItems": true,
+        "min": null,
+        "combinesWith": {
+          "order": true,
+          "product": false,
+          "shipping": false
+        }
+      }
     }
   ]
 }
