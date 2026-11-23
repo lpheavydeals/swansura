@@ -1,9 +1,10 @@
-// Fragrance ad samples (22 Nov 2026). Run from this folder: node build.js video 916|45  |  node build.js gift 916|45
+// Fragrance ad samples (22 Nov 2026). Run from this folder: node build.js video 916|45 [white]  |  node build.js gift 916|45 [white]
 // video: renders 30 fps frames of an 18 s bottle video into frames_<fmt>/ (then build.sh encodes them).
 // gift:  renders the 'Christmas gifts for him' image.
 // Style: Plus Jakarta Sans only, emerald silk background, gold hairlines, text in top/bottom bands, bottle clear in the middle.
 const {chromium}=require('playwright');const fs=require('fs');
 const [MODE,FMT]=[process.argv[2]||'video',process.argv[3]||'916'];
+const WHITE=process.argv[4]=='white',SUF=WHITE?'_white':'';  // 23 Nov 2026: white theme (user: 'white themed also fine')
 const W=1080,H=FMT=='916'?1920:1350;
 const b64=f=>`data:image/${f.endsWith('svg')?'svg+xml':'png'};base64,`+fs.readFileSync('src/'+f).toString('base64');
 const BASE=`@font-face{font-family:PJS;src:url(${'data:font/woff2;base64,'+fs.readFileSync('src/pjs.woff2').toString('base64')});font-weight:200 800}
@@ -14,6 +15,18 @@ body{position:relative;font-family:PJS;color:#F4EEE4;background:radial-gradient(
 .eb{font-weight:700;font-size:24px;letter-spacing:.32em;color:#EACB8E;text-transform:uppercase;display:inline-flex;align-items:center;gap:18px}
 .eb:before,.eb:after{content:'';width:46px;height:1.5px;background:#EACB8E}
 .c{position:absolute;left:0;right:0;text-align:center;padding:0 70px}`;
+const WCSS=WHITE?`body{color:#1F1A17;background:radial-gradient(90% 60% at 50% 46%,#FFFFFF 0%,#FBF8F3 55%,#F2ECE2 100%)}.silk{display:none}
+.eb{color:#8C6226}.eb:before,.eb:after{background:#B5843A}
+.h{color:#1B4D3E!important}.h span{color:#B5843A!important}.h2,.small,.sub{color:#403227!important}.note .k{color:#B5843A}.note .v{color:#1B4D3E}
+.price{color:#1B4D3E}.trust{color:#1F1A17}.trust i{color:#B5843A}
+.spot{background:radial-gradient(closest-side,rgba(181,132,58,.12),rgba(181,132,58,0))!important}
+.ph img,.cell img{filter:drop-shadow(0 24px 26px rgba(64,50,39,.22))!important}
+.end{background:radial-gradient(120% 70% at 30% 20%,#FFFFFF 0%,#FAF6EF 60%,#F1EADF 100%)!important}
+.tile{background:#FFFFFF!important;border:2px solid rgba(181,132,58,.55)!important;box-shadow:0 24px 60px rgba(64,50,39,.16)!important}
+.name{color:#1B4D3E!important}.eprice{color:#8C6226!important}.btn{background:#1B4D3E!important;color:#fff!important}.btn svg{stroke:#fff}
+.fine{color:#403227!important}.fine span{color:#1B4D3E!important}.tc{color:#403227}
+.cell{background:#FFFFFF!important;border:1.5px solid rgba(181,132,58,.45)!important;box-shadow:0 10px 30px rgba(64,50,39,.08)}.n{color:#1B4D3E!important}.p{color:#8C6226!important}
+.cta{background:#1B4D3E!important}`:'';
 const ARR='<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0F2E25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
 if(MODE=='video'){
@@ -39,7 +52,7 @@ if(MODE=='video'){
  .btn{position:absolute;left:290px;top:${1290+T.end}px;width:500px;height:108px;border-radius:999px;background:linear-gradient(180deg,#EACB8E,#C4924A);color:#0F2E25;font-size:42px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:16px;box-shadow:0 16px 40px rgba(0,0,0,.3)}
  .fine{position:absolute;left:0;right:0;top:${1436+T.end}px;text-align:center;color:#F4EEE4;font-size:28px;font-weight:600;line-height:1.5}.fine span{color:#EACB8E}
  .tc{position:absolute;left:0;right:0;top:${1540+T.end}px;text-align:center;font-size:19px;font-weight:500;opacity:.6}
- </style></head><body><div class=silk></div><div class=spot></div>
+ ${WCSS}</style></head><body><div class=silk></div><div class=spot></div>
  <div class=sc id=s1><div class=ph><img id=i1 src="${b64('tf01.png')}"></div>
   <div class=c style="top:${T.top}px"><div class=eb>Tom Ford · Parfum</div><div class=h>Noir Extreme</div><div class=h2>Parfum · 100ml</div></div>
   <div class=c style="top:${T.bot}px"><div class=trust>Warm spice <i>·</i> amber <i>·</i> vanilla</div></div></div>
@@ -52,7 +65,7 @@ if(MODE=='video'){
  <div class=sc id=s3><div class=ph><img id=i3 src="${b64('tf02.png')}"></div>
   <div class=c style="top:${T.top}px"><div class=eb>At Swansura</div><div class=price style="margin-top:14px">£132.99</div><div class=h2>Tom Ford Noir Extreme Parfum 100ml</div></div>
   <div class=c style="top:${T.bot}px"><div class=trust>100% authentic <i>·</i> Ships from the UK</div><div class=small>Free UK delivery over £40</div></div></div>
- <div class=end id=e><div class=logo><img src="${b64('logo_w.svg')}"></div><div class=tile><img src="${b64('tf01.png')}"></div>
+ <div class=end id=e><div class=logo><img src="${b64(WHITE?'logo_b.svg':'logo_w.svg')}"></div><div class=tile><img src="${b64('tf01.png')}"></div>
   <div class=name>Tom Ford Noir Extreme Parfum</div><div class=eprice>100ml · £132.99</div><div class=btn>Shop now ${ARR}</div>
   <div class=fine>100% authentic · Free UK delivery over £40<br><span>swansura.com</span></div><div class=tc>T&amp;Cs apply</div></div>
  <div class="hair" style="top:${FMT=='916'?150:40}px"></div><div class="hair" style="top:${H-(FMT=='916'?150:40)}px"></div>
@@ -67,7 +80,7 @@ if(MODE=='video'){
   const e=document.getElementById('e');const o=ease((t-14)/.5);e.style.opacity=o;}
  </script></body></html>`;
  (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:W,height:H}});await p.setContent(html);await p.evaluate(()=>document.fonts.ready);
-  const dir='frames_'+FMT;fs.rmSync(dir,{recursive:true,force:true});fs.mkdirSync(dir);const N=18*30;
+  const dir='frames_'+FMT+SUF;fs.rmSync(dir,{recursive:true,force:true});fs.mkdirSync(dir);const N=18*30;
   for(let i=0;i<N;i++){await p.evaluate(t=>R(t),i/30);await p.screenshot({path:`${dir}/f${String(i).padStart(4,'0')}.jpg`,type:'jpeg',quality:94});}
   await b.close();console.log('frames',N,dir)})();
 }
@@ -86,12 +99,12 @@ if(MODE=='gift'){
  .trust{font-weight:600;font-size:${tl?32:28}px}.trust i{font-style:normal;color:#EACB8E;margin:0 12px}
  .cta{position:absolute;left:0;right:0;bottom:${tl?250:0}px;height:${tl?92:84}px;background:#0F2E25;color:#F4EEE4;display:flex;align-items:center;justify-content:center;gap:14px;font-size:${tl?30:28}px;font-weight:600}
  .cta b{color:#EACB8E;font-weight:800}.cta svg{stroke:#EACB8E}
- </style></head><body><div class=silk></div>
+ ${WCSS}</style></head><body><div class=silk></div>
  <div class=c style="top:${top}px"><div class=eb>Christmas gifts for him</div><div class=h>Designer fragrance,<br><span>shipped from the UK</span></div></div>
  <div class=grid>${G.map(g=>`<div class=cell><img src="${b64(g[0])}"><div class=n>${g[1]}</div><div class=p>${g[2]}</div></div>`).join('')}</div>
  <div class=c style="top:${gy+gh+(tl?40:26)}px"><div class=trust>100% authentic <i>·</i> Free UK delivery over £40</div></div>
  <div class=cta>Shop gifts for him at <b>swansura.com</b> ${ARR.replace('#0F2E25','#EACB8E')}</div>
  </body></html>`;
  (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:W,height:H}});await p.setContent(html);await p.evaluate(()=>document.fonts.ready);
-  await p.screenshot({path:`Gifts_For_Him_${FMT=='916'?'9x16':'4x5'}.jpg`,type:'jpeg',quality:93});await b.close();console.log('gift',FMT)})();
+  await p.screenshot({path:`Gifts_For_Him_${FMT=='916'?'9x16':'4x5'}${SUF}.jpg`,type:'jpeg',quality:93});await b.close();console.log('gift',FMT)})();
 }
