@@ -1,6 +1,7 @@
 {%- comment -%}
   Judge.me core, loaded on product pages only (the app embed is switched off in settings_data).
-  Copied from the Judge.me app embed output of 14 Nov 2026 (extension judgeme-858).
+  Copied from the Judge.me app embed output of 14 Nov 2026 (extension judgeme-858); asset base moved to judgeme-871 on
+  24 Nov 2026. loader.js itself now comes only from the review widget app block (it was loaded twice: 858 here + 871 there).
   If Judge.me updates its extension and reviews stop showing, switch the app embed back on
   (Theme editor > App embeds) and remove this snippet's render from theme.liquid.
 {%- endcomment -%}
@@ -15,7 +16,7 @@
 /* INF-1976 */
 var _jdgmBlocked=function(){var raw=(window.jdgmSettings||{}).hostname_allowlist;var list=(raw==null?"":""+raw).split(/[\s,]+/).map(function(h){return h.trim().toLowerCase().replace(/\.$/,"");}).filter(function(h){return h;});if(!list.length)return false;var host=(e.location.hostname||"").toLowerCase().replace(/\.$/,"");if(/(^|\.)shopifypreview\.com$/.test(host))return false;var bare=host.replace(/^www\./,"");for(var i=0;i<list.length;i++){var en=list[i];if(en.indexOf("*.")===0){var b=en.slice(2);if(host===b||host.slice(-(b.length+1))==="."+b)return false;}else if(bare===en.replace(/^www\./,""))return false;}return true;}();
 if(_jdgmBlocked){jdgm._loaderExecuted=true;jdgm._blocked=true;var _jdgmS=e.createElement("style");_jdgmS.textContent='[class^="jdgm-"],[class*=" jdgm-"]{display:none !important}';(e.head||e.documentElement).appendChild(_jdgmS);return;}
-jdgm.CDN_HOST="https:\/\/cdnwidget.judge.me\/",jdgm.CDN_HOST_ALT="https:\/\/cdn2.judge.me\/cdn\/widget_frontend\/",jdgm.API_HOST="https:\/\/api.judge.me\/",jdgm.CDN_BASE_URL="https:\/\/cdn.shopify.com\/extensions\/01a1ced3-0919-7ad9-b5cd-5f6347f722c5\/judgeme-858\/assets\/",jdgm.CDN_API_HOST="https:\/\/cdn.judge.me\/",
+jdgm.CDN_HOST="https:\/\/cdnwidget.judge.me\/",jdgm.CDN_HOST_ALT="https:\/\/cdn2.judge.me\/cdn\/widget_frontend\/",jdgm.API_HOST="https:\/\/api.judge.me\/",jdgm.CDN_BASE_URL="https:\/\/cdn.shopify.com\/extensions\/01a209f4-839d-7bd0-be51-4bbace3960ff\/judgeme-871\/assets\/",jdgm.CDN_API_HOST="https:\/\/cdn.judge.me\/",
 jdgm.docReady=function(d){(e.attachEvent?"complete"===e.readyState:"loading"!==e.readyState)?
 setTimeout(d,0):e.addEventListener("DOMContentLoaded",d)},jdgm.loadCSS=function(d,t,o,a){
 !o&&jdgm.loadCSS.requestedUrls.indexOf(d)>=0||(jdgm.loadCSS.requestedUrls.push(d),
@@ -29,6 +30,5 @@ parseFloat(jdgmSettings.widget_version)>=3?jdgm.loadCSS(jdgm.CDN_BASE_URL+"widge
 jdgm.loadCSS(jdgm.CDN_BASE_URL+"widget_base.css"):jdgm.loadCSS(jdgm.CDN_BASE_URL+"shopify_v2.css")
 )}))}(document);
 </script>
-<noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.shopify.com/extensions/01a1ced3-0919-7ad9-b5cd-5f6347f722c5/judgeme-858/assets/shopify_v2.css"></noscript>
-<script src="https://cdn.shopify.com/extensions/01a1ced3-0919-7ad9-b5cd-5f6347f722c5/judgeme-858/assets/loader.js" type="text/javascript" defer="defer"></script>
+<noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.shopify.com/extensions/01a209f4-839d-7bd0-be51-4bbace3960ff/judgeme-871/assets/shopify_v2.css"></noscript>
 {%- endif -%}

@@ -2,7 +2,7 @@
 # Vilvah, Deyga and Retargeting ad sets (Reels 7 clicks -> 1 visit, Marketplace 5 -> 0 lifetime). Before-state kept = undo.
 import json,subprocess,os
 G='https://graph.facebook.com/v23.0'
-SETS=['120249456165350240','120249456165580240','120249508225430240']
+SETS=['120249456165350240','120249456165580240','120249508225430240','120249382199750240']  # Engagement added 24 Nov 2026 (user: 'work on these … Engagement still runs on Reels')
 F=os.path.dirname(os.path.abspath(__file__))+'/no_reels_marketplace_2026-11-23.json'
 out=json.load(open(F)) if os.path.exists(F) else {}
 def run(*a): return json.loads(subprocess.run(list(a),capture_output=True,text=True).stdout)
