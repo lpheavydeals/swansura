@@ -13,6 +13,7 @@ Usage:
              <scratch>/sf2/{perfume-for-men,perfume-for-women,unisex-perfume,scent-*}.json  (fresh storefront dumps)
       writes docs/data/product_desc_facts_<wave>.json  (same shape as product_desc_facts_2026-11-08.json)
 
+  select also takes --max-words N (default 80) and --brands "A,B" (vendors picked first).
   Add --skin to select/build for Vilvah + Deyga skincare (no perfume filter; facts from custom.inci/sw/pdp;
   Admin query must also return inci: metafield(namespace:"custom", key:"inci")).
 
@@ -90,6 +91,10 @@ def match_kw(title, kws):
 SKINCARE = {"vilvah", "deyga"}
 
 
+MAX_WORDS = 80   # --max-words N: pick products whose description is under N words
+PRIORITY = []    # --brands "A,B": these vendors are picked first (e.g. brands ChatGPT already sends buyers to)
+
+
 def select(S, wave, n, skin=False):
     done = set()
     for f in (ROOT / "docs/seo").glob("product_descriptions_*.json"):
@@ -99,7 +104,7 @@ def select(S, wave, n, skin=False):
     for p in json.load(open(S / "sfall_live.json")):
         if p["handle"] in done or not p["images"] or not any(v["available"] for v in p["variants"]):
             continue
-        if words(p["body_html"]) >= 80 or DUP_SKIP.search(p["title"]):
+        if words(p["body_html"]) >= MAX_WORDS or DUP_SKIP.search(p["title"]):
             continue
         if skin:
             if p["vendor"].lower() not in SKINCARE:
@@ -108,7 +113,7 @@ def select(S, wave, n, skin=False):
             continue
         k = match_kw(p["title"], kws)
         cand.append((-(k["Primary vol."] or 0) if k else 0, -(k["Secondary vol."] or 0) if k else 0, p["title"], p, k))
-    cand.sort(key=lambda x: x[:3])
+    cand.sort(key=lambda x: (x[3]["vendor"] not in PRIORITY,) + x[:3])
     live = {p["handle"]: p for p in json.load(open(S / "sfall_live.json"))}
     seen, pick = {scent_key(live[h]["title"]) for h in done if h in live}, []  # one description per scent, across waves
     for *_, p, k in cand:
@@ -203,6 +208,16 @@ def build(S, wave):
 if __name__ == "__main__":
     S = pathlib.Path(sys.argv[2])
     skin = "--skin" in sys.argv
-    args = [a for a in sys.argv if a != "--skin"]
+    argv = sys.argv[:]
+    for flag in ("--max-words", "--brands"):
+        if flag in argv:
+            i = argv.index(flag)
+            val = argv[i + 1]
+            del argv[i:i + 2]
+            if flag == "--max-words":
+                MAX_WORDS = int(val)
+            else:
+                PRIORITY = [b.strip() for b in val.split(",")]
+    args = [a for a in argv if a != "--skin"]
     {"fetch": lambda: fetch(S), "select": lambda: select(S, args[3], int(args[4]) if len(args) > 4 else 50, skin),
      "build": lambda: (build_skin if skin else build)(S, args[3])}[args[1]]()
