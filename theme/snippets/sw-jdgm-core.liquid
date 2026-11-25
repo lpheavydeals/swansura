@@ -31,4 +31,28 @@ jdgm.loadCSS(jdgm.CDN_BASE_URL+"widget_base.css"):jdgm.loadCSS(jdgm.CDN_BASE_URL
 )}))}(document);
 </script>
 <noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.shopify.com/extensions/01a209f4-839d-7bd0-be51-4bbace3960ff/judgeme-871/assets/shopify_v2.css"></noscript>
+<script>
+/* Judge.me after page load (25 Nov 2026): its ~40 widget files kept the page 'loading' until ~5 s on phones, and the
+   Meta pixel (Shopify Facebook app) only sends PageView after load, so ad visitors who left sooner never counted as
+   landing page views. The widget is hidden from Judge.me's first loader run (data-entry-point renamed), then the
+   loader runs again once the page has loaded (or at once when 'Write a review' is tapped). */
+(function(){
+  var ws=document.querySelectorAll('.jdgm-widget[data-entry-point]');
+  if(!ws.length)return;
+  ws.forEach(function(w){w.setAttribute('data-sw-entry',w.getAttribute('data-entry-point'));w.removeAttribute('data-entry-point');});
+  var done=false;
+  function go(){
+    if(done)return;done=true;
+    document.querySelectorAll('[data-sw-entry]').forEach(function(w){w.setAttribute('data-entry-point',w.getAttribute('data-sw-entry'));w.removeAttribute('data-sw-entry');});
+    var L=document.querySelector('script[src*="judgeme"][src*="/loader.js"]');
+    if(!L)return;
+    window.jdgm=window.jdgm||{};jdgm._loaderExecuted=false;
+    var n=document.createElement('script');n.src=L.src;n.async=true;document.body.appendChild(n);
+  }
+  window.swJdgmGo=go;
+  document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('[data-review]'))go();},true);
+  function later(){if('requestIdleCallback' in window){requestIdleCallback(go,{timeout:1500});}else{setTimeout(go,300);}}
+  if(document.readyState==='complete'){later();}else{window.addEventListener('load',later);}
+})();
+</script>
 {%- endif -%}
