@@ -11,5 +11,13 @@
   "120249535930050240",
   "120249535932540240",
   "120249535934620240"
- ]
+ ],
+ "price_filter": {
+  "date": "2026-11-25",
+  "rule": "price_amount gt 4999 (pence) = \u00a350+",
+  "product_count": 193,
+  "before_product_count": 605,
+  "adset_name": "Fragrance \u00a350+ | Catalogue UK 25-55 | Purchase",
+  "undo": "remove the price_amount rule from product set 2130777617557208"
+ }
 }
