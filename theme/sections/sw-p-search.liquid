@@ -15,7 +15,7 @@
         {%- if prods.size > 0 -%}<div class="grid-p">{%- for pass in (1..2) -%}{%- for p in prods -%}{%- if pass == 1 and p.available == false -%}{%- continue -%}{%- endif -%}{%- if pass == 2 and p.available -%}{%- continue -%}{%- endif -%}{% render 'sw-p-card', product: p %}{%- endfor -%}{%- endfor -%}</div>{%- endif -%}
         {%- if others.size > 0 or arts.size > 0 -%}<div class="kwchips srch-links" style="margin-top:32px"><span class="eyebrow">Pages and stories</span><div>{%- for x in others -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}{%- for x in arts -%}<a href="{{ x.url }}">{{ x.title | escape }}</a>{%- endfor -%}</div></div>{%- endif -%}
         {%- if search.results_count == 0 -%}<p class="lede" style="padding:40px 0">Nothing matched “{{ search.terms | escape }}”. Try a brand, a product type or a concern, or browse <a href="{{ routes.all_products_collection_url }}" style="text-decoration:underline">all products</a>.</p>{%- endif -%}
-        {%- if paginate.pages > 1 -%}<div class="more">{{ paginate | default_pagination }}</div>{%- endif -%}
+        {%- render 'sw-p-pager', paginate: paginate -%}
       </section>
     {%- endpaginate -%}
   {%- endif -%}

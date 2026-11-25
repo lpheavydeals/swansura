@@ -15,7 +15,7 @@
     {%- for a in blog.articles -%}{%- assign words = a.content | strip_html | split: ' ' | size -%}{%- assign mins = a.metafields.custom.read_minutes.value | default: words -%}{%- if mins > 60 -%}{%- assign mins = mins | divided_by: 140 | at_least: 1 -%}{%- endif -%}
       <a class="post" href="{{ a.url }}">{%- if a.image -%}{%- assign swalt = a.image.alt | default: a.title -%}{{ a.image | image_url: width: 800 | image_tag: class: 'pic', widths: '400,600,800', sizes: '(min-width: 1000px) 400px, 90vw', loading: 'lazy', alt: swalt }}{%- else -%}<div class="pic"></div>{%- endif -%}<span class="eyebrow">{{ a.tags.first | default: blog.title | escape }} · {{ mins }} min read</span><h2 class="ph">{{ a.title | escape }}</h2><p style="color:var(--ink-2)">{{ a.excerpt_or_content | strip_html | truncatewords: 30 }}</p><span class="p-link" style="align-self:start">Read the article</span></a>
     {%- endfor -%}
-  </div>{%- if paginate.pages > 1 -%}<div class="more">{{ paginate | default_pagination }}</div>{%- endif -%}{%- endpaginate -%}</section>
+  </div>{%- render 'sw-p-pager', paginate: paginate -%}{%- endpaginate -%}</section>
 </div></div>
 
 {% schema %}
