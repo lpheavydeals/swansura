@@ -1749,5 +1749,14 @@
   "changes": 40,
   "user_errors": 0,
   "read_back": "all 116 = plan"
+ },
+ "followup_herbal_500ml": {
+  "user": "25 Nov 2026: 'Set the Herbal Shampoo 500 ml to 0 too'",
+  "variant": 56613302632835,
+  "inv": "gid://shopify/InventoryItem/55190027764099",
+  "before": 1,
+  "after": 0,
+  "adjustment_group": "gid://shopify/InventoryAdjustmentGroup/81342317756803",
+  "read_back": 0
  }
 }
