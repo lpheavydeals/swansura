@@ -113,6 +113,8 @@
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    {%- comment -%} Google tag delay (26 Nov 2026): Shopify's Google & YouTube pixel adds gtag.js; hold it until the first scroll/tap/key or 5 s after load. Events wait in dataLayer and are sent then. Facebook and other pixels are not touched. {%- endcomment -%}
+    <script>(function(){var held=[],go=false,N=Node.prototype,A=N.appendChild,I=N.insertBefore,EV=['pointerdown','keydown','touchstart','scroll','wheel'];function g(n){return !go&&n&&n.nodeName==='SCRIPT'&&/googletagmanager\.com\/gtag\/js/.test(n.src||'')}N.appendChild=function(n){if(g(n)){held.push([this,n]);return n}return A.call(this,n)};N.insertBefore=function(n,r){if(g(n)){held.push([this,n]);return n}return I.call(this,n,r)};function release(){if(go)return;go=true;EV.forEach(function(e){removeEventListener(e,release,true)});held.forEach(function(h){try{A.call(h[0],h[1])}catch(e){A.call(document.head,h[1])}});held=[]}EV.forEach(function(e){addEventListener(e,release,{capture:true,passive:true})});addEventListener('load',function(){setTimeout(release,5000)})})();</script>
     {{ content_for_header }}
 
     {%- liquid
