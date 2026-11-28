@@ -38,7 +38,7 @@
     -%}
     <a class="gshop" href="#shop-story" data-gshop><span class="gshop-pics" aria-hidden="true">{%- for p in shop_list limit: 4 -%}{%- if p.featured_media -%}<span class="gshop-pic">{{ p.featured_media | image_url: width: 120 | image_tag: loading: 'eager', width: 48, height: 48, alt: '' }}</span>{%- endif -%}{%- endfor -%}</span><span class="gshop-txt"><strong>Shop the {{ n }} {{ noun }} in this guide</strong><span>{%- for b in blist limit: 3 -%}{{ b | escape }}{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}{%- if blist.size > 3 %} and more{% endif -%}</span></span><span class="gshop-btn">Shop now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span></a>
     <style>
-      .swp .gshop{display:flex;align-items:center;gap:16px;margin:0 auto 28px;max-width:900px;padding:12px 14px 12px 16px;border:1px solid var(--line,#E3DACD);border-radius:12px;background:#F7FAF8;color:var(--ink,#1F1A17);text-decoration:none;transition:border-color .2s,box-shadow .2s}
+      .swp .gshop{display:flex;align-items:center;gap:16px;margin:24px auto 28px;max-width:900px;padding:12px 14px 12px 16px;border:1px solid var(--line,#E3DACD);border-radius:12px;background:#F7FAF8;color:var(--ink,#1F1A17);text-decoration:none;transition:border-color .2s,box-shadow .2s}
       .swp .gshop:hover{border-color:#1B4D3E;box-shadow:0 4px 18px rgba(27,77,62,.10)}
       .swp .gshop-pics{display:flex;flex:none}
       .swp .gshop-pic{width:48px;height:48px;border-radius:50%;background:#EEF3F0;border:2px solid #fff;overflow:hidden;display:block;margin-left:-14px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
@@ -50,7 +50,7 @@
       .swp .gshop-btn{flex:none;display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:6px;background:#1B4D3E;color:#fff;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
       .swp #shop-story{scroll-margin-top:110px}
       @media (max-width:600px){
-        .swp .gshop{flex-wrap:wrap;gap:10px 12px;padding:12px;margin-bottom:22px}
+        .swp .gshop{flex-wrap:wrap;gap:10px 12px;padding:12px;margin:18px 0 22px}
         .swp .gshop-pic{width:40px;height:40px;margin-left:-12px}
         .swp .gshop-txt strong{font-size:14px}
         .swp .gshop-btn{width:100%;justify-content:center;height:42px}
