@@ -93,18 +93,28 @@
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
+    {%- comment -%}
+      Product pages (sw-p-product) use no Dawn custom elements and sw-proto.js needs none of these helpers,
+      so the 6 Dawn element scripts + animations.js are skipped there (faster product page for ad visitors, 24 Nov 2026).
+      constants.js + pubsub.js stay: standard-actions-override.js uses publish / PUB_SUB_EVENTS.
+    {%- endcomment -%}
+    {%- assign sw_lean = false -%}{%- if template.name == 'product' -%}{%- assign sw_lean = true -%}{%- endif -%}
+    {%- unless sw_lean -%}
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'cart-disclosure-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'cart-disclosure-tooltip.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
+    {%- endunless -%}
     <script src="{{ 'standard-actions-override.js' | asset_url }}" defer="defer"></script>
 
-    {%- if settings.animations_reveal_on_scroll -%}
+    {%- if settings.animations_reveal_on_scroll and sw_lean == false -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    {%- comment -%} Google tag delay (26 Nov 2026): Shopify's Google & YouTube pixel adds gtag.js; hold it until the first scroll/tap/key or 5 s after load. Events wait in dataLayer and are sent then. Facebook and other pixels are not touched. {%- endcomment -%}
+    <script>(function(){var held=[],go=false,N=Node.prototype,A=N.appendChild,I=N.insertBefore,EV=['pointerdown','keydown','touchstart','scroll','wheel'];function g(n){return !go&&n&&n.nodeName==='SCRIPT'&&/googletagmanager\.com\/gtag\/js/.test(n.src||'')}N.appendChild=function(n){if(g(n)){held.push([this,n]);return n}return A.call(this,n)};N.insertBefore=function(n,r){if(g(n)){held.push([this,n]);return n}return I.call(this,n,r)};function release(){if(go)return;go=true;EV.forEach(function(e){removeEventListener(e,release,true)});held.forEach(function(h){try{A.call(h[0],h[1])}catch(e){A.call(document.head,h[1])}});held=[]}EV.forEach(function(e){addEventListener(e,release,{capture:true,passive:true})});addEventListener('load',function(){setTimeout(release,5000)})})();</script>
     {{ content_for_header }}
 
     {%- liquid
@@ -344,7 +354,7 @@
       <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {%- if settings.predictive_search_enabled -%}
+    {%- if settings.predictive_search_enabled and sw_lean == false -%}
       <link
         rel="stylesheet"
         href="{{ 'component-predictive-search.css' | asset_url }}"
@@ -353,6 +363,7 @@
       >
     {%- endif -%}
 
+    {%- if template.name == 'product' -%}<script>window.jdgm=window.jdgm||{};</script>{%- comment -%} the Judge.me review block's inline script uses jdgm.data before the core at the end of <body> runs {%- endcomment -%}{%- endif -%}
     <script>
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
@@ -433,7 +444,7 @@
       };
     </script>
 
-    {%- if settings.predictive_search_enabled -%}
+    {%- if settings.predictive_search_enabled and sw_lean == false -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
@@ -441,5 +452,8 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="{{ 'sw-proto.js' | asset_url }}" defer="defer"></script>
+    {%- comment -%} Judge.me core only on product pages (app embed switched off; 14 Nov 2026). Moved from <head> to the end of
+      <body> (24 Nov 2026): its 33 KB settings no longer sit in front of the page; the deferred loader still runs after it. {%- endcomment -%}
+    {% render 'sw-jdgm-core' %}
   </body>
 </html>

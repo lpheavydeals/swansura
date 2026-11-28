@@ -1,0 +1,4723 @@
+{
+ "source": "SNE_Stock_Report_-_09-11-2026.xlsx EAN column (Scent N Essence UK Ltd; not in the repo), matched via the 654-option mapping in docs/Swansura_Stock_Changes_Review_2026-11-26.xlsx",
+ "rules": "one EAN per option, GS1 check digit valid (73 UPCs had a dropped leading zero restored), EAN used by only one store variant, variant had no barcode before (undo = set barcodes to [])",
+ "count": 524,
+ "changes": [
+  {
+   "productId": "gid://shopify/Product/16362505699715",
+   "variantId": "gid://shopify/ProductVariant/62737998315907",
+   "product": "Abercrombie & Fitch First Instinct Together Eau de Parfum 100ml – Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "abercrombie & fitch first instinct together (w) edp 100ml",
+   "barcode": "085715167583",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16362530832771",
+   "variantId": "gid://shopify/ProductVariant/62738192433539",
+   "product": "Abercrombie & Fitch Naturally Fierce Eau de Parfum 50ml – Women’s Floral Woody Fragrance",
+   "option": null,
+   "supplier_row": "abercrombie & fitch naturally fierce (w) edp 50ml",
+   "barcode": "085715167804",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253603545475",
+   "variantId": "gid://shopify/ProductVariant/62407371850115",
+   "product": "Acqua di Parma Colonia Essenza Deodorant Stick 75ml",
+   "option": null,
+   "supplier_row": "acqua di parma colonia essenza (m) 75ml deodorant stick",
+   "barcode": "8028713220210",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253611016579",
+   "variantId": "gid://shopify/ProductVariant/62407430734211",
+   "product": "Acqua di Parma Colonia Pura Eau de Cologne 20ml Unisex",
+   "option": null,
+   "supplier_row": "acqua di parma colonia pura (u) edc 20ml",
+   "barcode": "8028713270055",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253614358915",
+   "variantId": "gid://shopify/ProductVariant/62407466647939",
+   "product": "Acqua di Parma Holiday Discovery Set EDP 3x12ml",
+   "option": null,
+   "supplier_row": "acqua di parma holiday (u) discovery set edp 3x12ml (osmanthus+ yuzu+ lily of the valley)",
+   "barcode": "8028713623202",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253621240195",
+   "variantId": "gid://shopify/ProductVariant/62407503380867",
+   "product": "Acqua di Parma Oud & Spice EDP 20ml for Men",
+   "option": null,
+   "supplier_row": "acqua di parma oud & spice (m) edp 20ml",
+   "barcode": "8028713813207",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253622780291",
+   "variantId": "gid://shopify/ProductVariant/62407510262147",
+   "product": "Acqua di Parma Rosa Nobile EDP 20ml for Women",
+   "option": null,
+   "supplier_row": "acqua di parma rosa nobile (w) edp 20ml",
+   "barcode": "8028713490088",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253626974595",
+   "variantId": "gid://shopify/ProductVariant/62407513604483",
+   "product": "Acqua di Parma Sakura EDP 20ml Unisex Perfume",
+   "option": null,
+   "supplier_row": "acqua di parma sakura(u) edp 20ml",
+   "barcode": "8028713810305",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253885579651",
+   "variantId": "gid://shopify/ProductVariant/62407774175619",
+   "product": "Acqua di Parma Sandalo EDP 20ml Unisex",
+   "option": null,
+   "supplier_row": "acqua di parma sandalo(u) edp 20ml",
+   "barcode": "8028713810909",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16253951443331",
+   "variantId": "gid://shopify/ProductVariant/62407850787203",
+   "product": "Acqua di Parma Zafferano EDP 20ml Unisex",
+   "option": null,
+   "supplier_row": "acqua di parma zafferano (u) edp 20ml",
+   "barcode": "8028713813986",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462180227",
+   "variantId": "gid://shopify/ProductVariant/63200345620867",
+   "product": "Adi Guru Elegance Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "adi guru elegance 100 ml edp",
+   "barcode": "3700796900788",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462212995",
+   "variantId": "gid://shopify/ProductVariant/63200345653635",
+   "product": "Adi Guru Harmony Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "adi guru harmony 100 ml edp",
+   "barcode": "3700796900771",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462245763",
+   "variantId": "gid://shopify/ProductVariant/63200345686403",
+   "product": "Adi Guru Sensation Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "adi guru sensation 100 ml edp",
+   "barcode": "3760294350003",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462344067",
+   "variantId": "gid://shopify/ProductVariant/63200345817475",
+   "product": "Adi Guru Soul Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "adi guru soul 100 ml edp",
+   "barcode": "3760294350867",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444682115",
+   "variantId": "gid://shopify/ProductVariant/63200312656259",
+   "product": "Afnan 9am Dive Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "afnan 9am dive (u) edp 100ml",
+   "barcode": "6290171072836",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444714883",
+   "variantId": "gid://shopify/ProductVariant/63200312689027",
+   "product": "Afnan Supremacy Gold Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "afnan supremacy gold (u) edp 100ml",
+   "barcode": "6290171000983",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444747651",
+   "variantId": "gid://shopify/ProductVariant/63200312721795",
+   "product": "Afnan Tribute Blue Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "afnan tribute blue (u) edp 100ml",
+   "barcode": "6290171002109",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364136268163",
+   "variantId": "gid://shopify/ProductVariant/62741846720899",
+   "product": "Anna Sui Sky Eau de Toilette 30ml – Women’s Fruity Floral Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "anna sui sky (w) edt 30ml",
+   "barcode": "085715064301",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364153799043",
+   "variantId": "gid://shopify/ProductVariant/62755196404099",
+   "product": "Antonio Banderas Diavolo Eau de Toilette – Men’s Warm Spicy Woody Fragrance",
+   "option": "100ml",
+   "supplier_row": "antonio banderas diavolo (m) edt 100ml",
+   "barcode": "8411061849330",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364153799043",
+   "variantId": "gid://shopify/ProductVariant/62755196436867",
+   "product": "Antonio Banderas Diavolo Eau de Toilette – Men’s Warm Spicy Woody Fragrance",
+   "option": "200ml",
+   "supplier_row": "antonio banderas diavolo (m) edt 200ml",
+   "barcode": "8411061849361",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364208980355",
+   "variantId": "gid://shopify/ProductVariant/62741992964483",
+   "product": "Antonio Banderas Her Secret Temptation Eau de Toilette 80ml – Women’s Floral Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "antonio banderas her secret temptation (w) edt 80ml",
+   "barcode": "8411061080719",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444780419",
+   "variantId": "gid://shopify/ProductVariant/63200312754563",
+   "product": "Arabiyat Prestige Nyla Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "arabiyat prestige nyla (w) edp 80ml",
+   "barcode": "6290102040149",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444813187",
+   "variantId": "gid://shopify/ProductVariant/63200312787331",
+   "product": "Arabiyat Prestige Nyla Vani-elle Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "arabiyat prestige nyla vani-elle (w) edp 80ml",
+   "barcode": "6290361911563",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463490947",
+   "variantId": "gid://shopify/ProductVariant/63200347586947",
+   "product": "Armaf Club de Nuit Intense Eau de Parfum 105ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit intense (w) edp 105ml",
+   "barcode": "6085010094977",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462376835",
+   "variantId": "gid://shopify/ProductVariant/63200345883011",
+   "product": "Armaf Club de Nuit Men's Parfum Gift Set (Intense Man, Sillage, Milestone) 3 x 30ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit (m) set parfum 3 x 30ml (intense man + sillage + milestone)",
+   "barcode": "6294015148350",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463556483",
+   "variantId": "gid://shopify/ProductVariant/63200347652483",
+   "product": "Armaf Club de Nuit Precieux Extrait de Parfum 55ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit precieux extrait de parfum 55ml",
+   "barcode": "6294015181913",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463622019",
+   "variantId": "gid://shopify/ProductVariant/63200347718019",
+   "product": "Armaf Club de Nuit Private Key To My Dreams Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit private key to my dreams (u) extrait de parfum 100ml",
+   "barcode": "6294015164992",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463687555",
+   "variantId": "gid://shopify/ProductVariant/63200347849091",
+   "product": "Armaf Club de Nuit Private Key To My Life Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit private key to my life (u) extrait de parfum 100ml",
+   "barcode": "6294015165012",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464310147",
+   "variantId": "gid://shopify/ProductVariant/63200348864899",
+   "product": "Armaf Club de Nuit Private Key To My Love Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit private key to my love (u) extrait de parfum 100ml",
+   "barcode": "6294015165029",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464342915",
+   "variantId": "gid://shopify/ProductVariant/63200348897667",
+   "product": "Armaf Club de Nuit Private Key To My Soul Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit private key to my soul (u) extrait de parfum 100ml",
+   "barcode": "6294015175943",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464375683",
+   "variantId": "gid://shopify/ProductVariant/63200348930435",
+   "product": "Armaf Club de Nuit Private Key To My Success Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit private key to my success (u) extrait de parfum 100ml",
+   "barcode": "6294015165005",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464408451",
+   "variantId": "gid://shopify/ProductVariant/63200348963203",
+   "product": "Armaf Club de Nuit Woman Eau de Parfum Travel Set 2 x 12ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit woman (w) edp2x12ml travel set",
+   "barcode": "6295199802717",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463458179",
+   "variantId": "gid://shopify/ProductVariant/63200347554179",
+   "product": "Armaf Club de Nuit Women's Parfum Gift Set (Woman, Intense Woman, Milestone) 3 x 30ml",
+   "option": null,
+   "supplier_row": "armaf club de nuit (w) set parfum 3 x 30ml (woman + intense woman + milestone)",
+   "barcode": "6294015148343",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16368735388035",
+   "variantId": "gid://shopify/ProductVariant/62753460191619",
+   "product": "Armaf Hunter Eau de Parfum 100ml – Men’s Fresh Woody Aromatic Fragrance",
+   "option": null,
+   "supplier_row": "armaf hunter (m) edp 100ml",
+   "barcode": "6085010094182",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447565699",
+   "variantId": "gid://shopify/ProductVariant/63200317145475",
+   "product": "Armaf Miss Armaf Attitude Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf attitude (w) edp 100ml",
+   "barcode": "6294015168112",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447598467",
+   "variantId": "gid://shopify/ProductVariant/63200317178243",
+   "product": "Armaf Miss Armaf Catwalk Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf catwalk (w) edp 100ml",
+   "barcode": "6294015168105",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447664003",
+   "variantId": "gid://shopify/ProductVariant/63200317243779",
+   "product": "Armaf Miss Armaf Chic Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf chic (w) edp 100ml",
+   "barcode": "6294015168129",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447696771",
+   "variantId": "gid://shopify/ProductVariant/63200317309315",
+   "product": "Armaf Miss Armaf Dazzling Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf dazzling (w) edp 100ml",
+   "barcode": "6294015168136",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447795075",
+   "variantId": "gid://shopify/ProductVariant/63200317374851",
+   "product": "Armaf Miss Armaf Grandeur Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf grandeur (w) edp 100ml",
+   "barcode": "6294015168174",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448417667",
+   "variantId": "gid://shopify/ProductVariant/63200318357891",
+   "product": "Armaf Miss Armaf Magnifiq Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf magnifiq (w) edp 100ml",
+   "barcode": "6294015168150",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448450435",
+   "variantId": "gid://shopify/ProductVariant/63200318390659",
+   "product": "Armaf Miss Armaf Mystique Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf mystique (w) edp 100ml",
+   "barcode": "6294015168143",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448483203",
+   "variantId": "gid://shopify/ProductVariant/63200318423427",
+   "product": "Armaf Miss Armaf Voce Viva Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armaf miss armaf voce viva (w) edp 100ml",
+   "barcode": "6294015168167",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464473987",
+   "variantId": "gid://shopify/ProductVariant/63200349094275",
+   "product": "Armand Basi In Red Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "armand basi in red (w) edp 100ml",
+   "barcode": "8427395940285",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448581507",
+   "variantId": "gid://shopify/ProductVariant/63200318488963",
+   "product": "Attar Collection Areej Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "attar collection areej edp 100ml",
+   "barcode": "6290102024583",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448614275",
+   "variantId": "gid://shopify/ProductVariant/63200318554499",
+   "product": "Attar Collection Azalea Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "attar collection azalea edp 100 ml",
+   "barcode": "6390902024155",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449957763",
+   "variantId": "gid://shopify/ProductVariant/63200321077635",
+   "product": "Attar Collection Crystal Love Eau de Parfum for Men 100ml",
+   "option": null,
+   "supplier_row": "attar collection crystal love (m) edp 100ml",
+   "barcode": "6390902022212",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449990531",
+   "variantId": "gid://shopify/ProductVariant/63200321110403",
+   "product": "Attar Collection Crystal Love Eau de Parfum for Women 100ml",
+   "option": null,
+   "supplier_row": "attar collection crystal love (w) edp 100ml",
+   "barcode": "6390902022205",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421450023299",
+   "variantId": "gid://shopify/ProductVariant/63200321143171",
+   "product": "Attar Collection Floral Musk Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "attar collection floral musk (u) edp 100ml",
+   "barcode": "6390902022649",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421450056067",
+   "variantId": "gid://shopify/ProductVariant/63200321175939",
+   "product": "Attar Collection The Persian Gold Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "attar collection the persian gold (u) edp 100ml",
+   "barcode": "6300020156300",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16367119729027",
+   "variantId": "gid://shopify/ProductVariant/62749847716227",
+   "product": "Bentley For Men Azure Eau de Toilette 100ml – Men’s Fresh Aquatic Woody Fragrance",
+   "option": null,
+   "supplier_row": "bentley for men azure 100ml edt",
+   "barcode": "7640111505631",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364386648451",
+   "variantId": "gid://shopify/ProductVariant/62742421078403",
+   "product": "Burberry My Burberry Black Parfum 50ml – Women’s Rich Floral Amber Fragrance",
+   "option": null,
+   "supplier_row": "burberry my burberry black (w) parfum 50ml",
+   "barcode": "3614229828993",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16364328452483",
+   "variantId": "gid://shopify/ProductVariant/62742309863811",
+   "product": "Burberry My Burberry Eau de Parfum 50ml – Women’s Floral Fragrance",
+   "option": null,
+   "supplier_row": "burberry my burberry (w) edp 50ml",
+   "barcode": "3614226905994",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280160010627",
+   "variantId": "gid://shopify/ProductVariant/62510873543043",
+   "product": "Bvlgari Man Glacial Essence EDP Gift Set 100ml + 15ml – Men’s Fragrance Set",
+   "option": null,
+   "supplier_row": "bvlgari man glacial essence (m) set edp 100ml+edp 15ml",
+   "barcode": "783320422324",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280515281283",
+   "variantId": "gid://shopify/ProductVariant/62512764813699",
+   "product": "Bvlgari Man Rain Essence Eau de Parfum Gift Set 100ml + 15ml – Luxury Men’s Fragrance Set",
+   "option": null,
+   "supplier_row": "bvlgari man rain essence (m) set edp 100ml+edp 15ml",
+   "barcode": "783320421211",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280530944387",
+   "variantId": "gid://shopify/ProductVariant/62513257775491",
+   "product": "Bvlgari Man Terrae Essence Eau de Parfum Gift Set 100ml + 15ml – New Pack Men’s Fragrance Set",
+   "option": null,
+   "supplier_row": "bvlgari man terrae essence (m) set edp100ml+edp 15ml (new pack)",
+   "barcode": "783320418730",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280562139523",
+   "variantId": "gid://shopify/ProductVariant/62514042470787",
+   "product": "Bvlgari Man Wood Essence Eau de Parfum Gift Set 100ml + 15ml – Soft Box Men’s Fragrance Set",
+   "option": null,
+   "supplier_row": "bvlgari man wood essence (m) set edp100ml+edp 15ml (soft box)",
+   "barcode": "783320400834",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280183570819",
+   "variantId": "gid://shopify/ProductVariant/62510916927875",
+   "product": "Bvlgari Man in Black Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "option": null,
+   "supplier_row": "bvlgari man in black (m) edp 100ml",
+   "barcode": "783320413858",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280588812675",
+   "variantId": "gid://shopify/ProductVariant/62514705858947",
+   "product": "Bvlgari Omnia Amethyste Eau de Toilette 25ml – Women’s Floral Fragrance",
+   "option": null,
+   "supplier_row": "bvlgari omnia amethyste (w) edt 25ml",
+   "barcode": "783320402647",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16281810305411",
+   "variantId": "gid://shopify/ProductVariant/62522130006403",
+   "product": "Bvlgari Rose Goldea Blossom Delight Eau de Parfum Gift Set 75ml + 15ml – New Pack Women’s Fragrance Set",
+   "option": null,
+   "supplier_row": "bvlgari rose goldea blossom delight (w) set edp 75ml+ edp 15ml (new pack)",
+   "barcode": "783320418853",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16281877152131",
+   "variantId": "gid://shopify/ProductVariant/62522270646659",
+   "product": "Bvlgari Splendida Tubereuse Mystique Eau de Parfum 100ml – Luxury Women’s Floral Fragrance",
+   "option": null,
+   "supplier_row": "bvlgari splendida tubereuse mystique (w) edp 100ml",
+   "barcode": "783320409592",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373060501891",
+   "variantId": "gid://shopify/ProductVariant/62763631116675",
+   "product": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance",
+   "option": "50ml",
+   "supplier_row": "calvin klein defy (m) parfum 50ml",
+   "barcode": "3616304175978",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373060501891",
+   "variantId": "gid://shopify/ProductVariant/62763631149443",
+   "product": "Calvin Klein Defy Parfum – Men’s Warm Woody Fragrance",
+   "option": "200ml",
+   "supplier_row": "calvin klein defy parfum 200ml",
+   "barcode": "3616304183638",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373138751875",
+   "variantId": "gid://shopify/ProductVariant/62763971510659",
+   "product": "Calvin Klein Eternity Eau de Parfum – Women’s Classic Floral Fragrance",
+   "option": "30ml",
+   "supplier_row": "calvin klein eternity (w) edp 30ml",
+   "barcode": "088300601387",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373138751875",
+   "variantId": "gid://shopify/ProductVariant/62763971543427",
+   "product": "Calvin Klein Eternity Eau de Parfum – Women’s Classic Floral Fragrance",
+   "option": "100ml",
+   "supplier_row": "calvin klein eternity (w) edp 100ml",
+   "barcode": "088300601400",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16375798202755",
+   "variantId": "gid://shopify/ProductVariant/62791166755203",
+   "product": "Carolina Herrera 212 Sexy Men Eau de Toilette 100ml – Men’s Warm Spicy Fragrance",
+   "option": null,
+   "supplier_row": "carolina herrera 212 sexy (m) edt 100ml",
+   "barcode": "8411061865583",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16375749542275",
+   "variantId": "gid://shopify/ProductVariant/62790932955523",
+   "product": "Carolina Herrera Bad Boy Extreme Eau de Parfum – Men’s Warm Spicy Amber Fragrance",
+   "option": "100ml",
+   "supplier_row": "carolina bad boy extreme edp 100ml",
+   "barcode": "8411061099780",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16375883923843",
+   "variantId": "gid://shopify/ProductVariant/62791507575171",
+   "product": "Carolina Herrera Very Good Girl Glam Parfum 50ml – Women’s Floral Fruity Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "carolina herrera very good girl glam parfum 50ml",
+   "barcode": "8411061058466",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16371515490691",
+   "variantId": "gid://shopify/ProductVariant/62760707293571",
+   "product": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – Women’s Floral Woody Fragrance",
+   "option": "50ml",
+   "supplier_row": "chloe nomade jasmin naturel intense (w) edp 50ml",
+   "barcode": "3616303459666",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16371515490691",
+   "variantId": "gid://shopify/ProductVariant/62760707326339",
+   "product": "Chloé Nomade Jasmin Naturel Intense Eau de Parfum – Women’s Floral Woody Fragrance",
+   "option": "75ml",
+   "supplier_row": "chloe nomade jasmin naturel intense (w) edp 75ml",
+   "barcode": "3616303459673",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16371586990467",
+   "variantId": "gid://shopify/ProductVariant/62760849506691",
+   "product": "Chloé Nomade Nuit d’Égypte Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "option": null,
+   "supplier_row": "chloe nomade nuit d'eegypte (w)edp 50ml",
+   "barcode": "3616303477943",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133229443",
+   "variantId": "gid://shopify/ProductVariant/63254825107843",
+   "product": "Clinique Aromatics Elixir Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "clinique aromatics elixir (w) parfum 100ml",
+   "barcode": "020714999346",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16371645186435",
+   "variantId": "gid://shopify/ProductVariant/62760935129475",
+   "product": "DKNY Be Delicious & Be Delicious Fresh Blossom Eau de Parfum Gift Set 2x30ml – Women’s Fragrance Duo",
+   "option": null,
+   "supplier_row": "dkny (w) edp 2 x 30ml (be delicious + be delicious fresh blossom)",
+   "barcode": "085715952172",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16372905083267",
+   "variantId": "gid://shopify/ProductVariant/62763155161475",
+   "product": "DKNY Be Delicious Orchard Street Eau de Parfum 100ml – Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "dkny be delicious orchard street edp 100ml",
+   "barcode": "085715950413",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16372923531651",
+   "variantId": "gid://shopify/ProductVariant/62763227971971",
+   "product": "DKNY Be Tempted Eau de Parfum 100ml – Women’s Fruity Floral Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "dkny be tempted (w) edp 100ml",
+   "barcode": "085715950178",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421450088835",
+   "variantId": "gid://shopify/ProductVariant/63200321208707",
+   "product": "David Beckham Beyond Eau de Toilette 60ml",
+   "option": null,
+   "supplier_row": "david beckham beyond (m) edt 60ml",
+   "barcode": "3614220770697",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373218148739",
+   "variantId": "gid://shopify/ProductVariant/62764189581699",
+   "product": "Davidoff Champion Eau de Toilette 90ml – Men’s Fresh Woody Aromatic Fragrance",
+   "option": null,
+   "supplier_row": "davidoff champion (m)edt 90ml",
+   "barcode": "3607340188602",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373690958211",
+   "variantId": "gid://shopify/ProductVariant/62770147197315",
+   "product": "Davidoff Indigo Eau de Toilette 110ml – Men’s Aromatic Fougere Fragrance",
+   "option": null,
+   "supplier_row": "davidoff indigo(m) edt 110ml",
+   "barcode": "3616306633612",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16373706948995",
+   "variantId": "gid://shopify/ProductVariant/62770174230915",
+   "product": "Davidoff The Game Eau de Toilette 100ml – Men’s Woody Aromatic Fragrance",
+   "option": null,
+   "supplier_row": "davidoff the game (m) edt 100ml",
+   "barcode": "3607341186805",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16274977325443",
+   "variantId": "gid://shopify/ProductVariant/62484672807299",
+   "product": "Dior Sauvage Eau de Parfum 100ml + 10ml Men’s Gift Set",
+   "option": null,
+   "supplier_row": "dior sauvage edp 100ml+ vapo 10ml",
+   "barcode": "3348901754354",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16302689583491",
+   "variantId": "gid://shopify/ProductVariant/62570560979331",
+   "product": "Dolce & Gabbana Devotion Eau de Parfum 100ml – Luxury Women’s Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "dolce&gabbana devotion (w) edp 100ml",
+   "barcode": "8057971183739",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16302704853379",
+   "variantId": "gid://shopify/ProductVariant/62570699915651",
+   "product": "Dolce & Gabbana Devotion Eau de Parfum Gift Set 50ml + 10ml – Women’s Fragrance Set",
+   "option": null,
+   "supplier_row": "dolce&gabbana devotion (w) edp 50ml+edp 10ml",
+   "barcode": "8057971185429",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16296315552131",
+   "variantId": "gid://shopify/ProductVariant/62547721322883",
+   "product": "Dolce & Gabbana K Eau de Parfum Gift Set 50ml + 5ml – Men’s Fragrance Set",
+   "option": null,
+   "supplier_row": "dolce & gabbana k(m) set edp 50ml+edp 5ml",
+   "barcode": "8054754400601",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16296405827971",
+   "variantId": "gid://shopify/ProductVariant/62548238795139",
+   "product": "Dolce & Gabbana L’Imperatrice Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana l'imperatrice (w) edt 100ml",
+   "barcode": "3423222015565",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16301258703235",
+   "variantId": "gid://shopify/ProductVariant/62564607099267",
+   "product": "Dolce & Gabbana Men’s Miniature Fragrance Set – Devotion, K EDT, K EDP, The One & Light Blue Pour Homme",
+   "option": null,
+   "supplier_row": "dolce&gabbana (m) mini set 4x5ml(devotion edp+k edt + k edp + the one)+light blue pour homme edt 4.5ml",
+   "barcode": "8054754403893",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16296422932867",
+   "variantId": "gid://shopify/ProductVariant/62548286210435",
+   "product": "Dolce & Gabbana Q Eau de Parfum 100ml – Luxury Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana q (w) edp 100ml",
+   "barcode": "8057971183661",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16301242843523",
+   "variantId": "gid://shopify/ProductVariant/62564299047299",
+   "product": "Dolce & Gabbana The One Gold for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana the one gold (m) edp intense 100ml",
+   "barcode": "8057971188727",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16299008360835",
+   "variantId": "gid://shopify/ProductVariant/62556787310979",
+   "product": "Dolce & Gabbana The One for Men Eau de Parfum 100ml – Luxury Men’s Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana the one (m) edp 100ml (new packing)",
+   "barcode": "8057971180547",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16299016618371",
+   "variantId": "gid://shopify/ProductVariant/62556801204611",
+   "product": "Dolce & Gabbana The One for Men Eau de Parfum 150ml – Luxury Men’s Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana the one (m) edp 150ml (new packing)",
+   "barcode": "8057971180554",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16299138548099",
+   "variantId": "gid://shopify/ProductVariant/62557318644099",
+   "product": "Dolce & Gabbana The One for Men Eau de Parfum Intense 100ml – Luxury Men’s Fragrance",
+   "option": null,
+   "supplier_row": "dolce & gabbana the one (m) edp intense 100ml (new packing)",
+   "barcode": "8057971181568",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16300878430595",
+   "variantId": "gid://shopify/ProductVariant/62561860616579",
+   "product": "Dolce & Gabbana The One for Women Eau de Parfum Gift Set 50ml + 50ml – Luxury Women’s Fragrance Set",
+   "option": null,
+   "supplier_row": "dolce & gabbana the one (w) set edp 50ml+edp 50ml",
+   "barcode": "8057971185542",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16302655308163",
+   "variantId": "gid://shopify/ProductVariant/62570407264643",
+   "product": "Dolce & Gabbana Women’s Miniature Fragrance Set – Devotion, Q, Blue Jasmine, The One & Light Blue",
+   "option": null,
+   "supplier_row": "dolce&gabbana (w) mini set 4x5ml(devotion edp+q edp + blue jasmine+the one edp)+light blue edt 4.5ml",
+   "barcode": "8054754403886",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16375981343107",
+   "variantId": "gid://shopify/ProductVariant/62791829913987",
+   "product": "Elie Saab Elixir Eau de Parfum 50ml – Women’s Floral Amber Fragrance",
+   "option": null,
+   "supplier_row": "elie saab elixir (w) edp 50ml",
+   "barcode": "7640233341407",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16376560025987",
+   "variantId": "gid://shopify/ProductVariant/62793578905987",
+   "product": "Elizabeth Arden Beauty Eau de Parfum 100ml – Women’s Floral Green Fragrance",
+   "option": null,
+   "supplier_row": "elizabeth arden beauty (w) edp 100ml",
+   "barcode": "085805785345",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16383680119171",
+   "variantId": "gid://shopify/ProductVariant/62817739899267",
+   "product": "Escada Magnetism Eau de Parfum 25ml – Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "escada magnetism edp 25ml",
+   "barcode": "3614227293946",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16339025396099",
+   "variantId": "gid://shopify/ProductVariant/62658312438147",
+   "product": "Estée Lauder SpellBound Eau de Parfum 50ml – Women’s Warm Spicy Floral Fragrance",
+   "option": null,
+   "supplier_row": "estee lauder spellbound (w) edp 50ml",
+   "barcode": "887167095915",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465555331",
+   "variantId": "gid://shopify/ProductVariant/63200350798211",
+   "product": "Fomo Envy le Parfum 100ml",
+   "option": null,
+   "supplier_row": "fomo envy le parfum 100ml",
+   "barcode": "6084015580546",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465588099",
+   "variantId": "gid://shopify/ProductVariant/63200350830979",
+   "product": "Fomo Essence of The Other World Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "fomo essence of the other world extrait de parfum 100ml",
+   "barcode": "6084015580553",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465620867",
+   "variantId": "gid://shopify/ProductVariant/63200350863747",
+   "product": "Fomo Fraglover's Tea Extrait de Parfum 100ml",
+   "option": null,
+   "supplier_row": "fomo fraglover's tea extrait de parfum 100ml",
+   "barcode": "6084015580560",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465653635",
+   "variantId": "gid://shopify/ProductVariant/63200350896515",
+   "product": "Fomo Gary's Den le Parfum 100ml",
+   "option": null,
+   "supplier_row": "fomo gary's den le parfum 100ml",
+   "barcode": "6084015580515",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461328259",
+   "variantId": "gid://shopify/ProductVariant/63200344211843",
+   "product": "Formula 1 Carbon Reign Race Vial Eau de Toilette 1.5ml",
+   "option": null,
+   "supplier_row": "formula 1 carbon reign race 1.5ml edt vial",
+   "barcode": "5050456002719",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451301251",
+   "variantId": "gid://shopify/ProductVariant/63200323273091",
+   "product": "Franck Olivier Bamboo America Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier bamboo america deodorant spray for men 250ml",
+   "barcode": "3516642134616",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451334019",
+   "variantId": "gid://shopify/ProductVariant/63200323305859",
+   "product": "Franck Olivier Bamboo America Men Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "franck olivier bamboo america men 75ml edt",
+   "barcode": "3516641233129",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451399555",
+   "variantId": "gid://shopify/ProductVariant/63200323371395",
+   "product": "Franck Olivier Bamboo Women Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier bamboo women deodorant spray 250ml",
+   "barcode": "3516642132612",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452087683",
+   "variantId": "gid://shopify/ProductVariant/63200324485507",
+   "product": "Franck Olivier Bella In Paris Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier bella in paris deodorant spray 250ml",
+   "barcode": "3516641943615",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452153219",
+   "variantId": "gid://shopify/ProductVariant/63200324551043",
+   "product": "Franck Olivier Bella In Paris Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier bella in paris women edp 75ml",
+   "barcode": "3516641842321",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452185987",
+   "variantId": "gid://shopify/ProductVariant/63200324583811",
+   "product": "Franck Olivier Bella Women Eau de Parfum & Deodorant Gift Set 75ml + 250ml",
+   "option": null,
+   "supplier_row": "franck olivier bella women 75ml edp + 250ml deodorant coffret set (new)",
+   "barcode": "3516642242908",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452251523",
+   "variantId": "gid://shopify/ProductVariant/63200324649347",
+   "product": "Franck Olivier Bella Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier bella women edp 75ml",
+   "barcode": "3516641542320",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452284291",
+   "variantId": "gid://shopify/ProductVariant/63200324682115",
+   "product": "Franck Olivier Black Tiger Collection Privee le Parfum 100ml",
+   "option": null,
+   "supplier_row": "franck olivier black tiger collection privee le parfum 100ml",
+   "barcode": "3516642224317",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453627779",
+   "variantId": "gid://shopify/ProductVariant/63200329073027",
+   "product": "Franck Olivier Black Touch Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier black touch deodorant spray 250ml",
+   "barcode": "3516641917616",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453562243",
+   "variantId": "gid://shopify/ProductVariant/63200328941955",
+   "product": "Franck Olivier Black Touch Eau de Toilette & Deodorant Gift Set 100ml + 250ml",
+   "option": null,
+   "supplier_row": "franck olivier black touch 100ml edt + 250ml deodorant coffret set (new)",
+   "barcode": "3516642218903",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453693315",
+   "variantId": "gid://shopify/ProductVariant/63200329695619",
+   "product": "Franck Olivier Black Touch Men Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "franck olivier black touch men 100ml edt",
+   "barcode": "3516640917112",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453726083",
+   "variantId": "gid://shopify/ProductVariant/63200329728387",
+   "product": "Franck Olivier Blue Touch Men Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "franck olivier blue touch men 100ml edt",
+   "barcode": "3516641017132",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455102339",
+   "variantId": "gid://shopify/ProductVariant/63200333037955",
+   "product": "Franck Olivier Eau de Passion Men Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "franck olivier eau de passion men 75ml edt",
+   "barcode": "3516642127120",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455135107",
+   "variantId": "gid://shopify/ProductVariant/63200333070723",
+   "product": "Franck Olivier Excellence Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier excellence deodorant spray 250ml",
+   "barcode": "3516642064616",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455200643",
+   "variantId": "gid://shopify/ProductVariant/63200333234563",
+   "product": "Franck Olivier Giorgia L'imperatrice Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier giorgia l'imperatrice deodorant spray 250ml",
+   "barcode": "3516642045615",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455266179",
+   "variantId": "gid://shopify/ProductVariant/63200333365635",
+   "product": "Franck Olivier Giorgia Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier giorgia women edp 75ml",
+   "barcode": "3516642044328",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455331715",
+   "variantId": "gid://shopify/ProductVariant/63200333398403",
+   "product": "Franck Olivier Green Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier green deodorant spray 250ml",
+   "barcode": "3516641948610",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456216451",
+   "variantId": "gid://shopify/ProductVariant/63200334709123",
+   "product": "Franck Olivier In Black Men Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "franck olivier in black men 75ml edt",
+   "barcode": "3516641225124",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456249219",
+   "variantId": "gid://shopify/ProductVariant/63200334741891",
+   "product": "Franck Olivier In Pink Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier in pink women edp 75ml",
+   "barcode": "3516641525323",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456314755",
+   "variantId": "gid://shopify/ProductVariant/63200334807427",
+   "product": "Franck Olivier Miss Women Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier miss women deodorant spray 250ml",
+   "barcode": "3516642139611",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456347523",
+   "variantId": "gid://shopify/ProductVariant/63200334840195",
+   "product": "Franck Olivier Nature Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier nature women edp 75ml",
+   "barcode": "3516640825325",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457166723",
+   "variantId": "gid://shopify/ProductVariant/63200336150915",
+   "product": "Franck Olivier Night Touch Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "franck olivier night touch 100ml edt",
+   "barcode": "3516642117114",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457232259",
+   "variantId": "gid://shopify/ProductVariant/63200336216451",
+   "product": "Franck Olivier One Kiss Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier one kiss women edp 75ml",
+   "barcode": "3516641926328",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457297795",
+   "variantId": "gid://shopify/ProductVariant/63200336281987",
+   "product": "Franck Olivier Passion Extreme Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier passion extreme women 75ml edp",
+   "barcode": "3516640725328",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457330563",
+   "variantId": "gid://shopify/ProductVariant/63200336314755",
+   "product": "Franck Olivier Passion Women Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier passion women 75ml edp",
+   "barcode": "3516640525324",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421458084227",
+   "variantId": "gid://shopify/ProductVariant/63200337527171",
+   "product": "Franck Olivier Pure Addiction Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "franck olivier pure addiction 100ml edp",
+   "barcode": "3516642063312",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444518275",
+   "variantId": "gid://shopify/ProductVariant/63200312426883",
+   "product": "Franck Olivier Santal Velvet Collection Privee le Parfum 100ml",
+   "option": null,
+   "supplier_row": "franck olivier santal velvet collection privee le parfum 100ml",
+   "barcode": "3516642228315",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444551043",
+   "variantId": "gid://shopify/ProductVariant/63200312459651",
+   "product": "Franck Olivier Sun Java Blue Men Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "franck olivier sun java blue men 75ml edt",
+   "barcode": "3516642011122",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444583811",
+   "variantId": "gid://shopify/ProductVariant/63200312492419",
+   "product": "Franck Olivier Sun Java Intense Men Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier sun java intense men 75ml edp",
+   "barcode": "3516641811327",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421444649347",
+   "variantId": "gid://shopify/ProductVariant/63200312623491",
+   "product": "Franck Olivier Sun Java Rose Oud Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier sun java rose oud 75ml edp",
+   "barcode": "3516641812324",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447369091",
+   "variantId": "gid://shopify/ProductVariant/63200316883331",
+   "product": "Franck Olivier Sun Java White Men Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "franck olivier sun java white men 75ml edt",
+   "barcode": "3516641011321",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447401859",
+   "variantId": "gid://shopify/ProductVariant/63200316916099",
+   "product": "Franck Olivier Sun Royal Oud Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "franck olivier sun royal oud 75ml edp",
+   "barcode": "3516641813321",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447434627",
+   "variantId": "gid://shopify/ProductVariant/63200316948867",
+   "product": "Franck Olivier Sunrise Men Deodorant Spray 250ml",
+   "option": null,
+   "supplier_row": "franck olivier sunrise men  deodorant spray 250ml",
+   "barcode": "3516642130618",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970470691203",
+   "variantId": "gid://shopify/ProductVariant/58055226032515",
+   "product": "Fumeri 540 Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri 540 (u) edp 100ml",
+   "barcode": "3700583503475",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970472362371",
+   "variantId": "gid://shopify/ProductVariant/58055259193731",
+   "product": "Fumeri Adore Unisex EDP 100ML",
+   "option": null,
+   "supplier_row": "fumeri adore (w) edp 100ml",
+   "barcode": "6297001612309",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970473017731",
+   "variantId": "gid://shopify/ProductVariant/58055261880707",
+   "product": "Fumeri Ambre Night Unisex EDP 100ML",
+   "option": null,
+   "supplier_row": "fumeri ambre night (u) edp 100ml",
+   "barcode": "3700583503444",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970471575939",
+   "variantId": "gid://shopify/ProductVariant/58055239467395",
+   "product": "Fumeri Angel For Women EDP 100ML",
+   "option": null,
+   "supplier_row": "fumeri angel (u) edp 100ml",
+   "barcode": "6297001612200",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970473902467",
+   "variantId": "gid://shopify/ProductVariant/58055270498691",
+   "product": "Fumeri Blue For Men EDP 100ML",
+   "option": null,
+   "supplier_row": "fumeri blue (m) edp 100ml",
+   "barcode": "3700583503468",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970478260611",
+   "variantId": "gid://shopify/ProductVariant/58055278985603",
+   "product": "Fumeri Elixir Unisex EDP 100ML",
+   "option": null,
+   "supplier_row": "fumeri elixir (m) edp 100ml",
+   "barcode": "6297001612293",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970448671107",
+   "variantId": "gid://shopify/ProductVariant/58055135396227",
+   "product": "Fumeri Flirt Eau de Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri flirt (w) edp 100ml",
+   "barcode": "6297001612262",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970465186179",
+   "variantId": "gid://shopify/ProductVariant/58055212564867",
+   "product": "Fumeri Gabriella Eau de Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri gabriella (w) edp 100ml",
+   "barcode": "6297001612217",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970860138883",
+   "variantId": "gid://shopify/ProductVariant/58057835807107",
+   "product": "Fumeri Gris Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri gris (u) edp 100ml",
+   "barcode": "6297001612231",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970860630403",
+   "variantId": "gid://shopify/ProductVariant/58057837674883",
+   "product": "Fumeri Orchid Noir For Women Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri orchid noir (w) edp 100ml",
+   "barcode": "3700583503451",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970873770371",
+   "variantId": "gid://shopify/ProductVariant/58057902948739",
+   "product": "Fumeri Orpheon Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri orpheon (u) edp 100ml",
+   "barcode": "6297001612255",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970878587267",
+   "variantId": "gid://shopify/ProductVariant/58057908224387",
+   "product": "Fumeri Oud Saffron For Men Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri oud & saffron (m) edp 100ml",
+   "barcode": "3700583503420",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970909520259",
+   "variantId": "gid://shopify/ProductVariant/58058313433475",
+   "product": "Fumeri Peach Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri peach (u) edp 100ml",
+   "barcode": "6297001612279",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970913190275",
+   "variantId": "gid://shopify/ProductVariant/58058316710275",
+   "product": "Fumeri Rose Vetiver For Women Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri rose vetiver (w) edp 100ml",
+   "barcode": "3700583503482",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970913550723",
+   "variantId": "gid://shopify/ProductVariant/58058318774659",
+   "product": "Fumeri Smokey Leather Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri smokey leather (u) edp 100ml",
+   "barcode": "3700583503413",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970914009475",
+   "variantId": "gid://shopify/ProductVariant/58058320773507",
+   "product": "Fumeri Style 33 Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri style 33 (u) edp 100ml",
+   "barcode": "6297001612248",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970914369923",
+   "variantId": "gid://shopify/ProductVariant/58058323493251",
+   "product": "Fumeri Victorious For Men Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri victorious (m) edp 100ml",
+   "barcode": "3700583503437",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15970918957443",
+   "variantId": "gid://shopify/ProductVariant/58058328605059",
+   "product": "Fumeri Wild Unisex Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "fumeri wild (u) edp 100ml",
+   "barcode": "6297001612286",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466571139",
+   "variantId": "gid://shopify/ProductVariant/63200352338307",
+   "product": "Fun & Basics Be Fun Man Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "fun & basics- be fun men edt, 100 ml",
+   "barcode": "8432167010035",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466603907",
+   "variantId": "gid://shopify/ProductVariant/63200352371075",
+   "product": "Fun & Basics Be Fun Women Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "fun & basics- be fun women edt, 100 ml",
+   "barcode": "8432167010042",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466636675",
+   "variantId": "gid://shopify/ProductVariant/63200352403843",
+   "product": "Fun & Basics Funtastic Man Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "fun & basics- funtastic men edp 100 ml",
+   "barcode": "8432167010011",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466669443",
+   "variantId": "gid://shopify/ProductVariant/63200352436611",
+   "product": "Fun & Basics Funtastic Woman Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "fun & basics- funtastic women edp 100 ml",
+   "barcode": "8432167010028",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16326984532355",
+   "variantId": "gid://shopify/ProductVariant/62636699287939",
+   "product": "Giorgio Armani Code Eau de Toilette 125ml Refillable – Men’s Woody Aromatic Fragrance",
+   "option": null,
+   "supplier_row": "giorgio armani code (m) edt 125ml refillable",
+   "barcode": "3614273636513",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16383629885827",
+   "variantId": "gid://shopify/ProductVariant/62817567310211",
+   "product": "Givenchy Amarige Eau de Toilette 100ml – Women’s Floral Fragrance",
+   "option": null,
+   "supplier_row": "givenchy amarige (w) edt 100ml",
+   "barcode": "3274878122561",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133327747",
+   "variantId": "gid://shopify/ProductVariant/63254826484099",
+   "product": "Grès Cabotine Rose Eau de Toilette & Body Lotion Gift Set 100ml + 200ml",
+   "option": null,
+   "supplier_row": "gres cabotine rose edt 100ml+perfumed body lotion 200ml",
+   "barcode": "7640171193489",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133262211",
+   "variantId": "gid://shopify/ProductVariant/63254825140611",
+   "product": "Grès Cabotine Turquoise Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "gres cabotine turquoise edp 100ml",
+   "barcode": "7640473481116",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303298478467",
+   "variantId": "gid://shopify/ProductVariant/62573364216195",
+   "product": "Gucci Flora Gorgeous Miniature Perfume Set 3x5ml – Gardenia, Magnolia & Orchid",
+   "option": null,
+   "supplier_row": "gucci flora gorgeous (w) mini set edp 3x5ml (gardenia+magnolia+orchid)",
+   "barcode": "3616305447692",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303139422595",
+   "variantId": "gid://shopify/ProductVariant/62572673106307",
+   "product": "Gucci Women’s Miniature Perfume Set 4x5ml – Bloom EDP & Flora Gorgeous Gardenia EDP",
+   "option": null,
+   "supplier_row": "gucci (w) mini set edp 2 x 5ml (bloom edp) + 2 x 5ml (flora gorgeous gardenia edp)",
+   "barcode": "3616303465223",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318152475011",
+   "variantId": "gid://shopify/ProductVariant/62627297591683",
+   "product": "Guerlain Habit Rouge Eau de Parfum 100ml – Luxury Men’s Amber Woody Fragrance",
+   "option": null,
+   "supplier_row": "guerlain habit rouge (m) edp 100ml",
+   "barcode": "3346470304840",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318439391619",
+   "variantId": "gid://shopify/ProductVariant/62627623469443",
+   "product": "Guerlain La Petite Robe Noire Ma Robe Cocktail Eau de Toilette 100ml – Women’s Fruity Floral Fragrance",
+   "option": null,
+   "supplier_row": "guerlain la petite robe noire ma robe cocktail (w) edt 100ml",
+   "barcode": "3346470114746",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16319503794563",
+   "variantId": "gid://shopify/ProductVariant/62628700782979",
+   "product": "Guerlain L’Instant de Guerlain Eau de Parfum 75ml – Luxury Women’s Floral Amber Fragrance",
+   "option": null,
+   "supplier_row": "guerlain l'instant de guerlain (w) edp 75ml",
+   "barcode": "3346470143197",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16322184544643",
+   "variantId": "gid://shopify/ProductVariant/62631466369411",
+   "product": "Guerlain Musc Noble Eau de Parfum 125ml – Luxury Unisex Musky Woody Fragrance",
+   "option": null,
+   "supplier_row": "guerlain musc noble (u) edp 125ml",
+   "barcode": "3346470135079",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16322576187779",
+   "variantId": "gid://shopify/ProductVariant/62631872692611",
+   "product": "Guerlain Oud Essentiel Eau de Parfum 125ml – Luxury Unisex Oud Woody Fragrance",
+   "option": null,
+   "supplier_row": "guerlain oud essentiel (u) edp 125ml",
+   "barcode": "3346470132245",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16322980217219",
+   "variantId": "gid://shopify/ProductVariant/62632281899395",
+   "product": "Guerlain Samsara Eau de Parfum 75ml – Luxury Women’s Floral Woody Longlasting Fragrance",
+   "option": null,
+   "supplier_row": "guerlain samsara (w) edp 75ml",
+   "barcode": "3346470143166",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318106370435",
+   "variantId": "gid://shopify/ProductVariant/62626850177411",
+   "product": "Guerlain Épices Exquises Eau de Parfum 125ml – Luxury Unisex Spicy Woody Fragrance",
+   "option": null,
+   "supplier_row": "guerlain epices exquises (u) edp 125ml",
+   "barcode": "3346470142220",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448188291",
+   "variantId": "gid://shopify/ProductVariant/63200318095747",
+   "product": "Guess 1981 Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess 1981 (w) 250ml body mist",
+   "barcode": "085715321572",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448221059",
+   "variantId": "gid://shopify/ProductVariant/63200318128515",
+   "product": "Guess 1981 Indigo Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess 1981 indigo (w) 250ml body mist",
+   "barcode": "085715322005",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448253827",
+   "variantId": "gid://shopify/ProductVariant/63200318161283",
+   "product": "Guess 1981 Los Angeles Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess 1981 los angeles (w)250ml body mist",
+   "barcode": "085715322258",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448319363",
+   "variantId": "gid://shopify/ProductVariant/63200318226819",
+   "product": "Guess Amore Venezia Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "guess amore venezia (u) edt 100ml",
+   "barcode": "085715323606",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449695619",
+   "variantId": "gid://shopify/ProductVariant/63200320749955",
+   "product": "Guess Bella Vita Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess bella vita (w) 250ml body mist",
+   "barcode": "085715323057",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449728387",
+   "variantId": "gid://shopify/ProductVariant/63200320782723",
+   "product": "Guess Bella Vita Rosa Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess bella vita rosa (w) 250ml body mist",
+   "barcode": "085715326553",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449761155",
+   "variantId": "gid://shopify/ProductVariant/63200320815491",
+   "product": "Guess Bella Vita Rosa Shimmer Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess bella vita rosa shimmer (w) 250ml body mist",
+   "barcode": "085715326584",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421448384899",
+   "variantId": "gid://shopify/ProductVariant/63200318292355",
+   "product": "Guess Bella Vita Shimmer Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess bella vita  shimmer (w) 250ml body mist",
+   "barcode": "085715002440",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449793923",
+   "variantId": "gid://shopify/ProductVariant/63200320848259",
+   "product": "Guess Dare Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "guess dare (w) edt 100ml",
+   "barcode": "085715320919",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451039107",
+   "variantId": "gid://shopify/ProductVariant/63200322814339",
+   "product": "Guess Girl Belle Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess girl belle (w) 250ml body mist",
+   "barcode": "085715321442",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451071875",
+   "variantId": "gid://shopify/ProductVariant/63200322847107",
+   "product": "Guess Girl Belle Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "guess girl belle (w) edt 100ml",
+   "barcode": "085715321411",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421449826691",
+   "variantId": "gid://shopify/ProductVariant/63200320881027",
+   "product": "Guess Girl Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess girl (w) 250ml body mist",
+   "barcode": "085715320858",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451170179",
+   "variantId": "gid://shopify/ProductVariant/63200323109251",
+   "product": "Guess Ibiza Radiant Shimmer Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess ibiza radiant shimmer (w) 250ml body mist",
+   "barcode": "085715327116",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451202947",
+   "variantId": "gid://shopify/ProductVariant/63200323142019",
+   "product": "Guess Love Nirvana Dream Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess love nirvana dream (w) 250ml body mist",
+   "barcode": "085715326942",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451858307",
+   "variantId": "gid://shopify/ProductVariant/63200324223363",
+   "product": "Guess Love Passion Kiss Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess love passion kiss (w) 250ml body mist",
+   "barcode": "085715326904",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451891075",
+   "variantId": "gid://shopify/ProductVariant/63200324256131",
+   "product": "Guess Love Romantic Blush Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess love romantic blush (w) 250ml body mist",
+   "barcode": "085715326911",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451923843",
+   "variantId": "gid://shopify/ProductVariant/63200324288899",
+   "product": "Guess Love Sheer Attraction Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess love sheer attraction (w) 250ml body mist",
+   "barcode": "085715326935",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421451989379",
+   "variantId": "gid://shopify/ProductVariant/63200324354435",
+   "product": "Guess Love Sunkissed Flirtation Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess love sunkissed flirtation(w) 250ml body mist",
+   "barcode": "085715326928",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452022147",
+   "variantId": "gid://shopify/ProductVariant/63200324387203",
+   "product": "Guess Miami Vibes Shimmer Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess miami ribes shimmer (w) 250ml body mist",
+   "barcode": "085715327123",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452939651",
+   "variantId": "gid://shopify/ProductVariant/63200325927299",
+   "product": "Guess Mykonos Breeze Shimmer Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess mykonos breeze shimmer (w)250ml body mist",
+   "barcode": "085715327130",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452972419",
+   "variantId": "gid://shopify/ProductVariant/63200325960067",
+   "product": "Guess Pink Body Mist",
+   "option": "125ml",
+   "supplier_row": "guess pink (w) 125ml body mist",
+   "barcode": "085715323521",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421452972419",
+   "variantId": "gid://shopify/ProductVariant/63200325992835",
+   "product": "Guess Pink Body Mist",
+   "option": "250ml",
+   "supplier_row": "guess pink (w) 250ml body mist",
+   "barcode": "085715320568",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453005187",
+   "variantId": "gid://shopify/ProductVariant/63200326025603",
+   "product": "Guess Pink Eau de Parfum Gift Set 75ml + 15ml + 100ml",
+   "option": null,
+   "supplier_row": "guess pink (w) set edp 75ml + edp 15ml + bl 100ml + pouch (2023)",
+   "barcode": "085715329844",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421454774659",
+   "variantId": "gid://shopify/ProductVariant/63200332546435",
+   "product": "Guess Seductive Blue Fragrance Mist",
+   "option": "125ml",
+   "supplier_row": "guess seductive blue (w) 125ml fragrance mist",
+   "barcode": "085715324344",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421454774659",
+   "variantId": "gid://shopify/ProductVariant/63200332579203",
+   "product": "Guess Seductive Blue Fragrance Mist",
+   "option": "250ml",
+   "supplier_row": "guess seductive blue (w) 250ml fragrance mist",
+   "barcode": "085715324290",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453103491",
+   "variantId": "gid://shopify/ProductVariant/63200326123907",
+   "product": "Guess Seductive Body Mist",
+   "option": "125ml",
+   "supplier_row": "guess seductive (w) 125ml body mist",
+   "barcode": "085715323101",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453103491",
+   "variantId": "gid://shopify/ProductVariant/63200326156675",
+   "product": "Guess Seductive Body Mist",
+   "option": "250ml",
+   "supplier_row": "guess seductive (w) 250ml body mist",
+   "barcode": "085715320162",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421453169027",
+   "variantId": "gid://shopify/ProductVariant/63200326287747",
+   "product": "Guess Seductive Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "guess seductive (w) edt 75ml",
+   "barcode": "085715320117",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421447532931",
+   "variantId": "gid://shopify/ProductVariant/63200317112707",
+   "product": "Guess Seductive Eau de Toilette Gift Set (Seductive, Noir, Red, Blue) 4 x 15ml",
+   "option": null,
+   "supplier_row": "guess (w) mini set edt 4 x 15ml (seductive + seductive noir + seductive red + seductive blue)",
+   "barcode": "085715330130",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421454840195",
+   "variantId": "gid://shopify/ProductVariant/63200332710275",
+   "product": "Guess Seductive Homme Noir Gift Set 100ml + 170g",
+   "option": null,
+   "supplier_row": "guess seductive homme noir (m) set edt 100ml + sg 100ml + body spray 170g + pouch",
+   "barcode": "085715329431",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421454905731",
+   "variantId": "gid://shopify/ProductVariant/63200332775811",
+   "product": "Guess Seductive Homme Red Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "guess seductive homme red (m) edt 100ml",
+   "barcode": "085715321732",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421454971267",
+   "variantId": "gid://shopify/ProductVariant/63200332906883",
+   "product": "Guess Seductive Noir Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess seductive noir (w) 250ml body mist",
+   "barcode": "085715320261",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421455036803",
+   "variantId": "gid://shopify/ProductVariant/63200332972419",
+   "product": "Guess Seductive Noir Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "guess seductive noir (w) edt 75ml",
+   "barcode": "085715320216",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456019843",
+   "variantId": "gid://shopify/ProductVariant/63200334414211",
+   "product": "Guess Seductive Noir Eau de Toilette Gift Set 75ml + 100ml + 15ml",
+   "option": null,
+   "supplier_row": "guess seductive noir (w) set edt 75ml + bl 100ml + edt 15ml + pouch",
+   "barcode": "085715329417",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456052611",
+   "variantId": "gid://shopify/ProductVariant/63200334446979",
+   "product": "Guess Seductive Red Body Mist",
+   "option": "125ml",
+   "supplier_row": "guess seductive red (w) 125ml body mist",
+   "barcode": "085715322487",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456052611",
+   "variantId": "gid://shopify/ProductVariant/63200334479747",
+   "product": "Guess Seductive Red Body Mist",
+   "option": "250ml",
+   "supplier_row": "guess seductive red(w) 250ml body mist",
+   "barcode": "085715322432",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456085379",
+   "variantId": "gid://shopify/ProductVariant/63200334512515",
+   "product": "Guess Seductive Red Eau de Toilette 75ml",
+   "option": null,
+   "supplier_row": "guess seductive red (w) edt 75ml",
+   "barcode": "085715322401",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456150915",
+   "variantId": "gid://shopify/ProductVariant/63200334643587",
+   "product": "Guess Sexy Skin Metallique Champagne Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin metallique champange (w) 250ml body mist",
+   "barcode": "085715327062",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421456183683",
+   "variantId": "gid://shopify/ProductVariant/63200334676355",
+   "product": "Guess Sexy Skin Metallique Martini Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin metallique martini (w) 250ml body mist",
+   "barcode": "085715327086",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457396099",
+   "variantId": "gid://shopify/ProductVariant/63200336445827",
+   "product": "Guess Sexy Skin Metallique Mojito Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin metallique mojito (w) 250ml body mist",
+   "barcode": "085715327079",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457428867",
+   "variantId": "gid://shopify/ProductVariant/63200336478595",
+   "product": "Guess Sexy Skin Metallique Rose Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin metallique rose(w) 250ml body mist",
+   "barcode": "085715327055",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457494403",
+   "variantId": "gid://shopify/ProductVariant/63200336544131",
+   "product": "Guess Sexy Skin Solar Warmth Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin solar warmth(w) 250ml body mist",
+   "barcode": "085715326973",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457527171",
+   "variantId": "gid://shopify/ProductVariant/63200336576899",
+   "product": "Guess Sexy Skin Sweet Sugar Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin sweet sugar (w) 250ml body mist",
+   "barcode": "085715326966",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457559939",
+   "variantId": "gid://shopify/ProductVariant/63200336609667",
+   "product": "Guess Sexy Skin Tropical Breeze Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin tropical breeze (w) 250ml body mist",
+   "barcode": "085715326959",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421457658243",
+   "variantId": "gid://shopify/ProductVariant/63200336773507",
+   "product": "Guess Sexy Skin Wild Flower Body Mist 250ml",
+   "option": null,
+   "supplier_row": "guess sexy skin wild flower (w) 250ml body mist",
+   "barcode": "085715327048",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421460935043",
+   "variantId": "gid://shopify/ProductVariant/63200343753091",
+   "product": "Guess Uomo Gift Set 100ml + 170g",
+   "option": null,
+   "supplier_row": "guess uomo (m) set edt 100ml + sg 100ml + body spray 170g + pouch",
+   "barcode": "085715330079",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16008223392131",
+   "variantId": "gid://shopify/ProductVariant/58184214905219",
+   "product": "Hermès Un Jardin Sur Le Toit Eau de Toilette 15ml Miniature Unisex Fragrance",
+   "option": null,
+   "supplier_row": "hermes un jardin sur le toit (u) edt 15ml miniature",
+   "barcode": "3346132401177",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16008217756035",
+   "variantId": "gid://shopify/ProductVariant/58184170471811",
+   "product": "Hermès Un Jardin en Méditerranée EDT 15ml Miniature Unisex Fragrance",
+   "option": null,
+   "supplier_row": "hermes un jardin en mediterranee (u) edt 15ml miniature",
+   "barcode": "3346131290413",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16383655215491",
+   "variantId": "gid://shopify/ProductVariant/62817646674307",
+   "product": "Hollister Festival Vibes for Him Eau de Toilette 100ml – Men’s Aromatic Fougere Fragrance",
+   "option": null,
+   "supplier_row": "hollister festival vibes for him (m) edt 100ml",
+   "barcode": "085715268518",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16366786609539",
+   "variantId": "gid://shopify/ProductVariant/62748671508867",
+   "product": "Hugo Boss BOSS The Scent Eau de Toilette 100ml Tester – Men’s Warm Spicy Fragrance",
+   "option": null,
+   "supplier_row": "hugo boss boss the scent (m) edt 100ml tester",
+   "barcode": "737052972428",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16008254030211",
+   "variantId": "gid://shopify/ProductVariant/58184337195395",
+   "product": "Hugo Boss Bottled Eau de Parfum 200ml for Men",
+   "option": null,
+   "supplier_row": "hugo boss boss bottled (m) edp 200ml",
+   "barcode": "3614229828542",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16008257175939",
+   "variantId": "gid://shopify/ProductVariant/58184346534275",
+   "product": "Hugo Boss HUGO Man Eau de Toilette 125ml for Men",
+   "option": null,
+   "supplier_row": "hugo boss hugo man (m) edt 125ml (new packing)",
+   "barcode": "3614229823806",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16008256422275",
+   "variantId": "gid://shopify/ProductVariant/58184341619075",
+   "product": "Hugo Boss The Collection Confident Oud Eau de Parfum Intense 100ml for Men",
+   "option": null,
+   "supplier_row": "hugo boss boss the collection confident oud (m) edp intense 100ml",
+   "barcode": "3614229824742",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421460967811",
+   "variantId": "gid://shopify/ProductVariant/63200343785859",
+   "product": "Inaaya Amal Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya amal edp 100ml",
+   "barcode": "6295151500859",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461033347",
+   "variantId": "gid://shopify/ProductVariant/63200343916931",
+   "product": "Inaaya Ghali Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya ghali edp 100ml",
+   "barcode": "6295151500781",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461066115",
+   "variantId": "gid://shopify/ProductVariant/63200343949699",
+   "product": "Inaaya Jasim Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya jasim edp 100ml",
+   "barcode": "6295151500774",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461164419",
+   "variantId": "gid://shopify/ProductVariant/63200344048003",
+   "product": "Inaaya Nawaal Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya nawaal edp 100ml",
+   "barcode": "6295151500842",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462016387",
+   "variantId": "gid://shopify/ProductVariant/63200345457027",
+   "product": "Inaaya Sameer Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya sameer edp 100ml",
+   "barcode": "6295151500835",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462049155",
+   "variantId": "gid://shopify/ProductVariant/63200345489795",
+   "product": "Inaaya Shajah Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "inaaya shajah edp 100ml",
+   "barcode": "6295151500811",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133360515",
+   "variantId": "gid://shopify/ProductVariant/63254826516867",
+   "product": "Issey Miyake A Drop d'Issey Eau de Parfum Fraîche 90ml",
+   "option": null,
+   "supplier_row": "issey miyake a drop d'issey (w) edp fraiche 90ml",
+   "barcode": "3423222048204",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133557123",
+   "variantId": "gid://shopify/ProductVariant/63254827565443",
+   "product": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense",
+   "option": "100ml",
+   "supplier_row": "issey miyake l'eau d'issey eau & magnolia intense (w) edt 100ml",
+   "barcode": "3423222048020",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133557123",
+   "variantId": "gid://shopify/ProductVariant/63254827532675",
+   "product": "Issey Miyake L'Eau d'Issey Eau & Magnolia Eau de Toilette Intense",
+   "option": "50ml",
+   "supplier_row": "issey miyake l'eau d'issey eau & magnolia intense (w) edt 50ml",
+   "barcode": "3423222048013",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133491587",
+   "variantId": "gid://shopify/ProductVariant/63254827073923",
+   "product": "Issey Miyake L'Eau d'Issey Eau de Toilette 50ml",
+   "option": null,
+   "supplier_row": "issey miyake l'eau d'issey (w) edt 50ml",
+   "barcode": "3423470300154",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133622659",
+   "variantId": "gid://shopify/ProductVariant/63254827860355",
+   "product": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette",
+   "option": "75ml",
+   "supplier_row": "issey miyake l'eau d'issey pour homme (m) edt 75ml",
+   "barcode": "3423470311358",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133622659",
+   "variantId": "gid://shopify/ProductVariant/63254827893123",
+   "product": "Issey Miyake L'Eau d'Issey Pour Homme Eau de Toilette",
+   "option": "125ml",
+   "supplier_row": "issey miyake l'eau d'issey pour homme edt 125ml",
+   "barcode": "3423470311365",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133655427",
+   "variantId": "gid://shopify/ProductVariant/63254828155267",
+   "product": "Issey Miyake L'Eau d'Issey Pour Homme Wood & Wood Eau de Parfum Intense",
+   "option": "100ml",
+   "supplier_row": "issey miyake l'eau d'issey pour homme wood&wood (m) edp intense 100ml",
+   "barcode": "3423478509351",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133655427",
+   "variantId": "gid://shopify/ProductVariant/63254828122499",
+   "product": "Issey Miyake L'Eau d'Issey Pour Homme Wood & Wood Eau de Parfum Intense",
+   "option": "50ml",
+   "supplier_row": "issey miyake l'eau d'issey pour homme wood&wood (m) edp intense 50ml",
+   "barcode": "3423478509757",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133720963",
+   "variantId": "gid://shopify/ProductVariant/63254829007235",
+   "product": "Issey Miyake L'Eau d'Issey Pure Pétale de Nectar Eau de Toilette 90ml",
+   "option": null,
+   "supplier_row": "issey miyake l'eau d'issey pure petale de nectar (w) edt 90ml",
+   "barcode": "3423478782655",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431138931075",
+   "variantId": "gid://shopify/ProductVariant/63254876225923",
+   "product": "Issey Miyake L'Eau d'Issey Rose & Rose Eau de Parfum Intense 90ml",
+   "option": null,
+   "supplier_row": "issey miyake l'eau d'issey rose&rose (w) edp intense 90ml",
+   "barcode": "3423478516052",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431133426051",
+   "variantId": "gid://shopify/ProductVariant/63254827041155",
+   "product": "Issey Miyake Le Sel d'Issey Eau de Toilette 10ml",
+   "option": null,
+   "supplier_row": "issey miyake le sel d'issey (m) edt 10ml miniature",
+   "barcode": "3423222106386",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462081923",
+   "variantId": "gid://shopify/ProductVariant/63200345522563",
+   "product": "Jaguar Classic Eau de Toilette & Shower Gel Gift Set 100ml + 200ml",
+   "option": null,
+   "supplier_row": "jaguar classic bath set edt 100ml+bath & shower gel 200ml",
+   "barcode": "7640171192987",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462114691",
+   "variantId": "gid://shopify/ProductVariant/63200345555331",
+   "product": "Jaguar Classic Gold Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "jaguar classic gold 100ml edt",
+   "barcode": "7640111493723",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421462147459",
+   "variantId": "gid://shopify/ProductVariant/63200345588099",
+   "product": "Jaguar Classic Motion Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "jaguar classic motion edt 100ml",
+   "barcode": "7640111505310",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463130499",
+   "variantId": "gid://shopify/ProductVariant/63200347095427",
+   "product": "Jaguar Classic Red Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "jaguar classic red edt 100 ml",
+   "barcode": "7640111493693",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463163267",
+   "variantId": "gid://shopify/ProductVariant/63200347128195",
+   "product": "Jaguar Ultimate Power Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "jaguar for men ultimate power edt 100ml",
+   "barcode": "7640171193069",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16362307158403",
+   "variantId": "gid://shopify/ProductVariant/62737603461507",
+   "product": "John Varvatos Artisan Eau de Toilette 75ml – Men’s Citrus Woody Long lasting Fragrance",
+   "option": null,
+   "supplier_row": "john varvatos artisan (m) edt 75ml",
+   "barcode": "873824001191",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16383847432579",
+   "variantId": "gid://shopify/ProductVariant/62823075643779",
+   "product": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – Women’s Floral Fruity Fragrance",
+   "option": "100ml",
+   "supplier_row": "juicy couture viva la juicy rose (w) edp 100ml",
+   "barcode": "719346628365",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16383847432579",
+   "variantId": "gid://shopify/ProductVariant/62823075676547",
+   "product": "Juicy Couture Viva La Juicy Rosé Eau de Parfum – Women’s Floral Fruity Fragrance",
+   "option": "50ml",
+   "supplier_row": "juicy couture viva la juicy rose (w) edp 50ml",
+   "barcode": "719346628372",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15974748127619",
+   "variantId": "gid://shopify/ProductVariant/58072097816963",
+   "product": "Korloff Cuir Mythique Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "korloff cuir mythique edp 100ml",
+   "barcode": "3760251870322",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15974753010051",
+   "variantId": "gid://shopify/ProductVariant/58072105550211",
+   "product": "Korloff In Love Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "korloff in love 100ml edp +black pouch",
+   "barcode": "3392865430922",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15974984024451",
+   "variantId": "gid://shopify/ProductVariant/58072960270723",
+   "product": "Korloff Lady Intense Eau De Parfum 88ML",
+   "option": null,
+   "supplier_row": "korloff lady intense 88ml edp",
+   "barcode": "3760251870124",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15974997361027",
+   "variantId": "gid://shopify/ProductVariant/58072982651267",
+   "product": "Korloff Paris Discovery Set Eau De Parfum 3x10ML",
+   "option": null,
+   "supplier_row": "korloff paris discovery set edp 3x10ml",
+   "barcode": "3760251877659",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15975005716867",
+   "variantId": "gid://shopify/ProductVariant/58072993923459",
+   "product": "Korloff Royal Rose Eau De Parfum 88ML",
+   "option": null,
+   "supplier_row": "korloff royal rose edp 88ml",
+   "barcode": "3760251878212",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15975014564227",
+   "variantId": "gid://shopify/ProductVariant/58073002836355",
+   "product": "Korloff Un Soir À Paris Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "korloff un soir a paris (love in paris) 100ml edp",
+   "barcode": "3392865441461",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431138963843",
+   "variantId": "gid://shopify/ProductVariant/63254876291459",
+   "product": "Lacoste L'Homme Lacoste Deodorant Stick 70g",
+   "option": null,
+   "supplier_row": "lacoste l'homme lacoste (m) 70g deodorant stick",
+   "barcode": "8005610521534",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431139094915",
+   "variantId": "gid://shopify/ProductVariant/63254876553603",
+   "product": "Lalique Amethyst Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique amethyst (w) 100ml edp",
+   "barcode": "3454960023284",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431139193219",
+   "variantId": "gid://shopify/ProductVariant/63254876946819",
+   "product": "Lalique Amethyst Éclat Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique amethyst eclat 100ml edp",
+   "barcode": "7640111501466",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431139389827",
+   "variantId": "gid://shopify/ProductVariant/63254878388611",
+   "product": "Lalique L'Amour Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique l'amour edp 100ml",
+   "barcode": "7640111499060",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431139488131",
+   "variantId": "gid://shopify/ProductVariant/63254878880131",
+   "product": "Lalique L'Insoumis Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "lalique l'insoumis edt 100ml",
+   "barcode": "7640111503187",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431139586435",
+   "variantId": "gid://shopify/ProductVariant/63254879764867",
+   "product": "Lalique Lion Eau de Parfum 125ml",
+   "option": null,
+   "supplier_row": "lalique lion edp 125ml",
+   "barcode": "3454960007468",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141618051",
+   "variantId": "gid://shopify/ProductVariant/63254889857411",
+   "product": "Lalique Noir Premier Or Intemporel 1888 Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique noir premier or intemporel 1888 edp 100ml",
+   "barcode": "7640111502678",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141650819",
+   "variantId": "gid://shopify/ProductVariant/63254889890179",
+   "product": "Lalique Perles Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique perles 100ml edp",
+   "barcode": "3454960021679",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141683587",
+   "variantId": "gid://shopify/ProductVariant/63254889922947",
+   "product": "Lalique Satine Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lalique satine 100ml edp",
+   "barcode": "7640111498544",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141716355",
+   "variantId": "gid://shopify/ProductVariant/63254889955715",
+   "product": "Lalique White Eau de Toilette 125ml",
+   "option": null,
+   "supplier_row": "lalique white edt 125ml",
+   "barcode": "3454960024021",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385123156355",
+   "variantId": "gid://shopify/ProductVariant/62821874499971",
+   "product": "Lancôme Idôle Nectar Eau de Parfum 25ml – Women’s Floral Gourmand Fragrance",
+   "option": null,
+   "supplier_row": "lancome idole nectar l'eau de parfum edp 25ml",
+   "barcode": "3614273749428",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141749123",
+   "variantId": "gid://shopify/ProductVariant/63254889988483",
+   "product": "Lanvin Mon Éclat Eau de Parfum Mini with Pouch 7.5ml",
+   "option": null,
+   "supplier_row": "lanvin mini pouch+mon eclat edp 7.5ml spray",
+   "barcode": "3386460138048",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463196035",
+   "variantId": "gid://shopify/ProductVariant/63200347160963",
+   "product": "Lattafa Khamrah Qahwa Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lattafa khamrah qahwa (u) edp 100ml",
+   "barcode": "6290360593661",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463294339",
+   "variantId": "gid://shopify/ProductVariant/63200347259267",
+   "product": "Lattafa Maahir Black Edition Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lattafa maahir black edition (u) edp 100ml",
+   "barcode": "6291108730362",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421463359875",
+   "variantId": "gid://shopify/ProductVariant/63200347390339",
+   "product": "Lattafa Teriaq Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lattafa teriaq (u) edp 100ml",
+   "barcode": "6290360595764",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464146307",
+   "variantId": "gid://shopify/ProductVariant/63200348701059",
+   "product": "Lattafa Yara Candy Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "lattafa yara candy (w) edp 100ml",
+   "barcode": "6290360599168",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464179075",
+   "variantId": "gid://shopify/ProductVariant/63200348733827",
+   "product": "Maison Alhambra Athena Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra athena (u) edp 100ml",
+   "barcode": "6290360599243",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464211843",
+   "variantId": "gid://shopify/ProductVariant/63200348766595",
+   "product": "Maison Alhambra Baroque la Rouge Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra baroque la rouge (u) edp 100ml (new packing)",
+   "barcode": "6291107459141",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464244611",
+   "variantId": "gid://shopify/ProductVariant/63200348799363",
+   "product": "Maison Alhambra Baroque la Rouge Extreme Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra baroque la rouge extreme (u) edp 100ml (new packing)",
+   "barcode": "6291108736067",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421464277379",
+   "variantId": "gid://shopify/ProductVariant/63200348832131",
+   "product": "Maison Alhambra Como Moiselle Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra como moiselle (w) edp 100ml",
+   "barcode": "6291108730089",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465227651",
+   "variantId": "gid://shopify/ProductVariant/63200350404995",
+   "product": "Maison Alhambra Coral Blush Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "maison alhambra coral blush(m) edp 80ml",
+   "barcode": "6290362343189",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465293187",
+   "variantId": "gid://shopify/ProductVariant/63200350470531",
+   "product": "Maison Alhambra Galatea Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra galatea (u) edp 100ml",
+   "barcode": "6291107459226",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465325955",
+   "variantId": "gid://shopify/ProductVariant/63200350503299",
+   "product": "Maison Alhambra Infini Rose Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra infini rose (u) edp 100ml",
+   "barcode": "6291108735435",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465358723",
+   "variantId": "gid://shopify/ProductVariant/63200350536067",
+   "product": "Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra jean lowe fraiche (m) edp 100ml (new packing)",
+   "barcode": "6291108735565",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421465391491",
+   "variantId": "gid://shopify/ProductVariant/63200350568835",
+   "product": "Maison Alhambra Jean Lowe Matiere Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra jean lowe matiere (u) edp 100ml",
+   "barcode": "6291108735558",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466374531",
+   "variantId": "gid://shopify/ProductVariant/63200352141699",
+   "product": "Maison Alhambra Karat Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra karat (u) edp 100ml",
+   "barcode": "6291107459240",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466407299",
+   "variantId": "gid://shopify/ProductVariant/63200352174467",
+   "product": "Maison Alhambra Leonie (Libbra) Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra leonie   edp 100ml (libbra)",
+   "barcode": "6291108730195",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466440067",
+   "variantId": "gid://shopify/ProductVariant/63200352207235",
+   "product": "Maison Alhambra Love Spark Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "maison alhambra love spark (u) edp 80ml",
+   "barcode": "6290360599175",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466472835",
+   "variantId": "gid://shopify/ProductVariant/63200352240003",
+   "product": "Maison Alhambra Narissa Ambre Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra narissa ambre (w) edp 100ml",
+   "barcode": "6290360590738",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466538371",
+   "variantId": "gid://shopify/ProductVariant/63200352305539",
+   "product": "Maison Alhambra Narissa Ruby Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra narissa ruby (u) edp 100ml",
+   "barcode": "6291108730232",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467259267",
+   "variantId": "gid://shopify/ProductVariant/63200353878403",
+   "product": "Maison Alhambra Pacific Blue (Porto Neroli) Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "maison alhambra pacific blue edp 80ml (porto neroli)",
+   "barcode": "6290362343196",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467292035",
+   "variantId": "gid://shopify/ProductVariant/63200353911171",
+   "product": "Maison Alhambra Philos Centro Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra philos centro (u) edp 100ml",
+   "barcode": "6291107459325",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467324803",
+   "variantId": "gid://shopify/ProductVariant/63200353943939",
+   "product": "Maison Alhambra Philos Opus Noir Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra philos opus noir (u) edp 100ml",
+   "barcode": "6291107459332",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467390339",
+   "variantId": "gid://shopify/ProductVariant/63200354107779",
+   "product": "Maison Alhambra Philos Pura Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra philos pura (u) edp 100ml",
+   "barcode": "6291107459349",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467455875",
+   "variantId": "gid://shopify/ProductVariant/63200354140547",
+   "product": "Maison Alhambra Philos Rosso Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra philos rosso (u) edp 100ml",
+   "barcode": "6291107459356",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468668291",
+   "variantId": "gid://shopify/ProductVariant/63200356303235",
+   "product": "Maison Alhambra Pink Shimmer Secret Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra pink shimmer secret edp 100ml",
+   "barcode": "6291108730263",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468701059",
+   "variantId": "gid://shopify/ProductVariant/63200356336003",
+   "product": "Maison Alhambra Pink Shimmer Secret Intense Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra pink shimmer secret intense edp 100ml",
+   "barcode": "6291108737033",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468733827",
+   "variantId": "gid://shopify/ProductVariant/63200356368771",
+   "product": "Maison Alhambra Pink Velvet (Rose Petals) Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "maison alhambra pink velvet edp 80ml (rose petals)",
+   "barcode": "6290362343226",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468766595",
+   "variantId": "gid://shopify/ProductVariant/63200356401539",
+   "product": "Maison Alhambra Rose Seduction Vip Pour Femme Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra rose seduction vip pour femme edp 100ml",
+   "barcode": "6291108735893",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468799363",
+   "variantId": "gid://shopify/ProductVariant/63200356434307",
+   "product": "Maison Alhambra Salvo Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "maison alhambra salvo (m) edp 100ml",
+   "barcode": "6291107459363",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16378603340163",
+   "variantId": "gid://shopify/ProductVariant/62798582907267",
+   "product": "Marc Jacobs Honey Eau de Parfum 100ml – Women’s Floral Fruity Fragrance",
+   "option": null,
+   "supplier_row": "marc jacobs honey 100ml edp (new pack)",
+   "barcode": "3616304940804",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469651331",
+   "variantId": "gid://shopify/ProductVariant/63200357810563",
+   "product": "Mercedes-Benz Club Black Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "mercedes benz club black (m) edp 100ml",
+   "barcode": "3595471036292",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469684099",
+   "variantId": "gid://shopify/ProductVariant/63200357843331",
+   "product": "Mercedes-Benz Club Black Eau de Toilette & Shower Gel Gift Set 100ml",
+   "option": null,
+   "supplier_row": "mercedes benz club black (m) set edt 100ml + shower gel 100ml (tin box)",
+   "barcode": "3595471025999",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469716867",
+   "variantId": "gid://shopify/ProductVariant/63200357876099",
+   "product": "Mercedes-Benz Intense Eau de Toilette 120ml",
+   "option": null,
+   "supplier_row": "mercedes benz intense (m) edt 120ml",
+   "barcode": "3595471024787",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469749635",
+   "variantId": "gid://shopify/ProductVariant/63200357908867",
+   "product": "Mercedes-Benz Le Parfum 120ml",
+   "option": null,
+   "supplier_row": "mercedes benz le parfum (m) edp 120ml",
+   "barcode": "3595471024800",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421470929283",
+   "variantId": "gid://shopify/ProductVariant/63200359842179",
+   "product": "Mercedes-Benz Man Private Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "mercedes benz man private (m) edp 100ml",
+   "barcode": "3595471061096",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421470962051",
+   "variantId": "gid://shopify/ProductVariant/63200359874947",
+   "product": "Mercedes-Benz Trio Nomade Eau de Parfum Set (Land, Sea & Air) 3 x 30ml",
+   "option": null,
+   "supplier_row": "mercedes benz multiline trio nomade (m) set edp 3 x 30ml (land  + sea + air) in leather case",
+   "barcode": "3595471027047",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141781891",
+   "variantId": "gid://shopify/ProductVariant/63254890021251",
+   "product": "Michael Kors Pour Femme Eau de Parfum Miniature 5ml",
+   "option": null,
+   "supplier_row": "michael kors pour femme edp 5ml miniature",
+   "barcode": "850049716376",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141814659",
+   "variantId": "gid://shopify/ProductVariant/63254890054019",
+   "product": "Michael Kors Pour Homme Eau de Parfum Miniature 5ml",
+   "option": null,
+   "supplier_row": "michael kors pour homme edp 5ml miniature",
+   "barcode": "850049716246",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16274978406787",
+   "variantId": "gid://shopify/ProductVariant/62484680442243",
+   "product": "Miss Dior Eau de Parfum Roller-Pearl 20ml for Women",
+   "option": null,
+   "supplier_row": "dior miss dior roller pearl edp 20ml",
+   "barcode": "3348901627276",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15974987006339",
+   "variantId": "gid://shopify/ProductVariant/58072971248003",
+   "product": "Miss Korloff Eau De Parfum 88ML",
+   "option": null,
+   "supplier_row": "korloff miss korloff 88ml new",
+   "barcode": "3760251871862",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141847427",
+   "variantId": "gid://shopify/ProductVariant/63254890086787",
+   "product": "Moschino I Love Love Eau de Toilette Miniature 4.9ml",
+   "option": null,
+   "supplier_row": "moschino i love love (w) edt 4.9ml miniature",
+   "barcode": "8011003992225",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141880195",
+   "variantId": "gid://shopify/ProductVariant/63254890152323",
+   "product": "Moschino Toy Boy Eau de Parfum",
+   "option": "100ml",
+   "supplier_row": "moschino toy boy (m) edp 100ml",
+   "barcode": "8011003845132",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141880195",
+   "variantId": "gid://shopify/ProductVariant/63254890119555",
+   "product": "Moschino Toy Boy Eau de Parfum",
+   "option": "5ml",
+   "supplier_row": "moschino toy boy (m) edp 5ml miniature",
+   "barcode": "8011003845187",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141912963",
+   "variantId": "gid://shopify/ProductVariant/63254890185091",
+   "product": "Mugler Alien Eau de Parfum Refillable",
+   "option": "30ml",
+   "supplier_row": "mugler alien 30ml edp refillable",
+   "barcode": "3439600056914",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431141912963",
+   "variantId": "gid://shopify/ProductVariant/63254890217859",
+   "product": "Mugler Alien Eau de Parfum Refillable",
+   "option": "90ml",
+   "supplier_row": "mugler alien 90ml edp refillable",
+   "barcode": "3439600056969",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142175107",
+   "variantId": "gid://shopify/ProductVariant/63254892872067",
+   "product": "Mugler Alien Goddess Eau de Parfum Gift Set 30ml + 10ml",
+   "option": null,
+   "supplier_row": "mugler alien goddess edp 30ml+edp 10ml giftset",
+   "barcode": "3614273951036",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142142339",
+   "variantId": "gid://shopify/ProductVariant/63254892839299",
+   "product": "Mugler Alien Goddess Supra Florale Eau de Parfum",
+   "option": "90ml",
+   "supplier_row": "mugler alien goddess (w) edp supra florale 90ml",
+   "barcode": "3614273927932",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142142339",
+   "variantId": "gid://shopify/ProductVariant/63254892773763",
+   "product": "Mugler Alien Goddess Supra Florale Eau de Parfum",
+   "option": "10ml",
+   "supplier_row": "mugler alien goddess supra florale edp 10ml",
+   "barcode": "3614273927963",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142142339",
+   "variantId": "gid://shopify/ProductVariant/63254892806531",
+   "product": "Mugler Alien Goddess Supra Florale Eau de Parfum",
+   "option": "60ml",
+   "supplier_row": "mugler alien goddess supra florale edp 60 ml",
+   "barcode": "3614273927925",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142240643",
+   "variantId": "gid://shopify/ProductVariant/63254892937603",
+   "product": "Mugler Alien Man Eau de Toilette & Body Shampoo Travel Set 100ml + 50ml",
+   "option": null,
+   "supplier_row": "mugler alien man (m) edt 100ml refillable + body shampoo 50ml travel set",
+   "barcode": "3439600039559",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142273411",
+   "variantId": "gid://shopify/ProductVariant/63254892970371",
+   "product": "Mugler Angel Eau de Parfum 25ml",
+   "option": null,
+   "supplier_row": "mugler angel edp vapo 25 ml",
+   "barcode": "3439600203097",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142306179",
+   "variantId": "gid://shopify/ProductVariant/63254893035907",
+   "product": "Mugler Angel Elixir Eau de Parfum Refillable Star",
+   "option": "100ml",
+   "supplier_row": "mugler angel elixir refillable star (w) edp 100ml",
+   "barcode": "3614273764926",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142306179",
+   "variantId": "gid://shopify/ProductVariant/63254893003139",
+   "product": "Mugler Angel Elixir Eau de Parfum Refillable Star",
+   "option": "50ml",
+   "supplier_row": "mugler angel elixir refillable star (w) edp 50ml",
+   "barcode": "3614273764933",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142338947",
+   "variantId": "gid://shopify/ProductVariant/63254893068675",
+   "product": "Mugler Angel Nova Eau de Toilette 50ml",
+   "option": null,
+   "supplier_row": "mugler angel nova (w) edt 50ml",
+   "barcode": "3614273527750",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142371715",
+   "variantId": "gid://shopify/ProductVariant/63254893101443",
+   "product": "Mugler Cologne Blow It Up Eau de Toilette 10ml",
+   "option": null,
+   "supplier_row": "mugler cologne blow it up (u) edt 10ml miniature",
+   "barcode": "3439600043426",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142404483",
+   "variantId": "gid://shopify/ProductVariant/63254893134211",
+   "product": "Mugler Cologne Fly Away Eau de Toilette 10ml",
+   "option": null,
+   "supplier_row": "mugler cologne fly away (u) edt 10ml miniature",
+   "barcode": "3439600037951",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142437251",
+   "variantId": "gid://shopify/ProductVariant/63254893166979",
+   "product": "Mugler Cologne Heal Your Mind Eau de Toilette 10ml",
+   "option": null,
+   "supplier_row": "mugler cologne heal your mind (m) edt 10ml miniature",
+   "barcode": "3439600043419",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431142470019",
+   "variantId": "gid://shopify/ProductVariant/63254893199747",
+   "product": "Mugler Cologne Love You All Eau de Toilette 10ml",
+   "option": null,
+   "supplier_row": "mugler cologne love you all (u) edt 10ml miniature",
+   "barcode": "3439600037968",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144108419",
+   "variantId": "gid://shopify/ProductVariant/63254900081027",
+   "product": "Mugler Les Exceptions Mystic Aromatic Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "mugler les exceptions mystic aromatic edp 80 ml",
+   "barcode": "3439600050110",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144173955",
+   "variantId": "gid://shopify/ProductVariant/63254900605315",
+   "product": "Mugler Les Exceptions Wonder Bouquet Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "mugler les exceptions wonder bouquet (u) edp 80ml",
+   "barcode": "3439600019612",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144239491",
+   "variantId": "gid://shopify/ProductVariant/63254900703619",
+   "product": "Narciso Rodriguez All of Me Eau de Parfum 90ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez all of me (w) edp 90ml",
+   "barcode": "3423222080969",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144337795",
+   "variantId": "gid://shopify/ProductVariant/63254900932995",
+   "product": "Narciso Rodriguez For Him Bleu Noir Eau de Toilette 50ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez for him bleu noir (m) edt 50ml",
+   "barcode": "3423478805958",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144370563",
+   "variantId": "gid://shopify/ProductVariant/63254900965763",
+   "product": "Narciso Rodriguez Musc Noir For Her Eau de Parfum",
+   "option": "10ml",
+   "supplier_row": "narciso rodriguez musc noir for her (w) edp 10ml purse spray",
+   "barcode": "3423222012755",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144370563",
+   "variantId": "gid://shopify/ProductVariant/63254900998531",
+   "product": "Narciso Rodriguez Musc Noir For Her Eau de Parfum",
+   "option": "50ml",
+   "supplier_row": "narciso rodriguez musc noir for her (w) edp 50ml",
+   "barcode": "3423222012687",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144403331",
+   "variantId": "gid://shopify/ProductVariant/63254901031299",
+   "product": "Narciso Rodriguez Musc Noir Rose For Her Eau de Parfum 10ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez musc noir rose for her (w) edp 10ml purse spray",
+   "barcode": "3423222055585",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144436099",
+   "variantId": "gid://shopify/ProductVariant/63254901064067",
+   "product": "Narciso Rodriguez Narciso Ambrée Eau de Parfum 10ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez narciso ambree (w) edp 10ml purse spray",
+   "barcode": "3423473054511",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431144468867",
+   "variantId": "gid://shopify/ProductVariant/63254901096835",
+   "product": "Narciso Rodriguez Narciso Cristal Eau de Parfum 10ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez narciso cristal (w) edp 10ml purse spray",
+   "barcode": "3423222057084",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526150531",
+   "variantId": "gid://shopify/ProductVariant/63257658753411",
+   "product": "Narciso Rodriguez Pure Musc For Her Eau de Parfum 10ml",
+   "option": null,
+   "supplier_row": "narciso rodriguez pure musc for her (w) edp 10ml purse spray",
+   "barcode": "3423478507210",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421466702211",
+   "variantId": "gid://shopify/ProductVariant/63200352469379",
+   "product": "Natural By Woods Bloom Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods bloom 100 + 5 ml edp",
+   "barcode": "3760294350621",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467488643",
+   "variantId": "gid://shopify/ProductVariant/63200354173315",
+   "product": "Natural By Woods Dawn Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods dawn 100 + 5 ml atomizer edp",
+   "barcode": "3760294350614",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467521411",
+   "variantId": "gid://shopify/ProductVariant/63200354206083",
+   "product": "Natural By Woods Discovery Set",
+   "option": null,
+   "supplier_row": "natural by woods discovery set",
+   "barcode": "3760415040134",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467586947",
+   "variantId": "gid://shopify/ProductVariant/63200354271619",
+   "product": "Natural By Woods Dusk Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods dusk 100 + 5 ml edp",
+   "barcode": "3760294350669",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467619715",
+   "variantId": "gid://shopify/ProductVariant/63200354304387",
+   "product": "Natural By Woods Earth Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods earth 100 + 5 ml atomizer edp",
+   "barcode": "3760294351796",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421467652483",
+   "variantId": "gid://shopify/ProductVariant/63200354337155",
+   "product": "Natural By Woods Eclipse Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods eclipse 100ml+5ml edp",
+   "barcode": "3760294351390",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468897667",
+   "variantId": "gid://shopify/ProductVariant/63200356532611",
+   "product": "Natural By Woods Essence Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods essence 100 + 5 ml atomizer edp",
+   "barcode": "3760294350881",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468930435",
+   "variantId": "gid://shopify/ProductVariant/63200356598147",
+   "product": "Natural By Woods Flame Eau de Parfum with Travel Atomiser 100ml + 15ml",
+   "option": null,
+   "supplier_row": "natural by woods flame 100+15ml",
+   "barcode": "3760294351178",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421468995971",
+   "variantId": "gid://shopify/ProductVariant/63200356630915",
+   "product": "Natural By Woods Glow Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods glow 100 + 5 ml atomizer edp",
+   "barcode": "3760294350638",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469061507",
+   "variantId": "gid://shopify/ProductVariant/63200356761987",
+   "product": "Natural By Woods Karma Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods karma 100 ml + 5 ml atomizer edp",
+   "barcode": "3760294350508",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469094275",
+   "variantId": "gid://shopify/ProductVariant/63200356794755",
+   "product": "Natural By Woods North Star Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods north star 100 + 5 ml edp",
+   "barcode": "3760294351215",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469782403",
+   "variantId": "gid://shopify/ProductVariant/63200357941635",
+   "product": "Natural By Woods Royal Night Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods royal night 100 + 5 ml edp",
+   "barcode": "3760294350652",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469815171",
+   "variantId": "gid://shopify/ProductVariant/63200357974403",
+   "product": "Natural By Woods Sun Eau de Parfum with Travel Atomiser 100ml + 5ml",
+   "option": null,
+   "supplier_row": "natural by woods sun 100 + 5 ml atomizer edp",
+   "barcode": "3760294351772",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385316848003",
+   "variantId": "gid://shopify/ProductVariant/62822853378435",
+   "product": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance",
+   "option": "100ml",
+   "supplier_row": "nina ricci l'air du temps (w) edt 100ml",
+   "barcode": "3137370207016",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385316848003",
+   "variantId": "gid://shopify/ProductVariant/62822853411203",
+   "product": "Nina Ricci L'Air du Temps Eau de Toilette– Women’s Floral Fragrance",
+   "option": "30ml",
+   "supplier_row": "nina riccil'air du temps (w) edt 30ml",
+   "barcode": "3137370072744",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421469847939",
+   "variantId": "gid://shopify/ProductVariant/63200358007171",
+   "product": "Notebook Cassis & Pink Pepper Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "notebook cassis & pink pepper (w) edt 100ml",
+   "barcode": "8004995638349",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526281603",
+   "variantId": "gid://shopify/ProductVariant/63257659670915",
+   "product": "Paco Rabanne 1 Million Eau de Toilette 200ml",
+   "option": null,
+   "supplier_row": "paco rabanne 1 million edt 200ml",
+   "barcode": "3349668566372",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526543747",
+   "variantId": "gid://shopify/ProductVariant/63257661112707",
+   "product": "Paco Rabanne Fame Eau de Parfum & Parfum Mini Set 4ml + 4ml",
+   "option": null,
+   "supplier_row": "paco rabanne fame giftset edp splash 4ml+ parfum splash 4ml",
+   "barcode": "3349668634804",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526478211",
+   "variantId": "gid://shopify/ProductVariant/63257660653955",
+   "product": "Paco Rabanne Fame Eau de Parfum Gift Set 50ml + 10ml",
+   "option": null,
+   "supplier_row": "paco rabanne fame giftset edp 50ml+edp 10ml",
+   "barcode": "3349668628520",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526412675",
+   "variantId": "gid://shopify/ProductVariant/63257660195203",
+   "product": "Paco Rabanne Fame Eau de Parfum Intense 30ml",
+   "option": null,
+   "supplier_row": "paco rabanne fame edp intense spray 30ml",
+   "barcode": "3349668630127",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526347139",
+   "variantId": "gid://shopify/ProductVariant/63257659736451",
+   "product": "Paco Rabanne Fame Eau de Parfum Refillable 80ml",
+   "option": null,
+   "supplier_row": "paco rabanne fame (w)edp 80ml refillable",
+   "barcode": "3349668594412",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526609283",
+   "variantId": "gid://shopify/ProductVariant/63257661571459",
+   "product": "Paco Rabanne Fame Parfum 10ml",
+   "option": null,
+   "supplier_row": "paco rabanne fame parfum 10ml",
+   "barcode": "3349668624454",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528116611",
+   "variantId": "gid://shopify/ProductVariant/63257672319363",
+   "product": "Paco Rabanne Invictus Eau de Toilette & Deodorant Gift Set 100ml + 150ml + 10ml",
+   "option": null,
+   "supplier_row": "paco rabanne invictus giftset edt spray 100ml+deo spray 150ml+edt spray 10ml",
+   "barcode": "3349668666829",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526740355",
+   "variantId": "gid://shopify/ProductVariant/63257662488963",
+   "product": "Paco Rabanne Invictus Eau de Toilette 200ml",
+   "option": null,
+   "supplier_row": "paco rabanne invictus (m) edt 200ml",
+   "barcode": "3349668589678",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528051075",
+   "variantId": "gid://shopify/ProductVariant/63257672253827",
+   "product": "Paco Rabanne Invictus Eau de Toilette Gift Set 200ml + 10ml",
+   "option": null,
+   "supplier_row": "paco rabanne invictus giftset edt 200ml+edt 10ml",
+   "barcode": "3349668642717",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528149379",
+   "variantId": "gid://shopify/ProductVariant/63257672483203",
+   "product": "Paco Rabanne Invictus Victory Eau de Parfum Extrême 100ml",
+   "option": null,
+   "supplier_row": "Paco Rabanne invictus victory parfum extreme edp 100ml",
+   "barcode": "3349668588732",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528214915",
+   "variantId": "gid://shopify/ProductVariant/63257672515971",
+   "product": "Paco Rabanne Lady Million Eau de Parfum 15ml",
+   "option": null,
+   "supplier_row": "paco rabanne lady million (w) edp spray 15ml",
+   "barcode": "3349668622252",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528247683",
+   "variantId": "gid://shopify/ProductVariant/63257672548739",
+   "product": "Paco Rabanne Lady Million Royal Eau de Parfum 30ml",
+   "option": null,
+   "supplier_row": "paco rabanne lady million royal (w) edp spray 30ml",
+   "barcode": "3349668617159",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528313219",
+   "variantId": "gid://shopify/ProductVariant/63257672614275",
+   "product": "Paco Rabanne Men's Miniature Eau de Toilette Set (1 Million, Invictus, Phantom) 3 x 4ml",
+   "option": null,
+   "supplier_row": "paco rabanne miniature set edt 3x4ml(1 million+invictus+phantom) for men",
+   "barcode": "3349668625321",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528280451",
+   "variantId": "gid://shopify/ProductVariant/63257672581507",
+   "product": "Paco Rabanne Men's Miniature Set (Phantom, Invictus, 1 Million Elixir, 1 Million) 4 x 5ml",
+   "option": null,
+   "supplier_row": "paco rabanne miniature set 4x5ml (phantom+invictus+1million elixir+1 million)",
+   "barcode": "3349668630820",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431528345987",
+   "variantId": "gid://shopify/ProductVariant/63257672647043",
+   "product": "Paco Rabanne Olympéa Flora Eau de Parfum Intense 80ml",
+   "option": null,
+   "supplier_row": "paco rabanne olympea flora (w) edp intense 80ml",
+   "barcode": "3349668614479",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529034115",
+   "variantId": "gid://shopify/ProductVariant/63257678053763",
+   "product": "Paco Rabanne Phantom Parfum Spray 15ml",
+   "option": null,
+   "supplier_row": "paco rabanne phantom parfum 15ml",
+   "barcode": "3349668624461",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529066883",
+   "variantId": "gid://shopify/ProductVariant/63257678086531",
+   "product": "Paco Rabanne Ultraviolet Eau de Parfum 80ml",
+   "option": null,
+   "supplier_row": "paco rabanne ultraviolet (w) edp 80ml",
+   "barcode": "3349666010532",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431526216067",
+   "variantId": "gid://shopify/ProductVariant/63257659212163",
+   "product": "Paco Rabanne Women's Miniature Set (Lady Million, Olympéa, Fame) 5ml + 6ml + 4ml + 4ml",
+   "option": null,
+   "supplier_row": "paco rabanne (w) mini set (lady million edp 5ml+olympea edp 6ml+fame edp 4ml+fame Parfum 4ml)",
+   "barcode": "3349668630813",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385267958147",
+   "variantId": "gid://shopify/ProductVariant/62822600835459",
+   "product": "Paloma Picasso Eau de Toilette 100ml – Women’s Chypre Floral Fragrance",
+   "option": null,
+   "supplier_row": "paloma picasso (w) edt 100ml",
+   "barcode": "3360373054749",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529263491",
+   "variantId": "gid://shopify/ProductVariant/63257678479747",
+   "product": "Ralph Lauren Polo Blue Eau de Toilette Refillable 75ml",
+   "option": null,
+   "supplier_row": "ralph lauren polo blue (m) edt 75ml refillable",
+   "barcode": "3360377022911",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529197955",
+   "variantId": "gid://shopify/ProductVariant/63257678283139",
+   "product": "Ralph Lauren Polo Cologne Intense 59ml",
+   "option": null,
+   "supplier_row": "ralph lauren polo (m) cologne intense 59ml",
+   "barcode": "3605972454652",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529296259",
+   "variantId": "gid://shopify/ProductVariant/63257678512515",
+   "product": "Ralph Lauren Polo Red Eau de Toilette Refillable 125ml",
+   "option": null,
+   "supplier_row": "ralph lauren polo red (m) edt 125ml refillable",
+   "barcode": "3605970416003",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529329027",
+   "variantId": "gid://shopify/ProductVariant/63257678545283",
+   "product": "Ralph Lauren Polo Red Parfum 75ml",
+   "option": null,
+   "supplier_row": "ralph lauren polo red parfum 75ml",
+   "barcode": "3605972768957",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421470994819",
+   "variantId": "gid://shopify/ProductVariant/63200359907715",
+   "product": "Rasasi Hawas Elixir Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "rasasi hawas elixir (m) edp 100ml",
+   "barcode": "614514331057",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529787779",
+   "variantId": "gid://shopify/ProductVariant/63257679757699",
+   "product": "Roberto Cavalli Florence Eau de Parfum",
+   "option": "50ml",
+   "supplier_row": "roberto cavalli florence (w) edp 50ml",
+   "barcode": "8052464896998",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529787779",
+   "variantId": "gid://shopify/ProductVariant/63257679790467",
+   "product": "Roberto Cavalli Florence Eau de Parfum",
+   "option": "75ml",
+   "supplier_row": "roberto cavalli florence (w) edp 75ml",
+   "barcode": "8052464896905",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529820547",
+   "variantId": "gid://shopify/ProductVariant/63257679823235",
+   "product": "Roberto Cavalli Gold Collection Bloodiris Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "roberto cavalli gold collection bloodiris (u) edp 100ml",
+   "barcode": "3616302038909",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529886083",
+   "variantId": "gid://shopify/ProductVariant/63257680019843",
+   "product": "Roberto Cavalli Just Cavalli Eau de Toilette for Her 30ml",
+   "option": null,
+   "supplier_row": "roberto cavalli just cavalli (w) edt 30ml",
+   "barcode": "3607346236505",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529951619",
+   "variantId": "gid://shopify/ProductVariant/63257680085379",
+   "product": "Roberto Cavalli Paradiso Assoluto Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "roberto cavalli paradiso assoluto (w) edp 100ml",
+   "barcode": "3616303445232",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529918851",
+   "variantId": "gid://shopify/ProductVariant/63257680052611",
+   "product": "Roberto Cavalli Paradiso Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "roberto cavalli paradiso (w) edp 100ml",
+   "barcode": "3616303445188",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529984387",
+   "variantId": "gid://shopify/ProductVariant/63257680118147",
+   "product": "Roberto Cavalli Uomo Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "roberto cavalli uomo (m) edt 100ml",
+   "barcode": "8052464897032",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431530017155",
+   "variantId": "gid://shopify/ProductVariant/63257680150915",
+   "product": "Roberto Cavalli Uomo Parfum 100ml",
+   "option": null,
+   "supplier_row": "roberto cavalli uomo (m) parfum 100ml",
+   "barcode": "3616303445287",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431530049923",
+   "variantId": "gid://shopify/ProductVariant/63257680183683",
+   "product": "Rochas Girl Life Eau de Parfum 40ml",
+   "option": null,
+   "supplier_row": "rochas girl life edp 40ml spray",
+   "barcode": "3386460137379",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15975001915779",
+   "variantId": "gid://shopify/ProductVariant/58072986648963",
+   "product": "Royal Oud Korloff Paris Eau De Parfum 88ML",
+   "option": null,
+   "supplier_row": "korloff paris royal oud 88ml edp",
+   "barcode": "3760251870179",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431530082691",
+   "variantId": "gid://shopify/ProductVariant/63257680216451",
+   "product": "Salvatore Ferragamo Bright Leather Eau de Toilette Gift Set 100ml + 10ml + 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo ferragamo bright leather (m) set edt 100ml + edt 10ml + sg 100ml",
+   "barcode": "8052464892518",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676359043",
+   "variantId": "gid://shopify/ProductVariant/63258917142915",
+   "product": "Salvatore Ferragamo Incanto Shine Eau de Toilette 50ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo incanto shine (w) edt 50ml",
+   "barcode": "8052464891597",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676260739",
+   "variantId": "gid://shopify/ProductVariant/63258916422019",
+   "product": "Salvatore Ferragamo Intense Leather Eau de Parfum Gift Set 100ml + 10ml + 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo ferragamo intense leather (m) set edp 100ml + edp 10ml + shampoo & sg 100ml",
+   "barcode": "8052464892501",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676424579",
+   "variantId": "gid://shopify/ProductVariant/63258917568899",
+   "product": "Salvatore Ferragamo Pour Femme Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo pour femme edp 100ml",
+   "barcode": "646875422525",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676457347",
+   "variantId": "gid://shopify/ProductVariant/63258917601667",
+   "product": "Salvatore Ferragamo Signorina Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo signorina (w) edt 100ml",
+   "barcode": "8034097954429",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676522883",
+   "variantId": "gid://shopify/ProductVariant/63258917896579",
+   "product": "Salvatore Ferragamo Signorina Eleganza Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo signorina eleganza (w) edp 100ml",
+   "barcode": "8052464891504",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676588419",
+   "variantId": "gid://shopify/ProductVariant/63258918158723",
+   "product": "Salvatore Ferragamo Signorina In Fiore Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo signorina in fiore (w) edt 100ml",
+   "barcode": "8034097959899",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676621187",
+   "variantId": "gid://shopify/ProductVariant/63258918257027",
+   "product": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum",
+   "option": "100ml",
+   "supplier_row": "salvatore ferragamo signorina ribelle (w) edp 100ml",
+   "barcode": "8052086377240",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676621187",
+   "variantId": "gid://shopify/ProductVariant/63258918191491",
+   "product": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum",
+   "option": "10ml",
+   "supplier_row": "salvatore ferragamo signorina ribelle (w) edp 10ml purse spray",
+   "barcode": "8052086377349",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676621187",
+   "variantId": "gid://shopify/ProductVariant/63258918224259",
+   "product": "Salvatore Ferragamo Signorina Ribelle Eau de Parfum",
+   "option": "20ml",
+   "supplier_row": "salvatore ferragamo signorina ribelle (w) edp 20ml",
+   "barcode": "8052086378421",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676686723",
+   "variantId": "gid://shopify/ProductVariant/63258918551939",
+   "product": "Salvatore Ferragamo Tuscan Creations Arte Orafa Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations arte orafa (u) edp 100ml",
+   "barcode": "8052464890989",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676752259",
+   "variantId": "gid://shopify/ProductVariant/63258919010691",
+   "product": "Salvatore Ferragamo Tuscan Creations Bianco di Carrara Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations bianco di carrara (u) edp 100ml",
+   "barcode": "8052086375154",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431676785027",
+   "variantId": "gid://shopify/ProductVariant/63258919043459",
+   "product": "Salvatore Ferragamo Tuscan Creations E Pur Si Muove Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations e pur si muove (u) edp 100ml",
+   "barcode": "8052464891009",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680684419",
+   "variantId": "gid://shopify/ProductVariant/63258947944835",
+   "product": "Salvatore Ferragamo Tuscan Creations Gentil Suono Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations gentil suono (u) edp 100ml",
+   "barcode": "8052086378087",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680749955",
+   "variantId": "gid://shopify/ProductVariant/63258948501891",
+   "product": "Salvatore Ferragamo Tuscan Creations La Commedia Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations la commedia (u) edp 100ml",
+   "barcode": "8052086375215",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680782723",
+   "variantId": "gid://shopify/ProductVariant/63258948534659",
+   "product": "Salvatore Ferragamo Tuscan Creations La Corte Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations la corte (u) edp 100ml",
+   "barcode": "8052086375192",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680848259",
+   "variantId": "gid://shopify/ProductVariant/63258949026179",
+   "product": "Salvatore Ferragamo Tuscan Creations Orto delle Spezie Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations orto delle spezie (u) edp 100ml",
+   "barcode": "8052464890996",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680881027",
+   "variantId": "gid://shopify/ProductVariant/63258949058947",
+   "product": "Salvatore Ferragamo Tuscan Creations Punta Ala Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations punta ala (u) edp 100ml",
+   "barcode": "8052086375178",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431680946563",
+   "variantId": "gid://shopify/ProductVariant/63258949583235",
+   "product": "Salvatore Ferragamo Tuscan Creations Rinascimento Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations rinascimento (u) edp 100ml",
+   "barcode": "8052086375239",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431681012099",
+   "variantId": "gid://shopify/ProductVariant/63258949681539",
+   "product": "Salvatore Ferragamo Tuscan Creations Terra Rossa Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations terra rossa (u) edp 100ml",
+   "barcode": "8052086375222",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431681077635",
+   "variantId": "gid://shopify/ProductVariant/63258950271363",
+   "product": "Salvatore Ferragamo Tuscan Creations Vendemmia Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations vendemmia (u) edp 100ml",
+   "barcode": "8052086375208",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431681110403",
+   "variantId": "gid://shopify/ProductVariant/63258950304131",
+   "product": "Salvatore Ferragamo Tuscan Creations Viola Essenziale Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo tuscan creations viola essenziale (u) edp 100ml",
+   "barcode": "8052086375185",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431681175939",
+   "variantId": "gid://shopify/ProductVariant/63258950664579",
+   "product": "Salvatore Ferragamo Uomo Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "salvatore ferragamo uomo (m) edt 100ml",
+   "barcode": "8052086371804",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16337075536259",
+   "variantId": "gid://shopify/ProductVariant/62652628107651",
+   "product": "Serge Lutens La Fille de Berlin Eau de Parfum 50ml – Luxury Unisex Rose Fragrance",
+   "option": null,
+   "supplier_row": "serge lutens la fille de berlin (u) edp 50ml",
+   "barcode": "3700358123389",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981326696835",
+   "variantId": "gid://shopify/ProductVariant/58100384399747",
+   "product": "Signature Ambre Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "option": null,
+   "supplier_row": "signature ambre 100 ml + 15 ml + funnel - signature",
+   "barcode": "3760294350188",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981345440131",
+   "variantId": "gid://shopify/ProductVariant/58100399669635",
+   "product": "Signature Aura EDP 100ML+15ML Refillable Travel Spray",
+   "option": null,
+   "supplier_row": "signature aura 100 ml  + 15ml + funnel",
+   "barcode": "3760415040158",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981348356483",
+   "variantId": "gid://shopify/ProductVariant/58100420706691",
+   "product": "Signature Black Pour Homme 100ml EDP",
+   "option": null,
+   "supplier_row": "signature homme 100 ml edp/black",
+   "barcode": "7806723188635",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981338886531",
+   "variantId": "gid://shopify/ProductVariant/58100393378179",
+   "product": "Signature Blue 100ml Edp",
+   "option": null,
+   "supplier_row": "signature blue unisex",
+   "barcode": "6300020182484",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981331546499",
+   "variantId": "gid://shopify/ProductVariant/58100386857347",
+   "product": "Signature Charm EDP 100ML+15ML Refillable Travel Spray",
+   "option": null,
+   "supplier_row": "signature charm 100 ml  + 15ml + funnel",
+   "barcode": "3760415040059",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981347176835",
+   "variantId": "gid://shopify/ProductVariant/58100417233283",
+   "product": "Signature Diamond 100ml +15ml Eau De Parfum Set",
+   "option": null,
+   "supplier_row": "signature diamond 100 ml + 15 ml + funnel - signature",
+   "barcode": "3760294350140",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981355434371",
+   "variantId": "gid://shopify/ProductVariant/58100435747203",
+   "product": "Signature Discovery Set 10x10ml",
+   "option": null,
+   "supplier_row": "signature discovery set 10x10ml",
+   "barcode": "3760294351628",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981340557699",
+   "variantId": "gid://shopify/ProductVariant/58100395573635",
+   "product": "Signature Jade 100ml Edp + 15ml Travel Spray",
+   "option": null,
+   "supplier_row": "signature jade 100 ml  + 15ml + funnel - signature",
+   "barcode": "3760294350102",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981366215043",
+   "variantId": "gid://shopify/ProductVariant/58100459667843",
+   "product": "Signature Le Femme Gold 100ml EDP Spray",
+   "option": null,
+   "supplier_row": "signature le femme gold 100 ml edp",
+   "barcode": "7806723188673",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981349208451",
+   "variantId": "gid://shopify/ProductVariant/58100427129219",
+   "product": "Signature Musk Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "option": null,
+   "supplier_row": "signature musk 100 ml + 15 ml + funnel -",
+   "barcode": "3760294350706",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981337280899",
+   "variantId": "gid://shopify/ProductVariant/58100390822275",
+   "product": "Signature Onyx Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "option": null,
+   "supplier_row": "signature onyx 100ml + 15 ml + funnel - signature",
+   "barcode": "3760294350126",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981339509123",
+   "variantId": "gid://shopify/ProductVariant/58100394590595",
+   "product": "Signature Opal 100ml + 15ml Eau De Parfum",
+   "option": null,
+   "supplier_row": "signature opal 100 ml + 15 ml + funnel - signature",
+   "barcode": "3760294350164",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981332758915",
+   "variantId": "gid://shopify/ProductVariant/58100389446019",
+   "product": "Signature Paradiso EDP 100ML+15ML Refillable Travel Spray",
+   "option": null,
+   "supplier_row": "signature paradiso 100 ml  + 15ml + funnel",
+   "barcode": "3760415040066",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981339246979",
+   "variantId": "gid://shopify/ProductVariant/58100393869699",
+   "product": "Signature Rose 100ml Edp +15ml Travel Spray",
+   "option": null,
+   "supplier_row": "signature rose 100 ml + 15 ml + funnel - signature",
+   "barcode": "3760294350690",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981327810947",
+   "variantId": "gid://shopify/ProductVariant/58100385972611",
+   "product": "Signature Santal Eau De Parfum 100ml+15ml (UNISEX)",
+   "option": null,
+   "supplier_row": "signature santal 100 ml + 15 ml + funnel - signature",
+   "barcode": "3760294351376",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15981333283203",
+   "variantId": "gid://shopify/ProductVariant/58100390101379",
+   "product": "Signature Sapphire Eau De Parfum 100ml+15ml+Funnel (UNISEX)",
+   "option": null,
+   "supplier_row": "signature sapphire 100 ml + 15 ml + funnel -",
+   "barcode": "3760294350201",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529361795",
+   "variantId": "gid://shopify/ProductVariant/63257678578051",
+   "product": "Superdry Real Fragrance 01 Feminin Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "real superdry fragrance 01 feminin edt 100ml",
+   "barcode": "7640171195681",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529394563",
+   "variantId": "gid://shopify/ProductVariant/63257678610819",
+   "product": "Superdry Real Fragrance 02 Feminin Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "real superdry fragrance 02 feminin edt 100ml",
+   "barcode": "7640473481246",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431529755011",
+   "variantId": "gid://shopify/ProductVariant/63257679724931",
+   "product": "Superdry Real Fragrance 02 Masculin Eau de Toilette 100ml",
+   "option": null,
+   "supplier_row": "real superdry fragrance 02 masculin edt 100ml",
+   "barcode": "7640473481208",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421471027587",
+   "variantId": "gid://shopify/ProductVariant/63200359940483",
+   "product": "Swiss Arabian Shaghaf Oud Royale Eau de Parfum 75ml",
+   "option": null,
+   "supplier_row": "swiss arabian shaghaf oud royale (u) edp 75ml",
+   "barcode": "6295124045783",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982691484035",
+   "variantId": "gid://shopify/ProductVariant/58104345133443",
+   "product": "The Woods Collection Azure Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "azure - 100ml - woods collection",
+   "barcode": "3760294351239",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982757478787",
+   "variantId": "gid://shopify/ProductVariant/58104540529027",
+   "product": "The Woods Collection Eden Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "eden - 100 ml - woods collection",
+   "barcode": "3760294350546",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982752563587",
+   "variantId": "gid://shopify/ProductVariant/58104518672771",
+   "product": "The Woods Collection Elysian Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "the woods collection elysian edp 100ml",
+   "barcode": "3760415040011",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982736540035",
+   "variantId": "gid://shopify/ProductVariant/58104439865731",
+   "product": "The Woods Collection Green Walk Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "green walk - 100 ml - woods collection",
+   "barcode": "3760294350539",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982747025795",
+   "variantId": "gid://shopify/ProductVariant/58104459231619",
+   "product": "The Woods Collection Mirage Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "mirage - 100ml - woods collection",
+   "barcode": "3760294351260",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982750695811",
+   "variantId": "gid://shopify/ProductVariant/58104509792643",
+   "product": "The Woods Collection Pure Shine Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "pure shine - 100 ml - woods collection",
+   "barcode": "3760294350560",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982725333379",
+   "variantId": "gid://shopify/ProductVariant/58104412963203",
+   "product": "The Woods Collection Secret Source Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "secret source - 100 ml - woods collection",
+   "barcode": "3760294350577",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982744469891",
+   "variantId": "gid://shopify/ProductVariant/58104452415875",
+   "product": "The Woods Collection Sunrise Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "sunrise - 100 ml - woods collection",
+   "barcode": "3760294350843",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982704853379",
+   "variantId": "gid://shopify/ProductVariant/58104372986243",
+   "product": "The Woods Collection Timeless Sands Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "timeless sands - 100 ml - woods collection",
+   "barcode": "3760294350584",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982748467587",
+   "variantId": "gid://shopify/ProductVariant/58104468930947",
+   "product": "The Woods Collection Twilight Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "twilight - 100 ml - woods collection",
+   "barcode": "3760294350591",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/15982711472515",
+   "variantId": "gid://shopify/ProductVariant/58104388747651",
+   "product": "The Woods Collection Wild Roses Eau De Parfum 100ML",
+   "option": null,
+   "supplier_row": "wild roses - 100 ml - woods collection",
+   "barcode": "3760294350607",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431683830147",
+   "variantId": "gid://shopify/ProductVariant/63258975109507",
+   "product": "Thomas Kosmala Exsupero Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala exsupero (u) edp 100ml",
+   "barcode": "5060412111058",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684288899",
+   "variantId": "gid://shopify/ProductVariant/63258977108355",
+   "product": "Thomas Kosmala No. 1 A Never Ending Love Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no.1 a never ending love edp 100ml",
+   "barcode": "5060412110549",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431683895683",
+   "variantId": "gid://shopify/ProductVariant/63258975568259",
+   "product": "Thomas Kosmala No. 10 Desire du Coeur Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala n:10 desire du coeur 100 ml edp",
+   "barcode": "5060412110440",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431683961219",
+   "variantId": "gid://shopify/ProductVariant/63258975633795",
+   "product": "Thomas Kosmala No. 10 Desire du Coeur Elixir Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala n:10 desire du coeur elixir 100 ml edp (elixir version)",
+   "barcode": "5060412110815",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684387203",
+   "variantId": "gid://shopify/ProductVariant/63258977796483",
+   "product": "Thomas Kosmala No. 12 Oud Douze Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no:12 oud douze  100 ml edp",
+   "barcode": "5060412111157",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684026755",
+   "variantId": "gid://shopify/ProductVariant/63258975928707",
+   "product": "Thomas Kosmala No. 4 Après l'Amour Parfum & Hair Mist Travel Kit 30ml + 30ml",
+   "option": null,
+   "supplier_row": "thomas kosmala n:4 apres l'amour travel kit parfum & hair mist (30ml+30ml)",
+   "barcode": "5060412110686",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684092291",
+   "variantId": "gid://shopify/ProductVariant/63258976190851",
+   "product": "Thomas Kosmala No. 4 Candy Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no 4 candy 100ml edp",
+   "barcode": "5060412110709",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684125059",
+   "variantId": "gid://shopify/ProductVariant/63258976223619",
+   "product": "Thomas Kosmala No. 4 Neon Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no 4 neon 100ml edp",
+   "barcode": "5060412110716",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684190595",
+   "variantId": "gid://shopify/ProductVariant/63258976616835",
+   "product": "Thomas Kosmala No. 4 Sport Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no 4 sport 100ml edp",
+   "barcode": "5060412110693",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431684256131",
+   "variantId": "gid://shopify/ProductVariant/63258977075587",
+   "product": "Thomas Kosmala No. 9 Bukhoor Elixir de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala no 9 bukhoor elixir de parfum 100ml",
+   "barcode": "5060412110181",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695659395",
+   "variantId": "gid://shopify/ProductVariant/63259038286211",
+   "product": "Thomas Kosmala Star Chaser Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala star chaser (u) edp 100ml",
+   "barcode": "5060412111065",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695692163",
+   "variantId": "gid://shopify/ProductVariant/63259038318979",
+   "product": "Thomas Kosmala Wild Stride Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "thomas kosmala wild stride (u) edp 100ml",
+   "barcode": "5060412111041",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16294245794179",
+   "variantId": "gid://shopify/ProductVariant/62540934152579",
+   "product": "Tom Ford Black Orchid Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tom ford black orchid parfum 100ml",
+   "barcode": "888066112727",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16294254182787",
+   "variantId": "gid://shopify/ProductVariant/62540956402051",
+   "product": "Tom Ford Neroli Portofino Eau de Parfum 50ml Unisex",
+   "option": null,
+   "supplier_row": "tom ford neroli portofino edp 50ml",
+   "barcode": "888066008433",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16294258147715",
+   "variantId": "gid://shopify/ProductVariant/62540977471875",
+   "product": "Tom Ford Noir Extreme Parfum 100ml for Men",
+   "option": null,
+   "supplier_row": "tom ford noir extreme parfum 100ml",
+   "barcode": "888066136921",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16294265553283",
+   "variantId": "gid://shopify/ProductVariant/62541067288963",
+   "product": "Tom Ford Oud Wood Eau de Parfum Unisex",
+   "option": "30 ml",
+   "supplier_row": "tom ford oud wood (u) edp 30ml",
+   "barcode": "888066050685",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16294251495811",
+   "variantId": "gid://shopify/ProductVariant/62540945883523",
+   "product": "Tom Ford Ébène Fumé Eau de Parfum 50ml Unisex",
+   "option": null,
+   "supplier_row": "tom ford ebene fume (u) edp 50ml",
+   "barcode": "888066115308",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421471060355",
+   "variantId": "gid://shopify/ProductVariant/63200359973251",
+   "product": "Tous Touch The Luminous Gold Eau de Toilette 50ml",
+   "option": null,
+   "supplier_row": "tous the luminous gold (w) edt 50ml",
+   "barcode": "8436550505887",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385192788355",
+   "variantId": "gid://shopify/ProductVariant/62822222332291",
+   "product": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance",
+   "option": "100ml",
+   "supplier_row": "trussardi delicate rose (w) edt 100ml",
+   "barcode": "8011530840020",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16385192788355",
+   "variantId": "gid://shopify/ProductVariant/62822222365059",
+   "product": "Trussardi Delicate Rose Eau de Toilette – Women’s Floral Fruity Fragrance",
+   "option": "50ml",
+   "supplier_row": "trussardi delicate rose (w) edt 50ml",
+   "barcode": "8011530840013",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421471125891",
+   "variantId": "gid://shopify/ProductVariant/63200360038787",
+   "product": "Unlimited Attitude Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "unlimited attitude (u) edp 100ml",
+   "barcode": "3700221809242",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461098883",
+   "variantId": "gid://shopify/ProductVariant/63200343982467",
+   "product": "Unlimited Courage Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "unlimited courage (m) edp 100ml",
+   "barcode": "3700221809211",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461197187",
+   "variantId": "gid://shopify/ProductVariant/63200344080771",
+   "product": "Unlimited Desire Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "unlimited desire (m) edp 100ml",
+   "barcode": "3700221809235",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461262723",
+   "variantId": "gid://shopify/ProductVariant/63200344146307",
+   "product": "Unlimited Passion Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "unlimited passion (w) edp 100ml",
+   "barcode": "3700221809228",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16421461295491",
+   "variantId": "gid://shopify/ProductVariant/63200344179075",
+   "product": "Vera Wang Embrace Green Tea and Pear Blossom Eau de Toilette 30ml",
+   "option": null,
+   "supplier_row": "vera wang embrace green tea and pear blossom (w) edt 30ml",
+   "barcode": "3614220847337",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695790467",
+   "variantId": "gid://shopify/ProductVariant/63259038744963",
+   "product": "Versace Dylan Blue Pour Homme Eau de Toilette Miniature 5ml",
+   "option": null,
+   "supplier_row": "versace dylan blue pour homme edt 5ml",
+   "barcode": "8011003825752",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695823235",
+   "variantId": "gid://shopify/ProductVariant/63259038777731",
+   "product": "Versace Eros Eau de Toilette 200ml",
+   "option": null,
+   "supplier_row": "versace eros (m) edt 200ml",
+   "barcode": "8011003813858",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695888771",
+   "variantId": "gid://shopify/ProductVariant/63259039170947",
+   "product": "Versace Eros Parfum",
+   "option": "100ml",
+   "supplier_row": "versace eros (m) parfum 100ml",
+   "barcode": "8011003872077",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695888771",
+   "variantId": "gid://shopify/ProductVariant/63259039203715",
+   "product": "Versace Eros Parfum",
+   "option": "200ml",
+   "supplier_row": "versace eros (m) parfum 200ml",
+   "barcode": "8011003877904",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695921539",
+   "variantId": "gid://shopify/ProductVariant/63259039236483",
+   "product": "Versace Eros Pour Femme Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "versace eros pour femme edp 100ml",
+   "barcode": "8011003823536",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431695987075",
+   "variantId": "gid://shopify/ProductVariant/63259039498627",
+   "product": "Versace Eros Pour Femme Eau de Toilette Miniature 5ml",
+   "option": null,
+   "supplier_row": "versace eros pour femme edt 5ml miniature",
+   "barcode": "8011003827367",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431696019843",
+   "variantId": "gid://shopify/ProductVariant/63259039531395",
+   "product": "Versace Man Eau Fraîche Eau de Toilette Miniature 5ml",
+   "option": null,
+   "supplier_row": "versace man eau fraiche (m) edt 5ml miniature",
+   "barcode": "8018365500129",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16431696085379",
+   "variantId": "gid://shopify/ProductVariant/63259039793539",
+   "product": "Versace Yellow Diamond Eau de Toilette 90ml",
+   "option": null,
+   "supplier_row": "versace yellow diamond (w) edt 90ml",
+   "barcode": "8011003804566",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16006936428931",
+   "variantId": "gid://shopify/ProductVariant/58180223140227",
+   "product": "Yves Saint Laurent Yvresse Eau de Toilette (W) 80ml",
+   "option": null,
+   "supplier_row": "yves saint laurent yvresse (w) edt 80ml",
+   "barcode": "3365440037045",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305050354051",
+   "variantId": "gid://shopify/ProductVariant/62584202461571",
+   "product": "Al Haramain Amber Musk Eau de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "al haramain amber musk (u) edp 100ml",
+   "barcode": "6291100130634",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305137451395",
+   "variantId": "gid://shopify/ProductVariant/62584686444931",
+   "product": "Al Haramain Amber Oud Black Edition Eau de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "al haramain amber oud black edition (u) edp 100ml",
+   "barcode": "6291100132317",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305271734659",
+   "variantId": "gid://shopify/ProductVariant/62585591202179",
+   "product": "Al Haramain Amber Oud Bleu Edition Eau de Parfum Unisex",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud bleu edition (u) edp 60ml",
+   "barcode": "6291100130153",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305271734659",
+   "variantId": "gid://shopify/ProductVariant/62585591234947",
+   "product": "Al Haramain Amber Oud Bleu Edition Eau de Parfum Unisex",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud bleu edition (u) edp 100ml",
+   "barcode": "6291100130146",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305271734659",
+   "variantId": "gid://shopify/ProductVariant/62585591267715",
+   "product": "Al Haramain Amber Oud Bleu Edition Eau de Parfum Unisex",
+   "option": "200ml",
+   "supplier_row": "al haramain amber oud bleu edition (u) edp 200ml",
+   "barcode": "6291106812787",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305337237891",
+   "variantId": "gid://shopify/ProductVariant/62585465536899",
+   "product": "Al Haramain Amber Oud Carbon Edition Eau de Parfum for Men",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud carbon edition (m) edp 60ml",
+   "barcode": "6291100130467",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305337237891",
+   "variantId": "gid://shopify/ProductVariant/62585465569667",
+   "product": "Al Haramain Amber Oud Carbon Edition Eau de Parfum for Men",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud carbon edition (m) edp 100ml",
+   "barcode": "6291100130160",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305337237891",
+   "variantId": "gid://shopify/ProductVariant/62585465602435",
+   "product": "Al Haramain Amber Oud Carbon Edition Eau de Parfum for Men",
+   "option": "200ml",
+   "supplier_row": "al haramain amber oud carbon edition (m) edp 200ml",
+   "barcode": "6291106812589",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305115955587",
+   "variantId": "gid://shopify/ProductVariant/62584563499395",
+   "product": "Al Haramain Amber Oud Eau de Parfum 60ml Unisex",
+   "option": null,
+   "supplier_row": "al haramain amber oud (u) edp 60ml",
+   "barcode": "6291100131709",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305569694083",
+   "variantId": "gid://shopify/ProductVariant/62586891174275",
+   "product": "Al Haramain Amber Oud Extreme Gold Edition Extrait de Parfum Unisex",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud extreme gold edition (u) extrait de parfum 60ml",
+   "barcode": "6291106813050",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16305569694083",
+   "variantId": "gid://shopify/ProductVariant/62586891207043",
+   "product": "Al Haramain Amber Oud Extreme Gold Edition Extrait de Parfum Unisex",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud extreme gold edition (u) extrait de parfum 100ml",
+   "barcode": "6291106813067",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306788008323",
+   "variantId": "gid://shopify/ProductVariant/62592779649411",
+   "product": "Al Haramain Amber Oud Gold Edition Eau de Parfum Unisex",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud gold edition (u) edp 60ml",
+   "barcode": "6291100131716",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306788008323",
+   "variantId": "gid://shopify/ProductVariant/62592779682179",
+   "product": "Al Haramain Amber Oud Gold Edition Eau de Parfum Unisex",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud gold edition (u) edp 100ml",
+   "barcode": "6291100130122",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306788008323",
+   "variantId": "gid://shopify/ProductVariant/62592779714947",
+   "product": "Al Haramain Amber Oud Gold Edition Eau de Parfum Unisex",
+   "option": "200ml",
+   "supplier_row": "al haramain amber oud gold edition (u) edp 200ml",
+   "barcode": "6291100131587",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306908594563",
+   "variantId": "gid://shopify/ProductVariant/62593303544195",
+   "product": "Al Haramain Amber Oud Ruby Edition Eau de Parfum Unisex",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud ruby edition (u) edp 100ml",
+   "barcode": "6291106813036",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306908594563",
+   "variantId": "gid://shopify/ProductVariant/62593303576963",
+   "product": "Al Haramain Amber Oud Ruby Edition Eau de Parfum Unisex",
+   "option": "120ml",
+   "supplier_row": "al haramain amber oud ruby edition (u) edp 120ml",
+   "barcode": "6291100130559",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306908594563",
+   "variantId": "gid://shopify/ProductVariant/62593303609731",
+   "product": "Al Haramain Amber Oud Ruby Edition Eau de Parfum Unisex",
+   "option": "200ml",
+   "supplier_row": "al haramain amber oud ruby edition (u) edp 200ml",
+   "barcode": "6291100131853",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306908594563",
+   "variantId": "gid://shopify/ProductVariant/63200331563395",
+   "product": "Al Haramain Amber Oud Ruby Edition Eau de Parfum Unisex",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud ruby edition (u) edp 60ml",
+   "barcode": "6291106813029",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16306954502531",
+   "variantId": "gid://shopify/ProductVariant/62593481376131",
+   "product": "Al Haramain Amber Oud Tobacco Edition Eau de Parfum 60ml Unisex",
+   "option": null,
+   "supplier_row": "al haramain amber oud tobacco edition (u) edp 60ml",
+   "barcode": "6291100132171",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16316357476739",
+   "variantId": "gid://shopify/ProductVariant/62621097001347",
+   "product": "Al Haramain Amber Oud White Edition Eau de Parfum for Women",
+   "option": "60ml",
+   "supplier_row": "al haramain amber oud white edition (w) edp 60ml",
+   "barcode": "6291100131617",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16316357476739",
+   "variantId": "gid://shopify/ProductVariant/62621097034115",
+   "product": "Al Haramain Amber Oud White Edition Eau de Parfum for Women",
+   "option": "100ml",
+   "supplier_row": "al haramain amber oud white edition (u) edp 100ml",
+   "barcode": "6291100130115",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16316357476739",
+   "variantId": "gid://shopify/ProductVariant/62621097066883",
+   "product": "Al Haramain Amber Oud White Edition Eau de Parfum for Women",
+   "option": "200ml",
+   "supplier_row": "al haramain amber oud white edition (u) edp 200ml",
+   "barcode": "6291100130474",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16316457615747",
+   "variantId": "gid://shopify/ProductVariant/62621502701955",
+   "product": "Al Haramain Detour Noir Eau de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "al haramain detour noir (u) edp 100ml",
+   "barcode": "6291100137275",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318036836739",
+   "variantId": "gid://shopify/ProductVariant/62626521252227",
+   "product": "Al Haramain L’Aventure Blanche Eau de Parfum 100ml for Women",
+   "option": null,
+   "supplier_row": "al haramain l'aventure blanche (m) edp 100ml",
+   "barcode": "6291100136605",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318043685251",
+   "variantId": "gid://shopify/ProductVariant/62626560311683",
+   "product": "Al Haramain L’Aventure Femme Eau de Parfum 100ml",
+   "option": null,
+   "supplier_row": "al haramain l'aventure femme (w) edp 100ml",
+   "barcode": "6291100137565",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318046372227",
+   "variantId": "gid://shopify/ProductVariant/62626569650563",
+   "product": "Al Haramain L’Aventure Gold Eau de Parfum 100ml for Women",
+   "option": null,
+   "supplier_row": "al haramain l'aventure gold (w) edp 100ml",
+   "barcode": "6291100130092",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16318051647875",
+   "variantId": "gid://shopify/ProductVariant/62626578399619",
+   "product": "Al Haramain L’Aventure Intense Eau de Parfum 100ml for Men",
+   "option": null,
+   "supplier_row": "al haramain l'aventure intense (m) edp 100ml",
+   "barcode": "6291100130597",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16269862404483",
+   "variantId": "gid://shopify/ProductVariant/62461649650051",
+   "product": "Tiziana Terenzi Andromeda Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi andromeda extrait de parfum 100ml",
+   "barcode": "8016741632433",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16274590695811",
+   "variantId": "gid://shopify/ProductVariant/62483362677123",
+   "product": "Tiziana Terenzi Borelli Extrait de Parfum Linea TT 100ml Unisex (Comete Collection)",
+   "option": null,
+   "supplier_row": "tiziana terenzi linea tt borelli - comet collection extrait de parfum 100ml",
+   "barcode": "8016741642678",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16267730977155",
+   "variantId": "gid://shopify/ProductVariant/62456367481219",
+   "product": "Tiziana Terenzi Casanova Anniversary Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi 100ml casanova-anniversary extrait de parfum",
+   "barcode": "8016741582554",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16269063553411",
+   "variantId": "gid://shopify/ProductVariant/62458999832963",
+   "product": "Tiziana Terenzi Chimaera Anniversary Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi 100ml chimaera-anniversary extrait de parfum",
+   "barcode": "8016741592553",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16281929843075",
+   "variantId": "gid://shopify/ProductVariant/62522384318851",
+   "product": "Chopard Amber Malaki Eau de Parfum 80ml Unisex",
+   "option": null,
+   "supplier_row": "chopard amber malaki (u) edp 80ml | chopard amber malaki edp 80ml",
+   "barcode": "7640177360106",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16282276069763",
+   "variantId": "gid://shopify/ProductVariant/62523748123011",
+   "product": "Chopard Black Incense Malaki Eau de Parfum 80ml Unisex",
+   "option": null,
+   "supplier_row": "chopard black incense malaki (u) edp 80ml",
+   "barcode": "7640177360366",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16282354745731",
+   "variantId": "gid://shopify/ProductVariant/62524415508867",
+   "product": "Chopard Imperiale Iris Malika Eau de Parfum 100ml for Women",
+   "option": null,
+   "supplier_row": "chopard imperiale iris malika (w) edp 100ml",
+   "barcode": "7640177360731",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16296009793923",
+   "variantId": "gid://shopify/ProductVariant/62546352537987",
+   "product": "Chopard Oud Malaki Eau de Parfum 80ml for Men",
+   "option": null,
+   "supplier_row": "chopard oud malaki (m) edp 80ml",
+   "barcode": "7640177360083",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16271521874307",
+   "variantId": "gid://shopify/ProductVariant/62467819012483",
+   "product": "Tiziana Terenzi Draconis Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi draconis extrait de parfum 100ml",
+   "barcode": "8016741882586",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16271537504643",
+   "variantId": "gid://shopify/ProductVariant/62467865117059",
+   "product": "Tiziana Terenzi Dubhe Assoluto Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi dubhe assoluto extrait de parfum 100ml",
+   "barcode": "8016741602511",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16272506651011",
+   "variantId": "gid://shopify/ProductVariant/62471207911811",
+   "product": "Tiziana Terenzi Ecstasy Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi ecstasy extrait de parfum 100ml",
+   "barcode": "8016741952203",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16273541792131",
+   "variantId": "gid://shopify/ProductVariant/62478724268419",
+   "product": "Tiziana Terenzi Gold Rose Oudh Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi gold rose oudh extrait de parfum 100ml",
+   "barcode": "8016741972249",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303149285763",
+   "variantId": "gid://shopify/ProductVariant/62572700926339",
+   "product": "Gucci Bloom Eau de Toilette 10ml Miniature for Women",
+   "option": null,
+   "supplier_row": "gucci bloom (w) edt 10ml miniature",
+   "barcode": "3616304077029",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303189557635",
+   "variantId": "gid://shopify/ProductVariant/62572807618947",
+   "product": "Gucci Bloom Parfum 10ml Miniature Spray for Women",
+   "option": null,
+   "supplier_row": "gucci bloom (w) parfum 10ml miniature",
+   "barcode": "3616306115903",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303236546947",
+   "variantId": "gid://shopify/ProductVariant/62573045973379",
+   "product": "Gucci Bloom Profumo di Fiori Eau de Parfum 10ml Pen Spray for Women",
+   "option": null,
+   "supplier_row": "gucci bloom profumo di fiori (w) edp pen spray 10ml",
+   "barcode": "3616304077043",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303309291907",
+   "variantId": "gid://shopify/ProductVariant/62573569638787",
+   "product": "Gucci Flora Gorgeous Gardenia Eau de Parfum 50ml for Women",
+   "option": null,
+   "supplier_row": "gucci flora gorgeous gardenia (w) edp 50ml",
+   "barcode": "3616302022489",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303440363907",
+   "variantId": "gid://shopify/ProductVariant/62575320236419",
+   "product": "Gucci Flora Gorgeous Orchid Eau de Parfum 10ml Miniature for Women",
+   "option": null,
+   "supplier_row": "gucci flora gorgeous orchid (w) edp 10ml miniature",
+   "barcode": "3616305169297",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303462187395",
+   "variantId": "gid://shopify/ProductVariant/62575609872771",
+   "product": "Gucci Guilty Pour Femme Eau de Parfum 10ml Miniature Spray",
+   "option": null,
+   "supplier_row": "gucci guilty pour femme edp 10ml miniature",
+   "barcode": "3616304077081",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16303465922947",
+   "variantId": "gid://shopify/ProductVariant/62575618064771",
+   "product": "Gucci Guilty Pour Homme Eau de Toilette 90ml",
+   "option": null,
+   "supplier_row": "gucci guilty pour homme edt 90ml",
+   "barcode": "737052339047",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16273546150275",
+   "variantId": "gid://shopify/ProductVariant/62478726300035",
+   "product": "Tiziana Terenzi Gumin Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi gumin extrait de parfum 100ml",
+   "barcode": "8016741602559",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16274498945411",
+   "variantId": "gid://shopify/ProductVariant/62482946523523",
+   "product": "Tiziana Terenzi Kaff Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi kaff extrait de parfum 100ml",
+   "barcode": "8016741852510",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16274581029251",
+   "variantId": "gid://shopify/ProductVariant/62483329679747",
+   "product": "Tiziana Terenzi Kirke Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi kirke 100ml extrait de parfum 100ml",
+   "barcode": "8016741072482",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280044241283",
+   "variantId": "gid://shopify/ProductVariant/62510433206659",
+   "product": "Tiziana Terenzi Orion Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi orion extrait de parfum 100ml",
+   "barcode": "8016741092480",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16279916380547",
+   "variantId": "gid://shopify/ProductVariant/62510075740547",
+   "product": "Tiziana Terenzi Orza Extrait de Parfum Linea TT 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi linea tt orza extrait de parfum 100ml",
+   "barcode": "8016741432606",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280056529283",
+   "variantId": "gid://shopify/ProductVariant/62510491009411",
+   "product": "Tiziana Terenzi Porpora Extrait de Parfum 100ml Unisex (Luna Collection Red Moon)",
+   "option": null,
+   "supplier_row": "tiziana terenzi porpora luna red moon 100ml",
+   "barcode": "8016741152535",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280073404803",
+   "variantId": "gid://shopify/ProductVariant/62510545994115",
+   "product": "Tiziana Terenzi Saiph Extrait de Parfum 100ml Unisex (Luna Stars Gold)",
+   "option": null,
+   "supplier_row": "tiziana terenzi saiph moon star gold extrait 100ml ref#ttprof/sai",
+   "barcode": "8016741332517",
+   "before": []
+  },
+  {
+   "productId": "gid://shopify/Product/16280091394435",
+   "variantId": "gid://shopify/ProductVariant/62510684832131",
+   "product": "Tiziana Terenzi White Fire Extrait de Parfum 100ml Unisex",
+   "option": null,
+   "supplier_row": "tiziana terenzi white fire extrait de parfum 100ml",
+   "barcode": "8016741962202",
+   "before": []
+  }
+ ]
+}
